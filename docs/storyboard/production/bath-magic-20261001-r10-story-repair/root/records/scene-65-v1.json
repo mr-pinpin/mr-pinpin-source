@@ -1,0 +1,66 @@
+{
+  "tool": "image_gen__imagegen",
+  "generatedAt": "2026-10-01T20:02:25.254Z",
+  "sourceOutput": "/Users/miguel_lemos/.codex/generated_images/01a0be6f-b832-7d93-95df-9d2ff5f69dc1/exec-4af626fe-6ff2-42ff-a1b9-bf39f8c1c347.png",
+  "promptPath": "prompts/scene-65-v1.txt",
+  "references": [
+    "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r8-herculean/geometry/web/scene-65.webp",
+    "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r10-story-repair/root/masters/scene-57-v1.png",
+    "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r8-herculean/reused/web/scene-25.webp"
+  ],
+  "visualReview": "Native output inspected: near arm rests on stool from visible shoulder, far arm points naturally toward single duck; full cream chest and continuous quill mantle, rounded face, clear basin water, no extra arm/speech glyph. Selected candidate.",
+  "promptSha256": "690778312c671f7a7650df53cf762b34d6f9f9774f13b5d2905c920b04381141",
+  "master": {
+    "path": "masters/scene-65-v1.png",
+    "sha256": "c1776bd291f767fbacd7ed7b8db331800fff05fa01555b8b2671f6d3976ce4b1",
+    "bytes": 2519672
+  },
+  "referenceIdentities": [
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r8-herculean/geometry/web/scene-65.webp",
+      "sha256": "c8666f35059a2095d6035f78b38f6be7927b5edf2977e11d5ebfbcecfd1d37f4",
+      "bytes": 430684
+    },
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r10-story-repair/root/masters/scene-57-v1.png",
+      "sha256": "db75e9f5d16c29f7f2062127c560fcdef043bbe2874cac3eafd81ff614159545",
+      "bytes": 2529365
+    },
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r8-herculean/reused/web/scene-25.webp",
+      "sha256": "8882eb666f19d514bc673320922550ca0a774593e1ad14f63092485d386a57ca",
+      "bytes": 429260
+    }
+  ],
+  "preservedReferences": [
+    {
+      "path": "references/inputs/c8666f35059a/scene-65.webp",
+      "sha256": "c8666f35059a2095d6035f78b38f6be7927b5edf2977e11d5ebfbcecfd1d37f4"
+    },
+    {
+      "path": "references/inputs/db75e9f5d16c/scene-57-v1.png",
+      "sha256": "db75e9f5d16c29f7f2062127c560fcdef043bbe2874cac3eafd81ff614159545"
+    },
+    {
+      "path": "references/inputs/8882eb666f19/scene-25.webp",
+      "sha256": "8882eb666f19d514bc673320922550ca0a774593e1ad14f63092485d386a57ca"
+    }
+  ],
+  "reviewStatus": "illustration candidate; awaiting user feedback",
+  "web": {
+    "path": "web/scene-65.webp",
+    "sha256": "87559bd94fc21df2324055720fb5840e15d31f8e31d992a005a287e5fe598036",
+    "bytes": 416864
+  },
+  "dimensions": [
+    1536,
+    1024
+  ],
+  "conversion": {
+    "format": "WebP",
+    "quality": 94,
+    "method": 6,
+    "resized": false,
+    "artEdited": false
+  }
+}

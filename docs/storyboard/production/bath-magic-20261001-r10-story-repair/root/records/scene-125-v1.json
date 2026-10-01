@@ -1,0 +1,56 @@
+{
+  "tool": "image_gen__imagegen",
+  "generatedAt": "2026-10-01T20:26:13.949Z",
+  "sourceOutput": "/Users/miguel_lemos/.codex/generated_images/01a0be6f-b832-7d93-95df-9d2ff5f69dc1/exec-90019b7c-9cac-47d4-ae56-1d73c2658dfb.png",
+  "promptPath": "prompts/scene-125-v1.txt",
+  "references": [
+    "/Users/miguel_lemos/.codex/generated_images/01a0be6f-b832-7d93-95df-9d2ff5f69dc1/exec-1b3c3f3b-d972-4d9e-92d9-abf9db48c0cc.png",
+    "/Volumes/TB4/mac-mini-storage/shared/pinpin-workspace/mr-pinpin-source/docs/storyboard/images/chapter-01-landscapes/shot-09.png"
+  ],
+  "visualReview": "Viewed: count2large+9small in water plus1small at child's paws=12. Empty basin, adult Papa and Mama holding baby, natural release action. Select.",
+  "promptSha256": "c7da505d2ba505a2e23891d7a58020cdb2d9bd2ef5eef0ae74c4198fd4040481",
+  "master": {
+    "path": "masters/scene-125-v1.png",
+    "sha256": "4675cd798b4529f2d997507a96b8ad9512e75c99fd656645c7c51b32ade75895",
+    "bytes": 2875915
+  },
+  "referenceIdentities": [
+    {
+      "path": "/Users/miguel_lemos/.codex/generated_images/01a0be6f-b832-7d93-95df-9d2ff5f69dc1/exec-1b3c3f3b-d972-4d9e-92d9-abf9db48c0cc.png",
+      "sha256": "d87edd74f7ea0cc41308b5ccf4868cb1563d32cbff195d58347f94ba47d56249",
+      "bytes": 2908365
+    },
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-workspace/mr-pinpin-source/docs/storyboard/images/chapter-01-landscapes/shot-09.png",
+      "sha256": "2e6779fc7809a152751167fd46e975f615fe4bdc963d968a9ce19ec9182d8fce",
+      "bytes": 2963460
+    }
+  ],
+  "preservedReferences": [
+    {
+      "path": "references/inputs/d87edd74f7ea/exec-1b3c3f3b-d972-4d9e-92d9-abf9db48c0cc.png",
+      "sha256": "d87edd74f7ea0cc41308b5ccf4868cb1563d32cbff195d58347f94ba47d56249"
+    },
+    {
+      "path": "references/inputs/2e6779fc7809/shot-09.png",
+      "sha256": "2e6779fc7809a152751167fd46e975f615fe4bdc963d968a9ce19ec9182d8fce"
+    }
+  ],
+  "reviewStatus": "illustration candidate; awaiting user feedback",
+  "web": {
+    "path": "web/scene-125.webp",
+    "sha256": "0bb95be8c9d7212410a485addb63871ea1479f152691d0b84c1abcf02f943bf7",
+    "bytes": 546784
+  },
+  "dimensions": [
+    1536,
+    1024
+  ],
+  "conversion": {
+    "format": "WebP",
+    "quality": 94,
+    "method": 6,
+    "resized": false,
+    "artEdited": false
+  }
+}

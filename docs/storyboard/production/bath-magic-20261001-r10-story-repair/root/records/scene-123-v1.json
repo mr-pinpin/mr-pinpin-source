@@ -1,0 +1,56 @@
+{
+  "tool": "image_gen__imagegen",
+  "generatedAt": "2026-10-01T20:23:38.984Z",
+  "sourceOutput": "/Users/miguel_lemos/.codex/generated_images/01a0be6f-b832-7d93-95df-9d2ff5f69dc1/exec-0396146c-d882-4fb8-ad3d-a35aab9f106e.png",
+  "promptPath": "prompts/scene-123-v1.txt",
+  "references": [
+    "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r10-story-repair/root/masters/scene-121-v1.png",
+    "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r10-story-repair/geometry/preproduction/giant-plant-lineup-v1.png"
+  ],
+  "visualReview": "Viewed full-size quiet bath, Papa visibly adult and carrying detached trough with both paws; child carries two supports, Mama holds baby in doorway, stacked sections show physical removal. Select.",
+  "promptSha256": "f1ec35332fa82c002a30626d63661460e5d853951416be86cd101a0db6b73523",
+  "master": {
+    "path": "masters/scene-123-v1.png",
+    "sha256": "f854bf84c43108768a6c29d57773d01f305a1ab88ead494c89f57d64ca5994aa",
+    "bytes": 2528460
+  },
+  "referenceIdentities": [
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r10-story-repair/root/masters/scene-121-v1.png",
+      "sha256": "eb35d518f7813c419a306408b7022cf9eb03d97b9eb43dde1d88956bb0516c3f",
+      "bytes": 2414597
+    },
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r10-story-repair/geometry/preproduction/giant-plant-lineup-v1.png",
+      "sha256": "1f1f4b2ff527c975727a214382585882a126689c5d13075125c9264b993fb7ce",
+      "bytes": 2231755
+    }
+  ],
+  "preservedReferences": [
+    {
+      "path": "references/inputs/eb35d518f781/scene-121-v1.png",
+      "sha256": "eb35d518f7813c419a306408b7022cf9eb03d97b9eb43dde1d88956bb0516c3f"
+    },
+    {
+      "path": "references/inputs/1f1f4b2ff527/giant-plant-lineup-v1.png",
+      "sha256": "1f1f4b2ff527c975727a214382585882a126689c5d13075125c9264b993fb7ce"
+    }
+  ],
+  "reviewStatus": "illustration candidate; awaiting user feedback",
+  "web": {
+    "path": "web/scene-123.webp",
+    "sha256": "29986294d272465fd1bfd6f237df31e535150828fed35cc357ad579ae1a7fb34",
+    "bytes": 455074
+  },
+  "dimensions": [
+    1536,
+    1024
+  ],
+  "conversion": {
+    "format": "WebP",
+    "quality": 94,
+    "method": 6,
+    "resized": false,
+    "artEdited": false
+  }
+}

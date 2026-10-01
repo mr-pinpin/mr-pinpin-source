@@ -1,0 +1,43 @@
+{
+  "tool": "image_gen__imagegen",
+  "generatedAt": "2026-10-01T20:11:07.977Z",
+  "sourceOutput": "/Users/miguel_lemos/.codex/generated_images/01a0f5c0-64db-7310-817a-d73d15314908/exec-40bac4a0-aa93-448e-8e57-5770b8d35acb.png",
+  "promptPath": "prompts/scene-62a-v1.txt",
+  "references": [
+    "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r8-herculean/reused/masters/scene-35/scene-35-v1.png",
+    "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r8-herculean/geometry/masters/scene-62-v1.png"
+  ],
+  "visualReview": {
+    "status": "needs-revision",
+    "notes": "Duck faces downstream across supported joint, but removing characters invented a rectangular exterior window at upper-left. Preserve trial; narrow background correction needed."
+  },
+  "promptSha256": "e7bd935ca2aebacd4f56ab9c910bb888d509bd1dd323d1e90f2db10808affed8",
+  "master": {
+    "path": "masters/scene-62a-v1.png",
+    "sha256": "93138340721369f1dab18d873886ad95c49918d98aad51278e02f7dbc6fb1932",
+    "bytes": 2066377
+  },
+  "referenceIdentities": [
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r8-herculean/reused/masters/scene-35/scene-35-v1.png",
+      "sha256": "816e4930aac5594ea25cef0edebc704eefc4d296d42b0ff798bbd43f59def8d3",
+      "bytes": 2444736
+    },
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r8-herculean/geometry/masters/scene-62-v1.png",
+      "sha256": "a1b1492daa0dc86106855537fcb55e0f5e47f6b5b69717e478675ba938e4e9d6",
+      "bytes": 2345803
+    }
+  ],
+  "preservedReferences": [
+    {
+      "path": "references/inputs/816e4930aac5/scene-35-v1.png",
+      "sha256": "816e4930aac5594ea25cef0edebc704eefc4d296d42b0ff798bbd43f59def8d3"
+    },
+    {
+      "path": "references/inputs/a1b1492daa0d/scene-62-v1.png",
+      "sha256": "a1b1492daa0dc86106855537fcb55e0f5e47f6b5b69717e478675ba938e4e9d6"
+    }
+  ],
+  "reviewStatus": "illustration candidate; awaiting user feedback"
+}

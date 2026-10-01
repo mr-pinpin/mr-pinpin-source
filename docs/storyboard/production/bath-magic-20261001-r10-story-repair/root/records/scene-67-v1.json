@@ -1,0 +1,66 @@
+{
+  "tool": "image_gen__imagegen",
+  "generatedAt": "2026-10-01T20:05:34.014Z",
+  "sourceOutput": "/Users/miguel_lemos/.codex/generated_images/01a0be6f-b832-7d93-95df-9d2ff5f69dc1/exec-92b0905f-279e-41b6-9767-609cbe2a75a1.png",
+  "promptPath": "prompts/scene-67-v1.txt",
+  "references": [
+    "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r8-herculean/geometry/web/scene-67.webp",
+    "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r10-story-repair/root/masters/scene-61-v1.png",
+    "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r10-story-repair/geometry/preproduction/giant-plant-lineup-v1.png"
+  ],
+  "visualReview": "Viewed native output: full adult Papa chest/proportions. Counted exactly12 ducks:2 large in back and10 small separate heads in basin. Two plausible paws, stable bowl/stool, no concealed additional duck. Selected.",
+  "promptSha256": "f7ffe17dd4b6cf521a52eca27c7e69eadec54a730b92b5857a53174f4e419710",
+  "master": {
+    "path": "masters/scene-67-v1.png",
+    "sha256": "39740be682c0b7beed14dbc69624b07f279c5fbd2159b269cab6a878e56de51f",
+    "bytes": 2490778
+  },
+  "referenceIdentities": [
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r8-herculean/geometry/web/scene-67.webp",
+      "sha256": "5ef463defd2db6f5193f66599842ea55b8325903d6ba711fea0c627834d7aaed",
+      "bytes": 381710
+    },
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r10-story-repair/root/masters/scene-61-v1.png",
+      "sha256": "9a9d067e92fd32cfd59c24f5a733711d522a42acb610f0c00891aa4e07b07314",
+      "bytes": 2407571
+    },
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r10-story-repair/geometry/preproduction/giant-plant-lineup-v1.png",
+      "sha256": "1f1f4b2ff527c975727a214382585882a126689c5d13075125c9264b993fb7ce",
+      "bytes": 2231755
+    }
+  ],
+  "preservedReferences": [
+    {
+      "path": "references/inputs/5ef463defd2d/scene-67.webp",
+      "sha256": "5ef463defd2db6f5193f66599842ea55b8325903d6ba711fea0c627834d7aaed"
+    },
+    {
+      "path": "references/inputs/9a9d067e92fd/scene-61-v1.png",
+      "sha256": "9a9d067e92fd32cfd59c24f5a733711d522a42acb610f0c00891aa4e07b07314"
+    },
+    {
+      "path": "references/inputs/1f1f4b2ff527/giant-plant-lineup-v1.png",
+      "sha256": "1f1f4b2ff527c975727a214382585882a126689c5d13075125c9264b993fb7ce"
+    }
+  ],
+  "reviewStatus": "illustration candidate; awaiting user feedback",
+  "web": {
+    "path": "web/scene-67.webp",
+    "sha256": "f91ff8992414a534b1e9f3b2e5a96e220e6152f04a006d7a102e66f8449fe07f",
+    "bytes": 415462
+  },
+  "dimensions": [
+    1536,
+    1024
+  ],
+  "conversion": {
+    "format": "WebP",
+    "quality": 94,
+    "method": 6,
+    "resized": false,
+    "artEdited": false
+  }
+}

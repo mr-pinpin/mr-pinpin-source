@@ -1,0 +1,66 @@
+{
+  "tool": "image_gen__imagegen",
+  "generatedAt": "2026-10-01T20:09:40.195Z",
+  "sourceOutput": "/Users/miguel_lemos/.codex/generated_images/01a0be6f-b832-7d93-95df-9d2ff5f69dc1/exec-7db2f09b-e8a7-4796-9051-9182507d173a.png",
+  "promptPath": "prompts/scene-87-v1.txt",
+  "references": [
+    "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r10-story-repair/root/masters/scene-57-v1.png",
+    "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r8-herculean/reused/web/scene-36.webp",
+    "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r10-story-repair/geometry/preproduction/giant-plant-lineup-v1.png"
+  ],
+  "visualReview": "Viewed native output: thoughtful child standing outside fullsize bath, continuous quill body, chin/resting hands, visible source/golden ring and collector draining into connected floor aqueduct. Room/doorway established. Selected.",
+  "promptSha256": "5a320677a3de32873359d298521372b775e8086a54e07082e7eeb6497ad861bb",
+  "master": {
+    "path": "masters/scene-87-v1.png",
+    "sha256": "fb4985ae2ce4fe7171d8247cc2ef957d8a96d4f552dae4574837b7c094206c32",
+    "bytes": 2329744
+  },
+  "referenceIdentities": [
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r10-story-repair/root/masters/scene-57-v1.png",
+      "sha256": "db75e9f5d16c29f7f2062127c560fcdef043bbe2874cac3eafd81ff614159545",
+      "bytes": 2529365
+    },
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r8-herculean/reused/web/scene-36.webp",
+      "sha256": "3514dd69f82191d94de6b4602cca2535b4a14af538b9dbd28791d12d0b092068",
+      "bytes": 451164
+    },
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r10-story-repair/geometry/preproduction/giant-plant-lineup-v1.png",
+      "sha256": "1f1f4b2ff527c975727a214382585882a126689c5d13075125c9264b993fb7ce",
+      "bytes": 2231755
+    }
+  ],
+  "preservedReferences": [
+    {
+      "path": "references/inputs/db75e9f5d16c/scene-57-v1.png",
+      "sha256": "db75e9f5d16c29f7f2062127c560fcdef043bbe2874cac3eafd81ff614159545"
+    },
+    {
+      "path": "references/inputs/3514dd69f821/scene-36.webp",
+      "sha256": "3514dd69f82191d94de6b4602cca2535b4a14af538b9dbd28791d12d0b092068"
+    },
+    {
+      "path": "references/inputs/1f1f4b2ff527/giant-plant-lineup-v1.png",
+      "sha256": "1f1f4b2ff527c975727a214382585882a126689c5d13075125c9264b993fb7ce"
+    }
+  ],
+  "reviewStatus": "illustration candidate; awaiting user feedback",
+  "web": {
+    "path": "web/scene-87.webp",
+    "sha256": "a32c2ffc8660daf2d2f2fa96b48d37aaeed84e80f1a88e35398796b15ecc0fa0",
+    "bytes": 398346
+  },
+  "dimensions": [
+    1536,
+    1024
+  ],
+  "conversion": {
+    "format": "WebP",
+    "quality": 94,
+    "method": 6,
+    "resized": false,
+    "artEdited": false
+  }
+}

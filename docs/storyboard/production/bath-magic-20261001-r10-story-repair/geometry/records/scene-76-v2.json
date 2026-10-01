@@ -1,0 +1,46 @@
+{
+  "tool": "image_gen__imagegen",
+  "sourceOutput": "/Users/miguel_lemos/.codex/generated_images/01a0f5c3-a7d1-70d0-b8cf-581aa5deee53/exec-0159dcfc-8a28-4f48-a817-09b8286fe127.png",
+  "generatedAt": "2026-10-01T20:22:03.911838+00:00",
+  "promptPath": "prompts/scene-76-v2.txt",
+  "references": [
+    "/Users/miguel_lemos/.codex/generated_images/01a0f5c3-a7d1-70d0-b8cf-581aa5deee53/exec-7e742541-656a-4613-9c25-e32a4a39a057.png"
+  ],
+  "visualReview": "Inspected full native output: Papa and PinPin both support pot; adult scale retained, Mama holds infant. Channel now continues through open doorway.",
+  "promptSha256": "26136cbb12ba2ee29cb17de33ed7e01b0f4928dd7e344a54cb4746e4ca123ac6",
+  "master": {
+    "path": "masters/scene-76-v2.png",
+    "sha256": "81976d99906c0dba3718d12a55781ea4e46c086cd6e04e68010bde290a0a8616",
+    "bytes": 2282702
+  },
+  "referenceIdentities": [
+    {
+      "path": "/Users/miguel_lemos/.codex/generated_images/01a0f5c3-a7d1-70d0-b8cf-581aa5deee53/exec-7e742541-656a-4613-9c25-e32a4a39a057.png",
+      "sha256": "84ee937a99197a48053c52f534aaadbf621f4a889874045d739d53706118e5ab",
+      "bytes": 2435327
+    }
+  ],
+  "preservedReferences": [
+    {
+      "path": "references/inputs/84ee937a9919/exec-7e742541-656a-4613-9c25-e32a4a39a057.png",
+      "sha256": "84ee937a99197a48053c52f534aaadbf621f4a889874045d739d53706118e5ab"
+    }
+  ],
+  "reviewStatus": "illustration candidate; awaiting user feedback",
+  "web": {
+    "path": "web/scene-76.webp",
+    "sha256": "e674273d10c1d4dae0831cb2529b973c220acc5682e9dccb01fbbf59bdf68ae8",
+    "bytes": 391516
+  },
+  "dimensions": [
+    1536,
+    1024
+  ],
+  "conversion": {
+    "format": "WebP",
+    "quality": 94,
+    "method": 6,
+    "resized": false,
+    "artEdited": false
+  }
+}

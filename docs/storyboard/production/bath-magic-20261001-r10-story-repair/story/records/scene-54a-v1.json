@@ -1,0 +1,49 @@
+{
+  "tool": "image_gen__imagegen",
+  "generatedAt": "2026-10-01T20:02:02.265Z",
+  "sourceOutput": "/Users/miguel_lemos/.codex/generated_images/01a0f5c0-64db-7310-817a-d73d15314908/exec-fe7027ac-3caa-430a-bc4d-6f5e70cf31ea.png",
+  "promptPath": "prompts/scene-54a-v1.txt",
+  "references": [
+    "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r8-herculean/story/masters/scene-41-v1.png"
+  ],
+  "visualReview": {
+    "status": "passed-for-draft",
+    "notes": "All four share bed; older child listens with paw at ear, awake parents alert, infant sleeps naturally."
+  },
+  "promptSha256": "b5c98314cac5cbce14d33cfdbcf2198dddd689ec583059af172f020de1594e91",
+  "master": {
+    "path": "masters/scene-54a-v1.png",
+    "sha256": "1f1efddd5240d9c3729ce712ab00efbc28b18588251f42a6215fe984bab218e0",
+    "bytes": 2488160
+  },
+  "referenceIdentities": [
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r8-herculean/story/masters/scene-41-v1.png",
+      "sha256": "5058c531f9cc7bac710eb587aba8f99bc62d04416e463cab15e982a90185f4fe",
+      "bytes": 2479065
+    }
+  ],
+  "preservedReferences": [
+    {
+      "path": "references/inputs/5058c531f9cc/scene-41-v1.png",
+      "sha256": "5058c531f9cc7bac710eb587aba8f99bc62d04416e463cab15e982a90185f4fe"
+    }
+  ],
+  "reviewStatus": "illustration candidate; awaiting user feedback",
+  "web": {
+    "path": "web/scene-54a.webp",
+    "sha256": "995ae474e38cdb78503ba1b8b06980ba30873fe9ad6a795c0aa9314f3c0a5098",
+    "bytes": 402998
+  },
+  "dimensions": [
+    1536,
+    1024
+  ],
+  "conversion": {
+    "format": "WebP",
+    "quality": 94,
+    "method": 6,
+    "resized": false,
+    "artEdited": false
+  }
+}

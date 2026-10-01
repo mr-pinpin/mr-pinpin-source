@@ -1,0 +1,46 @@
+{
+  "tool": "image_gen__imagegen",
+  "sourceOutput": "/Users/miguel_lemos/.codex/generated_images/01a0f5c3-a7d1-70d0-b8cf-581aa5deee53/exec-c91a3e29-3ac0-4402-a457-07f7f5ee2950.png",
+  "generatedAt": "2026-10-01T20:09:40.718065+00:00",
+  "promptPath": "prompts/scene-73a-v2.txt",
+  "references": [
+    "/Users/miguel_lemos/.codex/generated_images/01a0f5c3-a7d1-70d0-b8cf-581aa5deee53/exec-bb3e60b4-5311-4a03-9605-72419fdbc4c1.png"
+  ],
+  "visualReview": "Passed: all four identities separate, mature plant remains big, shared physical work. Channel visible beside pot rather than beneath cloth; settled corner established for breakfast.",
+  "promptSha256": "301eb40a6e922e0a308d0b226c45b21826530ee0fa1008fc59ea9ea82a19adab",
+  "master": {
+    "path": "masters/scene-73a-v2.png",
+    "sha256": "677a091fc07c79074fb94aff18eb5a657d9164a22ede3e60e051bc87ba05f930",
+    "bytes": 2490361
+  },
+  "referenceIdentities": [
+    {
+      "path": "/Users/miguel_lemos/.codex/generated_images/01a0f5c3-a7d1-70d0-b8cf-581aa5deee53/exec-bb3e60b4-5311-4a03-9605-72419fdbc4c1.png",
+      "sha256": "9acd4c987bdc04cfdab57ff50f2313dec69d29475b32fcd6afcb7c5156ce2fff",
+      "bytes": 2533468
+    }
+  ],
+  "preservedReferences": [
+    {
+      "path": "references/inputs/9acd4c987bdc/exec-bb3e60b4-5311-4a03-9605-72419fdbc4c1.png",
+      "sha256": "9acd4c987bdc04cfdab57ff50f2313dec69d29475b32fcd6afcb7c5156ce2fff"
+    }
+  ],
+  "reviewStatus": "illustration candidate; awaiting user feedback",
+  "web": {
+    "path": "web/scene-73a.webp",
+    "sha256": "cd4e6d98bf525233b043302c0e3c589471d0e9482e948d653390d76a0e28768a",
+    "bytes": 460788
+  },
+  "dimensions": [
+    1536,
+    1024
+  ],
+  "conversion": {
+    "format": "WebP",
+    "quality": 94,
+    "method": 6,
+    "resized": false,
+    "artEdited": false
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "tool": "image_gen__imagegen",
+  "generatedAt": "2026-10-01T20:20:14.251Z",
+  "sourceOutput": "/Users/miguel_lemos/.codex/generated_images/01a0f5c0-64db-7310-817a-d73d15314908/exec-efd14484-caca-49b4-8131-e89fac9697e7.png",
+  "promptPath": "prompts/scene-68-v4.txt",
+  "references": [
+    "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r10-story-repair/story/masters/scene-68-v3.png"
+  ],
+  "visualReview": {
+    "status": "passed-for-draft",
+    "notes": "Counted exactly twelve: leading adult; ten smaller heads centered approximately750,800,830,861,898,938,980,1035,1093,1164 across the diagonal; trailing adult. All face downstream. No hidden or bucket duck."
+  },
+  "promptSha256": "3a9f54c1f60de6ea504f1c88f1b331f5f1775a8dc9ab42a5b1ad4d30599f0186",
+  "master": {
+    "path": "masters/scene-68-v4.png",
+    "sha256": "4bb342a483011e1cbae914346449776e19f9595e761c9bf23eaa95419a6d78cf",
+    "bytes": 2220845
+  },
+  "referenceIdentities": [
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r10-story-repair/story/masters/scene-68-v3.png",
+      "sha256": "1a8df4175e41d85653ee7997d2ecb3da11e91f298ebf3257531d577aca4e4d58",
+      "bytes": 2280313
+    }
+  ],
+  "preservedReferences": [
+    {
+      "path": "references/inputs/1a8df4175e41/scene-68-v3.png",
+      "sha256": "1a8df4175e41d85653ee7997d2ecb3da11e91f298ebf3257531d577aca4e4d58"
+    }
+  ],
+  "reviewStatus": "illustration candidate; awaiting user feedback",
+  "web": {
+    "path": "web/scene-68.webp",
+    "sha256": "f687ba52f813808e4f2f7e7aa541eb80aaaefea7aab2fe70c4507d437fdfbf14",
+    "bytes": 366020
+  },
+  "dimensions": [
+    1536,
+    1024
+  ],
+  "conversion": {
+    "format": "WebP",
+    "quality": 94,
+    "method": 6,
+    "resized": false,
+    "artEdited": false
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "tool": "image_gen__imagegen",
+  "generatedAt": "2026-10-01T19:56:37.644Z",
+  "sourceOutput": "/Users/miguel_lemos/.codex/generated_images/01a0be6f-b832-7d93-95df-9d2ff5f69dc1/exec-63897a51-34da-4f97-a789-73c90664c6d2.png",
+  "promptPath": "prompts/scene-57-v1.txt",
+  "references": [
+    "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r8-herculean/geometry/web/scene-57.webp",
+    "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r8-herculean/reused/web/scene-25.webp",
+    "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r8-herculean/reused/web/scene-36.webp"
+  ],
+  "visualReview": "Viewed native output: rotated torso exposes two continuous anatomically plausible arm chains; round dimensional cheeks/muzzle and brown irises restored. One paw points at circle, other rests rim; original bath/window/towels/duck/petals preserved. Aqueduct outside close crop. Selected draft.",
+  "promptSha256": "b9d441df300027bbba3e2c7b46aa6fadf1f26c1581a949857145dfbd839c04b4",
+  "master": {
+    "path": "masters/scene-57-v1.png",
+    "sha256": "db75e9f5d16c29f7f2062127c560fcdef043bbe2874cac3eafd81ff614159545",
+    "bytes": 2529365
+  },
+  "referenceIdentities": [
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r8-herculean/geometry/web/scene-57.webp",
+      "sha256": "94efc3db18c46ace69a77a22da2f715b93940895badd67592c1819c236bd9f9c",
+      "bytes": 411846
+    },
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r8-herculean/reused/web/scene-25.webp",
+      "sha256": "8882eb666f19d514bc673320922550ca0a774593e1ad14f63092485d386a57ca",
+      "bytes": 429260
+    },
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r8-herculean/reused/web/scene-36.webp",
+      "sha256": "3514dd69f82191d94de6b4602cca2535b4a14af538b9dbd28791d12d0b092068",
+      "bytes": 451164
+    }
+  ],
+  "preservedReferences": [
+    {
+      "path": "references/inputs/94efc3db18c4/scene-57.webp",
+      "sha256": "94efc3db18c46ace69a77a22da2f715b93940895badd67592c1819c236bd9f9c"
+    },
+    {
+      "path": "references/inputs/8882eb666f19/scene-25.webp",
+      "sha256": "8882eb666f19d514bc673320922550ca0a774593e1ad14f63092485d386a57ca"
+    },
+    {
+      "path": "references/inputs/3514dd69f821/scene-36.webp",
+      "sha256": "3514dd69f82191d94de6b4602cca2535b4a14af538b9dbd28791d12d0b092068"
+    }
+  ],
+  "reviewStatus": "illustration candidate; awaiting user feedback",
+  "web": {
+    "path": "web/scene-57.webp",
+    "sha256": "cbc78b79f40cacb4a40ce66c146d455bb4a19072ca52d13f204552daea19128b",
+    "bytes": 423790
+  },
+  "dimensions": [
+    1536,
+    1024
+  ],
+  "conversion": {
+    "format": "WebP",
+    "quality": 94,
+    "method": 6,
+    "resized": false,
+    "artEdited": false
+  }
+}

@@ -1,0 +1,39 @@
+R10 WORKFLOW — IN PRODUCTION, UNPUBLISHED
+
+Independent art lanes: root/,story/,geometry/.
+Run on mini:
+ .venv/bin/python accept-lane-asset.py --lane story --id scene-19a --record records/scene-19a-v1.json
+
+Record fields: tool,sourceOutput,promptPath,references,visualReview.
+Exact native tool output, prompt and input snapshots are preserved. Native-size
+WebP derivatives use quality94/method6. --preserve-only retains a rejected
+candidate without selecting it. Lane manifests serialize separately; media
+consolidation has its own lock. Arbitrary stable scene IDs are supported.
+
+Chronological order is the story-plan scenes array, never lexicographic sceneID.
+number is current display sequence; feedbackLabel/sourceSceneNumber preserve
+the user's R9 references. Existing art can appear only with retainArt=true and
+explicit sourceProduction/sourceSceneId after the mapping is frozen.
+New/changed shots remain blank until selected native output exists.
+Unchanged R8 masters/WebPs are referenced, not copied or regenerated.
+
+The initial five comic sheets show retained art and visibly blank pending shots.
+Every panel keeps its caption and stable feedback label. The final five sheets
+replace blanks only with selected new art, then receive a new immutable master
+version and hash-busted WebP URLs. No illustration is retouched by the layout tool.
+
+Separate before/after review shows existing R8 art beside R10 proposals for
+changed existing IDs. Added IDs appear in their chronological context.
+The final full reader resolves existing and new images through explicit media
+sourceProduction fields. Prior R8 and R9 readers stay unchanged.
+
+AUDIO INSPECTION
+R9 review HTML, JavaScript and story-plan contain no audio element, Audio API,
+speechSynthesis call, narration URLs or audio-file references. This route is
+an illustrated text reader. No scene72 recording exists here to repair. A user
+clarification can identify another route or distinguish narration text from
+recorded audio. No audio is fabricated.
+
+All commands and heavy work run on the mini SSD. Source is the physical
+pinpin-workspace/mr-pinpin-source checkout. New derivative/native media receives
+a scoped archive; unchanged R8 media remains covered by its existing archive.

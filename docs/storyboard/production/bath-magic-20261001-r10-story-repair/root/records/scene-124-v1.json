@@ -1,0 +1,50 @@
+{
+  "tool": "image_gen__imagegen",
+  "generatedAt": "2026-10-01T20:27:54.368Z",
+  "sourceOutput": "/Users/miguel_lemos/.codex/generated_images/01a0be6f-b832-7d93-95df-9d2ff5f69dc1/exec-1b3c3f3b-d972-4d9e-92d9-abf9db48c0cc.png",
+  "promptPath": "prompts/scene-124-v1.txt",
+  "references": [
+    "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r10-story-repair/geometry/preproduction/giant-plant-lineup-v1.png",
+    "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r10-story-repair/root/masters/scene-67-v1.png",
+    "/Volumes/TB4/mac-mini-storage/shared/pinpin-workspace/mr-pinpin-source/docs/storyboard/images/chapter-01-direct/08.png"
+  ],
+  "visualReview": "Rejected exact duckcount: image has2large+9small=11. Family pose/environment good. Story lane owns narrow count correction; original preserved as intermediate and input to124a/125/126.",
+  "promptSha256": "c48a87d9aa4e4985ab42b81be37709ca5b138852d2e88dac3f3b0b13ee5f0628",
+  "master": {
+    "path": "masters/scene-124-v1.png",
+    "sha256": "d87edd74f7ea0cc41308b5ccf4868cb1563d32cbff195d58347f94ba47d56249",
+    "bytes": 2908365
+  },
+  "referenceIdentities": [
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r10-story-repair/geometry/preproduction/giant-plant-lineup-v1.png",
+      "sha256": "1f1f4b2ff527c975727a214382585882a126689c5d13075125c9264b993fb7ce",
+      "bytes": 2231755
+    },
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r10-story-repair/root/masters/scene-67-v1.png",
+      "sha256": "39740be682c0b7beed14dbc69624b07f279c5fbd2159b269cab6a878e56de51f",
+      "bytes": 2490778
+    },
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-workspace/mr-pinpin-source/docs/storyboard/images/chapter-01-direct/08.png",
+      "sha256": "04fb1f25083db7f968fcf17087d2eed5d8b89f152c96bd412a07986553ca437e",
+      "bytes": 2929021
+    }
+  ],
+  "preservedReferences": [
+    {
+      "path": "references/inputs/1f1f4b2ff527/giant-plant-lineup-v1.png",
+      "sha256": "1f1f4b2ff527c975727a214382585882a126689c5d13075125c9264b993fb7ce"
+    },
+    {
+      "path": "references/inputs/39740be682c0/scene-67-v1.png",
+      "sha256": "39740be682c0b7beed14dbc69624b07f279c5fbd2159b269cab6a878e56de51f"
+    },
+    {
+      "path": "references/inputs/04fb1f25083d/08.png",
+      "sha256": "04fb1f25083db7f968fcf17087d2eed5d8b89f152c96bd412a07986553ca437e"
+    }
+  ],
+  "reviewStatus": "illustration candidate; awaiting user feedback"
+}

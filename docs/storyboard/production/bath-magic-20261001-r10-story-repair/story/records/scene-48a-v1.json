@@ -1,0 +1,59 @@
+{
+  "tool": "image_gen__imagegen",
+  "generatedAt": "2026-10-01T20:02:02.265Z",
+  "sourceOutput": "/Users/miguel_lemos/.codex/generated_images/01a0f5c0-64db-7310-817a-d73d15314908/exec-596ee2ff-1e74-4e4a-bd07-3d4afa76a4ec.png",
+  "promptPath": "prompts/scene-48a-v1.txt",
+  "references": [
+    "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r8-herculean/reused/masters/scene-48/scene-51-v1.png",
+    "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r8-herculean/reused/masters/scene-20/scene-20-v1.png"
+  ],
+  "visualReview": {
+    "status": "passed-for-draft",
+    "notes": "Four distinct family members inspect the same flower blockage. Papa securely holds infant, adults remain larger than child, no walking baby."
+  },
+  "promptSha256": "b04a447ef6e5e96acc57ee60ff46427fc2d95c50c1a5263350fd81d052ecb13f",
+  "master": {
+    "path": "masters/scene-48a-v1.png",
+    "sha256": "02df461b230e30c6d20eeb0e5e205496863728427daa6826ae29efface9fa881",
+    "bytes": 2381266
+  },
+  "referenceIdentities": [
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r8-herculean/reused/masters/scene-48/scene-51-v1.png",
+      "sha256": "c9d562c569e4aef11052b92948aef5f8a8a80e82f5845d0b365c0f70ebb77492",
+      "bytes": 2116924
+    },
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r8-herculean/reused/masters/scene-20/scene-20-v1.png",
+      "sha256": "4fe5be0a61ba76dbde27699b3df5dcb42996d5bf187dd3be4b239ec6983aa9a7",
+      "bytes": 2636607
+    }
+  ],
+  "preservedReferences": [
+    {
+      "path": "references/inputs/c9d562c569e4/scene-51-v1.png",
+      "sha256": "c9d562c569e4aef11052b92948aef5f8a8a80e82f5845d0b365c0f70ebb77492"
+    },
+    {
+      "path": "references/inputs/4fe5be0a61ba/scene-20-v1.png",
+      "sha256": "4fe5be0a61ba76dbde27699b3df5dcb42996d5bf187dd3be4b239ec6983aa9a7"
+    }
+  ],
+  "reviewStatus": "illustration candidate; awaiting user feedback",
+  "web": {
+    "path": "web/scene-48a.webp",
+    "sha256": "229b3742ae33b23f8c20bde3917a77b10fe5eac7d245dc2ff9173493f8151443",
+    "bytes": 411070
+  },
+  "dimensions": [
+    1536,
+    1024
+  ],
+  "conversion": {
+    "format": "WebP",
+    "quality": 94,
+    "method": 6,
+    "resized": false,
+    "artEdited": false
+  }
+}

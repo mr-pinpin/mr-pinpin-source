@@ -1,0 +1,67 @@
+{
+  "tool": "image_gen__imagegen",
+  "generatedAt": "2026-10-01T19:54:45.480Z",
+  "sourceOutput": "/Users/miguel_lemos/.codex/generated_images/01a0be6f-b832-7d93-95df-9d2ff5f69dc1/exec-56bf6098-f0d1-4668-9883-d1ef5e1285f7.png",
+  "promptPath": "prompts/scene-09-v1.txt",
+  "references": [
+    "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r8-herculean/reused/web/scene-09.webp",
+    "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r8-herculean/geometry/web/scene-57.webp",
+    "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r8-herculean/root/web/title.webp"
+  ],
+  "visualReview": "Viewed native output: continuous broad quill mantle now extends to visible lower back/hip, cream belly remains smooth, face/pose/room/shallow bath/two buckets preserved. Selected correction candidate for user review.",
+  "intent": "Correct PinPin's incomplete quill mantle in original R9 image9.",
+  "promptSha256": "56c7b521d29bafea1745042132b2b421e88b7b71b6d8ecabfcb0f943b3cbcfa3",
+  "master": {
+    "path": "masters/scene-09-v1.png",
+    "sha256": "3e0f907a1547f2d7041b85bec587b673b7c3b070865be91689f7c4c9dec32b4e",
+    "bytes": 2292760
+  },
+  "referenceIdentities": [
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r8-herculean/reused/web/scene-09.webp",
+      "sha256": "3cb031ee9e469783f81d45a737010676723c5a5e6a7c7598ce01acc38c1b92aa",
+      "bytes": 354336
+    },
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r8-herculean/geometry/web/scene-57.webp",
+      "sha256": "94efc3db18c46ace69a77a22da2f715b93940895badd67592c1819c236bd9f9c",
+      "bytes": 411846
+    },
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r8-herculean/root/web/title.webp",
+      "sha256": "bef832f38a4fd690e647417fa6d26f1e2824c0ac5131f35ca724a2a8b0612842",
+      "bytes": 437708
+    }
+  ],
+  "preservedReferences": [
+    {
+      "path": "references/inputs/3cb031ee9e46/scene-09.webp",
+      "sha256": "3cb031ee9e469783f81d45a737010676723c5a5e6a7c7598ce01acc38c1b92aa"
+    },
+    {
+      "path": "references/inputs/94efc3db18c4/scene-57.webp",
+      "sha256": "94efc3db18c46ace69a77a22da2f715b93940895badd67592c1819c236bd9f9c"
+    },
+    {
+      "path": "references/inputs/bef832f38a4f/title.webp",
+      "sha256": "bef832f38a4fd690e647417fa6d26f1e2824c0ac5131f35ca724a2a8b0612842"
+    }
+  ],
+  "reviewStatus": "illustration candidate; awaiting user feedback",
+  "web": {
+    "path": "web/scene-09.webp",
+    "sha256": "7990a7c79714610071e459be26d9c6f1aafe8040bb7638540c89e88aa8f8ff93",
+    "bytes": 365366
+  },
+  "dimensions": [
+    1536,
+    1024
+  ],
+  "conversion": {
+    "format": "WebP",
+    "quality": 94,
+    "method": 6,
+    "resized": false,
+    "artEdited": false
+  }
+}

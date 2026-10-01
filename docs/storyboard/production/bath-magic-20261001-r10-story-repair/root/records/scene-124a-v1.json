@@ -1,0 +1,56 @@
+{
+  "tool": "image_gen__imagegen",
+  "generatedAt": "2026-10-01T20:26:13.194Z",
+  "sourceOutput": "/Users/miguel_lemos/.codex/generated_images/01a0be6f-b832-7d93-95df-9d2ff5f69dc1/exec-7c2fc3a4-10b2-43e0-8cfb-810f32ae0404.png",
+  "promptPath": "prompts/scene-124a-v1.txt",
+  "references": [
+    "/Users/miguel_lemos/.codex/generated_images/01a0be6f-b832-7d93-95df-9d2ff5f69dc1/exec-1b3c3f3b-d972-4d9e-92d9-abf9db48c0cc.png",
+    "/Volumes/TB4/mac-mini-storage/shared/pinpin-workspace/mr-pinpin-source/docs/storyboard/images/chapter-01-landscapes/shot-09.png"
+  ],
+  "visualReview": "Viewed: four family at lake shore, Papa adult carrying basin, Mama holds infant distinctly; rear view partially occludes basin/ducks. Same willow lake. Destination pause select.",
+  "promptSha256": "1cf5cc57ee888a9cdbd726fe632d44cb865f70d1b027a28a47f622bdc4e1812f",
+  "master": {
+    "path": "masters/scene-124a-v1.png",
+    "sha256": "d5cde37c43dfdd0d96c46fe13ca828c3c81143d2b061416f94b1d2d555916a51",
+    "bytes": 3067132
+  },
+  "referenceIdentities": [
+    {
+      "path": "/Users/miguel_lemos/.codex/generated_images/01a0be6f-b832-7d93-95df-9d2ff5f69dc1/exec-1b3c3f3b-d972-4d9e-92d9-abf9db48c0cc.png",
+      "sha256": "d87edd74f7ea0cc41308b5ccf4868cb1563d32cbff195d58347f94ba47d56249",
+      "bytes": 2908365
+    },
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-workspace/mr-pinpin-source/docs/storyboard/images/chapter-01-landscapes/shot-09.png",
+      "sha256": "2e6779fc7809a152751167fd46e975f615fe4bdc963d968a9ce19ec9182d8fce",
+      "bytes": 2963460
+    }
+  ],
+  "preservedReferences": [
+    {
+      "path": "references/inputs/d87edd74f7ea/exec-1b3c3f3b-d972-4d9e-92d9-abf9db48c0cc.png",
+      "sha256": "d87edd74f7ea0cc41308b5ccf4868cb1563d32cbff195d58347f94ba47d56249"
+    },
+    {
+      "path": "references/inputs/2e6779fc7809/shot-09.png",
+      "sha256": "2e6779fc7809a152751167fd46e975f615fe4bdc963d968a9ce19ec9182d8fce"
+    }
+  ],
+  "reviewStatus": "illustration candidate; awaiting user feedback",
+  "web": {
+    "path": "web/scene-124a.webp",
+    "sha256": "3df0653d0b8181cc64af28bbe1a149d67ed9d753cfbb6011c10885893351832e",
+    "bytes": 619266
+  },
+  "dimensions": [
+    1536,
+    1024
+  ],
+  "conversion": {
+    "format": "WebP",
+    "quality": 94,
+    "method": 6,
+    "resized": false,
+    "artEdited": false
+  }
+}

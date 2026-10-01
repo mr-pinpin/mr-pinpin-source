@@ -1,0 +1,1154 @@
+{
+  "productionId": "bath-magic-20261001-r10-story-repair",
+  "status": "113-scene illustrated repair draft complete; not published",
+  "counts": {
+    "storyImages": 113,
+    "cover": 1,
+    "newArtRequired": 45,
+    "retainedArt": 69
+  },
+  "removedSourceScenes": [
+    50,
+    51,
+    56,
+    88,
+    89,
+    90,
+    91,
+    92,
+    93,
+    94,
+    95,
+    96,
+    97,
+    98,
+    99,
+    100,
+    101,
+    102,
+    103,
+    104,
+    105,
+    106,
+    107,
+    108,
+    109,
+    110,
+    111,
+    112,
+    113
+  ],
+  "insertedIds": [
+    "scene-19a",
+    "scene-19b",
+    "scene-48a",
+    "scene-54a",
+    "scene-55a",
+    "scene-55b",
+    "scene-55c",
+    "scene-62a",
+    "scene-62b",
+    "scene-62c",
+    "scene-72a",
+    "scene-73a",
+    "scene-73b",
+    "scene-73c",
+    "scene-124a",
+    "scene-79a"
+  ],
+  "preserveExactly": [
+    "scene-45"
+  ],
+  "provisionalDecision": {
+    "bubbles": "Keep81–86 pending user's answer; remove raincloud and subsequent revoked complications regardless.",
+    "scene72Audio": "Parent is clarifying the user's audio wording; growth remains provisional within fixed layout."
+  },
+  "artJobs": {
+    "story": [
+      "scene-19a",
+      "scene-19b",
+      "scene-48a",
+      "scene-54a",
+      "scene-55a",
+      "scene-55b",
+      "scene-55c",
+      "scene-62",
+      "scene-62a",
+      "scene-62b",
+      "scene-62c",
+      "scene-68",
+      "scene-124"
+    ],
+    "root": [
+      "scene-09",
+      "scene-115",
+      "scene-116",
+      "scene-117",
+      "scene-118",
+      "scene-119",
+      "scene-120",
+      "scene-121",
+      "scene-123",
+      "scene-124a",
+      "scene-126",
+      "scene-57",
+      "scene-61",
+      "scene-65",
+      "scene-67",
+      "scene-81",
+      "scene-87"
+    ],
+    "geometry": [
+      "scene-71",
+      "scene-72a",
+      "scene-73",
+      "scene-73a",
+      "scene-73b",
+      "scene-73c",
+      "scene-74",
+      "scene-75",
+      "scene-76",
+      "scene-77",
+      "scene-78",
+      "scene-79",
+      "scene-72",
+      "scene-79a",
+      "scene-125"
+    ]
+  },
+  "mapping": [
+    {
+      "id": "scene-01",
+      "number": 1,
+      "sourceSceneNumber": 1,
+      "feedbackLabel": "R9 image 1",
+      "retainArt": true,
+      "sourceSceneId": "scene-01",
+      "owner": "retained"
+    },
+    {
+      "id": "scene-02",
+      "number": 2,
+      "sourceSceneNumber": 2,
+      "feedbackLabel": "R9 image 2",
+      "retainArt": true,
+      "sourceSceneId": "scene-02",
+      "owner": "retained"
+    },
+    {
+      "id": "scene-03",
+      "number": 3,
+      "sourceSceneNumber": 3,
+      "feedbackLabel": "R9 image 3",
+      "retainArt": true,
+      "sourceSceneId": "scene-03",
+      "owner": "retained"
+    },
+    {
+      "id": "scene-04",
+      "number": 4,
+      "sourceSceneNumber": 4,
+      "feedbackLabel": "R9 image 4",
+      "retainArt": true,
+      "sourceSceneId": "scene-04",
+      "owner": "retained"
+    },
+    {
+      "id": "scene-05",
+      "number": 5,
+      "sourceSceneNumber": 5,
+      "feedbackLabel": "R9 image 5",
+      "retainArt": true,
+      "sourceSceneId": "scene-05",
+      "owner": "retained"
+    },
+    {
+      "id": "scene-06",
+      "number": 6,
+      "sourceSceneNumber": 6,
+      "feedbackLabel": "R9 image 6",
+      "retainArt": true,
+      "sourceSceneId": "scene-06",
+      "owner": "retained"
+    },
+    {
+      "id": "scene-07",
+      "number": 7,
+      "sourceSceneNumber": 7,
+      "feedbackLabel": "R9 image 7",
+      "retainArt": true,
+      "sourceSceneId": "scene-07",
+      "owner": "retained"
+    },
+    {
+      "id": "scene-08",
+      "number": 8,
+      "sourceSceneNumber": 8,
+      "feedbackLabel": "R9 image 8",
+      "retainArt": true,
+      "sourceSceneId": "scene-08",
+      "owner": "retained"
+    },
+    {
+      "id": "scene-09",
+      "number": 9,
+      "sourceSceneNumber": 9,
+      "feedbackLabel": "R9 image 9",
+      "retainArt": false,
+      "sourceSceneId": "scene-09",
+      "owner": "root"
+    },
+    {
+      "id": "scene-10",
+      "number": 10,
+      "sourceSceneNumber": 10,
+      "feedbackLabel": "R9 image 10",
+      "retainArt": true,
+      "sourceSceneId": "scene-10",
+      "owner": "retained"
+    },
+    {
+      "id": "scene-11",
+      "number": 11,
+      "sourceSceneNumber": 11,
+      "feedbackLabel": "R9 image 11",
+      "retainArt": true,
+      "sourceSceneId": "scene-11",
+      "owner": "retained"
+    },
+    {
+      "id": "scene-12",
+      "number": 12,
+      "sourceSceneNumber": 12,
+      "feedbackLabel": "R9 image 12",
+      "retainArt": true,
+      "sourceSceneId": "scene-12",
+      "owner": "retained"
+    },
+    {
+      "id": "scene-13",
+      "number": 13,
+      "sourceSceneNumber": 13,
+      "feedbackLabel": "R9 image 13",
+      "retainArt": true,
+      "sourceSceneId": "scene-13",
+      "owner": "retained"
+    },
+    {
+      "id": "scene-14",
+      "number": 14,
+      "sourceSceneNumber": 14,
+      "feedbackLabel": "R9 image 14",
+      "retainArt": true,
+      "sourceSceneId": "scene-14",
+      "owner": "retained"
+    },
+    {
+      "id": "scene-15",
+      "number": 15,
+      "sourceSceneNumber": 15,
+      "feedbackLabel": "R9 image 15",
+      "retainArt": true,
+      "sourceSceneId": "scene-15",
+      "owner": "retained"
+    },
+    {
+      "id": "scene-16",
+      "number": 16,
+      "sourceSceneNumber": 16,
+      "feedbackLabel": "R9 image 16",
+      "retainArt": true,
+      "sourceSceneId": "scene-16",
+      "owner": "retained"
+    },
+    {
+      "id": "scene-17",
+      "number": 17,
+      "sourceSceneNumber": 17,
+      "feedbackLabel": "R9 image 17",
+      "retainArt": true,
+      "sourceSceneId": "scene-17",
+      "owner": "retained"
+    },
+    {
+      "id": "scene-18",
+      "number": 18,
+      "sourceSceneNumber": 18,
+      "feedbackLabel": "R9 image 18",
+      "retainArt": true,
+      "sourceSceneId": "scene-18",
+      "owner": "retained"
+    },
+    {
+      "id": "scene-19",
+      "number": 19,
+      "sourceSceneNumber": 19,
+      "feedbackLabel": "R9 image 19",
+      "retainArt": true,
+      "sourceSceneId": "scene-19",
+      "owner": "retained"
+    },
+    {
+      "id": "scene-19a",
+      "number": 20,
+      "sourceSceneNumber": null,
+      "feedbackLabel": "R9 19a",
+      "retainArt": false,
+      "sourceSceneId": null,
+      "owner": "story"
+    },
+    {
+      "id": "scene-19b",
+      "number": 21,
+      "sourceSceneNumber": null,
+      "feedbackLabel": "R9 19b",
+      "retainArt": false,
+      "sourceSceneId": null,
+      "owner": "story"
+    },
+    {
+      "id": "scene-20",
+      "number": 22,
+      "sourceSceneNumber": 20,
+      "feedbackLabel": "R9 image 20",
+      "retainArt": true,
+      "sourceSceneId": "scene-20",
+      "owner": "retained"
+    },
+    {
+      "id": "scene-21",
+      "number": 23,
+      "sourceSceneNumber": 21,
+      "feedbackLabel": "R9 image 21",
+      "retainArt": true,
+      "sourceSceneId": "scene-21",
+      "owner": "retained"
+    },
+    {
+      "id": "scene-22",
+      "number": 24,
+      "sourceSceneNumber": 22,
+      "feedbackLabel": "R9 image 22",
+      "retainArt": true,
+      "sourceSceneId": "scene-22",
+      "owner": "retained"
+    },
+    {
+      "id": "scene-23",
+      "number": 25,
+      "sourceSceneNumber": 23,
+      "feedbackLabel": "R9 image 23",
+      "retainArt": true,
+      "sourceSceneId": "scene-23",
+      "owner": "retained"
+    },
+    {
+      "id": "scene-24",
+      "number": 26,
+      "sourceSceneNumber": 24,
+      "feedbackLabel": "R9 image 24",
+      "retainArt": true,
+      "sourceSceneId": "scene-24",
+      "owner": "retained"
+    },
+    {
+      "id": "scene-25",
+      "number": 27,
+      "sourceSceneNumber": 25,
+      "feedbackLabel": "R9 image 25",
+      "retainArt": true,
+      "sourceSceneId": "scene-25",
+      "owner": "retained"
+    },
+    {
+      "id": "scene-26",
+      "number": 28,
+      "sourceSceneNumber": 26,
+      "feedbackLabel": "R9 image 26",
+      "retainArt": true,
+      "sourceSceneId": "scene-26",
+      "owner": "retained"
+    },
+    {
+      "id": "scene-27",
+      "number": 29,
+      "sourceSceneNumber": 27,
+      "feedbackLabel": "R9 image 27",
+      "retainArt": true,
+      "sourceSceneId": "scene-27",
+      "owner": "retained"
+    },
+    {
+      "id": "scene-28",
+      "number": 30,
+      "sourceSceneNumber": 28,
+      "feedbackLabel": "R9 image 28",
+      "retainArt": true,
+      "sourceSceneId": "scene-28",
+      "owner": "retained"
+    },
+    {
+      "id": "scene-29",
+      "number": 31,
+      "sourceSceneNumber": 29,
+      "feedbackLabel": "R9 image 29",
+      "retainArt": true,
+      "sourceSceneId": "scene-29",
+      "owner": "retained"
+    },
+    {
+      "id": "scene-30",
+      "number": 32,
+      "sourceSceneNumber": 30,
+      "feedbackLabel": "R9 image 30",
+      "retainArt": true,
+      "sourceSceneId": "scene-30",
+      "owner": "retained"
+    },
+    {
+      "id": "scene-31",
+      "number": 33,
+      "sourceSceneNumber": 31,
+      "feedbackLabel": "R9 image 31",
+      "retainArt": true,
+      "sourceSceneId": "scene-31",
+      "owner": "retained"
+    },
+    {
+      "id": "scene-32",
+      "number": 34,
+      "sourceSceneNumber": 32,
+      "feedbackLabel": "R9 image 32",
+      "retainArt": true,
+      "sourceSceneId": "scene-32",
+      "owner": "retained"
+    },
+    {
+      "id": "scene-33",
+      "number": 35,
+      "sourceSceneNumber": 33,
+      "feedbackLabel": "R9 image 33",
+      "retainArt": true,
+      "sourceSceneId": "scene-33",
+      "owner": "retained"
+    },
+    {
+      "id": "scene-34",
+      "number": 36,
+      "sourceSceneNumber": 34,
+      "feedbackLabel": "R9 image 34",
+      "retainArt": true,
+      "sourceSceneId": "scene-34",
+      "owner": "retained"
+    },
+    {
+      "id": "scene-35",
+      "number": 37,
+      "sourceSceneNumber": 35,
+      "feedbackLabel": "R9 image 35",
+      "retainArt": true,
+      "sourceSceneId": "scene-35",
+      "owner": "retained"
+    },
+    {
+      "id": "scene-36",
+      "number": 38,
+      "sourceSceneNumber": 36,
+      "feedbackLabel": "R9 image 36",
+      "retainArt": true,
+      "sourceSceneId": "scene-36",
+      "owner": "retained"
+    },
+    {
+      "id": "scene-37",
+      "number": 39,
+      "sourceSceneNumber": 37,
+      "feedbackLabel": "R9 image 37",
+      "retainArt": true,
+      "sourceSceneId": "scene-37",
+      "owner": "retained"
+    },
+    {
+      "id": "scene-38",
+      "number": 40,
+      "sourceSceneNumber": 38,
+      "feedbackLabel": "R9 image 38",
+      "retainArt": true,
+      "sourceSceneId": "scene-38",
+      "owner": "retained"
+    },
+    {
+      "id": "scene-39",
+      "number": 41,
+      "sourceSceneNumber": 39,
+      "feedbackLabel": "R9 image 39",
+      "retainArt": true,
+      "sourceSceneId": "scene-39",
+      "owner": "retained"
+    },
+    {
+      "id": "scene-40",
+      "number": 42,
+      "sourceSceneNumber": 40,
+      "feedbackLabel": "R9 image 40",
+      "retainArt": true,
+      "sourceSceneId": "scene-40",
+      "owner": "retained"
+    },
+    {
+      "id": "scene-41",
+      "number": 43,
+      "sourceSceneNumber": 41,
+      "feedbackLabel": "R9 image 41",
+      "retainArt": true,
+      "sourceSceneId": "scene-41",
+      "owner": "retained"
+    },
+    {
+      "id": "scene-42",
+      "number": 44,
+      "sourceSceneNumber": 42,
+      "feedbackLabel": "R9 image 42",
+      "retainArt": true,
+      "sourceSceneId": "scene-42",
+      "owner": "retained"
+    },
+    {
+      "id": "scene-43",
+      "number": 45,
+      "sourceSceneNumber": 43,
+      "feedbackLabel": "R9 image 43",
+      "retainArt": true,
+      "sourceSceneId": "scene-43",
+      "owner": "retained"
+    },
+    {
+      "id": "scene-44",
+      "number": 46,
+      "sourceSceneNumber": 44,
+      "feedbackLabel": "R9 image 44",
+      "retainArt": true,
+      "sourceSceneId": "scene-44",
+      "owner": "retained"
+    },
+    {
+      "id": "scene-45",
+      "number": 47,
+      "sourceSceneNumber": 45,
+      "feedbackLabel": "R9 image 45",
+      "retainArt": true,
+      "sourceSceneId": "scene-45",
+      "owner": "retained"
+    },
+    {
+      "id": "scene-46",
+      "number": 48,
+      "sourceSceneNumber": 46,
+      "feedbackLabel": "R9 image 46",
+      "retainArt": true,
+      "sourceSceneId": "scene-46",
+      "owner": "retained"
+    },
+    {
+      "id": "scene-47",
+      "number": 49,
+      "sourceSceneNumber": 47,
+      "feedbackLabel": "R9 image 47",
+      "retainArt": true,
+      "sourceSceneId": "scene-47",
+      "owner": "retained"
+    },
+    {
+      "id": "scene-48",
+      "number": 50,
+      "sourceSceneNumber": 48,
+      "feedbackLabel": "R9 image 48",
+      "retainArt": true,
+      "sourceSceneId": "scene-48",
+      "owner": "retained"
+    },
+    {
+      "id": "scene-48a",
+      "number": 51,
+      "sourceSceneNumber": null,
+      "feedbackLabel": "R9 48a",
+      "retainArt": false,
+      "sourceSceneId": null,
+      "owner": "story"
+    },
+    {
+      "id": "scene-49",
+      "number": 52,
+      "sourceSceneNumber": 49,
+      "feedbackLabel": "R9 image 49",
+      "retainArt": true,
+      "sourceSceneId": "scene-49",
+      "owner": "retained"
+    },
+    {
+      "id": "scene-52",
+      "number": 53,
+      "sourceSceneNumber": 52,
+      "feedbackLabel": "R9 image 52",
+      "retainArt": true,
+      "sourceSceneId": "scene-52",
+      "owner": "retained"
+    },
+    {
+      "id": "scene-53",
+      "number": 54,
+      "sourceSceneNumber": 53,
+      "feedbackLabel": "R9 image 53",
+      "retainArt": true,
+      "sourceSceneId": "scene-53",
+      "owner": "retained"
+    },
+    {
+      "id": "scene-54",
+      "number": 55,
+      "sourceSceneNumber": 54,
+      "feedbackLabel": "R9 image 54",
+      "retainArt": true,
+      "sourceSceneId": "scene-54",
+      "owner": "retained"
+    },
+    {
+      "id": "scene-54a",
+      "number": 56,
+      "sourceSceneNumber": null,
+      "feedbackLabel": "R9 54a",
+      "retainArt": false,
+      "sourceSceneId": null,
+      "owner": "story"
+    },
+    {
+      "id": "scene-55",
+      "number": 57,
+      "sourceSceneNumber": 55,
+      "feedbackLabel": "R9 image 55",
+      "retainArt": true,
+      "sourceSceneId": "scene-55",
+      "owner": "retained"
+    },
+    {
+      "id": "scene-55a",
+      "number": 58,
+      "sourceSceneNumber": null,
+      "feedbackLabel": "R9 55a",
+      "retainArt": false,
+      "sourceSceneId": null,
+      "owner": "story"
+    },
+    {
+      "id": "scene-55b",
+      "number": 59,
+      "sourceSceneNumber": null,
+      "feedbackLabel": "R9 55b",
+      "retainArt": false,
+      "sourceSceneId": null,
+      "owner": "story"
+    },
+    {
+      "id": "scene-55c",
+      "number": 60,
+      "sourceSceneNumber": null,
+      "feedbackLabel": "R9 55c",
+      "retainArt": false,
+      "sourceSceneId": null,
+      "owner": "story"
+    },
+    {
+      "id": "scene-57",
+      "number": 61,
+      "sourceSceneNumber": 57,
+      "feedbackLabel": "R9 image 57",
+      "retainArt": false,
+      "sourceSceneId": "scene-57",
+      "owner": "root"
+    },
+    {
+      "id": "scene-58",
+      "number": 62,
+      "sourceSceneNumber": 58,
+      "feedbackLabel": "R9 image 58",
+      "retainArt": true,
+      "sourceSceneId": "scene-58",
+      "owner": "retained"
+    },
+    {
+      "id": "scene-59",
+      "number": 63,
+      "sourceSceneNumber": 59,
+      "feedbackLabel": "R9 image 59",
+      "retainArt": true,
+      "sourceSceneId": "scene-59",
+      "owner": "retained"
+    },
+    {
+      "id": "scene-60",
+      "number": 64,
+      "sourceSceneNumber": 60,
+      "feedbackLabel": "R9 image 60",
+      "retainArt": true,
+      "sourceSceneId": "scene-60",
+      "owner": "retained"
+    },
+    {
+      "id": "scene-61",
+      "number": 65,
+      "sourceSceneNumber": 61,
+      "feedbackLabel": "R9 image 61",
+      "retainArt": false,
+      "sourceSceneId": "scene-61",
+      "owner": "root"
+    },
+    {
+      "id": "scene-62",
+      "number": 66,
+      "sourceSceneNumber": 62,
+      "feedbackLabel": "R9 image 62",
+      "retainArt": false,
+      "sourceSceneId": "scene-62",
+      "owner": "story"
+    },
+    {
+      "id": "scene-62a",
+      "number": 67,
+      "sourceSceneNumber": null,
+      "feedbackLabel": "R9 62a",
+      "retainArt": false,
+      "sourceSceneId": null,
+      "owner": "story"
+    },
+    {
+      "id": "scene-62b",
+      "number": 68,
+      "sourceSceneNumber": null,
+      "feedbackLabel": "R9 62b",
+      "retainArt": false,
+      "sourceSceneId": null,
+      "owner": "story"
+    },
+    {
+      "id": "scene-63",
+      "number": 69,
+      "sourceSceneNumber": 63,
+      "feedbackLabel": "R9 image 63",
+      "retainArt": true,
+      "sourceSceneId": "scene-63",
+      "owner": "retained"
+    },
+    {
+      "id": "scene-62c",
+      "number": 70,
+      "sourceSceneNumber": null,
+      "feedbackLabel": "R9 62c",
+      "retainArt": false,
+      "sourceSceneId": null,
+      "owner": "story"
+    },
+    {
+      "id": "scene-64",
+      "number": 71,
+      "sourceSceneNumber": 64,
+      "feedbackLabel": "R9 image 64",
+      "retainArt": true,
+      "sourceSceneId": "scene-64",
+      "owner": "retained"
+    },
+    {
+      "id": "scene-65",
+      "number": 72,
+      "sourceSceneNumber": 65,
+      "feedbackLabel": "R9 image 65",
+      "retainArt": false,
+      "sourceSceneId": "scene-65",
+      "owner": "root"
+    },
+    {
+      "id": "scene-66",
+      "number": 73,
+      "sourceSceneNumber": 66,
+      "feedbackLabel": "R9 image 66",
+      "retainArt": true,
+      "sourceSceneId": "scene-66",
+      "owner": "retained"
+    },
+    {
+      "id": "scene-67",
+      "number": 74,
+      "sourceSceneNumber": 67,
+      "feedbackLabel": "R9 image 67",
+      "retainArt": false,
+      "sourceSceneId": "scene-67",
+      "owner": "root"
+    },
+    {
+      "id": "scene-68",
+      "number": 75,
+      "sourceSceneNumber": 68,
+      "feedbackLabel": "R9 image 68",
+      "retainArt": false,
+      "sourceSceneId": "scene-68",
+      "owner": "story"
+    },
+    {
+      "id": "scene-69",
+      "number": 76,
+      "sourceSceneNumber": 69,
+      "feedbackLabel": "R9 image 69",
+      "retainArt": true,
+      "sourceSceneId": "scene-69",
+      "owner": "retained"
+    },
+    {
+      "id": "scene-70",
+      "number": 77,
+      "sourceSceneNumber": 70,
+      "feedbackLabel": "R9 image 70",
+      "retainArt": true,
+      "sourceSceneId": "scene-70",
+      "owner": "retained"
+    },
+    {
+      "id": "scene-71",
+      "number": 78,
+      "sourceSceneNumber": 71,
+      "feedbackLabel": "R9 image 71",
+      "retainArt": false,
+      "sourceSceneId": "scene-71",
+      "owner": "geometry"
+    },
+    {
+      "id": "scene-72",
+      "number": 79,
+      "sourceSceneNumber": 72,
+      "feedbackLabel": "R9 image 72",
+      "retainArt": false,
+      "sourceSceneId": "scene-72",
+      "owner": "geometry"
+    },
+    {
+      "id": "scene-72a",
+      "number": 80,
+      "sourceSceneNumber": null,
+      "feedbackLabel": "R9 72a",
+      "retainArt": false,
+      "sourceSceneId": null,
+      "owner": "geometry"
+    },
+    {
+      "id": "scene-73",
+      "number": 81,
+      "sourceSceneNumber": 73,
+      "feedbackLabel": "R9 image 73",
+      "retainArt": false,
+      "sourceSceneId": "scene-73",
+      "owner": "geometry"
+    },
+    {
+      "id": "scene-73a",
+      "number": 82,
+      "sourceSceneNumber": null,
+      "feedbackLabel": "R9 73a",
+      "retainArt": false,
+      "sourceSceneId": null,
+      "owner": "geometry"
+    },
+    {
+      "id": "scene-73b",
+      "number": 83,
+      "sourceSceneNumber": null,
+      "feedbackLabel": "R9 73b",
+      "retainArt": false,
+      "sourceSceneId": null,
+      "owner": "geometry"
+    },
+    {
+      "id": "scene-73c",
+      "number": 84,
+      "sourceSceneNumber": null,
+      "feedbackLabel": "R9 73c",
+      "retainArt": false,
+      "sourceSceneId": null,
+      "owner": "geometry"
+    },
+    {
+      "id": "scene-74",
+      "number": 85,
+      "sourceSceneNumber": 74,
+      "feedbackLabel": "R9 image 74",
+      "retainArt": false,
+      "sourceSceneId": "scene-74",
+      "owner": "geometry"
+    },
+    {
+      "id": "scene-75",
+      "number": 86,
+      "sourceSceneNumber": 75,
+      "feedbackLabel": "R9 image 75",
+      "retainArt": false,
+      "sourceSceneId": "scene-75",
+      "owner": "geometry"
+    },
+    {
+      "id": "scene-76",
+      "number": 87,
+      "sourceSceneNumber": 76,
+      "feedbackLabel": "R9 image 76",
+      "retainArt": false,
+      "sourceSceneId": "scene-76",
+      "owner": "geometry"
+    },
+    {
+      "id": "scene-77",
+      "number": 88,
+      "sourceSceneNumber": 77,
+      "feedbackLabel": "R9 image 77",
+      "retainArt": false,
+      "sourceSceneId": "scene-77",
+      "owner": "geometry"
+    },
+    {
+      "id": "scene-78",
+      "number": 89,
+      "sourceSceneNumber": 78,
+      "feedbackLabel": "R9 image 78",
+      "retainArt": false,
+      "sourceSceneId": "scene-78",
+      "owner": "geometry"
+    },
+    {
+      "id": "scene-79",
+      "number": 90,
+      "sourceSceneNumber": 79,
+      "feedbackLabel": "R9 image 79",
+      "retainArt": false,
+      "sourceSceneId": "scene-79",
+      "owner": "geometry"
+    },
+    {
+      "id": "scene-79a",
+      "number": 91,
+      "sourceSceneNumber": null,
+      "feedbackLabel": "R9 79a",
+      "retainArt": false,
+      "sourceSceneId": null,
+      "owner": "geometry"
+    },
+    {
+      "id": "scene-80",
+      "number": 92,
+      "sourceSceneNumber": 80,
+      "feedbackLabel": "R9 image 80",
+      "retainArt": true,
+      "sourceSceneId": "scene-80",
+      "owner": "retained"
+    },
+    {
+      "id": "scene-81",
+      "number": 93,
+      "sourceSceneNumber": 81,
+      "feedbackLabel": "R9 image 81",
+      "retainArt": false,
+      "sourceSceneId": "scene-81",
+      "owner": "root"
+    },
+    {
+      "id": "scene-82",
+      "number": 94,
+      "sourceSceneNumber": 82,
+      "feedbackLabel": "R9 image 82",
+      "retainArt": true,
+      "sourceSceneId": "scene-82",
+      "owner": "retained"
+    },
+    {
+      "id": "scene-83",
+      "number": 95,
+      "sourceSceneNumber": 83,
+      "feedbackLabel": "R9 image 83",
+      "retainArt": true,
+      "sourceSceneId": "scene-83",
+      "owner": "retained"
+    },
+    {
+      "id": "scene-84",
+      "number": 96,
+      "sourceSceneNumber": 84,
+      "feedbackLabel": "R9 image 84",
+      "retainArt": true,
+      "sourceSceneId": "scene-84",
+      "owner": "retained"
+    },
+    {
+      "id": "scene-85",
+      "number": 97,
+      "sourceSceneNumber": 85,
+      "feedbackLabel": "R9 image 85",
+      "retainArt": true,
+      "sourceSceneId": "scene-85",
+      "owner": "retained"
+    },
+    {
+      "id": "scene-86",
+      "number": 98,
+      "sourceSceneNumber": 86,
+      "feedbackLabel": "R9 image 86",
+      "retainArt": true,
+      "sourceSceneId": "scene-86",
+      "owner": "retained"
+    },
+    {
+      "id": "scene-87",
+      "number": 99,
+      "sourceSceneNumber": 87,
+      "feedbackLabel": "R9 image 87",
+      "retainArt": false,
+      "sourceSceneId": "scene-87",
+      "owner": "root"
+    },
+    {
+      "id": "scene-114",
+      "number": 100,
+      "sourceSceneNumber": 114,
+      "feedbackLabel": "R9 image 114",
+      "retainArt": true,
+      "sourceSceneId": "scene-114",
+      "owner": "retained"
+    },
+    {
+      "id": "scene-115",
+      "number": 101,
+      "sourceSceneNumber": 115,
+      "feedbackLabel": "R9 image 115",
+      "retainArt": false,
+      "sourceSceneId": "scene-115",
+      "owner": "root"
+    },
+    {
+      "id": "scene-116",
+      "number": 102,
+      "sourceSceneNumber": 116,
+      "feedbackLabel": "R9 image 116",
+      "retainArt": false,
+      "sourceSceneId": "scene-116",
+      "owner": "root"
+    },
+    {
+      "id": "scene-117",
+      "number": 103,
+      "sourceSceneNumber": 117,
+      "feedbackLabel": "R9 image 117",
+      "retainArt": false,
+      "sourceSceneId": "scene-117",
+      "owner": "root"
+    },
+    {
+      "id": "scene-118",
+      "number": 104,
+      "sourceSceneNumber": 118,
+      "feedbackLabel": "R9 image 118",
+      "retainArt": false,
+      "sourceSceneId": "scene-118",
+      "owner": "root"
+    },
+    {
+      "id": "scene-119",
+      "number": 105,
+      "sourceSceneNumber": 119,
+      "feedbackLabel": "R9 image 119",
+      "retainArt": false,
+      "sourceSceneId": "scene-119",
+      "owner": "root"
+    },
+    {
+      "id": "scene-120",
+      "number": 106,
+      "sourceSceneNumber": 120,
+      "feedbackLabel": "R9 image 120",
+      "retainArt": false,
+      "sourceSceneId": "scene-120",
+      "owner": "root"
+    },
+    {
+      "id": "scene-121",
+      "number": 107,
+      "sourceSceneNumber": 121,
+      "feedbackLabel": "R9 image 121",
+      "retainArt": false,
+      "sourceSceneId": "scene-121",
+      "owner": "root"
+    },
+    {
+      "id": "scene-122",
+      "number": 108,
+      "sourceSceneNumber": 122,
+      "feedbackLabel": "R9 image 122",
+      "retainArt": true,
+      "sourceSceneId": "scene-123",
+      "owner": "retained"
+    },
+    {
+      "id": "scene-123",
+      "number": 109,
+      "sourceSceneNumber": 123,
+      "feedbackLabel": "R9 image 123",
+      "retainArt": false,
+      "sourceSceneId": "scene-123",
+      "owner": "root"
+    },
+    {
+      "id": "scene-124",
+      "number": 110,
+      "sourceSceneNumber": 124,
+      "feedbackLabel": "R9 image 124",
+      "retainArt": false,
+      "sourceSceneId": "scene-124",
+      "owner": "story"
+    },
+    {
+      "id": "scene-124a",
+      "number": 111,
+      "sourceSceneNumber": null,
+      "feedbackLabel": "R9 124a",
+      "retainArt": false,
+      "sourceSceneId": null,
+      "owner": "root"
+    },
+    {
+      "id": "scene-125",
+      "number": 112,
+      "sourceSceneNumber": 125,
+      "feedbackLabel": "R9 image 125",
+      "retainArt": false,
+      "sourceSceneId": "scene-125",
+      "owner": "geometry"
+    },
+    {
+      "id": "scene-126",
+      "number": 113,
+      "sourceSceneNumber": 126,
+      "feedbackLabel": "R9 image 126",
+      "retainArt": false,
+      "sourceSceneId": "scene-126",
+      "owner": "root"
+    }
+  ],
+  "keyChanges": [
+    "Doorway peek then orientation/approach before20.",
+    "Whole family inspects the flower obstruction after48; Papa holds baby.",
+    "Remove50/51 and56;55enjoys breakfast, with waking/food/thought/practical plan before57.",
+    "Duck travels downstream through joins/commonroom/baby response/garden;68line of twelve.",
+    "Plant inspection, pushing/corner staging and family handling receive13plannedframes71–79plusinserts.",
+    "No remembered hiccup, no tiny bath. New observation-led fullsize reverse test and physicalcleanup.",
+    "Remove aqueduct and bring whole family and twelve ducks to real lake."
+  ],
+  "finalNotes": [
+    "114 selected images including cover.",
+    "45 retained unchanged.",
+    "68-v4 and124 story-v1 each contain two larger ducks and ten small ducks.",
+    "115–121 show the full-size bath; inherited miniature-bath production directives removed.",
+    "Plant lane includes fourteen illustrations with79a."
+  ]
+}

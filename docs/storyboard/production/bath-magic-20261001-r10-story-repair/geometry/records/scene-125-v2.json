@@ -1,0 +1,46 @@
+{
+  "tool": "image_gen__imagegen",
+  "sourceOutput": "/Users/miguel_lemos/.codex/generated_images/01a0f5c3-a7d1-70d0-b8cf-581aa5deee53/exec-0cbe480a-fcf7-4554-b437-e34451a2d398.png",
+  "generatedAt": "2026-10-01T20:30:26.126130+00:00",
+  "promptPath": "prompts/scene-125-v2.txt",
+  "references": [
+    "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r10-story-repair/root/masters/scene-125-v1.png"
+  ],
+  "visualReview": "Inspected native output and independently counted exactly12: two adult ducks + nine small ducks in lake + one small duck at child paws. Only former rightmost small water duck removed, replaced by natural ripple. Family anatomy, held infant and release gesture retained.",
+  "promptSha256": "51581eeccb92e39fb09dc414db8bb0057c3ba4c9cc7cc5f7aeaadf51fd3efcca",
+  "master": {
+    "path": "masters/scene-125-v2.png",
+    "sha256": "8b49284a9227854e751a75160779a9606f19d594a8b5e1c2ac31f480e25553f3",
+    "bytes": 2807097
+  },
+  "referenceIdentities": [
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r10-story-repair/root/masters/scene-125-v1.png",
+      "sha256": "4675cd798b4529f2d997507a96b8ad9512e75c99fd656645c7c51b32ade75895",
+      "bytes": 2875915
+    }
+  ],
+  "preservedReferences": [
+    {
+      "path": "references/inputs/4675cd798b45/scene-125-v1.png",
+      "sha256": "4675cd798b4529f2d997507a96b8ad9512e75c99fd656645c7c51b32ade75895"
+    }
+  ],
+  "reviewStatus": "illustration candidate; awaiting user feedback",
+  "web": {
+    "path": "web/scene-125.webp",
+    "sha256": "0aa240713b699253d73666d071d4ffbcf16f204b11e605be4add1d4d21dbf973",
+    "bytes": 527080
+  },
+  "dimensions": [
+    1536,
+    1024
+  ],
+  "conversion": {
+    "format": "WebP",
+    "quality": 94,
+    "method": 6,
+    "resized": false,
+    "artEdited": false
+  }
+}

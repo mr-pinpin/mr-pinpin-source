@@ -1,0 +1,46 @@
+{
+  "tool": "image_gen__imagegen",
+  "sourceOutput": "/Users/miguel_lemos/.codex/generated_images/01a0f5c3-a7d1-70d0-b8cf-581aa5deee53/exec-b6dba869-a6f2-41fe-97ef-e7f909cbdf83.png",
+  "generatedAt": "2026-10-01T20:24:21.674229+00:00",
+  "promptPath": "prompts/scene-78-v2.txt",
+  "references": [
+    "/Users/miguel_lemos/.codex/generated_images/01a0f5c3-a7d1-70d0-b8cf-581aa5deee53/exec-1019343f-44ae-4707-ac41-3533557045a3.png"
+  ],
+  "visualReview": "Inspected full native output: existing door now open, plant/family retained, two adult and ten small ducks counted. Channel exits behind Papa; partial occlusion by body is plausible.",
+  "promptSha256": "0bc39497fce6c90c95f56177ddb065466c74908b329103c69a8b47a9d4e7f1ce",
+  "master": {
+    "path": "masters/scene-78-v2.png",
+    "sha256": "64da8ce2dafc728fe7a82a5c25cf3ddf16948c8e1e06ad46725c3a1f54a61ceb",
+    "bytes": 2761961
+  },
+  "referenceIdentities": [
+    {
+      "path": "/Users/miguel_lemos/.codex/generated_images/01a0f5c3-a7d1-70d0-b8cf-581aa5deee53/exec-1019343f-44ae-4707-ac41-3533557045a3.png",
+      "sha256": "cee54d36875b747484e629a0404434d94c043b75313414c723381d6e57793fbd",
+      "bytes": 2822979
+    }
+  ],
+  "preservedReferences": [
+    {
+      "path": "references/inputs/cee54d36875b/exec-1019343f-44ae-4707-ac41-3533557045a3.png",
+      "sha256": "cee54d36875b747484e629a0404434d94c043b75313414c723381d6e57793fbd"
+    }
+  ],
+  "reviewStatus": "illustration candidate; awaiting user feedback",
+  "web": {
+    "path": "web/scene-78.webp",
+    "sha256": "181d206151ea7c2d233610d8e1533950c22975f1434c3de103ab981cbb9441a4",
+    "bytes": 527038
+  },
+  "dimensions": [
+    1536,
+    1024
+  ],
+  "conversion": {
+    "format": "WebP",
+    "quality": 94,
+    "method": 6,
+    "resized": false,
+    "artEdited": false
+  }
+}

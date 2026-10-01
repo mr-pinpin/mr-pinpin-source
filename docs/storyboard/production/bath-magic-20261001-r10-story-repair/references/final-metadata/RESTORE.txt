@@ -1,0 +1,41 @@
+R10 RESTORATION AND REBUILD
+
+This draft uses two sibling asset packs:
+ pinpin-bath-magic-20261001-r10-story-repair
+ pinpin-bath-magic-20261001-r8-herculean
+
+R10's scoped archive contains new native image-generation outputs, exact prompts,
+input snapshots, lane selection records, comic-sheet exports and their build inputs.
+Retained R8 illustrations are unchanged upstream references. Restore the R8 scoped
+archive separately when it is not already present; do not substitute a similarly
+named image or regenerate it. Its manifest is assets/bath-magic-20261001-r8-herculean.json.
+The R10 manifest is assets/bath-magic-20261001-r10-story-repair.json.
+
+Use the repository assets/README.md and tools/assets/hf_store.py commands to pull
+these manifests to a restore tree. Their stored paths begin
+docs/storyboard/production/<production-id>/. Place each restored production folder
+under the sibling pack names above, then copy the matching source-only files from
+the committed production directory. A .venv providing Pillow is required to rebuild
+WebP derivatives or comic sheets. No image generation is needed for restoration.
+
+Run on the mini SSD, from the R10 pack:
+ .venv/bin/python refresh-media.py
+ .venv/bin/python finalize-selection.py
+ .venv/bin/python configure-storyboard.py
+ .venv/bin/python build-storyboard.py --languages ru,en --version NEW_INTEGER
+ .venv/bin/python verify-boards.py
+ /opt/homebrew/bin/node check-reader.cjs
+
+Never overwrite a numbered comic master or its boards/build-inputs/vN snapshot.
+The renderer snapshots the exact plan, media ledger, layout and tool source before
+building. Panel captions and contained image pixels can be checked against those
+inputs. No --allow-pending flag is permitted for the finished draft build.
+
+Serving requires the chapter production routes to resolve both sibling packs,
+plus the three review UI files. The existing mini preview serves port18796 and
+the user's Air forwards it at18795. This is a local review route, not a published
+GitHub Pages release. No official chapter indexes are changed.
+
+All chronological traversal uses story-plan.scenes array order. Stable IDs such
+as scene-62c are feedback identities, not sorting keys. selected-scenes.json
+records the selected local or upstream bytes and their original provenance.

@@ -1,0 +1,46 @@
+{
+  "tool": "image_gen__imagegen",
+  "sourceOutput": "/Users/miguel_lemos/.codex/generated_images/01a0f5c3-a7d1-70d0-b8cf-581aa5deee53/exec-0ca710dd-0c06-4aca-a97b-b8f049765f96.png",
+  "generatedAt": "2026-10-01T20:04:00.328312+00:00",
+  "promptPath": "prompts/scene-72a-v2.txt",
+  "references": [
+    "/Users/miguel_lemos/.codex/generated_images/01a0f5c3-a7d1-70d0-b8cf-581aa5deee53/exec-62ef65eb-71f2-4e35-8078-14851a7391d5.png"
+  ],
+  "visualReview": "Passed native visual inspection: distinct four-family cast, supported baby, mature flower, continuous channel and running fountain; no major limb defect.",
+  "promptSha256": "204976c1044799ac50f4f515884d10b4b73a12369bfa09bffd9799d644e2db8f",
+  "master": {
+    "path": "masters/scene-72a-v2.png",
+    "sha256": "a0d4bc9fc66efb748e65a42bc1b206c670f712e952e4720da3ea1902a4057daf",
+    "bytes": 2325837
+  },
+  "referenceIdentities": [
+    {
+      "path": "/Users/miguel_lemos/.codex/generated_images/01a0f5c3-a7d1-70d0-b8cf-581aa5deee53/exec-62ef65eb-71f2-4e35-8078-14851a7391d5.png",
+      "sha256": "aaed6b77c3c08722f33cf9f47071c7114fcb0a4956fd85b82c6357d18b6b0ba8",
+      "bytes": 2388990
+    }
+  ],
+  "preservedReferences": [
+    {
+      "path": "references/inputs/aaed6b77c3c0/exec-62ef65eb-71f2-4e35-8078-14851a7391d5.png",
+      "sha256": "aaed6b77c3c08722f33cf9f47071c7114fcb0a4956fd85b82c6357d18b6b0ba8"
+    }
+  ],
+  "reviewStatus": "illustration candidate; awaiting user feedback",
+  "web": {
+    "path": "web/scene-72a.webp",
+    "sha256": "293e895feb9a73179078d509f71d630a68b03d1abe469aeaed8e83a898d9f2c8",
+    "bytes": 404660
+  },
+  "dimensions": [
+    1536,
+    1024
+  ],
+  "conversion": {
+    "format": "WebP",
+    "quality": 94,
+    "method": 6,
+    "resized": false,
+    "artEdited": false
+  }
+}

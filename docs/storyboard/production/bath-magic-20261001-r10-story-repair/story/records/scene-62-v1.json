@@ -1,0 +1,49 @@
+{
+  "tool": "image_gen__imagegen",
+  "generatedAt": "2026-10-01T20:07:26.062Z",
+  "sourceOutput": "/Users/miguel_lemos/.codex/generated_images/01a0f5c0-64db-7310-817a-d73d15314908/exec-6fcbb4a4-8a91-4d3e-a845-2aa9ea566abb.png",
+  "promptPath": "prompts/scene-62-v1.txt",
+  "references": [
+    "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r8-herculean/geometry/masters/scene-62-v1.png"
+  ],
+  "visualReview": {
+    "status": "passed-for-draft",
+    "notes": "Single duck rotated to face downstream away from camera toward front door; tail nearer viewer, room and channel unchanged."
+  },
+  "promptSha256": "269c919c8e1448855ae567c99bd044621fc50d34c2f90fcec32ade34e47a3e2d",
+  "master": {
+    "path": "masters/scene-62-v1.png",
+    "sha256": "c891a388b52f1c2e1f22e41657ff412358337a7bcdd1a4f8cd066e985246161f",
+    "bytes": 2314753
+  },
+  "referenceIdentities": [
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r8-herculean/geometry/masters/scene-62-v1.png",
+      "sha256": "a1b1492daa0dc86106855537fcb55e0f5e47f6b5b69717e478675ba938e4e9d6",
+      "bytes": 2345803
+    }
+  ],
+  "preservedReferences": [
+    {
+      "path": "references/inputs/a1b1492daa0d/scene-62-v1.png",
+      "sha256": "a1b1492daa0dc86106855537fcb55e0f5e47f6b5b69717e478675ba938e4e9d6"
+    }
+  ],
+  "reviewStatus": "illustration candidate; awaiting user feedback",
+  "web": {
+    "path": "web/scene-62.webp",
+    "sha256": "6037974706fffe5c179d41fdd6519141e50a9511e3159e2b8a758a684ad281d8",
+    "bytes": 386116
+  },
+  "dimensions": [
+    1536,
+    1024
+  ],
+  "conversion": {
+    "format": "WebP",
+    "quality": 94,
+    "method": 6,
+    "resized": false,
+    "artEdited": false
+  }
+}

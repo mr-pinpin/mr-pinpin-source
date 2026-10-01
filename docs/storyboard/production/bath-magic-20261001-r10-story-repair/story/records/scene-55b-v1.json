@@ -1,0 +1,49 @@
+{
+  "tool": "image_gen__imagegen",
+  "generatedAt": "2026-10-01T20:07:26.062Z",
+  "sourceOutput": "/Users/miguel_lemos/.codex/generated_images/01a0f5c0-64db-7310-817a-d73d15314908/exec-3dfe51f7-70b7-4090-bc20-a0cc84533628.png",
+  "promptPath": "prompts/scene-55b-v1.txt",
+  "references": [
+    "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r8-herculean/geometry/masters/scene-55-v1.png"
+  ],
+  "visualReview": {
+    "status": "passed-for-draft",
+    "notes": "Upright alert PinPin closeup with spoon and bowl; thoughtful eyes, no exhausted chin-rest. Same camera direction cropped closer."
+  },
+  "promptSha256": "98978f0eb9b41182d7070edceb64b5733aa4d0b3d2b5e2e1944b52ca631c0164",
+  "master": {
+    "path": "masters/scene-55b-v1.png",
+    "sha256": "740ffc69a42746e701d6ab47a67cf5a6afb251a9c4f900420bf7ef772ae9ca74",
+    "bytes": 2183007
+  },
+  "referenceIdentities": [
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r8-herculean/geometry/masters/scene-55-v1.png",
+      "sha256": "a90ce7eab6fed7790217f638a7d84a4d3f2ea059c232cf2e4e495b814bbd6b43",
+      "bytes": 2630967
+    }
+  ],
+  "preservedReferences": [
+    {
+      "path": "references/inputs/a90ce7eab6fe/scene-55-v1.png",
+      "sha256": "a90ce7eab6fed7790217f638a7d84a4d3f2ea059c232cf2e4e495b814bbd6b43"
+    }
+  ],
+  "reviewStatus": "illustration candidate; awaiting user feedback",
+  "web": {
+    "path": "web/scene-55b.webp",
+    "sha256": "2c318d1be01da20ececfe37283c521ff49570e792291e589185f2d0de96368e0",
+    "bytes": 302024
+  },
+  "dimensions": [
+    1536,
+    1024
+  ],
+  "conversion": {
+    "format": "WebP",
+    "quality": 94,
+    "method": 6,
+    "resized": false,
+    "artEdited": false
+  }
+}

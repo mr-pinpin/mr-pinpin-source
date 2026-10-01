@@ -1,0 +1,59 @@
+{
+  "tool": "image_gen__imagegen",
+  "generatedAt": "2026-10-01T20:07:26.062Z",
+  "sourceOutput": "/Users/miguel_lemos/.codex/generated_images/01a0f5c0-64db-7310-817a-d73d15314908/exec-80373e55-b096-4e24-bb79-c0fc2120a00e.png",
+  "promptPath": "prompts/scene-19b-v1.txt",
+  "references": [
+    "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r10-story-repair/story/masters/scene-19a-v1.png",
+    "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r8-herculean/reused/masters/scene-20/scene-20-v1.png"
+  ],
+  "visualReview": {
+    "status": "passed-for-draft",
+    "notes": "Papa approaches from established doorway; Mama follows securely holding infant. Full-size parents, no gutter before construction, three figures only in crop."
+  },
+  "promptSha256": "71a15afafe03ed46b4b3cdfd394db7ce9aab45ef4151f0072a3fea8f9f6a3477",
+  "master": {
+    "path": "masters/scene-19b-v1.png",
+    "sha256": "6279119d496f2c516331ce26c5f8b3a04655643ea0134b195c7937903be105f9",
+    "bytes": 2554538
+  },
+  "referenceIdentities": [
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r10-story-repair/story/masters/scene-19a-v1.png",
+      "sha256": "d5790806d80daa70d19d665e9c47a6a481de4bdb86c179d878da65cb1fdb848f",
+      "bytes": 2423744
+    },
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r8-herculean/reused/masters/scene-20/scene-20-v1.png",
+      "sha256": "4fe5be0a61ba76dbde27699b3df5dcb42996d5bf187dd3be4b239ec6983aa9a7",
+      "bytes": 2636607
+    }
+  ],
+  "preservedReferences": [
+    {
+      "path": "references/inputs/d5790806d80d/scene-19a-v1.png",
+      "sha256": "d5790806d80daa70d19d665e9c47a6a481de4bdb86c179d878da65cb1fdb848f"
+    },
+    {
+      "path": "references/inputs/4fe5be0a61ba/scene-20-v1.png",
+      "sha256": "4fe5be0a61ba76dbde27699b3df5dcb42996d5bf187dd3be4b239ec6983aa9a7"
+    }
+  ],
+  "reviewStatus": "illustration candidate; awaiting user feedback",
+  "web": {
+    "path": "web/scene-19b.webp",
+    "sha256": "c7d01f7b509858f60cce5a930b1e35a93809578a862d7d6695b04b31957406bf",
+    "bytes": 480466
+  },
+  "dimensions": [
+    1536,
+    1024
+  ],
+  "conversion": {
+    "format": "WebP",
+    "quality": 94,
+    "method": 6,
+    "resized": false,
+    "artEdited": false
+  }
+}

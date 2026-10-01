@@ -1,0 +1,49 @@
+{
+  "tool": "image_gen__imagegen",
+  "generatedAt": "2026-10-01T20:07:26.062Z",
+  "sourceOutput": "/Users/miguel_lemos/.codex/generated_images/01a0f5c0-64db-7310-817a-d73d15314908/exec-e7644f57-201a-45cb-aff9-d370d6bf614f.png",
+  "promptPath": "prompts/scene-55c-v1.txt",
+  "references": [
+    "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r8-herculean/geometry/masters/scene-55-v1.png"
+  ],
+  "visualReview": {
+    "status": "passed-for-draft",
+    "notes": "PinPin explains idea with open paw toward existing bath; parents attend, baby highchair, no new magic."
+  },
+  "promptSha256": "0688b0e86c37e7fb7b16be189ce8618a0dc6604fffe30b2085871b218aad2d8d",
+  "master": {
+    "path": "masters/scene-55c-v1.png",
+    "sha256": "030a975c24b98c7e7c64fdb7577c9e74f619fe785cb9f2d608b307c74fc86b3f",
+    "bytes": 2568523
+  },
+  "referenceIdentities": [
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r8-herculean/geometry/masters/scene-55-v1.png",
+      "sha256": "a90ce7eab6fed7790217f638a7d84a4d3f2ea059c232cf2e4e495b814bbd6b43",
+      "bytes": 2630967
+    }
+  ],
+  "preservedReferences": [
+    {
+      "path": "references/inputs/a90ce7eab6fe/scene-55-v1.png",
+      "sha256": "a90ce7eab6fed7790217f638a7d84a4d3f2ea059c232cf2e4e495b814bbd6b43"
+    }
+  ],
+  "reviewStatus": "illustration candidate; awaiting user feedback",
+  "web": {
+    "path": "web/scene-55c.webp",
+    "sha256": "f0120d2475c900c121066b225666ce5266cf68094b08ea30fa1c03e01b28837b",
+    "bytes": 464990
+  },
+  "dimensions": [
+    1536,
+    1024
+  ],
+  "conversion": {
+    "format": "WebP",
+    "quality": 94,
+    "method": 6,
+    "resized": false,
+    "artEdited": false
+  }
+}

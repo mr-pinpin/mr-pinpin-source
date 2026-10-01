@@ -1,0 +1,46 @@
+{
+  "tool": "image_gen__imagegen",
+  "sourceOutput": "/Users/miguel_lemos/.codex/generated_images/01a0f5c3-a7d1-70d0-b8cf-581aa5deee53/exec-ad03880e-cacd-4267-8605-691a7c84ce29.png",
+  "generatedAt": "2026-10-01T20:23:47.468172+00:00",
+  "promptPath": "prompts/scene-79a-v1.txt",
+  "references": [
+    "/Users/miguel_lemos/.codex/generated_images/01a0f5c3-a7d1-70d0-b8cf-581aa5deee53/exec-f8a52c99-6b25-4ff2-95bc-75281650a152.png"
+  ],
+  "visualReview": "Inspected full native output: child seated upright and alert, eyes on wet petals, hands at knee/stool rather than casting. Full-size bath, active fountain and continuous collector/channel retained. No plant mistakenly left indoors.",
+  "promptSha256": "7aaf50d9461a90cf4a2bf817db6c0f52d538191005f95bf5686520ba88d80548",
+  "master": {
+    "path": "masters/scene-79a-v1.png",
+    "sha256": "9de0e3c8b55acbb87ffde69d7daa7b2b3c753aa16edd9f3db45a7f387b009355",
+    "bytes": 2330602
+  },
+  "referenceIdentities": [
+    {
+      "path": "/Users/miguel_lemos/.codex/generated_images/01a0f5c3-a7d1-70d0-b8cf-581aa5deee53/exec-f8a52c99-6b25-4ff2-95bc-75281650a152.png",
+      "sha256": "5f415c019de909525af56cb2123b283ae4689d1a7ca63413f11831457a2c9d25",
+      "bytes": 2437732
+    }
+  ],
+  "preservedReferences": [
+    {
+      "path": "references/inputs/5f415c019de9/exec-f8a52c99-6b25-4ff2-95bc-75281650a152.png",
+      "sha256": "5f415c019de909525af56cb2123b283ae4689d1a7ca63413f11831457a2c9d25"
+    }
+  ],
+  "reviewStatus": "illustration candidate; awaiting user feedback",
+  "web": {
+    "path": "web/scene-79a.webp",
+    "sha256": "26d350a0520fe85279e8e8d60b8613293dbc0acb1480429a4a0d570e92ee94c6",
+    "bytes": 387120
+  },
+  "dimensions": [
+    1536,
+    1024
+  ],
+  "conversion": {
+    "format": "WebP",
+    "quality": 94,
+    "method": 6,
+    "resized": false,
+    "artEdited": false
+  }
+}

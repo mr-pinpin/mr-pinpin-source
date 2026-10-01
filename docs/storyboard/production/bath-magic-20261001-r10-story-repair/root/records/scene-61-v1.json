@@ -1,0 +1,66 @@
+{
+  "tool": "image_gen__imagegen",
+  "generatedAt": "2026-10-01T19:59:24.340Z",
+  "sourceOutput": "/Users/miguel_lemos/.codex/generated_images/01a0be6f-b832-7d93-95df-9d2ff5f69dc1/exec-8e1597d1-ae21-408b-baf5-5ace95dd694f.png",
+  "promptPath": "prompts/scene-61-v1.txt",
+  "references": [
+    "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r8-herculean/geometry/web/scene-61.webp",
+    "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r8-herculean/root/web/title.webp",
+    "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r8-herculean/reused/web/scene-36.webp"
+  ],
+  "visualReview": "Native output inspected: Papa now stands adult-tall with broad cream chest above waist-height tub, two attached resting paws and alert wry duck-directed gaze. Source, duck material, room and composition preserved. Selected candidate.",
+  "promptSha256": "0f32351d3df55fabfbc73ea7b0f97d67aca82c6ea119f2122592b767b7ba65aa",
+  "master": {
+    "path": "masters/scene-61-v1.png",
+    "sha256": "9a9d067e92fd32cfd59c24f5a733711d522a42acb610f0c00891aa4e07b07314",
+    "bytes": 2407571
+  },
+  "referenceIdentities": [
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r8-herculean/geometry/web/scene-61.webp",
+      "sha256": "c146c610bc1ee981378403609322f6958fce844991972936ddf8adfc3e9f6841",
+      "bytes": 351328
+    },
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r8-herculean/root/web/title.webp",
+      "sha256": "bef832f38a4fd690e647417fa6d26f1e2824c0ac5131f35ca724a2a8b0612842",
+      "bytes": 437708
+    },
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r8-herculean/reused/web/scene-36.webp",
+      "sha256": "3514dd69f82191d94de6b4602cca2535b4a14af538b9dbd28791d12d0b092068",
+      "bytes": 451164
+    }
+  ],
+  "preservedReferences": [
+    {
+      "path": "references/inputs/c146c610bc1e/scene-61.webp",
+      "sha256": "c146c610bc1ee981378403609322f6958fce844991972936ddf8adfc3e9f6841"
+    },
+    {
+      "path": "references/inputs/bef832f38a4f/title.webp",
+      "sha256": "bef832f38a4fd690e647417fa6d26f1e2824c0ac5131f35ca724a2a8b0612842"
+    },
+    {
+      "path": "references/inputs/3514dd69f821/scene-36.webp",
+      "sha256": "3514dd69f82191d94de6b4602cca2535b4a14af538b9dbd28791d12d0b092068"
+    }
+  ],
+  "reviewStatus": "illustration candidate; awaiting user feedback",
+  "web": {
+    "path": "web/scene-61.webp",
+    "sha256": "d20b81ce414b1ab2c5c4e4705b1259d856928a1c70c356b443b57421b63060a0",
+    "bytes": 383562
+  },
+  "dimensions": [
+    1536,
+    1024
+  ],
+  "conversion": {
+    "format": "WebP",
+    "quality": 94,
+    "method": 6,
+    "resized": false,
+    "artEdited": false
+  }
+}

@@ -1,0 +1,47 @@
+R10 ILLUSTRATED STORY REPAIR — FROZEN REVIEW DRAFT, UNPUBLISHED
+
+113 story scenes plus the retained cover. Four days. The plan array determines
+chronology; stable scene IDs and original feedback labels remain visible.
+45 newly selected illustrations: root17, story13, geometry15.
+69 unchanged upstream selections, including cover, reference R8 bytes directly.
+No retained illustration was regenerated merely for the layout.
+
+Five RU and five EN compact comic sheets are complete, with clickable panels
+leading to the full chapter. The full reader has RU/EN/ES narration and a separate
+before/after proposal view. There are no missing final scene images. R8/R9 and
+official published chapter indexes were not modified.
+
+Verification
+- All56 native generated candidates and58 distinct exact input images verified,
+  including rejected candidates and selected replacements.
+- 114 selected master/WebP identities verified against their actual origin pack.
+- Ten final version3 sheets:226 panels, exact captions, valid bounds, matching
+  selected input hashes and unchanged contained source-image pixels.
+- Reader checked at1440 and390px:113 scene images decoded, ten board images,
+  113 scene links, language controls and caption comparisons; no JS errors,
+  horizontal overflow or pending image slots.
+- New scoped archive:385 artifacts,549065615bytes,359 unique remote objects.
+  Fresh remote downloads matched SHA256/size, with unchanged object identities
+  before and after readback. Independent receipt/current-file audit passed.
+
+The archive preserves new native art, input/reference snapshots, prompts, lane
+records, preliminary boards and final layout exports. Existing R8 media is
+preserved by its earlier archive and referenced by immutable SHA256 pointers.
+Final board build inputs were snapshotted before rendering; the initial
+preproduction sheets were provisional and may not have a complete original
+whole-plan snapshot. Their individual panels and input identities remain recorded.
+
+Technical checks do not claim perfect artistic continuity or user approval.
+The user has since requested separate R11 character/aqueduct corrections.
+This R10 snapshot remains available unchanged as the comparison baseline.
+
+Reader:
+ http://127.0.0.1:18795/storyboard/review/bath-magic-r10-story-repair.html?lang=ru
+Five sheets:
+ http://127.0.0.1:18795/storyboard/review/bath-magic-r10-story-repair.html?lang=ru&view=storyboard
+
+RESTORE.txt and WORKFLOW.txt document regeneration and origin pointers.
+Top-level REPORT.txt and final-proof.json are source-only completion records
+written after archive verification; the archive's final-metadata snapshot
+contains the generation/layout inputs that existed before verification.
+All storage and processing used the mini SSD. Nothing was published or pushed.

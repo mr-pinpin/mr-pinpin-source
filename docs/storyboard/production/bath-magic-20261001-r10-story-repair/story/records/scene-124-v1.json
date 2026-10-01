@@ -1,0 +1,49 @@
+{
+  "tool": "image_gen__imagegen",
+  "generatedAt": "2026-10-01T20:26:17.868Z",
+  "sourceOutput": "/Users/miguel_lemos/.codex/generated_images/01a0f5c0-64db-7310-817a-d73d15314908/exec-79993e8e-0ffe-48af-877b-4d9c3eab2628.png",
+  "promptPath": "prompts/scene-124-v1.txt",
+  "references": [
+    "/Users/miguel_lemos/.codex/generated_images/01a0be6f-b832-7d93-95df-9d2ff5f69dc1/exec-1b3c3f3b-d972-4d9e-92d9-abf9db48c0cc.png"
+  ],
+  "visualReview": {
+    "status": "passed-for-draft",
+    "notes": "Counted 12 distinct heads: two larger ducks and ten small ducks. One added small duck between the larger ducks; all four family members, held infant, basin, lake and composition preserved."
+  },
+  "promptSha256": "f7bee3580c357381f8b29f5722d959b0a5e4148d71e2359f636d0b29c6e67e65",
+  "master": {
+    "path": "masters/scene-124-v1.png",
+    "sha256": "70dd7a82a79901c9ef5bc95110d2093538834577520b14ded8cefe3c5e21bc30",
+    "bytes": 2708905
+  },
+  "referenceIdentities": [
+    {
+      "path": "/Users/miguel_lemos/.codex/generated_images/01a0be6f-b832-7d93-95df-9d2ff5f69dc1/exec-1b3c3f3b-d972-4d9e-92d9-abf9db48c0cc.png",
+      "sha256": "d87edd74f7ea0cc41308b5ccf4868cb1563d32cbff195d58347f94ba47d56249",
+      "bytes": 2908365
+    }
+  ],
+  "preservedReferences": [
+    {
+      "path": "references/inputs/d87edd74f7ea/exec-1b3c3f3b-d972-4d9e-92d9-abf9db48c0cc.png",
+      "sha256": "d87edd74f7ea0cc41308b5ccf4868cb1563d32cbff195d58347f94ba47d56249"
+    }
+  ],
+  "reviewStatus": "illustration candidate; awaiting user feedback",
+  "web": {
+    "path": "web/scene-124.webp",
+    "sha256": "5357172bbacf2303ef185bbc3c432beaf4c118847c4f594c46bc981c452bc4aa",
+    "bytes": 482694
+  },
+  "dimensions": [
+    1536,
+    1024
+  ],
+  "conversion": {
+    "format": "WebP",
+    "quality": 94,
+    "method": 6,
+    "resized": false,
+    "artEdited": false
+  }
+}

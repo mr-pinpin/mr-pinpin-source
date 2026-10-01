@@ -1,0 +1,51 @@
+{
+  "tool": "image_gen__imagegen",
+  "sourceOutput": "/Users/miguel_lemos/.codex/generated_images/01a0f5c3-a7d1-70d0-b8cf-581aa5deee53/exec-b5e8db69-b745-41ac-abf8-3d47542b155c.png",
+  "promptPath": "prompts/giant-plant-lineup-v1.txt",
+  "references": [
+    "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r8-herculean/geometry/web/scene-75.webp",
+    "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r8-herculean/geometry/web/scene-72.webp",
+    "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r8-herculean/reused/web/scene-14.webp"
+  ],
+  "visualReview": "Native image inspected: correct four family identities, rounded expressive faces, one pink flower. Actual visual proportions approximately1.45Papa plant height, pot0.4Papa, four leaves (prompt targets differed). Parent internal review pending; no user approval claimed.",
+  "purpose": "preproduction continuity anchor",
+  "generatedAt": "2026-10-01T19:54:12.581865+00:00",
+  "promptSha256": "af3b24232039f36f1a9d41ca476a6981b36d125ce3d2daab2b269a1679c462b7",
+  "master": {
+    "path": "preproduction/giant-plant-lineup-v1.png",
+    "sha256": "1f1f4b2ff527c975727a214382585882a126689c5d13075125c9264b993fb7ce",
+    "bytes": 2231755
+  },
+  "referenceIdentities": [
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r8-herculean/geometry/web/scene-75.webp",
+      "sha256": "2a57c3a13a4a06a72726e832aea72b00fb7ab548519782f3cd794ac47c9a06e4",
+      "bytes": 480092
+    },
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r8-herculean/geometry/web/scene-72.webp",
+      "sha256": "de4b59b93a9d5c9e7633877f27db83ac57e88728a05787973fc7c71ed2e50aac",
+      "bytes": 426808
+    },
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r8-herculean/reused/web/scene-14.webp",
+      "sha256": "fd9fad80648244611cd8aab3bb24c39f244819cfea1afff66e5bb30a48401e86",
+      "bytes": 352556
+    }
+  ],
+  "preservedReferences": [
+    {
+      "path": "references/inputs/2a57c3a13a4a/scene-75.webp",
+      "sha256": "2a57c3a13a4a06a72726e832aea72b00fb7ab548519782f3cd794ac47c9a06e4"
+    },
+    {
+      "path": "references/inputs/de4b59b93a9d/scene-72.webp",
+      "sha256": "de4b59b93a9d5c9e7633877f27db83ac57e88728a05787973fc7c71ed2e50aac"
+    },
+    {
+      "path": "references/inputs/fd9fad806482/scene-14.webp",
+      "sha256": "fd9fad80648244611cd8aab3bb24c39f244819cfea1afff66e5bb30a48401e86"
+    }
+  ],
+  "reviewStatus": "illustration candidate; awaiting user feedback"
+}

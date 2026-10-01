@@ -1,0 +1,40 @@
+{
+  "tool": "image_gen__imagegen",
+  "sourceOutput": "/Users/miguel_lemos/.codex/generated_images/01a0f5c3-a7d1-70d0-b8cf-581aa5deee53/exec-bb3e60b4-5311-4a03-9605-72419fdbc4c1.png",
+  "generatedAt": "2026-10-01T20:07:47.200608+00:00",
+  "promptPath": "prompts/scene-73a-v1.txt",
+  "references": [
+    "/Users/miguel_lemos/.codex/generated_images/01a0f5c3-a7d1-70d0-b8cf-581aa5deee53/exec-92c387ec-089c-4fea-89c4-b049b8c850a7.png",
+    "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r10-story-repair/geometry/preproduction/giant-plant-lineup-v1.png"
+  ],
+  "visualReview": "Distinct family and adultPapa; shared pushing contact and stable plant. Held for channel continuity repair at cloth/pot junction.",
+  "promptSha256": "b0735291dbe87982f9a4af262bf0aba082e13b133398bab9076c81212405528a",
+  "master": {
+    "path": "masters/scene-73a-v1.png",
+    "sha256": "9acd4c987bdc04cfdab57ff50f2313dec69d29475b32fcd6afcb7c5156ce2fff",
+    "bytes": 2533468
+  },
+  "referenceIdentities": [
+    {
+      "path": "/Users/miguel_lemos/.codex/generated_images/01a0f5c3-a7d1-70d0-b8cf-581aa5deee53/exec-92c387ec-089c-4fea-89c4-b049b8c850a7.png",
+      "sha256": "7f31c07b5f1336cc2f8e2e5a7e776d400e7be9cffd078ca6103e7502c81fdaa2",
+      "bytes": 2615851
+    },
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r10-story-repair/geometry/preproduction/giant-plant-lineup-v1.png",
+      "sha256": "1f1f4b2ff527c975727a214382585882a126689c5d13075125c9264b993fb7ce",
+      "bytes": 2231755
+    }
+  ],
+  "preservedReferences": [
+    {
+      "path": "references/inputs/7f31c07b5f13/exec-92c387ec-089c-4fea-89c4-b049b8c850a7.png",
+      "sha256": "7f31c07b5f1336cc2f8e2e5a7e776d400e7be9cffd078ca6103e7502c81fdaa2"
+    },
+    {
+      "path": "references/inputs/1f1f4b2ff527/giant-plant-lineup-v1.png",
+      "sha256": "1f1f4b2ff527c975727a214382585882a126689c5d13075125c9264b993fb7ce"
+    }
+  ],
+  "reviewStatus": "illustration candidate; awaiting user feedback"
+}

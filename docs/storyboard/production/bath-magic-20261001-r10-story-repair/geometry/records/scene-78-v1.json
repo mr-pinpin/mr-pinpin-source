@@ -1,0 +1,50 @@
+{
+  "tool": "image_gen__imagegen",
+  "sourceOutput": "/Users/miguel_lemos/.codex/generated_images/01a0f5c3-a7d1-70d0-b8cf-581aa5deee53/exec-1019343f-44ae-4707-ac41-3533557045a3.png",
+  "generatedAt": "2026-10-01T20:21:21.029970+00:00",
+  "promptPath": "prompts/scene-78-v1.txt",
+  "references": [
+    "/Users/miguel_lemos/.codex/generated_images/01a0f5c3-a7d1-70d0-b8cf-581aa5deee53/exec-67a3d804-fca0-4a08-a40f-9938c36f3b37.png",
+    "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r10-story-repair/geometry/preproduction/giant-plant-lineup-v1.png",
+    "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r8-herculean/preproduction/duck-pool-v2.png"
+  ],
+  "visualReview": "Inspected native output: full-size four-leaf plant, all four family and exactly two adult plus ten small ducks. Candidate retained but existing front door needs reopening behind family so channel route remains unobstructed.",
+  "promptSha256": "0ed94c534338a70eb48d89b698e710f2cd7c1e0d4581930e6fa11b97b128509e",
+  "master": {
+    "path": "masters/scene-78-v1.png",
+    "sha256": "cee54d36875b747484e629a0404434d94c043b75313414c723381d6e57793fbd",
+    "bytes": 2822979
+  },
+  "referenceIdentities": [
+    {
+      "path": "/Users/miguel_lemos/.codex/generated_images/01a0f5c3-a7d1-70d0-b8cf-581aa5deee53/exec-67a3d804-fca0-4a08-a40f-9938c36f3b37.png",
+      "sha256": "54a7cf7794f59c0141435194a886083487764c6c489d3c80cfa9a704d96e74b8",
+      "bytes": 2783287
+    },
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r10-story-repair/geometry/preproduction/giant-plant-lineup-v1.png",
+      "sha256": "1f1f4b2ff527c975727a214382585882a126689c5d13075125c9264b993fb7ce",
+      "bytes": 2231755
+    },
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r8-herculean/preproduction/duck-pool-v2.png",
+      "sha256": "9c7d6a0dcc08908c8913ffd4815cab055710c62ec6b4a6f266a860c27dc8ad26",
+      "bytes": 1950321
+    }
+  ],
+  "preservedReferences": [
+    {
+      "path": "references/inputs/54a7cf7794f5/exec-67a3d804-fca0-4a08-a40f-9938c36f3b37.png",
+      "sha256": "54a7cf7794f59c0141435194a886083487764c6c489d3c80cfa9a704d96e74b8"
+    },
+    {
+      "path": "references/inputs/1f1f4b2ff527/giant-plant-lineup-v1.png",
+      "sha256": "1f1f4b2ff527c975727a214382585882a126689c5d13075125c9264b993fb7ce"
+    },
+    {
+      "path": "references/inputs/9c7d6a0dcc08/duck-pool-v2.png",
+      "sha256": "9c7d6a0dcc08908c8913ffd4815cab055710c62ec6b4a6f266a860c27dc8ad26"
+    }
+  ],
+  "reviewStatus": "illustration candidate; awaiting user feedback"
+}

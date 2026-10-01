@@ -1,0 +1,56 @@
+{
+  "tool": "image_gen__imagegen",
+  "sourceOutput": "/Users/miguel_lemos/.codex/generated_images/01a0f5c3-a7d1-70d0-b8cf-581aa5deee53/exec-f21c9433-696b-458b-b637-92f18163465f.png",
+  "generatedAt": "2026-10-01T20:10:25.714790+00:00",
+  "promptPath": "prompts/scene-73c-v1.txt",
+  "references": [
+    "/Users/miguel_lemos/.codex/generated_images/01a0f5c3-a7d1-70d0-b8cf-581aa5deee53/exec-4268229a-6592-4bf6-b024-0ca69b466a99.png",
+    "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r10-story-repair/geometry/preproduction/giant-plant-lineup-v1.png"
+  ],
+  "visualReview": "Passed: all four identities separate, mature plant remains big, shared physical work. Channel visible beside pot rather than beneath cloth; settled corner established for breakfast.",
+  "promptSha256": "948bf64e18001398b76fbe273084664426a8dc25c604dbcaac88ccf155dd27f7",
+  "master": {
+    "path": "masters/scene-73c-v1.png",
+    "sha256": "d4910aecc73e3453d02e37ab09bcae81e3e1f9c63761c95f7552dd4832505fd3",
+    "bytes": 2331607
+  },
+  "referenceIdentities": [
+    {
+      "path": "/Users/miguel_lemos/.codex/generated_images/01a0f5c3-a7d1-70d0-b8cf-581aa5deee53/exec-4268229a-6592-4bf6-b024-0ca69b466a99.png",
+      "sha256": "3d1f90058e778d05dae4498d4a8908ef68a563b5731cb9833af2fde949a53384",
+      "bytes": 2413143
+    },
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r10-story-repair/geometry/preproduction/giant-plant-lineup-v1.png",
+      "sha256": "1f1f4b2ff527c975727a214382585882a126689c5d13075125c9264b993fb7ce",
+      "bytes": 2231755
+    }
+  ],
+  "preservedReferences": [
+    {
+      "path": "references/inputs/3d1f90058e77/exec-4268229a-6592-4bf6-b024-0ca69b466a99.png",
+      "sha256": "3d1f90058e778d05dae4498d4a8908ef68a563b5731cb9833af2fde949a53384"
+    },
+    {
+      "path": "references/inputs/1f1f4b2ff527/giant-plant-lineup-v1.png",
+      "sha256": "1f1f4b2ff527c975727a214382585882a126689c5d13075125c9264b993fb7ce"
+    }
+  ],
+  "reviewStatus": "illustration candidate; awaiting user feedback",
+  "web": {
+    "path": "web/scene-73c.webp",
+    "sha256": "2227bb7d2a97ce15574f4a57788b27bef59fde8c17d035a01770d75e0c38afb8",
+    "bytes": 389964
+  },
+  "dimensions": [
+    1536,
+    1024
+  ],
+  "conversion": {
+    "format": "WebP",
+    "quality": 94,
+    "method": 6,
+    "resized": false,
+    "artEdited": false
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "tool": "image_gen__imagegen",
+  "generatedAt": "2026-10-01T20:09:40.887Z",
+  "sourceOutput": "/Users/miguel_lemos/.codex/generated_images/01a0be6f-b832-7d93-95df-9d2ff5f69dc1/exec-706d8c8f-60d8-4dfa-83cd-1e9199f1f1ee.png",
+  "promptPath": "prompts/scene-115-v1.txt",
+  "references": [
+    "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r10-story-repair/root/masters/scene-57-v1.png",
+    "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r8-herculean/reused/web/scene-36.webp",
+    "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r10-story-repair/geometry/preproduction/giant-plant-lineup-v1.png"
+  ],
+  "visualReview": "Viewed native output: Mama kneeling and child on a stable step have connected eyelines and distinct limbs, fullsize tub/source/ring/aqueduct retained. Baby with Papa offscreen. Selected two-shot establishing final experiment.",
+  "promptSha256": "741297188f23f45591a28aee74b416c66713b215b8a62e43262a67e66878839e",
+  "master": {
+    "path": "masters/scene-115-v1.png",
+    "sha256": "d50e5f8becd9bee0c94550508e266a33dd0b3f05318fbd6aafed290e7fe80f06",
+    "bytes": 2472496
+  },
+  "referenceIdentities": [
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r10-story-repair/root/masters/scene-57-v1.png",
+      "sha256": "db75e9f5d16c29f7f2062127c560fcdef043bbe2874cac3eafd81ff614159545",
+      "bytes": 2529365
+    },
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r8-herculean/reused/web/scene-36.webp",
+      "sha256": "3514dd69f82191d94de6b4602cca2535b4a14af538b9dbd28791d12d0b092068",
+      "bytes": 451164
+    },
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r10-story-repair/geometry/preproduction/giant-plant-lineup-v1.png",
+      "sha256": "1f1f4b2ff527c975727a214382585882a126689c5d13075125c9264b993fb7ce",
+      "bytes": 2231755
+    }
+  ],
+  "preservedReferences": [
+    {
+      "path": "references/inputs/db75e9f5d16c/scene-57-v1.png",
+      "sha256": "db75e9f5d16c29f7f2062127c560fcdef043bbe2874cac3eafd81ff614159545"
+    },
+    {
+      "path": "references/inputs/3514dd69f821/scene-36.webp",
+      "sha256": "3514dd69f82191d94de6b4602cca2535b4a14af538b9dbd28791d12d0b092068"
+    },
+    {
+      "path": "references/inputs/1f1f4b2ff527/giant-plant-lineup-v1.png",
+      "sha256": "1f1f4b2ff527c975727a214382585882a126689c5d13075125c9264b993fb7ce"
+    }
+  ],
+  "reviewStatus": "illustration candidate; awaiting user feedback",
+  "web": {
+    "path": "web/scene-115.webp",
+    "sha256": "0525754b52fbdaeb07e39790f8d5ba05d6f26bdb4972879b5c44adb12c06c02e",
+    "bytes": 433174
+  },
+  "dimensions": [
+    1536,
+    1024
+  ],
+  "conversion": {
+    "format": "WebP",
+    "quality": 94,
+    "method": 6,
+    "resized": false,
+    "artEdited": false
+  }
+}

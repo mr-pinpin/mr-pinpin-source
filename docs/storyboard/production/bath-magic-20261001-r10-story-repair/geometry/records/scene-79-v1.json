@@ -1,0 +1,46 @@
+{
+  "tool": "image_gen__imagegen",
+  "sourceOutput": "/Users/miguel_lemos/.codex/generated_images/01a0f5c3-a7d1-70d0-b8cf-581aa5deee53/exec-9ce71365-f996-46db-b49c-85a6a895238c.png",
+  "generatedAt": "2026-10-01T20:25:44.403734+00:00",
+  "promptPath": "prompts/scene-79-v1.txt",
+  "references": [
+    "/Users/miguel_lemos/.codex/generated_images/01a0f5c3-a7d1-70d0-b8cf-581aa5deee53/exec-b6dba869-a6f2-41fe-97ef-e7f909cbdf83.png"
+  ],
+  "visualReview": "Inspected native output. Plant safely landed outside with same four-leaf pink-flower design and large pot. Papa upright adult; Mama securely holds infant; child at open threshold. Twelve ducks counted: two adults and ten smaller. Channel outlet retained, wet petals make clear transition to scene79a. Child gestures toward plant from threshold rather than looking fully inside; acceptable narrative variant, no casting.",
+  "promptSha256": "82d68e6237cd75b1b40ed5a16008c182bc5a10e2ff938989de0899093762d83c",
+  "master": {
+    "path": "masters/scene-79-v1.png",
+    "sha256": "9ddb66f0c48ab140bf1338e711d824f63df8f7d255100ba3ffb18ad4535844cc",
+    "bytes": 2784976
+  },
+  "referenceIdentities": [
+    {
+      "path": "/Users/miguel_lemos/.codex/generated_images/01a0f5c3-a7d1-70d0-b8cf-581aa5deee53/exec-b6dba869-a6f2-41fe-97ef-e7f909cbdf83.png",
+      "sha256": "64da8ce2dafc728fe7a82a5c25cf3ddf16948c8e1e06ad46725c3a1f54a61ceb",
+      "bytes": 2761961
+    }
+  ],
+  "preservedReferences": [
+    {
+      "path": "references/inputs/64da8ce2dafc/exec-b6dba869-a6f2-41fe-97ef-e7f909cbdf83.png",
+      "sha256": "64da8ce2dafc728fe7a82a5c25cf3ddf16948c8e1e06ad46725c3a1f54a61ceb"
+    }
+  ],
+  "reviewStatus": "illustration candidate; awaiting user feedback",
+  "web": {
+    "path": "web/scene-79.webp",
+    "sha256": "99c7d5020299282c4520e3d5bee194a7797d74e66513d4dab513a9da0fd168b9",
+    "bytes": 535806
+  },
+  "dimensions": [
+    1536,
+    1024
+  ],
+  "conversion": {
+    "format": "WebP",
+    "quality": 94,
+    "method": 6,
+    "resized": false,
+    "artEdited": false
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "tool": "image_gen__imagegen",
+  "sourceOutput": "/Users/miguel_lemos/.codex/generated_images/01a0f5c3-a7d1-70d0-b8cf-581aa5deee53/exec-a42bff6f-09d5-43da-bbba-4136380ab03d.png",
+  "generatedAt": "2026-10-01T20:13:28.051206+00:00",
+  "promptPath": "prompts/scene-74-v1.txt",
+  "references": [
+    "/Users/miguel_lemos/.codex/generated_images/01a0f5c3-a7d1-70d0-b8cf-581aa5deee53/exec-f21c9433-696b-458b-b637-92f18163465f.png",
+    "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r10-story-repair/geometry/preproduction/giant-plant-lineup-v1.png",
+    "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r8-herculean/geometry/web/scene-74.webp"
+  ],
+  "visualReview": "Passed: same settled corner plant and visible aqueduct, all four family identities, Mama infant support or highchair, active breakfast. Leaf lifting/passing plate in74 and thoughtful move-out decision in75.",
+  "promptSha256": "497d7d2738944d741e52d837418f51d1b25a41fe82d1ab8e6e3e8d602c3fec8d",
+  "master": {
+    "path": "masters/scene-74-v1.png",
+    "sha256": "6137a678e112f5a1cd151ae5990cbdb32eff607b4c1c560d4b3d16950863bfd4",
+    "bytes": 2371706
+  },
+  "referenceIdentities": [
+    {
+      "path": "/Users/miguel_lemos/.codex/generated_images/01a0f5c3-a7d1-70d0-b8cf-581aa5deee53/exec-f21c9433-696b-458b-b637-92f18163465f.png",
+      "sha256": "d4910aecc73e3453d02e37ab09bcae81e3e1f9c63761c95f7552dd4832505fd3",
+      "bytes": 2331607
+    },
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r10-story-repair/geometry/preproduction/giant-plant-lineup-v1.png",
+      "sha256": "1f1f4b2ff527c975727a214382585882a126689c5d13075125c9264b993fb7ce",
+      "bytes": 2231755
+    },
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r8-herculean/geometry/web/scene-74.webp",
+      "sha256": "a105cd2d48d68b4e86fb2166808fed7b0510f272ff4f43a58bf07ae1562bf3ca",
+      "bytes": 497336
+    }
+  ],
+  "preservedReferences": [
+    {
+      "path": "references/inputs/d4910aecc73e/exec-f21c9433-696b-458b-b637-92f18163465f.png",
+      "sha256": "d4910aecc73e3453d02e37ab09bcae81e3e1f9c63761c95f7552dd4832505fd3"
+    },
+    {
+      "path": "references/inputs/1f1f4b2ff527/giant-plant-lineup-v1.png",
+      "sha256": "1f1f4b2ff527c975727a214382585882a126689c5d13075125c9264b993fb7ce"
+    },
+    {
+      "path": "references/inputs/a105cd2d48d6/scene-74.webp",
+      "sha256": "a105cd2d48d68b4e86fb2166808fed7b0510f272ff4f43a58bf07ae1562bf3ca"
+    }
+  ],
+  "reviewStatus": "illustration candidate; awaiting user feedback",
+  "web": {
+    "path": "web/scene-74.webp",
+    "sha256": "cc84b2c21549ea201ab9860c812dbb82aea9b12216964370e166ec4d0e595bc0",
+    "bytes": 407810
+  },
+  "dimensions": [
+    1536,
+    1024
+  ],
+  "conversion": {
+    "format": "WebP",
+    "quality": 94,
+    "method": 6,
+    "resized": false,
+    "artEdited": false
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "tool": "image_gen__imagegen",
+  "generatedAt": "2026-10-01T20:02:02.264Z",
+  "sourceOutput": "/Users/miguel_lemos/.codex/generated_images/01a0f5c0-64db-7310-817a-d73d15314908/exec-5105a58f-eafd-4036-8784-cc298ba87bbb.png",
+  "promptPath": "prompts/scene-19a-v1.txt",
+  "references": [
+    "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r8-herculean/reused/masters/scene-36/scene-36-v2.png",
+    "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r8-herculean/reused/masters/scene-20/scene-20-v1.png"
+  ],
+  "visualReview": {
+    "status": "passed-for-draft",
+    "notes": "Three separate peeking faces, infant visibly cradled by Mama; gutters absent before construction; original bath-door camera retained."
+  },
+  "promptSha256": "615d7c8e206ff8db1a800c93e0d68c7a1392b47ac37cc818a93c305f75f5a2f4",
+  "master": {
+    "path": "masters/scene-19a-v1.png",
+    "sha256": "d5790806d80daa70d19d665e9c47a6a481de4bdb86c179d878da65cb1fdb848f",
+    "bytes": 2423744
+  },
+  "referenceIdentities": [
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r8-herculean/reused/masters/scene-36/scene-36-v2.png",
+      "sha256": "e9a80565ecd823bd11e9e55217d0d8ea7bc37688e1bd945047041f8af3f164e3",
+      "bytes": 2490201
+    },
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r8-herculean/reused/masters/scene-20/scene-20-v1.png",
+      "sha256": "4fe5be0a61ba76dbde27699b3df5dcb42996d5bf187dd3be4b239ec6983aa9a7",
+      "bytes": 2636607
+    }
+  ],
+  "preservedReferences": [
+    {
+      "path": "references/inputs/e9a80565ecd8/scene-36-v2.png",
+      "sha256": "e9a80565ecd823bd11e9e55217d0d8ea7bc37688e1bd945047041f8af3f164e3"
+    },
+    {
+      "path": "references/inputs/4fe5be0a61ba/scene-20-v1.png",
+      "sha256": "4fe5be0a61ba76dbde27699b3df5dcb42996d5bf187dd3be4b239ec6983aa9a7"
+    }
+  ],
+  "reviewStatus": "illustration candidate; awaiting user feedback",
+  "web": {
+    "path": "web/scene-19a.webp",
+    "sha256": "34eecc05dd546906c99d9a8c656225e4f0b65c1b606c922b577398777f0aa946",
+    "bytes": 434222
+  },
+  "dimensions": [
+    1536,
+    1024
+  ],
+  "conversion": {
+    "format": "WebP",
+    "quality": 94,
+    "method": 6,
+    "resized": false,
+    "artEdited": false
+  }
+}

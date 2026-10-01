@@ -1,0 +1,59 @@
+{
+  "tool": "image_gen__imagegen",
+  "generatedAt": "2026-10-01T20:11:07.987Z",
+  "sourceOutput": "/Users/miguel_lemos/.codex/generated_images/01a0f5c0-64db-7310-817a-d73d15314908/exec-5c8d58a9-8a02-47f6-a158-f38c155c4d67.png",
+  "promptPath": "prompts/scene-62b-v1.txt",
+  "references": [
+    "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r8-herculean/reused/masters/scene-37/scene-37-v2.png",
+    "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r8-herculean/geometry/masters/scene-62-v1.png"
+  ],
+  "visualReview": {
+    "status": "passed-for-draft",
+    "notes": "Single duck faces garden along current; adult Papa and smaller PinPin follow on dry side, room layout retained."
+  },
+  "promptSha256": "c6f9cb722f2ecd6f2d9caf8bdf11c2d0b01b62d47b2caadc85cd8b5dac99e15f",
+  "master": {
+    "path": "masters/scene-62b-v1.png",
+    "sha256": "3f6f8fd32d554d3d63d85f0bf023293aab5a770e70b2ee2c188e1100c10d96fd",
+    "bytes": 2336125
+  },
+  "referenceIdentities": [
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r8-herculean/reused/masters/scene-37/scene-37-v2.png",
+      "sha256": "8a1c77204804fa78cb902beac5a345560582d11b7c15f3acb0977f0d4ea2a04b",
+      "bytes": 2344179
+    },
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r8-herculean/geometry/masters/scene-62-v1.png",
+      "sha256": "a1b1492daa0dc86106855537fcb55e0f5e47f6b5b69717e478675ba938e4e9d6",
+      "bytes": 2345803
+    }
+  ],
+  "preservedReferences": [
+    {
+      "path": "references/inputs/8a1c77204804/scene-37-v2.png",
+      "sha256": "8a1c77204804fa78cb902beac5a345560582d11b7c15f3acb0977f0d4ea2a04b"
+    },
+    {
+      "path": "references/inputs/a1b1492daa0d/scene-62-v1.png",
+      "sha256": "a1b1492daa0dc86106855537fcb55e0f5e47f6b5b69717e478675ba938e4e9d6"
+    }
+  ],
+  "reviewStatus": "illustration candidate; awaiting user feedback",
+  "web": {
+    "path": "web/scene-62b.webp",
+    "sha256": "564a270ce63a7f6870edefa22b099153b8bd2dd401563085c353529c6717c0de",
+    "bytes": 390638
+  },
+  "dimensions": [
+    1536,
+    1024
+  ],
+  "conversion": {
+    "format": "WebP",
+    "quality": 94,
+    "method": 6,
+    "resized": false,
+    "artEdited": false
+  }
+}

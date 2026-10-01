@@ -1,0 +1,56 @@
+{
+  "tool": "image_gen__imagegen",
+  "generatedAt": "2026-10-01T20:12:18.874Z",
+  "sourceOutput": "/Users/miguel_lemos/.codex/generated_images/01a0be6f-b832-7d93-95df-9d2ff5f69dc1/exec-0f1a33ec-3d88-47e8-9d15-1a8976909ddb.png",
+  "promptPath": "prompts/scene-117-v1.txt",
+  "references": [
+    "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r10-story-repair/root/masters/scene-115-v1.png",
+    "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r10-story-repair/root/masters/scene-87-v1.png"
+  ],
+  "visualReview": "Viewed native output: insert across fullsize wooden tub, much thinner shorter source compared to baseline, partial gesture paw visible naturally entering frame; ring still active. Selected test-detail shot.",
+  "promptSha256": "6349a48a3b1ce64c29d5573b9d34d9668cf9141786969a79c78f022a49ed7bd4",
+  "master": {
+    "path": "masters/scene-117-v1.png",
+    "sha256": "4ef9886b93d9ced3559e9197cf5193d4a4f8d7b68e9fde199892f9cda23a7f94",
+    "bytes": 2126793
+  },
+  "referenceIdentities": [
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r10-story-repair/root/masters/scene-115-v1.png",
+      "sha256": "d50e5f8becd9bee0c94550508e266a33dd0b3f05318fbd6aafed290e7fe80f06",
+      "bytes": 2472496
+    },
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r10-story-repair/root/masters/scene-87-v1.png",
+      "sha256": "fb4985ae2ce4fe7171d8247cc2ef957d8a96d4f552dae4574837b7c094206c32",
+      "bytes": 2329744
+    }
+  ],
+  "preservedReferences": [
+    {
+      "path": "references/inputs/d50e5f8becd9/scene-115-v1.png",
+      "sha256": "d50e5f8becd9bee0c94550508e266a33dd0b3f05318fbd6aafed290e7fe80f06"
+    },
+    {
+      "path": "references/inputs/fb4985ae2ce4/scene-87-v1.png",
+      "sha256": "fb4985ae2ce4fe7171d8247cc2ef957d8a96d4f552dae4574837b7c094206c32"
+    }
+  ],
+  "reviewStatus": "illustration candidate; awaiting user feedback",
+  "web": {
+    "path": "web/scene-117.webp",
+    "sha256": "e6fdd05e24bc99b2151d865621515c59cae9a7607cf5b91b471febe012a64afb",
+    "bytes": 329462
+  },
+  "dimensions": [
+    1536,
+    1024
+  ],
+  "conversion": {
+    "format": "WebP",
+    "quality": 94,
+    "method": 6,
+    "resized": false,
+    "artEdited": false
+  }
+}

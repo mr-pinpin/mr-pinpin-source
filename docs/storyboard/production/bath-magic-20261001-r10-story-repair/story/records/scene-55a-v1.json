@@ -1,0 +1,49 @@
+{
+  "tool": "image_gen__imagegen",
+  "generatedAt": "2026-10-01T20:07:26.062Z",
+  "sourceOutput": "/Users/miguel_lemos/.codex/generated_images/01a0f5c0-64db-7310-817a-d73d15314908/exec-9eeb32d6-acf0-47e2-bb32-ffb47db4895f.png",
+  "promptPath": "prompts/scene-55a-v1.txt",
+  "references": [
+    "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r8-herculean/geometry/masters/scene-55-v1.png"
+  ],
+  "visualReview": {
+    "status": "passed-for-draft",
+    "notes": "Four separate family members share berries/porridge; Mama offers spoon to baby in highchair, Papa and child eat, normal round table."
+  },
+  "promptSha256": "33be79b4f7174cef2e6de92db7eb412ac29a3f6097a90c754cd458b95ef8b73c",
+  "master": {
+    "path": "masters/scene-55a-v1.png",
+    "sha256": "904e1f9f21351c0545194f80d407a8fd28b0f5f834e4d3310af78b8fb857810e",
+    "bytes": 2566788
+  },
+  "referenceIdentities": [
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r8-herculean/geometry/masters/scene-55-v1.png",
+      "sha256": "a90ce7eab6fed7790217f638a7d84a4d3f2ea059c232cf2e4e495b814bbd6b43",
+      "bytes": 2630967
+    }
+  ],
+  "preservedReferences": [
+    {
+      "path": "references/inputs/a90ce7eab6fe/scene-55-v1.png",
+      "sha256": "a90ce7eab6fed7790217f638a7d84a4d3f2ea059c232cf2e4e495b814bbd6b43"
+    }
+  ],
+  "reviewStatus": "illustration candidate; awaiting user feedback",
+  "web": {
+    "path": "web/scene-55a.webp",
+    "sha256": "c0d9e30d9aa956a861b66ef59e3207036d62e757c6a9e87cdaf295dc8c20040f",
+    "bytes": 468016
+  },
+  "dimensions": [
+    1536,
+    1024
+  ],
+  "conversion": {
+    "format": "WebP",
+    "quality": 94,
+    "method": 6,
+    "resized": false,
+    "artEdited": false
+  }
+}

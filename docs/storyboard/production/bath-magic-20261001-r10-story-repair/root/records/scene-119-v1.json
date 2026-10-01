@@ -1,0 +1,56 @@
+{
+  "tool": "image_gen__imagegen",
+  "generatedAt": "2026-10-01T20:20:27.669Z",
+  "sourceOutput": "/Users/miguel_lemos/.codex/generated_images/01a0be6f-b832-7d93-95df-9d2ff5f69dc1/exec-5820fbbc-c02b-443a-8010-1b0fb8b6780f.png",
+  "promptPath": "prompts/scene-119-v1.txt",
+  "references": [
+    "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r10-story-repair/root/masters/scene-116-v1.png",
+    "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r10-story-repair/root/masters/scene-115-v1.png"
+  ],
+  "visualReview": "Viewed: connected arms and supported child, complete reverse gesture, full-size bath and gutter, diminishing source.",
+  "promptSha256": "de5b0ddac5b8f98df2ef3120839a11804bfaf7ea80d5994aed1cc09d473beb1c",
+  "master": {
+    "path": "masters/scene-119-v1.png",
+    "sha256": "4c91ddf6d8edc959aacf4fa94cee50080868c256dd8c206172872604b8ef60c8",
+    "bytes": 2416638
+  },
+  "referenceIdentities": [
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r10-story-repair/root/masters/scene-116-v1.png",
+      "sha256": "45d9b3b11d95be583bbac78df11970c6d194903f00091c673d0fce61d975eeed",
+      "bytes": 2247342
+    },
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r10-story-repair/root/masters/scene-115-v1.png",
+      "sha256": "d50e5f8becd9bee0c94550508e266a33dd0b3f05318fbd6aafed290e7fe80f06",
+      "bytes": 2472496
+    }
+  ],
+  "preservedReferences": [
+    {
+      "path": "references/inputs/45d9b3b11d95/scene-116-v1.png",
+      "sha256": "45d9b3b11d95be583bbac78df11970c6d194903f00091c673d0fce61d975eeed"
+    },
+    {
+      "path": "references/inputs/d50e5f8becd9/scene-115-v1.png",
+      "sha256": "d50e5f8becd9bee0c94550508e266a33dd0b3f05318fbd6aafed290e7fe80f06"
+    }
+  ],
+  "reviewStatus": "illustration candidate; awaiting user feedback",
+  "web": {
+    "path": "web/scene-119.webp",
+    "sha256": "8a54b424cdd6fbc7d788c2491af386d06dd9c4dff73c7cf154ebc002a311136f",
+    "bytes": 424846
+  },
+  "dimensions": [
+    1536,
+    1024
+  ],
+  "conversion": {
+    "format": "WebP",
+    "quality": 94,
+    "method": 6,
+    "resized": false,
+    "artEdited": false
+  }
+}

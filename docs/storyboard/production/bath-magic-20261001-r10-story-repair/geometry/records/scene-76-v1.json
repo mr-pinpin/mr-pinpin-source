@@ -1,0 +1,40 @@
+{
+  "tool": "image_gen__imagegen",
+  "sourceOutput": "/Users/miguel_lemos/.codex/generated_images/01a0f5c3-a7d1-70d0-b8cf-581aa5deee53/exec-7e742541-656a-4613-9c25-e32a4a39a057.png",
+  "generatedAt": "2026-10-01T20:16:43.430051+00:00",
+  "promptPath": "prompts/scene-76-v1.txt",
+  "references": [
+    "/Users/miguel_lemos/.codex/generated_images/01a0f5c3-a7d1-70d0-b8cf-581aa5deee53/exec-a65c0742-1579-4389-be3e-1555849ae8ee.png",
+    "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r10-story-repair/geometry/preproduction/giant-plant-lineup-v1.png"
+  ],
+  "visualReview": "Papa and PinPin both physically support pot; adult/child sizes and giantplant stable; Mama holdsbaby and door. Held for short gutter continuity repair near doorway.",
+  "promptSha256": "92dad5b901f8e42393f02d2274a71a645950442b52ec41535575bed8a8570fba",
+  "master": {
+    "path": "masters/scene-76-v1.png",
+    "sha256": "84ee937a99197a48053c52f534aaadbf621f4a889874045d739d53706118e5ab",
+    "bytes": 2435327
+  },
+  "referenceIdentities": [
+    {
+      "path": "/Users/miguel_lemos/.codex/generated_images/01a0f5c3-a7d1-70d0-b8cf-581aa5deee53/exec-a65c0742-1579-4389-be3e-1555849ae8ee.png",
+      "sha256": "b585988a82f02af5072fb516ce0b2296ece11ee5030894e84a432575122dc0f8",
+      "bytes": 2389966
+    },
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r10-story-repair/geometry/preproduction/giant-plant-lineup-v1.png",
+      "sha256": "1f1f4b2ff527c975727a214382585882a126689c5d13075125c9264b993fb7ce",
+      "bytes": 2231755
+    }
+  ],
+  "preservedReferences": [
+    {
+      "path": "references/inputs/b585988a82f0/exec-a65c0742-1579-4389-be3e-1555849ae8ee.png",
+      "sha256": "b585988a82f02af5072fb516ce0b2296ece11ee5030894e84a432575122dc0f8"
+    },
+    {
+      "path": "references/inputs/1f1f4b2ff527/giant-plant-lineup-v1.png",
+      "sha256": "1f1f4b2ff527c975727a214382585882a126689c5d13075125c9264b993fb7ce"
+    }
+  ],
+  "reviewStatus": "illustration candidate; awaiting user feedback"
+}

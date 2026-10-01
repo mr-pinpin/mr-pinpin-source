@@ -1,0 +1,59 @@
+{
+  "tool": "image_gen__imagegen",
+  "generatedAt": "2026-10-01T20:11:07.987Z",
+  "sourceOutput": "/Users/miguel_lemos/.codex/generated_images/01a0f5c0-64db-7310-817a-d73d15314908/exec-37d0db43-622b-49c5-9974-ec05f2b1494d.png",
+  "promptPath": "prompts/scene-62c-v1.txt",
+  "references": [
+    "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r8-herculean/geometry/masters/scene-64-v1.png",
+    "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r8-herculean/geometry/masters/scene-62-v1.png"
+  ],
+  "visualReview": {
+    "status": "passed-for-draft",
+    "notes": "Duck reaches existing outlet toward outdoor basket before Papa catch; one duck, correct downstream orientation."
+  },
+  "promptSha256": "aa6c98494eac186ba0c84e5899394b1a4b80e391bc3e39aea6938f434560d600",
+  "master": {
+    "path": "masters/scene-62c-v1.png",
+    "sha256": "ac45172f8be342b189c02d0c6010dcf790b96fed3dd54acf2f361bd4f7d08dae",
+    "bytes": 2487613
+  },
+  "referenceIdentities": [
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r8-herculean/geometry/masters/scene-64-v1.png",
+      "sha256": "19b308ba69d1879bdc27023b464f7090650b3be2cf5ee6b9ed14f2ae4fd40b6a",
+      "bytes": 2683624
+    },
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r8-herculean/geometry/masters/scene-62-v1.png",
+      "sha256": "a1b1492daa0dc86106855537fcb55e0f5e47f6b5b69717e478675ba938e4e9d6",
+      "bytes": 2345803
+    }
+  ],
+  "preservedReferences": [
+    {
+      "path": "references/inputs/19b308ba69d1/scene-64-v1.png",
+      "sha256": "19b308ba69d1879bdc27023b464f7090650b3be2cf5ee6b9ed14f2ae4fd40b6a"
+    },
+    {
+      "path": "references/inputs/a1b1492daa0d/scene-62-v1.png",
+      "sha256": "a1b1492daa0dc86106855537fcb55e0f5e47f6b5b69717e478675ba938e4e9d6"
+    }
+  ],
+  "reviewStatus": "illustration candidate; awaiting user feedback",
+  "web": {
+    "path": "web/scene-62c.webp",
+    "sha256": "8299ed6b1af749328c8bcbd933f2ec1dbf2b6db9fc18a0a0ec1765f7f7dac63b",
+    "bytes": 434674
+  },
+  "dimensions": [
+    1536,
+    1024
+  ],
+  "conversion": {
+    "format": "WebP",
+    "quality": 94,
+    "method": 6,
+    "resized": false,
+    "artEdited": false
+  }
+}
