@@ -1,0 +1,47 @@
+{
+  "time": "2026-10-01T15:15:20.057Z",
+  "url": "http://127.0.0.1:18796/storyboard/review/bath-magic-r4.html",
+  "stage": "preproduction",
+  "sourceHashes": {
+    "story-plan.json": "ca2f1c6a31a8acf3ff753a59b20fdfdfca0e66aed0e79e39e0241e3359637d5a",
+    "media.json": "91045b14aa6bc0a6c55f599db97cf7c3a95fbbcd63346b09841daa0c909e6705",
+    "check-reader.cjs": "bab2fcc4758404dfbe9d206aec6b32a582bc21881d27c5881d31426f503f482e",
+    "preview/docs/storyboard/review/bath-magic-r4.html": "b5483adcb4099d341e02b4312de60838d51514e9478bfd3b0450bc792209416e",
+    "preview/docs/storyboard/review/bath-magic-r4.css": "14a17796794d7ff7207b7830444977c52491233f3dd53258155fcee78975893f",
+    "preview/docs/storyboard/review/bath-magic-r4.js": "c86c6f82460d5d90da55195e1b6440e6db57ea0296faa917ac22174356358c4f"
+  },
+  "checks": [
+    {
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "scenes": 80,
+      "days": 4,
+      "studyDecoded": true,
+      "finishedSceneImages": 0
+    },
+    {
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "scenes": 80,
+      "days": 4,
+      "studyDecoded": true,
+      "finishedSceneImages": 0
+    },
+    {
+      "viewport": {
+        "width": 320,
+        "height": 740
+      },
+      "scenes": 80,
+      "days": 4,
+      "studyDecoded": true,
+      "finishedSceneImages": 0
+    }
+  ],
+  "errors": [],
+  "passed": true
+}

@@ -1,0 +1,24 @@
+{
+  "tool": "image_gen__imagegen",
+  "generatedAt": "2026-10-01T15:11:06.921Z",
+  "promptPath": "prompts/duck-character-study-v1.txt",
+  "sourceOutput": "/Users/miguel_lemos/.codex/generated_images/01a0be6f-b832-7d93-95df-9d2ff5f69dc1/exec-74ca842d-0afb-4234-bace-a1f6fd80459b.png",
+  "references": [
+    "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r3/web/scene-28.webp"
+  ],
+  "visualReview": "First candidate: plastic material, white/black eyes and soft toy proportions correct. Small molded eyebrows remain; preserve as superseded candidate while v2 removes brow ridges.",
+  "referenceIdentities": [
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r3/web/scene-28.webp",
+      "bytes": 540796,
+      "sha256": "dba864fecd943fde74b6386e57cfc6206bc393e962f6b0d4d2ee0efbe54b199d"
+    }
+  ],
+  "promptSha256": "bbf516a760deb462b9754cae6852a5ace08de0a16700bb75fe13a32371b480c4",
+  "master": {
+    "path": "masters/duck-character-study-v1.png",
+    "bytes": 1594451,
+    "sha256": "04e0b744093a58e2d2b02c15a19086aa8232fea0a9b2ae1de21fe4ec41666a1c"
+  },
+  "approval": "draft-for-review"
+}

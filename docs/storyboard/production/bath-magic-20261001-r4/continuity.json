@@ -1,0 +1,3574 @@
+{
+  "productionId": "bath-magic-20261001-r4",
+  "status": "preproduction continuity targets; no new image claims",
+  "cast": {
+    "PinPin": "older russet-quilled cream-faced hedgehog child; visible irises; capable but tired after repeated chores",
+    "PomPom": "much smaller infant hedgehog; distinct body and supported by parent in water",
+    "Mama": "adult warm russet quills and cream face; varied tender, practical, tired and annoyed expressions",
+    "Papa": "larger adult darker quills, cream face, visible brown irises; playful Day1, later tired and practical",
+    "duck": "small ordinary soft yellow plastic bath toy; white eyes black pupils orange beak; alive only from56, still plastic afterward"
+  },
+  "location": {
+    "canonical": "docs/storyboard/locations/pinpin-house/location.json",
+    "artAnchor": "bath-magic-20261001-r3 scene-28",
+    "channel": "Temporary broad collecting mouth with short spill guides at chosen bath overflow; shallow trough on progressively lower loose supports through existing bath doorway/common circulation/front doorway to garden. Secondary drips remain local, handled with cloths/pails. No alteration to permanent house geometry.",
+    "mat": "Rust braided oval bath rug stays under full tub; smaller blue/cream common mat is a different prop.",
+    "doors": "Bath and front doors propped clear of channel; closed bedroom has rolled splash towel on dry side. Validate real doorway clearances with geometry lane before rendering."
+  },
+  "emotionalArc": {
+    "1": "curiosity, pleasure and family play; then practical work, mild annoyance, weary evening",
+    "2": "routine interrupted; finite lovely flower pause becomes an additional clogging task",
+    "3": "genuine talking-toy surprise; toy ecstatic while family is tired or disbelieving",
+    "4": "careful observation, test, quiet relief and rest rather than applause"
+  },
+  "causalSeed": {
+    "firstObservation": [
+      49,
+      50
+    ],
+    "recollection": [
+      66,
+      67
+    ],
+    "controlledTest": [
+      70,
+      71,
+      72
+    ],
+    "deliberateSolution": [
+      73,
+      74,
+      75
+    ]
+  },
+  "shots": [
+    {
+      "id": "scene-01",
+      "day": 1,
+      "timeOfDay": {
+        "en": "morning",
+        "ru": "утро",
+        "es": "mañana"
+      },
+      "cast": [
+        "PinPin"
+      ],
+      "emotionalBeat": {
+        "en": "attention",
+        "ru": "внимание",
+        "es": "atención"
+      },
+      "state": {
+        "day": 1,
+        "waterSource": "off",
+        "duck": {
+          "material": "ordinary smooth soft yellow plastic; white eyes with black pupils; orange beak; no woodgrain, extra limbs or quills",
+          "living": false,
+          "narrativeRole": "incidental silent bath prop, never hero-framed or mentioned",
+          "location": "incidental in bath or outside crop"
+        },
+        "channel": "not installed",
+        "floorWater": "dry or carry drops",
+        "petals": "none",
+        "bathRug": "large rust braided oval remains under tub; never lifted during this story",
+        "secondaryRug": "separate small blue/cream common-room mat may be raised or hung; never substitute for bath rug",
+        "bedroom": "dry; door closed with rolled-towel splash barrier from32 through77; barrier is not claimed watertight",
+        "babyLocation": "Papa lap or supervised dry chair",
+        "familyBathState": "outside bath",
+        "expressionRule": "Specific scene emotion with individual differences; open smile only for a motivated moment. Fatigue may show lowered shoulders, resting mouth, heavy eyelids or a frown without cruelty.",
+        "measurementStatus": "narrative staging targets, not measured image reconstruction",
+        "doors": {
+          "bath": "according to action",
+          "front": "according to action",
+          "bedroom": "according to action"
+        }
+      },
+      "action": "PinPin sits up in the familiar broad wooden bed, lifting green quilt with both paws; bedroom door already open, breakfast light through opening."
+    },
+    {
+      "id": "scene-02",
+      "day": 1,
+      "timeOfDay": {
+        "en": "morning",
+        "ru": "утро",
+        "es": "mañana"
+      },
+      "cast": [
+        "PinPin",
+        "Mama",
+        "Papa",
+        "PomPom"
+      ],
+      "emotionalBeat": {
+        "en": "attention",
+        "ru": "внимание",
+        "es": "atención"
+      },
+      "state": {
+        "day": 1,
+        "waterSource": "off",
+        "duck": {
+          "material": "ordinary smooth soft yellow plastic; white eyes with black pupils; orange beak; no woodgrain, extra limbs or quills",
+          "living": false,
+          "narrativeRole": "incidental silent bath prop, never hero-framed or mentioned",
+          "location": "incidental in bath or outside crop"
+        },
+        "channel": "not installed",
+        "floorWater": "dry or carry drops",
+        "petals": "none",
+        "bathRug": "large rust braided oval remains under tub; never lifted during this story",
+        "secondaryRug": "separate small blue/cream common-room mat may be raised or hung; never substitute for bath rug",
+        "bedroom": "dry; door closed with rolled-towel splash barrier from32 through77; barrier is not claimed watertight",
+        "babyLocation": "Papa lap or supervised dry chair",
+        "familyBathState": "outside bath",
+        "expressionRule": "Specific scene emotion with individual differences; open smile only for a motivated moment. Fatigue may show lowered shoulders, resting mouth, heavy eyelids or a frown without cruelty.",
+        "measurementStatus": "narrative staging targets, not measured image reconstruction",
+        "doors": {
+          "bath": "according to action",
+          "front": "according to action",
+          "bedroom": "according to action"
+        }
+      },
+      "action": "PinPin enters common room from bedroom; Mama tends closed stove on west side, Papa seated at table holding baby on lap; rounded infant chair visible beside table."
+    },
+    {
+      "id": "scene-03",
+      "day": 1,
+      "timeOfDay": {
+        "en": "morning",
+        "ru": "утро",
+        "es": "mañana"
+      },
+      "cast": [
+        "Mama"
+      ],
+      "emotionalBeat": {
+        "en": "warm attention",
+        "ru": "тёплое внимание",
+        "es": "atención cariñosa"
+      },
+      "state": {
+        "day": 1,
+        "waterSource": "off",
+        "duck": {
+          "material": "ordinary smooth soft yellow plastic; white eyes with black pupils; orange beak; no woodgrain, extra limbs or quills",
+          "living": false,
+          "narrativeRole": "incidental silent bath prop, never hero-framed or mentioned",
+          "location": "incidental in bath or outside crop"
+        },
+        "channel": "not installed",
+        "floorWater": "dry or carry drops",
+        "petals": "none",
+        "bathRug": "large rust braided oval remains under tub; never lifted during this story",
+        "secondaryRug": "separate small blue/cream common-room mat may be raised or hung; never substitute for bath rug",
+        "bedroom": "dry; door closed with rolled-towel splash barrier from32 through77; barrier is not claimed watertight",
+        "babyLocation": "Papa lap or supervised dry chair",
+        "familyBathState": "outside bath",
+        "expressionRule": "Specific scene emotion with individual differences; open smile only for a motivated moment. Fatigue may show lowered shoulders, resting mouth, heavy eyelids or a frown without cruelty.",
+        "measurementStatus": "narrative staging targets, not measured image reconstruction",
+        "doors": {
+          "bath": "according to action",
+          "front": "according to action",
+          "bedroom": "according to action"
+        }
+      },
+      "action": "PinPin's actual low eye-level POV from a safe step away beside west stove: little puffs of porridge steam rise in near foreground, Mama's warm face above them looking gently DOWN DIRECTLY INTO LENS because lens is child. Mama stirs, stove stays closed, no child leaning over hotpot."
+    },
+    {
+      "id": "scene-04",
+      "day": 1,
+      "timeOfDay": {
+        "en": "morning",
+        "ru": "утро",
+        "es": "mañana"
+      },
+      "cast": [
+        "Mama",
+        "PinPin"
+      ],
+      "emotionalBeat": {
+        "en": "attention",
+        "ru": "внимание",
+        "es": "atención"
+      },
+      "state": {
+        "day": 1,
+        "waterSource": "off",
+        "duck": {
+          "material": "ordinary smooth soft yellow plastic; white eyes with black pupils; orange beak; no woodgrain, extra limbs or quills",
+          "living": false,
+          "narrativeRole": "incidental silent bath prop, never hero-framed or mentioned",
+          "location": "incidental in bath or outside crop"
+        },
+        "channel": "not installed",
+        "floorWater": "dry or carry drops",
+        "petals": "none",
+        "bathRug": "large rust braided oval remains under tub; never lifted during this story",
+        "secondaryRug": "separate small blue/cream common-room mat may be raised or hung; never substitute for bath rug",
+        "bedroom": "dry; door closed with rolled-towel splash barrier from32 through77; barrier is not claimed watertight",
+        "babyLocation": "Papa lap or supervised dry chair",
+        "familyBathState": "outside bath",
+        "expressionRule": "Specific scene emotion with individual differences; open smile only for a motivated moment. Fatigue may show lowered shoulders, resting mouth, heavy eyelids or a frown without cruelty.",
+        "measurementStatus": "narrative staging targets, not measured image reconstruction",
+        "doors": {
+          "bath": "according to action",
+          "front": "according to action",
+          "bedroom": "according to action"
+        }
+      },
+      "action": "Mama turns from stove toward PinPin holding empty matched small wooden pails; eye contact, room reference establishes bath opening behind PinPin."
+    },
+    {
+      "id": "scene-05",
+      "day": 1,
+      "timeOfDay": {
+        "en": "morning",
+        "ru": "утро",
+        "es": "mañana"
+      },
+      "cast": [
+        "PinPin"
+      ],
+      "emotionalBeat": {
+        "en": "attention",
+        "ru": "внимание",
+        "es": "atención"
+      },
+      "state": {
+        "day": 1,
+        "waterSource": "off",
+        "duck": {
+          "material": "ordinary smooth soft yellow plastic; white eyes with black pupils; orange beak; no woodgrain, extra limbs or quills",
+          "living": false,
+          "narrativeRole": "incidental silent bath prop, never hero-framed or mentioned",
+          "location": "incidental in bath or outside crop"
+        },
+        "channel": "not installed",
+        "floorWater": "dry or carry drops",
+        "petals": "none",
+        "bathRug": "large rust braided oval remains under tub; never lifted during this story",
+        "secondaryRug": "separate small blue/cream common-room mat may be raised or hung; never substitute for bath rug",
+        "bedroom": "dry; door closed with rolled-towel splash barrier from32 through77; barrier is not claimed watertight",
+        "babyLocation": "Papa lap or supervised dry chair",
+        "familyBathState": "outside bath",
+        "expressionRule": "Specific scene emotion with individual differences; open smile only for a motivated moment. Fatigue may show lowered shoulders, resting mouth, heavy eyelids or a frown without cruelty.",
+        "measurementStatus": "narrative staging targets, not measured image reconstruction",
+        "doors": {
+          "bath": "according to action",
+          "front": "according to action",
+          "bedroom": "according to action"
+        }
+      },
+      "action": "PinPin fills small pail from new lidded clay household water jar with low wooden spigot beside east kitchen counter; second already half-filled on floor. Clearly portable jar, not new built-in plumbing."
+    },
+    {
+      "id": "scene-06",
+      "day": 1,
+      "timeOfDay": {
+        "en": "morning",
+        "ru": "утро",
+        "es": "mañana"
+      },
+      "cast": [
+        "PinPin"
+      ],
+      "emotionalBeat": {
+        "en": "attention",
+        "ru": "внимание",
+        "es": "atención"
+      },
+      "state": {
+        "day": 1,
+        "waterSource": "off",
+        "duck": {
+          "material": "ordinary smooth soft yellow plastic; white eyes with black pupils; orange beak; no woodgrain, extra limbs or quills",
+          "living": false,
+          "narrativeRole": "incidental silent bath prop, never hero-framed or mentioned",
+          "location": "incidental in bath or outside crop"
+        },
+        "channel": "not installed",
+        "floorWater": "dry or carry drops",
+        "petals": "none",
+        "bathRug": "large rust braided oval remains under tub; never lifted during this story",
+        "secondaryRug": "separate small blue/cream common-room mat may be raised or hung; never substitute for bath rug",
+        "bedroom": "dry; door closed with rolled-towel splash barrier from32 through77; barrier is not claimed watertight",
+        "babyLocation": "Papa lap or supervised dry chair",
+        "familyBathState": "outside bath",
+        "expressionRule": "Specific scene emotion with individual differences; open smile only for a motivated moment. Fatigue may show lowered shoulders, resting mouth, heavy eyelids or a frown without cruelty.",
+        "measurementStatus": "narrative staging targets, not measured image reconstruction",
+        "doors": {
+          "bath": "according to action",
+          "front": "according to action",
+          "bedroom": "according to action"
+        }
+      },
+      "action": "Child travels around table toward northwest bath opening, two small half-full pails at sides; only one little splash, no flood. Low tracking angle follows actual route."
+    },
+    {
+      "id": "scene-07",
+      "day": 1,
+      "timeOfDay": {
+        "en": "morning",
+        "ru": "утро",
+        "es": "mañana"
+      },
+      "cast": [
+        "PinPin"
+      ],
+      "emotionalBeat": {
+        "en": "attention",
+        "ru": "внимание",
+        "es": "atención"
+      },
+      "state": {
+        "day": 1,
+        "waterSource": "off",
+        "duck": {
+          "material": "ordinary smooth soft yellow plastic; white eyes with black pupils; orange beak; no woodgrain, extra limbs or quills",
+          "living": false,
+          "narrativeRole": "incidental silent bath prop, never hero-framed or mentioned",
+          "location": "incidental in bath or outside crop"
+        },
+        "channel": "not installed",
+        "floorWater": "dry or carry drops",
+        "petals": "none",
+        "bathRug": "large rust braided oval remains under tub; never lifted during this story",
+        "secondaryRug": "separate small blue/cream common-room mat may be raised or hung; never substitute for bath rug",
+        "bedroom": "dry; door closed with rolled-towel splash barrier from32 through77; barrier is not claimed watertight",
+        "babyLocation": "Papa lap or supervised dry chair",
+        "familyBathState": "outside bath",
+        "expressionRule": "Specific scene emotion with individual differences; open smile only for a motivated moment. Fatigue may show lowered shoulders, resting mouth, heavy eyelids or a frown without cruelty.",
+        "measurementStatus": "narrative staging targets, not measured image reconstruction",
+        "doors": {
+          "bath": "according to action",
+          "front": "according to action",
+          "bedroom": "according to action"
+        }
+      },
+      "action": "PinPin tips the last small wooden pail with two paws over the broad low tub; first empty pail rests on the entry-side floor. A tiny ordinary smooth yellow plastic toy may be incidental at the far edge, never introduced or emphasized."
+    },
+    {
+      "id": "scene-08",
+      "day": 1,
+      "timeOfDay": {
+        "en": "morning",
+        "ru": "утро",
+        "es": "mañana"
+      },
+      "cast": [
+        "PinPin"
+      ],
+      "emotionalBeat": {
+        "en": "attention",
+        "ru": "внимание",
+        "es": "atención"
+      },
+      "state": {
+        "day": 1,
+        "waterSource": "off",
+        "duck": {
+          "material": "ordinary smooth soft yellow plastic; white eyes with black pupils; orange beak; no woodgrain, extra limbs or quills",
+          "living": false,
+          "narrativeRole": "incidental silent bath prop, never hero-framed or mentioned",
+          "location": "incidental in bath or outside crop"
+        },
+        "channel": "not installed",
+        "floorWater": "dry or carry drops",
+        "petals": "none",
+        "bathRug": "large rust braided oval remains under tub; never lifted during this story",
+        "secondaryRug": "separate small blue/cream common-room mat may be raised or hung; never substitute for bath rug",
+        "bedroom": "dry; door closed with rolled-towel splash barrier from32 through77; barrier is not claimed watertight",
+        "babyLocation": "Papa lap or supervised dry chair",
+        "familyBathState": "outside bath",
+        "expressionRule": "Specific scene emotion with individual differences; open smile only for a motivated moment. Fatigue may show lowered shoulders, resting mouth, heavy eyelids or a frown without cruelty.",
+        "measurementStatus": "narrative staging targets, not measured image reconstruction",
+        "doors": {
+          "bath": "according to action",
+          "front": "according to action",
+          "bedroom": "according to action"
+        }
+      },
+      "action": "True child POV: two paws on near wooden rim and flat translucent face reflection in shallow bath. No duck foreground, no named toy focus. Tiny inert toy may be hidden far edge."
+    },
+    {
+      "id": "scene-09",
+      "day": 1,
+      "timeOfDay": {
+        "en": "morning",
+        "ru": "утро",
+        "es": "mañana"
+      },
+      "cast": [
+        "PinPin"
+      ],
+      "emotionalBeat": {
+        "en": "attention",
+        "ru": "внимание",
+        "es": "atención"
+      },
+      "state": {
+        "day": 1,
+        "waterSource": "off",
+        "duck": {
+          "material": "ordinary smooth soft yellow plastic; white eyes with black pupils; orange beak; no woodgrain, extra limbs or quills",
+          "living": false,
+          "narrativeRole": "incidental silent bath prop, never hero-framed or mentioned",
+          "location": "incidental in bath or outside crop"
+        },
+        "channel": "not installed",
+        "floorWater": "dry or carry drops",
+        "petals": "none",
+        "bathRug": "large rust braided oval remains under tub; never lifted during this story",
+        "secondaryRug": "separate small blue/cream common-room mat may be raised or hung; never substitute for bath rug",
+        "bedroom": "dry; door closed with rolled-towel splash barrier from32 through77; barrier is not claimed watertight",
+        "babyLocation": "Papa lap or supervised dry chair",
+        "familyBathState": "outside bath",
+        "expressionRule": "Specific scene emotion with individual differences; open smile only for a motivated moment. Fatigue may show lowered shoulders, resting mouth, heavy eyelids or a frown without cruelty.",
+        "measurementStatus": "narrative staging targets, not measured image reconstruction",
+        "doors": {
+          "bath": "according to action",
+          "front": "according to action",
+          "bedroom": "according to action"
+        }
+      },
+      "action": "PinPin rests both empty pails outside east tub rim and looks between pails and broad bath, body angled toward water, camera includes room to show disproportion."
+    },
+    {
+      "id": "scene-10",
+      "day": 1,
+      "timeOfDay": {
+        "en": "morning",
+        "ru": "утро",
+        "es": "mañana"
+      },
+      "cast": [
+        "PinPin"
+      ],
+      "emotionalBeat": {
+        "en": "attention",
+        "ru": "внимание",
+        "es": "atención"
+      },
+      "state": {
+        "day": 1,
+        "waterSource": "off",
+        "duck": {
+          "material": "ordinary smooth soft yellow plastic; white eyes with black pupils; orange beak; no woodgrain, extra limbs or quills",
+          "living": false,
+          "narrativeRole": "incidental silent bath prop, never hero-framed or mentioned",
+          "location": "incidental in bath or outside crop"
+        },
+        "channel": "not installed",
+        "floorWater": "dry or carry drops",
+        "petals": "none",
+        "bathRug": "large rust braided oval remains under tub; never lifted during this story",
+        "secondaryRug": "separate small blue/cream common-room mat may be raised or hung; never substitute for bath rug",
+        "bedroom": "dry; door closed with rolled-towel splash barrier from32 through77; barrier is not claimed watertight",
+        "babyLocation": "Papa lap or supervised dry chair",
+        "familyBathState": "outside bath",
+        "expressionRule": "Specific scene emotion with individual differences; open smile only for a motivated moment. Fatigue may show lowered shoulders, resting mouth, heavy eyelids or a frown without cruelty.",
+        "measurementStatus": "narrative staging targets, not measured image reconstruction",
+        "doors": {
+          "bath": "according to action",
+          "front": "according to action",
+          "bedroom": "according to action"
+        }
+      },
+      "action": "Warm intimate PinPin face closeup from beside bath at HIS eyeheight; he looks nearly DIRECTLY INTO LENS with a pleased conspiratorial-but-open shared smile, inviting reader to notice his idea. One forepaw lifts thoughtfully in lowerframe. Background bathrim and towels only, no new magic, no extra eyes. Motivated shared-look pause, not a whole chapter of portraits."
+    },
+    {
+      "id": "scene-11",
+      "day": 1,
+      "timeOfDay": {
+        "en": "morning",
+        "ru": "утро",
+        "es": "mañana"
+      },
+      "cast": [
+        "PinPin"
+      ],
+      "emotionalBeat": {
+        "en": "attention",
+        "ru": "внимание",
+        "es": "atención"
+      },
+      "state": {
+        "day": 1,
+        "waterSource": "starting",
+        "duck": {
+          "material": "ordinary smooth soft yellow plastic; white eyes with black pupils; orange beak; no woodgrain, extra limbs or quills",
+          "living": false,
+          "narrativeRole": "incidental silent bath prop, never hero-framed or mentioned",
+          "location": "incidental in bath or outside crop"
+        },
+        "channel": "not installed",
+        "floorWater": "dry or carry drops",
+        "petals": "none",
+        "bathRug": "large rust braided oval remains under tub; never lifted during this story",
+        "secondaryRug": "separate small blue/cream common-room mat may be raised or hung; never substitute for bath rug",
+        "bedroom": "dry; door closed with rolled-towel splash barrier from32 through77; barrier is not claimed watertight",
+        "babyLocation": "Papa lap or supervised dry chair",
+        "familyBathState": "outside bath",
+        "expressionRule": "Specific scene emotion with individual differences; open smile only for a motivated moment. Fatigue may show lowered shoulders, resting mouth, heavy eyelids or a frown without cruelty.",
+        "measurementStatus": "narrative staging targets, not measured image reconstruction",
+        "doors": {
+          "bath": "according to action",
+          "front": "according to action",
+          "bedroom": "according to action"
+        }
+      },
+      "action": "Over same right shoulder used later in reverse: one paw draws clockwise horizontal gold ring just above shallow water near east end of tub; visible bright leading point and fading short tail show direction. No writing or symbolic runes."
+    },
+    {
+      "id": "scene-12",
+      "day": 1,
+      "timeOfDay": {
+        "en": "morning",
+        "ru": "утро",
+        "es": "mañana"
+      },
+      "cast": [
+        "PinPin"
+      ],
+      "emotionalBeat": {
+        "en": "delight",
+        "ru": "восторг",
+        "es": "encanto"
+      },
+      "state": {
+        "day": 1,
+        "waterSource": "running",
+        "duck": {
+          "material": "ordinary smooth soft yellow plastic; white eyes with black pupils; orange beak; no woodgrain, extra limbs or quills",
+          "living": false,
+          "narrativeRole": "incidental silent bath prop, never hero-framed or mentioned",
+          "location": "incidental in bath or outside crop"
+        },
+        "channel": "not installed",
+        "floorWater": "dry or carry drops",
+        "petals": "none",
+        "bathRug": "large rust braided oval remains under tub; never lifted during this story",
+        "secondaryRug": "separate small blue/cream common-room mat may be raised or hung; never substitute for bath rug",
+        "bedroom": "dry; door closed with rolled-towel splash barrier from32 through77; barrier is not claimed watertight",
+        "babyLocation": "Papa lap or supervised dry chair",
+        "familyBathState": "outside bath",
+        "expressionRule": "Specific scene emotion with individual differences; open smile only for a motivated moment. Fatigue may show lowered shoulders, resting mouth, heavy eyelids or a frown without cruelty.",
+        "measurementStatus": "narrative staging targets, not measured image reconstruction",
+        "doors": {
+          "bath": "according to action",
+          "front": "according to action",
+          "bedroom": "according to action"
+        }
+      },
+      "action": "Stream emerges upward briefly from center of horizontal ring then curls downward into tub, contained small fountain; ring stays at the same horizontal position, floating just above the rising water. PinPin leans forward without entering tub."
+    },
+    {
+      "id": "scene-13",
+      "day": 1,
+      "timeOfDay": {
+        "en": "morning",
+        "ru": "утро",
+        "es": "mañana"
+      },
+      "cast": [
+        "PinPin"
+      ],
+      "emotionalBeat": {
+        "en": "delight",
+        "ru": "восторг",
+        "es": "encanto"
+      },
+      "state": {
+        "day": 1,
+        "waterSource": "running",
+        "duck": {
+          "material": "ordinary smooth soft yellow plastic; white eyes with black pupils; orange beak; no woodgrain, extra limbs or quills",
+          "living": false,
+          "narrativeRole": "incidental silent bath prop, never hero-framed or mentioned",
+          "location": "incidental in bath or outside crop"
+        },
+        "channel": "not installed",
+        "floorWater": "dry or carry drops",
+        "petals": "none",
+        "bathRug": "large rust braided oval remains under tub; never lifted during this story",
+        "secondaryRug": "separate small blue/cream common-room mat may be raised or hung; never substitute for bath rug",
+        "bedroom": "dry; door closed with rolled-towel splash barrier from32 through77; barrier is not claimed watertight",
+        "babyLocation": "Papa lap or supervised dry chair",
+        "familyBathState": "outside bath",
+        "expressionRule": "Specific scene emotion with individual differences; open smile only for a motivated moment. Fatigue may show lowered shoulders, resting mouth, heavy eyelids or a frown without cruelty.",
+        "measurementStatus": "narrative staging targets, not measured image reconstruction",
+        "doors": {
+          "bath": "according to action",
+          "front": "according to action",
+          "bedroom": "according to action"
+        }
+      },
+      "action": "Child POV at the same bath rim: two paws rest clearly on dry wood at the lower corners. The small fountain and one golden ring sit in the middle water, with concentric ripples approaching. Any incidental far-background duck is smooth yellow plastic, not carved wood. No toy focus, splash outside the tub or reflected duplicate child."
+    },
+    {
+      "id": "scene-14",
+      "day": 1,
+      "timeOfDay": {
+        "en": "morning",
+        "ru": "утро",
+        "es": "mañana"
+      },
+      "cast": [
+        "PinPin"
+      ],
+      "emotionalBeat": {
+        "en": "delight",
+        "ru": "восторг",
+        "es": "encanto"
+      },
+      "state": {
+        "day": 1,
+        "waterSource": "running",
+        "duck": {
+          "material": "ordinary smooth soft yellow plastic; white eyes with black pupils; orange beak; no woodgrain, extra limbs or quills",
+          "living": false,
+          "narrativeRole": "incidental silent bath prop, never hero-framed or mentioned",
+          "location": "incidental in bath or outside crop"
+        },
+        "channel": "not installed",
+        "floorWater": "dry or carry drops",
+        "petals": "none",
+        "bathRug": "large rust braided oval remains under tub; never lifted during this story",
+        "secondaryRug": "separate small blue/cream common-room mat may be raised or hung; never substitute for bath rug",
+        "bedroom": "dry; door closed with rolled-towel splash barrier from32 through77; barrier is not claimed watertight",
+        "babyLocation": "Papa lap or supervised dry chair",
+        "familyBathState": "outside bath",
+        "expressionRule": "Specific scene emotion with individual differences; open smile only for a motivated moment. Fatigue may show lowered shoulders, resting mouth, heavy eyelids or a frown without cruelty.",
+        "measurementStatus": "narrative staging targets, not measured image reconstruction",
+        "doors": {
+          "bath": "according to action",
+          "front": "according to action",
+          "bedroom": "according to action"
+        }
+      },
+      "action": "Close relaxed PinPin face with warm waterlight in his eyes. Chin above the dry rim, both paws resting on it. His small closed-mouth smile shares pleasure with the reader; only PinPin is visible, without a toy-directed eyeline."
+    },
+    {
+      "id": "scene-15",
+      "day": 1,
+      "timeOfDay": {
+        "en": "morning",
+        "ru": "утро",
+        "es": "mañana"
+      },
+      "cast": [
+        "PinPin"
+      ],
+      "emotionalBeat": {
+        "en": "delight",
+        "ru": "восторг",
+        "es": "encanto"
+      },
+      "state": {
+        "day": 1,
+        "waterSource": "running",
+        "duck": {
+          "material": "ordinary smooth soft yellow plastic; white eyes with black pupils; orange beak; no woodgrain, extra limbs or quills",
+          "living": false,
+          "narrativeRole": "incidental silent bath prop, never hero-framed or mentioned",
+          "location": "incidental in bath or outside crop"
+        },
+        "channel": "not installed",
+        "floorWater": "dry or carry drops",
+        "petals": "none",
+        "bathRug": "large rust braided oval remains under tub; never lifted during this story",
+        "secondaryRug": "separate small blue/cream common-room mat may be raised or hung; never substitute for bath rug",
+        "bedroom": "dry; door closed with rolled-towel splash barrier from32 through77; barrier is not claimed watertight",
+        "babyLocation": "Papa lap or supervised dry chair",
+        "familyBathState": "outside bath",
+        "expressionRule": "Specific scene emotion with individual differences; open smile only for a motivated moment. Fatigue may show lowered shoulders, resting mouth, heavy eyelids or a frown without cruelty.",
+        "measurementStatus": "narrative staging targets, not measured image reconstruction",
+        "doors": {
+          "bath": "according to action",
+          "front": "according to action",
+          "bedroom": "according to action"
+        }
+      },
+      "action": "Tight waterline shot: child forepaw just touches water, concentric ripples, delighted face partially visible. Active small fountain beyond. Duck absent from crop."
+    },
+    {
+      "id": "scene-16",
+      "day": 1,
+      "timeOfDay": {
+        "en": "morning",
+        "ru": "утро",
+        "es": "mañana"
+      },
+      "cast": [
+        "PinPin"
+      ],
+      "emotionalBeat": {
+        "en": "delight",
+        "ru": "восторг",
+        "es": "encanto"
+      },
+      "state": {
+        "day": 1,
+        "waterSource": "running",
+        "duck": {
+          "material": "ordinary smooth soft yellow plastic; white eyes with black pupils; orange beak; no woodgrain, extra limbs or quills",
+          "living": false,
+          "narrativeRole": "incidental silent bath prop, never hero-framed or mentioned",
+          "location": "incidental in bath or outside crop"
+        },
+        "channel": "not installed",
+        "floorWater": "dry or carry drops",
+        "petals": "none",
+        "bathRug": "large rust braided oval remains under tub; never lifted during this story",
+        "secondaryRug": "separate small blue/cream common-room mat may be raised or hung; never substitute for bath rug",
+        "bedroom": "dry; door closed with rolled-towel splash barrier from32 through77; barrier is not claimed watertight",
+        "babyLocation": "Papa lap or supervised dry chair",
+        "familyBathState": "outside bath",
+        "expressionRule": "Specific scene emotion with individual differences; open smile only for a motivated moment. Fatigue may show lowered shoulders, resting mouth, heavy eyelids or a frown without cruelty.",
+        "measurementStatus": "narrative staging targets, not measured image reconstruction",
+        "doors": {
+          "bath": "according to action",
+          "front": "according to action",
+          "bedroom": "according to action"
+        }
+      },
+      "action": "Higher overhead three-quarter shows tub interior now almost full, duck west of stream; PinPin checks water against rim with flat paw outside."
+    },
+    {
+      "id": "scene-17",
+      "day": 1,
+      "timeOfDay": {
+        "en": "morning",
+        "ru": "утро",
+        "es": "mañana"
+      },
+      "cast": [
+        "PinPin"
+      ],
+      "emotionalBeat": {
+        "en": "concern",
+        "ru": "беспокойство",
+        "es": "preocupación"
+      },
+      "state": {
+        "day": 1,
+        "waterSource": "running",
+        "duck": {
+          "material": "ordinary smooth soft yellow plastic; white eyes with black pupils; orange beak; no woodgrain, extra limbs or quills",
+          "living": false,
+          "narrativeRole": "incidental silent bath prop, never hero-framed or mentioned",
+          "location": "incidental in bath or outside crop"
+        },
+        "channel": "not installed",
+        "floorWater": "dry or carry drops",
+        "petals": "none",
+        "bathRug": "large rust braided oval remains under tub; never lifted during this story",
+        "secondaryRug": "separate small blue/cream common-room mat may be raised or hung; never substitute for bath rug",
+        "bedroom": "dry; door closed with rolled-towel splash barrier from32 through77; barrier is not claimed watertight",
+        "babyLocation": "Papa lap or supervised dry chair",
+        "familyBathState": "outside bath",
+        "expressionRule": "Specific scene emotion with individual differences; open smile only for a motivated moment. Fatigue may show lowered shoulders, resting mouth, heavy eyelids or a frown without cruelty.",
+        "measurementStatus": "narrative staging targets, not measured image reconstruction",
+        "doors": {
+          "bath": "according to action",
+          "front": "according to action",
+          "bedroom": "according to action"
+        }
+      },
+      "action": "Eye-height PinPin addresses stream with open stopping palm; hopeful polite smile becoming uncertainty; paw does not touch ring yet."
+    },
+    {
+      "id": "scene-18",
+      "day": 1,
+      "timeOfDay": {
+        "en": "morning",
+        "ru": "утро",
+        "es": "mañana"
+      },
+      "cast": [
+        "PinPin"
+      ],
+      "emotionalBeat": {
+        "en": "concern",
+        "ru": "беспокойство",
+        "es": "preocupación"
+      },
+      "state": {
+        "day": 1,
+        "waterSource": "running",
+        "duck": {
+          "material": "ordinary smooth soft yellow plastic; white eyes with black pupils; orange beak; no woodgrain, extra limbs or quills",
+          "living": false,
+          "narrativeRole": "incidental silent bath prop, never hero-framed or mentioned",
+          "location": "incidental in bath or outside crop"
+        },
+        "channel": "not installed",
+        "floorWater": "shallow local spill",
+        "petals": "none",
+        "bathRug": "large rust braided oval remains under tub; never lifted during this story",
+        "secondaryRug": "separate small blue/cream common-room mat may be raised or hung; never substitute for bath rug",
+        "bedroom": "dry; door closed with rolled-towel splash barrier from32 through77; barrier is not claimed watertight",
+        "babyLocation": "Papa lap or supervised dry chair",
+        "familyBathState": "outside bath",
+        "expressionRule": "Specific scene emotion with individual differences; open smile only for a motivated moment. Fatigue may show lowered shoulders, resting mouth, heavy eyelids or a frown without cruelty.",
+        "measurementStatus": "narrative staging targets, not measured image reconstruction",
+        "doors": {
+          "bath": "according to action",
+          "front": "according to action",
+          "bedroom": "according to action"
+        }
+      },
+      "action": "Close side view of single east-side overflow running over continuous wooden rim; PinPin reaction visible above. Duck still in tub near south edge."
+    },
+    {
+      "id": "scene-19",
+      "day": 1,
+      "timeOfDay": {
+        "en": "morning",
+        "ru": "утро",
+        "es": "mañana"
+      },
+      "cast": [
+        "PinPin"
+      ],
+      "emotionalBeat": {
+        "en": "concern",
+        "ru": "беспокойство",
+        "es": "preocupación"
+      },
+      "state": {
+        "day": 1,
+        "waterSource": "running",
+        "duck": {
+          "material": "ordinary smooth soft yellow plastic; white eyes with black pupils; orange beak; no woodgrain, extra limbs or quills",
+          "living": false,
+          "narrativeRole": "incidental silent bath prop, never hero-framed or mentioned",
+          "location": "incidental in bath or outside crop"
+        },
+        "channel": "not installed",
+        "floorWater": "shallow local spill",
+        "petals": "none",
+        "bathRug": "large rust braided oval remains under tub; never lifted during this story",
+        "secondaryRug": "separate small blue/cream common-room mat may be raised or hung; never substitute for bath rug",
+        "bedroom": "dry; door closed with rolled-towel splash barrier from32 through77; barrier is not claimed watertight",
+        "babyLocation": "Papa lap or supervised dry chair",
+        "familyBathState": "outside bath",
+        "expressionRule": "Specific scene emotion with individual differences; open smile only for a motivated moment. Fatigue may show lowered shoulders, resting mouth, heavy eyelids or a frown without cruelty.",
+        "measurementStatus": "narrative staging targets, not measured image reconstruction",
+        "doors": {
+          "bath": "according to action",
+          "front": "according to action",
+          "bedroom": "according to action"
+        }
+      },
+      "action": "PinPin crouches catching first overflow, face concerned not grinning; looks toward existing bath doorway."
+    },
+    {
+      "id": "scene-20",
+      "day": 1,
+      "timeOfDay": {
+        "en": "morning",
+        "ru": "утро",
+        "es": "mañana"
+      },
+      "cast": [
+        "Papa",
+        "PinPin"
+      ],
+      "emotionalBeat": {
+        "en": "attention",
+        "ru": "внимание",
+        "es": "atención"
+      },
+      "state": {
+        "day": 1,
+        "waterSource": "running",
+        "duck": {
+          "material": "ordinary smooth soft yellow plastic; white eyes with black pupils; orange beak; no woodgrain, extra limbs or quills",
+          "living": false,
+          "narrativeRole": "incidental silent bath prop, never hero-framed or mentioned",
+          "location": "incidental in bath or outside crop"
+        },
+        "channel": "not installed",
+        "floorWater": "shallow local spill",
+        "petals": "none",
+        "bathRug": "large rust braided oval remains under tub; never lifted during this story",
+        "secondaryRug": "separate small blue/cream common-room mat may be raised or hung; never substitute for bath rug",
+        "bedroom": "dry; door closed with rolled-towel splash barrier from32 through77; barrier is not claimed watertight",
+        "babyLocation": "Papa lap or supervised dry chair",
+        "familyBathState": "outside bath",
+        "expressionRule": "Specific scene emotion with individual differences; open smile only for a motivated moment. Fatigue may show lowered shoulders, resting mouth, heavy eyelids or a frown without cruelty.",
+        "measurementStatus": "narrative staging targets, not measured image reconstruction",
+        "doors": {
+          "bath": "according to action",
+          "front": "according to action",
+          "bedroom": "according to action"
+        }
+      },
+      "action": "Papa genuinely inspects continuing ring and spill, places second matched pail, warm attentive resting face; child watches adult hand."
+    },
+    {
+      "id": "scene-21",
+      "day": 1,
+      "timeOfDay": {
+        "en": "morning",
+        "ru": "утро",
+        "es": "mañana"
+      },
+      "cast": [
+        "Mama",
+        "PomPom",
+        "Papa",
+        "PinPin"
+      ],
+      "emotionalBeat": {
+        "en": "attention",
+        "ru": "внимание",
+        "es": "atención"
+      },
+      "state": {
+        "day": 1,
+        "waterSource": "running",
+        "duck": {
+          "material": "ordinary smooth soft yellow plastic; white eyes with black pupils; orange beak; no woodgrain, extra limbs or quills",
+          "living": false,
+          "narrativeRole": "incidental silent bath prop, never hero-framed or mentioned",
+          "location": "incidental in bath or outside crop"
+        },
+        "channel": "not installed",
+        "floorWater": "shallow local spill",
+        "petals": "none",
+        "bathRug": "large rust braided oval remains under tub; never lifted during this story",
+        "secondaryRug": "separate small blue/cream common-room mat may be raised or hung; never substitute for bath rug",
+        "bedroom": "dry; door closed with rolled-towel splash barrier from32 through77; barrier is not claimed watertight",
+        "babyLocation": "Mama arms outside bath",
+        "familyBathState": "outside bath",
+        "expressionRule": "Specific scene emotion with individual differences; open smile only for a motivated moment. Fatigue may show lowered shoulders, resting mouth, heavy eyelids or a frown without cruelty.",
+        "measurementStatus": "narrative staging targets, not measured image reconstruction",
+        "doors": {
+          "bath": "according to action",
+          "front": "according to action",
+          "bedroom": "according to action"
+        }
+      },
+      "action": "Mama holds tiny baby in one arm, uses free hand to move towel basket onto existing dry ledge; Papa tests bathwater, child beside him; no extra arms."
+    },
+    {
+      "id": "scene-22",
+      "day": 1,
+      "timeOfDay": {
+        "en": "morning",
+        "ru": "утро",
+        "es": "mañana"
+      },
+      "cast": [
+        "Papa",
+        "PinPin",
+        "Mama",
+        "PomPom"
+      ],
+      "emotionalBeat": {
+        "en": "anticipation",
+        "ru": "предвкушение",
+        "es": "expectación"
+      },
+      "state": {
+        "day": 1,
+        "waterSource": "running",
+        "duck": {
+          "material": "ordinary smooth soft yellow plastic; white eyes with black pupils; orange beak; no woodgrain, extra limbs or quills",
+          "living": false,
+          "narrativeRole": "incidental silent bath prop, never hero-framed or mentioned",
+          "location": "incidental in bath or outside crop"
+        },
+        "channel": "not installed",
+        "floorWater": "shallow local spill",
+        "petals": "none",
+        "bathRug": "large rust braided oval remains under tub; never lifted during this story",
+        "secondaryRug": "separate small blue/cream common-room mat may be raised or hung; never substitute for bath rug",
+        "bedroom": "dry; door closed with rolled-towel splash barrier from32 through77; barrier is not claimed watertight",
+        "babyLocation": "Mama arms outside bath",
+        "familyBathState": "outside bath",
+        "expressionRule": "Specific scene emotion with individual differences; open smile only for a motivated moment. Fatigue may show lowered shoulders, resting mouth, heavy eyelids or a frown without cruelty.",
+        "measurementStatus": "narrative staging targets, not measured image reconstruction",
+        "doors": {
+          "bath": "according to action",
+          "front": "according to action",
+          "bedroom": "according to action"
+        }
+      },
+      "action": "Papa crouches beside broad tub, both paws balance, clearly preparing jump; PinPin alert at foreground, Mama holding baby outside splash path."
+    },
+    {
+      "id": "scene-23",
+      "day": 1,
+      "timeOfDay": {
+        "en": "morning",
+        "ru": "утро",
+        "es": "mañana"
+      },
+      "cast": [
+        "Papa",
+        "PinPin",
+        "Mama",
+        "PomPom"
+      ],
+      "emotionalBeat": {
+        "en": "joy",
+        "ru": "радость",
+        "es": "alegría"
+      },
+      "state": {
+        "day": 1,
+        "waterSource": "running",
+        "duck": {
+          "material": "ordinary smooth soft yellow plastic; white eyes with black pupils; orange beak; no woodgrain, extra limbs or quills",
+          "living": false,
+          "narrativeRole": "incidental silent bath prop, never hero-framed or mentioned",
+          "location": "incidental in bath or outside crop"
+        },
+        "channel": "not installed",
+        "floorWater": "shallow local spill",
+        "petals": "none",
+        "bathRug": "large rust braided oval remains under tub; never lifted during this story",
+        "secondaryRug": "separate small blue/cream common-room mat may be raised or hung; never substitute for bath rug",
+        "bedroom": "dry; door closed with rolled-towel splash barrier from32 through77; barrier is not claimed watertight",
+        "babyLocation": "Mama arms outside bath",
+        "familyBathState": "Papa jumping",
+        "expressionRule": "Specific scene emotion with individual differences; open smile only for a motivated moment. Fatigue may show lowered shoulders, resting mouth, heavy eyelids or a frown without cruelty.",
+        "measurementStatus": "narrative staging targets, not measured image reconstruction",
+        "doors": {
+          "bath": "according to action",
+          "front": "according to action",
+          "bedroom": "according to action"
+        }
+      },
+      "action": "Actual airborne Papa over broad bath, two feet free, correct gravity trajectory; family eyelines follow him."
+    },
+    {
+      "id": "scene-24",
+      "day": 1,
+      "timeOfDay": {
+        "en": "morning",
+        "ru": "утро",
+        "es": "mañana"
+      },
+      "cast": [
+        "Papa",
+        "PinPin",
+        "Mama",
+        "PomPom"
+      ],
+      "emotionalBeat": {
+        "en": "joy",
+        "ru": "радость",
+        "es": "alegría"
+      },
+      "state": {
+        "day": 1,
+        "waterSource": "running",
+        "duck": {
+          "material": "ordinary smooth soft yellow plastic; white eyes with black pupils; orange beak; no woodgrain, extra limbs or quills",
+          "living": false,
+          "narrativeRole": "incidental silent bath prop, never hero-framed or mentioned",
+          "location": "incidental in bath or outside crop"
+        },
+        "channel": "not installed",
+        "floorWater": "shallow local spill",
+        "petals": "none",
+        "bathRug": "large rust braided oval remains under tub; never lifted during this story",
+        "secondaryRug": "separate small blue/cream common-room mat may be raised or hung; never substitute for bath rug",
+        "bedroom": "dry; door closed with rolled-towel splash barrier from32 through77; barrier is not claimed watertight",
+        "babyLocation": "Mama arms outside bath",
+        "familyBathState": "Papa inside, others outside",
+        "expressionRule": "Specific scene emotion with individual differences; open smile only for a motivated moment. Fatigue may show lowered shoulders, resting mouth, heavy eyelids or a frown without cruelty.",
+        "measurementStatus": "narrative staging targets, not measured image reconstruction",
+        "doors": {
+          "bath": "according to action",
+          "front": "according to action",
+          "bedroom": "according to action"
+        }
+      },
+      "action": "Papa landing seated into broad tub sends one clear splashwave; Mama keeps baby's face above splash, PinPin reacts; no extra siblings."
+    },
+    {
+      "id": "scene-25",
+      "day": 1,
+      "timeOfDay": {
+        "en": "morning",
+        "ru": "утро",
+        "es": "mañana"
+      },
+      "cast": [
+        "PinPin",
+        "Papa"
+      ],
+      "emotionalBeat": {
+        "en": "joy",
+        "ru": "радость",
+        "es": "alegría"
+      },
+      "state": {
+        "day": 1,
+        "waterSource": "running",
+        "duck": {
+          "material": "ordinary smooth soft yellow plastic; white eyes with black pupils; orange beak; no woodgrain, extra limbs or quills",
+          "living": false,
+          "narrativeRole": "incidental silent bath prop, never hero-framed or mentioned",
+          "location": "incidental in bath or outside crop"
+        },
+        "channel": "not installed",
+        "floorWater": "shallow local spill",
+        "petals": "none",
+        "bathRug": "large rust braided oval remains under tub; never lifted during this story",
+        "secondaryRug": "separate small blue/cream common-room mat may be raised or hung; never substitute for bath rug",
+        "bedroom": "dry; door closed with rolled-towel splash barrier from32 through77; barrier is not claimed watertight",
+        "babyLocation": "Mama arms outside bath",
+        "familyBathState": "Papa inside, others outside",
+        "expressionRule": "Specific scene emotion with individual differences; open smile only for a motivated moment. Fatigue may show lowered shoulders, resting mouth, heavy eyelids or a frown without cruelty.",
+        "measurementStatus": "narrative staging targets, not measured image reconstruction",
+        "doors": {
+          "bath": "according to action",
+          "front": "according to action",
+          "bedroom": "according to action"
+        }
+      },
+      "action": "Near-lens wet PinPin face diagonal, nose very near lens, both bright eyes visible, Papa laughing inside bath in background; exact wet-hello camera grammar."
+    },
+    {
+      "id": "scene-26",
+      "day": 1,
+      "timeOfDay": {
+        "en": "morning",
+        "ru": "утро",
+        "es": "mañana"
+      },
+      "cast": [
+        "Mama",
+        "PomPom",
+        "Papa",
+        "PinPin"
+      ],
+      "emotionalBeat": {
+        "en": "brief warmth",
+        "ru": "немного тепла",
+        "es": "un momento de ternura"
+      },
+      "state": {
+        "day": 1,
+        "waterSource": "running",
+        "duck": {
+          "material": "ordinary smooth soft yellow plastic; white eyes with black pupils; orange beak; no woodgrain, extra limbs or quills",
+          "living": false,
+          "narrativeRole": "incidental silent bath prop, never hero-framed or mentioned",
+          "location": "incidental in bath or outside crop"
+        },
+        "channel": "not installed",
+        "floorWater": "shallow local spill",
+        "petals": "none",
+        "bathRug": "large rust braided oval remains under tub; never lifted during this story",
+        "secondaryRug": "separate small blue/cream common-room mat may be raised or hung; never substitute for bath rug",
+        "bedroom": "dry; door closed with rolled-towel splash barrier from32 through77; barrier is not claimed watertight",
+        "babyLocation": "Mama arms above bathwater",
+        "familyBathState": "Mama enters holding infant",
+        "expressionRule": "Specific scene emotion with individual differences; open smile only for a motivated moment. Fatigue may show lowered shoulders, resting mouth, heavy eyelids or a frown without cruelty.",
+        "measurementStatus": "narrative staging targets, not measured image reconstruction",
+        "doors": {
+          "bath": "according to action",
+          "front": "according to action",
+          "bedroom": "according to action"
+        }
+      },
+      "action": "Mama carefully enters broad tub with baby held high; Papa already inside offers steadying paw; PinPin outside watches."
+    },
+    {
+      "id": "scene-27",
+      "day": 1,
+      "timeOfDay": {
+        "en": "morning",
+        "ru": "утро",
+        "es": "mañana"
+      },
+      "cast": [
+        "PinPin",
+        "Papa",
+        "Mama",
+        "PomPom"
+      ],
+      "emotionalBeat": {
+        "en": "joy",
+        "ru": "радость",
+        "es": "alegría"
+      },
+      "state": {
+        "day": 1,
+        "waterSource": "running",
+        "duck": {
+          "material": "ordinary smooth soft yellow plastic; white eyes with black pupils; orange beak; no woodgrain, extra limbs or quills",
+          "living": false,
+          "narrativeRole": "incidental silent bath prop, never hero-framed or mentioned",
+          "location": "incidental in bath or outside crop"
+        },
+        "channel": "not installed",
+        "floorWater": "shallow local spill",
+        "petals": "none",
+        "bathRug": "large rust braided oval remains under tub; never lifted during this story",
+        "secondaryRug": "separate small blue/cream common-room mat may be raised or hung; never substitute for bath rug",
+        "bedroom": "dry; door closed with rolled-towel splash barrier from32 through77; barrier is not claimed watertight",
+        "babyLocation": "Mama arms above bathwater",
+        "familyBathState": "PinPin climbs in",
+        "expressionRule": "Specific scene emotion with individual differences; open smile only for a motivated moment. Fatigue may show lowered shoulders, resting mouth, heavy eyelids or a frown without cruelty.",
+        "measurementStatus": "narrative staging targets, not measured image reconstruction",
+        "doors": {
+          "bath": "according to action",
+          "front": "according to action",
+          "bedroom": "according to action"
+        }
+      },
+      "action": "Compact child clambers over rim with two normal short hindlegs; Papa hand supports him; Mama seated inside holding baby."
+    },
+    {
+      "id": "scene-28",
+      "day": 1,
+      "timeOfDay": {
+        "en": "morning",
+        "ru": "утро",
+        "es": "mañana"
+      },
+      "cast": [
+        "Papa",
+        "PinPin",
+        "Mama",
+        "PomPom"
+      ],
+      "emotionalBeat": {
+        "en": "joy",
+        "ru": "радость",
+        "es": "alegría"
+      },
+      "state": {
+        "day": 1,
+        "waterSource": "running",
+        "duck": {
+          "material": "ordinary smooth soft yellow plastic; white eyes with black pupils; orange beak; no woodgrain, extra limbs or quills",
+          "living": false,
+          "narrativeRole": "incidental silent bath prop, never hero-framed or mentioned",
+          "location": "incidental in bath or outside crop"
+        },
+        "channel": "not installed",
+        "floorWater": "shallow local spill",
+        "petals": "none",
+        "bathRug": "large rust braided oval remains under tub; never lifted during this story",
+        "secondaryRug": "separate small blue/cream common-room mat may be raised or hung; never substitute for bath rug",
+        "bedroom": "dry; door closed with rolled-towel splash barrier from32 through77; barrier is not claimed watertight",
+        "babyLocation": "Mama arms above bathwater",
+        "familyBathState": "all four in bath; baby held above surface",
+        "expressionRule": "Specific scene emotion with individual differences; open smile only for a motivated moment. Fatigue may show lowered shoulders, resting mouth, heavy eyelids or a frown without cruelty.",
+        "measurementStatus": "narrative staging targets, not measured image reconstruction",
+        "doors": {
+          "bath": "according to action",
+          "front": "according to action",
+          "bedroom": "according to action"
+        }
+      },
+      "action": "All four inside the same broad low oval tub. Papa left, PinPin center, Mama right holding infant safely above surface. Main rust mat fixed under tub. Baby only one tiny foot touches water."
+    },
+    {
+      "id": "scene-29",
+      "day": 1,
+      "timeOfDay": {
+        "en": "morning",
+        "ru": "утро",
+        "es": "mañana"
+      },
+      "cast": [
+        "PinPin",
+        "Papa"
+      ],
+      "emotionalBeat": {
+        "en": "delight",
+        "ru": "восторг",
+        "es": "encanto"
+      },
+      "state": {
+        "day": 1,
+        "waterSource": "running",
+        "duck": {
+          "material": "ordinary smooth soft yellow plastic; white eyes with black pupils; orange beak; no woodgrain, extra limbs or quills",
+          "living": false,
+          "narrativeRole": "incidental silent bath prop, never hero-framed or mentioned",
+          "location": "incidental in bath or outside crop"
+        },
+        "channel": "not installed",
+        "floorWater": "shallow local spill",
+        "petals": "none",
+        "bathRug": "large rust braided oval remains under tub; never lifted during this story",
+        "secondaryRug": "separate small blue/cream common-room mat may be raised or hung; never substitute for bath rug",
+        "bedroom": "dry; door closed with rolled-towel splash barrier from32 through77; barrier is not claimed watertight",
+        "babyLocation": "Mama arms above bathwater",
+        "familyBathState": "all four in bath; baby held above surface",
+        "expressionRule": "Specific scene emotion with individual differences; open smile only for a motivated moment. Fatigue may show lowered shoulders, resting mouth, heavy eyelids or a frown without cruelty.",
+        "measurementStatus": "narrative staging targets, not measured image reconstruction",
+        "doors": {
+          "bath": "according to action",
+          "front": "according to action",
+          "bedroom": "according to action"
+        }
+      },
+      "action": "Fully underwater older child's face, closed mouth, clear playful eyes, tiny cheek bubbles and caustics; Papa steadying paw at shoulder edge. Infant never submerged."
+    },
+    {
+      "id": "scene-30",
+      "day": 1,
+      "timeOfDay": {
+        "en": "morning",
+        "ru": "утро",
+        "es": "mañana"
+      },
+      "cast": [
+        "Papa",
+        "PinPin",
+        "Mama",
+        "PomPom"
+      ],
+      "emotionalBeat": {
+        "en": "delight",
+        "ru": "восторг",
+        "es": "encanto"
+      },
+      "state": {
+        "day": 1,
+        "waterSource": "running",
+        "duck": {
+          "material": "ordinary smooth soft yellow plastic; white eyes with black pupils; orange beak; no woodgrain, extra limbs or quills",
+          "living": false,
+          "narrativeRole": "incidental silent bath prop, never hero-framed or mentioned",
+          "location": "incidental in bath or outside crop"
+        },
+        "channel": "not installed",
+        "floorWater": "shallow local spill",
+        "petals": "none",
+        "bathRug": "large rust braided oval remains under tub; never lifted during this story",
+        "secondaryRug": "separate small blue/cream common-room mat may be raised or hung; never substitute for bath rug",
+        "bedroom": "dry; door closed with rolled-towel splash barrier from32 through77; barrier is not claimed watertight",
+        "babyLocation": "Mama arms above bathwater",
+        "familyBathState": "all four in bath; baby held above surface",
+        "expressionRule": "Specific scene emotion with individual differences; open smile only for a motivated moment. Fatigue may show lowered shoulders, resting mouth, heavy eyelids or a frown without cruelty.",
+        "measurementStatus": "narrative staging targets, not measured image reconstruction",
+        "doors": {
+          "bath": "according to action",
+          "front": "according to action",
+          "bedroom": "according to action"
+        }
+      },
+      "action": "Split-level waterline frame, family faces above surface and bath feet below; supported baby high. This is an illustrated split-level composition, not measured calibration."
+    },
+    {
+      "id": "scene-31",
+      "day": 1,
+      "timeOfDay": {
+        "en": "daytime",
+        "ru": "день",
+        "es": "día"
+      },
+      "cast": [
+        "Mama",
+        "PomPom",
+        "Papa",
+        "PinPin"
+      ],
+      "emotionalBeat": {
+        "en": "attention",
+        "ru": "внимание",
+        "es": "atención"
+      },
+      "state": {
+        "day": 1,
+        "waterSource": "running",
+        "duck": {
+          "material": "ordinary smooth soft yellow plastic; white eyes with black pupils; orange beak; no woodgrain, extra limbs or quills",
+          "living": false,
+          "narrativeRole": "incidental silent bath prop, never hero-framed or mentioned",
+          "location": "incidental in bath or outside crop"
+        },
+        "channel": "not installed",
+        "floorWater": "shallow local spill",
+        "petals": "none",
+        "bathRug": "large rust braided oval remains under tub; never lifted during this story",
+        "secondaryRug": "separate small blue/cream common-room mat may be raised or hung; never substitute for bath rug",
+        "bedroom": "dry; door closed with rolled-towel splash barrier from32 through77; barrier is not claimed watertight",
+        "babyLocation": "Mama arms on exit",
+        "familyBathState": "exit",
+        "expressionRule": "Specific scene emotion with individual differences; open smile only for a motivated moment. Fatigue may show lowered shoulders, resting mouth, heavy eyelids or a frown without cruelty.",
+        "measurementStatus": "narrative staging targets, not measured image reconstruction",
+        "doors": {
+          "bath": "according to action",
+          "front": "according to action",
+          "bedroom": "according to action"
+        }
+      },
+      "action": "End shared bath with Mama carrying baby outside, Papa helps PinPin over rim. Mama practical resting expression, child reluctant last glance at water; no scolding."
+    },
+    {
+      "id": "scene-32",
+      "day": 1,
+      "timeOfDay": {
+        "en": "daytime",
+        "ru": "день",
+        "es": "día"
+      },
+      "cast": [
+        "Mama",
+        "Papa",
+        "PomPom"
+      ],
+      "emotionalBeat": {
+        "en": "concentration",
+        "ru": "сосредоточенность",
+        "es": "concentración"
+      },
+      "state": {
+        "day": 1,
+        "waterSource": "running",
+        "duck": {
+          "material": "ordinary smooth soft yellow plastic; white eyes with black pupils; orange beak; no woodgrain, extra limbs or quills",
+          "living": false,
+          "narrativeRole": "incidental silent bath prop, never hero-framed or mentioned",
+          "location": "incidental in bath or outside crop"
+        },
+        "channel": "not installed",
+        "floorWater": "shallow local spill",
+        "petals": "none",
+        "bathRug": "large rust braided oval remains under tub; never lifted during this story",
+        "secondaryRug": "separate small blue/cream common-room mat may be raised or hung; never substitute for bath rug",
+        "bedroom": "dry; door closed with rolled-towel splash barrier from32 through77; barrier is not claimed watertight",
+        "babyLocation": "supervised dry high chair or parent arms; never on wet floor",
+        "familyBathState": "outside bath; no repeated second bath",
+        "expressionRule": "Specific scene emotion with individual differences; open smile only for a motivated moment. Fatigue may show lowered shoulders, resting mouth, heavy eyelids or a frown without cruelty.",
+        "measurementStatus": "narrative staging targets, not measured image reconstruction",
+        "doors": {
+          "bath": "according to action",
+          "front": "according to action",
+          "bedroom": "closed and dry"
+        }
+      },
+      "action": "Common room geography clear: closed existing bedroom door with rolled towel splash barrier on dry side; baby secure high chair away from work; Papa carries short trough segments, not permanent new architecture."
+    },
+    {
+      "id": "scene-33",
+      "day": 1,
+      "timeOfDay": {
+        "en": "daytime",
+        "ru": "день",
+        "es": "día"
+      },
+      "cast": [
+        "Papa",
+        "PinPin"
+      ],
+      "emotionalBeat": {
+        "en": "concentration",
+        "ru": "сосредоточенность",
+        "es": "concentración"
+      },
+      "state": {
+        "day": 1,
+        "waterSource": "running",
+        "duck": {
+          "material": "ordinary smooth soft yellow plastic; white eyes with black pupils; orange beak; no woodgrain, extra limbs or quills",
+          "living": false,
+          "narrativeRole": "incidental silent bath prop, never hero-framed or mentioned",
+          "location": "incidental in bath or outside crop"
+        },
+        "channel": "installation",
+        "floorWater": "shallow local spill",
+        "petals": "none",
+        "bathRug": "large rust braided oval remains under tub; never lifted during this story",
+        "secondaryRug": "separate small blue/cream common-room mat may be raised or hung; never substitute for bath rug",
+        "bedroom": "dry; door closed with rolled-towel splash barrier from32 through77; barrier is not claimed watertight",
+        "babyLocation": "supervised dry high chair or parent arms; never on wet floor",
+        "familyBathState": "outside bath; no repeated second bath",
+        "expressionRule": "Specific scene emotion with individual differences; open smile only for a motivated moment. Fatigue may show lowered shoulders, resting mouth, heavy eyelids or a frown without cruelty.",
+        "measurementStatus": "narrative staging targets, not measured image reconstruction",
+        "doors": {
+          "bath": "propped clear of channel",
+          "front": "propped outward, clear of channel",
+          "bedroom": "closed and dry"
+        }
+      },
+      "action": "Removable shallow channel starts under chosen bath spill, supported on progressively lower loose blocks through existing bath doorway/common route to open existing front door. Papa joins segment; PinPin supports separate end. Tub and rust mat unchanged."
+    },
+    {
+      "id": "scene-34",
+      "day": 1,
+      "timeOfDay": {
+        "en": "daytime",
+        "ru": "день",
+        "es": "día"
+      },
+      "cast": [
+        "Papa"
+      ],
+      "emotionalBeat": {
+        "en": "attention",
+        "ru": "внимание",
+        "es": "atención"
+      },
+      "state": {
+        "day": 1,
+        "waterSource": "running",
+        "duck": {
+          "material": "ordinary smooth soft yellow plastic; white eyes with black pupils; orange beak; no woodgrain, extra limbs or quills",
+          "living": false,
+          "narrativeRole": "incidental silent bath prop, never hero-framed or mentioned",
+          "location": "incidental in bath or outside crop"
+        },
+        "channel": "removable shallow trough on descending loose supports, bath spill to existing front door",
+        "floorWater": "mostly routed outside; small residual joint drips and nearby puddles",
+        "petals": "none",
+        "bathRug": "large rust braided oval remains under tub; never lifted during this story",
+        "secondaryRug": "separate small blue/cream common-room mat may be raised or hung; never substitute for bath rug",
+        "bedroom": "dry; door closed with rolled-towel splash barrier from32 through77; barrier is not claimed watertight",
+        "babyLocation": "supervised dry high chair or parent arms; never on wet floor",
+        "familyBathState": "outside bath; no repeated second bath",
+        "expressionRule": "Specific scene emotion with individual differences; open smile only for a motivated moment. Fatigue may show lowered shoulders, resting mouth, heavy eyelids or a frown without cruelty.",
+        "measurementStatus": "narrative staging targets, not measured image reconstruction",
+        "doors": {
+          "bath": "propped clear of channel",
+          "front": "propped outward, clear of channel",
+          "bedroom": "closed and dry"
+        }
+      },
+      "action": "View follows continuous channel from common floor through existing outward-open front door to garden. Papa crouches over joint checking leaks; no water uphill, no invented garden architecture."
+    },
+    {
+      "id": "scene-35",
+      "day": 1,
+      "timeOfDay": {
+        "en": "daytime",
+        "ru": "день",
+        "es": "día"
+      },
+      "cast": [
+        "Mama",
+        "PinPin"
+      ],
+      "emotionalBeat": {
+        "en": "concentration",
+        "ru": "сосредоточенность",
+        "es": "concentración"
+      },
+      "state": {
+        "day": 1,
+        "waterSource": "running",
+        "duck": {
+          "material": "ordinary smooth soft yellow plastic; white eyes with black pupils; orange beak; no woodgrain, extra limbs or quills",
+          "living": false,
+          "narrativeRole": "incidental silent bath prop, never hero-framed or mentioned",
+          "location": "incidental in bath or outside crop"
+        },
+        "channel": "removable shallow trough on descending loose supports, bath spill to existing front door",
+        "floorWater": "mostly routed outside; small residual joint drips and nearby puddles",
+        "petals": "none",
+        "bathRug": "large rust braided oval remains under tub; never lifted during this story",
+        "secondaryRug": "separate small blue/cream common-room mat may be raised or hung; never substitute for bath rug",
+        "bedroom": "dry; door closed with rolled-towel splash barrier from32 through77; barrier is not claimed watertight",
+        "babyLocation": "supervised dry high chair or parent arms; never on wet floor",
+        "familyBathState": "outside bath; no repeated second bath",
+        "expressionRule": "Specific scene emotion with individual differences; open smile only for a motivated moment. Fatigue may show lowered shoulders, resting mouth, heavy eyelids or a frown without cruelty.",
+        "measurementStatus": "narrative staging targets, not measured image reconstruction",
+        "doors": {
+          "bath": "propped clear of channel",
+          "front": "propped outward, clear of channel",
+          "bedroom": "closed and dry"
+        }
+      },
+      "action": "Mother/child clean initial spill beyond channel; main rust rug remains trapped under full tub. Distinct blue-cream small common mat may be hung, not confused with bath rug."
+    },
+    {
+      "id": "scene-36",
+      "day": 1,
+      "timeOfDay": {
+        "en": "evening",
+        "ru": "вечер",
+        "es": "tarde"
+      },
+      "cast": [
+        "Papa",
+        "Mama",
+        "PinPin",
+        "PomPom"
+      ],
+      "emotionalBeat": {
+        "en": "mild irritation",
+        "ru": "лёгкая досада",
+        "es": "ligera molestia"
+      },
+      "state": {
+        "day": 1,
+        "waterSource": "running",
+        "duck": {
+          "material": "ordinary smooth soft yellow plastic; white eyes with black pupils; orange beak; no woodgrain, extra limbs or quills",
+          "living": false,
+          "narrativeRole": "incidental silent bath prop, never hero-framed or mentioned",
+          "location": "incidental in bath or outside crop"
+        },
+        "channel": "removable shallow trough on descending loose supports, bath spill to existing front door",
+        "floorWater": "mostly routed outside; small residual joint drips and nearby puddles",
+        "petals": "none",
+        "bathRug": "large rust braided oval remains under tub; never lifted during this story",
+        "secondaryRug": "separate small blue/cream common-room mat may be raised or hung; never substitute for bath rug",
+        "bedroom": "dry; door closed with rolled-towel splash barrier from32 through77; barrier is not claimed watertight",
+        "babyLocation": "supervised dry high chair or parent arms; never on wet floor",
+        "familyBathState": "outside bath; no repeated second bath",
+        "expressionRule": "Specific scene emotion with individual differences; open smile only for a motivated moment. Fatigue may show lowered shoulders, resting mouth, heavy eyelids or a frown without cruelty.",
+        "measurementStatus": "narrative staging targets, not measured image reconstruction",
+        "doors": {
+          "bath": "propped clear of channel",
+          "front": "propped outward, clear of channel",
+          "bedroom": "closed and dry"
+        }
+      },
+      "action": "First evening warm fading windowlight. Family at ordinary table, channel visible in normal route, front/bath doors propped. Papa mildly annoyed moves chair; Mama neutral, child quiet, baby eating."
+    },
+    {
+      "id": "scene-37",
+      "day": 1,
+      "timeOfDay": {
+        "en": "evening",
+        "ru": "вечер",
+        "es": "tarde"
+      },
+      "cast": [
+        "Papa"
+      ],
+      "emotionalBeat": {
+        "en": "fatigue",
+        "ru": "усталость",
+        "es": "cansancio"
+      },
+      "state": {
+        "day": 1,
+        "waterSource": "running",
+        "duck": {
+          "material": "ordinary smooth soft yellow plastic; white eyes with black pupils; orange beak; no woodgrain, extra limbs or quills",
+          "living": false,
+          "narrativeRole": "incidental silent bath prop, never hero-framed or mentioned",
+          "location": "incidental in bath or outside crop"
+        },
+        "channel": "removable shallow trough on descending loose supports, bath spill to existing front door",
+        "floorWater": "mostly routed outside; small residual joint drips and nearby puddles",
+        "petals": "none",
+        "bathRug": "large rust braided oval remains under tub; never lifted during this story",
+        "secondaryRug": "separate small blue/cream common-room mat may be raised or hung; never substitute for bath rug",
+        "bedroom": "dry; door closed with rolled-towel splash barrier from32 through77; barrier is not claimed watertight",
+        "babyLocation": "supervised dry high chair or parent arms; never on wet floor",
+        "familyBathState": "outside bath; no repeated second bath",
+        "expressionRule": "Specific scene emotion with individual differences; open smile only for a motivated moment. Fatigue may show lowered shoulders, resting mouth, heavy eyelids or a frown without cruelty.",
+        "measurementStatus": "narrative staging targets, not measured image reconstruction",
+        "doors": {
+          "bath": "propped clear of channel",
+          "front": "propped outward, clear of channel",
+          "bedroom": "closed and dry"
+        }
+      },
+      "action": "Papa wrings wet cloth over collecting pail at one leaky channel join; tired lower eyelids, closed mouth not cheerful grin. No bath rug lifted."
+    },
+    {
+      "id": "scene-38",
+      "day": 1,
+      "timeOfDay": {
+        "en": "night",
+        "ru": "ночь",
+        "es": "noche"
+      },
+      "cast": [
+        "Mama",
+        "PinPin",
+        "PomPom"
+      ],
+      "emotionalBeat": {
+        "en": "rest",
+        "ru": "покой",
+        "es": "descanso"
+      },
+      "state": {
+        "day": 1,
+        "waterSource": "running",
+        "duck": {
+          "material": "ordinary smooth soft yellow plastic; white eyes with black pupils; orange beak; no woodgrain, extra limbs or quills",
+          "living": false,
+          "narrativeRole": "incidental silent bath prop, never hero-framed or mentioned",
+          "location": "incidental in bath or outside crop"
+        },
+        "channel": "removable shallow trough on descending loose supports, bath spill to existing front door",
+        "floorWater": "mostly routed outside; small residual joint drips and nearby puddles",
+        "petals": "none",
+        "bathRug": "large rust braided oval remains under tub; never lifted during this story",
+        "secondaryRug": "separate small blue/cream common-room mat may be raised or hung; never substitute for bath rug",
+        "bedroom": "dry; door closed with rolled-towel splash barrier from32 through77; barrier is not claimed watertight",
+        "babyLocation": "supervised in dry bedroom",
+        "familyBathState": "outside bath; no repeated second bath",
+        "expressionRule": "Specific scene emotion with individual differences; open smile only for a motivated moment. Fatigue may show lowered shoulders, resting mouth, heavy eyelids or a frown without cruelty.",
+        "measurementStatus": "narrative staging targets, not measured image reconstruction",
+        "doors": {
+          "bath": "propped clear of channel",
+          "front": "propped outward, clear of channel",
+          "bedroom": "closed and dry"
+        }
+      },
+      "action": "Night in canonical bedroom; Mama settles children under dry green quilt, PinPin eyes open listening, baby sleepy; closed door and protected dry threshold. Stream sound represented by caption only."
+    },
+    {
+      "id": "scene-39",
+      "day": 2,
+      "timeOfDay": {
+        "en": "morning",
+        "ru": "утро",
+        "es": "mañana"
+      },
+      "cast": [
+        "PinPin"
+      ],
+      "emotionalBeat": {
+        "en": "fatigue",
+        "ru": "усталость",
+        "es": "cansancio"
+      },
+      "state": {
+        "day": 2,
+        "waterSource": "running",
+        "duck": {
+          "material": "ordinary smooth soft yellow plastic; white eyes with black pupils; orange beak; no woodgrain, extra limbs or quills",
+          "living": false,
+          "narrativeRole": "incidental silent bath prop, never hero-framed or mentioned",
+          "location": "incidental in bath or outside crop"
+        },
+        "channel": "removable shallow trough on descending loose supports, bath spill to existing front door",
+        "floorWater": "mostly routed outside; small residual joint drips and nearby puddles",
+        "petals": "none",
+        "bathRug": "large rust braided oval remains under tub; never lifted during this story",
+        "secondaryRug": "separate small blue/cream common-room mat may be raised or hung; never substitute for bath rug",
+        "bedroom": "dry; door closed with rolled-towel splash barrier from32 through77; barrier is not claimed watertight",
+        "babyLocation": "supervised dry high chair or parent arms; never on wet floor",
+        "familyBathState": "outside bath; no repeated second bath",
+        "expressionRule": "Specific scene emotion with individual differences; open smile only for a motivated moment. Fatigue may show lowered shoulders, resting mouth, heavy eyelids or a frown without cruelty.",
+        "measurementStatus": "narrative staging targets, not measured image reconstruction",
+        "doors": {
+          "bath": "propped clear of channel",
+          "front": "propped outward, clear of channel",
+          "bedroom": "closed and dry"
+        }
+      },
+      "action": "Same dry bedroom, second dawn cooler light; PinPin lies listening, relaxed sleepy mouth, no broad smile."
+    },
+    {
+      "id": "scene-40",
+      "day": 2,
+      "timeOfDay": {
+        "en": "morning",
+        "ru": "утро",
+        "es": "mañana"
+      },
+      "cast": [
+        "Papa",
+        "Mama",
+        "PinPin",
+        "PomPom"
+      ],
+      "emotionalBeat": {
+        "en": "mild irritation",
+        "ru": "лёгкая досада",
+        "es": "ligera molestia"
+      },
+      "state": {
+        "day": 2,
+        "waterSource": "running",
+        "duck": {
+          "material": "ordinary smooth soft yellow plastic; white eyes with black pupils; orange beak; no woodgrain, extra limbs or quills",
+          "living": false,
+          "narrativeRole": "incidental silent bath prop, never hero-framed or mentioned",
+          "location": "incidental in bath or outside crop"
+        },
+        "channel": "removable shallow trough on descending loose supports, bath spill to existing front door",
+        "floorWater": "mostly routed outside; small residual joint drips and nearby puddles",
+        "petals": "none",
+        "bathRug": "large rust braided oval remains under tub; never lifted during this story",
+        "secondaryRug": "separate small blue/cream common-room mat may be raised or hung; never substitute for bath rug",
+        "bedroom": "dry; door closed with rolled-towel splash barrier from32 through77; barrier is not claimed watertight",
+        "babyLocation": "supervised dry high chair or parent arms; never on wet floor",
+        "familyBathState": "outside bath; no repeated second bath",
+        "expressionRule": "Specific scene emotion with individual differences; open smile only for a motivated moment. Fatigue may show lowered shoulders, resting mouth, heavy eyelids or a frown without cruelty.",
+        "measurementStatus": "narrative staging targets, not measured image reconstruction",
+        "doors": {
+          "bath": "propped clear of channel",
+          "front": "propped outward, clear of channel",
+          "bedroom": "closed and dry"
+        }
+      },
+      "action": "Common room unchanged. Papa carries modest breakfast tray stepping over narrow low channel; two spoons visible on dry counter behind, seated family waiting. Everyday inconvenience not pratfall."
+    },
+    {
+      "id": "scene-41",
+      "day": 2,
+      "timeOfDay": {
+        "en": "daytime",
+        "ru": "день",
+        "es": "día"
+      },
+      "cast": [
+        "Papa"
+      ],
+      "emotionalBeat": {
+        "en": "concentration",
+        "ru": "сосредоточенность",
+        "es": "concentración"
+      },
+      "state": {
+        "day": 2,
+        "waterSource": "running",
+        "duck": {
+          "material": "ordinary smooth soft yellow plastic; white eyes with black pupils; orange beak; no woodgrain, extra limbs or quills",
+          "living": false,
+          "narrativeRole": "incidental silent bath prop, never hero-framed or mentioned",
+          "location": "incidental in bath or outside crop"
+        },
+        "channel": "removable shallow trough on descending loose supports, bath spill to existing front door",
+        "floorWater": "mostly routed outside; small residual joint drips and nearby puddles",
+        "petals": "none",
+        "bathRug": "large rust braided oval remains under tub; never lifted during this story",
+        "secondaryRug": "separate small blue/cream common-room mat may be raised or hung; never substitute for bath rug",
+        "bedroom": "dry; door closed with rolled-towel splash barrier from32 through77; barrier is not claimed watertight",
+        "babyLocation": "supervised dry high chair or parent arms; never on wet floor",
+        "familyBathState": "outside bath; no repeated second bath",
+        "expressionRule": "Specific scene emotion with individual differences; open smile only for a motivated moment. Fatigue may show lowered shoulders, resting mouth, heavy eyelids or a frown without cruelty.",
+        "measurementStatus": "narrative staging targets, not measured image reconstruction",
+        "doors": {
+          "bath": "propped clear of channel",
+          "front": "propped outward, clear of channel",
+          "bedroom": "closed and dry"
+        }
+      },
+      "action": "Papa focused frown repairing same loose segment on existing supports, fingers clearly distinct; all water confined shallow around trough."
+    },
+    {
+      "id": "scene-42",
+      "day": 2,
+      "timeOfDay": {
+        "en": "daytime",
+        "ru": "день",
+        "es": "día"
+      },
+      "cast": [
+        "PinPin"
+      ],
+      "emotionalBeat": {
+        "en": "fatigue",
+        "ru": "усталость",
+        "es": "cansancio"
+      },
+      "state": {
+        "day": 2,
+        "waterSource": "running",
+        "duck": {
+          "material": "ordinary smooth soft yellow plastic; white eyes with black pupils; orange beak; no woodgrain, extra limbs or quills",
+          "living": false,
+          "narrativeRole": "incidental silent bath prop, never hero-framed or mentioned",
+          "location": "incidental in bath or outside crop"
+        },
+        "channel": "removable shallow trough on descending loose supports, bath spill to existing front door",
+        "floorWater": "mostly routed outside; small residual joint drips and nearby puddles",
+        "petals": "none",
+        "bathRug": "large rust braided oval remains under tub; never lifted during this story",
+        "secondaryRug": "separate small blue/cream common-room mat may be raised or hung; never substitute for bath rug",
+        "bedroom": "dry; door closed with rolled-towel splash barrier from32 through77; barrier is not claimed watertight",
+        "babyLocation": "supervised dry high chair or parent arms; never on wet floor",
+        "familyBathState": "outside bath; no repeated second bath",
+        "expressionRule": "Specific scene emotion with individual differences; open smile only for a motivated moment. Fatigue may show lowered shoulders, resting mouth, heavy eyelids or a frown without cruelty.",
+        "measurementStatus": "narrative staging targets, not measured image reconstruction",
+        "doors": {
+          "bath": "propped clear of channel",
+          "front": "propped outward, clear of channel",
+          "bedroom": "closed and dry"
+        }
+      },
+      "action": "Child seated on dry small stool squeezes lightweight cloth, drooping shoulders, quiet effort; not forced labor or huge adult load."
+    },
+    {
+      "id": "scene-43",
+      "day": 2,
+      "timeOfDay": {
+        "en": "daytime",
+        "ru": "день",
+        "es": "día"
+      },
+      "cast": [
+        "Mama",
+        "PomPom"
+      ],
+      "emotionalBeat": {
+        "en": "mild irritation",
+        "ru": "лёгкая досада",
+        "es": "ligera molestia"
+      },
+      "state": {
+        "day": 2,
+        "waterSource": "running",
+        "duck": {
+          "material": "ordinary smooth soft yellow plastic; white eyes with black pupils; orange beak; no woodgrain, extra limbs or quills",
+          "living": false,
+          "narrativeRole": "incidental silent bath prop, never hero-framed or mentioned",
+          "location": "incidental in bath or outside crop"
+        },
+        "channel": "removable shallow trough on descending loose supports, bath spill to existing front door",
+        "floorWater": "mostly routed outside; small residual joint drips and nearby puddles",
+        "petals": "none",
+        "bathRug": "large rust braided oval remains under tub; never lifted during this story",
+        "secondaryRug": "separate small blue/cream common-room mat may be raised or hung; never substitute for bath rug",
+        "bedroom": "dry; door closed with rolled-towel splash barrier from32 through77; barrier is not claimed watertight",
+        "babyLocation": "supervised dry high chair or parent arms; never on wet floor",
+        "familyBathState": "outside bath; no repeated second bath",
+        "expressionRule": "Specific scene emotion with individual differences; open smile only for a motivated moment. Fatigue may show lowered shoulders, resting mouth, heavy eyelids or a frown without cruelty.",
+        "measurementStatus": "narrative staging targets, not measured image reconstruction",
+        "doors": {
+          "bath": "propped clear of channel",
+          "front": "propped outward, clear of channel",
+          "bedroom": "closed and dry"
+        }
+      },
+      "action": "Mama at familiar towel pegs with damp cloth in hands, mildly annoyed pursed lips; baby in dry chair visible background; not constant smiling."
+    },
+    {
+      "id": "scene-44",
+      "day": 2,
+      "timeOfDay": {
+        "en": "daytime",
+        "ru": "день",
+        "es": "día"
+      },
+      "cast": [
+        "PinPin",
+        "Mama"
+      ],
+      "emotionalBeat": {
+        "en": "concentration",
+        "ru": "сосредоточенность",
+        "es": "concentración"
+      },
+      "state": {
+        "day": 2,
+        "waterSource": "running",
+        "duck": {
+          "material": "ordinary smooth soft yellow plastic; white eyes with black pupils; orange beak; no woodgrain, extra limbs or quills",
+          "living": false,
+          "narrativeRole": "incidental silent bath prop, never hero-framed or mentioned",
+          "location": "incidental in bath or outside crop"
+        },
+        "channel": "removable shallow trough on descending loose supports, bath spill to existing front door",
+        "floorWater": "mostly routed outside; small residual joint drips and nearby puddles",
+        "petals": "none",
+        "bathRug": "large rust braided oval remains under tub; never lifted during this story",
+        "secondaryRug": "separate small blue/cream common-room mat may be raised or hung; never substitute for bath rug",
+        "bedroom": "dry; door closed with rolled-towel splash barrier from32 through77; barrier is not claimed watertight",
+        "babyLocation": "supervised dry high chair or parent arms; never on wet floor",
+        "familyBathState": "outside bath; no repeated second bath",
+        "expressionRule": "Specific scene emotion with individual differences; open smile only for a motivated moment. Fatigue may show lowered shoulders, resting mouth, heavy eyelids or a frown without cruelty.",
+        "measurementStatus": "narrative staging targets, not measured image reconstruction",
+        "doors": {
+          "bath": "propped clear of channel",
+          "front": "propped outward, clear of channel",
+          "bedroom": "closed and dry"
+        }
+      },
+      "action": "Day2 child at same rim, concentrated lips, makes DIFFERENT small loop beside existing source circle trying to stop water; Mama nearby watching. Do not show inverse yet."
+    },
+    {
+      "id": "scene-45",
+      "day": 2,
+      "timeOfDay": {
+        "en": "daytime",
+        "ru": "день",
+        "es": "día"
+      },
+      "cast": [
+        "PinPin"
+      ],
+      "emotionalBeat": {
+        "en": "surprise",
+        "ru": "удивление",
+        "es": "sorpresa"
+      },
+      "state": {
+        "day": 2,
+        "waterSource": "running",
+        "duck": {
+          "material": "ordinary smooth soft yellow plastic; white eyes with black pupils; orange beak; no woodgrain, extra limbs or quills",
+          "living": false,
+          "narrativeRole": "incidental silent bath prop, never hero-framed or mentioned",
+          "location": "incidental in bath or outside crop"
+        },
+        "channel": "removable shallow trough on descending loose supports, bath spill to existing front door",
+        "floorWater": "mostly routed outside; small residual joint drips and nearby puddles",
+        "petals": "finite flower spell result; floating and drifting into channel",
+        "bathRug": "large rust braided oval remains under tub; never lifted during this story",
+        "secondaryRug": "separate small blue/cream common-room mat may be raised or hung; never substitute for bath rug",
+        "bedroom": "dry; door closed with rolled-towel splash barrier from32 through77; barrier is not claimed watertight",
+        "babyLocation": "supervised dry high chair or parent arms; never on wet floor",
+        "familyBathState": "outside bath; no repeated second bath",
+        "expressionRule": "Specific scene emotion with individual differences; open smile only for a motivated moment. Fatigue may show lowered shoulders, resting mouth, heavy eyelids or a frown without cruelty.",
+        "measurementStatus": "narrative staging targets, not measured image reconstruction",
+        "doors": {
+          "bath": "propped clear of channel",
+          "front": "propped outward, clear of channel",
+          "bedroom": "closed and dry"
+        }
+      },
+      "action": "Finite flush of pink/white flowers falls onto water; existing low fountain continues at unchanged size; toy tiny inert plastic or outside crop."
+    },
+    {
+      "id": "scene-46",
+      "day": 2,
+      "timeOfDay": {
+        "en": "daytime",
+        "ru": "день",
+        "es": "día"
+      },
+      "cast": [
+        "Mama",
+        "PinPin"
+      ],
+      "emotionalBeat": {
+        "en": "brief warmth",
+        "ru": "немного тепла",
+        "es": "un momento de ternura"
+      },
+      "state": {
+        "day": 2,
+        "waterSource": "running",
+        "duck": {
+          "material": "ordinary smooth soft yellow plastic; white eyes with black pupils; orange beak; no woodgrain, extra limbs or quills",
+          "living": false,
+          "narrativeRole": "incidental silent bath prop, never hero-framed or mentioned",
+          "location": "incidental in bath or outside crop"
+        },
+        "channel": "removable shallow trough on descending loose supports, bath spill to existing front door",
+        "floorWater": "mostly routed outside; small residual joint drips and nearby puddles",
+        "petals": "finite flower spell result; floating and drifting into channel",
+        "bathRug": "large rust braided oval remains under tub; never lifted during this story",
+        "secondaryRug": "separate small blue/cream common-room mat may be raised or hung; never substitute for bath rug",
+        "bedroom": "dry; door closed with rolled-towel splash barrier from32 through77; barrier is not claimed watertight",
+        "babyLocation": "supervised dry high chair or parent arms; never on wet floor",
+        "familyBathState": "outside bath; no repeated second bath",
+        "expressionRule": "Specific scene emotion with individual differences; open smile only for a motivated moment. Fatigue may show lowered shoulders, resting mouth, heavy eyelids or a frown without cruelty.",
+        "measurementStatus": "narrative staging targets, not measured image reconstruction",
+        "doors": {
+          "bath": "propped clear of channel",
+          "front": "propped outward, clear of channel",
+          "bedroom": "closed and dry"
+        }
+      },
+      "action": "Small genuine pleasure pause: Mama smells one flower gently held in free hand, child studies result. Soft brief smile distinct from recent tired face."
+    },
+    {
+      "id": "scene-47",
+      "day": 2,
+      "timeOfDay": {
+        "en": "daytime",
+        "ru": "день",
+        "es": "día"
+      },
+      "cast": [
+        "Papa"
+      ],
+      "emotionalBeat": {
+        "en": "attention",
+        "ru": "внимание",
+        "es": "atención"
+      },
+      "state": {
+        "day": 2,
+        "waterSource": "running",
+        "duck": {
+          "material": "ordinary smooth soft yellow plastic; white eyes with black pupils; orange beak; no woodgrain, extra limbs or quills",
+          "living": false,
+          "narrativeRole": "incidental silent bath prop, never hero-framed or mentioned",
+          "location": "incidental in bath or outside crop"
+        },
+        "channel": "blocked by finite flowers",
+        "floorWater": "mostly routed outside; small residual joint drips and nearby puddles",
+        "petals": "finite flower spell result; floating and drifting into channel",
+        "bathRug": "large rust braided oval remains under tub; never lifted during this story",
+        "secondaryRug": "separate small blue/cream common-room mat may be raised or hung; never substitute for bath rug",
+        "bedroom": "dry; door closed with rolled-towel splash barrier from32 through77; barrier is not claimed watertight",
+        "babyLocation": "supervised dry high chair or parent arms; never on wet floor",
+        "familyBathState": "outside bath; no repeated second bath",
+        "expressionRule": "Specific scene emotion with individual differences; open smile only for a motivated moment. Fatigue may show lowered shoulders, resting mouth, heavy eyelids or a frown without cruelty.",
+        "measurementStatus": "narrative staging targets, not measured image reconstruction",
+        "doors": {
+          "bath": "propped clear of channel",
+          "front": "propped outward, clear of channel",
+          "bedroom": "closed and dry"
+        }
+      },
+      "action": "Clear causal closeup flowerheads collect at joint narrowing removable trough, water rises only within shallow gutter then spills; no room-deep flood."
+    },
+    {
+      "id": "scene-48",
+      "day": 2,
+      "timeOfDay": {
+        "en": "daytime",
+        "ru": "день",
+        "es": "día"
+      },
+      "cast": [
+        "Papa",
+        "Mama",
+        "PinPin"
+      ],
+      "emotionalBeat": {
+        "en": "concentration",
+        "ru": "сосредоточенность",
+        "es": "concentración"
+      },
+      "state": {
+        "day": 2,
+        "waterSource": "running",
+        "duck": {
+          "material": "ordinary smooth soft yellow plastic; white eyes with black pupils; orange beak; no woodgrain, extra limbs or quills",
+          "living": false,
+          "narrativeRole": "incidental silent bath prop, never hero-framed or mentioned",
+          "location": "incidental in bath or outside crop"
+        },
+        "channel": "being cleared",
+        "floorWater": "mostly routed outside; small residual joint drips and nearby puddles",
+        "petals": "being collected; no new flowers",
+        "bathRug": "large rust braided oval remains under tub; never lifted during this story",
+        "secondaryRug": "separate small blue/cream common-room mat may be raised or hung; never substitute for bath rug",
+        "bedroom": "dry; door closed with rolled-towel splash barrier from32 through77; barrier is not claimed watertight",
+        "babyLocation": "supervised dry high chair or parent arms; never on wet floor",
+        "familyBathState": "outside bath; no repeated second bath",
+        "expressionRule": "Specific scene emotion with individual differences; open smile only for a motivated moment. Fatigue may show lowered shoulders, resting mouth, heavy eyelids or a frown without cruelty.",
+        "measurementStatus": "narrative staging targets, not measured image reconstruction",
+        "doors": {
+          "bath": "propped clear of channel",
+          "front": "propped outward, clear of channel",
+          "bedroom": "closed and dry"
+        }
+      },
+      "action": "Papa crouched scoops clogged flowers into bowl Mama holds. Both focused slightly displeased, no exaggerated raging; child background watches."
+    },
+    {
+      "id": "scene-49",
+      "day": 2,
+      "timeOfDay": {
+        "en": "daytime",
+        "ru": "день",
+        "es": "día"
+      },
+      "cast": [
+        "PinPin"
+      ],
+      "emotionalBeat": {
+        "en": "attention",
+        "ru": "внимание",
+        "es": "atención"
+      },
+      "state": {
+        "day": 2,
+        "waterSource": "momentary falter under partial inverse",
+        "duck": {
+          "material": "ordinary smooth soft yellow plastic; white eyes with black pupils; orange beak; no woodgrain, extra limbs or quills",
+          "living": false,
+          "narrativeRole": "incidental silent bath prop, never hero-framed or mentioned",
+          "location": "incidental in bath or outside crop"
+        },
+        "channel": "removable shallow trough on descending loose supports, bath spill to existing front door",
+        "floorWater": "mostly routed outside; small residual joint drips and nearby puddles",
+        "petals": "being collected; no new flowers",
+        "bathRug": "large rust braided oval remains under tub; never lifted during this story",
+        "secondaryRug": "separate small blue/cream common-room mat may be raised or hung; never substitute for bath rug",
+        "bedroom": "dry; door closed with rolled-towel splash barrier from32 through77; barrier is not claimed watertight",
+        "babyLocation": "supervised dry high chair or parent arms; never on wet floor",
+        "familyBathState": "outside bath; no repeated second bath",
+        "expressionRule": "Specific scene emotion with individual differences; open smile only for a motivated moment. Fatigue may show lowered shoulders, resting mouth, heavy eyelids or a frown without cruelty.",
+        "measurementStatus": "narrative staging targets, not measured image reconstruction",
+        "doors": {
+          "bath": "propped clear of channel",
+          "front": "propped outward, clear of channel",
+          "bedroom": "closed and dry"
+        }
+      },
+      "action": "At the existing ring, PinPin absent-mindedly retraces a short arc in the opposite direction. The stream visibly falters; he notices. Match the original over-right-shoulder camera. He does not complete the circle."
+    },
+    {
+      "id": "scene-50",
+      "day": 2,
+      "timeOfDay": {
+        "en": "daytime",
+        "ru": "день",
+        "es": "día"
+      },
+      "cast": [
+        "PinPin",
+        "Mama"
+      ],
+      "emotionalBeat": {
+        "en": "attention",
+        "ru": "внимание",
+        "es": "atención"
+      },
+      "state": {
+        "day": 2,
+        "waterSource": "running",
+        "duck": {
+          "material": "ordinary smooth soft yellow plastic; white eyes with black pupils; orange beak; no woodgrain, extra limbs or quills",
+          "living": false,
+          "narrativeRole": "incidental silent bath prop, never hero-framed or mentioned",
+          "location": "incidental in bath or outside crop"
+        },
+        "channel": "being cleared",
+        "floorWater": "mostly routed outside; small residual joint drips and nearby puddles",
+        "petals": "being collected; no new flowers",
+        "bathRug": "large rust braided oval remains under tub; never lifted during this story",
+        "secondaryRug": "separate small blue/cream common-room mat may be raised or hung; never substitute for bath rug",
+        "bedroom": "dry; door closed with rolled-towel splash barrier from32 through77; barrier is not claimed watertight",
+        "babyLocation": "supervised dry high chair or parent arms; never on wet floor",
+        "familyBathState": "outside bath; no repeated second bath",
+        "expressionRule": "Specific scene emotion with individual differences; open smile only for a motivated moment. Fatigue may show lowered shoulders, resting mouth, heavy eyelids or a frown without cruelty.",
+        "measurementStatus": "narrative staging targets, not measured image reconstruction",
+        "doors": {
+          "bath": "propped clear of channel",
+          "front": "propped outward, clear of channel",
+          "bedroom": "closed and dry"
+        }
+      },
+      "action": "PinPin lifts his paw before finishing the reverse arc and turns to pass a bowl to Mama. The stream returns to its previous flow. Both actions must read causally in one illustration without duplicated arms."
+    },
+    {
+      "id": "scene-51",
+      "day": 2,
+      "timeOfDay": {
+        "en": "daytime",
+        "ru": "день",
+        "es": "día"
+      },
+      "cast": [
+        "PinPin",
+        "Papa",
+        "Mama"
+      ],
+      "emotionalBeat": {
+        "en": "fatigue",
+        "ru": "усталость",
+        "es": "cansancio"
+      },
+      "state": {
+        "day": 2,
+        "waterSource": "running",
+        "duck": {
+          "material": "ordinary smooth soft yellow plastic; white eyes with black pupils; orange beak; no woodgrain, extra limbs or quills",
+          "living": false,
+          "narrativeRole": "incidental silent bath prop, never hero-framed or mentioned",
+          "location": "incidental in bath or outside crop"
+        },
+        "channel": "being cleared",
+        "floorWater": "mostly routed outside; small residual joint drips and nearby puddles",
+        "petals": "being collected; no new flowers",
+        "bathRug": "large rust braided oval remains under tub; never lifted during this story",
+        "secondaryRug": "separate small blue/cream common-room mat may be raised or hung; never substitute for bath rug",
+        "bedroom": "dry; door closed with rolled-towel splash barrier from32 through77; barrier is not claimed watertight",
+        "babyLocation": "supervised dry high chair or parent arms; never on wet floor",
+        "familyBathState": "outside bath; no repeated second bath",
+        "expressionRule": "Specific scene emotion with individual differences; open smile only for a motivated moment. Fatigue may show lowered shoulders, resting mouth, heavy eyelids or a frown without cruelty.",
+        "measurementStatus": "narrative staging targets, not measured image reconstruction",
+        "doors": {
+          "bath": "propped clear of channel",
+          "front": "propped outward, clear of channel",
+          "bedroom": "closed and dry"
+        }
+      },
+      "action": "Papa checks the cleared channel while Mama and PinPin gather the remaining finite flower debris into a bowl. Damp fragments rest in a small strainer. No further flowers are being generated."
+    },
+    {
+      "id": "scene-52",
+      "day": 2,
+      "timeOfDay": {
+        "en": "evening",
+        "ru": "вечер",
+        "es": "tarde"
+      },
+      "cast": [
+        "Mama",
+        "Papa",
+        "PinPin"
+      ],
+      "emotionalBeat": {
+        "en": "fatigue",
+        "ru": "усталость",
+        "es": "cansancio"
+      },
+      "state": {
+        "day": 2,
+        "waterSource": "running",
+        "duck": {
+          "material": "ordinary smooth soft yellow plastic; white eyes with black pupils; orange beak; no woodgrain, extra limbs or quills",
+          "living": false,
+          "narrativeRole": "incidental silent bath prop, never hero-framed or mentioned",
+          "location": "incidental in bath or outside crop"
+        },
+        "channel": "removable shallow trough on descending loose supports, bath spill to existing front door",
+        "floorWater": "mostly routed outside; small residual joint drips and nearby puddles",
+        "petals": "collected in bowl; a few fragments in removable strainer, no active flower spell",
+        "bathRug": "large rust braided oval remains under tub; never lifted during this story",
+        "secondaryRug": "separate small blue/cream common-room mat may be raised or hung; never substitute for bath rug",
+        "bedroom": "dry; door closed with rolled-towel splash barrier from32 through77; barrier is not claimed watertight",
+        "babyLocation": "supervised dry high chair or parent arms; never on wet floor",
+        "familyBathState": "outside bath; no repeated second bath",
+        "expressionRule": "Specific scene emotion with individual differences; open smile only for a motivated moment. Fatigue may show lowered shoulders, resting mouth, heavy eyelids or a frown without cruelty.",
+        "measurementStatus": "narrative staging targets, not measured image reconstruction",
+        "doors": {
+          "bath": "propped clear of channel",
+          "front": "propped outward, clear of channel",
+          "bedroom": "closed and dry"
+        }
+      },
+      "action": "At the common-room table in second-evening light, Mama rests quietly with a weary face. Papa attends a wet cloth behind her, PinPin notices her tiredness, and the drooping flowers sit in a bowl on the shelf."
+    },
+    {
+      "id": "scene-53",
+      "day": 3,
+      "timeOfDay": {
+        "en": "morning",
+        "ru": "утро",
+        "es": "mañana"
+      },
+      "cast": [
+        "Papa",
+        "Mama",
+        "PinPin",
+        "PomPom"
+      ],
+      "emotionalBeat": {
+        "en": "fatigue",
+        "ru": "усталость",
+        "es": "cansancio"
+      },
+      "state": {
+        "day": 3,
+        "waterSource": "running",
+        "duck": {
+          "material": "ordinary smooth soft yellow plastic; white eyes with black pupils; orange beak; no woodgrain, extra limbs or quills",
+          "living": false,
+          "narrativeRole": "incidental silent bath prop, never hero-framed or mentioned",
+          "location": "incidental in bath or outside crop"
+        },
+        "channel": "removable shallow trough on descending loose supports, bath spill to existing front door",
+        "floorWater": "mostly routed outside; small residual joint drips and nearby puddles",
+        "petals": "collected in bowl; a few fragments in removable strainer, no active flower spell",
+        "bathRug": "large rust braided oval remains under tub; never lifted during this story",
+        "secondaryRug": "separate small blue/cream common-room mat may be raised or hung; never substitute for bath rug",
+        "bedroom": "dry; door closed with rolled-towel splash barrier from32 through77; barrier is not claimed watertight",
+        "babyLocation": "supervised dry high chair or parent arms; never on wet floor",
+        "familyBathState": "outside bath; no repeated second bath",
+        "expressionRule": "Specific scene emotion with individual differences; open smile only for a motivated moment. Fatigue may show lowered shoulders, resting mouth, heavy eyelids or a frown without cruelty.",
+        "measurementStatus": "narrative staging targets, not measured image reconstruction",
+        "doors": {
+          "bath": "propped clear of channel",
+          "front": "propped outward, clear of channel",
+          "bedroom": "closed and dry"
+        }
+      },
+      "action": "Third dawn at the same table. Papa yawns, Mama rests her tired eyes, PinPin thinks, and baby PomPom is occupied with a spoon. Vary expressions individually."
+    },
+    {
+      "id": "scene-54",
+      "day": 3,
+      "timeOfDay": {
+        "en": "daytime",
+        "ru": "день",
+        "es": "día"
+      },
+      "cast": [
+        "PinPin"
+      ],
+      "emotionalBeat": {
+        "en": "fatigue",
+        "ru": "усталость",
+        "es": "cansancio"
+      },
+      "state": {
+        "day": 3,
+        "waterSource": "running",
+        "duck": {
+          "material": "ordinary smooth soft yellow plastic; white eyes with black pupils; orange beak; no woodgrain, extra limbs or quills",
+          "living": false,
+          "narrativeRole": "incidental silent bath prop, never hero-framed or mentioned",
+          "location": "incidental in bath or outside crop"
+        },
+        "channel": "removable shallow trough on descending loose supports, bath spill to existing front door",
+        "floorWater": "mostly routed outside; small residual joint drips and nearby puddles",
+        "petals": "collected in bowl; a few fragments in removable strainer, no active flower spell",
+        "bathRug": "large rust braided oval remains under tub; never lifted during this story",
+        "secondaryRug": "separate small blue/cream common-room mat may be raised or hung; never substitute for bath rug",
+        "bedroom": "dry; door closed with rolled-towel splash barrier from32 through77; barrier is not claimed watertight",
+        "babyLocation": "supervised dry high chair or parent arms; never on wet floor",
+        "familyBathState": "outside bath; no repeated second bath",
+        "expressionRule": "Specific scene emotion with individual differences; open smile only for a motivated moment. Fatigue may show lowered shoulders, resting mouth, heavy eyelids or a frown without cruelty.",
+        "measurementStatus": "narrative staging targets, not measured image reconstruction",
+        "doors": {
+          "bath": "propped clear of channel",
+          "front": "propped outward, clear of channel",
+          "bedroom": "closed and dry"
+        }
+      },
+      "action": "PinPin tips a modest drip-catching pail into the channel at the established loose join. His face is neutral and tired. Do not duplicate him to show the return movement."
+    },
+    {
+      "id": "scene-55",
+      "day": 3,
+      "timeOfDay": {
+        "en": "daytime",
+        "ru": "день",
+        "es": "día"
+      },
+      "cast": [
+        "PinPin",
+        "Mama"
+      ],
+      "emotionalBeat": {
+        "en": "concentration",
+        "ru": "сосредоточенность",
+        "es": "concentración"
+      },
+      "state": {
+        "day": 3,
+        "waterSource": "running",
+        "duck": {
+          "material": "ordinary smooth soft yellow plastic; white eyes with black pupils; orange beak; no woodgrain, extra limbs or quills",
+          "living": false,
+          "narrativeRole": "incidental silent bath prop, never hero-framed or mentioned",
+          "location": "incidental in bath or outside crop"
+        },
+        "channel": "removable shallow trough on descending loose supports, bath spill to existing front door",
+        "floorWater": "mostly routed outside; small residual joint drips and nearby puddles",
+        "petals": "collected in bowl; a few fragments in removable strainer, no active flower spell",
+        "bathRug": "large rust braided oval remains under tub; never lifted during this story",
+        "secondaryRug": "separate small blue/cream common-room mat may be raised or hung; never substitute for bath rug",
+        "bedroom": "dry; door closed with rolled-towel splash barrier from32 through77; barrier is not claimed watertight",
+        "babyLocation": "supervised dry high chair or parent arms; never on wet floor",
+        "familyBathState": "outside bath; no repeated second bath",
+        "expressionRule": "Specific scene emotion with individual differences; open smile only for a motivated moment. Fatigue may show lowered shoulders, resting mouth, heavy eyelids or a frown without cruelty.",
+        "measurementStatus": "narrative staging targets, not measured image reconstruction",
+        "doors": {
+          "bath": "propped clear of channel",
+          "front": "propped outward, clear of channel",
+          "bedroom": "closed and dry"
+        }
+      },
+      "action": "A focused PinPin tries a small new paw flick, different from the inverse circle. A spark crosses the bath toward the incidental inert plastic toy; no toy hero framing yet. Mama is nearby."
+    },
+    {
+      "id": "scene-56",
+      "day": 3,
+      "timeOfDay": {
+        "en": "daytime",
+        "ru": "день",
+        "es": "día"
+      },
+      "cast": [
+        "duck"
+      ],
+      "emotionalBeat": {
+        "en": "duck delight",
+        "ru": "восторг уточки",
+        "es": "entusiasmo del patito"
+      },
+      "state": {
+        "day": 3,
+        "waterSource": "running",
+        "duck": {
+          "material": "ordinary smooth soft yellow plastic; white eyes with black pupils; orange beak; no woodgrain, extra limbs or quills",
+          "living": true,
+          "narrativeRole": "delighted living toy, a nuisance to the tired family",
+          "location": "incidental in bath or outside crop"
+        },
+        "channel": "removable shallow trough on descending loose supports, bath spill to existing front door",
+        "floorWater": "mostly routed outside; small residual joint drips and nearby puddles",
+        "petals": "collected in bowl; a few fragments in removable strainer, no active flower spell",
+        "bathRug": "large rust braided oval remains under tub; never lifted during this story",
+        "secondaryRug": "separate small blue/cream common-room mat may be raised or hung; never substitute for bath rug",
+        "bedroom": "dry; door closed with rolled-towel splash barrier from32 through77; barrier is not claimed watertight",
+        "babyLocation": "supervised dry high chair or parent arms; never on wet floor",
+        "familyBathState": "outside bath; no repeated second bath",
+        "expressionRule": "Specific scene emotion with individual differences; open smile only for a motivated moment. Fatigue may show lowered shoulders, resting mouth, heavy eyelids or a frown without cruelty.",
+        "measurementStatus": "narrative staging targets, not measured image reconstruction",
+        "doors": {
+          "bath": "propped clear of channel",
+          "front": "propped outward, clear of channel",
+          "bedroom": "closed and dry"
+        }
+      },
+      "action": "First hero closeup of the duck: smooth soft yellow plastic, white eyes with black pupils, orange beak now opening to talk. It is delighted. No woodgrain, extra limbs, fur or quills."
+    },
+    {
+      "id": "scene-57",
+      "day": 3,
+      "timeOfDay": {
+        "en": "daytime",
+        "ru": "день",
+        "es": "día"
+      },
+      "cast": [
+        "PinPin"
+      ],
+      "emotionalBeat": {
+        "en": "disbelief",
+        "ru": "недоверчивое удивление",
+        "es": "incredulidad"
+      },
+      "state": {
+        "day": 3,
+        "waterSource": "running",
+        "duck": {
+          "material": "ordinary smooth soft yellow plastic; white eyes with black pupils; orange beak; no woodgrain, extra limbs or quills",
+          "living": true,
+          "narrativeRole": "delighted living toy, a nuisance to the tired family",
+          "location": "incidental in bath or outside crop"
+        },
+        "channel": "removable shallow trough on descending loose supports, bath spill to existing front door",
+        "floorWater": "mostly routed outside; small residual joint drips and nearby puddles",
+        "petals": "collected in bowl; a few fragments in removable strainer, no active flower spell",
+        "bathRug": "large rust braided oval remains under tub; never lifted during this story",
+        "secondaryRug": "separate small blue/cream common-room mat may be raised or hung; never substitute for bath rug",
+        "bedroom": "dry; door closed with rolled-towel splash barrier from32 through77; barrier is not claimed watertight",
+        "babyLocation": "supervised dry high chair or parent arms; never on wet floor",
+        "familyBathState": "outside bath; no repeated second bath",
+        "expressionRule": "Specific scene emotion with individual differences; open smile only for a motivated moment. Fatigue may show lowered shoulders, resting mouth, heavy eyelids or a frown without cruelty.",
+        "measurementStatus": "narrative staging targets, not measured image reconstruction",
+        "doors": {
+          "bath": "propped clear of channel",
+          "front": "propped outward, clear of channel",
+          "bedroom": "closed and dry"
+        }
+      },
+      "action": "PinPin's face very near the lens, still with disbelief and parted mouth. Both irises remain visible. No smile and no distorted extra paws."
+    },
+    {
+      "id": "scene-58",
+      "day": 3,
+      "timeOfDay": {
+        "en": "daytime",
+        "ru": "день",
+        "es": "día"
+      },
+      "cast": [
+        "Mama",
+        "PomPom"
+      ],
+      "emotionalBeat": {
+        "en": "disbelief",
+        "ru": "недоверчивое удивление",
+        "es": "incredulidad"
+      },
+      "state": {
+        "day": 3,
+        "waterSource": "running",
+        "duck": {
+          "material": "ordinary smooth soft yellow plastic; white eyes with black pupils; orange beak; no woodgrain, extra limbs or quills",
+          "living": true,
+          "narrativeRole": "delighted living toy, a nuisance to the tired family",
+          "location": "incidental in bath or outside crop"
+        },
+        "channel": "removable shallow trough on descending loose supports, bath spill to existing front door",
+        "floorWater": "mostly routed outside; small residual joint drips and nearby puddles",
+        "petals": "collected in bowl; a few fragments in removable strainer, no active flower spell",
+        "bathRug": "large rust braided oval remains under tub; never lifted during this story",
+        "secondaryRug": "separate small blue/cream common-room mat may be raised or hung; never substitute for bath rug",
+        "bedroom": "dry; door closed with rolled-towel splash barrier from32 through77; barrier is not claimed watertight",
+        "babyLocation": "supervised dry high chair or parent arms; never on wet floor",
+        "familyBathState": "outside bath; no repeated second bath",
+        "expressionRule": "Specific scene emotion with individual differences; open smile only for a motivated moment. Fatigue may show lowered shoulders, resting mouth, heavy eyelids or a frown without cruelty.",
+        "measurementStatus": "narrative staging targets, not measured image reconstruction",
+        "doors": {
+          "bath": "propped clear of channel",
+          "front": "propped outward, clear of channel",
+          "bedroom": "closed and dry"
+        }
+      },
+      "action": "Mama holds PomPom securely above the dry floor and looks toward the offscreen talking duck. Her reaction is tired disbelief; baby is curious. Separate their bodies and all supporting arms."
+    },
+    {
+      "id": "scene-59",
+      "day": 3,
+      "timeOfDay": {
+        "en": "daytime",
+        "ru": "день",
+        "es": "día"
+      },
+      "cast": [
+        "Papa",
+        "duck"
+      ],
+      "emotionalBeat": {
+        "en": "mild irritation",
+        "ru": "лёгкая досада",
+        "es": "ligera molestia"
+      },
+      "state": {
+        "day": 3,
+        "waterSource": "running",
+        "duck": {
+          "material": "ordinary smooth soft yellow plastic; white eyes with black pupils; orange beak; no woodgrain, extra limbs or quills",
+          "living": true,
+          "narrativeRole": "delighted living toy, a nuisance to the tired family",
+          "location": "incidental in bath or outside crop"
+        },
+        "channel": "removable shallow trough on descending loose supports, bath spill to existing front door",
+        "floorWater": "mostly routed outside; small residual joint drips and nearby puddles",
+        "petals": "collected in bowl; a few fragments in removable strainer, no active flower spell",
+        "bathRug": "large rust braided oval remains under tub; never lifted during this story",
+        "secondaryRug": "separate small blue/cream common-room mat may be raised or hung; never substitute for bath rug",
+        "bedroom": "dry; door closed with rolled-towel splash barrier from32 through77; barrier is not claimed watertight",
+        "babyLocation": "supervised dry high chair or parent arms; never on wet floor",
+        "familyBathState": "outside bath; no repeated second bath",
+        "expressionRule": "Specific scene emotion with individual differences; open smile only for a motivated moment. Fatigue may show lowered shoulders, resting mouth, heavy eyelids or a frown without cruelty.",
+        "measurementStatus": "narrative staging targets, not measured image reconstruction",
+        "doors": {
+          "bath": "propped clear of channel",
+          "front": "propped outward, clear of channel",
+          "bedroom": "closed and dry"
+        }
+      },
+      "action": "Duck-eye view toward Papa leaning over the rim. Papa has lowered shoulders and a restrained, mildly annoyed eyebrow; the duck is ecstatic. The fountain continues unchanged."
+    },
+    {
+      "id": "scene-60",
+      "day": 3,
+      "timeOfDay": {
+        "en": "daytime",
+        "ru": "день",
+        "es": "día"
+      },
+      "cast": [
+        "duck"
+      ],
+      "emotionalBeat": {
+        "en": "duck delight",
+        "ru": "восторг уточки",
+        "es": "entusiasmo del patito"
+      },
+      "state": {
+        "day": 3,
+        "waterSource": "running",
+        "duck": {
+          "material": "ordinary smooth soft yellow plastic; white eyes with black pupils; orange beak; no woodgrain, extra limbs or quills",
+          "living": true,
+          "narrativeRole": "delighted living toy, a nuisance to the tired family",
+          "location": "channel"
+        },
+        "channel": "removable shallow trough on descending loose supports, bath spill to existing front door",
+        "floorWater": "mostly routed outside; small residual joint drips and nearby puddles",
+        "petals": "collected in bowl; a few fragments in removable strainer, no active flower spell",
+        "bathRug": "large rust braided oval remains under tub; never lifted during this story",
+        "secondaryRug": "separate small blue/cream common-room mat may be raised or hung; never substitute for bath rug",
+        "bedroom": "dry; door closed with rolled-towel splash barrier from32 through77; barrier is not claimed watertight",
+        "babyLocation": "supervised dry high chair or parent arms; never on wet floor",
+        "familyBathState": "outside bath; no repeated second bath",
+        "expressionRule": "Specific scene emotion with individual differences; open smile only for a motivated moment. Fatigue may show lowered shoulders, resting mouth, heavy eyelids or a frown without cruelty.",
+        "measurementStatus": "narrative staging targets, not measured image reconstruction",
+        "doors": {
+          "bath": "propped clear of channel",
+          "front": "propped outward, clear of channel",
+          "bedroom": "closed and dry"
+        }
+      },
+      "action": "The plastic duck rides the existing shallow channel from the bath spill toward the common room. Show the same joints and supports, with enough width for this small toy."
+    },
+    {
+      "id": "scene-61",
+      "day": 3,
+      "timeOfDay": {
+        "en": "daytime",
+        "ru": "день",
+        "es": "día"
+      },
+      "cast": [
+        "PomPom",
+        "Mama",
+        "duck"
+      ],
+      "emotionalBeat": {
+        "en": "delighted toy, tired family",
+        "ru": "восторг игрушки, усталость семьи",
+        "es": "juguete feliz, familia cansada"
+      },
+      "state": {
+        "day": 3,
+        "waterSource": "running",
+        "duck": {
+          "material": "ordinary smooth soft yellow plastic; white eyes with black pupils; orange beak; no woodgrain, extra limbs or quills",
+          "living": true,
+          "narrativeRole": "delighted living toy, a nuisance to the tired family",
+          "location": "channel"
+        },
+        "channel": "removable shallow trough on descending loose supports, bath spill to existing front door",
+        "floorWater": "mostly routed outside; small residual joint drips and nearby puddles",
+        "petals": "collected in bowl; a few fragments in removable strainer, no active flower spell",
+        "bathRug": "large rust braided oval remains under tub; never lifted during this story",
+        "secondaryRug": "separate small blue/cream common-room mat may be raised or hung; never substitute for bath rug",
+        "bedroom": "dry; door closed with rolled-towel splash barrier from32 through77; barrier is not claimed watertight",
+        "babyLocation": "supervised dry high chair or parent arms; never on wet floor",
+        "familyBathState": "outside bath; no repeated second bath",
+        "expressionRule": "Specific scene emotion with individual differences; open smile only for a motivated moment. Fatigue may show lowered shoulders, resting mouth, heavy eyelids or a frown without cruelty.",
+        "measurementStatus": "narrative staging targets, not measured image reconstruction",
+        "doors": {
+          "bath": "propped clear of channel",
+          "front": "propped outward, clear of channel",
+          "bedroom": "closed and dry"
+        }
+      },
+      "action": "PomPom, safely seated in his dry high chair, answers the duck. Mama continues folding a towel beside him with a tired face. Duck passes in the foreground channel."
+    },
+    {
+      "id": "scene-62",
+      "day": 3,
+      "timeOfDay": {
+        "en": "daytime",
+        "ru": "день",
+        "es": "día"
+      },
+      "cast": [
+        "Papa",
+        "duck"
+      ],
+      "emotionalBeat": {
+        "en": "delighted toy, tired family",
+        "ru": "восторг игрушки, усталость семьи",
+        "es": "juguete feliz, familia cansada"
+      },
+      "state": {
+        "day": 3,
+        "waterSource": "running",
+        "duck": {
+          "material": "ordinary smooth soft yellow plastic; white eyes with black pupils; orange beak; no woodgrain, extra limbs or quills",
+          "living": true,
+          "narrativeRole": "delighted living toy, a nuisance to the tired family",
+          "location": "front-door catch basket"
+        },
+        "channel": "removable shallow trough on descending loose supports, bath spill to existing front door",
+        "floorWater": "mostly routed outside; small residual joint drips and nearby puddles",
+        "petals": "collected in bowl; a few fragments in removable strainer, no active flower spell",
+        "bathRug": "large rust braided oval remains under tub; never lifted during this story",
+        "secondaryRug": "separate small blue/cream common-room mat may be raised or hung; never substitute for bath rug",
+        "bedroom": "dry; door closed with rolled-towel splash barrier from32 through77; barrier is not claimed watertight",
+        "babyLocation": "supervised dry high chair or parent arms; never on wet floor",
+        "familyBathState": "outside bath; no repeated second bath",
+        "expressionRule": "Specific scene emotion with individual differences; open smile only for a motivated moment. Fatigue may show lowered shoulders, resting mouth, heavy eyelids or a frown without cruelty.",
+        "measurementStatus": "narrative staging targets, not measured image reconstruction",
+        "doors": {
+          "bath": "propped clear of channel",
+          "front": "propped outward, clear of channel",
+          "bedroom": "closed and dry"
+        }
+      },
+      "action": "At the existing front-door outlet, Papa lifts the duck from a small catch basket that still allows water through into the garden. Papa is weary; the toy demands another ride."
+    },
+    {
+      "id": "scene-63",
+      "day": 3,
+      "timeOfDay": {
+        "en": "daytime",
+        "ru": "день",
+        "es": "día"
+      },
+      "cast": [
+        "Papa",
+        "duck"
+      ],
+      "emotionalBeat": {
+        "en": "mild irritation",
+        "ru": "лёгкая досада",
+        "es": "ligera molestia"
+      },
+      "state": {
+        "day": 3,
+        "waterSource": "running",
+        "duck": {
+          "material": "ordinary smooth soft yellow plastic; white eyes with black pupils; orange beak; no woodgrain, extra limbs or quills",
+          "living": true,
+          "narrativeRole": "delighted living toy, a nuisance to the tired family",
+          "location": "common-room small basin"
+        },
+        "channel": "removable shallow trough on descending loose supports, bath spill to existing front door",
+        "floorWater": "mostly routed outside; small residual joint drips and nearby puddles",
+        "petals": "collected in bowl; a few fragments in removable strainer, no active flower spell",
+        "bathRug": "large rust braided oval remains under tub; never lifted during this story",
+        "secondaryRug": "separate small blue/cream common-room mat may be raised or hung; never substitute for bath rug",
+        "bedroom": "dry; door closed with rolled-towel splash barrier from32 through77; barrier is not claimed watertight",
+        "babyLocation": "supervised dry high chair or parent arms; never on wet floor",
+        "familyBathState": "outside bath; no repeated second bath",
+        "expressionRule": "Specific scene emotion with individual differences; open smile only for a motivated moment. Fatigue may show lowered shoulders, resting mouth, heavy eyelids or a frown without cruelty.",
+        "measurementStatus": "narrative staging targets, not measured image reconstruction",
+        "doors": {
+          "bath": "propped clear of channel",
+          "front": "propped outward, clear of channel",
+          "bedroom": "closed and dry"
+        }
+      },
+      "action": "Papa sets the living plastic toy in a modest portable basin in the common room, away from the channel. The excited duck calls while Papa withdraws his hand."
+    },
+    {
+      "id": "scene-64",
+      "day": 3,
+      "timeOfDay": {
+        "en": "daytime",
+        "ru": "день",
+        "es": "día"
+      },
+      "cast": [
+        "PinPin",
+        "duck"
+      ],
+      "emotionalBeat": {
+        "en": "fatigue",
+        "ru": "усталость",
+        "es": "cansancio"
+      },
+      "state": {
+        "day": 3,
+        "waterSource": "running",
+        "duck": {
+          "material": "ordinary smooth soft yellow plastic; white eyes with black pupils; orange beak; no woodgrain, extra limbs or quills",
+          "living": true,
+          "narrativeRole": "delighted living toy, a nuisance to the tired family",
+          "location": "common-room small basin"
+        },
+        "channel": "removable shallow trough on descending loose supports, bath spill to existing front door",
+        "floorWater": "mostly routed outside; small residual joint drips and nearby puddles",
+        "petals": "collected in bowl; a few fragments in removable strainer, no active flower spell",
+        "bathRug": "large rust braided oval remains under tub; never lifted during this story",
+        "secondaryRug": "separate small blue/cream common-room mat may be raised or hung; never substitute for bath rug",
+        "bedroom": "dry; door closed with rolled-towel splash barrier from32 through77; barrier is not claimed watertight",
+        "babyLocation": "supervised dry high chair or parent arms; never on wet floor",
+        "familyBathState": "outside bath; no repeated second bath",
+        "expressionRule": "Specific scene emotion with individual differences; open smile only for a motivated moment. Fatigue may show lowered shoulders, resting mouth, heavy eyelids or a frown without cruelty.",
+        "measurementStatus": "narrative staging targets, not measured image reconstruction",
+        "doors": {
+          "bath": "propped clear of channel",
+          "front": "propped outward, clear of channel",
+          "bedroom": "closed and dry"
+        }
+      },
+      "action": "PinPin rests his chin on his paws at a low stool, visibly tired. The quacking toy sits in its basin behind him. The child is not laughing or being scolded."
+    },
+    {
+      "id": "scene-65",
+      "day": 3,
+      "timeOfDay": {
+        "en": "evening",
+        "ru": "вечер",
+        "es": "tarde"
+      },
+      "cast": [
+        "Papa",
+        "Mama",
+        "PinPin",
+        "PomPom",
+        "duck"
+      ],
+      "emotionalBeat": {
+        "en": "fatigue",
+        "ru": "усталость",
+        "es": "cansancio"
+      },
+      "state": {
+        "day": 3,
+        "waterSource": "running",
+        "duck": {
+          "material": "ordinary smooth soft yellow plastic; white eyes with black pupils; orange beak; no woodgrain, extra limbs or quills",
+          "living": true,
+          "narrativeRole": "delighted living toy, a nuisance to the tired family",
+          "location": "common-room small basin"
+        },
+        "channel": "removable shallow trough on descending loose supports, bath spill to existing front door",
+        "floorWater": "mostly routed outside; small residual joint drips and nearby puddles",
+        "petals": "collected in bowl; a few fragments in removable strainer, no active flower spell",
+        "bathRug": "large rust braided oval remains under tub; never lifted during this story",
+        "secondaryRug": "separate small blue/cream common-room mat may be raised or hung; never substitute for bath rug",
+        "bedroom": "dry; door closed with rolled-towel splash barrier from32 through77; barrier is not claimed watertight",
+        "babyLocation": "supervised dry high chair or parent arms; never on wet floor",
+        "familyBathState": "outside bath; no repeated second bath",
+        "expressionRule": "Specific scene emotion with individual differences; open smile only for a motivated moment. Fatigue may show lowered shoulders, resting mouth, heavy eyelids or a frown without cruelty.",
+        "measurementStatus": "narrative staging targets, not measured image reconstruction",
+        "doors": {
+          "bath": "propped clear of channel",
+          "front": "propped outward, clear of channel",
+          "bedroom": "closed and dry"
+        }
+      },
+      "action": "Third evening meal: parents and child sit quietly with weary bodies, baby content with Mama, while the toy talks from its basin. The channel still runs through the established route."
+    },
+    {
+      "id": "scene-66",
+      "day": 3,
+      "timeOfDay": {
+        "en": "evening",
+        "ru": "вечер",
+        "es": "tarde"
+      },
+      "cast": [
+        "PinPin"
+      ],
+      "emotionalBeat": {
+        "en": "thought",
+        "ru": "раздумье",
+        "es": "reflexión"
+      },
+      "state": {
+        "day": 3,
+        "waterSource": "running",
+        "duck": {
+          "material": "ordinary smooth soft yellow plastic; white eyes with black pupils; orange beak; no woodgrain, extra limbs or quills",
+          "living": true,
+          "narrativeRole": "delighted living toy, a nuisance to the tired family",
+          "location": "common-room small basin"
+        },
+        "channel": "removable shallow trough on descending loose supports, bath spill to existing front door",
+        "floorWater": "mostly routed outside; small residual joint drips and nearby puddles",
+        "petals": "collected in bowl; a few fragments in removable strainer, no active flower spell",
+        "bathRug": "large rust braided oval remains under tub; never lifted during this story",
+        "secondaryRug": "separate small blue/cream common-room mat may be raised or hung; never substitute for bath rug",
+        "bedroom": "dry; door closed with rolled-towel splash barrier from32 through77; barrier is not claimed watertight",
+        "babyLocation": "supervised dry high chair or parent arms; never on wet floor",
+        "familyBathState": "outside bath; no repeated second bath",
+        "expressionRule": "Specific scene emotion with individual differences; open smile only for a motivated moment. Fatigue may show lowered shoulders, resting mouth, heavy eyelids or a frown without cruelty.",
+        "measurementStatus": "narrative staging targets, not measured image reconstruction",
+        "doors": {
+          "bath": "propped clear of channel",
+          "front": "propped outward, clear of channel",
+          "bedroom": "closed and dry"
+        }
+      },
+      "action": "At the dry table, PinPin thoughtfully examines the finger that traced the ring. No magical flashback, new mentor or answer appears."
+    },
+    {
+      "id": "scene-67",
+      "day": 3,
+      "timeOfDay": {
+        "en": "night",
+        "ru": "ночь",
+        "es": "noche"
+      },
+      "cast": [
+        "PinPin"
+      ],
+      "emotionalBeat": {
+        "en": "rest",
+        "ru": "покой",
+        "es": "descanso"
+      },
+      "state": {
+        "day": 3,
+        "waterSource": "running",
+        "duck": {
+          "material": "ordinary smooth soft yellow plastic; white eyes with black pupils; orange beak; no woodgrain, extra limbs or quills",
+          "living": true,
+          "narrativeRole": "delighted living toy, a nuisance to the tired family",
+          "location": "common-room small basin"
+        },
+        "channel": "removable shallow trough on descending loose supports, bath spill to existing front door",
+        "floorWater": "mostly routed outside; small residual joint drips and nearby puddles",
+        "petals": "collected in bowl; a few fragments in removable strainer, no active flower spell",
+        "bathRug": "large rust braided oval remains under tub; never lifted during this story",
+        "secondaryRug": "separate small blue/cream common-room mat may be raised or hung; never substitute for bath rug",
+        "bedroom": "dry; door closed with rolled-towel splash barrier from32 through77; barrier is not claimed watertight",
+        "babyLocation": "supervised in dry bedroom",
+        "familyBathState": "outside bath; no repeated second bath",
+        "expressionRule": "Specific scene emotion with individual differences; open smile only for a motivated moment. Fatigue may show lowered shoulders, resting mouth, heavy eyelids or a frown without cruelty.",
+        "measurementStatus": "narrative staging targets, not measured image reconstruction",
+        "doors": {
+          "bath": "propped clear of channel",
+          "front": "propped outward, clear of channel",
+          "bedroom": "closed and dry"
+        }
+      },
+      "action": "Third night in the dry bedroom. The sleepy child moves one paw in a small remembered arc above the quilt without casting anything, then rests. Bedroom door closed."
+    },
+    {
+      "id": "scene-68",
+      "day": 4,
+      "timeOfDay": {
+        "en": "morning",
+        "ru": "утро",
+        "es": "mañana"
+      },
+      "cast": [
+        "PinPin"
+      ],
+      "emotionalBeat": {
+        "en": "concentration",
+        "ru": "сосредоточенность",
+        "es": "concentración"
+      },
+      "state": {
+        "day": 4,
+        "waterSource": "running",
+        "duck": {
+          "material": "ordinary smooth soft yellow plastic; white eyes with black pupils; orange beak; no woodgrain, extra limbs or quills",
+          "living": true,
+          "narrativeRole": "delighted living toy, a nuisance to the tired family",
+          "location": "common-room small basin"
+        },
+        "channel": "removable shallow trough on descending loose supports, bath spill to existing front door",
+        "floorWater": "mostly routed outside; small residual joint drips and nearby puddles",
+        "petals": "collected in bowl; a few fragments in removable strainer, no active flower spell",
+        "bathRug": "large rust braided oval remains under tub; never lifted during this story",
+        "secondaryRug": "separate small blue/cream common-room mat may be raised or hung; never substitute for bath rug",
+        "bedroom": "dry; door closed with rolled-towel splash barrier from32 through77; barrier is not claimed watertight",
+        "babyLocation": "supervised dry high chair or parent arms; never on wet floor",
+        "familyBathState": "outside bath; no repeated second bath",
+        "expressionRule": "Specific scene emotion with individual differences; open smile only for a motivated moment. Fatigue may show lowered shoulders, resting mouth, heavy eyelids or a frown without cruelty.",
+        "measurementStatus": "narrative staging targets, not measured image reconstruction",
+        "doors": {
+          "bath": "propped clear of channel",
+          "front": "propped outward, clear of channel",
+          "bedroom": "closed and dry"
+        }
+      },
+      "action": "Fourth dawn: PinPin calmly studies the existing source ring and ordinary continuing stream. Plastic duck remains in the common-room basin, not back in the bath."
+    },
+    {
+      "id": "scene-69",
+      "day": 4,
+      "timeOfDay": {
+        "en": "morning",
+        "ru": "утро",
+        "es": "mañana"
+      },
+      "cast": [
+        "Mama",
+        "PinPin"
+      ],
+      "emotionalBeat": {
+        "en": "attention",
+        "ru": "внимание",
+        "es": "atención"
+      },
+      "state": {
+        "day": 4,
+        "waterSource": "running",
+        "duck": {
+          "material": "ordinary smooth soft yellow plastic; white eyes with black pupils; orange beak; no woodgrain, extra limbs or quills",
+          "living": true,
+          "narrativeRole": "delighted living toy, a nuisance to the tired family",
+          "location": "common-room small basin"
+        },
+        "channel": "removable shallow trough on descending loose supports, bath spill to existing front door",
+        "floorWater": "mostly routed outside; small residual joint drips and nearby puddles",
+        "petals": "collected in bowl; a few fragments in removable strainer, no active flower spell",
+        "bathRug": "large rust braided oval remains under tub; never lifted during this story",
+        "secondaryRug": "separate small blue/cream common-room mat may be raised or hung; never substitute for bath rug",
+        "bedroom": "dry; door closed with rolled-towel splash barrier from32 through77; barrier is not claimed watertight",
+        "babyLocation": "supervised dry high chair or parent arms; never on wet floor",
+        "familyBathState": "outside bath; no repeated second bath",
+        "expressionRule": "Specific scene emotion with individual differences; open smile only for a motivated moment. Fatigue may show lowered shoulders, resting mouth, heavy eyelids or a frown without cruelty.",
+        "measurementStatus": "narrative staging targets, not measured image reconstruction",
+        "doors": {
+          "bath": "propped clear of channel",
+          "front": "propped outward, clear of channel",
+          "bedroom": "closed and dry"
+        }
+      },
+      "action": "Mama joins at the child's height, tired but attentive. PinPin points between his own finger and the ring. Mama asks about his observation without directing his hand."
+    },
+    {
+      "id": "scene-70",
+      "day": 4,
+      "timeOfDay": {
+        "en": "morning",
+        "ru": "утро",
+        "es": "mañana"
+      },
+      "cast": [
+        "PinPin",
+        "Mama"
+      ],
+      "emotionalBeat": {
+        "en": "concentration",
+        "ru": "сосредоточенность",
+        "es": "concentración"
+      },
+      "state": {
+        "day": 4,
+        "waterSource": "momentary falter under partial inverse",
+        "duck": {
+          "material": "ordinary smooth soft yellow plastic; white eyes with black pupils; orange beak; no woodgrain, extra limbs or quills",
+          "living": true,
+          "narrativeRole": "delighted living toy, a nuisance to the tired family",
+          "location": "common-room small basin"
+        },
+        "channel": "removable shallow trough on descending loose supports, bath spill to existing front door",
+        "floorWater": "mostly routed outside; small residual joint drips and nearby puddles",
+        "petals": "collected in bowl; a few fragments in removable strainer, no active flower spell",
+        "bathRug": "large rust braided oval remains under tub; never lifted during this story",
+        "secondaryRug": "separate small blue/cream common-room mat may be raised or hung; never substitute for bath rug",
+        "bedroom": "dry; door closed with rolled-towel splash barrier from32 through77; barrier is not claimed watertight",
+        "babyLocation": "supervised dry high chair or parent arms; never on wet floor",
+        "familyBathState": "outside bath; no repeated second bath",
+        "expressionRule": "Specific scene emotion with individual differences; open smile only for a motivated moment. Fatigue may show lowered shoulders, resting mouth, heavy eyelids or a frown without cruelty.",
+        "measurementStatus": "narrative staging targets, not measured image reconstruction",
+        "doors": {
+          "bath": "propped clear of channel",
+          "front": "propped outward, clear of channel",
+          "bedroom": "closed and dry"
+        }
+      },
+      "action": "Use exactly the scene49 magic camera and ring orientation. PinPin traces only a short reverse arc. Mama's hands stay separate and do not guide his wrist."
+    },
+    {
+      "id": "scene-71",
+      "day": 4,
+      "timeOfDay": {
+        "en": "morning",
+        "ru": "утро",
+        "es": "mañana"
+      },
+      "cast": [
+        "PinPin",
+        "Mama"
+      ],
+      "emotionalBeat": {
+        "en": "attention",
+        "ru": "внимание",
+        "es": "atención"
+      },
+      "state": {
+        "day": 4,
+        "waterSource": "momentary falter under partial inverse",
+        "duck": {
+          "material": "ordinary smooth soft yellow plastic; white eyes with black pupils; orange beak; no woodgrain, extra limbs or quills",
+          "living": true,
+          "narrativeRole": "delighted living toy, a nuisance to the tired family",
+          "location": "common-room small basin"
+        },
+        "channel": "removable shallow trough on descending loose supports, bath spill to existing front door",
+        "floorWater": "mostly routed outside; small residual joint drips and nearby puddles",
+        "petals": "collected in bowl; a few fragments in removable strainer, no active flower spell",
+        "bathRug": "large rust braided oval remains under tub; never lifted during this story",
+        "secondaryRug": "separate small blue/cream common-room mat may be raised or hung; never substitute for bath rug",
+        "bedroom": "dry; door closed with rolled-towel splash barrier from32 through77; barrier is not claimed watertight",
+        "babyLocation": "supervised dry high chair or parent arms; never on wet floor",
+        "familyBathState": "outside bath; no repeated second bath",
+        "expressionRule": "Specific scene emotion with individual differences; open smile only for a motivated moment. Fatigue may show lowered shoulders, resting mouth, heavy eyelids or a frown without cruelty.",
+        "measurementStatus": "narrative staging targets, not measured image reconstruction",
+        "doors": {
+          "bath": "propped clear of channel",
+          "front": "propped outward, clear of channel",
+          "bedroom": "closed and dry"
+        }
+      },
+      "action": "From the same camera, the short test visibly narrows the stream. PinPin pauses his finger and watches the water instead of looking at the viewer."
+    },
+    {
+      "id": "scene-72",
+      "day": 4,
+      "timeOfDay": {
+        "en": "morning",
+        "ru": "утро",
+        "es": "mañana"
+      },
+      "cast": [
+        "PinPin",
+        "Mama"
+      ],
+      "emotionalBeat": {
+        "en": "attention",
+        "ru": "внимание",
+        "es": "atención"
+      },
+      "state": {
+        "day": 4,
+        "waterSource": "running",
+        "duck": {
+          "material": "ordinary smooth soft yellow plastic; white eyes with black pupils; orange beak; no woodgrain, extra limbs or quills",
+          "living": true,
+          "narrativeRole": "delighted living toy, a nuisance to the tired family",
+          "location": "common-room small basin"
+        },
+        "channel": "removable shallow trough on descending loose supports, bath spill to existing front door",
+        "floorWater": "mostly routed outside; small residual joint drips and nearby puddles",
+        "petals": "collected in bowl; a few fragments in removable strainer, no active flower spell",
+        "bathRug": "large rust braided oval remains under tub; never lifted during this story",
+        "secondaryRug": "separate small blue/cream common-room mat may be raised or hung; never substitute for bath rug",
+        "bedroom": "dry; door closed with rolled-towel splash barrier from32 through77; barrier is not claimed watertight",
+        "babyLocation": "supervised dry high chair or parent arms; never on wet floor",
+        "familyBathState": "outside bath; no repeated second bath",
+        "expressionRule": "Specific scene emotion with individual differences; open smile only for a motivated moment. Fatigue may show lowered shoulders, resting mouth, heavy eyelids or a frown without cruelty.",
+        "measurementStatus": "narrative staging targets, not measured image reconstruction",
+        "doors": {
+          "bath": "propped clear of channel",
+          "front": "propped outward, clear of channel",
+          "bedroom": "closed and dry"
+        }
+      },
+      "action": "From the same comparative view, the stream returns to its earlier size after the incomplete trace stops. Mama nods that she saw the change; she does not supply a method."
+    },
+    {
+      "id": "scene-73",
+      "day": 4,
+      "timeOfDay": {
+        "en": "morning",
+        "ru": "утро",
+        "es": "mañana"
+      },
+      "cast": [
+        "PinPin",
+        "Mama"
+      ],
+      "emotionalBeat": {
+        "en": "concentration",
+        "ru": "сосредоточенность",
+        "es": "concentración"
+      },
+      "state": {
+        "day": 4,
+        "waterSource": "fading during full inverse",
+        "duck": {
+          "material": "ordinary smooth soft yellow plastic; white eyes with black pupils; orange beak; no woodgrain, extra limbs or quills",
+          "living": true,
+          "narrativeRole": "delighted living toy, a nuisance to the tired family",
+          "location": "common-room small basin"
+        },
+        "channel": "removable shallow trough on descending loose supports, bath spill to existing front door",
+        "floorWater": "mostly routed outside; small residual joint drips and nearby puddles",
+        "petals": "collected in bowl; a few fragments in removable strainer, no active flower spell",
+        "bathRug": "large rust braided oval remains under tub; never lifted during this story",
+        "secondaryRug": "separate small blue/cream common-room mat may be raised or hung; never substitute for bath rug",
+        "bedroom": "dry; door closed with rolled-towel splash barrier from32 through77; barrier is not claimed watertight",
+        "babyLocation": "supervised dry high chair or parent arms; never on wet floor",
+        "familyBathState": "outside bath; no repeated second bath",
+        "expressionRule": "Specific scene emotion with individual differences; open smile only for a motivated moment. Fatigue may show lowered shoulders, resting mouth, heavy eyelids or a frown without cruelty.",
+        "measurementStatus": "narrative staging targets, not measured image reconstruction",
+        "doors": {
+          "bath": "propped clear of channel",
+          "front": "propped outward, clear of channel",
+          "bedroom": "closed and dry"
+        }
+      },
+      "action": "PinPin chooses a complete backward circuit. His finger begins at the established starting point; the golden ring starts fading behind it. Mama watches quietly."
+    },
+    {
+      "id": "scene-74",
+      "day": 4,
+      "timeOfDay": {
+        "en": "morning",
+        "ru": "утро",
+        "es": "mañana"
+      },
+      "cast": [
+        "PinPin",
+        "Mama"
+      ],
+      "emotionalBeat": {
+        "en": "concentration",
+        "ru": "сосредоточенность",
+        "es": "concentración"
+      },
+      "state": {
+        "day": 4,
+        "waterSource": "fading during full inverse",
+        "duck": {
+          "material": "ordinary smooth soft yellow plastic; white eyes with black pupils; orange beak; no woodgrain, extra limbs or quills",
+          "living": true,
+          "narrativeRole": "delighted living toy, a nuisance to the tired family",
+          "location": "common-room small basin"
+        },
+        "channel": "removable shallow trough on descending loose supports, bath spill to existing front door",
+        "floorWater": "mostly routed outside; small residual joint drips and nearby puddles",
+        "petals": "collected in bowl; a few fragments in removable strainer, no active flower spell",
+        "bathRug": "large rust braided oval remains under tub; never lifted during this story",
+        "secondaryRug": "separate small blue/cream common-room mat may be raised or hung; never substitute for bath rug",
+        "bedroom": "dry; door closed with rolled-towel splash barrier from32 through77; barrier is not claimed watertight",
+        "babyLocation": "supervised dry high chair or parent arms; never on wet floor",
+        "familyBathState": "outside bath; no repeated second bath",
+        "expressionRule": "Specific scene emotion with individual differences; open smile only for a motivated moment. Fatigue may show lowered shoulders, resting mouth, heavy eyelids or a frown without cruelty.",
+        "measurementStatus": "narrative staging targets, not measured image reconstruction",
+        "doors": {
+          "bath": "propped clear of channel",
+          "front": "propped outward, clear of channel",
+          "bedroom": "closed and dry"
+        }
+      },
+      "action": "Tight view of the child nearly completing the inverse circuit. Ring behind the fingertip has faded and the stream is now a thin thread. No new flowers or dramatic lightning."
+    },
+    {
+      "id": "scene-75",
+      "day": 4,
+      "timeOfDay": {
+        "en": "morning",
+        "ru": "утро",
+        "es": "mañana"
+      },
+      "cast": [
+        "PinPin",
+        "Mama"
+      ],
+      "emotionalBeat": {
+        "en": "attention",
+        "ru": "внимание",
+        "es": "atención"
+      },
+      "state": {
+        "day": 4,
+        "waterSource": "last drop",
+        "duck": {
+          "material": "ordinary smooth soft yellow plastic; white eyes with black pupils; orange beak; no woodgrain, extra limbs or quills",
+          "living": true,
+          "narrativeRole": "delighted living toy, a nuisance to the tired family",
+          "location": "common-room small basin"
+        },
+        "channel": "removable shallow trough on descending loose supports, bath spill to existing front door",
+        "floorWater": "mostly routed outside; small residual joint drips and nearby puddles",
+        "petals": "collected in bowl; a few fragments in removable strainer, no active flower spell",
+        "bathRug": "large rust braided oval remains under tub; never lifted during this story",
+        "secondaryRug": "separate small blue/cream common-room mat may be raised or hung; never substitute for bath rug",
+        "bedroom": "dry; door closed with rolled-towel splash barrier from32 through77; barrier is not claimed watertight",
+        "babyLocation": "supervised dry high chair or parent arms; never on wet floor",
+        "familyBathState": "outside bath; no repeated second bath",
+        "expressionRule": "Specific scene emotion with individual differences; open smile only for a motivated moment. Fatigue may show lowered shoulders, resting mouth, heavy eyelids or a frown without cruelty.",
+        "measurementStatus": "narrative staging targets, not measured image reconstruction",
+        "doors": {
+          "bath": "propped clear of channel",
+          "front": "propped outward, clear of channel",
+          "bedroom": "closed and dry"
+        }
+      },
+      "action": "One final drop hangs over the surface. The ring is gone; existing bath and floor water remain. PinPin waits to confirm and Mama rests her hand on the rim."
+    },
+    {
+      "id": "scene-76",
+      "day": 4,
+      "timeOfDay": {
+        "en": "morning",
+        "ru": "утро",
+        "es": "mañana"
+      },
+      "cast": [
+        "Papa",
+        "Mama",
+        "PinPin"
+      ],
+      "emotionalBeat": {
+        "en": "quiet relief",
+        "ru": "тихое облегчение",
+        "es": "alivio tranquilo"
+      },
+      "state": {
+        "day": 4,
+        "waterSource": "off; existing water remains for manual cleanup",
+        "duck": {
+          "material": "ordinary smooth soft yellow plastic; white eyes with black pupils; orange beak; no woodgrain, extra limbs or quills",
+          "living": true,
+          "narrativeRole": "delighted living toy, a nuisance to the tired family",
+          "location": "common-room small basin"
+        },
+        "channel": "removable shallow trough on descending loose supports, bath spill to existing front door",
+        "floorWater": "residual water, manually cleaned",
+        "petals": "collected in bowl; a few fragments in removable strainer, no active flower spell",
+        "bathRug": "large rust braided oval remains under tub; never lifted during this story",
+        "secondaryRug": "separate small blue/cream common-room mat may be raised or hung; never substitute for bath rug",
+        "bedroom": "dry; door closed with rolled-towel splash barrier from32 through77; barrier is not claimed watertight",
+        "babyLocation": "supervised dry high chair or parent arms; never on wet floor",
+        "familyBathState": "outside bath; no repeated second bath",
+        "expressionRule": "Specific scene emotion with individual differences; open smile only for a motivated moment. Fatigue may show lowered shoulders, resting mouth, heavy eyelids or a frown without cruelty.",
+        "measurementStatus": "narrative staging targets, not measured image reconstruction",
+        "doors": {
+          "bath": "propped clear of channel",
+          "front": "propped outward, clear of channel",
+          "bedroom": "closed and dry"
+        }
+      },
+      "action": "A held quiet family reaction: Papa stops to listen, Mama exhales, and PinPin shows tired relief. The living duck is offscreen in its common-room basin. Avoid triumphant smiles on everybody."
+    },
+    {
+      "id": "scene-77",
+      "day": 4,
+      "timeOfDay": {
+        "en": "morning",
+        "ru": "утро",
+        "es": "mañana"
+      },
+      "cast": [
+        "Papa",
+        "Mama",
+        "PinPin"
+      ],
+      "emotionalBeat": {
+        "en": "concentration",
+        "ru": "сосредоточенность",
+        "es": "concentración"
+      },
+      "state": {
+        "day": 4,
+        "waterSource": "off; existing water remains for manual cleanup",
+        "duck": {
+          "material": "ordinary smooth soft yellow plastic; white eyes with black pupils; orange beak; no woodgrain, extra limbs or quills",
+          "living": true,
+          "narrativeRole": "delighted living toy, a nuisance to the tired family",
+          "location": "common-room small basin"
+        },
+        "channel": "removable shallow trough on descending loose supports, bath spill to existing front door",
+        "floorWater": "residual water, manually cleaned",
+        "petals": "collected in bowl; a few fragments in removable strainer, no active flower spell",
+        "bathRug": "large rust braided oval remains under tub; never lifted during this story",
+        "secondaryRug": "separate small blue/cream common-room mat may be raised or hung; never substitute for bath rug",
+        "bedroom": "dry; door closed with rolled-towel splash barrier from32 through77; barrier is not claimed watertight",
+        "babyLocation": "supervised dry high chair or parent arms; never on wet floor",
+        "familyBathState": "outside bath; no repeated second bath",
+        "expressionRule": "Specific scene emotion with individual differences; open smile only for a motivated moment. Fatigue may show lowered shoulders, resting mouth, heavy eyelids or a frown without cruelty.",
+        "measurementStatus": "narrative staging targets, not measured image reconstruction",
+        "doors": {
+          "bath": "propped clear of channel",
+          "front": "propped outward, clear of channel",
+          "bedroom": "closed and dry"
+        }
+      },
+      "action": "Family collects residual shallow water with bowls, cloths and matched pails. Adults handle larger amounts; child has a small task. Channel drains residual flow, and the heavy tub and rust mat remain in place."
+    },
+    {
+      "id": "scene-78",
+      "day": 4,
+      "timeOfDay": {
+        "en": "morning",
+        "ru": "утро",
+        "es": "mañana"
+      },
+      "cast": [
+        "Papa",
+        "Mama"
+      ],
+      "emotionalBeat": {
+        "en": "quiet relief",
+        "ru": "тихое облегчение",
+        "es": "alivio tranquilo"
+      },
+      "state": {
+        "day": 4,
+        "waterSource": "off; existing water remains for manual cleanup",
+        "duck": {
+          "material": "ordinary smooth soft yellow plastic; white eyes with black pupils; orange beak; no woodgrain, extra limbs or quills",
+          "living": true,
+          "narrativeRole": "delighted living toy, a nuisance to the tired family",
+          "location": "common-room small basin"
+        },
+        "channel": "removed",
+        "floorWater": "clean with possible drying traces",
+        "petals": "collected in bowl; a few fragments in removable strainer, no active flower spell",
+        "bathRug": "large rust braided oval remains under tub; never lifted during this story",
+        "secondaryRug": "separate small blue/cream common-room mat may be raised or hung; never substitute for bath rug",
+        "bedroom": "dry; door closed with rolled-towel splash barrier from32 through77; barrier is not claimed watertight",
+        "babyLocation": "supervised dry high chair or parent arms; never on wet floor",
+        "familyBathState": "outside bath; no repeated second bath",
+        "expressionRule": "Specific scene emotion with individual differences; open smile only for a motivated moment. Fatigue may show lowered shoulders, resting mouth, heavy eyelids or a frown without cruelty.",
+        "measurementStatus": "narrative staging targets, not measured image reconstruction",
+        "doors": {
+          "bath": "according to action",
+          "front": "according to action",
+          "bedroom": "according to action"
+        }
+      },
+      "action": "Later that morning, Papa carries empty, wiped channel sections through the original front door. Mama removes the splash towel and opens the bedroom door. Ordinary circulation becomes clear again."
+    },
+    {
+      "id": "scene-79",
+      "day": 4,
+      "timeOfDay": {
+        "en": "morning",
+        "ru": "утро",
+        "es": "mañana"
+      },
+      "cast": [
+        "Papa",
+        "Mama",
+        "PinPin",
+        "PomPom",
+        "duck"
+      ],
+      "emotionalBeat": {
+        "en": "quiet relief",
+        "ru": "тихое облегчение",
+        "es": "alivio tranquilo"
+      },
+      "state": {
+        "day": 4,
+        "waterSource": "off; existing water remains for manual cleanup",
+        "duck": {
+          "material": "ordinary smooth soft yellow plastic; white eyes with black pupils; orange beak; no woodgrain, extra limbs or quills",
+          "living": true,
+          "narrativeRole": "delighted living toy, a nuisance to the tired family",
+          "location": "common-room small basin"
+        },
+        "channel": "removed",
+        "floorWater": "clean with possible drying traces",
+        "petals": "collected in bowl; a few fragments in removable strainer, no active flower spell",
+        "bathRug": "large rust braided oval remains under tub; never lifted during this story",
+        "secondaryRug": "separate small blue/cream common-room mat may be raised or hung; never substitute for bath rug",
+        "bedroom": "dry; door closed with rolled-towel splash barrier from32 through77; barrier is not claimed watertight",
+        "babyLocation": "supervised dry high chair or parent arms; never on wet floor",
+        "familyBathState": "outside bath; no repeated second bath",
+        "expressionRule": "Specific scene emotion with individual differences; open smile only for a motivated moment. Fatigue may show lowered shoulders, resting mouth, heavy eyelids or a frown without cruelty.",
+        "measurementStatus": "narrative staging targets, not measured image reconstruction",
+        "doors": {
+          "bath": "according to action",
+          "front": "according to action",
+          "bedroom": "according to action"
+        }
+      },
+      "action": "Late fourth-morning breakfast at the normal table. Family rests with small individual expressions, baby on Mama's lap. The living plastic duck has its little basin on a low stool, without floor spills."
+    },
+    {
+      "id": "scene-80",
+      "day": 4,
+      "timeOfDay": {
+        "en": "morning",
+        "ru": "утро",
+        "es": "mañana"
+      },
+      "cast": [
+        "PinPin",
+        "duck"
+      ],
+      "emotionalBeat": {
+        "en": "rest",
+        "ru": "покой",
+        "es": "descanso"
+      },
+      "state": {
+        "day": 4,
+        "waterSource": "off; existing water remains for manual cleanup",
+        "duck": {
+          "material": "ordinary smooth soft yellow plastic; white eyes with black pupils; orange beak; no woodgrain, extra limbs or quills",
+          "living": true,
+          "narrativeRole": "delighted living toy, a nuisance to the tired family",
+          "location": "common-room small basin"
+        },
+        "channel": "removed",
+        "floorWater": "clean with possible drying traces",
+        "petals": "collected in bowl; a few fragments in removable strainer, no active flower spell",
+        "bathRug": "large rust braided oval remains under tub; never lifted during this story",
+        "secondaryRug": "separate small blue/cream common-room mat may be raised or hung; never substitute for bath rug",
+        "bedroom": "dry; door closed with rolled-towel splash barrier from32 through77; barrier is not claimed watertight",
+        "babyLocation": "supervised dry high chair or parent arms; never on wet floor",
+        "familyBathState": "outside bath; no repeated second bath",
+        "expressionRule": "Specific scene emotion with individual differences; open smile only for a motivated moment. Fatigue may show lowered shoulders, resting mouth, heavy eyelids or a frown without cruelty.",
+        "measurementStatus": "narrative staging targets, not measured image reconstruction",
+        "doors": {
+          "bath": "according to action",
+          "front": "according to action",
+          "bedroom": "according to action"
+        }
+      },
+      "action": "Extreme near-lens resting child face: nose close, both gently tired eyes meet the reader, chin on table, small content expression. Behind him, the living smooth plastic duck splashes in its modest basin. A quiet coda."
+    }
+  ]
+}

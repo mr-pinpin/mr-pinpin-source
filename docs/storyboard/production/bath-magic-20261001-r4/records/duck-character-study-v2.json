@@ -1,0 +1,25 @@
+{
+  "tool": "image_gen__imagegen",
+  "generatedAt": "2026-10-01T15:12:45.508Z",
+  "promptPath": "prompts/duck-character-study-v2.txt",
+  "sourceOutput": "/Users/miguel_lemos/.codex/generated_images/01a0be6f-b832-7d93-95df-9d2ff5f69dc1/exec-4e383d2e-fecb-4baf-a99d-bf213042678f.png",
+  "references": [
+    "/Users/miguel_lemos/.codex/generated_images/01a0be6f-b832-7d93-95df-9d2ff5f69dc1/exec-74ca842d-0afb-4234-bace-a1f6fd80459b.png"
+  ],
+  "revisionOf": "duck-character-study-v1",
+  "visualReview": "Selected preproduction candidate after visual inspection: smooth yellow vinyl, white/black painted eyes, orange beak, integral wings, no separate limbs or woodgrain. Brow ridges removed. Inert and living views maintain recognizable toy form; squashed view shows soft body. No chapter art or user approval claimed.",
+  "referenceIdentities": [
+    {
+      "path": "/Users/miguel_lemos/.codex/generated_images/01a0be6f-b832-7d93-95df-9d2ff5f69dc1/exec-74ca842d-0afb-4234-bace-a1f6fd80459b.png",
+      "bytes": 1594451,
+      "sha256": "04e0b744093a58e2d2b02c15a19086aa8232fea0a9b2ae1de21fe4ec41666a1c"
+    }
+  ],
+  "promptSha256": "33b59b290a834b60500252e9caaa9f68c7acda0e2c6046e66a5ef168cbff7422",
+  "master": {
+    "path": "masters/duck-character-study-v2.png",
+    "bytes": 1606390,
+    "sha256": "09db45c15b849ad4846e468c2ea326a7bf4e58483f9579dad8b6bf67a3189495"
+  },
+  "approval": "draft-for-review"
+}

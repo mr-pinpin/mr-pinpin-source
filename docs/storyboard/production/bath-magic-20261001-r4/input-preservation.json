@@ -1,0 +1,49 @@
+{
+  "version": 1,
+  "status": "input and output bytes preserved locally; consult archive receipt for remote proof",
+  "generations": [
+    {
+      "record": "records/duck-character-study-v1.json",
+      "recordSha256": "f6260d77bde3fa4449996b336bcbf1bb41d02f826b8cb6b0dd8d67e16fdd678a",
+      "prompt": "prompts/duck-character-study-v1.txt",
+      "promptFileSha256": "bbf516a760deb462b9754cae6852a5ace08de0a16700bb75fe13a32371b480c4",
+      "inlinePromptSha256": null,
+      "inputs": [
+        {
+          "originalPath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r3/web/scene-28.webp",
+          "sha256": "dba864fecd943fde74b6386e57cfc6206bc393e962f6b0d4d2ee0efbe54b199d",
+          "preservedPaths": [
+            "references/dba864fecd94-scene-28.webp"
+          ]
+        }
+      ],
+      "output": {
+        "path": "masters/duck-character-study-v1.png",
+        "sha256": "04e0b744093a58e2d2b02c15a19086aa8232fea0a9b2ae1de21fe4ec41666a1c",
+        "originalCompared": true
+      }
+    },
+    {
+      "record": "records/duck-character-study-v2.json",
+      "recordSha256": "51b57689de3c8b2629d5ae0990bed29e5fb6dbfd814af98bde38d6d468a012b5",
+      "prompt": "prompts/duck-character-study-v2.txt",
+      "promptFileSha256": "33b59b290a834b60500252e9caaa9f68c7acda0e2c6046e66a5ef168cbff7422",
+      "inlinePromptSha256": null,
+      "inputs": [
+        {
+          "originalPath": "/Users/miguel_lemos/.codex/generated_images/01a0be6f-b832-7d93-95df-9d2ff5f69dc1/exec-74ca842d-0afb-4234-bace-a1f6fd80459b.png",
+          "sha256": "04e0b744093a58e2d2b02c15a19086aa8232fea0a9b2ae1de21fe4ec41666a1c",
+          "preservedPaths": [
+            "masters/duck-character-study-v1.png"
+          ]
+        }
+      ],
+      "output": {
+        "path": "masters/duck-character-study-v2.png",
+        "sha256": "09db45c15b849ad4846e468c2ea326a7bf4e58483f9579dad8b6bf67a3189495",
+        "originalCompared": true
+      }
+    }
+  ],
+  "uniqueInputHashes": 2
+}
