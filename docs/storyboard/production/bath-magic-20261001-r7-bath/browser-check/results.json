@@ -1,0 +1,55 @@
+{
+  "time": "2026-10-01T17:17:41.770Z",
+  "checks": [
+    {
+      "width": 1440,
+      "comparisonImages": 2,
+      "secondaryImages": 2,
+      "numberedMishaps": 12,
+      "languages": [
+        "en",
+        "ru",
+        "es"
+      ],
+      "provenanceLinks": 13,
+      "noOverflow": true
+    },
+    {
+      "width": 390,
+      "comparisonImages": 2,
+      "secondaryImages": 2,
+      "numberedMishaps": 12,
+      "languages": [
+        "en",
+        "ru",
+        "es"
+      ],
+      "provenanceLinks": 13,
+      "noOverflow": true
+    },
+    {
+      "width": 320,
+      "comparisonImages": 2,
+      "secondaryImages": 2,
+      "numberedMishaps": 12,
+      "languages": [
+        "en",
+        "ru",
+        "es"
+      ],
+      "provenanceLinks": 13,
+      "noOverflow": true
+    }
+  ],
+  "errors": [],
+  "sourceHashes": {
+    "review.json": "795e7209cc9ce59afcce83a572eb9f3f6056e37c91dccf0e76a778db2167171e",
+    "story-discussion.json": "46ec5709aa1862ddc55e8bb18d5e82c866890cda77a729c1a618341eeb918752",
+    "twelve-mishaps-proposal.json": "551744576a56f155fc73c0eefac5fa1ce66a00cad6bbb3194d3708a1cab44d4d",
+    "check-report.cjs": "7f1f10dd2368244a1ea1fd28490562dc82e078952e811c174d9a31474512eaea",
+    "review/bath-magic-r7-bath.html": "41e8813cb35fd0e3840ff28cff7d93a6fb64d4551dc231483dfa7d4019855b3c",
+    "review/bath-magic-r7-bath.css": "b7f82d4d03a8a311c20897b50e4944641ca99a3883dfaa2da7e05791a4f71184",
+    "review/bath-magic-r7-bath.js": "45d76a48ba7bf12d49cb15812379b047da4c483b26bbe484981e95176a02d850"
+  },
+  "passed": true
+}

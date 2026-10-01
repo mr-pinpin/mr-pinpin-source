@@ -1,0 +1,74 @@
+{
+  "status": "Exact originals, prompts and input bytes verified locally; remote proof in scoped archive receipt",
+  "generations": [
+    {
+      "record": "art/scene-30-r7-v1-record.json",
+      "recordSha256": "e724ee836afab10373bc1a5b716c2b4fbe56d245d83bb83bd226f87999f61380",
+      "tool": "image_gen.imagegen",
+      "master": "art/scene-30-r7-v1.png",
+      "masterSha256": "2df37d5200500a984228c7a1677b8bbd0ea7614fe085ad306cd63ebbc08c2ecf",
+      "nativeToolOutputMatched": true,
+      "prompt": "art/scene-30-r7-v1-prompt.txt",
+      "promptSha256": "1a8e843456f56584fcd718b67e4ad0d8a62fffad5a146de09bbc639c1729b43b",
+      "inputs": [
+        {
+          "originalPath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r5/masters/reused/scene-30/scene-30-v1.png",
+          "sha256": "9d7fc0062e8bba95096cceb6898f98b8551d2a878c3cfa950ecde7d0ef102f11",
+          "preservedPaths": [
+            "art/original-r5.png"
+          ]
+        },
+        {
+          "originalPath": "/Users/miguel_lemos/.codex/generated_images/01a0f5c3-a7d1-70d0-b8cf-581aa5deee53/exec-ecfb9716-91f8-4e16-960c-dcd527ab3ee0.png",
+          "sha256": "aef8a303cfd22497ffa96d2f9301dd043f7d1a88a4fc965584e90b9f8859e6c0",
+          "preservedPaths": [
+            "art/water-study-v1.png"
+          ]
+        }
+      ]
+    },
+    {
+      "record": "art/scene-30-r7-v2-record.json",
+      "recordSha256": "79115fafb2a4060f4d8f2f588fc727d364ba8d5ce9d88409d4a12f9fb7c38d10",
+      "tool": "image_gen.imagegen",
+      "master": "art/scene-30-r7-v2.png",
+      "masterSha256": "61ebca445178a161659c7b00fcd9129503046b9a7d4ce16dedef5ccfee40dfe7",
+      "nativeToolOutputMatched": true,
+      "prompt": "art/scene-30-r7-v2-prompt.txt",
+      "promptSha256": "3f1dc26f9c8fc9736b345d524c5854a887dc0ed299176c43542a82a2470a0227",
+      "inputs": [
+        {
+          "originalPath": "/Users/miguel_lemos/.codex/generated_images/01a0f5c3-a7d1-70d0-b8cf-581aa5deee53/exec-ac712674-3668-4cf9-9996-2f9584dfa030.png",
+          "sha256": "2df37d5200500a984228c7a1677b8bbd0ea7614fe085ad306cd63ebbc08c2ecf",
+          "preservedPaths": [
+            "art/scene-30-r7-v1.png"
+          ]
+        }
+      ]
+    },
+    {
+      "record": "art/water-study-v1-record.json",
+      "recordSha256": "53d9023e42ecd16051c55cfea222addc155eadda1a66b709fa757c7c1e1bd6db",
+      "tool": "image_gen.imagegen",
+      "master": "art/water-study-v1.png",
+      "masterSha256": "aef8a303cfd22497ffa96d2f9301dd043f7d1a88a4fc965584e90b9f8859e6c0",
+      "nativeToolOutputMatched": true,
+      "prompt": "art/water-study-v1-prompt.txt",
+      "promptSha256": "b1939beb0dbb90c05198044ba7a971cd0eaf3b5fc5a6472145b07e5b970bee1c",
+      "inputs": [
+        {
+          "originalPath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r5/masters/reused/scene-30/scene-30-v1.png",
+          "sha256": "9d7fc0062e8bba95096cceb6898f98b8551d2a878c3cfa950ecde7d0ef102f11",
+          "preservedPaths": [
+            "art/original-r5.png"
+          ]
+        }
+      ]
+    }
+  ],
+  "uniqueInputHashes": [
+    "2df37d5200500a984228c7a1677b8bbd0ea7614fe085ad306cd63ebbc08c2ecf",
+    "9d7fc0062e8bba95096cceb6898f98b8551d2a878c3cfa950ecde7d0ef102f11",
+    "aef8a303cfd22497ffa96d2f9301dd043f7d1a88a4fc965584e90b9f8859e6c0"
+  ]
+}

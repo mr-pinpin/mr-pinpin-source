@@ -1,0 +1,94 @@
+{
+  "status": "bath candidate awaiting user review",
+  "artManifestSha256": "dd27c9780fb010b37ec2285cd43fb2549403b65e3b9b47a7f443df9c93a6825a",
+  "original": {
+    "path": "web/original.webp",
+    "sha256": "77e18036a203c5e3fe043d28af5b88073425d6b2102888d717e1a64e6dd5b1ea",
+    "width": 1536,
+    "height": 1024,
+    "source": "art/original-r5.webp",
+    "sourceSha256": "77e18036a203c5e3fe043d28af5b88073425d6b2102888d717e1a64e6dd5b1ea",
+    "operation": "unchanged WebP byte copy"
+  },
+  "proposal": {
+    "path": "web/proposal.webp",
+    "sha256": "8c95d6f30e746a3df82f2ab069b3ebae267321aaf82af9e22c9e120c0cd1b90b",
+    "width": 1536,
+    "height": 1024,
+    "source": "art/scene-30-r7-v2.webp",
+    "sourceSha256": "8c95d6f30e746a3df82f2ab069b3ebae267321aaf82af9e22c9e120c0cd1b90b",
+    "operation": "unchanged WebP byte copy"
+  },
+  "rejected": {
+    "path": "web/rejected.webp",
+    "sha256": "e4d72ab0211b387f07d891140cff414267a4fbb437f37fc5de7ecbf74a214f53",
+    "width": 1536,
+    "height": 1024,
+    "source": "art/rejected-r6.webp",
+    "sourceSha256": "e4d72ab0211b387f07d891140cff414267a4fbb437f37fc5de7ecbf74a214f53",
+    "operation": "unchanged WebP byte copy"
+  },
+  "study": {
+    "path": "web/study.webp",
+    "sha256": "976cc3e66c6fd9d57700bb3e8c5c0ac49aabcecb02066f639b389775ef29240c",
+    "width": 1536,
+    "height": 1024,
+    "source": "art/water-study-v1.webp",
+    "sourceSha256": "976cc3e66c6fd9d57700bb3e8c5c0ac49aabcecb02066f639b389775ef29240c",
+    "operation": "unchanged WebP byte copy"
+  },
+  "documents": [
+    {
+      "path": "art/GEOMETRY.md",
+      "title": "GEOMETRY.md"
+    },
+    {
+      "path": "art/manifest.json",
+      "title": "manifest.json"
+    },
+    {
+      "path": "art/scene-30-r7-v1-prompt.txt",
+      "title": "scene-30-r7-v1-prompt.txt"
+    },
+    {
+      "path": "art/scene-30-r7-v1-record.json",
+      "title": "scene-30-r7-v1-record.json"
+    },
+    {
+      "path": "art/scene-30-r7-v1-request.json",
+      "title": "scene-30-r7-v1-request.json"
+    },
+    {
+      "path": "art/scene-30-r7-v2-prompt.txt",
+      "title": "scene-30-r7-v2-prompt.txt"
+    },
+    {
+      "path": "art/scene-30-r7-v2-record.json",
+      "title": "scene-30-r7-v2-record.json"
+    },
+    {
+      "path": "art/scene-30-r7-v2-request.json",
+      "title": "scene-30-r7-v2-request.json"
+    },
+    {
+      "path": "art/water-study-v1-prompt.txt",
+      "title": "water-study-v1-prompt.txt"
+    },
+    {
+      "path": "art/water-study-v1-record.json",
+      "title": "water-study-v1-record.json"
+    },
+    {
+      "path": "art/water-study-v1-request.json",
+      "title": "water-study-v1-request.json"
+    },
+    {
+      "path": "twelve-mishaps-proposal.json",
+      "title": "Original story proposal (not rendered here)"
+    },
+    {
+      "path": "story-discussion.json",
+      "title": "Readable discussion and energy principle"
+    }
+  ]
+}
