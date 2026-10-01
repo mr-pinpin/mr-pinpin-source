@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "date": "2026-10-01",
+  "operation": "Move active authoring checkout from Air to mini SSD at explicit user request",
+  "source": "/Users/miguel_lemos/anastasia-pinpin-repos/mr-pinpin-source",
+  "destination": "/Volumes/TB4/mac-mini-storage/shared/pinpin-workspace/mr-pinpin-source",
+  "verification": {
+    "head": "08c2bbe212993c0be7933fa37ee1d1957f49f87d",
+    "checksumComparison": "rsync -acni: no file content or symlink differences after copying original Git index; only .git directory mtime",
+    "gitStatusEntries": 1926,
+    "gitStatusSha256": "8b2ca148404d614538e7f9453b1e84072760083af49a30ff4b4c8306bf9156a4",
+    "gitStatusEqual": true,
+    "absoluteAssetLinksOutsideTB4": 0
+  },
+  "cutover": {
+    "oldPath": "compatibility symlink on Air and mini",
+    "localDuplicate": "removed only after verification",
+    "previewHTTP": 200,
+    "airFreeGiB": 5.9,
+    "miniFreeTiB": 2.7
+  },
+  "scope": "Authoring checkout and all dirty/ignored files preserved. Official deployment checkout and separate Air Elder release worktree not moved. No official publication."
+}

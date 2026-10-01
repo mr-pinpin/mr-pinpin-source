@@ -17,9 +17,11 @@
   AI output or public-domain material. Keep `docs/permissions/` notice copies in
   sync with root notices. New notices require a new release, not archive mutation.
 
-- Canonical source: `https://github.com/mr-pinpin/mr-pinpin-source`, local
-  `/Users/miguel_lemos/anastasia-pinpin-repos/mr-pinpin-source`. Use this checkout
-  for authoring; old local names are compatibility symlinks only.
+- Canonical source: `https://github.com/mr-pinpin/mr-pinpin-source`, physically on
+  the Mac mini SSD at `/Volumes/TB4/mac-mini-storage/shared/pinpin-workspace/mr-pinpin-source`.
+  Run authoring commands, builds, tests and Git operations through `ssh mini`
+  in that physical checkout. The former `/Users/miguel_lemos/anastasia-pinpin-repos/mr-pinpin-source`
+  path is a compatibility symlink on both machines. Do not recreate an Air checkout.
 - Canonical reader site: `https://mr-pinpin.github.io/`.
   Public storage stays `miguelemosreverte/mr-pinpin-archive`; do not rename its
   objects or rewrite historical reports/manifests to match repository renames.

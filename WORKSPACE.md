@@ -1,9 +1,26 @@
 # Local workspace guide
 
-Use the two canonical checkouts below for new work. All paths are relative to
-`/Users/miguel_lemos/anastasia-pinpin-repos/`. GitHub roles and release commands are
-in [PUBLISHING.md](PUBLISHING.md); content and runtime files are described in the
-[storyboard guide](docs/storyboard/README.md).
+The authoring checkout moved to the Mac mini's SSD on 2026-10-01 at Miguel's
+request. Its physical path is
+`/Volumes/TB4/mac-mini-storage/shared/pinpin-workspace/mr-pinpin-source`.
+Use `ssh mini` for authoring commands, tests, builds and Git operations there.
+The former `/Users/miguel_lemos/anastasia-pinpin-repos/mr-pinpin-source` path on
+both machines is a compatibility symlink, not another copy. Use the physical path
+for tools that reject symlink checkout paths. Do not recreate the checkout on the Air.
+
+The complete checkout, Git history, ignored files and uncommitted work were copied
+and checksum-verified before the Air copy was removed. All 1,926 modified/untracked
+status entries matched at cutover. Linked worktree registrations were preserved;
+the Elder release worktree still resides on the Air and must not be pruned from the mini.
+
+The R5 bath production pack and preview server also live on the mini. Its server
+uses port 18796; the existing Air tunnel exposes port 18795. This checkout move
+does not publish or change the official reader. Heavy output belongs on TB4.
+
+The names below remain relative to `/Users/miguel_lemos/anastasia-pinpin-repos/`
+on the Air for compatibility. The official deployment checkout has not moved.
+GitHub roles and release commands are in [PUBLISHING.md](PUBLISHING.md); content
+and runtime files are described in the [storyboard guide](docs/storyboard/README.md).
 
 | Directory | Role | Use for new work |
 | --- | --- | --- |
@@ -44,8 +61,8 @@ The observations above are a dated inventory, not a permanent status guarantee.
 
 The cover-standard worktree was copied and hash-verified as a complete directory
 before relocation on 2026-09-24. Its old path remains a compatibility symlink;
-the TB4 mount must be available to use it. Git history and worktree metadata remain
-with the canonical source checkout on the Air. Git's worktree registration was
+the TB4 mount must be available to use it. Git history and worktree metadata now
+live with the canonical source checkout on the mini SSD. Git's worktree registration was
 repaired for the physical path and locked to protect it while the share is absent.
 
 ## Migration snapshots
