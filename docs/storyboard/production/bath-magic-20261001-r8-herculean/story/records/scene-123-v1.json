@@ -1,0 +1,49 @@
+{
+  "tool": "image_gen__imagegen",
+  "generatedAt": "2026-10-01T18:04:39.115Z",
+  "sourceOutput": "/Users/miguel_lemos/.codex/generated_images/01a0f5c0-64db-7310-817a-d73d15314908/exec-fed0770d-3d65-440b-a38c-c8dd6cbc1ee3.png",
+  "promptPath": "prompts/scene-123-v1.txt",
+  "references": [
+    "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r5/masters/scene-81-v1.png"
+  ],
+  "visualReview": {
+    "status": "passed-for-draft",
+    "notes": "Mama and PinPin scoop and wipe residual water; shallow bath, no magical source, alert purposeful expressions."
+  },
+  "promptSha256": "a60d7b185fef0da50b6aa3f3a486183bae378d076b064e3026860e4d9ebdeb9f",
+  "master": {
+    "path": "masters/scene-123-v1.png",
+    "sha256": "3a40b203b1f22f2f8687a2b28569206de24b7ab4538e785f1a55eda5150cbfbc",
+    "bytes": 2387131
+  },
+  "referenceIdentities": [
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r5/masters/scene-81-v1.png",
+      "sha256": "cc8c1d59e8f54cb69b19ce6ddd74d4de9563e77c144d2cbd4401aaa1ae4f0de7",
+      "bytes": 2441795
+    }
+  ],
+  "preservedReferences": [
+    {
+      "path": "references/inputs/cc8c1d59e8f5/scene-81-v1.png",
+      "sha256": "cc8c1d59e8f54cb69b19ce6ddd74d4de9563e77c144d2cbd4401aaa1ae4f0de7"
+    }
+  ],
+  "reviewStatus": "illustration candidate; awaiting user feedback",
+  "web": {
+    "path": "web/scene-123.webp",
+    "sha256": "b40ceace35152f02acfcc3aa1a9f2604902867dc7a3d4adcf1f18325fe8f4eb9",
+    "bytes": 438956
+  },
+  "dimensions": [
+    1536,
+    1024
+  ],
+  "conversion": {
+    "format": "WebP",
+    "quality": 94,
+    "method": 6,
+    "resized": false,
+    "artEdited": false
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "id": "scene-106",
+  "version": 1,
+  "tool": "image_gen__imagegen",
+  "generatedAt": "2026-10-01T17:57:33.498Z",
+  "sourceOutput": "/Users/miguel_lemos/.codex/generated_images/01a0be6f-b832-7d93-95df-9d2ff5f69dc1/exec-75c11995-5034-47d6-81e6-47ef094bff03.png",
+  "promptPath": "prompts/scene-106-v1.txt",
+  "references": [
+    "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r8-herculean/root/masters/scene-104-v2.png",
+    "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r8-herculean/root/masters/scene-103-v1.png"
+  ],
+  "visibleCast": [
+    "Papa",
+    "Mama",
+    "PinPin",
+    "PomPom"
+  ],
+  "cameraEvidence": "Same camera composition as104/103; no new measured camera transform.",
+  "visualReview": "Furniture grounded, allfour awakefamily, child lowerscloth; dislodged gutter overlap leaks lowerleft nexttoPapa stool, setting107. Clearjointleak, stoollegadjacent rather than incontact atstillmoment.",
+  "promptSha256": "bf95521e145c43f891900b5d4875d86c08627594da3604278534e3ad17fe9cf7",
+  "master": {
+    "path": "masters/scene-106-v1.png",
+    "sha256": "e4d74afa2a64cd5553f017245d334f7cc4bee6b137c88a96df26fc057f958ad3",
+    "bytes": 2527203
+  },
+  "referenceIdentities": [
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r8-herculean/root/masters/scene-104-v2.png",
+      "sha256": "5cfdaeaf84468b7f58a7ed6a734c4319c0df3837decc8eee437c5bb18ced67f5",
+      "bytes": 2504730
+    },
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r8-herculean/root/masters/scene-103-v1.png",
+      "sha256": "5ec78cdcef3506dce4196cc1de9e1483c74a01b702e4e528bc6b76cdba4052f5",
+      "bytes": 2524283
+    }
+  ],
+  "preservedReferences": [
+    {
+      "path": "references/inputs/5cfdaeaf8446/scene-104-v2.png",
+      "sha256": "5cfdaeaf84468b7f58a7ed6a734c4319c0df3837decc8eee437c5bb18ced67f5"
+    },
+    {
+      "path": "references/inputs/5ec78cdcef35/scene-103-v1.png",
+      "sha256": "5ec78cdcef3506dce4196cc1de9e1483c74a01b702e4e528bc6b76cdba4052f5"
+    }
+  ],
+  "reviewStatus": "illustration candidate; awaiting user feedback",
+  "web": {
+    "path": "web/scene-106.webp",
+    "sha256": "e5f11f133195eccd2e6a3647bdac418f64f5de754a4ba9fd489e43ef295fe880",
+    "bytes": 464900
+  },
+  "dimensions": [
+    1536,
+    1024
+  ],
+  "conversion": {
+    "format": "WebP",
+    "quality": 94,
+    "method": 6,
+    "resized": false,
+    "artEdited": false
+  }
+}

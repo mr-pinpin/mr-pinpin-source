@@ -1,0 +1,49 @@
+{
+  "tool": "image_gen__imagegen",
+  "generatedAt": "2026-10-01T17:37:28.414Z",
+  "sourceOutput": "/Users/miguel_lemos/.codex/generated_images/01a0f5c0-64db-7310-817a-d73d15314908/exec-8d768c6e-831c-4a11-853b-fe40eca25a36.png",
+  "promptPath": "prompts/scene-108-v1.txt",
+  "references": [
+    "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r5/masters/scene-49-v1.png"
+  ],
+  "visualReview": {
+    "status": "passed-for-draft",
+    "notes": "Actual illustration inspected: clear same-camera narrative action, bright engaged child, complete wooden basin;112 stream narrowed to original modest scale and tiny tub visibly distinct."
+  },
+  "promptSha256": "69bb2745e7bd8013fee7ff90ba4fc711e32241e501a64fc1d77da1f985f73e6f",
+  "master": {
+    "path": "masters/scene-108-v1.png",
+    "sha256": "f80d8a4e699ac2614bf942b19880205ed4e00c28cae4da6e7ee05b251ac5986a",
+    "bytes": 2570886
+  },
+  "referenceIdentities": [
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r5/masters/scene-49-v1.png",
+      "sha256": "66dabdec71f11755a599bdf1c734c30a298de27a6f550c18ef8a4e2cc90f6dc3",
+      "bytes": 2534796
+    }
+  ],
+  "preservedReferences": [
+    {
+      "path": "references/inputs/66dabdec71f1/scene-49-v1.png",
+      "sha256": "66dabdec71f11755a599bdf1c734c30a298de27a6f550c18ef8a4e2cc90f6dc3"
+    }
+  ],
+  "reviewStatus": "illustration candidate; awaiting user feedback",
+  "web": {
+    "path": "web/scene-108.webp",
+    "sha256": "73201db05ee30b70196855418e5d910f853513386a8ca0f17e82b476cb97de92",
+    "bytes": 446088
+  },
+  "dimensions": [
+    1536,
+    1024
+  ],
+  "conversion": {
+    "format": "WebP",
+    "quality": 94,
+    "method": 6,
+    "resized": false,
+    "artEdited": false
+  }
+}

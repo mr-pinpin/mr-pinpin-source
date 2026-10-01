@@ -1,0 +1,43 @@
+{
+  "tool": "image_gen__imagegen",
+  "generatedAt": "2026-10-01T17:52:39.143Z",
+  "sourceOutput": "/Users/miguel_lemos/.codex/generated_images/01a0f5c0-64db-7310-817a-d73d15314908/exec-79894e5b-70fa-4fce-9d16-ca8d7d7dc9e1.png",
+  "promptPath": "prompts/scene-115-v1.txt",
+  "references": [
+    "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r5/masters/scene-73-v1.png",
+    "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r8-herculean/story/masters/scene-112-v3.png"
+  ],
+  "visualReview": {
+    "status": "needs-revision",
+    "notes": "Tiny tub needs closer scale and overflow must go over rim, not through wall."
+  },
+  "promptSha256": "a6a9a9c7c29583dede4297566d63956158d1100f9a85d5fbd3856c2a92b69a09",
+  "master": {
+    "path": "masters/scene-115-v1.png",
+    "sha256": "69255fdea675f5d62b2aef1274374681656c54408b68b2cb13d9422ae55483e3",
+    "bytes": 2569892
+  },
+  "referenceIdentities": [
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r5/masters/scene-73-v1.png",
+      "sha256": "6c1c17d7faaf767989c21c9462d0f0743e193895da3dc8d9d7c7a945d8b06039",
+      "bytes": 2562956
+    },
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r8-herculean/story/masters/scene-112-v3.png",
+      "sha256": "92d2d359bd0489ac5efd66bafc8d0f67f0cd26fbafb64269b9cf48e948e2df71",
+      "bytes": 2520957
+    }
+  ],
+  "preservedReferences": [
+    {
+      "path": "references/inputs/6c1c17d7faaf/scene-73-v1.png",
+      "sha256": "6c1c17d7faaf767989c21c9462d0f0743e193895da3dc8d9d7c7a945d8b06039"
+    },
+    {
+      "path": "references/inputs/92d2d359bd04/scene-112-v3.png",
+      "sha256": "92d2d359bd0489ac5efd66bafc8d0f67f0cd26fbafb64269b9cf48e948e2df71"
+    }
+  ],
+  "reviewStatus": "illustration candidate; awaiting user feedback"
+}

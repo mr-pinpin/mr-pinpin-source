@@ -1,0 +1,55 @@
+{
+  "id": "scene-89",
+  "tool": "image_gen__imagegen",
+  "generatedAt": "2026-10-01T17:27:46.724Z",
+  "sourceOutput": "/Users/miguel_lemos/.codex/generated_images/01a0be6f-b832-7d93-95df-9d2ff5f69dc1/exec-d82f4a87-2dad-414d-804c-3c37729252d5.png",
+  "promptPath": "prompts/scene-89-v1.txt",
+  "references": [
+    "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r6-corrections/tables/scene-83-v1.png"
+  ],
+  "visibleCast": [
+    "Papa",
+    "Mama",
+    "PinPin",
+    "PomPom",
+    "Duck"
+  ],
+  "cameraEvidence": "Same camera composition as edit target; no new measured camera transform.",
+  "visualReview": "Papa has exactly two paws: one umbrella one spoon; four distinct family members; normal convex round table. Localized cloud-rain, baby supported, alert surprised child and wry family.",
+  "promptSha256": "90bad7fb1defd1e6ca0c89a778a343923babc0f1f5ef2b7dce5e5e531ad38f67",
+  "master": {
+    "path": "masters/scene-89-v1.png",
+    "sha256": "5a691eaf01fb740c33beddd6aba29408cc8a662965f620441103a8dab46fd3c0",
+    "bytes": 2674674
+  },
+  "referenceIdentities": [
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r6-corrections/tables/scene-83-v1.png",
+      "sha256": "8391e1bad0243ead6aece0d2cc8e6251cd6479f0d5ced360498d21e1385f3e95",
+      "bytes": 2585810
+    }
+  ],
+  "preservedReferences": [
+    {
+      "path": "references/inputs/8391e1bad024/scene-83-v1.png",
+      "sha256": "8391e1bad0243ead6aece0d2cc8e6251cd6479f0d5ced360498d21e1385f3e95"
+    }
+  ],
+  "reviewStatus": "illustration candidate; awaiting user feedback",
+  "web": {
+    "path": "web/scene-89.webp",
+    "sha256": "425ac1debea3798275d903db905d68dc08fea0203b0aa24eac433a9082efab4a",
+    "bytes": 531936
+  },
+  "dimensions": [
+    1536,
+    1024
+  ],
+  "conversion": {
+    "format": "WebP",
+    "quality": 94,
+    "method": 6,
+    "resized": false,
+    "artEdited": false
+  }
+}

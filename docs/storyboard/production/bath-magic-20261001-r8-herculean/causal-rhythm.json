@@ -1,0 +1,501 @@
+{
+  "productionId": "bath-magic-20261001-r8-herculean",
+  "status": "126 selected illustrated scenes; causal sequence implemented in EN/RU/ES captions, draft for user review",
+  "refrain": {
+    "en": "Round and round… just so!",
+    "ru": "Круг за кругом… вот так!",
+    "es": "Vuelta y vuelta… ¡así!"
+  },
+  "pattern": "Concrete consequence → attempted fix with familiar incantation → visual hold → unintended outcome → physical family response → remaining problem. Timing varies through close-ups, counting, meals, athletic action and silent observation.",
+  "nodes": [
+    {
+      "id": 1,
+      "parentIds": [],
+      "attemptScene": 11,
+      "misfireScene": 12,
+      "pauseFrames": [
+        10,
+        13,
+        14
+      ],
+      "cause": {
+        "en": "Carrying many buckets",
+        "ru": "Носить много вёдер",
+        "es": "Llevar muchos cubos"
+      },
+      "attempt": {
+        "en": "Fill the bath",
+        "ru": "Наполнить ванну",
+        "es": "Llenar la bañera"
+      },
+      "misfire": {
+        "en": "Source will not stop",
+        "ru": "Вода не останавливается",
+        "es": "El agua no se detiene"
+      },
+      "payoff": {
+        "en": "Papa catches water and family enjoys bath",
+        "ru": "Папа ловит воду, и семья купается",
+        "es": "Papá recoge agua y la familia se baña"
+      },
+      "persistentConsequence": {
+        "en": "Endless source and gutter remain",
+        "ru": "Источник и желоб остаются",
+        "es": "El manantial y la canaleta siguen"
+      }
+    },
+    {
+      "id": 2,
+      "parentIds": [
+        1
+      ],
+      "attemptScene": 45,
+      "misfireScene": 46,
+      "pauseFrames": [
+        46,
+        47
+      ],
+      "cause": {
+        "en": "Endless bath source",
+        "ru": "Вода всё льётся",
+        "es": "El agua sigue saliendo"
+      },
+      "attempt": {
+        "en": "Stop the source",
+        "ru": "Остановить источник",
+        "es": "Detener el manantial"
+      },
+      "misfire": {
+        "en": "Flowers bloom instead",
+        "ru": "Вместо этого распускаются цветы",
+        "es": "En su lugar brotan flores"
+      },
+      "payoff": {
+        "en": "Family scoops flowers from channel",
+        "ru": "Семья вылавливает цветы из желоба",
+        "es": "La familia saca flores de la canaleta"
+      },
+      "persistentConsequence": {
+        "en": "Saved flowers remain near ducks",
+        "ru": "Сохранённые цветы остаются возле уток",
+        "es": "Las flores guardadas quedan junto a los patos"
+      }
+    },
+    {
+      "id": 3,
+      "parentIds": [
+        2
+      ],
+      "attemptScene": 57,
+      "misfireScene": 58,
+      "pauseFrames": [
+        59,
+        60
+      ],
+      "cause": {
+        "en": "Flowers still in the way",
+        "ru": "Цветы всё ещё мешают",
+        "es": "Las flores siguen estorbando"
+      },
+      "attempt": {
+        "en": "Undo flowers",
+        "ru": "Убрать цветы",
+        "es": "Quitar las flores"
+      },
+      "misfire": {
+        "en": "Ordinary duck unexpectedly talks",
+        "ru": "Обычная уточка вдруг говорит",
+        "es": "El patito corriente empieza a hablar"
+      },
+      "payoff": {
+        "en": "Baby answers; Papa catches its ride",
+        "ru": "Малыш отвечает, а папа ловит уточку",
+        "es": "El bebé contesta y papá recoge al patito"
+      },
+      "persistentConsequence": {
+        "en": "Talkative single duck",
+        "ru": "Одна разговорчивая уточка",
+        "es": "Un solo patito parlanchín"
+      }
+    },
+    {
+      "id": 4,
+      "parentIds": [
+        3
+      ],
+      "attemptScene": 65,
+      "misfireScene": 66,
+      "pauseFrames": [
+        67,
+        68
+      ],
+      "cause": {
+        "en": "Duck keeps calling",
+        "ru": "Уточка всё время зовёт",
+        "es": "El patito no deja de llamar"
+      },
+      "attempt": {
+        "en": "Quiet the duck",
+        "ru": "Сделать уточку тихой",
+        "es": "Callar al patito"
+      },
+      "misfire": {
+        "en": "One becomes twelve",
+        "ru": "Вместо одной появляются двенадцать",
+        "es": "Uno se convierte en doce"
+      },
+      "payoff": {
+        "en": "Papa discovers twelfth in bucket",
+        "ru": "Папа находит двенадцатую в ведре",
+        "es": "Papá encuentra al duodécimo en su cubo"
+      },
+      "persistentConsequence": {
+        "en": "Twelve ducks in flower-obstructed pool",
+        "ru": "Двенадцати уткам мешают цветы в бассейне",
+        "es": "Doce patos y flores que estorban en la piscina"
+      }
+    },
+    {
+      "id": 5,
+      "parentIds": [
+        2,
+        4
+      ],
+      "attemptScene": 71,
+      "misfireScene": 72,
+      "pauseFrames": [
+        73,
+        75
+      ],
+      "cause": {
+        "en": "Flowers snag duck tails",
+        "ru": "Цветы цепляются за утиные хвосты",
+        "es": "Las flores enganchan las colas"
+      },
+      "attempt": {
+        "en": "Shrink flowers for room",
+        "ru": "Уменьшить цветы, чтобы освободить место",
+        "es": "Encoger las flores para hacer sitio"
+      },
+      "misfire": {
+        "en": "One enormous potted flower",
+        "ru": "Один цветок становится огромным",
+        "es": "Una flor en maceta se vuelve enorme"
+      },
+      "payoff": {
+        "en": "Strong PinPin carries pot with family help",
+        "ru": "Сильный Пин-Пин несёт горшок с помощью семьи",
+        "es": "PinPin lleva la maceta con ayuda de su familia"
+      },
+      "persistentConsequence": {
+        "en": "Giant garden flower; wet leaves by bath",
+        "ru": "В саду огромный цветок, у ванны мокрые листья",
+        "es": "Una flor gigante fuera y hojas mojadas junto al baño"
+      }
+    },
+    {
+      "id": 6,
+      "parentIds": [
+        5
+      ],
+      "attemptScene": 80,
+      "misfireScene": 81,
+      "pauseFrames": [
+        82,
+        83
+      ],
+      "cause": {
+        "en": "Wet leaves/petals after moving giant plant",
+        "ru": "После большого цветка остались мокрые листья и лепестки",
+        "es": "Quedan hojas y pétalos mojados tras sacar la flor"
+      },
+      "attempt": {
+        "en": "Clear water surface",
+        "ru": "Очистить поверхность воды",
+        "es": "Despejar el agua"
+      },
+      "misfire": {
+        "en": "Persistent bubbles lift soap and cloth",
+        "ru": "Пузыри поднимают мыло и тряпочку",
+        "es": "Las burbujas levantan jabón y un paño"
+      },
+      "payoff": {
+        "en": "Family fans bubbles out; thorn pops them",
+        "ru": "Семья выгоняет пузыри наружу; шип их лопает",
+        "es": "La familia las abanica hacia fuera; una espina las pincha"
+      },
+      "persistentConsequence": {
+        "en": "Wet cloth leaves indoor puddle",
+        "ru": "С мокрой тряпочки натекает лужа",
+        "es": "El paño mojado deja un charco"
+      }
+    },
+    {
+      "id": 7,
+      "parentIds": [
+        6
+      ],
+      "attemptScene": 87,
+      "misfireScene": 88,
+      "pauseFrames": [
+        89,
+        90
+      ],
+      "cause": {
+        "en": "Bubble cloth puddle",
+        "ru": "Мокрая тряпочка оставила лужу",
+        "es": "El paño de las burbujas dejó un charco"
+      },
+      "attempt": {
+        "en": "Dry floor",
+        "ru": "Высушить пол",
+        "es": "Secar el suelo"
+      },
+      "misfire": {
+        "en": "Indoor raincloud",
+        "ru": "В доме появляется дождевая тучка",
+        "es": "Aparece una nube de lluvia dentro"
+      },
+      "payoff": {
+        "en": "Papa eats under umbrella; Mama fans cloud outside",
+        "ru": "Папа ест под зонтом, мама выгоняет тучку",
+        "es": "Papá come bajo un paraguas y mamá saca la nube"
+      },
+      "persistentConsequence": {
+        "en": "Rain-wet objects",
+        "ru": "Вещи намокли под дождём",
+        "es": "Cosas mojadas por la lluvia"
+      }
+    },
+    {
+      "id": 8,
+      "parentIds": [
+        7
+      ],
+      "attemptScene": 92,
+      "misfireScene": 93,
+      "pauseFrames": [
+        94
+      ],
+      "cause": {
+        "en": "Rain wets things",
+        "ru": "Дождь намочил вещи",
+        "es": "La lluvia moja las cosas"
+      },
+      "attempt": {
+        "en": "Towels dry everything",
+        "ru": "Попросить полотенца всё высушить",
+        "es": "Pedir a las toallas que sequen todo"
+      },
+      "misfire": {
+        "en": "Towels wrap everything wet",
+        "ru": "Полотенца оборачивают всё мокрое",
+        "es": "Las toallas envuelven todo lo mojado"
+      },
+      "payoff": {
+        "en": "Duck parcel unwrapped; towels hung",
+        "ru": "Уточку разворачивают, полотенца развешивают",
+        "es": "Desenvuelven al pato y cuelgan las toallas"
+      },
+      "persistentConsequence": {
+        "en": "Towel knocks slippers into gutter",
+        "ru": "Полотенце сбрасывает тапочки в желоб",
+        "es": "Una toalla empuja las zapatillas a la canaleta"
+      }
+    },
+    {
+      "id": 9,
+      "parentIds": [
+        8
+      ],
+      "attemptScene": 97,
+      "misfireScene": 98,
+      "pauseFrames": [
+        99
+      ],
+      "cause": {
+        "en": "Towels displaced slippers",
+        "ru": "Полотенце сдвинуло тапочки",
+        "es": "La toalla desplazó las zapatillas"
+      },
+      "attempt": {
+        "en": "Call slippers back",
+        "ru": "Позвать тапочки обратно",
+        "es": "Llamar a las zapatillas"
+      },
+      "misfire": {
+        "en": "Slippers swim",
+        "ru": "Тапочки начинают плавать",
+        "es": "Las zapatillas nadan"
+      },
+      "payoff": {
+        "en": "Family basket rescue",
+        "ru": "Семья ловит их корзиной",
+        "es": "La familia las rescata con una cesta"
+      },
+      "persistentConsequence": {
+        "en": "Rescue splashes breakfast cloth",
+        "ru": "Брызги при ловле намочили скатерть",
+        "es": "El rescate salpica el mantel"
+      }
+    },
+    {
+      "id": 10,
+      "parentIds": [
+        9
+      ],
+      "attemptScene": 103,
+      "misfireScene": 104,
+      "pauseFrames": [
+        105
+      ],
+      "cause": {
+        "en": "Wet breakfast cloth remains overnight",
+        "ru": "Мокрая скатерть осталась до утра",
+        "es": "El mantel mojado sigue allí por la mañana"
+      },
+      "attempt": {
+        "en": "Lift cloth",
+        "ru": "Поднять скатерть",
+        "es": "Levantar el mantel"
+      },
+      "misfire": {
+        "en": "Furniture levitates too",
+        "ru": "Мебель тоже взлетает",
+        "es": "Los muebles también flotan"
+      },
+      "payoff": {
+        "en": "Papa steadies bowl and eats; child lowers paw",
+        "ru": "Папа держит миску и ест; ребёнок опускает лапку",
+        "es": "Papá sujeta el cuenco y come; el niño baja la pata"
+      },
+      "persistentConsequence": {
+        "en": "Settling stool nudges gutter overlap loose",
+        "ru": "Опускаясь, табурет толкает стык желоба",
+        "es": "Al bajar, un taburete empuja la unión de la canaleta"
+      }
+    },
+    {
+      "id": 11,
+      "parentIds": [
+        10,
+        1
+      ],
+      "attemptScene": 107,
+      "misfireScene": 108,
+      "pauseFrames": [
+        109,
+        110
+      ],
+      "cause": {
+        "en": "Nudged gutter leaks",
+        "ru": "Сдвинутый стык желоба течёт",
+        "es": "La unión desplazada gotea"
+      },
+      "attempt": {
+        "en": "Direct stream outside",
+        "ru": "Направить воду наружу",
+        "es": "Dirigir el agua al jardín"
+      },
+      "misfire": {
+        "en": "Water climbs wall",
+        "ru": "Вода ползёт вверх по стене",
+        "es": "El agua sube por la pared"
+      },
+      "payoff": {
+        "en": "Family angles buckets; ducks queue",
+        "ru": "Семья поворачивает вёдра; утки ждут",
+        "es": "La familia inclina cubos y los patos esperan"
+      },
+      "persistentConsequence": {
+        "en": "Uphill cascade and source remain",
+        "ru": "Вода идёт вверх, и источник не останавливается",
+        "es": "El agua sube y el manantial continúa"
+      }
+    },
+    {
+      "id": 12,
+      "parentIds": [
+        11
+      ],
+      "attemptScene": 111,
+      "misfireScene": 112,
+      "pauseFrames": [
+        113,
+        114
+      ],
+      "cause": {
+        "en": "Uphill cascade too awkward to manage",
+        "ru": "С водопадом на стене трудно справиться",
+        "es": "La cascada de la pared es difícil de recoger"
+      },
+      "attempt": {
+        "en": "Make problem smaller",
+        "ru": "Сделать проблему меньше",
+        "es": "Hacer el problema más pequeño"
+      },
+      "misfire": {
+        "en": "Empty tub shrinks; same water flow",
+        "ru": "Пустая ванна уменьшается, а поток остаётся",
+        "es": "La bañera vacía encoge, pero el agua sigue"
+      },
+      "payoff": {
+        "en": "Duck judges bowl too small; child sees whole sign",
+        "ru": "Уточке тесно; ребёнок видит весь знак",
+        "es": "Al pato no le cabe; el niño ve el signo entero"
+      },
+      "persistentConsequence": {
+        "en": "Small sign inspectable for reverse solution",
+        "ru": "Маленький знак легче рассмотреть и обвести обратно",
+        "es": "El signo pequeño permite ver cómo recorrerlo al revés"
+      }
+    }
+  ],
+  "resolution": {
+    "seedScene": 50,
+    "recollectionScene": 70,
+    "observationScene": 114,
+    "testScenes": [
+      116,
+      117,
+      118
+    ],
+    "successfulInverseScenes": [
+      119,
+      120,
+      121
+    ],
+    "rhythmBreak": {
+      "en": "The final gesture goes the other way. PinPin leaves the familiar incantation behind and completes the movement he has tested.",
+      "ru": "Последний жест идёт в другую сторону. Пин-Пин оставляет привычные слова и завершает движение, которое уже проверил.",
+      "es": "El último gesto va al revés. PinPin deja el estribillo conocido y completa el movimiento que ha comprobado."
+    },
+    "restoreBathScene": 122,
+    "physicalCleanupScene": 123,
+    "gardenHomesScene": 124,
+    "appetiteScene": 125,
+    "duckEchoScene": 126
+  },
+  "illustrationHandoffs": {
+    "69": "Saved flowers snag duck tails in pool; the ordinary flower tangle motivates the next morning's shrink attempt.",
+    "79": "Wet fallen leaves and petals remain at bath after moving giant pot; this mess motivates clearing.",
+    "86": "Soap caught outside as bubble bursts; damp washcloth brought back and dropped at threshold leaves floor puddle.",
+    "96": "Overhelpful towel flicks pair of slippers into shallow gutter before hanging dry; no additional spell.",
+    "100": "Rescuing second slipper splashes nearby breakfast cloth. Cloth stays by roundtable overnight.",
+    "103": "Same damp cloth left by table since slipper rescue is target of lifting spell.",
+    "106": "As PinPin lowers his paw, the furniture settles. The nearest stool leg nudges the gutter overlap, creating a small leak.",
+    "107": "The newly leaking gutter joint motivates redirecting stream to garden; do not suggest unconnected spell.",
+    "111": "All people safely outside tub; uphill stream persists; PinPin attempts making this source problem smaller.",
+    "71": "One saved flower is potted before the next shrink experiment.",
+    "87": "The wet cloth is carried back inside after the outdoor bubble burst and leaves the next morning's puddle."
+  },
+  "notAdditionalMishaps": [
+    "Ordinary carrying and catching",
+    "PinPin deliberately lowering furniture",
+    "Bubbles popping on thorns",
+    "Dry towels finishing their task",
+    "Dry slippers unable to swim",
+    "Successful inverse source-stop",
+    "Deliberate bath restoration"
+  ]
+}

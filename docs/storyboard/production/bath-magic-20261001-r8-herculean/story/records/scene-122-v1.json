@@ -1,0 +1,43 @@
+{
+  "tool": "image_gen__imagegen",
+  "generatedAt": "2026-10-01T17:52:39.150Z",
+  "sourceOutput": "/Users/miguel_lemos/.codex/generated_images/01a0f5c0-64db-7310-817a-d73d15314908/exec-fa196cf9-23f5-43a3-9e4a-c3d564ac2b9e.png",
+  "promptPath": "prompts/scene-122-v1.txt",
+  "references": [
+    "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r5/masters/scene-28-v1.png",
+    "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r8-herculean/story/masters/scene-112-v3.png"
+  ],
+  "visualReview": {
+    "status": "needs-revision",
+    "notes": "Restore canonical exterior two metal bands and retained collector; no source present."
+  },
+  "promptSha256": "203269c551d5ffd852ee454d6a7964191f0a24ebbb7eb34c19e0eaed8a25553a",
+  "master": {
+    "path": "masters/scene-122-v1.png",
+    "sha256": "47a1f999138fe79a635db6f1c45500ce5c2cedcd5ee51a6142173b3e1f72572e",
+    "bytes": 2442176
+  },
+  "referenceIdentities": [
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r5/masters/scene-28-v1.png",
+      "sha256": "67ad9941b75f08d61fdc40b8d673824784b770d3b3517e0b2e9a9f33e28e3230",
+      "bytes": 2556582
+    },
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r8-herculean/story/masters/scene-112-v3.png",
+      "sha256": "92d2d359bd0489ac5efd66bafc8d0f67f0cd26fbafb64269b9cf48e948e2df71",
+      "bytes": 2520957
+    }
+  ],
+  "preservedReferences": [
+    {
+      "path": "references/inputs/67ad9941b75f/scene-28-v1.png",
+      "sha256": "67ad9941b75f08d61fdc40b8d673824784b770d3b3517e0b2e9a9f33e28e3230"
+    },
+    {
+      "path": "references/inputs/92d2d359bd04/scene-112-v3.png",
+      "sha256": "92d2d359bd0489ac5efd66bafc8d0f67f0cd26fbafb64269b9cf48e948e2df71"
+    }
+  ],
+  "reviewStatus": "illustration candidate; awaiting user feedback"
+}

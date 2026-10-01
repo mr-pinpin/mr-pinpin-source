@@ -1,0 +1,48 @@
+{
+  "id": "scene-80-v1",
+  "tool": "image_gen.imagegen",
+  "sourceOutput": "/Users/miguel_lemos/.codex/generated_images/01a0f5c3-a7d1-70d0-b8cf-581aa5deee53/exec-31451d28-932b-4bf5-a54c-c0ba08878882.png",
+  "promptPath": "prompts/scene-80-v1.txt",
+  "references": [
+    "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r5/web/scene-48.webp"
+  ],
+  "requestedAt": "2026-10-01T17:38:31.506575+00:00",
+  "recordedAt": "2026-10-01T17:49:15.019734+00:00",
+  "visualReview": "Inspected wet leaves/petals and soap/washcloth establish next bubble cause; source ring/fountain continue.",
+  "promptSha256": "49356053ebcbce37b3366a719e17e8ceeeb2e2edd2d299b9b4732aaf168f0c37",
+  "master": {
+    "path": "masters/scene-80-v1.png",
+    "sha256": "218fd336a115b2277416d8a866f1e9fa8355e9dfeef00d12ce698a8dc64a6b26",
+    "bytes": 2578626
+  },
+  "referenceIdentities": [
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r5/web/scene-48.webp",
+      "sha256": "1406524b54cfdbbfe0405d4a9cf831cf80536272d1ec028d8b90d744402c601f",
+      "bytes": 433600
+    }
+  ],
+  "preservedReferences": [
+    {
+      "path": "references/inputs/1406524b54cf/scene-48.webp",
+      "sha256": "1406524b54cfdbbfe0405d4a9cf831cf80536272d1ec028d8b90d744402c601f"
+    }
+  ],
+  "reviewStatus": "illustration candidate; awaiting user feedback",
+  "web": {
+    "path": "web/scene-80.webp",
+    "sha256": "96cd7ced511189452aa7ad7841941ed2741db7610c13d002ac0e1fc0df4158ea",
+    "bytes": 436124
+  },
+  "dimensions": [
+    1536,
+    1024
+  ],
+  "conversion": {
+    "format": "WebP",
+    "quality": 94,
+    "method": 6,
+    "resized": false,
+    "artEdited": false
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "id": "scene-76-v1",
+  "tool": "image_gen.imagegen",
+  "sourceOutput": "/Users/miguel_lemos/.codex/generated_images/01a0f5c3-a7d1-70d0-b8cf-581aa5deee53/exec-4924bdae-5807-41db-9cf1-cc02f34bb36c.png",
+  "promptPath": "prompts/scene-76-v1.txt",
+  "references": [
+    "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r5/web/scene-33.webp",
+    "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r8-herculean/preproduction/giant-flower-v1.png"
+  ],
+  "requestedAt": "2026-10-01T17:38:31.497531+00:00",
+  "recordedAt": "2026-10-01T17:46:33.031474+00:00",
+  "visualReview": "Inspected: strong child/parent coordinated carrying, clear hands and safe supported baby. Flower retains pink-white type and terracotta pot; illustrative scale varies.",
+  "promptSha256": "82b7a65362c6077cc0939cd0e20be60322382f5ccfd5e9c25c4f6f052264543d",
+  "master": {
+    "path": "masters/scene-76-v1.png",
+    "sha256": "73b5f595ab8b4d3076758068b27149b35353316cf8c3d894eb2b4ddbed5a4cef",
+    "bytes": 2568110
+  },
+  "referenceIdentities": [
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r5/web/scene-33.webp",
+      "sha256": "2770aba4f75111ca998ec365964ca81f91c84c82fe119262e3c58b0178116c49",
+      "bytes": 502220
+    },
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r8-herculean/preproduction/giant-flower-v1.png",
+      "sha256": "ae6d0fb864796346442d729585194ddcf78af4bada7599c769125fc461b4bede",
+      "bytes": 2009257
+    }
+  ],
+  "preservedReferences": [
+    {
+      "path": "references/inputs/2770aba4f751/scene-33.webp",
+      "sha256": "2770aba4f75111ca998ec365964ca81f91c84c82fe119262e3c58b0178116c49"
+    },
+    {
+      "path": "references/inputs/ae6d0fb86479/giant-flower-v1.png",
+      "sha256": "ae6d0fb864796346442d729585194ddcf78af4bada7599c769125fc461b4bede"
+    }
+  ],
+  "reviewStatus": "illustration candidate; awaiting user feedback",
+  "web": {
+    "path": "web/scene-76.webp",
+    "sha256": "70cce7874789493869e44e1613ff21551b3caea80963762d672248708f7e4de3",
+    "bytes": 454740
+  },
+  "dimensions": [
+    1536,
+    1024
+  ],
+  "conversion": {
+    "format": "WebP",
+    "quality": 94,
+    "method": 6,
+    "resized": false,
+    "artEdited": false
+  }
+}

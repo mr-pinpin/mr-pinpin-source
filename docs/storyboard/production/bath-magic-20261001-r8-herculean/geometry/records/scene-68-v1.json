@@ -1,0 +1,48 @@
+{
+  "id": "scene-68-v1",
+  "tool": "image_gen.imagegen",
+  "sourceOutput": "/Users/miguel_lemos/.codex/generated_images/01a0f5c3-a7d1-70d0-b8cf-581aa5deee53/exec-8ff53534-917f-4c9f-a472-a4a26fe62295.png",
+  "promptPath": "prompts/scene-68-v1.txt",
+  "references": [
+    "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r5/web/scene-66.webp"
+  ],
+  "requestedAt": "2026-10-01T17:29:35.113682+00:00",
+  "recordedAt": "2026-10-01T17:36:15.690205+00:00",
+  "visualReview": "Inspected single small duck revealed in Papa bucket; no duplicates, clear held object and alert face.",
+  "promptSha256": "149d5862189f44302f7292336c8c67e1b617443c5476258adb78678add6cc3f2",
+  "master": {
+    "path": "masters/scene-68-v1.png",
+    "sha256": "89d7d108bcbd8cc05b8e3d81ee4e11cdf4bfb4269b3b34ad39ba74572f90fadb",
+    "bytes": 2639502
+  },
+  "referenceIdentities": [
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r5/web/scene-66.webp",
+      "sha256": "4451cc2648e682a71c10fbfa1198c054243b70acdd39dd382dd1a14a6b16fc7a",
+      "bytes": 500538
+    }
+  ],
+  "preservedReferences": [
+    {
+      "path": "references/inputs/4451cc2648e6/scene-66.webp",
+      "sha256": "4451cc2648e682a71c10fbfa1198c054243b70acdd39dd382dd1a14a6b16fc7a"
+    }
+  ],
+  "reviewStatus": "illustration candidate; awaiting user feedback",
+  "web": {
+    "path": "web/scene-68.webp",
+    "sha256": "477b2842f98e40b54f9255a0d99c4a54a5a3afd48b41e60d190c095c5b3668ac",
+    "bytes": 468820
+  },
+  "dimensions": [
+    1536,
+    1024
+  ],
+  "conversion": {
+    "format": "WebP",
+    "quality": 94,
+    "method": 6,
+    "resized": false,
+    "artEdited": false
+  }
+}

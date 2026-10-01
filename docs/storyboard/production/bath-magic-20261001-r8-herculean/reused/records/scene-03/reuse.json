@@ -1,0 +1,137 @@
+{
+  "id": "scene-03",
+  "operation": "reuse unchanged; not newly generated",
+  "sourceProduction": "bath-magic-20261001-r5",
+  "sourceId": "scene-03",
+  "sourceRoot": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r5",
+  "originMaster": {
+    "path": "masters/reused/scene-03/scene-03-v1.png",
+    "sha256": "164ab02a960f76020ed09581bac604c705a0b51fbd5f1f9c291862339b3dbe7f",
+    "bytes": 2208228
+  },
+  "originWeb": {
+    "path": "web/scene-03.webp",
+    "sha256": "de83ba34ddba2916733e7242fbd0ec959d515a29c440e549f783a6384fc499ea",
+    "bytes": 315034
+  },
+  "master": {
+    "path": "reused/masters/scene-03/scene-03-v1.png",
+    "sha256": "164ab02a960f76020ed09581bac604c705a0b51fbd5f1f9c291862339b3dbe7f",
+    "bytes": 2208228
+  },
+  "web": {
+    "path": "reused/web/scene-03.webp",
+    "sha256": "de83ba34ddba2916733e7242fbd0ec959d515a29c440e549f783a6384fc499ea",
+    "bytes": 315034
+  },
+  "originRecord": {
+    "path": "reused/records/scene-03/origin-record.json",
+    "sha256": "cfaa4072574d805c736f0a7850deecb7ac9b0109ea67fff3cd42e56e3f060783",
+    "bytes": 2816
+  },
+  "originPrompt": {
+    "path": "reused/records/scene-03/origin-prompt.txt",
+    "sha256": "0225784c1be202b912f6c109d1b0c3166694b38798b862fce678a2db4dc980b7",
+    "bytes": 1460
+  },
+  "inputs": [
+    {
+      "originalPath": "/Users/miguel_lemos/.codex/generated_images/01a0f5c0-64db-7310-817a-d73d15314908/exec-c26f8254-5bce-4fa0-88b5-f053653e5ba2.png",
+      "sha256": "eda819abf89680e8325fd00e064f24ec317af4d19f3cd27b1140939485dd2851",
+      "preservedPaths": [
+        "reused/references/eda819abf896/scene-02-v2.png"
+      ]
+    },
+    {
+      "originalPath": "/Users/miguel_lemos/.codex/generated_images/01a0f5c0-64db-7310-817a-d73d15314908/exec-1cca88ec-88cc-49b4-9ed6-d6bfbc19bd7b.png",
+      "sha256": "b67a51a02991f3fa77af9df72ee1b04581222eb5bcd9ef4634a206423836e0a3",
+      "preservedPaths": [
+        "reused/references/b67a51a02991/scene-03-v3.png"
+      ]
+    },
+    {
+      "originalPath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r2/geometry/child-stove-up/still.png",
+      "sha256": "711eb0e2a6a8b09c05d981327a739dda38b4fb0ca6df8226f48c83e080a2a39a",
+      "preservedPaths": [
+        "reused/references/711eb0e2a6a8/geometry-reference.png"
+      ]
+    }
+  ],
+  "upstreamOrigin": {
+    "id": "scene-03",
+    "operation": "reuse unchanged; not newly generated",
+    "sourceProduction": "bath-magic-20261001-r3",
+    "sourceId": "scene-03",
+    "originMaster": {
+      "path": "masters/reused/scene-03/scene-03-v1.png",
+      "bytes": 2208228,
+      "sha256": "164ab02a960f76020ed09581bac604c705a0b51fbd5f1f9c291862339b3dbe7f"
+    },
+    "originWeb": {
+      "path": "web/scene-03.webp",
+      "bytes": 315034,
+      "sha256": "de83ba34ddba2916733e7242fbd0ec959d515a29c440e549f783a6384fc499ea"
+    },
+    "master": {
+      "path": "masters/reused/scene-03/scene-03-v1.png",
+      "bytes": 2208228,
+      "sha256": "164ab02a960f76020ed09581bac604c705a0b51fbd5f1f9c291862339b3dbe7f"
+    },
+    "web": {
+      "path": "web/scene-03.webp",
+      "bytes": 315034,
+      "sha256": "de83ba34ddba2916733e7242fbd0ec959d515a29c440e549f783a6384fc499ea"
+    },
+    "originRecord": {
+      "path": "reuse-records/scene-03/origin-record.json",
+      "bytes": 2816,
+      "sha256": "cfaa4072574d805c736f0a7850deecb7ac9b0109ea67fff3cd42e56e3f060783"
+    },
+    "originPrompt": {
+      "path": "reuse-records/scene-03/origin-prompt.txt",
+      "bytes": 1460,
+      "sha256": "0225784c1be202b912f6c109d1b0c3166694b38798b862fce678a2db4dc980b7"
+    },
+    "inputs": [
+      {
+        "originalPath": "/Users/miguel_lemos/.codex/generated_images/01a0f5c0-64db-7310-817a-d73d15314908/exec-c26f8254-5bce-4fa0-88b5-f053653e5ba2.png",
+        "sha256": "eda819abf89680e8325fd00e064f24ec317af4d19f3cd27b1140939485dd2851",
+        "preservedPaths": [
+          "references/reused/eda819abf896/scene-02-v2.png"
+        ]
+      },
+      {
+        "originalPath": "/Users/miguel_lemos/.codex/generated_images/01a0f5c0-64db-7310-817a-d73d15314908/exec-1cca88ec-88cc-49b4-9ed6-d6bfbc19bd7b.png",
+        "sha256": "b67a51a02991f3fa77af9df72ee1b04581222eb5bcd9ef4634a206423836e0a3",
+        "preservedPaths": [
+          "references/reused/b67a51a02991/scene-03-v3.png"
+        ]
+      },
+      {
+        "originalPath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r2/geometry/child-stove-up/still.png",
+        "sha256": "711eb0e2a6a8b09c05d981327a739dda38b4fb0ca6df8226f48c83e080a2a39a",
+        "preservedPaths": [
+          "references/reused/711eb0e2a6a8/geometry-reference.png"
+        ]
+      }
+    ],
+    "width": 1536,
+    "height": 1024,
+    "upstreamOrigin": {
+      "sourceProduction": "bath-magic-20261001-r2",
+      "sourceId": "scene-03",
+      "originMaster": {
+        "path": "masters/scene-03-v1.png",
+        "bytes": 2208228,
+        "sha256": "164ab02a960f76020ed09581bac604c705a0b51fbd5f1f9c291862339b3dbe7f"
+      },
+      "originWeb": {
+        "path": "web/scene-03.webp",
+        "bytes": 315034,
+        "sha256": "de83ba34ddba2916733e7242fbd0ec959d515a29c440e549f783a6384fc499ea"
+      },
+      "reuseRecord": "reuse.json#scene-03",
+      "earlierOrigin": null
+    }
+  }
+}

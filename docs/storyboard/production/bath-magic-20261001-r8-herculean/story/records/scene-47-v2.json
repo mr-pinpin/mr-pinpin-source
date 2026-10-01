@@ -1,0 +1,59 @@
+{
+  "tool": "image_gen__imagegen",
+  "generatedAt": "2026-10-01T17:32:52.327Z",
+  "sourceOutput": "/Users/miguel_lemos/.codex/generated_images/01a0f5c0-64db-7310-817a-d73d15314908/exec-7c682922-994d-4e8b-ac36-9af8760b4634.png",
+  "promptPath": "prompts/scene-47-v2.txt",
+  "references": [
+    "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r8-herculean/story/masters/scene-47-v1.png",
+    "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r5/masters/scene-36-v2.png"
+  ],
+  "visualReview": {
+    "status": "passed-for-draft",
+    "notes": "Actual output reviewed: alert actors, distinct anatomy, physical interaction readable, established camera and room;47 overflow collector restored."
+  },
+  "promptSha256": "0bc09f95ebc9a319372418d8795f15eb60b287f07c4b0dad7911ef72ddac187a",
+  "master": {
+    "path": "masters/scene-47-v2.png",
+    "sha256": "f7eaaca651f5d5623cfdc61fbd19967a4b261193ce728e886beeddd1e6df2a7c",
+    "bytes": 2605154
+  },
+  "referenceIdentities": [
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r8-herculean/story/masters/scene-47-v1.png",
+      "sha256": "07487da972f7f6e7d5b608609142d7fac403fcbac905846de59b496c09d1fddf",
+      "bytes": 2657821
+    },
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r5/masters/scene-36-v2.png",
+      "sha256": "e9a80565ecd823bd11e9e55217d0d8ea7bc37688e1bd945047041f8af3f164e3",
+      "bytes": 2490201
+    }
+  ],
+  "preservedReferences": [
+    {
+      "path": "references/inputs/07487da972f7/scene-47-v1.png",
+      "sha256": "07487da972f7f6e7d5b608609142d7fac403fcbac905846de59b496c09d1fddf"
+    },
+    {
+      "path": "references/inputs/e9a80565ecd8/scene-36-v2.png",
+      "sha256": "e9a80565ecd823bd11e9e55217d0d8ea7bc37688e1bd945047041f8af3f164e3"
+    }
+  ],
+  "reviewStatus": "illustration candidate; awaiting user feedback",
+  "web": {
+    "path": "web/scene-47.webp",
+    "sha256": "47464bb4555207039b48ffe4502423b3eddc0be97a6cf8a702760e3dbfaeadc9",
+    "bytes": 499760
+  },
+  "dimensions": [
+    1536,
+    1024
+  ],
+  "conversion": {
+    "format": "WebP",
+    "quality": 94,
+    "method": 6,
+    "resized": false,
+    "artEdited": false
+  }
+}

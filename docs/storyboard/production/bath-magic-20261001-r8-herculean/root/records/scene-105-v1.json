@@ -1,0 +1,39 @@
+{
+  "id": "scene-105",
+  "version": 1,
+  "tool": "image_gen__imagegen",
+  "generatedAt": "2026-10-01T17:57:33.482Z",
+  "sourceOutput": "/Users/miguel_lemos/.codex/generated_images/01a0be6f-b832-7d93-95df-9d2ff5f69dc1/exec-d7b69acc-aaec-4818-84ce-659982f24382.png",
+  "promptPath": "prompts/scene-105-v1.txt",
+  "references": [
+    "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r8-herculean/root/masters/scene-104-v2.png"
+  ],
+  "visibleCast": [
+    "Papa",
+    "Mama",
+    "PinPin",
+    "PomPom"
+  ],
+  "cameraEvidence": "Same camera composition as104/103; no new measured camera transform.",
+  "visualReview": "REJECTED for continuity: Papa correctly eating and table floating but lifted cloth vanished. Restore cloth matching104.",
+  "promptSha256": "49c1e53261c47af61127488479d1a1845c89279499053fed80382d17d81aa7ec",
+  "master": {
+    "path": "masters/scene-105-v1.png",
+    "sha256": "df188dbd10e1f4c09dbe3921dc72f495aedf6d042b44d2dba02029cfa8319d64",
+    "bytes": 2412925
+  },
+  "referenceIdentities": [
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r8-herculean/root/masters/scene-104-v2.png",
+      "sha256": "5cfdaeaf84468b7f58a7ed6a734c4319c0df3837decc8eee437c5bb18ced67f5",
+      "bytes": 2504730
+    }
+  ],
+  "preservedReferences": [
+    {
+      "path": "references/inputs/5cfdaeaf8446/scene-104-v2.png",
+      "sha256": "5cfdaeaf84468b7f58a7ed6a734c4319c0df3837decc8eee437c5bb18ced67f5"
+    }
+  ],
+  "reviewStatus": "illustration candidate; awaiting user feedback"
+}

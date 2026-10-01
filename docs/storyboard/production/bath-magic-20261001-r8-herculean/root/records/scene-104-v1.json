@@ -1,0 +1,39 @@
+{
+  "id": "scene-104",
+  "version": 1,
+  "tool": "image_gen__imagegen",
+  "generatedAt": "2026-10-01T17:52:47.184Z",
+  "sourceOutput": "/Users/miguel_lemos/.codex/generated_images/01a0be6f-b832-7d93-95df-9d2ff5f69dc1/exec-3397330d-1fe5-46d5-893f-05c4b4c60834.png",
+  "promptPath": "prompts/scene-104-v1.txt",
+  "references": [
+    "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r8-herculean/root/masters/scene-103-v1.png"
+  ],
+  "visibleCast": [
+    "Papa",
+    "Mama",
+    "PinPin",
+    "PomPom"
+  ],
+  "cameraEvidence": "Same camera composition as edit target; no new measured camera transform.",
+  "visualReview": "REJECTED: floating table has extra short support stumps around underside and levitates too high. Correct four ordinary equal-length legs and small airgap before use.",
+  "promptSha256": "0e012b13bb767f3fdae05cb6d8329857608a25421793c44b96a22227adbbf968",
+  "master": {
+    "path": "masters/scene-104-v1.png",
+    "sha256": "b466f201d3d1f6c9ae7a3eb4dd7b1423a6ec7170c0985c93e622368ba3d90c9a",
+    "bytes": 2607154
+  },
+  "referenceIdentities": [
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r8-herculean/root/masters/scene-103-v1.png",
+      "sha256": "5ec78cdcef3506dce4196cc1de9e1483c74a01b702e4e528bc6b76cdba4052f5",
+      "bytes": 2524283
+    }
+  ],
+  "preservedReferences": [
+    {
+      "path": "references/inputs/5ec78cdcef35/scene-103-v1.png",
+      "sha256": "5ec78cdcef3506dce4196cc1de9e1483c74a01b702e4e528bc6b76cdba4052f5"
+    }
+  ],
+  "reviewStatus": "illustration candidate; awaiting user feedback"
+}

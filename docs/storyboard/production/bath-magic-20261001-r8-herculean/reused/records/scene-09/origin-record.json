@@ -1,0 +1,43 @@
+{
+  "tool": "image_gen__imagegen",
+  "generatedAt": "2026-10-01T15:32:04.119Z",
+  "promptPath": "prompts/scene-09-v1.txt",
+  "sourceOutput": "/Users/miguel_lemos/.codex/generated_images/01a0f5c0-64db-7310-817a-d73d15314908/exec-70dd6b8e-99df-4c4b-85e2-d4b049c54eef.png",
+  "references": [
+    "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r3/masters/reused/scene-09/scene-07-v2.png",
+    "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r4/masters/duck-character-study-v2.png"
+  ],
+  "visualReview": {
+    "status": "passed",
+    "notes": "Inspected full output: smooth yellow plastic toy with white eyes/black pupils; small incidental toy, inherited camera/child/tub/rug preserved; no new anatomical error."
+  },
+  "referenceIdentities": [
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r3/masters/reused/scene-09/scene-07-v2.png",
+      "bytes": 2288841,
+      "sha256": "c8c50dbfbd7d1f1e25ef1c1a4d9b6726301a1e7adb94e2666fbe680fcd32ca58"
+    },
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r4/masters/duck-character-study-v2.png",
+      "bytes": 1606390,
+      "sha256": "09db45c15b849ad4846e468c2ea326a7bf4e58483f9579dad8b6bf67a3189495"
+    }
+  ],
+  "preservedReferences": [
+    {
+      "path": "references/inputs/c8c50dbfbd7d/scene-07-v2.png",
+      "sha256": "c8c50dbfbd7d1f1e25ef1c1a4d9b6726301a1e7adb94e2666fbe680fcd32ca58"
+    },
+    {
+      "path": "references/inputs/09db45c15b84/duck-character-study-v2.png",
+      "sha256": "09db45c15b849ad4846e468c2ea326a7bf4e58483f9579dad8b6bf67a3189495"
+    }
+  ],
+  "promptSha256": "e68e50b0e39a5e9d6242a292ecb0fd634857f5e9e1fc61ebae832611436ac913",
+  "master": {
+    "path": "masters/scene-09-v1.png",
+    "bytes": 2190246,
+    "sha256": "b9c82f6467549d8437671dd730b0e5329f28f259a3dc1cd3f68dc333df55813d"
+  },
+  "approval": "draft-for-review"
+}

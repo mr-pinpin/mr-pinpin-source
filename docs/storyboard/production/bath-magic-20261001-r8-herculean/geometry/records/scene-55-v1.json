@@ -1,0 +1,47 @@
+{
+  "id": "scene-55-v1",
+  "tool": "image_gen.imagegen",
+  "sourceOutput": "/Users/miguel_lemos/.codex/generated_images/01a0f5c3-a7d1-70d0-b8cf-581aa5deee53/exec-ebff6378-8897-4723-ad29-6de855af2164.png",
+  "promptPath": "prompts/scene-55-v1.txt",
+  "references": [
+    "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r5/web/scene-57.webp"
+  ],
+  "recordedAt": "2026-10-01T17:25:19.717076+00:00",
+  "visualReview": "Inspected native image; matching camera/style and action. Scene57-v1 retained pending minimal sparkle removal; all other candidates internally passed.",
+  "promptSha256": "9f289add0997d06eb303cca900d80aee7e449676562afea7b6da6a7e31be07f8",
+  "master": {
+    "path": "masters/scene-55-v1.png",
+    "sha256": "a90ce7eab6fed7790217f638a7d84a4d3f2ea059c232cf2e4e495b814bbd6b43",
+    "bytes": 2630967
+  },
+  "referenceIdentities": [
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r5/web/scene-57.webp",
+      "sha256": "94d99749685f43b913d6e800550fdca1f10b7fc2863f4c87fa5e53e17054717b",
+      "bytes": 503558
+    }
+  ],
+  "preservedReferences": [
+    {
+      "path": "references/inputs/94d99749685f/scene-57.webp",
+      "sha256": "94d99749685f43b913d6e800550fdca1f10b7fc2863f4c87fa5e53e17054717b"
+    }
+  ],
+  "reviewStatus": "illustration candidate; awaiting user feedback",
+  "web": {
+    "path": "web/scene-55.webp",
+    "sha256": "9b0f327a5fd83274791cc3d53977d05b2de54aae5ed495d9049f990c1c149421",
+    "bytes": 474254
+  },
+  "dimensions": [
+    1536,
+    1024
+  ],
+  "conversion": {
+    "format": "WebP",
+    "quality": 94,
+    "method": 6,
+    "resized": false,
+    "artEdited": false
+  }
+}

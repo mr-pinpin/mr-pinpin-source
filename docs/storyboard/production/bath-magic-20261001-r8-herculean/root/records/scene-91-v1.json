@@ -1,0 +1,72 @@
+{
+  "id": "scene-91",
+  "tool": "image_gen__imagegen",
+  "generatedAt": "2026-10-01T17:35:30.415Z",
+  "sourceOutput": "/Users/miguel_lemos/.codex/generated_images/01a0be6f-b832-7d93-95df-9d2ff5f69dc1/exec-c6474945-8392-4803-955c-812e98ff4906.png",
+  "promptPath": "prompts/scene-91-v1.txt",
+  "references": [
+    "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r5/web/scene-38.webp",
+    "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r8-herculean/preproduction/giant-flower-v1.png",
+    "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r8-herculean/root/masters/scene-89-v1.png"
+  ],
+  "visibleCast": [
+    "Mama",
+    "PinPin"
+  ],
+  "cameraEvidence": "Same camera composition as edit target; no new measured camera transform.",
+  "visualReview": "Mama actively fans raincloud toward giant potted flower; child points; two arms each; bright alert expressions, continuing gutter. Leaf detailing varies slightly from prop study.",
+  "promptSha256": "1dc4602498a892795e837cbe68c75c3ed581021eae751d58767205c446ed0207",
+  "master": {
+    "path": "masters/scene-91-v1.png",
+    "sha256": "c3fdb0f854880920c06df4c2a943e79ab6b8f31b7851278d8dded0578db906ef",
+    "bytes": 2810953
+  },
+  "referenceIdentities": [
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r5/web/scene-38.webp",
+      "sha256": "915aeebf74a532b8914d39ff3727b6343cdec368e6a169fc04f22db7e3ea1631",
+      "bytes": 547852
+    },
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r8-herculean/preproduction/giant-flower-v1.png",
+      "sha256": "ae6d0fb864796346442d729585194ddcf78af4bada7599c769125fc461b4bede",
+      "bytes": 2009257
+    },
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r8-herculean/root/masters/scene-89-v1.png",
+      "sha256": "5a691eaf01fb740c33beddd6aba29408cc8a662965f620441103a8dab46fd3c0",
+      "bytes": 2674674
+    }
+  ],
+  "preservedReferences": [
+    {
+      "path": "references/inputs/915aeebf74a5/scene-38.webp",
+      "sha256": "915aeebf74a532b8914d39ff3727b6343cdec368e6a169fc04f22db7e3ea1631"
+    },
+    {
+      "path": "references/inputs/ae6d0fb86479/giant-flower-v1.png",
+      "sha256": "ae6d0fb864796346442d729585194ddcf78af4bada7599c769125fc461b4bede"
+    },
+    {
+      "path": "references/inputs/5a691eaf01fb/scene-89-v1.png",
+      "sha256": "5a691eaf01fb740c33beddd6aba29408cc8a662965f620441103a8dab46fd3c0"
+    }
+  ],
+  "reviewStatus": "illustration candidate; awaiting user feedback",
+  "web": {
+    "path": "web/scene-91.webp",
+    "sha256": "63265275d94f552ef4dca6a6caa40cc3f7dd431615f4b7971410a0dae36ed74b",
+    "bytes": 532036
+  },
+  "dimensions": [
+    1536,
+    1024
+  ],
+  "conversion": {
+    "format": "WebP",
+    "quality": 94,
+    "method": 6,
+    "resized": false,
+    "artEdited": false
+  }
+}

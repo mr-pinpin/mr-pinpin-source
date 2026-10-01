@@ -1,0 +1,36 @@
+{
+  "id": "scene-93",
+  "version": 1,
+  "tool": "image_gen__imagegen",
+  "generatedAt": "2026-10-01T17:39:24.013Z",
+  "sourceOutput": "/Users/miguel_lemos/.codex/generated_images/01a0be6f-b832-7d93-95df-9d2ff5f69dc1/exec-42fefa9a-8b93-4c3b-b510-f20c496696ce.png",
+  "promptPath": "prompts/scene-93-v1.txt",
+  "references": [
+    "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r5/web/scene-41.webp"
+  ],
+  "visibleCast": [
+    "Papa"
+  ],
+  "cameraEvidence": "Same camera composition as edit target; no new measured camera transform.",
+  "visualReview": "REJECTED: Papa simply holds towel; towel does not wrap paw and bucket as required. Daylight and alert expression improved but comic action missing.",
+  "promptSha256": "d732e1132cd364bd8fd0d3b1721ea3417245ac3e4ba61246cc4a09f3decc6ad4",
+  "master": {
+    "path": "masters/scene-93-v1.png",
+    "sha256": "31df61eece744ee86978f12142694ffd58094c96b60483078cd2d92c28418ab9",
+    "bytes": 2526447
+  },
+  "referenceIdentities": [
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r5/web/scene-41.webp",
+      "sha256": "ea26d52a397941e2330972f1457660a5a08298963b3cd4b3892e2eb74bd048a9",
+      "bytes": 408050
+    }
+  ],
+  "preservedReferences": [
+    {
+      "path": "references/inputs/ea26d52a3979/scene-41.webp",
+      "sha256": "ea26d52a397941e2330972f1457660a5a08298963b3cd4b3892e2eb74bd048a9"
+    }
+  ],
+  "reviewStatus": "illustration candidate; awaiting user feedback"
+}

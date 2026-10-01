@@ -1,0 +1,43 @@
+{
+  "tool": "image_gen__imagegen",
+  "generatedAt": "2026-10-01T15:49:10.674Z",
+  "promptPath": "prompts/scene-27-v1.txt",
+  "sourceOutput": "/Users/miguel_lemos/.codex/generated_images/01a0f5c0-64db-7310-817a-d73d15314908/exec-6d6f791b-c6e1-4fa5-ae72-2ced15b83ffb.png",
+  "references": [
+    "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r3/masters/scene-27-v2.png",
+    "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r4/masters/duck-character-study-v2.png"
+  ],
+  "visualReview": {
+    "status": "passed",
+    "notes": "Canonical plastic duck replaces carved toy while mother/infant support, compact child's climbing leg, Papa's hand contact and broad bath/rug remain intact."
+  },
+  "referenceIdentities": [
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r3/masters/scene-27-v2.png",
+      "bytes": 2618153,
+      "sha256": "2461813968e7444e475b3c68ab607d2e06a0385cec529bd86cc274a276660259"
+    },
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r4/masters/duck-character-study-v2.png",
+      "bytes": 1606390,
+      "sha256": "09db45c15b849ad4846e468c2ea326a7bf4e58483f9579dad8b6bf67a3189495"
+    }
+  ],
+  "preservedReferences": [
+    {
+      "path": "references/inputs/2461813968e7/scene-27-v2.png",
+      "sha256": "2461813968e7444e475b3c68ab607d2e06a0385cec529bd86cc274a276660259"
+    },
+    {
+      "path": "references/inputs/09db45c15b84/duck-character-study-v2.png",
+      "sha256": "09db45c15b849ad4846e468c2ea326a7bf4e58483f9579dad8b6bf67a3189495"
+    }
+  ],
+  "promptSha256": "e68e50b0e39a5e9d6242a292ecb0fd634857f5e9e1fc61ebae832611436ac913",
+  "master": {
+    "path": "masters/scene-27-v1.png",
+    "bytes": 2574530,
+    "sha256": "47b57fcb6e6e08b0c62b3562b93eb1386cc6c035db828fdecf37925fb408affc"
+  },
+  "approval": "draft-for-review"
+}

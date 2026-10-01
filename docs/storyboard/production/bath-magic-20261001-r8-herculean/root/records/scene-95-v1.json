@@ -1,0 +1,76 @@
+{
+  "id": "scene-95",
+  "version": 1,
+  "tool": "image_gen__imagegen",
+  "generatedAt": "2026-10-01T17:43:40.036Z",
+  "sourceOutput": "/Users/miguel_lemos/.codex/generated_images/01a0be6f-b832-7d93-95df-9d2ff5f69dc1/exec-f8128ef6-32ac-4401-9bcb-d90c122eb34c.png",
+  "promptPath": "prompts/scene-95-v1.txt",
+  "references": [
+    "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r5/web/scene-37.webp",
+    "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r8-herculean/root/masters/scene-94-v1.png",
+    "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r8-herculean/root/masters/scene-89-v1.png"
+  ],
+  "visibleCast": [
+    "Papa",
+    "Mama",
+    "PinPin",
+    "PomPom",
+    "Duck"
+  ],
+  "cameraEvidence": "Same camera composition as edit target; no new measured camera transform.",
+  "visualReview": "PinPin unwraps duck on stool; Papa supports distinct tiny infant; Mama hangs towel outside through doorway. All four, clear hand contacts.",
+  "promptSha256": "4921097aad003ce85f87072733dafe8370cc453ebce3fd9430c66f7cfaa49586",
+  "master": {
+    "path": "masters/scene-95-v1.png",
+    "sha256": "8ed8d7c728488aa5a374d171915a63190c8b70cc17f825780bfa7f7aed7d1bc4",
+    "bytes": 2484041
+  },
+  "referenceIdentities": [
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r5/web/scene-37.webp",
+      "sha256": "57f091e729f7f4bb89f7373cae52f6a512818e337d23032dc6dcec532b57fd3d",
+      "bytes": 399032
+    },
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r8-herculean/root/masters/scene-94-v1.png",
+      "sha256": "6a2579e847b29aa2241c62bd759433cc75036f54856383d07595b302bfb7c1c6",
+      "bytes": 2451470
+    },
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r8-herculean/root/masters/scene-89-v1.png",
+      "sha256": "5a691eaf01fb740c33beddd6aba29408cc8a662965f620441103a8dab46fd3c0",
+      "bytes": 2674674
+    }
+  ],
+  "preservedReferences": [
+    {
+      "path": "references/inputs/57f091e729f7/scene-37.webp",
+      "sha256": "57f091e729f7f4bb89f7373cae52f6a512818e337d23032dc6dcec532b57fd3d"
+    },
+    {
+      "path": "references/inputs/6a2579e847b2/scene-94-v1.png",
+      "sha256": "6a2579e847b29aa2241c62bd759433cc75036f54856383d07595b302bfb7c1c6"
+    },
+    {
+      "path": "references/inputs/5a691eaf01fb/scene-89-v1.png",
+      "sha256": "5a691eaf01fb740c33beddd6aba29408cc8a662965f620441103a8dab46fd3c0"
+    }
+  ],
+  "reviewStatus": "illustration candidate; awaiting user feedback",
+  "web": {
+    "path": "web/scene-95.webp",
+    "sha256": "13a6c612eeaa1ad8222ac4bb3c59efb18a792a152cde86fe47524096555ebc05",
+    "bytes": 429968
+  },
+  "dimensions": [
+    1536,
+    1024
+  ],
+  "conversion": {
+    "format": "WebP",
+    "quality": 94,
+    "method": 6,
+    "resized": false,
+    "artEdited": false
+  }
+}

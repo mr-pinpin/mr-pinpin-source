@@ -1,0 +1,65 @@
+{
+  "id": "scene-103",
+  "version": 1,
+  "tool": "image_gen__imagegen",
+  "generatedAt": "2026-10-01T17:49:36.455Z",
+  "sourceOutput": "/Users/miguel_lemos/.codex/generated_images/01a0be6f-b832-7d93-95df-9d2ff5f69dc1/exec-bf2bd3b1-0bbd-4e08-bad6-dbcd7c4ad6c9.png",
+  "promptPath": "prompts/scene-103-v1.txt",
+  "references": [
+    "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r5/web/scene-39.webp",
+    "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r6-corrections/tables/scene-83-v1.png"
+  ],
+  "visibleCast": [
+    "Papa",
+    "Mama",
+    "PinPin",
+    "PomPom"
+  ],
+  "cameraEvidence": "Same camera composition as edit target; no new measured camera transform.",
+  "visualReview": "All four alert at normal round breakfast table, baby distinct in highchair. Child lifts soaked blue-striped cloth; table still grounded; gutter retained. Gesture not yet magical; incantation accompanies his effort, next104 shows magic.",
+  "promptSha256": "95871ae4291e3cdb76ea4db02130db4a727e5801021cac762d6a033b994d1490",
+  "master": {
+    "path": "masters/scene-103-v1.png",
+    "sha256": "5ec78cdcef3506dce4196cc1de9e1483c74a01b702e4e528bc6b76cdba4052f5",
+    "bytes": 2524283
+  },
+  "referenceIdentities": [
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r5/web/scene-39.webp",
+      "sha256": "d308c776fde9aa87a728e241ea26f3f0d902d828f837f38cf5889fdbfefb0207",
+      "bytes": 441908
+    },
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r6-corrections/tables/scene-83-v1.png",
+      "sha256": "8391e1bad0243ead6aece0d2cc8e6251cd6479f0d5ced360498d21e1385f3e95",
+      "bytes": 2585810
+    }
+  ],
+  "preservedReferences": [
+    {
+      "path": "references/inputs/d308c776fde9/scene-39.webp",
+      "sha256": "d308c776fde9aa87a728e241ea26f3f0d902d828f837f38cf5889fdbfefb0207"
+    },
+    {
+      "path": "references/inputs/8391e1bad024/scene-83-v1.png",
+      "sha256": "8391e1bad0243ead6aece0d2cc8e6251cd6479f0d5ced360498d21e1385f3e95"
+    }
+  ],
+  "reviewStatus": "illustration candidate; awaiting user feedback",
+  "web": {
+    "path": "web/scene-103.webp",
+    "sha256": "047c2f2d7c80cf6230c9bacb05fb51c8751702d3d9d97e15fe2d344d18a874ad",
+    "bytes": 460448
+  },
+  "dimensions": [
+    1536,
+    1024
+  ],
+  "conversion": {
+    "format": "WebP",
+    "quality": 94,
+    "method": 6,
+    "resized": false,
+    "artEdited": false
+  }
+}

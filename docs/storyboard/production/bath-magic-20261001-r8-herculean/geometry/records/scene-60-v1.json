@@ -1,0 +1,47 @@
+{
+  "id": "scene-60-v1",
+  "tool": "image_gen.imagegen",
+  "sourceOutput": "/Users/miguel_lemos/.codex/generated_images/01a0f5c3-a7d1-70d0-b8cf-581aa5deee53/exec-4b55bd3d-3a37-4c25-9ffd-5f5dd57f8de2.png",
+  "promptPath": "prompts/scene-60-v1.txt",
+  "references": [
+    "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r5/web/scene-62.webp"
+  ],
+  "recordedAt": "2026-10-01T17:27:48.879496+00:00",
+  "visualReview": "Inspected: same camera/book identities. Scene57 sparkle arc removed, scene60 mother/baby aligned eyelines and safe support.",
+  "promptSha256": "e616437b27978b4723c907c8765baa1e97a77bc9a5bf5d9dd405d5871c167b07",
+  "master": {
+    "path": "masters/scene-60-v1.png",
+    "sha256": "5276098013e201f1be7155f0828081b5336d489ea62e7d05f9589fef79f1cab3",
+    "bytes": 2249771
+  },
+  "referenceIdentities": [
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r5/web/scene-62.webp",
+      "sha256": "9dee2caa6256217d781759d89e02beca9866f918d753b0f35a330e36d2c70340",
+      "bytes": 324328
+    }
+  ],
+  "preservedReferences": [
+    {
+      "path": "references/inputs/9dee2caa6256/scene-62.webp",
+      "sha256": "9dee2caa6256217d781759d89e02beca9866f918d753b0f35a330e36d2c70340"
+    }
+  ],
+  "reviewStatus": "illustration candidate; awaiting user feedback",
+  "web": {
+    "path": "web/scene-60.webp",
+    "sha256": "e92c8cfda7c297c0c172e971328c98c920e6c0dbef1536b886f01a575a9fe465",
+    "bytes": 319778
+  },
+  "dimensions": [
+    1536,
+    1024
+  ],
+  "conversion": {
+    "format": "WebP",
+    "quality": 94,
+    "method": 6,
+    "resized": false,
+    "artEdited": false
+  }
+}

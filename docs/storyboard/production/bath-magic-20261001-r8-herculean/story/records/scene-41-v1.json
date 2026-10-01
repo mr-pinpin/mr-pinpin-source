@@ -1,0 +1,49 @@
+{
+  "tool": "image_gen__imagegen",
+  "generatedAt": "2026-10-01T17:22:36.187Z",
+  "sourceOutput": "/Users/miguel_lemos/.codex/generated_images/01a0f5c0-64db-7310-817a-d73d15314908/exec-f7ac861a-ff98-4946-a561-3164b08b26d2.png",
+  "promptPath": "prompts/scene-41-v1.txt",
+  "references": [
+    "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r6-corrections/beds/masters/scene-43-v1.png"
+  ],
+  "visualReview": {
+    "status": "passed-for-draft",
+    "notes": "Bright alert waking child stretching, both parents attentive; infant distinctly sleeping; canonical bedroom and shared bed."
+  },
+  "promptSha256": "0a733ded8a57baa4cbd368c8005c6b6fc936db53e5875e01ca5ebd5b7295c1f7",
+  "master": {
+    "path": "masters/scene-41-v1.png",
+    "sha256": "5058c531f9cc7bac710eb587aba8f99bc62d04416e463cab15e982a90185f4fe",
+    "bytes": 2479065
+  },
+  "referenceIdentities": [
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r6-corrections/beds/masters/scene-43-v1.png",
+      "sha256": "330e4f2abd4c1d13a0a23a979465191a23ae8c92e388e103f3d9c9fb7722ae39",
+      "bytes": 2457148
+    }
+  ],
+  "preservedReferences": [
+    {
+      "path": "references/inputs/330e4f2abd4c/scene-43-v1.png",
+      "sha256": "330e4f2abd4c1d13a0a23a979465191a23ae8c92e388e103f3d9c9fb7722ae39"
+    }
+  ],
+  "reviewStatus": "illustration candidate; awaiting user feedback",
+  "web": {
+    "path": "web/scene-41.webp",
+    "sha256": "7dc7e270afd7d2cd9b1d9d083a295bfcb95cc713ebf873b53f85e500b2a0d36e",
+    "bytes": 397720
+  },
+  "dimensions": [
+    1536,
+    1024
+  ],
+  "conversion": {
+    "format": "WebP",
+    "quality": 94,
+    "method": 6,
+    "resized": false,
+    "artEdited": false
+  }
+}

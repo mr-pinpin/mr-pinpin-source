@@ -1,0 +1,49 @@
+{
+  "tool": "image_gen__imagegen",
+  "generatedAt": "2026-10-01T18:13:22.564Z",
+  "sourceOutput": "/Users/miguel_lemos/.codex/generated_images/01a0f5c0-64db-7310-817a-d73d15314908/exec-1db17560-93ab-4f2f-8f95-85bb37221212.png",
+  "promptPath": "prompts/scene-124-v1.txt",
+  "references": [
+    "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r8-herculean/geometry/masters/scene-78-v2.png"
+  ],
+  "visualReview": {
+    "status": "passed-for-draft",
+    "notes": "Flowing gutter and connected stream removed, unobstructed threshold/stone path. Both hedgehogs, giant flower and pool retained. Counted exactly two adult ducks and ten small ducks."
+  },
+  "promptSha256": "0e82b4158f0f79200878bfbaabd0140877379379b27004c76f72caa3089d0f9c",
+  "master": {
+    "path": "masters/scene-124-v1.png",
+    "sha256": "f97e7d5a56035dce620e7d87de4608cb68993c33d2526e23d366b9262d86fc6d",
+    "bytes": 2632697
+  },
+  "referenceIdentities": [
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r8-herculean/geometry/masters/scene-78-v2.png",
+      "sha256": "0c5cf53b8c8f02003bb7d4ae442f7a310c16f0394c4b909fff8553554a1e3ac0",
+      "bytes": 2646065
+    }
+  ],
+  "preservedReferences": [
+    {
+      "path": "references/inputs/0c5cf53b8c8f/scene-78-v2.png",
+      "sha256": "0c5cf53b8c8f02003bb7d4ae442f7a310c16f0394c4b909fff8553554a1e3ac0"
+    }
+  ],
+  "reviewStatus": "illustration candidate; awaiting user feedback",
+  "web": {
+    "path": "web/scene-124.webp",
+    "sha256": "435c38e359d6fda31e751838bdcdbd93ab8fa3a004c2fb996f2f8f2945a2ae2f",
+    "bytes": 476226
+  },
+  "dimensions": [
+    1536,
+    1024
+  ],
+  "conversion": {
+    "format": "WebP",
+    "quality": 94,
+    "method": 6,
+    "resized": false,
+    "artEdited": false
+  }
+}

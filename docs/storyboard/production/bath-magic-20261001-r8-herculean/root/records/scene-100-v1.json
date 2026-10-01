@@ -1,0 +1,63 @@
+{
+  "id": "scene-100",
+  "version": 1,
+  "tool": "image_gen__imagegen",
+  "generatedAt": "2026-10-01T17:49:36.439Z",
+  "sourceOutput": "/Users/miguel_lemos/.codex/generated_images/01a0be6f-b832-7d93-95df-9d2ff5f69dc1/exec-fb097034-f2d6-45fb-a7fb-ecbe9f2612c0.png",
+  "promptPath": "prompts/scene-100-v1.txt",
+  "references": [
+    "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r5/web/scene-66.webp",
+    "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r8-herculean/root/masters/scene-97-v1.png"
+  ],
+  "visibleCast": [
+    "Papa",
+    "PinPin"
+  ],
+  "cameraEvidence": "Same camera composition as edit target; no new measured camera transform.",
+  "visualReview": "Papa alert catches second slipper in basket; child holds first; splash visibly soaks blue-striped breakfast cloth. Clear causal prop for103.",
+  "promptSha256": "037b223a452569e4ef15e2589ddbf8db28ef43b2329fcc15e88a873613c0f7f1",
+  "master": {
+    "path": "masters/scene-100-v1.png",
+    "sha256": "79d20ab04d0ada941c26d21acb5a0afd30c0970cfdefdeece9d7c6924498ada3",
+    "bytes": 2775574
+  },
+  "referenceIdentities": [
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r5/web/scene-66.webp",
+      "sha256": "4451cc2648e682a71c10fbfa1198c054243b70acdd39dd382dd1a14a6b16fc7a",
+      "bytes": 500538
+    },
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r8-herculean/root/masters/scene-97-v1.png",
+      "sha256": "e488d8a84407a04428580d0857036faccbd222220fc43fdddd580592d72ccbf2",
+      "bytes": 2267375
+    }
+  ],
+  "preservedReferences": [
+    {
+      "path": "references/inputs/4451cc2648e6/scene-66.webp",
+      "sha256": "4451cc2648e682a71c10fbfa1198c054243b70acdd39dd382dd1a14a6b16fc7a"
+    },
+    {
+      "path": "references/inputs/e488d8a84407/scene-97-v1.png",
+      "sha256": "e488d8a84407a04428580d0857036faccbd222220fc43fdddd580592d72ccbf2"
+    }
+  ],
+  "reviewStatus": "illustration candidate; awaiting user feedback",
+  "web": {
+    "path": "web/scene-100.webp",
+    "sha256": "575bb2882be4b1d55c3fdd7d5df057c3f1b7f78197eb69c628f14807129ad726",
+    "bytes": 511698
+  },
+  "dimensions": [
+    1536,
+    1024
+  ],
+  "conversion": {
+    "format": "WebP",
+    "quality": 94,
+    "method": 6,
+    "resized": false,
+    "artEdited": false
+  }
+}

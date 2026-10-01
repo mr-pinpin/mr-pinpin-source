@@ -1,0 +1,65 @@
+{
+  "id": "scene-104",
+  "version": 2,
+  "tool": "image_gen__imagegen",
+  "generatedAt": "2026-10-01T17:54:40.298Z",
+  "sourceOutput": "/Users/miguel_lemos/.codex/generated_images/01a0be6f-b832-7d93-95df-9d2ff5f69dc1/exec-aff2010c-1cac-48df-8fea-47fe3d36490a.png",
+  "promptPath": "prompts/scene-104-v2.txt",
+  "references": [
+    "/Users/miguel_lemos/.codex/generated_images/01a0be6f-b832-7d93-95df-9d2ff5f69dc1/exec-3397330d-1fe5-46d5-893f-05c4b4c60834.png",
+    "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r8-herculean/root/masters/scene-103-v1.png"
+  ],
+  "visibleCast": [
+    "Papa",
+    "Mama",
+    "PinPin",
+    "PomPom"
+  ],
+  "cameraEvidence": "Same camera composition as103; no new measured camera transform.",
+  "visualReview": "Four equal ordinary table legs replace extra stubs; solid round tabletop, airgaps below levitating furniture; allfour awake family, infant highchair firmly grounded. Levitation remains visually larger than literal prompt10cm but readable safe magic.",
+  "promptSha256": "4d1efb7e1e9d4d0649e8da56e60b8080e96de5155749369c60485ad5868e485b",
+  "master": {
+    "path": "masters/scene-104-v2.png",
+    "sha256": "5cfdaeaf84468b7f58a7ed6a734c4319c0df3837decc8eee437c5bb18ced67f5",
+    "bytes": 2504730
+  },
+  "referenceIdentities": [
+    {
+      "path": "/Users/miguel_lemos/.codex/generated_images/01a0be6f-b832-7d93-95df-9d2ff5f69dc1/exec-3397330d-1fe5-46d5-893f-05c4b4c60834.png",
+      "sha256": "b466f201d3d1f6c9ae7a3eb4dd7b1423a6ec7170c0985c93e622368ba3d90c9a",
+      "bytes": 2607154
+    },
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r8-herculean/root/masters/scene-103-v1.png",
+      "sha256": "5ec78cdcef3506dce4196cc1de9e1483c74a01b702e4e528bc6b76cdba4052f5",
+      "bytes": 2524283
+    }
+  ],
+  "preservedReferences": [
+    {
+      "path": "references/inputs/b466f201d3d1/exec-3397330d-1fe5-46d5-893f-05c4b4c60834.png",
+      "sha256": "b466f201d3d1f6c9ae7a3eb4dd7b1423a6ec7170c0985c93e622368ba3d90c9a"
+    },
+    {
+      "path": "references/inputs/5ec78cdcef35/scene-103-v1.png",
+      "sha256": "5ec78cdcef3506dce4196cc1de9e1483c74a01b702e4e528bc6b76cdba4052f5"
+    }
+  ],
+  "reviewStatus": "illustration candidate; awaiting user feedback",
+  "web": {
+    "path": "web/scene-104.webp",
+    "sha256": "43c53b11f6714aa89a3baf38a7517650be6ccb1caf4510a2a08570aa21313b92",
+    "bytes": 452952
+  },
+  "dimensions": [
+    1536,
+    1024
+  ],
+  "conversion": {
+    "format": "WebP",
+    "quality": 94,
+    "method": 6,
+    "resized": false,
+    "artEdited": false
+  }
+}

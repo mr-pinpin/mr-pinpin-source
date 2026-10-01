@@ -1,0 +1,43 @@
+{
+  "tool": "image_gen__imagegen",
+  "generatedAt": "2026-10-01T15:35:43.564Z",
+  "promptPath": "prompts/scene-13-v1.txt",
+  "sourceOutput": "/Users/miguel_lemos/.codex/generated_images/01a0f5c0-64db-7310-817a-d73d15314908/exec-add0ef51-216e-4d4e-bb1e-5c1857c41527.png",
+  "references": [
+    "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r3/masters/reused/scene-13/scene-15-v1.png",
+    "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r4/masters/duck-character-study-v2.png"
+  ],
+  "visualReview": {
+    "status": "passed",
+    "notes": "Inspected plastic toy matches study, closed beak. Child POV hands and overhead tub/rug/source remain consistent; no anatomical or geometry change."
+  },
+  "referenceIdentities": [
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r3/masters/reused/scene-13/scene-15-v1.png",
+      "bytes": 2207037,
+      "sha256": "10920c24c0943bf06edf0c1c34c47e8aa4bbf8cfc7f2c1890e33106c33a07ce2"
+    },
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r4/masters/duck-character-study-v2.png",
+      "bytes": 1606390,
+      "sha256": "09db45c15b849ad4846e468c2ea326a7bf4e58483f9579dad8b6bf67a3189495"
+    }
+  ],
+  "preservedReferences": [
+    {
+      "path": "references/inputs/10920c24c094/scene-15-v1.png",
+      "sha256": "10920c24c0943bf06edf0c1c34c47e8aa4bbf8cfc7f2c1890e33106c33a07ce2"
+    },
+    {
+      "path": "references/inputs/09db45c15b84/duck-character-study-v2.png",
+      "sha256": "09db45c15b849ad4846e468c2ea326a7bf4e58483f9579dad8b6bf67a3189495"
+    }
+  ],
+  "promptSha256": "e68e50b0e39a5e9d6242a292ecb0fd634857f5e9e1fc61ebae832611436ac913",
+  "master": {
+    "path": "masters/scene-13-v1.png",
+    "bytes": 2217087,
+    "sha256": "69111d0c8511a70690a14ffcab33a6a07186d680695c37c94f845d17f19181e0"
+  },
+  "approval": "draft-for-review"
+}

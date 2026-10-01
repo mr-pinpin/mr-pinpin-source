@@ -1,0 +1,33 @@
+{
+  "tool": "image_gen__imagegen",
+  "generatedAt": "2026-10-01T17:37:28.414Z",
+  "sourceOutput": "/Users/miguel_lemos/.codex/generated_images/01a0f5c0-64db-7310-817a-d73d15314908/exec-9cb96dd4-f5d8-4be2-b451-35975577810f.png",
+  "promptPath": "prompts/scene-109-v1.txt",
+  "references": [
+    "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r5/masters/scene-20-v1.png"
+  ],
+  "visualReview": {
+    "status": "needs-revision",
+    "notes": "Water erroneously passes through bucket base; correct bucket orientation so jet ends inside open mouth."
+  },
+  "promptSha256": "35cf8724d9a61e64d936959db978632c3c680646e2bd6228b356298b035d9c3b",
+  "master": {
+    "path": "masters/scene-109-v1.png",
+    "sha256": "6cdfea20da262799567fb05adc21207ce4adef7bb50d8db9f514a0d419797475",
+    "bytes": 2708809
+  },
+  "referenceIdentities": [
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r5/masters/scene-20-v1.png",
+      "sha256": "4fe5be0a61ba76dbde27699b3df5dcb42996d5bf187dd3be4b239ec6983aa9a7",
+      "bytes": 2636607
+    }
+  ],
+  "preservedReferences": [
+    {
+      "path": "references/inputs/4fe5be0a61ba/scene-20-v1.png",
+      "sha256": "4fe5be0a61ba76dbde27699b3df5dcb42996d5bf187dd3be4b239ec6983aa9a7"
+    }
+  ],
+  "reviewStatus": "illustration candidate; awaiting user feedback"
+}

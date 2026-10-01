@@ -1,0 +1,62 @@
+{
+  "id": "scene-99",
+  "version": 1,
+  "tool": "image_gen__imagegen",
+  "generatedAt": "2026-10-01T17:49:36.426Z",
+  "sourceOutput": "/Users/miguel_lemos/.codex/generated_images/01a0be6f-b832-7d93-95df-9d2ff5f69dc1/exec-86fff3d6-820d-4b0a-a4ee-477ab12d8ad2.png",
+  "promptPath": "prompts/scene-99-v1.txt",
+  "references": [
+    "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r5/web/scene-19.webp",
+    "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r8-herculean/root/masters/scene-97-v1.png"
+  ],
+  "visibleCast": [
+    "PinPin"
+  ],
+  "cameraEvidence": "Same camera composition as edit target; no new measured camera transform.",
+  "visualReview": "PinPin catches green slipper while second touches foot; spontaneous eyes-squeezed laugh is motivated by tickling, not fatigue. Bath/gutter shallow floor believable, duck removed.",
+  "promptSha256": "cb8a5a610c22f34f0ffd4a1d2a97f55ac1d7c9dc6d5be9034c769b6bc56d833b",
+  "master": {
+    "path": "masters/scene-99-v1.png",
+    "sha256": "e28c479713e7e2246c87bd8afde1d1389ef1a125602845489b2db7867ac638ed",
+    "bytes": 2184159
+  },
+  "referenceIdentities": [
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r5/web/scene-19.webp",
+      "sha256": "9e342a9cce145ea58333b2287da84b9f5fc72fb9c85aca985ed852e41bc2b134",
+      "bytes": 341486
+    },
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r8-herculean/root/masters/scene-97-v1.png",
+      "sha256": "e488d8a84407a04428580d0857036faccbd222220fc43fdddd580592d72ccbf2",
+      "bytes": 2267375
+    }
+  ],
+  "preservedReferences": [
+    {
+      "path": "references/inputs/9e342a9cce14/scene-19.webp",
+      "sha256": "9e342a9cce145ea58333b2287da84b9f5fc72fb9c85aca985ed852e41bc2b134"
+    },
+    {
+      "path": "references/inputs/e488d8a84407/scene-97-v1.png",
+      "sha256": "e488d8a84407a04428580d0857036faccbd222220fc43fdddd580592d72ccbf2"
+    }
+  ],
+  "reviewStatus": "illustration candidate; awaiting user feedback",
+  "web": {
+    "path": "web/scene-99.webp",
+    "sha256": "4efe78ff0babe36711d12786fe3832bc0b795920302df48c4eaea4d39cbb4800",
+    "bytes": 339142
+  },
+  "dimensions": [
+    1536,
+    1024
+  ],
+  "conversion": {
+    "format": "WebP",
+    "quality": 94,
+    "method": 6,
+    "resized": false,
+    "artEdited": false
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "id": "scene-78-v2",
+  "tool": "image_gen.imagegen",
+  "sourceOutput": "/Users/miguel_lemos/.codex/generated_images/01a0f5c3-a7d1-70d0-b8cf-581aa5deee53/exec-7a7c4bcc-44be-44b7-91fd-0a981ce38fd6.png",
+  "promptPath": "prompts/scene-78-v2.txt",
+  "references": [
+    "/Users/miguel_lemos/.codex/generated_images/01a0f5c3-a7d1-70d0-b8cf-581aa5deee53/exec-ddbfa1d0-d486-4f18-a818-c91991c626f6.png"
+  ],
+  "requestedAt": "2026-10-01T17:46:34.291554+00:00",
+  "recordedAt": "2026-10-01T17:49:14.112264+00:00",
+  "visualReview": "Corrected pool has exactly12 visible ducks: two adults plus ten small. Single flower/pot, Papa and child coherent.",
+  "promptSha256": "afd76c718cd4caa6bf67d74b0200f4da62146d6d9bf5333931458f6dc484050d",
+  "master": {
+    "path": "masters/scene-78-v2.png",
+    "sha256": "0c5cf53b8c8f02003bb7d4ae442f7a310c16f0394c4b909fff8553554a1e3ac0",
+    "bytes": 2646065
+  },
+  "referenceIdentities": [
+    {
+      "path": "/Users/miguel_lemos/.codex/generated_images/01a0f5c3-a7d1-70d0-b8cf-581aa5deee53/exec-ddbfa1d0-d486-4f18-a818-c91991c626f6.png",
+      "sha256": "cd52b9530954ff54466a0d3a370392b7f74678b570abca44f5c29f94c215da03",
+      "bytes": 2733081
+    }
+  ],
+  "preservedReferences": [
+    {
+      "path": "references/inputs/cd52b9530954/exec-ddbfa1d0-d486-4f18-a818-c91991c626f6.png",
+      "sha256": "cd52b9530954ff54466a0d3a370392b7f74678b570abca44f5c29f94c215da03"
+    }
+  ],
+  "reviewStatus": "illustration candidate; awaiting user feedback",
+  "web": {
+    "path": "web/scene-78.webp",
+    "sha256": "673984c929e99e85f15b441684992b1a67be387a8765196a73b0c92b08a93740",
+    "bytes": 475602
+  },
+  "dimensions": [
+    1536,
+    1024
+  ],
+  "conversion": {
+    "format": "WebP",
+    "quality": 94,
+    "method": 6,
+    "resized": false,
+    "artEdited": false
+  }
+}

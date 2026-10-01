@@ -1,0 +1,49 @@
+{
+  "tool": "image_gen__imagegen",
+  "generatedAt": "2026-10-01T17:32:52.327Z",
+  "sourceOutput": "/Users/miguel_lemos/.codex/generated_images/01a0f5c0-64db-7310-817a-d73d15314908/exec-1ff3e715-a46e-44cd-b28a-f45cb48bb3bf.png",
+  "promptPath": "prompts/scene-53-v1.txt",
+  "references": [
+    "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r6-corrections/tables/scene-83-v1.png"
+  ],
+  "visualReview": {
+    "status": "passed-for-draft",
+    "notes": "Actual output reviewed: alert actors, distinct anatomy, physical interaction readable, established camera and room;47 overflow collector restored."
+  },
+  "promptSha256": "0998448606391027e23ce7ee57f60a75ad1123ed82ce1685148feabf41fd7a96",
+  "master": {
+    "path": "masters/scene-53-v1.png",
+    "sha256": "929d06608b732593f69df29445d0506b721e826cee3802e5bea078eb4d3cdfbf",
+    "bytes": 2521827
+  },
+  "referenceIdentities": [
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r6-corrections/tables/scene-83-v1.png",
+      "sha256": "8391e1bad0243ead6aece0d2cc8e6251cd6479f0d5ced360498d21e1385f3e95",
+      "bytes": 2585810
+    }
+  ],
+  "preservedReferences": [
+    {
+      "path": "references/inputs/8391e1bad024/scene-83-v1.png",
+      "sha256": "8391e1bad0243ead6aece0d2cc8e6251cd6479f0d5ced360498d21e1385f3e95"
+    }
+  ],
+  "reviewStatus": "illustration candidate; awaiting user feedback",
+  "web": {
+    "path": "web/scene-53.webp",
+    "sha256": "2f4e485bd0e0ab29ca8f8838e47f15efd0bfc84fee79dd71dded51b619f4c854",
+    "bytes": 475774
+  },
+  "dimensions": [
+    1536,
+    1024
+  ],
+  "conversion": {
+    "format": "WebP",
+    "quality": 94,
+    "method": 6,
+    "resized": false,
+    "artEdited": false
+  }
+}

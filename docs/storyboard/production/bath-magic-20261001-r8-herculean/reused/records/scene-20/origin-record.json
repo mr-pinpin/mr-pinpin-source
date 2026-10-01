@@ -1,0 +1,43 @@
+{
+  "tool": "image_gen__imagegen",
+  "generatedAt": "2026-10-01T15:42:05.368Z",
+  "promptPath": "prompts/scene-20-v1.txt",
+  "sourceOutput": "/Users/miguel_lemos/.codex/generated_images/01a0f5c0-64db-7310-817a-d73d15314908/exec-d4699dde-a108-4a40-995a-4d459b79c44d.png",
+  "references": [
+    "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r3/masters/scene-21-v2.png",
+    "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r4/masters/duck-character-study-v2.png"
+  ],
+  "visualReview": {
+    "status": "passed",
+    "notes": "Papa visibly helps with second pail, focused expression; child looks at him, mother's baby hold intact, four separate characters; rug remains under tub. Child relief still smiles."
+  },
+  "referenceIdentities": [
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r3/masters/scene-21-v2.png",
+      "bytes": 2673667,
+      "sha256": "7310df12d8da3d5dfd59946f689b4d92119f44fc1c843a63ab55fabd2c1f0458"
+    },
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r4/masters/duck-character-study-v2.png",
+      "bytes": 1606390,
+      "sha256": "09db45c15b849ad4846e468c2ea326a7bf4e58483f9579dad8b6bf67a3189495"
+    }
+  ],
+  "preservedReferences": [
+    {
+      "path": "references/inputs/7310df12d8da/scene-21-v2.png",
+      "sha256": "7310df12d8da3d5dfd59946f689b4d92119f44fc1c843a63ab55fabd2c1f0458"
+    },
+    {
+      "path": "references/inputs/09db45c15b84/duck-character-study-v2.png",
+      "sha256": "09db45c15b849ad4846e468c2ea326a7bf4e58483f9579dad8b6bf67a3189495"
+    }
+  ],
+  "promptSha256": "8d7d8f152bc7bee310611d641f0617e2190c49f60bbfff315d18f60770971b81",
+  "master": {
+    "path": "masters/scene-20-v1.png",
+    "bytes": 2636607,
+    "sha256": "4fe5be0a61ba76dbde27699b3df5dcb42996d5bf187dd3be4b239ec6983aa9a7"
+  },
+  "approval": "draft-for-review"
+}

@@ -1,0 +1,63 @@
+{
+  "id": "scene-101",
+  "version": 1,
+  "tool": "image_gen__imagegen",
+  "generatedAt": "2026-10-01T17:49:36.449Z",
+  "sourceOutput": "/Users/miguel_lemos/.codex/generated_images/01a0be6f-b832-7d93-95df-9d2ff5f69dc1/exec-3d21d99d-ea32-4e1b-834f-01960b7179e2.png",
+  "promptPath": "prompts/scene-101-v1.txt",
+  "references": [
+    "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r5/web/scene-38.webp",
+    "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r8-herculean/root/masters/scene-97-v1.png"
+  ],
+  "visibleCast": [
+    "Papa",
+    "PinPin"
+  ],
+  "cameraEvidence": "Same camera composition as edit target; no new measured camera transform.",
+  "visualReview": "Two green slippers safely drying in basket; Papa points with wry expression, child attentive; running channel persists.",
+  "promptSha256": "aa4231eb876eb0f8cb7a8910548f13cd3ec59ad12dc6408d30e73921c64bcec5",
+  "master": {
+    "path": "masters/scene-101-v1.png",
+    "sha256": "71d0f4e61cbe323e86ac24ef66db64e5bb79853bb0d2f14312d1ad59d8ecaf41",
+    "bytes": 2738702
+  },
+  "referenceIdentities": [
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r5/web/scene-38.webp",
+      "sha256": "915aeebf74a532b8914d39ff3727b6343cdec368e6a169fc04f22db7e3ea1631",
+      "bytes": 547852
+    },
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r8-herculean/root/masters/scene-97-v1.png",
+      "sha256": "e488d8a84407a04428580d0857036faccbd222220fc43fdddd580592d72ccbf2",
+      "bytes": 2267375
+    }
+  ],
+  "preservedReferences": [
+    {
+      "path": "references/inputs/915aeebf74a5/scene-38.webp",
+      "sha256": "915aeebf74a532b8914d39ff3727b6343cdec368e6a169fc04f22db7e3ea1631"
+    },
+    {
+      "path": "references/inputs/e488d8a84407/scene-97-v1.png",
+      "sha256": "e488d8a84407a04428580d0857036faccbd222220fc43fdddd580592d72ccbf2"
+    }
+  ],
+  "reviewStatus": "illustration candidate; awaiting user feedback",
+  "web": {
+    "path": "web/scene-101.webp",
+    "sha256": "0f2ab76d21e8d87a97cdb5d9ac7ee7d50b33e06dca927b4e1ebb3da77193f841",
+    "bytes": 498552
+  },
+  "dimensions": [
+    1536,
+    1024
+  ],
+  "conversion": {
+    "format": "WebP",
+    "quality": 94,
+    "method": 6,
+    "resized": false,
+    "artEdited": false
+  }
+}

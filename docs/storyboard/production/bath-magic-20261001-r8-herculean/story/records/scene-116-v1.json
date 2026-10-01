@@ -1,0 +1,49 @@
+{
+  "tool": "image_gen__imagegen",
+  "generatedAt": "2026-10-01T17:52:39.150Z",
+  "sourceOutput": "/Users/miguel_lemos/.codex/generated_images/01a0f5c0-64db-7310-817a-d73d15314908/exec-998de4e9-da5d-48c8-9679-9fb94359e174.png",
+  "promptPath": "prompts/scene-116-v1.txt",
+  "references": [
+    "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r8-herculean/story/masters/scene-112-v3.png"
+  ],
+  "visualReview": {
+    "status": "passed-for-draft",
+    "notes": "Reverse test continuation: distinct alert child, whole tiny wooden tub, stream thinning on117 clearly paired with short erased ring segment."
+  },
+  "promptSha256": "823c977269ce4433ce184a9472d879277d83abdac4abf4b59a86ffd0936f232a",
+  "master": {
+    "path": "masters/scene-116-v1.png",
+    "sha256": "96e60eafe390eea245d260d3a902b66c199aaa706d432c0a33303521d68a5f7a",
+    "bytes": 2496161
+  },
+  "referenceIdentities": [
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r8-herculean/story/masters/scene-112-v3.png",
+      "sha256": "92d2d359bd0489ac5efd66bafc8d0f67f0cd26fbafb64269b9cf48e948e2df71",
+      "bytes": 2520957
+    }
+  ],
+  "preservedReferences": [
+    {
+      "path": "references/inputs/92d2d359bd04/scene-112-v3.png",
+      "sha256": "92d2d359bd0489ac5efd66bafc8d0f67f0cd26fbafb64269b9cf48e948e2df71"
+    }
+  ],
+  "reviewStatus": "illustration candidate; awaiting user feedback",
+  "web": {
+    "path": "web/scene-116.webp",
+    "sha256": "c0efc9118c4c0dadd59b1a8b3d0f4018c6f63c09d49ab66cdaaa69c8733cdea2",
+    "bytes": 442450
+  },
+  "dimensions": [
+    1536,
+    1024
+  ],
+  "conversion": {
+    "format": "WebP",
+    "quality": 94,
+    "method": 6,
+    "resized": false,
+    "artEdited": false
+  }
+}

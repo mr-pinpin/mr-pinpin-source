@@ -1,0 +1,65 @@
+{
+  "id": "scene-105",
+  "version": 2,
+  "tool": "image_gen__imagegen",
+  "generatedAt": "2026-10-01T17:59:37.197Z",
+  "sourceOutput": "/Users/miguel_lemos/.codex/generated_images/01a0be6f-b832-7d93-95df-9d2ff5f69dc1/exec-6da7cc4d-7719-42c0-8edf-daf641fe1644.png",
+  "promptPath": "prompts/scene-105-v2.txt",
+  "references": [
+    "/Users/miguel_lemos/.codex/generated_images/01a0be6f-b832-7d93-95df-9d2ff5f69dc1/exec-d7b69acc-aaec-4818-84ce-659982f24382.png",
+    "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r8-herculean/root/masters/scene-104-v2.png"
+  ],
+  "visibleCast": [
+    "Papa",
+    "Mama",
+    "PinPin",
+    "PomPom"
+  ],
+  "cameraEvidence": "Same camera composition as104; no new measured camera transform.",
+  "visualReview": "Papa calmly eats spoonful at hovering table. Blue-striped floating cloth restored, ordinaryfourlegroundtable retained, allfourfamily alert, babyhighchair grounded. Comic pause before lowering106.",
+  "promptSha256": "7eedfc95087e04a40a74593d7f5c1f0c65b44b28422cf0b624eca577bcab8781",
+  "master": {
+    "path": "masters/scene-105-v2.png",
+    "sha256": "7b6e0f7e7a45e67b8caf41889fbcaf04f9e5a40cf5427cc29fd89b286ca8e9e9",
+    "bytes": 2379980
+  },
+  "referenceIdentities": [
+    {
+      "path": "/Users/miguel_lemos/.codex/generated_images/01a0be6f-b832-7d93-95df-9d2ff5f69dc1/exec-d7b69acc-aaec-4818-84ce-659982f24382.png",
+      "sha256": "df188dbd10e1f4c09dbe3921dc72f495aedf6d042b44d2dba02029cfa8319d64",
+      "bytes": 2412925
+    },
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r8-herculean/root/masters/scene-104-v2.png",
+      "sha256": "5cfdaeaf84468b7f58a7ed6a734c4319c0df3837decc8eee437c5bb18ced67f5",
+      "bytes": 2504730
+    }
+  ],
+  "preservedReferences": [
+    {
+      "path": "references/inputs/df188dbd10e1/exec-d7b69acc-aaec-4818-84ce-659982f24382.png",
+      "sha256": "df188dbd10e1f4c09dbe3921dc72f495aedf6d042b44d2dba02029cfa8319d64"
+    },
+    {
+      "path": "references/inputs/5cfdaeaf8446/scene-104-v2.png",
+      "sha256": "5cfdaeaf84468b7f58a7ed6a734c4319c0df3837decc8eee437c5bb18ced67f5"
+    }
+  ],
+  "reviewStatus": "illustration candidate; awaiting user feedback",
+  "web": {
+    "path": "web/scene-105.webp",
+    "sha256": "8ca7107ce8c8816e0ca0177651af8cb76b0b09de20e0e05f40ba8c98280631f3",
+    "bytes": 419024
+  },
+  "dimensions": [
+    1536,
+    1024
+  ],
+  "conversion": {
+    "format": "WebP",
+    "quality": 94,
+    "method": 6,
+    "resized": false,
+    "artEdited": false
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "id": "scene-34",
+  "operation": "reuse unchanged; not newly generated",
+  "sourceProduction": "bath-magic-20261001-r5",
+  "sourceId": "scene-34",
+  "sourceRoot": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r5",
+  "originMaster": {
+    "path": "masters/scene-34-v1.png",
+    "sha256": "fe27e03d79505ed99e9ec955f721c2c30ea1b05fc0f305730adb438323f0f850",
+    "bytes": 2545756
+  },
+  "originWeb": {
+    "path": "web/scene-34.webp",
+    "sha256": "7942d4bf74b70ae9ca72f5067d28e4bc553bb7abe14b8e1a002cadea668fd5a3",
+    "bytes": 481962
+  },
+  "master": {
+    "path": "reused/masters/scene-34/scene-34-v1.png",
+    "sha256": "fe27e03d79505ed99e9ec955f721c2c30ea1b05fc0f305730adb438323f0f850",
+    "bytes": 2545756
+  },
+  "web": {
+    "path": "reused/web/scene-34.webp",
+    "sha256": "7942d4bf74b70ae9ca72f5067d28e4bc553bb7abe14b8e1a002cadea668fd5a3",
+    "bytes": 481962
+  },
+  "originRecord": {
+    "path": "reused/records/scene-34/origin-record.json",
+    "sha256": "ddef1b0df7ab0333eecb0062ad0e496361abebf259d045828dcec9bbacf4e62d",
+    "bytes": 2339
+  },
+  "originPrompt": {
+    "path": "reused/records/scene-34/origin-prompt.txt",
+    "sha256": "2506212ed5548ba276e03c4a1a93d0685c384952396357d67c68a540eff750c5",
+    "bytes": 1363
+  },
+  "inputs": [
+    {
+      "originalPath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r5/geometry/bath-channel-reverse/still.png",
+      "sha256": "9891b8a570180e364f3e9f548712fe601120c610a7db5c716056b2b8e3ad7faf",
+      "preservedPaths": [
+        "reused/references/9891b8a57018/still.png"
+      ]
+    },
+    {
+      "originalPath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r5/masters/channel-guide-v4.png",
+      "sha256": "6427d6adbbec899c59e387c4a625b8b6bd09662939b621ae4d4a0a101e806ccd",
+      "preservedPaths": [
+        "reused/references/6427d6adbbec/channel-guide-v4.png"
+      ]
+    },
+    {
+      "originalPath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r3/masters/scene-28-v1.png",
+      "sha256": "d80cd9f09eaa764258cf96cf54a4ad0967f6839392eff35842ebc0ba968a70a2",
+      "preservedPaths": [
+        "reused/references/d80cd9f09eaa/scene-28-v1.png"
+      ]
+    }
+  ]
+}

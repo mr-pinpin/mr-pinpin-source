@@ -1,0 +1,53 @@
+{
+  "id": "scene-94",
+  "version": 1,
+  "tool": "image_gen__imagegen",
+  "generatedAt": "2026-10-01T17:39:24.021Z",
+  "sourceOutput": "/Users/miguel_lemos/.codex/generated_images/01a0be6f-b832-7d93-95df-9d2ff5f69dc1/exec-52658058-54f1-4ae2-a5db-5fcd7652d7f3.png",
+  "promptPath": "prompts/scene-94-v1.txt",
+  "references": [
+    "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r5/web/scene-67.webp"
+  ],
+  "visibleCast": [
+    "Papa",
+    "Duck"
+  ],
+  "cameraEvidence": "Same camera composition as edit target; no new measured camera transform.",
+  "visualReview": "Single yellow plastic duck wrapped in striped towel on stool; Papa alert amused with two arms; bowl moved to floor; other ducks offscreen.",
+  "promptSha256": "d926cfa3e95df2982e2db7c2312e107c24164cd62964f4644e4d4ae048de67f2",
+  "master": {
+    "path": "masters/scene-94-v1.png",
+    "sha256": "6a2579e847b29aa2241c62bd759433cc75036f54856383d07595b302bfb7c1c6",
+    "bytes": 2451470
+  },
+  "referenceIdentities": [
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r5/web/scene-67.webp",
+      "sha256": "f9fce4c886a307f1474b2f8006bed64cafac7c47eebaef66f11802cde495f5b7",
+      "bytes": 399634
+    }
+  ],
+  "preservedReferences": [
+    {
+      "path": "references/inputs/f9fce4c886a3/scene-67.webp",
+      "sha256": "f9fce4c886a307f1474b2f8006bed64cafac7c47eebaef66f11802cde495f5b7"
+    }
+  ],
+  "reviewStatus": "illustration candidate; awaiting user feedback",
+  "web": {
+    "path": "web/scene-94.webp",
+    "sha256": "e58bbcb37ffc25927fec11c80b141e79a6b83227e04f0dee21f9ec26c8c001e1",
+    "bytes": 404206
+  },
+  "dimensions": [
+    1536,
+    1024
+  ],
+  "conversion": {
+    "format": "WebP",
+    "quality": 94,
+    "method": 6,
+    "resized": false,
+    "artEdited": false
+  }
+}

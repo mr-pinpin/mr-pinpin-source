@@ -1,0 +1,43 @@
+{
+  "tool": "image_gen__imagegen",
+  "generatedAt": "2026-10-01T15:34:26.978Z",
+  "promptPath": "prompts/scene-12-v1.txt",
+  "sourceOutput": "/Users/miguel_lemos/.codex/generated_images/01a0f5c0-64db-7310-817a-d73d15314908/exec-fd2e2c0e-8c4a-4d60-a3d2-deefb1b4d7cc.png",
+  "references": [
+    "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r3/masters/reused/scene-12/scene-10-v1.png",
+    "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r4/masters/duck-character-study-v2.png"
+  ],
+  "visualReview": {
+    "status": "passed",
+    "notes": "Targeted plastic-toy change inspected; original magic source, camera, child and architecture retained. Closed sculpted beak, fixed painted eyes."
+  },
+  "referenceIdentities": [
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r3/masters/reused/scene-12/scene-10-v1.png",
+      "bytes": 2235663,
+      "sha256": "673110df360bf0cd017101ab47a8e47b1e4b78e1ac57256b8173af71e6f32193"
+    },
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r4/masters/duck-character-study-v2.png",
+      "bytes": 1606390,
+      "sha256": "09db45c15b849ad4846e468c2ea326a7bf4e58483f9579dad8b6bf67a3189495"
+    }
+  ],
+  "preservedReferences": [
+    {
+      "path": "references/inputs/673110df360b/scene-10-v1.png",
+      "sha256": "673110df360bf0cd017101ab47a8e47b1e4b78e1ac57256b8173af71e6f32193"
+    },
+    {
+      "path": "references/inputs/09db45c15b84/duck-character-study-v2.png",
+      "sha256": "09db45c15b849ad4846e468c2ea326a7bf4e58483f9579dad8b6bf67a3189495"
+    }
+  ],
+  "promptSha256": "e68e50b0e39a5e9d6242a292ecb0fd634857f5e9e1fc61ebae832611436ac913",
+  "master": {
+    "path": "masters/scene-12-v1.png",
+    "bytes": 2295182,
+    "sha256": "d2d9a37d6e9bf0953f3fdd09a7c445b50092a5ea194d804244006e44217bbfd0"
+  },
+  "approval": "draft-for-review"
+}

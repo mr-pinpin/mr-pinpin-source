@@ -1,0 +1,48 @@
+{
+  "id": "scene-65-v1",
+  "tool": "image_gen.imagegen",
+  "sourceOutput": "/Users/miguel_lemos/.codex/generated_images/01a0f5c3-a7d1-70d0-b8cf-581aa5deee53/exec-3f7b3323-5ea6-4260-8e8b-3f03da6bf2c1.png",
+  "promptPath": "prompts/scene-65-v1.txt",
+  "references": [
+    "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r5/web/scene-59.webp"
+  ],
+  "requestedAt": "2026-10-01T17:29:35.109387+00:00",
+  "recordedAt": "2026-10-01T17:33:41.131039+00:00",
+  "visualReview": "Inspected same room and character style, clear action and energetic eyes.",
+  "promptSha256": "07893f7f361c6c6cf40ba0d2ad75c2b3bfc9451878f31ab2228917a81cbc2e96",
+  "master": {
+    "path": "masters/scene-65-v1.png",
+    "sha256": "c38e327dc9804558eaa3e4f913bdf95f049e66a229848d4fb6134a792506f41d",
+    "bytes": 2570098
+  },
+  "referenceIdentities": [
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r5/web/scene-59.webp",
+      "sha256": "c89a7cbf69f26ea301c7f379f0537f7e276289a6adb5d6fe8dfa8b82c8052273",
+      "bytes": 446608
+    }
+  ],
+  "preservedReferences": [
+    {
+      "path": "references/inputs/c89a7cbf69f2/scene-59.webp",
+      "sha256": "c89a7cbf69f26ea301c7f379f0537f7e276289a6adb5d6fe8dfa8b82c8052273"
+    }
+  ],
+  "reviewStatus": "illustration candidate; awaiting user feedback",
+  "web": {
+    "path": "web/scene-65.webp",
+    "sha256": "c8666f35059a2095d6035f78b38f6be7927b5edf2977e11d5ebfbcecfd1d37f4",
+    "bytes": 430684
+  },
+  "dimensions": [
+    1536,
+    1024
+  ],
+  "conversion": {
+    "format": "WebP",
+    "quality": 94,
+    "method": 6,
+    "resized": false,
+    "artEdited": false
+  }
+}

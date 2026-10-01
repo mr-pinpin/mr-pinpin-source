@@ -1,0 +1,73 @@
+{
+  "id": "scene-96",
+  "version": 1,
+  "tool": "image_gen__imagegen",
+  "generatedAt": "2026-10-01T17:43:40.044Z",
+  "sourceOutput": "/Users/miguel_lemos/.codex/generated_images/01a0be6f-b832-7d93-95df-9d2ff5f69dc1/exec-a1685535-8623-4340-aed3-c5f94f72ff5d.png",
+  "promptPath": "prompts/scene-96-v1.txt",
+  "references": [
+    "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r5/web/scene-37.webp",
+    "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r8-herculean/root/masters/scene-97-v1.png",
+    "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r8-herculean/root/masters/scene-89-v1.png"
+  ],
+  "visibleCast": [
+    "Mama",
+    "PinPin"
+  ],
+  "cameraEvidence": "Same camera composition as edit target; no new measured camera transform.",
+  "visualReview": "Mama flicks towel, corner touches tipping slipper and second floats. Both green felt slippers match97. Alert child sees new problem; indoor camera keeps sequence continuous.",
+  "promptSha256": "de51e83adaba7f6fd6bb1319c5c85d43ee5151245765a45aca501d52d3309b60",
+  "master": {
+    "path": "masters/scene-96-v1.png",
+    "sha256": "4a9fe1f085f1a45ada033e05b9e85f50d77ae39a4975e4a3a9e2e89cd1824c1d",
+    "bytes": 2367966
+  },
+  "referenceIdentities": [
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r5/web/scene-37.webp",
+      "sha256": "57f091e729f7f4bb89f7373cae52f6a512818e337d23032dc6dcec532b57fd3d",
+      "bytes": 399032
+    },
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r8-herculean/root/masters/scene-97-v1.png",
+      "sha256": "e488d8a84407a04428580d0857036faccbd222220fc43fdddd580592d72ccbf2",
+      "bytes": 2267375
+    },
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r8-herculean/root/masters/scene-89-v1.png",
+      "sha256": "5a691eaf01fb740c33beddd6aba29408cc8a662965f620441103a8dab46fd3c0",
+      "bytes": 2674674
+    }
+  ],
+  "preservedReferences": [
+    {
+      "path": "references/inputs/57f091e729f7/scene-37.webp",
+      "sha256": "57f091e729f7f4bb89f7373cae52f6a512818e337d23032dc6dcec532b57fd3d"
+    },
+    {
+      "path": "references/inputs/e488d8a84407/scene-97-v1.png",
+      "sha256": "e488d8a84407a04428580d0857036faccbd222220fc43fdddd580592d72ccbf2"
+    },
+    {
+      "path": "references/inputs/5a691eaf01fb/scene-89-v1.png",
+      "sha256": "5a691eaf01fb740c33beddd6aba29408cc8a662965f620441103a8dab46fd3c0"
+    }
+  ],
+  "reviewStatus": "illustration candidate; awaiting user feedback",
+  "web": {
+    "path": "web/scene-96.webp",
+    "sha256": "c56f44c16b7182fa8139bb82cf65575a58115ef9fe2570af634a25f8c569ff3d",
+    "bytes": 392292
+  },
+  "dimensions": [
+    1536,
+    1024
+  ],
+  "conversion": {
+    "format": "WebP",
+    "quality": 94,
+    "method": 6,
+    "resized": false,
+    "artEdited": false
+  }
+}

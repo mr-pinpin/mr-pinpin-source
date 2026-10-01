@@ -1,0 +1,59 @@
+{
+  "tool": "image_gen__imagegen",
+  "generatedAt": "2026-10-01T18:04:39.122Z",
+  "sourceOutput": "/Users/miguel_lemos/.codex/generated_images/01a0f5c0-64db-7310-817a-d73d15314908/exec-a32ff396-8496-4d72-8ab4-dbc617c94f30.png",
+  "promptPath": "prompts/scene-126-v1.txt",
+  "references": [
+    "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r8-herculean/geometry/masters/scene-78-v2.png",
+    "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r8-herculean/preproduction/duck-family-v1.png"
+  ],
+  "visualReview": {
+    "status": "passed-for-draft",
+    "notes": "Counted twelve plastic ducks: two adults and ten small ducks. Foreground adult looks directly at viewer; flower and garden pool retained, source gutter removed."
+  },
+  "promptSha256": "c5d85cc4f956f7bbe52adbc1f2269b7cec73a9a92db658adbc9fd798cb83310d",
+  "master": {
+    "path": "masters/scene-126-v1.png",
+    "sha256": "f43e6b012bf8f7ba9865e5320cab49b754b480ae6ee5dd541f57838cb3e23a4c",
+    "bytes": 2430436
+  },
+  "referenceIdentities": [
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r8-herculean/geometry/masters/scene-78-v2.png",
+      "sha256": "0c5cf53b8c8f02003bb7d4ae442f7a310c16f0394c4b909fff8553554a1e3ac0",
+      "bytes": 2646065
+    },
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r8-herculean/preproduction/duck-family-v1.png",
+      "sha256": "84b0ed95ec7213899020424316bee673acd691c5d9f52d10babd8e1ec791ca6c",
+      "bytes": 1553054
+    }
+  ],
+  "preservedReferences": [
+    {
+      "path": "references/inputs/0c5cf53b8c8f/scene-78-v2.png",
+      "sha256": "0c5cf53b8c8f02003bb7d4ae442f7a310c16f0394c4b909fff8553554a1e3ac0"
+    },
+    {
+      "path": "references/inputs/84b0ed95ec72/duck-family-v1.png",
+      "sha256": "84b0ed95ec7213899020424316bee673acd691c5d9f52d10babd8e1ec791ca6c"
+    }
+  ],
+  "reviewStatus": "illustration candidate; awaiting user feedback",
+  "web": {
+    "path": "web/scene-126.webp",
+    "sha256": "b0bc69bdc0f4c498f7339b900373174ded900fc3a41899ac4cac50abebc55185",
+    "bytes": 415982
+  },
+  "dimensions": [
+    1536,
+    1024
+  ],
+  "conversion": {
+    "format": "WebP",
+    "quality": 94,
+    "method": 6,
+    "resized": false,
+    "artEdited": false
+  }
+}

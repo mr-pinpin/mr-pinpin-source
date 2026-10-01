@@ -1,0 +1,43 @@
+{
+  "tool": "image_gen__imagegen",
+  "generatedAt": "2026-10-01T15:44:48.328Z",
+  "promptPath": "prompts/scene-22-v1.txt",
+  "sourceOutput": "/Users/miguel_lemos/.codex/generated_images/01a0f5c0-64db-7310-817a-d73d15314908/exec-ee5f15e8-6da0-4210-a207-979beb817b15.png",
+  "references": [
+    "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r3/masters/scene-22-v1.png",
+    "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r4/masters/duck-character-study-v2.png"
+  ],
+  "visualReview": {
+    "status": "passed",
+    "notes": "Pre-jump crouch and motivated family anticipation retained; inert plastic toy replaces wood, geometry unchanged."
+  },
+  "referenceIdentities": [
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r3/masters/scene-22-v1.png",
+      "bytes": 2609055,
+      "sha256": "d95a250eac7b60489abe86191d25d10ca2d40a9d87bc6073cb9e2115e121f32c"
+    },
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r4/masters/duck-character-study-v2.png",
+      "bytes": 1606390,
+      "sha256": "09db45c15b849ad4846e468c2ea326a7bf4e58483f9579dad8b6bf67a3189495"
+    }
+  ],
+  "preservedReferences": [
+    {
+      "path": "references/inputs/d95a250eac7b/scene-22-v1.png",
+      "sha256": "d95a250eac7b60489abe86191d25d10ca2d40a9d87bc6073cb9e2115e121f32c"
+    },
+    {
+      "path": "references/inputs/09db45c15b84/duck-character-study-v2.png",
+      "sha256": "09db45c15b849ad4846e468c2ea326a7bf4e58483f9579dad8b6bf67a3189495"
+    }
+  ],
+  "promptSha256": "e68e50b0e39a5e9d6242a292ecb0fd634857f5e9e1fc61ebae832611436ac913",
+  "master": {
+    "path": "masters/scene-22-v1.png",
+    "bytes": 2456923,
+    "sha256": "8b47a1562236bdc496e89575894d7d7048c3b6c89f3e9677fb8c465250933a69"
+  },
+  "approval": "draft-for-review"
+}

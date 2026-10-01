@@ -1,0 +1,48 @@
+{
+  "id": "scene-62-v1",
+  "tool": "image_gen.imagegen",
+  "sourceOutput": "/Users/miguel_lemos/.codex/generated_images/01a0f5c3-a7d1-70d0-b8cf-581aa5deee53/exec-27d3a80a-3b3f-44c0-9bad-423d837fd797.png",
+  "promptPath": "prompts/scene-62-v1.txt",
+  "references": [
+    "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r5/web/scene-64.webp"
+  ],
+  "requestedAt": "2026-10-01T17:29:35.103873+00:00",
+  "recordedAt": "2026-10-01T17:31:43.886953+00:00",
+  "visualReview": "Native image visually inspected; fixed reference composition, requested narrative action and book character rendering retained. No material limb/identity defect detected.",
+  "promptSha256": "fc3f93af68a0221d1447b6fc9898076eaa85d9db08d61164f466f42f76cea80f",
+  "master": {
+    "path": "masters/scene-62-v1.png",
+    "sha256": "a1b1492daa0dc86106855537fcb55e0f5e47f6b5b69717e478675ba938e4e9d6",
+    "bytes": 2345803
+  },
+  "referenceIdentities": [
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r5/web/scene-64.webp",
+      "sha256": "2f627cf4f72e6fcbdd68ec82c0db985da42a142d6fc81d695368f848ba0bb43f",
+      "bytes": 388154
+    }
+  ],
+  "preservedReferences": [
+    {
+      "path": "references/inputs/2f627cf4f72e/scene-64.webp",
+      "sha256": "2f627cf4f72e6fcbdd68ec82c0db985da42a142d6fc81d695368f848ba0bb43f"
+    }
+  ],
+  "reviewStatus": "illustration candidate; awaiting user feedback",
+  "web": {
+    "path": "web/scene-62.webp",
+    "sha256": "f64ac42bacac82f11f4fd086592b564666a949303782d268bb81c3c9a5f89f59",
+    "bytes": 383730
+  },
+  "dimensions": [
+    1536,
+    1024
+  ],
+  "conversion": {
+    "format": "WebP",
+    "quality": 94,
+    "method": 6,
+    "resized": false,
+    "artEdited": false
+  }
+}

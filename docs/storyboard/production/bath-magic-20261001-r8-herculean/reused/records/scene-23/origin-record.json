@@ -1,0 +1,43 @@
+{
+  "tool": "image_gen__imagegen",
+  "generatedAt": "2026-10-01T15:46:25.796Z",
+  "promptPath": "prompts/scene-23-v1.txt",
+  "sourceOutput": "/Users/miguel_lemos/.codex/generated_images/01a0f5c0-64db-7310-817a-d73d15314908/exec-e7fac53a-de95-4da1-a5bc-d359cfd5b800.png",
+  "references": [
+    "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r3/masters/scene-23-v1.png",
+    "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r4/masters/duck-character-study-v2.png"
+  ],
+  "visualReview": {
+    "status": "passed",
+    "notes": "Real airborne jump / splash impact preserved exactly, all four family characters distinct, infant supported, only toy material changed to canonical plastic."
+  },
+  "referenceIdentities": [
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r3/masters/scene-23-v1.png",
+      "bytes": 2480879,
+      "sha256": "6ef64cb4d4d67148391accef882a2e7cc8d62bc01b2ad98e786eb64b451c7472"
+    },
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r4/masters/duck-character-study-v2.png",
+      "bytes": 1606390,
+      "sha256": "09db45c15b849ad4846e468c2ea326a7bf4e58483f9579dad8b6bf67a3189495"
+    }
+  ],
+  "preservedReferences": [
+    {
+      "path": "references/inputs/6ef64cb4d4d6/scene-23-v1.png",
+      "sha256": "6ef64cb4d4d67148391accef882a2e7cc8d62bc01b2ad98e786eb64b451c7472"
+    },
+    {
+      "path": "references/inputs/09db45c15b84/duck-character-study-v2.png",
+      "sha256": "09db45c15b849ad4846e468c2ea326a7bf4e58483f9579dad8b6bf67a3189495"
+    }
+  ],
+  "promptSha256": "e68e50b0e39a5e9d6242a292ecb0fd634857f5e9e1fc61ebae832611436ac913",
+  "master": {
+    "path": "masters/scene-23-v1.png",
+    "bytes": 2432713,
+    "sha256": "92278ba1f6f8f4ac5b48ab891ad9287cb3026b41e27b6de2c905e9a65f7e7471"
+  },
+  "approval": "draft-for-review"
+}

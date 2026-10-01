@@ -1,0 +1,49 @@
+{
+  "tool": "image_gen__imagegen",
+  "generatedAt": "2026-10-01T17:47:39.781Z",
+  "sourceOutput": "/Users/miguel_lemos/.codex/generated_images/01a0f5c0-64db-7310-817a-d73d15314908/exec-6dcfa312-dcec-48cf-b99e-32a0e230ac86.png",
+  "promptPath": "prompts/scene-113-v2.txt",
+  "references": [
+    "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r8-herculean/story/masters/scene-113-v1.png"
+  ],
+  "visualReview": {
+    "status": "passed-for-draft",
+    "notes": "Continuous wooden tub rim/wall restored; overflow goes over solid rim to external catcher; all character identities/camera preserved."
+  },
+  "promptSha256": "4d52f4832e8fa8fb745d9c254f9352765ca5ff1ba9264873cf34d228c2cebd86",
+  "master": {
+    "path": "masters/scene-113-v2.png",
+    "sha256": "335a22adb33250045b9f9f7d07e9e467acd349ddc4e9d37a1825f010fd7a741d",
+    "bytes": 2515985
+  },
+  "referenceIdentities": [
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r8-herculean/story/masters/scene-113-v1.png",
+      "sha256": "60d211145f72922de11b7ef555cbef7b1e15ce0031bd8cf3fd41d557423a3d0c",
+      "bytes": 2500125
+    }
+  ],
+  "preservedReferences": [
+    {
+      "path": "references/inputs/60d211145f72/scene-113-v1.png",
+      "sha256": "60d211145f72922de11b7ef555cbef7b1e15ce0031bd8cf3fd41d557423a3d0c"
+    }
+  ],
+  "reviewStatus": "illustration candidate; awaiting user feedback",
+  "web": {
+    "path": "web/scene-113.webp",
+    "sha256": "6bdf0b4a55ba445443ab9b0b63bf040b192e6a630d93d7f272a0ba96c951089c",
+    "bytes": 430494
+  },
+  "dimensions": [
+    1536,
+    1024
+  ],
+  "conversion": {
+    "format": "WebP",
+    "quality": 94,
+    "method": 6,
+    "resized": false,
+    "artEdited": false
+  }
+}

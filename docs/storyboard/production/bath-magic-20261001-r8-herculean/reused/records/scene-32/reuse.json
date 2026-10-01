@@ -1,0 +1,46 @@
+{
+  "id": "scene-32",
+  "operation": "reuse unchanged; not newly generated",
+  "sourceProduction": "bath-magic-20261001-r5",
+  "sourceId": "scene-32",
+  "sourceRoot": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r5",
+  "originMaster": {
+    "path": "masters/scene-32-v2.png",
+    "sha256": "4ed9a2989d1417ac1f175ea263296ba686a5d21076d0744e9d05085b4378ee87",
+    "bytes": 2488378
+  },
+  "originWeb": {
+    "path": "web/scene-32.webp",
+    "sha256": "41d0d399970ad6af0c4e4e9ee0242fc348123510e79d4b71067fbc1878b9a949",
+    "bytes": 454594
+  },
+  "master": {
+    "path": "reused/masters/scene-32/scene-32-v2.png",
+    "sha256": "4ed9a2989d1417ac1f175ea263296ba686a5d21076d0744e9d05085b4378ee87",
+    "bytes": 2488378
+  },
+  "web": {
+    "path": "reused/web/scene-32.webp",
+    "sha256": "41d0d399970ad6af0c4e4e9ee0242fc348123510e79d4b71067fbc1878b9a949",
+    "bytes": 454594
+  },
+  "originRecord": {
+    "path": "reused/records/scene-32/origin-record.json",
+    "sha256": "a01b75c0e4a7f0571aeb254407a984686a8f14580d87c2c226f172c5433b3d60",
+    "bytes": 1269
+  },
+  "originPrompt": {
+    "path": "reused/records/scene-32/origin-prompt.txt",
+    "sha256": "3b3c55249109d7301f31d580f0b6f74362a8eed405cbe9da832178dc4c19eb64",
+    "bytes": 526
+  },
+  "inputs": [
+    {
+      "originalPath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r5/masters/scene-32-v1.png",
+      "sha256": "ac74248cbd20cdd6b5e0f0ff7c87fc3737a1d8454ed067e22a1d054e03d1d486",
+      "preservedPaths": [
+        "reused/references/ac74248cbd20/scene-32-v1.png"
+      ]
+    }
+  ]
+}

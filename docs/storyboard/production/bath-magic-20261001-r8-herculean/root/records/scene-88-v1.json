@@ -1,0 +1,62 @@
+{
+  "id": "scene-88",
+  "tool": "image_gen__imagegen",
+  "generatedAt": "2026-10-01T17:35:30.380Z",
+  "sourceOutput": "/Users/miguel_lemos/.codex/generated_images/01a0be6f-b832-7d93-95df-9d2ff5f69dc1/exec-7ba43481-997e-4e40-8f97-c89fc0d013c5.png",
+  "promptPath": "prompts/scene-88-v1.txt",
+  "references": [
+    "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r5/web/scene-37.webp",
+    "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r8-herculean/root/masters/scene-89-v1.png"
+  ],
+  "visibleCast": [
+    "Papa",
+    "PinPin"
+  ],
+  "cameraEvidence": "Same camera composition as edit target; no new measured camera transform.",
+  "visualReview": "Papa and PinPin watch newly condensed indoor cloud, alert eyes, room/gutter/camera preserved.",
+  "promptSha256": "0bc6bd2b7f1141776fa43f0583e7b89a1a486f607c5a310b5fa430654a0d30db",
+  "master": {
+    "path": "masters/scene-88-v1.png",
+    "sha256": "ae209b16af65d4a542b36f58d5292cbb810bdc224135c951b223252100720142",
+    "bytes": 2415305
+  },
+  "referenceIdentities": [
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r5/web/scene-37.webp",
+      "sha256": "57f091e729f7f4bb89f7373cae52f6a512818e337d23032dc6dcec532b57fd3d",
+      "bytes": 399032
+    },
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r8-herculean/root/masters/scene-89-v1.png",
+      "sha256": "5a691eaf01fb740c33beddd6aba29408cc8a662965f620441103a8dab46fd3c0",
+      "bytes": 2674674
+    }
+  ],
+  "preservedReferences": [
+    {
+      "path": "references/inputs/57f091e729f7/scene-37.webp",
+      "sha256": "57f091e729f7f4bb89f7373cae52f6a512818e337d23032dc6dcec532b57fd3d"
+    },
+    {
+      "path": "references/inputs/5a691eaf01fb/scene-89-v1.png",
+      "sha256": "5a691eaf01fb740c33beddd6aba29408cc8a662965f620441103a8dab46fd3c0"
+    }
+  ],
+  "reviewStatus": "illustration candidate; awaiting user feedback",
+  "web": {
+    "path": "web/scene-88.webp",
+    "sha256": "2ee93ef85ea70b15ba690e23ca755850723ef64fa149ac26a9ee8f12c90dbb52",
+    "bytes": 414292
+  },
+  "dimensions": [
+    1536,
+    1024
+  ],
+  "conversion": {
+    "format": "WebP",
+    "quality": 94,
+    "method": 6,
+    "resized": false,
+    "artEdited": false
+  }
+}

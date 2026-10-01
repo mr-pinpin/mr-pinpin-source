@@ -1,0 +1,49 @@
+{
+  "tool": "image_gen__imagegen",
+  "generatedAt": "2026-10-01T18:04:39.122Z",
+  "sourceOutput": "/Users/miguel_lemos/.codex/generated_images/01a0f5c0-64db-7310-817a-d73d15314908/exec-1d2e4b90-1c1e-41b7-9951-5273b3f1673b.png",
+  "promptPath": "prompts/scene-125-v1.txt",
+  "references": [
+    "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r8-herculean/story/masters/scene-53-v1.png"
+  ],
+  "visualReview": {
+    "status": "passed-for-draft",
+    "notes": "All four distinct family members at ordinary round breakfast table; lively appetite, baby in high chair, no weary expressions."
+  },
+  "promptSha256": "3abdc701d879508b7df638305a40e5725d001f4263137c4e1620df6358c16c13",
+  "master": {
+    "path": "masters/scene-125-v1.png",
+    "sha256": "2c2b485f1707c7422bc6db9a38984207626745e12c493ffc8f7f360df61df627",
+    "bytes": 2526594
+  },
+  "referenceIdentities": [
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r8-herculean/story/masters/scene-53-v1.png",
+      "sha256": "929d06608b732593f69df29445d0506b721e826cee3802e5bea078eb4d3cdfbf",
+      "bytes": 2521827
+    }
+  ],
+  "preservedReferences": [
+    {
+      "path": "references/inputs/929d06608b73/scene-53-v1.png",
+      "sha256": "929d06608b732593f69df29445d0506b721e826cee3802e5bea078eb4d3cdfbf"
+    }
+  ],
+  "reviewStatus": "illustration candidate; awaiting user feedback",
+  "web": {
+    "path": "web/scene-125.webp",
+    "sha256": "31b59dd4793bda7850191bbc6d5c4d8107983d03f15ab587c0d7be186f9aae0b",
+    "bytes": 481724
+  },
+  "dimensions": [
+    1536,
+    1024
+  ],
+  "conversion": {
+    "format": "WebP",
+    "quality": 94,
+    "method": 6,
+    "resized": false,
+    "artEdited": false
+  }
+}

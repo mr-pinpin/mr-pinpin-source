@@ -1,0 +1,43 @@
+{
+  "tool": "image_gen__imagegen",
+  "generatedAt": "2026-10-01T15:41:34.854Z",
+  "promptPath": "prompts/scene-19-v1.txt",
+  "sourceOutput": "/Users/miguel_lemos/.codex/generated_images/01a0f5c0-64db-7310-817a-d73d15314908/exec-022a61e3-7272-44b7-a864-6559a6ecaa58.png",
+  "references": [
+    "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r3/masters/reused/scene-19/scene-15-v1.png",
+    "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r4/masters/duck-character-study-v2.png"
+  ],
+  "visualReview": {
+    "status": "passed",
+    "notes": "Mild concern and doorway glance now motivate asking Papa; bucket/arms intact; plastic toy."
+  },
+  "referenceIdentities": [
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r3/masters/reused/scene-19/scene-15-v1.png",
+      "bytes": 2310547,
+      "sha256": "c033193dde393c677f74470048d255d7723d7318cddf7108106fd39a01531f4f"
+    },
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r4/masters/duck-character-study-v2.png",
+      "bytes": 1606390,
+      "sha256": "09db45c15b849ad4846e468c2ea326a7bf4e58483f9579dad8b6bf67a3189495"
+    }
+  ],
+  "preservedReferences": [
+    {
+      "path": "references/inputs/c033193dde39/scene-15-v1.png",
+      "sha256": "c033193dde393c677f74470048d255d7723d7318cddf7108106fd39a01531f4f"
+    },
+    {
+      "path": "references/inputs/09db45c15b84/duck-character-study-v2.png",
+      "sha256": "09db45c15b849ad4846e468c2ea326a7bf4e58483f9579dad8b6bf67a3189495"
+    }
+  ],
+  "promptSha256": "810f9c04c2442b5ba7974de608c4aa86a80fa1dc73050dd97412030aef7045d1",
+  "master": {
+    "path": "masters/scene-19-v1.png",
+    "bytes": 2184777,
+    "sha256": "1a8ddbd4db51d201ecdf4ff90da91e0d708a64f71f5260cc6134361293042da3"
+  },
+  "approval": "draft-for-review"
+}

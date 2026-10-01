@@ -1,0 +1,52 @@
+{
+  "id": "scene-78-v1",
+  "tool": "image_gen.imagegen",
+  "sourceOutput": "/Users/miguel_lemos/.codex/generated_images/01a0f5c3-a7d1-70d0-b8cf-581aa5deee53/exec-ddbfa1d0-d486-4f18-a818-c91991c626f6.png",
+  "promptPath": "prompts/scene-78-v1.txt",
+  "references": [
+    "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r5/web/scene-38.webp",
+    "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r8-herculean/preproduction/giant-flower-v1.png",
+    "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r8-herculean/preproduction/duck-pool-v2.png"
+  ],
+  "requestedAt": "2026-10-01T17:38:31.501175+00:00",
+  "recordedAt": "2026-10-01T17:46:33.930722+00:00",
+  "visualReview": "Rejected count:13 visible duck heads; will remove one small duck. Other story staging good.",
+  "promptSha256": "ad2c1cd57ceda079341cac4de7d59c17a447115f3785344a949f8024574a2675",
+  "master": {
+    "path": "masters/scene-78-v1.png",
+    "sha256": "cd52b9530954ff54466a0d3a370392b7f74678b570abca44f5c29f94c215da03",
+    "bytes": 2733081
+  },
+  "referenceIdentities": [
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r5/web/scene-38.webp",
+      "sha256": "915aeebf74a532b8914d39ff3727b6343cdec368e6a169fc04f22db7e3ea1631",
+      "bytes": 547852
+    },
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r8-herculean/preproduction/giant-flower-v1.png",
+      "sha256": "ae6d0fb864796346442d729585194ddcf78af4bada7599c769125fc461b4bede",
+      "bytes": 2009257
+    },
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r8-herculean/preproduction/duck-pool-v2.png",
+      "sha256": "9c7d6a0dcc08908c8913ffd4815cab055710c62ec6b4a6f266a860c27dc8ad26",
+      "bytes": 1950321
+    }
+  ],
+  "preservedReferences": [
+    {
+      "path": "references/inputs/915aeebf74a5/scene-38.webp",
+      "sha256": "915aeebf74a532b8914d39ff3727b6343cdec368e6a169fc04f22db7e3ea1631"
+    },
+    {
+      "path": "references/inputs/ae6d0fb86479/giant-flower-v1.png",
+      "sha256": "ae6d0fb864796346442d729585194ddcf78af4bada7599c769125fc461b4bede"
+    },
+    {
+      "path": "references/inputs/9c7d6a0dcc08/duck-pool-v2.png",
+      "sha256": "9c7d6a0dcc08908c8913ffd4815cab055710c62ec6b4a6f266a860c27dc8ad26"
+    }
+  ],
+  "reviewStatus": "illustration candidate; awaiting user feedback"
+}

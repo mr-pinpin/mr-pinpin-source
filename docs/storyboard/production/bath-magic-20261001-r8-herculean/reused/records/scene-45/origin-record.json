@@ -1,0 +1,38 @@
+{
+  "id": "scene-48-v1",
+  "tool": "image_gen__imagegen",
+  "generatedAt": "2026-10-01T16:13:09.736Z",
+  "promptPath": "prompts/scene-48-v1.txt",
+  "sourceOutput": "/Volumes/TB4/mac-mini-storage/shared/pinpin-generated-originals/01a0be6f-b832-7d93-95df-9d2ff5f69dc1/exec-11404b83-7afd-4b90-b7b4-c46ef14494aa.png",
+  "references": [
+    "/Volumes/TB4/mac-mini-storage/shared/air-space-recovery/codex-generated-images-elder-r6/01a0f5c3-a7d1-70d0-b8cf-581aa5deee53/exec-633c4aa1-c724-4649-80d0-5e7bebebcdb7.png"
+  ],
+  "visualReview": "Pass: reviewed full-size scene. Intended action and varied subdued emotions read, independent limbs and cast preserved, source state and temporary channel consistent.",
+  "cameraEvidence": "Same-composition edit from selected reference; no new measured transform claimed.",
+  "originalInputPaths": {
+    "sourceOutput": "/Users/miguel_lemos/.codex/generated_images/01a0be6f-b832-7d93-95df-9d2ff5f69dc1/exec-11404b83-7afd-4b90-b7b4-c46ef14494aa.png",
+    "references": [
+      "/Users/miguel_lemos/.codex/generated_images/01a0f5c3-a7d1-70d0-b8cf-581aa5deee53/exec-633c4aa1-c724-4649-80d0-5e7bebebcdb7.png"
+    ]
+  },
+  "referenceIdentities": [
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/air-space-recovery/codex-generated-images-elder-r6/01a0f5c3-a7d1-70d0-b8cf-581aa5deee53/exec-633c4aa1-c724-4649-80d0-5e7bebebcdb7.png",
+      "bytes": 2587516,
+      "sha256": "23df6e80d0415ee29cdc4120a9206ade300ea579c08cabc31afc27c29a0b34fe"
+    }
+  ],
+  "preservedReferences": [
+    {
+      "path": "references/inputs/23df6e80d041/exec-633c4aa1-c724-4649-80d0-5e7bebebcdb7.png",
+      "sha256": "23df6e80d0415ee29cdc4120a9206ade300ea579c08cabc31afc27c29a0b34fe"
+    }
+  ],
+  "promptSha256": "b0e0f50846aabd42192230e5c68367270dd7589f7742fbaef3e3985348096490",
+  "master": {
+    "path": "masters/scene-48-v1.png",
+    "bytes": 2529542,
+    "sha256": "f1179e36143e488444c5435353b42ac750ef901d3c79ac4497ede0246c1c9f1a"
+  },
+  "approval": "draft-for-review"
+}

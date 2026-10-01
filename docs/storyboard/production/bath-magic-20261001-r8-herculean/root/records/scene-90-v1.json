@@ -1,0 +1,121 @@
+{
+  "id": "scene-90",
+  "tool": "image_gen__imagegen",
+  "generatedAt": "2026-10-01T17:35:30.403Z",
+  "sourceOutput": "/Users/miguel_lemos/.codex/generated_images/01a0be6f-b832-7d93-95df-9d2ff5f69dc1/exec-b4f9dd27-e250-499b-8ce9-af2afe0cbea0.png",
+  "promptPath": "prompts/scene-90-v1.txt",
+  "references": [
+    "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r5/web/scene-38.webp",
+    "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r8-herculean/preproduction/duck-pool-v2.png",
+    "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r8-herculean/root/masters/scene-89-v1.png"
+  ],
+  "visibleCast": [
+    "PinPin",
+    "12 ducks"
+  ],
+  "cameraEvidence": "Same camera composition as edit target; no new measured camera transform.",
+  "visualReview": "Selected after independent native-master recount: EXACTLY12 ducks, two large andten small. Root initialcount was mistaken; no missing duck. v2 introduced a13th head and is rejected.",
+  "promptSha256": "9863558ba0292f55e96d42107a321371d8bb636099f9f4c8ba43d33cdb2859c4",
+  "master": {
+    "path": "masters/scene-90-v1.png",
+    "sha256": "1247c20c6ffa24ac79def54ae7ae2bd215a6a8b3f17546de5061901fa375b424",
+    "bytes": 2754900
+  },
+  "referenceIdentities": [
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r5/web/scene-38.webp",
+      "sha256": "915aeebf74a532b8914d39ff3727b6343cdec368e6a169fc04f22db7e3ea1631",
+      "bytes": 547852
+    },
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r8-herculean/preproduction/duck-pool-v2.png",
+      "sha256": "9c7d6a0dcc08908c8913ffd4815cab055710c62ec6b4a6f266a860c27dc8ad26",
+      "bytes": 1950321
+    },
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r8-herculean/root/masters/scene-89-v1.png",
+      "sha256": "5a691eaf01fb740c33beddd6aba29408cc8a662965f620441103a8dab46fd3c0",
+      "bytes": 2674674
+    }
+  ],
+  "preservedReferences": [
+    {
+      "path": "references/inputs/915aeebf74a5/scene-38.webp",
+      "sha256": "915aeebf74a532b8914d39ff3727b6343cdec368e6a169fc04f22db7e3ea1631"
+    },
+    {
+      "path": "references/inputs/9c7d6a0dcc08/duck-pool-v2.png",
+      "sha256": "9c7d6a0dcc08908c8913ffd4815cab055710c62ec6b4a6f266a860c27dc8ad26"
+    },
+    {
+      "path": "references/inputs/5a691eaf01fb/scene-89-v1.png",
+      "sha256": "5a691eaf01fb740c33beddd6aba29408cc8a662965f620441103a8dab46fd3c0"
+    }
+  ],
+  "reviewStatus": "illustration candidate; awaiting user feedback",
+  "initialVisualReview": "REJECTED: counted eleven visible ducks (two adults and nine small); one small duck missing. Preserve for provenance only.",
+  "countAudit": {
+    "reviewer": "bath_chapter_geometry androot",
+    "total": 12,
+    "adults": 2,
+    "small": 10,
+    "smallHeadsApproxPx": [
+      [
+        598,
+        678
+      ],
+      [
+        583,
+        725
+      ],
+      [
+        700,
+        740
+      ],
+      [
+        793,
+        783
+      ],
+      [
+        847,
+        716
+      ],
+      [
+        960,
+        770
+      ],
+      [
+        1000,
+        714
+      ],
+      [
+        1069,
+        670
+      ],
+      [
+        1091,
+        758
+      ],
+      [
+        1170,
+        704
+      ]
+    ]
+  },
+  "web": {
+    "path": "web/scene-90.webp",
+    "sha256": "571a456df36a8e485be73fd1f265eb7c6dec29c9abf009486f527ebfa990c1a6",
+    "bytes": 514494
+  },
+  "dimensions": [
+    1536,
+    1024
+  ],
+  "conversion": {
+    "format": "WebP",
+    "quality": 94,
+    "method": 6,
+    "resized": false,
+    "artEdited": false
+  }
+}

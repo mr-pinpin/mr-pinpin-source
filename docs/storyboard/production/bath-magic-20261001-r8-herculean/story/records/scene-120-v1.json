@@ -1,0 +1,49 @@
+{
+  "tool": "image_gen__imagegen",
+  "generatedAt": "2026-10-01T17:56:25.341Z",
+  "sourceOutput": "/Users/miguel_lemos/.codex/generated_images/01a0f5c0-64db-7310-817a-d73d15314908/exec-1f3126eb-0848-4d02-ad68-fec4f547f27c.png",
+  "promptPath": "prompts/scene-120-v1.txt",
+  "references": [
+    "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r8-herculean/story/masters/scene-117-v1.png"
+  ],
+  "visualReview": {
+    "status": "passed-for-draft",
+    "notes": "Actual output inspected: sequence preserves tiny complete wooden bath through121, alert child observation/reversal, distinct mother when present; stream recovers118, circle fades120, residual drops121;122 restored fullsize tub, still low water and wet floor."
+  },
+  "promptSha256": "793a13607509502efbbc012f0960d735e7a23cc848095d52f4780e8d96a8206c",
+  "master": {
+    "path": "masters/scene-120-v1.png",
+    "sha256": "d719d3c3469a26d2a9adabd2d9b4758db1d7c2e6cafd6b08dd2a575cbefe8693",
+    "bytes": 2497069
+  },
+  "referenceIdentities": [
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r8-herculean/story/masters/scene-117-v1.png",
+      "sha256": "62948a16f45233250892b760a0ffe177950af4cc5c39643a5dd18b6b143e37ff",
+      "bytes": 2531933
+    }
+  ],
+  "preservedReferences": [
+    {
+      "path": "references/inputs/62948a16f452/scene-117-v1.png",
+      "sha256": "62948a16f45233250892b760a0ffe177950af4cc5c39643a5dd18b6b143e37ff"
+    }
+  ],
+  "reviewStatus": "illustration candidate; awaiting user feedback",
+  "web": {
+    "path": "web/scene-120.webp",
+    "sha256": "1cb2c6f03e77654a70ca70f1e94de5f02add8383c6e06c70ab658c3e73652d0c",
+    "bytes": 447320
+  },
+  "dimensions": [
+    1536,
+    1024
+  ],
+  "conversion": {
+    "format": "WebP",
+    "quality": 94,
+    "method": 6,
+    "resized": false,
+    "artEdited": false
+  }
+}

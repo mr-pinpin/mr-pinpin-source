@@ -1,0 +1,58 @@
+{
+  "id": "scene-66-v1",
+  "tool": "image_gen.imagegen",
+  "sourceOutput": "/Users/miguel_lemos/.codex/generated_images/01a0f5c3-a7d1-70d0-b8cf-581aa5deee53/exec-1970a74f-aff8-4811-afb6-fc1916ba8c4e.png",
+  "promptPath": "prompts/scene-66-v1.txt",
+  "references": [
+    "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r5/web/scene-60.webp",
+    "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r8-herculean/preproduction/duck-pool-v2.png"
+  ],
+  "requestedAt": "2026-10-01T17:29:35.109926+00:00",
+  "recordedAt": "2026-10-01T17:33:41.533858+00:00",
+  "visualReview": "Inspected and counted exactly12: two larger adults and ten smaller ducklings. Same low bathroom viewpoint, pool on stool and fountain behind.",
+  "promptSha256": "4d41533cd316831d0019d4bd952752f2cfcdc6c8ba78c93da9cdee50bdedcedd",
+  "master": {
+    "path": "masters/scene-66-v1.png",
+    "sha256": "c1fdb68318de238c4fab7c153808b9a62a6ce13f846139c9ed6b3d300df63aad",
+    "bytes": 2260659
+  },
+  "referenceIdentities": [
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r5/web/scene-60.webp",
+      "sha256": "eff515de1480b972316d8318cbc79dd5d93327b3c0b7fa29e4d128d68b64a150",
+      "bytes": 297342
+    },
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r8-herculean/preproduction/duck-pool-v2.png",
+      "sha256": "9c7d6a0dcc08908c8913ffd4815cab055710c62ec6b4a6f266a860c27dc8ad26",
+      "bytes": 1950321
+    }
+  ],
+  "preservedReferences": [
+    {
+      "path": "references/inputs/eff515de1480/scene-60.webp",
+      "sha256": "eff515de1480b972316d8318cbc79dd5d93327b3c0b7fa29e4d128d68b64a150"
+    },
+    {
+      "path": "references/inputs/9c7d6a0dcc08/duck-pool-v2.png",
+      "sha256": "9c7d6a0dcc08908c8913ffd4815cab055710c62ec6b4a6f266a860c27dc8ad26"
+    }
+  ],
+  "reviewStatus": "illustration candidate; awaiting user feedback",
+  "web": {
+    "path": "web/scene-66.webp",
+    "sha256": "8b2d950c015aabb8efdb76527a9f07221346f23f379f9a124b92e7cd0cdc41f2",
+    "bytes": 330970
+  },
+  "dimensions": [
+    1536,
+    1024
+  ],
+  "conversion": {
+    "format": "WebP",
+    "quality": 94,
+    "method": 6,
+    "resized": false,
+    "artEdited": false
+  }
+}

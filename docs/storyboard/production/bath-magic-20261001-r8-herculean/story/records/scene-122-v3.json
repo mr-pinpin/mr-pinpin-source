@@ -1,0 +1,49 @@
+{
+  "tool": "image_gen__imagegen",
+  "generatedAt": "2026-10-01T18:04:39.122Z",
+  "sourceOutput": "/Users/miguel_lemos/.codex/generated_images/01a0f5c0-64db-7310-817a-d73d15314908/exec-7b01176f-3278-45a4-9eea-8a3b8e8e6c13.png",
+  "promptPath": "prompts/scene-122-v3.txt",
+  "references": [
+    "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r8-herculean/story/masters/scene-122-v2.png"
+  ],
+  "visualReview": {
+    "status": "passed-for-draft",
+    "notes": "Restored full-size bath retains two external metal bands, shallow water and continuous wooden rim; alert PinPin, no source ring."
+  },
+  "promptSha256": "1857cb51f9a0d0c25770620c835008aab397c863fc939738f7c3cba7e1b3a7d6",
+  "master": {
+    "path": "masters/scene-122-v3.png",
+    "sha256": "61adb47da19a9538bf76dbd676e10fc3ae1e3a4ab2e4ccb53aeb2a66e988560f",
+    "bytes": 2278154
+  },
+  "referenceIdentities": [
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r8-herculean/story/masters/scene-122-v2.png",
+      "sha256": "e3f8ba54f41ef3902e33569942d5ba84d74bec8df2fee32feddb92c66559914a",
+      "bytes": 2339530
+    }
+  ],
+  "preservedReferences": [
+    {
+      "path": "references/inputs/e3f8ba54f41e/scene-122-v2.png",
+      "sha256": "e3f8ba54f41ef3902e33569942d5ba84d74bec8df2fee32feddb92c66559914a"
+    }
+  ],
+  "reviewStatus": "illustration candidate; awaiting user feedback",
+  "web": {
+    "path": "web/scene-122.webp",
+    "sha256": "c4554995fbf04d050009d02561a04af8594e66b3215f2e9a53dae34a680e80a9",
+    "bytes": 395682
+  },
+  "dimensions": [
+    1536,
+    1024
+  ],
+  "conversion": {
+    "format": "WebP",
+    "quality": 94,
+    "method": 6,
+    "resized": false,
+    "artEdited": false
+  }
+}

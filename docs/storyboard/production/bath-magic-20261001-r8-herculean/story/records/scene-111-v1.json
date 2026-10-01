@@ -1,0 +1,43 @@
+{
+  "tool": "image_gen__imagegen",
+  "generatedAt": "2026-10-01T17:42:39.454Z",
+  "sourceOutput": "/Users/miguel_lemos/.codex/generated_images/01a0f5c0-64db-7310-817a-d73d15314908/exec-a1a2a728-dc27-4c45-990a-5fd1c1196227.png",
+  "promptPath": "prompts/scene-111-v1.txt",
+  "references": [
+    "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r5/masters/scene-21-v1.png",
+    "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r8-herculean/story/masters/scene-108-v1.png"
+  ],
+  "visualReview": {
+    "status": "needs-revision",
+    "notes": "Basin rim gains notch at spill; restore continuous wooden rim and wall before selection."
+  },
+  "promptSha256": "13eb7a1d164f91536df8d2074a02ae79f478b1785d216895eb70156ac8c1468c",
+  "master": {
+    "path": "masters/scene-111-v1.png",
+    "sha256": "42232a912294fe6daccd4254c46976e552b027c4e7beb3b33b651b5d4392d8f0",
+    "bytes": 2637258
+  },
+  "referenceIdentities": [
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r5/masters/scene-21-v1.png",
+      "sha256": "41415ea5659de8ee2738525b6fd562cb0afeeeb34db82d9d4b90cf3b60e48f0c",
+      "bytes": 2535305
+    },
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r8-herculean/story/masters/scene-108-v1.png",
+      "sha256": "f80d8a4e699ac2614bf942b19880205ed4e00c28cae4da6e7ee05b251ac5986a",
+      "bytes": 2570886
+    }
+  ],
+  "preservedReferences": [
+    {
+      "path": "references/inputs/41415ea5659d/scene-21-v1.png",
+      "sha256": "41415ea5659de8ee2738525b6fd562cb0afeeeb34db82d9d4b90cf3b60e48f0c"
+    },
+    {
+      "path": "references/inputs/f80d8a4e699a/scene-108-v1.png",
+      "sha256": "f80d8a4e699ac2614bf942b19880205ed4e00c28cae4da6e7ee05b251ac5986a"
+    }
+  ],
+  "reviewStatus": "illustration candidate; awaiting user feedback"
+}

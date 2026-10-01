@@ -1,0 +1,65 @@
+{
+  "id": "title",
+  "version": 1,
+  "tool": "image_gen__imagegen",
+  "generatedAt": "2026-10-01T17:52:47.213Z",
+  "sourceOutput": "/Users/miguel_lemos/.codex/generated_images/01a0be6f-b832-7d93-95df-9d2ff5f69dc1/exec-3196ed8f-2695-45b7-a633-e3eaea9ef1ce.png",
+  "promptPath": "prompts/title-v1.txt",
+  "references": [
+    "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r5/web/title.webp",
+    "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r8-herculean/root/masters/scene-95-v1.png"
+  ],
+  "visibleCast": [
+    "Papa",
+    "Mama",
+    "PinPin",
+    "PomPom"
+  ],
+  "cameraEvidence": "Same camera composition as edit target; no new measured camera transform.",
+  "visualReview": "Energetic all-four-family cover, child lifts full bucket, Papa tends gutter, Mama safely holds distinct baby. Silent incidental duck and petals; no premature speaking duck cue.",
+  "promptSha256": "e7ea6f9eab5c7a0bca0bf5c146a19267c891e29253da812a9434207e08af735e",
+  "master": {
+    "path": "masters/title-v1.png",
+    "sha256": "bcfb6c763200b2ef3d4071d2d7dd32bea892ca8fce177d5a753a0ed58135e18f",
+    "bytes": 2477473
+  },
+  "referenceIdentities": [
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r5/web/title.webp",
+      "sha256": "3faac89e1b9839f936495b25c82f3aaa8b5cac75cbdccd4dd8cfaefd4ddbb4d2",
+      "bytes": 352096
+    },
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r8-herculean/root/masters/scene-95-v1.png",
+      "sha256": "8ed8d7c728488aa5a374d171915a63190c8b70cc17f825780bfa7f7aed7d1bc4",
+      "bytes": 2484041
+    }
+  ],
+  "preservedReferences": [
+    {
+      "path": "references/inputs/3faac89e1b98/title.webp",
+      "sha256": "3faac89e1b9839f936495b25c82f3aaa8b5cac75cbdccd4dd8cfaefd4ddbb4d2"
+    },
+    {
+      "path": "references/inputs/8ed8d7c72848/scene-95-v1.png",
+      "sha256": "8ed8d7c728488aa5a374d171915a63190c8b70cc17f825780bfa7f7aed7d1bc4"
+    }
+  ],
+  "reviewStatus": "illustration candidate; awaiting user feedback",
+  "web": {
+    "path": "web/title.webp",
+    "sha256": "bef832f38a4fd690e647417fa6d26f1e2824c0ac5131f35ca724a2a8b0612842",
+    "bytes": 437708
+  },
+  "dimensions": [
+    1536,
+    1024
+  ],
+  "conversion": {
+    "format": "WebP",
+    "quality": 94,
+    "method": 6,
+    "resized": false,
+    "artEdited": false
+  }
+}

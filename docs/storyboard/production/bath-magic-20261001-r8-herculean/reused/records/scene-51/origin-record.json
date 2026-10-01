@@ -1,0 +1,31 @@
+{
+  "id": "scene-54-v2",
+  "tool": "image_gen__imagegen",
+  "generatedAt": "2026-10-01T16:09:42.557042+00:00",
+  "promptPath": "prompts/scene-54-v2.txt",
+  "sourceOutput": "/Users/miguel_lemos/.codex/generated_images/01a0f5c3-a7d1-70d0-b8cf-581aa5deee53/exec-9ae8d826-6ed9-4ae2-af27-02ce79afbfa5.png",
+  "references": [
+    "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r5/masters/scene-53-v1.png"
+  ],
+  "visualReview": "PASS: coherent attached limbs and useful scene action, requested individual quiet/tired expressions, room and prop continuity visually reviewed. Draft art uses existing camera composition.",
+  "referenceIdentities": [
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r5/masters/scene-53-v1.png",
+      "bytes": 2587516,
+      "sha256": "23df6e80d0415ee29cdc4120a9206ade300ea579c08cabc31afc27c29a0b34fe"
+    }
+  ],
+  "preservedReferences": [
+    {
+      "path": "masters/scene-53-v1.png",
+      "sha256": "23df6e80d0415ee29cdc4120a9206ade300ea579c08cabc31afc27c29a0b34fe"
+    }
+  ],
+  "promptSha256": "12905f58c31e48de246b4764247e9761a62dcb94ddb63d501c9f2149f3892f8a",
+  "master": {
+    "path": "masters/scene-54-v2.png",
+    "bytes": 2578776,
+    "sha256": "b42fe51e243ab18c6f1ab6e29d1c54105d9c8fc8d50ad4dfc2c641b4c8f61ed3"
+  },
+  "approval": "draft-for-review"
+}

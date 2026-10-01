@@ -1,0 +1,33 @@
+{
+  "tool": "image_gen__imagegen",
+  "generatedAt": "2026-10-01T17:42:39.447Z",
+  "sourceOutput": "/Users/miguel_lemos/.codex/generated_images/01a0f5c0-64db-7310-817a-d73d15314908/exec-e4108c92-8f15-4d9d-baee-9903e336d400.png",
+  "promptPath": "prompts/scene-109-v2.txt",
+  "references": [
+    "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r8-herculean/story/masters/scene-109-v1.png"
+  ],
+  "visualReview": {
+    "status": "needs-revision",
+    "notes": "Bucket orientation still implausible; reroute incoming stream into right-facing open mouth."
+  },
+  "promptSha256": "67fe364bda7e2b0e5e582b545feabebc9342c25c9832623cbfb3c7346336fde1",
+  "master": {
+    "path": "masters/scene-109-v2.png",
+    "sha256": "6de4cd0a251b3e4ecc3a05f4caa216569b9e6246b4301c3eea19556f98d94ef5",
+    "bytes": 2659561
+  },
+  "referenceIdentities": [
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r8-herculean/story/masters/scene-109-v1.png",
+      "sha256": "6cdfea20da262799567fb05adc21207ce4adef7bb50d8db9f514a0d419797475",
+      "bytes": 2708809
+    }
+  ],
+  "preservedReferences": [
+    {
+      "path": "references/inputs/6cdfea20da26/scene-109-v1.png",
+      "sha256": "6cdfea20da262799567fb05adc21207ce4adef7bb50d8db9f514a0d419797475"
+    }
+  ],
+  "reviewStatus": "illustration candidate; awaiting user feedback"
+}

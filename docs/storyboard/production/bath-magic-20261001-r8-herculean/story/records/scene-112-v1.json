@@ -1,0 +1,43 @@
+{
+  "tool": "image_gen__imagegen",
+  "generatedAt": "2026-10-01T17:32:52.327Z",
+  "sourceOutput": "/Users/miguel_lemos/.codex/generated_images/01a0f5c0-64db-7310-817a-d73d15314908/exec-40e80212-3825-4456-94bb-27dcb9b02868.png",
+  "promptPath": "prompts/scene-112-v1.txt",
+  "references": [
+    "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r5/masters/scene-49-v1.png",
+    "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r5/masters/scene-36-v2.png"
+  ],
+  "visualReview": {
+    "status": "needs-revision",
+    "notes": "Tiny tub/room/child good but generated huge column rather than original narrow stream; revise water scale."
+  },
+  "promptSha256": "e063c539dcb6018d5c39f8a34e348122de854eb1124e73d4c1e21064f421587f",
+  "master": {
+    "path": "masters/scene-112-v1.png",
+    "sha256": "0cbaa0b040c2704ed2231307926890b4bf387ce2711f2b784d4c204c8c37123c",
+    "bytes": 2710680
+  },
+  "referenceIdentities": [
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r5/masters/scene-49-v1.png",
+      "sha256": "66dabdec71f11755a599bdf1c734c30a298de27a6f550c18ef8a4e2cc90f6dc3",
+      "bytes": 2534796
+    },
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r5/masters/scene-36-v2.png",
+      "sha256": "e9a80565ecd823bd11e9e55217d0d8ea7bc37688e1bd945047041f8af3f164e3",
+      "bytes": 2490201
+    }
+  ],
+  "preservedReferences": [
+    {
+      "path": "references/inputs/66dabdec71f1/scene-49-v1.png",
+      "sha256": "66dabdec71f11755a599bdf1c734c30a298de27a6f550c18ef8a4e2cc90f6dc3"
+    },
+    {
+      "path": "references/inputs/e9a80565ecd8/scene-36-v2.png",
+      "sha256": "e9a80565ecd823bd11e9e55217d0d8ea7bc37688e1bd945047041f8af3f164e3"
+    }
+  ],
+  "reviewStatus": "illustration candidate; awaiting user feedback"
+}

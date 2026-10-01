@@ -1,0 +1,58 @@
+{
+  "id": "scene-74-v1",
+  "tool": "image_gen.imagegen",
+  "sourceOutput": "/Users/miguel_lemos/.codex/generated_images/01a0f5c3-a7d1-70d0-b8cf-581aa5deee53/exec-9c3f3c18-c51c-40bc-b681-017b086ddb5a.png",
+  "promptPath": "prompts/scene-74-v1.txt",
+  "references": [
+    "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r5/web/scene-33.webp",
+    "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r8-herculean/preproduction/giant-flower-v1.png"
+  ],
+  "requestedAt": "2026-10-01T17:38:31.491928+00:00",
+  "recordedAt": "2026-10-01T17:43:44.536695+00:00",
+  "visualReview": "Native image visually inspected; fixed reference composition, requested narrative action and book character rendering retained. No material limb/identity defect detected.",
+  "promptSha256": "0b4760a361f876e7b18a3963929a16f813c967448b6c11479c2fa96087b1a654",
+  "master": {
+    "path": "masters/scene-74-v1.png",
+    "sha256": "54426d752ff8928d5f9bc5c14d7136996d1e96b7ef9e717513edb54575fdd739",
+    "bytes": 2680814
+  },
+  "referenceIdentities": [
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r5/web/scene-33.webp",
+      "sha256": "2770aba4f75111ca998ec365964ca81f91c84c82fe119262e3c58b0178116c49",
+      "bytes": 502220
+    },
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r8-herculean/preproduction/giant-flower-v1.png",
+      "sha256": "ae6d0fb864796346442d729585194ddcf78af4bada7599c769125fc461b4bede",
+      "bytes": 2009257
+    }
+  ],
+  "preservedReferences": [
+    {
+      "path": "references/inputs/2770aba4f751/scene-33.webp",
+      "sha256": "2770aba4f75111ca998ec365964ca81f91c84c82fe119262e3c58b0178116c49"
+    },
+    {
+      "path": "references/inputs/ae6d0fb86479/giant-flower-v1.png",
+      "sha256": "ae6d0fb864796346442d729585194ddcf78af4bada7599c769125fc461b4bede"
+    }
+  ],
+  "reviewStatus": "illustration candidate; awaiting user feedback",
+  "web": {
+    "path": "web/scene-74.webp",
+    "sha256": "a105cd2d48d68b4e86fb2166808fed7b0510f272ff4f43a58bf07ae1562bf3ca",
+    "bytes": 497336
+  },
+  "dimensions": [
+    1536,
+    1024
+  ],
+  "conversion": {
+    "format": "WebP",
+    "quality": 94,
+    "method": 6,
+    "resized": false,
+    "artEdited": false
+  }
+}

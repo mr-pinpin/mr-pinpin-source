@@ -1,0 +1,48 @@
+{
+  "id": "scene-84-v1",
+  "tool": "image_gen.imagegen",
+  "sourceOutput": "/Users/miguel_lemos/.codex/generated_images/01a0f5c3-a7d1-70d0-b8cf-581aa5deee53/exec-6cf3ca32-4833-4bb7-a764-425bff57d0c2.png",
+  "promptPath": "prompts/scene-84-v1.txt",
+  "references": [
+    "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r5/web/scene-21.webp"
+  ],
+  "requestedAt": "2026-10-01T17:38:31.511910+00:00",
+  "recordedAt": "2026-10-01T17:55:32.120363+00:00",
+  "visualReview": "Inspected family interaction/action, infant supported in84, outdoor soap-catching and wet cloth/puddle in86.",
+  "promptSha256": "937e3a39a151157e2a69f9e829688c143e8d15ebf6a6c5896f5f0328deca6154",
+  "master": {
+    "path": "masters/scene-84-v1.png",
+    "sha256": "a4a0f180b5398bae01829a77616ad8c7f91c09dcfb9f0760d201495079a791a9",
+    "bytes": 2561965
+  },
+  "referenceIdentities": [
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r5/web/scene-21.webp",
+      "sha256": "e3ca716a99194dee05b0cd2c27940acc73ff5a9e44d2c3106bb971aa97f9d568",
+      "bytes": 471188
+    }
+  ],
+  "preservedReferences": [
+    {
+      "path": "references/inputs/e3ca716a9919/scene-21.webp",
+      "sha256": "e3ca716a99194dee05b0cd2c27940acc73ff5a9e44d2c3106bb971aa97f9d568"
+    }
+  ],
+  "reviewStatus": "illustration candidate; awaiting user feedback",
+  "web": {
+    "path": "web/scene-84.webp",
+    "sha256": "db624ad81ec82a03cac0a199922a2fc415b789b2ae31ad4777810f084b7e0651",
+    "bytes": 467690
+  },
+  "dimensions": [
+    1536,
+    1024
+  ],
+  "conversion": {
+    "format": "WebP",
+    "quality": 94,
+    "method": 6,
+    "resized": false,
+    "artEdited": false
+  }
+}

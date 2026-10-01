@@ -1,0 +1,60 @@
+{
+  "id": "scene-98",
+  "version": 1,
+  "tool": "image_gen__imagegen",
+  "generatedAt": "2026-10-01T17:43:40.049Z",
+  "sourceOutput": "/Users/miguel_lemos/.codex/generated_images/01a0be6f-b832-7d93-95df-9d2ff5f69dc1/exec-6d63f881-a4ae-42e6-b858-53b746ff930e.png",
+  "promptPath": "prompts/scene-98-v1.txt",
+  "references": [
+    "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r5/web/scene-64.webp",
+    "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r8-herculean/root/masters/scene-97-v1.png"
+  ],
+  "visibleCast": [],
+  "cameraEvidence": "Same camera composition as edit target; no new measured camera transform.",
+  "visualReview": "Low object-only pause, pair of green slippers with brown soles swimming in running gutter. No duck/extra faces, room camera consistent.",
+  "promptSha256": "6984aa41788b8e5eb004a4d98ad4a2d055e348018e6d21d52476c3253a53f0c1",
+  "master": {
+    "path": "masters/scene-98-v1.png",
+    "sha256": "639a818c061d81d48ea13ce604ec02d739987c079f551f194b2ce3d5b4ec9e4d",
+    "bytes": 2298632
+  },
+  "referenceIdentities": [
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r5/web/scene-64.webp",
+      "sha256": "2f627cf4f72e6fcbdd68ec82c0db985da42a142d6fc81d695368f848ba0bb43f",
+      "bytes": 388154
+    },
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r8-herculean/root/masters/scene-97-v1.png",
+      "sha256": "e488d8a84407a04428580d0857036faccbd222220fc43fdddd580592d72ccbf2",
+      "bytes": 2267375
+    }
+  ],
+  "preservedReferences": [
+    {
+      "path": "references/inputs/2f627cf4f72e/scene-64.webp",
+      "sha256": "2f627cf4f72e6fcbdd68ec82c0db985da42a142d6fc81d695368f848ba0bb43f"
+    },
+    {
+      "path": "references/inputs/e488d8a84407/scene-97-v1.png",
+      "sha256": "e488d8a84407a04428580d0857036faccbd222220fc43fdddd580592d72ccbf2"
+    }
+  ],
+  "reviewStatus": "illustration candidate; awaiting user feedback",
+  "web": {
+    "path": "web/scene-98.webp",
+    "sha256": "2950c52439dc0b20c21df9a0b9053527bea1702295875e5eccf58d84c9efe714",
+    "bytes": 370646
+  },
+  "dimensions": [
+    1536,
+    1024
+  ],
+  "conversion": {
+    "format": "WebP",
+    "quality": 94,
+    "method": 6,
+    "resized": false,
+    "artEdited": false
+  }
+}

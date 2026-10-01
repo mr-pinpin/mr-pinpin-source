@@ -1,0 +1,43 @@
+{
+  "tool": "image_gen__imagegen",
+  "generatedAt": "2026-10-01T15:38:37.404Z",
+  "promptPath": "prompts/scene-17-v1.txt",
+  "sourceOutput": "/Users/miguel_lemos/.codex/generated_images/01a0f5c0-64db-7310-817a-d73d15314908/exec-5825078b-abef-4cc5-a162-9553721ef64c.png",
+  "references": [
+    "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r3/masters/reused/scene-17/scene-13-v2.png",
+    "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r4/masters/duck-character-study-v2.png"
+  ],
+  "visualReview": {
+    "status": "passed",
+    "notes": "Inspected plastic toy and believable concern; stopping hand/overflow progression and original camera remain."
+  },
+  "referenceIdentities": [
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r3/masters/reused/scene-17/scene-13-v2.png",
+      "bytes": 2355504,
+      "sha256": "73187d206e6ae367cac9fe8e207dab9eed9f367e97d5d875ee6a03cba54249fa"
+    },
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r4/masters/duck-character-study-v2.png",
+      "bytes": 1606390,
+      "sha256": "09db45c15b849ad4846e468c2ea326a7bf4e58483f9579dad8b6bf67a3189495"
+    }
+  ],
+  "preservedReferences": [
+    {
+      "path": "references/inputs/73187d206e6a/scene-13-v2.png",
+      "sha256": "73187d206e6ae367cac9fe8e207dab9eed9f367e97d5d875ee6a03cba54249fa"
+    },
+    {
+      "path": "references/inputs/09db45c15b84/duck-character-study-v2.png",
+      "sha256": "09db45c15b849ad4846e468c2ea326a7bf4e58483f9579dad8b6bf67a3189495"
+    }
+  ],
+  "promptSha256": "b72f4da490f4299016b7445c0d169eaf19bf5ddd4e13245e0f0f92334d148289",
+  "master": {
+    "path": "masters/scene-17-v1.png",
+    "bytes": 2379710,
+    "sha256": "fc0615f9534625af9bbc79081c53c27fd5982fa66f856d2567acc0a73ca4a554"
+  },
+  "approval": "draft-for-review"
+}

@@ -1,0 +1,58 @@
+{
+  "id": "scene-67-v1",
+  "tool": "image_gen.imagegen",
+  "sourceOutput": "/Users/miguel_lemos/.codex/generated_images/01a0f5c3-a7d1-70d0-b8cf-581aa5deee53/exec-db74453e-4a17-4874-8233-11251128532a.png",
+  "promptPath": "prompts/scene-67-v1.txt",
+  "references": [
+    "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r5/web/scene-63.webp",
+    "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r8-herculean/preproduction/duck-pool-v2.png"
+  ],
+  "requestedAt": "2026-10-01T17:29:35.112013+00:00",
+  "recordedAt": "2026-10-01T17:36:15.291617+00:00",
+  "visualReview": "Inspected exactly11 visible ducks (two adults plus nine small); adjacent bucket hides twelfth. Papa counts with coherent pointing paw.",
+  "promptSha256": "e9322706c04ea3a60f4da2eaa4b48f70c01808c20207ba0c69fb295ced8656b7",
+  "master": {
+    "path": "masters/scene-67-v1.png",
+    "sha256": "005260e10c2ba07314782a0bc66890740bb1dc71753e7804fab51a40f7fc7401",
+    "bytes": 2401563
+  },
+  "referenceIdentities": [
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r5/web/scene-63.webp",
+      "sha256": "f76a5204bc5c65d6ca72697bbff24339b80aa105c538e9cff7888058730e39d1",
+      "bytes": 362994
+    },
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r8-herculean/preproduction/duck-pool-v2.png",
+      "sha256": "9c7d6a0dcc08908c8913ffd4815cab055710c62ec6b4a6f266a860c27dc8ad26",
+      "bytes": 1950321
+    }
+  ],
+  "preservedReferences": [
+    {
+      "path": "references/inputs/f76a5204bc5c/scene-63.webp",
+      "sha256": "f76a5204bc5c65d6ca72697bbff24339b80aa105c538e9cff7888058730e39d1"
+    },
+    {
+      "path": "references/inputs/9c7d6a0dcc08/duck-pool-v2.png",
+      "sha256": "9c7d6a0dcc08908c8913ffd4815cab055710c62ec6b4a6f266a860c27dc8ad26"
+    }
+  ],
+  "reviewStatus": "illustration candidate; awaiting user feedback",
+  "web": {
+    "path": "web/scene-67.webp",
+    "sha256": "5ef463defd2db6f5193f66599842ea55b8325903d6ba711fea0c627834d7aaed",
+    "bytes": 381710
+  },
+  "dimensions": [
+    1536,
+    1024
+  ],
+  "conversion": {
+    "format": "WebP",
+    "quality": 94,
+    "method": 6,
+    "resized": false,
+    "artEdited": false
+  }
+}

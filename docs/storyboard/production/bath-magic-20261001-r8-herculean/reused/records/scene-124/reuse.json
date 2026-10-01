@@ -1,0 +1,46 @@
+{
+  "id": "scene-124",
+  "operation": "reuse unchanged; not newly generated",
+  "sourceProduction": "bath-magic-20261001-r8-herculean/geometry",
+  "sourceId": "scene-78",
+  "sourceRoot": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r8-herculean/geometry",
+  "originMaster": {
+    "path": "masters/scene-78-v2.png",
+    "sha256": "0c5cf53b8c8f02003bb7d4ae442f7a310c16f0394c4b909fff8553554a1e3ac0",
+    "bytes": 2646065
+  },
+  "originWeb": {
+    "path": "web/scene-78.webp",
+    "sha256": "673984c929e99e85f15b441684992b1a67be387a8765196a73b0c92b08a93740",
+    "bytes": 475602
+  },
+  "master": {
+    "path": "reused/masters/scene-124/scene-78-v2.png",
+    "sha256": "0c5cf53b8c8f02003bb7d4ae442f7a310c16f0394c4b909fff8553554a1e3ac0",
+    "bytes": 2646065
+  },
+  "web": {
+    "path": "reused/web/scene-124.webp",
+    "sha256": "673984c929e99e85f15b441684992b1a67be387a8765196a73b0c92b08a93740",
+    "bytes": 475602
+  },
+  "originRecord": {
+    "path": "reused/records/scene-124/origin-record.json",
+    "sha256": "fb690c441d4c95c4b19066b418f4edce178c4b8457f2d143bddf821e6d5601e3",
+    "bytes": 1796
+  },
+  "originPrompt": {
+    "path": "reused/records/scene-124/origin-prompt.txt",
+    "sha256": "afd76c718cd4caa6bf67d74b0200f4da62146d6d9bf5333931458f6dc484050d",
+    "bytes": 494
+  },
+  "inputs": [
+    {
+      "originalPath": "references/inputs/cd52b9530954/exec-ddbfa1d0-d486-4f18-a818-c91991c626f6.png",
+      "sha256": "cd52b9530954ff54466a0d3a370392b7f74678b570abca44f5c29f94c215da03",
+      "preservedPaths": [
+        "reused/references/cd52b9530954/exec-ddbfa1d0-d486-4f18-a818-c91991c626f6.png"
+      ]
+    }
+  ]
+}

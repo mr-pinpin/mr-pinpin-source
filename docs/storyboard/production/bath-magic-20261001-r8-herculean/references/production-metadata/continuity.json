@@ -1,0 +1,151 @@
+{
+  "productionId": "bath-magic-20261001-r8-herculean",
+  "immutableSources": [
+    "r5",
+    "r6-corrections",
+    "r7-bath"
+  ],
+  "episodes": [
+    {
+      "episode": 1,
+      "name": "Unstoppable bath",
+      "firstScene": 11,
+      "lastScene": 40
+    },
+    {
+      "episode": 2,
+      "name": "Flowers",
+      "firstScene": 45,
+      "lastScene": 54
+    },
+    {
+      "episode": 3,
+      "name": "Talking duck",
+      "firstScene": 57,
+      "lastScene": 64
+    },
+    {
+      "episode": 4,
+      "name": "Twelve ducks",
+      "firstScene": 65,
+      "lastScene": 70
+    },
+    {
+      "episode": 5,
+      "name": "Giant flower",
+      "firstScene": 71,
+      "lastScene": 79
+    },
+    {
+      "episode": 6,
+      "name": "Persistent bubbles",
+      "firstScene": 80,
+      "lastScene": 86
+    },
+    {
+      "episode": 7,
+      "name": "Indoor raincloud",
+      "firstScene": 87,
+      "lastScene": 91
+    },
+    {
+      "episode": 8,
+      "name": "Overhelpful towels",
+      "firstScene": 92,
+      "lastScene": 96
+    },
+    {
+      "episode": 9,
+      "name": "Swimming slippers",
+      "firstScene": 97,
+      "lastScene": 102
+    },
+    {
+      "episode": 10,
+      "name": "Floating breakfast",
+      "firstScene": 103,
+      "lastScene": 106
+    },
+    {
+      "episode": 11,
+      "name": "Uphill water",
+      "firstScene": 107,
+      "lastScene": 110
+    },
+    {
+      "episode": 12,
+      "name": "Tiny bath",
+      "firstScene": 111,
+      "lastScene": 113
+    }
+  ],
+  "rules": [
+    "Twelve unintended magical outcomes, in approved order. Reversal121 and bath restoration122 are successful actions, not more accidents.",
+    "Hero stays tireless, strong and hungry; no awake exhaustion. Varied attention, surprise, concentration, irritation, resolve and humor; not universal smiles.",
+    "Four hedgehog family members always anatomically separate. All share the broad green-quilt bed. Baby never underwater.",
+    "Round table remains round even in levitation.",
+    "Bath has continuous solid wooden walls and floor at every size. Rust oval rug stays under full tub; existing doors/window geometry unchanged.",
+    "Ordinary silent yellow flexible-plastic duck before58. Do not stage anticipation or talking eyes beforehand. From66 exactly2 adult-size +10 small ducks=12.",
+    "PinPin notices reverse hiccup50, recalls70/114, experimentally verifies116–118, completes inverse119–121. Parent asks, child solves.",
+    "Source runs12–120; shrinking112 brings its flow back down from the wall without stopping it. Existing floor water stays after reversal and is cleaned123.",
+    "Selected flowers and talking ducks persist; garden homes124. No night-return moral or exhausted finish.",
+    "Every new misfire is an attempted fix of an established previous consequence; captions and visible handoff props agree. No unrelated extra spells."
+  ],
+  "effectIntervals": [
+    {
+      "effect": "flowers",
+      "start": 46,
+      "development": "block channel48; physically collected49–52, saved basin; one potted specimen grows72; other flowers remain in garden"
+    },
+    {
+      "effect": "giant flower",
+      "start": 72,
+      "settled": 78,
+      "resolution": "PinPin physically carries giant pot with family guidance; stays outdoors"
+    },
+    {
+      "effect": "bubbles",
+      "start": 81,
+      "settled": 86,
+      "resolution": "fanned through existing window; thorn contact pops persistent bubbles and soap caught"
+    },
+    {
+      "effect": "raincloud",
+      "start": 88,
+      "settled": 91,
+      "resolution": "fanned through existing front door to water outdoor flower"
+    },
+    {
+      "effect": "towels",
+      "start": 93,
+      "settled": 96,
+      "resolution": "unwrapped from duck, hung outside and dry; task finished, no unexplained undo"
+    },
+    {
+      "effect": "slippers",
+      "start": 98,
+      "settled": 101,
+      "resolution": "caught in basket and dried; cannot swim on dry ground"
+    },
+    {
+      "effect": "furniture",
+      "start": 104,
+      "settled": 106,
+      "resolution": "PinPin consciously lowers his paw; gentle successful lowering"
+    },
+    {
+      "effect": "uphill water",
+      "start": 108,
+      "settled": 112,
+      "resolution": "The shrinking places the source low above the tiny bath again; the wall ribbon falls back down, but the original source keeps running until121."
+    },
+    {
+      "effect": "tiny bath",
+      "start": 112,
+      "settled": 122,
+      "resolution": "whole empty tub shrinks, source sameflow; clear full sign helps observation; deliberately restored after source stops"
+    }
+  ],
+  "noNewCameraPolicy": "Same existing camera edits unless a new measured guide is rendered. Input roles/hashes retained; prompt/reference staging is not a measured reconstruction.",
+  "causalRhythm": "causal-rhythm.json"
+}

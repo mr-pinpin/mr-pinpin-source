@@ -1,0 +1,53 @@
+{
+  "id": "scene-13",
+  "operation": "reuse unchanged; not newly generated",
+  "sourceProduction": "bath-magic-20261001-r5",
+  "sourceId": "scene-13",
+  "sourceRoot": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r5",
+  "originMaster": {
+    "path": "masters/scene-13-v1.png",
+    "sha256": "69111d0c8511a70690a14ffcab33a6a07186d680695c37c94f845d17f19181e0",
+    "bytes": 2217087
+  },
+  "originWeb": {
+    "path": "web/scene-13.webp",
+    "sha256": "015345deaeeae903099bc7c95ce03a7f97d2c37ac459dcde7452bd9d561668b9",
+    "bytes": 369128
+  },
+  "master": {
+    "path": "reused/masters/scene-13/scene-13-v1.png",
+    "sha256": "69111d0c8511a70690a14ffcab33a6a07186d680695c37c94f845d17f19181e0",
+    "bytes": 2217087
+  },
+  "web": {
+    "path": "reused/web/scene-13.webp",
+    "sha256": "015345deaeeae903099bc7c95ce03a7f97d2c37ac459dcde7452bd9d561668b9",
+    "bytes": 369128
+  },
+  "originRecord": {
+    "path": "reused/records/scene-13/origin-record.json",
+    "sha256": "46aa768dbc9da3d09a8e5345ef808b44ecfacdb2646528bd5266dd999ec488d4",
+    "bytes": 1888
+  },
+  "originPrompt": {
+    "path": "reused/records/scene-13/origin-prompt.txt",
+    "sha256": "e68e50b0e39a5e9d6242a292ecb0fd634857f5e9e1fc61ebae832611436ac913",
+    "bytes": 1323
+  },
+  "inputs": [
+    {
+      "originalPath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r3/masters/reused/scene-13/scene-15-v1.png",
+      "sha256": "10920c24c0943bf06edf0c1c34c47e8aa4bbf8cfc7f2c1890e33106c33a07ce2",
+      "preservedPaths": [
+        "reused/references/10920c24c094/scene-15-v1.png"
+      ]
+    },
+    {
+      "originalPath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r4/masters/duck-character-study-v2.png",
+      "sha256": "09db45c15b849ad4846e468c2ea326a7bf4e58483f9579dad8b6bf67a3189495",
+      "preservedPaths": [
+        "reused/references/09db45c15b84/duck-character-study-v2.png"
+      ]
+    }
+  ]
+}
