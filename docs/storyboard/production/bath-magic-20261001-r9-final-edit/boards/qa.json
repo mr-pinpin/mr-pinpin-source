@@ -1,0 +1,96 @@
+{
+  "status": "passed",
+  "boards": 10,
+  "panels": 252,
+  "uniqueScenesPerLanguage": 126,
+  "placeholderTest": "Passed Russian/English null-panel layout check; current final boards contain none",
+  "visualReview": [
+    "01-ru",
+    "05-ru",
+    "03-en",
+    "parent:01-ru",
+    "parent:05-en"
+  ],
+  "checks": [
+    {
+      "path": "boards/storyboard-01-ru.webp",
+      "panels": 30,
+      "hashVerified": true,
+      "captionsExact": true,
+      "panelsWithinCanvas": true,
+      "containedImagePixelsExact": true
+    },
+    {
+      "path": "boards/storyboard-02-ru.webp",
+      "panels": 24,
+      "hashVerified": true,
+      "captionsExact": true,
+      "panelsWithinCanvas": true,
+      "containedImagePixelsExact": true
+    },
+    {
+      "path": "boards/storyboard-03-ru.webp",
+      "panels": 24,
+      "hashVerified": true,
+      "captionsExact": true,
+      "panelsWithinCanvas": true,
+      "containedImagePixelsExact": true
+    },
+    {
+      "path": "boards/storyboard-04-ru.webp",
+      "panels": 24,
+      "hashVerified": true,
+      "captionsExact": true,
+      "panelsWithinCanvas": true,
+      "containedImagePixelsExact": true
+    },
+    {
+      "path": "boards/storyboard-05-ru.webp",
+      "panels": 24,
+      "hashVerified": true,
+      "captionsExact": true,
+      "panelsWithinCanvas": true,
+      "containedImagePixelsExact": true
+    },
+    {
+      "path": "boards/storyboard-01-en.webp",
+      "panels": 30,
+      "hashVerified": true,
+      "captionsExact": true,
+      "panelsWithinCanvas": true,
+      "containedImagePixelsExact": true
+    },
+    {
+      "path": "boards/storyboard-02-en.webp",
+      "panels": 24,
+      "hashVerified": true,
+      "captionsExact": true,
+      "panelsWithinCanvas": true,
+      "containedImagePixelsExact": true
+    },
+    {
+      "path": "boards/storyboard-03-en.webp",
+      "panels": 24,
+      "hashVerified": true,
+      "captionsExact": true,
+      "panelsWithinCanvas": true,
+      "containedImagePixelsExact": true
+    },
+    {
+      "path": "boards/storyboard-04-en.webp",
+      "panels": 24,
+      "hashVerified": true,
+      "captionsExact": true,
+      "panelsWithinCanvas": true,
+      "containedImagePixelsExact": true
+    },
+    {
+      "path": "boards/storyboard-05-en.webp",
+      "panels": 24,
+      "hashVerified": true,
+      "captionsExact": true,
+      "panelsWithinCanvas": true,
+      "containedImagePixelsExact": true
+    }
+  ]
+}

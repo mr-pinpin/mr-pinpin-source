@@ -60,6 +60,22 @@ lettering; a miniature is a separately composed text-free image for small displa
 four-edition cover workflow and sidecars. Consult the current registries for the
 additional Elder editions and their selected WebP assets.
 
+## Compact storyboard review
+
+Start with the text outline, then assemble two to five numbered comic sheets
+from existing illustrations and explicit blank panels for missing shots. Discuss
+the sequence before generating targeted artwork and assembling the full reader.
+Keep the selected scene order, captions and planned reading pauses visible.
+
+The [reusable contact-sheet workflow](production/bath-magic-20261001-r9-final-edit/STORYBOARD-WORKFLOW.txt)
+documents the configurable layout, blank panels, Russian/English exports and
+hash-checked upstream images. The
+[builder](production/bath-magic-20261001-r9-final-edit/build-storyboard.py)
+composes existing images without cropping or retouching them.
+The [five-sheet bath example](review/bath-magic-r9-final-edit.html?view=storyboard&lang=ru)
+links each panel to its full scene. These are local review tools, not published
+editions; restore the referenced assets before serving them.
+
 ## Source, approval and history
 
 Source text, adaptation decisions, generated proposals and selected reader assets

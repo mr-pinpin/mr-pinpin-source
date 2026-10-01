@@ -1,0 +1,72 @@
+STORYBOARD WORKFLOW — Mr. PinPin, R9
+
+Authoritative pre-production sequence:
+1. Agree the text outline and order of beats.
+2. Assemble 2–5 compact comic/contact sheets from existing images and explicitly
+   blank placeholders for missing beats. Do not generate art to fill the blanks.
+3. Discuss these sheets with the author and collect feedback.
+4. Make only the targeted new artwork or edits the feedback requires.
+5. Assemble and review the full reader.
+
+Current R9 has all126 illustrations already selected: zero placeholders needed.
+Five chronological groups:
+1–30 family bath;31–54 containment and flowers;55–78 ducks/growth;
+79–102 cascade;103–126 climax/resolution.
+Russian is the primary review version; English is also exported.
+
+Run on the mini:
+R8=/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r8-herculean
+R9=/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r9-final-edit
+"$R8/.venv/bin/python" "$R9/build-storyboard.py" --pack "$R9"
+
+Options: --plan PATH --layout PATH --source-pack PATH --languages ru,en
+Requires Python3/Pillow and system Arial (Cyrillic and Latin). The font is
+referenced and hashed, never redistributed.
+
+Tool behavior:
+Read final story-plan.json and upstream selected media.json. Verify each
+illustration hash, scale with contain, and copy into the board preserving the
+whole composition and aspect ratio. Full current captions are wrapped beneath
+numbered panels. Never crop, stretch, truncate captions, generate or retouch art.
+Originals/R8 remain unchanged. Each source scene must occur exactly once by
+default; set requireEveryScene=false for a shorter pre-production selection.
+
+Outputs:
+boards/storyboard-01-ru.webp through05-ru.webp, likewise01-en through05-en.
+Compressed WebP boards are3600px wide: fit to discuss sequence, zoom to read.
+boards/masters/ contains lossless full-resolution PNG exports.
+boards/manifest.json records language, number, path, sha256, width, height,
+sceneStart, sceneEnd and each panel sceneId/x/y/width/height. It preserves exact
+caption text, input paths/hashes, and plan/layout/tool/font hashes/Pillow version.
+Paths are relative to the R9pack. Reader defaultsRU and offersEN.
+Repeat with identical inputs and Pillow/font to reproduce the pixels.
+Preserve a reviewed pack; use a new pack for subsequent revisions.
+
+Placeholder config entry (inside a group's panels):
+{
+  "scene": null,
+  "label": {"ru":"Будущий кадр", "en":"Future panel"},
+  "instruction": {
+    "ru":"Папа замечает лужу.",
+    "en":"Papa notices the puddle."
+  }
+}
+Normal entry: {"scene":"scene-07"}.
+A null entry renders a visibly empty outlined image region, label and instruction;
+no image model is called. Layout supports2–5 or other group counts, group titles,
+columns, output width and fonts. Current126 scenes have no null entries.
+
+Keep existing creative-content notices and provenance. Compositing does not
+change content licenses. Functional Python tooling is distinct from creative
+captions, images and layout content. No publication, commit, archive mutation or
+original-art deletion is performed.
+
+R9 reading rhythm: each panel includes the localized readingBeat kind as a small
+pill (flow/hold/reveal/test/release). No forced timer or estimated seconds.
+Full kind, relativeDuration and rationale remain in each panel provenance entry.
+
+FINAL QA:10 boards,126 scenes per language,252 panels total. All output hashes,
+exact captions, panel bounds and contained illustration pixels verified against
+selected originals. Null placeholder tested in RU/EN separately. Inspected final
+01RU/05RU/03EN visually; parent additionally reviewed01RU/05EN. No art changed.
+Compressed board sizes2.2–2.8MB each. Frozen final boards/manifest.json and qa.json.

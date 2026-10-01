@@ -1,0 +1,45 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "width": 1440,
+      "defaultRussian": true,
+      "fullReaderScenes": 126,
+      "decodedSceneImages": 126,
+      "boardImagesDecoded": 10,
+      "panelLinks": 126,
+      "textComparison": true,
+      "languages": [
+        "ru",
+        "en",
+        "es"
+      ],
+      "noOverflow": true
+    },
+    {
+      "width": 390,
+      "defaultRussian": true,
+      "fullReaderScenes": 126,
+      "decodedSceneImages": 126,
+      "boardImagesDecoded": 10,
+      "panelLinks": 126,
+      "textComparison": true,
+      "languages": [
+        "ru",
+        "en",
+        "es"
+      ],
+      "noOverflow": true
+    }
+  ],
+  "errors": [],
+  "sourceHashes": {
+    "story-plan.json": "5fb946f0b09111c2f432c1a4eaefe82600c2d573f2baee2463acfb45b7faafef",
+    "causal-rhythm.json": "81a3a47bb74de75cb381d62a2986aa8cd5c80b6786c6baeffe7c387dfc99b55d",
+    "editorial-changes.json": "0b3b138fb88ab82449bed668ab18deba54aa00b594b80579f608ac67c7460249",
+    "boards/manifest.json": "323fc0191dd703edc9009c7cb3e9b94927e8a6ec8aa53281f102a1de039be6d4",
+    "docs/storyboard/review/bath-magic-r9-final-edit.html": "258fe7ecdbaa0f88403b57312d1dfab3096eda9a1b1da56c00c4a1073e4ba658",
+    "docs/storyboard/review/bath-magic-r9-final-edit.css": "421d6729e6ec6afddeae1f480d6846f0a0fb6244348006e1c65e467b88fedfb6",
+    "docs/storyboard/review/bath-magic-r9-final-edit.js": "3278705f75f3f35acc2415eee7a42aed804700a5420337c62c8745ce5e6b0e08"
+  }
+}

@@ -1,0 +1,50 @@
+R9 FINAL EDITORIAL DRAFT — COMPLETE LOCAL REVIEW
+
+Russian full reader:
+http://127.0.0.1:18795/storyboard/review/bath-magic-r9-final-edit.html
+
+Five Russian comic sheets:
+http://127.0.0.1:18795/storyboard/review/bath-magic-r9-final-edit.html?view=storyboard
+
+English sheets: add &lang=en. Caption comparison: ?view=changes&lang=ru.
+
+All 126 illustrations and the cover reference immutable R8 media directly.
+No new artwork or 1GB duplicate archive. R9 changes 12 scenes' captions
+(34 localized changes), improves the learning bridge and retains all family
+payoffs. Reading-beat annotations remain editorial metadata; child-facing
+reading shows only the story. See editorial-changes.json and FINAL-STORY-REVIEW.txt.
+
+The gallery contains exactly five assembled sheets for each of RU/EN:
+1–30,31–54,55–78,79–102,103–126. All captions are current and untruncated.
+Each panel links to its full reader scene. Full-size WebPs can be opened/saved.
+The Spanish full reader remains available and explicitly uses English boards.
+A text-only before/after view compares captions against frozen R8, with reasons.
+The tempo dashboard is linked separately; no scoring is placed into the story.
+
+Focused browser checks passed 1440 and 390 widths: default RU, 126 scene images
+decoded, all 10 comic images decoded, 126 panel links, caption comparison,
+RU/EN/ES switching, no missing images, no overflow or JavaScript errors.
+browser-check/results.json records seven exact tested input/UI hashes.
+Mobile reader/gallery screenshots were visually inspected.
+Geometry boards/qa.json verifies 252 panels across both languages, exact
+caption placement/bounds, output hashes and unchanged contained source pixels.
+
+New derivative preservation scope: 10 WebPs + 10 PNG masters +board manifest
++board QA +workflow notes = 23 artifacts, 181,915,005 bytes.
+The R8 archive remains the original-art dependency; upstream-assets.json
+records its exact metadata and image identities. No R8 or tempo files changed.
+The standard verified receipt and verify-preservation.py provide remote and
+current-file proof. Source-only report/helpers and browser screenshots are
+not added to the derivative archive.
+
+Source scope:
+docs/storyboard/review/bath-magic-r9-final-edit.{html,css,js}
+docs/storyboard/production/bath-magic-20261001-r9-final-edit/
+assets/bath-magic-20261001-r9-final-edit.{json,md}
+assets/bath-magic-20261001-r9-final-edit-receipt.json
+Parent owns the additional docs/storyboard/README.md discoverability edit.
+
+All heavy sheets and screenshots remain on mini TB4, outside Git.
+No official release, public deployment or source push performed by this lane.
+
+FINAL PROOF: All 23 archive entries passed remote byte verification and current-file checks. Upstream R8 metadata hashes remain unchanged. No pending work remains in this lane.
