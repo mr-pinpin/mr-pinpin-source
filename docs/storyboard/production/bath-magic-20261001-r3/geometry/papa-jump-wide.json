@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "id": "bath-magic-r3-papa-jump-wide",
+  "location": "docs/storyboard/locations/pinpin-house/location.json",
+  "camera": {
+    "position": [
+      -1.97,
+      1.28,
+      0.84
+    ],
+    "target": [
+      -3.738,
+      2.666,
+      0.83
+    ],
+    "lensMm": 20,
+    "width": 1400,
+    "height": 1000
+  },
+  "doorStates": {
+    "door-front": 0,
+    "door-bath": 75,
+    "door-bedroom": 0
+  },
+  "prompt": {
+    "template": "still",
+    "intent": "Low doorway-side three-quarter wide; frame entire tub plus headroom for airborne Papa and standing family beside it. No characters rendered.",
+    "characters": "No characters; empty architectural location study.",
+    "action": "No action; preserve all furnishings and openings.",
+    "lighting": "Warm gentle daytime with soft fill; maintain the rendered direction of window illumination.",
+    "referenceIds": [
+      "bathroom-book"
+    ]
+  }
+}

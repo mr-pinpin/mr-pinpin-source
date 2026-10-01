@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "id": "bath-magic-r3-waterline-shared-close",
+  "location": "docs/storyboard/locations/pinpin-house/location.json",
+  "camera": {
+    "position": [
+      -3.18,
+      2.64,
+      0.49
+    ],
+    "target": [
+      -4.0,
+      2.66,
+      0.89
+    ],
+    "lensMm": 28,
+    "width": 1400,
+    "height": 1000
+  },
+  "doorStates": {
+    "door-front": 0,
+    "door-bath": 75,
+    "door-bedroom": 0
+  },
+  "prompt": {
+    "template": "still",
+    "intent": "Camera inside tub around waterline looking west/up for child and Papa direct-camera shared-play closeup; infant never underwater.",
+    "characters": "No characters; empty architectural location study.",
+    "action": "No action; preserve all furnishings and openings.",
+    "lighting": "Warm gentle daytime with soft fill; maintain the rendered direction of window illumination.",
+    "referenceIds": [
+      "bathroom-book"
+    ]
+  }
+}

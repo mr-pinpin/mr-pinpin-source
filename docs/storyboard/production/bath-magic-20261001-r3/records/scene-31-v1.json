@@ -1,0 +1,36 @@
+{
+  "tool": "image_gen__imagegen",
+  "generatedAt": "2026-10-01T06:50:25.403Z",
+  "promptPath": "prompts/scene-31-v1.txt",
+  "sourceOutput": "/Users/miguel_lemos/.codex/generated_images/01a0be6f-b832-7d93-95df-9d2ff5f69dc1/exec-2f4db024-fa61-4564-bc96-05e5f2cc4ca1.png",
+  "references": [
+    "/Users/miguel_lemos/anastasia-pinpin-repos/mr-pinpin-source/docs/storyboard/images/chapter-01-direct/12-wet-hello.png",
+    "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r2/masters/scene-32-v2.png",
+    "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r2/masters/scene-27-v1.png"
+  ],
+  "visualReview": "Passed first full-size review: genuine immersed child face / wet near-lens camera intimacy / floating blossoms. Distinct anatomy and warm family-book style retained. Draft for review.",
+  "referenceIdentities": [
+    {
+      "path": "/Users/miguel_lemos/anastasia-pinpin-repos/mr-pinpin-source/docs/storyboard/images/chapter-01-direct/12-wet-hello.png",
+      "bytes": 2867243,
+      "sha256": "432055d7de586ac289d202a8d4d7604f0798110dc57c0d192f7b32515eb40a9a"
+    },
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r2/masters/scene-32-v2.png",
+      "bytes": 2346329,
+      "sha256": "873a181ef800a93feb08a8311ac7c254a995eebfddad00b4cdba7668ffb4321d"
+    },
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r2/masters/scene-27-v1.png",
+      "bytes": 2649341,
+      "sha256": "4a2012c96e18d798bd9dc54178d5a4048d8ced16827855ab6c26890940a1c4a6"
+    }
+  ],
+  "promptSha256": "83148aa5d5f362402afd69a3c72da2308fc0caaea1f289c310bc51dfb7cc11ba",
+  "master": {
+    "path": "masters/scene-31-v1.png",
+    "bytes": 2680287,
+    "sha256": "a3154c249f55f23b653357508afda34950947c6bb4b8c64812a6c4260dbaf234"
+  },
+  "approval": "draft-for-review"
+}

@@ -1,0 +1,30 @@
+{
+  "tool": "image_gen__imagegen",
+  "generatedAt": "2026-10-01T06:53:16.283Z",
+  "promptPath": "prompts/scene-38-v1.txt",
+  "sourceOutput": "/Users/miguel_lemos/.codex/generated_images/01a0be6f-b832-7d93-95df-9d2ff5f69dc1/exec-c74dcabc-c79e-4b51-bc04-e197bd50386d.png",
+  "references": [
+    "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r2/masters/scene-33-v2.png",
+    "/Users/miguel_lemos/.codex/generated_images/01a0be6f-b832-7d93-95df-9d2ff5f69dc1/exec-2f4db024-fa61-4564-bc96-05e5f2cc4ca1.png"
+  ],
+  "visualReview": "First review: correct in-bath state and attentive expression; anatomy/background continuity queued for final QA. Draft.",
+  "referenceIdentities": [
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r2/masters/scene-33-v2.png",
+      "bytes": 2205195,
+      "sha256": "254a49ef3a8b0f491d4121f3a34aa1e28f65a30c05bfbd21b9f3539786eb8c54"
+    },
+    {
+      "path": "/Users/miguel_lemos/.codex/generated_images/01a0be6f-b832-7d93-95df-9d2ff5f69dc1/exec-2f4db024-fa61-4564-bc96-05e5f2cc4ca1.png",
+      "bytes": 2680287,
+      "sha256": "a3154c249f55f23b653357508afda34950947c6bb4b8c64812a6c4260dbaf234"
+    }
+  ],
+  "promptSha256": "dc35dcefe34c460b7a3556e8f7755897c5b4558b55990c4889e683ac46d4a694",
+  "master": {
+    "path": "masters/scene-38-v1.png",
+    "bytes": 2340365,
+    "sha256": "ca88a7525c373d0b5e476e0968ffbb1788ac45dff7766b041ee3e07883aa4f13"
+  },
+  "approval": "draft-for-review"
+}

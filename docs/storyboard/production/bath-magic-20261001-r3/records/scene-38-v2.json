@@ -1,0 +1,25 @@
+{
+  "tool": "image_gen__imagegen",
+  "generatedAt": "2026-10-01T07:04:27.882Z",
+  "promptPath": "prompts/scene-38-v2.txt",
+  "sourceOutput": "/Users/miguel_lemos/.codex/generated_images/01a0be6f-b832-7d93-95df-9d2ff5f69dc1/exec-62be4beb-26ca-4324-8d70-64dd828f9073.png",
+  "references": [
+    "/Users/miguel_lemos/.codex/generated_images/01a0be6f-b832-7d93-95df-9d2ff5f69dc1/exec-c74dcabc-c79e-4b51-bc04-e197bd50386d.png"
+  ],
+  "revisionOf": "scene-38-v1",
+  "visualReview": "Passed: incidental inert duck removed from reaction close-up, mother and infant anatomy and pointing to offscreen speaker preserved.",
+  "referenceIdentities": [
+    {
+      "path": "/Users/miguel_lemos/.codex/generated_images/01a0be6f-b832-7d93-95df-9d2ff5f69dc1/exec-c74dcabc-c79e-4b51-bc04-e197bd50386d.png",
+      "bytes": 2340365,
+      "sha256": "ca88a7525c373d0b5e476e0968ffbb1788ac45dff7766b041ee3e07883aa4f13"
+    }
+  ],
+  "promptSha256": "a8739c810869ce2ef3f8b57d430a0988bd3e43d7030d213573d756ef439bc6aa",
+  "master": {
+    "path": "masters/scene-38-v2.png",
+    "bytes": 2324186,
+    "sha256": "ee82a631290c75c9f1345c6ad6cd416cefe8050622a2d68ed60fb10f402d2684"
+  },
+  "approval": "draft-for-review"
+}

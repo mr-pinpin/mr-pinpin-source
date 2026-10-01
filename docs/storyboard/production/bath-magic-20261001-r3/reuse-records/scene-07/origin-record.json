@@ -1,0 +1,21 @@
+{
+  "id": "scene-06",
+  "version": 2,
+  "tool": "image_gen__imagegen",
+  "prompt": "Use case: precise-object-edit. Edit INPUT1 with exactly one tiny object material correction: change the little yellow duck floating in bathtub from smooth rubber/plastic appearance into the carved honey-yellow WOODEN toy duck in INPUT2, with clearly visible gentle wood grain and the same small rounded beak. Keep duck same position, scale and pose as input1. Preserve EVERYTHING ELSE in input1 exactly: PinPin pouring his pail, his two paws/face/eyes, both pails, low shallow water level FARbelowrim, wooden tub, bathroom, camera, lighting, dry floor and mat. Do not introduce gold ring or other magic from reference2; it is only the duck material reference. No other edits, no lettering.",
+  "references": [
+    {
+      "path": "/Users/miguel_lemos/.codex/generated_images/01a0f5c0-64db-7310-817a-d73d15314908/exec-c412ba0f-7d01-4232-a899-a41d082bf1c6.png",
+      "sha256": "d17d52a031c2f0d2543d9cbc326475479438926453f2179aaeb5b707270e7d0a"
+    },
+    {
+      "path": "/Users/miguel_lemos/.codex/generated_images/01a0f5c0-64db-7310-817a-d73d15314908/exec-2a4af977-bda0-464e-8db2-94674a92471d.png",
+      "sha256": "7f34bcffcbf3f73a9e4d98defd151165460075aff4f5cee912cca3fb4562f4fb"
+    }
+  ],
+  "startedAt": "2026-10-01T05:02:12.079Z",
+  "finishedAt": "2026-10-01T05:02:46.633Z",
+  "generatedFile": "/Users/miguel_lemos/.codex/generated_images/01a0f5c0-64db-7310-817a-d73d15314908/exec-de38e970-bb17-4d40-bd3c-1c3ed3cc1c32.png",
+  "review": "Selected revision: duck now carved honey-yellow wood with visible grain; child poses, tub water, composition and story timing retained.",
+  "promptSha256": "f83d758929b19b7637dd4de62b20e1a03208d09ca81a6576b4baf8e67313f38a"
+}

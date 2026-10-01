@@ -1,0 +1,25 @@
+{
+  "id": "scene-01",
+  "version": 1,
+  "tool": "image_gen__imagegen",
+  "prompt": "Use case: illustration-story. Create one finished landscape 3:2 children's-book illustration, no lettering. Input1 is a Blender geometry guide: retain bed and round-window placement and camera, replace every bare primitive with the rich organic timber/plaster finish of input2. Input2 is the approved bedroom art and PinPin identity: the older small hedgehog on Mama's left, NOT the tiny baby. Input3 reinforces the same family's warm expressive rendering. ONLY PINPIN is visible in this new picture; other family members are already in the kitchen. Scene: early morning. PinPin sits up in the broad wooden bed beneath the soft green quilt, holding the quilt in his two little paws; a stripe of morning sun crosses his nose, and his sleepy face begins to smile toward the off-camera kitchen. Soft amber morning with cool leafy daylight, tactile warm quills, cream muzzle and tummy, beautiful visible brown irises, gentle dimensional animated-film storybook finish precisely matching input2 and input3. The single round window keeps radial wood spokes and real glass; outside is green morning forest. Beautiful carved wood bed, linen pillows, green botanical quilt, small room decorations from the reference. Camera follows geometry input; this is not an illustration of the gray render. Do not retain faceted gray walls, black voids or geometric blockiness. No additional characters, human people, clothes, water flood, title, speech bubbles or panels.",
+  "references": [
+    {
+      "path": "/Users/miguel_lemos/.codex/tmp/pinpin-bath-magic-guides/bedroom.png",
+      "sha256": "6f55c969d62b8fe9bb7e543d9448834ecce8e4f301a1252d6a33ce203c33e171"
+    },
+    {
+      "path": "/Users/miguel_lemos/anastasia-pinpin-repos/mr-pinpin-source/docs/storyboard/images/standalone/home-sweet-home/bedtime-17-v2.png",
+      "sha256": "e37fd9cccf68330ba62763958199839692e77c3c0092a5d4b5efa1db5835ff73"
+    },
+    {
+      "path": "/Users/miguel_lemos/anastasia-pinpin-repos/mr-pinpin-source/docs/storyboard/images/published/elder-cycle/elder-r6-family-015.webp",
+      "sha256": "076321ed693bb541c91d99b4ab6fbb7cf0c7ed19c0fcf2c0dfb70b1e668d428e"
+    }
+  ],
+  "startedAt": "2026-10-01T04:45:45.402Z",
+  "resultCapturedAt": "2026-10-01T04:46:54.920Z",
+  "generatedFile": "/Users/miguel_lemos/.codex/generated_images/01a0f5c0-64db-7310-817a-d73d15314908/exec-10aee890-d8c3-4fb7-9d04-e39665902097.png",
+  "review": "Selected draft after inline full-image inspection: one PinPin with clear separate two paws, matching bedroom and green quilt, expressive eyes; no body anomaly visible. Geometry guide provided but finished camera follows reference more closely; not measured geometry certification.",
+  "promptSha256": "30483a16b6930cd73b3515f52ed4959759865ee369831ec952dddc867ef133b5"
+}

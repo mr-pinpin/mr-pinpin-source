@@ -1,0 +1,850 @@
+{
+  "version": 1,
+  "status": "input and output bytes preserved locally; consult archive receipt for remote proof",
+  "generations": [
+    {
+      "record": "records/scene-08-v1.json",
+      "recordSha256": "997f31dd99ef2ba1b8a7a13d0dba518d50161c3608133a84f8d3da9404770838",
+      "prompt": "prompts/scene-08-v1.txt",
+      "promptFileSha256": "87e2e1ad4241e508bfc56977acd8ed2f40cc6d22f96fb0d131a48e856bbf6a22",
+      "inlinePromptSha256": "87e2e1ad4241e508bfc56977acd8ed2f40cc6d22f96fb0d131a48e856bbf6a22",
+      "inputs": [
+        {
+          "originalPath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r2/masters/scene-09-v1.png",
+          "sha256": "20ccfbfa3bff97694a73074e81fc2c67a2c25f44e501af8767a7a39f18b3ad74",
+          "preservedPaths": [
+            "references/20ccfbfa3bff-scene-09-v1.png"
+          ]
+        }
+      ],
+      "output": {
+        "path": "masters/scene-08-v1.png",
+        "sha256": "5dce68b736f6c6a06bb3cff2b93f3c5e9e234d167bac0feb605623f3fe36b875",
+        "originalCompared": true
+      }
+    },
+    {
+      "record": "records/scene-15-v1.json",
+      "recordSha256": "861a24f6b8ebeba0233db321baafdd5ee890512c917656d7fb9e15f51bcaa2f2",
+      "prompt": "prompts/scene-15-v1.txt",
+      "promptFileSha256": "8fac5bc5aaa97dddf7e276ea33df0f88b5f0e750a37aede4e61e5b6a61e09b92",
+      "inlinePromptSha256": "8fac5bc5aaa97dddf7e276ea33df0f88b5f0e750a37aede4e61e5b6a61e09b92",
+      "inputs": [
+        {
+          "originalPath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r2/masters/scene-15-v1.png",
+          "sha256": "10920c24c0943bf06edf0c1c34c47e8aa4bbf8cfc7f2c1890e33106c33a07ce2",
+          "preservedPaths": [
+            "masters/reused/scene-13/scene-15-v1.png"
+          ]
+        }
+      ],
+      "output": {
+        "path": "masters/scene-15-v1.png",
+        "sha256": "2f99c7f333d29242678bd8cd3e7946ee47bf6dbf170f35264487b054f6981ef0",
+        "originalCompared": true
+      }
+    },
+    {
+      "record": "records/scene-21-v1.json",
+      "recordSha256": "6f249e7675474fe869e0462e5a3b1192bdc3e9a0963a801585f660db777669bd",
+      "prompt": "prompts/scene-21-v1.txt",
+      "promptFileSha256": "bb41945cd564c2cda5fa20701503b3abdd0fe2da8a41c86a4ac6de2b3bc3b8bc",
+      "inlinePromptSha256": "bb41945cd564c2cda5fa20701503b3abdd0fe2da8a41c86a4ac6de2b3bc3b8bc",
+      "inputs": [
+        {
+          "originalPath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r3/geometry/papa-jump-wide/still.png",
+          "sha256": "cb91e76de0050d65f75d26a60eca7976044d2cd7e2f7515a751483d7953b63de",
+          "preservedPaths": [
+            "geometry/papa-jump-wide-prepared/geometry-reference.png",
+            "geometry/papa-jump-wide/still.png"
+          ]
+        },
+        {
+          "originalPath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r2/masters/scene-27-v1.png",
+          "sha256": "4a2012c96e18d798bd9dc54178d5a4048d8ced16827855ab6c26890940a1c4a6",
+          "preservedPaths": [
+            "references/reused/4a2012c96e18/scene-27-v1.png"
+          ]
+        }
+      ],
+      "output": {
+        "path": "masters/scene-21-v1.png",
+        "sha256": "0cb76b05406cacfd917773e03caa4b0db78b046b95eef276c10e11920106f89b",
+        "originalCompared": true
+      }
+    },
+    {
+      "record": "records/scene-21-v2.json",
+      "recordSha256": "eb2c6b6d1a71d7f6f92fe101d70ea6d2dffbdc33b227509931854f915b05ef29",
+      "prompt": "prompts/scene-21-v2.txt",
+      "promptFileSha256": "6abda707c8955cd4b3f5569210abe1bef9c03e37c632d5664c2a3c55d1109b4d",
+      "inlinePromptSha256": "6abda707c8955cd4b3f5569210abe1bef9c03e37c632d5664c2a3c55d1109b4d",
+      "inputs": [
+        {
+          "originalPath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r3/masters/scene-21-v1.png",
+          "sha256": "0cb76b05406cacfd917773e03caa4b0db78b046b95eef276c10e11920106f89b",
+          "preservedPaths": [
+            "masters/scene-21-v1.png"
+          ]
+        }
+      ],
+      "output": {
+        "path": "masters/scene-21-v2.png",
+        "sha256": "7310df12d8da3d5dfd59946f689b4d92119f44fc1c843a63ab55fabd2c1f0458",
+        "originalCompared": true
+      }
+    },
+    {
+      "record": "records/scene-22-v1.json",
+      "recordSha256": "70007cb976e04a9af770c7884d0edacc8d45f4c70aa62086aaa5cad310114bcf",
+      "prompt": "prompts/scene-22-v1.txt",
+      "promptFileSha256": "25362b101a39697ad19e77f4458006edbf4d69bdc15470047ad308dbbc90c09a",
+      "inlinePromptSha256": "25362b101a39697ad19e77f4458006edbf4d69bdc15470047ad308dbbc90c09a",
+      "inputs": [
+        {
+          "originalPath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r3/geometry/papa-jump-wide/still.png",
+          "sha256": "cb91e76de0050d65f75d26a60eca7976044d2cd7e2f7515a751483d7953b63de",
+          "preservedPaths": [
+            "geometry/papa-jump-wide-prepared/geometry-reference.png",
+            "geometry/papa-jump-wide/still.png"
+          ]
+        },
+        {
+          "originalPath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r2/masters/scene-27-v1.png",
+          "sha256": "4a2012c96e18d798bd9dc54178d5a4048d8ced16827855ab6c26890940a1c4a6",
+          "preservedPaths": [
+            "references/reused/4a2012c96e18/scene-27-v1.png"
+          ]
+        }
+      ],
+      "output": {
+        "path": "masters/scene-22-v1.png",
+        "sha256": "d95a250eac7b60489abe86191d25d10ca2d40a9d87bc6073cb9e2115e121f32c",
+        "originalCompared": true
+      }
+    },
+    {
+      "record": "records/scene-23-v1.json",
+      "recordSha256": "70f0aefd175c4f5419297b24d80c7ba86f6714c8062fcb7463a9bfc7ea3e0913",
+      "prompt": "prompts/scene-23-v1.txt",
+      "promptFileSha256": "4fa92bdb834c9ca257d2a2fb8dc98bfbdd7b5d60b4980ff1e10724fa16d5936f",
+      "inlinePromptSha256": "4fa92bdb834c9ca257d2a2fb8dc98bfbdd7b5d60b4980ff1e10724fa16d5936f",
+      "inputs": [
+        {
+          "originalPath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r3/geometry/papa-jump-wide/still.png",
+          "sha256": "cb91e76de0050d65f75d26a60eca7976044d2cd7e2f7515a751483d7953b63de",
+          "preservedPaths": [
+            "geometry/papa-jump-wide-prepared/geometry-reference.png",
+            "geometry/papa-jump-wide/still.png"
+          ]
+        },
+        {
+          "originalPath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r3/masters/scene-22-v1.png",
+          "sha256": "d95a250eac7b60489abe86191d25d10ca2d40a9d87bc6073cb9e2115e121f32c",
+          "preservedPaths": [
+            "masters/scene-22-v1.png"
+          ]
+        }
+      ],
+      "output": {
+        "path": "masters/scene-23-v1.png",
+        "sha256": "6ef64cb4d4d67148391accef882a2e7cc8d62bc01b2ad98e786eb64b451c7472",
+        "originalCompared": true
+      }
+    },
+    {
+      "record": "records/scene-24-v1.json",
+      "recordSha256": "7ede6c1c0bf4db04a32473b14daf81424042489373856ffe06ce0bf201e3df3f",
+      "prompt": "prompts/scene-24-v1.txt",
+      "promptFileSha256": "7c1196b923740afa154203e2d671e6fd3b04fbe9fb75b9fa54a3b6c1165695d3",
+      "inlinePromptSha256": "7c1196b923740afa154203e2d671e6fd3b04fbe9fb75b9fa54a3b6c1165695d3",
+      "inputs": [
+        {
+          "originalPath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r3/geometry/papa-jump-wide/still.png",
+          "sha256": "cb91e76de0050d65f75d26a60eca7976044d2cd7e2f7515a751483d7953b63de",
+          "preservedPaths": [
+            "geometry/papa-jump-wide-prepared/geometry-reference.png",
+            "geometry/papa-jump-wide/still.png"
+          ]
+        },
+        {
+          "originalPath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r3/masters/scene-23-v1.png",
+          "sha256": "6ef64cb4d4d67148391accef882a2e7cc8d62bc01b2ad98e786eb64b451c7472",
+          "preservedPaths": [
+            "masters/scene-23-v1.png"
+          ]
+        }
+      ],
+      "output": {
+        "path": "masters/scene-24-v1.png",
+        "sha256": "541763f0a420679ce600dbb5a1c31628c1891f33e1d1ac27afe292d818287ff4",
+        "originalCompared": true
+      }
+    },
+    {
+      "record": "records/scene-25-v1.json",
+      "recordSha256": "93b87f23c55b27294fc2a6b3cbe1dc9bbdc0970c1e682eb053b149c1c0309c44",
+      "prompt": "prompts/scene-25-v1.txt",
+      "promptFileSha256": "ef87468f67d0769c8534da711fb61813e1640123610717c69a7c77845b41f3be",
+      "inlinePromptSha256": "ef87468f67d0769c8534da711fb61813e1640123610717c69a7c77845b41f3be",
+      "inputs": [
+        {
+          "originalPath": "/Users/miguel_lemos/anastasia-pinpin-repos/mr-pinpin-source/docs/storyboard/images/chapter-01-direct/12-wet-hello.png",
+          "sha256": "432055d7de586ac289d202a8d4d7604f0798110dc57c0d192f7b32515eb40a9a",
+          "preservedPaths": [
+            "references/432055d7de58-12-wet-hello.png"
+          ]
+        },
+        {
+          "originalPath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r2/masters/scene-11-v2.png",
+          "sha256": "de367693f2102482e5d4f5b18acb3e599d02c89ee8c293a831ae7e2454473b77",
+          "preservedPaths": [
+            "masters/reused/scene-10/scene-11-v2.png"
+          ]
+        },
+        {
+          "originalPath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r2/masters/scene-28-v1.png",
+          "sha256": "fd8f8b6c5d58de08154a8c5b5a579fdbb6438e7bda05815332f8685f68b0ecda",
+          "preservedPaths": [
+            "references/fd8f8b6c5d58-scene-28-v1.png"
+          ]
+        }
+      ],
+      "output": {
+        "path": "masters/scene-25-v1.png",
+        "sha256": "ff0a2d03de4e967568892259bd584424b27543fee4abd6eec93b6cd5b9e10d68",
+        "originalCompared": true
+      }
+    },
+    {
+      "record": "records/scene-26-v1.json",
+      "recordSha256": "5ed103e5285cf74fb2e963cf2d397408dfd8533ed7ae304cd7700981618e1a00",
+      "prompt": "prompts/scene-26-v1.txt",
+      "promptFileSha256": "77335b121503312107a1de65732a7bda939842ce85f2782e46252a87e27bac90",
+      "inlinePromptSha256": "77335b121503312107a1de65732a7bda939842ce85f2782e46252a87e27bac90",
+      "inputs": [
+        {
+          "originalPath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r3/geometry/mama-entry-profile/still.png",
+          "sha256": "f2a03c4df8d4fba58714e88e62005d9144dfbe3b6862bb3ecd63da988470f1fb",
+          "preservedPaths": [
+            "geometry/mama-entry-profile-prepared/geometry-reference.png",
+            "geometry/mama-entry-profile/still.png"
+          ]
+        },
+        {
+          "originalPath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r3/masters/scene-28-v1.png",
+          "sha256": "d80cd9f09eaa764258cf96cf54a4ad0967f6839392eff35842ebc0ba968a70a2",
+          "preservedPaths": [
+            "masters/scene-28-v1.png"
+          ]
+        }
+      ],
+      "output": {
+        "path": "masters/scene-26-v1.png",
+        "sha256": "f97d8497984ca6fa15885320ee8c3d4f7f198dffdf91c5d2018a1190e7f1d7a2",
+        "originalCompared": true
+      }
+    },
+    {
+      "record": "records/scene-27-v1.json",
+      "recordSha256": "36e98951c2498976c64c7b9cb3a308e2d22afe126808868441436a83d59b02b1",
+      "prompt": "prompts/scene-27-v1.txt",
+      "promptFileSha256": "6b4183c5a2c3173f27173670d7141bb48723e1daa614bf678cbe5d2b877e9839",
+      "inlinePromptSha256": "6b4183c5a2c3173f27173670d7141bb48723e1daa614bf678cbe5d2b877e9839",
+      "inputs": [
+        {
+          "originalPath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r3/geometry/mama-entry-profile/still.png",
+          "sha256": "f2a03c4df8d4fba58714e88e62005d9144dfbe3b6862bb3ecd63da988470f1fb",
+          "preservedPaths": [
+            "geometry/mama-entry-profile-prepared/geometry-reference.png",
+            "geometry/mama-entry-profile/still.png"
+          ]
+        },
+        {
+          "originalPath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r3/masters/scene-28-v1.png",
+          "sha256": "d80cd9f09eaa764258cf96cf54a4ad0967f6839392eff35842ebc0ba968a70a2",
+          "preservedPaths": [
+            "masters/scene-28-v1.png"
+          ]
+        }
+      ],
+      "output": {
+        "path": "masters/scene-27-v1.png",
+        "sha256": "15d2068eba6faae27e8ffa60d7b271e34a9fe1752a9f857350ef33e0b957fb35",
+        "originalCompared": true
+      }
+    },
+    {
+      "record": "records/scene-27-v2.json",
+      "recordSha256": "280eff9a4baa12c7cbf48e498ed1a783415720e4d44efe7027928a010d534a61",
+      "prompt": "prompts/scene-27-v2.txt",
+      "promptFileSha256": "8266c66db40b5b2a66d6c3c3d1e85b0971ffc710a73cbf16797249857a7560ed",
+      "inlinePromptSha256": "8266c66db40b5b2a66d6c3c3d1e85b0971ffc710a73cbf16797249857a7560ed",
+      "inputs": [
+        {
+          "originalPath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r3/masters/scene-27-v1.png",
+          "sha256": "15d2068eba6faae27e8ffa60d7b271e34a9fe1752a9f857350ef33e0b957fb35",
+          "preservedPaths": [
+            "masters/scene-27-v1.png"
+          ]
+        }
+      ],
+      "output": {
+        "path": "masters/scene-27-v2.png",
+        "sha256": "2461813968e7444e475b3c68ab607d2e06a0385cec529bd86cc274a276660259",
+        "originalCompared": true
+      }
+    },
+    {
+      "record": "records/scene-28-v1.json",
+      "recordSha256": "3f7ef84836c9daec515a361f2e675d60d85ebec7f37cc3854e5c9e481264d20c",
+      "prompt": "prompts/scene-28-v1.txt",
+      "promptFileSha256": "8e34cfdb09e6f94780f288b67decc3569ddb6e2c74350f33d8134687f2d5f55b",
+      "inlinePromptSha256": "8e34cfdb09e6f94780f288b67decc3569ddb6e2c74350f33d8134687f2d5f55b",
+      "inputs": [
+        {
+          "originalPath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r3/geometry/family-bath-highangle/still.png",
+          "sha256": "51b10562cf6c756c70f9df08d9f138c03f761547a991756769907cbb353c318a",
+          "preservedPaths": [
+            "geometry/family-bath-highangle/still.png",
+            "geometry/family-bath-highangle-prepared/geometry-reference.png"
+          ]
+        },
+        {
+          "originalPath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r3/masters/scene-22-v1.png",
+          "sha256": "d95a250eac7b60489abe86191d25d10ca2d40a9d87bc6073cb9e2115e121f32c",
+          "preservedPaths": [
+            "masters/scene-22-v1.png"
+          ]
+        }
+      ],
+      "output": {
+        "path": "masters/scene-28-v1.png",
+        "sha256": "d80cd9f09eaa764258cf96cf54a4ad0967f6839392eff35842ebc0ba968a70a2",
+        "originalCompared": true
+      }
+    },
+    {
+      "record": "records/scene-29-v1.json",
+      "recordSha256": "92a6a14bb0b69e4123c456bd6305d2df97b57f9ffbbfad4697cc00cbec09ef3f",
+      "prompt": "prompts/scene-29-v1.txt",
+      "promptFileSha256": "a78c40fefd17626a12237cf34b74a1b7789170445b3be964aada4843535bc481",
+      "inlinePromptSha256": null,
+      "inputs": [
+        {
+          "originalPath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r2/masters/scene-32-v2.png",
+          "sha256": "873a181ef800a93feb08a8311ac7c254a995eebfddad00b4cdba7668ffb4321d",
+          "preservedPaths": [
+            "references/873a181ef800-scene-32-v2.png"
+          ]
+        },
+        {
+          "originalPath": "/Users/miguel_lemos/anastasia-pinpin-repos/mr-pinpin-source/docs/storyboard/images/chapter-01-direct/12-wet-hello.png",
+          "sha256": "432055d7de586ac289d202a8d4d7604f0798110dc57c0d192f7b32515eb40a9a",
+          "preservedPaths": [
+            "references/432055d7de58-12-wet-hello.png"
+          ]
+        },
+        {
+          "originalPath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r3/geometry/underwater-child-face/still.png",
+          "sha256": "d0834d6001db1296b10b512863e7d0b94dcec7bf391e6ea23e1b22d605f37088",
+          "preservedPaths": [
+            "geometry/underwater-child-face-prepared/geometry-reference.png",
+            "geometry/underwater-child-face/still.png"
+          ]
+        }
+      ],
+      "output": {
+        "path": "masters/scene-29-v1.png",
+        "sha256": "918ceb652684451e815a51e6dd3bdd528aa14441aae9fa9a2cfe5cc26728d78f",
+        "originalCompared": true
+      }
+    },
+    {
+      "record": "records/scene-30-v1.json",
+      "recordSha256": "7075dc5dd22e056766593b5c40f0a995f7b61665a784eb55e94cd30dd59f63d2",
+      "prompt": "prompts/scene-30-v1.txt",
+      "promptFileSha256": "3d47b2e7585ecca361e3b5a276ff62864b0eec904dc8568ba23a6ecf61246fe7",
+      "inlinePromptSha256": null,
+      "inputs": [
+        {
+          "originalPath": "/Users/miguel_lemos/.codex/generated_images/01a0be6f-b832-7d93-95df-9d2ff5f69dc1/exec-2f4db024-fa61-4564-bc96-05e5f2cc4ca1.png",
+          "sha256": "a3154c249f55f23b653357508afda34950947c6bb4b8c64812a6c4260dbaf234",
+          "preservedPaths": [
+            "masters/scene-31-v1.png"
+          ]
+        },
+        {
+          "originalPath": "/Users/miguel_lemos/anastasia-pinpin-repos/mr-pinpin-source/docs/storyboard/images/published/elder-cycle/elder-r6-family-015.webp",
+          "sha256": "076321ed693bb541c91d99b4ab6fbb7cf0c7ed19c0fcf2c0dfb70b1e668d428e",
+          "preservedPaths": [
+            "references/reused/076321ed693b/elder-r6-family-015.webp"
+          ]
+        },
+        {
+          "originalPath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r3/geometry/underwater-look-up-v2/still.png",
+          "sha256": "905b089aeb1cd3cda14ae1863ecc16a4368049ba409cb956c08fb4a8bc00414a",
+          "preservedPaths": [
+            "geometry/underwater-look-up-v2/still.png",
+            "geometry/underwater-look-up-v2-prepared/geometry-reference.png"
+          ]
+        }
+      ],
+      "output": {
+        "path": "masters/scene-30-v1.png",
+        "sha256": "9d7fc0062e8bba95096cceb6898f98b8551d2a878c3cfa950ecde7d0ef102f11",
+        "originalCompared": true
+      }
+    },
+    {
+      "record": "records/scene-31-v1.json",
+      "recordSha256": "663e32a7111458d04d04b7caee3472b97cabdbdc1cf8ef494748731f181f9f7f",
+      "prompt": "prompts/scene-31-v1.txt",
+      "promptFileSha256": "83148aa5d5f362402afd69a3c72da2308fc0caaea1f289c310bc51dfb7cc11ba",
+      "inlinePromptSha256": null,
+      "inputs": [
+        {
+          "originalPath": "/Users/miguel_lemos/anastasia-pinpin-repos/mr-pinpin-source/docs/storyboard/images/chapter-01-direct/12-wet-hello.png",
+          "sha256": "432055d7de586ac289d202a8d4d7604f0798110dc57c0d192f7b32515eb40a9a",
+          "preservedPaths": [
+            "references/432055d7de58-12-wet-hello.png"
+          ]
+        },
+        {
+          "originalPath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r2/masters/scene-32-v2.png",
+          "sha256": "873a181ef800a93feb08a8311ac7c254a995eebfddad00b4cdba7668ffb4321d",
+          "preservedPaths": [
+            "references/873a181ef800-scene-32-v2.png"
+          ]
+        },
+        {
+          "originalPath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r2/masters/scene-27-v1.png",
+          "sha256": "4a2012c96e18d798bd9dc54178d5a4048d8ced16827855ab6c26890940a1c4a6",
+          "preservedPaths": [
+            "references/reused/4a2012c96e18/scene-27-v1.png"
+          ]
+        }
+      ],
+      "output": {
+        "path": "masters/scene-31-v1.png",
+        "sha256": "a3154c249f55f23b653357508afda34950947c6bb4b8c64812a6c4260dbaf234",
+        "originalCompared": true
+      }
+    },
+    {
+      "record": "records/scene-32-v1.json",
+      "recordSha256": "27f0897d30cfc64f8d713a7c031db7a389b1aa6f016dea0bcd96ac50ab00eb4f",
+      "prompt": "prompts/scene-32-v1.txt",
+      "promptFileSha256": "a288a328e36d7ca1312e4d3f07871e8ecf5f1ec9d318345fbb0ae70965135af0",
+      "inlinePromptSha256": null,
+      "inputs": [
+        {
+          "originalPath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r3/masters/scene-28-v1.png",
+          "sha256": "d80cd9f09eaa764258cf96cf54a4ad0967f6839392eff35842ebc0ba968a70a2",
+          "preservedPaths": [
+            "masters/scene-28-v1.png"
+          ]
+        },
+        {
+          "originalPath": "/Users/miguel_lemos/.codex/generated_images/01a0be6f-b832-7d93-95df-9d2ff5f69dc1/exec-61605fc3-31d7-4057-a0e9-2043639c0019.png",
+          "sha256": "e4f7084e31c41fb4b6a40833c28806a8bd3cdd6eef4a8b0181552c59ccbdb0e5",
+          "preservedPaths": [
+            "masters/scene-33-v1.png"
+          ]
+        }
+      ],
+      "output": {
+        "path": "masters/scene-32-v1.png",
+        "sha256": "f1a749a9697fe70f7a5a9375184356b3ba46b2fdbbc57ec7f56a07557e6ee0a7",
+        "originalCompared": true
+      }
+    },
+    {
+      "record": "records/scene-33-v1.json",
+      "recordSha256": "934f1037edeb5c0d30440e999c996a936f33cf83449e9fd755e765ab7b1ad3b7",
+      "prompt": "prompts/scene-33-v1.txt",
+      "promptFileSha256": "11f4ac4191d8c0ae85761535c7a6d78cc668bc05302c2079943e9eb8e5f2432f",
+      "inlinePromptSha256": null,
+      "inputs": [
+        {
+          "originalPath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r2/masters/scene-30-v1.png",
+          "sha256": "91ec4a0a0f50d4b6416454b158e53e5cd7e097c2e02646fbe3e5fc682140bf25",
+          "preservedPaths": [
+            "references/91ec4a0a0f50-scene-30-v1.png"
+          ]
+        },
+        {
+          "originalPath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r2/masters/scene-27-v1.png",
+          "sha256": "4a2012c96e18d798bd9dc54178d5a4048d8ced16827855ab6c26890940a1c4a6",
+          "preservedPaths": [
+            "references/reused/4a2012c96e18/scene-27-v1.png"
+          ]
+        }
+      ],
+      "output": {
+        "path": "masters/scene-33-v1.png",
+        "sha256": "e4f7084e31c41fb4b6a40833c28806a8bd3cdd6eef4a8b0181552c59ccbdb0e5",
+        "originalCompared": true
+      }
+    },
+    {
+      "record": "records/scene-34-v1.json",
+      "recordSha256": "4fc5b0d48e5b87905b4d92e6c5b154ee7d11d0e80637cefe1b80506e16eac65d",
+      "prompt": "prompts/scene-34-v1.txt",
+      "promptFileSha256": "26969fa490a5099c122fdc8d04b0dfe031bc5ce7136881640c18fded58e8b3dc",
+      "inlinePromptSha256": null,
+      "inputs": [
+        {
+          "originalPath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r2/masters/scene-33-v2.png",
+          "sha256": "254a49ef3a8b0f491d4121f3a34aa1e28f65a30c05bfbd21b9f3539786eb8c54",
+          "preservedPaths": [
+            "references/254a49ef3a8b-scene-33-v2.png"
+          ]
+        },
+        {
+          "originalPath": "/Users/miguel_lemos/.codex/generated_images/01a0be6f-b832-7d93-95df-9d2ff5f69dc1/exec-2f4db024-fa61-4564-bc96-05e5f2cc4ca1.png",
+          "sha256": "a3154c249f55f23b653357508afda34950947c6bb4b8c64812a6c4260dbaf234",
+          "preservedPaths": [
+            "masters/scene-31-v1.png"
+          ]
+        },
+        {
+          "originalPath": "/Users/miguel_lemos/.codex/generated_images/01a0be6f-b832-7d93-95df-9d2ff5f69dc1/exec-61605fc3-31d7-4057-a0e9-2043639c0019.png",
+          "sha256": "e4f7084e31c41fb4b6a40833c28806a8bd3cdd6eef4a8b0181552c59ccbdb0e5",
+          "preservedPaths": [
+            "masters/scene-33-v1.png"
+          ]
+        }
+      ],
+      "output": {
+        "path": "masters/scene-34-v1.png",
+        "sha256": "1cc27299d44ee4501bb21d1377f8ed3d42e9d08c94c7a2dfa7feabacee9754f9",
+        "originalCompared": true
+      }
+    },
+    {
+      "record": "records/scene-34-v2.json",
+      "recordSha256": "da4192a434401b6305c47b02dc7d8c7ad5dce8ee0e5e66dbd28b6b31d7b5863a",
+      "prompt": "prompts/scene-34-v2.txt",
+      "promptFileSha256": "7b8fb44c20b65c9def3ecb246e1f560a0bba93a32598158527d4d07194c04a89",
+      "inlinePromptSha256": null,
+      "inputs": [
+        {
+          "originalPath": "/Users/miguel_lemos/.codex/generated_images/01a0be6f-b832-7d93-95df-9d2ff5f69dc1/exec-e95b695f-4921-4676-8eea-c243154d5c62.png",
+          "sha256": "1cc27299d44ee4501bb21d1377f8ed3d42e9d08c94c7a2dfa7feabacee9754f9",
+          "preservedPaths": [
+            "masters/scene-34-v1.png"
+          ]
+        }
+      ],
+      "output": {
+        "path": "masters/scene-34-v2.png",
+        "sha256": "2aa216deeb9e1c7cbb629a080ce190e385fc18bd2b328010cab43b45a1030aff",
+        "originalCompared": true
+      }
+    },
+    {
+      "record": "records/scene-35-v1.json",
+      "recordSha256": "761b318d1010d8af12a8d1ad63d885bc3075e853157df9edd6501603679f0d51",
+      "prompt": "prompts/scene-35-v1.txt",
+      "promptFileSha256": "2ad50d2a088ca35ae0d1748f9cda40deb59ad3bafb614bb70f68cfa6617f1c29",
+      "inlinePromptSha256": null,
+      "inputs": [
+        {
+          "originalPath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r3/masters/scene-28-v1.png",
+          "sha256": "d80cd9f09eaa764258cf96cf54a4ad0967f6839392eff35842ebc0ba968a70a2",
+          "preservedPaths": [
+            "masters/scene-28-v1.png"
+          ]
+        },
+        {
+          "originalPath": "/Users/miguel_lemos/.codex/generated_images/01a0be6f-b832-7d93-95df-9d2ff5f69dc1/exec-61605fc3-31d7-4057-a0e9-2043639c0019.png",
+          "sha256": "e4f7084e31c41fb4b6a40833c28806a8bd3cdd6eef4a8b0181552c59ccbdb0e5",
+          "preservedPaths": [
+            "masters/scene-33-v1.png"
+          ]
+        },
+        {
+          "originalPath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r2/preproduction/duck-character-study-v1.png",
+          "sha256": "30b08a0cf9b5affa30edf8e694da90ae3d7c04fd0c6456df68a994c11dbe9f5b",
+          "preservedPaths": [
+            "references/reused/30b08a0cf9b5/duck-character-study-v1.png"
+          ]
+        }
+      ],
+      "output": {
+        "path": "masters/scene-35-v1.png",
+        "sha256": "392f054c26590746d2d4ce0e90593c2b06437dd7e20d1dbb9ad398b67ccfef9f",
+        "originalCompared": true
+      }
+    },
+    {
+      "record": "records/scene-37-v1.json",
+      "recordSha256": "09e0cce4b86cb0e142414600a8afeed1023da3143f9c238f2f16f67f4edee035",
+      "prompt": "prompts/scene-37-v1.txt",
+      "promptFileSha256": "7e79a5fa31856cd175551deb902fd070ece7d11306209929b22288d043ac025e",
+      "inlinePromptSha256": null,
+      "inputs": [
+        {
+          "originalPath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r2/masters/scene-32-v2.png",
+          "sha256": "873a181ef800a93feb08a8311ac7c254a995eebfddad00b4cdba7668ffb4321d",
+          "preservedPaths": [
+            "references/873a181ef800-scene-32-v2.png"
+          ]
+        },
+        {
+          "originalPath": "/Users/miguel_lemos/.codex/generated_images/01a0be6f-b832-7d93-95df-9d2ff5f69dc1/exec-2f4db024-fa61-4564-bc96-05e5f2cc4ca1.png",
+          "sha256": "a3154c249f55f23b653357508afda34950947c6bb4b8c64812a6c4260dbaf234",
+          "preservedPaths": [
+            "masters/scene-31-v1.png"
+          ]
+        }
+      ],
+      "output": {
+        "path": "masters/scene-37-v1.png",
+        "sha256": "904dc3e4af9602fa97042cda866ab09b36b65172106b8a356c5ce98ccecc151d",
+        "originalCompared": true
+      }
+    },
+    {
+      "record": "records/scene-38-v1.json",
+      "recordSha256": "5154346b0c0f59d186323c043e0afd3c413a2c80b93fb5701e1d422366ebd7c4",
+      "prompt": "prompts/scene-38-v1.txt",
+      "promptFileSha256": "dc35dcefe34c460b7a3556e8f7755897c5b4558b55990c4889e683ac46d4a694",
+      "inlinePromptSha256": null,
+      "inputs": [
+        {
+          "originalPath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r2/masters/scene-33-v2.png",
+          "sha256": "254a49ef3a8b0f491d4121f3a34aa1e28f65a30c05bfbd21b9f3539786eb8c54",
+          "preservedPaths": [
+            "references/254a49ef3a8b-scene-33-v2.png"
+          ]
+        },
+        {
+          "originalPath": "/Users/miguel_lemos/.codex/generated_images/01a0be6f-b832-7d93-95df-9d2ff5f69dc1/exec-2f4db024-fa61-4564-bc96-05e5f2cc4ca1.png",
+          "sha256": "a3154c249f55f23b653357508afda34950947c6bb4b8c64812a6c4260dbaf234",
+          "preservedPaths": [
+            "masters/scene-31-v1.png"
+          ]
+        }
+      ],
+      "output": {
+        "path": "masters/scene-38-v1.png",
+        "sha256": "ca88a7525c373d0b5e476e0968ffbb1788ac45dff7766b041ee3e07883aa4f13",
+        "originalCompared": true
+      }
+    },
+    {
+      "record": "records/scene-38-v2.json",
+      "recordSha256": "21cf7c78753fa74560d115aa0fa335f5c510bbf33814489d5556a8ebe027cbbf",
+      "prompt": "prompts/scene-38-v2.txt",
+      "promptFileSha256": "a8739c810869ce2ef3f8b57d430a0988bd3e43d7030d213573d756ef439bc6aa",
+      "inlinePromptSha256": null,
+      "inputs": [
+        {
+          "originalPath": "/Users/miguel_lemos/.codex/generated_images/01a0be6f-b832-7d93-95df-9d2ff5f69dc1/exec-c74dcabc-c79e-4b51-bc04-e197bd50386d.png",
+          "sha256": "ca88a7525c373d0b5e476e0968ffbb1788ac45dff7766b041ee3e07883aa4f13",
+          "preservedPaths": [
+            "masters/scene-38-v1.png"
+          ]
+        }
+      ],
+      "output": {
+        "path": "masters/scene-38-v2.png",
+        "sha256": "ee82a631290c75c9f1345c6ad6cd416cefe8050622a2d68ed60fb10f402d2684",
+        "originalCompared": true
+      }
+    },
+    {
+      "record": "records/scene-39-v1.json",
+      "recordSha256": "6c9c06860ad7c556ce8526680c69e5c5be0c8e87d798cfcd9787539f7a8f50a8",
+      "prompt": "prompts/scene-39-v1.txt",
+      "promptFileSha256": "0d9f7c06d7417b03025608f96612c877bbc803ad2e4e54e49a2b3468d7c7f567",
+      "inlinePromptSha256": null,
+      "inputs": [
+        {
+          "originalPath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r3/masters/scene-28-v1.png",
+          "sha256": "d80cd9f09eaa764258cf96cf54a4ad0967f6839392eff35842ebc0ba968a70a2",
+          "preservedPaths": [
+            "masters/scene-28-v1.png"
+          ]
+        },
+        {
+          "originalPath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r2/masters/scene-34-v1.png",
+          "sha256": "7d443fcff4a7b7ca4cd126b2a90fe72c702aece5e6eb94425b223407127a81bf",
+          "preservedPaths": [
+            "references/7d443fcff4a7-scene-34-v1.png"
+          ]
+        },
+        {
+          "originalPath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r2/preproduction/duck-character-study-v1.png",
+          "sha256": "30b08a0cf9b5affa30edf8e694da90ae3d7c04fd0c6456df68a994c11dbe9f5b",
+          "preservedPaths": [
+            "references/reused/30b08a0cf9b5/duck-character-study-v1.png"
+          ]
+        }
+      ],
+      "output": {
+        "path": "masters/scene-39-v1.png",
+        "sha256": "1072808d9e5e1229b2833bd00f46112e71406b6f73846e7bded091541a20f0aa",
+        "originalCompared": true
+      }
+    },
+    {
+      "record": "records/scene-40-v1.json",
+      "recordSha256": "d070469819714f5e9f4f6e3b64999bf8bcc2082e32748d8d85ed83eca2c92b18",
+      "prompt": "prompts/scene-40-v1.txt",
+      "promptFileSha256": "cfbad4128a130572f957cb27898a69d44cd2faf4489502dd5f50da1617befbe6",
+      "inlinePromptSha256": null,
+      "inputs": [
+        {
+          "originalPath": "/Users/miguel_lemos/.codex/generated_images/01a0be6f-b832-7d93-95df-9d2ff5f69dc1/exec-e95b695f-4921-4676-8eea-c243154d5c62.png",
+          "sha256": "1cc27299d44ee4501bb21d1377f8ed3d42e9d08c94c7a2dfa7feabacee9754f9",
+          "preservedPaths": [
+            "masters/scene-34-v1.png"
+          ]
+        },
+        {
+          "originalPath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r2/preproduction/duck-character-study-v1.png",
+          "sha256": "30b08a0cf9b5affa30edf8e694da90ae3d7c04fd0c6456df68a994c11dbe9f5b",
+          "preservedPaths": [
+            "references/reused/30b08a0cf9b5/duck-character-study-v1.png"
+          ]
+        },
+        {
+          "originalPath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r3/masters/scene-28-v1.png",
+          "sha256": "d80cd9f09eaa764258cf96cf54a4ad0967f6839392eff35842ebc0ba968a70a2",
+          "preservedPaths": [
+            "masters/scene-28-v1.png"
+          ]
+        }
+      ],
+      "output": {
+        "path": "masters/scene-40-v1.png",
+        "sha256": "a3a0d8f470ed8c2c1946640fb19951e0173ea352064c2a8c757aabff079883e9",
+        "originalCompared": true
+      }
+    },
+    {
+      "record": "records/scene-41-v1.json",
+      "recordSha256": "f6c88ed58df8a3ee2ed2b0a92db30b0f3b85ebeb75dc1f9ed97a37641517c8c5",
+      "prompt": "prompts/scene-41-v1.txt",
+      "promptFileSha256": "57ee579e9ec3f17a67512d7dd8d87a5315d7bffa599dba79a3f33dc5a005c452",
+      "inlinePromptSha256": null,
+      "inputs": [
+        {
+          "originalPath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r2/masters/scene-36-v2.png",
+          "sha256": "73b31d237a2ae07b67a7de9984ab019c95f64342be7d1e2ba12df4d30a40d0a9",
+          "preservedPaths": [
+            "references/73b31d237a2a-scene-36-v2.png"
+          ]
+        },
+        {
+          "originalPath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r3/masters/scene-28-v1.png",
+          "sha256": "d80cd9f09eaa764258cf96cf54a4ad0967f6839392eff35842ebc0ba968a70a2",
+          "preservedPaths": [
+            "masters/scene-28-v1.png"
+          ]
+        },
+        {
+          "originalPath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r2/preproduction/duck-character-study-v1.png",
+          "sha256": "30b08a0cf9b5affa30edf8e694da90ae3d7c04fd0c6456df68a994c11dbe9f5b",
+          "preservedPaths": [
+            "references/reused/30b08a0cf9b5/duck-character-study-v1.png"
+          ]
+        }
+      ],
+      "output": {
+        "path": "masters/scene-41-v1.png",
+        "sha256": "50ac32d0bdc0392369db30564fd5505a0859fe988b5dd630c4febfe4a2d80ae1",
+        "originalCompared": true
+      }
+    },
+    {
+      "record": "records/scene-42-v1.json",
+      "recordSha256": "b4f93f7011365c3ad7ec3a98cbb9c2ed56b00253e9d92999be613d6cbb940562",
+      "prompt": "prompts/scene-42-v1.txt",
+      "promptFileSha256": "7c4647c34ae71768f66fd361c73a2c40ac4207ed055100c117050231c7e49373",
+      "inlinePromptSha256": "7c4647c34ae71768f66fd361c73a2c40ac4207ed055100c117050231c7e49373",
+      "inputs": [
+        {
+          "originalPath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r3/geometry/papa-jump-wide/still.png",
+          "sha256": "cb91e76de0050d65f75d26a60eca7976044d2cd7e2f7515a751483d7953b63de",
+          "preservedPaths": [
+            "geometry/papa-jump-wide-prepared/geometry-reference.png",
+            "geometry/papa-jump-wide/still.png"
+          ]
+        },
+        {
+          "originalPath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r3/masters/scene-28-v1.png",
+          "sha256": "d80cd9f09eaa764258cf96cf54a4ad0967f6839392eff35842ebc0ba968a70a2",
+          "preservedPaths": [
+            "masters/scene-28-v1.png"
+          ]
+        }
+      ],
+      "output": {
+        "path": "masters/scene-42-v1.png",
+        "sha256": "a78ac1ac92044f6d3b24362c8dcc08b1778321aa80784e632ebb0e809b8bcc0a",
+        "originalCompared": true
+      }
+    },
+    {
+      "record": "records/scene-62-v1.json",
+      "recordSha256": "fe3f3666c13fc1839f499ac5facc1ded4551090e53687ec51b57dc180c7a07d5",
+      "prompt": "prompts/scene-62-v1.txt",
+      "promptFileSha256": "3f95238a8b3fdfb61296a1a78588e450d85198627b0003b7f623e3ec04a523bf",
+      "inlinePromptSha256": "3f95238a8b3fdfb61296a1a78588e450d85198627b0003b7f623e3ec04a523bf",
+      "inputs": [
+        {
+          "originalPath": "/Users/miguel_lemos/anastasia-pinpin-repos/mr-pinpin-source/docs/storyboard/images/chapter-01-direct/12-wet-hello.png",
+          "sha256": "432055d7de586ac289d202a8d4d7604f0798110dc57c0d192f7b32515eb40a9a",
+          "preservedPaths": [
+            "references/432055d7de58-12-wet-hello.png"
+          ]
+        },
+        {
+          "originalPath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r2/masters/scene-11-v2.png",
+          "sha256": "de367693f2102482e5d4f5b18acb3e599d02c89ee8c293a831ae7e2454473b77",
+          "preservedPaths": [
+            "masters/reused/scene-10/scene-11-v2.png"
+          ]
+        },
+        {
+          "originalPath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r2/masters/scene-56-v1.png",
+          "sha256": "e085e63da63fc521e40b38fccf0ee1c9f937e542282fa48b0ea982f57c42df84",
+          "preservedPaths": [
+            "masters/reused/scene-61/scene-56-v1.png"
+          ]
+        }
+      ],
+      "output": {
+        "path": "masters/scene-62-v1.png",
+        "sha256": "a227c9bfa884f811c1c2073c26479582fd66730b193e47020d857f89db8bcf22",
+        "originalCompared": true
+      }
+    },
+    {
+      "record": "records/title-v1.json",
+      "recordSha256": "dfa2d1679ae4fe96234c3b3b65e8a8b94265cc3e713d56d73ca9acf9cc9c16ec",
+      "prompt": "prompts/title-v1.txt",
+      "promptFileSha256": "ca97b4b2f1c03d218dcf49f996a4eff07c63ef7b7ef02dc0b9e3366efe114817",
+      "inlinePromptSha256": null,
+      "inputs": [
+        {
+          "originalPath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r3/masters/scene-28-v1.png",
+          "sha256": "d80cd9f09eaa764258cf96cf54a4ad0967f6839392eff35842ebc0ba968a70a2",
+          "preservedPaths": [
+            "masters/scene-28-v1.png"
+          ]
+        }
+      ],
+      "output": {
+        "path": "masters/title-v1.png",
+        "sha256": "22e7020ee5a718418f838af3e5cb9fed1b464a0077e9b182e054b237588b981c",
+        "originalCompared": true
+      }
+    }
+  ],
+  "uniqueInputHashes": 28
+}

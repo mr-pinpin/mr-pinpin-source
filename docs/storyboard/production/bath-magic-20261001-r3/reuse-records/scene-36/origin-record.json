@@ -1,0 +1,26 @@
+{
+  "id": "scene-31-v2",
+  "prompt": "Use case: precise-object-edit. Input image 1 is the only edit target. Make one localized background correction to this finished children's book illustration: remove ONLY the erroneous floral ceramic washbasin at the extreme UPPER RIGHT and its short little supporting ledge/stand. Fill that small right background area naturally with the existing warm golden plaster wall and honey timber continuation, keeping the nearby hanging striped towel where it is. The correct LEFT background washstand with its floral pitcher, flowers and soap must remain exactly unchanged. Preserve the magical wooden duck completely: same expressive direct-to-camera eyes, wide open orange beak, exact carved wood grain, shape, position, droplets and golden sparkles. Preserve the active fountain on the left, all bath water, tub rim, circular glazed window, lighting, colors, camera and crop. Do not change any other portion of the image. No text or borders.",
+  "referenced_image_paths": [
+    "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r2/masters/scene-31-v1.png"
+  ],
+  "inputHashes": {
+    "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r2/masters/scene-31-v1.png": "8f9c2b05725968d5e75a464d26f63ee4c9e7a922620c7a270e398a8671f65ffd"
+  },
+  "startedAt": "2026-10-01T05:57:30.454790+00:00",
+  "editType": "precise-object-edit",
+  "preservesVersion": "scene-31-v1",
+  "tool": "image_gen__imagegen",
+  "generatedAt": "2026-10-01T05:59:09.150025+00:00",
+  "sourceOutputPath": "/Users/miguel_lemos/.codex/generated_images/01a0f5c3-a7d1-70d0-b8cf-581aa5deee53/exec-b7a162d1-e232-44f8-a4e4-2727d13b7215.png",
+  "savedOriginalPath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r2/masters/scene-31-v2.png",
+  "imageSha256": "294b40fd2c984f56d3ed2116431aebd355161bb6ecac9ba22861773b186b41b0",
+  "promptSha256": "cd7068afc658176b5c792e6e9c99537abd131a57300df06ca461291fc9af433f",
+  "reviewStatus": "visually reviewed draft; selected for user review",
+  "visualReview": "PASS: duplicate upper-right floral basin and its stand removed; warm plaster/timber fills region naturally. Left washstand/pitcher retained. Direct-camera expressive wooden duck, open beak, sparkles, water fountain and round glazed window preserved.",
+  "selectedForDraft": true,
+  "promptPath": "/Users/miguel_lemos/anastasia-pinpin-repos/mr-pinpin-source/docs/storyboard/production/bath-magic-20261001-r2/prompts/scene-31-v2.txt",
+  "references": [
+    "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r2/masters/scene-31-v1.png"
+  ]
+}

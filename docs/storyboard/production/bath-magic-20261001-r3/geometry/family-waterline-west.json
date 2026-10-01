@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "id": "bath-magic-r3-family-waterline-west",
+  "location": "docs/storyboard/locations/pinpin-house/location.json",
+  "camera": {
+    "position": [
+      -2.72,
+      2.65,
+      0.59
+    ],
+    "target": [
+      -3.95,
+      2.66,
+      0.65
+    ],
+    "lensMm": 24,
+    "width": 1400,
+    "height": 1000
+  },
+  "doorStates": {
+    "door-front": 0,
+    "door-bath": 75,
+    "door-bedroom": 0
+  },
+  "prompt": {
+    "template": "still",
+    "intent": "Camera just outside east rim, looking west at shared family play; left wall washstand stays spatially left, no invented second room window.",
+    "characters": "No characters; empty architectural location study.",
+    "action": "No action; preserve all furnishings and openings.",
+    "lighting": "Warm gentle daytime with soft fill; maintain the rendered direction of window illumination.",
+    "referenceIds": [
+      "bathroom-book"
+    ]
+  }
+}

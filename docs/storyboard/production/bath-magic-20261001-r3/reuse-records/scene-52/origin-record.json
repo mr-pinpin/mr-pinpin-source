@@ -1,0 +1,25 @@
+{
+  "id": "scene-29-v2",
+  "prompt": "Use case: precise-object-edit. Make only ONE precise edit to this picture: reduce the fountain dramatically. It is almost stopped: a tiny vertical spurt just TWO CENTIMETERS high over the water, no arch, no goldcircle. Keep exact tub, camera, twohedgehogs Mama and PinPin and their expressions, paws, positions, all morninglighting and beautifulstyle unchanged. Floor stillwet. No extraanimals. Full landscape3:2 image, no text or borders.",
+  "referenced_image_paths": [
+    "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001/masters/scene-29-v1.png"
+  ],
+  "editTarget": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001/masters/scene-29-v1.png",
+  "inputHashes": {
+    "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001/masters/scene-29-v1.png": "a7164c3fd7ff117f62a0458fa1299ed7334b90b061b7544554cb551d28c98ea1"
+  },
+  "startedAt": "2026-10-01T04:58:21.400512+00:00",
+  "tool": "image_gen__imagegen",
+  "generatedAt": "2026-10-01T04:59:36.824246+00:00",
+  "sourceOutputPath": "/Users/miguel_lemos/.codex/generated_images/01a0f5c3-a7d1-70d0-b8cf-581aa5deee53/exec-db1b1ab5-f5fb-4c37-b465-0ba484687bcc.png",
+  "savedOriginalPath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001/masters/scene-29-v2.png",
+  "imageSha256": "3ce65ece0c8d00f06c02f5001076649d55a4ba3997a6fb598f1d6db6f4da1d3a",
+  "promptSha256": "5f0ddc7082e0e083e7412f576ae188a388dd7eee985a170c3e7fa99a8ca472c4",
+  "reviewStatus": "visually reviewed draft; selected for user review",
+  "selectedForDraft": true,
+  "visualReview": "V2 reduces initial oversized arch to tiny final spurt, sustaining decreasing-water sequence.",
+  "promptPath": "prompts/scene-29-v2.txt",
+  "references": [
+    "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001/masters/scene-29-v1.png"
+  ]
+}

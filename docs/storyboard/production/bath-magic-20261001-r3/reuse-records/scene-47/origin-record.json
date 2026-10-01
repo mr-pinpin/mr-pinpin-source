@@ -1,0 +1,37 @@
+{
+  "tool": "image_gen__imagegen",
+  "generatedAt": "2026-10-01T04:56:37.142Z",
+  "promptPath": "prompts/scene-24-v1.txt",
+  "sourceOutput": "/Users/miguel_lemos/.codex/generated_images/01a0be6f-b832-7d93-95df-9d2ff5f69dc1/exec-1db9ffef-3517-4229-ad4b-5002bf3be374.png",
+  "references": [
+    "/Users/miguel_lemos/anastasia-pinpin-repos/mr-pinpin-source/docs/storyboard/images/published/elder-cycle/elder-r6-family-015.webp",
+    "/Users/miguel_lemos/.codex/generated_images/01a0be6f-b832-7d93-95df-9d2ff5f69dc1/exec-26d11f90-c65d-443a-b70c-828f65cf614d.png",
+    "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001/geometry/bath-wide/still.png"
+  ],
+  "geometryGuide": "bath-wide",
+  "visualReview": "Passed anatomy/action first visual review; draft.",
+  "referenceIdentities": [
+    {
+      "path": "/Users/miguel_lemos/anastasia-pinpin-repos/mr-pinpin-source/docs/storyboard/images/published/elder-cycle/elder-r6-family-015.webp",
+      "bytes": 482926,
+      "sha256": "076321ed693bb541c91d99b4ab6fbb7cf0c7ed19c0fcf2c0dfb70b1e668d428e"
+    },
+    {
+      "path": "/Users/miguel_lemos/.codex/generated_images/01a0be6f-b832-7d93-95df-9d2ff5f69dc1/exec-26d11f90-c65d-443a-b70c-828f65cf614d.png",
+      "bytes": 2386127,
+      "sha256": "86bc2c1437ac47165dd473efc1742646db52efadc0dc6ce977047d3efb7f44ae"
+    },
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001/geometry/bath-wide/still.png",
+      "bytes": 1051572,
+      "sha256": "15055ecccbc2cd12c5ab1732988909425e4bae8188a61eec3b63aae521d9f413"
+    }
+  ],
+  "promptSha256": "f1d4af9c856750b539af5dc237263ae1b8e4191ad09cc83599819a06589b2840",
+  "master": {
+    "path": "masters/scene-24-v1.png",
+    "bytes": 2478815,
+    "sha256": "bd139a9d2deb8c2233c33db9d4d1320c2200881c7027f201b925c33e2abd9641"
+  },
+  "approval": "draft-for-review"
+}

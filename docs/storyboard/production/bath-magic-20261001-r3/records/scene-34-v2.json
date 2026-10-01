@@ -1,0 +1,25 @@
+{
+  "tool": "image_gen__imagegen",
+  "generatedAt": "2026-10-01T07:04:27.872Z",
+  "promptPath": "prompts/scene-34-v2.txt",
+  "sourceOutput": "/Users/miguel_lemos/.codex/generated_images/01a0be6f-b832-7d93-95df-9d2ff5f69dc1/exec-b8076725-4b51-4db2-ada4-4c98f6c023cf.png",
+  "references": [
+    "/Users/miguel_lemos/.codex/generated_images/01a0be6f-b832-7d93-95df-9d2ff5f69dc1/exec-e95b695f-4921-4676-8eea-c243154d5c62.png"
+  ],
+  "revisionOf": "scene-34-v1",
+  "visualReview": "Passed: extra third infant hand removed, two correct forepaws and two feet preserved, mother support and flower reach remain readable.",
+  "referenceIdentities": [
+    {
+      "path": "/Users/miguel_lemos/.codex/generated_images/01a0be6f-b832-7d93-95df-9d2ff5f69dc1/exec-e95b695f-4921-4676-8eea-c243154d5c62.png",
+      "bytes": 2383353,
+      "sha256": "1cc27299d44ee4501bb21d1377f8ed3d42e9d08c94c7a2dfa7feabacee9754f9"
+    }
+  ],
+  "promptSha256": "7b8fb44c20b65c9def3ecb246e1f560a0bba93a32598158527d4d07194c04a89",
+  "master": {
+    "path": "masters/scene-34-v2.png",
+    "bytes": 2341797,
+    "sha256": "2aa216deeb9e1c7cbb629a080ce190e385fc18bd2b328010cab43b45a1030aff"
+  },
+  "approval": "draft-for-review"
+}

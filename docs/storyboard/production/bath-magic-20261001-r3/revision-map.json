@@ -1,0 +1,340 @@
+{
+  "productionId": "bath-magic-20261001-r3",
+  "baseProduction": "bath-magic-20261001-r2",
+  "storyCount": 62,
+  "reusedCount": 38,
+  "newCount": 24,
+  "newCover": true,
+  "scenes": [
+    {
+      "id": "scene-01",
+      "reusedFrom": "scene-01",
+      "requiredNewImage": false
+    },
+    {
+      "id": "scene-02",
+      "reusedFrom": "scene-02",
+      "requiredNewImage": false
+    },
+    {
+      "id": "scene-03",
+      "reusedFrom": "scene-03",
+      "requiredNewImage": false
+    },
+    {
+      "id": "scene-04",
+      "reusedFrom": "scene-05",
+      "requiredNewImage": false
+    },
+    {
+      "id": "scene-05",
+      "reusedFrom": "scene-06",
+      "requiredNewImage": false
+    },
+    {
+      "id": "scene-06",
+      "reusedFrom": "scene-07",
+      "requiredNewImage": false
+    },
+    {
+      "id": "scene-07",
+      "reusedFrom": "scene-08",
+      "requiredNewImage": false
+    },
+    {
+      "id": "scene-08",
+      "reusedFrom": null,
+      "requiredNewImage": true
+    },
+    {
+      "id": "scene-09",
+      "reusedFrom": "scene-10",
+      "requiredNewImage": false
+    },
+    {
+      "id": "scene-10",
+      "reusedFrom": "scene-11",
+      "requiredNewImage": false
+    },
+    {
+      "id": "scene-11",
+      "reusedFrom": "scene-12",
+      "requiredNewImage": false
+    },
+    {
+      "id": "scene-12",
+      "reusedFrom": "scene-13",
+      "requiredNewImage": false
+    },
+    {
+      "id": "scene-13",
+      "reusedFrom": "scene-15",
+      "requiredNewImage": false
+    },
+    {
+      "id": "scene-14",
+      "reusedFrom": "scene-16",
+      "requiredNewImage": false
+    },
+    {
+      "id": "scene-15",
+      "reusedFrom": null,
+      "requiredNewImage": true
+    },
+    {
+      "id": "scene-16",
+      "reusedFrom": "scene-18",
+      "requiredNewImage": false
+    },
+    {
+      "id": "scene-17",
+      "reusedFrom": "scene-19",
+      "requiredNewImage": false
+    },
+    {
+      "id": "scene-18",
+      "reusedFrom": "scene-20",
+      "requiredNewImage": false
+    },
+    {
+      "id": "scene-19",
+      "reusedFrom": "scene-21",
+      "requiredNewImage": false
+    },
+    {
+      "id": "scene-20",
+      "reusedFrom": "scene-22",
+      "requiredNewImage": false
+    },
+    {
+      "id": "scene-21",
+      "reusedFrom": null,
+      "requiredNewImage": true
+    },
+    {
+      "id": "scene-22",
+      "reusedFrom": null,
+      "requiredNewImage": true
+    },
+    {
+      "id": "scene-23",
+      "reusedFrom": null,
+      "requiredNewImage": true
+    },
+    {
+      "id": "scene-24",
+      "reusedFrom": null,
+      "requiredNewImage": true
+    },
+    {
+      "id": "scene-25",
+      "reusedFrom": null,
+      "requiredNewImage": true
+    },
+    {
+      "id": "scene-26",
+      "reusedFrom": null,
+      "requiredNewImage": true
+    },
+    {
+      "id": "scene-27",
+      "reusedFrom": null,
+      "requiredNewImage": true
+    },
+    {
+      "id": "scene-28",
+      "reusedFrom": null,
+      "requiredNewImage": true
+    },
+    {
+      "id": "scene-29",
+      "reusedFrom": null,
+      "requiredNewImage": true
+    },
+    {
+      "id": "scene-30",
+      "reusedFrom": null,
+      "requiredNewImage": true
+    },
+    {
+      "id": "scene-31",
+      "reusedFrom": null,
+      "requiredNewImage": true
+    },
+    {
+      "id": "scene-32",
+      "reusedFrom": null,
+      "requiredNewImage": true
+    },
+    {
+      "id": "scene-33",
+      "reusedFrom": null,
+      "requiredNewImage": true
+    },
+    {
+      "id": "scene-34",
+      "reusedFrom": null,
+      "requiredNewImage": true
+    },
+    {
+      "id": "scene-35",
+      "reusedFrom": null,
+      "requiredNewImage": true
+    },
+    {
+      "id": "scene-36",
+      "reusedFrom": "scene-31",
+      "requiredNewImage": false
+    },
+    {
+      "id": "scene-37",
+      "reusedFrom": null,
+      "requiredNewImage": true
+    },
+    {
+      "id": "scene-38",
+      "reusedFrom": null,
+      "requiredNewImage": true
+    },
+    {
+      "id": "scene-39",
+      "reusedFrom": null,
+      "requiredNewImage": true
+    },
+    {
+      "id": "scene-40",
+      "reusedFrom": null,
+      "requiredNewImage": true
+    },
+    {
+      "id": "scene-41",
+      "reusedFrom": null,
+      "requiredNewImage": true
+    },
+    {
+      "id": "scene-42",
+      "reusedFrom": null,
+      "requiredNewImage": true
+    },
+    {
+      "id": "scene-43",
+      "reusedFrom": "scene-37",
+      "requiredNewImage": false
+    },
+    {
+      "id": "scene-44",
+      "reusedFrom": "scene-38",
+      "requiredNewImage": false
+    },
+    {
+      "id": "scene-45",
+      "reusedFrom": "scene-39",
+      "requiredNewImage": false
+    },
+    {
+      "id": "scene-46",
+      "reusedFrom": "scene-40",
+      "requiredNewImage": false
+    },
+    {
+      "id": "scene-47",
+      "reusedFrom": "scene-41",
+      "requiredNewImage": false
+    },
+    {
+      "id": "scene-48",
+      "reusedFrom": "scene-42",
+      "requiredNewImage": false
+    },
+    {
+      "id": "scene-49",
+      "reusedFrom": "scene-43",
+      "requiredNewImage": false
+    },
+    {
+      "id": "scene-50",
+      "reusedFrom": "scene-44",
+      "requiredNewImage": false
+    },
+    {
+      "id": "scene-51",
+      "reusedFrom": "scene-45",
+      "requiredNewImage": false
+    },
+    {
+      "id": "scene-52",
+      "reusedFrom": "scene-46",
+      "requiredNewImage": false
+    },
+    {
+      "id": "scene-53",
+      "reusedFrom": "scene-47",
+      "requiredNewImage": false
+    },
+    {
+      "id": "scene-54",
+      "reusedFrom": "scene-48",
+      "requiredNewImage": false
+    },
+    {
+      "id": "scene-55",
+      "reusedFrom": "scene-49",
+      "requiredNewImage": false
+    },
+    {
+      "id": "scene-56",
+      "reusedFrom": "scene-50",
+      "requiredNewImage": false
+    },
+    {
+      "id": "scene-57",
+      "reusedFrom": "scene-51",
+      "requiredNewImage": false
+    },
+    {
+      "id": "scene-58",
+      "reusedFrom": "scene-52",
+      "requiredNewImage": false
+    },
+    {
+      "id": "scene-59",
+      "reusedFrom": "scene-54",
+      "requiredNewImage": false
+    },
+    {
+      "id": "scene-60",
+      "reusedFrom": "scene-55",
+      "requiredNewImage": false
+    },
+    {
+      "id": "scene-61",
+      "reusedFrom": "scene-56",
+      "requiredNewImage": false
+    },
+    {
+      "id": "scene-62",
+      "reusedFrom": null,
+      "requiredNewImage": true
+    }
+  ],
+  "removedR2Scenes": [
+    "scene-04",
+    "scene-09",
+    "scene-14",
+    "scene-17",
+    "scene-23",
+    "scene-24",
+    "scene-25",
+    "scene-26",
+    "scene-27",
+    "scene-28",
+    "scene-29",
+    "scene-30",
+    "scene-32",
+    "scene-33",
+    "scene-34",
+    "scene-35",
+    "scene-36",
+    "scene-53"
+  ]
+}

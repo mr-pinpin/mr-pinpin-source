@@ -1,0 +1,30 @@
+{
+  "tool": "image_gen__imagegen",
+  "generatedAt": "2026-10-01T06:57:17.273Z",
+  "promptPath": "prompts/scene-32-v1.txt",
+  "sourceOutput": "/Users/miguel_lemos/.codex/generated_images/01a0be6f-b832-7d93-95df-9d2ff5f69dc1/exec-322e4782-8091-4b6c-92f7-3c78d3c46f1e.png",
+  "references": [
+    "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r3/masters/scene-28-v1.png",
+    "/Users/miguel_lemos/.codex/generated_images/01a0be6f-b832-7d93-95df-9d2ff5f69dc1/exec-61605fc3-31d7-4057-a0e9-2043639c0019.png"
+  ],
+  "visualReview": "Reviewed full output: correct family scale and seated bath continuity; warm established style. Flowers persist; duck appearance follows its story state. Selected for draft review.",
+  "referenceIdentities": [
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r3/masters/scene-28-v1.png",
+      "bytes": 2749872,
+      "sha256": "d80cd9f09eaa764258cf96cf54a4ad0967f6839392eff35842ebc0ba968a70a2"
+    },
+    {
+      "path": "/Users/miguel_lemos/.codex/generated_images/01a0be6f-b832-7d93-95df-9d2ff5f69dc1/exec-61605fc3-31d7-4057-a0e9-2043639c0019.png",
+      "bytes": 2250343,
+      "sha256": "e4f7084e31c41fb4b6a40833c28806a8bd3cdd6eef4a8b0181552c59ccbdb0e5"
+    }
+  ],
+  "promptSha256": "a288a328e36d7ca1312e4d3f07871e8ecf5f1ec9d318345fbb0ae70965135af0",
+  "master": {
+    "path": "masters/scene-32-v1.png",
+    "bytes": 2592266,
+    "sha256": "f1a749a9697fe70f7a5a9375184356b3ba46b2fdbbc57ec7f56a07557e6ee0a7"
+  },
+  "approval": "draft-for-review"
+}

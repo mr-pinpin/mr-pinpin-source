@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "id": "bath-magic-r3-underwater-child-face",
+  "location": "docs/storyboard/locations/pinpin-house/location.json",
+  "camera": {
+    "position": [
+      -3.18,
+      2.64,
+      0.3
+    ],
+    "target": [
+      -3.85,
+      2.65,
+      0.31
+    ],
+    "lensMm": 24,
+    "width": 1400,
+    "height": 1000
+  },
+  "doorStates": {
+    "door-front": 0,
+    "door-bath": 75,
+    "door-bedroom": 0
+  },
+  "prompt": {
+    "template": "still",
+    "intent": "Camera genuinely submerged inside bathtub looking horizontally toward PinPin submerged face and nose close to lens, bubbles rising; image model supplies transparent water/refraction and actual character, not in empty architectural guide.",
+    "characters": "No characters; empty architectural location study.",
+    "action": "No action; preserve all furnishings and openings.",
+    "lighting": "Warm gentle daytime with soft fill; maintain the rendered direction of window illumination.",
+    "referenceIds": [
+      "bathroom-book"
+    ]
+  }
+}

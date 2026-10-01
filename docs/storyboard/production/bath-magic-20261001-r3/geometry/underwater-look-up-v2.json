@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "id": "bath-magic-r3-underwater-look-up-v2",
+  "location": "docs/storyboard/locations/pinpin-house/location.json",
+  "camera": {
+    "position": [
+      -3.15,
+      2.64,
+      0.3
+    ],
+    "target": [
+      -3.95,
+      2.65,
+      0.82
+    ],
+    "lensMm": 20,
+    "width": 1400,
+    "height": 1000
+  },
+  "doorStates": {
+    "door-front": 0,
+    "door-bath": 75,
+    "door-bedroom": 0
+  },
+  "prompt": {
+    "template": "still",
+    "intent": "Submerged camera in east tub looks upward with enough lower framing to retain opposite rim and shallow bath enclosure, family faces above wavering surface and later floating petals. Guide itself is dry geometry only.",
+    "characters": "No characters; empty architectural location study.",
+    "action": "No action; preserve all furnishings and openings.",
+    "lighting": "Warm gentle daytime with soft fill; maintain the rendered direction of window illumination.",
+    "referenceIds": [
+      "bathroom-book"
+    ]
+  }
+}

@@ -1,0 +1,248 @@
+{
+  "guides": [
+    {
+      "id": "family-bath-highangle",
+      "camera": {
+        "position": [
+          -1.97,
+          1.28,
+          1.85
+        ],
+        "target": [
+          -3.738,
+          2.666,
+          0.4
+        ],
+        "lensMm": 24,
+        "width": 1400,
+        "height": 1000
+      },
+      "doorStates": {
+        "door-front": 0,
+        "door-bath": 75,
+        "door-bedroom": 0
+      },
+      "valid": true,
+      "validation": "{\"pass\": true, \"artifactCount\": 1}",
+      "selected": true,
+      "manifest": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r3/geometry/family-bath-highangle/render-manifest.json"
+    },
+    {
+      "id": "family-overhead-bath",
+      "camera": {
+        "position": [
+          -3.7,
+          2.65,
+          2.2
+        ],
+        "target": [
+          -3.738,
+          2.666,
+          0.2
+        ],
+        "lensMm": 28,
+        "width": 1400,
+        "height": 1000
+      },
+      "doorStates": {
+        "door-front": 0,
+        "door-bath": 75,
+        "door-bedroom": 0
+      },
+      "valid": true,
+      "validation": "{\"pass\": true, \"artifactCount\": 1}",
+      "selected": true,
+      "manifest": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r3/geometry/family-overhead-bath/render-manifest.json"
+    },
+    {
+      "id": "family-waterline-west",
+      "camera": {
+        "position": [
+          -2.72,
+          2.65,
+          0.59
+        ],
+        "target": [
+          -3.95,
+          2.66,
+          0.65
+        ],
+        "lensMm": 24,
+        "width": 1400,
+        "height": 1000
+      },
+      "doorStates": {
+        "door-front": 0,
+        "door-bath": 75,
+        "door-bedroom": 0
+      },
+      "valid": true,
+      "validation": "{\"pass\": true, \"artifactCount\": 1}",
+      "selected": true,
+      "manifest": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r3/geometry/family-waterline-west/render-manifest.json"
+    },
+    {
+      "id": "mama-entry-profile",
+      "camera": {
+        "position": [
+          -3.7,
+          1.66,
+          0.8
+        ],
+        "target": [
+          -3.7,
+          2.68,
+          0.73
+        ],
+        "lensMm": 24,
+        "width": 1400,
+        "height": 1000
+      },
+      "doorStates": {
+        "door-front": 0,
+        "door-bath": 75,
+        "door-bedroom": 0
+      },
+      "valid": true,
+      "validation": "{\"pass\": true, \"artifactCount\": 1}",
+      "selected": true,
+      "manifest": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r3/geometry/mama-entry-profile/render-manifest.json"
+    },
+    {
+      "id": "papa-jump-wide",
+      "camera": {
+        "position": [
+          -1.97,
+          1.28,
+          0.84
+        ],
+        "target": [
+          -3.738,
+          2.666,
+          0.83
+        ],
+        "lensMm": 20,
+        "width": 1400,
+        "height": 1000
+      },
+      "doorStates": {
+        "door-front": 0,
+        "door-bath": 75,
+        "door-bedroom": 0
+      },
+      "valid": true,
+      "validation": "{\"pass\": true, \"artifactCount\": 1}",
+      "selected": true,
+      "manifest": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r3/geometry/papa-jump-wide/render-manifest.json"
+    },
+    {
+      "id": "underwater-child-face",
+      "camera": {
+        "position": [
+          -3.18,
+          2.64,
+          0.3
+        ],
+        "target": [
+          -3.85,
+          2.65,
+          0.31
+        ],
+        "lensMm": 24,
+        "width": 1400,
+        "height": 1000
+      },
+      "doorStates": {
+        "door-front": 0,
+        "door-bath": 75,
+        "door-bedroom": 0
+      },
+      "valid": true,
+      "validation": "{\"pass\": true, \"artifactCount\": 1}",
+      "selected": true,
+      "manifest": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r3/geometry/underwater-child-face/render-manifest.json"
+    },
+    {
+      "id": "underwater-look-up-v2",
+      "camera": {
+        "position": [
+          -3.15,
+          2.64,
+          0.3
+        ],
+        "target": [
+          -3.95,
+          2.65,
+          0.82
+        ],
+        "lensMm": 20,
+        "width": 1400,
+        "height": 1000
+      },
+      "doorStates": {
+        "door-front": 0,
+        "door-bath": 75,
+        "door-bedroom": 0
+      },
+      "valid": true,
+      "validation": "{\"pass\": true, \"artifactCount\": 1}",
+      "selected": true,
+      "manifest": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r3/geometry/underwater-look-up-v2/render-manifest.json"
+    },
+    {
+      "id": "underwater-look-up",
+      "camera": {
+        "position": [
+          -3.15,
+          2.64,
+          0.3
+        ],
+        "target": [
+          -3.73,
+          2.65,
+          1.1
+        ],
+        "lensMm": 20,
+        "width": 1400,
+        "height": 1000
+      },
+      "doorStates": {
+        "door-front": 0,
+        "door-bath": 75,
+        "door-bedroom": 0
+      },
+      "valid": true,
+      "validation": "{\"pass\": true, \"artifactCount\": 1}",
+      "selected": false,
+      "manifest": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r3/geometry/underwater-look-up/render-manifest.json"
+    },
+    {
+      "id": "waterline-shared-close",
+      "camera": {
+        "position": [
+          -3.18,
+          2.64,
+          0.49
+        ],
+        "target": [
+          -4.0,
+          2.66,
+          0.89
+        ],
+        "lensMm": 28,
+        "width": 1400,
+        "height": 1000
+      },
+      "doorStates": {
+        "door-front": 0,
+        "door-bath": 75,
+        "door-bedroom": 0
+      },
+      "valid": true,
+      "validation": "{\"pass\": true, \"artifactCount\": 1}",
+      "selected": true,
+      "manifest": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r3/geometry/waterline-shared-close/render-manifest.json"
+    }
+  ],
+  "canonicalPlanSha256": "cab510b31c13e85beaa689edb54005223412a988f640724e56b9d95dba20c28c"
+}

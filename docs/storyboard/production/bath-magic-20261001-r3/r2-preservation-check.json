@@ -1,0 +1,767 @@
+{
+  "files": [
+    {
+      "path": "docs/storyboard/production/bath-magic-20261001-r2/continuity.json",
+      "sha256": "f64e5964246354dfefc6a333d4e9a8c14db53478a3f383cdd921121031f07192"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261001-r2/verify-preservation.py",
+      "sha256": "faa29cbeeb764eafe4dcc35752fc53483292634f0400a7622932ba9388487733"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261001-r2/prepare-archive.py",
+      "sha256": "f44e41b7e946838b515d574b3b809ba54f8fce0474ea59d09e1115cc649f8d5e"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261001-r2/story-plan.json",
+      "sha256": "138cd4e9fb69d4a3b95014e15929903a6ab57e7e19d83cad76e3497730d3878e"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261001-r2/register-generations.py",
+      "sha256": "706d600eb2601ca753505eff77ca39d1c9ccfe895524cbcbfd3ae6737742c983"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261001-r2/FINAL-STORY-REVIEW.md",
+      "sha256": "658caf4ecc9361ea6f0c996b96d8e7dc4df64fd054f020072d8ca25db78b0500"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261001-r2/accept-asset.py",
+      "sha256": "ca1f4d5ec4bf2bd08a1f72fbe6dabd6c2469dce1cf2ae4da7f1916c11ec0879c"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261001-r2/revision-map.json",
+      "sha256": "b29dfe8682230c4069bc85f465b57f47919670db40eca77f3536c6e566934e93"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261001-r2/preserve-inputs.py",
+      "sha256": "69ca823314e659b31372745d1e369e8c3b85dbf11f5300d0a315770e77ea03af"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261001-r2/contact-sheets.json",
+      "sha256": "900ba10049eb04deb20d02a4f14580c8d5abb85f5764d98be34374229ea4345c"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261001-r2/serve-preview.py",
+      "sha256": "5fc74cf61271dc8ef24063d456c6e94aa8469f492c0203b3eb2da510bed2a874"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261001-r2/check-reader.cjs",
+      "sha256": "c571e11f07bf50909846b0061b7b55e71672d24bfce562cc7ddc6d7f073845eb"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261001-r2/selected-scenes.json",
+      "sha256": "9fd4bbe204027940eb5209c34e93927c9f0f70b7fc750b7e0a19dc7daeb295f0"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261001-r2/input-preservation.json",
+      "sha256": "160c6f4a216bc20bf6a713183ffbb1420c8320871e6daadbe5d8097274d6eb8d"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261001-r2/reuse.json",
+      "sha256": "de026a0253fb4ba8203877ec7e3eea4421734f6abe1a04ab60247a897442b15f"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261001-r2/contact-sheets.py",
+      "sha256": "a5a426d364e00a6a38fa65c8e8ebf38bfba517fc852b54471934decea35bc10c"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261001-r2/media.json",
+      "sha256": "b2b7adbc0ede9f055e17521c0d0dd71e5c89bb9a363a597e5e0a59e642c63c1a"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261001-r2/verify-reuse.py",
+      "sha256": "e97b84fde8d4f48340112d4193d9e0d5e35ac73f4c21afef2366d96108fe2605"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261001-r2/STORY.md",
+      "sha256": "2b5d79b6b628578da8036f2a65ea8eb19447f5e6da99b13a60cf2dfd3d2bc206"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261001-r2/derivatives.json",
+      "sha256": "943a7a0f23c8ac0ba776dc70f185b7ef0dc99a749ce1caf47966b9f3e27fda8b"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261001-r2/REVIEW.md",
+      "sha256": "e57d09df9cdd6dce0096370166556d2ed032e8d46c3d00cd3a9c143c2f559130"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261001-r2/refresh-media.py",
+      "sha256": "4270231b97c6a75cdbe005b9d0ce76fc6255e467c92e6218304a4d41f22c07a5"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261001-r2/v1-preservation-check.json",
+      "sha256": "fcb5591112435bb3c6ba249644d5f055765bf497be434825ee38c5669d7e5aad"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261001-r2/reuse-assets.py",
+      "sha256": "7d72e6c98f9598f65c6e9db7d566778d5902f1bfbc9fa1b7f9c37687e2d5eb27"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261001-r2/finalize-selection.py",
+      "sha256": "42dded3d4bf9b456de5ff7b3ec0db7cbb80d5d748839793da1370a4ed932a9cf"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261001-r2/browser-check/results.json",
+      "sha256": "197a2d571fdecf28235a7ca9830a7baae4c34290600940d3de9c1883ab38a453"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261001-r2/records/scene-48-v1.json",
+      "sha256": "acd79132b2bc785d727e04ccd6adcd6d87fff2e83cb7558f2404f218e4dfa132"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261001-r2/records/scene-15-v1.json",
+      "sha256": "87cf3954f6e659098914107f955ab2f3cb1a1490e7b2cb348b45e27a3d498828"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261001-r2/records/scene-54-v1-request.json",
+      "sha256": "82828db4077bbdd09343b7af22c2772ffd1a9d8ad470114c8857e41c11f22b6f"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261001-r2/records/scene-33-v1.json",
+      "sha256": "cb8bc542a97dfa75c29b3f8b5968a27c66cb01ea4337b97f90444f48522ee2a4"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261001-r2/records/scene-51-v1.json",
+      "sha256": "221b7feefa83a3d5255638298657ce1d5375f9602339ede0ce1986c7e3c08cc3"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261001-r2/records/scene-36-v2.json",
+      "sha256": "cd593b2eccb8a727fb3552f810c8bbba15a6f98d4b4b7f3595492e3775be17a6"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261001-r2/records/scene-32-v1.json",
+      "sha256": "f7373e1b754c7644309aade1e05cabda147d626bd162bc982fbbda3c3a8b9d22"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261001-r2/records/scene-11-v2.json",
+      "sha256": "4b7c3e12e3dd9f294d881251b65a998e73d66440a6b4b68b1231ea5aa1ad6282"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261001-r2/records/scene-04-v1.json",
+      "sha256": "77a249f4426852946fb7e782f0f4f98f5ca5bc60c3980e4e5c0ab8fe0990ba55"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261001-r2/records/scene-30-v1.json",
+      "sha256": "71f420f220f1f775f8fc20e93b7cdf46c798d0b66f81a27a276801449225014d"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261001-r2/records/scene-35-v2.json",
+      "sha256": "ee82fd456a1f9f88f94654e950e2a624fd781829042c3e425f5a63bda5055b9a"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261001-r2/records/scene-25-v2.json",
+      "sha256": "5b32d8c31019eec745da6dcfadeaa90ac7c766f32963c14e2c10a4447a0a0163"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261001-r2/records/scene-29-v1.json",
+      "sha256": "2ca3e47dc882375b5e556bb2e284855e3fd74dadc6a54aa2bccd14b10dca1747"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261001-r2/records/scene-16-v1.json",
+      "sha256": "078396be730fe2ad0f02ecefb7557bb72d0bfd8c74134b150131c694838e5c58"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261001-r2/records/scene-28-v1.json",
+      "sha256": "9515a9d337287376f8462b7dfd37cb1f0b3ab6f00e9a6232157227caa091e3a2"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261001-r2/records/scene-17-v1.json",
+      "sha256": "f4e144a6214f97907752e2d4eb07a0d917e5cb9f507c1868b1a9a447a80170b9"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261001-r2/records/scene-55-v1-request.json",
+      "sha256": "3cc63dd76ae96102470c9c7a43759d218cb2f5c43329a0ed7b93cae1c68f7fe3"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261001-r2/records/scene-31-v1.json",
+      "sha256": "51301e1b483458d4297b236bcd7cb67545915409cb0138257d788b0b01ab4d57"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261001-r2/records/scene-31-v2.json",
+      "sha256": "f5c45007899f682d1d61a32ca2aa464af4f3f3568e580656e877c15c7bcc5aa5"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261001-r2/records/scene-56-v1.json",
+      "sha256": "8fc2d6279043ac9693573cee66694c77f061f5b7f02d1e9734ef6030bd3dfc14"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261001-r2/records/storyboard-concept-v1.json",
+      "sha256": "d91b5b632beee8f6fb1d02b21d4747a8076d23e436780a199141a0cca78dfd73"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261001-r2/records/scene-31-v2-request.json",
+      "sha256": "9d8fb6149eb476deacefee73f4842bae06f7af8517f7bb1b319c67794843a346"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261001-r2/records/scene-34-v1.json",
+      "sha256": "34746b8e4bba003a25c52f7fb2bd6d008874c8e921ee4a553797c0875f53a725"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261001-r2/records/duck-character-study-v1.json",
+      "sha256": "8f014b5388661bca0a62de855dfbbc5e0f75be5ccfdecddeeda8a4de491e97b3"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261001-r2/records/scene-17-v2.json",
+      "sha256": "0a43d04adce3d76550c4cea9e989deca793309935db2af3ed015c298f91cfb62"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261001-r2/records/scene-29-v2.json",
+      "sha256": "ace975288c6a95eec7083d3afe0de149f0359a7ab8acfdf9fd9397a51708d14b"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261001-r2/records/scene-03-v1.json",
+      "sha256": "cfaa4072574d805c736f0a7850deecb7ac9b0109ea67fff3cd42e56e3f060783"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261001-r2/records/scene-16-v2.json",
+      "sha256": "9f552d523c6d56a8732a586fcfb38ed0d0408fb3394e9a6b987aeef49658034e"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261001-r2/records/scene-36-v2-request.json",
+      "sha256": "0298bd1d2979ae88b9a311d4b479b0e7a8a8ba89d5db84c58e5e06002e96885b"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261001-r2/records/duck-character-study-v1-request.json",
+      "sha256": "404d9bddaa916759c6ceb86940a31c77a3a4d198e9d86bc855155f241b8aa263"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261001-r2/records/scene-25-v1.json",
+      "sha256": "2428be2e9999209d13bbdadb0cf97a290af59d0ccddab94416503fa7ee47bb08"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261001-r2/records/scene-35-v1.json",
+      "sha256": "e4585fd380ff11381311d9a6a16e922c5676403c22c68ba867a202c5cde41757"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261001-r2/records/scene-11-v1.json",
+      "sha256": "4f40f95f3532758424b1e77611bee2b8bc2934b0a0bb43da0f67c686a6c5108f"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261001-r2/records/scene-32-v2.json",
+      "sha256": "6b8d3629a446109d49dc8acfb5b577f3b08b1c6adc462396c47aa76c5f710234"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261001-r2/records/scene-37-v1.json",
+      "sha256": "9b5befde2709496c245ac8a3b8c2fed91ba5c5a57f20940daaef4211b03664ea"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261001-r2/records/scene-27-v1.json",
+      "sha256": "ed6d87349b465bf40720c4c7984fe207dd4d447ff51fb46a5c60e97974b98817"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261001-r2/records/scene-56-v1-request.json",
+      "sha256": "005b5797bff265547d78385985a07d23987f8a4b6786004c4f1c2290b5e8f0b1"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261001-r2/records/scene-55-v1.json",
+      "sha256": "8023f0068008d28e6fa5da1eaf4da2f6479d6dcea2391ad5aab9cff9920a03f0"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261001-r2/records/scene-09-v1.json",
+      "sha256": "51ce00e51e6f4ee022e0a1a500be6cd192c0556345fd8377b8824f72df65925b"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261001-r2/records/scene-33-v2.json",
+      "sha256": "57198429ae905a8a58de941543af25386e7232054a49492ff92ce67a44a1cb95"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261001-r2/records/scene-51-v1-request.json",
+      "sha256": "ba0a6d27150a0d7e6f2c6b9b0c34d21a9374ae2504b95a99bc96dfe690b67714"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261001-r2/records/scene-29-v2-request.json",
+      "sha256": "714c8d77ba7de47d8873e257a00ed8e210370b6c7e9389051eb00b691e5544f7"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261001-r2/records/scene-48-v1-request.json",
+      "sha256": "6f29a29fe91439500fca9f8766b9a6b2fbbabe7293de818069126e7e0c5e6d8b"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261001-r2/records/scene-26-v1.json",
+      "sha256": "3c62458ebda4dcdc31e5d679d7069cc6ced14ff676f2af8f761ad33653644b60"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261001-r2/records/scene-36-v1.json",
+      "sha256": "7d021f9d5744624ca0b291ab7f44853fdc387fdf3394f8821cdcbabe6b6fed6f"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261001-r2/records/scene-54-v1.json",
+      "sha256": "27b6f7f83853f24747d0f86c5c5d60477808f0de4f52d0d9c6dd30937e03675e"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261001-r2/prompts/scene-16-v2.txt",
+      "sha256": "227277abf20ded4d5c76650fb8a2e08564f8cf9ff4d2417633b92184cba6e06d"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261001-r2/prompts/scene-32-v2.txt",
+      "sha256": "f4aa44c098605c0a7108b709b6b6480d6456d0027415757939cb26e874297b3f"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261001-r2/prompts/scene-16-v1.txt",
+      "sha256": "cfc2c033ebca11909100f024fd09a37a64c024424e721d21b86284afd4d005e2"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261001-r2/prompts/duck-character-study-v1.txt",
+      "sha256": "632ef6964d5a7c6b202736c77d5662ddb509f85c746558e025ea1eee710b6da2"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261001-r2/prompts/scene-04-v1.txt",
+      "sha256": "900e212a492ccfadbe41f8d721637a6e6b953bfbe84315c75c84e76b2f93a5a7"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261001-r2/prompts/scene-51-v1.txt",
+      "sha256": "330782665a264c607b1073d390d7ba17e7f653c430b0367cc2c780d9cf5836b9"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261001-r2/prompts/scene-32-v1.txt",
+      "sha256": "801d9b5a852a79f5047eff6419b94ef854669eaaa86a8c16ca2c16bb4c711a78"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261001-r2/prompts/scene-30-v1.txt",
+      "sha256": "c25b98b5267dde55943b96948158a389900b43434d45edae4aa741f9f34bc4c6"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261001-r2/prompts/scene-34-v1.txt",
+      "sha256": "bbebed79c668e1dcfa2aba6fe1cd59a14cc3268ea8fc08b4199d85e5b4a9c278"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261001-r2/prompts/scene-26-v1.txt",
+      "sha256": "79e2375a48e0193a07ee2b0e04508fe08f443fd6cc635df763131089821e8f4f"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261001-r2/prompts/scene-36-v2.txt",
+      "sha256": "bd814ea07018634cd4e0675c39674399e3096dbbff40dbb28afbf736b52eec60"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261001-r2/prompts/scene-55-v1.txt",
+      "sha256": "29803666a73d9cd9900c92e66b614571d9f1cd24243d199e5f9b193b35fb2bd2"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261001-r2/prompts/scene-28-v1.txt",
+      "sha256": "74a077ca6985dacbf193e4220ee18366acb07d3d2f7d1e1e1158e92df6ce6478"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261001-r2/prompts/scene-36-v1.txt",
+      "sha256": "309adfe1dd1e717f9064ec3cfbcbc44cd5f18ede142bf325aaade1612915a248"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261001-r2/prompts/scene-33-v1.txt",
+      "sha256": "981d7820406c658ffa67bfc6748b9140713b485579f002908967729bd616f48a"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261001-r2/prompts/scene-17-v1.txt",
+      "sha256": "c7222b85f0b83e7185effd5bd6a87158d4d5b5134372b07e123d1e7874b4d5b5"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261001-r2/prompts/scene-09-v1.txt",
+      "sha256": "4942bfd52501687700a34108d035aa2def53d0e4e6dc88719ffdec556902a6db"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261001-r2/prompts/scene-33-v2.txt",
+      "sha256": "f4aa44c098605c0a7108b709b6b6480d6456d0027415757939cb26e874297b3f"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261001-r2/prompts/scene-17-v2.txt",
+      "sha256": "c98fbef94d221625ee68a792c9d15a13184d8b5cd4ed39d10d307c14616e3675"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261001-r2/prompts/scene-31-v2.txt",
+      "sha256": "cd7068afc658176b5c792e6e9c99537abd131a57300df06ca461291fc9af433f"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261001-r2/prompts/scene-31-v1.txt",
+      "sha256": "a57e8f079f85660a98dcbd598674724b3b33db2b8a8d795286813adeaba7b0c0"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261001-r2/prompts/scene-15-v1.txt",
+      "sha256": "7d74489b78202e8481b02fa9beb20d7c26bfc9aaa57dab39cd86914746f7fcb2"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261001-r2/prompts/scene-11-v2.txt",
+      "sha256": "227277abf20ded4d5c76650fb8a2e08564f8cf9ff4d2417633b92184cba6e06d"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261001-r2/prompts/scene-35-v2.txt",
+      "sha256": "f4aa44c098605c0a7108b709b6b6480d6456d0027415757939cb26e874297b3f"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261001-r2/prompts/scene-11-v1.txt",
+      "sha256": "2085e1711c18ddf332dac4aa8b3018b5f3ade9755f40b8792785cb0b7bfa9ce1"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261001-r2/prompts/storyboard-concept-v1.txt",
+      "sha256": "7bb8c839ff3bc23722ff1a8f06c230cfa6791e5b5a38f9909146baae7f8a8b51"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261001-r2/prompts/scene-03-v1.txt",
+      "sha256": "0225784c1be202b912f6c109d1b0c3166694b38798b862fce678a2db4dc980b7"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261001-r2/prompts/scene-56-v1.txt",
+      "sha256": "842c763299b0d8455081b038740ef22a99af697d911d2663df1efd4f41a41855"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261001-r2/prompts/scene-35-v1.txt",
+      "sha256": "9b769a06f3ae36d5c35e06d2896cfcd62bad5873d2cca66780bf88d11c1f7ec2"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261001-r2/prompts/scene-48-v1.txt",
+      "sha256": "e6cd185a598b13db0d6f3b4bdba27b680c3e2df5b9e5ab3cef44f65c1f1e5a66"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261001-r2/prompts/scene-27-v1.txt",
+      "sha256": "7de2c4ec985e195595673e3e3f98ee9bc6c3e5e8d325592cb8386c59677bae6f"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261001-r2/prompts/scene-25-v1.txt",
+      "sha256": "b0e7b94f9b46211bd4e68bcbfb1d0d3d053fdfdf419dd7e7713dade46394380b"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261001-r2/prompts/scene-37-v1.txt",
+      "sha256": "985776955168cf7ea6cab9fe14c76eeaba9b0198990967e4c5328ba860236621"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261001-r2/prompts/scene-29-v1.txt",
+      "sha256": "c5f6931e9f90bbafdfd96e3d3c145a0d64490b48325dd43f3d2e7265ec12fa7a"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261001-r2/prompts/scene-54-v1.txt",
+      "sha256": "532db136f1b369ed78437fd9b25b9f45412681a008487cdb9577805a77a5c587"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261001-r2/prompts/scene-25-v2.txt",
+      "sha256": "e08b4b4f262d9c9bf44c058e2f0fe7bec4567319eacfe2ad71334aa5b9438d56"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261001-r2/prompts/scene-29-v2.txt",
+      "sha256": "6fded5998e10a71ac3e492489750d4a5af5a2205f9599fc03d385da8ca8ed5d8"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261001-r2/geometry/duck-floor-close-v2.json",
+      "sha256": "0b3ecb2ed8d4ca39adfd6fc278afaebb474b19b113a5789b6bd8b09384e972e0"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261001-r2/geometry/GEOMETRY.md",
+      "sha256": "062af423b5e7c37ee5c364a9d12ad3b8855de3e6e9c1421ade752bd0830c8d2d"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261001-r2/geometry/child-stove-up.json",
+      "sha256": "e472515cae0b79313049f7cdb7f4ea940ca32efc6012df7e5d2634930163954a"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261001-r2/geometry/ROOT-SCENES-25-30-QA.md",
+      "sha256": "0f058b5a3a6154012e1f070aa386eba69ddeb4e2f8e78d68749e30ac8c21543c"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261001-r2/geometry/camera-guides.json",
+      "sha256": "a26d5345af9f15b6fa2249cc0bf394831a53ed3016483898d486532fceb41129"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261001-r2/geometry/save-generated.py",
+      "sha256": "dc833684c2d0b3316072c02b94a684de4245d2accf721a44a73e0e904795910a"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261001-r2/geometry/duck-floor-child-pov.json",
+      "sha256": "d004ec232cf96635b6361ba8919c7e9cd97e52afe0bab0583850caa3a1062161"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261001-r2/geometry/FINAL-CONTINUITY-REPAIRS.md",
+      "sha256": "e39f3cde59d7916e7142d2d4a78715a3244f1a656a0bb1d922cba9a99885c0d6"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261001-r2/geometry/duck-floor-child-pov-v2.json",
+      "sha256": "4526ba3d57f6d7619029ae5cf0f2db9f9ba9240fac3567b1cfe690c78a597b36"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261001-r2/geometry/duck-floor-close.json",
+      "sha256": "dadc21aa034529c6d22a41c905ea86fad1570532b448a588723108cd6e99c9ee"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261001-r2/geometry/table-duck-eye.json",
+      "sha256": "05f0e7aa4ca59f0663c3813cca470d9567c399ff7f7d295f8cd36f6a2a861060"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261001-r2/geometry/child-pov-down.json",
+      "sha256": "022a75149a94180af92ff1a41d2c4bbdfd21920d0dc07e1efe0b5e8c17ee7693"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261001-r2/geometry/duck-pov-up.json",
+      "sha256": "c9567f12050b475eaefc30b0a6bd59bf2cc478a52c4a2310dc2e01ec6bf27beb"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261001-r2/reuse-records/scene-02/origin-prompt.txt",
+      "sha256": "f1e2277dd8e30eaff573c9388e2e6925a3e831f80c742029badc901e2fbe98d1"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261001-r2/reuse-records/scene-02/origin-record.json",
+      "sha256": "3080e013a6dde46630044b1d056afd8f53769998b28ece6d87bbe15fe7cea5b0"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261001-r2/reuse-records/scene-05/origin-prompt.txt",
+      "sha256": "f1e2277dd8e30eaff573c9388e2e6925a3e831f80c742029badc901e2fbe98d1"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261001-r2/reuse-records/scene-05/origin-record.json",
+      "sha256": "96909a7049f65b950c7ce0fd72015ab3fb6ffde8af6ade6e131c70faf97cc86c"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261001-r2/reuse-records/scene-50/origin-prompt.txt",
+      "sha256": "64eeaec2c04b21b5e61cf4c01c7780bb89639943ab6b60b5966591797dfd286c"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261001-r2/reuse-records/scene-50/origin-record.json",
+      "sha256": "cbba7cdd6dcb6918874a028874bba25a7e0baa9f698c1507afe7a4f0cfe26ed0"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261001-r2/reuse-records/title/origin-prompt.txt",
+      "sha256": "70606a6aa870da7506bfb9e18d5cdeca0b8fd60da4473b9e41921abb3ec5a081"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261001-r2/reuse-records/title/origin-record.json",
+      "sha256": "ce047f58b7b97c7a6f17d84fb8ecc761476143cb05ccc0972dc0cd66de387f36"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261001-r2/reuse-records/scene-43/origin-prompt.txt",
+      "sha256": "87668b473ed5855e14ca059c933ef0d59c9216762a33b10f6d001df5aec8cdc4"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261001-r2/reuse-records/scene-43/origin-record.json",
+      "sha256": "9c9bed2fd7baba8cc48009006a646a424fd674a15889e8c04ca527007280d46d"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261001-r2/reuse-records/scene-44/origin-prompt.txt",
+      "sha256": "374424b1676c2c173ce861f750fb859d228f2a8eb85b78541ed04e0744f1f21e"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261001-r2/reuse-records/scene-44/origin-record.json",
+      "sha256": "30ec062af8029906417d9918a9a93a7db1732f0a4488ce03bae05eec8f745343"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261001-r2/reuse-records/scene-10/origin-prompt.txt",
+      "sha256": "11378fe4d3eda843472463c7926dee504014042dc577f6fe34bc6f741537b15a"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261001-r2/reuse-records/scene-10/origin-record.json",
+      "sha256": "409738ec6ea2cdd0778fc9a3dd5416e78353306e1389f8cc1c213a69b5bce496"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261001-r2/reuse-records/scene-21/origin-prompt.txt",
+      "sha256": "194b91aff993047d957b4eb1b4a2caad9c2c5b2c839ea15c76a4af46d1235a82"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261001-r2/reuse-records/scene-21/origin-record.json",
+      "sha256": "812dc8b2457266bd2092b0455febdc97ababe7d989568468514c0ebe723baae1"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261001-r2/reuse-records/scene-19/origin-prompt.txt",
+      "sha256": "23d79fab06ace416b0e1097cb57891fb4093b631260193c4512fcfacc49a0d42"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261001-r2/reuse-records/scene-19/origin-record.json",
+      "sha256": "513fd7c4e3b3adae34ea365be712f8e5f885e4fbfe02c03b661a53d4f13c3e41"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261001-r2/reuse-records/scene-45/origin-prompt.txt",
+      "sha256": "24640205b409cd90f205875cf7d3ba356b60c40a9b02e116ee00ba1c4142b8f9"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261001-r2/reuse-records/scene-45/origin-record.json",
+      "sha256": "bc9aa004789f2dd4e748511e3f1e08f710c2a3b0c8ede3fb0f4bbf8ab43bd958"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261001-r2/reuse-records/scene-42/origin-prompt.txt",
+      "sha256": "534abb48f95671fbe614bc5bac35dfa8876256dc448b7edee3afc2319f7b97d4"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261001-r2/reuse-records/scene-42/origin-record.json",
+      "sha256": "6f5497c675b39a024d7f03066b7bcefc24b48dba393fb3fe7415ac044d96028b"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261001-r2/reuse-records/scene-18/origin-prompt.txt",
+      "sha256": "be5adf47c69e83b22f8d90d66cb7dd36acf17556a9d00a9a298487dfabe8c0f1"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261001-r2/reuse-records/scene-18/origin-record.json",
+      "sha256": "7ed9b335f168152325edccadc3df8a8717f461ac5f7933cf13a30cdab7526a54"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261001-r2/reuse-records/scene-20/origin-prompt.txt",
+      "sha256": "9a1700996dc3ba799913009fc2ecb3eb0a449bfcc91561dea6e07ff21ba77526"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261001-r2/reuse-records/scene-20/origin-record.json",
+      "sha256": "69498453956f86804662d23f0397b72dab3291eebbb8322e7184ae85a8643897"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261001-r2/reuse-records/scene-52/origin-prompt.txt",
+      "sha256": "2854d4d7080aeeac0321eff898714ec246cc5f4c663c897c3a9997877546d850"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261001-r2/reuse-records/scene-52/origin-record.json",
+      "sha256": "6853920ecaee03a44ee1b3152e97804950e8a664e80e0a9a4c0554ec2e155291"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261001-r2/reuse-records/scene-08/origin-prompt.txt",
+      "sha256": "f83d758929b19b7637dd4de62b20e1a03208d09ca81a6576b4baf8e67313f38a"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261001-r2/reuse-records/scene-08/origin-record.json",
+      "sha256": "cbf50f22a5bc50e2fb8f0dae0decf5659a5a84b386d50d42f4f0887b252a43bb"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261001-r2/reuse-records/scene-06/origin-prompt.txt",
+      "sha256": "9c60c3383a510feb07cb18bc40cc5f39477641874245f97a5fb01c246992b73f"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261001-r2/reuse-records/scene-06/origin-record.json",
+      "sha256": "9f33240d91ced5ff9649ddfc159e0e58882fb640d44df60697989236e0fbfde5"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261001-r2/reuse-records/scene-39/origin-prompt.txt",
+      "sha256": "2046e2a5033951b8e297b2b655ad7348fb9dcfad55ff6405a1aadd3c09ed0ed7"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261001-r2/reuse-records/scene-39/origin-record.json",
+      "sha256": "c21471812e8691455ba6806101529a196d227859b59c930d9316d0ee4f9307d9"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261001-r2/reuse-records/scene-01/origin-prompt.txt",
+      "sha256": "30483a16b6930cd73b3515f52ed4959759865ee369831ec952dddc867ef133b5"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261001-r2/reuse-records/scene-01/origin-record.json",
+      "sha256": "2b67b50a2e73d6aeab6f0168d3571016c3e02843b07c3cc553b38501d53d30b5"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261001-r2/reuse-records/scene-53/origin-prompt.txt",
+      "sha256": "7283b137c8f95df3bd61fcbaf60f0415e4e2aed0d23feb3968b2b6915d4709b2"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261001-r2/reuse-records/scene-53/origin-record.json",
+      "sha256": "9ef0abe99e947cd09954bdc1f4effdd2d89c040870c00844587c23fb921d779f"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261001-r2/reuse-records/scene-07/origin-prompt.txt",
+      "sha256": "1e8cf583914769f578fa12e67e82298e1b8f0affe19e681b77cb20a92b59dec6"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261001-r2/reuse-records/scene-07/origin-record.json",
+      "sha256": "955fe3ae1cfeb964d98befb943852b372348f300d7b63d89fcf6925df4690877"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261001-r2/reuse-records/scene-38/origin-prompt.txt",
+      "sha256": "3a319123e22a3bf92e118d95edddfb5ec4380127db05cb215e3bd30b92033f4a"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261001-r2/reuse-records/scene-38/origin-record.json",
+      "sha256": "4b751ffee78e838a1dd090c6dbed98d74c7651ece506ce55811215f27be44592"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261001-r2/reuse-records/scene-14/origin-prompt.txt",
+      "sha256": "c64f375c7fe01d7fd7edb80f4aff8c89f6845c2f34873ba34395d04d7dd3c2bc"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261001-r2/reuse-records/scene-14/origin-record.json",
+      "sha256": "66aa97aabeec96459907907e3bd1a5d91697e2f40dd3e0ba4cf9c42d20c64e70"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261001-r2/reuse-records/scene-13/origin-prompt.txt",
+      "sha256": "a5b849448aa975c07020c466c441b958ff640b35b1492711936b76ba5e4f762f"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261001-r2/reuse-records/scene-13/origin-record.json",
+      "sha256": "c71d1b92bb2b41960fd0cac2a5de7cea14057b991b3393ae71e13af30b03144e"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261001-r2/reuse-records/scene-22/origin-prompt.txt",
+      "sha256": "0c17b78d83c3c89d22244fbf9a9d5ae448d80cf5a35ee8a5b612e00250653792"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261001-r2/reuse-records/scene-22/origin-record.json",
+      "sha256": "882c1cf02c91b3cebed8e83760acfcfdb9a71a067d662f898a3d399c658ab3dc"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261001-r2/reuse-records/scene-49/origin-prompt.txt",
+      "sha256": "d0496c6e60967f05b45abc745417be7d7248f4a656cebcecc88f0b48b4f90df2"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261001-r2/reuse-records/scene-49/origin-record.json",
+      "sha256": "885fec2852df90bce7713b84b87b44eff0f8a8d994966a32e69fc7bbb6bae035"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261001-r2/reuse-records/scene-47/origin-prompt.txt",
+      "sha256": "df47d77db65d3812d12706da20cc661b32cf414d4ea5de16809a50477794dc1f"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261001-r2/reuse-records/scene-47/origin-record.json",
+      "sha256": "1b0af2a0d5ea79f89ff5362deb9b05418285a0865e83dbd41fa6c84eb74093a0"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261001-r2/reuse-records/scene-40/origin-prompt.txt",
+      "sha256": "aec560e1fe63620b92eba38ba8b18ae459a7fa9f2d0db78697dda215b8234017"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261001-r2/reuse-records/scene-40/origin-record.json",
+      "sha256": "b237167a27003c96f73383b4fadd5014cae5e871c011846276ddb8a25868b35d"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261001-r2/reuse-records/scene-23/origin-prompt.txt",
+      "sha256": "774ddf1a2b2265cb2e4615cd02668503b3e8c5551ee7ed15723400e17615cef8"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261001-r2/reuse-records/scene-23/origin-record.json",
+      "sha256": "bdbd83ca0d7f812c91a26530aa06273fbb59f549203eebda020b01c1e0107b7d"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261001-r2/reuse-records/scene-24/origin-prompt.txt",
+      "sha256": "4ac27249a14674a311da797b658c4eb9b793809eeac43d1bf43fd10001a7559f"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261001-r2/reuse-records/scene-24/origin-record.json",
+      "sha256": "eeaf8921f8d1eae298395c4f5f0d99f2be80d64201979afdd479d45c6c8d95b0"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261001-r2/reuse-records/scene-12/origin-prompt.txt",
+      "sha256": "985a3085c2a4ae3df3b30728058e10a0163f428048dc27b804fc2e66309cafab"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261001-r2/reuse-records/scene-12/origin-record.json",
+      "sha256": "ee8bbeac6e6bb5554915b85112aee9b917a9705f07f5a04f493e3707bc0d0587"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261001-r2/reuse-records/scene-41/origin-prompt.txt",
+      "sha256": "f1d4af9c856750b539af5dc237263ae1b8e4191ad09cc83599819a06589b2840"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261001-r2/reuse-records/scene-41/origin-record.json",
+      "sha256": "69a5fed09046c6f8ac31e5bf3a35f64a40fd7eef96a0aac01e7da011bc7bfefe"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261001-r2/reuse-records/scene-46/origin-prompt.txt",
+      "sha256": "5f0ddc7082e0e083e7412f576ae188a388dd7eee985a170c3e7fa99a8ca472c4"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261001-r2/reuse-records/scene-46/origin-record.json",
+      "sha256": "527f27af4aeaa21d833917be7e0dc185d2e996fabbf42dc859c8e1eb22240d54"
+    },
+    {
+      "path": "docs/storyboard/review/bath-magic-r2.html",
+      "sha256": "68e1f0c687d1408b229348f979f8b2006a6a50bf5cb810a523217f8be489f2c6"
+    },
+    {
+      "path": "docs/storyboard/review/bath-magic-r2.css",
+      "sha256": "891fbd735a9b1a226eded705f783a7738ceb0055bd6e60647f0546df19ceccf7"
+    },
+    {
+      "path": "docs/storyboard/review/bath-magic-r2.js",
+      "sha256": "be9442b51f63bbc5fceac2d1469a5bec319bfd5e1f8a29b4cfb8c393867b8534"
+    }
+  ],
+  "finalVerification": {
+    "sourceFiles": 189,
+    "mediaFiles": 261,
+    "sourceUnchanged": true,
+    "mediaUnchanged": true,
+    "mediaVerification": "R2 verify-preservation.py --current passed"
+  }
+}

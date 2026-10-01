@@ -1,0 +1,999 @@
+{
+  "time": "2026-10-01T07:13:08.464Z",
+  "url": "http://127.0.0.1:18796/storyboard/review/bath-magic-r3.html",
+  "browser": "154.0.8037.92",
+  "sourceHashes": {
+    "story-plan.json": "d6c59792d2098a0329dcfdbed597c4b2c0d4ab6c925528b93829ab07134f9b0c",
+    "media.json": "6bead129b16498b1d4abb8814d2c737f0d62aa7c9b3815dfc2119a1fa7007223",
+    "derivatives.json": "f7ab1827fd2222f29f2eec95d81dd9e7b314dfe5150fa9d376d16c6903a7bbe3",
+    "check-reader.cjs": "90b91e418f06eb9847eebbdcbfb91dc4f0def5155b94272a5840bfc41efa0532",
+    "preview/docs/storyboard/review/bath-magic-r3.html": "b405869e7ae3bb2b6a30265d22db3597f18c66bbe7a072fdc0def76140befc0f",
+    "preview/docs/storyboard/review/bath-magic-r3.css": "891fbd735a9b1a226eded705f783a7738ceb0055bd6e60647f0546df19ceccf7",
+    "preview/docs/storyboard/review/bath-magic-r3.js": "f7ce20a1adbf8c34bc79d4312cc2cd9f81c835591344a43d629fe28cb1d85131"
+  },
+  "checks": [
+    {
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "scenes": 62,
+      "readyImages": 62,
+      "noHorizontalOverflow": true,
+      "languages": [
+        "en",
+        "ru",
+        "es"
+      ],
+      "storyboardNavigation": true,
+      "decodedImages": [
+        {
+          "src": "http://127.0.0.1:18796/storyboard/production/bath-magic-20261001-r3/web/scene-01.webp?v=be5ed728b790",
+          "width": 1536,
+          "height": 1024
+        },
+        {
+          "src": "http://127.0.0.1:18796/storyboard/production/bath-magic-20261001-r3/web/scene-02.webp?v=7bb7bfae1e01",
+          "width": 1536,
+          "height": 1024
+        },
+        {
+          "src": "http://127.0.0.1:18796/storyboard/production/bath-magic-20261001-r3/web/scene-03.webp?v=de83ba34ddba",
+          "width": 1536,
+          "height": 1024
+        },
+        {
+          "src": "http://127.0.0.1:18796/storyboard/production/bath-magic-20261001-r3/web/scene-04.webp?v=ecff260ace6f",
+          "width": 1536,
+          "height": 1024
+        },
+        {
+          "src": "http://127.0.0.1:18796/storyboard/production/bath-magic-20261001-r3/web/scene-05.webp?v=e09a9350e8ce",
+          "width": 1536,
+          "height": 1024
+        },
+        {
+          "src": "http://127.0.0.1:18796/storyboard/production/bath-magic-20261001-r3/web/scene-06.webp?v=3c49dea690f2",
+          "width": 1536,
+          "height": 1024
+        },
+        {
+          "src": "http://127.0.0.1:18796/storyboard/production/bath-magic-20261001-r3/web/scene-07.webp?v=9f74c65275f0",
+          "width": 1536,
+          "height": 1024
+        },
+        {
+          "src": "http://127.0.0.1:18796/storyboard/production/bath-magic-20261001-r3/web/scene-08.webp?v=93997856d26c",
+          "width": 1536,
+          "height": 1024
+        },
+        {
+          "src": "http://127.0.0.1:18796/storyboard/production/bath-magic-20261001-r3/web/scene-09.webp?v=3f54eb3e8a56",
+          "width": 1536,
+          "height": 1024
+        },
+        {
+          "src": "http://127.0.0.1:18796/storyboard/production/bath-magic-20261001-r3/web/scene-10.webp?v=dbcf9af5f65b",
+          "width": 1536,
+          "height": 1024
+        },
+        {
+          "src": "http://127.0.0.1:18796/storyboard/production/bath-magic-20261001-r3/web/scene-11.webp?v=ffc39c2df15f",
+          "width": 1536,
+          "height": 1024
+        },
+        {
+          "src": "http://127.0.0.1:18796/storyboard/production/bath-magic-20261001-r3/web/scene-12.webp?v=0bc5ef09ffce",
+          "width": 1536,
+          "height": 1024
+        },
+        {
+          "src": "http://127.0.0.1:18796/storyboard/production/bath-magic-20261001-r3/web/scene-13.webp?v=db48418b602e",
+          "width": 1536,
+          "height": 1024
+        },
+        {
+          "src": "http://127.0.0.1:18796/storyboard/production/bath-magic-20261001-r3/web/scene-14.webp?v=fd9fad806482",
+          "width": 1536,
+          "height": 1024
+        },
+        {
+          "src": "http://127.0.0.1:18796/storyboard/production/bath-magic-20261001-r3/web/scene-15.webp?v=43e77793ecb4",
+          "width": 1536,
+          "height": 1024
+        },
+        {
+          "src": "http://127.0.0.1:18796/storyboard/production/bath-magic-20261001-r3/web/scene-16.webp?v=762377deeb37",
+          "width": 1536,
+          "height": 1024
+        },
+        {
+          "src": "http://127.0.0.1:18796/storyboard/production/bath-magic-20261001-r3/web/scene-17.webp?v=c78ec77acb31",
+          "width": 1536,
+          "height": 1024
+        },
+        {
+          "src": "http://127.0.0.1:18796/storyboard/production/bath-magic-20261001-r3/web/scene-18.webp?v=19be534b9c39",
+          "width": 1536,
+          "height": 1024
+        },
+        {
+          "src": "http://127.0.0.1:18796/storyboard/production/bath-magic-20261001-r3/web/scene-19.webp?v=cb5bdb48d40d",
+          "width": 1536,
+          "height": 1024
+        },
+        {
+          "src": "http://127.0.0.1:18796/storyboard/production/bath-magic-20261001-r3/web/scene-20.webp?v=7367492a88b7",
+          "width": 1536,
+          "height": 1024
+        },
+        {
+          "src": "http://127.0.0.1:18796/storyboard/production/bath-magic-20261001-r3/web/scene-21.webp?v=a3c0ce354082",
+          "width": 1536,
+          "height": 1024
+        },
+        {
+          "src": "http://127.0.0.1:18796/storyboard/production/bath-magic-20261001-r3/web/scene-22.webp?v=648856466577",
+          "width": 1536,
+          "height": 1024
+        },
+        {
+          "src": "http://127.0.0.1:18796/storyboard/production/bath-magic-20261001-r3/web/scene-23.webp?v=07e5ac3c679a",
+          "width": 1536,
+          "height": 1024
+        },
+        {
+          "src": "http://127.0.0.1:18796/storyboard/production/bath-magic-20261001-r3/web/scene-24.webp?v=c8b60923e3f1",
+          "width": 1536,
+          "height": 1024
+        },
+        {
+          "src": "http://127.0.0.1:18796/storyboard/production/bath-magic-20261001-r3/web/scene-25.webp?v=8882eb666f19",
+          "width": 1536,
+          "height": 1024
+        },
+        {
+          "src": "http://127.0.0.1:18796/storyboard/production/bath-magic-20261001-r3/web/scene-26.webp?v=a5a2c9c2cfdc",
+          "width": 1536,
+          "height": 1024
+        },
+        {
+          "src": "http://127.0.0.1:18796/storyboard/production/bath-magic-20261001-r3/web/scene-27.webp?v=f5548e20ea90",
+          "width": 1536,
+          "height": 1024
+        },
+        {
+          "src": "http://127.0.0.1:18796/storyboard/production/bath-magic-20261001-r3/web/scene-28.webp?v=dba864fecd94",
+          "width": 1536,
+          "height": 1024
+        },
+        {
+          "src": "http://127.0.0.1:18796/storyboard/production/bath-magic-20261001-r3/web/scene-29.webp?v=d3573d35a51a",
+          "width": 1536,
+          "height": 1024
+        },
+        {
+          "src": "http://127.0.0.1:18796/storyboard/production/bath-magic-20261001-r3/web/scene-30.webp?v=77e18036a203",
+          "width": 1536,
+          "height": 1024
+        },
+        {
+          "src": "http://127.0.0.1:18796/storyboard/production/bath-magic-20261001-r3/web/scene-31.webp?v=aa450b19487b",
+          "width": 1536,
+          "height": 1024
+        },
+        {
+          "src": "http://127.0.0.1:18796/storyboard/production/bath-magic-20261001-r3/web/scene-32.webp?v=f80f90e2241c",
+          "width": 1536,
+          "height": 1024
+        },
+        {
+          "src": "http://127.0.0.1:18796/storyboard/production/bath-magic-20261001-r3/web/scene-33.webp?v=40477007d28e",
+          "width": 1536,
+          "height": 1024
+        },
+        {
+          "src": "http://127.0.0.1:18796/storyboard/production/bath-magic-20261001-r3/web/scene-34.webp?v=bf510d111ff0",
+          "width": 1536,
+          "height": 1024
+        },
+        {
+          "src": "http://127.0.0.1:18796/storyboard/production/bath-magic-20261001-r3/web/scene-35.webp?v=689052898b73",
+          "width": 1536,
+          "height": 1024
+        },
+        {
+          "src": "http://127.0.0.1:18796/storyboard/production/bath-magic-20261001-r3/web/scene-36.webp?v=395dfdf43ac3",
+          "width": 1536,
+          "height": 1024
+        },
+        {
+          "src": "http://127.0.0.1:18796/storyboard/production/bath-magic-20261001-r3/web/scene-37.webp?v=7559df46554f",
+          "width": 1536,
+          "height": 1024
+        },
+        {
+          "src": "http://127.0.0.1:18796/storyboard/production/bath-magic-20261001-r3/web/scene-38.webp?v=2794a2672698",
+          "width": 1536,
+          "height": 1024
+        },
+        {
+          "src": "http://127.0.0.1:18796/storyboard/production/bath-magic-20261001-r3/web/scene-39.webp?v=0b63990eb9e8",
+          "width": 1536,
+          "height": 1024
+        },
+        {
+          "src": "http://127.0.0.1:18796/storyboard/production/bath-magic-20261001-r3/web/scene-40.webp?v=2af10328366f",
+          "width": 1536,
+          "height": 1024
+        },
+        {
+          "src": "http://127.0.0.1:18796/storyboard/production/bath-magic-20261001-r3/web/scene-41.webp?v=bd3c8ed969ee",
+          "width": 1536,
+          "height": 1024
+        },
+        {
+          "src": "http://127.0.0.1:18796/storyboard/production/bath-magic-20261001-r3/web/scene-42.webp?v=9d151f396093",
+          "width": 1536,
+          "height": 1024
+        },
+        {
+          "src": "http://127.0.0.1:18796/storyboard/production/bath-magic-20261001-r3/web/scene-43.webp?v=06f600ebc010",
+          "width": 1536,
+          "height": 1024
+        },
+        {
+          "src": "http://127.0.0.1:18796/storyboard/production/bath-magic-20261001-r3/web/scene-44.webp?v=1a702d62ec0b",
+          "width": 1536,
+          "height": 1024
+        },
+        {
+          "src": "http://127.0.0.1:18796/storyboard/production/bath-magic-20261001-r3/web/scene-45.webp?v=e48d67ef418e",
+          "width": 1536,
+          "height": 1024
+        },
+        {
+          "src": "http://127.0.0.1:18796/storyboard/production/bath-magic-20261001-r3/web/scene-46.webp?v=f77cbd35a68d",
+          "width": 1536,
+          "height": 1024
+        },
+        {
+          "src": "http://127.0.0.1:18796/storyboard/production/bath-magic-20261001-r3/web/scene-47.webp?v=03a9e657d598",
+          "width": 1536,
+          "height": 1024
+        },
+        {
+          "src": "http://127.0.0.1:18796/storyboard/production/bath-magic-20261001-r3/web/scene-48.webp?v=d9cdfbdb9e47",
+          "width": 1536,
+          "height": 1024
+        },
+        {
+          "src": "http://127.0.0.1:18796/storyboard/production/bath-magic-20261001-r3/web/scene-49.webp?v=408e882aaa26",
+          "width": 1536,
+          "height": 1024
+        },
+        {
+          "src": "http://127.0.0.1:18796/storyboard/production/bath-magic-20261001-r3/web/scene-50.webp?v=e90b51ecbb45",
+          "width": 1536,
+          "height": 1024
+        },
+        {
+          "src": "http://127.0.0.1:18796/storyboard/production/bath-magic-20261001-r3/web/scene-51.webp?v=7571ee2206e8",
+          "width": 1536,
+          "height": 1024
+        },
+        {
+          "src": "http://127.0.0.1:18796/storyboard/production/bath-magic-20261001-r3/web/scene-52.webp?v=7a15304d5b29",
+          "width": 1536,
+          "height": 1024
+        },
+        {
+          "src": "http://127.0.0.1:18796/storyboard/production/bath-magic-20261001-r3/web/scene-53.webp?v=f52db59f187b",
+          "width": 1536,
+          "height": 1024
+        },
+        {
+          "src": "http://127.0.0.1:18796/storyboard/production/bath-magic-20261001-r3/web/scene-54.webp?v=9e45540d295c",
+          "width": 1536,
+          "height": 1024
+        },
+        {
+          "src": "http://127.0.0.1:18796/storyboard/production/bath-magic-20261001-r3/web/scene-55.webp?v=5305cc38f9a5",
+          "width": 1536,
+          "height": 1024
+        },
+        {
+          "src": "http://127.0.0.1:18796/storyboard/production/bath-magic-20261001-r3/web/scene-56.webp?v=b8c71e03bdb2",
+          "width": 1536,
+          "height": 1024
+        },
+        {
+          "src": "http://127.0.0.1:18796/storyboard/production/bath-magic-20261001-r3/web/scene-57.webp?v=ae0a7dc58193",
+          "width": 1536,
+          "height": 1024
+        },
+        {
+          "src": "http://127.0.0.1:18796/storyboard/production/bath-magic-20261001-r3/web/scene-58.webp?v=0ff247530581",
+          "width": 1536,
+          "height": 1024
+        },
+        {
+          "src": "http://127.0.0.1:18796/storyboard/production/bath-magic-20261001-r3/web/scene-59.webp?v=090d5e57cb2d",
+          "width": 1536,
+          "height": 1024
+        },
+        {
+          "src": "http://127.0.0.1:18796/storyboard/production/bath-magic-20261001-r3/web/scene-60.webp?v=d09ec71778d9",
+          "width": 1536,
+          "height": 1024
+        },
+        {
+          "src": "http://127.0.0.1:18796/storyboard/production/bath-magic-20261001-r3/web/scene-61.webp?v=7aa040818a8b",
+          "width": 1536,
+          "height": 1024
+        },
+        {
+          "src": "http://127.0.0.1:18796/storyboard/production/bath-magic-20261001-r3/web/scene-62.webp?v=cf0b46e65cc8",
+          "width": 1536,
+          "height": 1024
+        }
+      ]
+    },
+    {
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "scenes": 62,
+      "readyImages": 62,
+      "noHorizontalOverflow": true,
+      "languages": [
+        "en",
+        "ru",
+        "es"
+      ],
+      "storyboardNavigation": true,
+      "decodedImages": [
+        {
+          "src": "http://127.0.0.1:18796/storyboard/production/bath-magic-20261001-r3/web/scene-01.webp?v=be5ed728b790",
+          "width": 1536,
+          "height": 1024
+        },
+        {
+          "src": "http://127.0.0.1:18796/storyboard/production/bath-magic-20261001-r3/web/scene-02.webp?v=7bb7bfae1e01",
+          "width": 1536,
+          "height": 1024
+        },
+        {
+          "src": "http://127.0.0.1:18796/storyboard/production/bath-magic-20261001-r3/web/scene-03.webp?v=de83ba34ddba",
+          "width": 1536,
+          "height": 1024
+        },
+        {
+          "src": "http://127.0.0.1:18796/storyboard/production/bath-magic-20261001-r3/web/scene-04.webp?v=ecff260ace6f",
+          "width": 1536,
+          "height": 1024
+        },
+        {
+          "src": "http://127.0.0.1:18796/storyboard/production/bath-magic-20261001-r3/web/scene-05.webp?v=e09a9350e8ce",
+          "width": 1536,
+          "height": 1024
+        },
+        {
+          "src": "http://127.0.0.1:18796/storyboard/production/bath-magic-20261001-r3/web/scene-06.webp?v=3c49dea690f2",
+          "width": 1536,
+          "height": 1024
+        },
+        {
+          "src": "http://127.0.0.1:18796/storyboard/production/bath-magic-20261001-r3/web/scene-07.webp?v=9f74c65275f0",
+          "width": 1536,
+          "height": 1024
+        },
+        {
+          "src": "http://127.0.0.1:18796/storyboard/production/bath-magic-20261001-r3/web/scene-08.webp?v=93997856d26c",
+          "width": 1536,
+          "height": 1024
+        },
+        {
+          "src": "http://127.0.0.1:18796/storyboard/production/bath-magic-20261001-r3/web/scene-09.webp?v=3f54eb3e8a56",
+          "width": 1536,
+          "height": 1024
+        },
+        {
+          "src": "http://127.0.0.1:18796/storyboard/production/bath-magic-20261001-r3/web/scene-10.webp?v=dbcf9af5f65b",
+          "width": 1536,
+          "height": 1024
+        },
+        {
+          "src": "http://127.0.0.1:18796/storyboard/production/bath-magic-20261001-r3/web/scene-11.webp?v=ffc39c2df15f",
+          "width": 1536,
+          "height": 1024
+        },
+        {
+          "src": "http://127.0.0.1:18796/storyboard/production/bath-magic-20261001-r3/web/scene-12.webp?v=0bc5ef09ffce",
+          "width": 1536,
+          "height": 1024
+        },
+        {
+          "src": "http://127.0.0.1:18796/storyboard/production/bath-magic-20261001-r3/web/scene-13.webp?v=db48418b602e",
+          "width": 1536,
+          "height": 1024
+        },
+        {
+          "src": "http://127.0.0.1:18796/storyboard/production/bath-magic-20261001-r3/web/scene-14.webp?v=fd9fad806482",
+          "width": 1536,
+          "height": 1024
+        },
+        {
+          "src": "http://127.0.0.1:18796/storyboard/production/bath-magic-20261001-r3/web/scene-15.webp?v=43e77793ecb4",
+          "width": 1536,
+          "height": 1024
+        },
+        {
+          "src": "http://127.0.0.1:18796/storyboard/production/bath-magic-20261001-r3/web/scene-16.webp?v=762377deeb37",
+          "width": 1536,
+          "height": 1024
+        },
+        {
+          "src": "http://127.0.0.1:18796/storyboard/production/bath-magic-20261001-r3/web/scene-17.webp?v=c78ec77acb31",
+          "width": 1536,
+          "height": 1024
+        },
+        {
+          "src": "http://127.0.0.1:18796/storyboard/production/bath-magic-20261001-r3/web/scene-18.webp?v=19be534b9c39",
+          "width": 1536,
+          "height": 1024
+        },
+        {
+          "src": "http://127.0.0.1:18796/storyboard/production/bath-magic-20261001-r3/web/scene-19.webp?v=cb5bdb48d40d",
+          "width": 1536,
+          "height": 1024
+        },
+        {
+          "src": "http://127.0.0.1:18796/storyboard/production/bath-magic-20261001-r3/web/scene-20.webp?v=7367492a88b7",
+          "width": 1536,
+          "height": 1024
+        },
+        {
+          "src": "http://127.0.0.1:18796/storyboard/production/bath-magic-20261001-r3/web/scene-21.webp?v=a3c0ce354082",
+          "width": 1536,
+          "height": 1024
+        },
+        {
+          "src": "http://127.0.0.1:18796/storyboard/production/bath-magic-20261001-r3/web/scene-22.webp?v=648856466577",
+          "width": 1536,
+          "height": 1024
+        },
+        {
+          "src": "http://127.0.0.1:18796/storyboard/production/bath-magic-20261001-r3/web/scene-23.webp?v=07e5ac3c679a",
+          "width": 1536,
+          "height": 1024
+        },
+        {
+          "src": "http://127.0.0.1:18796/storyboard/production/bath-magic-20261001-r3/web/scene-24.webp?v=c8b60923e3f1",
+          "width": 1536,
+          "height": 1024
+        },
+        {
+          "src": "http://127.0.0.1:18796/storyboard/production/bath-magic-20261001-r3/web/scene-25.webp?v=8882eb666f19",
+          "width": 1536,
+          "height": 1024
+        },
+        {
+          "src": "http://127.0.0.1:18796/storyboard/production/bath-magic-20261001-r3/web/scene-26.webp?v=a5a2c9c2cfdc",
+          "width": 1536,
+          "height": 1024
+        },
+        {
+          "src": "http://127.0.0.1:18796/storyboard/production/bath-magic-20261001-r3/web/scene-27.webp?v=f5548e20ea90",
+          "width": 1536,
+          "height": 1024
+        },
+        {
+          "src": "http://127.0.0.1:18796/storyboard/production/bath-magic-20261001-r3/web/scene-28.webp?v=dba864fecd94",
+          "width": 1536,
+          "height": 1024
+        },
+        {
+          "src": "http://127.0.0.1:18796/storyboard/production/bath-magic-20261001-r3/web/scene-29.webp?v=d3573d35a51a",
+          "width": 1536,
+          "height": 1024
+        },
+        {
+          "src": "http://127.0.0.1:18796/storyboard/production/bath-magic-20261001-r3/web/scene-30.webp?v=77e18036a203",
+          "width": 1536,
+          "height": 1024
+        },
+        {
+          "src": "http://127.0.0.1:18796/storyboard/production/bath-magic-20261001-r3/web/scene-31.webp?v=aa450b19487b",
+          "width": 1536,
+          "height": 1024
+        },
+        {
+          "src": "http://127.0.0.1:18796/storyboard/production/bath-magic-20261001-r3/web/scene-32.webp?v=f80f90e2241c",
+          "width": 1536,
+          "height": 1024
+        },
+        {
+          "src": "http://127.0.0.1:18796/storyboard/production/bath-magic-20261001-r3/web/scene-33.webp?v=40477007d28e",
+          "width": 1536,
+          "height": 1024
+        },
+        {
+          "src": "http://127.0.0.1:18796/storyboard/production/bath-magic-20261001-r3/web/scene-34.webp?v=bf510d111ff0",
+          "width": 1536,
+          "height": 1024
+        },
+        {
+          "src": "http://127.0.0.1:18796/storyboard/production/bath-magic-20261001-r3/web/scene-35.webp?v=689052898b73",
+          "width": 1536,
+          "height": 1024
+        },
+        {
+          "src": "http://127.0.0.1:18796/storyboard/production/bath-magic-20261001-r3/web/scene-36.webp?v=395dfdf43ac3",
+          "width": 1536,
+          "height": 1024
+        },
+        {
+          "src": "http://127.0.0.1:18796/storyboard/production/bath-magic-20261001-r3/web/scene-37.webp?v=7559df46554f",
+          "width": 1536,
+          "height": 1024
+        },
+        {
+          "src": "http://127.0.0.1:18796/storyboard/production/bath-magic-20261001-r3/web/scene-38.webp?v=2794a2672698",
+          "width": 1536,
+          "height": 1024
+        },
+        {
+          "src": "http://127.0.0.1:18796/storyboard/production/bath-magic-20261001-r3/web/scene-39.webp?v=0b63990eb9e8",
+          "width": 1536,
+          "height": 1024
+        },
+        {
+          "src": "http://127.0.0.1:18796/storyboard/production/bath-magic-20261001-r3/web/scene-40.webp?v=2af10328366f",
+          "width": 1536,
+          "height": 1024
+        },
+        {
+          "src": "http://127.0.0.1:18796/storyboard/production/bath-magic-20261001-r3/web/scene-41.webp?v=bd3c8ed969ee",
+          "width": 1536,
+          "height": 1024
+        },
+        {
+          "src": "http://127.0.0.1:18796/storyboard/production/bath-magic-20261001-r3/web/scene-42.webp?v=9d151f396093",
+          "width": 1536,
+          "height": 1024
+        },
+        {
+          "src": "http://127.0.0.1:18796/storyboard/production/bath-magic-20261001-r3/web/scene-43.webp?v=06f600ebc010",
+          "width": 1536,
+          "height": 1024
+        },
+        {
+          "src": "http://127.0.0.1:18796/storyboard/production/bath-magic-20261001-r3/web/scene-44.webp?v=1a702d62ec0b",
+          "width": 1536,
+          "height": 1024
+        },
+        {
+          "src": "http://127.0.0.1:18796/storyboard/production/bath-magic-20261001-r3/web/scene-45.webp?v=e48d67ef418e",
+          "width": 1536,
+          "height": 1024
+        },
+        {
+          "src": "http://127.0.0.1:18796/storyboard/production/bath-magic-20261001-r3/web/scene-46.webp?v=f77cbd35a68d",
+          "width": 1536,
+          "height": 1024
+        },
+        {
+          "src": "http://127.0.0.1:18796/storyboard/production/bath-magic-20261001-r3/web/scene-47.webp?v=03a9e657d598",
+          "width": 1536,
+          "height": 1024
+        },
+        {
+          "src": "http://127.0.0.1:18796/storyboard/production/bath-magic-20261001-r3/web/scene-48.webp?v=d9cdfbdb9e47",
+          "width": 1536,
+          "height": 1024
+        },
+        {
+          "src": "http://127.0.0.1:18796/storyboard/production/bath-magic-20261001-r3/web/scene-49.webp?v=408e882aaa26",
+          "width": 1536,
+          "height": 1024
+        },
+        {
+          "src": "http://127.0.0.1:18796/storyboard/production/bath-magic-20261001-r3/web/scene-50.webp?v=e90b51ecbb45",
+          "width": 1536,
+          "height": 1024
+        },
+        {
+          "src": "http://127.0.0.1:18796/storyboard/production/bath-magic-20261001-r3/web/scene-51.webp?v=7571ee2206e8",
+          "width": 1536,
+          "height": 1024
+        },
+        {
+          "src": "http://127.0.0.1:18796/storyboard/production/bath-magic-20261001-r3/web/scene-52.webp?v=7a15304d5b29",
+          "width": 1536,
+          "height": 1024
+        },
+        {
+          "src": "http://127.0.0.1:18796/storyboard/production/bath-magic-20261001-r3/web/scene-53.webp?v=f52db59f187b",
+          "width": 1536,
+          "height": 1024
+        },
+        {
+          "src": "http://127.0.0.1:18796/storyboard/production/bath-magic-20261001-r3/web/scene-54.webp?v=9e45540d295c",
+          "width": 1536,
+          "height": 1024
+        },
+        {
+          "src": "http://127.0.0.1:18796/storyboard/production/bath-magic-20261001-r3/web/scene-55.webp?v=5305cc38f9a5",
+          "width": 1536,
+          "height": 1024
+        },
+        {
+          "src": "http://127.0.0.1:18796/storyboard/production/bath-magic-20261001-r3/web/scene-56.webp?v=b8c71e03bdb2",
+          "width": 1536,
+          "height": 1024
+        },
+        {
+          "src": "http://127.0.0.1:18796/storyboard/production/bath-magic-20261001-r3/web/scene-57.webp?v=ae0a7dc58193",
+          "width": 1536,
+          "height": 1024
+        },
+        {
+          "src": "http://127.0.0.1:18796/storyboard/production/bath-magic-20261001-r3/web/scene-58.webp?v=0ff247530581",
+          "width": 1536,
+          "height": 1024
+        },
+        {
+          "src": "http://127.0.0.1:18796/storyboard/production/bath-magic-20261001-r3/web/scene-59.webp?v=090d5e57cb2d",
+          "width": 1536,
+          "height": 1024
+        },
+        {
+          "src": "http://127.0.0.1:18796/storyboard/production/bath-magic-20261001-r3/web/scene-60.webp?v=d09ec71778d9",
+          "width": 1536,
+          "height": 1024
+        },
+        {
+          "src": "http://127.0.0.1:18796/storyboard/production/bath-magic-20261001-r3/web/scene-61.webp?v=7aa040818a8b",
+          "width": 1536,
+          "height": 1024
+        },
+        {
+          "src": "http://127.0.0.1:18796/storyboard/production/bath-magic-20261001-r3/web/scene-62.webp?v=cf0b46e65cc8",
+          "width": 1536,
+          "height": 1024
+        }
+      ]
+    },
+    {
+      "viewport": {
+        "width": 320,
+        "height": 740
+      },
+      "scenes": 62,
+      "readyImages": 62,
+      "noHorizontalOverflow": true,
+      "languages": [
+        "en",
+        "ru",
+        "es"
+      ],
+      "storyboardNavigation": true,
+      "decodedImages": [
+        {
+          "src": "http://127.0.0.1:18796/storyboard/production/bath-magic-20261001-r3/web/scene-01.webp?v=be5ed728b790",
+          "width": 1536,
+          "height": 1024
+        },
+        {
+          "src": "http://127.0.0.1:18796/storyboard/production/bath-magic-20261001-r3/web/scene-02.webp?v=7bb7bfae1e01",
+          "width": 1536,
+          "height": 1024
+        },
+        {
+          "src": "http://127.0.0.1:18796/storyboard/production/bath-magic-20261001-r3/web/scene-03.webp?v=de83ba34ddba",
+          "width": 1536,
+          "height": 1024
+        },
+        {
+          "src": "http://127.0.0.1:18796/storyboard/production/bath-magic-20261001-r3/web/scene-04.webp?v=ecff260ace6f",
+          "width": 1536,
+          "height": 1024
+        },
+        {
+          "src": "http://127.0.0.1:18796/storyboard/production/bath-magic-20261001-r3/web/scene-05.webp?v=e09a9350e8ce",
+          "width": 1536,
+          "height": 1024
+        },
+        {
+          "src": "http://127.0.0.1:18796/storyboard/production/bath-magic-20261001-r3/web/scene-06.webp?v=3c49dea690f2",
+          "width": 1536,
+          "height": 1024
+        },
+        {
+          "src": "http://127.0.0.1:18796/storyboard/production/bath-magic-20261001-r3/web/scene-07.webp?v=9f74c65275f0",
+          "width": 1536,
+          "height": 1024
+        },
+        {
+          "src": "http://127.0.0.1:18796/storyboard/production/bath-magic-20261001-r3/web/scene-08.webp?v=93997856d26c",
+          "width": 1536,
+          "height": 1024
+        },
+        {
+          "src": "http://127.0.0.1:18796/storyboard/production/bath-magic-20261001-r3/web/scene-09.webp?v=3f54eb3e8a56",
+          "width": 1536,
+          "height": 1024
+        },
+        {
+          "src": "http://127.0.0.1:18796/storyboard/production/bath-magic-20261001-r3/web/scene-10.webp?v=dbcf9af5f65b",
+          "width": 1536,
+          "height": 1024
+        },
+        {
+          "src": "http://127.0.0.1:18796/storyboard/production/bath-magic-20261001-r3/web/scene-11.webp?v=ffc39c2df15f",
+          "width": 1536,
+          "height": 1024
+        },
+        {
+          "src": "http://127.0.0.1:18796/storyboard/production/bath-magic-20261001-r3/web/scene-12.webp?v=0bc5ef09ffce",
+          "width": 1536,
+          "height": 1024
+        },
+        {
+          "src": "http://127.0.0.1:18796/storyboard/production/bath-magic-20261001-r3/web/scene-13.webp?v=db48418b602e",
+          "width": 1536,
+          "height": 1024
+        },
+        {
+          "src": "http://127.0.0.1:18796/storyboard/production/bath-magic-20261001-r3/web/scene-14.webp?v=fd9fad806482",
+          "width": 1536,
+          "height": 1024
+        },
+        {
+          "src": "http://127.0.0.1:18796/storyboard/production/bath-magic-20261001-r3/web/scene-15.webp?v=43e77793ecb4",
+          "width": 1536,
+          "height": 1024
+        },
+        {
+          "src": "http://127.0.0.1:18796/storyboard/production/bath-magic-20261001-r3/web/scene-16.webp?v=762377deeb37",
+          "width": 1536,
+          "height": 1024
+        },
+        {
+          "src": "http://127.0.0.1:18796/storyboard/production/bath-magic-20261001-r3/web/scene-17.webp?v=c78ec77acb31",
+          "width": 1536,
+          "height": 1024
+        },
+        {
+          "src": "http://127.0.0.1:18796/storyboard/production/bath-magic-20261001-r3/web/scene-18.webp?v=19be534b9c39",
+          "width": 1536,
+          "height": 1024
+        },
+        {
+          "src": "http://127.0.0.1:18796/storyboard/production/bath-magic-20261001-r3/web/scene-19.webp?v=cb5bdb48d40d",
+          "width": 1536,
+          "height": 1024
+        },
+        {
+          "src": "http://127.0.0.1:18796/storyboard/production/bath-magic-20261001-r3/web/scene-20.webp?v=7367492a88b7",
+          "width": 1536,
+          "height": 1024
+        },
+        {
+          "src": "http://127.0.0.1:18796/storyboard/production/bath-magic-20261001-r3/web/scene-21.webp?v=a3c0ce354082",
+          "width": 1536,
+          "height": 1024
+        },
+        {
+          "src": "http://127.0.0.1:18796/storyboard/production/bath-magic-20261001-r3/web/scene-22.webp?v=648856466577",
+          "width": 1536,
+          "height": 1024
+        },
+        {
+          "src": "http://127.0.0.1:18796/storyboard/production/bath-magic-20261001-r3/web/scene-23.webp?v=07e5ac3c679a",
+          "width": 1536,
+          "height": 1024
+        },
+        {
+          "src": "http://127.0.0.1:18796/storyboard/production/bath-magic-20261001-r3/web/scene-24.webp?v=c8b60923e3f1",
+          "width": 1536,
+          "height": 1024
+        },
+        {
+          "src": "http://127.0.0.1:18796/storyboard/production/bath-magic-20261001-r3/web/scene-25.webp?v=8882eb666f19",
+          "width": 1536,
+          "height": 1024
+        },
+        {
+          "src": "http://127.0.0.1:18796/storyboard/production/bath-magic-20261001-r3/web/scene-26.webp?v=a5a2c9c2cfdc",
+          "width": 1536,
+          "height": 1024
+        },
+        {
+          "src": "http://127.0.0.1:18796/storyboard/production/bath-magic-20261001-r3/web/scene-27.webp?v=f5548e20ea90",
+          "width": 1536,
+          "height": 1024
+        },
+        {
+          "src": "http://127.0.0.1:18796/storyboard/production/bath-magic-20261001-r3/web/scene-28.webp?v=dba864fecd94",
+          "width": 1536,
+          "height": 1024
+        },
+        {
+          "src": "http://127.0.0.1:18796/storyboard/production/bath-magic-20261001-r3/web/scene-29.webp?v=d3573d35a51a",
+          "width": 1536,
+          "height": 1024
+        },
+        {
+          "src": "http://127.0.0.1:18796/storyboard/production/bath-magic-20261001-r3/web/scene-30.webp?v=77e18036a203",
+          "width": 1536,
+          "height": 1024
+        },
+        {
+          "src": "http://127.0.0.1:18796/storyboard/production/bath-magic-20261001-r3/web/scene-31.webp?v=aa450b19487b",
+          "width": 1536,
+          "height": 1024
+        },
+        {
+          "src": "http://127.0.0.1:18796/storyboard/production/bath-magic-20261001-r3/web/scene-32.webp?v=f80f90e2241c",
+          "width": 1536,
+          "height": 1024
+        },
+        {
+          "src": "http://127.0.0.1:18796/storyboard/production/bath-magic-20261001-r3/web/scene-33.webp?v=40477007d28e",
+          "width": 1536,
+          "height": 1024
+        },
+        {
+          "src": "http://127.0.0.1:18796/storyboard/production/bath-magic-20261001-r3/web/scene-34.webp?v=bf510d111ff0",
+          "width": 1536,
+          "height": 1024
+        },
+        {
+          "src": "http://127.0.0.1:18796/storyboard/production/bath-magic-20261001-r3/web/scene-35.webp?v=689052898b73",
+          "width": 1536,
+          "height": 1024
+        },
+        {
+          "src": "http://127.0.0.1:18796/storyboard/production/bath-magic-20261001-r3/web/scene-36.webp?v=395dfdf43ac3",
+          "width": 1536,
+          "height": 1024
+        },
+        {
+          "src": "http://127.0.0.1:18796/storyboard/production/bath-magic-20261001-r3/web/scene-37.webp?v=7559df46554f",
+          "width": 1536,
+          "height": 1024
+        },
+        {
+          "src": "http://127.0.0.1:18796/storyboard/production/bath-magic-20261001-r3/web/scene-38.webp?v=2794a2672698",
+          "width": 1536,
+          "height": 1024
+        },
+        {
+          "src": "http://127.0.0.1:18796/storyboard/production/bath-magic-20261001-r3/web/scene-39.webp?v=0b63990eb9e8",
+          "width": 1536,
+          "height": 1024
+        },
+        {
+          "src": "http://127.0.0.1:18796/storyboard/production/bath-magic-20261001-r3/web/scene-40.webp?v=2af10328366f",
+          "width": 1536,
+          "height": 1024
+        },
+        {
+          "src": "http://127.0.0.1:18796/storyboard/production/bath-magic-20261001-r3/web/scene-41.webp?v=bd3c8ed969ee",
+          "width": 1536,
+          "height": 1024
+        },
+        {
+          "src": "http://127.0.0.1:18796/storyboard/production/bath-magic-20261001-r3/web/scene-42.webp?v=9d151f396093",
+          "width": 1536,
+          "height": 1024
+        },
+        {
+          "src": "http://127.0.0.1:18796/storyboard/production/bath-magic-20261001-r3/web/scene-43.webp?v=06f600ebc010",
+          "width": 1536,
+          "height": 1024
+        },
+        {
+          "src": "http://127.0.0.1:18796/storyboard/production/bath-magic-20261001-r3/web/scene-44.webp?v=1a702d62ec0b",
+          "width": 1536,
+          "height": 1024
+        },
+        {
+          "src": "http://127.0.0.1:18796/storyboard/production/bath-magic-20261001-r3/web/scene-45.webp?v=e48d67ef418e",
+          "width": 1536,
+          "height": 1024
+        },
+        {
+          "src": "http://127.0.0.1:18796/storyboard/production/bath-magic-20261001-r3/web/scene-46.webp?v=f77cbd35a68d",
+          "width": 1536,
+          "height": 1024
+        },
+        {
+          "src": "http://127.0.0.1:18796/storyboard/production/bath-magic-20261001-r3/web/scene-47.webp?v=03a9e657d598",
+          "width": 1536,
+          "height": 1024
+        },
+        {
+          "src": "http://127.0.0.1:18796/storyboard/production/bath-magic-20261001-r3/web/scene-48.webp?v=d9cdfbdb9e47",
+          "width": 1536,
+          "height": 1024
+        },
+        {
+          "src": "http://127.0.0.1:18796/storyboard/production/bath-magic-20261001-r3/web/scene-49.webp?v=408e882aaa26",
+          "width": 1536,
+          "height": 1024
+        },
+        {
+          "src": "http://127.0.0.1:18796/storyboard/production/bath-magic-20261001-r3/web/scene-50.webp?v=e90b51ecbb45",
+          "width": 1536,
+          "height": 1024
+        },
+        {
+          "src": "http://127.0.0.1:18796/storyboard/production/bath-magic-20261001-r3/web/scene-51.webp?v=7571ee2206e8",
+          "width": 1536,
+          "height": 1024
+        },
+        {
+          "src": "http://127.0.0.1:18796/storyboard/production/bath-magic-20261001-r3/web/scene-52.webp?v=7a15304d5b29",
+          "width": 1536,
+          "height": 1024
+        },
+        {
+          "src": "http://127.0.0.1:18796/storyboard/production/bath-magic-20261001-r3/web/scene-53.webp?v=f52db59f187b",
+          "width": 1536,
+          "height": 1024
+        },
+        {
+          "src": "http://127.0.0.1:18796/storyboard/production/bath-magic-20261001-r3/web/scene-54.webp?v=9e45540d295c",
+          "width": 1536,
+          "height": 1024
+        },
+        {
+          "src": "http://127.0.0.1:18796/storyboard/production/bath-magic-20261001-r3/web/scene-55.webp?v=5305cc38f9a5",
+          "width": 1536,
+          "height": 1024
+        },
+        {
+          "src": "http://127.0.0.1:18796/storyboard/production/bath-magic-20261001-r3/web/scene-56.webp?v=b8c71e03bdb2",
+          "width": 1536,
+          "height": 1024
+        },
+        {
+          "src": "http://127.0.0.1:18796/storyboard/production/bath-magic-20261001-r3/web/scene-57.webp?v=ae0a7dc58193",
+          "width": 1536,
+          "height": 1024
+        },
+        {
+          "src": "http://127.0.0.1:18796/storyboard/production/bath-magic-20261001-r3/web/scene-58.webp?v=0ff247530581",
+          "width": 1536,
+          "height": 1024
+        },
+        {
+          "src": "http://127.0.0.1:18796/storyboard/production/bath-magic-20261001-r3/web/scene-59.webp?v=090d5e57cb2d",
+          "width": 1536,
+          "height": 1024
+        },
+        {
+          "src": "http://127.0.0.1:18796/storyboard/production/bath-magic-20261001-r3/web/scene-60.webp?v=d09ec71778d9",
+          "width": 1536,
+          "height": 1024
+        },
+        {
+          "src": "http://127.0.0.1:18796/storyboard/production/bath-magic-20261001-r3/web/scene-61.webp?v=7aa040818a8b",
+          "width": 1536,
+          "height": 1024
+        },
+        {
+          "src": "http://127.0.0.1:18796/storyboard/production/bath-magic-20261001-r3/web/scene-62.webp?v=cf0b46e65cc8",
+          "width": 1536,
+          "height": 1024
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "passed": true
+}

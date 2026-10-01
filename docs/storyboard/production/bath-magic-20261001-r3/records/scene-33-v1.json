@@ -1,0 +1,30 @@
+{
+  "tool": "image_gen__imagegen",
+  "generatedAt": "2026-10-01T06:50:25.403Z",
+  "promptPath": "prompts/scene-33-v1.txt",
+  "sourceOutput": "/Users/miguel_lemos/.codex/generated_images/01a0be6f-b832-7d93-95df-9d2ff5f69dc1/exec-61605fc3-31d7-4057-a0e9-2043639c0019.png",
+  "references": [
+    "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r2/masters/scene-30-v1.png",
+    "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r2/masters/scene-27-v1.png"
+  ],
+  "visualReview": "Passed first full-size review: genuine immersed child face / wet near-lens camera intimacy / floating blossoms. Distinct anatomy and warm family-book style retained. Draft for review.",
+  "referenceIdentities": [
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r2/masters/scene-30-v1.png",
+      "bytes": 2359580,
+      "sha256": "91ec4a0a0f50d4b6416454b158e53e5cd7e097c2e02646fbe3e5fc682140bf25"
+    },
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r2/masters/scene-27-v1.png",
+      "bytes": 2649341,
+      "sha256": "4a2012c96e18d798bd9dc54178d5a4048d8ced16827855ab6c26890940a1c4a6"
+    }
+  ],
+  "promptSha256": "11f4ac4191d8c0ae85761535c7a6d78cc668bc05302c2079943e9eb8e5f2432f",
+  "master": {
+    "path": "masters/scene-33-v1.png",
+    "bytes": 2250343,
+    "sha256": "e4f7084e31c41fb4b6a40833c28806a8bd3cdd6eef4a8b0181552c59ccbdb0e5"
+  },
+  "approval": "draft-for-review"
+}

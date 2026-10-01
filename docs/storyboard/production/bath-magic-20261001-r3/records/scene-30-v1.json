@@ -1,0 +1,36 @@
+{
+  "tool": "image_gen__imagegen",
+  "generatedAt": "2026-10-01T06:53:16.283Z",
+  "promptPath": "prompts/scene-30-v1.txt",
+  "sourceOutput": "/Users/miguel_lemos/.codex/generated_images/01a0be6f-b832-7d93-95df-9d2ff5f69dc1/exec-cf1270c7-3550-41cd-86d6-4f0093cba97e.png",
+  "references": [
+    "/Users/miguel_lemos/.codex/generated_images/01a0be6f-b832-7d93-95df-9d2ff5f69dc1/exec-2f4db024-fa61-4564-bc96-05e5f2cc4ca1.png",
+    "/Users/miguel_lemos/anastasia-pinpin-repos/mr-pinpin-source/docs/storyboard/images/published/elder-cycle/elder-r6-family-015.webp",
+    "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r3/geometry/underwater-look-up-v2/still.png"
+  ],
+  "visualReview": "First review: attractive split-level water view, not requested wholly submerged view. Kept for cinematic family moment; narrative metadata must reflect actual split surface. Others body/gaze pending sequence QA.",
+  "referenceIdentities": [
+    {
+      "path": "/Users/miguel_lemos/.codex/generated_images/01a0be6f-b832-7d93-95df-9d2ff5f69dc1/exec-2f4db024-fa61-4564-bc96-05e5f2cc4ca1.png",
+      "bytes": 2680287,
+      "sha256": "a3154c249f55f23b653357508afda34950947c6bb4b8c64812a6c4260dbaf234"
+    },
+    {
+      "path": "/Users/miguel_lemos/anastasia-pinpin-repos/mr-pinpin-source/docs/storyboard/images/published/elder-cycle/elder-r6-family-015.webp",
+      "bytes": 482926,
+      "sha256": "076321ed693bb541c91d99b4ab6fbb7cf0c7ed19c0fcf2c0dfb70b1e668d428e"
+    },
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r3/geometry/underwater-look-up-v2/still.png",
+      "bytes": 1041436,
+      "sha256": "905b089aeb1cd3cda14ae1863ecc16a4368049ba409cb956c08fb4a8bc00414a"
+    }
+  ],
+  "promptSha256": "3d47b2e7585ecca361e3b5a276ff62864b0eec904dc8568ba23a6ecf61246fe7",
+  "master": {
+    "path": "masters/scene-30-v1.png",
+    "bytes": 2749306,
+    "sha256": "9d7fc0062e8bba95096cceb6898f98b8551d2a878c3cfa950ecde7d0ef102f11"
+  },
+  "approval": "draft-for-review"
+}
