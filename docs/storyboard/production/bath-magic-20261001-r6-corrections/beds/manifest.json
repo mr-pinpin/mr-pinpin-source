@@ -1,0 +1,214 @@
+{
+  "schemaVersion": 1,
+  "productionId": "bath-magic-20261001-r6-corrections",
+  "lane": "beds",
+  "status": "four proposals complete; R5 unchanged; awaiting user review",
+  "frozenAt": "2026-10-01T17:00:32.946338+00:00",
+  "pathBase": "beds/",
+  "corrections": [
+    {
+      "sceneId": "scene-01",
+      "number": 1,
+      "title": {
+        "en": "Good morning",
+        "ru": "Доброе утро",
+        "es": "Buenos días"
+      },
+      "day": 1,
+      "original": "originals/scene-01.png",
+      "originalSha256": "4955ad0fe0550ed1a4f94051c4d978a27093ebab8d0a82b3580b085452de0bba",
+      "originalProduction": "bath-magic-20261001-r5",
+      "originalSelectedMaster": "masters/reused/scene-01/scene-01-v1.png",
+      "proposal": "masters/scene-01-v1.png",
+      "proposalSha256": "260f2699fed77c5312a31ddd2ee86dc86e500c6c703edcc805ca02e03a73fc4c",
+      "web": "web/scene-01.webp",
+      "webSha256": "38c63615c8a5208a2ec6a34ba4b90e844ccfdafd17ac916a8ed2ec8449b90c19",
+      "record": "records/scene-01-v1.json",
+      "prompt": "prompts/scene-01-v1.txt",
+      "existingParagraphs": {
+        "en": [
+          "A stripe of sunshine tickled PinPin’s nose. From the kitchen came the smell of breakfast."
+        ],
+        "ru": [
+          "Солнечный лучик пощекотал Пин-Пину нос. Из кухни пахло завтраком."
+        ],
+        "es": [
+          "Un rayito de sol le hizo cosquillas en la nariz a PinPin. Desde la cocina llegaba el olor del desayuno."
+        ]
+      },
+      "proposedParagraphs": {
+        "en": [
+          "A stripe of sunshine tickled PinPin’s nose. Beside him, Mama opened her eyes."
+        ],
+        "ru": [
+          "Солнечный лучик пощекотал Пин-Пину нос. Рядом Мама открыла глаза."
+        ],
+        "es": [
+          "Un rayito de sol le hizo cosquillas en la nariz a PinPin. A su lado, Mamá abrió los ojos."
+        ]
+      },
+      "captionChanged": true,
+      "reviewStatus": "internally reviewed proposal awaiting user review",
+      "visualReview": "Morning: Papa left asleep, PinPin waking, tiny PomPom asleep, Mama right waking and looking toward PinPin.",
+      "proposedCast": [
+        "Papa",
+        "PinPin",
+        "PomPom",
+        "Mama"
+      ]
+    },
+    {
+      "sceneId": "scene-42",
+      "number": 42,
+      "title": {
+        "en": "At bedtime",
+        "ru": "Перед сном",
+        "es": "A dormir"
+      },
+      "day": 1,
+      "original": "originals/scene-42.png",
+      "originalSha256": "82591c5124a5a9485cd790ec1b6758efa111461b073b152afd631767f7086fa0",
+      "originalProduction": "bath-magic-20261001-r5",
+      "originalSelectedMaster": "masters/scene-42-v1.png",
+      "proposal": "masters/scene-42-v1.png",
+      "proposalSha256": "cc5c7b1d9e4ad9a6503fea45bd9c63269a04e2522cc08af3d8a85120c5d06f95",
+      "web": "web/scene-42.webp",
+      "webSha256": "e8d6ecd5d076d74b1957df50b19a423e96136fdd63d0381a217682e6659857d4",
+      "record": "records/scene-42-v1.json",
+      "prompt": "prompts/scene-42-v1.txt",
+      "existingParagraphs": {
+        "en": [
+          "The bedroom was dry. Behind the door, the water went shhh, shhh, shhh."
+        ],
+        "ru": [
+          "В спальне было сухо. За дверью вода шумела: ш-ш-ш."
+        ],
+        "es": [
+          "El dormitorio estaba seco. Detrás de la puerta, el agua hacía shhh, shhh."
+        ]
+      },
+      "proposedParagraphs": {
+        "en": [
+          "The bedroom was dry. Behind the door, the water went shhh, shhh, shhh."
+        ],
+        "ru": [
+          "В спальне было сухо. За дверью вода шумела: ш-ш-ш."
+        ],
+        "es": [
+          "El dormitorio estaba seco. Detrás de la puerta, el agua hacía shhh, shhh."
+        ]
+      },
+      "captionChanged": false,
+      "reviewStatus": "internally reviewed proposal awaiting user review",
+      "visualReview": "Bedtime: all four settled in the broad shared bed; parents tender and sleepy, infant asleep.",
+      "proposedCast": [
+        "Papa",
+        "PinPin",
+        "PomPom",
+        "Mama"
+      ]
+    },
+    {
+      "sceneId": "scene-43",
+      "number": 43,
+      "title": {
+        "en": "The second morning",
+        "ru": "Второе утро",
+        "es": "La segunda mañana"
+      },
+      "day": 2,
+      "original": "originals/scene-43.png",
+      "originalSha256": "9b5312f3b5b56d850cce4d46c94e776c6ba4087249b00046169a512927099bf1",
+      "originalProduction": "bath-magic-20261001-r5",
+      "originalSelectedMaster": "masters/scene-43-v2.png",
+      "proposal": "masters/scene-43-v1.png",
+      "proposalSha256": "330e4f2abd4c1d13a0a23a979465191a23ae8c92e388e103f3d9c9fb7722ae39",
+      "web": "web/scene-43.webp",
+      "webSha256": "b4f0227fd6ba37e1921f9439842e7057076c56dcbf8947326265ce4fce873dfc",
+      "record": "records/scene-43-v1.json",
+      "prompt": "prompts/scene-43-v1.txt",
+      "existingParagraphs": {
+        "en": [
+          "The next morning, PinPin heard it before he opened his eyes. Shhh, shhh, shhh."
+        ],
+        "ru": [
+          "Наутро Пин-Пин услышал воду ещё до того, как открыл глаза. Ш-ш-ш."
+        ],
+        "es": [
+          "A la mañana siguiente, PinPin oyó el agua antes de abrir los ojos. Shhh, shhh."
+        ]
+      },
+      "proposedParagraphs": {
+        "en": [
+          "The next morning, PinPin heard it before he opened his eyes. Shhh, shhh, shhh."
+        ],
+        "ru": [
+          "Наутро Пин-Пин услышал воду ещё до того, как открыл глаза. Ш-ш-ш."
+        ],
+        "es": [
+          "A la mañana siguiente, PinPin oyó el agua antes de abrir los ojos. Shhh, shhh."
+        ]
+      },
+      "captionChanged": false,
+      "reviewStatus": "internally reviewed proposal awaiting user review",
+      "visualReview": "Second dawn: same family order and shared bed, cool morning light; parents and infant resting while PinPin begins to wake.",
+      "proposedCast": [
+        "Papa",
+        "PinPin",
+        "PomPom",
+        "Mama"
+      ]
+    },
+    {
+      "sceneId": "scene-71",
+      "number": 71,
+      "title": {
+        "en": "Thinking in bed",
+        "ru": "Мысли перед сном",
+        "es": "Pensando en la cama"
+      },
+      "day": 3,
+      "original": "originals/scene-71.png",
+      "originalSha256": "19e71b89997237e2696466d9b339013e2250e2845ad52fd8f7c0cf00506151dd",
+      "originalProduction": "bath-magic-20261001-r5",
+      "originalSelectedMaster": "masters/scene-71-v1.png",
+      "proposal": "masters/scene-71-v1.png",
+      "proposalSha256": "09a3cfbd60d644d7e08d4c2a00ce2977ac0b3defdc007f0ba3588ed5f4e05640",
+      "web": "web/scene-71.webp",
+      "webSha256": "d718e56315b8af43df80e8a7ef017309b911dbc399040da318cdbacbac64539e",
+      "record": "records/scene-71-v1.json",
+      "prompt": "prompts/scene-71-v1.txt",
+      "existingParagraphs": {
+        "en": [
+          "In bed, he moved one paw slowly. Then he fell asleep."
+        ],
+        "ru": [
+          "В кровати он медленно повёл лапкой. А потом уснул."
+        ],
+        "es": [
+          "En la cama movió una pata despacio. Después se quedó dormido."
+        ]
+      },
+      "proposedParagraphs": {
+        "en": [
+          "In bed, he moved one paw slowly. Then he fell asleep."
+        ],
+        "ru": [
+          "В кровати он медленно повёл лапкой. А потом уснул."
+        ],
+        "es": [
+          "En la cama movió una pata despacio. Después se quedó dormido."
+        ]
+      },
+      "captionChanged": false,
+      "reviewStatus": "internally reviewed proposal awaiting user review",
+      "visualReview": "Night: PinPin awake studying his raised paw, with Papa, Mama and infant PomPom asleep beside him. No magic glow.",
+      "proposedCast": [
+        "Papa",
+        "PinPin",
+        "PomPom",
+        "Mama"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "time": "2026-10-01T17:01:53.155Z",
+  "url": "http://127.0.0.1:18796/storyboard/review/bath-magic-r6-corrections.html",
+  "checks": [
+    {
+      "width": 1440,
+      "rows": 7,
+      "decodedImages": 14,
+      "languages": [
+        "en",
+        "ru",
+        "es"
+      ],
+      "noOverflow": true,
+      "provenanceLinks": 23
+    },
+    {
+      "width": 390,
+      "rows": 7,
+      "decodedImages": 14,
+      "languages": [
+        "en",
+        "ru",
+        "es"
+      ],
+      "noOverflow": true,
+      "provenanceLinks": 23
+    },
+    {
+      "width": 320,
+      "rows": 7,
+      "decodedImages": 14,
+      "languages": [
+        "en",
+        "ru",
+        "es"
+      ],
+      "noOverflow": true,
+      "provenanceLinks": 23
+    }
+  ],
+  "errors": [],
+  "sourceHashes": {
+    "corrections.json": "f0237d40d89444bfcb7cd2a50e2683e27fe43f05d4afb98c68251a76ae90b4cc",
+    "check-report.cjs": "f436721c2132a329e53be0c0d5a4e0c3ce916ac4dc815558e2e92f93afff04d7",
+    "review/bath-magic-r6-corrections.html": "b999581b7dac7cf9c5aebd7d134969e84295d83f924b438982a09bf9d6204143",
+    "review/bath-magic-r6-corrections.css": "d591b89443e5c9f288ce141ce3bf0668d307ab243aa9043b05203efe955a89e5",
+    "review/bath-magic-r6-corrections.js": "14efab4e81a79355e5ceabdcb8917c169559d76420e5f0a0f6efd352627025b5"
+  },
+  "passed": true
+}

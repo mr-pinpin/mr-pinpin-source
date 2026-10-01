@@ -1,0 +1,194 @@
+{
+  "status": "Exact originals, prompts and input bytes verified locally; remote proof in scoped archive receipt",
+  "generations": [
+    {
+      "record": "tables/scene-69-v1.json",
+      "recordSha256": "82d5b34504d70e50d4bf04b51dbda408fc39461e5b578a4f2c25f418ce07fa13",
+      "tool": "image_gen__imagegen",
+      "master": "tables/scene-69-v1.png",
+      "masterSha256": "cbaee4a1e87e4246f2f13628d0033c46f1b68ead3de6be06827a99b039be6e15",
+      "nativeToolOutputMatched": true,
+      "prompt": "tables/scene-69-v1.prompt.txt",
+      "promptSha256": "526eb10f6cc9ad2d1367d620d654f27edf8561b948c826fc9987a9c9129b4683",
+      "inputs": [
+        {
+          "originalPath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r5/web/scene-69.webp",
+          "sha256": "a2c2f0e11fe499f9dc09cbb36e486a31ce2e72c08603265b59b74380ddb6603d",
+          "preservedPaths": [
+            "tables/references/scene-69-input-1.webp"
+          ]
+        },
+        {
+          "originalPath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r5/web/scene-57.webp",
+          "sha256": "94d99749685f43b913d6e800550fdca1f10b7fc2863f4c87fa5e53e17054717b",
+          "preservedPaths": [
+            "tables/references/scene-69-input-2.webp"
+          ]
+        }
+      ]
+    },
+    {
+      "record": "tables/scene-83-v1.json",
+      "recordSha256": "0addb621fb1eeb7af11791c7fb6d86f06e901e11873a6043de6088fb69de93fc",
+      "tool": "image_gen__imagegen",
+      "master": "tables/scene-83-v1.png",
+      "masterSha256": "8391e1bad0243ead6aece0d2cc8e6251cd6479f0d5ced360498d21e1385f3e95",
+      "nativeToolOutputMatched": true,
+      "prompt": "tables/scene-83-v1.prompt.txt",
+      "promptSha256": "4ee6f99c2f1dedcab5739dacef3020d761bcfda6e18edd6799d7d1b173742e7f",
+      "inputs": [
+        {
+          "originalPath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r5/web/scene-83.webp",
+          "sha256": "2063afef72160bce172cc945c07fd03bf82c677f08f44e85f922e6d8ddd02a60",
+          "preservedPaths": [
+            "tables/references/scene-83-input-1.webp"
+          ]
+        },
+        {
+          "originalPath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r6-corrections/tables/scene-69-v1.png",
+          "sha256": "cbaee4a1e87e4246f2f13628d0033c46f1b68ead3de6be06827a99b039be6e15",
+          "preservedPaths": [
+            "tables/scene-69-v1.png",
+            "tables/references/scene-83-input-2.png"
+          ]
+        }
+      ]
+    },
+    {
+      "record": "beds/records/scene-01-v1.json",
+      "recordSha256": "b4a23c3842b4192fa50e600860cf5fc69dc54f90b1dfca5e7cea9b5acf74aec3",
+      "tool": "image_gen__imagegen",
+      "master": "beds/masters/scene-01-v1.png",
+      "masterSha256": "260f2699fed77c5312a31ddd2ee86dc86e500c6c703edcc805ca02e03a73fc4c",
+      "nativeToolOutputMatched": true,
+      "prompt": "beds/prompts/scene-01-v1.txt",
+      "promptSha256": "b83e1720125beb70c88c98d6637b86c249f58ee9b3fdccd6ddf8ac9c19e47171",
+      "inputs": [
+        {
+          "originalPath": "originals/scene-01.png",
+          "sha256": "4955ad0fe0550ed1a4f94051c4d978a27093ebab8d0a82b3580b085452de0bba",
+          "preservedPaths": [
+            "beds/originals/scene-01.png"
+          ]
+        },
+        {
+          "originalPath": "references/family-r5-83.png",
+          "sha256": "e197654a183d0ecc739ca281f0ecfbab2491edc00c34b1042f64a874a4693770",
+          "preservedPaths": [
+            "beds/references/family-r5-83.png"
+          ]
+        }
+      ]
+    },
+    {
+      "record": "beds/records/scene-42-v1.json",
+      "recordSha256": "c3c74bdd157a51154d61d13a9dcc1a7bfafd0ae96b5076afc5cd8792da8ecb9a",
+      "tool": "image_gen__imagegen",
+      "master": "beds/masters/scene-42-v1.png",
+      "masterSha256": "cc5c7b1d9e4ad9a6503fea45bd9c63269a04e2522cc08af3d8a85120c5d06f95",
+      "nativeToolOutputMatched": true,
+      "prompt": "beds/prompts/scene-42-v1.txt",
+      "promptSha256": "54709fe063120960cdbd96a544165852fdc36eb7b4d8ddfa4a2061ce95443ee3",
+      "inputs": [
+        {
+          "originalPath": "originals/scene-42.png",
+          "sha256": "82591c5124a5a9485cd790ec1b6758efa111461b073b152afd631767f7086fa0",
+          "preservedPaths": [
+            "beds/originals/scene-42.png"
+          ]
+        },
+        {
+          "originalPath": "references/family-r5-83.png",
+          "sha256": "e197654a183d0ecc739ca281f0ecfbab2491edc00c34b1042f64a874a4693770",
+          "preservedPaths": [
+            "beds/references/family-r5-83.png"
+          ]
+        }
+      ]
+    },
+    {
+      "record": "beds/records/scene-43-v1.json",
+      "recordSha256": "10130c7ee11d27c43534839de56f32c988976c773e3245545394d6066f308ee3",
+      "tool": "image_gen__imagegen",
+      "master": "beds/masters/scene-43-v1.png",
+      "masterSha256": "330e4f2abd4c1d13a0a23a979465191a23ae8c92e388e103f3d9c9fb7722ae39",
+      "nativeToolOutputMatched": true,
+      "prompt": "beds/prompts/scene-43-v1.txt",
+      "promptSha256": "b4ec633ed90fdec01163af4d93c01ee5dde90c4d67c9540ee97395c9ae365d1f",
+      "inputs": [
+        {
+          "originalPath": "originals/scene-43.png",
+          "sha256": "9b5312f3b5b56d850cce4d46c94e776c6ba4087249b00046169a512927099bf1",
+          "preservedPaths": [
+            "beds/originals/scene-43.png"
+          ]
+        },
+        {
+          "originalPath": "masters/scene-42-v1.png",
+          "sha256": "cc5c7b1d9e4ad9a6503fea45bd9c63269a04e2522cc08af3d8a85120c5d06f95",
+          "preservedPaths": [
+            "beds/masters/scene-42-v1.png"
+          ]
+        }
+      ]
+    },
+    {
+      "record": "beds/records/scene-71-v1.json",
+      "recordSha256": "e9f360a75abd5d52a9fb13597ca0456ade573b32f7d09d21f6671f33209fbed1",
+      "tool": "image_gen__imagegen",
+      "master": "beds/masters/scene-71-v1.png",
+      "masterSha256": "09a3cfbd60d644d7e08d4c2a00ce2977ac0b3defdc007f0ba3588ed5f4e05640",
+      "nativeToolOutputMatched": true,
+      "prompt": "beds/prompts/scene-71-v1.txt",
+      "promptSha256": "5a4c4aee269b601a27c9bec93c2c0292801340271b6a118967b3b4b9228cc53b",
+      "inputs": [
+        {
+          "originalPath": "originals/scene-71.png",
+          "sha256": "19e71b89997237e2696466d9b339013e2250e2845ad52fd8f7c0cf00506151dd",
+          "preservedPaths": [
+            "beds/originals/scene-71.png"
+          ]
+        },
+        {
+          "originalPath": "masters/scene-42-v1.png",
+          "sha256": "cc5c7b1d9e4ad9a6503fea45bd9c63269a04e2522cc08af3d8a85120c5d06f95",
+          "preservedPaths": [
+            "beds/masters/scene-42-v1.png"
+          ]
+        }
+      ]
+    },
+    {
+      "record": "geometry/scene-30-r6-v1-record.json",
+      "recordSha256": "182d6a339b9ba99bf55265e217275602a922b6169b280289ff41fc51df8deee3",
+      "tool": "image_gen__imagegen",
+      "master": "geometry/scene-30-r6-v1.png",
+      "masterSha256": "c1ff46696ed6a081dcd51ba3244dba5745a3252ec6a2dd329a0f974a055abccb",
+      "nativeToolOutputMatched": true,
+      "prompt": "geometry/scene-30-r6-v1-prompt.txt",
+      "promptSha256": "9ccbb2c56515e657bf02b519ab4a003f28f8ac2f47441b9a5749d32f20d8cc98",
+      "inputs": [
+        {
+          "originalPath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r5/masters/reused/scene-30/scene-30-v1.png",
+          "sha256": "9d7fc0062e8bba95096cceb6898f98b8551d2a878c3cfa950ecde7d0ef102f11",
+          "preservedPaths": [
+            "geometry/scene-30-before.png"
+          ]
+        }
+      ]
+    }
+  ],
+  "uniqueInputHashes": [
+    "19e71b89997237e2696466d9b339013e2250e2845ad52fd8f7c0cf00506151dd",
+    "2063afef72160bce172cc945c07fd03bf82c677f08f44e85f922e6d8ddd02a60",
+    "4955ad0fe0550ed1a4f94051c4d978a27093ebab8d0a82b3580b085452de0bba",
+    "82591c5124a5a9485cd790ec1b6758efa111461b073b152afd631767f7086fa0",
+    "94d99749685f43b913d6e800550fdca1f10b7fc2863f4c87fa5e53e17054717b",
+    "9b5312f3b5b56d850cce4d46c94e776c6ba4087249b00046169a512927099bf1",
+    "9d7fc0062e8bba95096cceb6898f98b8551d2a878c3cfa950ecde7d0ef102f11",
+    "a2c2f0e11fe499f9dc09cbb36e486a31ce2e72c08603265b59b74380ddb6603d",
+    "cbaee4a1e87e4246f2f13628d0033c46f1b68ead3de6be06827a99b039be6e15",
+    "cc5c7b1d9e4ad9a6503fea45bd9c63269a04e2522cc08af3d8a85120c5d06f95",
+    "e197654a183d0ecc739ca281f0ecfbab2491edc00c34b1042f64a874a4693770"
+  ]
+}

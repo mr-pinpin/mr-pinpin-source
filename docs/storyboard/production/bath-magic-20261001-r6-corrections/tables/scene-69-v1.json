@@ -1,0 +1,29 @@
+{
+  "scene": 69,
+  "tool": "image_gen__imagegen",
+  "generatedAt": "2026-10-01T16:51:56.892Z",
+  "sourceOutput": "/Volumes/TB4/mac-mini-storage/shared/air-space-recovery/codex-generated-images-elder-r6/01a0be6f-b832-7d93-95df-9d2ff5f69dc1/exec-edaa6be0-7b80-48a9-8192-faf1085ccf15.png",
+  "promptPath": "scene-69-v1.prompt.txt",
+  "references": [
+    "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r5/web/scene-69.webp",
+    "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r5/web/scene-57.webp"
+  ],
+  "master": "scene-69-v1.png",
+  "web": "scene-69-v1.webp",
+  "visualReview": "Convex round table restored; four distinct family members retained, duck basin rests on separate stool lower right. Camera and room composition retained.",
+  "cameraEvidence": "Same-composition edit; no new measured transform claimed.",
+  "status": "reviewed-candidate",
+  "sha256": "cbaee4a1e87e4246f2f13628d0033c46f1b68ead3de6be06827a99b039be6e15",
+  "inputs": [
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r5/web/scene-69.webp",
+      "sha256": "a2c2f0e11fe499f9dc09cbb36e486a31ce2e72c08603265b59b74380ddb6603d",
+      "snapshot": "references/scene-69-input-1.webp"
+    },
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r5/web/scene-57.webp",
+      "sha256": "94d99749685f43b913d6e800550fdca1f10b7fc2863f4c87fa5e53e17054717b",
+      "snapshot": "references/scene-69-input-2.webp"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "scene": 83,
+  "tool": "image_gen__imagegen",
+  "generatedAt": "2026-10-01T16:53:32.395Z",
+  "sourceOutput": "/Volumes/TB4/mac-mini-storage/shared/air-space-recovery/codex-generated-images-elder-r6/01a0be6f-b832-7d93-95df-9d2ff5f69dc1/exec-b61ed5c2-78f9-4f6c-95f4-7f2ec5784078.png",
+  "promptPath": "scene-83-v1.prompt.txt",
+  "references": [
+    "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r5/web/scene-83.webp",
+    "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r6-corrections/tables/scene-69-v1.png"
+  ],
+  "master": "scene-83-v1.png",
+  "web": "scene-83-v1.webp",
+  "visualReview": "Normal convex round table matches corrected69; four family members and morning meal retained; yellow plastic duck in separate floor-level basin stool at right.",
+  "cameraEvidence": "Same-composition edit; no new measured transform claimed.",
+  "status": "reviewed-candidate",
+  "sha256": "8391e1bad0243ead6aece0d2cc8e6251cd6479f0d5ced360498d21e1385f3e95",
+  "inputs": [
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r5/web/scene-83.webp",
+      "sha256": "2063afef72160bce172cc945c07fd03bf82c677f08f44e85f922e6d8ddd02a60",
+      "snapshot": "references/scene-83-input-1.webp"
+    },
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r6-corrections/tables/scene-69-v1.png",
+      "sha256": "cbaee4a1e87e4246f2f13628d0033c46f1b68ead3de6be06827a99b039be6e15",
+      "snapshot": "references/scene-83-input-2.png"
+    }
+  ]
+}

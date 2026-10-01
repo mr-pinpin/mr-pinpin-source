@@ -1,0 +1,45 @@
+{
+  "tool": "image_gen__imagegen",
+  "generatedAt": "2026-10-01T16:53:10.791Z",
+  "sourceOutput": "/Users/miguel_lemos/.codex/generated_images/01a0f5c0-64db-7310-817a-d73d15314908/exec-f4cef38c-1f19-42f5-b1b9-83208058de2f.png",
+  "promptPath": "prompts/scene-01-v1.txt",
+  "references": [
+    {
+      "path": "originals/scene-01.png",
+      "sha256": "4955ad0fe0550ed1a4f94051c4d978a27093ebab8d0a82b3580b085452de0bba",
+      "role": "exact edit target"
+    },
+    {
+      "path": "references/family-r5-83.png",
+      "sha256": "e197654a183d0ecc739ca281f0ecfbab2491edc00c34b1042f64a874a4693770",
+      "role": "family identity/style or corrected shared-bed blocking"
+    }
+  ],
+  "visualReview": {
+    "status": "passed-for-user-review",
+    "notes": "Four clearly separate hedgehogs, gray-brown Papa left, russet child center-left, distinctly smaller infant center-right, Mama right; same broad shared bed/camera, room dry. Correct morning/bedtime light."
+  },
+  "sourceOutputPhysical": "/Volumes/TB4/mac-mini-storage/shared/air-space-recovery/codex-generated-images-elder-r6/01a0f5c0-64db-7310-817a-d73d15314908/exec-f4cef38c-1f19-42f5-b1b9-83208058de2f.png",
+  "promptSha256": "b83e1720125beb70c88c98d6637b86c249f58ee9b3fdccd6ddf8ac9c19e47171",
+  "master": {
+    "path": "masters/scene-01-v1.png",
+    "sha256": "260f2699fed77c5312a31ddd2ee86dc86e500c6c703edcc805ca02e03a73fc4c",
+    "bytes": 2453347
+  },
+  "web": {
+    "path": "web/scene-01.webp",
+    "sha256": "38c63615c8a5208a2ec6a34ba4b90e844ccfdafd17ac916a8ed2ec8449b90c19",
+    "bytes": 421068
+  },
+  "dimensions": [
+    1536,
+    1024
+  ],
+  "conversion": {
+    "format": "WebP",
+    "quality": 94,
+    "method": 6,
+    "resized": false,
+    "artEdited": false
+  }
+}

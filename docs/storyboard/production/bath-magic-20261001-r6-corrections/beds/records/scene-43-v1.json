@@ -1,0 +1,45 @@
+{
+  "tool": "image_gen__imagegen",
+  "generatedAt": "2026-10-01T16:56:14.200Z",
+  "sourceOutput": "/Users/miguel_lemos/.codex/generated_images/01a0f5c0-64db-7310-817a-d73d15314908/exec-92d9a437-e6bd-407c-b3fe-15b593ac264e.png",
+  "promptPath": "prompts/scene-43-v1.txt",
+  "references": [
+    {
+      "path": "originals/scene-43.png",
+      "sha256": "9b5312f3b5b56d850cce4d46c94e776c6ba4087249b00046169a512927099bf1",
+      "role": "exact edit target"
+    },
+    {
+      "path": "masters/scene-42-v1.png",
+      "sha256": "cc5c7b1d9e4ad9a6503fea45bd9c63269a04e2522cc08af3d8a85120c5d06f95",
+      "role": "family identity/style or corrected shared-bed blocking"
+    }
+  ],
+  "visualReview": {
+    "status": "passed-for-user-review",
+    "notes": "All four in same shared bed, infant separately visible; PinPin drowsy at cool dawn, parents sleepy/asleep. Same camera, dry room and unlit lantern."
+  },
+  "sourceOutputPhysical": "/Volumes/TB4/mac-mini-storage/shared/air-space-recovery/codex-generated-images-elder-r6/01a0f5c0-64db-7310-817a-d73d15314908/exec-92d9a437-e6bd-407c-b3fe-15b593ac264e.png",
+  "promptSha256": "b4ec633ed90fdec01163af4d93c01ee5dde90c4d67c9540ee97395c9ae365d1f",
+  "master": {
+    "path": "masters/scene-43-v1.png",
+    "sha256": "330e4f2abd4c1d13a0a23a979465191a23ae8c92e388e103f3d9c9fb7722ae39",
+    "bytes": 2457148
+  },
+  "web": {
+    "path": "web/scene-43.webp",
+    "sha256": "b4f0227fd6ba37e1921f9439842e7057076c56dcbf8947326265ce4fce873dfc",
+    "bytes": 374000
+  },
+  "dimensions": [
+    1536,
+    1024
+  ],
+  "conversion": {
+    "format": "WebP",
+    "quality": 94,
+    "method": 6,
+    "resized": false,
+    "artEdited": false
+  }
+}

@@ -1,0 +1,750 @@
+{
+  "status": "correction candidates awaiting user review; R5 unchanged",
+  "rows": [
+    {
+      "id": "scene-01",
+      "number": 1,
+      "lane": "beds",
+      "title": {
+        "en": "Good morning",
+        "ru": "Доброе утро",
+        "es": "Buenos días"
+      },
+      "reason": {
+        "en": "Show the family sharing the same broad bed, with each character clearly separate.",
+        "ru": "Показать семью в одной широкой кровати так, чтобы каждый персонаж был отчётливо виден.",
+        "es": "Mostrar a la familia compartiendo la misma cama ancha, con cada personaje claramente separado."
+      },
+      "status": "candidate awaiting user review",
+      "original": {
+        "path": "web/scene-01-before.webp",
+        "sha256": "be5ed728b790d40fe4d6087a782430f08b09230fc094b52af3f5444f227bb723",
+        "bytes": 440756,
+        "width": 1536,
+        "height": 1024,
+        "source": "beds/originals/scene-01.png",
+        "sourceSha256": "4955ad0fe0550ed1a4f94051c4d978a27093ebab8d0a82b3580b085452de0bba",
+        "operation": "native-size WebP encoding, quality94 method6; no artwork edits"
+      },
+      "proposal": {
+        "path": "web/scene-01-after.webp",
+        "sha256": "38c63615c8a5208a2ec6a34ba4b90e844ccfdafd17ac916a8ed2ec8449b90c19",
+        "bytes": 421068,
+        "width": 1536,
+        "height": 1024,
+        "source": "beds/masters/scene-01-v1.png",
+        "sourceSha256": "260f2699fed77c5312a31ddd2ee86dc86e500c6c703edcc805ca02e03a73fc4c",
+        "operation": "native-size WebP encoding, quality94 method6; no artwork edits"
+      },
+      "originR5": {
+        "master": {
+          "path": "masters/reused/scene-01/scene-01-v1.png",
+          "bytes": 2547204,
+          "sha256": "4955ad0fe0550ed1a4f94051c4d978a27093ebab8d0a82b3580b085452de0bba"
+        },
+        "web": {
+          "path": "web/scene-01.webp",
+          "bytes": 440756,
+          "sha256": "be5ed728b790d40fe4d6087a782430f08b09230fc094b52af3f5444f227bb723"
+        }
+      },
+      "laneEntry": {
+        "sceneId": "scene-01",
+        "number": 1,
+        "title": {
+          "en": "Good morning",
+          "ru": "Доброе утро",
+          "es": "Buenos días"
+        },
+        "day": 1,
+        "original": "originals/scene-01.png",
+        "originalSha256": "4955ad0fe0550ed1a4f94051c4d978a27093ebab8d0a82b3580b085452de0bba",
+        "originalProduction": "bath-magic-20261001-r5",
+        "originalSelectedMaster": "masters/reused/scene-01/scene-01-v1.png",
+        "proposal": "masters/scene-01-v1.png",
+        "proposalSha256": "260f2699fed77c5312a31ddd2ee86dc86e500c6c703edcc805ca02e03a73fc4c",
+        "web": "web/scene-01.webp",
+        "webSha256": "38c63615c8a5208a2ec6a34ba4b90e844ccfdafd17ac916a8ed2ec8449b90c19",
+        "record": "records/scene-01-v1.json",
+        "prompt": "prompts/scene-01-v1.txt",
+        "existingParagraphs": {
+          "en": [
+            "A stripe of sunshine tickled PinPin’s nose. From the kitchen came the smell of breakfast."
+          ],
+          "ru": [
+            "Солнечный лучик пощекотал Пин-Пину нос. Из кухни пахло завтраком."
+          ],
+          "es": [
+            "Un rayito de sol le hizo cosquillas en la nariz a PinPin. Desde la cocina llegaba el olor del desayuno."
+          ]
+        },
+        "proposedParagraphs": {
+          "en": [
+            "A stripe of sunshine tickled PinPin’s nose. Beside him, Mama opened her eyes."
+          ],
+          "ru": [
+            "Солнечный лучик пощекотал Пин-Пину нос. Рядом Мама открыла глаза."
+          ],
+          "es": [
+            "Un rayito de sol le hizo cosquillas en la nariz a PinPin. A su lado, Mamá abrió los ojos."
+          ]
+        },
+        "captionChanged": true,
+        "reviewStatus": "internally reviewed proposal awaiting user review",
+        "visualReview": "Morning: Papa left asleep, PinPin waking, tiny PomPom asleep, Mama right waking and looking toward PinPin.",
+        "proposedCast": [
+          "Papa",
+          "PinPin",
+          "PomPom",
+          "Mama"
+        ]
+      },
+      "documents": [
+        {
+          "path": "beds/records/scene-01-v1.json",
+          "title": "Generation record"
+        },
+        {
+          "path": "beds/prompts/scene-01-v1.txt",
+          "title": "Exact image prompt"
+        }
+      ]
+    },
+    {
+      "id": "scene-30",
+      "number": 30,
+      "lane": "geometry",
+      "title": {
+        "en": "Inside the bath",
+        "ru": "В ванне",
+        "es": "Dentro de la bañera"
+      },
+      "reason": {
+        "en": "The continuous wooden back wall now encloses the family behind their shoulders, with the submerged wooden bottom clearly visible. Same split-level composition and family retained.",
+        "ru": "Сплошная деревянная стенка окружает семью; под водой видно деревянное дно. Сохранён вид над водой и под ней.",
+        "es": "Una pared continua de madera rodea a la familia y se ve el fondo de madera bajo el agua. Se conserva la vista dividida por la superficie."
+      },
+      "status": "candidate awaiting user review",
+      "original": {
+        "path": "web/scene-30-before.webp",
+        "sha256": "77e18036a203c5e3fe043d28af5b88073425d6b2102888d717e1a64e6dd5b1ea",
+        "bytes": 505380,
+        "width": 1536,
+        "height": 1024,
+        "source": "geometry/scene-30-before.webp",
+        "sourceSha256": "77e18036a203c5e3fe043d28af5b88073425d6b2102888d717e1a64e6dd5b1ea",
+        "operation": "unchanged WebP byte copy"
+      },
+      "proposal": {
+        "path": "web/scene-30-after.webp",
+        "sha256": "e4d72ab0211b387f07d891140cff414267a4fbb437f37fc5de7ecbf74a214f53",
+        "bytes": 505242,
+        "width": 1536,
+        "height": 1024,
+        "source": "geometry/scene-30-r6-v1.webp",
+        "sourceSha256": "e4d72ab0211b387f07d891140cff414267a4fbb437f37fc5de7ecbf74a214f53",
+        "operation": "unchanged WebP byte copy"
+      },
+      "originR5": {
+        "master": {
+          "path": "masters/reused/scene-30/scene-30-v1.png",
+          "bytes": 2749306,
+          "sha256": "9d7fc0062e8bba95096cceb6898f98b8551d2a878c3cfa950ecde7d0ef102f11"
+        },
+        "web": {
+          "path": "web/scene-30.webp",
+          "bytes": 505380,
+          "sha256": "77e18036a203c5e3fe043d28af5b88073425d6b2102888d717e1a64e6dd5b1ea"
+        }
+      },
+      "laneEntry": {
+        "sceneId": "scene-30",
+        "original": "scene-30-before.webp",
+        "proposal": "scene-30-r6-v1.webp",
+        "record": "scene-30-r6-v1-record.json",
+        "prompt": "scene-30-r6-v1-prompt.txt",
+        "reason": "The continuous wooden back wall now encloses the family behind their shoulders, with the submerged wooden bottom clearly visible. Same split-level composition and family retained."
+      },
+      "documents": [
+        {
+          "path": "geometry/scene-30-r6-v1-record.json",
+          "title": "Generation record"
+        },
+        {
+          "path": "geometry/scene-30-r6-v1-prompt.txt",
+          "title": "Exact image prompt"
+        }
+      ]
+    },
+    {
+      "id": "scene-42",
+      "number": 42,
+      "lane": "beds",
+      "title": {
+        "en": "At bedtime",
+        "ru": "Перед сном",
+        "es": "A dormir"
+      },
+      "reason": {
+        "en": "Show the family sharing the same broad bed, with each character clearly separate.",
+        "ru": "Показать семью в одной широкой кровати так, чтобы каждый персонаж был отчётливо виден.",
+        "es": "Mostrar a la familia compartiendo la misma cama ancha, con cada personaje claramente separado."
+      },
+      "status": "candidate awaiting user review",
+      "original": {
+        "path": "web/scene-42-before.webp",
+        "sha256": "c20efb276dc5966f9453ed81fc7e45d76f6ace36f5aa4f4a78a55e748a98d863",
+        "bytes": 416344,
+        "width": 1536,
+        "height": 1024,
+        "source": "beds/originals/scene-42.png",
+        "sourceSha256": "82591c5124a5a9485cd790ec1b6758efa111461b073b152afd631767f7086fa0",
+        "operation": "native-size WebP encoding, quality94 method6; no artwork edits"
+      },
+      "proposal": {
+        "path": "web/scene-42-after.webp",
+        "sha256": "e8d6ecd5d076d74b1957df50b19a423e96136fdd63d0381a217682e6659857d4",
+        "bytes": 410508,
+        "width": 1536,
+        "height": 1024,
+        "source": "beds/masters/scene-42-v1.png",
+        "sourceSha256": "cc5c7b1d9e4ad9a6503fea45bd9c63269a04e2522cc08af3d8a85120c5d06f95",
+        "operation": "native-size WebP encoding, quality94 method6; no artwork edits"
+      },
+      "originR5": {
+        "master": {
+          "path": "masters/scene-42-v1.png",
+          "bytes": 2476592,
+          "sha256": "82591c5124a5a9485cd790ec1b6758efa111461b073b152afd631767f7086fa0"
+        },
+        "web": {
+          "path": "web/scene-42.webp",
+          "bytes": 416344,
+          "sha256": "c20efb276dc5966f9453ed81fc7e45d76f6ace36f5aa4f4a78a55e748a98d863"
+        }
+      },
+      "laneEntry": {
+        "sceneId": "scene-42",
+        "number": 42,
+        "title": {
+          "en": "At bedtime",
+          "ru": "Перед сном",
+          "es": "A dormir"
+        },
+        "day": 1,
+        "original": "originals/scene-42.png",
+        "originalSha256": "82591c5124a5a9485cd790ec1b6758efa111461b073b152afd631767f7086fa0",
+        "originalProduction": "bath-magic-20261001-r5",
+        "originalSelectedMaster": "masters/scene-42-v1.png",
+        "proposal": "masters/scene-42-v1.png",
+        "proposalSha256": "cc5c7b1d9e4ad9a6503fea45bd9c63269a04e2522cc08af3d8a85120c5d06f95",
+        "web": "web/scene-42.webp",
+        "webSha256": "e8d6ecd5d076d74b1957df50b19a423e96136fdd63d0381a217682e6659857d4",
+        "record": "records/scene-42-v1.json",
+        "prompt": "prompts/scene-42-v1.txt",
+        "existingParagraphs": {
+          "en": [
+            "The bedroom was dry. Behind the door, the water went shhh, shhh, shhh."
+          ],
+          "ru": [
+            "В спальне было сухо. За дверью вода шумела: ш-ш-ш."
+          ],
+          "es": [
+            "El dormitorio estaba seco. Detrás de la puerta, el agua hacía shhh, shhh."
+          ]
+        },
+        "proposedParagraphs": {
+          "en": [
+            "The bedroom was dry. Behind the door, the water went shhh, shhh, shhh."
+          ],
+          "ru": [
+            "В спальне было сухо. За дверью вода шумела: ш-ш-ш."
+          ],
+          "es": [
+            "El dormitorio estaba seco. Detrás de la puerta, el agua hacía shhh, shhh."
+          ]
+        },
+        "captionChanged": false,
+        "reviewStatus": "internally reviewed proposal awaiting user review",
+        "visualReview": "Bedtime: all four settled in the broad shared bed; parents tender and sleepy, infant asleep.",
+        "proposedCast": [
+          "Papa",
+          "PinPin",
+          "PomPom",
+          "Mama"
+        ]
+      },
+      "documents": [
+        {
+          "path": "beds/records/scene-42-v1.json",
+          "title": "Generation record"
+        },
+        {
+          "path": "beds/prompts/scene-42-v1.txt",
+          "title": "Exact image prompt"
+        }
+      ]
+    },
+    {
+      "id": "scene-43",
+      "number": 43,
+      "lane": "beds",
+      "title": {
+        "en": "The second morning",
+        "ru": "Второе утро",
+        "es": "La segunda mañana"
+      },
+      "reason": {
+        "en": "Show the family sharing the same broad bed, with each character clearly separate.",
+        "ru": "Показать семью в одной широкой кровати так, чтобы каждый персонаж был отчётливо виден.",
+        "es": "Mostrar a la familia compartiendo la misma cama ancha, con cada personaje claramente separado."
+      },
+      "status": "candidate awaiting user review",
+      "original": {
+        "path": "web/scene-43-before.webp",
+        "sha256": "96e6ed8d2de957ad25fb403aa5f10fb86a1768c9a1ce902253d84264f6ff7ef2",
+        "bytes": 371008,
+        "width": 1536,
+        "height": 1024,
+        "source": "beds/originals/scene-43.png",
+        "sourceSha256": "9b5312f3b5b56d850cce4d46c94e776c6ba4087249b00046169a512927099bf1",
+        "operation": "native-size WebP encoding, quality94 method6; no artwork edits"
+      },
+      "proposal": {
+        "path": "web/scene-43-after.webp",
+        "sha256": "b4f0227fd6ba37e1921f9439842e7057076c56dcbf8947326265ce4fce873dfc",
+        "bytes": 374000,
+        "width": 1536,
+        "height": 1024,
+        "source": "beds/masters/scene-43-v1.png",
+        "sourceSha256": "330e4f2abd4c1d13a0a23a979465191a23ae8c92e388e103f3d9c9fb7722ae39",
+        "operation": "native-size WebP encoding, quality94 method6; no artwork edits"
+      },
+      "originR5": {
+        "master": {
+          "path": "masters/scene-43-v2.png",
+          "bytes": 2469211,
+          "sha256": "9b5312f3b5b56d850cce4d46c94e776c6ba4087249b00046169a512927099bf1"
+        },
+        "web": {
+          "path": "web/scene-43.webp",
+          "bytes": 371008,
+          "sha256": "96e6ed8d2de957ad25fb403aa5f10fb86a1768c9a1ce902253d84264f6ff7ef2"
+        }
+      },
+      "laneEntry": {
+        "sceneId": "scene-43",
+        "number": 43,
+        "title": {
+          "en": "The second morning",
+          "ru": "Второе утро",
+          "es": "La segunda mañana"
+        },
+        "day": 2,
+        "original": "originals/scene-43.png",
+        "originalSha256": "9b5312f3b5b56d850cce4d46c94e776c6ba4087249b00046169a512927099bf1",
+        "originalProduction": "bath-magic-20261001-r5",
+        "originalSelectedMaster": "masters/scene-43-v2.png",
+        "proposal": "masters/scene-43-v1.png",
+        "proposalSha256": "330e4f2abd4c1d13a0a23a979465191a23ae8c92e388e103f3d9c9fb7722ae39",
+        "web": "web/scene-43.webp",
+        "webSha256": "b4f0227fd6ba37e1921f9439842e7057076c56dcbf8947326265ce4fce873dfc",
+        "record": "records/scene-43-v1.json",
+        "prompt": "prompts/scene-43-v1.txt",
+        "existingParagraphs": {
+          "en": [
+            "The next morning, PinPin heard it before he opened his eyes. Shhh, shhh, shhh."
+          ],
+          "ru": [
+            "Наутро Пин-Пин услышал воду ещё до того, как открыл глаза. Ш-ш-ш."
+          ],
+          "es": [
+            "A la mañana siguiente, PinPin oyó el agua antes de abrir los ojos. Shhh, shhh."
+          ]
+        },
+        "proposedParagraphs": {
+          "en": [
+            "The next morning, PinPin heard it before he opened his eyes. Shhh, shhh, shhh."
+          ],
+          "ru": [
+            "Наутро Пин-Пин услышал воду ещё до того, как открыл глаза. Ш-ш-ш."
+          ],
+          "es": [
+            "A la mañana siguiente, PinPin oyó el agua antes de abrir los ojos. Shhh, shhh."
+          ]
+        },
+        "captionChanged": false,
+        "reviewStatus": "internally reviewed proposal awaiting user review",
+        "visualReview": "Second dawn: same family order and shared bed, cool morning light; parents and infant resting while PinPin begins to wake.",
+        "proposedCast": [
+          "Papa",
+          "PinPin",
+          "PomPom",
+          "Mama"
+        ]
+      },
+      "documents": [
+        {
+          "path": "beds/records/scene-43-v1.json",
+          "title": "Generation record"
+        },
+        {
+          "path": "beds/prompts/scene-43-v1.txt",
+          "title": "Exact image prompt"
+        }
+      ]
+    },
+    {
+      "id": "scene-69",
+      "number": 69,
+      "lane": "tables",
+      "title": {
+        "en": "Around the table",
+        "ru": "За столом",
+        "es": "Alrededor de la mesa"
+      },
+      "reason": {
+        "en": "Restore the normal round wooden table; the duck basin rests on a separate low stool beside it.",
+        "ru": "Вернуть обычный круглый деревянный стол, а таз с уткой поставить рядом на отдельную низкую табуретку.",
+        "es": "Recuperar la mesa redonda de madera y colocar el recipiente del pato sobre un taburete bajo aparte."
+      },
+      "status": "candidate awaiting user review",
+      "original": {
+        "path": "web/scene-69-before.webp",
+        "sha256": "a2c2f0e11fe499f9dc09cbb36e486a31ce2e72c08603265b59b74380ddb6603d",
+        "bytes": 460666,
+        "width": 1536,
+        "height": 1024,
+        "source": "tables/references/scene-69-input-1.webp",
+        "sourceSha256": "a2c2f0e11fe499f9dc09cbb36e486a31ce2e72c08603265b59b74380ddb6603d",
+        "operation": "unchanged WebP byte copy"
+      },
+      "proposal": {
+        "path": "web/scene-69-after.webp",
+        "sha256": "7a4a236f2ef1cfc0515ade058100c10fbf9253e99c866a724aacf0399c87cb88",
+        "bytes": 470764,
+        "width": 1536,
+        "height": 1024,
+        "source": "tables/scene-69-v1.png",
+        "sourceSha256": "cbaee4a1e87e4246f2f13628d0033c46f1b68ead3de6be06827a99b039be6e15",
+        "operation": "native-size WebP encoding, quality94 method6; no artwork edits"
+      },
+      "originR5": {
+        "master": {
+          "path": "masters/scene-69-v2.png",
+          "bytes": 2427425,
+          "sha256": "5b7630cd6b2ccc94550fe468a10beca8798c8aa1cd60f547b0676f128b97ce6f"
+        },
+        "web": {
+          "path": "web/scene-69.webp",
+          "bytes": 460666,
+          "sha256": "a2c2f0e11fe499f9dc09cbb36e486a31ce2e72c08603265b59b74380ddb6603d"
+        }
+      },
+      "laneEntry": {
+        "sceneId": 69,
+        "original": "references/scene-69-input-1.webp",
+        "proposal": "scene-69-v1.png",
+        "record": "scene-69-v1.json",
+        "reason": "Restore the normal round wooden table; the duck basin rests on a separate low stool beside it."
+      },
+      "documents": [
+        {
+          "path": "tables/scene-69-v1.json",
+          "title": "Generation record"
+        },
+        {
+          "path": "tables/scene-69-v1.prompt.txt",
+          "title": "Exact image prompt"
+        }
+      ]
+    },
+    {
+      "id": "scene-71",
+      "number": 71,
+      "lane": "beds",
+      "title": {
+        "en": "Thinking in bed",
+        "ru": "Мысли перед сном",
+        "es": "Pensando en la cama"
+      },
+      "reason": {
+        "en": "Show the family sharing the same broad bed, with each character clearly separate.",
+        "ru": "Показать семью в одной широкой кровати так, чтобы каждый персонаж был отчётливо виден.",
+        "es": "Mostrar a la familia compartiendo la misma cama ancha, con cada personaje claramente separado."
+      },
+      "status": "candidate awaiting user review",
+      "original": {
+        "path": "web/scene-71-before.webp",
+        "sha256": "0ab87afdab6090407161ce991e86452e18c70a988a77fee6a7b4851917ffb3e2",
+        "bytes": 344642,
+        "width": 1536,
+        "height": 1024,
+        "source": "beds/originals/scene-71.png",
+        "sourceSha256": "19e71b89997237e2696466d9b339013e2250e2845ad52fd8f7c0cf00506151dd",
+        "operation": "native-size WebP encoding, quality94 method6; no artwork edits"
+      },
+      "proposal": {
+        "path": "web/scene-71-after.webp",
+        "sha256": "d718e56315b8af43df80e8a7ef017309b911dbc399040da318cdbacbac64539e",
+        "bytes": 352032,
+        "width": 1536,
+        "height": 1024,
+        "source": "beds/masters/scene-71-v1.png",
+        "sourceSha256": "09a3cfbd60d644d7e08d4c2a00ce2977ac0b3defdc007f0ba3588ed5f4e05640",
+        "operation": "native-size WebP encoding, quality94 method6; no artwork edits"
+      },
+      "originR5": {
+        "master": {
+          "path": "masters/scene-71-v1.png",
+          "bytes": 2296475,
+          "sha256": "19e71b89997237e2696466d9b339013e2250e2845ad52fd8f7c0cf00506151dd"
+        },
+        "web": {
+          "path": "web/scene-71.webp",
+          "bytes": 344642,
+          "sha256": "0ab87afdab6090407161ce991e86452e18c70a988a77fee6a7b4851917ffb3e2"
+        }
+      },
+      "laneEntry": {
+        "sceneId": "scene-71",
+        "number": 71,
+        "title": {
+          "en": "Thinking in bed",
+          "ru": "Мысли перед сном",
+          "es": "Pensando en la cama"
+        },
+        "day": 3,
+        "original": "originals/scene-71.png",
+        "originalSha256": "19e71b89997237e2696466d9b339013e2250e2845ad52fd8f7c0cf00506151dd",
+        "originalProduction": "bath-magic-20261001-r5",
+        "originalSelectedMaster": "masters/scene-71-v1.png",
+        "proposal": "masters/scene-71-v1.png",
+        "proposalSha256": "09a3cfbd60d644d7e08d4c2a00ce2977ac0b3defdc007f0ba3588ed5f4e05640",
+        "web": "web/scene-71.webp",
+        "webSha256": "d718e56315b8af43df80e8a7ef017309b911dbc399040da318cdbacbac64539e",
+        "record": "records/scene-71-v1.json",
+        "prompt": "prompts/scene-71-v1.txt",
+        "existingParagraphs": {
+          "en": [
+            "In bed, he moved one paw slowly. Then he fell asleep."
+          ],
+          "ru": [
+            "В кровати он медленно повёл лапкой. А потом уснул."
+          ],
+          "es": [
+            "En la cama movió una pata despacio. Después se quedó dormido."
+          ]
+        },
+        "proposedParagraphs": {
+          "en": [
+            "In bed, he moved one paw slowly. Then he fell asleep."
+          ],
+          "ru": [
+            "В кровати он медленно повёл лапкой. А потом уснул."
+          ],
+          "es": [
+            "En la cama movió una pata despacio. Después se quedó dormido."
+          ]
+        },
+        "captionChanged": false,
+        "reviewStatus": "internally reviewed proposal awaiting user review",
+        "visualReview": "Night: PinPin awake studying his raised paw, with Papa, Mama and infant PomPom asleep beside him. No magic glow.",
+        "proposedCast": [
+          "Papa",
+          "PinPin",
+          "PomPom",
+          "Mama"
+        ]
+      },
+      "documents": [
+        {
+          "path": "beds/records/scene-71-v1.json",
+          "title": "Generation record"
+        },
+        {
+          "path": "beds/prompts/scene-71-v1.txt",
+          "title": "Exact image prompt"
+        }
+      ]
+    },
+    {
+      "id": "scene-83",
+      "number": 83,
+      "lane": "tables",
+      "title": {
+        "en": "Around the table",
+        "ru": "За столом",
+        "es": "Alrededor de la mesa"
+      },
+      "reason": {
+        "en": "Restore the normal round wooden table; the duck basin rests on a separate low stool beside it.",
+        "ru": "Вернуть обычный круглый деревянный стол, а таз с уткой поставить рядом на отдельную низкую табуретку.",
+        "es": "Recuperar la mesa redonda de madera y colocar el recipiente del pato sobre un taburete bajo aparte."
+      },
+      "status": "candidate awaiting user review",
+      "original": {
+        "path": "web/scene-83-before.webp",
+        "sha256": "2063afef72160bce172cc945c07fd03bf82c677f08f44e85f922e6d8ddd02a60",
+        "bytes": 469278,
+        "width": 1536,
+        "height": 1024,
+        "source": "tables/references/scene-83-input-1.webp",
+        "sourceSha256": "2063afef72160bce172cc945c07fd03bf82c677f08f44e85f922e6d8ddd02a60",
+        "operation": "unchanged WebP byte copy"
+      },
+      "proposal": {
+        "path": "web/scene-83-after.webp",
+        "sha256": "27849a586c7ae979e36601db7244d3a6f914283a2924e11b5edd5fb6a895bef1",
+        "bytes": 490666,
+        "width": 1536,
+        "height": 1024,
+        "source": "tables/scene-83-v1.png",
+        "sourceSha256": "8391e1bad0243ead6aece0d2cc8e6251cd6479f0d5ced360498d21e1385f3e95",
+        "operation": "native-size WebP encoding, quality94 method6; no artwork edits"
+      },
+      "originR5": {
+        "master": {
+          "path": "masters/scene-83-v2.png",
+          "bytes": 2494907,
+          "sha256": "e197654a183d0ecc739ca281f0ecfbab2491edc00c34b1042f64a874a4693770"
+        },
+        "web": {
+          "path": "web/scene-83.webp",
+          "bytes": 469278,
+          "sha256": "2063afef72160bce172cc945c07fd03bf82c677f08f44e85f922e6d8ddd02a60"
+        }
+      },
+      "laneEntry": {
+        "sceneId": 83,
+        "original": "references/scene-83-input-1.webp",
+        "proposal": "scene-83-v1.png",
+        "record": "scene-83-v1.json",
+        "reason": "Restore the normal round wooden table; the duck basin rests on a separate low stool beside it."
+      },
+      "documents": [
+        {
+          "path": "tables/scene-83-v1.json",
+          "title": "Generation record"
+        },
+        {
+          "path": "tables/scene-83-v1.prompt.txt",
+          "title": "Exact image prompt"
+        }
+      ]
+    }
+  ],
+  "expectedRows": 7,
+  "documents": [
+    {
+      "path": "twelve-mishaps-proposal.json",
+      "title": {
+        "en": "Story proposal — not rendered",
+        "ru": "Предложение сюжета — без новых иллюстраций",
+        "es": "Propuesta de historia — sin ilustrar"
+      }
+    },
+    {
+      "path": "beds/STORY.md",
+      "title": "beds/STORY.md"
+    },
+    {
+      "path": "beds/manifest.json",
+      "title": "beds/manifest.json"
+    },
+    {
+      "path": "beds/prompts/scene-01-v1.txt",
+      "title": "beds/prompts/scene-01-v1.txt"
+    },
+    {
+      "path": "beds/prompts/scene-42-v1.txt",
+      "title": "beds/prompts/scene-42-v1.txt"
+    },
+    {
+      "path": "beds/prompts/scene-43-v1.txt",
+      "title": "beds/prompts/scene-43-v1.txt"
+    },
+    {
+      "path": "beds/prompts/scene-71-v1.txt",
+      "title": "beds/prompts/scene-71-v1.txt"
+    },
+    {
+      "path": "beds/records/scene-01-v1.json",
+      "title": "beds/records/scene-01-v1.json"
+    },
+    {
+      "path": "beds/records/scene-42-v1.json",
+      "title": "beds/records/scene-42-v1.json"
+    },
+    {
+      "path": "beds/records/scene-43-v1.json",
+      "title": "beds/records/scene-43-v1.json"
+    },
+    {
+      "path": "beds/records/scene-71-v1.json",
+      "title": "beds/records/scene-71-v1.json"
+    },
+    {
+      "path": "geometry/GEOMETRY.md",
+      "title": "geometry/GEOMETRY.md"
+    },
+    {
+      "path": "geometry/manifest.json",
+      "title": "geometry/manifest.json"
+    },
+    {
+      "path": "geometry/scene-30-r6-v1-prompt.txt",
+      "title": "geometry/scene-30-r6-v1-prompt.txt"
+    },
+    {
+      "path": "geometry/scene-30-r6-v1-record.json",
+      "title": "geometry/scene-30-r6-v1-record.json"
+    },
+    {
+      "path": "geometry/scene-30-r6-v1-request.json",
+      "title": "geometry/scene-30-r6-v1-request.json"
+    },
+    {
+      "path": "geometry/selection.json",
+      "title": "geometry/selection.json"
+    },
+    {
+      "path": "tables/TABLES.md",
+      "title": "tables/TABLES.md"
+    },
+    {
+      "path": "tables/manifest.json",
+      "title": "tables/manifest.json"
+    },
+    {
+      "path": "tables/scene-69-v1.json",
+      "title": "tables/scene-69-v1.json"
+    },
+    {
+      "path": "tables/scene-69-v1.prompt.txt",
+      "title": "tables/scene-69-v1.prompt.txt"
+    },
+    {
+      "path": "tables/scene-83-v1.json",
+      "title": "tables/scene-83-v1.json"
+    },
+    {
+      "path": "tables/scene-83-v1.prompt.txt",
+      "title": "tables/scene-83-v1.prompt.txt"
+    }
+  ],
+  "laneManifests": [
+    {
+      "path": "beds/manifest.json",
+      "sha256": "99d6c08884ac7d1f9a7c9c73f91ffbba9a9344153ad65bd344f114dbb00afac2"
+    },
+    {
+      "path": "geometry/manifest.json",
+      "sha256": "3515e32968b4ed83c2ac017db8345afd02f12ec28bd3226803305e223ae9911b"
+    },
+    {
+      "path": "tables/manifest.json",
+      "sha256": "c8f5d264f2a34ed95a841c66d8fcf07280ef8ae22441fa8e7b63769b20486f2b"
+    }
+  ]
+}

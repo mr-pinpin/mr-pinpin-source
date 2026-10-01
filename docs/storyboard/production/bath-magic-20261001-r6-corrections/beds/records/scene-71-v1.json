@@ -1,0 +1,45 @@
+{
+  "tool": "image_gen__imagegen",
+  "generatedAt": "2026-10-01T16:56:14.207Z",
+  "sourceOutput": "/Users/miguel_lemos/.codex/generated_images/01a0f5c0-64db-7310-817a-d73d15314908/exec-092a27ea-3c03-407c-887a-ae79ebf3f5f2.png",
+  "promptPath": "prompts/scene-71-v1.txt",
+  "references": [
+    {
+      "path": "originals/scene-71.png",
+      "sha256": "19e71b89997237e2696466d9b339013e2250e2845ad52fd8f7c0cf00506151dd",
+      "role": "exact edit target"
+    },
+    {
+      "path": "masters/scene-42-v1.png",
+      "sha256": "cc5c7b1d9e4ad9a6503fea45bd9c63269a04e2522cc08af3d8a85120c5d06f95",
+      "role": "family identity/style or corrected shared-bed blocking"
+    }
+  ],
+  "visualReview": {
+    "status": "passed-for-user-review",
+    "notes": "All four in shared bed; PinPin alone studies his raised paw, parents and infant asleep; distinct bodies and natural hands. Same night camera/room, no magic glow."
+  },
+  "sourceOutputPhysical": "/Volumes/TB4/mac-mini-storage/shared/air-space-recovery/codex-generated-images-elder-r6/01a0f5c0-64db-7310-817a-d73d15314908/exec-092a27ea-3c03-407c-887a-ae79ebf3f5f2.png",
+  "promptSha256": "5a4c4aee269b601a27c9bec93c2c0292801340271b6a118967b3b4b9228cc53b",
+  "master": {
+    "path": "masters/scene-71-v1.png",
+    "sha256": "09a3cfbd60d644d7e08d4c2a00ce2977ac0b3defdc007f0ba3588ed5f4e05640",
+    "bytes": 2302924
+  },
+  "web": {
+    "path": "web/scene-71.webp",
+    "sha256": "d718e56315b8af43df80e8a7ef017309b911dbc399040da318cdbacbac64539e",
+    "bytes": 352032
+  },
+  "dimensions": [
+    1536,
+    1024
+  ],
+  "conversion": {
+    "format": "WebP",
+    "quality": 94,
+    "method": 6,
+    "resized": false,
+    "artEdited": false
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "status": "reviewed proposal; not user-approved",
+  "corrections": [
+    {
+      "sceneId": "scene-30",
+      "original": "scene-30-before.webp",
+      "proposal": "scene-30-r6-v1.webp",
+      "record": "scene-30-r6-v1-record.json",
+      "prompt": "scene-30-r6-v1-prompt.txt",
+      "reason": "The continuous wooden back wall now encloses the family behind their shoulders, with the submerged wooden bottom clearly visible. Same split-level composition and family retained."
+    }
+  ],
+  "audit": {
+    "retained": [
+      26,
+      27,
+      28,
+      29
+    ],
+    "reason29": "Already entirely underwater with wooden interior wall and bottom; unchanged."
+  },
+  "frozen": true
+}

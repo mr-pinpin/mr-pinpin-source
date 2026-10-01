@@ -1,0 +1,29 @@
+{
+  "status": "proposal-for-review",
+  "scene": 30,
+  "before": {
+    "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r6-corrections/geometry/scene-30-before.webp",
+    "bytes": 505380,
+    "sha256": "77e18036a203c5e3fe043d28af5b88073425d6b2102888d717e1a64e6dd5b1ea"
+  },
+  "after": {
+    "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r6-corrections/geometry/scene-30-r6-v1.webp",
+    "bytes": 505242,
+    "sha256": "e4d72ab0211b387f07d891140cff414267a4fbb437f37fc5de7ecbf74a214f53"
+  },
+  "master": {
+    "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r6-corrections/geometry/scene-30-r6-v1.png",
+    "bytes": 2726852,
+    "sha256": "c1ff46696ed6a081dcd51ba3244dba5745a3252ec6a2dd329a0f974a055abccb"
+  },
+  "record": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r6-corrections/geometry/scene-30-r6-v1-record.json",
+  "prompt": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r6-corrections/geometry/scene-30-r6-v1-prompt.txt",
+  "audit": {
+    "26": "retain: entry pose and inside tub clear",
+    "27": "retain: child climbing over actual rim, other family inside",
+    "28": "retain: full family play clearly within broad tub",
+    "29": "retain: whole frame underwater, wooden interior wall and bottom present",
+    "30": "corrected: far wall and submerged bottom added"
+  },
+  "r5Mutated": false
+}
