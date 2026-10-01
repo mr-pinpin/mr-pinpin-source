@@ -1,0 +1,31 @@
+{
+  "tool": "image_gen__imagegen",
+  "generatedAt": "2026-10-01T15:49:58.571Z",
+  "promptPath": "prompts/scene-67-v2.txt",
+  "sourceOutput": "/Users/miguel_lemos/.codex/generated_images/01a0be6f-b832-7d93-95df-9d2ff5f69dc1/exec-9afcd846-9185-4f4e-a28f-a76be54010c1.png",
+  "references": [
+    "/Users/miguel_lemos/.codex/generated_images/01a0be6f-b832-7d93-95df-9d2ff5f69dc1/exec-3dda5de9-64b2-4f06-98df-f76694faa041.png"
+  ],
+  "visualReview": "Pass: reviewed image preserves cast/anatomy and intended scene state. North wall has no invented exterior opening; wooden tub and grey Papa restored.",
+  "cameraEvidence": "Same-composition edit; original seed/reference camera retained as illustrative continuity, not measured reconstruction.",
+  "referenceIdentities": [
+    {
+      "path": "/Users/miguel_lemos/.codex/generated_images/01a0be6f-b832-7d93-95df-9d2ff5f69dc1/exec-3dda5de9-64b2-4f06-98df-f76694faa041.png",
+      "bytes": 2467568,
+      "sha256": "dcf3dd2ba8dd1c71ec609617251671778446d42f9b289ced68c93021c56f3cc1"
+    }
+  ],
+  "preservedReferences": [
+    {
+      "path": "references/inputs/dcf3dd2ba8dd/exec-3dda5de9-64b2-4f06-98df-f76694faa041.png",
+      "sha256": "dcf3dd2ba8dd1c71ec609617251671778446d42f9b289ced68c93021c56f3cc1"
+    }
+  ],
+  "promptSha256": "e1fa276d8d5f4caa3b416f1b06b2fb661eb3206124b09635511e44c8f04a29ad",
+  "master": {
+    "path": "masters/scene-67-v2.png",
+    "bytes": 2411889,
+    "sha256": "d8d528ff4c9f48ee0cb87eaa2a723e9cf052666d8fe6bcc5b4f4f98a630ecd82"
+  },
+  "approval": "draft-for-review"
+}

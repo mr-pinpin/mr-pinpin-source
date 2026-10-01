@@ -1,0 +1,38 @@
+{
+  "id": "scene-51-v1",
+  "tool": "image_gen__imagegen",
+  "generatedAt": "2026-10-01T16:13:09.743Z",
+  "promptPath": "prompts/scene-51-v1.txt",
+  "sourceOutput": "/Volumes/TB4/mac-mini-storage/shared/pinpin-generated-originals/01a0be6f-b832-7d93-95df-9d2ff5f69dc1/exec-68b4df54-4114-4357-ac44-b5b26f8d742a.png",
+  "references": [
+    "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r5/masters/scene-35-v1.png"
+  ],
+  "visualReview": "Pass: reviewed full-size scene. Intended action and varied subdued emotions read, independent limbs and cast preserved, source state and temporary channel consistent.",
+  "cameraEvidence": "Same-composition edit from selected reference; no new measured transform claimed.",
+  "originalInputPaths": {
+    "sourceOutput": "/Users/miguel_lemos/.codex/generated_images/01a0be6f-b832-7d93-95df-9d2ff5f69dc1/exec-68b4df54-4114-4357-ac44-b5b26f8d742a.png",
+    "references": [
+      "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r5/masters/scene-35-v1.png"
+    ]
+  },
+  "referenceIdentities": [
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r5/masters/scene-35-v1.png",
+      "bytes": 2444736,
+      "sha256": "816e4930aac5594ea25cef0edebc704eefc4d296d42b0ff798bbd43f59def8d3"
+    }
+  ],
+  "preservedReferences": [
+    {
+      "path": "masters/scene-35-v1.png",
+      "sha256": "816e4930aac5594ea25cef0edebc704eefc4d296d42b0ff798bbd43f59def8d3"
+    }
+  ],
+  "promptSha256": "d0ac247954fd56ace7872576d48c073ca34bcef4a25cfc061bf7a768110a9158",
+  "master": {
+    "path": "masters/scene-51-v1.png",
+    "bytes": 2116924,
+    "sha256": "c9d562c569e4aef11052b92948aef5f8a8a80e82f5845d0b365c0f70ebb77492"
+  },
+  "approval": "draft-for-review"
+}

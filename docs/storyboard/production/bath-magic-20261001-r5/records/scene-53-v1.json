@@ -1,0 +1,41 @@
+{
+  "id": "scene-53-v1",
+  "tool": "image_gen__imagegen",
+  "generatedAt": "2026-10-01T15:46:34.763525+00:00",
+  "promptPath": "prompts/scene-53-v1.txt",
+  "sourceOutput": "/Users/miguel_lemos/.codex/generated_images/01a0f5c3-a7d1-70d0-b8cf-581aa5deee53/exec-633c4aa1-c724-4649-80d0-5e7bebebcdb7.png",
+  "references": [
+    "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001/masters/scene-09-v1.png",
+    "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r5/geometry/bath-source/still.png"
+  ],
+  "visualReview": "PASS: matched original09 camera, full tub, four petals, two arms, attentive closed mouth, thin faltering jet. Counterclockwise movement cannot be proven from still; text and later erasure convey it.",
+  "referenceIdentities": [
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001/masters/scene-09-v1.png",
+      "bytes": 2432913,
+      "sha256": "7f34bcffcbf3f73a9e4d98defd151165460075aff4f5cee912cca3fb4562f4fb"
+    },
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r5/geometry/bath-source/still.png",
+      "bytes": 1001323,
+      "sha256": "b761cb5a8f656d5f5abe112888012b2dd976f2a1c63f18a52a62345518e9a468"
+    }
+  ],
+  "preservedReferences": [
+    {
+      "path": "references/inputs/7f34bcffcbf3/scene-09-v1.png",
+      "sha256": "7f34bcffcbf3f73a9e4d98defd151165460075aff4f5cee912cca3fb4562f4fb"
+    },
+    {
+      "path": "references/inputs/b761cb5a8f65/still.png",
+      "sha256": "b761cb5a8f656d5f5abe112888012b2dd976f2a1c63f18a52a62345518e9a468"
+    }
+  ],
+  "promptSha256": "a9f943197f0ac5a4f397944155ae0653fc0526a5a4696dd9479f0fabc4a09236",
+  "master": {
+    "path": "masters/scene-53-v1.png",
+    "bytes": 2587516,
+    "sha256": "23df6e80d0415ee29cdc4120a9206ade300ea579c08cabc31afc27c29a0b34fe"
+  },
+  "approval": "draft-for-review"
+}

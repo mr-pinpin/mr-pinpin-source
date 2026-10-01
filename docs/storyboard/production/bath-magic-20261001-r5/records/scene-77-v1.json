@@ -1,0 +1,31 @@
+{
+  "tool": "image_gen__imagegen",
+  "generatedAt": "2026-10-01T15:49:58.571Z",
+  "promptPath": "prompts/scene-77-v1.txt",
+  "sourceOutput": "/Users/miguel_lemos/.codex/generated_images/01a0be6f-b832-7d93-95df-9d2ff5f69dc1/exec-abbc57d0-cef8-440e-96fb-8ea5ca950fa6.png",
+  "references": [
+    "/Users/miguel_lemos/.codex/generated_images/01a0f5c3-a7d1-70d0-b8cf-581aa5deee53/exec-633c4aa1-c724-4649-80d0-5e7bebebcdb7.png"
+  ],
+  "visualReview": "Pass: reviewed image preserves cast/anatomy and intended scene state. First portion of ring faded.",
+  "cameraEvidence": "Same-composition edit; original seed/reference camera retained as illustrative continuity, not measured reconstruction.",
+  "referenceIdentities": [
+    {
+      "path": "/Users/miguel_lemos/.codex/generated_images/01a0f5c3-a7d1-70d0-b8cf-581aa5deee53/exec-633c4aa1-c724-4649-80d0-5e7bebebcdb7.png",
+      "bytes": 2587516,
+      "sha256": "23df6e80d0415ee29cdc4120a9206ade300ea579c08cabc31afc27c29a0b34fe"
+    }
+  ],
+  "preservedReferences": [
+    {
+      "path": "references/inputs/23df6e80d041/exec-633c4aa1-c724-4649-80d0-5e7bebebcdb7.png",
+      "sha256": "23df6e80d0415ee29cdc4120a9206ade300ea579c08cabc31afc27c29a0b34fe"
+    }
+  ],
+  "promptSha256": "613e8a9870852d68f2e18d9af81d52c96ba3cc362146d7b23c1595625dc64e0c",
+  "master": {
+    "path": "masters/scene-77-v1.png",
+    "bytes": 2450678,
+    "sha256": "5f614ef9f3d2a3ffffb58c639f111d1502a1ffd2dd8b951d9029bc19dfa644e1"
+  },
+  "approval": "draft-for-review"
+}

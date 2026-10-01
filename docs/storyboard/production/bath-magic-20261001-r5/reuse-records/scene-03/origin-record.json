@@ -1,0 +1,26 @@
+{
+  "id": "scene-03",
+  "version": 1,
+  "tool": "image_gen__imagegen",
+  "prompt": "Use case: illustration-story. Create one landscape 3:2 children's picture-book page. Reference1 is canonical warm animated-feature family and kitchen; reference2 fixes Mama's exact cream-faced russet-quilled adult HEDGEHOG identity and stove. Reference3 is only a rough LOW CAMERA LOOKING UP guide, not final object shape/material. A tender first-person view from small child PinPin's eyes looking UP toward Mama as she cooks breakfast. Mama's kind face fills upper half, bending slightly to look DOWN DIRECTLY INTO THE LENS (the child), warm smile and clear expressive brown irises. She gently stirs the small porridge pot with one naturally connected paw and wooden spoon. Pot is offset lower-left on the closed old-fashioned stove, its few thin curls of steam glow in sunlight between viewer and Mama, charming little clouds rather than thick fog. Viewpoint remains a safe step away beside stove, never inside or above hot pot. Only Mama visible; PinPin is camera, no visible child, no baby, no duck. Exactly two Mama forepaws at most, anatomically connected; one stirring and other resting by her own waist or cropped. Cozy curved timber-and-plaster wall and soft little plant background, morning golden lighting. Bring the same fully finished soft dimensional storybook rendering as image1, not Blender gray cylinders, not angular geometry. Close intimate composition, no whole room panorama, no new door or window required. No typography or inset panels.",
+  "references": [
+    {
+      "path": "/Users/miguel_lemos/.codex/generated_images/01a0f5c0-64db-7310-817a-d73d15314908/exec-c26f8254-5bce-4fa0-88b5-f053653e5ba2.png",
+      "sha256": "eda819abf89680e8325fd00e064f24ec317af4d19f3cd27b1140939485dd2851"
+    },
+    {
+      "path": "/Users/miguel_lemos/.codex/generated_images/01a0f5c0-64db-7310-817a-d73d15314908/exec-1cca88ec-88cc-49b4-9ed6-d6bfbc19bd7b.png",
+      "sha256": "b67a51a02991f3fa77af9df72ee1b04581222eb5bcd9ef4634a206423836e0a3"
+    },
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r2/geometry/child-stove-up/still.png",
+      "sha256": "711eb0e2a6a8b09c05d981327a739dda38b4fb0ca6df8226f48c83e080a2a39a"
+    }
+  ],
+  "startedAt": "2026-10-01T05:43:09.133Z",
+  "finishedAt": "2026-10-01T05:43:45.816Z",
+  "generatedFile": "/Users/miguel_lemos/.codex/generated_images/01a0f5c0-64db-7310-817a-d73d15314908/exec-4eb33a0c-039c-4146-b5a8-2336a686a56f.png",
+  "review": "Reviewed genuine low child eye-level view; Mama looks down into lens, two connected paws, steam aside face, old-fashioned closed stove. Guide used for camera intent, not exact rendered geometry.",
+  "selected": true,
+  "promptSha256": "0225784c1be202b912f6c109d1b0c3166694b38798b862fce678a2db4dc980b7"
+}

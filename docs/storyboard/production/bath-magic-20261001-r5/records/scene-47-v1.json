@@ -1,0 +1,41 @@
+{
+  "id": "scene-47-v1",
+  "tool": "image_gen__imagegen",
+  "generatedAt": "2026-10-01T16:12:57.620541+00:00",
+  "promptPath": "prompts/scene-47-v1.txt",
+  "sourceOutput": "/Users/miguel_lemos/.codex/generated_images/01a0f5c3-a7d1-70d0-b8cf-581aa5deee53/exec-93b71da3-4616-4fd6-928e-cb7f9325d286.png",
+  "references": [
+    "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r5/masters/scene-32-v2.png",
+    "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r3/masters/scene-28-v1.png"
+  ],
+  "visualReview": "PASS: single quiet child in dry established bedroom43, tired Mama attending wetcloth47 with baby in highchair. Scene-specific expressions and attached limbs reviewed.",
+  "referenceIdentities": [
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r5/masters/scene-32-v2.png",
+      "bytes": 2488378,
+      "sha256": "4ed9a2989d1417ac1f175ea263296ba686a5d21076d0744e9d05085b4378ee87"
+    },
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r3/masters/scene-28-v1.png",
+      "bytes": 2749872,
+      "sha256": "d80cd9f09eaa764258cf96cf54a4ad0967f6839392eff35842ebc0ba968a70a2"
+    }
+  ],
+  "preservedReferences": [
+    {
+      "path": "masters/scene-32-v2.png",
+      "sha256": "4ed9a2989d1417ac1f175ea263296ba686a5d21076d0744e9d05085b4378ee87"
+    },
+    {
+      "path": "references/inputs/d80cd9f09eaa/scene-28-v1.png",
+      "sha256": "d80cd9f09eaa764258cf96cf54a4ad0967f6839392eff35842ebc0ba968a70a2"
+    }
+  ],
+  "promptSha256": "3d88c10b5151691b4578a9c2f289d9e03f3fc3ccc1029265c0535bf8a7cf9ec0",
+  "master": {
+    "path": "masters/scene-47-v1.png",
+    "bytes": 2457542,
+    "sha256": "2ce3d30a0ce7cbde3630841862b97d8fdd80519c9b6a8dbbd6c42fcd0b306030"
+  },
+  "approval": "draft-for-review"
+}

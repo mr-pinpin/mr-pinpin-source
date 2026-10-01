@@ -1,0 +1,52 @@
+{
+  "id": "scene-35-v1",
+  "tool": "image_gen__imagegen",
+  "generatedAt": "2026-10-01T15:55:43.984757+00:00",
+  "promptPath": "prompts/scene-35-v1.txt",
+  "sourceOutput": "/Users/miguel_lemos/.codex/generated_images/01a0f5c3-a7d1-70d0-b8cf-581aa5deee53/exec-bfc6fcdd-b719-4212-a9bb-9b945349b36b.png",
+  "references": [
+    "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r5/geometry/common-joint-close/still.png",
+    "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r5/masters/channel-guide-v2.png",
+    "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r3/masters/scene-28-v1.png"
+  ],
+  "visualReview": "PASS: close joined segment, four attached paws, clear overlap and focused faces. Camera interpreted with common background.",
+  "geometryGuide": "common-joint-close",
+  "referenceIdentities": [
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r5/geometry/common-joint-close/still.png",
+      "bytes": 1142520,
+      "sha256": "643ce2d6f5f98de06303a9d5977daf1c8175c87e36ea320847568511cfd2158b"
+    },
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r5/masters/channel-guide-v2.png",
+      "bytes": 2542588,
+      "sha256": "2ac72832612d1cf15f8946ab670a5a0e830e37c2e69082a464b002af6f313179"
+    },
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r3/masters/scene-28-v1.png",
+      "bytes": 2749872,
+      "sha256": "d80cd9f09eaa764258cf96cf54a4ad0967f6839392eff35842ebc0ba968a70a2"
+    }
+  ],
+  "preservedReferences": [
+    {
+      "path": "references/inputs/643ce2d6f5f9/still.png",
+      "sha256": "643ce2d6f5f98de06303a9d5977daf1c8175c87e36ea320847568511cfd2158b"
+    },
+    {
+      "path": "masters/channel-guide-v2.png",
+      "sha256": "2ac72832612d1cf15f8946ab670a5a0e830e37c2e69082a464b002af6f313179"
+    },
+    {
+      "path": "references/inputs/d80cd9f09eaa/scene-28-v1.png",
+      "sha256": "d80cd9f09eaa764258cf96cf54a4ad0967f6839392eff35842ebc0ba968a70a2"
+    }
+  ],
+  "promptSha256": "2d5a1fadf9d7ca9dad2a43a4a0acbaec03acf3e259f8188fdfa2d1becbe15a7d",
+  "master": {
+    "path": "masters/scene-35-v1.png",
+    "bytes": 2444736,
+    "sha256": "816e4930aac5594ea25cef0edebc704eefc4d296d42b0ff798bbd43f59def8d3"
+  },
+  "approval": "draft-for-review"
+}

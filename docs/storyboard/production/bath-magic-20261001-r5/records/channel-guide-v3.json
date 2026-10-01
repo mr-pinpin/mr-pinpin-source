@@ -1,0 +1,31 @@
+{
+  "id": "channel-guide-v3",
+  "tool": "image_gen__imagegen",
+  "generatedAt": "2026-10-01T15:46:34.763225+00:00",
+  "promptPath": "prompts/channel-guide-v3.txt",
+  "sourceOutput": "/Users/miguel_lemos/.codex/generated_images/01a0f5c3-a7d1-70d0-b8cf-581aa5deee53/exec-8e931a4b-1c71-4aa6-a280-989f4609ff8f.png",
+  "references": [
+    "/Users/miguel_lemos/.codex/generated_images/01a0f5c3-a7d1-70d0-b8cf-581aa5deee53/exec-8fd86608-df35-4b81-96dc-04edfbfb5866.png"
+  ],
+  "visualReview": "REJECT: gradient remains reversed in left panel.",
+  "referenceIdentities": [
+    {
+      "path": "/Users/miguel_lemos/.codex/generated_images/01a0f5c3-a7d1-70d0-b8cf-581aa5deee53/exec-8fd86608-df35-4b81-96dc-04edfbfb5866.png",
+      "bytes": 2542588,
+      "sha256": "2ac72832612d1cf15f8946ab670a5a0e830e37c2e69082a464b002af6f313179"
+    }
+  ],
+  "preservedReferences": [
+    {
+      "path": "references/inputs/2ac72832612d/exec-8fd86608-df35-4b81-96dc-04edfbfb5866.png",
+      "sha256": "2ac72832612d1cf15f8946ab670a5a0e830e37c2e69082a464b002af6f313179"
+    }
+  ],
+  "promptSha256": "5fee10d4ef11a2789bd26dff5d0156587c3f87d216e57481867d283133081250",
+  "master": {
+    "path": "masters/channel-guide-v3.png",
+    "bytes": 2456352,
+    "sha256": "61a3f8eacbfb3e21868618fe589a9936d0e4b4583bccb98dfb4b5063f4854bc8"
+  },
+  "approval": "draft-for-review"
+}

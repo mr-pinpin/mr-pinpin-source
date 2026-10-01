@@ -1,0 +1,31 @@
+{
+  "tool": "image_gen__imagegen",
+  "generatedAt": "2026-10-01T15:49:58.571Z",
+  "promptPath": "prompts/scene-64-v2.txt",
+  "sourceOutput": "/Users/miguel_lemos/.codex/generated_images/01a0be6f-b832-7d93-95df-9d2ff5f69dc1/exec-71d0c67e-32e3-4aaa-9891-528922540645.png",
+  "references": [
+    "/Users/miguel_lemos/.codex/generated_images/01a0be6f-b832-7d93-95df-9d2ff5f69dc1/exec-1d04923b-88ff-4800-8a83-25941173abf7.png"
+  ],
+  "visualReview": "Pass: reviewed image preserves cast/anatomy and intended scene state. Smooth channel removes reverse waterfalls.",
+  "cameraEvidence": "Same-composition edit; original seed/reference camera retained as illustrative continuity, not measured reconstruction.",
+  "referenceIdentities": [
+    {
+      "path": "/Users/miguel_lemos/.codex/generated_images/01a0be6f-b832-7d93-95df-9d2ff5f69dc1/exec-1d04923b-88ff-4800-8a83-25941173abf7.png",
+      "bytes": 2420352,
+      "sha256": "54b9f0aaf1f53b3447dff4a1f546121529493b5370df0083285a2f951409d42a"
+    }
+  ],
+  "preservedReferences": [
+    {
+      "path": "references/inputs/54b9f0aaf1f5/exec-1d04923b-88ff-4800-8a83-25941173abf7.png",
+      "sha256": "54b9f0aaf1f53b3447dff4a1f546121529493b5370df0083285a2f951409d42a"
+    }
+  ],
+  "promptSha256": "8168ffa47d66b0a2ae3da6dadc402ed4e4408a88f402686cab1f1d2228dbd28a",
+  "master": {
+    "path": "masters/scene-64-v2.png",
+    "bytes": 2303152,
+    "sha256": "fd00934780c061c38c93a710b951eaf81a54b30661f487bfdb30d9af634294f7"
+  },
+  "approval": "draft-for-review"
+}

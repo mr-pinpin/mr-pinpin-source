@@ -1,0 +1,61 @@
+{
+  "tool": "image_gen__imagegen",
+  "generatedAt": "2026-10-01T15:44:07.901Z",
+  "promptPath": "prompts/scene-64-v1.txt",
+  "sourceOutput": "/Users/miguel_lemos/.codex/generated_images/01a0be6f-b832-7d93-95df-9d2ff5f69dc1/exec-1d04923b-88ff-4800-8a83-25941173abf7.png",
+  "references": [
+    "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r5/geometry/common-channel-south/still.png",
+    "/Users/miguel_lemos/.codex/generated_images/01a0be6f-b832-7d93-95df-9d2ff5f69dc1/exec-b483d3b2-9fac-424e-bfa9-c57f97faf8d8.png",
+    "/Users/miguel_lemos/.codex/generated_images/01a0f5c3-a7d1-70d0-b8cf-581aa5deee53/exec-8fd86608-df35-4b81-96dc-04edfbfb5866.png",
+    "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r4/masters/duck-character-study-v2.png"
+  ],
+  "visualReview": "Needs correction: channel waterfalls appear to flow inward, remove reverse steps.",
+  "cameraEvidence": "Geometry guide common-channel-south; generated interpretation, not measured reconstruction.",
+  "referenceIdentities": [
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r5/geometry/common-channel-south/still.png",
+      "bytes": 1151521,
+      "sha256": "4a2a3a147fc8bd622ab1725ed25f87b8910b002e7a5a28147de8247d31e5f352"
+    },
+    {
+      "path": "/Users/miguel_lemos/.codex/generated_images/01a0be6f-b832-7d93-95df-9d2ff5f69dc1/exec-b483d3b2-9fac-424e-bfa9-c57f97faf8d8.png",
+      "bytes": 2494907,
+      "sha256": "e197654a183d0ecc739ca281f0ecfbab2491edc00c34b1042f64a874a4693770"
+    },
+    {
+      "path": "/Users/miguel_lemos/.codex/generated_images/01a0f5c3-a7d1-70d0-b8cf-581aa5deee53/exec-8fd86608-df35-4b81-96dc-04edfbfb5866.png",
+      "bytes": 2542588,
+      "sha256": "2ac72832612d1cf15f8946ab670a5a0e830e37c2e69082a464b002af6f313179"
+    },
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r4/masters/duck-character-study-v2.png",
+      "bytes": 1606390,
+      "sha256": "09db45c15b849ad4846e468c2ea326a7bf4e58483f9579dad8b6bf67a3189495"
+    }
+  ],
+  "preservedReferences": [
+    {
+      "path": "references/inputs/4a2a3a147fc8/still.png",
+      "sha256": "4a2a3a147fc8bd622ab1725ed25f87b8910b002e7a5a28147de8247d31e5f352"
+    },
+    {
+      "path": "references/inputs/e197654a183d/exec-b483d3b2-9fac-424e-bfa9-c57f97faf8d8.png",
+      "sha256": "e197654a183d0ecc739ca281f0ecfbab2491edc00c34b1042f64a874a4693770"
+    },
+    {
+      "path": "references/inputs/2ac72832612d/exec-8fd86608-df35-4b81-96dc-04edfbfb5866.png",
+      "sha256": "2ac72832612d1cf15f8946ab670a5a0e830e37c2e69082a464b002af6f313179"
+    },
+    {
+      "path": "references/inputs/09db45c15b84/duck-character-study-v2.png",
+      "sha256": "09db45c15b849ad4846e468c2ea326a7bf4e58483f9579dad8b6bf67a3189495"
+    }
+  ],
+  "promptSha256": "9845cf3e4dbcc4d0b415abf603022ce12f9f5dbced2c624ad8f8c9ca9568689f",
+  "master": {
+    "path": "masters/scene-64-v1.png",
+    "bytes": 2420352,
+    "sha256": "54b9f0aaf1f53b3447dff4a1f546121529493b5370df0083285a2f951409d42a"
+  },
+  "approval": "draft-for-review"
+}

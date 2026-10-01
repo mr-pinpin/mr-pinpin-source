@@ -1,0 +1,33 @@
+{
+  "tool": "image_gen__imagegen",
+  "generatedAt": "2026-10-01T16:02:36.954Z",
+  "promptPath": "prompts/scene-82-v1.txt",
+  "sourceOutput": "/Users/miguel_lemos/.codex/generated_images/01a0f5c0-64db-7310-817a-d73d15314908/exec-0ac1751f-c24f-4a93-ba4d-e18e615b7573.png",
+  "references": [
+    "/Users/miguel_lemos/.codex/generated_images/01a0f5c3-a7d1-70d0-b8cf-581aa5deee53/exec-6112a548-b2d4-4cea-bf4b-e1a67e8fa740.png"
+  ],
+  "visualReview": {
+    "status": "passed",
+    "notes": "Same-camera south front door/two windows; Papa carries sections OUT; Mama offscreen; PinPin puts away pail."
+  },
+  "referenceIdentities": [
+    {
+      "path": "/Users/miguel_lemos/.codex/generated_images/01a0f5c3-a7d1-70d0-b8cf-581aa5deee53/exec-6112a548-b2d4-4cea-bf4b-e1a67e8fa740.png",
+      "bytes": 2637886,
+      "sha256": "77e91aed32c730d783d46c62a95c46d11baf0890f59f11a931401200ddab1208"
+    }
+  ],
+  "preservedReferences": [
+    {
+      "path": "references/inputs/77e91aed32c7/exec-6112a548-b2d4-4cea-bf4b-e1a67e8fa740.png",
+      "sha256": "77e91aed32c730d783d46c62a95c46d11baf0890f59f11a931401200ddab1208"
+    }
+  ],
+  "promptSha256": "52e36477a2a7a12f961e3e335cbc33c30e64dde2b512c82d4167f3dd0aabfc52",
+  "master": {
+    "path": "masters/scene-82-v1.png",
+    "bytes": 2453818,
+    "sha256": "d6757948b3970533f5c0fafd00954d78516f0b0c98d57a1a82d174b7e8bb5715"
+  },
+  "approval": "draft-for-review"
+}

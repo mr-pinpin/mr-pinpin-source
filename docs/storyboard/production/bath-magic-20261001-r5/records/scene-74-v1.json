@@ -1,0 +1,31 @@
+{
+  "tool": "image_gen__imagegen",
+  "generatedAt": "2026-10-01T15:49:58.571Z",
+  "promptPath": "prompts/scene-74-v1.txt",
+  "sourceOutput": "/Users/miguel_lemos/.codex/generated_images/01a0be6f-b832-7d93-95df-9d2ff5f69dc1/exec-790ef6f7-efb3-4315-9270-9c1132a9e690.png",
+  "references": [
+    "/Users/miguel_lemos/.codex/generated_images/01a0f5c3-a7d1-70d0-b8cf-581aa5deee53/exec-633c4aa1-c724-4649-80d0-5e7bebebcdb7.png"
+  ],
+  "visualReview": "Pass: reviewed image preserves cast/anatomy and intended scene state. Short reverse trial and gap visible.",
+  "cameraEvidence": "Same-composition edit; original seed/reference camera retained as illustrative continuity, not measured reconstruction.",
+  "referenceIdentities": [
+    {
+      "path": "/Users/miguel_lemos/.codex/generated_images/01a0f5c3-a7d1-70d0-b8cf-581aa5deee53/exec-633c4aa1-c724-4649-80d0-5e7bebebcdb7.png",
+      "bytes": 2587516,
+      "sha256": "23df6e80d0415ee29cdc4120a9206ade300ea579c08cabc31afc27c29a0b34fe"
+    }
+  ],
+  "preservedReferences": [
+    {
+      "path": "references/inputs/23df6e80d041/exec-633c4aa1-c724-4649-80d0-5e7bebebcdb7.png",
+      "sha256": "23df6e80d0415ee29cdc4120a9206ade300ea579c08cabc31afc27c29a0b34fe"
+    }
+  ],
+  "promptSha256": "e61bbacc8df93e2548dde00338ca783be9bd70b4e446ef700be5b895c567f1ba",
+  "master": {
+    "path": "masters/scene-74-v1.png",
+    "bytes": 2531880,
+    "sha256": "4f1f12cafb9fdc97f7d01edd6724211bf890e4f5f70a93edcf141347e434d602"
+  },
+  "approval": "draft-for-review"
+}

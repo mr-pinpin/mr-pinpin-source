@@ -1,0 +1,31 @@
+{
+  "tool": "image_gen__imagegen",
+  "generatedAt": "2026-10-01T15:29:04.786Z",
+  "promptPath": "prompts/scene-84-v1.txt",
+  "sourceOutput": "/Users/miguel_lemos/.codex/generated_images/01a0be6f-b832-7d93-95df-9d2ff5f69dc1/exec-af8120c5-9e7f-4c65-b1db-4adfe227f351.png",
+  "references": [
+    "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r3/web/scene-62.webp",
+    "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r4/masters/duck-character-study-v2.png"
+  ],
+  "visualReview": "Passed: near-lens resting chin and both eyes, two supporting paws; small plastic duck in basin on stool, subdued parents behind; calm ending. Baby remains outside crop.",
+  "cameraEvidence": "Edit preserving source composition; no new measured camera reconstruction claimed.",
+  "referenceIdentities": [
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r3/web/scene-62.webp",
+      "bytes": 388606,
+      "sha256": "cf0b46e65cc8f7266a3ab4041e44cad1e134722e8f8b0bd91d586df051ae1e1b"
+    },
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r4/masters/duck-character-study-v2.png",
+      "bytes": 1606390,
+      "sha256": "09db45c15b849ad4846e468c2ea326a7bf4e58483f9579dad8b6bf67a3189495"
+    }
+  ],
+  "promptSha256": "864d32c33211891f823b580a73bff470dcd06de29c9ab7d966804cb71e2724e7",
+  "master": {
+    "path": "masters/scene-84-v1.png",
+    "bytes": 2370449,
+    "sha256": "c9e65e7500774bffdb8f32d2112d970e51a44e5bb30a064bbd7fc6944336872b"
+  },
+  "approval": "draft-for-review"
+}

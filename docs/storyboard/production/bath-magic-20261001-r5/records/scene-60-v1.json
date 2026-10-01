@@ -1,0 +1,31 @@
+{
+  "tool": "image_gen__imagegen",
+  "generatedAt": "2026-10-01T15:29:04.782Z",
+  "promptPath": "prompts/scene-60-v1.txt",
+  "sourceOutput": "/Users/miguel_lemos/.codex/generated_images/01a0be6f-b832-7d93-95df-9d2ff5f69dc1/exec-2236ce01-e5ee-4658-999b-4819673808d3.png",
+  "references": [
+    "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r3/web/scene-36.webp",
+    "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r4/masters/duck-character-study-v2.png"
+  ],
+  "visualReview": "Passed: yellow vinyl duck with white/black eyes and no brow ridges, opening beak; old wooden texture removed. Same close camera, source fountain still runs; softened daylight.",
+  "cameraEvidence": "Edit preserving source composition; no new measured camera reconstruction claimed.",
+  "referenceIdentities": [
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r3/web/scene-36.webp",
+      "bytes": 350232,
+      "sha256": "395dfdf43ac371ce4bfed1fdde517295b3e004437806935abbd6f2ccca45de14"
+    },
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r4/masters/duck-character-study-v2.png",
+      "bytes": 1606390,
+      "sha256": "09db45c15b849ad4846e468c2ea326a7bf4e58483f9579dad8b6bf67a3189495"
+    }
+  ],
+  "promptSha256": "58ebe3f32c15c96423d59ed818d9f6d7dd2e05e1251e340e105dbf29e82f56c1",
+  "master": {
+    "path": "masters/scene-60-v1.png",
+    "bytes": 2181486,
+    "sha256": "cb35101c78517f3c13c50075323b6a2a67e9c3ae14cbfe0b6275aeb0f3220bdd"
+  },
+  "approval": "draft-for-review"
+}

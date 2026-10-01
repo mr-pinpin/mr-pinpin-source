@@ -1,0 +1,52 @@
+{
+  "id": "scene-36-v1",
+  "tool": "image_gen__imagegen",
+  "generatedAt": "2026-10-01T15:55:43.985376+00:00",
+  "promptPath": "prompts/scene-36-v1.txt",
+  "sourceOutput": "/Users/miguel_lemos/.codex/generated_images/01a0f5c3-a7d1-70d0-b8cf-581aa5deee53/exec-78613621-f941-406a-9d8a-8bd13df6c492.png",
+  "references": [
+    "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r5/geometry/bath-channel-reverse/still.png",
+    "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r5/masters/channel-guide-v4.png",
+    "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r3/masters/scene-28-v1.png"
+  ],
+  "visualReview": "REJECT pending repair: invented clothing on Papa/PinPin and rustcommonmat.",
+  "geometryGuide": "bath-channel-reverse",
+  "referenceIdentities": [
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r5/geometry/bath-channel-reverse/still.png",
+      "bytes": 1043303,
+      "sha256": "9891b8a570180e364f3e9f548712fe601120c610a7db5c716056b2b8e3ad7faf"
+    },
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r5/masters/channel-guide-v4.png",
+      "bytes": 2480585,
+      "sha256": "6427d6adbbec899c59e387c4a625b8b6bd09662939b621ae4d4a0a101e806ccd"
+    },
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r3/masters/scene-28-v1.png",
+      "bytes": 2749872,
+      "sha256": "d80cd9f09eaa764258cf96cf54a4ad0967f6839392eff35842ebc0ba968a70a2"
+    }
+  ],
+  "preservedReferences": [
+    {
+      "path": "references/inputs/9891b8a57018/still.png",
+      "sha256": "9891b8a570180e364f3e9f548712fe601120c610a7db5c716056b2b8e3ad7faf"
+    },
+    {
+      "path": "masters/channel-guide-v4.png",
+      "sha256": "6427d6adbbec899c59e387c4a625b8b6bd09662939b621ae4d4a0a101e806ccd"
+    },
+    {
+      "path": "references/inputs/d80cd9f09eaa/scene-28-v1.png",
+      "sha256": "d80cd9f09eaa764258cf96cf54a4ad0967f6839392eff35842ebc0ba968a70a2"
+    }
+  ],
+  "promptSha256": "db546fb5b43cca88e955a48a30e29a4667359c765efc238c46f1d93543092840",
+  "master": {
+    "path": "masters/scene-36-v1.png",
+    "bytes": 2500296,
+    "sha256": "52b3b9956656d2f35e81cf395dc36424e311f9391b695db0cb7b885c8d87182f"
+  },
+  "approval": "draft-for-review"
+}

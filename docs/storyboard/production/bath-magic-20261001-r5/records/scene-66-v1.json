@@ -1,0 +1,61 @@
+{
+  "tool": "image_gen__imagegen",
+  "generatedAt": "2026-10-01T15:44:07.901Z",
+  "promptPath": "prompts/scene-66-v1.txt",
+  "sourceOutput": "/Users/miguel_lemos/.codex/generated_images/01a0be6f-b832-7d93-95df-9d2ff5f69dc1/exec-11aaabc2-b99a-4d64-933a-f06d7d862b53.png",
+  "references": [
+    "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r5/geometry/front-outlet/still.png",
+    "/Users/miguel_lemos/.codex/generated_images/01a0be6f-b832-7d93-95df-9d2ff5f69dc1/exec-b483d3b2-9fac-424e-bfa9-c57f97faf8d8.png",
+    "/Users/miguel_lemos/.codex/generated_images/01a0f5c3-a7d1-70d0-b8cf-581aa5deee53/exec-8fd86608-df35-4b81-96dc-04edfbfb5866.png",
+    "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r4/masters/duck-character-study-v2.png"
+  ],
+  "visualReview": "Needs correction: background invents second exterior door behind Papa, must restore interior wall.",
+  "cameraEvidence": "Geometry guide front-outlet; generated interpretation, not measured reconstruction.",
+  "referenceIdentities": [
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r5/geometry/front-outlet/still.png",
+      "bytes": 1065402,
+      "sha256": "75d77bd8b8aebb21305febccc92c67e7d155e5e56d9c8f8d3d649d0492fa2550"
+    },
+    {
+      "path": "/Users/miguel_lemos/.codex/generated_images/01a0be6f-b832-7d93-95df-9d2ff5f69dc1/exec-b483d3b2-9fac-424e-bfa9-c57f97faf8d8.png",
+      "bytes": 2494907,
+      "sha256": "e197654a183d0ecc739ca281f0ecfbab2491edc00c34b1042f64a874a4693770"
+    },
+    {
+      "path": "/Users/miguel_lemos/.codex/generated_images/01a0f5c3-a7d1-70d0-b8cf-581aa5deee53/exec-8fd86608-df35-4b81-96dc-04edfbfb5866.png",
+      "bytes": 2542588,
+      "sha256": "2ac72832612d1cf15f8946ab670a5a0e830e37c2e69082a464b002af6f313179"
+    },
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r4/masters/duck-character-study-v2.png",
+      "bytes": 1606390,
+      "sha256": "09db45c15b849ad4846e468c2ea326a7bf4e58483f9579dad8b6bf67a3189495"
+    }
+  ],
+  "preservedReferences": [
+    {
+      "path": "references/inputs/75d77bd8b8ae/still.png",
+      "sha256": "75d77bd8b8aebb21305febccc92c67e7d155e5e56d9c8f8d3d649d0492fa2550"
+    },
+    {
+      "path": "references/inputs/e197654a183d/exec-b483d3b2-9fac-424e-bfa9-c57f97faf8d8.png",
+      "sha256": "e197654a183d0ecc739ca281f0ecfbab2491edc00c34b1042f64a874a4693770"
+    },
+    {
+      "path": "references/inputs/2ac72832612d/exec-8fd86608-df35-4b81-96dc-04edfbfb5866.png",
+      "sha256": "2ac72832612d1cf15f8946ab670a5a0e830e37c2e69082a464b002af6f313179"
+    },
+    {
+      "path": "references/inputs/09db45c15b84/duck-character-study-v2.png",
+      "sha256": "09db45c15b849ad4846e468c2ea326a7bf4e58483f9579dad8b6bf67a3189495"
+    }
+  ],
+  "promptSha256": "97c5a20c122222574d0ba0b5ed930ec737927d6138f2fb78e7afb79dc73e3c2d",
+  "master": {
+    "path": "masters/scene-66-v1.png",
+    "bytes": 2931958,
+    "sha256": "539b5950c9b946042494b2b4d66198e37e1b2772a2e5cdceb7c8d045abe8abaa"
+  },
+  "approval": "draft-for-review"
+}

@@ -1,0 +1,194 @@
+{
+  "schemaVersion": 1,
+  "stage": "render",
+  "locationId": "pinpin-house",
+  "locationVersion": "1.0.0",
+  "jobId": "bath-magic-r5-bath-channel-reverse",
+  "jobSha256": "9c54a772b490f979ab4ff8412f1b6f64252aa4063e4df88fb246cb91e8699654",
+  "inputs": {
+    "docs/storyboard/locations/pinpin-house/location.json": "3fe9e9a0e0ebaff2299ad358cc564d2010fb2eadf02fa3d6064525888582c73f",
+    "docs/storyboard/locations/pinpin-house/scene/house-plan.json": "cab510b31c13e85beaa689edb54005223412a988f640724e56b9d95dba20c28c",
+    "docs/storyboard/locations/pinpin-house/scene/merged-semantic-plan.png": "317c3447d13d915b7072cc096e641e37c33233d3ce4390ec163cf07ca49dd8c2",
+    "tools/locations/builder/build_house.py": "34946231d4922c0454064b3c5961dd6ce448bdf2ef5ec9c6326bb41af38f8d1b",
+    "tools/locations/builder/plan_geometry.py": "f80c11e855deec10e7ce07d4114fd2a410af50d9e85713b43efc606fc4619912",
+    "tools/locations/blender_worker.py": "15a8eb6673217f1f6c15fc941c9e20a2801dbd2d6374d645ba1a849afe2fc48c",
+    "tools/locations/png_atlas.py": "7eb3ce2e2ccf61532e26955fac9d58f7dad69c0e7acb5701f1a02aeebca4e48d",
+    "tools/locations/cli.py": "360f97e1afa245c5be10824d4a235f85d896b692261f5839ed9291ab38f7b481",
+    "tools/locations/contracts.py": "9cd6002a280d6b6234878439e667a934629f377ae87aeb8fdbc04d0eb1f38b5c",
+    "tools/locations/tests/test_contracts.py": "d5b9441767992ce8dbc13e6a0e087124cef2b7d80f720adb16fb836116a70e8e",
+    "tools/locations/tests/blender_door_state.py": "771e77287731df8cb74ea996210c045c46bea3ac2e2737269ff773daa6725fed",
+    "docs/storyboard/production/bath-magic-20261001-r5/geometry/bath-channel-reverse.json": "9c54a772b490f979ab4ff8412f1b6f64252aa4063e4df88fb246cb91e8699654"
+  },
+  "cameraCheck": {
+    "pass": true,
+    "minimumSurfaceMarginM": 0.035,
+    "objectsChecked": 45,
+    "allowOutside": false
+  },
+  "doorStates": [
+    {
+      "id": "door-front",
+      "angleDegrees": 105,
+      "signedAngleDegrees": -105,
+      "hingeWorld": [
+        -0.6962748765945435,
+        -2.957864999771118,
+        0.0
+      ],
+      "matrixWorld": [
+        [
+          -0.258819043636322,
+          0.9659258127212524,
+          0.0,
+          -0.6962748765945435
+        ],
+        [
+          -0.9659258127212524,
+          -0.258819043636322,
+          0.0,
+          -2.957864999771118
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "id": "door-bath",
+      "angleDegrees": 75,
+      "signedAngleDegrees": 75,
+      "hingeWorld": [
+        -2.0239672660827637,
+        0.6366258859634399,
+        0.0
+      ],
+      "matrixWorld": [
+        [
+          -0.3046184480190277,
+          -0.9524744749069214,
+          0.0,
+          -2.0239672660827637
+        ],
+        [
+          0.9524744749069214,
+          -0.3046184480190277,
+          0.0,
+          0.6366258859634399
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "id": "door-bedroom",
+      "angleDegrees": 0,
+      "signedAngleDegrees": 0,
+      "hingeWorld": [
+        1.039655089378357,
+        0.4985438883304596,
+        0.0
+      ],
+      "matrixWorld": [
+        [
+          0.7090891003608704,
+          0.7051188945770264,
+          0.0,
+          1.039655089378357
+        ],
+        [
+          -0.7051188945770264,
+          0.7090891003608704,
+          0.0,
+          0.4985438883304596
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    }
+  ],
+  "cameras": [
+    {
+      "position": [
+        -3.9000000953674316,
+        3.5,
+        1.100000023841858
+      ],
+      "quaternionWXYZ": [
+        0.21300029754638672,
+        0.1831672191619873,
+        -0.6257555484771729,
+        -0.7276748418807983
+      ],
+      "matrixWorld": [
+        [
+          -0.8421613574028015,
+          0.0807541087269783,
+          -0.5331445932388306,
+          -3.9000000953674316
+        ],
+        [
+          -0.539225697517395,
+          -0.12612180411815643,
+          0.8326637744903564,
+          3.5
+        ],
+        [
+          -1.1844900882351794e-07,
+          0.9887225031852722,
+          0.14975953102111816,
+          1.100000023841858
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "lensMm": 22.0,
+      "horizontalFovDegrees": 78.57881289138213,
+      "width": 1400,
+      "height": 1000
+    }
+  ],
+  "artifacts": [
+    {
+      "path": "still.png",
+      "sha256": "9891b8a570180e364f3e9f548712fe601120c610a7db5c716056b2b8e3ad7faf",
+      "bytes": 1043303
+    }
+  ],
+  "sceneSourceSha256": "7c71b3a0efdcea64f397b83fa3a094e878f1ff6f4f1abccbb6e54e9f9b1a0ed5",
+  "cubeLayout": null,
+  "singleScene": true,
+  "blenderVersion": "4.5.14 LTS"
+}

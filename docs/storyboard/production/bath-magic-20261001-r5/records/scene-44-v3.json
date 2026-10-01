@@ -1,0 +1,31 @@
+{
+  "id": "scene-44-v3",
+  "tool": "image_gen__imagegen",
+  "generatedAt": "2026-10-01T16:24:38.060752+00:00",
+  "promptPath": "prompts/scene-44-v3.txt",
+  "sourceOutput": "/Users/miguel_lemos/.codex/generated_images/01a0f5c3-a7d1-70d0-b8cf-581aa5deee53/exec-335ca79d-045c-47c2-8f70-838f8eab3914.png",
+  "references": [
+    "/Users/miguel_lemos/.codex/generated_images/01a0f5c3-a7d1-70d0-b8cf-581aa5deee53/exec-498eb93d-51a3-47dd-9ac6-916d77600726.png"
+  ],
+  "visualReview": "PASS:44 grounded right hindpaw on dryfloor clearly separated from channel, left foot lifts tostepover; 2arms holdleveltray, family/camera retained.",
+  "referenceIdentities": [
+    {
+      "path": "/Users/miguel_lemos/.codex/generated_images/01a0f5c3-a7d1-70d0-b8cf-581aa5deee53/exec-498eb93d-51a3-47dd-9ac6-916d77600726.png",
+      "bytes": 2531489,
+      "sha256": "04aa68abe855e267cb1887f34bd32a2a730ab928950b6515f481eb02a044a921"
+    }
+  ],
+  "preservedReferences": [
+    {
+      "path": "references/inputs/04aa68abe855/exec-498eb93d-51a3-47dd-9ac6-916d77600726.png",
+      "sha256": "04aa68abe855e267cb1887f34bd32a2a730ab928950b6515f481eb02a044a921"
+    }
+  ],
+  "promptSha256": "bdbea47ec5d332349f95418d64c486652612c26eab23e8ab5e2a8cf97f90aa63",
+  "master": {
+    "path": "masters/scene-44-v3.png",
+    "bytes": 2506730,
+    "sha256": "e605104cc79b2281eef93209b7cf7e0bdad8beefe86e982984bfe28306530342"
+  },
+  "approval": "draft-for-review"
+}

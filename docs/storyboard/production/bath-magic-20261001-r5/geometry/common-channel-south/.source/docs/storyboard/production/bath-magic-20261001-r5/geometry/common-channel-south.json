@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "id": "bath-magic-r5-common-channel-south",
+  "location": "docs/storyboard/locations/pinpin-house/location.json",
+  "camera": {
+    "position": [
+      -1.8,
+      0.28,
+      1.15
+    ],
+    "target": [
+      -0.6,
+      -2.9,
+      0.4
+    ],
+    "lensMm": 22,
+    "width": 1400,
+    "height": 1000
+  },
+  "doorStates": {
+    "door-front": 105,
+    "door-bath": 75,
+    "door-bedroom": 0
+  },
+  "prompt": {
+    "template": "still",
+    "intent": "From near bathroom doorway looking south toward real outward-open front door and table at east.",
+    "characters": "No characters; empty architectural location study.",
+    "action": "No action; preserve all furnishings and openings.",
+    "lighting": "Warm gentle daytime with soft fill; maintain the rendered direction of window illumination.",
+    "referenceIds": [
+      "common-book"
+    ]
+  }
+}

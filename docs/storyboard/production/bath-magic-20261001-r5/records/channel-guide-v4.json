@@ -1,0 +1,51 @@
+{
+  "id": "channel-guide-v4",
+  "tool": "image_gen__imagegen",
+  "generatedAt": "2026-10-01T15:46:34.763385+00:00",
+  "promptPath": "prompts/channel-guide-v4.txt",
+  "sourceOutput": "/Users/miguel_lemos/.codex/generated_images/01a0f5c3-a7d1-70d0-b8cf-581aa5deee53/exec-f3b1c873-c5c7-45b1-a780-6c5e32be323f.png",
+  "references": [
+    "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r5/geometry/bath-channel-reverse/still.png",
+    "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r3/masters/scene-28-v1.png",
+    "/Users/miguel_lemos/.codex/generated_images/01a0f5c3-a7d1-70d0-b8cf-581aa5deee53/exec-8fd86608-df35-4b81-96dc-04edfbfb5866.png"
+  ],
+  "visualReview": "PASS illustrative collector/continuous channel: tub spills outward into collector, channel through existing doorway, rug under tub, no reversed waterfalls. Camera stylized from spatial guide; slope not a measured simulation. Shared production reference, not user approval.",
+  "referenceIdentities": [
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r5/geometry/bath-channel-reverse/still.png",
+      "bytes": 1043303,
+      "sha256": "9891b8a570180e364f3e9f548712fe601120c610a7db5c716056b2b8e3ad7faf"
+    },
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r3/masters/scene-28-v1.png",
+      "bytes": 2749872,
+      "sha256": "d80cd9f09eaa764258cf96cf54a4ad0967f6839392eff35842ebc0ba968a70a2"
+    },
+    {
+      "path": "/Users/miguel_lemos/.codex/generated_images/01a0f5c3-a7d1-70d0-b8cf-581aa5deee53/exec-8fd86608-df35-4b81-96dc-04edfbfb5866.png",
+      "bytes": 2542588,
+      "sha256": "2ac72832612d1cf15f8946ab670a5a0e830e37c2e69082a464b002af6f313179"
+    }
+  ],
+  "preservedReferences": [
+    {
+      "path": "references/inputs/9891b8a57018/still.png",
+      "sha256": "9891b8a570180e364f3e9f548712fe601120c610a7db5c716056b2b8e3ad7faf"
+    },
+    {
+      "path": "references/inputs/d80cd9f09eaa/scene-28-v1.png",
+      "sha256": "d80cd9f09eaa764258cf96cf54a4ad0967f6839392eff35842ebc0ba968a70a2"
+    },
+    {
+      "path": "references/inputs/2ac72832612d/exec-8fd86608-df35-4b81-96dc-04edfbfb5866.png",
+      "sha256": "2ac72832612d1cf15f8946ab670a5a0e830e37c2e69082a464b002af6f313179"
+    }
+  ],
+  "promptSha256": "475de26486e3f49e9b485315187ab682dd1b923a2da1d742812086df0f1dac6e",
+  "master": {
+    "path": "masters/channel-guide-v4.png",
+    "bytes": 2480585,
+    "sha256": "6427d6adbbec899c59e387c4a625b8b6bd09662939b621ae4d4a0a101e806ccd"
+  },
+  "approval": "draft-for-review"
+}

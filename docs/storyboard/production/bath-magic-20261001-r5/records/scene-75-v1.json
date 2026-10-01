@@ -1,0 +1,31 @@
+{
+  "tool": "image_gen__imagegen",
+  "generatedAt": "2026-10-01T15:49:58.571Z",
+  "promptPath": "prompts/scene-75-v1.txt",
+  "sourceOutput": "/Users/miguel_lemos/.codex/generated_images/01a0be6f-b832-7d93-95df-9d2ff5f69dc1/exec-733bb4d0-09f1-469a-aeca-4d5bf79bdbac.png",
+  "references": [
+    "/Users/miguel_lemos/.codex/generated_images/01a0f5c3-a7d1-70d0-b8cf-581aa5deee53/exec-633c4aa1-c724-4649-80d0-5e7bebebcdb7.png"
+  ],
+  "visualReview": "Pass: reviewed image preserves cast/anatomy and intended scene state. Stream visibly shorter and weaker.",
+  "cameraEvidence": "Same-composition edit; original seed/reference camera retained as illustrative continuity, not measured reconstruction.",
+  "referenceIdentities": [
+    {
+      "path": "/Users/miguel_lemos/.codex/generated_images/01a0f5c3-a7d1-70d0-b8cf-581aa5deee53/exec-633c4aa1-c724-4649-80d0-5e7bebebcdb7.png",
+      "bytes": 2587516,
+      "sha256": "23df6e80d0415ee29cdc4120a9206ade300ea579c08cabc31afc27c29a0b34fe"
+    }
+  ],
+  "preservedReferences": [
+    {
+      "path": "references/inputs/23df6e80d041/exec-633c4aa1-c724-4649-80d0-5e7bebebcdb7.png",
+      "sha256": "23df6e80d0415ee29cdc4120a9206ade300ea579c08cabc31afc27c29a0b34fe"
+    }
+  ],
+  "promptSha256": "243a6da72065eeed735d31fb13aa71f0d260421d3ec39f296b261f802891de8b",
+  "master": {
+    "path": "masters/scene-75-v1.png",
+    "bytes": 2563556,
+    "sha256": "9a322a9a3874c7eadc009746b6096a888a7ae18302bd8bc4f6cdde4580ae1a60"
+  },
+  "approval": "draft-for-review"
+}

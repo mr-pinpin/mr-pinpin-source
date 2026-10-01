@@ -1,0 +1,43 @@
+{
+  "tool": "image_gen__imagegen",
+  "generatedAt": "2026-10-01T16:00:09.491Z",
+  "promptPath": "prompts/scene-80-v1.txt",
+  "sourceOutput": "/Users/miguel_lemos/.codex/generated_images/01a0f5c0-64db-7310-817a-d73d15314908/exec-dd95621e-d893-43e0-b101-b64c99357148.png",
+  "references": [
+    "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r5/geometry/common-channel-north/still.png",
+    "/Users/miguel_lemos/.codex/generated_images/01a0be6f-b832-7d93-95df-9d2ff5f69dc1/exec-b483d3b2-9fac-424e-bfa9-c57f97faf8d8.png"
+  ],
+  "visualReview": {
+    "status": "passed",
+    "notes": "Passed: all four family bodies distinct, Mama holds infant and exhales, Papa listens, child attends; north doorway layout preserved, calm bath, empty gutter and residual dampness. Background bath-window detail is simplified at distance."
+  },
+  "referenceIdentities": [
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r5/geometry/common-channel-north/still.png",
+      "bytes": 1143009,
+      "sha256": "d9d73348b6917a3388365e5e36449f6718ff908c7f1ebc2fedf6b61dc02848c7"
+    },
+    {
+      "path": "/Users/miguel_lemos/.codex/generated_images/01a0be6f-b832-7d93-95df-9d2ff5f69dc1/exec-b483d3b2-9fac-424e-bfa9-c57f97faf8d8.png",
+      "bytes": 2494907,
+      "sha256": "e197654a183d0ecc739ca281f0ecfbab2491edc00c34b1042f64a874a4693770"
+    }
+  ],
+  "preservedReferences": [
+    {
+      "path": "references/inputs/d9d73348b691/still.png",
+      "sha256": "d9d73348b6917a3388365e5e36449f6718ff908c7f1ebc2fedf6b61dc02848c7"
+    },
+    {
+      "path": "references/inputs/e197654a183d/exec-b483d3b2-9fac-424e-bfa9-c57f97faf8d8.png",
+      "sha256": "e197654a183d0ecc739ca281f0ecfbab2491edc00c34b1042f64a874a4693770"
+    }
+  ],
+  "promptSha256": "3f69607567e371d1530b4a3928ed4bf57a094842c6f98cc681039e8698a20d36",
+  "master": {
+    "path": "masters/scene-80-v1.png",
+    "bytes": 2752294,
+    "sha256": "d2f79a8a12a70fbfcf7dbd98273046a9d7f9cd0c7419f60bf4562f526d6d59fa"
+  },
+  "approval": "draft-for-review"
+}

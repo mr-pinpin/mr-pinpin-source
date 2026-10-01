@@ -1,0 +1,49 @@
+{
+  "id": "scene-58-v1",
+  "tool": "image_gen__imagegen",
+  "generatedAt": "2026-10-01T16:13:09.744Z",
+  "promptPath": "prompts/scene-58-v1.txt",
+  "sourceOutput": "/Volumes/TB4/mac-mini-storage/shared/pinpin-generated-originals/01a0be6f-b832-7d93-95df-9d2ff5f69dc1/exec-b1fb81b7-47ed-42bd-a66b-6708a18e8716.png",
+  "references": [
+    "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r5/masters/scene-37-v2.png",
+    "/Volumes/TB4/mac-mini-storage/shared/pinpin-generated-originals/01a0be6f-b832-7d93-95df-9d2ff5f69dc1/exec-b483d3b2-9fac-424e-bfa9-c57f97faf8d8.png"
+  ],
+  "visualReview": "Pass: reviewed full-size scene. Intended action and varied subdued emotions read, independent limbs and cast preserved, source state and temporary channel consistent.",
+  "cameraEvidence": "Same-composition edit from selected reference; no new measured transform claimed.",
+  "originalInputPaths": {
+    "sourceOutput": "/Users/miguel_lemos/.codex/generated_images/01a0be6f-b832-7d93-95df-9d2ff5f69dc1/exec-b1fb81b7-47ed-42bd-a66b-6708a18e8716.png",
+    "references": [
+      "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r5/masters/scene-37-v2.png",
+      "/Users/miguel_lemos/.codex/generated_images/01a0be6f-b832-7d93-95df-9d2ff5f69dc1/exec-b483d3b2-9fac-424e-bfa9-c57f97faf8d8.png"
+    ]
+  },
+  "referenceIdentities": [
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r5/masters/scene-37-v2.png",
+      "bytes": 2344179,
+      "sha256": "8a1c77204804fa78cb902beac5a345560582d11b7c15f3acb0977f0d4ea2a04b"
+    },
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-generated-originals/01a0be6f-b832-7d93-95df-9d2ff5f69dc1/exec-b483d3b2-9fac-424e-bfa9-c57f97faf8d8.png",
+      "bytes": 2494907,
+      "sha256": "e197654a183d0ecc739ca281f0ecfbab2491edc00c34b1042f64a874a4693770"
+    }
+  ],
+  "preservedReferences": [
+    {
+      "path": "masters/scene-37-v2.png",
+      "sha256": "8a1c77204804fa78cb902beac5a345560582d11b7c15f3acb0977f0d4ea2a04b"
+    },
+    {
+      "path": "references/inputs/e197654a183d/exec-b483d3b2-9fac-424e-bfa9-c57f97faf8d8.png",
+      "sha256": "e197654a183d0ecc739ca281f0ecfbab2491edc00c34b1042f64a874a4693770"
+    }
+  ],
+  "promptSha256": "f00f2673f59a9123915f407233954fb12361dd7b36263224cc87e4564422da24",
+  "master": {
+    "path": "masters/scene-58-v1.png",
+    "bytes": 2273180,
+    "sha256": "1e576c06cb7c231d22149e9b3eb08c51b1d1b8da236c4fa4c28c1c4dbae7ecc3"
+  },
+  "approval": "draft-for-review"
+}

@@ -1,0 +1,41 @@
+{
+  "tool": "image_gen__imagegen",
+  "generatedAt": "2026-10-01T15:44:07.901Z",
+  "promptPath": "prompts/scene-69-v1.txt",
+  "sourceOutput": "/Users/miguel_lemos/.codex/generated_images/01a0be6f-b832-7d93-95df-9d2ff5f69dc1/exec-5f33aed7-279c-46ba-9236-079e66317b84.png",
+  "references": [
+    "/Users/miguel_lemos/.codex/generated_images/01a0be6f-b832-7d93-95df-9d2ff5f69dc1/exec-b483d3b2-9fac-424e-bfa9-c57f97faf8d8.png",
+    "/Users/miguel_lemos/.codex/generated_images/01a0f5c3-a7d1-70d0-b8cf-581aa5deee53/exec-8fd86608-df35-4b81-96dc-04edfbfb5866.png"
+  ],
+  "visualReview": "Needs correction: background fountain appears to pour from shelf; must be central upward source.",
+  "cameraEvidence": "Same-composition edit; no new measured transform claimed.",
+  "referenceIdentities": [
+    {
+      "path": "/Users/miguel_lemos/.codex/generated_images/01a0be6f-b832-7d93-95df-9d2ff5f69dc1/exec-b483d3b2-9fac-424e-bfa9-c57f97faf8d8.png",
+      "bytes": 2494907,
+      "sha256": "e197654a183d0ecc739ca281f0ecfbab2491edc00c34b1042f64a874a4693770"
+    },
+    {
+      "path": "/Users/miguel_lemos/.codex/generated_images/01a0f5c3-a7d1-70d0-b8cf-581aa5deee53/exec-8fd86608-df35-4b81-96dc-04edfbfb5866.png",
+      "bytes": 2542588,
+      "sha256": "2ac72832612d1cf15f8946ab670a5a0e830e37c2e69082a464b002af6f313179"
+    }
+  ],
+  "preservedReferences": [
+    {
+      "path": "references/inputs/e197654a183d/exec-b483d3b2-9fac-424e-bfa9-c57f97faf8d8.png",
+      "sha256": "e197654a183d0ecc739ca281f0ecfbab2491edc00c34b1042f64a874a4693770"
+    },
+    {
+      "path": "references/inputs/2ac72832612d/exec-8fd86608-df35-4b81-96dc-04edfbfb5866.png",
+      "sha256": "2ac72832612d1cf15f8946ab670a5a0e830e37c2e69082a464b002af6f313179"
+    }
+  ],
+  "promptSha256": "b517e253725085c53b75034bf777a769ff73a3d9d992543d5476afe65bf1e001",
+  "master": {
+    "path": "masters/scene-69-v1.png",
+    "bytes": 2490672,
+    "sha256": "d71fe0ed3b4d7033fcb4f333d6f5381871b8ce97297900fd5ae4fc3d17543e33"
+  },
+  "approval": "draft-for-review"
+}

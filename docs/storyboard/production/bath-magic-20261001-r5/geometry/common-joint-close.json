@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "id": "bath-magic-r5-common-joint-close",
+  "location": "docs/storyboard/locations/pinpin-house/location.json",
+  "camera": {
+    "position": [
+      -2.3,
+      -0.75,
+      0.5
+    ],
+    "target": [
+      -1.5,
+      -1.05,
+      0.23
+    ],
+    "lensMm": 40,
+    "width": 1400,
+    "height": 1000
+  },
+  "doorStates": {
+    "door-front": 105,
+    "door-bath": 75,
+    "door-bedroom": 0
+  },
+  "prompt": {
+    "template": "still",
+    "intent": "Close down toward west-of-table temporary channel join, enough room for paws and bowl.",
+    "characters": "No characters; empty architectural location study.",
+    "action": "No action; preserve all furnishings and openings.",
+    "lighting": "Warm gentle daytime with soft fill; maintain the rendered direction of window illumination.",
+    "referenceIds": [
+      "common-book"
+    ]
+  }
+}

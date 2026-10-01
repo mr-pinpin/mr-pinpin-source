@@ -1,0 +1,31 @@
+{
+  "id": "scene-47-v2",
+  "tool": "image_gen__imagegen",
+  "generatedAt": "2026-10-01T16:24:38.020471+00:00",
+  "promptPath": "prompts/scene-47-v2.txt",
+  "sourceOutput": "/Users/miguel_lemos/.codex/generated_images/01a0f5c3-a7d1-70d0-b8cf-581aa5deee53/exec-d97f09ef-cec0-4af9-9ade-632a2f061e4d.png",
+  "references": [
+    "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r5/masters/scene-47-v1.png"
+  ],
+  "visualReview": "PASS:47 narrow cream rolled towel restored beneath closed bedroomdoor; other action/characters unchanged.",
+  "referenceIdentities": [
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r5/masters/scene-47-v1.png",
+      "bytes": 2457542,
+      "sha256": "2ce3d30a0ce7cbde3630841862b97d8fdd80519c9b6a8dbbd6c42fcd0b306030"
+    }
+  ],
+  "preservedReferences": [
+    {
+      "path": "masters/scene-47-v1.png",
+      "sha256": "2ce3d30a0ce7cbde3630841862b97d8fdd80519c9b6a8dbbd6c42fcd0b306030"
+    }
+  ],
+  "promptSha256": "0c41fd795ac6815c83467db1a89995b494da73dbf16a5965b8abe177c89a1b7f",
+  "master": {
+    "path": "masters/scene-47-v2.png",
+    "bytes": 2383981,
+    "sha256": "197d56bd28fab6d3ad1f186f9a03bfaaa7b3fb56624102e2c8ea1dbee7b45443"
+  },
+  "approval": "draft-for-review"
+}

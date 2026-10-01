@@ -1,0 +1,41 @@
+{
+  "tool": "image_gen__imagegen",
+  "generatedAt": "2026-10-01T15:57:09.923Z",
+  "promptPath": "prompts/scene-59-v1.txt",
+  "sourceOutput": "/Users/miguel_lemos/.codex/generated_images/01a0be6f-b832-7d93-95df-9d2ff5f69dc1/exec-b666d99a-0727-4ca5-9c4a-82b5a1628628.png",
+  "references": [
+    "/Users/miguel_lemos/.codex/generated_images/01a0f5c3-a7d1-70d0-b8cf-581aa5deee53/exec-633c4aa1-c724-4649-80d0-5e7bebebcdb7.png",
+    "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r4/masters/duck-character-study-v2.png"
+  ],
+  "visualReview": "Pass: small incidental toy receives spark; ring persists; child one flicking paw/one rim paw, no early talking hero pose.",
+  "cameraEvidence": "Existing composition reused for camera continuity; no new measured transform claimed.",
+  "referenceIdentities": [
+    {
+      "path": "/Users/miguel_lemos/.codex/generated_images/01a0f5c3-a7d1-70d0-b8cf-581aa5deee53/exec-633c4aa1-c724-4649-80d0-5e7bebebcdb7.png",
+      "bytes": 2587516,
+      "sha256": "23df6e80d0415ee29cdc4120a9206ade300ea579c08cabc31afc27c29a0b34fe"
+    },
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r4/masters/duck-character-study-v2.png",
+      "bytes": 1606390,
+      "sha256": "09db45c15b849ad4846e468c2ea326a7bf4e58483f9579dad8b6bf67a3189495"
+    }
+  ],
+  "preservedReferences": [
+    {
+      "path": "references/inputs/23df6e80d041/exec-633c4aa1-c724-4649-80d0-5e7bebebcdb7.png",
+      "sha256": "23df6e80d0415ee29cdc4120a9206ade300ea579c08cabc31afc27c29a0b34fe"
+    },
+    {
+      "path": "references/inputs/09db45c15b84/duck-character-study-v2.png",
+      "sha256": "09db45c15b849ad4846e468c2ea326a7bf4e58483f9579dad8b6bf67a3189495"
+    }
+  ],
+  "promptSha256": "2acb9492442650d3cd57fde660e88a0969e12d75d90babe3ce2bb43f26eca4db",
+  "master": {
+    "path": "masters/scene-59-v1.png",
+    "bytes": 2589564,
+    "sha256": "733acf6f3d00282dabf47712486248778db41c79527c192597cc76c271e400f0"
+  },
+  "approval": "draft-for-review"
+}

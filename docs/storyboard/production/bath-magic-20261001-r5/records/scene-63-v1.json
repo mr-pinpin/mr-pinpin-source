@@ -1,0 +1,41 @@
+{
+  "tool": "image_gen__imagegen",
+  "generatedAt": "2026-10-01T15:57:09.929Z",
+  "promptPath": "prompts/scene-63-v1.txt",
+  "sourceOutput": "/Users/miguel_lemos/.codex/generated_images/01a0be6f-b832-7d93-95df-9d2ff5f69dc1/exec-9769981e-97cc-4388-aaf3-35e362d56730.png",
+  "references": [
+    "/Users/miguel_lemos/.codex/generated_images/01a0be6f-b832-7d93-95df-9d2ff5f69dc1/exec-2236ce01-e5ee-4658-999b-4819673808d3.png",
+    "/Users/miguel_lemos/.codex/generated_images/01a0be6f-b832-7d93-95df-9d2ff5f69dc1/exec-b483d3b2-9fac-424e-bfa9-c57f97faf8d8.png"
+  ],
+  "visualReview": "Pass: grey Papa outside far rim connects gaze with delighted plastic duck; two forepaws and continued source.",
+  "cameraEvidence": "Existing composition reused for camera continuity; no new measured transform claimed.",
+  "referenceIdentities": [
+    {
+      "path": "/Users/miguel_lemos/.codex/generated_images/01a0be6f-b832-7d93-95df-9d2ff5f69dc1/exec-2236ce01-e5ee-4658-999b-4819673808d3.png",
+      "bytes": 2181486,
+      "sha256": "cb35101c78517f3c13c50075323b6a2a67e9c3ae14cbfe0b6275aeb0f3220bdd"
+    },
+    {
+      "path": "/Users/miguel_lemos/.codex/generated_images/01a0be6f-b832-7d93-95df-9d2ff5f69dc1/exec-b483d3b2-9fac-424e-bfa9-c57f97faf8d8.png",
+      "bytes": 2494907,
+      "sha256": "e197654a183d0ecc739ca281f0ecfbab2491edc00c34b1042f64a874a4693770"
+    }
+  ],
+  "preservedReferences": [
+    {
+      "path": "references/inputs/cb35101c7851/exec-2236ce01-e5ee-4658-999b-4819673808d3.png",
+      "sha256": "cb35101c78517f3c13c50075323b6a2a67e9c3ae14cbfe0b6275aeb0f3220bdd"
+    },
+    {
+      "path": "references/inputs/e197654a183d/exec-b483d3b2-9fac-424e-bfa9-c57f97faf8d8.png",
+      "sha256": "e197654a183d0ecc739ca281f0ecfbab2491edc00c34b1042f64a874a4693770"
+    }
+  ],
+  "promptSha256": "7fcba0272fe3e8d2c837fe1f2f743f59681911c62eb0afda84e051087d83ddef",
+  "master": {
+    "path": "masters/scene-63-v1.png",
+    "bytes": 2345183,
+    "sha256": "d9704f5bacc444af02fe508074e3f840491bf8380f22b92a4ee36b8ae48ce24d"
+  },
+  "approval": "draft-for-review"
+}

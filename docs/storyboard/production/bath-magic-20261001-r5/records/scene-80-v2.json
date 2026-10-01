@@ -1,0 +1,33 @@
+{
+  "tool": "image_gen__imagegen",
+  "generatedAt": "2026-10-01T16:15:01.673Z",
+  "promptPath": "prompts/scene-80-v2.txt",
+  "sourceOutput": "/Users/miguel_lemos/.codex/generated_images/01a0f5c0-64db-7310-817a-d73d15314908/exec-751d2c39-88be-4b96-96ca-26cd152754aa.png",
+  "references": [
+    "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r5/masters/scene-80-v1.png"
+  ],
+  "visualReview": {
+    "status": "passed",
+    "notes": "Tiny background geometry-guide disc replaced with a proper wooden/glazed circular window. Family anatomy/expressions, camera, room, still bath and empty gutter retained."
+  },
+  "referenceIdentities": [
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r5/masters/scene-80-v1.png",
+      "bytes": 2752294,
+      "sha256": "d2f79a8a12a70fbfcf7dbd98273046a9d7f9cd0c7419f60bf4562f526d6d59fa"
+    }
+  ],
+  "preservedReferences": [
+    {
+      "path": "masters/scene-80-v1.png",
+      "sha256": "d2f79a8a12a70fbfcf7dbd98273046a9d7f9cd0c7419f60bf4562f526d6d59fa"
+    }
+  ],
+  "promptSha256": "ec5e51b71fd7757f952543e082b627a5cacfd9c68fa3e52a474885e433771558",
+  "master": {
+    "path": "masters/scene-80-v2.png",
+    "bytes": 2593663,
+    "sha256": "25a2adc8ac306a3fddec6908a10471e4fa5563eae837a1816948b57a845cb652"
+  },
+  "approval": "draft-for-review"
+}

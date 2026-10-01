@@ -1,0 +1,186 @@
+Use case: style-transfer
+Asset type: one children’s-book location still.
+Location: pinpin-house, version 1.0.0.
+Geometry/edit target: /Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r5/geometry/bath-channel-reverse-prepared/geometry-reference.png
+Supporting image roles: [
+  {
+    "id": "bathroom-book",
+    "path": "docs/storyboard/images/standalone/home-sweet-home/bedtime-08-v2.png",
+    "sha256": "c6e3deefa1acc93dadb3467931719f080a81ab8807dbff960bca6c225f07635d",
+    "bytes": 2323256,
+    "roles": [
+      "style",
+      "characters",
+      "bath-prop-design"
+    ],
+    "notes": "Actual approved bedtime scene08: broad low wooden tub, braided mat, Mama with PinPin and PomPom, warm timber/plaster, round window. Current room dimensions and placement come from plan, not this perspective.",
+    "absolutePath": "/Users/miguel_lemos/anastasia-pinpin-repos/mr-pinpin-source/docs/storyboard/images/standalone/home-sweet-home/bedtime-08-v2.png"
+  }
+]
+Camera record: [
+  {
+    "position": [
+      -3.9000000953674316,
+      3.5,
+      1.100000023841858
+    ],
+    "quaternionWXYZ": [
+      0.21300029754638672,
+      0.1831672191619873,
+      -0.6257555484771729,
+      -0.7276748418807983
+    ],
+    "matrixWorld": [
+      [
+        -0.8421613574028015,
+        0.0807541087269783,
+        -0.5331445932388306,
+        -3.9000000953674316
+      ],
+      [
+        -0.539225697517395,
+        -0.12612180411815643,
+        0.8326637744903564,
+        3.5
+      ],
+      [
+        -1.1844900882351794e-07,
+        0.9887225031852722,
+        0.14975953102111816,
+        1.100000023841858
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "lensMm": 22.0,
+    "horizontalFovDegrees": 78.57881289138213,
+    "width": 1400,
+    "height": 1000
+  }
+]
+Door states in degrees: [
+  {
+    "id": "door-front",
+    "angleDegrees": 105,
+    "signedAngleDegrees": -105,
+    "hingeWorld": [
+      -0.6962748765945435,
+      -2.957864999771118,
+      0.0
+    ],
+    "matrixWorld": [
+      [
+        -0.258819043636322,
+        0.9659258127212524,
+        0.0,
+        -0.6962748765945435
+      ],
+      [
+        -0.9659258127212524,
+        -0.258819043636322,
+        0.0,
+        -2.957864999771118
+      ],
+      [
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  },
+  {
+    "id": "door-bath",
+    "angleDegrees": 75,
+    "signedAngleDegrees": 75,
+    "hingeWorld": [
+      -2.0239672660827637,
+      0.6366258859634399,
+      0.0
+    ],
+    "matrixWorld": [
+      [
+        -0.3046184480190277,
+        -0.9524744749069214,
+        0.0,
+        -2.0239672660827637
+      ],
+      [
+        0.9524744749069214,
+        -0.3046184480190277,
+        0.0,
+        0.6366258859634399
+      ],
+      [
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  },
+  {
+    "id": "door-bedroom",
+    "angleDegrees": 0,
+    "signedAngleDegrees": 0,
+    "hingeWorld": [
+      1.039655089378357,
+      0.4985438883304596,
+      0.0
+    ],
+    "matrixWorld": [
+      [
+        0.7090891003608704,
+        0.7051188945770264,
+        0.0,
+        1.039655089378357
+      ],
+      [
+        -0.7051188945770264,
+        0.7090891003608704,
+        0.0,
+        0.4985438883304596
+      ],
+      [
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  }
+]
+Intent: Reverse view tub near rim toward actual bath doorway; collecting mouth at rim and removable trough runs through real opening.
+Characters: No characters; empty architectural location study.
+Action and eyelines: No action; preserve all furnishings and openings.
+Lighting: Warm gentle daytime with soft fill; maintain the rendered direction of window illumination.
+
+Use the first, current Blender render as the spatial authority. Preserve its camera position, projection, framing, room outline, curved wall junctions, visible opening count, opening positions, door hinge sides and angles, occlusion, and furniture footprints. A closed leaf stays closed; an open doorway reveals only the adjoining modeled space visible from this camera. The three-room house has a common kitchen/living room, bathroom and bedroom; do not invent a fourth hall or connect the private rooms through the outdoor recess.
+
+Semantic fixture key (world meters, not on-image labels): common-room west shelf unit at (-3.87,-0.59) is the BOOKCASE; low round west/front proxy at (-3.04,-1.96) is the STOVE, never a barrel; center round top at (-0.30,-1.09) is the dining TABLE with four low stools; long east unit at (2.77,-1.27) is the KITCHEN COUNTER. Bathroom broad low oval at (-3.74,2.67) is the wooden BATHTUB, with its oval mat below and small WASHSTAND at (-5.11,2.26). Bedroom rectangular raised form at (2.46,1.64) is the BED with north headboard. Render these identities only where visible in the guide, keeping their locations and occupied volumes; do not add text labels.
+
+Give the surfaces the supplied book’s warm, softly stylized family-story appearance: honey-toned timber, gentle plaster, rounded crafted objects, readable forms and warm light. Keep the broad low wooden tub, oval mat and bed where the geometry places them when visible. Match the book reference’s rendering language without copying its different camera or historic room arrangement. If characters are requested, use the identified character references, full separate bodies/limbs and explicit attentive eyelines; do not add a character when the job says empty room. No text, labels, watermark or collage border.
+
+This is an illustrated derivative for review, not a new geometry definition. Do not conceal a structural mismatch with shadow, furniture or changed crop.

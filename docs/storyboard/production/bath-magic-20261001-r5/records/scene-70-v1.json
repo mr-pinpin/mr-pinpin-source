@@ -1,0 +1,31 @@
+{
+  "tool": "image_gen__imagegen",
+  "generatedAt": "2026-10-01T15:33:20.367Z",
+  "promptPath": "prompts/scene-70-v1.txt",
+  "sourceOutput": "/Users/miguel_lemos/.codex/generated_images/01a0be6f-b832-7d93-95df-9d2ff5f69dc1/exec-60d74567-7aab-4714-ab29-1a8bcf3836e6.png",
+  "references": [
+    "/Users/miguel_lemos/.codex/generated_images/01a0be6f-b832-7d93-95df-9d2ff5f69dc1/exec-af8120c5-9e7f-4c65-b1db-4adfe227f351.png"
+  ],
+  "visualReview": "Passed visual review: scene-specific restrained expression, same source composition, correct child anatomy, no wood duck or added character.",
+  "cameraEvidence": "Same-composition edit, no new measured transform claimed.",
+  "referenceIdentities": [
+    {
+      "path": "/Users/miguel_lemos/.codex/generated_images/01a0be6f-b832-7d93-95df-9d2ff5f69dc1/exec-af8120c5-9e7f-4c65-b1db-4adfe227f351.png",
+      "bytes": 2370449,
+      "sha256": "c9e65e7500774bffdb8f32d2112d970e51a44e5bb30a064bbd7fc6944336872b"
+    }
+  ],
+  "preservedReferences": [
+    {
+      "path": "references/inputs/c9e65e750077/exec-af8120c5-9e7f-4c65-b1db-4adfe227f351.png",
+      "sha256": "c9e65e7500774bffdb8f32d2112d970e51a44e5bb30a064bbd7fc6944336872b"
+    }
+  ],
+  "promptSha256": "dce3bc15e1d76028ea31cb6eb78e1c21cee0754c62152ac8e0e27a0384130a58",
+  "master": {
+    "path": "masters/scene-70-v1.png",
+    "bytes": 2338972,
+    "sha256": "db30e67734b9a1c5c1461fa5a39e882381457d05689009565efd24ba402bd28c"
+  },
+  "approval": "draft-for-review"
+}

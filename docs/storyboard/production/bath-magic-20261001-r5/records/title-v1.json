@@ -1,0 +1,33 @@
+{
+  "tool": "image_gen__imagegen",
+  "generatedAt": "2026-10-01T16:00:09.499Z",
+  "promptPath": "prompts/title-v1.txt",
+  "sourceOutput": "/Users/miguel_lemos/.codex/generated_images/01a0f5c0-64db-7310-817a-d73d15314908/exec-429fa0ad-e9f5-4768-b567-433f693543a1.png",
+  "references": [
+    "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r5/masters/scene-19-v1.png"
+  ],
+  "visualReview": {
+    "status": "passed",
+    "notes": "Passed: exact same-camera scene-19 edit removes the toy completely, preserves concerned child, bath overflow, pails and room; no duck surprise revealed."
+  },
+  "referenceIdentities": [
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r5/masters/scene-19-v1.png",
+      "bytes": 2184777,
+      "sha256": "1a8ddbd4db51d201ecdf4ff90da91e0d708a64f71f5260cc6134361293042da3"
+    }
+  ],
+  "preservedReferences": [
+    {
+      "path": "masters/scene-19-v1.png",
+      "sha256": "1a8ddbd4db51d201ecdf4ff90da91e0d708a64f71f5260cc6134361293042da3"
+    }
+  ],
+  "promptSha256": "8eaaeef5a3bc850479faff3d3d676041a478db398d9922882fda55015f300761",
+  "master": {
+    "path": "masters/title-v1.png",
+    "bytes": 2226150,
+    "sha256": "af4d92db3b128b44de5369ba8c47a5bba0936832590872a74fafebb56e0b6f3b"
+  },
+  "approval": "draft-for-review"
+}

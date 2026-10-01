@@ -1,0 +1,31 @@
+{
+  "tool": "image_gen__imagegen",
+  "generatedAt": "2026-10-01T15:44:07.901Z",
+  "promptPath": "prompts/scene-68-v1.txt",
+  "sourceOutput": "/Users/miguel_lemos/.codex/generated_images/01a0be6f-b832-7d93-95df-9d2ff5f69dc1/exec-5f8a2051-a85f-415c-b07a-b25872f634a1.png",
+  "references": [
+    "/Users/miguel_lemos/.codex/generated_images/01a0be6f-b832-7d93-95df-9d2ff5f69dc1/exec-af8120c5-9e7f-4c65-b1db-4adfe227f351.png"
+  ],
+  "visualReview": "Pass: weary near-lens child expression and quacking toy contrast; stool/table close crop retained.",
+  "cameraEvidence": "Same-composition edit; no new measured transform claimed.",
+  "referenceIdentities": [
+    {
+      "path": "/Users/miguel_lemos/.codex/generated_images/01a0be6f-b832-7d93-95df-9d2ff5f69dc1/exec-af8120c5-9e7f-4c65-b1db-4adfe227f351.png",
+      "bytes": 2370449,
+      "sha256": "c9e65e7500774bffdb8f32d2112d970e51a44e5bb30a064bbd7fc6944336872b"
+    }
+  ],
+  "preservedReferences": [
+    {
+      "path": "references/inputs/c9e65e750077/exec-af8120c5-9e7f-4c65-b1db-4adfe227f351.png",
+      "sha256": "c9e65e7500774bffdb8f32d2112d970e51a44e5bb30a064bbd7fc6944336872b"
+    }
+  ],
+  "promptSha256": "1d1d3b9aae205d296122552878dd3c54a08948d5ef7b98068ddf28d368054ace",
+  "master": {
+    "path": "masters/scene-68-v1.png",
+    "bytes": 2372548,
+    "sha256": "d25b82c55542a36c0473ac6df9af48ccbcae26f8ca9cf9dbe57f7540e2d18d73"
+  },
+  "approval": "draft-for-review"
+}

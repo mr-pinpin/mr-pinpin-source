@@ -1,0 +1,5 @@
+"""Run in Blender with -- BASE.BLEND RESULT.JSON; exercise actual doors function."""
+import ast,bpy,math,sys,json
+from pathlib import Path
+base,result=sys.argv[sys.argv.index('--')+1:];worker=Path(__file__).resolve().parents[1]/'blender_worker.py';tree=ast.parse(worker.read_text());function=next(x for x in tree.body if isinstance(x,ast.FunctionDef) and x.name=='doors');namespace={'bpy':bpy,'math':math};exec(compile(ast.Module(body=[function],type_ignores=[]),str(worker),'exec'),namespace);doors=namespace['doors'];bpy.ops.wm.open_mainfile(filepath=base)
+first=doors({'door-front':75,'door-bath':75,'door-bedroom':75});doors({'door-front':0,'door-bath':0,'door-bedroom':0});second=doors({'door-front':75,'door-bath':75,'door-bedroom':75});assert first==second;assert first[0]['signedAngleDegrees']==-75;doors({'door-front':75});third=doors({'door-front':75});assert third[0]==first[0];Path(result).write_text(json.dumps({'pass':True,'closedOpenTwiceIdempotent':True,'repeatedOpenIdempotent':True,'frontSwingsOutwardNegative':True,'states':second},indent=2))

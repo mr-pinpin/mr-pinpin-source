@@ -1,0 +1,142 @@
+{
+  "schemaVersion": 1,
+  "id": "pinpin-house",
+  "version": "1.0.0",
+  "status": "Reusable geometry and camera study; illustrative derivatives need review before chapter use.",
+  "units": "meters",
+  "pathBase": "repository-root",
+  "plan": {
+    "path": "docs/storyboard/locations/pinpin-house/scene/house-plan.json",
+    "sha256": "cab510b31c13e85beaa689edb54005223412a988f640724e56b9d95dba20c28c"
+  },
+  "underlay": {
+    "path": "docs/storyboard/locations/pinpin-house/scene/merged-semantic-plan.png",
+    "sha256": "317c3447d13d915b7072cc096e641e37c33233d3ce4390ec163cf07ca49dd8c2"
+  },
+  "builder": {
+    "path": "tools/locations/builder/build_house.py",
+    "sha256": "34946231d4922c0454064b3c5961dd6ce448bdf2ef5ec9c6326bb41af38f8d1b",
+    "dependencies": [
+      {
+        "path": "tools/locations/builder/plan_geometry.py",
+        "sha256": "f80c11e855deec10e7ce07d4114fd2a410af50d9e85713b43efc606fc4619912"
+      }
+    ]
+  },
+  "coordinateFrame": {
+    "handedness": "right",
+    "up": "+Z",
+    "north": "+Y",
+    "east": "+X",
+    "front": "south/-Y",
+    "cameraLocalForward": "-Z",
+    "cameraLocalUp": "+Y",
+    "cubemapAxes": {
+      "front": "+Y",
+      "right": "+X",
+      "back": "-Y",
+      "left": "-X",
+      "up": "+Z",
+      "down": "-Z"
+    }
+  },
+  "doorStates": {
+    "door-front": 0,
+    "door-bath": 0,
+    "door-bedroom": 0
+  },
+  "additions": {
+    "ceiling": {
+      "enabled": true,
+      "z": 2.65,
+      "thickness": 0.12
+    },
+    "exterior": {
+      "enabled": true,
+      "groundZ": -0.2,
+      "size": 40,
+      "anchors": [
+        {
+          "id": "southwest-tree",
+          "position": [
+            -7,
+            -5,
+            0
+          ],
+          "radius": 0.35,
+          "height": 4
+        },
+        {
+          "id": "southeast-tree",
+          "position": [
+            6,
+            -5,
+            0
+          ],
+          "radius": 0.35,
+          "height": 4
+        },
+        {
+          "id": "north-tree",
+          "position": [
+            0,
+            7,
+            0
+          ],
+          "radius": 0.45,
+          "height": 5
+        }
+      ]
+    },
+    "interiorLights": [
+      {
+        "id": "common-fill",
+        "position": [
+          0,
+          -0.8,
+          2.3
+        ],
+        "energy": 80,
+        "size": 1.5
+      },
+      {
+        "id": "bath-fill",
+        "position": [
+          -3.7,
+          2.6,
+          2.3
+        ],
+        "energy": 80,
+        "size": 1.5
+      },
+      {
+        "id": "bedroom-fill",
+        "position": [
+          2.5,
+          1.6,
+          2.3
+        ],
+        "energy": 80,
+        "size": 1.5
+      }
+    ]
+  },
+  "referencesPath": "docs/storyboard/locations/pinpin-house/references.json",
+  "cameraPresetsPath": "docs/storyboard/locations/pinpin-house/cameras.json",
+  "promptTemplates": {
+    "still": "docs/storyboard/locations/pinpin-house/prompts/still.txt",
+    "cubemap": "docs/storyboard/locations/pinpin-house/prompts/cubemap.txt"
+  },
+  "designScope": {
+    "measured": "Room plan, walls/openings, main furniture footprints from the finalized registered semantic-plan proposal.",
+    "authored": "Elevations, door swing, tub height, fitted mat, ceiling slab, exterior anchor primitives, fill lights and cameras are explicit reusable design choices.",
+    "exterior": "The three tree markers and plain ground are fixed orientation anchors for these tests, not established book geography.",
+    "ceiling": "Simple removable ceiling follows footprint at wall height; no claim it is the final illustrated roof shape.",
+    "doorTransit": "Opening/swing geometry was tested; 0.53m internal doorway widths do not establish full adult walking-route clearance."
+  },
+  "origin": {
+    "planSha256": "cab510b31c13e85beaa689edb54005223412a988f640724e56b9d95dba20c28c",
+    "note": "Finalized bathroom V4+mat-fit plan copied without editing; actual pinned hash above is authoritative."
+  },
+  "cubeLayoutPath": "docs/storyboard/locations/pinpin-house/cube-layout.json"
+}

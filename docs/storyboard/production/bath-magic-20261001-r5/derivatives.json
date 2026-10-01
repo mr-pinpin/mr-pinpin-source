@@ -1,0 +1,2693 @@
+{
+  "version": 1,
+  "assets": {
+    "scene-01": {
+      "slug": "scene-01",
+      "master": {
+        "path": "masters/reused/scene-01/scene-01-v1.png",
+        "bytes": 2547204,
+        "sha256": "4955ad0fe0550ed1a4f94051c4d978a27093ebab8d0a82b3580b085452de0bba"
+      },
+      "web": {
+        "path": "web/scene-01.webp",
+        "bytes": 440756,
+        "sha256": "be5ed728b790d40fe4d6087a782430f08b09230fc094b52af3f5444f227bb723"
+      },
+      "width": 1536,
+      "height": 1024,
+      "recipe": {
+        "operation": "byte-for-byte copy",
+        "resized": false,
+        "reencoded": false,
+        "artEdited": false
+      },
+      "reuseRecord": "reuse.json#scene-01",
+      "generationRecord": null,
+      "approval": "draft-for-review"
+    },
+    "scene-02": {
+      "slug": "scene-02",
+      "master": {
+        "path": "masters/reused/scene-02/scene-02-v2.png",
+        "bytes": 2389904,
+        "sha256": "eda819abf89680e8325fd00e064f24ec317af4d19f3cd27b1140939485dd2851"
+      },
+      "web": {
+        "path": "web/scene-02.webp",
+        "bytes": 412906,
+        "sha256": "7bb7bfae1e01595cda5cc4d9dfc24056f349302929d8b4a5487b2f8eb6643377"
+      },
+      "width": 1536,
+      "height": 1024,
+      "recipe": {
+        "operation": "byte-for-byte copy",
+        "resized": false,
+        "reencoded": false,
+        "artEdited": false
+      },
+      "reuseRecord": "reuse.json#scene-02",
+      "generationRecord": null,
+      "approval": "draft-for-review"
+    },
+    "scene-03": {
+      "slug": "scene-03",
+      "master": {
+        "path": "masters/reused/scene-03/scene-03-v1.png",
+        "bytes": 2208228,
+        "sha256": "164ab02a960f76020ed09581bac604c705a0b51fbd5f1f9c291862339b3dbe7f"
+      },
+      "web": {
+        "path": "web/scene-03.webp",
+        "bytes": 315034,
+        "sha256": "de83ba34ddba2916733e7242fbd0ec959d515a29c440e549f783a6384fc499ea"
+      },
+      "width": 1536,
+      "height": 1024,
+      "recipe": {
+        "operation": "byte-for-byte copy",
+        "resized": false,
+        "reencoded": false,
+        "artEdited": false
+      },
+      "reuseRecord": "reuse.json#scene-03",
+      "generationRecord": null,
+      "approval": "draft-for-review"
+    },
+    "scene-04": {
+      "slug": "scene-04",
+      "master": {
+        "path": "masters/reused/scene-04/scene-03-v3.png",
+        "bytes": 2327800,
+        "sha256": "b67a51a02991f3fa77af9df72ee1b04581222eb5bcd9ef4634a206423836e0a3"
+      },
+      "web": {
+        "path": "web/scene-04.webp",
+        "bytes": 400848,
+        "sha256": "ecff260ace6f0bb9f4afed2c156cbc87ba72753b3afedf4e6a23d059c0873112"
+      },
+      "width": 1536,
+      "height": 1024,
+      "recipe": {
+        "operation": "byte-for-byte copy",
+        "resized": false,
+        "reencoded": false,
+        "artEdited": false
+      },
+      "reuseRecord": "reuse.json#scene-04",
+      "generationRecord": null,
+      "approval": "draft-for-review"
+    },
+    "scene-05": {
+      "slug": "scene-05",
+      "master": {
+        "path": "masters/reused/scene-05/scene-04-v1.png",
+        "bytes": 2572785,
+        "sha256": "f342546a86269cb6edfaf56b8e9045acd0ef5253c5fa87c284e810c1dd4567bd"
+      },
+      "web": {
+        "path": "web/scene-05.webp",
+        "bytes": 484046,
+        "sha256": "e09a9350e8cec7be55f6d7015e2c245ebaa5300ed893ef1c3ceac8daadd446ba"
+      },
+      "width": 1536,
+      "height": 1024,
+      "recipe": {
+        "operation": "byte-for-byte copy",
+        "resized": false,
+        "reencoded": false,
+        "artEdited": false
+      },
+      "reuseRecord": "reuse.json#scene-05",
+      "generationRecord": null,
+      "approval": "draft-for-review"
+    },
+    "scene-06": {
+      "slug": "scene-06",
+      "master": {
+        "path": "masters/reused/scene-06/scene-05-v2.png",
+        "bytes": 2288693,
+        "sha256": "69b7cd76f22d1813a4fc21896bb4738f46c430445865ce5679d611b545682035"
+      },
+      "web": {
+        "path": "web/scene-06.webp",
+        "bytes": 402694,
+        "sha256": "3c49dea690f22fe5723c6ac503eecb9323b56f494edb066535900cbcfb567225"
+      },
+      "width": 1536,
+      "height": 1024,
+      "recipe": {
+        "operation": "byte-for-byte copy",
+        "resized": false,
+        "reencoded": false,
+        "artEdited": false
+      },
+      "reuseRecord": "reuse.json#scene-06",
+      "generationRecord": null,
+      "approval": "draft-for-review"
+    },
+    "scene-08": {
+      "slug": "scene-08",
+      "master": {
+        "path": "masters/reused/scene-08/scene-08-v1.png",
+        "bytes": 2375365,
+        "sha256": "5dce68b736f6c6a06bb3cff2b93f3c5e9e234d167bac0feb605623f3fe36b875"
+      },
+      "web": {
+        "path": "web/scene-08.webp",
+        "bytes": 417752,
+        "sha256": "93997856d26c416df0ad26ce3c1284ab7427bc945f6a09e148cbbf5dbd41ca97"
+      },
+      "width": 1536,
+      "height": 1024,
+      "recipe": {
+        "operation": "byte-for-byte copy",
+        "resized": false,
+        "reencoded": false,
+        "artEdited": false
+      },
+      "reuseRecord": "reuse.json#scene-08",
+      "generationRecord": null,
+      "approval": "draft-for-review"
+    },
+    "scene-10": {
+      "slug": "scene-10",
+      "master": {
+        "path": "masters/reused/scene-10/scene-11-v2.png",
+        "bytes": 2227250,
+        "sha256": "de367693f2102482e5d4f5b18acb3e599d02c89ee8c293a831ae7e2454473b77"
+      },
+      "web": {
+        "path": "web/scene-10.webp",
+        "bytes": 346568,
+        "sha256": "dbcf9af5f65bcf406428a33bb865372b6e59ebb34151fdafe12e72264d1b6b16"
+      },
+      "width": 1536,
+      "height": 1024,
+      "recipe": {
+        "operation": "byte-for-byte copy",
+        "resized": false,
+        "reencoded": false,
+        "artEdited": false
+      },
+      "reuseRecord": "reuse.json#scene-10",
+      "generationRecord": null,
+      "approval": "draft-for-review"
+    },
+    "scene-14": {
+      "slug": "scene-14",
+      "master": {
+        "path": "masters/reused/scene-14/scene-16-v2.png",
+        "bytes": 2255489,
+        "sha256": "6fc0d074f61f415fd73a0562efcb8de21982685955a546f971f7e431b6935a8b"
+      },
+      "web": {
+        "path": "web/scene-14.webp",
+        "bytes": 352556,
+        "sha256": "fd9fad80648244611cd8aab3bb24c39f244819cfea1afff66e5bb30a48401e86"
+      },
+      "width": 1536,
+      "height": 1024,
+      "recipe": {
+        "operation": "byte-for-byte copy",
+        "resized": false,
+        "reencoded": false,
+        "artEdited": false
+      },
+      "reuseRecord": "reuse.json#scene-14",
+      "generationRecord": null,
+      "approval": "draft-for-review"
+    },
+    "scene-15": {
+      "slug": "scene-15",
+      "master": {
+        "path": "masters/reused/scene-15/scene-15-v1.png",
+        "bytes": 2226191,
+        "sha256": "2f99c7f333d29242678bd8cd3e7946ee47bf6dbf170f35264487b054f6981ef0"
+      },
+      "web": {
+        "path": "web/scene-15.webp",
+        "bytes": 371148,
+        "sha256": "43e77793ecb4746543650fd5ee14c11e987e0df36781737e78332b6a8195f155"
+      },
+      "width": 1536,
+      "height": 1024,
+      "recipe": {
+        "operation": "byte-for-byte copy",
+        "resized": false,
+        "reencoded": false,
+        "artEdited": false
+      },
+      "reuseRecord": "reuse.json#scene-15",
+      "generationRecord": null,
+      "approval": "draft-for-review"
+    },
+    "scene-25": {
+      "slug": "scene-25",
+      "master": {
+        "path": "masters/reused/scene-25/scene-25-v1.png",
+        "bytes": 2488246,
+        "sha256": "ff0a2d03de4e967568892259bd584424b27543fee4abd6eec93b6cd5b9e10d68"
+      },
+      "web": {
+        "path": "web/scene-25.webp",
+        "bytes": 429260,
+        "sha256": "8882eb666f19d514bc673320922550ca0a774593e1ad14f63092485d386a57ca"
+      },
+      "width": 1536,
+      "height": 1024,
+      "recipe": {
+        "operation": "byte-for-byte copy",
+        "resized": false,
+        "reencoded": false,
+        "artEdited": false
+      },
+      "reuseRecord": "reuse.json#scene-25",
+      "generationRecord": null,
+      "approval": "draft-for-review"
+    },
+    "scene-29": {
+      "slug": "scene-29",
+      "master": {
+        "path": "masters/reused/scene-29/scene-29-v1.png",
+        "bytes": 2584668,
+        "sha256": "918ceb652684451e815a51e6dd3bdd528aa14441aae9fa9a2cfe5cc26728d78f"
+      },
+      "web": {
+        "path": "web/scene-29.webp",
+        "bytes": 443850,
+        "sha256": "d3573d35a51a883c7719772d1d3bf639c1faa61f7e8e7a65afc8d42fe92be2b8"
+      },
+      "width": 1536,
+      "height": 1024,
+      "recipe": {
+        "operation": "byte-for-byte copy",
+        "resized": false,
+        "reencoded": false,
+        "artEdited": false
+      },
+      "reuseRecord": "reuse.json#scene-29",
+      "generationRecord": null,
+      "approval": "draft-for-review"
+    },
+    "scene-30": {
+      "slug": "scene-30",
+      "master": {
+        "path": "masters/reused/scene-30/scene-30-v1.png",
+        "bytes": 2749306,
+        "sha256": "9d7fc0062e8bba95096cceb6898f98b8551d2a878c3cfa950ecde7d0ef102f11"
+      },
+      "web": {
+        "path": "web/scene-30.webp",
+        "bytes": 505380,
+        "sha256": "77e18036a203c5e3fe043d28af5b88073425d6b2102888d717e1a64e6dd5b1ea"
+      },
+      "width": 1536,
+      "height": 1024,
+      "recipe": {
+        "operation": "byte-for-byte copy",
+        "resized": false,
+        "reencoded": false,
+        "artEdited": false
+      },
+      "reuseRecord": "reuse.json#scene-30",
+      "generationRecord": null,
+      "approval": "draft-for-review"
+    },
+    "scene-60": {
+      "slug": "scene-60",
+      "master": {
+        "path": "masters/scene-60-v1.png",
+        "bytes": 2181486,
+        "sha256": "cb35101c78517f3c13c50075323b6a2a67e9c3ae14cbfe0b6275aeb0f3220bdd"
+      },
+      "web": {
+        "path": "web/scene-60.webp",
+        "bytes": 297342,
+        "sha256": "eff515de1480b972316d8318cbc79dd5d93327b3c0b7fa29e4d128d68b64a150"
+      },
+      "width": 1536,
+      "height": 1024,
+      "recipe": {
+        "tool": "Pillow",
+        "version": "12.3.0",
+        "format": "WEBP",
+        "quality": 94,
+        "method": 6,
+        "resized": false,
+        "artEdited": false
+      },
+      "prompt": "prompts/scene-60-v1.txt",
+      "generationRecord": "records/scene-60-v1.json",
+      "approval": "draft-for-review"
+    },
+    "scene-62": {
+      "slug": "scene-62",
+      "master": {
+        "path": "masters/scene-62-v1.png",
+        "bytes": 2278282,
+        "sha256": "4878e7a0bd1a00a8615327b979bb7a0cd4934d64d13c0a6469120a0c1d30be85"
+      },
+      "web": {
+        "path": "web/scene-62.webp",
+        "bytes": 324328,
+        "sha256": "9dee2caa6256217d781759d89e02beca9866f918d753b0f35a330e36d2c70340"
+      },
+      "width": 1536,
+      "height": 1024,
+      "recipe": {
+        "tool": "Pillow",
+        "version": "12.3.0",
+        "format": "WEBP",
+        "quality": 94,
+        "method": 6,
+        "resized": false,
+        "artEdited": false
+      },
+      "prompt": "prompts/scene-62-v1.txt",
+      "generationRecord": "records/scene-62-v1.json",
+      "approval": "draft-for-review"
+    },
+    "scene-71": {
+      "slug": "scene-71",
+      "master": {
+        "path": "masters/scene-71-v1.png",
+        "bytes": 2296475,
+        "sha256": "19e71b89997237e2696466d9b339013e2250e2845ad52fd8f7c0cf00506151dd"
+      },
+      "web": {
+        "path": "web/scene-71.webp",
+        "bytes": 344642,
+        "sha256": "0ab87afdab6090407161ce991e86452e18c70a988a77fee6a7b4851917ffb3e2"
+      },
+      "width": 1536,
+      "height": 1024,
+      "recipe": {
+        "tool": "Pillow",
+        "version": "12.3.0",
+        "format": "WEBP",
+        "quality": 94,
+        "method": 6,
+        "resized": false,
+        "artEdited": false
+      },
+      "prompt": "prompts/scene-71-v1.txt",
+      "generationRecord": "records/scene-71-v1.json",
+      "approval": "draft-for-review"
+    },
+    "scene-84": {
+      "slug": "scene-84",
+      "master": {
+        "path": "masters/scene-84-v1.png",
+        "bytes": 2370449,
+        "sha256": "c9e65e7500774bffdb8f32d2112d970e51a44e5bb30a064bbd7fc6944336872b"
+      },
+      "web": {
+        "path": "web/scene-84.webp",
+        "bytes": 368686,
+        "sha256": "af233f7396b2174b2da57f77dc73b8178cf540c325b7db8628077db1e7dc2a29"
+      },
+      "width": 1536,
+      "height": 1024,
+      "recipe": {
+        "tool": "Pillow",
+        "version": "12.3.0",
+        "format": "WEBP",
+        "quality": 94,
+        "method": 6,
+        "resized": false,
+        "artEdited": false
+      },
+      "prompt": "prompts/scene-84-v1.txt",
+      "generationRecord": "records/scene-84-v1.json",
+      "approval": "draft-for-review"
+    },
+    "scene-07": {
+      "slug": "scene-07",
+      "master": {
+        "path": "masters/scene-07-v1.png",
+        "bytes": 2119463,
+        "sha256": "0b8189f317ae7878d4cb008588349bcbe517c24d3b41f4f6f7b50930544f5082"
+      },
+      "web": {
+        "path": "web/scene-07.webp",
+        "bytes": 337424,
+        "sha256": "8771dba2049835f9dc9492a5025454e251dbba06785d2706895ce8b61457f89d"
+      },
+      "width": 1536,
+      "height": 1024,
+      "recipe": {
+        "tool": "Pillow",
+        "version": "12.3.0",
+        "format": "WEBP",
+        "quality": 94,
+        "method": 6,
+        "resized": false,
+        "artEdited": false
+      },
+      "prompt": "prompts/scene-07-v1.txt",
+      "generationRecord": "records/scene-07-v1.json",
+      "approval": "draft-for-review"
+    },
+    "scene-09": {
+      "slug": "scene-09",
+      "master": {
+        "path": "masters/scene-09-v1.png",
+        "bytes": 2190246,
+        "sha256": "b9c82f6467549d8437671dd730b0e5329f28f259a3dc1cd3f68dc333df55813d"
+      },
+      "web": {
+        "path": "web/scene-09.webp",
+        "bytes": 354336,
+        "sha256": "3cb031ee9e469783f81d45a737010676723c5a5e6a7c7598ce01acc38c1b92aa"
+      },
+      "width": 1536,
+      "height": 1024,
+      "recipe": {
+        "tool": "Pillow",
+        "version": "12.3.0",
+        "format": "WEBP",
+        "quality": 94,
+        "method": 6,
+        "resized": false,
+        "artEdited": false
+      },
+      "prompt": "prompts/scene-09-v1.txt",
+      "generationRecord": "records/scene-09-v1.json",
+      "approval": "draft-for-review"
+    },
+    "scene-11": {
+      "slug": "scene-11",
+      "master": {
+        "path": "masters/scene-11-v1.png",
+        "bytes": 2388347,
+        "sha256": "3799dcbd66e3eea479acbffa8a0f51fea739362e773222eb759a943045e349f2"
+      },
+      "web": {
+        "path": "web/scene-11.webp",
+        "bytes": 412550,
+        "sha256": "fb1fbe460c7531d79b983bfb961c51bdcc953f85d1a1154e2e66b68e54a69473"
+      },
+      "width": 1536,
+      "height": 1024,
+      "recipe": {
+        "tool": "Pillow",
+        "version": "12.3.0",
+        "format": "WEBP",
+        "quality": 94,
+        "method": 6,
+        "resized": false,
+        "artEdited": false
+      },
+      "prompt": "prompts/scene-11-v1.txt",
+      "generationRecord": "records/scene-11-v1.json",
+      "approval": "draft-for-review"
+    },
+    "scene-12": {
+      "slug": "scene-12",
+      "master": {
+        "path": "masters/scene-12-v1.png",
+        "bytes": 2295182,
+        "sha256": "d2d9a37d6e9bf0953f3fdd09a7c445b50092a5ea194d804244006e44217bbfd0"
+      },
+      "web": {
+        "path": "web/scene-12.webp",
+        "bytes": 392356,
+        "sha256": "af4f422aea4d6a74c304f85e85d1af4ff6a2adf5f6e9cb4d647b4f0e542fe5df"
+      },
+      "width": 1536,
+      "height": 1024,
+      "recipe": {
+        "tool": "Pillow",
+        "version": "12.3.0",
+        "format": "WEBP",
+        "quality": 94,
+        "method": 6,
+        "resized": false,
+        "artEdited": false
+      },
+      "prompt": "prompts/scene-12-v1.txt",
+      "generationRecord": "records/scene-12-v1.json",
+      "approval": "draft-for-review"
+    },
+    "scene-61": {
+      "slug": "scene-61",
+      "master": {
+        "path": "masters/scene-61-v1.png",
+        "bytes": 2317829,
+        "sha256": "783b9d1c99f6272352d518ccef79d8576f39d4122f0c2995922b457f8f1bda80"
+      },
+      "web": {
+        "path": "web/scene-61.webp",
+        "bytes": 344308,
+        "sha256": "0f9bc65ba8943f42b9262f1cb3909e1966b05fdeff2e96f202b0c58d3fecddb5"
+      },
+      "width": 1536,
+      "height": 1024,
+      "recipe": {
+        "tool": "Pillow",
+        "version": "12.3.0",
+        "format": "WEBP",
+        "quality": 94,
+        "method": 6,
+        "resized": false,
+        "artEdited": false
+      },
+      "prompt": "prompts/scene-61-v1.txt",
+      "generationRecord": "records/scene-61-v1.json",
+      "approval": "draft-for-review"
+    },
+    "scene-70": {
+      "slug": "scene-70",
+      "master": {
+        "path": "masters/scene-70-v1.png",
+        "bytes": 2338972,
+        "sha256": "db30e67734b9a1c5c1461fa5a39e882381457d05689009565efd24ba402bd28c"
+      },
+      "web": {
+        "path": "web/scene-70.webp",
+        "bytes": 367422,
+        "sha256": "9611cffd78afca74c22f7bd28be12224b77c9ebb212914443c88018420383df8"
+      },
+      "width": 1536,
+      "height": 1024,
+      "recipe": {
+        "tool": "Pillow",
+        "version": "12.3.0",
+        "format": "WEBP",
+        "quality": 94,
+        "method": 6,
+        "resized": false,
+        "artEdited": false
+      },
+      "prompt": "prompts/scene-70-v1.txt",
+      "generationRecord": "records/scene-70-v1.json",
+      "approval": "draft-for-review"
+    },
+    "scene-13": {
+      "slug": "scene-13",
+      "master": {
+        "path": "masters/scene-13-v1.png",
+        "bytes": 2217087,
+        "sha256": "69111d0c8511a70690a14ffcab33a6a07186d680695c37c94f845d17f19181e0"
+      },
+      "web": {
+        "path": "web/scene-13.webp",
+        "bytes": 369128,
+        "sha256": "015345deaeeae903099bc7c95ce03a7f97d2c37ac459dcde7452bd9d561668b9"
+      },
+      "width": 1536,
+      "height": 1024,
+      "recipe": {
+        "tool": "Pillow",
+        "version": "12.3.0",
+        "format": "WEBP",
+        "quality": 94,
+        "method": 6,
+        "resized": false,
+        "artEdited": false
+      },
+      "prompt": "prompts/scene-13-v1.txt",
+      "generationRecord": "records/scene-13-v1.json",
+      "approval": "draft-for-review"
+    },
+    "scene-16": {
+      "slug": "scene-16",
+      "master": {
+        "path": "masters/scene-16-v1.png",
+        "bytes": 2602290,
+        "sha256": "835353ab21c930b51ed5861401e42a11be3f1b215f509db37d0f5b036b36026a"
+      },
+      "web": {
+        "path": "web/scene-16.webp",
+        "bytes": 483726,
+        "sha256": "5e17df370bd4e685fd887c21b316d861b960e96b00fcc3aaf16ac8162de868c4"
+      },
+      "width": 1536,
+      "height": 1024,
+      "recipe": {
+        "tool": "Pillow",
+        "version": "12.3.0",
+        "format": "WEBP",
+        "quality": 94,
+        "method": 6,
+        "resized": false,
+        "artEdited": false
+      },
+      "prompt": "prompts/scene-16-v1.txt",
+      "generationRecord": "records/scene-16-v1.json",
+      "approval": "draft-for-review"
+    },
+    "scene-31": {
+      "slug": "scene-31",
+      "master": {
+        "path": "masters/scene-31-v1.png",
+        "bytes": 2748527,
+        "sha256": "952cd262b6e21ac3e1b950fd1561cde4fc28b9db23666822e1692ff58a9ea074"
+      },
+      "web": {
+        "path": "web/scene-31.webp",
+        "bytes": 538280,
+        "sha256": "a1e0f024faa711cbd735a5ce85ba2a7496a12994e2631c6e03558927cc55d715"
+      },
+      "width": 1536,
+      "height": 1024,
+      "recipe": {
+        "tool": "Pillow",
+        "version": "12.3.0",
+        "format": "WEBP",
+        "quality": 94,
+        "method": 6,
+        "resized": false,
+        "artEdited": false
+      },
+      "prompt": "prompts/scene-31-v1.txt",
+      "generationRecord": "records/scene-31-v1.json",
+      "approval": "draft-for-review"
+    },
+    "scene-17": {
+      "slug": "scene-17",
+      "master": {
+        "path": "masters/scene-17-v1.png",
+        "bytes": 2379710,
+        "sha256": "fc0615f9534625af9bbc79081c53c27fd5982fa66f856d2567acc0a73ca4a554"
+      },
+      "web": {
+        "path": "web/scene-17.webp",
+        "bytes": 392190,
+        "sha256": "0074c93f7b6c385b2d041c315d7fcfd733d434ab0d9b60fea96111529df3d6f9"
+      },
+      "width": 1536,
+      "height": 1024,
+      "recipe": {
+        "tool": "Pillow",
+        "version": "12.3.0",
+        "format": "WEBP",
+        "quality": 94,
+        "method": 6,
+        "resized": false,
+        "artEdited": false
+      },
+      "prompt": "prompts/scene-17-v1.txt",
+      "generationRecord": "records/scene-17-v1.json",
+      "approval": "draft-for-review"
+    },
+    "scene-18": {
+      "slug": "scene-18",
+      "master": {
+        "path": "masters/scene-18-v1.png",
+        "bytes": 2243054,
+        "sha256": "b64def67c27b3fe97a7cc8fcd4b9df5955ba5d36e116d6f483902458e0a9edda"
+      },
+      "web": {
+        "path": "web/scene-18.webp",
+        "bytes": 367712,
+        "sha256": "edca38715e04dacc5ec79df3a9550951398d058112d0e1561c063faed2b3c53a"
+      },
+      "width": 1536,
+      "height": 1024,
+      "recipe": {
+        "tool": "Pillow",
+        "version": "12.3.0",
+        "format": "WEBP",
+        "quality": 94,
+        "method": 6,
+        "resized": false,
+        "artEdited": false
+      },
+      "prompt": "prompts/scene-18-v1.txt",
+      "generationRecord": "records/scene-18-v1.json",
+      "approval": "draft-for-review"
+    },
+    "scene-83": {
+      "slug": "scene-83",
+      "master": {
+        "path": "masters/scene-83-v2.png",
+        "bytes": 2494907,
+        "sha256": "e197654a183d0ecc739ca281f0ecfbab2491edc00c34b1042f64a874a4693770"
+      },
+      "web": {
+        "path": "web/scene-83.webp",
+        "bytes": 469278,
+        "sha256": "2063afef72160bce172cc945c07fd03bf82c677f08f44e85f922e6d8ddd02a60"
+      },
+      "width": 1536,
+      "height": 1024,
+      "recipe": {
+        "tool": "Pillow",
+        "version": "12.3.0",
+        "format": "WEBP",
+        "quality": 94,
+        "method": 6,
+        "resized": false,
+        "artEdited": false
+      },
+      "prompt": "prompts/scene-83-v2.txt",
+      "generationRecord": "records/scene-83-v2.json",
+      "approval": "draft-for-review"
+    },
+    "scene-19": {
+      "slug": "scene-19",
+      "master": {
+        "path": "masters/scene-19-v1.png",
+        "bytes": 2184777,
+        "sha256": "1a8ddbd4db51d201ecdf4ff90da91e0d708a64f71f5260cc6134361293042da3"
+      },
+      "web": {
+        "path": "web/scene-19.webp",
+        "bytes": 341486,
+        "sha256": "9e342a9cce145ea58333b2287da84b9f5fc72fb9c85aca985ed852e41bc2b134"
+      },
+      "width": 1536,
+      "height": 1024,
+      "recipe": {
+        "tool": "Pillow",
+        "version": "12.3.0",
+        "format": "WEBP",
+        "quality": 94,
+        "method": 6,
+        "resized": false,
+        "artEdited": false
+      },
+      "prompt": "prompts/scene-19-v1.txt",
+      "generationRecord": "records/scene-19-v1.json",
+      "approval": "draft-for-review"
+    },
+    "scene-20": {
+      "slug": "scene-20",
+      "master": {
+        "path": "masters/scene-20-v1.png",
+        "bytes": 2636607,
+        "sha256": "4fe5be0a61ba76dbde27699b3df5dcb42996d5bf187dd3be4b239ec6983aa9a7"
+      },
+      "web": {
+        "path": "web/scene-20.webp",
+        "bytes": 506172,
+        "sha256": "bc84648b4a3f2fe6fb8eb5e41c514fd1070cc18d56f93f86f16ec7dd43869ee8"
+      },
+      "width": 1536,
+      "height": 1024,
+      "recipe": {
+        "tool": "Pillow",
+        "version": "12.3.0",
+        "format": "WEBP",
+        "quality": 94,
+        "method": 6,
+        "resized": false,
+        "artEdited": false
+      },
+      "prompt": "prompts/scene-20-v1.txt",
+      "generationRecord": "records/scene-20-v1.json",
+      "approval": "draft-for-review"
+    },
+    "scene-21": {
+      "slug": "scene-21",
+      "master": {
+        "path": "masters/scene-21-v1.png",
+        "bytes": 2535305,
+        "sha256": "41415ea5659de8ee2738525b6fd562cb0afeeeb34db82d9d4b90cf3b60e48f0c"
+      },
+      "web": {
+        "path": "web/scene-21.webp",
+        "bytes": 471188,
+        "sha256": "e3ca716a99194dee05b0cd2c27940acc73ff5a9e44d2c3106bb971aa97f9d568"
+      },
+      "width": 1536,
+      "height": 1024,
+      "recipe": {
+        "tool": "Pillow",
+        "version": "12.3.0",
+        "format": "WEBP",
+        "quality": 94,
+        "method": 6,
+        "resized": false,
+        "artEdited": false
+      },
+      "prompt": "prompts/scene-21-v1.txt",
+      "generationRecord": "records/scene-21-v1.json",
+      "approval": "draft-for-review"
+    },
+    "scene-22": {
+      "slug": "scene-22",
+      "master": {
+        "path": "masters/scene-22-v1.png",
+        "bytes": 2456923,
+        "sha256": "8b47a1562236bdc496e89575894d7d7048c3b6c89f3e9677fb8c465250933a69"
+      },
+      "web": {
+        "path": "web/scene-22.webp",
+        "bytes": 451960,
+        "sha256": "7722f2d77144a61da85c97769c8659b69243439671a1151d9677e0b5a9a42dbb"
+      },
+      "width": 1536,
+      "height": 1024,
+      "recipe": {
+        "tool": "Pillow",
+        "version": "12.3.0",
+        "format": "WEBP",
+        "quality": 94,
+        "method": 6,
+        "resized": false,
+        "artEdited": false
+      },
+      "prompt": "prompts/scene-22-v1.txt",
+      "generationRecord": "records/scene-22-v1.json",
+      "approval": "draft-for-review"
+    },
+    "channel-guide": {
+      "slug": "channel-guide",
+      "master": {
+        "path": "masters/channel-guide-v4.png",
+        "bytes": 2480585,
+        "sha256": "6427d6adbbec899c59e387c4a625b8b6bd09662939b621ae4d4a0a101e806ccd"
+      },
+      "web": {
+        "path": "web/channel-guide.webp",
+        "bytes": 461792,
+        "sha256": "38e7eb8d4437d1032e131f7f8944fbd2d5088176fef8b93852f353502ecf194a"
+      },
+      "width": 1484,
+      "height": 1060,
+      "recipe": {
+        "tool": "Pillow",
+        "version": "12.3.0",
+        "format": "WEBP",
+        "quality": 94,
+        "method": 6,
+        "resized": false,
+        "artEdited": false
+      },
+      "prompt": "prompts/channel-guide-v4.txt",
+      "generationRecord": "records/channel-guide-v4.json",
+      "approval": "draft-for-review"
+    },
+    "scene-53": {
+      "slug": "scene-53",
+      "master": {
+        "path": "masters/scene-53-v1.png",
+        "bytes": 2587516,
+        "sha256": "23df6e80d0415ee29cdc4120a9206ade300ea579c08cabc31afc27c29a0b34fe"
+      },
+      "web": {
+        "path": "web/scene-53.webp",
+        "bytes": 444442,
+        "sha256": "f7046f73bf15fbddb8634688ae8ef1488d551ece9fd94ec02c461dc75e48c288"
+      },
+      "width": 1536,
+      "height": 1024,
+      "recipe": {
+        "tool": "Pillow",
+        "version": "12.3.0",
+        "format": "WEBP",
+        "quality": 94,
+        "method": 6,
+        "resized": false,
+        "artEdited": false
+      },
+      "prompt": "prompts/scene-53-v1.txt",
+      "generationRecord": "records/scene-53-v1.json",
+      "approval": "draft-for-review"
+    },
+    "scene-23": {
+      "slug": "scene-23",
+      "master": {
+        "path": "masters/scene-23-v1.png",
+        "bytes": 2432713,
+        "sha256": "92278ba1f6f8f4ac5b48ab891ad9287cb3026b41e27b6de2c905e9a65f7e7471"
+      },
+      "web": {
+        "path": "web/scene-23.webp",
+        "bytes": 448274,
+        "sha256": "2929cd88ecd90f099c5373a60a58476e6e1b80078f62cf4ab06b0d697fb85bc9"
+      },
+      "width": 1536,
+      "height": 1024,
+      "recipe": {
+        "tool": "Pillow",
+        "version": "12.3.0",
+        "format": "WEBP",
+        "quality": 94,
+        "method": 6,
+        "resized": false,
+        "artEdited": false
+      },
+      "prompt": "prompts/scene-23-v1.txt",
+      "generationRecord": "records/scene-23-v1.json",
+      "approval": "draft-for-review"
+    },
+    "scene-24": {
+      "slug": "scene-24",
+      "master": {
+        "path": "masters/scene-24-v1.png",
+        "bytes": 2645643,
+        "sha256": "474ee56653acaa1eee662b68f63bca3d5369856c2a6fec76f82dceb7070bc0f9"
+      },
+      "web": {
+        "path": "web/scene-24.webp",
+        "bytes": 512030,
+        "sha256": "0eae0e1efad658a1321d215aa6ce8dbfcc39d76e08bd327e7044add4bb196ffc"
+      },
+      "width": 1536,
+      "height": 1024,
+      "recipe": {
+        "tool": "Pillow",
+        "version": "12.3.0",
+        "format": "WEBP",
+        "quality": 94,
+        "method": 6,
+        "resized": false,
+        "artEdited": false
+      },
+      "prompt": "prompts/scene-24-v1.txt",
+      "generationRecord": "records/scene-24-v1.json",
+      "approval": "draft-for-review"
+    },
+    "scene-65": {
+      "slug": "scene-65",
+      "master": {
+        "path": "masters/scene-65-v1.png",
+        "bytes": 2515895,
+        "sha256": "7024bd7263831533a4cac5f6007a8bfffea0b214ea2fc645358fca43cfc31c5c"
+      },
+      "web": {
+        "path": "web/scene-65.webp",
+        "bytes": 462194,
+        "sha256": "8e0c9aef7a6a56f9d86042b542b669e3287a16bcda7be15b20955f87eb31b13b"
+      },
+      "width": 1536,
+      "height": 1024,
+      "recipe": {
+        "tool": "Pillow",
+        "version": "12.3.0",
+        "format": "WEBP",
+        "quality": 94,
+        "method": 6,
+        "resized": false,
+        "artEdited": false
+      },
+      "prompt": "prompts/scene-65-v1.txt",
+      "generationRecord": "records/scene-65-v1.json",
+      "approval": "draft-for-review"
+    },
+    "scene-68": {
+      "slug": "scene-68",
+      "master": {
+        "path": "masters/scene-68-v1.png",
+        "bytes": 2372548,
+        "sha256": "d25b82c55542a36c0473ac6df9af48ccbcae26f8ca9cf9dbe57f7540e2d18d73"
+      },
+      "web": {
+        "path": "web/scene-68.webp",
+        "bytes": 358830,
+        "sha256": "10c947a50cd81dd2abddd67d188b6b69526cd72f1edbbbe4931c90d225730b47"
+      },
+      "width": 1536,
+      "height": 1024,
+      "recipe": {
+        "tool": "Pillow",
+        "version": "12.3.0",
+        "format": "WEBP",
+        "quality": 94,
+        "method": 6,
+        "resized": false,
+        "artEdited": false
+      },
+      "prompt": "prompts/scene-68-v1.txt",
+      "generationRecord": "records/scene-68-v1.json",
+      "approval": "draft-for-review"
+    },
+    "scene-26": {
+      "slug": "scene-26",
+      "master": {
+        "path": "masters/scene-26-v1.png",
+        "bytes": 2585892,
+        "sha256": "e8c32d4df98a76a905f86e1611d92d9d9203622187f994ca0fd0b9d8eb7c002e"
+      },
+      "web": {
+        "path": "web/scene-26.webp",
+        "bytes": 492010,
+        "sha256": "d6952d9421656ddc81f92e0dfd2d4d4d97fe8d0e517a492e161b93fa19c6f581"
+      },
+      "width": 1536,
+      "height": 1024,
+      "recipe": {
+        "tool": "Pillow",
+        "version": "12.3.0",
+        "format": "WEBP",
+        "quality": 94,
+        "method": 6,
+        "resized": false,
+        "artEdited": false
+      },
+      "prompt": "prompts/scene-26-v1.txt",
+      "generationRecord": "records/scene-26-v1.json",
+      "approval": "draft-for-review"
+    },
+    "scene-27": {
+      "slug": "scene-27",
+      "master": {
+        "path": "masters/scene-27-v1.png",
+        "bytes": 2574530,
+        "sha256": "47b57fcb6e6e08b0c62b3562b93eb1386cc6c035db828fdecf37925fb408affc"
+      },
+      "web": {
+        "path": "web/scene-27.webp",
+        "bytes": 489458,
+        "sha256": "7b5b8e5ead9c86de5e477841457dbd77bc5e1741e3d80e8419006c870fb8ed71"
+      },
+      "width": 1536,
+      "height": 1024,
+      "recipe": {
+        "tool": "Pillow",
+        "version": "12.3.0",
+        "format": "WEBP",
+        "quality": 94,
+        "method": 6,
+        "resized": false,
+        "artEdited": false
+      },
+      "prompt": "prompts/scene-27-v1.txt",
+      "generationRecord": "records/scene-27-v1.json",
+      "approval": "draft-for-review"
+    },
+    "scene-28": {
+      "slug": "scene-28",
+      "master": {
+        "path": "masters/scene-28-v1.png",
+        "bytes": 2556582,
+        "sha256": "67ad9941b75f08d61fdc40b8d673824784b770d3b3517e0b2e9a9f33e28e3230"
+      },
+      "web": {
+        "path": "web/scene-28.webp",
+        "bytes": 489152,
+        "sha256": "ec06bd8246ba1b6fe1f1c8508b0843d04d33d4d80059af7b25f13631b10947b7"
+      },
+      "width": 1536,
+      "height": 1024,
+      "recipe": {
+        "tool": "Pillow",
+        "version": "12.3.0",
+        "format": "WEBP",
+        "quality": 94,
+        "method": 6,
+        "resized": false,
+        "artEdited": false
+      },
+      "prompt": "prompts/scene-28-v1.txt",
+      "generationRecord": "records/scene-28-v1.json",
+      "approval": "draft-for-review"
+    },
+    "scene-33": {
+      "slug": "scene-33",
+      "master": {
+        "path": "masters/scene-33-v1.png",
+        "bytes": 2637886,
+        "sha256": "77e91aed32c730d783d46c62a95c46d11baf0890f59f11a931401200ddab1208"
+      },
+      "web": {
+        "path": "web/scene-33.webp",
+        "bytes": 502220,
+        "sha256": "2770aba4f75111ca998ec365964ca81f91c84c82fe119262e3c58b0178116c49"
+      },
+      "width": 1536,
+      "height": 1024,
+      "recipe": {
+        "tool": "Pillow",
+        "version": "12.3.0",
+        "format": "WEBP",
+        "quality": 94,
+        "method": 6,
+        "resized": false,
+        "artEdited": false
+      },
+      "prompt": "prompts/scene-33-v1.txt",
+      "generationRecord": "records/scene-33-v1.json",
+      "approval": "draft-for-review"
+    },
+    "scene-34": {
+      "slug": "scene-34",
+      "master": {
+        "path": "masters/scene-34-v1.png",
+        "bytes": 2545756,
+        "sha256": "fe27e03d79505ed99e9ec955f721c2c30ea1b05fc0f305730adb438323f0f850"
+      },
+      "web": {
+        "path": "web/scene-34.webp",
+        "bytes": 481962,
+        "sha256": "7942d4bf74b70ae9ca72f5067d28e4bc553bb7abe14b8e1a002cadea668fd5a3"
+      },
+      "width": 1536,
+      "height": 1024,
+      "recipe": {
+        "tool": "Pillow",
+        "version": "12.3.0",
+        "format": "WEBP",
+        "quality": 94,
+        "method": 6,
+        "resized": false,
+        "artEdited": false
+      },
+      "prompt": "prompts/scene-34-v1.txt",
+      "generationRecord": "records/scene-34-v1.json",
+      "approval": "draft-for-review"
+    },
+    "scene-35": {
+      "slug": "scene-35",
+      "master": {
+        "path": "masters/scene-35-v1.png",
+        "bytes": 2444736,
+        "sha256": "816e4930aac5594ea25cef0edebc704eefc4d296d42b0ff798bbd43f59def8d3"
+      },
+      "web": {
+        "path": "web/scene-35.webp",
+        "bytes": 430920,
+        "sha256": "c238a7025feb134dbb72a2ee41220fa4af7ca58b2eac4c704d2a0e7caa73170c"
+      },
+      "width": 1536,
+      "height": 1024,
+      "recipe": {
+        "tool": "Pillow",
+        "version": "12.3.0",
+        "format": "WEBP",
+        "quality": 94,
+        "method": 6,
+        "resized": false,
+        "artEdited": false
+      },
+      "prompt": "prompts/scene-35-v1.txt",
+      "generationRecord": "records/scene-35-v1.json",
+      "approval": "draft-for-review"
+    },
+    "scene-38": {
+      "slug": "scene-38",
+      "master": {
+        "path": "masters/scene-38-v1.png",
+        "bytes": 2822324,
+        "sha256": "3965d58d1c4e393336f0e92b9aadfc3087bf4558ef87eddaeb61a778d51b37c8"
+      },
+      "web": {
+        "path": "web/scene-38.webp",
+        "bytes": 547852,
+        "sha256": "915aeebf74a532b8914d39ff3727b6343cdec368e6a169fc04f22db7e3ea1631"
+      },
+      "width": 1536,
+      "height": 1024,
+      "recipe": {
+        "tool": "Pillow",
+        "version": "12.3.0",
+        "format": "WEBP",
+        "quality": 94,
+        "method": 6,
+        "resized": false,
+        "artEdited": false
+      },
+      "prompt": "prompts/scene-38-v1.txt",
+      "generationRecord": "records/scene-38-v1.json",
+      "approval": "draft-for-review"
+    },
+    "scene-64": {
+      "slug": "scene-64",
+      "master": {
+        "path": "masters/scene-64-v2.png",
+        "bytes": 2303152,
+        "sha256": "fd00934780c061c38c93a710b951eaf81a54b30661f487bfdb30d9af634294f7"
+      },
+      "web": {
+        "path": "web/scene-64.webp",
+        "bytes": 388154,
+        "sha256": "2f627cf4f72e6fcbdd68ec82c0db985da42a142d6fc81d695368f848ba0bb43f"
+      },
+      "width": 1536,
+      "height": 1024,
+      "recipe": {
+        "tool": "Pillow",
+        "version": "12.3.0",
+        "format": "WEBP",
+        "quality": 94,
+        "method": 6,
+        "resized": false,
+        "artEdited": false
+      },
+      "prompt": "prompts/scene-64-v2.txt",
+      "generationRecord": "records/scene-64-v2.json",
+      "approval": "draft-for-review"
+    },
+    "scene-67": {
+      "slug": "scene-67",
+      "master": {
+        "path": "masters/scene-67-v2.png",
+        "bytes": 2411889,
+        "sha256": "d8d528ff4c9f48ee0cb87eaa2a723e9cf052666d8fe6bcc5b4f4f98a630ecd82"
+      },
+      "web": {
+        "path": "web/scene-67.webp",
+        "bytes": 399634,
+        "sha256": "f9fce4c886a307f1474b2f8006bed64cafac7c47eebaef66f11802cde495f5b7"
+      },
+      "width": 1536,
+      "height": 1024,
+      "recipe": {
+        "tool": "Pillow",
+        "version": "12.3.0",
+        "format": "WEBP",
+        "quality": 94,
+        "method": 6,
+        "resized": false,
+        "artEdited": false
+      },
+      "prompt": "prompts/scene-67-v2.txt",
+      "generationRecord": "records/scene-67-v2.json",
+      "approval": "draft-for-review"
+    },
+    "scene-69": {
+      "slug": "scene-69",
+      "master": {
+        "path": "masters/scene-69-v2.png",
+        "bytes": 2427425,
+        "sha256": "5b7630cd6b2ccc94550fe468a10beca8798c8aa1cd60f547b0676f128b97ce6f"
+      },
+      "web": {
+        "path": "web/scene-69.webp",
+        "bytes": 460666,
+        "sha256": "a2c2f0e11fe499f9dc09cbb36e486a31ce2e72c08603265b59b74380ddb6603d"
+      },
+      "width": 1536,
+      "height": 1024,
+      "recipe": {
+        "tool": "Pillow",
+        "version": "12.3.0",
+        "format": "WEBP",
+        "quality": 94,
+        "method": 6,
+        "resized": false,
+        "artEdited": false
+      },
+      "prompt": "prompts/scene-69-v2.txt",
+      "generationRecord": "records/scene-69-v2.json",
+      "approval": "draft-for-review"
+    },
+    "scene-74": {
+      "slug": "scene-74",
+      "master": {
+        "path": "masters/scene-74-v1.png",
+        "bytes": 2531880,
+        "sha256": "4f1f12cafb9fdc97f7d01edd6724211bf890e4f5f70a93edcf141347e434d602"
+      },
+      "web": {
+        "path": "web/scene-74.webp",
+        "bytes": 433232,
+        "sha256": "5202f52fa84cccc1e4caddb3104cd3d57fee54fa48d7f0587891cd88069f1361"
+      },
+      "width": 1536,
+      "height": 1024,
+      "recipe": {
+        "tool": "Pillow",
+        "version": "12.3.0",
+        "format": "WEBP",
+        "quality": 94,
+        "method": 6,
+        "resized": false,
+        "artEdited": false
+      },
+      "prompt": "prompts/scene-74-v1.txt",
+      "generationRecord": "records/scene-74-v1.json",
+      "approval": "draft-for-review"
+    },
+    "scene-75": {
+      "slug": "scene-75",
+      "master": {
+        "path": "masters/scene-75-v1.png",
+        "bytes": 2563556,
+        "sha256": "9a322a9a3874c7eadc009746b6096a888a7ae18302bd8bc4f6cdde4580ae1a60"
+      },
+      "web": {
+        "path": "web/scene-75.webp",
+        "bytes": 443916,
+        "sha256": "8f12d154139d41e09bc9fcedaf0a2a5332a01a00bf5e18928961a8678667fae5"
+      },
+      "width": 1536,
+      "height": 1024,
+      "recipe": {
+        "tool": "Pillow",
+        "version": "12.3.0",
+        "format": "WEBP",
+        "quality": 94,
+        "method": 6,
+        "resized": false,
+        "artEdited": false
+      },
+      "prompt": "prompts/scene-75-v1.txt",
+      "generationRecord": "records/scene-75-v1.json",
+      "approval": "draft-for-review"
+    },
+    "scene-76": {
+      "slug": "scene-76",
+      "master": {
+        "path": "masters/scene-76-v1.png",
+        "bytes": 2625449,
+        "sha256": "f63c7d73796953495e01346150277c42709bce2c9722d1b8792ab9320544bf72"
+      },
+      "web": {
+        "path": "web/scene-76.webp",
+        "bytes": 456030,
+        "sha256": "5ad4162f5579769181a4c2dcc6d0b55fba7ac0a4e5e338d2e611bb7d14006818"
+      },
+      "width": 1536,
+      "height": 1024,
+      "recipe": {
+        "tool": "Pillow",
+        "version": "12.3.0",
+        "format": "WEBP",
+        "quality": 94,
+        "method": 6,
+        "resized": false,
+        "artEdited": false
+      },
+      "prompt": "prompts/scene-76-v1.txt",
+      "generationRecord": "records/scene-76-v1.json",
+      "approval": "draft-for-review"
+    },
+    "scene-77": {
+      "slug": "scene-77",
+      "master": {
+        "path": "masters/scene-77-v1.png",
+        "bytes": 2450678,
+        "sha256": "5f614ef9f3d2a3ffffb58c639f111d1502a1ffd2dd8b951d9029bc19dfa644e1"
+      },
+      "web": {
+        "path": "web/scene-77.webp",
+        "bytes": 413090,
+        "sha256": "3a9de0287757f23271879c913f2f5121a6e569e9c4db864caac4c369cc4f5cf8"
+      },
+      "width": 1536,
+      "height": 1024,
+      "recipe": {
+        "tool": "Pillow",
+        "version": "12.3.0",
+        "format": "WEBP",
+        "quality": 94,
+        "method": 6,
+        "resized": false,
+        "artEdited": false
+      },
+      "prompt": "prompts/scene-77-v1.txt",
+      "generationRecord": "records/scene-77-v1.json",
+      "approval": "draft-for-review"
+    },
+    "scene-78": {
+      "slug": "scene-78",
+      "master": {
+        "path": "masters/scene-78-v1.png",
+        "bytes": 2527141,
+        "sha256": "5c2df4958fe3a84a616db47cb8833a2a7253e97ba0f2e5e845b86b9d9945f9c8"
+      },
+      "web": {
+        "path": "web/scene-78.webp",
+        "bytes": 422976,
+        "sha256": "798cb6aad7c74fd66c6d3aa8f1164c1c20339fae01211f2e73ad2af97b79d0c4"
+      },
+      "width": 1536,
+      "height": 1024,
+      "recipe": {
+        "tool": "Pillow",
+        "version": "12.3.0",
+        "format": "WEBP",
+        "quality": 94,
+        "method": 6,
+        "resized": false,
+        "artEdited": false
+      },
+      "prompt": "prompts/scene-78-v1.txt",
+      "generationRecord": "records/scene-78-v1.json",
+      "approval": "draft-for-review"
+    },
+    "scene-79": {
+      "slug": "scene-79",
+      "master": {
+        "path": "masters/scene-79-v1.png",
+        "bytes": 2535046,
+        "sha256": "b91d0d7f5d31b160cce4bcbe90181d3f16e35804f38c1f03ca3ced433925df1e"
+      },
+      "web": {
+        "path": "web/scene-79.webp",
+        "bytes": 429272,
+        "sha256": "d9cb5c28e7fc11eed34ceef0a97fa4b2cd4cfa85ad1529d4fb897545c0354ca4"
+      },
+      "width": 1536,
+      "height": 1024,
+      "recipe": {
+        "tool": "Pillow",
+        "version": "12.3.0",
+        "format": "WEBP",
+        "quality": 94,
+        "method": 6,
+        "resized": false,
+        "artEdited": false
+      },
+      "prompt": "prompts/scene-79-v1.txt",
+      "generationRecord": "records/scene-79-v1.json",
+      "approval": "draft-for-review"
+    },
+    "scene-32": {
+      "slug": "scene-32",
+      "master": {
+        "path": "masters/scene-32-v2.png",
+        "bytes": 2488378,
+        "sha256": "4ed9a2989d1417ac1f175ea263296ba686a5d21076d0744e9d05085b4378ee87"
+      },
+      "web": {
+        "path": "web/scene-32.webp",
+        "bytes": 454594,
+        "sha256": "41d0d399970ad6af0c4e4e9ee0242fc348123510e79d4b71067fbc1878b9a949"
+      },
+      "width": 1536,
+      "height": 1024,
+      "recipe": {
+        "tool": "Pillow",
+        "version": "12.3.0",
+        "format": "WEBP",
+        "quality": 94,
+        "method": 6,
+        "resized": false,
+        "artEdited": false
+      },
+      "prompt": "prompts/scene-32-v2.txt",
+      "generationRecord": "records/scene-32-v2.json",
+      "approval": "draft-for-review"
+    },
+    "scene-36": {
+      "slug": "scene-36",
+      "master": {
+        "path": "masters/scene-36-v2.png",
+        "bytes": 2490201,
+        "sha256": "e9a80565ecd823bd11e9e55217d0d8ea7bc37688e1bd945047041f8af3f164e3"
+      },
+      "web": {
+        "path": "web/scene-36.webp",
+        "bytes": 451164,
+        "sha256": "3514dd69f82191d94de6b4602cca2535b4a14af538b9dbd28791d12d0b092068"
+      },
+      "width": 1536,
+      "height": 1024,
+      "recipe": {
+        "tool": "Pillow",
+        "version": "12.3.0",
+        "format": "WEBP",
+        "quality": 94,
+        "method": 6,
+        "resized": false,
+        "artEdited": false
+      },
+      "prompt": "prompts/scene-36-v2.txt",
+      "generationRecord": "records/scene-36-v2.json",
+      "approval": "draft-for-review"
+    },
+    "scene-37": {
+      "slug": "scene-37",
+      "master": {
+        "path": "masters/scene-37-v2.png",
+        "bytes": 2344179,
+        "sha256": "8a1c77204804fa78cb902beac5a345560582d11b7c15f3acb0977f0d4ea2a04b"
+      },
+      "web": {
+        "path": "web/scene-37.webp",
+        "bytes": 399032,
+        "sha256": "57f091e729f7f4bb89f7373cae52f6a512818e337d23032dc6dcec532b57fd3d"
+      },
+      "width": 1536,
+      "height": 1024,
+      "recipe": {
+        "tool": "Pillow",
+        "version": "12.3.0",
+        "format": "WEBP",
+        "quality": 94,
+        "method": 6,
+        "resized": false,
+        "artEdited": false
+      },
+      "prompt": "prompts/scene-37-v2.txt",
+      "generationRecord": "records/scene-37-v2.json",
+      "approval": "draft-for-review"
+    },
+    "scene-59": {
+      "slug": "scene-59",
+      "master": {
+        "path": "masters/scene-59-v1.png",
+        "bytes": 2589564,
+        "sha256": "733acf6f3d00282dabf47712486248778db41c79527c192597cc76c271e400f0"
+      },
+      "web": {
+        "path": "web/scene-59.webp",
+        "bytes": 446608,
+        "sha256": "c89a7cbf69f26ea301c7f379f0537f7e276289a6adb5d6fe8dfa8b82c8052273"
+      },
+      "width": 1536,
+      "height": 1024,
+      "recipe": {
+        "tool": "Pillow",
+        "version": "12.3.0",
+        "format": "WEBP",
+        "quality": 94,
+        "method": 6,
+        "resized": false,
+        "artEdited": false
+      },
+      "prompt": "prompts/scene-59-v1.txt",
+      "generationRecord": "records/scene-59-v1.json",
+      "approval": "draft-for-review"
+    },
+    "scene-63": {
+      "slug": "scene-63",
+      "master": {
+        "path": "masters/scene-63-v1.png",
+        "bytes": 2345183,
+        "sha256": "d9704f5bacc444af02fe508074e3f840491bf8380f22b92a4ee36b8ae48ce24d"
+      },
+      "web": {
+        "path": "web/scene-63.webp",
+        "bytes": 362994,
+        "sha256": "f76a5204bc5c65d6ca72697bbff24339b80aa105c538e9cff7888058730e39d1"
+      },
+      "width": 1536,
+      "height": 1024,
+      "recipe": {
+        "tool": "Pillow",
+        "version": "12.3.0",
+        "format": "WEBP",
+        "quality": 94,
+        "method": 6,
+        "resized": false,
+        "artEdited": false
+      },
+      "prompt": "prompts/scene-63-v1.txt",
+      "generationRecord": "records/scene-63-v1.json",
+      "approval": "draft-for-review"
+    },
+    "scene-72": {
+      "slug": "scene-72",
+      "master": {
+        "path": "masters/scene-72-v1.png",
+        "bytes": 2533246,
+        "sha256": "b94012842bda2574d5dea08604b6a695377a807cbbad4f6daffa7284d4291496"
+      },
+      "web": {
+        "path": "web/scene-72.webp",
+        "bytes": 434954,
+        "sha256": "d3c935da54d3926638dd2491ee09de4dc3223134119f7c2e90049931aa8c9d11"
+      },
+      "width": 1536,
+      "height": 1024,
+      "recipe": {
+        "tool": "Pillow",
+        "version": "12.3.0",
+        "format": "WEBP",
+        "quality": 94,
+        "method": 6,
+        "resized": false,
+        "artEdited": false
+      },
+      "prompt": "prompts/scene-72-v1.txt",
+      "generationRecord": "records/scene-72-v1.json",
+      "approval": "draft-for-review"
+    },
+    "scene-73": {
+      "slug": "scene-73",
+      "master": {
+        "path": "masters/scene-73-v1.png",
+        "bytes": 2562956,
+        "sha256": "6c1c17d7faaf767989c21c9462d0f0743e193895da3dc8d9d7c7a945d8b06039"
+      },
+      "web": {
+        "path": "web/scene-73.webp",
+        "bytes": 462698,
+        "sha256": "61794aa245f501315f6b3038dda087608e38647c6316b9963cf698cb2d9244b8"
+      },
+      "width": 1536,
+      "height": 1024,
+      "recipe": {
+        "tool": "Pillow",
+        "version": "12.3.0",
+        "format": "WEBP",
+        "quality": 94,
+        "method": 6,
+        "resized": false,
+        "artEdited": false
+      },
+      "prompt": "prompts/scene-73-v1.txt",
+      "generationRecord": "records/scene-73-v1.json",
+      "approval": "draft-for-review"
+    },
+    "scene-66": {
+      "slug": "scene-66",
+      "master": {
+        "path": "masters/scene-66-v3.png",
+        "bytes": 2675547,
+        "sha256": "39465e2a7e6e48cd7e03ae0f7b34ef4afd673b166647cf6864ea91779a295765"
+      },
+      "web": {
+        "path": "web/scene-66.webp",
+        "bytes": 500538,
+        "sha256": "4451cc2648e682a71c10fbfa1198c054243b70acdd39dd382dd1a14a6b16fc7a"
+      },
+      "width": 1536,
+      "height": 1024,
+      "recipe": {
+        "tool": "Pillow",
+        "version": "12.3.0",
+        "format": "WEBP",
+        "quality": 94,
+        "method": 6,
+        "resized": false,
+        "artEdited": false
+      },
+      "prompt": "prompts/scene-66-v3.txt",
+      "generationRecord": "records/scene-66-v3.json",
+      "approval": "draft-for-review"
+    },
+    "scene-80": {
+      "slug": "scene-80",
+      "master": {
+        "path": "masters/scene-80-v2.png",
+        "bytes": 2593663,
+        "sha256": "25a2adc8ac306a3fddec6908a10471e4fa5563eae837a1816948b57a845cb652"
+      },
+      "web": {
+        "path": "web/scene-80.webp",
+        "bytes": 487372,
+        "sha256": "c791966178bfe96a88606afbd38b1d00fc38f8649ae95d2b34ef9641b1f6143a"
+      },
+      "width": 1536,
+      "height": 1024,
+      "recipe": {
+        "tool": "Pillow",
+        "version": "12.3.0",
+        "format": "WEBP",
+        "quality": 94,
+        "method": 6,
+        "resized": false,
+        "artEdited": false
+      },
+      "prompt": "prompts/scene-80-v2.txt",
+      "generationRecord": "records/scene-80-v2.json",
+      "approval": "draft-for-review"
+    },
+    "title": {
+      "slug": "title",
+      "master": {
+        "path": "masters/title-v1.png",
+        "bytes": 2226150,
+        "sha256": "af4d92db3b128b44de5369ba8c47a5bba0936832590872a74fafebb56e0b6f3b"
+      },
+      "web": {
+        "path": "web/title.webp",
+        "bytes": 352096,
+        "sha256": "3faac89e1b9839f936495b25c82f3aaa8b5cac75cbdccd4dd8cfaefd4ddbb4d2"
+      },
+      "width": 1536,
+      "height": 1024,
+      "recipe": {
+        "tool": "Pillow",
+        "version": "12.3.0",
+        "format": "WEBP",
+        "quality": 94,
+        "method": 6,
+        "resized": false,
+        "artEdited": false
+      },
+      "prompt": "prompts/title-v1.txt",
+      "generationRecord": "records/title-v1.json",
+      "approval": "draft-for-review"
+    },
+    "scene-81": {
+      "slug": "scene-81",
+      "master": {
+        "path": "masters/scene-81-v1.png",
+        "bytes": 2441795,
+        "sha256": "cc8c1d59e8f54cb69b19ce6ddd74d4de9563e77c144d2cbd4401aaa1ae4f0de7"
+      },
+      "web": {
+        "path": "web/scene-81.webp",
+        "bytes": 454430,
+        "sha256": "3b7f9ea10338520017a1aeb48132be50565a7a4628e65a07ad7f362fcaf706e4"
+      },
+      "width": 1536,
+      "height": 1024,
+      "recipe": {
+        "tool": "Pillow",
+        "version": "12.3.0",
+        "format": "WEBP",
+        "quality": 94,
+        "method": 6,
+        "resized": false,
+        "artEdited": false
+      },
+      "prompt": "prompts/scene-81-v1.txt",
+      "generationRecord": "records/scene-81-v1.json",
+      "approval": "draft-for-review"
+    },
+    "scene-82": {
+      "slug": "scene-82",
+      "master": {
+        "path": "masters/scene-82-v1.png",
+        "bytes": 2453818,
+        "sha256": "d6757948b3970533f5c0fafd00954d78516f0b0c98d57a1a82d174b7e8bb5715"
+      },
+      "web": {
+        "path": "web/scene-82.webp",
+        "bytes": 435168,
+        "sha256": "63bf8853a689583f34deba82818aa4b000ddc9b3cc4af3fb44101bc171ed17a0"
+      },
+      "width": 1536,
+      "height": 1024,
+      "recipe": {
+        "tool": "Pillow",
+        "version": "12.3.0",
+        "format": "WEBP",
+        "quality": 94,
+        "method": 6,
+        "resized": false,
+        "artEdited": false
+      },
+      "prompt": "prompts/scene-82-v1.txt",
+      "generationRecord": "records/scene-82-v1.json",
+      "approval": "draft-for-review"
+    },
+    "scene-39": {
+      "slug": "scene-39",
+      "master": {
+        "path": "masters/scene-39-v1.png",
+        "bytes": 2414885,
+        "sha256": "4edae956002a9cc81860b67b22c61d963c0e5802edcf12992f3c5adfcc857623"
+      },
+      "web": {
+        "path": "web/scene-39.webp",
+        "bytes": 441908,
+        "sha256": "d308c776fde9aa87a728e241ea26f3f0d902d828f837f38cf5889fdbfefb0207"
+      },
+      "width": 1536,
+      "height": 1024,
+      "recipe": {
+        "tool": "Pillow",
+        "version": "12.3.0",
+        "format": "WEBP",
+        "quality": 94,
+        "method": 6,
+        "resized": false,
+        "artEdited": false
+      },
+      "prompt": "prompts/scene-39-v1.txt",
+      "generationRecord": "records/scene-39-v1.json",
+      "approval": "draft-for-review"
+    },
+    "scene-40": {
+      "slug": "scene-40",
+      "master": {
+        "path": "masters/scene-40-v1.png",
+        "bytes": 2540942,
+        "sha256": "9c7d5bed4f358f477a0214f1ae37f4073812b039c11af18f47f6941805b7c4f0"
+      },
+      "web": {
+        "path": "web/scene-40.webp",
+        "bytes": 480880,
+        "sha256": "268f97128f3538abab498ef6e2284dfe02b9ab9e87d81c34ce5957c62b2efe51"
+      },
+      "width": 1536,
+      "height": 1024,
+      "recipe": {
+        "tool": "Pillow",
+        "version": "12.3.0",
+        "format": "WEBP",
+        "quality": 94,
+        "method": 6,
+        "resized": false,
+        "artEdited": false
+      },
+      "prompt": "prompts/scene-40-v1.txt",
+      "generationRecord": "records/scene-40-v1.json",
+      "approval": "draft-for-review"
+    },
+    "scene-41": {
+      "slug": "scene-41",
+      "master": {
+        "path": "masters/scene-41-v1.png",
+        "bytes": 2363103,
+        "sha256": "4154b1f51703e0e372fd80d6246bdc3bd9a73854d9583fefaa9f4bc98a08f9ab"
+      },
+      "web": {
+        "path": "web/scene-41.webp",
+        "bytes": 408050,
+        "sha256": "ea26d52a397941e2330972f1457660a5a08298963b3cd4b3892e2eb74bd048a9"
+      },
+      "width": 1536,
+      "height": 1024,
+      "recipe": {
+        "tool": "Pillow",
+        "version": "12.3.0",
+        "format": "WEBP",
+        "quality": 94,
+        "method": 6,
+        "resized": false,
+        "artEdited": false
+      },
+      "prompt": "prompts/scene-41-v1.txt",
+      "generationRecord": "records/scene-41-v1.json",
+      "approval": "draft-for-review"
+    },
+    "scene-42": {
+      "slug": "scene-42",
+      "master": {
+        "path": "masters/scene-42-v1.png",
+        "bytes": 2476592,
+        "sha256": "82591c5124a5a9485cd790ec1b6758efa111461b073b152afd631767f7086fa0"
+      },
+      "web": {
+        "path": "web/scene-42.webp",
+        "bytes": 416344,
+        "sha256": "c20efb276dc5966f9453ed81fc7e45d76f6ace36f5aa4f4a78a55e748a98d863"
+      },
+      "width": 1536,
+      "height": 1024,
+      "recipe": {
+        "tool": "Pillow",
+        "version": "12.3.0",
+        "format": "WEBP",
+        "quality": 94,
+        "method": 6,
+        "resized": false,
+        "artEdited": false
+      },
+      "prompt": "prompts/scene-42-v1.txt",
+      "generationRecord": "records/scene-42-v1.json",
+      "approval": "draft-for-review"
+    },
+    "scene-44": {
+      "slug": "scene-44",
+      "master": {
+        "path": "masters/scene-44-v3.png",
+        "bytes": 2506730,
+        "sha256": "e605104cc79b2281eef93209b7cf7e0bdad8beefe86e982984bfe28306530342"
+      },
+      "web": {
+        "path": "web/scene-44.webp",
+        "bytes": 447380,
+        "sha256": "3aa83fb6f6a18e51b393298dcced224147bddc0c8159649c5840911535cd2a1d"
+      },
+      "width": 1536,
+      "height": 1024,
+      "recipe": {
+        "tool": "Pillow",
+        "version": "12.3.0",
+        "format": "WEBP",
+        "quality": 94,
+        "method": 6,
+        "resized": false,
+        "artEdited": false
+      },
+      "prompt": "prompts/scene-44-v3.txt",
+      "generationRecord": "records/scene-44-v3.json",
+      "approval": "draft-for-review"
+    },
+    "scene-45": {
+      "slug": "scene-45",
+      "master": {
+        "path": "masters/scene-45-v1.png",
+        "bytes": 2327861,
+        "sha256": "f710257f733b1a948d7745d703b15f09946b85fd6291c1dbd353927055e63807"
+      },
+      "web": {
+        "path": "web/scene-45.webp",
+        "bytes": 391598,
+        "sha256": "c642cd7aa76da506e304569c58803b783076ff0b7199aab87a8613b8d1f3c05c"
+      },
+      "width": 1536,
+      "height": 1024,
+      "recipe": {
+        "tool": "Pillow",
+        "version": "12.3.0",
+        "format": "WEBP",
+        "quality": 94,
+        "method": 6,
+        "resized": false,
+        "artEdited": false
+      },
+      "prompt": "prompts/scene-45-v1.txt",
+      "generationRecord": "records/scene-45-v1.json",
+      "approval": "draft-for-review"
+    },
+    "scene-46": {
+      "slug": "scene-46",
+      "master": {
+        "path": "masters/scene-46-v1.png",
+        "bytes": 2343516,
+        "sha256": "fa3d98af9623e1afbccbad487c8767cdc78f0292014c2b20b38db16f4af68d2f"
+      },
+      "web": {
+        "path": "web/scene-46.webp",
+        "bytes": 380122,
+        "sha256": "b9fdccbae66df30e4142ba20b7c16fb410cf57c90cce8699f36c3d0f23ea9cab"
+      },
+      "width": 1536,
+      "height": 1024,
+      "recipe": {
+        "tool": "Pillow",
+        "version": "12.3.0",
+        "format": "WEBP",
+        "quality": 94,
+        "method": 6,
+        "resized": false,
+        "artEdited": false
+      },
+      "prompt": "prompts/scene-46-v1.txt",
+      "generationRecord": "records/scene-46-v1.json",
+      "approval": "draft-for-review"
+    },
+    "scene-54": {
+      "slug": "scene-54",
+      "master": {
+        "path": "masters/scene-54-v2.png",
+        "bytes": 2578776,
+        "sha256": "b42fe51e243ab18c6f1ab6e29d1c54105d9c8fc8d50ad4dfc2c641b4c8f61ed3"
+      },
+      "web": {
+        "path": "web/scene-54.webp",
+        "bytes": 435452,
+        "sha256": "6bdfa25dcbf60659ccc327594c76752f77edff5ded4d7436b654984d47541784"
+      },
+      "width": 1536,
+      "height": 1024,
+      "recipe": {
+        "tool": "Pillow",
+        "version": "12.3.0",
+        "format": "WEBP",
+        "quality": 94,
+        "method": 6,
+        "resized": false,
+        "artEdited": false
+      },
+      "prompt": "prompts/scene-54-v2.txt",
+      "generationRecord": "records/scene-54-v2.json",
+      "approval": "draft-for-review"
+    },
+    "scene-43": {
+      "slug": "scene-43",
+      "master": {
+        "path": "masters/scene-43-v2.png",
+        "bytes": 2469211,
+        "sha256": "9b5312f3b5b56d850cce4d46c94e776c6ba4087249b00046169a512927099bf1"
+      },
+      "web": {
+        "path": "web/scene-43.webp",
+        "bytes": 371008,
+        "sha256": "96e6ed8d2de957ad25fb403aa5f10fb86a1768c9a1ce902253d84264f6ff7ef2"
+      },
+      "width": 1536,
+      "height": 1024,
+      "recipe": {
+        "tool": "Pillow",
+        "version": "12.3.0",
+        "format": "WEBP",
+        "quality": 94,
+        "method": 6,
+        "resized": false,
+        "artEdited": false
+      },
+      "prompt": "prompts/scene-43-v2.txt",
+      "generationRecord": "records/scene-43-v2.json",
+      "approval": "draft-for-review"
+    },
+    "scene-47": {
+      "slug": "scene-47",
+      "master": {
+        "path": "masters/scene-47-v2.png",
+        "bytes": 2383981,
+        "sha256": "197d56bd28fab6d3ad1f186f9a03bfaaa7b3fb56624102e2c8ea1dbee7b45443"
+      },
+      "web": {
+        "path": "web/scene-47.webp",
+        "bytes": 423942,
+        "sha256": "3df87baaf920df855d6dbb64aa0864bba48c2a1bfff217317218be9fb334539c"
+      },
+      "width": 1536,
+      "height": 1024,
+      "recipe": {
+        "tool": "Pillow",
+        "version": "12.3.0",
+        "format": "WEBP",
+        "quality": 94,
+        "method": 6,
+        "resized": false,
+        "artEdited": false
+      },
+      "prompt": "prompts/scene-47-v2.txt",
+      "generationRecord": "records/scene-47-v2.json",
+      "approval": "draft-for-review"
+    },
+    "scene-48": {
+      "slug": "scene-48",
+      "master": {
+        "path": "masters/scene-48-v1.png",
+        "bytes": 2529542,
+        "sha256": "f1179e36143e488444c5435353b42ac750ef901d3c79ac4497ede0246c1c9f1a"
+      },
+      "web": {
+        "path": "web/scene-48.webp",
+        "bytes": 433600,
+        "sha256": "1406524b54cfdbbfe0405d4a9cf831cf80536272d1ec028d8b90d744402c601f"
+      },
+      "width": 1536,
+      "height": 1024,
+      "recipe": {
+        "tool": "Pillow",
+        "version": "12.3.0",
+        "format": "WEBP",
+        "quality": 94,
+        "method": 6,
+        "resized": false,
+        "artEdited": false
+      },
+      "prompt": "prompts/scene-48-v1.txt",
+      "generationRecord": "records/scene-48-v1.json",
+      "approval": "draft-for-review"
+    },
+    "scene-49": {
+      "slug": "scene-49",
+      "master": {
+        "path": "masters/scene-49-v1.png",
+        "bytes": 2534796,
+        "sha256": "66dabdec71f11755a599bdf1c734c30a298de27a6f550c18ef8a4e2cc90f6dc3"
+      },
+      "web": {
+        "path": "web/scene-49.webp",
+        "bytes": 431572,
+        "sha256": "be1793d76a03ea33f81f7ad6c266183d88ad9cb17ee7d5d4feeada3952fd9365"
+      },
+      "width": 1536,
+      "height": 1024,
+      "recipe": {
+        "tool": "Pillow",
+        "version": "12.3.0",
+        "format": "WEBP",
+        "quality": 94,
+        "method": 6,
+        "resized": false,
+        "artEdited": false
+      },
+      "prompt": "prompts/scene-49-v1.txt",
+      "generationRecord": "records/scene-49-v1.json",
+      "approval": "draft-for-review"
+    },
+    "scene-50": {
+      "slug": "scene-50",
+      "master": {
+        "path": "masters/scene-50-v1.png",
+        "bytes": 2430306,
+        "sha256": "5b03a0da8c5863b529b48c6dedc3d76cafa5f36745900633e8b522efe0e66948"
+      },
+      "web": {
+        "path": "web/scene-50.webp",
+        "bytes": 442918,
+        "sha256": "4130edac9a2095b76964e5b8c6a7be0805a43578a387aa22d2d6ad8d0c5a8aa2"
+      },
+      "width": 1536,
+      "height": 1024,
+      "recipe": {
+        "tool": "Pillow",
+        "version": "12.3.0",
+        "format": "WEBP",
+        "quality": 94,
+        "method": 6,
+        "resized": false,
+        "artEdited": false
+      },
+      "prompt": "prompts/scene-50-v1.txt",
+      "generationRecord": "records/scene-50-v1.json",
+      "approval": "draft-for-review"
+    },
+    "scene-51": {
+      "slug": "scene-51",
+      "master": {
+        "path": "masters/scene-51-v1.png",
+        "bytes": 2116924,
+        "sha256": "c9d562c569e4aef11052b92948aef5f8a8a80e82f5845d0b365c0f70ebb77492"
+      },
+      "web": {
+        "path": "web/scene-51.webp",
+        "bytes": 313996,
+        "sha256": "270bef636b34580d908bbfd2da31abdb409cb8d31f7ddea2be6b5db7d021be33"
+      },
+      "width": 1536,
+      "height": 1024,
+      "recipe": {
+        "tool": "Pillow",
+        "version": "12.3.0",
+        "format": "WEBP",
+        "quality": 94,
+        "method": 6,
+        "resized": false,
+        "artEdited": false
+      },
+      "prompt": "prompts/scene-51-v1.txt",
+      "generationRecord": "records/scene-51-v1.json",
+      "approval": "draft-for-review"
+    },
+    "scene-52": {
+      "slug": "scene-52",
+      "master": {
+        "path": "masters/scene-52-v1.png",
+        "bytes": 2452862,
+        "sha256": "2311cb672aa304921823c18e8bf7e915ed1657e05cb5152011e8963171cd08b7"
+      },
+      "web": {
+        "path": "web/scene-52.webp",
+        "bytes": 433730,
+        "sha256": "22d8dc7444da53f218697453b8ad31a7c176b001085441aee12b62252c9f9e35"
+      },
+      "width": 1536,
+      "height": 1024,
+      "recipe": {
+        "tool": "Pillow",
+        "version": "12.3.0",
+        "format": "WEBP",
+        "quality": 94,
+        "method": 6,
+        "resized": false,
+        "artEdited": false
+      },
+      "prompt": "prompts/scene-52-v1.txt",
+      "generationRecord": "records/scene-52-v1.json",
+      "approval": "draft-for-review"
+    },
+    "scene-55": {
+      "slug": "scene-55",
+      "master": {
+        "path": "masters/scene-55-v1.png",
+        "bytes": 2493733,
+        "sha256": "7a6fcf9061c2ca7e984a0a332af203b59a9f4d8535eb24180e34c3bd64e8bcbd"
+      },
+      "web": {
+        "path": "web/scene-55.webp",
+        "bytes": 456594,
+        "sha256": "a94d7a1be5c9dc857ba63d0f0eba8294ed33b0c2e6dcb974dfa44427a4aa80ac"
+      },
+      "width": 1536,
+      "height": 1024,
+      "recipe": {
+        "tool": "Pillow",
+        "version": "12.3.0",
+        "format": "WEBP",
+        "quality": 94,
+        "method": 6,
+        "resized": false,
+        "artEdited": false
+      },
+      "prompt": "prompts/scene-55-v1.txt",
+      "generationRecord": "records/scene-55-v1.json",
+      "approval": "draft-for-review"
+    },
+    "scene-56": {
+      "slug": "scene-56",
+      "master": {
+        "path": "masters/scene-56-v1.png",
+        "bytes": 2512084,
+        "sha256": "5d9839f30afdb6c3aeccf470c039c159d4a3d80365ae962c37290b70becbd222"
+      },
+      "web": {
+        "path": "web/scene-56.webp",
+        "bytes": 470354,
+        "sha256": "54cfbe876def6beb34c0fee0f4f023daf18a2f71b85c9054f67c999e22b3e067"
+      },
+      "width": 1536,
+      "height": 1024,
+      "recipe": {
+        "tool": "Pillow",
+        "version": "12.3.0",
+        "format": "WEBP",
+        "quality": 94,
+        "method": 6,
+        "resized": false,
+        "artEdited": false
+      },
+      "prompt": "prompts/scene-56-v1.txt",
+      "generationRecord": "records/scene-56-v1.json",
+      "approval": "draft-for-review"
+    },
+    "scene-57": {
+      "slug": "scene-57",
+      "master": {
+        "path": "masters/scene-57-v1.png",
+        "bytes": 2675189,
+        "sha256": "2bad2057ecf9ea3f7c2208c8b24e9156f5c2705f990f795cfb15e8a2d6d69f30"
+      },
+      "web": {
+        "path": "web/scene-57.webp",
+        "bytes": 503558,
+        "sha256": "94d99749685f43b913d6e800550fdca1f10b7fc2863f4c87fa5e53e17054717b"
+      },
+      "width": 1536,
+      "height": 1024,
+      "recipe": {
+        "tool": "Pillow",
+        "version": "12.3.0",
+        "format": "WEBP",
+        "quality": 94,
+        "method": 6,
+        "resized": false,
+        "artEdited": false
+      },
+      "prompt": "prompts/scene-57-v1.txt",
+      "generationRecord": "records/scene-57-v1.json",
+      "approval": "draft-for-review"
+    },
+    "scene-58": {
+      "slug": "scene-58",
+      "master": {
+        "path": "masters/scene-58-v1.png",
+        "bytes": 2273180,
+        "sha256": "1e576c06cb7c231d22149e9b3eb08c51b1d1b8da236c4fa4c28c1c4dbae7ecc3"
+      },
+      "web": {
+        "path": "web/scene-58.webp",
+        "bytes": 372184,
+        "sha256": "7d2510f54ebdb96ce217ff06fde7f09746107d066b63f4b8a2ebf35cb535b082"
+      },
+      "width": 1536,
+      "height": 1024,
+      "recipe": {
+        "tool": "Pillow",
+        "version": "12.3.0",
+        "format": "WEBP",
+        "quality": 94,
+        "method": 6,
+        "resized": false,
+        "artEdited": false
+      },
+      "prompt": "prompts/scene-58-v1.txt",
+      "generationRecord": "records/scene-58-v1.json",
+      "approval": "draft-for-review"
+    },
+    "storyboard-00": {
+      "slug": "storyboard-00",
+      "master": {
+        "path": "masters/storyboard-00-v2.png",
+        "bytes": 17159039,
+        "sha256": "11581c5478bfd9e8417bd5b7d6a59cb3a271758008b8dab2c09eb5ddab174dec"
+      },
+      "web": {
+        "path": "web/storyboard-00.webp",
+        "bytes": 4107828,
+        "sha256": "ce9b60eaa224bcc0e0b594cbe98bb3b2433dbfdd0616e42414064a67bda973a9"
+      },
+      "width": 2400,
+      "height": 4176,
+      "recipe": {
+        "tool": "Pillow",
+        "version": "12.3.0",
+        "format": "WEBP",
+        "quality": 94,
+        "method": 6,
+        "resized": false,
+        "artEdited": false
+      },
+      "prompt": null,
+      "generationRecord": null,
+      "approval": "draft-for-review"
+    },
+    "storyboard-01": {
+      "slug": "storyboard-01",
+      "master": {
+        "path": "masters/storyboard-01-v2.png",
+        "bytes": 5382274,
+        "sha256": "40efb4ac9df16041748339ed22b796c2cc8e735358fe70dc0b9f97b5a45c51f6"
+      },
+      "web": {
+        "path": "web/storyboard-01.webp",
+        "bytes": 1089080,
+        "sha256": "640a6a2af15e7c49ad720f4f29c3c759b145696d944a8ed93108d623bf3cbaec"
+      },
+      "width": 1800,
+      "height": 1950,
+      "recipe": {
+        "tool": "Pillow",
+        "version": "12.3.0",
+        "format": "WEBP",
+        "quality": 94,
+        "method": 6,
+        "resized": false,
+        "artEdited": false
+      },
+      "prompt": null,
+      "generationRecord": null,
+      "approval": "draft-for-review"
+    },
+    "storyboard-02": {
+      "slug": "storyboard-02",
+      "master": {
+        "path": "masters/storyboard-02-v2.png",
+        "bytes": 5195657,
+        "sha256": "ed8d81a8e4d6a6a4c1561dffbacb51653c08b6463d04348d919d88966bae8211"
+      },
+      "web": {
+        "path": "web/storyboard-02.webp",
+        "bytes": 1015932,
+        "sha256": "e1df4e7c1269a260030ef93f2cb48b730061f63a635b46f664090d9fb3b01786"
+      },
+      "width": 1800,
+      "height": 1950,
+      "recipe": {
+        "tool": "Pillow",
+        "version": "12.3.0",
+        "format": "WEBP",
+        "quality": 94,
+        "method": 6,
+        "resized": false,
+        "artEdited": false
+      },
+      "prompt": null,
+      "generationRecord": null,
+      "approval": "draft-for-review"
+    },
+    "storyboard-03": {
+      "slug": "storyboard-03",
+      "master": {
+        "path": "masters/storyboard-03-v2.png",
+        "bytes": 5257807,
+        "sha256": "4341c41af15940f7810c2bb82c6fa0860559aafdbd655594078c50a8117f92a9"
+      },
+      "web": {
+        "path": "web/storyboard-03.webp",
+        "bytes": 1063334,
+        "sha256": "f78ce6c36c447eeda84a2f4e8916b94d27d6310e5497b7ec280bb1fb46638f59"
+      },
+      "width": 1800,
+      "height": 1950,
+      "recipe": {
+        "tool": "Pillow",
+        "version": "12.3.0",
+        "format": "WEBP",
+        "quality": 94,
+        "method": 6,
+        "resized": false,
+        "artEdited": false
+      },
+      "prompt": null,
+      "generationRecord": null,
+      "approval": "draft-for-review"
+    },
+    "storyboard-04": {
+      "slug": "storyboard-04",
+      "master": {
+        "path": "masters/storyboard-04-v2.png",
+        "bytes": 5687088,
+        "sha256": "57e1b7e460b9f8565a2b7276a65b4a0bc1c1a1281e20a9541034ff0f30569d81"
+      },
+      "web": {
+        "path": "web/storyboard-04.webp",
+        "bytes": 1216466,
+        "sha256": "feb85d8b4d5bf5d4f839f15b6bc3a73158757960693eccbee0201fc7e47684c2"
+      },
+      "width": 1800,
+      "height": 1950,
+      "recipe": {
+        "tool": "Pillow",
+        "version": "12.3.0",
+        "format": "WEBP",
+        "quality": 94,
+        "method": 6,
+        "resized": false,
+        "artEdited": false
+      },
+      "prompt": null,
+      "generationRecord": null,
+      "approval": "draft-for-review"
+    },
+    "storyboard-05": {
+      "slug": "storyboard-05",
+      "master": {
+        "path": "masters/storyboard-05-v2.png",
+        "bytes": 5889463,
+        "sha256": "89e863aaf2d1addac08493ce30fef9e49d33c7095284a777a2ee9f3ae52add13"
+      },
+      "web": {
+        "path": "web/storyboard-05.webp",
+        "bytes": 1273670,
+        "sha256": "d4ac189f5cfc4985880dc50b20455b0955549f4b87481f8fbfd1d7fff06d5d48"
+      },
+      "width": 1800,
+      "height": 1950,
+      "recipe": {
+        "tool": "Pillow",
+        "version": "12.3.0",
+        "format": "WEBP",
+        "quality": 94,
+        "method": 6,
+        "resized": false,
+        "artEdited": false
+      },
+      "prompt": null,
+      "generationRecord": null,
+      "approval": "draft-for-review"
+    },
+    "storyboard-06": {
+      "slug": "storyboard-06",
+      "master": {
+        "path": "masters/storyboard-06-v2.png",
+        "bytes": 5793511,
+        "sha256": "e36864546d2f73791080f4340de75c78f48f140f8c905cc373931c822dbd9faa"
+      },
+      "web": {
+        "path": "web/storyboard-06.webp",
+        "bytes": 1251074,
+        "sha256": "c57f7a244e0f0a9836fc747233ab64c567bcf7b3c381473e2efd993ce37f61b1"
+      },
+      "width": 1800,
+      "height": 1950,
+      "recipe": {
+        "tool": "Pillow",
+        "version": "12.3.0",
+        "format": "WEBP",
+        "quality": 94,
+        "method": 6,
+        "resized": false,
+        "artEdited": false
+      },
+      "prompt": null,
+      "generationRecord": null,
+      "approval": "draft-for-review"
+    },
+    "storyboard-07": {
+      "slug": "storyboard-07",
+      "master": {
+        "path": "masters/storyboard-07-v2.png",
+        "bytes": 5674658,
+        "sha256": "6c2a71aaf5091872d5ad02c301ed45c5f6d244562e8f28ef10850163eb7d06f7"
+      },
+      "web": {
+        "path": "web/storyboard-07.webp",
+        "bytes": 1164800,
+        "sha256": "089a6b5a73b03256ca091ff444f2180c0990be562f3b41d122fe4df8b34ff89f"
+      },
+      "width": 1800,
+      "height": 1950,
+      "recipe": {
+        "tool": "Pillow",
+        "version": "12.3.0",
+        "format": "WEBP",
+        "quality": 94,
+        "method": 6,
+        "resized": false,
+        "artEdited": false
+      },
+      "prompt": null,
+      "generationRecord": null,
+      "approval": "draft-for-review"
+    },
+    "storyboard-08": {
+      "slug": "storyboard-08",
+      "master": {
+        "path": "masters/storyboard-08-v2.png",
+        "bytes": 5526414,
+        "sha256": "84ff8c1896fd63ec301ac87c15fd125167c565802e4c6dedfb9f2b724c1296b9"
+      },
+      "web": {
+        "path": "web/storyboard-08.webp",
+        "bytes": 1114258,
+        "sha256": "bfe39e4363ce079bba0ba95a01f52185e18dcbf4e8e24dc5d9602146e11d1c7b"
+      },
+      "width": 1800,
+      "height": 1950,
+      "recipe": {
+        "tool": "Pillow",
+        "version": "12.3.0",
+        "format": "WEBP",
+        "quality": 94,
+        "method": 6,
+        "resized": false,
+        "artEdited": false
+      },
+      "prompt": null,
+      "generationRecord": null,
+      "approval": "draft-for-review"
+    },
+    "storyboard-09": {
+      "slug": "storyboard-09",
+      "master": {
+        "path": "masters/storyboard-09-v2.png",
+        "bytes": 5513129,
+        "sha256": "5af7373ff3a0e2bf16df092132a6df098b89189990e6c2ce5658b0adcbee0366"
+      },
+      "web": {
+        "path": "web/storyboard-09.webp",
+        "bytes": 1129654,
+        "sha256": "a94ad7245f4337e090aabd2b890a206d43a52f921427f3a51cc4d70ffffd0b8d"
+      },
+      "width": 1800,
+      "height": 1950,
+      "recipe": {
+        "tool": "Pillow",
+        "version": "12.3.0",
+        "format": "WEBP",
+        "quality": 94,
+        "method": 6,
+        "resized": false,
+        "artEdited": false
+      },
+      "prompt": null,
+      "generationRecord": null,
+      "approval": "draft-for-review"
+    },
+    "storyboard-10": {
+      "slug": "storyboard-10",
+      "master": {
+        "path": "masters/storyboard-10-v2.png",
+        "bytes": 5534879,
+        "sha256": "9e93121d96c9f8614aa2d093ccde5cc43680e311ceea2a166b7e8bdbd98226a8"
+      },
+      "web": {
+        "path": "web/storyboard-10.webp",
+        "bytes": 1131192,
+        "sha256": "08d2536d99b15ed1bd2522daf783053d169422f9f9823cd930044c1bb215bb79"
+      },
+      "width": 1800,
+      "height": 1950,
+      "recipe": {
+        "tool": "Pillow",
+        "version": "12.3.0",
+        "format": "WEBP",
+        "quality": 94,
+        "method": 6,
+        "resized": false,
+        "artEdited": false
+      },
+      "prompt": null,
+      "generationRecord": null,
+      "approval": "draft-for-review"
+    },
+    "storyboard-11": {
+      "slug": "storyboard-11",
+      "master": {
+        "path": "masters/storyboard-11-v2.png",
+        "bytes": 5382032,
+        "sha256": "e989e1f3d7a8eae7e95a19c33e24206a53c8f529aaebd3b875b6144d10fc0696"
+      },
+      "web": {
+        "path": "web/storyboard-11.webp",
+        "bytes": 1067496,
+        "sha256": "9c09d0ed76e90a12252696fdc6741d7a2ed248e5c14a893f9e2f53abb77c1388"
+      },
+      "width": 1800,
+      "height": 1950,
+      "recipe": {
+        "tool": "Pillow",
+        "version": "12.3.0",
+        "format": "WEBP",
+        "quality": 94,
+        "method": 6,
+        "resized": false,
+        "artEdited": false
+      },
+      "prompt": null,
+      "generationRecord": null,
+      "approval": "draft-for-review"
+    },
+    "storyboard-12": {
+      "slug": "storyboard-12",
+      "master": {
+        "path": "masters/storyboard-12-v2.png",
+        "bytes": 5386583,
+        "sha256": "b70844ee1bdceb8e1da0f6e28fec1fab42701f3e8002402dabf11a84ff511970"
+      },
+      "web": {
+        "path": "web/storyboard-12.webp",
+        "bytes": 1070750,
+        "sha256": "bda81de044e16be63fd6613fef4f14de172ad7d5eeac7043c56057a45a177f6c"
+      },
+      "width": 1800,
+      "height": 1950,
+      "recipe": {
+        "tool": "Pillow",
+        "version": "12.3.0",
+        "format": "WEBP",
+        "quality": 94,
+        "method": 6,
+        "resized": false,
+        "artEdited": false
+      },
+      "prompt": null,
+      "generationRecord": null,
+      "approval": "draft-for-review"
+    },
+    "storyboard-13": {
+      "slug": "storyboard-13",
+      "master": {
+        "path": "masters/storyboard-13-v2.png",
+        "bytes": 5684689,
+        "sha256": "44fb9d65dcff1255ee6ddd20a0c32176c3710321304da7799fe6054f9c6722bd"
+      },
+      "web": {
+        "path": "web/storyboard-13.webp",
+        "bytes": 1184952,
+        "sha256": "785641ad1edc3dddd1e68f6dd24c27dff4755b79a2d6277bd6891efaaec1dfcc"
+      },
+      "width": 1800,
+      "height": 1950,
+      "recipe": {
+        "tool": "Pillow",
+        "version": "12.3.0",
+        "format": "WEBP",
+        "quality": 94,
+        "method": 6,
+        "resized": false,
+        "artEdited": false
+      },
+      "prompt": null,
+      "generationRecord": null,
+      "approval": "draft-for-review"
+    },
+    "storyboard-14": {
+      "slug": "storyboard-14",
+      "master": {
+        "path": "masters/storyboard-14-v2.png",
+        "bytes": 5639080,
+        "sha256": "febd293941af3ffebad155f89c962d0d0179b1b1d120150ad1393c67d84ad112"
+      },
+      "web": {
+        "path": "web/storyboard-14.webp",
+        "bytes": 1182024,
+        "sha256": "30a5d34237caf91eea352e29f16712a0b3e2d2bcc8dd8af3abc968fb883ea500"
+      },
+      "width": 1800,
+      "height": 1950,
+      "recipe": {
+        "tool": "Pillow",
+        "version": "12.3.0",
+        "format": "WEBP",
+        "quality": 94,
+        "method": 6,
+        "resized": false,
+        "artEdited": false
+      },
+      "prompt": null,
+      "generationRecord": null,
+      "approval": "draft-for-review"
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "tool": "image_gen__imagegen",
+  "generatedAt": "2026-10-01T15:33:20.364Z",
+  "promptPath": "prompts/scene-61-v1.txt",
+  "sourceOutput": "/Users/miguel_lemos/.codex/generated_images/01a0be6f-b832-7d93-95df-9d2ff5f69dc1/exec-1dd949bf-6593-418a-ac64-7ba4b3b6c5d8.png",
+  "references": [
+    "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r2/masters/scene-32-v2.png"
+  ],
+  "visualReview": "Passed visual review: scene-specific restrained expression, same source composition, correct child anatomy, no wood duck or added character.",
+  "cameraEvidence": "Same-composition edit, no new measured transform claimed.",
+  "referenceIdentities": [
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r2/masters/scene-32-v2.png",
+      "bytes": 2346329,
+      "sha256": "873a181ef800a93feb08a8311ac7c254a995eebfddad00b4cdba7668ffb4321d"
+    }
+  ],
+  "preservedReferences": [
+    {
+      "path": "references/inputs/873a181ef800/scene-32-v2.png",
+      "sha256": "873a181ef800a93feb08a8311ac7c254a995eebfddad00b4cdba7668ffb4321d"
+    }
+  ],
+  "promptSha256": "e5f7ff2fa5e64eaf83e191e61e687489ad42f86c5f8a3df95cd8f5ea9fb2a459",
+  "master": {
+    "path": "masters/scene-61-v1.png",
+    "bytes": 2317829,
+    "sha256": "783b9d1c99f6272352d518ccef79d8576f39d4122f0c2995922b457f8f1bda80"
+  },
+  "approval": "draft-for-review"
+}

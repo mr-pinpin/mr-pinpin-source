@@ -1,0 +1,31 @@
+{
+  "id": "scene-44-v2",
+  "tool": "image_gen__imagegen",
+  "generatedAt": "2026-10-01T16:24:37.963824+00:00",
+  "promptPath": "prompts/scene-44-v2.txt",
+  "sourceOutput": "/Users/miguel_lemos/.codex/generated_images/01a0f5c3-a7d1-70d0-b8cf-581aa5deee53/exec-498eb93d-51a3-47dd-9ac6-916d77600726.png",
+  "references": [
+    "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r5/masters/scene-44-v1.png"
+  ],
+  "visualReview": "REJECT: first foot correction still leaves planted foot on gutter lip.",
+  "referenceIdentities": [
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r5/masters/scene-44-v1.png",
+      "bytes": 2635230,
+      "sha256": "677e839dc181562ab0e4e0bf334307eb4d7bb865adf590729d01d163aa1e3fd8"
+    }
+  ],
+  "preservedReferences": [
+    {
+      "path": "masters/scene-44-v1.png",
+      "sha256": "677e839dc181562ab0e4e0bf334307eb4d7bb865adf590729d01d163aa1e3fd8"
+    }
+  ],
+  "promptSha256": "683baac5391a5475147b9d4558dade0557b12016c67a2a5b6292f4a54ab85fc8",
+  "master": {
+    "path": "masters/scene-44-v2.png",
+    "bytes": 2531489,
+    "sha256": "04aa68abe855e267cb1887f34bd32a2a730ab928950b6515f481eb02a044a921"
+  },
+  "approval": "draft-for-review"
+}

@@ -1,0 +1,31 @@
+{
+  "tool": "image_gen__imagegen",
+  "generatedAt": "2026-10-01T15:49:58.571Z",
+  "promptPath": "prompts/scene-69-v2.txt",
+  "sourceOutput": "/Users/miguel_lemos/.codex/generated_images/01a0be6f-b832-7d93-95df-9d2ff5f69dc1/exec-4bce5885-3d02-4d19-8c4c-2ef0f6e2ca54.png",
+  "references": [
+    "/Users/miguel_lemos/.codex/generated_images/01a0be6f-b832-7d93-95df-9d2ff5f69dc1/exec-5f33aed7-279c-46ba-9236-079e66317b84.png"
+  ],
+  "visualReview": "Pass: reviewed image preserves cast/anatomy and intended scene state. Water rises from bath center; evening fatigue and four-family meal remain.",
+  "cameraEvidence": "Same-composition edit; original seed/reference camera retained as illustrative continuity, not measured reconstruction.",
+  "referenceIdentities": [
+    {
+      "path": "/Users/miguel_lemos/.codex/generated_images/01a0be6f-b832-7d93-95df-9d2ff5f69dc1/exec-5f33aed7-279c-46ba-9236-079e66317b84.png",
+      "bytes": 2490672,
+      "sha256": "d71fe0ed3b4d7033fcb4f333d6f5381871b8ce97297900fd5ae4fc3d17543e33"
+    }
+  ],
+  "preservedReferences": [
+    {
+      "path": "references/inputs/d71fe0ed3b4d/exec-5f33aed7-279c-46ba-9236-079e66317b84.png",
+      "sha256": "d71fe0ed3b4d7033fcb4f333d6f5381871b8ce97297900fd5ae4fc3d17543e33"
+    }
+  ],
+  "promptSha256": "141123e1341d2c688ef31a6d83b6ecd59e86a611f0af4ffc88c2e2852e263e17",
+  "master": {
+    "path": "masters/scene-69-v2.png",
+    "bytes": 2427425,
+    "sha256": "5b7630cd6b2ccc94550fe468a10beca8798c8aa1cd60f547b0676f128b97ce6f"
+  },
+  "approval": "draft-for-review"
+}

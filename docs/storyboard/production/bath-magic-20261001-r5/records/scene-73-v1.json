@@ -1,0 +1,61 @@
+{
+  "tool": "image_gen__imagegen",
+  "generatedAt": "2026-10-01T15:57:09.929Z",
+  "promptPath": "prompts/scene-73-v1.txt",
+  "sourceOutput": "/Users/miguel_lemos/.codex/generated_images/01a0be6f-b832-7d93-95df-9d2ff5f69dc1/exec-167eca42-d86f-4dd3-82e0-fa683daa8b93.png",
+  "references": [
+    "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r5/geometry/bath-wide-channel/still.png",
+    "/Users/miguel_lemos/.codex/generated_images/01a0f5c3-a7d1-70d0-b8cf-581aa5deee53/exec-633c4aa1-c724-4649-80d0-5e7bebebcdb7.png",
+    "/Users/miguel_lemos/.codex/generated_images/01a0be6f-b832-7d93-95df-9d2ff5f69dc1/exec-e3917a4f-c637-4bc8-b938-79bb4f2d4a3a.png",
+    "/Users/miguel_lemos/.codex/generated_images/01a0f5c3-a7d1-70d0-b8cf-581aa5deee53/exec-f3b1c873-c5c7-45b1-a780-6c5e32be323f.png"
+  ],
+  "visualReview": "Pass: Mama crouches at child's height and looks at him, separate arms, child points; full wooden bath and outward spill collector.",
+  "cameraEvidence": "Layout/camera input bath-wide-channel; final illustration is an artistic interpretation.",
+  "referenceIdentities": [
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r5/geometry/bath-wide-channel/still.png",
+      "bytes": 1051328,
+      "sha256": "530a72fc59aab21886267e5ab56417afbca6cab1108f48693097a85f6d96e6c6"
+    },
+    {
+      "path": "/Users/miguel_lemos/.codex/generated_images/01a0f5c3-a7d1-70d0-b8cf-581aa5deee53/exec-633c4aa1-c724-4649-80d0-5e7bebebcdb7.png",
+      "bytes": 2587516,
+      "sha256": "23df6e80d0415ee29cdc4120a9206ade300ea579c08cabc31afc27c29a0b34fe"
+    },
+    {
+      "path": "/Users/miguel_lemos/.codex/generated_images/01a0be6f-b832-7d93-95df-9d2ff5f69dc1/exec-e3917a4f-c637-4bc8-b938-79bb4f2d4a3a.png",
+      "bytes": 2278282,
+      "sha256": "4878e7a0bd1a00a8615327b979bb7a0cd4934d64d13c0a6469120a0c1d30be85"
+    },
+    {
+      "path": "/Users/miguel_lemos/.codex/generated_images/01a0f5c3-a7d1-70d0-b8cf-581aa5deee53/exec-f3b1c873-c5c7-45b1-a780-6c5e32be323f.png",
+      "bytes": 2480585,
+      "sha256": "6427d6adbbec899c59e387c4a625b8b6bd09662939b621ae4d4a0a101e806ccd"
+    }
+  ],
+  "preservedReferences": [
+    {
+      "path": "references/inputs/530a72fc59aa/still.png",
+      "sha256": "530a72fc59aab21886267e5ab56417afbca6cab1108f48693097a85f6d96e6c6"
+    },
+    {
+      "path": "references/inputs/23df6e80d041/exec-633c4aa1-c724-4649-80d0-5e7bebebcdb7.png",
+      "sha256": "23df6e80d0415ee29cdc4120a9206ade300ea579c08cabc31afc27c29a0b34fe"
+    },
+    {
+      "path": "references/inputs/4878e7a0bd1a/exec-e3917a4f-c637-4bc8-b938-79bb4f2d4a3a.png",
+      "sha256": "4878e7a0bd1a00a8615327b979bb7a0cd4934d64d13c0a6469120a0c1d30be85"
+    },
+    {
+      "path": "references/inputs/6427d6adbbec/exec-f3b1c873-c5c7-45b1-a780-6c5e32be323f.png",
+      "sha256": "6427d6adbbec899c59e387c4a625b8b6bd09662939b621ae4d4a0a101e806ccd"
+    }
+  ],
+  "promptSha256": "38dbd26ec8d2960ff57a7ccd9a944c2e779baddf833a02e897dd68de11f40d62",
+  "master": {
+    "path": "masters/scene-73-v1.png",
+    "bytes": 2562956,
+    "sha256": "6c1c17d7faaf767989c21c9462d0f0743e193895da3dc8d9d7c7a945d8b06039"
+  },
+  "approval": "draft-for-review"
+}

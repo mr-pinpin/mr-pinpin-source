@@ -1,0 +1,31 @@
+{
+  "tool": "image_gen__imagegen",
+  "generatedAt": "2026-10-01T15:57:09.929Z",
+  "promptPath": "prompts/scene-72-v1.txt",
+  "sourceOutput": "/Users/miguel_lemos/.codex/generated_images/01a0be6f-b832-7d93-95df-9d2ff5f69dc1/exec-e6c96a86-fc3a-4ba1-b79e-966e5093bc97.png",
+  "references": [
+    "/Users/miguel_lemos/.codex/generated_images/01a0f5c3-a7d1-70d0-b8cf-581aa5deee53/exec-633c4aa1-c724-4649-80d0-5e7bebebcdb7.png"
+  ],
+  "visualReview": "Pass: both paws on rim, no flowers/duck, intact source under attentive gaze.",
+  "cameraEvidence": "Existing composition reused for camera continuity; no new measured transform claimed.",
+  "referenceIdentities": [
+    {
+      "path": "/Users/miguel_lemos/.codex/generated_images/01a0f5c3-a7d1-70d0-b8cf-581aa5deee53/exec-633c4aa1-c724-4649-80d0-5e7bebebcdb7.png",
+      "bytes": 2587516,
+      "sha256": "23df6e80d0415ee29cdc4120a9206ade300ea579c08cabc31afc27c29a0b34fe"
+    }
+  ],
+  "preservedReferences": [
+    {
+      "path": "references/inputs/23df6e80d041/exec-633c4aa1-c724-4649-80d0-5e7bebebcdb7.png",
+      "sha256": "23df6e80d0415ee29cdc4120a9206ade300ea579c08cabc31afc27c29a0b34fe"
+    }
+  ],
+  "promptSha256": "ccfea2732432a6845c8de5cf4b3d6516d5af9873765b3492e0eb67ba71fffc32",
+  "master": {
+    "path": "masters/scene-72-v1.png",
+    "bytes": 2533246,
+    "sha256": "b94012842bda2574d5dea08604b6a695377a807cbbad4f6daffa7284d4291496"
+  },
+  "approval": "draft-for-review"
+}

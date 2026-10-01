@@ -1,0 +1,43 @@
+{
+  "tool": "image_gen__imagegen",
+  "generatedAt": "2026-10-01T16:02:36.949Z",
+  "promptPath": "prompts/scene-81-v1.txt",
+  "sourceOutput": "/Users/miguel_lemos/.codex/generated_images/01a0f5c0-64db-7310-817a-d73d15314908/exec-001a0874-322c-4add-95fc-ba7f3d41c40d.png",
+  "references": [
+    "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r5/masters/channel-guide-v4.png",
+    "/Users/miguel_lemos/.codex/generated_images/01a0be6f-b832-7d93-95df-9d2ff5f69dc1/exec-b483d3b2-9fac-424e-bfa9-c57f97faf8d8.png"
+  ],
+  "visualReview": {
+    "status": "passed",
+    "notes": "Source stopped, water below rim; Mama mops and child scoops into pail, bath rug fixed."
+  },
+  "referenceIdentities": [
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r5/masters/channel-guide-v4.png",
+      "bytes": 2480585,
+      "sha256": "6427d6adbbec899c59e387c4a625b8b6bd09662939b621ae4d4a0a101e806ccd"
+    },
+    {
+      "path": "/Users/miguel_lemos/.codex/generated_images/01a0be6f-b832-7d93-95df-9d2ff5f69dc1/exec-b483d3b2-9fac-424e-bfa9-c57f97faf8d8.png",
+      "bytes": 2494907,
+      "sha256": "e197654a183d0ecc739ca281f0ecfbab2491edc00c34b1042f64a874a4693770"
+    }
+  ],
+  "preservedReferences": [
+    {
+      "path": "masters/channel-guide-v4.png",
+      "sha256": "6427d6adbbec899c59e387c4a625b8b6bd09662939b621ae4d4a0a101e806ccd"
+    },
+    {
+      "path": "references/inputs/e197654a183d/exec-b483d3b2-9fac-424e-bfa9-c57f97faf8d8.png",
+      "sha256": "e197654a183d0ecc739ca281f0ecfbab2491edc00c34b1042f64a874a4693770"
+    }
+  ],
+  "promptSha256": "1e657a7e0d686d36b71860bbd28c6a2b3c7da42c7323f75b0642f4588efdd9bb",
+  "master": {
+    "path": "masters/scene-81-v1.png",
+    "bytes": 2441795,
+    "sha256": "cc8c1d59e8f54cb69b19ce6ddd74d4de9563e77c144d2cbd4401aaa1ae4f0de7"
+  },
+  "approval": "draft-for-review"
+}

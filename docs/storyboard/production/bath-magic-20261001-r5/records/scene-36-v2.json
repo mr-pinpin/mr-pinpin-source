@@ -1,0 +1,31 @@
+{
+  "id": "scene-36-v2",
+  "tool": "image_gen__imagegen",
+  "generatedAt": "2026-10-01T15:59:19.630184+00:00",
+  "promptPath": "prompts/scene-36-v2.txt",
+  "sourceOutput": "/Users/miguel_lemos/.codex/generated_images/01a0f5c3-a7d1-70d0-b8cf-581aa5deee53/exec-a862a1aa-b16d-4db8-b5ce-f807f41315d7.png",
+  "references": [
+    "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r5/masters/scene-36-v1.png"
+  ],
+  "visualReview": "PASS: requested narrow repair visible, poses and action retained. Illustrated geometry, not measured reconstruction.",
+  "referenceIdentities": [
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r5/masters/scene-36-v1.png",
+      "bytes": 2500296,
+      "sha256": "52b3b9956656d2f35e81cf395dc36424e311f9391b695db0cb7b885c8d87182f"
+    }
+  ],
+  "preservedReferences": [
+    {
+      "path": "masters/scene-36-v1.png",
+      "sha256": "52b3b9956656d2f35e81cf395dc36424e311f9391b695db0cb7b885c8d87182f"
+    }
+  ],
+  "promptSha256": "96675f5274d0bdbbde352c0d92599ea6e1157aedce5be908f20eba602cba6069",
+  "master": {
+    "path": "masters/scene-36-v2.png",
+    "bytes": 2490201,
+    "sha256": "e9a80565ecd823bd11e9e55217d0d8ea7bc37688e1bd945047041f8af3f164e3"
+  },
+  "approval": "draft-for-review"
+}

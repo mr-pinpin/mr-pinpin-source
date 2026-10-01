@@ -1,0 +1,61 @@
+{
+  "id": "channel-guide-v1",
+  "tool": "image_gen__imagegen",
+  "generatedAt": "2026-10-01T15:46:34.762477+00:00",
+  "promptPath": "prompts/channel-guide-v1.txt",
+  "sourceOutput": "/Users/miguel_lemos/.codex/generated_images/01a0f5c3-a7d1-70d0-b8cf-581aa5deee53/exec-fe8775e2-b849-4445-965b-a679a886ed83.png",
+  "references": [
+    "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r5/geometry/bath-channel-reverse/still.png",
+    "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r5/geometry/common-channel-south/still.png",
+    "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r3/masters/scene-28-v1.png",
+    "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r3/web/scene-02.webp"
+  ],
+  "visualReview": "REJECT: channel sends water into tub; incorrect reverse wall window. Right panel preliminary only.",
+  "referenceIdentities": [
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r5/geometry/bath-channel-reverse/still.png",
+      "bytes": 1043303,
+      "sha256": "9891b8a570180e364f3e9f548712fe601120c610a7db5c716056b2b8e3ad7faf"
+    },
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r5/geometry/common-channel-south/still.png",
+      "bytes": 1151521,
+      "sha256": "4a2a3a147fc8bd622ab1725ed25f87b8910b002e7a5a28147de8247d31e5f352"
+    },
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r3/masters/scene-28-v1.png",
+      "bytes": 2749872,
+      "sha256": "d80cd9f09eaa764258cf96cf54a4ad0967f6839392eff35842ebc0ba968a70a2"
+    },
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r3/web/scene-02.webp",
+      "bytes": 412906,
+      "sha256": "7bb7bfae1e01595cda5cc4d9dfc24056f349302929d8b4a5487b2f8eb6643377"
+    }
+  ],
+  "preservedReferences": [
+    {
+      "path": "references/inputs/9891b8a57018/still.png",
+      "sha256": "9891b8a570180e364f3e9f548712fe601120c610a7db5c716056b2b8e3ad7faf"
+    },
+    {
+      "path": "references/inputs/4a2a3a147fc8/still.png",
+      "sha256": "4a2a3a147fc8bd622ab1725ed25f87b8910b002e7a5a28147de8247d31e5f352"
+    },
+    {
+      "path": "references/inputs/d80cd9f09eaa/scene-28-v1.png",
+      "sha256": "d80cd9f09eaa764258cf96cf54a4ad0967f6839392eff35842ebc0ba968a70a2"
+    },
+    {
+      "path": "references/inputs/7bb7bfae1e01/scene-02.webp",
+      "sha256": "7bb7bfae1e01595cda5cc4d9dfc24056f349302929d8b4a5487b2f8eb6643377"
+    }
+  ],
+  "promptSha256": "be25b38bc193d1d7f00a1d8356cecbadd2dfefbd359107cd0af4260c4a07f352",
+  "master": {
+    "path": "masters/channel-guide-v1.png",
+    "bytes": 2673603,
+    "sha256": "7e1fd3c6b6e1dfce56aa30d7e33728948d56e10bdec51e0491257ad81497c47b"
+  },
+  "approval": "draft-for-review"
+}

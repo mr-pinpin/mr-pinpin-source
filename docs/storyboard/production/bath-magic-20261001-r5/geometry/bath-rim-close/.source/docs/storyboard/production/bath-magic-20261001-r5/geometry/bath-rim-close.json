@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "id": "bath-magic-r5-bath-rim-close",
+  "location": "docs/storyboard/locations/pinpin-house/location.json",
+  "camera": {
+    "position": [
+      -2.85,
+      2.0,
+      0.85
+    ],
+    "target": [
+      -3.55,
+      2.65,
+      0.47
+    ],
+    "lensMm": 35,
+    "width": 1400,
+    "height": 1000
+  },
+  "doorStates": {
+    "door-front": 105,
+    "door-bath": 75,
+    "door-bedroom": 0
+  },
+  "prompt": {
+    "template": "still",
+    "intent": "Close surface/rim camera for flowers and spell experiments.",
+    "characters": "No characters; empty architectural location study.",
+    "action": "No action; preserve all furnishings and openings.",
+    "lighting": "Warm gentle daytime with soft fill; maintain the rendered direction of window illumination.",
+    "referenceIds": [
+      "bathroom-book"
+    ]
+  }
+}

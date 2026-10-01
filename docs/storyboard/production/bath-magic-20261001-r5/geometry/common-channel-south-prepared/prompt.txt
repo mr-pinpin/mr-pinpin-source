@@ -1,0 +1,186 @@
+Use case: style-transfer
+Asset type: one children’s-book location still.
+Location: pinpin-house, version 1.0.0.
+Geometry/edit target: /Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r5/geometry/common-channel-south-prepared/geometry-reference.png
+Supporting image roles: [
+  {
+    "id": "common-book",
+    "path": "docs/storyboard/images/published/elder-cycle/papa-arrival-20260922-arrival-05.webp",
+    "sha256": "0c475ab6702d45d9ae00a64c90d59adfe0a980dd5a594cacbbd2ced5f63342ea",
+    "bytes": 1751408,
+    "roles": [
+      "style",
+      "characters",
+      "entrance-design"
+    ],
+    "notes": "Actual approved Papa arrival05: green arched entry, two round radial windows, amber light, gentle stylized faces; its furnishing arrangement does not override the measured current plan.",
+    "absolutePath": "/Users/miguel_lemos/anastasia-pinpin-repos/mr-pinpin-source/docs/storyboard/images/published/elder-cycle/papa-arrival-20260922-arrival-05.webp"
+  }
+]
+Camera record: [
+  {
+    "position": [
+      -1.7999999523162842,
+      0.2800000011920929,
+      1.149999976158142
+    ],
+    "quaternionWXYZ": [
+      0.1398879885673523,
+      0.11238541454076767,
+      -0.6161419153213501,
+      -0.7669224739074707
+    ],
+    "matrixWorld": [
+      [
+        -0.9356018900871277,
+        0.07607575505971909,
+        -0.34476351737976074,
+        -1.7999999523162842
+      ],
+      [
+        -0.35305720567703247,
+        -0.20160111784934998,
+        0.9136234521865845,
+        0.2800000011920929
+      ],
+      [
+        -9.388876520688427e-08,
+        0.9765089154243469,
+        0.21547731757164001,
+        1.149999976158142
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "lensMm": 22.0,
+    "horizontalFovDegrees": 78.57881289138213,
+    "width": 1400,
+    "height": 1000
+  }
+]
+Door states in degrees: [
+  {
+    "id": "door-front",
+    "angleDegrees": 105,
+    "signedAngleDegrees": -105,
+    "hingeWorld": [
+      -0.6962748765945435,
+      -2.957864999771118,
+      0.0
+    ],
+    "matrixWorld": [
+      [
+        -0.258819043636322,
+        0.9659258127212524,
+        0.0,
+        -0.6962748765945435
+      ],
+      [
+        -0.9659258127212524,
+        -0.258819043636322,
+        0.0,
+        -2.957864999771118
+      ],
+      [
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  },
+  {
+    "id": "door-bath",
+    "angleDegrees": 75,
+    "signedAngleDegrees": 75,
+    "hingeWorld": [
+      -2.0239672660827637,
+      0.6366258859634399,
+      0.0
+    ],
+    "matrixWorld": [
+      [
+        -0.3046184480190277,
+        -0.9524744749069214,
+        0.0,
+        -2.0239672660827637
+      ],
+      [
+        0.9524744749069214,
+        -0.3046184480190277,
+        0.0,
+        0.6366258859634399
+      ],
+      [
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  },
+  {
+    "id": "door-bedroom",
+    "angleDegrees": 0,
+    "signedAngleDegrees": 0,
+    "hingeWorld": [
+      1.039655089378357,
+      0.4985438883304596,
+      0.0
+    ],
+    "matrixWorld": [
+      [
+        0.7090891003608704,
+        0.7051188945770264,
+        0.0,
+        1.039655089378357
+      ],
+      [
+        -0.7051188945770264,
+        0.7090891003608704,
+        0.0,
+        0.4985438883304596
+      ],
+      [
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  }
+]
+Intent: From near bathroom doorway looking south toward real outward-open front door and table at east.
+Characters: No characters; empty architectural location study.
+Action and eyelines: No action; preserve all furnishings and openings.
+Lighting: Warm gentle daytime with soft fill; maintain the rendered direction of window illumination.
+
+Use the first, current Blender render as the spatial authority. Preserve its camera position, projection, framing, room outline, curved wall junctions, visible opening count, opening positions, door hinge sides and angles, occlusion, and furniture footprints. A closed leaf stays closed; an open doorway reveals only the adjoining modeled space visible from this camera. The three-room house has a common kitchen/living room, bathroom and bedroom; do not invent a fourth hall or connect the private rooms through the outdoor recess.
+
+Semantic fixture key (world meters, not on-image labels): common-room west shelf unit at (-3.87,-0.59) is the BOOKCASE; low round west/front proxy at (-3.04,-1.96) is the STOVE, never a barrel; center round top at (-0.30,-1.09) is the dining TABLE with four low stools; long east unit at (2.77,-1.27) is the KITCHEN COUNTER. Bathroom broad low oval at (-3.74,2.67) is the wooden BATHTUB, with its oval mat below and small WASHSTAND at (-5.11,2.26). Bedroom rectangular raised form at (2.46,1.64) is the BED with north headboard. Render these identities only where visible in the guide, keeping their locations and occupied volumes; do not add text labels.
+
+Give the surfaces the supplied book’s warm, softly stylized family-story appearance: honey-toned timber, gentle plaster, rounded crafted objects, readable forms and warm light. Keep the broad low wooden tub, oval mat and bed where the geometry places them when visible. Match the book reference’s rendering language without copying its different camera or historic room arrangement. If characters are requested, use the identified character references, full separate bodies/limbs and explicit attentive eyelines; do not add a character when the job says empty room. No text, labels, watermark or collage border.
+
+This is an illustrated derivative for review, not a new geometry definition. Do not conceal a structural mismatch with shadow, furniture or changed crop.

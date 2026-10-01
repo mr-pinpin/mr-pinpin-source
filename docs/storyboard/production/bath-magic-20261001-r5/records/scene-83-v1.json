@@ -1,0 +1,51 @@
+{
+  "tool": "image_gen__imagegen",
+  "generatedAt": "2026-10-01T15:33:20.367Z",
+  "promptPath": "prompts/scene-83-v1.txt",
+  "sourceOutput": "/Users/miguel_lemos/.codex/generated_images/01a0be6f-b832-7d93-95df-9d2ff5f69dc1/exec-5958653b-dad2-4a69-949d-d1edf3f14228.png",
+  "references": [
+    "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r3/web/scene-61.webp",
+    "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r4/masters/duck-character-study-v2.png",
+    "/Users/miguel_lemos/.codex/generated_images/01a0be6f-b832-7d93-95df-9d2ff5f69dc1/exec-af8120c5-9e7f-4c65-b1db-4adfe227f351.png"
+  ],
+  "visualReview": "Needs targeted correction: basin stool reads as placed on dining tabletop. Preserve candidate, do not select until separate floor support is clear.",
+  "cameraEvidence": "Same-composition edit, no new measured transform claimed.",
+  "referenceIdentities": [
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r3/web/scene-61.webp",
+      "bytes": 496484,
+      "sha256": "7aa040818a8bc7bb8876bc60805c99f9e247a778465a048052bce18b862bf212"
+    },
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r4/masters/duck-character-study-v2.png",
+      "bytes": 1606390,
+      "sha256": "09db45c15b849ad4846e468c2ea326a7bf4e58483f9579dad8b6bf67a3189495"
+    },
+    {
+      "path": "/Users/miguel_lemos/.codex/generated_images/01a0be6f-b832-7d93-95df-9d2ff5f69dc1/exec-af8120c5-9e7f-4c65-b1db-4adfe227f351.png",
+      "bytes": 2370449,
+      "sha256": "c9e65e7500774bffdb8f32d2112d970e51a44e5bb30a064bbd7fc6944336872b"
+    }
+  ],
+  "preservedReferences": [
+    {
+      "path": "references/inputs/7aa040818a8b/scene-61.webp",
+      "sha256": "7aa040818a8bc7bb8876bc60805c99f9e247a778465a048052bce18b862bf212"
+    },
+    {
+      "path": "references/inputs/09db45c15b84/duck-character-study-v2.png",
+      "sha256": "09db45c15b849ad4846e468c2ea326a7bf4e58483f9579dad8b6bf67a3189495"
+    },
+    {
+      "path": "references/inputs/c9e65e750077/exec-af8120c5-9e7f-4c65-b1db-4adfe227f351.png",
+      "sha256": "c9e65e7500774bffdb8f32d2112d970e51a44e5bb30a064bbd7fc6944336872b"
+    }
+  ],
+  "promptSha256": "ea2256351a7ab709b9ccc955a75d072798b33db28d6af242c9df200fc9d7d7bd",
+  "master": {
+    "path": "masters/scene-83-v1.png",
+    "bytes": 2558992,
+    "sha256": "35d789920283f373596f23fa31960dfb2cc10de98fae822dfbf5b6f4afc56083"
+  },
+  "approval": "draft-for-review"
+}

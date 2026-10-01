@@ -1,0 +1,31 @@
+{
+  "tool": "image_gen__imagegen",
+  "generatedAt": "2026-10-01T15:49:58.571Z",
+  "promptPath": "prompts/scene-66-v2.txt",
+  "sourceOutput": "/Users/miguel_lemos/.codex/generated_images/01a0be6f-b832-7d93-95df-9d2ff5f69dc1/exec-40f222a0-4f3b-4bb7-a2e2-e0e1a7899e44.png",
+  "references": [
+    "/Users/miguel_lemos/.codex/generated_images/01a0be6f-b832-7d93-95df-9d2ff5f69dc1/exec-11aaabc2-b99a-4d64-933a-f06d7d862b53.png"
+  ],
+  "visualReview": "Needs correction: extra exterior door removed, but upstream gutter must turn away from closed bedroom door; preserve candidate.",
+  "cameraEvidence": "Same-composition edit; original seed/reference camera retained as illustrative continuity, not measured reconstruction.",
+  "referenceIdentities": [
+    {
+      "path": "/Users/miguel_lemos/.codex/generated_images/01a0be6f-b832-7d93-95df-9d2ff5f69dc1/exec-11aaabc2-b99a-4d64-933a-f06d7d862b53.png",
+      "bytes": 2931958,
+      "sha256": "539b5950c9b946042494b2b4d66198e37e1b2772a2e5cdceb7c8d045abe8abaa"
+    }
+  ],
+  "preservedReferences": [
+    {
+      "path": "references/inputs/539b5950c9b9/exec-11aaabc2-b99a-4d64-933a-f06d7d862b53.png",
+      "sha256": "539b5950c9b946042494b2b4d66198e37e1b2772a2e5cdceb7c8d045abe8abaa"
+    }
+  ],
+  "promptSha256": "53f904e03161c647882b8325cf729f2634ee4744b6f260782a075c27a8b8b625",
+  "master": {
+    "path": "masters/scene-66-v2.png",
+    "bytes": 2772992,
+    "sha256": "245ab1b5dee77765fe5c91045420c879169681ea45d919df69402239a3c2c653"
+  },
+  "approval": "draft-for-review"
+}

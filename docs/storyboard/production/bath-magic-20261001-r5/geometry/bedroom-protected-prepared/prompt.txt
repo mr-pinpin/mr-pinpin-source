@@ -1,0 +1,186 @@
+Use case: style-transfer
+Asset type: one children’s-book location still.
+Location: pinpin-house, version 1.0.0.
+Geometry/edit target: /Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r5/geometry/bedroom-protected-prepared/geometry-reference.png
+Supporting image roles: [
+  {
+    "id": "bedroom-book",
+    "path": "docs/storyboard/images/standalone/home-sweet-home/bedtime-17-v2.png",
+    "sha256": "e37fd9cccf68330ba62763958199839692e77c3c0092a5d4b5efa1db5835ff73",
+    "bytes": 2294087,
+    "roles": [
+      "style",
+      "characters",
+      "bed-prop-design"
+    ],
+    "notes": "Actual approved bedtime scene17: Mama between boys, wooden bed, soft quilt, warm lantern and expressive gentle faces. Do not copy apparent window placement over current geometry.",
+    "absolutePath": "/Users/miguel_lemos/anastasia-pinpin-repos/mr-pinpin-source/docs/storyboard/images/standalone/home-sweet-home/bedtime-17-v2.png"
+  }
+]
+Camera record: [
+  {
+    "position": [
+      1.2000000476837158,
+      0.800000011920929,
+      1.149999976158142
+    ],
+    "quaternionWXYZ": [
+      0.7055343389511108,
+      0.5541449189186096,
+      -0.2728618085384369,
+      -0.34740620851516724
+    ],
+    "matrixWorld": [
+      [
+        0.609710693359375,
+        0.18780404329299927,
+        -0.770053505897522,
+        1.2000000476837158
+      ],
+      [
+        -0.7926239967346191,
+        0.1444646716117859,
+        -0.5923487544059753,
+        0.800000011920929
+      ],
+      [
+        -1.907457658489875e-08,
+        0.9715242981910706,
+        0.2369396835565567,
+        1.149999976158142
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "lensMm": 24.0,
+    "horizontalFovDegrees": 73.73979461915735,
+    "width": 1400,
+    "height": 1000
+  }
+]
+Door states in degrees: [
+  {
+    "id": "door-front",
+    "angleDegrees": 105,
+    "signedAngleDegrees": -105,
+    "hingeWorld": [
+      -0.6962748765945435,
+      -2.957864999771118,
+      0.0
+    ],
+    "matrixWorld": [
+      [
+        -0.258819043636322,
+        0.9659258127212524,
+        0.0,
+        -0.6962748765945435
+      ],
+      [
+        -0.9659258127212524,
+        -0.258819043636322,
+        0.0,
+        -2.957864999771118
+      ],
+      [
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  },
+  {
+    "id": "door-bath",
+    "angleDegrees": 75,
+    "signedAngleDegrees": 75,
+    "hingeWorld": [
+      -2.0239672660827637,
+      0.6366258859634399,
+      0.0
+    ],
+    "matrixWorld": [
+      [
+        -0.3046184480190277,
+        -0.9524744749069214,
+        0.0,
+        -2.0239672660827637
+      ],
+      [
+        0.9524744749069214,
+        -0.3046184480190277,
+        0.0,
+        0.6366258859634399
+      ],
+      [
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  },
+  {
+    "id": "door-bedroom",
+    "angleDegrees": 0,
+    "signedAngleDegrees": 0,
+    "hingeWorld": [
+      1.039655089378357,
+      0.4985438883304596,
+      0.0
+    ],
+    "matrixWorld": [
+      [
+        0.7090891003608704,
+        0.7051188945770264,
+        0.0,
+        1.039655089378357
+      ],
+      [
+        -0.7051188945770264,
+        0.7090891003608704,
+        0.0,
+        0.4985438883304596
+      ],
+      [
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  }
+]
+Intent: Dry bedroom toward green quilt bed; closed bedroom leaf, exterior front and bath doors open elsewhere.
+Characters: No characters; empty architectural location study.
+Action and eyelines: No action; preserve all furnishings and openings.
+Lighting: Warm gentle daytime with soft fill; maintain the rendered direction of window illumination.
+
+Use the first, current Blender render as the spatial authority. Preserve its camera position, projection, framing, room outline, curved wall junctions, visible opening count, opening positions, door hinge sides and angles, occlusion, and furniture footprints. A closed leaf stays closed; an open doorway reveals only the adjoining modeled space visible from this camera. The three-room house has a common kitchen/living room, bathroom and bedroom; do not invent a fourth hall or connect the private rooms through the outdoor recess.
+
+Semantic fixture key (world meters, not on-image labels): common-room west shelf unit at (-3.87,-0.59) is the BOOKCASE; low round west/front proxy at (-3.04,-1.96) is the STOVE, never a barrel; center round top at (-0.30,-1.09) is the dining TABLE with four low stools; long east unit at (2.77,-1.27) is the KITCHEN COUNTER. Bathroom broad low oval at (-3.74,2.67) is the wooden BATHTUB, with its oval mat below and small WASHSTAND at (-5.11,2.26). Bedroom rectangular raised form at (2.46,1.64) is the BED with north headboard. Render these identities only where visible in the guide, keeping their locations and occupied volumes; do not add text labels.
+
+Give the surfaces the supplied book’s warm, softly stylized family-story appearance: honey-toned timber, gentle plaster, rounded crafted objects, readable forms and warm light. Keep the broad low wooden tub, oval mat and bed where the geometry places them when visible. Match the book reference’s rendering language without copying its different camera or historic room arrangement. If characters are requested, use the identified character references, full separate bodies/limbs and explicit attentive eyelines; do not add a character when the job says empty room. No text, labels, watermark or collage border.
+
+This is an illustrated derivative for review, not a new geometry definition. Do not conceal a structural mismatch with shadow, furniture or changed crop.

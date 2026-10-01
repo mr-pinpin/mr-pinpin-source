@@ -1,0 +1,52 @@
+{
+  "id": "scene-32-v1",
+  "tool": "image_gen__imagegen",
+  "generatedAt": "2026-10-01T15:55:43.982840+00:00",
+  "promptPath": "prompts/scene-32-v1.txt",
+  "sourceOutput": "/Users/miguel_lemos/.codex/generated_images/01a0f5c3-a7d1-70d0-b8cf-581aa5deee53/exec-a97f4f56-47a7-4813-ad0e-391839f0c126.png",
+  "references": [
+    "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r5/geometry/common-channel-north/still.png",
+    "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r3/web/scene-02.webp",
+    "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r3/masters/scene-28-v1.png"
+  ],
+  "visualReview": "REJECT pending repair: white modern tub background and common rug rust; characters fine.",
+  "geometryGuide": "common-channel-north",
+  "referenceIdentities": [
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r5/geometry/common-channel-north/still.png",
+      "bytes": 1143009,
+      "sha256": "d9d73348b6917a3388365e5e36449f6718ff908c7f1ebc2fedf6b61dc02848c7"
+    },
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r3/web/scene-02.webp",
+      "bytes": 412906,
+      "sha256": "7bb7bfae1e01595cda5cc4d9dfc24056f349302929d8b4a5487b2f8eb6643377"
+    },
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r3/masters/scene-28-v1.png",
+      "bytes": 2749872,
+      "sha256": "d80cd9f09eaa764258cf96cf54a4ad0967f6839392eff35842ebc0ba968a70a2"
+    }
+  ],
+  "preservedReferences": [
+    {
+      "path": "references/inputs/d9d73348b691/still.png",
+      "sha256": "d9d73348b6917a3388365e5e36449f6718ff908c7f1ebc2fedf6b61dc02848c7"
+    },
+    {
+      "path": "references/inputs/7bb7bfae1e01/scene-02.webp",
+      "sha256": "7bb7bfae1e01595cda5cc4d9dfc24056f349302929d8b4a5487b2f8eb6643377"
+    },
+    {
+      "path": "references/inputs/d80cd9f09eaa/scene-28-v1.png",
+      "sha256": "d80cd9f09eaa764258cf96cf54a4ad0967f6839392eff35842ebc0ba968a70a2"
+    }
+  ],
+  "promptSha256": "f937cb34542bd2d2982c3e4e6603228058ed5a0d627d771c0027c69dbc75db68",
+  "master": {
+    "path": "masters/scene-32-v1.png",
+    "bytes": 2569966,
+    "sha256": "ac74248cbd20cdd6b5e0f0ff7c87fc3737a1d8454ed067e22a1d054e03d1d486"
+  },
+  "approval": "draft-for-review"
+}

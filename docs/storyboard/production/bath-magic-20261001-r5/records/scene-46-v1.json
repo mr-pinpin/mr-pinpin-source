@@ -1,0 +1,51 @@
+{
+  "id": "scene-46-v1",
+  "tool": "image_gen__imagegen",
+  "generatedAt": "2026-10-01T16:09:42.556927+00:00",
+  "promptPath": "prompts/scene-46-v1.txt",
+  "sourceOutput": "/Users/miguel_lemos/.codex/generated_images/01a0f5c3-a7d1-70d0-b8cf-581aa5deee53/exec-26212e59-8850-4f7e-89b4-ea32f269f606.png",
+  "references": [
+    "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r5/geometry/common-joint-close/still.png",
+    "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r5/masters/scene-37-v2.png",
+    "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r3/masters/scene-28-v1.png"
+  ],
+  "visualReview": "PASS: coherent attached limbs and useful scene action, requested individual quiet/tired expressions, room and prop continuity visually reviewed. Draft art uses existing camera composition.",
+  "referenceIdentities": [
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r5/geometry/common-joint-close/still.png",
+      "bytes": 1142520,
+      "sha256": "643ce2d6f5f98de06303a9d5977daf1c8175c87e36ea320847568511cfd2158b"
+    },
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r5/masters/scene-37-v2.png",
+      "bytes": 2344179,
+      "sha256": "8a1c77204804fa78cb902beac5a345560582d11b7c15f3acb0977f0d4ea2a04b"
+    },
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r3/masters/scene-28-v1.png",
+      "bytes": 2749872,
+      "sha256": "d80cd9f09eaa764258cf96cf54a4ad0967f6839392eff35842ebc0ba968a70a2"
+    }
+  ],
+  "preservedReferences": [
+    {
+      "path": "references/inputs/643ce2d6f5f9/still.png",
+      "sha256": "643ce2d6f5f98de06303a9d5977daf1c8175c87e36ea320847568511cfd2158b"
+    },
+    {
+      "path": "masters/scene-37-v2.png",
+      "sha256": "8a1c77204804fa78cb902beac5a345560582d11b7c15f3acb0977f0d4ea2a04b"
+    },
+    {
+      "path": "references/inputs/d80cd9f09eaa/scene-28-v1.png",
+      "sha256": "d80cd9f09eaa764258cf96cf54a4ad0967f6839392eff35842ebc0ba968a70a2"
+    }
+  ],
+  "promptSha256": "30c030d756baf4150ca85bbc17cca13d285e490378b83bb8a8c68b5140e007ff",
+  "master": {
+    "path": "masters/scene-46-v1.png",
+    "bytes": 2343516,
+    "sha256": "fa3d98af9623e1afbccbad487c8767cdc78f0292014c2b20b38db16f4af68d2f"
+  },
+  "approval": "draft-for-review"
+}

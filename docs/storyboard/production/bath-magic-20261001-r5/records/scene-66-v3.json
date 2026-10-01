@@ -1,0 +1,31 @@
+{
+  "tool": "image_gen__imagegen",
+  "generatedAt": "2026-10-01T15:57:09.929Z",
+  "promptPath": "prompts/scene-66-v3.txt",
+  "sourceOutput": "/Users/miguel_lemos/.codex/generated_images/01a0be6f-b832-7d93-95df-9d2ff5f69dc1/exec-9ab3f63f-677c-444b-8379-ee4410d0d5fb.png",
+  "references": [
+    "/Users/miguel_lemos/.codex/generated_images/01a0be6f-b832-7d93-95df-9d2ff5f69dc1/exec-40f222a0-4f3b-4bb7-a2e2-e0e1a7899e44.png"
+  ],
+  "visualReview": "Pass: gutter now bends from left interior, closed dry bedroom doorway clear with towel; Papa catches toy above freely draining basket.",
+  "cameraEvidence": "Existing composition reused for camera continuity; no new measured transform claimed.",
+  "referenceIdentities": [
+    {
+      "path": "/Users/miguel_lemos/.codex/generated_images/01a0be6f-b832-7d93-95df-9d2ff5f69dc1/exec-40f222a0-4f3b-4bb7-a2e2-e0e1a7899e44.png",
+      "bytes": 2772992,
+      "sha256": "245ab1b5dee77765fe5c91045420c879169681ea45d919df69402239a3c2c653"
+    }
+  ],
+  "preservedReferences": [
+    {
+      "path": "references/inputs/245ab1b5dee7/exec-40f222a0-4f3b-4bb7-a2e2-e0e1a7899e44.png",
+      "sha256": "245ab1b5dee77765fe5c91045420c879169681ea45d919df69402239a3c2c653"
+    }
+  ],
+  "promptSha256": "bc360bb1938c6b23d535585f301253aa502297978f7fe7bc2806ff4f2e768fde",
+  "master": {
+    "path": "masters/scene-66-v3.png",
+    "bytes": 2675547,
+    "sha256": "39465e2a7e6e48cd7e03ae0f7b34ef4afd673b166647cf6864ea91779a295765"
+  },
+  "approval": "draft-for-review"
+}

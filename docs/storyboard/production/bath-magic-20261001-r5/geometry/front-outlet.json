@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "id": "bath-magic-r5-front-outlet",
+  "location": "docs/storyboard/locations/pinpin-house/location.json",
+  "camera": {
+    "position": [
+      -0.4,
+      -5.3,
+      0.7
+    ],
+    "target": [
+      -0.4,
+      -2.95,
+      0.25
+    ],
+    "lensMm": 26,
+    "width": 1400,
+    "height": 1000,
+    "allowOutside": true
+  },
+  "doorStates": {
+    "door-front": 105,
+    "door-bath": 75,
+    "door-bedroom": 0
+  },
+  "prompt": {
+    "template": "still",
+    "intent": "Exterior view of existing front doorway; removable shallow channel ends downhill into plain garden.",
+    "characters": "No characters; empty architectural location study.",
+    "action": "No action; preserve all furnishings and openings.",
+    "lighting": "Warm gentle daytime with soft fill; maintain the rendered direction of window illumination.",
+    "referenceIds": [
+      "common-book"
+    ]
+  }
+}

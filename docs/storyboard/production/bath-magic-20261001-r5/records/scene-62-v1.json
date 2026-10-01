@@ -1,0 +1,25 @@
+{
+  "tool": "image_gen__imagegen",
+  "generatedAt": "2026-10-01T15:29:04.786Z",
+  "promptPath": "prompts/scene-62-v1.txt",
+  "sourceOutput": "/Users/miguel_lemos/.codex/generated_images/01a0be6f-b832-7d93-95df-9d2ff5f69dc1/exec-e3917a4f-c637-4bc8-b938-79bb4f2d4a3a.png",
+  "references": [
+    "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r2/masters/scene-33-v2.png"
+  ],
+  "visualReview": "Passed: Mama quietly attentive with closed mouth, baby separate and securely supported, calm curious expression; no uniform broad grin. Same exterior-to-bath reaction composition.",
+  "cameraEvidence": "Edit preserving source composition; no new measured camera reconstruction claimed.",
+  "referenceIdentities": [
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r2/masters/scene-33-v2.png",
+      "bytes": 2205195,
+      "sha256": "254a49ef3a8b0f491d4121f3a34aa1e28f65a30c05bfbd21b9f3539786eb8c54"
+    }
+  ],
+  "promptSha256": "19c90cf4c452a2de978d3ef2b9c0a03f8c6c8289d479adb61f3dce4a5cb3f8ff",
+  "master": {
+    "path": "masters/scene-62-v1.png",
+    "bytes": 2278282,
+    "sha256": "4878e7a0bd1a00a8615327b979bb7a0cd4934d64d13c0a6469120a0c1d30be85"
+  },
+  "approval": "draft-for-review"
+}

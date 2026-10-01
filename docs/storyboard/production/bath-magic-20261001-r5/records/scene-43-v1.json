@@ -1,0 +1,31 @@
+{
+  "id": "scene-43-v1",
+  "tool": "image_gen__imagegen",
+  "generatedAt": "2026-10-01T16:09:42.556498+00:00",
+  "promptPath": "prompts/scene-43-v1.txt",
+  "sourceOutput": "/Users/miguel_lemos/.codex/generated_images/01a0f5c3-a7d1-70d0-b8cf-581aa5deee53/exec-c34eaf20-b78b-4d07-835a-ac2da8dd24a3.png",
+  "references": [
+    "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r3/web/scene-01.webp"
+  ],
+  "visualReview": "REJECT: invented open doorway and added background family/channel, bedroom must remain one child closed and dry.",
+  "referenceIdentities": [
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r3/web/scene-01.webp",
+      "bytes": 440756,
+      "sha256": "be5ed728b790d40fe4d6087a782430f08b09230fc094b52af3f5444f227bb723"
+    }
+  ],
+  "preservedReferences": [
+    {
+      "path": "references/inputs/be5ed728b790/scene-01.webp",
+      "sha256": "be5ed728b790d40fe4d6087a782430f08b09230fc094b52af3f5444f227bb723"
+    }
+  ],
+  "promptSha256": "c7afde39d3d534b32e0e27fd9f7edd0e825eff50a711093f73f1e1fbef7358b5",
+  "master": {
+    "path": "masters/scene-43-v1.png",
+    "bytes": 2518541,
+    "sha256": "6f05358bc1130227ed48e0691012a956c01dea0a8c39fdbe5e271f76c569ae16"
+  },
+  "approval": "draft-for-review"
+}
