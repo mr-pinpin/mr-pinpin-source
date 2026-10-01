@@ -1,0 +1,24 @@
+{
+  "tool": "image_gen__imagegen",
+  "generatedAt": "2026-10-01T04:48:46.046Z",
+  "promptPath": "prompts/scene-13-v2.txt",
+  "sourceOutput": "/Users/miguel_lemos/.codex/generated_images/01a0be6f-b832-7d93-95df-9d2ff5f69dc1/exec-d7cb8ac3-fa52-4f9f-8847-8298b4d7af87.png",
+  "references": [
+    "/Users/miguel_lemos/.codex/generated_images/01a0be6f-b832-7d93-95df-9d2ff5f69dc1/exec-cec55c84-541c-45fe-ad96-6f1f94f9f7b2.png"
+  ],
+  "visualReview": "Passed first visual review; draft not user-approved.",
+  "referenceIdentities": [
+    {
+      "path": "/Users/miguel_lemos/.codex/generated_images/01a0be6f-b832-7d93-95df-9d2ff5f69dc1/exec-cec55c84-541c-45fe-ad96-6f1f94f9f7b2.png",
+      "bytes": 2356430,
+      "sha256": "efe85d02f57619571e6ab4cb01f5225e9770b406099596ab7b33e827b1598c2e"
+    }
+  ],
+  "promptSha256": "23d79fab06ace416b0e1097cb57891fb4093b631260193c4512fcfacc49a0d42",
+  "master": {
+    "path": "masters/scene-13-v2.png",
+    "bytes": 2355504,
+    "sha256": "73187d206e6ae367cac9fe8e207dab9eed9f367e97d5d875ee6a03cba54249fa"
+  },
+  "approval": "draft-for-review"
+}

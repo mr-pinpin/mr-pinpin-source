@@ -1,0 +1,31 @@
+{
+  "tool": "image_gen__imagegen",
+  "generatedAt": null,
+  "note": "Completed during 2026-10-01 turn; exact invocation timestamp not captured.",
+  "promptPath": "prompts/storyboard-concept-v1.txt",
+  "sourceOutput": "/Users/miguel_lemos/.codex/generated_images/01a0be6f-b832-7d93-95df-9d2ff5f69dc1/exec-c1b0a138-1b5b-4aa5-b4c1-2136f4389dbd.png",
+  "references": [
+    "/Users/miguel_lemos/anastasia-pinpin-repos/mr-pinpin-source/docs/storyboard/images/published/elder-cycle/elder-r6-family-015.webp",
+    "/Users/miguel_lemos/anastasia-pinpin-repos/mr-pinpin-source/docs/storyboard/images/standalone/home-sweet-home/bedtime-08-v2.png"
+  ],
+  "visualReview": "Passed cover/keybeat overview review. Concept not literal final shotsequence.",
+  "referenceIdentities": [
+    {
+      "path": "/Users/miguel_lemos/anastasia-pinpin-repos/mr-pinpin-source/docs/storyboard/images/published/elder-cycle/elder-r6-family-015.webp",
+      "bytes": 482926,
+      "sha256": "076321ed693bb541c91d99b4ab6fbb7cf0c7ed19c0fcf2c0dfb70b1e668d428e"
+    },
+    {
+      "path": "/Users/miguel_lemos/anastasia-pinpin-repos/mr-pinpin-source/docs/storyboard/images/standalone/home-sweet-home/bedtime-08-v2.png",
+      "bytes": 2323256,
+      "sha256": "c6e3deefa1acc93dadb3467931719f080a81ab8807dbff960bca6c225f07635d"
+    }
+  ],
+  "promptSha256": "206c675e6ef8abf17b7b89a6011ee0a6d19d28577536b4e22b5b629f8db8d497",
+  "master": {
+    "path": "masters/storyboard-concept-v1.png",
+    "bytes": 2879347,
+    "sha256": "a21dc24c38bb9dc480c3398d5abcd669c1476a45d1f05346d5618b12cf503f39"
+  },
+  "approval": "draft-for-review"
+}

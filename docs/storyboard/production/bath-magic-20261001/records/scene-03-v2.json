@@ -1,0 +1,21 @@
+{
+  "id": "scene-03",
+  "version": 2,
+  "tool": "image_gen__imagegen",
+  "prompt": "Use case: precise-object-edit. Edit input1 only to fix the house's wall topology. Keep Mama, PinPin, their exact faces, poses, paws, BOTH buckets, stove/pot, table, rug, framing and lovely morning lighting unchanged. The green FRONT ENTRY DOOR in the background middle must NOT be on the same wall as the visible private bathroom door. Remove ONLY that green central front door and its arch/knob/hinges, replacing its whole region with continuous warm golden plaster and tasteful curved timber framing consistent with surrounding wall. Do not add another opening in its place. Keep the round glazed window at backleft and the existing bathroom opening at right exactly where they are. Input2 helps show the established interior wood/plaster/bookcase style, not a demand to move characters. Preserve every other detail and color. No extra character or altered anatomy, no lettering.",
+  "references": [
+    {
+      "path": "/Users/miguel_lemos/.codex/generated_images/01a0f5c0-64db-7310-817a-d73d15314908/exec-418651fa-06ce-4e15-b7c8-058234afea6f.png",
+      "sha256": "b9ae29c73ac4f91ddb6c0b8345c50931833e7502f6acca7bab79456d3672ab77"
+    },
+    {
+      "path": "/Users/miguel_lemos/.codex/generated_images/01a0f5c0-64db-7310-817a-d73d15314908/exec-eeed1b4e-ce95-42e6-ae46-fd05d4a375f9.png",
+      "sha256": "ae4939909295d893de2fb624c93e582b31bdac818de4a1ad613b3786ce0d582b"
+    }
+  ],
+  "startedAt": "2026-10-01T05:02:12.021Z",
+  "finishedAt": "2026-10-01T05:03:21.122Z",
+  "generatedFile": "/Users/miguel_lemos/.codex/generated_images/01a0f5c0-64db-7310-817a-d73d15314908/exec-8b43d8f4-a521-44a7-a08e-f8e8e8d43ef9.png",
+  "review": "Selected interim: impossible central green front door removed; family/props preserved. Tiny modern bath fixture remains pending next focused edit.",
+  "promptSha256": "68ff5223e3dd80aca63f10ffc25ab4b15fbaf011cb75468208b172471fe8218c"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "scene-36-v1",
+  "prompt": "Use case: illustration-story. One finished landscape 3:2 children's book picture, no words, no borders. Image1 is the CURRENT HOUSE GEOMETRY/CAMERA reference: use its viewpoint, openings and furniture placements; its grey material is ONLY a spatial sketch. Image2 defines exact MORNING storybook art and hedgehog identities, Image3 supports material detail and identities only, not camera or layout. Render gorgeous warm dimensional animated-feature picturebook art: expressive eyes with clear whites and warm brown irises, soft faces, tactile warm russet quills, golden timber, hand-crafted plaster, lived-in pottery/plant details, morning sunlight. No faceted grey surfaces, no photorealistic heads, no dark button eyes. All characters hedgehogs: Mama warm russet adult; Papa larger grey-brown adult; PinPin small golden child; PomPom TINY baby. Correct two forearms and two hindlegs, no fused bodies or duplicate characters. Use attentive partner eyelines and clear physical actions. Final close warmly funny breakfast image: view of table and small PinPin at right, closer framing within same roomcamera. Child picks up modest cream pottery WATER JUG with BOTH paws and carefully pours a thin controlled stream into small cup directly below spout, eyes on cup and delighted knowing smile. Mama seated left supports tiny PomPom on lap and smiles toward PinPin; Papa on farside watches affectionately. All FOUR correct family hedgehogs, bright soft eyes, no duplicates or hiddenbaby fusedbody. Small wooden yellowduck beside child's breakfastbowl. No magic whatsoever, ordinary careful pouring, dryfloor, no rug under table. Keep warm domestic genuineinteraction, no posing at viewer, morninglight.",
+  "referenced_image_paths": [
+    "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001/geometry/common-table/still.png",
+    "/Users/miguel_lemos/.codex/generated_images/01a0be6f-b832-7d93-95df-9d2ff5f69dc1/exec-4345cab2-7718-42aa-aafb-70a2c825144b.png",
+    "/Users/miguel_lemos/anastasia-pinpin-repos/mr-pinpin-source/docs/storyboard/images/published/elder-cycle/elder-r6-family-016.webp"
+  ],
+  "geometryGuide": "common-table",
+  "geometryCamera": "validated common-table guide camera; supersedes unrendered storyproposal",
+  "inputHashes": {
+    "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001/geometry/common-table/still.png": "56a4a9f7d342fc9811aae5ba76572286efd3310bd9f93c1745cb9c42dc0526db",
+    "/Users/miguel_lemos/.codex/generated_images/01a0be6f-b832-7d93-95df-9d2ff5f69dc1/exec-4345cab2-7718-42aa-aafb-70a2c825144b.png": "bd669480c4795023983a1fc05c23415700016aa2017be61f699f0b2c441460b1",
+    "/Users/miguel_lemos/anastasia-pinpin-repos/mr-pinpin-source/docs/storyboard/images/published/elder-cycle/elder-r6-family-016.webp": "88d74c56a468e3f250b12dbcb5ecdb7b07bd1d789197663d8948ac199acd133d"
+  },
+  "startedAt": "2026-10-01T04:48:41.366039+00:00",
+  "tool": "image_gen__imagegen",
+  "generatedAt": "2026-10-01T04:57:52.669966+00:00",
+  "sourceOutputPath": "/Users/miguel_lemos/.codex/generated_images/01a0f5c3-a7d1-70d0-b8cf-581aa5deee53/exec-382ab88a-a631-4c95-ad42-5eaa2ddc4a4b.png",
+  "savedOriginalPath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001/masters/scene-36-v1.png",
+  "imageSha256": "7708d6770b4d0ebfdc0760eb68a89f690269a3a3fff0d684e669e820c6cdcfd9",
+  "promptSha256": "6006e5f9f6243c6bf0420cdf86cc78095b1174ff2fdd5106db70331f47d4febd",
+  "reviewStatus": "superseded candidate preserved",
+  "selectedForDraft": false,
+  "visualReview": "V2 similarly repairs distant modern fixture; clear ordinary jugpour into childcup, all four family members and happy morning ending.",
+  "promptPath": "prompts/scene-36-v1.txt",
+  "references": [
+    "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001/geometry/common-table/still.png",
+    "/Users/miguel_lemos/.codex/generated_images/01a0be6f-b832-7d93-95df-9d2ff5f69dc1/exec-4345cab2-7718-42aa-aafb-70a2c825144b.png",
+    "/Users/miguel_lemos/anastasia-pinpin-repos/mr-pinpin-source/docs/storyboard/images/published/elder-cycle/elder-r6-family-016.webp"
+  ]
+}

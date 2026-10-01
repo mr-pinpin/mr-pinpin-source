@@ -1,0 +1,1509 @@
+{
+  "schemaVersion": 1,
+  "productionId": "bath-magic-20261001",
+  "status": "preproduction continuity, not image QA",
+  "references": [
+    {
+      "id": "bath-book",
+      "path": "docs/storyboard/images/standalone/home-sweet-home/bedtime-08-v2.png",
+      "roles": [
+        "style",
+        "cast",
+        "tub-design"
+      ],
+      "notes": "Viewed directly: three hedgehogs, broad low wooden tub with two metal hoops, warm plaster/timber, single radial round window. Geometry comes from plan.",
+      "exists": true,
+      "bytes": 2323256,
+      "sha256": "c6e3deefa1acc93dadb3467931719f080a81ab8807dbff960bca6c225f07635d"
+    },
+    {
+      "id": "bedroom-book",
+      "path": "docs/storyboard/images/standalone/home-sweet-home/bedtime-17-v2.png",
+      "roles": [
+        "style",
+        "cast",
+        "bed-design"
+      ],
+      "notes": "Viewed directly: Mama between boys, broad bed and green quilt, soft expressive eyes.",
+      "exists": true,
+      "bytes": 2294087,
+      "sha256": "e37fd9cccf68330ba62763958199839692e77c3c0092a5d4b5efa1db5835ff73"
+    },
+    {
+      "id": "family-breakfast",
+      "path": "docs/storyboard/images/published/elder-cycle/elder-r6-family-015.webp",
+      "roles": [
+        "Papa-identity",
+        "family-scale",
+        "style",
+        "breakfast-props"
+      ],
+      "notes": "Viewed directly: Papa broad cream muzzle and visible iris eyes, Mama reddish quills, older PinPin and much smaller PomPom, all hedgehogs without clothing.",
+      "exists": true,
+      "bytes": 482926,
+      "sha256": "076321ed693bb541c91d99b4ab6fbb7cf0c7ed19c0fcf2c0dfb70b1e668d428e"
+    },
+    {
+      "id": "common-master",
+      "path": "docs/storyboard/images/published/elder-cycle/elder-r6-family-008.webp",
+      "roles": [
+        "style",
+        "family-identity"
+      ],
+      "notes": "Prior production-approved kitchen master; not inspected here. Must inspect before generation. Does not override canonical plan.",
+      "exists": true,
+      "bytes": 444930,
+      "sha256": "58df35b99ee8c55b0f0e4011aa2354a7e62820c0c7f261374ee9bb7d2db31565"
+    },
+    {
+      "id": "current-plan",
+      "path": "docs/storyboard/locations/pinpin-house/scene/house-plan.json",
+      "roles": [
+        "geometry"
+      ],
+      "notes": "Read furniture/openings/room topology; tub center [-3.738022,2.66629], 1.864212 by1.184811, rim0.48m; common table center[-0.303371,-1.09069], height0.7m.",
+      "exists": true,
+      "bytes": 38347,
+      "sha256": "cab510b31c13e85beaa689edb54005223412a988f640724e56b9d95dba20c28c"
+    },
+    {
+      "id": "plan-underlay",
+      "path": "docs/storyboard/locations/pinpin-house/scene/merged-semantic-plan.png",
+      "roles": [
+        "geometry-underlay"
+      ],
+      "notes": "Registered current plan, not a painting texture or rendering style reference.",
+      "exists": true,
+      "bytes": 26265,
+      "sha256": "317c3447d13d915b7072cc096e641e37c33233d3ce4390ec163cf07ca49dd8c2"
+    }
+  ],
+  "cast": {
+    "PinPin": {
+      "species": "hedgehog",
+      "ageRole": "older preschool child",
+      "heightRelative": 1,
+      "appearance": "Warm brown quills, cream face and tummy, visible expressive irises; no costume; use actual reference."
+    },
+    "PomPom": {
+      "species": "hedgehog",
+      "ageRole": "infant younger sibling",
+      "heightRelative": 0.5,
+      "appearance": "Same family design, substantially smaller head/body than PinPin; never scaled to equal sibling.",
+      "support": "Papa lap/arms initially; stable high-sided infant chair scene20–33 with adults nearby; Papa arms towel34; Mama lap35–36."
+    },
+    "Mama": {
+      "species": "hedgehog",
+      "heightRelative": 1.6,
+      "appearance": "Reddish-brown quills, gentle cream face, round expressive eyes; no clothes.",
+      "action": "Cooking, notices floating duck, lifts belongings, asks child what happened, stays close, cleanup and bath."
+    },
+    "Papa": {
+      "species": "hedgehog",
+      "heightRelative": 1.6,
+      "appearance": "Mature broad cream face, darker quills, warm visible hazel irises and soft facial contours; no photographic eyes or clothing.",
+      "action": "Cares for baby, lifts common rug, empties pails and dries rug; no sudden arrival."
+    }
+  },
+  "location": {
+    "id": "pinpin-house",
+    "version": "1.0.0",
+    "plan": "docs/storyboard/locations/pinpin-house/scene/house-plan.json",
+    "coordinateFrame": "+X east; +Y north; +Z up; meters",
+    "topology": "Common/kitchen south, bath northwest, bedroom northeast. No fourth hallway.",
+    "tub": {
+      "centerXY": [
+        -3.738022,
+        2.66629
+      ],
+      "sizeXY": [
+        1.864212,
+        1.184811
+      ],
+      "height": 0.48,
+      "note": "Freestanding broad low wooden tub, circulation around it. East side PinPin; south spill runs toward entry. Do not push tub against wall."
+    },
+    "table": {
+      "centerXY": [
+        -0.303371,
+        -1.09069
+      ],
+      "height": 0.7
+    },
+    "stove": "West common room, center[-3.039125,-1.95927]; always closed fire door.",
+    "counter": "East common room, center[2.770064,-1.271268].",
+    "doors": "Bath opens75° into bath; bedroom opens into common and closes after opening beats; front opens outward for cleanup. Two radial round windows flank green front door; bathroom one round window.",
+    "newPortableProps": [
+      "Two matching small wooden pails",
+      "One yellow wooden duck",
+      "Lidded clay water jar with low spigot beside east counter",
+      "Stable high-sided infant chair beside east table edge, established scene02",
+      "Cloths and ordinary basket; no new built-in plumbing"
+    ],
+    "illustrationPolicy": "New props are draft movable dressing, not silent permanent canonical geometry edits. Camera positions are proposed staging; if using location-render workflow execute each saved camera and inspect, not merely claim Blender validation."
+  },
+  "magic": {
+    "rule": "One fixed horizontal gold circle above shallow tub water, clockwise tracing creates a small continual fountain into tub. Same gesture counterclockwise erases ring and stops NEW water only. No extra streams at floor or self-moving buckets.",
+    "ringCenterProposed": [
+      -3.15,
+      2.65,
+      0.42
+    ],
+    "fixedSetupScenes": [
+      9,
+      26,
+      28
+    ],
+    "viewConvention": "Clockwise/counterclockwise judged looking down onto horizontal ring from same side; preserve camera, landmarks, paw and visible short leading trail. Viewer must see erasure rather than a second circle.",
+    "waterOrigin": "One gentle fountain from ring, not a wall faucet. Gold ring remains above water surface as water rises, keeping XY fixed; elevation follows surface by a small constant clearance.",
+    "floorWater": "Spreads through open threshold; shallow, never chest-high or whole-house swimming. Reversal never drains existing water.",
+    "cleanup": "Remove excess clean tub water separately; scoop dirty floor water for outside; mop, hang rug, then supervised shallow bath. Recovered wooden duck returns in34 andbreakfast35."
+  },
+  "storyboardSheetCount": 6,
+  "shots": [
+    {
+      "id": "scene-01",
+      "room": "bedroom",
+      "cast": [
+        "PinPin"
+      ],
+      "camera": {
+        "position": [
+          1.2,
+          0.8,
+          1.05
+        ],
+        "target": [
+          2.46,
+          1.64,
+          0.85
+        ],
+        "lensMm": 28,
+        "sensorWidthMm": 36,
+        "status": "proposed blocking; unrendered, not measured image reconstruction",
+        "frame": "canonical house +X east, +Y north, +Z up; meters",
+        "aspectRatio": "3:2"
+      },
+      "blockingAndGaze": "PinPin sits up in the familiar broad wooden bed, lifting green quilt with both paws; bedroom door already open, breakfast light through opening.",
+      "state": {
+        "tubFillPercent": 0,
+        "floorWater": "dry",
+        "magic": "none",
+        "doorBathDegrees": 75,
+        "doorBedroomDegrees": 75,
+        "doorFrontDegrees": 0,
+        "babyLocation": "Papa lap at common table",
+        "adultOffscreen": "Papa and PomPom in common room; Mama preparing breakfast",
+        "duck": "not yet in frame; waiting bath prop"
+      }
+    },
+    {
+      "id": "scene-02",
+      "room": "common",
+      "cast": [
+        "PinPin",
+        "Mama",
+        "Papa",
+        "PomPom"
+      ],
+      "camera": {
+        "position": [
+          1.1,
+          -1.8,
+          1.05
+        ],
+        "target": [
+          -1.3,
+          -0.6,
+          0.85
+        ],
+        "lensMm": 28,
+        "sensorWidthMm": 36,
+        "status": "proposed blocking; unrendered, not measured image reconstruction",
+        "frame": "canonical house +X east, +Y north, +Z up; meters",
+        "aspectRatio": "3:2"
+      },
+      "blockingAndGaze": "PinPin enters common room from bedroom; Mama tends closed stove on west side, Papa seated at table holding baby on lap; rounded infant chair visible beside table.",
+      "state": {
+        "tubFillPercent": 0,
+        "floorWater": "dry",
+        "magic": "none",
+        "doorBathDegrees": 75,
+        "doorBedroomDegrees": 75,
+        "doorFrontDegrees": 0,
+        "babyLocation": "Papa lap at common table",
+        "adultOffscreen": "Papa and PomPom in common room; Mama preparing breakfast",
+        "duck": "not yet in frame; waiting bath prop"
+      }
+    },
+    {
+      "id": "scene-03",
+      "room": "common",
+      "cast": [
+        "Mama",
+        "PinPin"
+      ],
+      "camera": {
+        "position": [
+          1.1,
+          -1.8,
+          1.05
+        ],
+        "target": [
+          -1.3,
+          -0.6,
+          0.85
+        ],
+        "lensMm": 28,
+        "sensorWidthMm": 36,
+        "status": "proposed blocking; unrendered, not measured image reconstruction",
+        "frame": "canonical house +X east, +Y north, +Z up; meters",
+        "aspectRatio": "3:2"
+      },
+      "blockingAndGaze": "Mama turns from stove toward PinPin holding empty matched small wooden pails; eye contact, room reference establishes bath opening behind PinPin.",
+      "state": {
+        "tubFillPercent": 0,
+        "floorWater": "dry",
+        "magic": "none",
+        "doorBathDegrees": 75,
+        "doorBedroomDegrees": 0,
+        "doorFrontDegrees": 0,
+        "babyLocation": "Papa lap at common table",
+        "adultOffscreen": "Papa and PomPom in common room; Mama preparing breakfast",
+        "duck": "not yet in frame; waiting bath prop"
+      }
+    },
+    {
+      "id": "scene-04",
+      "room": "common",
+      "cast": [
+        "PinPin"
+      ],
+      "camera": {
+        "position": [
+          1.65,
+          -0.9,
+          0.55
+        ],
+        "target": [
+          2.48,
+          -1.0,
+          0.3
+        ],
+        "lensMm": 40,
+        "sensorWidthMm": 36,
+        "status": "proposed blocking; unrendered, not measured image reconstruction",
+        "frame": "canonical house +X east, +Y north, +Z up; meters",
+        "aspectRatio": "3:2"
+      },
+      "blockingAndGaze": "PinPin fills small pail from new lidded clay household water jar with low wooden spigot beside east kitchen counter; second already half-filled on floor. Clearly portable jar, not new built-in plumbing.",
+      "state": {
+        "tubFillPercent": 0,
+        "floorWater": "dry",
+        "magic": "none",
+        "doorBathDegrees": 75,
+        "doorBedroomDegrees": 0,
+        "doorFrontDegrees": 0,
+        "babyLocation": "Papa lap at common table",
+        "adultOffscreen": "Papa and PomPom in common room; Mama preparing breakfast",
+        "duck": "not yet in frame; waiting bath prop"
+      }
+    },
+    {
+      "id": "scene-05",
+      "room": "threshold",
+      "cast": [
+        "PinPin"
+      ],
+      "camera": {
+        "position": [
+          -0.1,
+          -0.35,
+          0.3
+        ],
+        "target": [
+          -2.0,
+          0.8,
+          0.35
+        ],
+        "lensMm": 32,
+        "sensorWidthMm": 36,
+        "status": "proposed blocking; unrendered, not measured image reconstruction",
+        "frame": "canonical house +X east, +Y north, +Z up; meters",
+        "aspectRatio": "3:2"
+      },
+      "blockingAndGaze": "Child travels around table toward northwest bath opening, two small half-full pails at sides; only one little splash, no flood. Low tracking angle follows actual route.",
+      "state": {
+        "tubFillPercent": 0,
+        "floorWater": "a few drops from carrying only",
+        "magic": "none",
+        "doorBathDegrees": 75,
+        "doorBedroomDegrees": 0,
+        "doorFrontDegrees": 0,
+        "babyLocation": "Papa lap at common table",
+        "adultOffscreen": "Papa and PomPom in common room; Mama preparing breakfast",
+        "duck": "not yet in frame; waiting bath prop"
+      }
+    },
+    {
+      "id": "scene-06",
+      "room": "bath",
+      "cast": [
+        "PinPin"
+      ],
+      "camera": {
+        "position": [
+          -1.97,
+          1.28,
+          1.1
+        ],
+        "target": [
+          -3.74,
+          2.66,
+          0.55
+        ],
+        "lensMm": 24,
+        "sensorWidthMm": 36,
+        "status": "proposed blocking; unrendered, not measured image reconstruction",
+        "frame": "canonical house +X east, +Y north, +Z up; meters",
+        "aspectRatio": "3:2"
+      },
+      "blockingAndGaze": "PinPin tips last pail using two paws over broad low tub; first empty pail on entry-side floor. Small yellow wooden duck floats in shallow water, introduced now.",
+      "state": {
+        "tubFillPercent": 5,
+        "floorWater": "dry apart from carry drops",
+        "magic": "none",
+        "doorBathDegrees": 75,
+        "doorBedroomDegrees": 0,
+        "doorFrontDegrees": 0,
+        "babyLocation": "Papa lap at common table",
+        "adultOffscreen": "Papa and PomPom in common room; Mama preparing breakfast",
+        "duck": "in bathtub"
+      }
+    },
+    {
+      "id": "scene-07",
+      "room": "bath",
+      "cast": [
+        "PinPin"
+      ],
+      "camera": {
+        "position": [
+          -1.97,
+          1.28,
+          1.1
+        ],
+        "target": [
+          -3.74,
+          2.66,
+          0.55
+        ],
+        "lensMm": 24,
+        "sensorWidthMm": 36,
+        "status": "proposed blocking; unrendered, not measured image reconstruction",
+        "frame": "canonical house +X east, +Y north, +Z up; meters",
+        "aspectRatio": "3:2"
+      },
+      "blockingAndGaze": "PinPin rests both empty pails outside east tub rim and looks between pails and broad bath, body angled toward water, camera includes room to show disproportion.",
+      "state": {
+        "tubFillPercent": 5,
+        "floorWater": "dry",
+        "magic": "none",
+        "doorBathDegrees": 75,
+        "doorBedroomDegrees": 0,
+        "doorFrontDegrees": 0,
+        "babyLocation": "Papa lap at common table",
+        "adultOffscreen": "Papa and PomPom in common room; Mama preparing breakfast",
+        "duck": "in bathtub"
+      }
+    },
+    {
+      "id": "scene-08",
+      "room": "bath",
+      "cast": [
+        "PinPin"
+      ],
+      "camera": {
+        "position": [
+          -2.5,
+          1.9,
+          0.85
+        ],
+        "target": [
+          -2.9,
+          2.6,
+          0.7
+        ],
+        "lensMm": 60,
+        "sensorWidthMm": 36,
+        "status": "proposed blocking; unrendered, not measured image reconstruction",
+        "frame": "canonical house +X east, +Y north, +Z up; meters",
+        "aspectRatio": "3:2"
+      },
+      "blockingAndGaze": "Close attentive PinPin face, one forepaw poised above shallow water; no flashback lake or second scene inside image. Eyes target intended ring location.",
+      "state": {
+        "tubFillPercent": 5,
+        "floorWater": "dry",
+        "magic": "none",
+        "doorBathDegrees": 75,
+        "doorBedroomDegrees": 0,
+        "doorFrontDegrees": 0,
+        "babyLocation": "Papa lap at common table",
+        "adultOffscreen": "Papa and PomPom in common room; Mama preparing breakfast",
+        "duck": "in bathtub"
+      }
+    },
+    {
+      "id": "scene-09",
+      "room": "bath",
+      "cast": [
+        "PinPin"
+      ],
+      "camera": {
+        "position": [
+          -2.4,
+          2.15,
+          1.35
+        ],
+        "target": [
+          -3.1,
+          2.65,
+          0.42
+        ],
+        "lensMm": 45,
+        "sensorWidthMm": 36,
+        "status": "proposed blocking; unrendered, not measured image reconstruction",
+        "frame": "canonical house +X east, +Y north, +Z up; meters",
+        "aspectRatio": "3:2"
+      },
+      "blockingAndGaze": "Over same right shoulder used later in reverse: one paw draws clockwise horizontal gold ring just above shallow water near east end of tub; visible bright leading point and fading short tail show direction. No writing or symbolic runes.",
+      "state": {
+        "tubFillPercent": 5,
+        "floorWater": "dry",
+        "magic": "tracing clockwise",
+        "doorBathDegrees": 75,
+        "doorBedroomDegrees": 0,
+        "doorFrontDegrees": 0,
+        "babyLocation": "Papa lap at common table",
+        "adultOffscreen": "Papa and PomPom in common room; Mama preparing breakfast",
+        "duck": "in bathtub"
+      }
+    },
+    {
+      "id": "scene-10",
+      "room": "bath",
+      "cast": [
+        "PinPin"
+      ],
+      "camera": {
+        "position": [
+          -3.1,
+          1.75,
+          0.63
+        ],
+        "target": [
+          -3.35,
+          2.65,
+          0.63
+        ],
+        "lensMm": 50,
+        "sensorWidthMm": 36,
+        "status": "proposed blocking; unrendered, not measured image reconstruction",
+        "frame": "canonical house +X east, +Y north, +Z up; meters",
+        "aspectRatio": "3:2"
+      },
+      "blockingAndGaze": "Stream emerges upward briefly from center of horizontal ring then curls downward into tub, contained small fountain; ring fixed just below rim height. PinPin leans forward without entering tub.",
+      "state": {
+        "tubFillPercent": 15,
+        "floorWater": "dry",
+        "magic": "active",
+        "doorBathDegrees": 75,
+        "doorBedroomDegrees": 0,
+        "doorFrontDegrees": 0,
+        "babyLocation": "Papa lap at common table",
+        "adultOffscreen": "Papa and PomPom in common room; Mama preparing breakfast",
+        "duck": "in bathtub"
+      }
+    },
+    {
+      "id": "scene-11",
+      "room": "bath",
+      "cast": [
+        "PinPin"
+      ],
+      "camera": {
+        "position": [
+          -4.45,
+          2.8,
+          0.49
+        ],
+        "target": [
+          -2.85,
+          2.55,
+          0.72
+        ],
+        "lensMm": 40,
+        "sensorWidthMm": 36,
+        "status": "proposed blocking; unrendered, not measured image reconstruction",
+        "frame": "canonical house +X east, +Y north, +Z up; meters",
+        "aspectRatio": "3:2"
+      },
+      "blockingAndGaze": "Duck-level angle across ripples toward delighted PinPin at east rim, same single stream behind duck; water rising, no overflow yet.",
+      "state": {
+        "tubFillPercent": 35,
+        "floorWater": "dry",
+        "magic": "active",
+        "doorBathDegrees": 75,
+        "doorBedroomDegrees": 0,
+        "doorFrontDegrees": 0,
+        "babyLocation": "Papa lap at common table",
+        "adultOffscreen": "Papa and PomPom in common room; Mama preparing breakfast",
+        "duck": "in bathtub"
+      }
+    },
+    {
+      "id": "scene-12",
+      "room": "bath",
+      "cast": [
+        "PinPin"
+      ],
+      "camera": {
+        "position": [
+          -2.8,
+          1.55,
+          2.0
+        ],
+        "target": [
+          -3.74,
+          2.66,
+          0.3
+        ],
+        "lensMm": 28,
+        "sensorWidthMm": 36,
+        "status": "proposed blocking; unrendered, not measured image reconstruction",
+        "frame": "canonical house +X east, +Y north, +Z up; meters",
+        "aspectRatio": "3:2"
+      },
+      "blockingAndGaze": "Higher overhead three-quarter shows tub interior now almost full, duck west of stream; PinPin checks water against rim with flat paw outside.",
+      "state": {
+        "tubFillPercent": 95,
+        "floorWater": "dry",
+        "magic": "active",
+        "doorBathDegrees": 75,
+        "doorBedroomDegrees": 0,
+        "doorFrontDegrees": 0,
+        "babyLocation": "Papa lap at common table",
+        "adultOffscreen": "Papa and PomPom in common room; Mama preparing breakfast",
+        "duck": "in bathtub"
+      }
+    },
+    {
+      "id": "scene-13",
+      "room": "bath",
+      "cast": [
+        "PinPin"
+      ],
+      "camera": {
+        "position": [
+          -3.5,
+          1.45,
+          0.73
+        ],
+        "target": [
+          -2.75,
+          2.6,
+          0.65
+        ],
+        "lensMm": 55,
+        "sensorWidthMm": 36,
+        "status": "proposed blocking; unrendered, not measured image reconstruction",
+        "frame": "canonical house +X east, +Y north, +Z up; meters",
+        "aspectRatio": "3:2"
+      },
+      "blockingAndGaze": "Eye-height PinPin addresses stream with open stopping palm; hopeful polite smile becoming uncertainty; paw does not touch ring yet.",
+      "state": {
+        "tubFillPercent": 100,
+        "floorWater": "dry at start",
+        "magic": "active",
+        "doorBathDegrees": 75,
+        "doorBedroomDegrees": 0,
+        "doorFrontDegrees": 0,
+        "babyLocation": "Papa lap at common table",
+        "adultOffscreen": "Papa and PomPom in common room; Mama preparing breakfast",
+        "duck": "in bathtub"
+      }
+    },
+    {
+      "id": "scene-14",
+      "room": "bath",
+      "cast": [
+        "PinPin"
+      ],
+      "camera": {
+        "position": [
+          -2.35,
+          2.45,
+          0.4
+        ],
+        "target": [
+          -2.84,
+          2.6,
+          0.4
+        ],
+        "lensMm": 65,
+        "sensorWidthMm": 36,
+        "status": "proposed blocking; unrendered, not measured image reconstruction",
+        "frame": "canonical house +X east, +Y north, +Z up; meters",
+        "aspectRatio": "3:2"
+      },
+      "blockingAndGaze": "Close side view of single east-side overflow running over continuous wooden rim; PinPin reaction visible above. Duck still in tub near south edge.",
+      "state": {
+        "tubFillPercent": 100,
+        "floorWater": "first ribbon wets east mat",
+        "magic": "active",
+        "doorBathDegrees": 75,
+        "doorBedroomDegrees": 0,
+        "doorFrontDegrees": 0,
+        "babyLocation": "Papa lap at common table",
+        "adultOffscreen": "Papa and PomPom in common room; Mama preparing breakfast",
+        "duck": "in bathtub"
+      }
+    },
+    {
+      "id": "scene-15",
+      "room": "bath",
+      "cast": [
+        "PinPin"
+      ],
+      "camera": {
+        "position": [
+          -2.0,
+          1.7,
+          0.4
+        ],
+        "target": [
+          -2.9,
+          2.3,
+          0.3
+        ],
+        "lensMm": 35,
+        "sensorWidthMm": 36,
+        "status": "proposed blocking; unrendered, not measured image reconstruction",
+        "frame": "canonical house +X east, +Y north, +Z up; meters",
+        "aspectRatio": "3:2"
+      },
+      "blockingAndGaze": "PinPin crouches outside east rim gripping first pail with both paws beneath single spill; relieved expression, second pail waiting beside him.",
+      "state": {
+        "tubFillPercent": 100,
+        "floorWater": "small east puddle",
+        "magic": "active",
+        "doorBathDegrees": 75,
+        "doorBedroomDegrees": 0,
+        "doorFrontDegrees": 0,
+        "babyLocation": "Papa lap at common table",
+        "adultOffscreen": "Papa and PomPom in common room; Mama preparing breakfast",
+        "duck": "in bathtub"
+      }
+    },
+    {
+      "id": "scene-16",
+      "room": "bath",
+      "cast": [
+        "PinPin"
+      ],
+      "camera": {
+        "position": [
+          -1.97,
+          1.28,
+          1.1
+        ],
+        "target": [
+          -3.74,
+          2.66,
+          0.55
+        ],
+        "lensMm": 24,
+        "sensorWidthMm": 36,
+        "status": "proposed blocking; unrendered, not measured image reconstruction",
+        "frame": "canonical house +X east, +Y north, +Z up; meters",
+        "aspectRatio": "3:2"
+      },
+      "blockingAndGaze": "Wide shows east pail placed beneath original stream now half full, new south spill nearest door; PinPin reaching second pail, exactly two forelimbs. Duck carried to south rim.",
+      "state": {
+        "tubFillPercent": 100,
+        "floorWater": "connected shallow bath puddles",
+        "magic": "active",
+        "doorBathDegrees": 75,
+        "doorBedroomDegrees": 0,
+        "doorFrontDegrees": 0,
+        "babyLocation": "Papa lap at common table",
+        "adultOffscreen": "Papa and PomPom in common room; Mama preparing breakfast",
+        "duck": "in bathtub"
+      }
+    },
+    {
+      "id": "scene-17",
+      "room": "threshold",
+      "cast": [],
+      "camera": {
+        "position": [
+          -2.4,
+          0.25,
+          0.08
+        ],
+        "target": [
+          -2.8,
+          0.8,
+          0.12
+        ],
+        "lensMm": 45,
+        "sensorWidthMm": 36,
+        "status": "proposed blocking; unrendered, not measured image reconstruction",
+        "frame": "canonical house +X east, +Y north, +Z up; meters",
+        "aspectRatio": "3:2"
+      },
+      "blockingAndGaze": "Ground-level follows wooden duck in thin shallow moving sheet crossing open bath threshold into common room; tub and soft PinPin shape behind through real doorway. No duck duplication in tub.",
+      "state": {
+        "tubFillPercent": 100,
+        "floorWater": "shallow sheet crosses bath threshold",
+        "magic": "active",
+        "doorBathDegrees": 75,
+        "doorBedroomDegrees": 0,
+        "doorFrontDegrees": 0,
+        "babyLocation": "Papa lap at common table",
+        "adultOffscreen": "Papa and PomPom in common room; Mama preparing breakfast",
+        "duck": "floating into common room"
+      }
+    },
+    {
+      "id": "scene-18",
+      "room": "common",
+      "cast": [
+        "Mama",
+        "Papa",
+        "PomPom"
+      ],
+      "camera": {
+        "position": [
+          -2.3,
+          -0.4,
+          0.1
+        ],
+        "target": [
+          -3,
+          -1.75,
+          0.75
+        ],
+        "lensMm": 28,
+        "sensorWidthMm": 36,
+        "status": "proposed blocking; unrendered, not measured image reconstruction",
+        "frame": "canonical house +X east, +Y north, +Z up; meters",
+        "aspectRatio": "3:2"
+      },
+      "blockingAndGaze": "From duck level near west stove Mama has set cooking spoon down and looks from duck toward bath opening; Papa seated with baby at table in background. Stove stays closed, breakfast pot on stable top.",
+      "state": {
+        "tubFillPercent": 100,
+        "floorWater": "thin sheet reaches common west side",
+        "magic": "active",
+        "doorBathDegrees": 75,
+        "doorBedroomDegrees": 0,
+        "doorFrontDegrees": 0,
+        "babyLocation": "Papa lap at common table",
+        "adultOffscreen": "Papa remains common-side with PomPom; Mama follows action as specified",
+        "duck": "floating into common room"
+      }
+    },
+    {
+      "id": "scene-19",
+      "room": "threshold",
+      "cast": [
+        "PinPin",
+        "Mama",
+        "Papa",
+        "PomPom"
+      ],
+      "camera": {
+        "position": [
+          -1.25,
+          -0.15,
+          0.65
+        ],
+        "target": [
+          -2.8,
+          1.1,
+          0.55
+        ],
+        "lensMm": 28,
+        "sensorWidthMm": 36,
+        "status": "proposed blocking; unrendered, not measured image reconstruction",
+        "frame": "canonical house +X east, +Y north, +Z up; meters",
+        "aspectRatio": "3:2"
+      },
+      "blockingAndGaze": "At bath doorway Mama foreground facing PinPin beside tub holding second pail; genuine concern not scolding. Papa visible common-side approaching infant chair holding PomPom.",
+      "state": {
+        "tubFillPercent": 100,
+        "floorWater": "shallow water spreads toward table",
+        "magic": "active",
+        "doorBathDegrees": 75,
+        "doorBedroomDegrees": 0,
+        "doorFrontDegrees": 0,
+        "babyLocation": "Papa arms beside infant chair",
+        "adultOffscreen": "Papa remains common-side with PomPom; Mama follows action as specified",
+        "duck": "floating into common room"
+      }
+    },
+    {
+      "id": "scene-20",
+      "room": "common",
+      "cast": [
+        "Papa",
+        "PomPom",
+        "Mama"
+      ],
+      "camera": {
+        "position": [
+          0.65,
+          -1.9,
+          0.9
+        ],
+        "target": [
+          0.5,
+          -0.95,
+          0.6
+        ],
+        "lensMm": 45,
+        "sensorWidthMm": 36,
+        "status": "proposed blocking; unrendered, not measured image reconstruction",
+        "frame": "canonical house +X east, +Y north, +Z up; meters",
+        "aspectRatio": "3:2"
+      },
+      "blockingAndGaze": "Papa lowers PomPom into established stable high-sided infant chair beside east side of table, supporting torso and bottom with separate arms; wide foot base and guard bar, feet clear of shallow water, never baby on tabletop. Mama moves basket off low shelf behind.",
+      "state": {
+        "tubFillPercent": 100,
+        "floorWater": "shallow common puddle below ankle",
+        "magic": "active",
+        "doorBathDegrees": 75,
+        "doorBedroomDegrees": 0,
+        "doorFrontDegrees": 0,
+        "babyLocation": "settling into supported infant chair",
+        "adultOffscreen": "Papa remains common-side with PomPom; Mama follows action as specified",
+        "duck": "common-room shallow puddle, offscreen if absent"
+      }
+    },
+    {
+      "id": "scene-21",
+      "room": "common",
+      "cast": [
+        "Mama",
+        "Papa",
+        "PomPom"
+      ],
+      "camera": {
+        "position": [
+          1.55,
+          -1.7,
+          0.9
+        ],
+        "target": [
+          2.55,
+          -1.1,
+          0.65
+        ],
+        "lensMm": 40,
+        "sensorWidthMm": 36,
+        "status": "proposed blocking; unrendered, not measured image reconstruction",
+        "frame": "canonical house +X east, +Y north, +Z up; meters",
+        "aspectRatio": "3:2"
+      },
+      "blockingAndGaze": "Mama lifts single dry towel basket to east counter with two paws; baby visible safely in infant chair behind her, Papa reaches for common rug from west.",
+      "state": {
+        "tubFillPercent": 100,
+        "floorWater": "shallow common puddle below ankle",
+        "magic": "active",
+        "doorBathDegrees": 75,
+        "doorBedroomDegrees": 0,
+        "doorFrontDegrees": 0,
+        "babyLocation": "stable high-sided chair east of common table",
+        "adultOffscreen": "Papa remains common-side with PomPom; Mama follows action as specified",
+        "duck": "common-room shallow puddle, offscreen if absent"
+      }
+    },
+    {
+      "id": "scene-22",
+      "room": "common",
+      "cast": [
+        "Papa",
+        "Mama",
+        "PomPom"
+      ],
+      "camera": {
+        "position": [
+          1,
+          -2,
+          0.5
+        ],
+        "target": [
+          -0.4,
+          -0.9,
+          0.4
+        ],
+        "lensMm": 35,
+        "sensorWidthMm": 36,
+        "status": "proposed blocking; unrendered, not measured image reconstruction",
+        "frame": "canonical house +X east, +Y north, +Z up; meters",
+        "aspectRatio": "3:2"
+      },
+      "blockingAndGaze": "Papa rolls/lifts loose COMMON-room oval rug away from table legs, wet far corner makes small splash; do not pull fixed bath mat from underneath tub. Baby in east chair in sight, Mama moves books.",
+      "state": {
+        "tubFillPercent": 100,
+        "floorWater": "small splash in shallow puddle",
+        "magic": "active",
+        "doorBathDegrees": 75,
+        "doorBedroomDegrees": 0,
+        "doorFrontDegrees": 0,
+        "babyLocation": "stable high-sided chair east of common table",
+        "adultOffscreen": "Papa remains common-side with PomPom; Mama follows action as specified",
+        "duck": "common-room shallow puddle, offscreen if absent"
+      }
+    },
+    {
+      "id": "scene-23",
+      "room": "bath",
+      "cast": [
+        "PinPin"
+      ],
+      "camera": {
+        "position": [
+          -2.3,
+          1.5,
+          1.8
+        ],
+        "target": [
+          -3.7,
+          2.5,
+          0.35
+        ],
+        "lensMm": 28,
+        "sensorWidthMm": 36,
+        "status": "proposed blocking; unrendered, not measured image reconstruction",
+        "frame": "canonical house +X east, +Y north, +Z up; meters",
+        "aspectRatio": "3:2"
+      },
+      "blockingAndGaze": "Slight overhead bath action: two pails on floor catching east and south spills, third narrow spill starts southwest; PinPin crouched between pails looking at new problem, no extra paws.",
+      "state": {
+        "tubFillPercent": 100,
+        "floorWater": "maximum shallow floor water, at most paws covered",
+        "magic": "active",
+        "doorBathDegrees": 75,
+        "doorBedroomDegrees": 0,
+        "doorFrontDegrees": 0,
+        "babyLocation": "stable high-sided chair east of common table",
+        "adultOffscreen": "Papa remains common-side with PomPom; Mama follows action as specified",
+        "duck": "common-room shallow puddle, offscreen if absent"
+      }
+    },
+    {
+      "id": "scene-24",
+      "room": "bath",
+      "cast": [
+        "Mama",
+        "PinPin"
+      ],
+      "camera": {
+        "position": [
+          -1.97,
+          1.28,
+          1.1
+        ],
+        "target": [
+          -3.74,
+          2.66,
+          0.55
+        ],
+        "lensMm": 24,
+        "sensorWidthMm": 36,
+        "status": "proposed blocking; unrendered, not measured image reconstruction",
+        "frame": "canonical house +X east, +Y north, +Z up; meters",
+        "aspectRatio": "3:2"
+      },
+      "blockingAndGaze": "Mama kneels beside PinPin on east side of tub, open reassuring paw by his shoulder; both look at gold circle, no adult demonstrating solution. Papa/baby off-camera common room.",
+      "state": {
+        "tubFillPercent": 100,
+        "floorWater": "maximum shallow, flow continues",
+        "magic": "active",
+        "doorBathDegrees": 75,
+        "doorBedroomDegrees": 0,
+        "doorFrontDegrees": 0,
+        "babyLocation": "stable high-sided chair east of common table",
+        "adultOffscreen": "Papa remains common-side with PomPom; Mama follows action as specified",
+        "duck": "common-room shallow puddle, offscreen if absent"
+      }
+    },
+    {
+      "id": "scene-25",
+      "room": "bath",
+      "cast": [
+        "Mama",
+        "PinPin"
+      ],
+      "camera": {
+        "position": [
+          -3.9,
+          3.75,
+          1.0
+        ],
+        "target": [
+          -2.8,
+          2.3,
+          0.75
+        ],
+        "lensMm": 40,
+        "sensorWidthMm": 36,
+        "status": "proposed blocking; unrendered, not measured image reconstruction",
+        "frame": "canonical house +X east, +Y north, +Z up; meters",
+        "aspectRatio": "3:2"
+      },
+      "blockingAndGaze": "Two-shot from north across tub sees child point at ring, Mama tracks exact pointing target; not direct reader gaze. Matching ring position unchanged from creation.",
+      "state": {
+        "tubFillPercent": 100,
+        "floorWater": "maximum shallow, flow continues",
+        "magic": "active",
+        "doorBathDegrees": 75,
+        "doorBedroomDegrees": 0,
+        "doorFrontDegrees": 0,
+        "babyLocation": "stable high-sided chair east of common table",
+        "adultOffscreen": "Papa remains common-side with PomPom; Mama follows action as specified",
+        "duck": "common-room shallow puddle, offscreen if absent"
+      }
+    },
+    {
+      "id": "scene-26",
+      "room": "bath",
+      "cast": [
+        "Mama",
+        "PinPin"
+      ],
+      "camera": {
+        "position": [
+          -2.4,
+          2.15,
+          1.35
+        ],
+        "target": [
+          -3.1,
+          2.65,
+          0.42
+        ],
+        "lensMm": 45,
+        "sensorWidthMm": 36,
+        "status": "proposed blocking; unrendered, not measured image reconstruction",
+        "frame": "canonical house +X east, +Y north, +Z up; meters",
+        "aspectRatio": "3:2"
+      },
+      "blockingAndGaze": "Close same right-shoulder setup as scene09: child rehearses CLOCKWISE with raised paw above ring without touching, faint gesture arc no second new spell; Mama still watching behind shoulder.",
+      "state": {
+        "tubFillPercent": 100,
+        "floorWater": "maximum shallow",
+        "magic": "active; rehearsal does not add stream",
+        "doorBathDegrees": 75,
+        "doorBedroomDegrees": 0,
+        "doorFrontDegrees": 0,
+        "babyLocation": "stable high-sided chair east of common table",
+        "adultOffscreen": "Papa remains common-side with PomPom; Mama follows action as specified",
+        "duck": "common-room shallow puddle, offscreen if absent"
+      }
+    },
+    {
+      "id": "scene-27",
+      "room": "bath",
+      "cast": [
+        "Mama",
+        "PinPin"
+      ],
+      "camera": {
+        "position": [
+          -3.5,
+          1.45,
+          0.85
+        ],
+        "target": [
+          -2.75,
+          2.6,
+          0.7
+        ],
+        "lensMm": 65,
+        "sensorWidthMm": 36,
+        "status": "proposed blocking; unrendered, not measured image reconstruction",
+        "frame": "canonical house +X east, +Y north, +Z up; meters",
+        "aspectRatio": "3:2"
+      },
+      "blockingAndGaze": "Tight child face and raised paw, eyes shift from paw to circle in lower frame; Mama softly visible waiting, not whispering instruction.",
+      "state": {
+        "tubFillPercent": 100,
+        "floorWater": "maximum shallow",
+        "magic": "active",
+        "doorBathDegrees": 75,
+        "doorBedroomDegrees": 0,
+        "doorFrontDegrees": 0,
+        "babyLocation": "stable high-sided chair east of common table",
+        "adultOffscreen": "Papa remains common-side with PomPom; Mama follows action as specified",
+        "duck": "common-room shallow puddle, offscreen if absent"
+      }
+    },
+    {
+      "id": "scene-28",
+      "room": "bath",
+      "cast": [
+        "Mama",
+        "PinPin"
+      ],
+      "camera": {
+        "position": [
+          -2.4,
+          2.15,
+          1.35
+        ],
+        "target": [
+          -3.1,
+          2.65,
+          0.42
+        ],
+        "lensMm": 45,
+        "sensorWidthMm": 36,
+        "status": "proposed blocking; unrendered, not measured image reconstruction",
+        "frame": "canonical house +X east, +Y north, +Z up; meters",
+        "aspectRatio": "3:2"
+      },
+      "blockingAndGaze": "Exactly same right-shoulder camera and tub landmarks as09/26: fingertip traces COUNTERCLOCKWISE through existing ring, erasing it behind paw; remaining arc and leading contact point explain reversal without arrows/text.",
+      "state": {
+        "tubFillPercent": 100,
+        "floorWater": "maximum shallow",
+        "magic": "counterclockwise erasing existing ring",
+        "doorBathDegrees": 75,
+        "doorBedroomDegrees": 0,
+        "doorFrontDegrees": 0,
+        "babyLocation": "stable high-sided chair east of common table",
+        "adultOffscreen": "Papa remains common-side with PomPom; Mama follows action as specified",
+        "duck": "common-room shallow puddle, offscreen if absent"
+      }
+    },
+    {
+      "id": "scene-29",
+      "room": "bath",
+      "cast": [
+        "Mama",
+        "PinPin"
+      ],
+      "camera": {
+        "position": [
+          -3.1,
+          1.75,
+          0.63
+        ],
+        "target": [
+          -3.35,
+          2.65,
+          0.63
+        ],
+        "lensMm": 50,
+        "sensorWidthMm": 36,
+        "status": "proposed blocking; unrendered, not measured image reconstruction",
+        "frame": "canonical house +X east, +Y north, +Z up; meters",
+        "aspectRatio": "3:2"
+      },
+      "blockingAndGaze": "Match scene10 stream angle now narrowing, three-quarter erased ring; PinPin hand follows last part of circle, Mama watches small stream. No new source.",
+      "state": {
+        "tubFillPercent": 100,
+        "floorWater": "existing spills slow, floor remains wet",
+        "magic": "fading",
+        "doorBathDegrees": 75,
+        "doorBedroomDegrees": 0,
+        "doorFrontDegrees": 0,
+        "babyLocation": "stable high-sided chair east of common table",
+        "adultOffscreen": "Papa remains common-side with PomPom; Mama follows action as specified",
+        "duck": "common-room shallow puddle, offscreen if absent"
+      }
+    },
+    {
+      "id": "scene-30",
+      "room": "bath",
+      "cast": [
+        "Mama",
+        "PinPin"
+      ],
+      "camera": {
+        "position": [
+          -3.1,
+          1.75,
+          0.63
+        ],
+        "target": [
+          -3.35,
+          2.65,
+          0.63
+        ],
+        "lensMm": 50,
+        "sensorWidthMm": 36,
+        "status": "proposed blocking; unrendered, not measured image reconstruction",
+        "frame": "canonical house +X east, +Y north, +Z up; meters",
+        "aspectRatio": "3:2"
+      },
+      "blockingAndGaze": "Single final drop above calm brim-full tub, ring completely gone; child and Mama relieved eye contact across frame, both still outside water. Overflow dwindles from residual slosh, no dry-floor jump.",
+      "state": {
+        "tubFillPercent": 100,
+        "floorWater": "wet floor remains unchanged",
+        "magic": "off",
+        "doorBathDegrees": 75,
+        "doorBedroomDegrees": 0,
+        "doorFrontDegrees": 0,
+        "babyLocation": "stable high-sided chair east of common table",
+        "adultOffscreen": "Papa remains common-side with PomPom; Mama follows action as specified",
+        "duck": "common-room shallow puddle, offscreen if absent"
+      }
+    },
+    {
+      "id": "scene-31",
+      "room": "common",
+      "cast": [
+        "PinPin",
+        "Mama",
+        "Papa",
+        "PomPom"
+      ],
+      "camera": {
+        "position": [
+          1.5,
+          -2.25,
+          0.85
+        ],
+        "target": [
+          -1.2,
+          0,
+          0.7
+        ],
+        "lensMm": 24,
+        "sensorWidthMm": 36,
+        "status": "proposed blocking; unrendered, not measured image reconstruction",
+        "frame": "canonical house +X east, +Y north, +Z up; meters",
+        "aspectRatio": "3:2"
+      },
+      "blockingAndGaze": "Common room wider comedic pause: Papa holds rolled rug away from chair, last collected pocket of water drops into existing puddle; Mama and PinPin visible bath doorway smiling, baby in stable chair laughing. No magic returning.",
+      "state": {
+        "tubFillPercent": 100,
+        "floorWater": "one residual rug splash, no new water",
+        "magic": "off",
+        "doorBathDegrees": 75,
+        "doorBedroomDegrees": 0,
+        "doorFrontDegrees": 0,
+        "babyLocation": "stable high-sided chair east of common table",
+        "adultOffscreen": "Papa remains common-side with PomPom; Mama follows action as specified",
+        "duck": "common-room shallow puddle, offscreen if absent"
+      }
+    },
+    {
+      "id": "scene-32",
+      "room": "bath",
+      "cast": [
+        "PinPin",
+        "Mama",
+        "Papa",
+        "PomPom"
+      ],
+      "camera": {
+        "position": [
+          -1.97,
+          1.28,
+          1.1
+        ],
+        "target": [
+          -3.74,
+          2.66,
+          0.55
+        ],
+        "lensMm": 24,
+        "sensorWidthMm": 36,
+        "status": "proposed blocking; unrendered, not measured image reconstruction",
+        "frame": "canonical house +X east, +Y north, +Z up; meters",
+        "aspectRatio": "3:2"
+      },
+      "blockingAndGaze": "Mama scoops excess clean TUB water into spare basin until bath half-full while PinPin scoops shallow floor puddle into one original pail; Papa carries other pail toward open front door to empty outside; water routes distinct and no floor water returned to bath.",
+      "state": {
+        "tubFillPercent": 55,
+        "floorWater": "puddles visibly receding through cleanup",
+        "magic": "off",
+        "doorBathDegrees": 75,
+        "doorBedroomDegrees": 0,
+        "doorFrontDegrees": 75,
+        "babyLocation": "stable high-sided chair east of common table",
+        "adultOffscreen": "Papa remains common-side with PomPom; Mama follows action as specified",
+        "duck": "retrieved during cleanup"
+      }
+    },
+    {
+      "id": "scene-33",
+      "room": "threshold",
+      "cast": [
+        "PinPin",
+        "Mama",
+        "Papa",
+        "PomPom"
+      ],
+      "camera": {
+        "position": [
+          -1.25,
+          -0.15,
+          0.65
+        ],
+        "target": [
+          -2.8,
+          1.1,
+          0.55
+        ],
+        "lensMm": 28,
+        "sensorWidthMm": 36,
+        "status": "proposed blocking; unrendered, not measured image reconstruction",
+        "frame": "canonical house +X east, +Y north, +Z up; meters",
+        "aspectRatio": "3:2"
+      },
+      "blockingAndGaze": "PinPin pushes cloth over bath threshold toward common room; Mama wrings cloth into pail, Papa hangs wet rug on exterior rail visible open front door, PomPom still east chair near Mama. Flood gone by actual work, not magic.",
+      "state": {
+        "tubFillPercent": 55,
+        "floorWater": "damp patches only, no standing flood",
+        "magic": "off",
+        "doorBathDegrees": 75,
+        "doorBedroomDegrees": 0,
+        "doorFrontDegrees": 75,
+        "babyLocation": "stable high-sided chair east of common table",
+        "adultOffscreen": "Papa remains common-side with PomPom; Mama follows action as specified",
+        "duck": "retrieved during cleanup"
+      }
+    },
+    {
+      "id": "scene-34",
+      "room": "bath",
+      "cast": [
+        "PinPin",
+        "Mama",
+        "Papa",
+        "PomPom"
+      ],
+      "camera": {
+        "position": [
+          -1.97,
+          1.28,
+          1.1
+        ],
+        "target": [
+          -3.74,
+          2.66,
+          0.55
+        ],
+        "lensMm": 24,
+        "sensorWidthMm": 36,
+        "status": "proposed blocking; unrendered, not measured image reconstruction",
+        "frame": "canonical house +X east, +Y north, +Z up; meters",
+        "aspectRatio": "3:2"
+      },
+      "blockingAndGaze": "Mama kneels outside same tub supervising PinPin seated in reduced shallow water; Papa holds dry PomPom in towel near doorway, awaiting his turn. Recovered duck in bath beside PinPin. Bath after clean-up, no ring, no overflow.",
+      "state": {
+        "tubFillPercent": 45,
+        "floorWater": "floor dry, tiny contained splash",
+        "magic": "off",
+        "doorBathDegrees": 75,
+        "doorBedroomDegrees": 0,
+        "doorFrontDegrees": 75,
+        "babyLocation": "Papa arms in towel by bath door",
+        "adultOffscreen": "Papa remains common-side with PomPom; Mama follows action as specified",
+        "duck": "in bath"
+      }
+    },
+    {
+      "id": "scene-35",
+      "room": "common",
+      "cast": [
+        "PinPin",
+        "Mama",
+        "Papa",
+        "PomPom"
+      ],
+      "camera": {
+        "position": [
+          -0.15,
+          -2.3,
+          1.0
+        ],
+        "target": [
+          -0.3,
+          -1.05,
+          0.85
+        ],
+        "lensMm": 28,
+        "sensorWidthMm": 36,
+        "status": "proposed blocking; unrendered, not measured image reconstruction",
+        "frame": "canonical house +X east, +Y north, +Z up; meters",
+        "aspectRatio": "3:2"
+      },
+      "blockingAndGaze": "All four family members at table: Mama seated west with PomPom securely on lap, Papa north, PinPin east; dry baby now out of towel. Ordinary breakfast bowls, clean empty child cup, small water jug within reach, duck beside bowl. Restored rug drying outside, not back underneath table yet.",
+      "state": {
+        "tubFillPercent": 45,
+        "floorWater": "dry",
+        "magic": "off",
+        "doorBathDegrees": 75,
+        "doorBedroomDegrees": 0,
+        "doorFrontDegrees": 75,
+        "babyLocation": "Mama lap at common table",
+        "adultOffscreen": "Papa remains common-side with PomPom; Mama follows action as specified",
+        "duck": "beside PinPin breakfast bowl"
+      }
+    },
+    {
+      "id": "scene-36",
+      "room": "common",
+      "cast": [
+        "PinPin",
+        "Mama",
+        "Papa",
+        "PomPom"
+      ],
+      "camera": {
+        "position": [
+          0.9,
+          -1.7,
+          0.9
+        ],
+        "target": [
+          0.1,
+          -1,
+          0.9
+        ],
+        "lensMm": 55,
+        "sensorWidthMm": 36,
+        "status": "proposed blocking; unrendered, not measured image reconstruction",
+        "frame": "canonical house +X east, +Y north, +Z up; meters",
+        "aspectRatio": "3:2"
+      },
+      "blockingAndGaze": "Warm close table ending: PinPin lifts modest jug with both paws and begins controlled pour into cup, eyes on cup; Mama smiling toward child and holding PomPom, Papa gently amused behind. No magic or speech painted in image.",
+      "state": {
+        "tubFillPercent": 45,
+        "floorWater": "dry",
+        "magic": "off",
+        "doorBathDegrees": 75,
+        "doorBedroomDegrees": 0,
+        "doorFrontDegrees": 0,
+        "babyLocation": "Mama lap at common table",
+        "adultOffscreen": "Papa remains common-side with PomPom; Mama follows action as specified",
+        "duck": "beside PinPin breakfast bowl"
+      }
+    }
+  ],
+  "reviewChecklist": [
+    "Same four hedgehogs, no duplicate siblings or human children.",
+    "PinPin solves reversal; Mama asks and watches, never reveals answer.",
+    "No Elder rescue, humiliation, chosen-one speech or moral lecture.",
+    "Maximum flooding shallow at paws; baby supported and dry with clear body separation.",
+    "One tub, two matched pails, one wooden duck; no bath/rug/furniture teleportation.",
+    "Specific action and partner eyeline each shot; reverse-circle camera matches creation camera.",
+    "Keep original generated masters and exact prompts. Generated is not user approved or published."
+  ],
+  "rights": "Creative content under repository CONTENT-LICENSE.md; not blanket MIT."
+}

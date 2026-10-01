@@ -1,0 +1,32 @@
+{
+  "id": "scene-33-v1",
+  "prompt": "Use case: illustration-story. One finished landscape 3:2 children's book picture, no words, no borders. Image1 is the CURRENT HOUSE GEOMETRY/CAMERA reference: use its viewpoint, openings and furniture placements; its grey material is ONLY a spatial sketch. Image2 defines exact MORNING storybook art and hedgehog identities, Image3 supports material detail and identities only, not camera or layout. Render gorgeous warm dimensional animated-feature picturebook art: expressive eyes with clear whites and warm brown irises, soft faces, tactile warm russet quills, golden timber, hand-crafted plaster, lived-in pottery/plant details, morning sunlight. No faceted grey surfaces, no photorealistic heads, no dark button eyes. All characters hedgehogs: Mama warm russet adult; Papa larger grey-brown adult; PinPin small golden child; PomPom TINY baby. Correct two forearms and two hindlegs, no fused bodies or duplicate characters. Use attentive partner eyelines and clear physical actions. Cooperative cleanup almost finished in same commonroom. Small PinPin at open LEFT bathroom threshold pushes a cleaning cloth along floor with BOTH paws while kneeling, energetic helpful smile and eyes on cloth. Mama just beside him wrings another wet cloth into a wooden pail, drops fall INSIDE pail. Papa farther right holds rolled damp rug ready to carry outside, looks approvingly at PinPin; tiny PomPom securely in stable high-sided babychair to right of table, smiling. Exactlyfour familymembers. Floor mostly dry with a few damp tiny pawprints, no standing flood, no magic. No rug under table yet. Keep bathleft door, bedroomright door and centertable perguide, warm handmadehouse style.",
+  "referenced_image_paths": [
+    "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001/geometry/common-hall/still.png",
+    "/Users/miguel_lemos/.codex/generated_images/01a0be6f-b832-7d93-95df-9d2ff5f69dc1/exec-4345cab2-7718-42aa-aafb-70a2c825144b.png",
+    "/Users/miguel_lemos/anastasia-pinpin-repos/mr-pinpin-source/docs/storyboard/images/published/elder-cycle/elder-r6-family-016.webp"
+  ],
+  "geometryGuide": "common-hall",
+  "geometryCamera": "validated common-hall guide camera; supersedes unrendered storyproposal",
+  "inputHashes": {
+    "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001/geometry/common-hall/still.png": "eff8e670e7d57a171355d82262667fdf5203ffc2883cddd1f57dbba98124b7eb",
+    "/Users/miguel_lemos/.codex/generated_images/01a0be6f-b832-7d93-95df-9d2ff5f69dc1/exec-4345cab2-7718-42aa-aafb-70a2c825144b.png": "bd669480c4795023983a1fc05c23415700016aa2017be61f699f0b2c441460b1",
+    "/Users/miguel_lemos/anastasia-pinpin-repos/mr-pinpin-source/docs/storyboard/images/published/elder-cycle/elder-r6-family-016.webp": "88d74c56a468e3f250b12dbcb5ecdb7b07bd1d789197663d8948ac199acd133d"
+  },
+  "startedAt": "2026-10-01T04:48:41.246200+00:00",
+  "tool": "image_gen__imagegen",
+  "generatedAt": "2026-10-01T04:53:35.285439+00:00",
+  "sourceOutputPath": "/Users/miguel_lemos/.codex/generated_images/01a0f5c3-a7d1-70d0-b8cf-581aa5deee53/exec-3307a7f4-09e1-4ea2-8b93-3bca199eee33.png",
+  "savedOriginalPath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001/masters/scene-33-v1.png",
+  "imageSha256": "f051910b2667e43421af6c7aa9fa1ca986d9a7d5d80396a7628788bc88c22714",
+  "promptSha256": "2854d4d7080aeeac0321eff898714ec246cc5f4c663c897c3a9997877546d850",
+  "reviewStatus": "visually reviewed draft; selected for user review",
+  "selectedForDraft": true,
+  "visualReview": "Four clear family bodies, helpful wiping/wringing, baby secure in highchair, Papa holds rug ready to take out. Original story description of rug already outside was simplified to readable current-view action.",
+  "promptPath": "prompts/scene-33-v1.txt",
+  "references": [
+    "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001/geometry/common-hall/still.png",
+    "/Users/miguel_lemos/.codex/generated_images/01a0be6f-b832-7d93-95df-9d2ff5f69dc1/exec-4345cab2-7718-42aa-aafb-70a2c825144b.png",
+    "/Users/miguel_lemos/anastasia-pinpin-repos/mr-pinpin-source/docs/storyboard/images/published/elder-cycle/elder-r6-family-016.webp"
+  ]
+}

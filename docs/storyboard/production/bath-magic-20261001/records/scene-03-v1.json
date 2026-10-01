@@ -1,0 +1,21 @@
+{
+  "id": "scene-03",
+  "version": 1,
+  "tool": "image_gen__imagegen",
+  "prompt": "Use case: illustration-story. One finished landscape 3:2 full-page picture, no letters or panels. Match the approved family's rich warm dimensional animated-film children's-book style exactly: soft expressive eyes with visible brown/hazel irises, cream faces and bellies, tactile quills, rounded anatomy, warm detailed timber/plaster cottage and green daylight. All characters are HEDGEHOGS without clothing: reddish-quilled Mama and mature cream-faced darker-quilled Papa are about1.6times child PinPin height; tiny infant PomPom about half PinPin height. Reference1 gives room geometry/camera only: replace gray flat primitives/faceted walls with beautiful reference2 materials and decoration, preserving furniture/opening arrangement. Reference2 supplies exact family identity and rendering, not its camera. No dark button eyes, photographic fur, humanoid children, duplicated limbs or adult/baby fused bodies. Next beat before breakfast, closer intimate framing at west stove, same room. Exactly TWO visible hedgehogs Mama and child PinPin; Papa and baby are off-camera at table. Mama has paused stirring, one paw resting on saucepan handle beside closed stove, and turns to ask PinPin to bring water. PinPin stands safely beside her holding TWO small identical EMPTY wooden pails, one in each paw by their handles. The pails fit his child size. Mama looks down into PinPin's eyes, PinPin looks up into hers, eagertoplease. Two distinct arms each, no extra hands; cooking utensil stays at stove and does not transfer to buckets. Background warm bookcase/cottage, crisp rounded facial expressions, absolutely dry floor and no magicyet. Frame medium two-shot with complete bucket handles visible.",
+  "references": [
+    {
+      "path": "/Users/miguel_lemos/.codex/tmp/pinpin-bath-magic-guides/common-table.png",
+      "sha256": "56a4a9f7d342fc9811aae5ba76572286efd3310bd9f93c1745cb9c42dc0526db"
+    },
+    {
+      "path": "/Users/miguel_lemos/anastasia-pinpin-repos/mr-pinpin-source/docs/storyboard/images/published/elder-cycle/elder-r6-family-015.webp",
+      "sha256": "076321ed693bb541c91d99b4ab6fbb7cf0c7ed19c0fcf2c0dfb70b1e668d428e"
+    }
+  ],
+  "startedAt": "2026-10-01T04:47:29.112Z",
+  "finishedAt": "2026-10-01T04:48:19.652Z",
+  "generatedFile": "/Users/miguel_lemos/.codex/generated_images/01a0f5c0-64db-7310-817a-d73d15314908/exec-418651fa-06ce-4e15-b7c8-058234afea6f.png",
+  "review": "Full-image inline review: readable action, expected cast, distinct paws and soft expressive family faces. Draft selected for sequence review; geometry guide is an input, not a claim exact output geometry matches.",
+  "promptSha256": "41f844871547d85a6b2e922fb071b25441afb7093a3c951f3f2b342e0cdf9e3f"
+}

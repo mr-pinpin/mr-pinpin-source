@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "id": "bath-magic-common-hall",
+  "location": "docs/storyboard/locations/pinpin-house/location.json",
+  "camera": {
+    "position": [
+      0,
+      -2.4,
+      0.85
+    ],
+    "target": [
+      0,
+      1,
+      0.9
+    ],
+    "lensMm": 18,
+    "width": 1400,
+    "height": 1000
+  },
+  "doorStates": {
+    "door-front": 0,
+    "door-bath": 75,
+    "door-bedroom": 75
+  },
+  "prompt": {
+    "template": "still",
+    "intent": "Child-height common room toward both private room doors; bath left and bedroom right.",
+    "characters": "No characters; empty architectural location study.",
+    "action": "No action; preserve all furnishings and openings.",
+    "lighting": "Warm gentle daytime with soft fill; maintain the rendered direction of window illumination.",
+    "referenceIds": [
+      "common-book"
+    ]
+  }
+}

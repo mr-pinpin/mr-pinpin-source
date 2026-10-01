@@ -1,0 +1,25 @@
+{
+  "id": "scene-12",
+  "version": 1,
+  "tool": "image_gen__imagegen",
+  "prompt": "Use case: illustration-story. Single finished3:2 landscape full-page picture. Reference1 is real OVERHEAD geometry of same bathroom and centered oval tub/mat/washstand. References2 and3 are exact PinPin, beautiful rich morning rendering, warm woodbath with dark hoops, duck, pails and magic; use their rich art style but follow overhead composition of firstguide. High three-quarter overhead looking down onto whole tub. Now water is ALMOST AT RIM, abouttwofingerwidth below top, with ONE goldcircle and modest curved clear fountain at east/right end continuing to fill it. One yellow wooden duck at left/west water. PinPin stands OUTSIDE on the right/east looking down at how full it is, one paw held flat just outside rim to check level, other at his side. Exactly TWO empty small wooden pails on floor to his right. One nearly-full tub, intact continuous rim, no overflow yet, entirely DRY mat/floor, no extra bath. Child is clearly MUCH smaller than tub, identifiable brown hedgehog and distinct twoarms/twofeet. No adultfamily in this picture, no text, numbers, panels or gray primitive surfaces. Rich overhead waterreflections, golden morning, preserve actual floorcirculation around tub.",
+  "references": [
+    {
+      "path": "/Users/miguel_lemos/.codex/tmp/pinpin-bath-magic-guides/bath-overhead.png",
+      "sha256": "15383e7e0b470630d5af50bc9317a9b1378ccf10eb01e3d65f52194f76e0bffe"
+    },
+    {
+      "path": "/Users/miguel_lemos/.codex/generated_images/01a0f5c0-64db-7310-817a-d73d15314908/exec-32b87d77-41c1-4fc1-857b-adcea38f8961.png",
+      "sha256": "673110df360bf0cd017101ab47a8e47b1e4b78e1ac57256b8173af71e6f32193"
+    },
+    {
+      "path": "/Users/miguel_lemos/.codex/generated_images/01a0f5c0-64db-7310-817a-d73d15314908/exec-77d7503c-5681-4dcb-a4b3-1ccc9cdbbafb.png",
+      "sha256": "5b6d0fb3ede9e5bfe175d97c05f6bb2c3240d79ad7e6443fc69d7a80c84229ad"
+    }
+  ],
+  "startedAt": "2026-10-01T04:56:47.277Z",
+  "finishedAt": "2026-10-01T04:57:16.789Z",
+  "generatedFile": "/Users/miguel_lemos/.codex/generated_images/01a0f5c0-64db-7310-817a-d73d15314908/exec-c45e1891-44e6-4db4-a814-b4d825dc994d.png",
+  "review": "Selected draft: distinct overhead composition, nearly full tub but dry floor, two empty pails, child outside bath with two paws/two hindfeet, one duck and one ring/stream. No confirmed visible anomaly.",
+  "promptSha256": "be5adf47c69e83b22f8d90d66cb7dd36acf17556a9d00a9a298487dfabe8c0f1"
+}

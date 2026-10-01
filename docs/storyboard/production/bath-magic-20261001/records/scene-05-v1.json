@@ -1,0 +1,26 @@
+{
+  "id": "scene-05",
+  "version": 1,
+  "selected": false,
+  "tool": "image_gen__imagegen",
+  "prompt": "Use case: illustration-story. One finished landscape 3:2 full-page storybook illustration without lettering or panels. Reference1 gives the camera and room geometry; decorate its primitives as rich organic timber and warm plaster, never gray faceted walls. Reference2 is this exact chapter's PinPin and matching little wooden buckets, identity/material/style authority. Reference3 is approved original family art, rendering authority only. ONLY child PinPin appears; Mama, Papa and baby are off-camera. PinPin is a warm brown hedgehog child with cream muzzle and belly, expressive brown irises, no clothing. Match soft dimensional animated-film book rendering, warm morning sunlight and green outside leaves, actual glass in radial round windows. Illustrate the journey carrying water. View along common-room circulation toward the two private room arched doors in guide, bath LEFT and bedroom RIGHT, round dining table central. PinPin is mid-step going AWAY from camera around LEFT edge of table toward open left bathroom door. See his three-quarter side/back and attentive downward glance at little buckets: exactly two matching small wooden pails, one in each paw by handles, each only half full and hanging below waist. A small realistic slosh from one pail lands on his toes, only a few drops on otherwise dry floor. Open bath doorway subtly reveals low wooden tub, do not show a second full kitchen beyond. Quiet camera following child, active step, natural body balance, not static posing at reader. Thick braided common rug under table and rich cottage details. Empty infant chair may be partially seen beyond table but no baby visible.",
+  "references": [
+    {
+      "path": "/Users/miguel_lemos/.codex/tmp/pinpin-bath-magic-guides/common-hall.png",
+      "sha256": "eff8e670e7d57a171355d82262667fdf5203ffc2883cddd1f57dbba98124b7eb"
+    },
+    {
+      "path": "/Users/miguel_lemos/.codex/generated_images/01a0f5c0-64db-7310-817a-d73d15314908/exec-418651fa-06ce-4e15-b7c8-058234afea6f.png",
+      "sha256": "b9ae29c73ac4f91ddb6c0b8345c50931833e7502f6acca7bab79456d3672ab77"
+    },
+    {
+      "path": "/Users/miguel_lemos/anastasia-pinpin-repos/mr-pinpin-source/docs/storyboard/images/published/elder-cycle/elder-r6-family-015.webp",
+      "sha256": "076321ed693bb541c91d99b4ab6fbb7cf0c7ed19c0fcf2c0dfb70b1e668d428e"
+    }
+  ],
+  "startedAt": "2026-10-01T04:49:32.021Z",
+  "finishedAt": "2026-10-01T04:50:34.931Z",
+  "generatedFile": "/Users/miguel_lemos/.codex/generated_images/01a0f5c0-64db-7310-817a-d73d15314908/exec-7bb05330-3f00-4613-ac97-dde44dfe62ac.png",
+  "review": "Rejected: first candidate walks away from intended bath destination and inserts front door between private rooms. Retained; v2 corrects travel direction and rear wall.",
+  "promptSha256": "2b6f3ab693e39dad07956d729e9107e07ca471d2448419b6095bfe636f2a98d7"
+}

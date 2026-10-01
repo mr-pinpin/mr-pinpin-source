@@ -1,0 +1,25 @@
+{
+  "id": "scene-34-v2",
+  "prompt": "Use case: precise-object-edit. Correct only waterline of this otherwise perfect familybath image. LOWER bath water level to about HALFWAY down the inner wooden wall, leaving a wide DRY INNER WOODEN BAND clearlyvisible between waterline and rim all aroundfar side. PinPin child remains seated shallowwater, shoulders and face ABOVE rim visible; adjust his bodypositionnaturally if needed while keeping exactly sameface expression and tinyhand splash. Keep Mama left and Papa holdingtinyPomPom right exactly asis, separatebodies, camera, warmbeautifulroom, lighting, duck, dryfloor unchanged. Not brimfull. Nooverflow or magic. Full landscape3:2 image, no text or borders.",
+  "referenced_image_paths": [
+    "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001/masters/scene-34-v1.png"
+  ],
+  "editTarget": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001/masters/scene-34-v1.png",
+  "inputHashes": {
+    "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001/masters/scene-34-v1.png": "5181fbc7b5056f2e2cafc5b5e93f9aa77a8ed167ac6d4d7cc8d31ebe7599a8f1"
+  },
+  "startedAt": "2026-10-01T04:58:21.570525+00:00",
+  "tool": "image_gen__imagegen",
+  "generatedAt": "2026-10-01T05:02:01.569113+00:00",
+  "sourceOutputPath": "/Users/miguel_lemos/.codex/generated_images/01a0f5c3-a7d1-70d0-b8cf-581aa5deee53/exec-359338c4-77c3-4ea2-9894-29403a758056.png",
+  "savedOriginalPath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001/masters/scene-34-v2.png",
+  "imageSha256": "40c6c53eccca2b652652429ea2b10748d03e74f9205660ceccbae2ecfb283013",
+  "promptSha256": "9089f56364a54fca2df9eafbb3d7645c39175d9bf33f2924362838c5aa4f7a22",
+  "reviewStatus": "superseded candidate preserved",
+  "selectedForDraft": false,
+  "visualReview": "V3 preserves lowered water and distinct four family members; duck now has clearly carved wing lines and natural honey wooden grain matching09. Earlier v2 retained but superseded for plastic-looking duck.",
+  "promptPath": "prompts/scene-34-v2.txt",
+  "references": [
+    "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001/masters/scene-34-v1.png"
+  ]
+}

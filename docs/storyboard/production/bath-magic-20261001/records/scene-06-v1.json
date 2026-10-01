@@ -1,0 +1,25 @@
+{
+  "id": "scene-06",
+  "version": 1,
+  "tool": "image_gen__imagegen",
+  "prompt": "Use case: illustration-story. Finished single landscape3:2 full-page illustration with no letters or panels. Reference1 is actual Blender camera/geometry of the established bathroom; use its tub position, scale, camera and round window placement. Reference2 is approved book bath illustration: replace ALL gray plain/faceted surfaces with its rich organic timber, golden plaster, glass radial round window, greenery, linen towels and warm soft dimensional animated-film storybook rendering. Reference3 gives exact PinPin identity and small wooden buckets. ONLY PinPin visible: he is the older child hedgehog, warm brown quills, cream muzzle/belly, big expressive brown irises, no clothes. No adults or infant in this scene, no other fauna. Morning golden sunlight with green daylight outside. One broad LOW wooden tub with two dark metal hoops, oval braided mat below, room circulation clear. PinPin is outside at right/east of tub, standing feet on mat. He holds a small wooden pail with BOTH paws and tips its last water into the tub. One matching EMPTY pail sits visibly separate beside him on floor. Tub is ALMOST EMPTY: water is a very shallow clear layer at its bottom, far far BELOW top rim, leaving all tall inside wooden sidewalls dry and exposed. Show this shallow interior clearly even if camera raised slightly. One small yellow WOODEN duck sits/floats in the shallow layer. PinPin watches the falling water. No magical ring, fountain, overflow or floor flooding yet. His expression makes it clear this small amount barely filled the bath. Keep pailchildsize, no giantbucket, no additional limb.",
+  "references": [
+    {
+      "path": "/Users/miguel_lemos/.codex/tmp/pinpin-bath-magic-guides/bath-child.png",
+      "sha256": "2f0658bd761155989ff53f9cdfad4c4b8d91b0a374f23fc16f9595ee9e26bb22"
+    },
+    {
+      "path": "/Users/miguel_lemos/anastasia-pinpin-repos/mr-pinpin-source/docs/storyboard/images/standalone/home-sweet-home/bedtime-08-v2.png",
+      "sha256": "c6e3deefa1acc93dadb3467931719f080a81ab8807dbff960bca6c225f07635d"
+    },
+    {
+      "path": "/Users/miguel_lemos/.codex/generated_images/01a0f5c0-64db-7310-817a-d73d15314908/exec-418651fa-06ce-4e15-b7c8-058234afea6f.png",
+      "sha256": "b9ae29c73ac4f91ddb6c0b8345c50931833e7502f6acca7bab79456d3672ab77"
+    }
+  ],
+  "startedAt": "2026-10-01T04:51:28.735Z",
+  "finishedAt": "2026-10-01T04:52:30.847Z",
+  "generatedFile": "/Users/miguel_lemos/.codex/generated_images/01a0f5c0-64db-7310-817a-d73d15314908/exec-c412ba0f-7d01-4232-a899-a41d082bf1c6.png",
+  "review": "Selected draft: readable pouring, two pails total, water far below rim, one child/one duck, dry floor. Visible child paws distinct.",
+  "promptSha256": "595e6af9e23fb565b73da612f0f65005c7618506ee76844f710a96c8a31aa217"
+}

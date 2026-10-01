@@ -1,0 +1,268 @@
+{
+  "schemaVersion": 1,
+  "status": "rendered guides, not promise of exact AI image geometry",
+  "canonicalPlanSha256": "cab510b31c13e85beaa689edb54005223412a988f640724e56b9d95dba20c28c",
+  "guides": [
+    {
+      "id": "bath-wide",
+      "job": "geometry/bath-wide.json",
+      "camera": {
+        "position": [
+          -1.97,
+          1.28,
+          1.4
+        ],
+        "target": [
+          -3.738022,
+          2.66629,
+          0.3
+        ],
+        "lensMm": 16,
+        "width": 1400,
+        "height": 1000
+      },
+      "doorStates": {
+        "door-front": 0,
+        "door-bath": 75,
+        "door-bedroom": 0
+      },
+      "renderManifest": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001/geometry/bath-wide/render-manifest.json",
+      "guidePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001/geometry/bath-wide/still.png",
+      "guideSha256": "15055ecccbc2cd12c5ab1732988909425e4bae8188a61eec3b63aae521d9f413",
+      "preparedManifest": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001/geometry/bath-wide-prepared/prepared-manifest.json",
+      "visualReview": "Viewed full rendered image; unobstructed intended room/prop view."
+    },
+    {
+      "id": "bath-child",
+      "job": "geometry/bath-child.json",
+      "camera": {
+        "position": [
+          -2.45,
+          1.65,
+          0.57
+        ],
+        "target": [
+          -3.738,
+          2.666,
+          0.46
+        ],
+        "lensMm": 24,
+        "width": 1400,
+        "height": 1000
+      },
+      "doorStates": {
+        "door-front": 0,
+        "door-bath": 75,
+        "door-bedroom": 75
+      },
+      "renderManifest": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001/geometry/bath-child/render-manifest.json",
+      "guidePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001/geometry/bath-child/still.png",
+      "guideSha256": "2f0658bd761155989ff53f9cdfad4c4b8d91b0a374f23fc16f9595ee9e26bb22",
+      "preparedManifest": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001/geometry/bath-child-prepared/prepared-manifest.json",
+      "visualReview": "Viewed full rendered image; unobstructed intended room/prop view."
+    },
+    {
+      "id": "bath-overhead",
+      "job": "geometry/bath-overhead.json",
+      "camera": {
+        "position": [
+          -3.738,
+          2.1,
+          2.35
+        ],
+        "target": [
+          -3.738,
+          2.666,
+          0.25
+        ],
+        "lensMm": 19,
+        "width": 1400,
+        "height": 1000
+      },
+      "doorStates": {
+        "door-front": 0,
+        "door-bath": 75,
+        "door-bedroom": 75
+      },
+      "renderManifest": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001/geometry/bath-overhead/render-manifest.json",
+      "guidePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001/geometry/bath-overhead/still.png",
+      "guideSha256": "15383e7e0b470630d5af50bc9317a9b1378ccf10eb01e3d65f52194f76e0bffe",
+      "preparedManifest": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001/geometry/bath-overhead-prepared/prepared-manifest.json",
+      "visualReview": "Viewed full rendered image; unobstructed intended room/prop view."
+    },
+    {
+      "id": "bath-door",
+      "job": "geometry/bath-door.json",
+      "camera": {
+        "position": [
+          -3.9,
+          3.5,
+          1.1
+        ],
+        "target": [
+          -2.12,
+          0.72,
+          0.75
+        ],
+        "lensMm": 22,
+        "width": 1400,
+        "height": 1000
+      },
+      "doorStates": {
+        "door-front": 0,
+        "door-bath": 75,
+        "door-bedroom": 75
+      },
+      "renderManifest": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001/geometry/bath-door/render-manifest.json",
+      "guidePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001/geometry/bath-door/still.png",
+      "guideSha256": "755b31bcecfb7a53cc05f24ea9244fc5fe00eb204e9cb29d5056ac90d08d87a5",
+      "preparedManifest": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001/geometry/bath-door-prepared/prepared-manifest.json",
+      "visualReview": "Viewed full rendered image; unobstructed intended room/prop view."
+    },
+    {
+      "id": "bath-circle",
+      "job": "geometry/bath-circle.json",
+      "camera": {
+        "position": [
+          -2.4,
+          2.15,
+          1.35
+        ],
+        "target": [
+          -3.1,
+          2.65,
+          0.42
+        ],
+        "lensMm": 45,
+        "width": 1400,
+        "height": 1000
+      },
+      "doorStates": {
+        "door-front": 0,
+        "door-bath": 75,
+        "door-bedroom": 0
+      },
+      "renderManifest": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001/geometry/bath-circle/render-manifest.json",
+      "guidePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001/geometry/bath-circle/still.png",
+      "guideSha256": "c4623c2db59c21a0e9b0e25068607f30711c86bf5c1532b1cdeacfc4fe99ac23",
+      "preparedManifest": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001/geometry/bath-circle-prepared/prepared-manifest.json",
+      "visualReview": "Viewed full rendered image; unobstructed intended room/prop view."
+    },
+    {
+      "id": "common-table",
+      "job": "geometry/common-table.json",
+      "camera": {
+        "position": [
+          1.1,
+          -1.8,
+          1.15
+        ],
+        "target": [
+          -1.3,
+          -0.6,
+          1.0
+        ],
+        "lensMm": 24,
+        "width": 1400,
+        "height": 1000
+      },
+      "doorStates": {
+        "door-front": 0,
+        "door-bath": 75,
+        "door-bedroom": 75
+      },
+      "renderManifest": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001/geometry/common-table/render-manifest.json",
+      "guidePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001/geometry/common-table/still.png",
+      "guideSha256": "56a4a9f7d342fc9811aae5ba76572286efd3310bd9f93c1745cb9c42dc0526db",
+      "preparedManifest": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001/geometry/common-table-prepared/prepared-manifest.json",
+      "visualReview": "Viewed full rendered image; unobstructed intended room/prop view."
+    },
+    {
+      "id": "common-kitchen",
+      "job": "geometry/common-kitchen.json",
+      "camera": {
+        "position": [
+          -1.8,
+          -1.9,
+          1.15
+        ],
+        "target": [
+          2.55,
+          -1.25,
+          0.85
+        ],
+        "lensMm": 24,
+        "width": 1400,
+        "height": 1000
+      },
+      "doorStates": {
+        "door-front": 0,
+        "door-bath": 75,
+        "door-bedroom": 75
+      },
+      "renderManifest": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001/geometry/common-kitchen/render-manifest.json",
+      "guidePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001/geometry/common-kitchen/still.png",
+      "guideSha256": "49d1832d4d64c686a70d5a6a8559c7a40e0a698fd9ecb56065a35175fe415fd5",
+      "preparedManifest": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001/geometry/common-kitchen-prepared/prepared-manifest.json",
+      "visualReview": "Viewed full rendered image; unobstructed intended room/prop view."
+    },
+    {
+      "id": "common-hall",
+      "job": "geometry/common-hall.json",
+      "camera": {
+        "position": [
+          0,
+          -2.4,
+          0.85
+        ],
+        "target": [
+          0,
+          1,
+          0.9
+        ],
+        "lensMm": 18,
+        "width": 1400,
+        "height": 1000
+      },
+      "doorStates": {
+        "door-front": 0,
+        "door-bath": 75,
+        "door-bedroom": 75
+      },
+      "renderManifest": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001/geometry/common-hall/render-manifest.json",
+      "guidePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001/geometry/common-hall/still.png",
+      "guideSha256": "eff8e670e7d57a171355d82262667fdf5203ffc2883cddd1f57dbba98124b7eb",
+      "preparedManifest": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001/geometry/common-hall-prepared/prepared-manifest.json",
+      "visualReview": "Viewed full rendered image; unobstructed intended room/prop view."
+    },
+    {
+      "id": "bedroom",
+      "job": "geometry/bedroom.json",
+      "camera": {
+        "position": [
+          1.2,
+          0.8,
+          1.15
+        ],
+        "target": [
+          2.5,
+          1.8,
+          0.75
+        ],
+        "lensMm": 24,
+        "width": 1400,
+        "height": 1000
+      },
+      "doorStates": {
+        "door-front": 0,
+        "door-bath": 75,
+        "door-bedroom": 75
+      },
+      "renderManifest": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001/geometry/bedroom/render-manifest.json",
+      "guidePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001/geometry/bedroom/still.png",
+      "guideSha256": "6f55c969d62b8fe9bb7e543d9448834ecce8e4f301a1252d6a33ce203c33e171",
+      "preparedManifest": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001/geometry/bedroom-prepared/prepared-manifest.json",
+      "visualReview": "Viewed full rendered image; unobstructed intended room/prop view."
+    }
+  ]
+}

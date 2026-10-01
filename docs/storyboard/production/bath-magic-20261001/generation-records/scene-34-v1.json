@@ -1,0 +1,32 @@
+{
+  "id": "scene-34-v1",
+  "prompt": "Use case: illustration-story. Create one finished landscape 3:2 full-bleed children's book illustration, no text or borders. IMAGE1 is the measured empty bathroom GEOMETRY and camera guide: keep centered broad low oval tub, abundant walk-around space, oval braided floor mat, round window at back, washstand left. Replace its plain grey surfaces with all the rich warm storybook timber, plaster, greenery, hand-made furnishings and gentle dimensional lighting from IMAGE2 and IMAGE3. Do not preserve grey polygons. IMAGE2 defines this chapter morning light and exact four hedgehog family identities; IMAGE3 is same established bathroom material/style, change nighttime to morning. Soft expressive animated-feature eyes with visible whites and warm irises, charming little paws, tactile golden quills; no photorealistic animal anatomy. Mama is warm russet adult, Papa larger dark brown-grey adult, PinPin golden small child, PomPom tiny baby, NOT another same-size child. Preserve correct separate bodies and two forearms each; natural attentive action, not staring at viewer. Golden morning sunlight, balanced luminous rich detail, no dark button eyes. Match book art closely. Scene34 FINALLY A PROPER BATH. All FOUR family hedgehogs are present, exactly two adults, one child, one tiny baby. PinPin sits in the SAME large wooden tub in shallow clean water, chest and head clearly above water, smiles while making one TINY cheerful paw splash. Mama kneels at tub's left side, smiling and watching him attentively, one paw resting on rim. Papa stands to right near entry side holding tiny PomPom securely in a cream towel, TWO clear arms support separate baby's bottom and back; tiny baby face visible above towel, waits his turn. Little wooden yellow duck beside PinPin in water. Floor now dry because family cleaned it, clean braided mat, no magic circle or fountain or overflow. A warm earned calm family scene. Tub water less than half full, no large waves. Show Papa's kind soft eyes and baby's distinct face.",
+  "referenced_image_paths": [
+    "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001/geometry/bath-wide/still.png",
+    "/Users/miguel_lemos/.codex/generated_images/01a0be6f-b832-7d93-95df-9d2ff5f69dc1/exec-4345cab2-7718-42aa-aafb-70a2c825144b.png",
+    "/Users/miguel_lemos/anastasia-pinpin-repos/mr-pinpin-source/docs/storyboard/images/standalone/home-sweet-home/bedtime-08-v2.png"
+  ],
+  "geometryGuide": "bath-wide",
+  "geometryCamera": "validated geometry/bath-wide.json; visual framing follows guide rather than unrendered story camera proposal",
+  "inputHashes": {
+    "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001/geometry/bath-wide/still.png": "15055ecccbc2cd12c5ab1732988909425e4bae8188a61eec3b63aae521d9f413",
+    "/Users/miguel_lemos/.codex/generated_images/01a0be6f-b832-7d93-95df-9d2ff5f69dc1/exec-4345cab2-7718-42aa-aafb-70a2c825144b.png": "bd669480c4795023983a1fc05c23415700016aa2017be61f699f0b2c441460b1",
+    "/Users/miguel_lemos/anastasia-pinpin-repos/mr-pinpin-source/docs/storyboard/images/standalone/home-sweet-home/bedtime-08-v2.png": "c6e3deefa1acc93dadb3467931719f080a81ab8807dbff960bca6c225f07635d"
+  },
+  "startedAt": "2026-10-01T04:45:15.466553+00:00",
+  "tool": "image_gen__imagegen",
+  "generatedAt": "2026-10-01T04:46:45.657702+00:00",
+  "sourceOutputPath": "/Users/miguel_lemos/.codex/generated_images/01a0f5c3-a7d1-70d0-b8cf-581aa5deee53/exec-924b8499-ae3c-4465-a4e1-4f7a0319262b.png",
+  "savedOriginalPath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001/masters/scene-34-v1.png",
+  "imageSha256": "5181fbc7b5056f2e2cafc5b5e93f9aa77a8ed167ac6d4d7cc8d31ebe7599a8f1",
+  "promptSha256": "fee6cf37361108da051c87117e7b70d542f9425c6cd1ed22069ad8874b0b6d2b",
+  "reviewStatus": "superseded candidate preserved",
+  "selectedForDraft": false,
+  "visualReview": "V2 lowers bath water with visible dry inner wooden band, child shoulders/head above water; Mama supervising and Papa securely holds separate towel-wrapped baby. Actual exact percentage cannot be certified.",
+  "promptPath": "prompts/scene-34-v1.txt",
+  "references": [
+    "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001/geometry/bath-wide/still.png",
+    "/Users/miguel_lemos/.codex/generated_images/01a0be6f-b832-7d93-95df-9d2ff5f69dc1/exec-4345cab2-7718-42aa-aafb-70a2c825144b.png",
+    "/Users/miguel_lemos/anastasia-pinpin-repos/mr-pinpin-source/docs/storyboard/images/standalone/home-sweet-home/bedtime-08-v2.png"
+  ]
+}

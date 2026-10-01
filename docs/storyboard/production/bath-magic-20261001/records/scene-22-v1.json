@@ -1,0 +1,37 @@
+{
+  "tool": "image_gen__imagegen",
+  "generatedAt": "2026-10-01T04:54:28.744Z",
+  "promptPath": "prompts/scene-22-v1.txt",
+  "sourceOutput": "/Users/miguel_lemos/.codex/generated_images/01a0be6f-b832-7d93-95df-9d2ff5f69dc1/exec-3404acf7-fc53-4f6e-8b9d-530fdd388ae1.png",
+  "references": [
+    "/Users/miguel_lemos/.codex/generated_images/01a0be6f-b832-7d93-95df-9d2ff5f69dc1/exec-f0a10dba-feee-479f-bda6-f8a3ddc53099.png",
+    "/Users/miguel_lemos/.codex/generated_images/01a0be6f-b832-7d93-95df-9d2ff5f69dc1/exec-81715417-46b0-462a-9ff2-81cdbc6d74f3.png",
+    "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001/geometry/common-table/still.png"
+  ],
+  "geometryGuide": "common-table",
+  "visualReview": "Passed anatomy/action first visual review; draft.",
+  "referenceIdentities": [
+    {
+      "path": "/Users/miguel_lemos/.codex/generated_images/01a0be6f-b832-7d93-95df-9d2ff5f69dc1/exec-f0a10dba-feee-479f-bda6-f8a3ddc53099.png",
+      "bytes": 2547707,
+      "sha256": "a20a07ff0a8b19080b5db7556dfd20aacaa3f3289e4c76c683fb6d9a39bb6d1b"
+    },
+    {
+      "path": "/Users/miguel_lemos/.codex/generated_images/01a0be6f-b832-7d93-95df-9d2ff5f69dc1/exec-81715417-46b0-462a-9ff2-81cdbc6d74f3.png",
+      "bytes": 2551107,
+      "sha256": "3ef2b5388ab7219a3311ee047000976f3440bed6249b1c717dfe13309d352fcb"
+    },
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001/geometry/common-table/still.png",
+      "bytes": 1164227,
+      "sha256": "56a4a9f7d342fc9811aae5ba76572286efd3310bd9f93c1745cb9c42dc0526db"
+    }
+  ],
+  "promptSha256": "2046e2a5033951b8e297b2b655ad7348fb9dcfad55ff6405a1aadd3c09ed0ed7",
+  "master": {
+    "path": "masters/scene-22-v1.png",
+    "bytes": 2689852,
+    "sha256": "66666c2833620c0523be11ca9739954ffba406306e7da3a33a69de57ba350c55"
+  },
+  "approval": "draft-for-review"
+}

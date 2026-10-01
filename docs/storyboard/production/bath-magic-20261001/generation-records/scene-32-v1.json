@@ -1,0 +1,32 @@
+{
+  "id": "scene-32-v1",
+  "prompt": "Use case: illustration-story. Create one finished landscape 3:2 full-bleed children's book illustration, no text or borders. IMAGE1 is the measured empty bathroom GEOMETRY and camera guide: keep centered broad low oval tub, abundant walk-around space, oval braided floor mat, round window at back, washstand left. Replace its plain grey surfaces with all the rich warm storybook timber, plaster, greenery, hand-made furnishings and gentle dimensional lighting from IMAGE2 and IMAGE3. Do not preserve grey polygons. IMAGE2 defines this chapter morning light and exact four hedgehog family identities; IMAGE3 is same established bathroom material/style, change nighttime to morning. Soft expressive animated-feature eyes with visible whites and warm irises, charming little paws, tactile golden quills; no photorealistic animal anatomy. Mama is warm russet adult, Papa larger dark brown-grey adult, PinPin golden small child, PomPom tiny baby, NOT another same-size child. Preserve correct separate bodies and two forearms each; natural attentive action, not staring at viewer. Golden morning sunlight, balanced luminous rich detail, no dark button eyes. Match book art closely. Scene32 CLEANUP AFTER MAGIC HAS STOPPED. Only Mama and PinPin are visible in this frame. Mama beside LEFT side of tub uses a cream ceramic jug to scoop excess clean bath water into a separate basin near her feet. PinPin at FRONT-RIGHT crouches and uses a small cup to scoop the remaining shallow floor puddle into a little wooden pail. Clearly different water routes: dirty floor water goes into pail, never back into tub. Bath now only about HALF FULL, broad calm water lower than rim. Floor wet with small receding puddles, no fresh overflow. Both look attentively at their own work with relaxed relieved faces. No glowing circle, no fountain, no magical marks. Papa and baby are safely off-camera in common room; do not add them or any extra siblings. Single wooden tub, one child pail, one Mama basin.",
+  "referenced_image_paths": [
+    "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001/geometry/bath-wide/still.png",
+    "/Users/miguel_lemos/.codex/generated_images/01a0be6f-b832-7d93-95df-9d2ff5f69dc1/exec-4345cab2-7718-42aa-aafb-70a2c825144b.png",
+    "/Users/miguel_lemos/anastasia-pinpin-repos/mr-pinpin-source/docs/storyboard/images/standalone/home-sweet-home/bedtime-08-v2.png"
+  ],
+  "geometryGuide": "bath-wide",
+  "geometryCamera": "validated geometry/bath-wide.json; visual framing follows guide rather than unrendered story camera proposal",
+  "inputHashes": {
+    "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001/geometry/bath-wide/still.png": "15055ecccbc2cd12c5ab1732988909425e4bae8188a61eec3b63aae521d9f413",
+    "/Users/miguel_lemos/.codex/generated_images/01a0be6f-b832-7d93-95df-9d2ff5f69dc1/exec-4345cab2-7718-42aa-aafb-70a2c825144b.png": "bd669480c4795023983a1fc05c23415700016aa2017be61f699f0b2c441460b1",
+    "/Users/miguel_lemos/anastasia-pinpin-repos/mr-pinpin-source/docs/storyboard/images/standalone/home-sweet-home/bedtime-08-v2.png": "c6e3deefa1acc93dadb3467931719f080a81ab8807dbff960bca6c225f07635d"
+  },
+  "startedAt": "2026-10-01T04:45:15.456466+00:00",
+  "tool": "image_gen__imagegen",
+  "generatedAt": "2026-10-01T04:46:45.016772+00:00",
+  "sourceOutputPath": "/Users/miguel_lemos/.codex/generated_images/01a0f5c3-a7d1-70d0-b8cf-581aa5deee53/exec-cf6bee9b-84e3-4ece-9770-ff1e3839f049.png",
+  "savedOriginalPath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001/masters/scene-32-v1.png",
+  "imageSha256": "9ec08a4f78f51aa18f9f15740ffbd2993ef87651ab5d6079cd458f757f161bae",
+  "promptSha256": "e46b020f66d090db0cd0f45ee22cc21a3b7e6b2b30533fb533013284ff1e38c5",
+  "reviewStatus": "superseded candidate preserved",
+  "selectedForDraft": false,
+  "visualReview": "V2 aims child cup stream into pail and lowers tubwater; Mama pours into separate basin. Papa and baby intentionally off-camera in common room, despite original plan cast list; no dirty floor water returned to tub.",
+  "promptPath": "prompts/scene-32-v1.txt",
+  "references": [
+    "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001/geometry/bath-wide/still.png",
+    "/Users/miguel_lemos/.codex/generated_images/01a0be6f-b832-7d93-95df-9d2ff5f69dc1/exec-4345cab2-7718-42aa-aafb-70a2c825144b.png",
+    "/Users/miguel_lemos/anastasia-pinpin-repos/mr-pinpin-source/docs/storyboard/images/standalone/home-sweet-home/bedtime-08-v2.png"
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "id": "scene-35-v2",
+  "prompt": "Use case: precise-object-edit. Edit Image1 only in the small distant background area visible through the open doorway. BACKGROUND THROUGH ARCH DOOR ONLY: replace the modern white porcelain pedestal sink with the established rustic wooden WASHSTAND supporting a cream hand-painted FLORAL CERAMIC BOWL and potteryjug. Behind it the partialedge of warm WOODEN bathing tub may be seen, not a modernwhitebathtub. Walls there warm honeyplaster and timberbeams, sunnywindowwith wooden radialmuntins, a small hangingplant, morninggoldenlight. Image2 is bathroom material/prop reference only. Keep EXACT breakfast foreground allfourhedgehogs, faces/eyes, poses, table, bowls, duck, jug, architectureopening unchanged. Do not change camera or subjects. Same full landscape3:2 gorgeousanimatedstorybookrender, no text.",
+  "referenced_image_paths": [
+    "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001/masters/scene-35-v1.png",
+    "/Users/miguel_lemos/anastasia-pinpin-repos/mr-pinpin-source/docs/storyboard/images/standalone/home-sweet-home/bedtime-08-v2.png"
+  ],
+  "editTarget": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001/masters/scene-35-v1.png",
+  "inputHashes": {
+    "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001/masters/scene-35-v1.png": "61d41a3f9fb7bc69cccb982cedcdc022dfdd1129532fe481aad66e4fd9073da5",
+    "/Users/miguel_lemos/anastasia-pinpin-repos/mr-pinpin-source/docs/storyboard/images/standalone/home-sweet-home/bedtime-08-v2.png": "c6e3deefa1acc93dadb3467931719f080a81ab8807dbff960bca6c225f07635d"
+  },
+  "startedAt": "2026-10-01T05:02:41.283549+00:00",
+  "tool": "image_gen__imagegen",
+  "generatedAt": "2026-10-01T05:04:46.233849+00:00",
+  "sourceOutputPath": "/Users/miguel_lemos/.codex/generated_images/01a0f5c3-a7d1-70d0-b8cf-581aa5deee53/exec-d589c5c0-4d84-4770-84f9-d1e0e4b54e54.png",
+  "savedOriginalPath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001/masters/scene-35-v2.png",
+  "imageSha256": "be5c7a57968478912a84124c5c7d1a001dcf3fd5e402223946cb80d3848a4237",
+  "promptSha256": "9fd2d42843703f09e29b800d108624f54e7eba173dde59cac5ee135aecb5b02d",
+  "reviewStatus": "visually reviewed draft; selected for user review",
+  "selectedForDraft": true,
+  "visualReview": "V2 replaces modern distant bathroom fixture with wooden tub/wooden washstand and floral ceramic bowl; all four family members at breakfast, rug absent, duck by childbowl.",
+  "promptPath": "prompts/scene-35-v2.txt",
+  "references": [
+    "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001/masters/scene-35-v1.png",
+    "/Users/miguel_lemos/anastasia-pinpin-repos/mr-pinpin-source/docs/storyboard/images/standalone/home-sweet-home/bedtime-08-v2.png"
+  ]
+}
