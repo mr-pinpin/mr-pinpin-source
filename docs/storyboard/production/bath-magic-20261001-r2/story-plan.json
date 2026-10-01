@@ -1,0 +1,4217 @@
+{
+  "schemaVersion": 2,
+  "id": "bath-magic-draft-r2",
+  "productionId": "bath-magic-20261001-r2",
+  "status": "Complete R2 illustrated draft, internally reviewed; awaiting user feedback, not published",
+  "source": "Miguel approved v1 then requested a more playful child-POV revision and talking wooden duck; no v1 file altered.",
+  "title": {
+    "en": "PinPin and the Bath-Time Flood",
+    "ru": "Пин-Пин и водяной переполох",
+    "es": "PinPin y la bañera desbordada"
+  },
+  "description": {
+    "en": "PinPin fills the bath with magic, the family joins the fun, and one little wooden duck has a great deal to say.",
+    "ru": "Пин-Пин наполняет ванну волшебством, вся семья играет вместе, а маленькой деревянной уточке есть что сказать.",
+    "es": "PinPin llena la bañera con magia, la familia se suma al juego y un patito de madera tiene mucho que decir."
+  },
+  "storyIllustrationCount": 56,
+  "coverIllustrationCount": 1,
+  "totalIllustrations": 57,
+  "languages": [
+    "en",
+    "ru",
+    "es"
+  ],
+  "reusedStoryImages": 31,
+  "newStoryImages": 25,
+  "cover": {
+    "id": "cover",
+    "image": "web/title.webp",
+    "title": {
+      "en": "PinPin and the Bath-Time Flood",
+      "ru": "Пин-Пин и водяной переполох",
+      "es": "PinPin y la bañera desbordada"
+    },
+    "alt": {
+      "en": "PinPin holds a little bucket beside the overflowing wooden bath; Mama supports PomPom and Papa holds a towel.",
+      "ru": "Пин-Пин с ведёрком у переполненной ванны; Мама держит Пом-Пома, а Папа — полотенце.",
+      "es": "PinPin sostiene un cubito junto a la bañera desbordada; Mamá lleva a PomPom y Papá tiene una toalla."
+    },
+    "action": "Selected draft cover: PinPin with one visible little pail beside overflowing wooden bath, Mama supports baby on left, Papa holds towel on right; duck on shallow floor water. Separate title key art, not a chronological scene.",
+    "selectedMaster": "masters/reused/title/title-v1.png",
+    "reviewStatus": "internally reviewed draft; user review pending",
+    "reusedFrom": "cover",
+    "sourceProduction": "bath-magic-20261001",
+    "reuseMode": "byte-for-byte selected-v1 reuse; not newly generated",
+    "selectedMasterSha256": "bd669480c4795023983a1fc05c23415700016aa2017be61f699f0b2c441460b1",
+    "imageSha256": "d0b4fa690e3da10377c1bd492a80cd277fa4dd0d6ffd7b404aeae7b34bb08b1e",
+    "reuseRecord": "reuse.json#cover"
+  },
+  "storyboardSheets": [
+    {
+      "id": "storyboard-01",
+      "image": "web/storyboard-01.webp",
+      "scenes": [
+        "scene-01",
+        "scene-02",
+        "scene-03",
+        "scene-04",
+        "scene-05",
+        "scene-06",
+        "scene-07"
+      ]
+    },
+    {
+      "id": "storyboard-02",
+      "image": "web/storyboard-02.webp",
+      "scenes": [
+        "scene-08",
+        "scene-09",
+        "scene-10",
+        "scene-11",
+        "scene-12",
+        "scene-13",
+        "scene-14"
+      ]
+    },
+    {
+      "id": "storyboard-03",
+      "image": "web/storyboard-03.webp",
+      "scenes": [
+        "scene-15",
+        "scene-16",
+        "scene-17",
+        "scene-18",
+        "scene-19",
+        "scene-20",
+        "scene-21"
+      ]
+    },
+    {
+      "id": "storyboard-04",
+      "image": "web/storyboard-04.webp",
+      "scenes": [
+        "scene-22",
+        "scene-23",
+        "scene-24",
+        "scene-25",
+        "scene-26",
+        "scene-27",
+        "scene-28"
+      ]
+    },
+    {
+      "id": "storyboard-05",
+      "image": "web/storyboard-05.webp",
+      "scenes": [
+        "scene-29",
+        "scene-30",
+        "scene-31",
+        "scene-32",
+        "scene-33",
+        "scene-34",
+        "scene-35"
+      ]
+    },
+    {
+      "id": "storyboard-06",
+      "image": "web/storyboard-06.webp",
+      "scenes": [
+        "scene-36",
+        "scene-37",
+        "scene-38",
+        "scene-39",
+        "scene-40",
+        "scene-41",
+        "scene-42"
+      ]
+    },
+    {
+      "id": "storyboard-07",
+      "image": "web/storyboard-07.webp",
+      "scenes": [
+        "scene-43",
+        "scene-44",
+        "scene-45",
+        "scene-46",
+        "scene-47",
+        "scene-48",
+        "scene-49"
+      ]
+    },
+    {
+      "id": "storyboard-08",
+      "image": "web/storyboard-08.webp",
+      "scenes": [
+        "scene-50",
+        "scene-51",
+        "scene-52",
+        "scene-53",
+        "scene-54",
+        "scene-55",
+        "scene-56"
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "id": "scene-01",
+      "number": 1,
+      "sheet": 1,
+      "panel": 1,
+      "title": {
+        "en": "Good morning",
+        "ru": "Доброе утро",
+        "es": "Buenos días"
+      },
+      "image": "web/scene-01.webp",
+      "paragraphs": {
+        "en": [
+          "A stripe of sunshine tickled PinPin’s nose. From the kitchen came the smell of breakfast."
+        ],
+        "ru": [
+          "Солнечный лучик пощекотал Пин-Пину нос. Из кухни пахло завтраком."
+        ],
+        "es": [
+          "Un rayito de sol le hizo cosquillas en la nariz a PinPin. Desde la cocina llegaba el olor del desayuno."
+        ]
+      },
+      "alt": {
+        "en": "PinPin sits up in the familiar broad wooden bed, lifting green quilt with both paws; bedroom door already open, breakfast light through opening.",
+        "ru": "Доброе утро",
+        "es": "Buenos días"
+      },
+      "action": "PinPin sits up in the familiar broad wooden bed, lifting green quilt with both paws; bedroom door already open, breakfast light through opening.",
+      "room": "bedroom",
+      "cast": [
+        "PinPin"
+      ],
+      "camera": {
+        "position": [
+          1.2,
+          0.8,
+          1.05
+        ],
+        "target": [
+          2.46,
+          1.64,
+          0.85
+        ],
+        "lensMm": 28,
+        "sensorWidthMm": 36,
+        "status": "proposed blocking; unrendered, not measured image reconstruction",
+        "frame": "canonical house +X east, +Y north, +Z up; meters",
+        "aspectRatio": "3:2"
+      },
+      "blockingAndGaze": "PinPin sits up in the familiar broad wooden bed, lifting green quilt with both paws; bedroom door already open, breakfast light through opening.",
+      "continuity": {
+        "tubFillPercent": 0,
+        "floorWater": "dry",
+        "magic": "none",
+        "doorBathDegrees": 75,
+        "doorBedroomDegrees": 75,
+        "doorFrontDegrees": 0,
+        "babyLocation": "Papa lap/arms at table",
+        "adultOffscreen": "Papa and PomPom in common room; Mama preparing breakfast",
+        "duck": "not yet in frame; waiting bath prop",
+        "duckLiving": false,
+        "duckMaterial": "carved honey-yellow wood with visible grain, orange rounded beak, friendly inset dark eyes; no added limbs",
+        "duckLocation": "Papa/PomPom at table; Papa delivers offscreen before08",
+        "papaLocation": "commonroomcaringforbaby"
+      },
+      "reviewStatus": "internally reviewed draft; user review pending",
+      "reusedFrom": "scene-01",
+      "reuseMode": "byte-for-byte selected-v1 reuse; not newly generated",
+      "sourceProduction": "bath-magic-20261001",
+      "selectedMaster": "masters/reused/scene-01/scene-01-v1.png",
+      "selectedMasterSha256": "4955ad0fe0550ed1a4f94051c4d978a27093ebab8d0a82b3580b085452de0bba",
+      "imageSha256": "be5ed728b790d40fe4d6087a782430f08b09230fc094b52af3f5444f227bb723",
+      "reuseRecord": "reuse.json#scene-01"
+    },
+    {
+      "id": "scene-02",
+      "number": 2,
+      "sheet": 1,
+      "panel": 2,
+      "title": {
+        "en": "Breakfast is coming",
+        "ru": "Завтрак готовится",
+        "es": "El desayuno está en marcha"
+      },
+      "image": "web/scene-02.webp",
+      "paragraphs": {
+        "en": [
+          "Mama stirred the porridge. Papa bounced little PomPom on his knee."
+        ],
+        "ru": [
+          "Мама помешивала кашу. Папа покачивал маленького Пом-Пома на коленях."
+        ],
+        "es": [
+          "Mamá removía las gachas. Papá mecía al pequeño PomPom sobre sus rodillas."
+        ]
+      },
+      "alt": {
+        "en": "PinPin enters common room from bedroom; Mama tends closed stove on west side, Papa seated at table holding baby on lap; rounded infant chair visible beside table.",
+        "ru": "Завтрак готовится",
+        "es": "El desayuno está en marcha"
+      },
+      "action": "PinPin enters common room from bedroom; Mama tends closed stove on west side, Papa seated at table holding baby on lap; rounded infant chair visible beside table.",
+      "room": "common",
+      "cast": [
+        "PinPin",
+        "Mama",
+        "Papa",
+        "PomPom"
+      ],
+      "camera": {
+        "position": [
+          1.1,
+          -1.8,
+          1.05
+        ],
+        "target": [
+          -1.3,
+          -0.6,
+          0.85
+        ],
+        "lensMm": 28,
+        "sensorWidthMm": 36,
+        "status": "proposed blocking; unrendered, not measured image reconstruction",
+        "frame": "canonical house +X east, +Y north, +Z up; meters",
+        "aspectRatio": "3:2"
+      },
+      "blockingAndGaze": "PinPin enters common room from bedroom; Mama tends closed stove on west side, Papa seated at table holding baby on lap; rounded infant chair visible beside table.",
+      "continuity": {
+        "tubFillPercent": 0,
+        "floorWater": "dry",
+        "magic": "none",
+        "doorBathDegrees": 75,
+        "doorBedroomDegrees": 75,
+        "doorFrontDegrees": 0,
+        "babyLocation": "Papa lap/arms at table",
+        "adultOffscreen": "Papa and PomPom in common room; Mama preparing breakfast",
+        "duck": "not yet in frame; waiting bath prop",
+        "duckLiving": false,
+        "duckMaterial": "carved honey-yellow wood with visible grain, orange rounded beak, friendly inset dark eyes; no added limbs",
+        "duckLocation": "Papa/PomPom at table; Papa delivers offscreen before08",
+        "papaLocation": "commonroomcaringforbaby"
+      },
+      "reviewStatus": "internally reviewed draft; user review pending",
+      "reusedFrom": "scene-02",
+      "reuseMode": "byte-for-byte selected-v1 reuse; not newly generated",
+      "sourceProduction": "bath-magic-20261001",
+      "selectedMaster": "masters/reused/scene-02/scene-02-v2.png",
+      "selectedMasterSha256": "eda819abf89680e8325fd00e064f24ec317af4d19f3cd27b1140939485dd2851",
+      "imageSha256": "7bb7bfae1e01595cda5cc4d9dfc24056f349302929d8b4a5487b2f8eb6643377",
+      "reuseRecord": "reuse.json#scene-02"
+    },
+    {
+      "title": {
+        "en": "Warm little clouds",
+        "ru": "Тёплые облачка",
+        "es": "Nubecitas tibias"
+      },
+      "paragraphs": {
+        "en": [
+          "PinPin watched the warm little clouds above Mama’s pot. Mama smiled down at him."
+        ],
+        "ru": [
+          "Пин-Пин смотрел на тёплые облачка над Маминой кастрюлькой. Мама улыбнулась ему."
+        ],
+        "es": [
+          "PinPin miró las nubecitas tibias sobre la olla de Mamá. Mamá le sonrió."
+        ]
+      },
+      "alt": {
+        "en": "PinPin's actual low eye-level POV from a safe step away beside west stove: little puffs of porridge steam rise in near foreground, Mama's warm face above them looking gently DOWN DIRECTLY INTO LENS because lens is child. Mama stirs, stove stays closed, no child leaning over hotpot.",
+        "ru": "Пин-Пин смотрел на тёплые облачка над Маминой кастрюлькой. Мама улыбнулась ему.",
+        "es": "PinPin miró las nubecitas tibias sobre la olla de Mamá. Mamá le sonrió."
+      },
+      "action": "PinPin's actual low eye-level POV from a safe step away beside west stove: little puffs of porridge steam rise in near foreground, Mama's warm face above them looking gently DOWN DIRECTLY INTO LENS because lens is child. Mama stirs, stove stays closed, no child leaning over hotpot.",
+      "room": "common",
+      "cast": [
+        "Mama"
+      ],
+      "camera": {
+        "position": [
+          1.1,
+          -1.8,
+          1.05
+        ],
+        "target": [
+          -1.3,
+          -0.6,
+          0.85
+        ],
+        "lensMm": 28,
+        "sensorWidthMm": 36,
+        "status": "proposed narrative camera, not measured image or executed render",
+        "frame": "canonical house +X east, +Y north, +Z up; meters",
+        "aspectRatio": "3:2",
+        "mode": "child-pov"
+      },
+      "blockingAndGaze": "PinPin's actual low eye-level POV from a safe step away beside west stove: little puffs of porridge steam rise in near foreground, Mama's warm face above them looking gently DOWN DIRECTLY INTO LENS because lens is child. Mama stirs, stove stays closed, no child leaning over hotpot.",
+      "continuity": {
+        "tubFillPercent": 0,
+        "magic": "off",
+        "duckLiving": false,
+        "duckMaterial": "carved honey-yellow wood with visible grain, orange rounded beak, friendly inset dark eyes; no added limbs",
+        "duckLocation": "Papa/PomPom at table; Papa delivers offscreen before08",
+        "babyLocation": "Papa lap/arms at table",
+        "papaLocation": "commonroomcaringforbaby"
+      },
+      "reviewStatus": "internally reviewed draft; user review pending",
+      "requiredNewImage": true,
+      "id": "scene-03",
+      "number": 3,
+      "image": "web/scene-03.webp",
+      "sheet": 1,
+      "panel": 3,
+      "selectedMaster": "masters/scene-03-v1.png",
+      "generationRecord": "records/scene-03-v1.json",
+      "geometryGuide": "geometry/child-stove-up/still.png",
+      "selectedMasterSha256": "164ab02a960f76020ed09581bac604c705a0b51fbd5f1f9c291862339b3dbe7f",
+      "imageSha256": "de83ba34ddba2916733e7242fbd0ec959d515a29c440e549f783a6384fc499ea"
+    },
+    {
+      "title": {
+        "en": "PomPom lends his duck",
+        "ru": "Пом-Пом даёт уточку",
+        "es": "PomPom presta su patito"
+      },
+      "paragraphs": {
+        "en": [
+          "PomPom offered his little duck. Papa would put it in the bath for PinPin."
+        ],
+        "ru": [
+          "Пом-Пом протянул свою уточку. Папа отнесёт её в ванну для Пин-Пина."
+        ],
+        "es": [
+          "PomPom ofreció su patito. Papá lo llevaría a la bañera para PinPin."
+        ]
+      },
+      "alt": {
+        "en": "Close actual interaction at breakfast table: Papa supports PomPom on lap with one forearm under baby torso; his free open paw receives one small carved honey-yellow wooden duck from baby's TWO tiny paws. PinPin watches close beside Papa with delighted face. Exactly one adult, one olderchild, one muchsmaller infant. Papa will put toy in bath while PinPin fetches water; no child carrying toy plus two pails.",
+        "ru": "Пом-Пом протянул свою уточку. Папа отнесёт её в ванну для Пин-Пина.",
+        "es": "PomPom ofreció su patito. Papá lo llevaría a la bañera para PinPin."
+      },
+      "action": "Close actual interaction at breakfast table: Papa supports PomPom on lap with one forearm under baby torso; his free open paw receives one small carved honey-yellow wooden duck from baby's TWO tiny paws. PinPin watches close beside Papa with delighted face. Exactly one adult, one olderchild, one muchsmaller infant. Papa will put toy in bath while PinPin fetches water; no child carrying toy plus two pails.",
+      "room": "common",
+      "cast": [
+        "Papa",
+        "PomPom",
+        "PinPin"
+      ],
+      "camera": {
+        "position": [
+          1.1,
+          -1.8,
+          1.05
+        ],
+        "target": [
+          -1.3,
+          -0.6,
+          0.85
+        ],
+        "lensMm": 28,
+        "sensorWidthMm": 36,
+        "status": "proposed narrative camera, not measured image or executed render",
+        "frame": "canonical house +X east, +Y north, +Z up; meters",
+        "aspectRatio": "3:2",
+        "mode": "child-eye-level interaction"
+      },
+      "blockingAndGaze": "Close actual interaction at breakfast table: Papa supports PomPom on lap with one forearm under baby torso; his free open paw receives one small carved honey-yellow wooden duck from baby's TWO tiny paws. PinPin watches close beside Papa with delighted face. Exactly one adult, one olderchild, one muchsmaller infant. Papa will put toy in bath while PinPin fetches water; no child carrying toy plus two pails.",
+      "continuity": {
+        "tubFillPercent": 0,
+        "magic": "off",
+        "duckLiving": false,
+        "duckMaterial": "carved honey-yellow wood with visible grain, orange rounded beak, friendly inset dark eyes; no added limbs",
+        "duckLocation": "Papa/PomPom at table; Papa delivers offscreen before08",
+        "babyLocation": "Papa lap/arms at table",
+        "papaLocation": "commonroomcaringforbaby"
+      },
+      "reviewStatus": "internally reviewed draft; user review pending",
+      "requiredNewImage": true,
+      "id": "scene-04",
+      "number": 4,
+      "image": "web/scene-04.webp",
+      "sheet": 1,
+      "panel": 4,
+      "selectedMaster": "masters/scene-04-v1.png",
+      "generationRecord": "records/scene-04-v1.json",
+      "selectedMasterSha256": "a7a2de7653ab8a555f3997e60d13d6d9286da36c262af28733c6b8b2a600ef76",
+      "imageSha256": "d43f16f6e504b954e3bba1d2d7ffc1f1bbee51d0d4f766f79c20f4dbeeb10f29"
+    },
+    {
+      "id": "scene-05",
+      "number": 5,
+      "sheet": 1,
+      "panel": 5,
+      "title": {
+        "en": "Two buckets",
+        "ru": "Два ведёрка",
+        "es": "Dos cubos"
+      },
+      "image": "web/scene-05.webp",
+      "paragraphs": {
+        "en": [
+          "“Please bring some water for the bath,” said Mama. PinPin picked up the two little buckets."
+        ],
+        "ru": [
+          "— Принеси, пожалуйста, воды для ванны, — сказала Мама. Пин-Пин взял два маленьких ведёрка."
+        ],
+        "es": [
+          "—Trae agua para la bañera, por favor —dijo Mamá. PinPin cogió los dos cubitos."
+        ]
+      },
+      "alt": {
+        "en": "Mama turns from stove toward PinPin holding empty matched small wooden pails; eye contact, room reference establishes bath opening behind PinPin.",
+        "ru": "Два ведёрка",
+        "es": "Dos cubos"
+      },
+      "action": "Mama turns from stove toward PinPin holding empty matched small wooden pails; eye contact, room reference establishes bath opening behind PinPin.",
+      "room": "common",
+      "cast": [
+        "Mama",
+        "PinPin"
+      ],
+      "camera": {
+        "position": [
+          1.1,
+          -1.8,
+          1.05
+        ],
+        "target": [
+          -1.3,
+          -0.6,
+          0.85
+        ],
+        "lensMm": 28,
+        "sensorWidthMm": 36,
+        "status": "proposed blocking; unrendered, not measured image reconstruction",
+        "frame": "canonical house +X east, +Y north, +Z up; meters",
+        "aspectRatio": "3:2"
+      },
+      "blockingAndGaze": "Mama turns from stove toward PinPin holding empty matched small wooden pails; eye contact, room reference establishes bath opening behind PinPin.",
+      "continuity": {
+        "tubFillPercent": 0,
+        "floorWater": "dry",
+        "magic": "none",
+        "doorBathDegrees": 75,
+        "doorBedroomDegrees": 0,
+        "doorFrontDegrees": 0,
+        "babyLocation": "Papa lap/arms at table",
+        "adultOffscreen": "Papa and PomPom in common room; Mama preparing breakfast",
+        "duck": "not yet in frame; waiting bath prop",
+        "duckLiving": false,
+        "duckMaterial": "carved honey-yellow wood with visible grain, orange rounded beak, friendly inset dark eyes; no added limbs",
+        "duckLocation": "Papa/PomPom at table; Papa delivers offscreen before08",
+        "papaLocation": "commonroomcaringforbaby"
+      },
+      "reviewStatus": "internally reviewed draft; user review pending",
+      "reusedFrom": "scene-03",
+      "reuseMode": "byte-for-byte selected-v1 reuse; not newly generated",
+      "sourceProduction": "bath-magic-20261001",
+      "selectedMaster": "masters/reused/scene-05/scene-03-v3.png",
+      "selectedMasterSha256": "b67a51a02991f3fa77af9df72ee1b04581222eb5bcd9ef4634a206423836e0a3",
+      "imageSha256": "ecff260ace6f0bb9f4afed2c156cbc87ba72753b3afedf4e6a23d059c0873112",
+      "reuseRecord": "reuse.json#scene-05"
+    },
+    {
+      "id": "scene-06",
+      "number": 6,
+      "sheet": 1,
+      "panel": 6,
+      "title": {
+        "en": "Fill them up",
+        "ru": "Набираем воду",
+        "es": "A llenar los cubos"
+      },
+      "image": "web/scene-06.webp",
+      "paragraphs": {
+        "en": [
+          "He filled one bucket, then the other. The water went glug, glug, glug."
+        ],
+        "ru": [
+          "Он наполнил одно ведёрко, потом другое. Вода булькала: буль-буль-буль."
+        ],
+        "es": [
+          "Llenó un cubo y después el otro. El agua hacía glug, glug, glug."
+        ]
+      },
+      "alt": {
+        "en": "PinPin fills small pail from new lidded clay household water jar with low wooden spigot beside east kitchen counter; second already half-filled on floor. Clearly portable jar, not new built-in plumbing.",
+        "ru": "Набираем воду",
+        "es": "A llenar los cubos"
+      },
+      "action": "PinPin fills small pail from new lidded clay household water jar with low wooden spigot beside east kitchen counter; second already half-filled on floor. Clearly portable jar, not new built-in plumbing.",
+      "room": "common",
+      "cast": [
+        "PinPin"
+      ],
+      "camera": {
+        "position": [
+          1.65,
+          -0.9,
+          0.55
+        ],
+        "target": [
+          2.48,
+          -1.0,
+          0.3
+        ],
+        "lensMm": 40,
+        "sensorWidthMm": 36,
+        "status": "proposed blocking; unrendered, not measured image reconstruction",
+        "frame": "canonical house +X east, +Y north, +Z up; meters",
+        "aspectRatio": "3:2"
+      },
+      "blockingAndGaze": "PinPin fills small pail from new lidded clay household water jar with low wooden spigot beside east kitchen counter; second already half-filled on floor. Clearly portable jar, not new built-in plumbing.",
+      "continuity": {
+        "tubFillPercent": 0,
+        "floorWater": "dry",
+        "magic": "none",
+        "doorBathDegrees": 75,
+        "doorBedroomDegrees": 0,
+        "doorFrontDegrees": 0,
+        "babyLocation": "Papa lap/arms at table",
+        "adultOffscreen": "Papa and PomPom in common room; Mama preparing breakfast",
+        "duck": "not yet in frame; waiting bath prop",
+        "duckLiving": false,
+        "duckMaterial": "carved honey-yellow wood with visible grain, orange rounded beak, friendly inset dark eyes; no added limbs",
+        "duckLocation": "Papa/PomPom at table; Papa delivers offscreen before08",
+        "papaLocation": "commonroomcaringforbaby"
+      },
+      "reviewStatus": "internally reviewed draft; user review pending",
+      "reusedFrom": "scene-04",
+      "reuseMode": "byte-for-byte selected-v1 reuse; not newly generated",
+      "sourceProduction": "bath-magic-20261001",
+      "selectedMaster": "masters/reused/scene-06/scene-04-v1.png",
+      "selectedMasterSha256": "f342546a86269cb6edfaf56b8e9045acd0ef5253c5fa87c284e810c1dd4567bd",
+      "imageSha256": "e09a9350e8cec7be55f6d7015e2c245ebaa5300ed893ef1c3ceac8daadd446ba",
+      "reuseRecord": "reuse.json#scene-06"
+    },
+    {
+      "id": "scene-07",
+      "number": 7,
+      "sheet": 1,
+      "panel": 7,
+      "title": {
+        "en": "A careful journey",
+        "ru": "Осторожно несём",
+        "es": "Con mucho cuidado"
+      },
+      "image": "web/scene-07.webp",
+      "paragraphs": {
+        "en": [
+          "PinPin carried the buckets carefully. A little splash landed on his toes."
+        ],
+        "ru": [
+          "Пин-Пин осторожно понёс ведёрки. Немного воды плеснуло ему на лапки."
+        ],
+        "es": [
+          "PinPin llevó los cubos con cuidado. Un poquito de agua le salpicó los pies."
+        ]
+      },
+      "alt": {
+        "en": "Child travels around table toward northwest bath opening, two small half-full pails at sides; only one little splash, no flood. Low tracking angle follows actual route.",
+        "ru": "Осторожно несём",
+        "es": "Con mucho cuidado"
+      },
+      "action": "Child travels around table toward northwest bath opening, two small half-full pails at sides; only one little splash, no flood. Low tracking angle follows actual route.",
+      "room": "threshold",
+      "cast": [
+        "PinPin"
+      ],
+      "camera": {
+        "position": [
+          -0.1,
+          -0.35,
+          0.3
+        ],
+        "target": [
+          -2.0,
+          0.8,
+          0.35
+        ],
+        "lensMm": 32,
+        "sensorWidthMm": 36,
+        "status": "proposed blocking; unrendered, not measured image reconstruction",
+        "frame": "canonical house +X east, +Y north, +Z up; meters",
+        "aspectRatio": "3:2"
+      },
+      "blockingAndGaze": "Child travels around table toward northwest bath opening, two small half-full pails at sides; only one little splash, no flood. Low tracking angle follows actual route.",
+      "continuity": {
+        "tubFillPercent": 0,
+        "floorWater": "a few drops from carrying only",
+        "magic": "none",
+        "doorBathDegrees": 75,
+        "doorBedroomDegrees": 0,
+        "doorFrontDegrees": 0,
+        "babyLocation": "Papa lap/arms at table",
+        "adultOffscreen": "Papa and PomPom in common room; Mama preparing breakfast",
+        "duck": "not yet in frame; waiting bath prop",
+        "duckLiving": false,
+        "duckMaterial": "carved honey-yellow wood with visible grain, orange rounded beak, friendly inset dark eyes; no added limbs",
+        "duckLocation": "Papa/PomPom at table; Papa delivers offscreen before08",
+        "papaLocation": "commonroomcaringforbaby"
+      },
+      "reviewStatus": "internally reviewed draft; user review pending",
+      "reusedFrom": "scene-05",
+      "reuseMode": "byte-for-byte selected-v1 reuse; not newly generated",
+      "sourceProduction": "bath-magic-20261001",
+      "selectedMaster": "masters/reused/scene-07/scene-05-v2.png",
+      "selectedMasterSha256": "69b7cd76f22d1813a4fc21896bb4738f46c430445865ce5679d611b545682035",
+      "imageSha256": "3c49dea690f22fe5723c6ac503eecb9323b56f494edb066535900cbcfb567225",
+      "reuseRecord": "reuse.json#scene-07"
+    },
+    {
+      "id": "scene-08",
+      "number": 8,
+      "sheet": 2,
+      "panel": 1,
+      "title": {
+        "en": "Not very much",
+        "ru": "Совсем немного",
+        "es": "Todavía falta mucho"
+      },
+      "image": "web/scene-08.webp",
+      "paragraphs": {
+        "en": [
+          "He poured both buckets into the bath. The bottom was only just covered."
+        ],
+        "ru": [
+          "Он вылил оба ведёрка в ванну. Вода едва покрыла дно."
+        ],
+        "es": [
+          "Vació los dos cubos en la bañera. El agua apenas cubría el fondo."
+        ]
+      },
+      "alt": {
+        "en": "PinPin tips last pail using two paws over broad low tub; first empty pail on entry-side floor. Small yellow wooden duck floats in shallow water, introduced now.",
+        "ru": "Совсем немного",
+        "es": "Todavía falta mucho"
+      },
+      "action": "PinPin tips last pail using two paws over broad low tub; first empty pail on entry-side floor. Small yellow wooden duck floats in shallow water, introduced now.",
+      "room": "bath",
+      "cast": [
+        "PinPin"
+      ],
+      "camera": {
+        "position": [
+          -1.97,
+          1.28,
+          1.1
+        ],
+        "target": [
+          -3.74,
+          2.66,
+          0.55
+        ],
+        "lensMm": 24,
+        "sensorWidthMm": 36,
+        "status": "proposed blocking; unrendered, not measured image reconstruction",
+        "frame": "canonical house +X east, +Y north, +Z up; meters",
+        "aspectRatio": "3:2"
+      },
+      "blockingAndGaze": "PinPin tips last pail using two paws over broad low tub; first empty pail on entry-side floor. Small yellow wooden duck floats in shallow water, introduced now.",
+      "continuity": {
+        "tubFillPercent": 5,
+        "floorWater": "dry apart from carry drops",
+        "magic": "none",
+        "doorBathDegrees": 75,
+        "doorBedroomDegrees": 0,
+        "doorFrontDegrees": 0,
+        "babyLocation": "Papa lap/arms at table",
+        "adultOffscreen": "Papa and PomPom in common room; Mama preparing breakfast",
+        "duck": "in bathtub",
+        "duckLiving": false,
+        "duckMaterial": "carved honey-yellow wood with visible grain, orange rounded beak, friendly inset dark eyes; no added limbs",
+        "duckLocation": "in bathtub",
+        "papaLocation": "commonroomcaringforbaby"
+      },
+      "reviewStatus": "internally reviewed draft; user review pending",
+      "reusedFrom": "scene-06",
+      "reuseMode": "byte-for-byte selected-v1 reuse; not newly generated",
+      "sourceProduction": "bath-magic-20261001",
+      "selectedMaster": "masters/reused/scene-08/scene-06-v2.png",
+      "selectedMasterSha256": "1eb07ca9910442225049dc22e5fcde5ffa8cb98db2144c3972ba2fbcc546f02f",
+      "imageSha256": "9f74c65275f0d673cb52c24b0d0b2fa0fccefe7636abb62002a4c668d164104c",
+      "reuseRecord": "reuse.json#scene-08"
+    },
+    {
+      "title": {
+        "en": "Hello down there",
+        "ru": "Привет, там внизу!",
+        "es": "¡Hola, ahí abajo!"
+      },
+      "paragraphs": {
+        "en": [
+          "PinPin peered into the bath. There was the duck—and his own little face!"
+        ],
+        "ru": [
+          "Пин-Пин заглянул в ванну. Там были уточка — и его собственная мордочка!"
+        ],
+        "es": [
+          "PinPin se asomó a la bañera. ¡Allí estaban el patito y su propia carita!"
+        ]
+      },
+      "alt": {
+        "en": "Exact PinPin POV looking down into nearlyempty bath from east rim: his two small brown paws bracket lower frame on dry wooden rim, shallow clear water far below, one carved duck and soft understandable reflection of PinPin's face. Reflected face is visibly a WATER REFLECTION, not second hedgehog swimming. No complete child body outside POV, no gold yet.",
+        "ru": "Пин-Пин заглянул в ванну. Там были уточка — и его собственная мордочка!",
+        "es": "PinPin se asomó a la bañera. ¡Allí estaban el patito y su propia carita!"
+      },
+      "action": "Exact PinPin POV looking down into nearlyempty bath from east rim: his two small brown paws bracket lower frame on dry wooden rim, shallow clear water far below, one carved duck and soft understandable reflection of PinPin's face. Reflected face is visibly a WATER REFLECTION, not second hedgehog swimming. No complete child body outside POV, no gold yet.",
+      "room": "bath",
+      "cast": [
+        "PinPin"
+      ],
+      "camera": {
+        "position": [
+          -1.97,
+          1.28,
+          1.1
+        ],
+        "target": [
+          -3.74,
+          2.66,
+          0.55
+        ],
+        "lensMm": 24,
+        "sensorWidthMm": 36,
+        "status": "proposed narrative camera, not measured image or executed render",
+        "frame": "canonical house +X east, +Y north, +Z up; meters",
+        "aspectRatio": "3:2",
+        "mode": "child-pov"
+      },
+      "blockingAndGaze": "Exact PinPin POV looking down into nearlyempty bath from east rim: his two small brown paws bracket lower frame on dry wooden rim, shallow clear water far below, one carved duck and soft understandable reflection of PinPin's face. Reflected face is visibly a WATER REFLECTION, not second hedgehog swimming. No complete child body outside POV, no gold yet.",
+      "continuity": {
+        "tubFillPercent": 5,
+        "magic": "off",
+        "duckLiving": false,
+        "duckMaterial": "carved honey-yellow wood with visible grain, orange rounded beak, friendly inset dark eyes; no added limbs",
+        "duckLocation": "in bathtub",
+        "babyLocation": "Papa lap/arms at table",
+        "papaLocation": "commonroomcaringforbaby"
+      },
+      "reviewStatus": "internally reviewed draft; user review pending",
+      "requiredNewImage": true,
+      "id": "scene-09",
+      "number": 9,
+      "image": "web/scene-09.webp",
+      "sheet": 2,
+      "panel": 2,
+      "selectedMaster": "masters/scene-09-v1.png",
+      "generationRecord": "records/scene-09-v1.json",
+      "geometryGuide": "geometry/child-pov-down/still.png",
+      "selectedMasterSha256": "20ccfbfa3bff97694a73074e81fc2c67a2c25f44e501af8767a7a39f18b3ad74",
+      "imageSha256": "08421adfe5259fe0f1c13f8628099884cc13b95fab5e105917d7bf9fddb7ba18",
+      "visibleCastNotes": "Two forepaws and face reflection only."
+    },
+    {
+      "id": "scene-10",
+      "number": 10,
+      "sheet": 2,
+      "panel": 3,
+      "title": {
+        "en": "So many trips",
+        "ru": "Сколько же ходить",
+        "es": "Cuántos viajes"
+      },
+      "image": "web/scene-10.webp",
+      "paragraphs": {
+        "en": [
+          "He looked at the buckets, then at the big bath. “That will take lots of trips.”"
+        ],
+        "ru": [
+          "Он посмотрел на ведёрки, потом на большую ванну. — Это сколько же раз ходить!"
+        ],
+        "es": [
+          "Miró los cubos y después la gran bañera. —Voy a tener que ir y volver muchas veces."
+        ]
+      },
+      "alt": {
+        "en": "PinPin rests both empty pails outside east tub rim and looks between pails and broad bath, body angled toward water, camera includes room to show disproportion.",
+        "ru": "Сколько же ходить",
+        "es": "Cuántos viajes"
+      },
+      "action": "PinPin rests both empty pails outside east tub rim and looks between pails and broad bath, body angled toward water, camera includes room to show disproportion.",
+      "room": "bath",
+      "cast": [
+        "PinPin"
+      ],
+      "camera": {
+        "position": [
+          -1.97,
+          1.28,
+          1.1
+        ],
+        "target": [
+          -3.74,
+          2.66,
+          0.55
+        ],
+        "lensMm": 24,
+        "sensorWidthMm": 36,
+        "status": "proposed blocking; unrendered, not measured image reconstruction",
+        "frame": "canonical house +X east, +Y north, +Z up; meters",
+        "aspectRatio": "3:2"
+      },
+      "blockingAndGaze": "PinPin rests both empty pails outside east tub rim and looks between pails and broad bath, body angled toward water, camera includes room to show disproportion.",
+      "continuity": {
+        "tubFillPercent": 5,
+        "floorWater": "dry",
+        "magic": "none",
+        "doorBathDegrees": 75,
+        "doorBedroomDegrees": 0,
+        "doorFrontDegrees": 0,
+        "babyLocation": "Papa lap/arms at table",
+        "adultOffscreen": "Papa and PomPom in common room; Mama preparing breakfast",
+        "duck": "in bathtub",
+        "duckLiving": false,
+        "duckMaterial": "carved honey-yellow wood with visible grain, orange rounded beak, friendly inset dark eyes; no added limbs",
+        "duckLocation": "in bathtub",
+        "papaLocation": "commonroomcaringforbaby"
+      },
+      "reviewStatus": "internally reviewed draft; user review pending",
+      "reusedFrom": "scene-07",
+      "reuseMode": "byte-for-byte selected-v1 reuse; not newly generated",
+      "sourceProduction": "bath-magic-20261001",
+      "selectedMaster": "masters/reused/scene-10/scene-07-v2.png",
+      "selectedMasterSha256": "c8c50dbfbd7d1f1e25ef1c1a4d9b6726301a1e7adb94e2666fbe680fcd32ca58",
+      "imageSha256": "3f54eb3e8a5665dd71872182b4c05f00a30c0d8b11bbf8ce3a99cfcca135b347",
+      "reuseRecord": "reuse.json#scene-10"
+    },
+    {
+      "title": {
+        "en": "A bright idea",
+        "ru": "Вот идея!",
+        "es": "¡Una idea!"
+      },
+      "paragraphs": {
+        "en": [
+          "PinPin’s eyes lit up. “I could make the water come here!”"
+        ],
+        "ru": [
+          "Глаза Пин-Пина загорелись. — А я могу сделать воду прямо здесь!"
+        ],
+        "es": [
+          "A PinPin se le iluminaron los ojos. —¡Puedo hacer que el agua venga aquí!"
+        ]
+      },
+      "alt": {
+        "en": "Warm intimate PinPin face closeup from beside bath at HIS eyeheight; he looks nearly DIRECTLY INTO LENS with a pleased conspiratorial-but-open shared smile, inviting reader to notice his idea. One forepaw lifts thoughtfully in lowerframe. Background bathrim and towels only, no new magic, no extra eyes. Motivated shared-look pause, not a whole chapter of portraits.",
+        "ru": "Глаза Пин-Пина загорелись. — А я могу сделать воду прямо здесь!",
+        "es": "A PinPin se le iluminaron los ojos. —¡Puedo hacer que el agua venga aquí!"
+      },
+      "action": "Warm intimate PinPin face closeup from beside bath at HIS eyeheight; he looks nearly DIRECTLY INTO LENS with a pleased conspiratorial-but-open shared smile, inviting reader to notice his idea. One forepaw lifts thoughtfully in lowerframe. Background bathrim and towels only, no new magic, no extra eyes. Motivated shared-look pause, not a whole chapter of portraits.",
+      "room": "bath",
+      "cast": [
+        "PinPin"
+      ],
+      "camera": {
+        "position": [
+          -1.97,
+          1.28,
+          1.1
+        ],
+        "target": [
+          -3.74,
+          2.66,
+          0.55
+        ],
+        "lensMm": 24,
+        "sensorWidthMm": 36,
+        "status": "proposed narrative camera, not measured image or executed render",
+        "frame": "canonical house +X east, +Y north, +Z up; meters",
+        "aspectRatio": "3:2",
+        "mode": "shared-look closeup"
+      },
+      "blockingAndGaze": "Warm intimate PinPin face closeup from beside bath at HIS eyeheight; he looks nearly DIRECTLY INTO LENS with a pleased conspiratorial-but-open shared smile, inviting reader to notice his idea. One forepaw lifts thoughtfully in lowerframe. Background bathrim and towels only, no new magic, no extra eyes. Motivated shared-look pause, not a whole chapter of portraits.",
+      "continuity": {
+        "tubFillPercent": 5,
+        "magic": "off",
+        "duckLiving": false,
+        "duckMaterial": "carved honey-yellow wood with visible grain, orange rounded beak, friendly inset dark eyes; no added limbs",
+        "duckLocation": "in bathtub",
+        "babyLocation": "Papa lap/arms at table",
+        "papaLocation": "commonroomcaringforbaby"
+      },
+      "reviewStatus": "internally reviewed draft; user review pending",
+      "requiredNewImage": true,
+      "id": "scene-11",
+      "number": 11,
+      "image": "web/scene-11.webp",
+      "sheet": 2,
+      "panel": 4,
+      "selectedMaster": "masters/scene-11-v2.png",
+      "generationRecord": "records/scene-11-v2.json",
+      "selectedMasterSha256": "de367693f2102482e5d4f5b18acb3e599d02c89ee8c293a831ae7e2454473b77",
+      "imageSha256": "dbcf9af5f65bcf406428a33bb865372b6e59ebb34151fdafe12e72264d1b6b16"
+    },
+    {
+      "id": "scene-12",
+      "number": 12,
+      "sheet": 2,
+      "panel": 5,
+      "title": {
+        "en": "Round and round",
+        "ru": "Круг над водой",
+        "es": "Un círculo sobre el agua"
+      },
+      "image": "web/scene-12.webp",
+      "paragraphs": {
+        "en": [
+          "He traced a circle over the bath. A soft golden line followed his paw."
+        ],
+        "ru": [
+          "Он начертил круг над ванной. За лапкой потянулась мягкая золотая полоска."
+        ],
+        "es": [
+          "Trazó un círculo sobre la bañera. Una suave línea dorada siguió su patita."
+        ]
+      },
+      "alt": {
+        "en": "Over same right shoulder used later in reverse: one paw draws clockwise horizontal gold ring just above shallow water near east end of tub; visible bright leading point and fading short tail show direction. No writing or symbolic runes.",
+        "ru": "Круг над водой",
+        "es": "Un círculo sobre el agua"
+      },
+      "action": "Over same right shoulder used later in reverse: one paw draws clockwise horizontal gold ring just above shallow water near east end of tub; visible bright leading point and fading short tail show direction. No writing or symbolic runes.",
+      "room": "bath",
+      "cast": [
+        "PinPin"
+      ],
+      "camera": {
+        "position": [
+          -2.4,
+          2.15,
+          1.35
+        ],
+        "target": [
+          -3.1,
+          2.65,
+          0.42
+        ],
+        "lensMm": 45,
+        "sensorWidthMm": 36,
+        "status": "proposed blocking; unrendered, not measured image reconstruction",
+        "frame": "canonical house +X east, +Y north, +Z up; meters",
+        "aspectRatio": "3:2"
+      },
+      "blockingAndGaze": "Over same right shoulder used later in reverse: one paw draws clockwise horizontal gold ring just above shallow water near east end of tub; visible bright leading point and fading short tail show direction. No writing or symbolic runes.",
+      "continuity": {
+        "tubFillPercent": 5,
+        "floorWater": "dry",
+        "magic": "tracing clockwise",
+        "doorBathDegrees": 75,
+        "doorBedroomDegrees": 0,
+        "doorFrontDegrees": 0,
+        "babyLocation": "Papa lap/arms at table",
+        "adultOffscreen": "Papa and PomPom in common room; Mama preparing breakfast",
+        "duck": "in bathtub",
+        "duckLiving": false,
+        "duckMaterial": "carved honey-yellow wood with visible grain, orange rounded beak, friendly inset dark eyes; no added limbs",
+        "duckLocation": "in bathtub",
+        "papaLocation": "commonroomcaringforbaby"
+      },
+      "reviewStatus": "internally reviewed draft; user review pending",
+      "reusedFrom": "scene-09",
+      "reuseMode": "byte-for-byte selected-v1 reuse; not newly generated",
+      "sourceProduction": "bath-magic-20261001",
+      "selectedMaster": "masters/reused/scene-12/scene-09-v1.png",
+      "selectedMasterSha256": "7f34bcffcbf3f73a9e4d98defd151165460075aff4f5cee912cca3fb4562f4fb",
+      "imageSha256": "ffc39c2df15f8fbc2b02e6eb0e1fb3d257cbe84ba40ed81a43130443006af1cd",
+      "reuseRecord": "reuse.json#scene-12"
+    },
+    {
+      "id": "scene-13",
+      "number": 13,
+      "sheet": 2,
+      "panel": 6,
+      "title": {
+        "en": "A little stream",
+        "ru": "Тонкая струйка",
+        "es": "Un chorrito"
+      },
+      "image": "web/scene-13.webp",
+      "paragraphs": {
+        "en": [
+          "Drip, drip—then a little stream! PinPin’s eyes opened wide."
+        ],
+        "ru": [
+          "Кап-кап — и побежала струйка! Пин-Пин широко раскрыл глаза."
+        ],
+        "es": [
+          "¡Plin, plin… y salió un chorrito! PinPin abrió mucho los ojos."
+        ]
+      },
+      "alt": {
+        "en": "Stream emerges upward briefly from center of horizontal ring then curls downward into tub, contained small fountain; ring fixed just below rim height. PinPin leans forward without entering tub.",
+        "ru": "Тонкая струйка",
+        "es": "Un chorrito"
+      },
+      "action": "Stream emerges upward briefly from center of horizontal ring then curls downward into tub, contained small fountain; ring stays at the same horizontal position, floating just above the rising water. PinPin leans forward without entering tub.",
+      "room": "bath",
+      "cast": [
+        "PinPin"
+      ],
+      "camera": {
+        "position": [
+          -3.1,
+          1.75,
+          0.63
+        ],
+        "target": [
+          -3.35,
+          2.65,
+          0.63
+        ],
+        "lensMm": 50,
+        "sensorWidthMm": 36,
+        "status": "proposed blocking; unrendered, not measured image reconstruction",
+        "frame": "canonical house +X east, +Y north, +Z up; meters",
+        "aspectRatio": "3:2"
+      },
+      "blockingAndGaze": "Stream emerges upward briefly from center of horizontal ring then curls downward into tub, contained small fountain; ring stays at the same horizontal position, floating just above the rising water. PinPin leans forward without entering tub.",
+      "continuity": {
+        "tubFillPercent": 15,
+        "floorWater": "dry",
+        "magic": "active",
+        "doorBathDegrees": 75,
+        "doorBedroomDegrees": 0,
+        "doorFrontDegrees": 0,
+        "babyLocation": "Papa lap/arms at table",
+        "adultOffscreen": "Papa and PomPom in common room; Mama preparing breakfast",
+        "duck": "in bathtub",
+        "duckLiving": false,
+        "duckMaterial": "carved honey-yellow wood with visible grain, orange rounded beak, friendly inset dark eyes; no added limbs",
+        "duckLocation": "in bathtub",
+        "papaLocation": "commonroomcaringforbaby"
+      },
+      "reviewStatus": "internally reviewed draft; user review pending",
+      "reusedFrom": "scene-10",
+      "reuseMode": "byte-for-byte selected-v1 reuse; not newly generated",
+      "sourceProduction": "bath-magic-20261001",
+      "selectedMaster": "masters/reused/scene-13/scene-10-v1.png",
+      "selectedMasterSha256": "673110df360bf0cd017101ab47a8e47b1e4b78e1ac57256b8173af71e6f32193",
+      "imageSha256": "0bc5ef09ffce7075630d0d51cac75b6086a64afc3c603ac9951a52b8fc02c9bb",
+      "reuseRecord": "reuse.json#scene-13"
+    },
+    {
+      "id": "scene-14",
+      "number": 14,
+      "sheet": 2,
+      "panel": 7,
+      "title": {
+        "en": "It works!",
+        "ru": "Получилось!",
+        "es": "¡Funciona!"
+      },
+      "image": "web/scene-14.webp",
+      "paragraphs": {
+        "en": [
+          "“I did it!” he whispered. The little duck bobbed up and down."
+        ],
+        "ru": [
+          "— Получилось! — прошептал он. Маленькая уточка закачалась на воде."
+        ],
+        "es": [
+          "—¡Lo conseguí! —susurró. El patito subía y bajaba sobre el agua."
+        ]
+      },
+      "alt": {
+        "en": "Duck-level angle across ripples toward delighted PinPin at east rim, same single stream behind duck; water rising, no overflow yet.",
+        "ru": "Получилось!",
+        "es": "¡Funciona!"
+      },
+      "action": "Duck-level angle across ripples toward delighted PinPin at east rim, same single stream behind duck; water rising, no overflow yet.",
+      "room": "bath",
+      "cast": [
+        "PinPin"
+      ],
+      "camera": {
+        "position": [
+          -4.45,
+          2.8,
+          0.49
+        ],
+        "target": [
+          -2.85,
+          2.55,
+          0.72
+        ],
+        "lensMm": 40,
+        "sensorWidthMm": 36,
+        "status": "proposed blocking; unrendered, not measured image reconstruction",
+        "frame": "canonical house +X east, +Y north, +Z up; meters",
+        "aspectRatio": "3:2"
+      },
+      "blockingAndGaze": "Duck-level angle across ripples toward delighted PinPin at east rim, same single stream behind duck; water rising, no overflow yet.",
+      "continuity": {
+        "tubFillPercent": 35,
+        "floorWater": "dry",
+        "magic": "active",
+        "doorBathDegrees": 75,
+        "doorBedroomDegrees": 0,
+        "doorFrontDegrees": 0,
+        "babyLocation": "Papa lap/arms at table",
+        "adultOffscreen": "Papa and PomPom in common room; Mama preparing breakfast",
+        "duck": "in bathtub",
+        "duckLiving": false,
+        "duckMaterial": "carved honey-yellow wood with visible grain, orange rounded beak, friendly inset dark eyes; no added limbs",
+        "duckLocation": "in bathtub",
+        "papaLocation": "commonroomcaringforbaby"
+      },
+      "reviewStatus": "internally reviewed draft; user review pending",
+      "reusedFrom": "scene-11",
+      "reuseMode": "byte-for-byte selected-v1 reuse; not newly generated",
+      "sourceProduction": "bath-magic-20261001",
+      "selectedMaster": "masters/reused/scene-14/scene-11-v1.png",
+      "selectedMasterSha256": "bd95be3d38289d7abcd8eea1b7d8a20506ba6673ece696f87c475ab9ea78384f",
+      "imageSha256": "77f675f8a815c1aebb594626491ba190ec91014378fe00347a53f37f3c0e3a32",
+      "reuseRecord": "reuse.json#scene-14"
+    },
+    {
+      "title": {
+        "en": "Ripples for his paws",
+        "ru": "Круги на воде",
+        "es": "Ondas en el agua"
+      },
+      "paragraphs": {
+        "en": [
+          "He rested his paws on the rim. Round little ripples spread beneath them."
+        ],
+        "ru": [
+          "Он положил лапки на край ванны. Внизу разбегались круглые волны."
+        ],
+        "es": [
+          "Apoyó las patitas en el borde. Abajo se extendían pequeñas ondas redondas."
+        ]
+      },
+      "alt": {
+        "en": "Child POV at same east rim: two paws clearly resting on drywood lowerleft/right, tiny fountain and single gold ring in middlewater, carved wooden duck bobbing beyond, concentric ripples approaching. Water still wellbelowrim, no splashoutsidetub, no reflected secondchild. Sensory enjoyment, pause withoutplotrush.",
+        "ru": "Он положил лапки на край ванны. Внизу разбегались круглые волны.",
+        "es": "Apoyó las patitas en el borde. Abajo se extendían pequeñas ondas redondas."
+      },
+      "action": "Child POV at same east rim: two paws clearly resting on drywood lowerleft/right, tiny fountain and single gold ring in middlewater, carved wooden duck bobbing beyond, concentric ripples approaching. Water still wellbelowrim, no splashoutsidetub, no reflected secondchild. Sensory enjoyment, pause withoutplotrush.",
+      "room": "bath",
+      "cast": [
+        "PinPin"
+      ],
+      "camera": {
+        "position": [
+          -1.97,
+          1.28,
+          1.1
+        ],
+        "target": [
+          -3.74,
+          2.66,
+          0.55
+        ],
+        "lensMm": 24,
+        "sensorWidthMm": 36,
+        "status": "proposed narrative camera, not measured image or executed render",
+        "frame": "canonical house +X east, +Y north, +Z up; meters",
+        "aspectRatio": "3:2",
+        "mode": "child-pov"
+      },
+      "blockingAndGaze": "Child POV at same east rim: two paws clearly resting on drywood lowerleft/right, tiny fountain and single gold ring in middlewater, carved wooden duck bobbing beyond, concentric ripples approaching. Water still wellbelowrim, no splashoutsidetub, no reflected secondchild. Sensory enjoyment, pause withoutplotrush.",
+      "continuity": {
+        "tubFillPercent": 45,
+        "magic": "active water ring",
+        "duckLiving": false,
+        "duckMaterial": "carved honey-yellow wood with visible grain, orange rounded beak, friendly inset dark eyes; no added limbs",
+        "duckLocation": "in bathtub",
+        "babyLocation": "Papa lap/arms at table",
+        "papaLocation": "commonroomcaringforbaby"
+      },
+      "reviewStatus": "internally reviewed draft; user review pending",
+      "requiredNewImage": true,
+      "id": "scene-15",
+      "number": 15,
+      "image": "web/scene-15.webp",
+      "sheet": 3,
+      "panel": 1,
+      "selectedMaster": "masters/scene-15-v1.png",
+      "generationRecord": "records/scene-15-v1.json",
+      "geometryGuide": "geometry/child-pov-down/still.png",
+      "selectedMasterSha256": "10920c24c0943bf06edf0c1c34c47e8aa4bbf8cfc7f2c1890e33106c33a07ce2",
+      "imageSha256": "db48418b602e0c90cf27ebc802cac2dd8e7823c009089e77a06c28c4c31f8354",
+      "visibleCastNotes": "Two forepaws only; camera is child POV."
+    },
+    {
+      "title": {
+        "en": "He liked this",
+        "ru": "Как приятно",
+        "es": "Qué gusto"
+      },
+      "paragraphs": {
+        "en": [
+          "PinPin listened to the little splashes. He liked this very much."
+        ],
+        "ru": [
+          "Пин-Пин слушал тихий плеск. Как же ему это нравилось!"
+        ],
+        "es": [
+          "PinPin escuchó los suaves chapoteos. Aquello le gustaba muchísimo."
+        ]
+      },
+      "alt": {
+        "en": "Close relaxed pleased PinPin face reflected warm waterlight in eyes, chin above dry bathrim, BOTH paws resting onrim, soft eyes looking nearviewer at duckheight as if sharing delight. Gentle closedmouthsmile, not huge exaggerated grin. Beautiful breathing pause; only PinPin.",
+        "ru": "Пин-Пин слушал тихий плеск. Как же ему это нравилось!",
+        "es": "PinPin escuchó los suaves chapoteos. Aquello le gustaba muchísimo."
+      },
+      "action": "Close relaxed pleased PinPin face reflected warm waterlight in eyes, chin above dry bathrim, BOTH paws resting onrim, soft eyes looking nearviewer at duckheight as if sharing delight. Gentle closedmouthsmile, not huge exaggerated grin. Beautiful breathing pause; only PinPin.",
+      "room": "bath",
+      "cast": [
+        "PinPin"
+      ],
+      "camera": {
+        "position": [
+          -1.97,
+          1.28,
+          1.1
+        ],
+        "target": [
+          -3.74,
+          2.66,
+          0.55
+        ],
+        "lensMm": 24,
+        "sensorWidthMm": 36,
+        "status": "proposed narrative camera, not measured image or executed render",
+        "frame": "canonical house +X east, +Y north, +Z up; meters",
+        "aspectRatio": "3:2",
+        "mode": "shared-look closeup"
+      },
+      "blockingAndGaze": "Close relaxed pleased PinPin face reflected warm waterlight in eyes, chin above dry bathrim, BOTH paws resting onrim, soft eyes looking nearviewer at duckheight as if sharing delight. Gentle closedmouthsmile, not huge exaggerated grin. Beautiful breathing pause; only PinPin.",
+      "continuity": {
+        "tubFillPercent": 55,
+        "magic": "active water ring",
+        "duckLiving": false,
+        "duckMaterial": "carved honey-yellow wood with visible grain, orange rounded beak, friendly inset dark eyes; no added limbs",
+        "duckLocation": "in bathtub",
+        "babyLocation": "Papa lap/arms at table",
+        "papaLocation": "commonroomcaringforbaby"
+      },
+      "reviewStatus": "internally reviewed draft; user review pending",
+      "requiredNewImage": true,
+      "id": "scene-16",
+      "number": 16,
+      "image": "web/scene-16.webp",
+      "sheet": 3,
+      "panel": 2,
+      "selectedMaster": "masters/scene-16-v2.png",
+      "generationRecord": "records/scene-16-v2.json",
+      "selectedMasterSha256": "6fc0d074f61f415fd73a0562efcb8de21982685955a546f971f7e431b6935a8b",
+      "imageSha256": "fd9fad80648244611cd8aab3bb24c39f244819cfea1afff66e5bb30a48401e86"
+    },
+    {
+      "title": {
+        "en": "Up and down",
+        "ru": "Вверх и вниз",
+        "es": "Arriba y abajo"
+      },
+      "paragraphs": {
+        "en": [
+          "The duck went up… and down. PinPin giggled."
+        ],
+        "ru": [
+          "Уточка — вверх… и вниз. Пин-Пин захихикал."
+        ],
+        "es": [
+          "El patito subía… y bajaba. PinPin soltó una risita."
+        ]
+      },
+      "alt": {
+        "en": "Extreme duck-level closeup one ordinary carved wooden toyduck on tiny rounded swell in bath. Woodgrain honeygold same09design, orange rounded beak CLOSED, inset dark friendlyeyes; toy NOT aliveyet. PinPin softbackground face laughs looking atduck. Ring/fountain softly behind but not spectaculargeyser; water belowrim.",
+        "ru": "Уточка — вверх… и вниз. Пин-Пин захихикал.",
+        "es": "El patito subía… y bajaba. PinPin soltó una risita."
+      },
+      "action": "Extreme duck-level closeup one ordinary carved wooden toyduck on tiny rounded swell in bath. Woodgrain honeygold same09design, orange rounded beak CLOSED, inset dark friendlyeyes; toy NOT aliveyet. PinPin softbackground face laughs looking atduck. Ring/fountain softly behind but not spectaculargeyser; water belowrim.",
+      "room": "bath",
+      "cast": [
+        "PinPin"
+      ],
+      "camera": {
+        "position": [
+          -1.97,
+          1.28,
+          1.1
+        ],
+        "target": [
+          -3.74,
+          2.66,
+          0.55
+        ],
+        "lensMm": 24,
+        "sensorWidthMm": 36,
+        "status": "proposed narrative camera, not measured image or executed render",
+        "frame": "canonical house +X east, +Y north, +Z up; meters",
+        "aspectRatio": "3:2",
+        "mode": "duck-eye-level closeup"
+      },
+      "blockingAndGaze": "Extreme duck-level closeup one ordinary carved wooden toyduck on tiny rounded swell in bath. Woodgrain honeygold same09design, orange rounded beak CLOSED, inset dark friendlyeyes; toy NOT aliveyet. PinPin softbackground face laughs looking atduck. Ring/fountain softly behind but not spectaculargeyser; water belowrim.",
+      "continuity": {
+        "tubFillPercent": 65,
+        "magic": "active water ring; duck inert",
+        "duckLiving": false,
+        "duckMaterial": "carved honey-yellow wood with visible grain, orange rounded beak, friendly inset dark eyes; no added limbs",
+        "duckLocation": "in bathtub",
+        "babyLocation": "Papa lap/arms at table",
+        "papaLocation": "commonroomcaringforbaby"
+      },
+      "reviewStatus": "internally reviewed draft; user review pending",
+      "requiredNewImage": true,
+      "id": "scene-17",
+      "number": 17,
+      "image": "web/scene-17.webp",
+      "sheet": 3,
+      "panel": 3,
+      "selectedMaster": "masters/scene-17-v2.png",
+      "generationRecord": "records/scene-17-v2.json",
+      "selectedMasterSha256": "dbbe81ab98415ef761e3a0c4319ceea7f31d9f8240789c2175dea524f6c77f87",
+      "imageSha256": "6b12b57c90af077a8b951d26b76eddd355f0a087ee6bc055fcec55994fcc0038"
+    },
+    {
+      "id": "scene-18",
+      "number": 18,
+      "sheet": 3,
+      "panel": 4,
+      "title": {
+        "en": "Nearly ready",
+        "ru": "Почти готово",
+        "es": "Ya casi está"
+      },
+      "image": "web/scene-18.webp",
+      "paragraphs": {
+        "en": [
+          "The water rose higher. Soon the bath was full."
+        ],
+        "ru": [
+          "Вода поднималась всё выше. Скоро ванна наполнилась."
+        ],
+        "es": [
+          "El agua subía y subía. Pronto la bañera estuvo llena."
+        ]
+      },
+      "alt": {
+        "en": "Higher overhead three-quarter shows tub interior now almost full, duck west of stream; PinPin checks water against rim with flat paw outside.",
+        "ru": "Почти готово",
+        "es": "Ya casi está"
+      },
+      "action": "Higher overhead three-quarter shows tub interior now almost full, duck west of stream; PinPin checks water against rim with flat paw outside.",
+      "room": "bath",
+      "cast": [
+        "PinPin"
+      ],
+      "camera": {
+        "position": [
+          -2.8,
+          1.55,
+          2.0
+        ],
+        "target": [
+          -3.74,
+          2.66,
+          0.3
+        ],
+        "lensMm": 28,
+        "sensorWidthMm": 36,
+        "status": "proposed blocking; unrendered, not measured image reconstruction",
+        "frame": "canonical house +X east, +Y north, +Z up; meters",
+        "aspectRatio": "3:2"
+      },
+      "blockingAndGaze": "Higher overhead three-quarter shows tub interior now almost full, duck west of stream; PinPin checks water against rim with flat paw outside.",
+      "continuity": {
+        "tubFillPercent": 95,
+        "floorWater": "dry",
+        "magic": "active",
+        "doorBathDegrees": 75,
+        "doorBedroomDegrees": 0,
+        "doorFrontDegrees": 0,
+        "babyLocation": "Papa lap/arms at table",
+        "adultOffscreen": "Papa and PomPom in common room; Mama preparing breakfast",
+        "duck": "in bathtub",
+        "duckLiving": false,
+        "duckMaterial": "carved honey-yellow wood with visible grain, orange rounded beak, friendly inset dark eyes; no added limbs",
+        "duckLocation": "in bathtub",
+        "papaLocation": "commonroomcaringforbaby"
+      },
+      "reviewStatus": "internally reviewed draft; user review pending",
+      "reusedFrom": "scene-12",
+      "reuseMode": "byte-for-byte selected-v1 reuse; not newly generated",
+      "sourceProduction": "bath-magic-20261001",
+      "selectedMaster": "masters/reused/scene-18/scene-12-v1.png",
+      "selectedMasterSha256": "2fb51c46f26af587e439f043fc41111b7a82ddfb014d8f7e754ffc284a8ac847",
+      "imageSha256": "762377deeb37bf3dc006077167ad47cb7dacfed3482a91406ddd9075d17a78df",
+      "reuseRecord": "reuse.json#scene-18"
+    },
+    {
+      "id": "scene-19",
+      "number": 19,
+      "sheet": 3,
+      "panel": 5,
+      "title": {
+        "en": "Enough now",
+        "ru": "Хватит уже",
+        "es": "Ya basta"
+      },
+      "image": "web/scene-19.webp",
+      "paragraphs": {
+        "en": [
+          "“That’s enough,” said PinPin. The water kept coming."
+        ],
+        "ru": [
+          "— Хватит уже, — сказал Пин-Пин. А вода всё лилась."
+        ],
+        "es": [
+          "—Ya basta —dijo PinPin. Pero el agua seguía saliendo."
+        ]
+      },
+      "alt": {
+        "en": "Eye-height PinPin addresses stream with open stopping palm; hopeful polite smile becoming uncertainty; paw does not touch ring yet.",
+        "ru": "Хватит уже",
+        "es": "Ya basta"
+      },
+      "action": "Eye-height PinPin addresses stream with open stopping palm; hopeful polite smile becoming uncertainty; paw does not touch ring yet.",
+      "room": "bath",
+      "cast": [
+        "PinPin"
+      ],
+      "camera": {
+        "position": [
+          -3.5,
+          1.45,
+          0.73
+        ],
+        "target": [
+          -2.75,
+          2.6,
+          0.65
+        ],
+        "lensMm": 55,
+        "sensorWidthMm": 36,
+        "status": "proposed blocking; unrendered, not measured image reconstruction",
+        "frame": "canonical house +X east, +Y north, +Z up; meters",
+        "aspectRatio": "3:2"
+      },
+      "blockingAndGaze": "Eye-height PinPin addresses stream with open stopping palm; hopeful polite smile becoming uncertainty; paw does not touch ring yet.",
+      "continuity": {
+        "tubFillPercent": 100,
+        "floorWater": "dry at start",
+        "magic": "active",
+        "doorBathDegrees": 75,
+        "doorBedroomDegrees": 0,
+        "doorFrontDegrees": 0,
+        "babyLocation": "Papa lap/arms at table",
+        "adultOffscreen": "Papa and PomPom in common room; Mama preparing breakfast",
+        "duck": "in bathtub",
+        "duckLiving": false,
+        "duckMaterial": "carved honey-yellow wood with visible grain, orange rounded beak, friendly inset dark eyes; no added limbs",
+        "duckLocation": "in bathtub",
+        "papaLocation": "commonroomcaringforbaby"
+      },
+      "reviewStatus": "internally reviewed draft; user review pending",
+      "reusedFrom": "scene-13",
+      "reuseMode": "byte-for-byte selected-v1 reuse; not newly generated",
+      "sourceProduction": "bath-magic-20261001",
+      "selectedMaster": "masters/reused/scene-19/scene-13-v2.png",
+      "selectedMasterSha256": "73187d206e6ae367cac9fe8e207dab9eed9f367e97d5d875ee6a03cba54249fa",
+      "imageSha256": "c78ec77acb31a52e24d96454d31430e8cd1b7e5395da962b3120e104a42f6b63",
+      "reuseRecord": "reuse.json#scene-19"
+    },
+    {
+      "id": "scene-20",
+      "number": 20,
+      "sheet": 3,
+      "panel": 6,
+      "title": {
+        "en": "Over the edge",
+        "ru": "Через край",
+        "es": "Por el borde"
+      },
+      "image": "web/scene-20.webp",
+      "paragraphs": {
+        "en": [
+          "“Thank you. That’s enough!” A ribbon of water slipped over the edge."
+        ],
+        "ru": [
+          "— Спасибо, уже хватит! — Тонкая струйка перелилась через край."
+        ],
+        "es": [
+          "—¡Gracias, ya basta! Un hilo de agua se deslizó por el borde."
+        ]
+      },
+      "alt": {
+        "en": "Close side view of single east-side overflow running over continuous wooden rim; PinPin reaction visible above. Duck still in tub near south edge.",
+        "ru": "Через край",
+        "es": "Por el borde"
+      },
+      "action": "Close side view of single east-side overflow running over continuous wooden rim; PinPin reaction visible above. Duck still in tub near south edge.",
+      "room": "bath",
+      "cast": [
+        "PinPin"
+      ],
+      "camera": {
+        "position": [
+          -2.35,
+          2.45,
+          0.4
+        ],
+        "target": [
+          -2.84,
+          2.6,
+          0.4
+        ],
+        "lensMm": 65,
+        "sensorWidthMm": 36,
+        "status": "proposed blocking; unrendered, not measured image reconstruction",
+        "frame": "canonical house +X east, +Y north, +Z up; meters",
+        "aspectRatio": "3:2"
+      },
+      "blockingAndGaze": "Close side view of single east-side overflow running over continuous wooden rim; PinPin reaction visible above. Duck still in tub near south edge.",
+      "continuity": {
+        "tubFillPercent": 100,
+        "floorWater": "first ribbon wets east mat",
+        "magic": "active",
+        "doorBathDegrees": 75,
+        "doorBedroomDegrees": 0,
+        "doorFrontDegrees": 0,
+        "babyLocation": "Papa lap/arms at table",
+        "adultOffscreen": "Papa and PomPom in common room; Mama preparing breakfast",
+        "duck": "in bathtub",
+        "duckLiving": false,
+        "duckMaterial": "carved honey-yellow wood with visible grain, orange rounded beak, friendly inset dark eyes; no added limbs",
+        "duckLocation": "in bathtub",
+        "papaLocation": "commonroomcaringforbaby"
+      },
+      "reviewStatus": "internally reviewed draft; user review pending",
+      "reusedFrom": "scene-14",
+      "reuseMode": "byte-for-byte selected-v1 reuse; not newly generated",
+      "sourceProduction": "bath-magic-20261001",
+      "selectedMaster": "masters/reused/scene-20/scene-14-v1.png",
+      "selectedMasterSha256": "efe85d02f57619571e6ab4cb01f5225e9770b406099596ab7b33e827b1598c2e",
+      "imageSha256": "19be534b9c3906df6aed967757cdb1d9aa061c843f1e2010426cb57d48c18507",
+      "reuseRecord": "reuse.json#scene-20"
+    },
+    {
+      "id": "scene-21",
+      "number": 21,
+      "sheet": 3,
+      "panel": 7,
+      "title": {
+        "en": "Caught it",
+        "ru": "Поймал!",
+        "es": "¡Lo atrapó!"
+      },
+      "image": "web/scene-21.webp",
+      "paragraphs": {
+        "en": [
+          "PinPin caught the spill in a bucket. “There!”"
+        ],
+        "ru": [
+          "Пин-Пин подставил ведёрко под струйку. — Вот так!"
+        ],
+        "es": [
+          "PinPin puso un cubo bajo el chorro. —¡Ya está!"
+        ]
+      },
+      "alt": {
+        "en": "PinPin crouches outside east rim gripping first pail with both paws beneath single spill; relieved expression, second pail waiting beside him.",
+        "ru": "Поймал!",
+        "es": "¡Lo atrapó!"
+      },
+      "action": "PinPin crouches outside east rim gripping first pail with both paws beneath single spill; relieved expression, second pail waiting beside him.",
+      "room": "bath",
+      "cast": [
+        "PinPin"
+      ],
+      "camera": {
+        "position": [
+          -2.0,
+          1.7,
+          0.4
+        ],
+        "target": [
+          -2.9,
+          2.3,
+          0.3
+        ],
+        "lensMm": 35,
+        "sensorWidthMm": 36,
+        "status": "proposed blocking; unrendered, not measured image reconstruction",
+        "frame": "canonical house +X east, +Y north, +Z up; meters",
+        "aspectRatio": "3:2"
+      },
+      "blockingAndGaze": "PinPin crouches outside east rim gripping first pail with both paws beneath single spill; relieved expression, second pail waiting beside him.",
+      "continuity": {
+        "tubFillPercent": 100,
+        "floorWater": "small east puddle",
+        "magic": "active",
+        "doorBathDegrees": 75,
+        "doorBedroomDegrees": 0,
+        "doorFrontDegrees": 0,
+        "babyLocation": "Papa lap/arms at table",
+        "adultOffscreen": "Papa and PomPom in common room; Mama preparing breakfast",
+        "duck": "in bathtub",
+        "duckLiving": false,
+        "duckMaterial": "carved honey-yellow wood with visible grain, orange rounded beak, friendly inset dark eyes; no added limbs",
+        "duckLocation": "in bathtub",
+        "papaLocation": "commonroomcaringforbaby"
+      },
+      "reviewStatus": "internally reviewed draft; user review pending",
+      "reusedFrom": "scene-15",
+      "reuseMode": "byte-for-byte selected-v1 reuse; not newly generated",
+      "sourceProduction": "bath-magic-20261001",
+      "selectedMaster": "masters/reused/scene-21/scene-15-v1.png",
+      "selectedMasterSha256": "c033193dde393c677f74470048d255d7723d7318cddf7108106fd39a01531f4f",
+      "imageSha256": "cb5bdb48d40db6b88307ef10e91afd84397e87be367d916ea39825c0b6f06380",
+      "reuseRecord": "reuse.json#scene-21"
+    },
+    {
+      "id": "scene-22",
+      "number": 22,
+      "sheet": 4,
+      "panel": 1,
+      "title": {
+        "en": "And the other side",
+        "ru": "И с другой стороны",
+        "es": "Y por el otro lado"
+      },
+      "image": "web/scene-22.webp",
+      "paragraphs": {
+        "en": [
+          "Then water spilled over the other side. PinPin reached for the second bucket."
+        ],
+        "ru": [
+          "Но вода полилась и с другой стороны. Пин-Пин потянулся за вторым ведёрком."
+        ],
+        "es": [
+          "Entonces el agua se desbordó por el otro lado. PinPin buscó el segundo cubo."
+        ]
+      },
+      "alt": {
+        "en": "Wide shows east pail placed beneath original stream now half full, new south spill nearest door; PinPin reaching second pail, exactly two forelimbs. Duck carried to south rim.",
+        "ru": "И с другой стороны",
+        "es": "Y por el otro lado"
+      },
+      "action": "Wide shows east pail placed beneath original stream now half full, new south spill nearest door; PinPin reaching second pail, exactly two forelimbs. Duck carried to south rim.",
+      "room": "bath",
+      "cast": [
+        "PinPin"
+      ],
+      "camera": {
+        "position": [
+          -1.97,
+          1.28,
+          1.1
+        ],
+        "target": [
+          -3.74,
+          2.66,
+          0.55
+        ],
+        "lensMm": 24,
+        "sensorWidthMm": 36,
+        "status": "proposed blocking; unrendered, not measured image reconstruction",
+        "frame": "canonical house +X east, +Y north, +Z up; meters",
+        "aspectRatio": "3:2"
+      },
+      "blockingAndGaze": "Wide shows east pail placed beneath original stream now half full, new south spill nearest door; PinPin reaching second pail, exactly two forelimbs. Duck carried to south rim.",
+      "continuity": {
+        "tubFillPercent": 100,
+        "floorWater": "connected shallow bath puddles",
+        "magic": "active",
+        "doorBathDegrees": 75,
+        "doorBedroomDegrees": 0,
+        "doorFrontDegrees": 0,
+        "babyLocation": "Papa lap/arms at table",
+        "adultOffscreen": "Papa and PomPom in common room; Mama preparing breakfast",
+        "duck": "in bathtub",
+        "duckLiving": false,
+        "duckMaterial": "carved honey-yellow wood with visible grain, orange rounded beak, friendly inset dark eyes; no added limbs",
+        "duckLocation": "in bathtub",
+        "papaLocation": "commonroomcaringforbaby"
+      },
+      "reviewStatus": "internally reviewed draft; user review pending",
+      "reusedFrom": "scene-16",
+      "reuseMode": "byte-for-byte selected-v1 reuse; not newly generated",
+      "sourceProduction": "bath-magic-20261001",
+      "selectedMaster": "masters/reused/scene-22/scene-16-v1.png",
+      "selectedMasterSha256": "86bc2c1437ac47165dd473efc1742646db52efadc0dc6ce977047d3efb7f44ae",
+      "imageSha256": "7367492a88b723144c2181c2948a1c644b15ef77e7361f01e80668272655d95c",
+      "reuseRecord": "reuse.json#scene-22"
+    },
+    {
+      "id": "scene-23",
+      "number": 23,
+      "sheet": 4,
+      "panel": 2,
+      "title": {
+        "en": "A visitor in the kitchen",
+        "ru": "Гостья на кухне",
+        "es": "Una visita en la cocina"
+      },
+      "image": "web/scene-23.webp",
+      "paragraphs": {
+        "en": [
+          "The little duck sailed through the doorway. It was going to breakfast!"
+        ],
+        "ru": [
+          "Маленькая уточка выплыла за дверь. Отправилась завтракать!"
+        ],
+        "es": [
+          "El patito salió flotando por la puerta. ¡Iba a desayunar!"
+        ]
+      },
+      "alt": {
+        "en": "Ground-level follows wooden duck in thin shallow moving sheet crossing open bath threshold into common room; tub and soft PinPin shape behind through real doorway. No duck duplication in tub.",
+        "ru": "Гостья на кухне",
+        "es": "Una visita en la cocina"
+      },
+      "action": "Ground-level follows wooden duck in thin shallow moving sheet crossing open bath threshold into common room; tub and soft PinPin shape behind through real doorway. No duck duplication in tub.",
+      "room": "threshold",
+      "cast": [
+        "PinPin"
+      ],
+      "camera": {
+        "position": [
+          -2.4,
+          0.25,
+          0.08
+        ],
+        "target": [
+          -2.8,
+          0.8,
+          0.12
+        ],
+        "lensMm": 45,
+        "sensorWidthMm": 36,
+        "status": "proposed blocking; unrendered, not measured image reconstruction",
+        "frame": "canonical house +X east, +Y north, +Z up; meters",
+        "aspectRatio": "3:2"
+      },
+      "blockingAndGaze": "Ground-level follows wooden duck in thin shallow moving sheet crossing open bath threshold into common room; tub and soft PinPin shape behind through real doorway. No duck duplication in tub.",
+      "continuity": {
+        "tubFillPercent": 100,
+        "floorWater": "shallow sheet crosses bath threshold",
+        "magic": "active",
+        "doorBathDegrees": 75,
+        "doorBedroomDegrees": 0,
+        "doorFrontDegrees": 0,
+        "babyLocation": "Papa lap/arms at table",
+        "adultOffscreen": "Papa and PomPom in common room; Mama preparing breakfast",
+        "duck": "floating into common room",
+        "duckLiving": false,
+        "duckMaterial": "carved honey-yellow wood with visible grain, orange rounded beak, friendly inset dark eyes; no added limbs",
+        "duckLocation": "shallow common-room stream",
+        "papaLocation": "commonroomcaringforbaby"
+      },
+      "reviewStatus": "internally reviewed draft; user review pending",
+      "reusedFrom": "scene-17",
+      "reuseMode": "byte-for-byte selected-v1 reuse; not newly generated",
+      "sourceProduction": "bath-magic-20261001",
+      "selectedMaster": "masters/reused/scene-23/scene-17-v1.png",
+      "selectedMasterSha256": "f40f40503f1b7a58a270b137a01e7d75cdda3e1099f54c8ef55c099d1dc98b3e",
+      "imageSha256": "5da56820228bbddcfbbaefa7930d77ade4d22d6c2a01a76e8a11d5344e968a97",
+      "reuseRecord": "reuse.json#scene-23",
+      "visibleCastNotes": "Small background PinPin visible beyond bath."
+    },
+    {
+      "id": "scene-24",
+      "number": 24,
+      "sheet": 4,
+      "panel": 3,
+      "title": {
+        "en": "Mama looks down",
+        "ru": "Мама смотрит вниз",
+        "es": "Mamá mira al suelo"
+      },
+      "image": "web/scene-24.webp",
+      "paragraphs": {
+        "en": [
+          "Mama looked down at the duck. “PinPin…?”"
+        ],
+        "ru": [
+          "Мама посмотрела на уточку. — Пин-Пин?.."
+        ],
+        "es": [
+          "Mamá miró al patito. —¿PinPin…?"
+        ]
+      },
+      "alt": {
+        "en": "From duck level near west stove Mama has set cooking spoon down and looks from duck toward bath opening; Papa seated with baby at table in background. Stove stays closed, breakfast pot on stable top.",
+        "ru": "Мама смотрит вниз",
+        "es": "Mamá mira al suelo"
+      },
+      "action": "From duck level near west stove Mama has set cooking spoon down and looks from duck toward bath opening; Papa seated with baby at table in background. Stove stays closed, breakfast pot on stable top.",
+      "room": "common",
+      "cast": [
+        "Mama",
+        "Papa",
+        "PomPom"
+      ],
+      "camera": {
+        "position": [
+          -2.3,
+          -0.4,
+          0.1
+        ],
+        "target": [
+          -3,
+          -1.75,
+          0.75
+        ],
+        "lensMm": 28,
+        "sensorWidthMm": 36,
+        "status": "proposed blocking; unrendered, not measured image reconstruction",
+        "frame": "canonical house +X east, +Y north, +Z up; meters",
+        "aspectRatio": "3:2"
+      },
+      "blockingAndGaze": "From duck level near west stove Mama has set cooking spoon down and looks from duck toward bath opening; Papa seated with baby at table in background. Stove stays closed, breakfast pot on stable top.",
+      "continuity": {
+        "tubFillPercent": 100,
+        "floorWater": "thin sheet reaches common west side",
+        "magic": "active",
+        "doorBathDegrees": 75,
+        "doorBedroomDegrees": 0,
+        "doorFrontDegrees": 0,
+        "babyLocation": "Papa lap/arms at table",
+        "adultOffscreen": "Papa remains common-side with PomPom; Mama follows action as specified",
+        "duck": "floating into common room",
+        "duckLiving": false,
+        "duckMaterial": "carved honey-yellow wood with visible grain, orange rounded beak, friendly inset dark eyes; no added limbs",
+        "duckLocation": "shallow common-room stream",
+        "papaLocation": "commonroomcaringforbaby"
+      },
+      "reviewStatus": "internally reviewed draft; user review pending",
+      "reusedFrom": "scene-18",
+      "reuseMode": "byte-for-byte selected-v1 reuse; not newly generated",
+      "sourceProduction": "bath-magic-20261001",
+      "selectedMaster": "masters/reused/scene-24/scene-18-v1.png",
+      "selectedMasterSha256": "a20a07ff0a8b19080b5db7556dfd20aacaa3f3289e4c76c683fb6d9a39bb6d1b",
+      "imageSha256": "3c4e9628f7b5164be6f0f1a3db0be2e680802eecfcafd721aa0b5e3f19d7f1f6",
+      "reuseRecord": "reuse.json#scene-24"
+    },
+    {
+      "title": {
+        "en": "PomPom spots his duck",
+        "ru": "Пом-Пом увидел уточку",
+        "es": "PomPom ve su patito"
+      },
+      "paragraphs": {
+        "en": [
+          "PomPom spotted his duck sailing past. He laughed and reached towards it."
+        ],
+        "ru": [
+          "Пом-Пом увидел, как мимо проплывает его уточка. Он засмеялся и потянулся к ней."
+        ],
+        "es": [
+          "PomPom vio pasar su patito flotando. Se rio y estiró las patitas hacia él."
+        ]
+      },
+      "alt": {
+        "en": "At baby eyeheight beside table: Papa securelysupports infant PomPom onlap, babyface foreground laughing down toward one wooden duck floating in shallow floorstream below. One open babyforepaw reaches toward duck, freebabybody remains supported, Papa keepssupport. Mama can remainsoftbackground nearstove noticing too. Warm playful discovery, no talkingbeakyet.",
+        "ru": "Пом-Пом увидел, как мимо проплывает его уточка. Он засмеялся и потянулся к ней.",
+        "es": "PomPom vio pasar su patito flotando. Se rio y estiró las patitas hacia él."
+      },
+      "action": "At baby eyeheight beside table: Papa securelysupports infant PomPom onlap, babyface foreground laughing down toward one wooden duck floating in shallow floorstream below. One open babyforepaw reaches toward duck, freebabybody remains supported, Papa keepssupport. Mama can remainsoftbackground nearstove noticing too. Warm playful discovery, no talkingbeakyet.",
+      "room": "common",
+      "cast": [
+        "Papa",
+        "PomPom",
+        "Mama"
+      ],
+      "camera": {
+        "position": [
+          1.1,
+          -1.8,
+          1.05
+        ],
+        "target": [
+          -1.3,
+          -0.6,
+          0.85
+        ],
+        "lensMm": 28,
+        "sensorWidthMm": 36,
+        "status": "proposed narrative camera, not measured image or executed render",
+        "frame": "canonical house +X east, +Y north, +Z up; meters",
+        "aspectRatio": "3:2",
+        "mode": "baby closeup"
+      },
+      "blockingAndGaze": "At baby eyeheight beside table: Papa securelysupports infant PomPom onlap, babyface foreground laughing down toward one wooden duck floating in shallow floorstream below. One open babyforepaw reaches toward duck, freebabybody remains supported, Papa keepssupport. Mama can remainsoftbackground nearstove noticing too. Warm playful discovery, no talkingbeakyet.",
+      "continuity": {
+        "tubFillPercent": 100,
+        "magic": "active water ring offscreen; duck inert",
+        "duckLiving": false,
+        "duckMaterial": "carved honey-yellow wood with visible grain, orange rounded beak, friendly inset dark eyes; no added limbs",
+        "duckLocation": "shallow common-room stream",
+        "babyLocation": "Papa lap/arms at table",
+        "papaLocation": "commonroomcaringforbaby"
+      },
+      "reviewStatus": "internally reviewed draft; user review pending",
+      "requiredNewImage": true,
+      "id": "scene-25",
+      "number": 25,
+      "image": "web/scene-25.webp",
+      "sheet": 4,
+      "panel": 4,
+      "selectedMaster": "masters/scene-25-v2.png",
+      "selectedMasterSha256": "1a1a5012ee55b1ab1b0721d996ca2cd9c39c19c6b4df11f350f20486ee2e6fed",
+      "imageSha256": "c1f68b017d5c2d198d652d2363933e082865cb8cf3f9730419b8688209fcfc44",
+      "generationRecord": "records/scene-25-v2.json"
+    },
+    {
+      "title": {
+        "en": "Back to the bath",
+        "ru": "Обратно в ванну",
+        "es": "De vuelta a la bañera"
+      },
+      "paragraphs": {
+        "en": [
+          "Papa scooped up the duck. “Back to your pond, little sailor!”"
+        ],
+        "ru": [
+          "Папа подхватил уточку. — Обратно в пруд, маленький моряк!"
+        ],
+        "es": [
+          "Papá recogió al patito. —¡De vuelta a tu estanque, pequeño marinero!"
+        ]
+      },
+      "alt": {
+        "en": "Papa crouches at common-to-bath doorway and retrieves ONE carved toyduck from shallowstream with onepaw underneath its woodenbelly and other steadying it. Mama behind holds PomPom securely across bothforearms aftertakingbaby fromPapa; babylooksduck. PinPin waits easttubedgevisiblethroughdoor. Allfourcast distinct, Papa headingtowardbath, nobody in tubyet. Duck ordinary toybeakclosed.",
+        "ru": "Папа подхватил уточку. — Обратно в пруд, маленький моряк!",
+        "es": "Papá recogió al patito. —¡De vuelta a tu estanque, pequeño marinero!"
+      },
+      "action": "Papa crouches at common-to-bath doorway and retrieves ONE carved toyduck from shallowstream with onepaw underneath its woodenbelly and other steadying it. Mama behind holds PomPom securely across bothforearms aftertakingbaby fromPapa; babylooksduck. PinPin waits easttubedgevisiblethroughdoor. Allfourcast distinct, Papa headingtowardbath, nobody in tubyet. Duck ordinary toybeakclosed.",
+      "room": "threshold",
+      "cast": [
+        "Papa",
+        "Mama",
+        "PomPom",
+        "PinPin"
+      ],
+      "camera": {
+        "position": [
+          -2.4,
+          0.25,
+          0.08
+        ],
+        "target": [
+          -2.8,
+          0.8,
+          0.12
+        ],
+        "lensMm": 45,
+        "sensorWidthMm": 36,
+        "status": "proposed narrative camera, not measured image or executed render",
+        "frame": "canonical house +X east, +Y north, +Z up; meters",
+        "aspectRatio": "3:2",
+        "mode": "child-eye-level tracking"
+      },
+      "blockingAndGaze": "Papa crouches at common-to-bath doorway and retrieves ONE carved toyduck from shallowstream with onepaw underneath its woodenbelly and other steadying it. Mama behind holds PomPom securely across bothforearms aftertakingbaby fromPapa; babylooksduck. PinPin waits easttubedgevisiblethroughdoor. Allfourcast distinct, Papa headingtowardbath, nobody in tubyet. Duck ordinary toybeakclosed.",
+      "continuity": {
+        "tubFillPercent": 100,
+        "magic": "active water ring; duck inert",
+        "duckLiving": false,
+        "duckMaterial": "carved honey-yellow wood with visible grain, orange rounded beak, friendly inset dark eyes; no added limbs",
+        "duckLocation": "Papa returns duck to bath",
+        "babyLocation": "Mama supported arms outsidebath",
+        "papaLocation": "bathside"
+      },
+      "reviewStatus": "internally reviewed draft; user review pending",
+      "requiredNewImage": true,
+      "id": "scene-26",
+      "number": 26,
+      "image": "web/scene-26.webp",
+      "sheet": 4,
+      "panel": 5,
+      "selectedMaster": "masters/scene-26-v1.png",
+      "selectedMasterSha256": "fd6d26344f84034737d001b1f16ae0cffd9f668f7c24c0d69d119384b72f44a9",
+      "imageSha256": "18074b160d885df62a13415a9b88c54377d9e7f0df3bcb09ecdedd7793c507d5",
+      "generationRecord": "records/scene-26-v1.json"
+    },
+    {
+      "title": {
+        "en": "Everyone joins in",
+        "ru": "Все играют",
+        "es": "Todos juegan"
+      },
+      "paragraphs": {
+        "en": [
+          "Papa set the duck on the water. Mama and PomPom watched it bob."
+        ],
+        "ru": [
+          "Папа посадил уточку на воду. Мама с Пом-Помом смотрели, как она качается."
+        ],
+        "es": [
+          "Papá puso al patito en el agua. Mamá y PomPom lo miraron balancearse."
+        ]
+      },
+      "alt": {
+        "en": "Family activelysharespleasureBEFOREcleanup: Papa at west bathrim gentlyplaces wooden duck into water withonepaw, other supportsrim; PinPin at east reaches out toguide smallripples with fingertip. Mama behind/east securelyholds infantPomPom, bothfollowingduck withlaughingeyes. All OUTSIDE broad tub, small fountaincontinues fullwater spills narrowribbons, family optimistic playful notalarmed.",
+        "ru": "Папа посадил уточку на воду. Мама с Пом-Помом смотрели, как она качается.",
+        "es": "Papá puso al patito en el agua. Mamá y PomPom lo miraron balancearse."
+      },
+      "action": "Family activelysharespleasureBEFOREcleanup: Papa at west bathrim gentlyplaces wooden duck into water withonepaw, other supportsrim; PinPin at east reaches out toguide smallripples with fingertip. Mama behind/east securelyholds infantPomPom, bothfollowingduck withlaughingeyes. All OUTSIDE broad tub, small fountaincontinues fullwater spills narrowribbons, family optimistic playful notalarmed.",
+      "room": "bath",
+      "cast": [
+        "Papa",
+        "PinPin",
+        "Mama",
+        "PomPom"
+      ],
+      "camera": {
+        "position": [
+          -1.97,
+          1.28,
+          1.1
+        ],
+        "target": [
+          -3.74,
+          2.66,
+          0.55
+        ],
+        "lensMm": 24,
+        "sensorWidthMm": 36,
+        "status": "proposed narrative camera, not measured image or executed render",
+        "frame": "canonical house +X east, +Y north, +Z up; meters",
+        "aspectRatio": "3:2",
+        "mode": "child-eye-level family action"
+      },
+      "blockingAndGaze": "Family activelysharespleasureBEFOREcleanup: Papa at west bathrim gentlyplaces wooden duck into water withonepaw, other supportsrim; PinPin at east reaches out toguide smallripples with fingertip. Mama behind/east securelyholds infantPomPom, bothfollowingduck withlaughingeyes. All OUTSIDE broad tub, small fountaincontinues fullwater spills narrowribbons, family optimistic playful notalarmed.",
+      "continuity": {
+        "tubFillPercent": 100,
+        "magic": "active water ring; duck inert",
+        "duckLiving": false,
+        "duckMaterial": "carved honey-yellow wood with visible grain, orange rounded beak, friendly inset dark eyes; no added limbs",
+        "duckLocation": "in bathtub",
+        "babyLocation": "Mama supported arms outsidebath",
+        "papaLocation": "bathside"
+      },
+      "reviewStatus": "internally reviewed draft; user review pending",
+      "requiredNewImage": true,
+      "id": "scene-27",
+      "number": 27,
+      "image": "web/scene-27.webp",
+      "sheet": 4,
+      "panel": 6,
+      "selectedMaster": "masters/scene-27-v1.png",
+      "selectedMasterSha256": "4a2012c96e18d798bd9dc54178d5a4048d8ced16827855ab6c26890940a1c4a6",
+      "imageSha256": "f67c09d029ea80f235e72cd38543e3928ec1438ca6a6632ee9276af8a8418f92",
+      "generationRecord": "records/scene-27-v1.json"
+    },
+    {
+      "title": {
+        "en": "Papa tries the bath",
+        "ru": "Папа пробует ванну",
+        "es": "Papá prueba la bañera"
+      },
+      "paragraphs": {
+        "en": [
+          "“Room for me?” asked Papa. He carefully put one foot in."
+        ],
+        "ru": [
+          "— А мне местечко найдётся? — спросил Папа и осторожно опустил лапу в воду."
+        ],
+        "es": [
+          "—¿Hay sitio para mí? —preguntó Papá, metiendo una pata con cuidado."
+        ]
+      },
+      "alt": {
+        "en": "Wide lowchildheight actualaction: Papa westside broadLOW tub holds west rim securelywithbothforepaws, lifts ONE hindfoot overrim INTO water, otherhindfoot still groundedOUTSIDE. Clear correctfourlimbs, no clothing. PinPin eastside outsidewatches; Mama eastrear holdsbaby close. Woodenduck insideawayfromfoot, flowingmagicring farfromadultentry. Fullwaterbulgesgently fromdisplacement, notbigdangerwave.",
+        "ru": "— А мне местечко найдётся? — спросил Папа и осторожно опустил лапу в воду.",
+        "es": "—¿Hay sitio para mí? —preguntó Papá, metiendo una pata con cuidado."
+      },
+      "action": "Wide lowchildheight actualaction: Papa westside broadLOW tub holds west rim securelywithbothforepaws, lifts ONE hindfoot overrim INTO water, otherhindfoot still groundedOUTSIDE. Clear correctfourlimbs, no clothing. PinPin eastside outsidewatches; Mama eastrear holdsbaby close. Woodenduck insideawayfromfoot, flowingmagicring farfromadultentry. Fullwaterbulgesgently fromdisplacement, notbigdangerwave.",
+      "room": "bath",
+      "cast": [
+        "Papa",
+        "PinPin",
+        "Mama",
+        "PomPom"
+      ],
+      "camera": {
+        "position": [
+          -1.97,
+          1.28,
+          1.1
+        ],
+        "target": [
+          -3.74,
+          2.66,
+          0.55
+        ],
+        "lensMm": 24,
+        "sensorWidthMm": 36,
+        "status": "proposed narrative camera, not measured image or executed render",
+        "frame": "canonical house +X east, +Y north, +Z up; meters",
+        "aspectRatio": "3:2",
+        "mode": "child-eye-level action"
+      },
+      "blockingAndGaze": "Wide lowchildheight actualaction: Papa westside broadLOW tub holds west rim securelywithbothforepaws, lifts ONE hindfoot overrim INTO water, otherhindfoot still groundedOUTSIDE. Clear correctfourlimbs, no clothing. PinPin eastside outsidewatches; Mama eastrear holdsbaby close. Woodenduck insideawayfromfoot, flowingmagicring farfromadultentry. Fullwaterbulgesgently fromdisplacement, notbigdangerwave.",
+      "continuity": {
+        "tubFillPercent": 100,
+        "magic": "active water ring; duck inert",
+        "duckLiving": false,
+        "duckMaterial": "carved honey-yellow wood with visible grain, orange rounded beak, friendly inset dark eyes; no added limbs",
+        "duckLocation": "in bathtub",
+        "babyLocation": "Mama supported arms outsidebath",
+        "papaLocation": "onefootintub oneoutside supportedrim"
+      },
+      "reviewStatus": "internally reviewed draft; user review pending",
+      "requiredNewImage": true,
+      "id": "scene-28",
+      "number": 28,
+      "image": "web/scene-28.webp",
+      "sheet": 4,
+      "panel": 7,
+      "selectedMaster": "masters/scene-28-v1.png",
+      "selectedMasterSha256": "fd8f8b6c5d58de08154a8c5b5a579fdbb6438e7bda05815332f8685f68b0ecda",
+      "imageSha256": "b7b153725b0fc74e6770d3aab0ba34d69f97876b6a37c39e52a878b4136ac4b9",
+      "generationRecord": "records/scene-28-v1.json"
+    },
+    {
+      "title": {
+        "en": "A little too full",
+        "ru": "Слишком много воды",
+        "es": "Demasiada agua"
+      },
+      "paragraphs": {
+        "en": [
+          "Whoosh! Papa’s foot sent a wave over the edge."
+        ],
+        "ru": [
+          "Плю-ю-х! От Папиной лапы волна перелилась через край."
+        ],
+        "es": [
+          "¡Plaf! La pata de Papá mandó una ola por encima del borde."
+        ]
+      },
+      "alt": {
+        "en": "Close spillheight: onecomicalclear sheet of water sloshesover southtubrim towardempty pail, provoked byPapa's visiblehindfoot INSIDEtub onleft background and his twoforepawsstillrim. Papa balanceswithotherfootoutside, no entrapment. PinPin delightedstartledfaceonright, Mama baby's faces safelyabove. Wooden duck bobs INSIDE water, no suddenlivingbeak. Shallowflooronly.",
+        "ru": "Плю-ю-х! От Папиной лапы волна перелилась через край.",
+        "es": "¡Plaf! La pata de Papá mandó una ola por encima del borde."
+      },
+      "action": "Close spillheight: onecomicalclear sheet of water sloshesover southtubrim towardempty pail, provoked byPapa's visiblehindfoot INSIDEtub onleft background and his twoforepawsstillrim. Papa balanceswithotherfootoutside, no entrapment. PinPin delightedstartledfaceonright, Mama baby's faces safelyabove. Wooden duck bobs INSIDE water, no suddenlivingbeak. Shallowflooronly.",
+      "room": "bath",
+      "cast": [
+        "Papa",
+        "PinPin",
+        "Mama",
+        "PomPom"
+      ],
+      "camera": {
+        "position": [
+          -1.97,
+          1.28,
+          1.1
+        ],
+        "target": [
+          -3.74,
+          2.66,
+          0.55
+        ],
+        "lensMm": 24,
+        "sensorWidthMm": 36,
+        "status": "proposed narrative camera, not measured image or executed render",
+        "frame": "canonical house +X east, +Y north, +Z up; meters",
+        "aspectRatio": "3:2",
+        "mode": "rim-level action closeup"
+      },
+      "blockingAndGaze": "Close spillheight: onecomicalclear sheet of water sloshesover southtubrim towardempty pail, provoked byPapa's visiblehindfoot INSIDEtub onleft background and his twoforepawsstillrim. Papa balanceswithotherfootoutside, no entrapment. PinPin delightedstartledfaceonright, Mama baby's faces safelyabove. Wooden duck bobs INSIDE water, no suddenlivingbeak. Shallowflooronly.",
+      "continuity": {
+        "tubFillPercent": 100,
+        "magic": "active water ring; duck inert",
+        "duckLiving": false,
+        "duckMaterial": "carved honey-yellow wood with visible grain, orange rounded beak, friendly inset dark eyes; no added limbs",
+        "duckLocation": "in bathtub",
+        "babyLocation": "Mama supported arms outsidebath",
+        "papaLocation": "onefootintub oneoutside supportedrim"
+      },
+      "reviewStatus": "internally reviewed draft; user review pending",
+      "requiredNewImage": true,
+      "id": "scene-29",
+      "number": 29,
+      "image": "web/scene-29.webp",
+      "sheet": 5,
+      "panel": 1,
+      "selectedMaster": "masters/scene-29-v2.png",
+      "selectedMasterSha256": "4c463aa510d8ced6c8e8760605700b5b0153bd8d37e8a3b25cd28440f2e3f355",
+      "imageSha256": "bba33c38327129c6f5175361c225054d7619d6bef1f925d0d2bf13dc05e16e02",
+      "generationRecord": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r2/records/scene-29-v2.json"
+    },
+    {
+      "title": {
+        "en": "The wrong little gesture",
+        "ru": "Не тот взмах",
+        "es": "El gesto equivocado"
+      },
+      "paragraphs": {
+        "en": [
+          "PinPin tried to stop the water. But his paw brushed past the duck instead."
+        ],
+        "ru": [
+          "Пин-Пин попытался остановить воду. Но его лапка задела уточку."
+        ],
+        "es": [
+          "PinPin intentó parar el agua. Pero su patita rozó al patito."
+        ]
+      },
+      "alt": {
+        "en": "Child overrightshoulder closeup: PinPin outsideeasttub reaches towardwater but fingertip lightlybrushes WOODEN DUCK head/beak, leaving tinygoldfizz ONTOY, notonbathring. Originalwatercircle/fountain visibleapartstillactive. OnlyPinPinpaw andheadplusduck; Papa/Mamaoffscreen. Mis-targetedgesture, no secondlargecircle ornew fountain; same toybody, onebeakstartsslightlyopening.",
+        "ru": "Пин-Пин попытался остановить воду. Но его лапка задела уточку.",
+        "es": "PinPin intentó parar el agua. Pero su patita rozó al patito."
+      },
+      "action": "Child overrightshoulder closeup: PinPin outsideeasttub reaches towardwater but fingertip lightlybrushes WOODEN DUCK head/beak, leaving tinygoldfizz ONTOY, notonbathring. Originalwatercircle/fountain visibleapartstillactive. OnlyPinPinpaw andheadplusduck; Papa/Mamaoffscreen. Mis-targetedgesture, no secondlargecircle ornew fountain; same toybody, onebeakstartsslightlyopening.",
+      "room": "bath",
+      "cast": [
+        "PinPin"
+      ],
+      "camera": {
+        "position": [
+          -1.97,
+          1.28,
+          1.1
+        ],
+        "target": [
+          -3.74,
+          2.66,
+          0.55
+        ],
+        "lensMm": 24,
+        "sensorWidthMm": 36,
+        "status": "proposed narrative camera, not measured image or executed render",
+        "frame": "canonical house +X east, +Y north, +Z up; meters",
+        "aspectRatio": "3:2",
+        "mode": "child-over-shoulder magic closeup"
+      },
+      "blockingAndGaze": "Child overrightshoulder closeup: PinPin outsideeasttub reaches towardwater but fingertip lightlybrushes WOODEN DUCK head/beak, leaving tinygoldfizz ONTOY, notonbathring. Originalwatercircle/fountain visibleapartstillactive. OnlyPinPinpaw andheadplusduck; Papa/Mamaoffscreen. Mis-targetedgesture, no secondlargecircle ornew fountain; same toybody, onebeakstartsslightlyopening.",
+      "continuity": {
+        "tubFillPercent": 100,
+        "magic": "water ring active; accidental duck enchantment",
+        "duckLiving": true,
+        "duckMaterial": "carved honey-yellow wood with visible grain, orange rounded beak, friendly inset dark eyes; no added limbs",
+        "duckLocation": "in bathtub",
+        "babyLocation": "Mama supported arms outsidebath",
+        "papaLocation": "atwestbathrim",
+        "duckTransition": "awakening begins at this mistaken gesture; first spoken caption follows scene31"
+      },
+      "reviewStatus": "internally reviewed draft; user review pending",
+      "requiredNewImage": true,
+      "id": "scene-30",
+      "number": 30,
+      "image": "web/scene-30.webp",
+      "sheet": 5,
+      "panel": 2,
+      "selectedMaster": "masters/scene-30-v1.png",
+      "selectedMasterSha256": "91ec4a0a0f50d4b6416454b158e53e5cd7e097c2e02646fbe3e5fc682140bf25",
+      "imageSha256": "567d4bc50a804e95867f394bb664a790a49973e701576b9f8408fd09d35f2cf0",
+      "generationRecord": "records/scene-30-v1.json"
+    },
+    {
+      "title": {
+        "en": "Quack!",
+        "ru": "Кря!",
+        "es": "¡Cuac!"
+      },
+      "paragraphs": {
+        "en": [
+          "“Quack! Lovely!” said the duck. “More water!”"
+        ],
+        "ru": [
+          "— Кря! Красота! — сказала уточка. — Ещё воды!"
+        ],
+        "es": [
+          "—¡Cuac! ¡Qué bien! —dijo el patito—. ¡Más agua!"
+        ]
+      },
+      "alt": {
+        "en": "FIRST talkingduck reveal: close wooden duck floating in bath at childwaterline, same honeygoldcarvedwoodgrainbody, friendlyinseteyes, its originalorangebeak has a subtlesmall hinge andisOPEN midquack. Tiny residualgold spark fadesnearhead. No added arms/legs/teeth/clothes, no rubberphotorealbird, no human lips. Duck looks directlens at PinPinPOV, wonderfullypleased. No speechbubbleorlettering.",
+        "ru": "— Кря! Красота! — сказала уточка. — Ещё воды!",
+        "es": "—¡Cuac! ¡Qué bien! —dijo el patito—. ¡Más agua!"
+      },
+      "action": "FIRST talkingduck reveal: close wooden duck floating in bath at childwaterline, same honeygoldcarvedwoodgrainbody, friendlyinseteyes, its originalorangebeak has a subtlesmall hinge andisOPEN midquack. Tiny residualgold spark fadesnearhead. No added arms/legs/teeth/clothes, no rubberphotorealbird, no human lips. Duck looks directlens at PinPinPOV, wonderfullypleased. No speechbubbleorlettering.",
+      "room": "bath",
+      "cast": [
+        "duck"
+      ],
+      "camera": {
+        "position": [
+          -1.97,
+          1.28,
+          1.1
+        ],
+        "target": [
+          -3.74,
+          2.66,
+          0.55
+        ],
+        "lensMm": 24,
+        "sensorWidthMm": 36,
+        "status": "proposed narrative camera, not measured image or executed render",
+        "frame": "canonical house +X east, +Y north, +Z up; meters",
+        "aspectRatio": "3:2",
+        "mode": "child-pov duck closeup"
+      },
+      "blockingAndGaze": "FIRST talkingduck reveal: close wooden duck floating in bath at childwaterline, same honeygoldcarvedwoodgrainbody, friendlyinseteyes, its originalorangebeak has a subtlesmall hinge andisOPEN midquack. Tiny residualgold spark fadesnearhead. No added arms/legs/teeth/clothes, no rubberphotorealbird, no human lips. Duck looks directlens at PinPinPOV, wonderfullypleased. No speechbubbleorlettering.",
+      "continuity": {
+        "tubFillPercent": 100,
+        "magic": "water ring active; duck alive",
+        "duckLiving": true,
+        "duckMaterial": "carved honey-yellow wood with visible grain, orange rounded beak, friendly inset dark eyes; no added limbs",
+        "duckLocation": "in bathtub",
+        "babyLocation": "Mama supported arms outsidebath",
+        "papaLocation": "atwestbathrim"
+      },
+      "reviewStatus": "internally reviewed draft; user review pending",
+      "requiredNewImage": true,
+      "id": "scene-31",
+      "number": 31,
+      "image": "web/scene-31.webp",
+      "sheet": 5,
+      "panel": 3,
+      "selectedMaster": "masters/scene-31-v2.png",
+      "selectedMasterSha256": "294b40fd2c984f56d3ed2116431aebd355161bb6ecac9ba22861773b186b41b0",
+      "imageSha256": "395dfdf43ac371ce4bfed1fdde517295b3e004437806935abbd6f2ccca45de14",
+      "generationRecord": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r2/records/scene-31-v2.json"
+    },
+    {
+      "title": {
+        "en": "Did it talk?",
+        "ru": "Она заговорила?",
+        "es": "¿Ha hablado?"
+      },
+      "paragraphs": {
+        "en": [
+          "PinPin stared. The duck had talked!"
+        ],
+        "ru": [
+          "Пин-Пин замер. Уточка заговорила!"
+        ],
+        "es": [
+          "PinPin se quedó mirando. ¡El patito había hablado!"
+        ]
+      },
+      "alt": {
+        "en": "Direct-to-camera PinPinfacecloseupfromduckPOV, wideeyesmeetlens, littleopenmouthandraisedbrows surprise, twoforepawsfreezeonrimlowerframe. Warmendearing notfearful, no new limb. Waterglints oncreamface, softsamebathbackground. Impliesduck->childreactioncut.",
+        "ru": "Пин-Пин замер. Уточка заговорила!",
+        "es": "PinPin se quedó mirando. ¡El patito había hablado!"
+      },
+      "action": "Direct-to-camera PinPinfacecloseupfromduckPOV, wideeyesmeetlens, littleopenmouthandraisedbrows surprise, twoforepawsfreezeonrimlowerframe. Warmendearing notfearful, no new limb. Waterglints oncreamface, softsamebathbackground. Impliesduck->childreactioncut.",
+      "room": "bath",
+      "cast": [
+        "PinPin"
+      ],
+      "camera": {
+        "position": [
+          -1.97,
+          1.28,
+          1.1
+        ],
+        "target": [
+          -3.74,
+          2.66,
+          0.55
+        ],
+        "lensMm": 24,
+        "sensorWidthMm": 36,
+        "status": "proposed narrative camera, not measured image or executed render",
+        "frame": "canonical house +X east, +Y north, +Z up; meters",
+        "aspectRatio": "3:2",
+        "mode": "duck-pov direct reaction"
+      },
+      "blockingAndGaze": "Direct-to-camera PinPinfacecloseupfromduckPOV, wideeyesmeetlens, littleopenmouthandraisedbrows surprise, twoforepawsfreezeonrimlowerframe. Warmendearing notfearful, no new limb. Waterglints oncreamface, softsamebathbackground. Impliesduck->childreactioncut.",
+      "continuity": {
+        "tubFillPercent": 100,
+        "magic": "water ring active; duck alive",
+        "duckLiving": true,
+        "duckMaterial": "carved honey-yellow wood with visible grain, orange rounded beak, friendly inset dark eyes; no added limbs",
+        "duckLocation": "in bathtub",
+        "babyLocation": "Mama supported arms outsidebath",
+        "papaLocation": "atwestbathrim"
+      },
+      "reviewStatus": "internally reviewed draft; user review pending",
+      "requiredNewImage": true,
+      "id": "scene-32",
+      "number": 32,
+      "image": "web/scene-32.webp",
+      "sheet": 5,
+      "panel": 4,
+      "selectedMaster": "masters/scene-32-v2.png",
+      "selectedMasterSha256": "873a181ef800a93feb08a8311ac7c254a995eebfddad00b4cdba7668ffb4321d",
+      "imageSha256": "518f6106c780a36f54012316bb74d6d91b3039be9b2ac14dbe5d3d5665dfd2b9",
+      "generationRecord": "records/scene-32-v2.json"
+    },
+    {
+      "title": {
+        "en": "Mama heard it too",
+        "ru": "Мама тоже слышала",
+        "es": "Mamá también lo oyó"
+      },
+      "paragraphs": {
+        "en": [
+          "PinPin looked at Mama. “Did you hear that?”"
+        ],
+        "ru": [
+          "Пин-Пин посмотрел на Маму. — Ты слышала?"
+        ],
+        "es": [
+          "PinPin miró a Mamá. —¿Has oído eso?"
+        ]
+      },
+      "alt": {
+        "en": "PinPin childPOV looking UP at Mama holdingtinyPomPom: her warm amusedsurprisedface looks DOWN DIRECTLY INTOLENS in response, baby glances towardduckoffleft. Securebabyhead/torso distinct frommother, one forearm underbottom otheracrossback. Mama isn't deliveringlecture, she shareschildwonder.",
+        "ru": "Пин-Пин посмотрел на Маму. — Ты слышала?",
+        "es": "PinPin miró a Mamá. —¿Has oído eso?"
+      },
+      "action": "PinPin childPOV looking UP at Mama holdingtinyPomPom: her warm amusedsurprisedface looks DOWN DIRECTLY INTOLENS in response, baby glances towardduckoffleft. Securebabyhead/torso distinct frommother, one forearm underbottom otheracrossback. Mama isn't deliveringlecture, she shareschildwonder.",
+      "room": "bath",
+      "cast": [
+        "Mama",
+        "PomPom"
+      ],
+      "camera": {
+        "position": [
+          -1.97,
+          1.28,
+          1.1
+        ],
+        "target": [
+          -3.74,
+          2.66,
+          0.55
+        ],
+        "lensMm": 24,
+        "sensorWidthMm": 36,
+        "status": "proposed narrative camera, not measured image or executed render",
+        "frame": "canonical house +X east, +Y north, +Z up; meters",
+        "aspectRatio": "3:2",
+        "mode": "child-pov adult response"
+      },
+      "blockingAndGaze": "PinPin childPOV looking UP at Mama holdingtinyPomPom: her warm amusedsurprisedface looks DOWN DIRECTLY INTOLENS in response, baby glances towardduckoffleft. Securebabyhead/torso distinct frommother, one forearm underbottom otheracrossback. Mama isn't deliveringlecture, she shareschildwonder.",
+      "continuity": {
+        "tubFillPercent": 100,
+        "magic": "water ring active; duck alive",
+        "duckLiving": true,
+        "duckMaterial": "carved honey-yellow wood with visible grain, orange rounded beak, friendly inset dark eyes; no added limbs",
+        "duckLocation": "in bathtub",
+        "babyLocation": "Mama supported arms outsidebath",
+        "papaLocation": "atwestbathrim"
+      },
+      "reviewStatus": "internally reviewed draft; user review pending",
+      "requiredNewImage": true,
+      "id": "scene-33",
+      "number": 33,
+      "image": "web/scene-33.webp",
+      "sheet": 5,
+      "panel": 5,
+      "selectedMaster": "masters/scene-33-v2.png",
+      "selectedMasterSha256": "254a49ef3a8b0f491d4121f3a34aa1e28f65a30c05bfbd21b9f3539786eb8c54",
+      "imageSha256": "d0acef7938062d4c8845fbc643269f7c0ad8a0233c4dc9c2b1f1564da44c6e69",
+      "generationRecord": "records/scene-33-v2.json"
+    },
+    {
+      "title": {
+        "en": "Hello, little duck",
+        "ru": "Здравствуй, уточка",
+        "es": "Hola, patito"
+      },
+      "paragraphs": {
+        "en": [
+          "Papa bent down to the duck. “Well, hello there!”"
+        ],
+        "ru": [
+          "Папа наклонился к уточке. — Ну, здравствуй!"
+        ],
+        "es": [
+          "Papá se inclinó hacia el patito. —¡Vaya, hola!"
+        ]
+      },
+      "alt": {
+        "en": "Intimate reciprocaleyecontact: Papa crouches/bends fromwest rim now bothhindfeetbackONFLOORoutsidebath (endofcomicalstep), maturecreamface atduckeyeheight, onepawsteadyonrim. DuckfloatingfacesPapa withslightlyopenorangebeak; camera alignedbesideduck toseePapa's visiblehazelirises directedatduck justofflens. No child/adultheadswap, no Papa livinginsidebath.",
+        "ru": "Папа наклонился к уточке. — Ну, здравствуй!",
+        "es": "Papá se inclinó hacia el patito. —¡Vaya, hola!"
+      },
+      "action": "Intimate reciprocaleyecontact: Papa crouches/bends fromwest rim now bothhindfeetbackONFLOORoutsidebath (endofcomicalstep), maturecreamface atduckeyeheight, onepawsteadyonrim. DuckfloatingfacesPapa withslightlyopenorangebeak; camera alignedbesideduck toseePapa's visiblehazelirises directedatduck justofflens. No child/adultheadswap, no Papa livinginsidebath.",
+      "room": "bath",
+      "cast": [
+        "Papa",
+        "duck"
+      ],
+      "camera": {
+        "position": [
+          -1.97,
+          1.28,
+          1.1
+        ],
+        "target": [
+          -3.74,
+          2.66,
+          0.55
+        ],
+        "lensMm": 24,
+        "sensorWidthMm": 36,
+        "status": "proposed narrative camera, not measured image or executed render",
+        "frame": "canonical house +X east, +Y north, +Z up; meters",
+        "aspectRatio": "3:2",
+        "mode": "duck-eye-level adult greeting"
+      },
+      "blockingAndGaze": "Intimate reciprocaleyecontact: Papa crouches/bends fromwest rim now bothhindfeetbackONFLOORoutsidebath (endofcomicalstep), maturecreamface atduckeyeheight, onepawsteadyonrim. DuckfloatingfacesPapa withslightlyopenorangebeak; camera alignedbesideduck toseePapa's visiblehazelirises directedatduck justofflens. No child/adultheadswap, no Papa livinginsidebath.",
+      "continuity": {
+        "tubFillPercent": 100,
+        "magic": "water ring active; duck alive",
+        "duckLiving": true,
+        "duckMaterial": "carved honey-yellow wood with visible grain, orange rounded beak, friendly inset dark eyes; no added limbs",
+        "duckLocation": "in bathtub",
+        "babyLocation": "Mama supported arms outsidebath",
+        "papaLocation": "bothfeetbackoutsidebath"
+      },
+      "reviewStatus": "internally reviewed draft; user review pending",
+      "requiredNewImage": true,
+      "id": "scene-34",
+      "number": 34,
+      "image": "web/scene-34.webp",
+      "sheet": 5,
+      "panel": 6,
+      "selectedMaster": "masters/scene-34-v1.png",
+      "selectedMasterSha256": "7d443fcff4a7b7ca4cd126b2a90fe72c702aece5e6eb94425b223407127a81bf",
+      "imageSha256": "c4728218080dd076294e4dde2af0978b661649c9734459dc2c99b4b0b307bd1b",
+      "generationRecord": "records/scene-34-v1.json"
+    },
+    {
+      "title": {
+        "en": "PomPom answers",
+        "ru": "Пом-Пом отвечает",
+        "es": "PomPom responde"
+      },
+      "paragraphs": {
+        "en": [
+          "“Quack!” said PomPom. The duck quacked back."
+        ],
+        "ru": [
+          "— Кря! — сказал Пом-Пом. Уточка крякнула в ответ."
+        ],
+        "es": [
+          "—¡Cuac! —dijo PomPom. El patito le respondió con otro cuac."
+        ]
+      },
+      "alt": {
+        "en": "Mama securelyholds babyPomPom closetooutsidebathrim, baby andlivingwoodduck exchangeopenmouthquacks across shortdistance. Camera atbabyeyeheight, babylaughing atduck, duckfacesbaby withsubtlehingedbeak. No doublebabies, mother body distinct. Mama smilesatinteraction; one paw underbabybottom, otheracrossback. Waterfullbutnotchesthighfloor.",
+        "ru": "— Кря! — сказал Пом-Пом. Уточка крякнула в ответ.",
+        "es": "—¡Cuac! —dijo PomPom. El patito le respondió con otro cuac."
+      },
+      "action": "Mama securelyholds babyPomPom closetooutsidebathrim, baby andlivingwoodduck exchangeopenmouthquacks across shortdistance. Camera atbabyeyeheight, babylaughing atduck, duckfacesbaby withsubtlehingedbeak. No doublebabies, mother body distinct. Mama smilesatinteraction; one paw underbabybottom, otheracrossback. Waterfullbutnotchesthighfloor.",
+      "room": "bath",
+      "cast": [
+        "Mama",
+        "PomPom",
+        "duck"
+      ],
+      "camera": {
+        "position": [
+          -1.97,
+          1.28,
+          1.1
+        ],
+        "target": [
+          -3.74,
+          2.66,
+          0.55
+        ],
+        "lensMm": 24,
+        "sensorWidthMm": 36,
+        "status": "proposed narrative camera, not measured image or executed render",
+        "frame": "canonical house +X east, +Y north, +Z up; meters",
+        "aspectRatio": "3:2",
+        "mode": "baby-eye-level two-shot"
+      },
+      "blockingAndGaze": "Mama securelyholds babyPomPom closetooutsidebathrim, baby andlivingwoodduck exchangeopenmouthquacks across shortdistance. Camera atbabyeyeheight, babylaughing atduck, duckfacesbaby withsubtlehingedbeak. No doublebabies, mother body distinct. Mama smilesatinteraction; one paw underbabybottom, otheracrossback. Waterfullbutnotchesthighfloor.",
+      "continuity": {
+        "tubFillPercent": 100,
+        "magic": "water ring active; duck alive",
+        "duckLiving": true,
+        "duckMaterial": "carved honey-yellow wood with visible grain, orange rounded beak, friendly inset dark eyes; no added limbs",
+        "duckLocation": "in bathtub",
+        "babyLocation": "Mama supported arms outsidebath",
+        "papaLocation": "bothfeetbackoutsidebath"
+      },
+      "reviewStatus": "internally reviewed draft; user review pending",
+      "requiredNewImage": true,
+      "id": "scene-35",
+      "number": 35,
+      "image": "web/scene-35.webp",
+      "sheet": 5,
+      "panel": 7,
+      "selectedMaster": "masters/scene-35-v2.png",
+      "selectedMasterSha256": "bc0df76418c47a33281a6f1711bc099e949e7c23f320fd83e269006d14da28b5",
+      "imageSha256": "69d3a240a1ea33af6cac4b42d42b67f095eb26b86ffe38cb879adf3c459ab8f2",
+      "generationRecord": "records/scene-35-v2.json"
+    },
+    {
+      "title": {
+        "en": "More! More!",
+        "ru": "Ещё! Ещё!",
+        "es": "¡Más! ¡Más!"
+      },
+      "paragraphs": {
+        "en": [
+          "The duck slid over the edge and into the little stream. “More! More!”"
+        ],
+        "ru": [
+          "Уточка соскользнула через край и поплыла по ручейку. — Ещё! Ещё!"
+        ],
+        "es": [
+          "El patito se deslizó por el borde y cayó en el arroyito. —¡Más! ¡Más!"
+        ]
+      },
+      "alt": {
+        "en": "Lowfloor camera captures ONE livingwoodduck surfing smallshallowstream awayfrombath towardcommon doorway, openbeak exuberant directednearreader. Tub andtinyoverflow behind, notduckfalling fromheightinjured. Wateronlyshallowpaws, pailstaysnearshore. Duckhasnoarmsorlegs. This secondescape followsPapa'sreturn; clear samewoodgrain.",
+        "ru": "Уточка соскользнула через край и поплыла по ручейку. — Ещё! Ещё!",
+        "es": "El patito se deslizó por el borde y cayó en el arroyito. —¡Más! ¡Más!"
+      },
+      "action": "Lowfloor camera captures ONE livingwoodduck surfing smallshallowstream awayfrombath towardcommon doorway, openbeak exuberant directednearreader. Tub andtinyoverflow behind, notduckfalling fromheightinjured. Wateronlyshallowpaws, pailstaysnearshore. Duckhasnoarmsorlegs. This secondescape followsPapa'sreturn; clear samewoodgrain.",
+      "room": "threshold",
+      "cast": [
+        "duck",
+        "Papa",
+        "PinPin",
+        "Mama",
+        "PomPom"
+      ],
+      "camera": {
+        "position": [
+          -2.4,
+          0.25,
+          0.08
+        ],
+        "target": [
+          -2.8,
+          0.8,
+          0.12
+        ],
+        "lensMm": 45,
+        "sensorWidthMm": 36,
+        "status": "proposed narrative camera, not measured image or executed render",
+        "frame": "canonical house +X east, +Y north, +Z up; meters",
+        "aspectRatio": "3:2",
+        "mode": "floor-level tracking closeup"
+      },
+      "blockingAndGaze": "Lowfloor camera captures ONE livingwoodduck surfing smallshallowstream awayfrombath towardcommon doorway, openbeak exuberant directednearreader. Tub andtinyoverflow behind, notduckfalling fromheightinjured. Wateronlyshallowpaws, pailstaysnearshore. Duckhasnoarmsorlegs. This secondescape followsPapa'sreturn; clear samewoodgrain.",
+      "continuity": {
+        "tubFillPercent": 100,
+        "magic": "water ring active; duck alive",
+        "duckLiving": true,
+        "duckMaterial": "carved honey-yellow wood with visible grain, orange rounded beak, friendly inset dark eyes; no added limbs",
+        "duckLocation": "shallow floor stream/puddles",
+        "babyLocation": "Mama supported arms outsidebath",
+        "papaLocation": "bothfeetbackoutsidebath"
+      },
+      "reviewStatus": "internally reviewed draft; user review pending",
+      "requiredNewImage": true,
+      "id": "scene-36",
+      "number": 36,
+      "image": "web/scene-36.webp",
+      "sheet": 6,
+      "panel": 1,
+      "selectedMaster": "masters/scene-36-v2.png",
+      "selectedMasterSha256": "73b31d237a2ae07b67a7de9984ab019c95f64342be7d1e2ba12df4d30a40d0a9",
+      "imageSha256": "ea9022f1e6e36f2a92bc590c3d88dfcdced3328317e946bc6f19e05440f6ffc2",
+      "generationRecord": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r2/records/scene-36-v2.json"
+    },
+    {
+      "title": {
+        "en": "A dry seat",
+        "ru": "Сухое место",
+        "es": "Un asiento seco"
+      },
+      "paragraphs": {
+        "en": [
+          "Mama settled PomPom in his little chair. Papa shook a few drops from his foot."
+        ],
+        "ru": [
+          "Мама усадила Пом-Пома в креслице. Папа стряхнул с лапы несколько капель."
+        ],
+        "es": [
+          "Mamá acomodó a PomPom en su sillita. Papá sacudió unas gotas de su pata."
+        ]
+      },
+      "alt": {
+        "en": "Commonroom action: Mama placesinfantsecurelyinpreviouslyestablished high-sided stablewoodchair at easttable, arms clearlysupportuntilseated. Papa besidebathdoorbothfeetoutsidefloor lifts one wetfootshortdistanceandshakesfewdropsintoexistingpuddle. PinPinoffscreenbath. One wooden duck insmallfloorstreamawayfromchair optionalbackground; baby above shallowwater, familynowmakingroomtohelp.",
+        "ru": "Мама усадила Пом-Пома в креслице. Папа стряхнул с лапы несколько капель.",
+        "es": "Mamá acomodó a PomPom en su sillita. Papá sacudió unas gotas de su pata."
+      },
+      "action": "Commonroom action: Mama placesinfantsecurelyinpreviouslyestablished high-sided stablewoodchair at easttable, arms clearlysupportuntilseated. Papa besidebathdoorbothfeetoutsidefloor lifts one wetfootshortdistanceandshakesfewdropsintoexistingpuddle. PinPinoffscreenbath. One wooden duck insmallfloorstreamawayfromchair optionalbackground; baby above shallowwater, familynowmakingroomtohelp.",
+      "room": "common",
+      "cast": [
+        "Mama",
+        "PomPom",
+        "Papa"
+      ],
+      "camera": {
+        "position": [
+          1.1,
+          -1.8,
+          1.05
+        ],
+        "target": [
+          -1.3,
+          -0.6,
+          0.85
+        ],
+        "lensMm": 28,
+        "sensorWidthMm": 36,
+        "status": "proposed narrative camera, not measured image or executed render",
+        "frame": "canonical house +X east, +Y north, +Z up; meters",
+        "aspectRatio": "3:2",
+        "mode": "child-eye-level family action"
+      },
+      "blockingAndGaze": "Commonroom action: Mama placesinfantsecurelyinpreviouslyestablished high-sided stablewoodchair at easttable, arms clearlysupportuntilseated. Papa besidebathdoorbothfeetoutsidefloor lifts one wetfootshortdistanceandshakesfewdropsintoexistingpuddle. PinPinoffscreenbath. One wooden duck insmallfloorstreamawayfromchair optionalbackground; baby above shallowwater, familynowmakingroomtohelp.",
+      "continuity": {
+        "tubFillPercent": 100,
+        "magic": "water ring active; duck alive",
+        "duckLiving": true,
+        "duckMaterial": "carved honey-yellow wood with visible grain, orange rounded beak, friendly inset dark eyes; no added limbs",
+        "duckLocation": "shallow floor stream/puddles",
+        "babyLocation": "Mama places into high-sidedchair",
+        "papaLocation": "commonroomhelping"
+      },
+      "reviewStatus": "internally reviewed draft; user review pending",
+      "requiredNewImage": true,
+      "id": "scene-37",
+      "number": 37,
+      "image": "web/scene-37.webp",
+      "sheet": 6,
+      "panel": 2,
+      "selectedMaster": "masters/scene-37-v1.png",
+      "selectedMasterSha256": "86a2c4b50a8e035412138f3a5b1f0f08bb950b9949eab6a91b383f8ce37d140e",
+      "imageSha256": "06f600ebc010b1d91dc93cf30c2ea696cfab4f3d5cc0fb6a997329465bf7cb32",
+      "generationRecord": "records/scene-37-v1.json"
+    },
+    {
+      "id": "scene-38",
+      "number": 38,
+      "sheet": 6,
+      "panel": 3,
+      "title": {
+        "en": "Save the basket",
+        "ru": "Спасти корзинку",
+        "es": "A salvar la cesta"
+      },
+      "image": "web/scene-38.webp",
+      "paragraphs": {
+        "en": [
+          "Mama lifted the basket onto the counter. The towels stayed dry!"
+        ],
+        "ru": [
+          "Мама подняла корзинку на столешницу. Полотенца остались сухими!"
+        ],
+        "es": [
+          "Mamá subió la cesta a la encimera. ¡Las toallas seguían secas!"
+        ]
+      },
+      "alt": {
+        "en": "Mama lifts single dry towel basket to east counter with two paws; baby visible safely in infant chair behind her, Papa reaches for common rug from west.",
+        "ru": "Спасти корзинку",
+        "es": "A salvar la cesta"
+      },
+      "action": "Mama lifts single dry towel basket to east counter with two paws; baby visible safely in infant chair behind her, Papa reaches for common rug from west.",
+      "room": "common",
+      "cast": [
+        "Mama",
+        "Papa",
+        "PomPom"
+      ],
+      "camera": {
+        "position": [
+          1.55,
+          -1.7,
+          0.9
+        ],
+        "target": [
+          2.55,
+          -1.1,
+          0.65
+        ],
+        "lensMm": 40,
+        "sensorWidthMm": 36,
+        "status": "proposed blocking; unrendered, not measured image reconstruction",
+        "frame": "canonical house +X east, +Y north, +Z up; meters",
+        "aspectRatio": "3:2"
+      },
+      "blockingAndGaze": "Mama lifts single dry towel basket to east counter with two paws; baby visible safely in infant chair behind her, Papa reaches for common rug from west.",
+      "continuity": {
+        "tubFillPercent": 100,
+        "floorWater": "shallow common puddle below ankle",
+        "magic": "active",
+        "doorBathDegrees": 75,
+        "doorBedroomDegrees": 0,
+        "doorFrontDegrees": 0,
+        "babyLocation": "stable high-sidedchair incommon",
+        "adultOffscreen": "Papa remains common-side with PomPom; Mama follows action as specified",
+        "duck": "common-room shallow puddle, offscreen if absent",
+        "duckLiving": true,
+        "duckMaterial": "carved honey-yellow wood with visible grain, orange rounded beak, friendly inset dark eyes; no added limbs",
+        "duckLocation": "shallow floor stream/puddles",
+        "papaLocation": "commonroomhelping"
+      },
+      "reviewStatus": "internally reviewed draft; user review pending",
+      "reusedFrom": "scene-21",
+      "reuseMode": "byte-for-byte selected-v1 reuse; not newly generated",
+      "sourceProduction": "bath-magic-20261001",
+      "selectedMaster": "masters/reused/scene-38/scene-21-v1.png",
+      "selectedMasterSha256": "71de3ec202336eca9cfafaec56b82ddcea1ba8dc96847d222d019ab57bcc5e9f",
+      "imageSha256": "1a702d62ec0bc8d1d1a0bbf8bc07c46fadbe337083e6f9e40727ddc7a8764573",
+      "reuseRecord": "reuse.json#scene-38"
+    },
+    {
+      "id": "scene-39",
+      "number": 39,
+      "sheet": 6,
+      "panel": 4,
+      "title": {
+        "en": "Lift the rug",
+        "ru": "Поднимаем ковёр",
+        "es": "Arriba la alfombra"
+      },
+      "image": "web/scene-39.webp",
+      "paragraphs": {
+        "en": [
+          "Papa lifted one end of the rug. The other end went splash!"
+        ],
+        "ru": [
+          "Папа поднял один край ковра. Другой край — плюх!"
+        ],
+        "es": [
+          "Papá levantó una punta de la alfombra. ¡La otra hizo plof!"
+        ]
+      },
+      "alt": {
+        "en": "Papa rolls/lifts loose COMMON-room oval rug away from table legs, wet far corner makes small splash; do not pull fixed bath mat from underneath tub. Baby in east chair in sight, Mama moves books.",
+        "ru": "Поднимаем ковёр",
+        "es": "Arriba la alfombra"
+      },
+      "action": "Papa rolls/lifts loose COMMON-room oval rug away from table legs, wet far corner makes small splash; do not pull fixed bath mat from underneath tub. Baby in east chair in sight, Mama moves books.",
+      "room": "common",
+      "cast": [
+        "Papa",
+        "Mama",
+        "PomPom"
+      ],
+      "camera": {
+        "position": [
+          1,
+          -2,
+          0.5
+        ],
+        "target": [
+          -0.4,
+          -0.9,
+          0.4
+        ],
+        "lensMm": 35,
+        "sensorWidthMm": 36,
+        "status": "proposed blocking; unrendered, not measured image reconstruction",
+        "frame": "canonical house +X east, +Y north, +Z up; meters",
+        "aspectRatio": "3:2"
+      },
+      "blockingAndGaze": "Papa rolls/lifts loose COMMON-room oval rug away from table legs, wet far corner makes small splash; do not pull fixed bath mat from underneath tub. Baby in east chair in sight, Mama moves books.",
+      "continuity": {
+        "tubFillPercent": 100,
+        "floorWater": "small splash in shallow puddle",
+        "magic": "active",
+        "doorBathDegrees": 75,
+        "doorBedroomDegrees": 0,
+        "doorFrontDegrees": 0,
+        "babyLocation": "stable high-sidedchair incommon",
+        "adultOffscreen": "Papa remains common-side with PomPom; Mama follows action as specified",
+        "duck": "common-room shallow puddle, offscreen if absent",
+        "duckLiving": true,
+        "duckMaterial": "carved honey-yellow wood with visible grain, orange rounded beak, friendly inset dark eyes; no added limbs",
+        "duckLocation": "shallow floor stream/puddles",
+        "papaLocation": "commonroomhelping"
+      },
+      "reviewStatus": "internally reviewed draft; user review pending",
+      "reusedFrom": "scene-22",
+      "reuseMode": "byte-for-byte selected-v1 reuse; not newly generated",
+      "sourceProduction": "bath-magic-20261001",
+      "selectedMaster": "masters/reused/scene-39/scene-22-v1.png",
+      "selectedMasterSha256": "66666c2833620c0523be11ca9739954ffba406306e7da3a33a69de57ba350c55",
+      "imageSha256": "e48d67ef418e20643ae49bdd7a791f5b7af9115010b156a5edef7255787c76f2",
+      "reuseRecord": "reuse.json#scene-39"
+    },
+    {
+      "id": "scene-40",
+      "number": 40,
+      "sheet": 6,
+      "panel": 5,
+      "title": {
+        "en": "Too many spills",
+        "ru": "Слишком много струек",
+        "es": "Demasiados chorros"
+      },
+      "image": "web/scene-40.webp",
+      "paragraphs": {
+        "en": [
+          "PinPin moved one bucket, then the other. There were more spills than buckets."
+        ],
+        "ru": [
+          "Пин-Пин переставлял то одно ведёрко, то другое. Струек было больше, чем ведёрок."
+        ],
+        "es": [
+          "PinPin movía un cubo y después el otro. Había más chorros que cubos."
+        ]
+      },
+      "alt": {
+        "en": "Slight overhead bath action: two pails on floor catching east and south spills, third narrow spill starts southwest; PinPin crouched between pails looking at new problem, no extra paws.",
+        "ru": "Слишком много струек",
+        "es": "Demasiados chorros"
+      },
+      "action": "Slight overhead bath action: two pails on floor catching east and south spills, third narrow spill starts southwest; PinPin crouched between pails looking at new problem, no extra paws.",
+      "room": "bath",
+      "cast": [
+        "PinPin"
+      ],
+      "camera": {
+        "position": [
+          -2.3,
+          1.5,
+          1.8
+        ],
+        "target": [
+          -3.7,
+          2.5,
+          0.35
+        ],
+        "lensMm": 28,
+        "sensorWidthMm": 36,
+        "status": "proposed blocking; unrendered, not measured image reconstruction",
+        "frame": "canonical house +X east, +Y north, +Z up; meters",
+        "aspectRatio": "3:2"
+      },
+      "blockingAndGaze": "Slight overhead bath action: two pails on floor catching east and south spills, third narrow spill starts southwest; PinPin crouched between pails looking at new problem, no extra paws.",
+      "continuity": {
+        "tubFillPercent": 100,
+        "floorWater": "maximum shallow floor water, at most paws covered",
+        "magic": "active",
+        "doorBathDegrees": 75,
+        "doorBedroomDegrees": 0,
+        "doorFrontDegrees": 0,
+        "babyLocation": "stable high-sidedchair incommon",
+        "adultOffscreen": "Papa remains common-side with PomPom; Mama follows action as specified",
+        "duck": "common-room shallow puddle, offscreen if absent",
+        "duckLiving": true,
+        "duckMaterial": "carved honey-yellow wood with visible grain, orange rounded beak, friendly inset dark eyes; no added limbs",
+        "duckLocation": "shallow floor stream/puddles",
+        "papaLocation": "commonroomhelping"
+      },
+      "reviewStatus": "internally reviewed draft; user review pending",
+      "reusedFrom": "scene-23",
+      "reuseMode": "byte-for-byte selected-v1 reuse; not newly generated",
+      "sourceProduction": "bath-magic-20261001",
+      "selectedMaster": "masters/reused/scene-40/scene-23-v1.png",
+      "selectedMasterSha256": "dab0abc03b926d465dc97e534f2ba3ca83f94fdd8e9b588d020b110518bc0a66",
+      "imageSha256": "f77cbd35a68d2b791efdc8f4bf95453d540df01a0dc6f5fe8fe92a107cdbad8d",
+      "reuseRecord": "reuse.json#scene-40"
+    },
+    {
+      "id": "scene-41",
+      "number": 41,
+      "sheet": 6,
+      "panel": 6,
+      "title": {
+        "en": "Mama comes close",
+        "ru": "Мама рядом",
+        "es": "Mamá se acerca"
+      },
+      "image": "web/scene-41.webp",
+      "paragraphs": {
+        "en": [
+          "Mama came beside him. “Let’s look together.”"
+        ],
+        "ru": [
+          "Мама подошла к нему. — Давай посмотрим вместе."
+        ],
+        "es": [
+          "Mamá se acercó a él. —Vamos a mirar juntos."
+        ]
+      },
+      "alt": {
+        "en": "Mama kneels beside PinPin on east side of tub, open reassuring paw by his shoulder; both look at gold circle, no adult demonstrating solution. Papa/baby off-camera common room.",
+        "ru": "Мама рядом",
+        "es": "Mamá se acerca"
+      },
+      "action": "Mama kneels beside PinPin on east side of tub, open reassuring paw by his shoulder; both look at gold circle, no adult demonstrating solution. Papa/baby off-camera common room.",
+      "room": "bath",
+      "cast": [
+        "Mama",
+        "PinPin"
+      ],
+      "camera": {
+        "position": [
+          -1.97,
+          1.28,
+          1.1
+        ],
+        "target": [
+          -3.74,
+          2.66,
+          0.55
+        ],
+        "lensMm": 24,
+        "sensorWidthMm": 36,
+        "status": "proposed blocking; unrendered, not measured image reconstruction",
+        "frame": "canonical house +X east, +Y north, +Z up; meters",
+        "aspectRatio": "3:2"
+      },
+      "blockingAndGaze": "Mama kneels beside PinPin on east side of tub, open reassuring paw by his shoulder; both look at gold circle, no adult demonstrating solution. Papa/baby off-camera common room.",
+      "continuity": {
+        "tubFillPercent": 100,
+        "floorWater": "maximum shallow, flow continues",
+        "magic": "active",
+        "doorBathDegrees": 75,
+        "doorBedroomDegrees": 0,
+        "doorFrontDegrees": 0,
+        "babyLocation": "stable high-sidedchair incommon",
+        "adultOffscreen": "Papa remains common-side with PomPom; Mama follows action as specified",
+        "duck": "common-room shallow puddle, offscreen if absent",
+        "duckLiving": true,
+        "duckMaterial": "carved honey-yellow wood with visible grain, orange rounded beak, friendly inset dark eyes; no added limbs",
+        "duckLocation": "shallow floor stream/puddles",
+        "papaLocation": "commonroomhelping"
+      },
+      "reviewStatus": "internally reviewed draft; user review pending",
+      "reusedFrom": "scene-24",
+      "reuseMode": "byte-for-byte selected-v1 reuse; not newly generated",
+      "sourceProduction": "bath-magic-20261001",
+      "selectedMaster": "masters/reused/scene-41/scene-24-v1.png",
+      "selectedMasterSha256": "bd139a9d2deb8c2233c33db9d4d1320c2200881c7027f201b925c33e2abd9641",
+      "imageSha256": "03a9e657d598fb978decaf35e347ad11a40fca10e3bcdbd89c94cecf319adc7f",
+      "reuseRecord": "reuse.json#scene-41"
+    },
+    {
+      "id": "scene-42",
+      "number": 42,
+      "sheet": 6,
+      "panel": 7,
+      "title": {
+        "en": "Show me",
+        "ru": "Покажи мне",
+        "es": "Enséñame"
+      },
+      "image": "web/scene-42.webp",
+      "paragraphs": {
+        "en": [
+          "“Show me what you did.” “I made the circle,” said PinPin."
+        ],
+        "ru": [
+          "— Покажи, что ты сделал. — Я начертил круг, — сказал Пин-Пин."
+        ],
+        "es": [
+          "—Enséñame qué hiciste. —Hice el círculo —dijo PinPin."
+        ]
+      },
+      "alt": {
+        "en": "Two-shot from north across tub sees child point at ring, Mama tracks exact pointing target; not direct reader gaze. Matching ring position unchanged from creation.",
+        "ru": "Покажи мне",
+        "es": "Enséñame"
+      },
+      "action": "Two-shot from north across tub sees child point at ring, Mama tracks exact pointing target; not direct reader gaze. Matching ring position unchanged from creation.",
+      "room": "bath",
+      "cast": [
+        "Mama",
+        "PinPin"
+      ],
+      "camera": {
+        "position": [
+          -3.9,
+          3.75,
+          1.0
+        ],
+        "target": [
+          -2.8,
+          2.3,
+          0.75
+        ],
+        "lensMm": 40,
+        "sensorWidthMm": 36,
+        "status": "proposed blocking; unrendered, not measured image reconstruction",
+        "frame": "canonical house +X east, +Y north, +Z up; meters",
+        "aspectRatio": "3:2"
+      },
+      "blockingAndGaze": "Two-shot from north across tub sees child point at ring, Mama tracks exact pointing target; not direct reader gaze. Matching ring position unchanged from creation.",
+      "continuity": {
+        "tubFillPercent": 100,
+        "floorWater": "maximum shallow, flow continues",
+        "magic": "active",
+        "doorBathDegrees": 75,
+        "doorBedroomDegrees": 0,
+        "doorFrontDegrees": 0,
+        "babyLocation": "stable high-sidedchair incommon",
+        "adultOffscreen": "Papa remains common-side with PomPom; Mama follows action as specified",
+        "duck": "common-room shallow puddle, offscreen if absent",
+        "duckLiving": true,
+        "duckMaterial": "carved honey-yellow wood with visible grain, orange rounded beak, friendly inset dark eyes; no added limbs",
+        "duckLocation": "shallow floor stream/puddles",
+        "papaLocation": "commonroomhelping"
+      },
+      "reviewStatus": "internally reviewed draft; user review pending",
+      "reusedFrom": "scene-25",
+      "reuseMode": "byte-for-byte selected-v1 reuse; not newly generated",
+      "sourceProduction": "bath-magic-20261001",
+      "selectedMaster": "masters/reused/scene-42/scene-25-v2.png",
+      "selectedMasterSha256": "bf4e1b7a704f8c55cd7007b8718d1dab8f284ea4ed4c4a0b02f1ec4ae9b3bcaa",
+      "imageSha256": "d9cdfbdb9e475059867db7fb0570be643596b9b6a257250e5d8f6962797387c0",
+      "reuseRecord": "reuse.json#scene-42"
+    },
+    {
+      "id": "scene-43",
+      "number": 43,
+      "sheet": 7,
+      "panel": 1,
+      "title": {
+        "en": "Remember the movement",
+        "ru": "Вспомнить движение",
+        "es": "Recordar el movimiento"
+      },
+      "image": "web/scene-43.webp",
+      "paragraphs": {
+        "en": [
+          "He moved his paw slowly, remembering. Round this way…"
+        ],
+        "ru": [
+          "Он медленно повёл лапкой, вспоминая. Сначала вот так, по кругу…"
+        ],
+        "es": [
+          "Movió la patita despacio, recordando. En círculo, por aquí…"
+        ]
+      },
+      "alt": {
+        "en": "Close same right-shoulder setup as scene09: child rehearses CLOCKWISE with raised paw above ring without touching, faint gesture arc no second new spell; Mama still watching behind shoulder.",
+        "ru": "Вспомнить движение",
+        "es": "Recordar el movimiento"
+      },
+      "action": "Close same right-shoulder setup as scene09: child rehearses CLOCKWISE with raised paw above ring without touching, faint gesture arc no second new spell; Mama still watching behind shoulder.",
+      "room": "bath",
+      "cast": [
+        "Mama",
+        "PinPin"
+      ],
+      "camera": {
+        "position": [
+          -2.4,
+          2.15,
+          1.35
+        ],
+        "target": [
+          -3.1,
+          2.65,
+          0.42
+        ],
+        "lensMm": 45,
+        "sensorWidthMm": 36,
+        "status": "proposed blocking; unrendered, not measured image reconstruction",
+        "frame": "canonical house +X east, +Y north, +Z up; meters",
+        "aspectRatio": "3:2"
+      },
+      "blockingAndGaze": "Close same right-shoulder setup as scene09: child rehearses CLOCKWISE with raised paw above ring without touching, faint gesture arc no second new spell; Mama still watching behind shoulder.",
+      "continuity": {
+        "tubFillPercent": 100,
+        "floorWater": "maximum shallow",
+        "magic": "active; rehearsal does not add stream",
+        "doorBathDegrees": 75,
+        "doorBedroomDegrees": 0,
+        "doorFrontDegrees": 0,
+        "babyLocation": "stable high-sidedchair incommon",
+        "adultOffscreen": "Papa remains common-side with PomPom; Mama follows action as specified",
+        "duck": "common-room shallow puddle, offscreen if absent",
+        "duckLiving": true,
+        "duckMaterial": "carved honey-yellow wood with visible grain, orange rounded beak, friendly inset dark eyes; no added limbs",
+        "duckLocation": "shallow floor stream/puddles",
+        "papaLocation": "commonroomhelping"
+      },
+      "reviewStatus": "internally reviewed draft; user review pending",
+      "reusedFrom": "scene-26",
+      "reuseMode": "byte-for-byte selected-v1 reuse; not newly generated",
+      "sourceProduction": "bath-magic-20261001",
+      "selectedMaster": "masters/reused/scene-43/scene-26-v2.png",
+      "selectedMasterSha256": "b6c8cd8fbae0adb6ecc6cfbf83763cd8046b54bf0371a00558ddacf319ce4c1d",
+      "imageSha256": "408e882aaa26472e57b901aed475c80906c216a6586bd4bcee6db9600d05714d",
+      "reuseRecord": "reuse.json#scene-43"
+    },
+    {
+      "id": "scene-44",
+      "number": 44,
+      "sheet": 7,
+      "panel": 2,
+      "title": {
+        "en": "The other way",
+        "ru": "А если наоборот",
+        "es": "¿Y al revés?"
+      },
+      "image": "web/scene-44.webp",
+      "paragraphs": {
+        "en": [
+          "PinPin stopped and looked at his paw. “What if I go the other way?”"
+        ],
+        "ru": [
+          "Пин-Пин остановился и посмотрел на лапку. — А если наоборот?"
+        ],
+        "es": [
+          "PinPin se detuvo y miró su patita. —¿Y si lo hago al revés?"
+        ]
+      },
+      "alt": {
+        "en": "Tight child face and raised paw, eyes shift from paw to circle in lower frame; Mama softly visible waiting, not whispering instruction.",
+        "ru": "А если наоборот",
+        "es": "¿Y al revés?"
+      },
+      "action": "Tight child face and raised paw, eyes shift from paw to circle in lower frame; Mama softly visible waiting, not whispering instruction.",
+      "room": "bath",
+      "cast": [
+        "Mama",
+        "PinPin"
+      ],
+      "camera": {
+        "position": [
+          -3.5,
+          1.45,
+          0.85
+        ],
+        "target": [
+          -2.75,
+          2.6,
+          0.7
+        ],
+        "lensMm": 65,
+        "sensorWidthMm": 36,
+        "status": "proposed blocking; unrendered, not measured image reconstruction",
+        "frame": "canonical house +X east, +Y north, +Z up; meters",
+        "aspectRatio": "3:2"
+      },
+      "blockingAndGaze": "Tight child face and raised paw, eyes shift from paw to circle in lower frame; Mama softly visible waiting, not whispering instruction.",
+      "continuity": {
+        "tubFillPercent": 100,
+        "floorWater": "maximum shallow",
+        "magic": "active",
+        "doorBathDegrees": 75,
+        "doorBedroomDegrees": 0,
+        "doorFrontDegrees": 0,
+        "babyLocation": "stable high-sidedchair incommon",
+        "adultOffscreen": "Papa remains common-side with PomPom; Mama follows action as specified",
+        "duck": "common-room shallow puddle, offscreen if absent",
+        "duckLiving": true,
+        "duckMaterial": "carved honey-yellow wood with visible grain, orange rounded beak, friendly inset dark eyes; no added limbs",
+        "duckLocation": "shallow floor stream/puddles",
+        "papaLocation": "commonroomhelping"
+      },
+      "reviewStatus": "internally reviewed draft; user review pending",
+      "reusedFrom": "scene-27",
+      "reuseMode": "byte-for-byte selected-v1 reuse; not newly generated",
+      "sourceProduction": "bath-magic-20261001",
+      "selectedMaster": "masters/reused/scene-44/scene-27-v1.png",
+      "selectedMasterSha256": "15134fa81c9ea9145885e61b8eb7e39a9df83484cfb8bb765af6914d36cc921a",
+      "imageSha256": "e90b51ecbb453055c19ec45f8d3da36d5f4227f3c877893c14ad8c593c3f9a9a",
+      "reuseRecord": "reuse.json#scene-44"
+    },
+    {
+      "id": "scene-45",
+      "number": 45,
+      "sheet": 7,
+      "panel": 3,
+      "title": {
+        "en": "Back around",
+        "ru": "В обратную сторону",
+        "es": "En sentido contrario"
+      },
+      "image": "web/scene-45.webp",
+      "paragraphs": {
+        "en": [
+          "Carefully, he followed the circle backwards. The golden line began to fade."
+        ],
+        "ru": [
+          "Он осторожно обвёл круг в обратную сторону. Золотая полоска начала гаснуть."
+        ],
+        "es": [
+          "Con cuidado, recorrió el círculo al revés. La línea dorada empezó a apagarse."
+        ]
+      },
+      "alt": {
+        "en": "Exactly same right-shoulder camera and tub landmarks as09/26: fingertip traces COUNTERCLOCKWISE through existing ring, erasing it behind paw; remaining arc and leading contact point explain reversal without arrows/text.",
+        "ru": "В обратную сторону",
+        "es": "En sentido contrario"
+      },
+      "action": "Exactly same right-shoulder camera and tub landmarks as09/26: fingertip traces COUNTERCLOCKWISE through existing ring, erasing it behind paw; remaining arc and leading contact point explain reversal without arrows/text.",
+      "room": "bath",
+      "cast": [
+        "Mama",
+        "PinPin"
+      ],
+      "camera": {
+        "position": [
+          -2.4,
+          2.15,
+          1.35
+        ],
+        "target": [
+          -3.1,
+          2.65,
+          0.42
+        ],
+        "lensMm": 45,
+        "sensorWidthMm": 36,
+        "status": "proposed blocking; unrendered, not measured image reconstruction",
+        "frame": "canonical house +X east, +Y north, +Z up; meters",
+        "aspectRatio": "3:2"
+      },
+      "blockingAndGaze": "Exactly same right-shoulder camera and tub landmarks as09/26: fingertip traces COUNTERCLOCKWISE through existing ring, erasing it behind paw; remaining arc and leading contact point explain reversal without arrows/text.",
+      "continuity": {
+        "tubFillPercent": 100,
+        "floorWater": "maximum shallow",
+        "magic": "counterclockwise erasing existing ring",
+        "doorBathDegrees": 75,
+        "doorBedroomDegrees": 0,
+        "doorFrontDegrees": 0,
+        "babyLocation": "stable high-sidedchair incommon",
+        "adultOffscreen": "Papa remains common-side with PomPom; Mama follows action as specified",
+        "duck": "common-room shallow puddle, offscreen if absent",
+        "duckLiving": true,
+        "duckMaterial": "carved honey-yellow wood with visible grain, orange rounded beak, friendly inset dark eyes; no added limbs",
+        "duckLocation": "shallow floor stream/puddles",
+        "papaLocation": "commonroomhelping"
+      },
+      "reviewStatus": "internally reviewed draft; user review pending",
+      "reusedFrom": "scene-28",
+      "reuseMode": "byte-for-byte selected-v1 reuse; not newly generated",
+      "sourceProduction": "bath-magic-20261001",
+      "selectedMaster": "masters/reused/scene-45/scene-28-v1.png",
+      "selectedMasterSha256": "0eb01d78ffdca6dfe3eca228f6919317b92f69f473b9f88d3a07656e3512b9c6",
+      "imageSha256": "7571ee2206e8eb87397ec8bea719fd3a203ef9b00a9d2684d0a95ffc474c526c",
+      "reuseRecord": "reuse.json#scene-45"
+    },
+    {
+      "id": "scene-46",
+      "number": 46,
+      "sheet": 7,
+      "panel": 4,
+      "title": {
+        "en": "Less and less",
+        "ru": "Всё меньше",
+        "es": "Cada vez menos"
+      },
+      "image": "web/scene-46.webp",
+      "paragraphs": {
+        "en": [
+          "The stream grew thin. Thinner… thinner…"
+        ],
+        "ru": [
+          "Струйка стала тоньше. Ещё тоньше… ещё…"
+        ],
+        "es": [
+          "El chorro se hizo más fino. Más fino… y más fino…"
+        ]
+      },
+      "alt": {
+        "en": "Match scene10 stream angle now narrowing, three-quarter erased ring; PinPin hand follows last part of circle, Mama watches small stream. No new source.",
+        "ru": "Всё меньше",
+        "es": "Cada vez menos"
+      },
+      "action": "Match scene10 stream angle now narrowing, three-quarter erased ring; PinPin hand follows last part of circle, Mama watches small stream. No new source.",
+      "room": "bath",
+      "cast": [
+        "Mama",
+        "PinPin"
+      ],
+      "camera": {
+        "position": [
+          -3.1,
+          1.75,
+          0.63
+        ],
+        "target": [
+          -3.35,
+          2.65,
+          0.63
+        ],
+        "lensMm": 50,
+        "sensorWidthMm": 36,
+        "status": "proposed blocking; unrendered, not measured image reconstruction",
+        "frame": "canonical house +X east, +Y north, +Z up; meters",
+        "aspectRatio": "3:2"
+      },
+      "blockingAndGaze": "Match scene10 stream angle now narrowing, three-quarter erased ring; PinPin hand follows last part of circle, Mama watches small stream. No new source.",
+      "continuity": {
+        "tubFillPercent": 100,
+        "floorWater": "existing spills slow, floor remains wet",
+        "magic": "fading",
+        "doorBathDegrees": 75,
+        "doorBedroomDegrees": 0,
+        "doorFrontDegrees": 0,
+        "babyLocation": "stable high-sidedchair incommon",
+        "adultOffscreen": "Papa remains common-side with PomPom; Mama follows action as specified",
+        "duck": "common-room shallow puddle, offscreen if absent",
+        "duckLiving": true,
+        "duckMaterial": "carved honey-yellow wood with visible grain, orange rounded beak, friendly inset dark eyes; no added limbs",
+        "duckLocation": "shallow floor stream/puddles",
+        "papaLocation": "commonroomhelping"
+      },
+      "reviewStatus": "internally reviewed draft; user review pending",
+      "reusedFrom": "scene-29",
+      "reuseMode": "byte-for-byte selected-v1 reuse; not newly generated",
+      "sourceProduction": "bath-magic-20261001",
+      "selectedMaster": "masters/reused/scene-46/scene-29-v2.png",
+      "selectedMasterSha256": "3ce65ece0c8d00f06c02f5001076649d55a4ba3997a6fb598f1d6db6f4da1d3a",
+      "imageSha256": "7a15304d5b29bc980f08c2fb21b11b10cae69f72d5b2f6a92b09762d42d3800e",
+      "reuseRecord": "reuse.json#scene-46"
+    },
+    {
+      "id": "scene-47",
+      "number": 47,
+      "sheet": 7,
+      "panel": 5,
+      "title": {
+        "en": "Stopped!",
+        "ru": "Остановилась!",
+        "es": "¡Se paró!"
+      },
+      "image": "web/scene-47.webp",
+      "paragraphs": {
+        "en": [
+          "One last drop. Then the water stopped."
+        ],
+        "ru": [
+          "Последняя капля. И вода остановилась."
+        ],
+        "es": [
+          "Una última gota. Y el agua se paró."
+        ]
+      },
+      "alt": {
+        "en": "Single final drop above calm brim-full tub, ring completely gone; child and Mama relieved eye contact across frame, both still outside water. Overflow dwindles from residual slosh, no dry-floor jump.",
+        "ru": "Остановилась!",
+        "es": "¡Se paró!"
+      },
+      "action": "Single final drop above calm brim-full tub, ring completely gone; child and Mama relieved eye contact across frame, both still outside water. Overflow dwindles from residual slosh, no dry-floor jump.",
+      "room": "bath",
+      "cast": [
+        "Mama",
+        "PinPin"
+      ],
+      "camera": {
+        "position": [
+          -3.1,
+          1.75,
+          0.63
+        ],
+        "target": [
+          -3.35,
+          2.65,
+          0.63
+        ],
+        "lensMm": 50,
+        "sensorWidthMm": 36,
+        "status": "proposed blocking; unrendered, not measured image reconstruction",
+        "frame": "canonical house +X east, +Y north, +Z up; meters",
+        "aspectRatio": "3:2"
+      },
+      "blockingAndGaze": "Single final drop above calm brim-full tub, ring completely gone; child and Mama relieved eye contact across frame, both still outside water. Overflow dwindles from residual slosh, no dry-floor jump.",
+      "continuity": {
+        "tubFillPercent": 100,
+        "floorWater": "wet floor remains unchanged",
+        "magic": "off",
+        "doorBathDegrees": 75,
+        "doorBedroomDegrees": 0,
+        "doorFrontDegrees": 0,
+        "babyLocation": "stable high-sidedchair incommon",
+        "adultOffscreen": "Papa remains common-side with PomPom; Mama follows action as specified",
+        "duck": "common-room shallow puddle, offscreen if absent",
+        "duckLiving": true,
+        "duckMaterial": "carved honey-yellow wood with visible grain, orange rounded beak, friendly inset dark eyes; no added limbs",
+        "duckLocation": "shallow floor stream/puddles",
+        "papaLocation": "commonroomhelping"
+      },
+      "reviewStatus": "internally reviewed draft; user review pending",
+      "reusedFrom": "scene-30",
+      "reuseMode": "byte-for-byte selected-v1 reuse; not newly generated",
+      "sourceProduction": "bath-magic-20261001",
+      "selectedMaster": "masters/reused/scene-47/scene-30-v2.png",
+      "selectedMasterSha256": "74bf0084dcbb652f4cb829628b06dea06cfc098b371e1aecbab0a0f472c3fe5d",
+      "imageSha256": "f52db59f187b39fb41a5722f6c16aaa28e2b30cefb9c94cb4942ac7ca30cacf1",
+      "reuseRecord": "reuse.json#scene-47"
+    },
+    {
+      "title": {
+        "en": "Still talking",
+        "ru": "Всё ещё говорит",
+        "es": "Todavía habla"
+      },
+      "paragraphs": {
+        "en": [
+          "“Where did my fountain go?” asked the duck. It could still talk!"
+        ],
+        "ru": [
+          "— А куда делся мой фонтанчик? — спросила уточка. Она всё ещё умела говорить!"
+        ],
+        "es": [
+          "—¿Dónde está mi fuente? —preguntó el patito. ¡Todavía podía hablar!"
+        ]
+      },
+      "alt": {
+        "en": "Afterwaterstop, closewoodduck floatinginSHALLOW floorpuddle bybathdoor, originalbeakopen curiousquestion, eyeslookdirectlens(childPOVlookingdown). Softbackgroundtubcalmno goldringorstream, residualwetfloorvisible; duckremainsenchantedbutnotwands/spells. No dramaticdryfloor; mildconfusioncomedy.",
+        "ru": "— А куда делся мой фонтанчик? — спросила уточка. Она всё ещё умела говорить!",
+        "es": "—¿Dónde está mi fuente? —preguntó el patito. ¡Todavía podía hablar!"
+      },
+      "action": "Afterwaterstop, closewoodduck floatinginSHALLOW floorpuddle bybathdoor, originalbeakopen curiousquestion, eyeslookdirectlens(childPOVlookingdown). Softbackgroundtubcalmno goldringorstream, residualwetfloorvisible; duckremainsenchantedbutnotwands/spells. No dramaticdryfloor; mildconfusioncomedy.",
+      "room": "threshold",
+      "cast": [
+        "duck"
+      ],
+      "camera": {
+        "position": [
+          -2.4,
+          0.25,
+          0.08
+        ],
+        "target": [
+          -2.8,
+          0.8,
+          0.12
+        ],
+        "lensMm": 45,
+        "sensorWidthMm": 36,
+        "status": "proposed narrative camera, not measured image or executed render",
+        "frame": "canonical house +X east, +Y north, +Z up; meters",
+        "aspectRatio": "3:2",
+        "mode": "child-pov duck closeup"
+      },
+      "blockingAndGaze": "Afterwaterstop, closewoodduck floatinginSHALLOW floorpuddle bybathdoor, originalbeakopen curiousquestion, eyeslookdirectlens(childPOVlookingdown). Softbackgroundtubcalmno goldringorstream, residualwetfloorvisible; duckremainsenchantedbutnotwands/spells. No dramaticdryfloor; mildconfusioncomedy.",
+      "continuity": {
+        "tubFillPercent": 100,
+        "magic": "water off; duck alive",
+        "duckLiving": true,
+        "duckMaterial": "carved honey-yellow wood with visible grain, orange rounded beak, friendly inset dark eyes; no added limbs",
+        "duckLocation": "shallow floor stream/puddles",
+        "babyLocation": "stable high-sidedchair incommon",
+        "papaLocation": "commonroomhelping"
+      },
+      "reviewStatus": "internally reviewed draft; user review pending",
+      "requiredNewImage": true,
+      "id": "scene-48",
+      "number": 48,
+      "image": "web/scene-48.webp",
+      "sheet": 7,
+      "panel": 6,
+      "selectedMaster": "masters/scene-48-v1.png",
+      "selectedMasterSha256": "c91e2cee7a7933d1af67a77764bfc5c7831197e83088ba07fa9f4130aae91ced",
+      "imageSha256": "9e45540d295c800c921ac2a8838614741e83bd22f8ff340b14f74b5959fe7b5d",
+      "generationRecord": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r2/records/scene-48-v1.json"
+    },
+    {
+      "id": "scene-49",
+      "number": 49,
+      "sheet": 7,
+      "panel": 7,
+      "title": {
+        "en": "One more splash",
+        "ru": "Ещё один плюх",
+        "es": "Un chapuzón más"
+      },
+      "image": "web/scene-49.webp",
+      "paragraphs": {
+        "en": [
+          "Everyone stood still. Then Papa’s wet rug went—plop!"
+        ],
+        "ru": [
+          "Все замерли. И тут с мокрого ковра Папы — плюх!"
+        ],
+        "es": [
+          "Todos se quedaron quietos. Y entonces, de la alfombra de Papá… ¡plof!"
+        ]
+      },
+      "alt": {
+        "en": "Common room wider comedic pause: Papa holds rolled rug away from chair, last collected pocket of water drops into existing puddle; Mama and PinPin visible bath doorway smiling, baby in stable chair laughing. No magic returning.",
+        "ru": "Ещё один плюх",
+        "es": "Un chapuzón más"
+      },
+      "action": "Common room wider comedic pause: Papa holds rolled rug away from chair, last collected pocket of water drops into existing puddle; Mama and PinPin visible bath doorway smiling, baby in stable chair laughing. No magic returning.",
+      "room": "common",
+      "cast": [
+        "PinPin",
+        "Mama",
+        "Papa",
+        "PomPom"
+      ],
+      "camera": {
+        "position": [
+          1.5,
+          -2.25,
+          0.85
+        ],
+        "target": [
+          -1.2,
+          0,
+          0.7
+        ],
+        "lensMm": 24,
+        "sensorWidthMm": 36,
+        "status": "proposed blocking; unrendered, not measured image reconstruction",
+        "frame": "canonical house +X east, +Y north, +Z up; meters",
+        "aspectRatio": "3:2"
+      },
+      "blockingAndGaze": "Common room wider comedic pause: Papa holds rolled rug away from chair, last collected pocket of water drops into existing puddle; Mama and PinPin visible bath doorway smiling, baby in stable chair laughing. No magic returning.",
+      "continuity": {
+        "tubFillPercent": 100,
+        "floorWater": "one residual rug splash, no new water",
+        "magic": "off",
+        "doorBathDegrees": 75,
+        "doorBedroomDegrees": 0,
+        "doorFrontDegrees": 0,
+        "babyLocation": "stable high-sidedchair incommon",
+        "adultOffscreen": "Papa remains common-side with PomPom; Mama follows action as specified",
+        "duck": "common-room shallow puddle, offscreen if absent",
+        "duckLiving": true,
+        "duckMaterial": "carved honey-yellow wood with visible grain, orange rounded beak, friendly inset dark eyes; no added limbs",
+        "duckLocation": "floorpuddle offcamera; talking ability persists",
+        "papaLocation": "commonroomhelping"
+      },
+      "reviewStatus": "internally reviewed draft; user review pending",
+      "reusedFrom": "scene-31",
+      "reuseMode": "byte-for-byte selected-v1 reuse; not newly generated",
+      "sourceProduction": "bath-magic-20261001",
+      "selectedMaster": "masters/reused/scene-49/scene-31-v1.png",
+      "selectedMasterSha256": "7a3de61d00db25693731d7d5259b5a308595e9240fac9453230d7b4f0ba9be59",
+      "imageSha256": "5305cc38f9a5b636ea8541d223848ffb75b3f20d696502a27d301b2e9d5604cb",
+      "reuseRecord": "reuse.json#scene-49"
+    },
+    {
+      "id": "scene-50",
+      "number": 50,
+      "sheet": 8,
+      "panel": 1,
+      "title": {
+        "en": "Buckets again",
+        "ru": "Снова ведёрки",
+        "es": "Otra vez los cubos"
+      },
+      "image": "web/scene-50.webp",
+      "paragraphs": {
+        "en": [
+          "They scooped the extra water into buckets. This time, PinPin was glad to have two."
+        ],
+        "ru": [
+          "Лишнюю воду стали собирать в ведёрки. Теперь Пин-Пин был рад, что их два."
+        ],
+        "es": [
+          "Recogieron el agua sobrante en los cubos. Esta vez, PinPin se alegró de tener dos."
+        ]
+      },
+      "alt": {
+        "en": "Mama scoops excess clean TUB water into spare basin until bath half-full while PinPin scoops shallow floor puddle into one original pail; Papa carries other pail toward open front door to empty outside; water routes distinct and no floor water returned to bath.",
+        "ru": "Снова ведёрки",
+        "es": "Otra vez los cubos"
+      },
+      "action": "Mama scoops excess clean TUB water into spare basin until bath half-full while PinPin scoops shallow floor puddle into one original pail; Papa carries other pail toward open front door to empty outside; water routes distinct and no floor water returned to bath.",
+      "room": "bath",
+      "cast": [
+        "Mama",
+        "PinPin"
+      ],
+      "camera": {
+        "position": [
+          -1.97,
+          1.28,
+          1.1
+        ],
+        "target": [
+          -3.74,
+          2.66,
+          0.55
+        ],
+        "lensMm": 24,
+        "sensorWidthMm": 36,
+        "status": "proposed blocking; unrendered, not measured image reconstruction",
+        "frame": "canonical house +X east, +Y north, +Z up; meters",
+        "aspectRatio": "3:2"
+      },
+      "blockingAndGaze": "Mama scoops excess clean TUB water into spare basin until bath half-full while PinPin scoops shallow floor puddle into one original pail; Papa carries other pail toward open front door to empty outside; water routes distinct and no floor water returned to bath.",
+      "continuity": {
+        "tubFillPercent": 55,
+        "floorWater": "puddles visibly receding through cleanup",
+        "magic": "off",
+        "doorBathDegrees": 75,
+        "doorBedroomDegrees": 0,
+        "doorFrontDegrees": 75,
+        "babyLocation": "stable high-sidedchair incommon",
+        "adultOffscreen": "Papa remains common-side with PomPom; Mama follows action as specified",
+        "duck": "retrieved during cleanup",
+        "duckLiving": true,
+        "duckMaterial": "carved honey-yellow wood with visible grain, orange rounded beak, friendly inset dark eyes; no added limbs",
+        "duckLocation": "shallow floor stream/puddles",
+        "papaLocation": "commonroomhelping"
+      },
+      "reviewStatus": "internally reviewed draft; user review pending",
+      "reusedFrom": "scene-32",
+      "reuseMode": "byte-for-byte selected-v1 reuse; not newly generated",
+      "sourceProduction": "bath-magic-20261001",
+      "selectedMaster": "masters/reused/scene-50/scene-32-v2.png",
+      "selectedMasterSha256": "545e33b5f822d034b1728ee6f9f14250162174b8ebc9126e46b7e7cff5685294",
+      "imageSha256": "b8c71e03bdb2dda479d6f593979209af4f4305830c523653aee2867b6848628e",
+      "reuseRecord": "reuse.json#scene-50",
+      "visibleCastNotes": "Papa and PomPom remain offscreen."
+    },
+    {
+      "title": {
+        "en": "A tiny pond",
+        "ru": "Маленький пруд",
+        "es": "Un estanque pequeño"
+      },
+      "paragraphs": {
+        "en": [
+          "The duck found a tiny puddle. “This pond is just my size!”"
+        ],
+        "ru": [
+          "Уточка нашла маленькую лужицу. — Этот прудик как раз для меня!"
+        ],
+        "es": [
+          "El patito encontró un charquito. —¡Este estanque es de mi tamaño!"
+        ]
+      },
+      "alt": {
+        "en": "Low close livingcarvedduck in smalllastisolatedcleanlookingpuddle barelylargerthanwoodbody; openbeakproud, littlewingcarvingNOTarms. PinPin's clothapproaches fromedge pushedbyonepaw, withchildface softbackground amusement. Cleanup clearlyongoing, otherfloorareasdampnotflooded; fountainoff. No extra duck.",
+        "ru": "Уточка нашла маленькую лужицу. — Этот прудик как раз для меня!",
+        "es": "El patito encontró un charquito. —¡Este estanque es de mi tamaño!"
+      },
+      "action": "Low close livingcarvedduck in smalllastisolatedcleanlookingpuddle barelylargerthanwoodbody; openbeakproud, littlewingcarvingNOTarms. PinPin's clothapproaches fromedge pushedbyonepaw, withchildface softbackground amusement. Cleanup clearlyongoing, otherfloorareasdampnotflooded; fountainoff. No extra duck.",
+      "room": "common",
+      "cast": [
+        "duck",
+        "PinPin"
+      ],
+      "camera": {
+        "position": [
+          1.1,
+          -1.8,
+          1.05
+        ],
+        "target": [
+          -1.3,
+          -0.6,
+          0.85
+        ],
+        "lensMm": 28,
+        "sensorWidthMm": 36,
+        "status": "proposed narrative camera, not measured image or executed render",
+        "frame": "canonical house +X east, +Y north, +Z up; meters",
+        "aspectRatio": "3:2",
+        "mode": "floor-level comic closeup"
+      },
+      "blockingAndGaze": "Low close livingcarvedduck in smalllastisolatedcleanlookingpuddle barelylargerthanwoodbody; openbeakproud, littlewingcarvingNOTarms. PinPin's clothapproaches fromedge pushedbyonepaw, withchildface softbackground amusement. Cleanup clearlyongoing, otherfloorareasdampnotflooded; fountainoff. No extra duck.",
+      "continuity": {
+        "tubFillPercent": 55,
+        "magic": "water off; duck alive",
+        "duckLiving": true,
+        "duckMaterial": "carved honey-yellow wood with visible grain, orange rounded beak, friendly inset dark eyes; no added limbs",
+        "duckLocation": "shallow floor stream/puddles",
+        "babyLocation": "stable high-sidedchair incommon",
+        "papaLocation": "commonroomhelping"
+      },
+      "reviewStatus": "internally reviewed draft; user review pending",
+      "requiredNewImage": true,
+      "id": "scene-51",
+      "number": 51,
+      "image": "web/scene-51.webp",
+      "sheet": 8,
+      "panel": 2,
+      "selectedMaster": "masters/scene-51-v1.png",
+      "selectedMasterSha256": "e425709d4f0ba2d9de2eddaf5069d8bb1e51dbe7f360bbb347d06dfdd67cf1f5",
+      "imageSha256": "ae0a7dc581932dc96fc9b7598952574be5803e9036d3f06be0214dd35f0f3943",
+      "generationRecord": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r2/records/scene-51-v1.json"
+    },
+    {
+      "id": "scene-52",
+      "number": 52,
+      "sheet": 8,
+      "panel": 3,
+      "title": {
+        "en": "Drying everything",
+        "ru": "Всё сушим",
+        "es": "A secarlo todo"
+      },
+      "image": "web/scene-52.webp",
+      "paragraphs": {
+        "en": [
+          "They wiped the floor and hung the wet things to dry. Soon there were only damp little footprints."
+        ],
+        "ru": [
+          "Они вытерли пол и развесили мокрые вещи. Скоро остались лишь влажные следы лапок."
+        ],
+        "es": [
+          "Secaron el suelo y colgaron las cosas mojadas. Pronto solo quedaron pequeñas huellas húmedas."
+        ]
+      },
+      "alt": {
+        "en": "PinPin pushes cloth over bath threshold toward common room; Mama wrings cloth into pail, Papa hangs wet rug on exterior rail visible open front door, PomPom still east chair near Mama. Flood gone by actual work, not magic.",
+        "ru": "Всё сушим",
+        "es": "A secarlo todo"
+      },
+      "action": "PinPin pushes cloth over bath threshold toward common room; Mama wrings cloth into pail, Papa hangs wet rug on exterior rail visible open front door, PomPom still east chair near Mama. Flood gone by actual work, not magic.",
+      "room": "threshold",
+      "cast": [
+        "PinPin",
+        "Mama",
+        "Papa",
+        "PomPom"
+      ],
+      "camera": {
+        "position": [
+          -1.25,
+          -0.15,
+          0.65
+        ],
+        "target": [
+          -2.8,
+          1.1,
+          0.55
+        ],
+        "lensMm": 28,
+        "sensorWidthMm": 36,
+        "status": "proposed blocking; unrendered, not measured image reconstruction",
+        "frame": "canonical house +X east, +Y north, +Z up; meters",
+        "aspectRatio": "3:2"
+      },
+      "blockingAndGaze": "PinPin pushes cloth over bath threshold toward common room; Mama wrings cloth into pail, Papa hangs wet rug on exterior rail visible open front door, PomPom still east chair near Mama. Flood gone by actual work, not magic.",
+      "continuity": {
+        "tubFillPercent": 55,
+        "floorWater": "damp patches only, no standing flood",
+        "magic": "off",
+        "doorBathDegrees": 75,
+        "doorBedroomDegrees": 0,
+        "doorFrontDegrees": 75,
+        "babyLocation": "stable high-sidedchair incommon",
+        "adultOffscreen": "Papa remains common-side with PomPom; Mama follows action as specified",
+        "duck": "retrieved during cleanup",
+        "duckLiving": true,
+        "duckMaterial": "carved honey-yellow wood with visible grain, orange rounded beak, friendly inset dark eyes; no added limbs",
+        "duckLocation": "shallow floor stream/puddles",
+        "papaLocation": "commonroomhelping"
+      },
+      "reviewStatus": "internally reviewed draft; user review pending",
+      "reusedFrom": "scene-33",
+      "reuseMode": "byte-for-byte selected-v1 reuse; not newly generated",
+      "sourceProduction": "bath-magic-20261001",
+      "selectedMaster": "masters/reused/scene-52/scene-33-v1.png",
+      "selectedMasterSha256": "f051910b2667e43421af6c7aa9fa1ca986d9a7d5d80396a7628788bc88c22714",
+      "imageSha256": "0ff247530581c8a07bc3c66e50d5728f27d9bf2ff70d22b3b015a9925c31199e",
+      "reuseRecord": "reuse.json#scene-52"
+    },
+    {
+      "id": "scene-53",
+      "number": 53,
+      "sheet": 8,
+      "panel": 4,
+      "title": {
+        "en": "At last, a bath",
+        "ru": "Наконец-то купаться",
+        "es": "Por fin, un baño"
+      },
+      "image": "web/scene-53.webp",
+      "paragraphs": {
+        "en": [
+          "At last, it was time for a proper bath. Mama stayed close while PinPin splashed just a little."
+        ],
+        "ru": [
+          "Наконец-то можно было купаться. Мама была рядом, а Пин-Пин плескался — совсем чуть-чуть."
+        ],
+        "es": [
+          "Por fin llegó la hora del baño de verdad. Mamá se quedó a su lado y PinPin salpicó… solo un poquito."
+        ]
+      },
+      "alt": {
+        "en": "Mama kneels outside same tub supervising PinPin seated in reduced shallow water; Papa holds dry PomPom in towel near doorway, awaiting his turn. Recovered duck in bath beside PinPin. Bath after clean-up, no ring, no overflow.",
+        "ru": "Наконец-то купаться",
+        "es": "Por fin, un baño"
+      },
+      "action": "Mama kneels outside same tub supervising PinPin seated in reduced shallow water; Papa holds dry PomPom in towel near doorway, awaiting his turn. Recovered duck in bath beside PinPin. Bath after clean-up, no ring, no overflow.",
+      "room": "bath",
+      "cast": [
+        "PinPin",
+        "Mama",
+        "Papa",
+        "PomPom"
+      ],
+      "camera": {
+        "position": [
+          -1.97,
+          1.28,
+          1.1
+        ],
+        "target": [
+          -3.74,
+          2.66,
+          0.55
+        ],
+        "lensMm": 24,
+        "sensorWidthMm": 36,
+        "status": "proposed blocking; unrendered, not measured image reconstruction",
+        "frame": "canonical house +X east, +Y north, +Z up; meters",
+        "aspectRatio": "3:2"
+      },
+      "blockingAndGaze": "Mama kneels outside same tub supervising PinPin seated in reduced shallow water; Papa holds dry PomPom in towel near doorway, awaiting his turn. Recovered duck in bath beside PinPin. Bath after clean-up, no ring, no overflow.",
+      "continuity": {
+        "tubFillPercent": 45,
+        "floorWater": "floor dry, tiny contained splash",
+        "magic": "off",
+        "doorBathDegrees": 75,
+        "doorBedroomDegrees": 0,
+        "doorFrontDegrees": 75,
+        "babyLocation": "Papa arms, own towel",
+        "adultOffscreen": "Papa remains common-side with PomPom; Mama follows action as specified",
+        "duck": "in bath",
+        "duckLiving": true,
+        "duckMaterial": "carved honey-yellow wood with visible grain, orange rounded beak, friendly inset dark eyes; no added limbs",
+        "duckLocation": "in supervised bath",
+        "papaLocation": "bathroomcaringforPomPom"
+      },
+      "reviewStatus": "internally reviewed draft; user review pending",
+      "reusedFrom": "scene-34",
+      "reuseMode": "byte-for-byte selected-v1 reuse; not newly generated",
+      "sourceProduction": "bath-magic-20261001",
+      "selectedMaster": "masters/reused/scene-53/scene-34-v3.png",
+      "selectedMasterSha256": "d963769f9d8d76090c108e8d5827782e029c39940e4e1889d0a466f82cb28bc1",
+      "imageSha256": "cdafef940d0d28e5ca494c3b939386742c7252ffc47fa9f17c7c08f2e00750a5",
+      "reuseRecord": "reuse.json#scene-53"
+    },
+    {
+      "title": {
+        "en": "Everyone gets a towel",
+        "ru": "Всем по полотенцу",
+        "es": "Una toalla para cada uno"
+      },
+      "paragraphs": {
+        "en": [
+          "Mama wrapped PinPin, and Papa wrapped PomPom. The duck wanted a towel too."
+        ],
+        "ru": [
+          "Мама завернула Пин-Пина, а Папа — Пом-Пома. Уточка тоже захотела полотенце."
+        ],
+        "es": [
+          "Mamá envolvió a PinPin y Papá envolvió a PomPom. El patito también quiso una toalla."
+        ]
+      },
+      "alt": {
+        "en": "Warm allfamilypostbath actualcare: Mama kneels wrappingolderPinPinincreamstripedtowel outsidebath, Papa supportsinfantPomPominseparatesmaller matchingtowel. ONE livingwoodduck onlowwoodbench in foreground nestedinits OWNtinyfoldedcloth, beakpeeksoutasking; itwasgivencloth in same picturedmoment. Cleartwoadults/twochildheights, fourseparatebodies, no extrababy or mergedforearms. Shallowcalmbathbehind, floor dry, morning.",
+        "ru": "Мама завернула Пин-Пина, а Папа — Пом-Пома. Уточка тоже захотела полотенце.",
+        "es": "Mamá envolvió a PinPin y Papá envolvió a PomPom. El patito también quiso una toalla."
+      },
+      "action": "Warm allfamilypostbath actualcare: Mama kneels wrappingolderPinPinincreamstripedtowel outsidebath, Papa supportsinfantPomPominseparatesmaller matchingtowel. ONE livingwoodduck onlowwoodbench in foreground nestedinits OWNtinyfoldedcloth, beakpeeksoutasking; itwasgivencloth in same picturedmoment. Cleartwoadults/twochildheights, fourseparatebodies, no extrababy or mergedforearms. Shallowcalmbathbehind, floor dry, morning.",
+      "room": "bath",
+      "cast": [
+        "Mama",
+        "PinPin",
+        "Papa",
+        "PomPom",
+        "duck"
+      ],
+      "camera": {
+        "position": [
+          -1.97,
+          1.28,
+          1.1
+        ],
+        "target": [
+          -3.74,
+          2.66,
+          0.55
+        ],
+        "lensMm": 24,
+        "sensorWidthMm": 36,
+        "status": "proposed narrative camera, not measured image or executed render",
+        "frame": "canonical house +X east, +Y north, +Z up; meters",
+        "aspectRatio": "3:2",
+        "mode": "child-eye-level family care"
+      },
+      "blockingAndGaze": "Warm allfamilypostbath actualcare: Mama kneels wrappingolderPinPinincreamstripedtowel outsidebath, Papa supportsinfantPomPominseparatesmaller matchingtowel. ONE livingwoodduck onlowwoodbench in foreground nestedinits OWNtinyfoldedcloth, beakpeeksoutasking; itwasgivencloth in same picturedmoment. Cleartwoadults/twochildheights, fourseparatebodies, no extrababy or mergedforearms. Shallowcalmbathbehind, floor dry, morning.",
+      "continuity": {
+        "tubFillPercent": 45,
+        "magic": "water off; duck alive",
+        "duckLiving": true,
+        "duckMaterial": "carved honey-yellow wood with visible grain, orange rounded beak, friendly inset dark eyes; no added limbs",
+        "duckLocation": "own little towel on bench",
+        "babyLocation": "Papa arms, own towel",
+        "papaLocation": "bathroomcaringforPomPom"
+      },
+      "reviewStatus": "internally reviewed draft; user review pending",
+      "requiredNewImage": true,
+      "id": "scene-54",
+      "number": 54,
+      "image": "web/scene-54.webp",
+      "sheet": 8,
+      "panel": 5,
+      "selectedMaster": "masters/scene-54-v1.png",
+      "selectedMasterSha256": "d74c616e4e93b66fe7f2c38045d93d00e2248898a06fa80b3c697e249842e310",
+      "imageSha256": "090d5e57cb2d958d2255669c92b704545dc29868d6c79ca5164a6d9ffd9c7b25",
+      "generationRecord": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r2/records/scene-54-v1.json"
+    },
+    {
+      "title": {
+        "en": "Still wet",
+        "ru": "Я ещё мокрая",
+        "es": "Todavía estoy mojado"
+      },
+      "paragraphs": {
+        "en": [
+          "A little beak poked out of the towel. “I’m still wet!”"
+        ],
+        "ru": [
+          "Из полотенца высунулся маленький клюв. — Я всё ещё мокрая!"
+        ],
+        "es": [
+          "Un piquito asomó de la toalla. —¡Todavía estoy mojado!"
+        ]
+      },
+      "alt": {
+        "en": "Tight intimate toyduck eyelevelcloseup: tinycreamstriped clothwrapped aroundsamecarvedwoodduck body restingonlowbench, honeygoldwoodface andONEorangehingedbeak peekingout, beakslightlyopen, one droplet atbeaktip. Duckeyesmeetlenswithfunnyseriouslook. Warm foldedtoweltexture and softwoodbackground, no armslegs, no human mouth. Clearstillwoodentoy, notlivingfeatheredduck.",
+        "ru": "Из полотенца высунулся маленький клюв. — Я всё ещё мокрая!",
+        "es": "Un piquito asomó de la toalla. —¡Todavía estoy mojado!"
+      },
+      "action": "Tight intimate toyduck eyelevelcloseup: tinycreamstriped clothwrapped aroundsamecarvedwoodduck body restingonlowbench, honeygoldwoodface andONEorangehingedbeak peekingout, beakslightlyopen, one droplet atbeaktip. Duckeyesmeetlenswithfunnyseriouslook. Warm foldedtoweltexture and softwoodbackground, no armslegs, no human mouth. Clearstillwoodentoy, notlivingfeatheredduck.",
+      "room": "bath",
+      "cast": [
+        "duck"
+      ],
+      "camera": {
+        "position": [
+          -1.97,
+          1.28,
+          1.1
+        ],
+        "target": [
+          -3.74,
+          2.66,
+          0.55
+        ],
+        "lensMm": 24,
+        "sensorWidthMm": 36,
+        "status": "proposed narrative camera, not measured image or executed render",
+        "frame": "canonical house +X east, +Y north, +Z up; meters",
+        "aspectRatio": "3:2",
+        "mode": "direct-to-camera duck closeup"
+      },
+      "blockingAndGaze": "Tight intimate toyduck eyelevelcloseup: tinycreamstriped clothwrapped aroundsamecarvedwoodduck body restingonlowbench, honeygoldwoodface andONEorangehingedbeak peekingout, beakslightlyopen, one droplet atbeaktip. Duckeyesmeetlenswithfunnyseriouslook. Warm foldedtoweltexture and softwoodbackground, no armslegs, no human mouth. Clearstillwoodentoy, notlivingfeatheredduck.",
+      "continuity": {
+        "tubFillPercent": 45,
+        "magic": "water off; duck alive",
+        "duckLiving": true,
+        "duckMaterial": "carved honey-yellow wood with visible grain, orange rounded beak, friendly inset dark eyes; no added limbs",
+        "duckLocation": "own little towel on bench",
+        "babyLocation": "Papa supportedarms offscreen",
+        "papaLocation": "bathroomcaringforPomPom"
+      },
+      "reviewStatus": "internally reviewed draft; user review pending",
+      "requiredNewImage": true,
+      "id": "scene-55",
+      "number": 55,
+      "image": "web/scene-55.webp",
+      "sheet": 8,
+      "panel": 6,
+      "selectedMaster": "masters/scene-55-v1.png",
+      "selectedMasterSha256": "0bee5b4b253b5a55757f5787c2f8eb2f6d851cae91ab94d0620e9f9662974b0e",
+      "imageSha256": "d09ec71778d9e65f3dcb32592254f389de0e57f6e2251b67e60c118df875ab77",
+      "generationRecord": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r2/records/scene-55-v1.json"
+    },
+    {
+      "title": {
+        "en": "And me?",
+        "ru": "А мне?",
+        "es": "¿Y yo?"
+      },
+      "paragraphs": {
+        "en": [
+          "At breakfast, PinPin picked up the little jug. “And me?” asked the duck."
+        ],
+        "ru": [
+          "За завтраком Пин-Пин взял маленький кувшин. — А мне? — спросила уточка."
+        ],
+        "es": [
+          "En el desayuno, PinPin cogió la jarrita. —¿Y a mí? —preguntó el patito."
+        ]
+      },
+      "alt": {
+        "en": "Finalwarmfamilybreakfast allfourhedgehogs: Mama westseatedsecurelyholdsPomPomonlap; Papa north maturecreamfacehazelirises; PinPin east carefullypourswaterfromsmalljugintohiscupwithtwopaws. ONE livingwoodduck ontableforegroundbyverytinysaucer, beakopen asking, eyesnearDIRECTLENS offeringlastjoke. Camera atducktableheight soforegroundduckreadable butfamilyfaces/ordinaryjugactionstillclear. No magic, no towel onducknow, no modernsink/faucet throughbackgrounddoor, floor dry, wet rug dryingoutside notunderfoot.",
+        "ru": "За завтраком Пин-Пин взял маленький кувшин. — А мне? — спросила уточка.",
+        "es": "En el desayuno, PinPin cogió la jarrita. —¿Y a mí? —preguntó el patito."
+      },
+      "action": "Finalwarmfamilybreakfast allfourhedgehogs: Mama westseatedsecurelyholdsPomPomonlap; Papa north maturecreamfacehazelirises; PinPin east carefullypourswaterfromsmalljugintohiscupwithtwopaws. ONE livingwoodduck ontableforegroundbyverytinysaucer, beakopen asking, eyesnearDIRECTLENS offeringlastjoke. Camera atducktableheight soforegroundduckreadable butfamilyfaces/ordinaryjugactionstillclear. No magic, no towel onducknow, no modernsink/faucet throughbackgrounddoor, floor dry, wet rug dryingoutside notunderfoot.",
+      "room": "common",
+      "cast": [
+        "Mama",
+        "PomPom",
+        "Papa",
+        "PinPin",
+        "duck"
+      ],
+      "camera": {
+        "position": [
+          1.1,
+          -1.8,
+          1.05
+        ],
+        "target": [
+          -1.3,
+          -0.6,
+          0.85
+        ],
+        "lensMm": 28,
+        "sensorWidthMm": 36,
+        "status": "proposed narrative camera, not measured image or executed render",
+        "frame": "canonical house +X east, +Y north, +Z up; meters",
+        "aspectRatio": "3:2",
+        "mode": "duck-eye-level family ending"
+      },
+      "blockingAndGaze": "Finalwarmfamilybreakfast allfourhedgehogs: Mama westseatedsecurelyholdsPomPomonlap; Papa north maturecreamfacehazelirises; PinPin east carefullypourswaterfromsmalljugintohiscupwithtwopaws. ONE livingwoodduck ontableforegroundbyverytinysaucer, beakopen asking, eyesnearDIRECTLENS offeringlastjoke. Camera atducktableheight soforegroundduckreadable butfamilyfaces/ordinaryjugactionstillclear. No magic, no towel onducknow, no modernsink/faucet throughbackgrounddoor, floor dry, wet rug dryingoutside notunderfoot.",
+      "continuity": {
+        "tubFillPercent": 45,
+        "magic": "water off; duck alive",
+        "duckLiving": true,
+        "duckMaterial": "carved honey-yellow wood with visible grain, orange rounded beak, friendly inset dark eyes; no added limbs",
+        "duckLocation": "breakfast table by saucer",
+        "babyLocation": "Mama lap atbreakfast",
+        "papaLocation": "breakfasttable"
+      },
+      "reviewStatus": "internally reviewed draft; user review pending",
+      "requiredNewImage": true,
+      "id": "scene-56",
+      "number": 56,
+      "image": "web/scene-56.webp",
+      "sheet": 8,
+      "panel": 7,
+      "selectedMaster": "masters/scene-56-v1.png",
+      "selectedMasterSha256": "e085e63da63fc521e40b38fccf0ee1c9f937e542282fa48b0ea982f57c42df84",
+      "imageSha256": "7aa040818a8bc7bb8876bc60805c99f9e247a778465a048052bce18b862bf212",
+      "generationRecord": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r2/records/scene-56-v1.json"
+    }
+  ],
+  "style": "Same warm dimensional animated-feature storybook art as approved family and bedtime references; soft expressive eyes with visible irises, tactile quills, warm timber and plaster. No photographic/PBR family faces.",
+  "magicRules": [
+    "Clockwise bathcircle continually makeswater; counterclockwise erasure stopsnewwateronly.",
+    "Mis-targeted partialgesture brusheswoodenduck in30; beakcomesalive in31. Thisdoesnotstopwater.",
+    "Duck retains speech after bathring disappears. Still carvedwood, no newlimbs orpersonbody."
+  ],
+  "reviewRules": [
+    "Same four hedgehogs, no duplicate siblings or human children.",
+    "PinPin solves reversal; Mama asks and watches, never reveals answer.",
+    "No Elder rescue, humiliation, chosen-one speech or moral lecture.",
+    "Maximum flooding shallow at paws; baby supported and dry with clear body separation.",
+    "One tub, two matched pails, one wooden duck; no bath/rug/furniture teleportation.",
+    "Specific action and partner eyeline each shot; reverse-circle camera matches creation camera.",
+    "Keep original generated masters and exact prompts. Generated is not user approved or published.",
+    "Direct lens gaze is motivated by child/duck POV or an intentional shared-look pause.",
+    "Family plays BEFORE rescue/cleanup; Papa carefullyonefootintub makescomicwave, thenstepsbackout.",
+    "No speech lettering painted in illustrations; story prose carries talkingduck dialogue.",
+    "Immutable v1; exact reuses cite selected-source bytes/hashes, edits are new R2 assets."
+  ],
+  "rights": "Creative content under repository CONTENT-LICENSE.md; not blanket MIT."
+}

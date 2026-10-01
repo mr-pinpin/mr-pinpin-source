@@ -1,0 +1,21 @@
+{
+  "id": "scene-03",
+  "version": 3,
+  "tool": "image_gen__imagegen",
+  "prompt": "Use case: precise-object-edit. Edit INPUT1 only the SMALL DISTANT BATHROOM FIXTURE seen through the open arched doorway on the RIGHT in background. Replace the incongruous bright WHITE modern ceramic bath/sink and any chrome faucet inside that doorway with the matching low warm wooden tub edge and wooden washstand from INPUT2: old-fashioned timber planks, dark metal hoop, a small freestanding ceramic washbowl/jug on wood if visible, NO plumbed sink or tap. This tiny background repair should blend with existing timber/plaster bathroom. Keep the doorway shape, open leaf, its window, light and camera unchanged. Preserve ALL foreground characters exactly—their faces, gestures, arms/paws, supported baby if present, no altered cast or new limbs—and every table/chair/bucket/stove/pot position. Do NOT transfer PinPin from input2 or any duck or bath pouring action. Input2 is only bathroom construction/material reference. No new door, no text, no other edits.",
+  "references": [
+    {
+      "path": "/Users/miguel_lemos/.codex/generated_images/01a0f5c0-64db-7310-817a-d73d15314908/exec-8b43d8f4-a521-44a7-a08e-f8e8e8d43ef9.png",
+      "sha256": "54ca2ad4e6e3855acc9d92a9a663d5ea01b95c15a8dffe6c881eb0b64b158434"
+    },
+    {
+      "path": "/Users/miguel_lemos/.codex/generated_images/01a0f5c0-64db-7310-817a-d73d15314908/exec-de38e970-bb17-4d40-bd3c-1c3ed3cc1c32.png",
+      "sha256": "1eb07ca9910442225049dc22e5fcde5ffa8cb98db2144c3972ba2fbcc546f02f"
+    }
+  ],
+  "startedAt": "2026-10-01T05:05:50.771Z",
+  "finishedAt": "2026-10-01T05:07:01.220Z",
+  "generatedFile": "/Users/miguel_lemos/.codex/generated_images/01a0f5c0-64db-7310-817a-d73d15314908/exec-1cca88ec-88cc-49b4-9ed6-d6bfbc19bd7b.png",
+  "review": "Selected after focused inspection: modern white fixture and faucet replaced by warm wooden bath/washstand glimpse; foreground family faces, paws, props, scene action remain intact. No new cast or geometry issue confirmed in edited region.",
+  "promptSha256": "f1e2277dd8e30eaff573c9388e2e6925a3e831f80c742029badc901e2fbe98d1"
+}

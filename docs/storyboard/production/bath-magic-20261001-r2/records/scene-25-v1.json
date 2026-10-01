@@ -1,0 +1,30 @@
+{
+  "tool": "image_gen__imagegen",
+  "generatedAt": "2026-10-01T05:38:28.845Z",
+  "promptPath": "prompts/scene-25-v1.txt",
+  "sourceOutput": "/Users/miguel_lemos/.codex/generated_images/01a0be6f-b832-7d93-95df-9d2ff5f69dc1/exec-3bba2a84-0751-4413-858e-3827a9381247.png",
+  "references": [
+    "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001/masters/scene-18-v1.png",
+    "/Users/miguel_lemos/anastasia-pinpin-repos/mr-pinpin-source/docs/storyboard/images/published/elder-cycle/elder-r6-family-015.webp"
+  ],
+  "visualReview": "Passed first visual review: distinct family bodies/support, attentive gaze and inert toy before awakening. Draft for user feedback.",
+  "referenceIdentities": [
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001/masters/scene-18-v1.png",
+      "bytes": 2547707,
+      "sha256": "a20a07ff0a8b19080b5db7556dfd20aacaa3f3289e4c76c683fb6d9a39bb6d1b"
+    },
+    {
+      "path": "/Users/miguel_lemos/anastasia-pinpin-repos/mr-pinpin-source/docs/storyboard/images/published/elder-cycle/elder-r6-family-015.webp",
+      "bytes": 482926,
+      "sha256": "076321ed693bb541c91d99b4ab6fbb7cf0c7ed19c0fcf2c0dfb70b1e668d428e"
+    }
+  ],
+  "promptSha256": "b0e7b94f9b46211bd4e68bcbfb1d0d3d053fdfdf419dd7e7713dade46394380b",
+  "master": {
+    "path": "masters/scene-25-v1.png",
+    "bytes": 2618287,
+    "sha256": "afcdb4f1d132cc442000fe62b098de8f29e61be12c2381d6393b7cd6d379c9b9"
+  },
+  "approval": "draft-for-review"
+}

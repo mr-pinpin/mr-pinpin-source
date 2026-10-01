@@ -1,0 +1,446 @@
+{
+  "schemaVersion": 1,
+  "baseProduction": "bath-magic-20261001",
+  "revisionProduction": "bath-magic-20261001-r2",
+  "preserveBaseUnchanged": true,
+  "counts": {
+    "story": 56,
+    "cover": 1,
+    "exactReuseStory": 31,
+    "newStory": 25
+  },
+  "mapping": [
+    {
+      "id": "scene-01",
+      "mode": "reuse",
+      "reusedFrom": "scene-01",
+      "reason": "Good morning",
+      "image": "web/scene-01.webp"
+    },
+    {
+      "id": "scene-02",
+      "mode": "reuse",
+      "reusedFrom": "scene-02",
+      "reason": "Breakfast is coming",
+      "image": "web/scene-02.webp"
+    },
+    {
+      "id": "scene-03",
+      "mode": "new",
+      "reusedFrom": null,
+      "reason": "Warm little clouds",
+      "image": "web/scene-03.webp"
+    },
+    {
+      "id": "scene-04",
+      "mode": "new",
+      "reusedFrom": null,
+      "reason": "PomPom lends his duck",
+      "image": "web/scene-04.webp"
+    },
+    {
+      "id": "scene-05",
+      "mode": "reuse",
+      "reusedFrom": "scene-03",
+      "reason": "Two buckets",
+      "image": "web/scene-05.webp"
+    },
+    {
+      "id": "scene-06",
+      "mode": "reuse",
+      "reusedFrom": "scene-04",
+      "reason": "Fill them up",
+      "image": "web/scene-06.webp"
+    },
+    {
+      "id": "scene-07",
+      "mode": "reuse",
+      "reusedFrom": "scene-05",
+      "reason": "A careful journey",
+      "image": "web/scene-07.webp"
+    },
+    {
+      "id": "scene-08",
+      "mode": "reuse",
+      "reusedFrom": "scene-06",
+      "reason": "Not very much",
+      "image": "web/scene-08.webp"
+    },
+    {
+      "id": "scene-09",
+      "mode": "new",
+      "reusedFrom": null,
+      "reason": "Hello down there",
+      "image": "web/scene-09.webp"
+    },
+    {
+      "id": "scene-10",
+      "mode": "reuse",
+      "reusedFrom": "scene-07",
+      "reason": "So many trips",
+      "image": "web/scene-10.webp"
+    },
+    {
+      "id": "scene-11",
+      "mode": "new",
+      "reusedFrom": null,
+      "reason": "A bright idea",
+      "image": "web/scene-11.webp"
+    },
+    {
+      "id": "scene-12",
+      "mode": "reuse",
+      "reusedFrom": "scene-09",
+      "reason": "Round and round",
+      "image": "web/scene-12.webp"
+    },
+    {
+      "id": "scene-13",
+      "mode": "reuse",
+      "reusedFrom": "scene-10",
+      "reason": "A little stream",
+      "image": "web/scene-13.webp"
+    },
+    {
+      "id": "scene-14",
+      "mode": "reuse",
+      "reusedFrom": "scene-11",
+      "reason": "It works!",
+      "image": "web/scene-14.webp"
+    },
+    {
+      "id": "scene-15",
+      "mode": "new",
+      "reusedFrom": null,
+      "reason": "Ripples for his paws",
+      "image": "web/scene-15.webp"
+    },
+    {
+      "id": "scene-16",
+      "mode": "new",
+      "reusedFrom": null,
+      "reason": "He liked this",
+      "image": "web/scene-16.webp"
+    },
+    {
+      "id": "scene-17",
+      "mode": "new",
+      "reusedFrom": null,
+      "reason": "Up and down",
+      "image": "web/scene-17.webp"
+    },
+    {
+      "id": "scene-18",
+      "mode": "reuse",
+      "reusedFrom": "scene-12",
+      "reason": "Nearly ready",
+      "image": "web/scene-18.webp"
+    },
+    {
+      "id": "scene-19",
+      "mode": "reuse",
+      "reusedFrom": "scene-13",
+      "reason": "Enough now",
+      "image": "web/scene-19.webp"
+    },
+    {
+      "id": "scene-20",
+      "mode": "reuse",
+      "reusedFrom": "scene-14",
+      "reason": "Over the edge",
+      "image": "web/scene-20.webp"
+    },
+    {
+      "id": "scene-21",
+      "mode": "reuse",
+      "reusedFrom": "scene-15",
+      "reason": "Caught it",
+      "image": "web/scene-21.webp"
+    },
+    {
+      "id": "scene-22",
+      "mode": "reuse",
+      "reusedFrom": "scene-16",
+      "reason": "And the other side",
+      "image": "web/scene-22.webp"
+    },
+    {
+      "id": "scene-23",
+      "mode": "reuse",
+      "reusedFrom": "scene-17",
+      "reason": "A visitor in the kitchen",
+      "image": "web/scene-23.webp"
+    },
+    {
+      "id": "scene-24",
+      "mode": "reuse",
+      "reusedFrom": "scene-18",
+      "reason": "Mama looks down",
+      "image": "web/scene-24.webp"
+    },
+    {
+      "id": "scene-25",
+      "mode": "new",
+      "reusedFrom": null,
+      "reason": "PomPom spots his duck",
+      "image": "web/scene-25.webp"
+    },
+    {
+      "id": "scene-26",
+      "mode": "new",
+      "reusedFrom": null,
+      "reason": "Back to the bath",
+      "image": "web/scene-26.webp"
+    },
+    {
+      "id": "scene-27",
+      "mode": "new",
+      "reusedFrom": null,
+      "reason": "Everyone joins in",
+      "image": "web/scene-27.webp"
+    },
+    {
+      "id": "scene-28",
+      "mode": "new",
+      "reusedFrom": null,
+      "reason": "Papa tries the bath",
+      "image": "web/scene-28.webp"
+    },
+    {
+      "id": "scene-29",
+      "mode": "new",
+      "reusedFrom": null,
+      "reason": "A little too full",
+      "image": "web/scene-29.webp"
+    },
+    {
+      "id": "scene-30",
+      "mode": "new",
+      "reusedFrom": null,
+      "reason": "The wrong little gesture",
+      "image": "web/scene-30.webp"
+    },
+    {
+      "id": "scene-31",
+      "mode": "new",
+      "reusedFrom": null,
+      "reason": "Quack!",
+      "image": "web/scene-31.webp"
+    },
+    {
+      "id": "scene-32",
+      "mode": "new",
+      "reusedFrom": null,
+      "reason": "Did it talk?",
+      "image": "web/scene-32.webp"
+    },
+    {
+      "id": "scene-33",
+      "mode": "new",
+      "reusedFrom": null,
+      "reason": "Mama heard it too",
+      "image": "web/scene-33.webp"
+    },
+    {
+      "id": "scene-34",
+      "mode": "new",
+      "reusedFrom": null,
+      "reason": "Hello, little duck",
+      "image": "web/scene-34.webp"
+    },
+    {
+      "id": "scene-35",
+      "mode": "new",
+      "reusedFrom": null,
+      "reason": "PomPom answers",
+      "image": "web/scene-35.webp"
+    },
+    {
+      "id": "scene-36",
+      "mode": "new",
+      "reusedFrom": null,
+      "reason": "More! More!",
+      "image": "web/scene-36.webp"
+    },
+    {
+      "id": "scene-37",
+      "mode": "new",
+      "reusedFrom": null,
+      "reason": "A dry seat",
+      "image": "web/scene-37.webp"
+    },
+    {
+      "id": "scene-38",
+      "mode": "reuse",
+      "reusedFrom": "scene-21",
+      "reason": "Save the basket",
+      "image": "web/scene-38.webp"
+    },
+    {
+      "id": "scene-39",
+      "mode": "reuse",
+      "reusedFrom": "scene-22",
+      "reason": "Lift the rug",
+      "image": "web/scene-39.webp"
+    },
+    {
+      "id": "scene-40",
+      "mode": "reuse",
+      "reusedFrom": "scene-23",
+      "reason": "Too many spills",
+      "image": "web/scene-40.webp"
+    },
+    {
+      "id": "scene-41",
+      "mode": "reuse",
+      "reusedFrom": "scene-24",
+      "reason": "Mama comes close",
+      "image": "web/scene-41.webp"
+    },
+    {
+      "id": "scene-42",
+      "mode": "reuse",
+      "reusedFrom": "scene-25",
+      "reason": "Show me",
+      "image": "web/scene-42.webp"
+    },
+    {
+      "id": "scene-43",
+      "mode": "reuse",
+      "reusedFrom": "scene-26",
+      "reason": "Remember the movement",
+      "image": "web/scene-43.webp"
+    },
+    {
+      "id": "scene-44",
+      "mode": "reuse",
+      "reusedFrom": "scene-27",
+      "reason": "The other way",
+      "image": "web/scene-44.webp"
+    },
+    {
+      "id": "scene-45",
+      "mode": "reuse",
+      "reusedFrom": "scene-28",
+      "reason": "Back around",
+      "image": "web/scene-45.webp"
+    },
+    {
+      "id": "scene-46",
+      "mode": "reuse",
+      "reusedFrom": "scene-29",
+      "reason": "Less and less",
+      "image": "web/scene-46.webp"
+    },
+    {
+      "id": "scene-47",
+      "mode": "reuse",
+      "reusedFrom": "scene-30",
+      "reason": "Stopped!",
+      "image": "web/scene-47.webp"
+    },
+    {
+      "id": "scene-48",
+      "mode": "new",
+      "reusedFrom": null,
+      "reason": "Still talking",
+      "image": "web/scene-48.webp"
+    },
+    {
+      "id": "scene-49",
+      "mode": "reuse",
+      "reusedFrom": "scene-31",
+      "reason": "One more splash",
+      "image": "web/scene-49.webp"
+    },
+    {
+      "id": "scene-50",
+      "mode": "reuse",
+      "reusedFrom": "scene-32",
+      "reason": "Buckets again",
+      "image": "web/scene-50.webp"
+    },
+    {
+      "id": "scene-51",
+      "mode": "new",
+      "reusedFrom": null,
+      "reason": "A tiny pond",
+      "image": "web/scene-51.webp"
+    },
+    {
+      "id": "scene-52",
+      "mode": "reuse",
+      "reusedFrom": "scene-33",
+      "reason": "Drying everything",
+      "image": "web/scene-52.webp"
+    },
+    {
+      "id": "scene-53",
+      "mode": "reuse",
+      "reusedFrom": "scene-34",
+      "reason": "At last, a bath",
+      "image": "web/scene-53.webp"
+    },
+    {
+      "id": "scene-54",
+      "mode": "new",
+      "reusedFrom": null,
+      "reason": "Everyone gets a towel",
+      "image": "web/scene-54.webp"
+    },
+    {
+      "id": "scene-55",
+      "mode": "new",
+      "reusedFrom": null,
+      "reason": "Still wet",
+      "image": "web/scene-55.webp"
+    },
+    {
+      "id": "scene-56",
+      "mode": "new",
+      "reusedFrom": null,
+      "reason": "And me?",
+      "image": "web/scene-56.webp"
+    }
+  ],
+  "cover": {
+    "mode": "reuse",
+    "reusedFrom": "cover"
+  },
+  "newIds": [
+    "scene-03",
+    "scene-04",
+    "scene-09",
+    "scene-11",
+    "scene-15",
+    "scene-16",
+    "scene-17",
+    "scene-25",
+    "scene-26",
+    "scene-27",
+    "scene-28",
+    "scene-29",
+    "scene-30",
+    "scene-31",
+    "scene-32",
+    "scene-33",
+    "scene-34",
+    "scene-35",
+    "scene-36",
+    "scene-37",
+    "scene-48",
+    "scene-51",
+    "scene-54",
+    "scene-55",
+    "scene-56"
+  ],
+  "openingLaneIds": [
+    "scene-03",
+    "scene-04",
+    "scene-09",
+    "scene-11",
+    "scene-15",
+    "scene-16",
+    "scene-17"
+  ]
+}

@@ -1,0 +1,248 @@
+{
+  "schemaVersion": 1,
+  "canonicalPlanSha256": "cab510b31c13e85beaa689edb54005223412a988f640724e56b9d95dba20c28c",
+  "guides": [
+    {
+      "id": "child-pov-down",
+      "sourceJob": "geometry/child-pov-down.json",
+      "camera": {
+        "position": [
+          -2.7,
+          2.6,
+          0.95
+        ],
+        "target": [
+          -3.5,
+          2.65,
+          0.36
+        ],
+        "lensMm": 24,
+        "width": 1400,
+        "height": 1000
+      },
+      "doorStates": {
+        "door-front": 0,
+        "door-bath": 75,
+        "door-bedroom": 0
+      },
+      "renderManifest": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r2/geometry/child-pov-down/render-manifest.json",
+      "imageSha256": "df7e0c4b7a6bb335dbed3329b12444fd715534ade1825bba83a81c862c4aa599",
+      "status": "rendered, prepared and visually inspected",
+      "validation": "{\"pass\": true, \"artifactCount\": 1}",
+      "exitCode": 0
+    },
+    {
+      "id": "duck-pov-up",
+      "sourceJob": "geometry/duck-pov-up.json",
+      "camera": {
+        "position": [
+          -3.74,
+          2.666,
+          0.54
+        ],
+        "target": [
+          -2.55,
+          2.2,
+          0.98
+        ],
+        "lensMm": 24,
+        "width": 1400,
+        "height": 1000
+      },
+      "doorStates": {
+        "door-front": 0,
+        "door-bath": 75,
+        "door-bedroom": 0
+      },
+      "renderManifest": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r2/geometry/duck-pov-up/render-manifest.json",
+      "imageSha256": "b8452b77f025ca357d5dd32b7e40aff067b7d22620d0837c4a207d2566a36fd2",
+      "status": "rendered, prepared and visually inspected",
+      "validation": "{\"pass\": true, \"artifactCount\": 1}",
+      "exitCode": 0
+    },
+    {
+      "id": "child-stove-up",
+      "sourceJob": "geometry/child-stove-up.json",
+      "camera": {
+        "position": [
+          -2.2,
+          -1.2,
+          0.6
+        ],
+        "target": [
+          -2.9,
+          -1.85,
+          1
+        ],
+        "lensMm": 35,
+        "width": 1400,
+        "height": 1000
+      },
+      "doorStates": {
+        "door-front": 0,
+        "door-bath": 75,
+        "door-bedroom": 75
+      },
+      "renderManifest": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r2/geometry/child-stove-up/render-manifest.json",
+      "imageSha256": "711eb0e2a6a8b09c05d981327a739dda38b4fb0ca6df8226f48c83e080a2a39a",
+      "status": "rendered, prepared and visually inspected",
+      "validation": "{\"pass\": true, \"artifactCount\": 1}",
+      "exitCode": 0
+    },
+    {
+      "id": "duck-floor-child-pov",
+      "sourceJob": "geometry/duck-floor-child-pov.json",
+      "camera": {
+        "position": [
+          -1.8,
+          -0.1,
+          0.75
+        ],
+        "target": [
+          -2.12,
+          0.66,
+          0.09
+        ],
+        "lensMm": 40,
+        "width": 1400,
+        "height": 1000
+      },
+      "doorStates": {
+        "door-front": 0,
+        "door-bath": 75,
+        "door-bedroom": 0
+      },
+      "renderManifest": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r2/geometry/duck-floor-child-pov/render-manifest.json",
+      "imageSha256": "3c69890b740f1b17f71a6fee020cced7ab15c660b66fd5c49f8428e491af4fcc",
+      "status": "superseded: camera aimed atwall beside doorway",
+      "validation": "{\"pass\": true, \"artifactCount\": 1}",
+      "exitCode": 0
+    },
+    {
+      "id": "duck-floor-close",
+      "sourceJob": "geometry/duck-floor-close.json",
+      "camera": {
+        "position": [
+          -1.8,
+          -0.1,
+          0.13
+        ],
+        "target": [
+          -2.12,
+          0.66,
+          0.1
+        ],
+        "lensMm": 45,
+        "width": 1400,
+        "height": 1000
+      },
+      "doorStates": {
+        "door-front": 0,
+        "door-bath": 75,
+        "door-bedroom": 0
+      },
+      "renderManifest": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r2/geometry/duck-floor-close/render-manifest.json",
+      "imageSha256": "5b905a4f7f57d3a00fbaa4960535eacdc06a8ef573b469c15cbc5072a6c85d7d",
+      "status": "superseded: camera aimed atwall beside doorway",
+      "validation": "{\"pass\": true, \"artifactCount\": 1}",
+      "exitCode": 0
+    },
+    {
+      "id": "duck-floor-child-pov-v2",
+      "sourceJob": "geometry/duck-floor-child-pov-v2.json",
+      "camera": {
+        "position": [
+          -1.2,
+          -0.35,
+          0.7
+        ],
+        "target": [
+          -1.8,
+          0.65,
+          0.13
+        ],
+        "lensMm": 35,
+        "width": 1400,
+        "height": 1000
+      },
+      "doorStates": {
+        "door-front": 0,
+        "door-bath": 75,
+        "door-bedroom": 0
+      },
+      "renderManifest": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r2/geometry/duck-floor-child-pov-v2/render-manifest.json",
+      "imageSha256": "0085de1606b0595db8b7ddea82e6aba5ec783bd7a2ceecd3ec944369c7811dd7",
+      "status": "rendered, prepared and visually inspected",
+      "validation": "{\"pass\": true, \"artifactCount\": 1}",
+      "exitCode": 0
+    },
+    {
+      "id": "duck-floor-close-v2",
+      "sourceJob": "geometry/duck-floor-close-v2.json",
+      "camera": {
+        "position": [
+          -1.2,
+          -0.35,
+          0.16
+        ],
+        "target": [
+          -1.8,
+          0.65,
+          0.13
+        ],
+        "lensMm": 35,
+        "width": 1400,
+        "height": 1000
+      },
+      "doorStates": {
+        "door-front": 0,
+        "door-bath": 75,
+        "door-bedroom": 0
+      },
+      "renderManifest": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r2/geometry/duck-floor-close-v2/render-manifest.json",
+      "imageSha256": "7047a9aecd6af93cbfff53ff9ee5712b7164049018ccb7eb5b44a847028e2ceb",
+      "status": "rendered, prepared and visually inspected",
+      "validation": "{\"pass\": true, \"artifactCount\": 1}",
+      "exitCode": 0
+    },
+    {
+      "id": "table-duck-eye",
+      "sourceJob": "geometry/table-duck-eye.json",
+      "camera": {
+        "position": [
+          -0.15,
+          -2.3,
+          0.86
+        ],
+        "target": [
+          -0.3,
+          -1.05,
+          0.88
+        ],
+        "lensMm": 28,
+        "width": 1400,
+        "height": 1000
+      },
+      "doorStates": {
+        "door-front": 0,
+        "door-bath": 75,
+        "door-bedroom": 0
+      },
+      "renderManifest": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r2/geometry/table-duck-eye/render-manifest.json",
+      "imageSha256": "98f987f2f75b0dda89fd284495739352a0b6b3d6adaf6a9edddf8d6da3a9bf2c",
+      "status": "rendered, prepared and visually inspected",
+      "validation": "{\"pass\": true, \"artifactCount\": 1}",
+      "exitCode": 0
+    }
+  ],
+  "reusedGuides": [
+    {
+      "source": "bath-magic-20261001/geometry/bath-wide",
+      "usage": "same bathroomwide staging for54, no camera transform claimed for new close55"
+    },
+    {
+      "source": "bath-magic-20261001/geometry/bath-circle",
+      "usage": "existingcreation/reversal sequence reused unchanged bystoryplan"
+    }
+  ]
+}

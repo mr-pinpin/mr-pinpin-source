@@ -1,0 +1,36 @@
+{
+  "tool": "image_gen__imagegen",
+  "generatedAt": "2026-10-01T05:30:43.605Z",
+  "promptPath": "prompts/storyboard-concept-v1.txt",
+  "sourceOutput": "/Users/miguel_lemos/.codex/generated_images/01a0be6f-b832-7d93-95df-9d2ff5f69dc1/exec-a1dc5b75-1efa-44a1-9ffc-fb2d149fb340.png",
+  "references": [
+    "/Users/miguel_lemos/anastasia-pinpin-repos/mr-pinpin-source/docs/storyboard/images/published/elder-cycle/elder-r6-family-015.webp",
+    "/Users/miguel_lemos/anastasia-pinpin-repos/mr-pinpin-source/docs/storyboard/images/standalone/home-sweet-home/bedtime-08-v2.png",
+    "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r2/preproduction/duck-character-study-v1.png"
+  ],
+  "visualReview": "Preproduction concept only: lovely emotional/camera tone, but panels1-3 prematurely show living/open-beak duck. Do not use those panels as temporal/duck-state authority; finalstoryplan governs. Not user-approved.",
+  "referenceIdentities": [
+    {
+      "path": "/Users/miguel_lemos/anastasia-pinpin-repos/mr-pinpin-source/docs/storyboard/images/published/elder-cycle/elder-r6-family-015.webp",
+      "bytes": 482926,
+      "sha256": "076321ed693bb541c91d99b4ab6fbb7cf0c7ed19c0fcf2c0dfb70b1e668d428e"
+    },
+    {
+      "path": "/Users/miguel_lemos/anastasia-pinpin-repos/mr-pinpin-source/docs/storyboard/images/standalone/home-sweet-home/bedtime-08-v2.png",
+      "bytes": 2323256,
+      "sha256": "c6e3deefa1acc93dadb3467931719f080a81ab8807dbff960bca6c225f07635d"
+    },
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r2/preproduction/duck-character-study-v1.png",
+      "bytes": 2271323,
+      "sha256": "30b08a0cf9b5affa30edf8e694da90ae3d7c04fd0c6456df68a994c11dbe9f5b"
+    }
+  ],
+  "promptSha256": "7bb8c839ff3bc23722ff1a8f06c230cfa6791e5b5a38f9909146baae7f8a8b51",
+  "master": {
+    "path": "masters/storyboard-concept-v1.png",
+    "bytes": 3003657,
+    "sha256": "f368c7f0f69d9d0e386cb454b355500ffde9e51a826140823ec3b3a03da177b5"
+  },
+  "approval": "draft-for-review"
+}

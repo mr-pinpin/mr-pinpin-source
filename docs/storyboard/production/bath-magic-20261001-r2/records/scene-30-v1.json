@@ -1,0 +1,36 @@
+{
+  "tool": "image_gen__imagegen",
+  "generatedAt": "2026-10-01T05:41:15.018Z",
+  "promptPath": "prompts/scene-30-v1.txt",
+  "sourceOutput": "/Users/miguel_lemos/.codex/generated_images/01a0be6f-b832-7d93-95df-9d2ff5f69dc1/exec-8fec3cf9-cb6a-40ce-a2dc-0c524f097214.png",
+  "references": [
+    "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001/masters/scene-09-v1.png",
+    "/Users/miguel_lemos/.codex/generated_images/01a0be6f-b832-7d93-95df-9d2ff5f69dc1/exec-ce5797e7-b736-4627-87a1-e7eaec1e2103.png",
+    "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r2/preproduction/duck-character-study-v1.png"
+  ],
+  "visualReview": "Passed first visual review: Papa one-foot step followed by displacement splash; child outside; duck animation begins when touched in30. Draft for user feedback.",
+  "referenceIdentities": [
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001/masters/scene-09-v1.png",
+      "bytes": 2432913,
+      "sha256": "7f34bcffcbf3f73a9e4d98defd151165460075aff4f5cee912cca3fb4562f4fb"
+    },
+    {
+      "path": "/Users/miguel_lemos/.codex/generated_images/01a0be6f-b832-7d93-95df-9d2ff5f69dc1/exec-ce5797e7-b736-4627-87a1-e7eaec1e2103.png",
+      "bytes": 2649341,
+      "sha256": "4a2012c96e18d798bd9dc54178d5a4048d8ced16827855ab6c26890940a1c4a6"
+    },
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r2/preproduction/duck-character-study-v1.png",
+      "bytes": 2271323,
+      "sha256": "30b08a0cf9b5affa30edf8e694da90ae3d7c04fd0c6456df68a994c11dbe9f5b"
+    }
+  ],
+  "promptSha256": "c25b98b5267dde55943b96948158a389900b43434d45edae4aa741f9f34bc4c6",
+  "master": {
+    "path": "masters/scene-30-v1.png",
+    "bytes": 2359580,
+    "sha256": "91ec4a0a0f50d4b6416454b158e53e5cd7e097c2e02646fbe3e5fc682140bf25"
+  },
+  "approval": "draft-for-review"
+}

@@ -1,0 +1,1772 @@
+{
+  "version": 1,
+  "assets": {
+    "title": {
+      "slug": "title",
+      "master": {
+        "path": "masters/reused/title/title-v1.png",
+        "bytes": 2593699,
+        "sha256": "bd669480c4795023983a1fc05c23415700016aa2017be61f699f0b2c441460b1"
+      },
+      "web": {
+        "path": "web/title.webp",
+        "bytes": 475028,
+        "sha256": "d0b4fa690e3da10377c1bd492a80cd277fa4dd0d6ffd7b404aeae7b34bb08b1e"
+      },
+      "width": 1536,
+      "height": 1024,
+      "recipe": {
+        "operation": "byte-for-byte copy",
+        "resized": false,
+        "reencoded": false,
+        "artEdited": false
+      },
+      "reuseRecord": "reuse.json#cover",
+      "generationRecord": null,
+      "approval": "draft-for-review"
+    },
+    "scene-01": {
+      "slug": "scene-01",
+      "master": {
+        "path": "masters/reused/scene-01/scene-01-v1.png",
+        "bytes": 2547204,
+        "sha256": "4955ad0fe0550ed1a4f94051c4d978a27093ebab8d0a82b3580b085452de0bba"
+      },
+      "web": {
+        "path": "web/scene-01.webp",
+        "bytes": 440756,
+        "sha256": "be5ed728b790d40fe4d6087a782430f08b09230fc094b52af3f5444f227bb723"
+      },
+      "width": 1536,
+      "height": 1024,
+      "recipe": {
+        "operation": "byte-for-byte copy",
+        "resized": false,
+        "reencoded": false,
+        "artEdited": false
+      },
+      "reuseRecord": "reuse.json#scene-01",
+      "generationRecord": null,
+      "approval": "draft-for-review"
+    },
+    "scene-02": {
+      "slug": "scene-02",
+      "master": {
+        "path": "masters/reused/scene-02/scene-02-v2.png",
+        "bytes": 2389904,
+        "sha256": "eda819abf89680e8325fd00e064f24ec317af4d19f3cd27b1140939485dd2851"
+      },
+      "web": {
+        "path": "web/scene-02.webp",
+        "bytes": 412906,
+        "sha256": "7bb7bfae1e01595cda5cc4d9dfc24056f349302929d8b4a5487b2f8eb6643377"
+      },
+      "width": 1536,
+      "height": 1024,
+      "recipe": {
+        "operation": "byte-for-byte copy",
+        "resized": false,
+        "reencoded": false,
+        "artEdited": false
+      },
+      "reuseRecord": "reuse.json#scene-02",
+      "generationRecord": null,
+      "approval": "draft-for-review"
+    },
+    "scene-05": {
+      "slug": "scene-05",
+      "master": {
+        "path": "masters/reused/scene-05/scene-03-v3.png",
+        "bytes": 2327800,
+        "sha256": "b67a51a02991f3fa77af9df72ee1b04581222eb5bcd9ef4634a206423836e0a3"
+      },
+      "web": {
+        "path": "web/scene-05.webp",
+        "bytes": 400848,
+        "sha256": "ecff260ace6f0bb9f4afed2c156cbc87ba72753b3afedf4e6a23d059c0873112"
+      },
+      "width": 1536,
+      "height": 1024,
+      "recipe": {
+        "operation": "byte-for-byte copy",
+        "resized": false,
+        "reencoded": false,
+        "artEdited": false
+      },
+      "reuseRecord": "reuse.json#scene-05",
+      "generationRecord": null,
+      "approval": "draft-for-review"
+    },
+    "scene-06": {
+      "slug": "scene-06",
+      "master": {
+        "path": "masters/reused/scene-06/scene-04-v1.png",
+        "bytes": 2572785,
+        "sha256": "f342546a86269cb6edfaf56b8e9045acd0ef5253c5fa87c284e810c1dd4567bd"
+      },
+      "web": {
+        "path": "web/scene-06.webp",
+        "bytes": 484046,
+        "sha256": "e09a9350e8cec7be55f6d7015e2c245ebaa5300ed893ef1c3ceac8daadd446ba"
+      },
+      "width": 1536,
+      "height": 1024,
+      "recipe": {
+        "operation": "byte-for-byte copy",
+        "resized": false,
+        "reencoded": false,
+        "artEdited": false
+      },
+      "reuseRecord": "reuse.json#scene-06",
+      "generationRecord": null,
+      "approval": "draft-for-review"
+    },
+    "scene-07": {
+      "slug": "scene-07",
+      "master": {
+        "path": "masters/reused/scene-07/scene-05-v2.png",
+        "bytes": 2288693,
+        "sha256": "69b7cd76f22d1813a4fc21896bb4738f46c430445865ce5679d611b545682035"
+      },
+      "web": {
+        "path": "web/scene-07.webp",
+        "bytes": 402694,
+        "sha256": "3c49dea690f22fe5723c6ac503eecb9323b56f494edb066535900cbcfb567225"
+      },
+      "width": 1536,
+      "height": 1024,
+      "recipe": {
+        "operation": "byte-for-byte copy",
+        "resized": false,
+        "reencoded": false,
+        "artEdited": false
+      },
+      "reuseRecord": "reuse.json#scene-07",
+      "generationRecord": null,
+      "approval": "draft-for-review"
+    },
+    "scene-08": {
+      "slug": "scene-08",
+      "master": {
+        "path": "masters/reused/scene-08/scene-06-v2.png",
+        "bytes": 2216999,
+        "sha256": "1eb07ca9910442225049dc22e5fcde5ffa8cb98db2144c3972ba2fbcc546f02f"
+      },
+      "web": {
+        "path": "web/scene-08.webp",
+        "bytes": 368548,
+        "sha256": "9f74c65275f0d673cb52c24b0d0b2fa0fccefe7636abb62002a4c668d164104c"
+      },
+      "width": 1536,
+      "height": 1024,
+      "recipe": {
+        "operation": "byte-for-byte copy",
+        "resized": false,
+        "reencoded": false,
+        "artEdited": false
+      },
+      "reuseRecord": "reuse.json#scene-08",
+      "generationRecord": null,
+      "approval": "draft-for-review"
+    },
+    "scene-10": {
+      "slug": "scene-10",
+      "master": {
+        "path": "masters/reused/scene-10/scene-07-v2.png",
+        "bytes": 2288841,
+        "sha256": "c8c50dbfbd7d1f1e25ef1c1a4d9b6726301a1e7adb94e2666fbe680fcd32ca58"
+      },
+      "web": {
+        "path": "web/scene-10.webp",
+        "bytes": 378658,
+        "sha256": "3f54eb3e8a5665dd71872182b4c05f00a30c0d8b11bbf8ce3a99cfcca135b347"
+      },
+      "width": 1536,
+      "height": 1024,
+      "recipe": {
+        "operation": "byte-for-byte copy",
+        "resized": false,
+        "reencoded": false,
+        "artEdited": false
+      },
+      "reuseRecord": "reuse.json#scene-10",
+      "generationRecord": null,
+      "approval": "draft-for-review"
+    },
+    "scene-12": {
+      "slug": "scene-12",
+      "master": {
+        "path": "masters/reused/scene-12/scene-09-v1.png",
+        "bytes": 2432913,
+        "sha256": "7f34bcffcbf3f73a9e4d98defd151165460075aff4f5cee912cca3fb4562f4fb"
+      },
+      "web": {
+        "path": "web/scene-12.webp",
+        "bytes": 427374,
+        "sha256": "ffc39c2df15f8fbc2b02e6eb0e1fb3d257cbe84ba40ed81a43130443006af1cd"
+      },
+      "width": 1536,
+      "height": 1024,
+      "recipe": {
+        "operation": "byte-for-byte copy",
+        "resized": false,
+        "reencoded": false,
+        "artEdited": false
+      },
+      "reuseRecord": "reuse.json#scene-12",
+      "generationRecord": null,
+      "approval": "draft-for-review"
+    },
+    "scene-13": {
+      "slug": "scene-13",
+      "master": {
+        "path": "masters/reused/scene-13/scene-10-v1.png",
+        "bytes": 2235663,
+        "sha256": "673110df360bf0cd017101ab47a8e47b1e4b78e1ac57256b8173af71e6f32193"
+      },
+      "web": {
+        "path": "web/scene-13.webp",
+        "bytes": 381898,
+        "sha256": "0bc5ef09ffce7075630d0d51cac75b6086a64afc3c603ac9951a52b8fc02c9bb"
+      },
+      "width": 1536,
+      "height": 1024,
+      "recipe": {
+        "operation": "byte-for-byte copy",
+        "resized": false,
+        "reencoded": false,
+        "artEdited": false
+      },
+      "reuseRecord": "reuse.json#scene-13",
+      "generationRecord": null,
+      "approval": "draft-for-review"
+    },
+    "scene-14": {
+      "slug": "scene-14",
+      "master": {
+        "path": "masters/reused/scene-14/scene-11-v1.png",
+        "bytes": 2165911,
+        "sha256": "bd95be3d38289d7abcd8eea1b7d8a20506ba6673ece696f87c475ab9ea78384f"
+      },
+      "web": {
+        "path": "web/scene-14.webp",
+        "bytes": 352492,
+        "sha256": "77f675f8a815c1aebb594626491ba190ec91014378fe00347a53f37f3c0e3a32"
+      },
+      "width": 1536,
+      "height": 1024,
+      "recipe": {
+        "operation": "byte-for-byte copy",
+        "resized": false,
+        "reencoded": false,
+        "artEdited": false
+      },
+      "reuseRecord": "reuse.json#scene-14",
+      "generationRecord": null,
+      "approval": "draft-for-review"
+    },
+    "scene-18": {
+      "slug": "scene-18",
+      "master": {
+        "path": "masters/reused/scene-18/scene-12-v1.png",
+        "bytes": 2667263,
+        "sha256": "2fb51c46f26af587e439f043fc41111b7a82ddfb014d8f7e754ffc284a8ac847"
+      },
+      "web": {
+        "path": "web/scene-18.webp",
+        "bytes": 518456,
+        "sha256": "762377deeb37bf3dc006077167ad47cb7dacfed3482a91406ddd9075d17a78df"
+      },
+      "width": 1536,
+      "height": 1024,
+      "recipe": {
+        "operation": "byte-for-byte copy",
+        "resized": false,
+        "reencoded": false,
+        "artEdited": false
+      },
+      "reuseRecord": "reuse.json#scene-18",
+      "generationRecord": null,
+      "approval": "draft-for-review"
+    },
+    "scene-19": {
+      "slug": "scene-19",
+      "master": {
+        "path": "masters/reused/scene-19/scene-13-v2.png",
+        "bytes": 2355504,
+        "sha256": "73187d206e6ae367cac9fe8e207dab9eed9f367e97d5d875ee6a03cba54249fa"
+      },
+      "web": {
+        "path": "web/scene-19.webp",
+        "bytes": 379050,
+        "sha256": "c78ec77acb31a52e24d96454d31430e8cd1b7e5395da962b3120e104a42f6b63"
+      },
+      "width": 1536,
+      "height": 1024,
+      "recipe": {
+        "operation": "byte-for-byte copy",
+        "resized": false,
+        "reencoded": false,
+        "artEdited": false
+      },
+      "reuseRecord": "reuse.json#scene-19",
+      "generationRecord": null,
+      "approval": "draft-for-review"
+    },
+    "scene-20": {
+      "slug": "scene-20",
+      "master": {
+        "path": "masters/reused/scene-20/scene-14-v1.png",
+        "bytes": 2356430,
+        "sha256": "efe85d02f57619571e6ab4cb01f5225e9770b406099596ab7b33e827b1598c2e"
+      },
+      "web": {
+        "path": "web/scene-20.webp",
+        "bytes": 391506,
+        "sha256": "19be534b9c3906df6aed967757cdb1d9aa061c843f1e2010426cb57d48c18507"
+      },
+      "width": 1536,
+      "height": 1024,
+      "recipe": {
+        "operation": "byte-for-byte copy",
+        "resized": false,
+        "reencoded": false,
+        "artEdited": false
+      },
+      "reuseRecord": "reuse.json#scene-20",
+      "generationRecord": null,
+      "approval": "draft-for-review"
+    },
+    "scene-21": {
+      "slug": "scene-21",
+      "master": {
+        "path": "masters/reused/scene-21/scene-15-v1.png",
+        "bytes": 2310547,
+        "sha256": "c033193dde393c677f74470048d255d7723d7318cddf7108106fd39a01531f4f"
+      },
+      "web": {
+        "path": "web/scene-21.webp",
+        "bytes": 378434,
+        "sha256": "cb5bdb48d40db6b88307ef10e91afd84397e87be367d916ea39825c0b6f06380"
+      },
+      "width": 1536,
+      "height": 1024,
+      "recipe": {
+        "operation": "byte-for-byte copy",
+        "resized": false,
+        "reencoded": false,
+        "artEdited": false
+      },
+      "reuseRecord": "reuse.json#scene-21",
+      "generationRecord": null,
+      "approval": "draft-for-review"
+    },
+    "scene-22": {
+      "slug": "scene-22",
+      "master": {
+        "path": "masters/reused/scene-22/scene-16-v1.png",
+        "bytes": 2386127,
+        "sha256": "86bc2c1437ac47165dd473efc1742646db52efadc0dc6ce977047d3efb7f44ae"
+      },
+      "web": {
+        "path": "web/scene-22.webp",
+        "bytes": 396982,
+        "sha256": "7367492a88b723144c2181c2948a1c644b15ef77e7361f01e80668272655d95c"
+      },
+      "width": 1536,
+      "height": 1024,
+      "recipe": {
+        "operation": "byte-for-byte copy",
+        "resized": false,
+        "reencoded": false,
+        "artEdited": false
+      },
+      "reuseRecord": "reuse.json#scene-22",
+      "generationRecord": null,
+      "approval": "draft-for-review"
+    },
+    "scene-23": {
+      "slug": "scene-23",
+      "master": {
+        "path": "masters/reused/scene-23/scene-17-v1.png",
+        "bytes": 2182924,
+        "sha256": "f40f40503f1b7a58a270b137a01e7d75cdda3e1099f54c8ef55c099d1dc98b3e"
+      },
+      "web": {
+        "path": "web/scene-23.webp",
+        "bytes": 340334,
+        "sha256": "5da56820228bbddcfbbaefa7930d77ade4d22d6c2a01a76e8a11d5344e968a97"
+      },
+      "width": 1536,
+      "height": 1024,
+      "recipe": {
+        "operation": "byte-for-byte copy",
+        "resized": false,
+        "reencoded": false,
+        "artEdited": false
+      },
+      "reuseRecord": "reuse.json#scene-23",
+      "generationRecord": null,
+      "approval": "draft-for-review"
+    },
+    "scene-24": {
+      "slug": "scene-24",
+      "master": {
+        "path": "masters/reused/scene-24/scene-18-v1.png",
+        "bytes": 2547707,
+        "sha256": "a20a07ff0a8b19080b5db7556dfd20aacaa3f3289e4c76c683fb6d9a39bb6d1b"
+      },
+      "web": {
+        "path": "web/scene-24.webp",
+        "bytes": 467762,
+        "sha256": "3c4e9628f7b5164be6f0f1a3db0be2e680802eecfcafd721aa0b5e3f19d7f1f6"
+      },
+      "width": 1536,
+      "height": 1024,
+      "recipe": {
+        "operation": "byte-for-byte copy",
+        "resized": false,
+        "reencoded": false,
+        "artEdited": false
+      },
+      "reuseRecord": "reuse.json#scene-24",
+      "generationRecord": null,
+      "approval": "draft-for-review"
+    },
+    "scene-38": {
+      "slug": "scene-38",
+      "master": {
+        "path": "masters/reused/scene-38/scene-21-v1.png",
+        "bytes": 2626788,
+        "sha256": "71de3ec202336eca9cfafaec56b82ddcea1ba8dc96847d222d019ab57bcc5e9f"
+      },
+      "web": {
+        "path": "web/scene-38.webp",
+        "bytes": 519136,
+        "sha256": "1a702d62ec0bc8d1d1a0bbf8bc07c46fadbe337083e6f9e40727ddc7a8764573"
+      },
+      "width": 1536,
+      "height": 1024,
+      "recipe": {
+        "operation": "byte-for-byte copy",
+        "resized": false,
+        "reencoded": false,
+        "artEdited": false
+      },
+      "reuseRecord": "reuse.json#scene-38",
+      "generationRecord": null,
+      "approval": "draft-for-review"
+    },
+    "scene-39": {
+      "slug": "scene-39",
+      "master": {
+        "path": "masters/reused/scene-39/scene-22-v1.png",
+        "bytes": 2689852,
+        "sha256": "66666c2833620c0523be11ca9739954ffba406306e7da3a33a69de57ba350c55"
+      },
+      "web": {
+        "path": "web/scene-39.webp",
+        "bytes": 537634,
+        "sha256": "e48d67ef418e20643ae49bdd7a791f5b7af9115010b156a5edef7255787c76f2"
+      },
+      "width": 1536,
+      "height": 1024,
+      "recipe": {
+        "operation": "byte-for-byte copy",
+        "resized": false,
+        "reencoded": false,
+        "artEdited": false
+      },
+      "reuseRecord": "reuse.json#scene-39",
+      "generationRecord": null,
+      "approval": "draft-for-review"
+    },
+    "scene-40": {
+      "slug": "scene-40",
+      "master": {
+        "path": "masters/reused/scene-40/scene-23-v1.png",
+        "bytes": 2680919,
+        "sha256": "dab0abc03b926d465dc97e534f2ba3ca83f94fdd8e9b588d020b110518bc0a66"
+      },
+      "web": {
+        "path": "web/scene-40.webp",
+        "bytes": 511948,
+        "sha256": "f77cbd35a68d2b791efdc8f4bf95453d540df01a0dc6f5fe8fe92a107cdbad8d"
+      },
+      "width": 1536,
+      "height": 1024,
+      "recipe": {
+        "operation": "byte-for-byte copy",
+        "resized": false,
+        "reencoded": false,
+        "artEdited": false
+      },
+      "reuseRecord": "reuse.json#scene-40",
+      "generationRecord": null,
+      "approval": "draft-for-review"
+    },
+    "scene-41": {
+      "slug": "scene-41",
+      "master": {
+        "path": "masters/reused/scene-41/scene-24-v1.png",
+        "bytes": 2478815,
+        "sha256": "bd139a9d2deb8c2233c33db9d4d1320c2200881c7027f201b925c33e2abd9641"
+      },
+      "web": {
+        "path": "web/scene-41.webp",
+        "bytes": 435642,
+        "sha256": "03a9e657d598fb978decaf35e347ad11a40fca10e3bcdbd89c94cecf319adc7f"
+      },
+      "width": 1536,
+      "height": 1024,
+      "recipe": {
+        "operation": "byte-for-byte copy",
+        "resized": false,
+        "reencoded": false,
+        "artEdited": false
+      },
+      "reuseRecord": "reuse.json#scene-41",
+      "generationRecord": null,
+      "approval": "draft-for-review"
+    },
+    "scene-42": {
+      "slug": "scene-42",
+      "master": {
+        "path": "masters/reused/scene-42/scene-25-v2.png",
+        "bytes": 2319708,
+        "sha256": "bf4e1b7a704f8c55cd7007b8718d1dab8f284ea4ed4c4a0b02f1ec4ae9b3bcaa"
+      },
+      "web": {
+        "path": "web/scene-42.webp",
+        "bytes": 416608,
+        "sha256": "d9cdfbdb9e475059867db7fb0570be643596b9b6a257250e5d8f6962797387c0"
+      },
+      "width": 1536,
+      "height": 1024,
+      "recipe": {
+        "operation": "byte-for-byte copy",
+        "resized": false,
+        "reencoded": false,
+        "artEdited": false
+      },
+      "reuseRecord": "reuse.json#scene-42",
+      "generationRecord": null,
+      "approval": "draft-for-review"
+    },
+    "scene-43": {
+      "slug": "scene-43",
+      "master": {
+        "path": "masters/reused/scene-43/scene-26-v2.png",
+        "bytes": 2594316,
+        "sha256": "b6c8cd8fbae0adb6ecc6cfbf83763cd8046b54bf0371a00558ddacf319ce4c1d"
+      },
+      "web": {
+        "path": "web/scene-43.webp",
+        "bytes": 484630,
+        "sha256": "408e882aaa26472e57b901aed475c80906c216a6586bd4bcee6db9600d05714d"
+      },
+      "width": 1536,
+      "height": 1024,
+      "recipe": {
+        "operation": "byte-for-byte copy",
+        "resized": false,
+        "reencoded": false,
+        "artEdited": false
+      },
+      "reuseRecord": "reuse.json#scene-43",
+      "generationRecord": null,
+      "approval": "draft-for-review"
+    },
+    "scene-44": {
+      "slug": "scene-44",
+      "master": {
+        "path": "masters/reused/scene-44/scene-27-v1.png",
+        "bytes": 2424199,
+        "sha256": "15134fa81c9ea9145885e61b8eb7e39a9df83484cfb8bb765af6914d36cc921a"
+      },
+      "web": {
+        "path": "web/scene-44.webp",
+        "bytes": 422704,
+        "sha256": "e90b51ecbb453055c19ec45f8d3da36d5f4227f3c877893c14ad8c593c3f9a9a"
+      },
+      "width": 1536,
+      "height": 1024,
+      "recipe": {
+        "operation": "byte-for-byte copy",
+        "resized": false,
+        "reencoded": false,
+        "artEdited": false
+      },
+      "reuseRecord": "reuse.json#scene-44",
+      "generationRecord": null,
+      "approval": "draft-for-review"
+    },
+    "scene-45": {
+      "slug": "scene-45",
+      "master": {
+        "path": "masters/reused/scene-45/scene-28-v1.png",
+        "bytes": 2633657,
+        "sha256": "0eb01d78ffdca6dfe3eca228f6919317b92f69f473b9f88d3a07656e3512b9c6"
+      },
+      "web": {
+        "path": "web/scene-45.webp",
+        "bytes": 491482,
+        "sha256": "7571ee2206e8eb87397ec8bea719fd3a203ef9b00a9d2684d0a95ffc474c526c"
+      },
+      "width": 1536,
+      "height": 1024,
+      "recipe": {
+        "operation": "byte-for-byte copy",
+        "resized": false,
+        "reencoded": false,
+        "artEdited": false
+      },
+      "reuseRecord": "reuse.json#scene-45",
+      "generationRecord": null,
+      "approval": "draft-for-review"
+    },
+    "scene-46": {
+      "slug": "scene-46",
+      "master": {
+        "path": "masters/reused/scene-46/scene-29-v2.png",
+        "bytes": 2378031,
+        "sha256": "3ce65ece0c8d00f06c02f5001076649d55a4ba3997a6fb598f1d6db6f4da1d3a"
+      },
+      "web": {
+        "path": "web/scene-46.webp",
+        "bytes": 423770,
+        "sha256": "7a15304d5b29bc980f08c2fb21b11b10cae69f72d5b2f6a92b09762d42d3800e"
+      },
+      "width": 1536,
+      "height": 1024,
+      "recipe": {
+        "operation": "byte-for-byte copy",
+        "resized": false,
+        "reencoded": false,
+        "artEdited": false
+      },
+      "reuseRecord": "reuse.json#scene-46",
+      "generationRecord": null,
+      "approval": "draft-for-review"
+    },
+    "scene-47": {
+      "slug": "scene-47",
+      "master": {
+        "path": "masters/reused/scene-47/scene-30-v2.png",
+        "bytes": 2391547,
+        "sha256": "74bf0084dcbb652f4cb829628b06dea06cfc098b371e1aecbab0a0f472c3fe5d"
+      },
+      "web": {
+        "path": "web/scene-47.webp",
+        "bytes": 429228,
+        "sha256": "f52db59f187b39fb41a5722f6c16aaa28e2b30cefb9c94cb4942ac7ca30cacf1"
+      },
+      "width": 1536,
+      "height": 1024,
+      "recipe": {
+        "operation": "byte-for-byte copy",
+        "resized": false,
+        "reencoded": false,
+        "artEdited": false
+      },
+      "reuseRecord": "reuse.json#scene-47",
+      "generationRecord": null,
+      "approval": "draft-for-review"
+    },
+    "scene-49": {
+      "slug": "scene-49",
+      "master": {
+        "path": "masters/reused/scene-49/scene-31-v1.png",
+        "bytes": 2646761,
+        "sha256": "7a3de61d00db25693731d7d5259b5a308595e9240fac9453230d7b4f0ba9be59"
+      },
+      "web": {
+        "path": "web/scene-49.webp",
+        "bytes": 501324,
+        "sha256": "5305cc38f9a5b636ea8541d223848ffb75b3f20d696502a27d301b2e9d5604cb"
+      },
+      "width": 1536,
+      "height": 1024,
+      "recipe": {
+        "operation": "byte-for-byte copy",
+        "resized": false,
+        "reencoded": false,
+        "artEdited": false
+      },
+      "reuseRecord": "reuse.json#scene-49",
+      "generationRecord": null,
+      "approval": "draft-for-review"
+    },
+    "scene-50": {
+      "slug": "scene-50",
+      "master": {
+        "path": "masters/reused/scene-50/scene-32-v2.png",
+        "bytes": 2373775,
+        "sha256": "545e33b5f822d034b1728ee6f9f14250162174b8ebc9126e46b7e7cff5685294"
+      },
+      "web": {
+        "path": "web/scene-50.webp",
+        "bytes": 417290,
+        "sha256": "b8c71e03bdb2dda479d6f593979209af4f4305830c523653aee2867b6848628e"
+      },
+      "width": 1536,
+      "height": 1024,
+      "recipe": {
+        "operation": "byte-for-byte copy",
+        "resized": false,
+        "reencoded": false,
+        "artEdited": false
+      },
+      "reuseRecord": "reuse.json#scene-50",
+      "generationRecord": null,
+      "approval": "draft-for-review"
+    },
+    "scene-52": {
+      "slug": "scene-52",
+      "master": {
+        "path": "masters/reused/scene-52/scene-33-v1.png",
+        "bytes": 2644103,
+        "sha256": "f051910b2667e43421af6c7aa9fa1ca986d9a7d5d80396a7628788bc88c22714"
+      },
+      "web": {
+        "path": "web/scene-52.webp",
+        "bytes": 491456,
+        "sha256": "0ff247530581c8a07bc3c66e50d5728f27d9bf2ff70d22b3b015a9925c31199e"
+      },
+      "width": 1536,
+      "height": 1024,
+      "recipe": {
+        "operation": "byte-for-byte copy",
+        "resized": false,
+        "reencoded": false,
+        "artEdited": false
+      },
+      "reuseRecord": "reuse.json#scene-52",
+      "generationRecord": null,
+      "approval": "draft-for-review"
+    },
+    "scene-53": {
+      "slug": "scene-53",
+      "master": {
+        "path": "masters/reused/scene-53/scene-34-v3.png",
+        "bytes": 2334541,
+        "sha256": "d963769f9d8d76090c108e8d5827782e029c39940e4e1889d0a466f82cb28bc1"
+      },
+      "web": {
+        "path": "web/scene-53.webp",
+        "bytes": 408312,
+        "sha256": "cdafef940d0d28e5ca494c3b939386742c7252ffc47fa9f17c7c08f2e00750a5"
+      },
+      "width": 1536,
+      "height": 1024,
+      "recipe": {
+        "operation": "byte-for-byte copy",
+        "resized": false,
+        "reencoded": false,
+        "artEdited": false
+      },
+      "reuseRecord": "reuse.json#scene-53",
+      "generationRecord": null,
+      "approval": "draft-for-review"
+    },
+    "storyboard-concept": {
+      "slug": "storyboard-concept",
+      "master": {
+        "path": "masters/storyboard-concept-v1.png",
+        "bytes": 3003657,
+        "sha256": "f368c7f0f69d9d0e386cb454b355500ffde9e51a826140823ec3b3a03da177b5"
+      },
+      "web": {
+        "path": "web/storyboard-concept.webp",
+        "bytes": 606318,
+        "sha256": "bc6f3e20453231131ddb31291cebc21f4eea692c9c0b7a3ddfa1fe338ca77f22"
+      },
+      "width": 1536,
+      "height": 1024,
+      "recipe": {
+        "tool": "Pillow",
+        "version": "12.3.0",
+        "format": "WEBP",
+        "quality": 94,
+        "method": 6,
+        "resized": false,
+        "artEdited": false
+      },
+      "prompt": "prompts/storyboard-concept-v1.txt",
+      "generationRecord": "records/storyboard-concept-v1.json",
+      "approval": "draft-for-review"
+    },
+    "scene-04": {
+      "slug": "scene-04",
+      "master": {
+        "path": "masters/scene-04-v1.png",
+        "bytes": 2460150,
+        "sha256": "a7a2de7653ab8a555f3997e60d13d6d9286da36c262af28733c6b8b2a600ef76"
+      },
+      "web": {
+        "path": "web/scene-04.webp",
+        "bytes": 428476,
+        "sha256": "d43f16f6e504b954e3bba1d2d7ffc1f1bbee51d0d4f766f79c20f4dbeeb10f29"
+      },
+      "width": 1536,
+      "height": 1024,
+      "recipe": {
+        "tool": "Pillow",
+        "version": "12.3.0",
+        "format": "WEBP",
+        "quality": 94,
+        "method": 6,
+        "resized": false,
+        "artEdited": false
+      },
+      "prompt": "prompts/scene-04-v1.txt",
+      "generationRecord": "records/scene-04-v1.json",
+      "approval": "draft-for-review"
+    },
+    "scene-11": {
+      "slug": "scene-11",
+      "master": {
+        "path": "masters/scene-11-v2.png",
+        "bytes": 2227250,
+        "sha256": "de367693f2102482e5d4f5b18acb3e599d02c89ee8c293a831ae7e2454473b77"
+      },
+      "web": {
+        "path": "web/scene-11.webp",
+        "bytes": 346568,
+        "sha256": "dbcf9af5f65bcf406428a33bb865372b6e59ebb34151fdafe12e72264d1b6b16"
+      },
+      "width": 1536,
+      "height": 1024,
+      "recipe": {
+        "tool": "Pillow",
+        "version": "12.3.0",
+        "format": "WEBP",
+        "quality": 94,
+        "method": 6,
+        "resized": false,
+        "artEdited": false
+      },
+      "prompt": "prompts/scene-11-v2.txt",
+      "generationRecord": "records/scene-11-v2.json",
+      "approval": "draft-for-review"
+    },
+    "scene-55": {
+      "slug": "scene-55",
+      "master": {
+        "path": "masters/scene-55-v1.png",
+        "bytes": 2324957,
+        "sha256": "0bee5b4b253b5a55757f5787c2f8eb2f6d851cae91ab94d0620e9f9662974b0e"
+      },
+      "web": {
+        "path": "web/scene-55.webp",
+        "bytes": 345360,
+        "sha256": "d09ec71778d9e65f3dcb32592254f389de0e57f6e2251b67e60c118df875ab77"
+      },
+      "width": 1536,
+      "height": 1024,
+      "recipe": {
+        "tool": "Pillow",
+        "version": "12.3.0",
+        "format": "WEBP",
+        "quality": 94,
+        "method": 6,
+        "resized": false,
+        "artEdited": false
+      },
+      "prompt": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r2/prompts/scene-55-v1.txt",
+      "generationRecord": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r2/records/scene-55-v1.json",
+      "approval": "draft-for-review"
+    },
+    "scene-54": {
+      "slug": "scene-54",
+      "master": {
+        "path": "masters/scene-54-v1.png",
+        "bytes": 2535497,
+        "sha256": "d74c616e4e93b66fe7f2c38045d93d00e2248898a06fa80b3c697e249842e310"
+      },
+      "web": {
+        "path": "web/scene-54.webp",
+        "bytes": 461916,
+        "sha256": "090d5e57cb2d958d2255669c92b704545dc29868d6c79ca5164a6d9ffd9c7b25"
+      },
+      "width": 1536,
+      "height": 1024,
+      "recipe": {
+        "tool": "Pillow",
+        "version": "12.3.0",
+        "format": "WEBP",
+        "quality": 94,
+        "method": 6,
+        "resized": false,
+        "artEdited": false
+      },
+      "prompt": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r2/prompts/scene-54-v1.txt",
+      "generationRecord": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r2/records/scene-54-v1.json",
+      "approval": "draft-for-review"
+    },
+    "scene-09": {
+      "slug": "scene-09",
+      "master": {
+        "path": "masters/scene-09-v1.png",
+        "bytes": 2527477,
+        "sha256": "20ccfbfa3bff97694a73074e81fc2c67a2c25f44e501af8767a7a39f18b3ad74"
+      },
+      "web": {
+        "path": "web/scene-09.webp",
+        "bytes": 467438,
+        "sha256": "08421adfe5259fe0f1c13f8628099884cc13b95fab5e105917d7bf9fddb7ba18"
+      },
+      "width": 1536,
+      "height": 1024,
+      "recipe": {
+        "tool": "Pillow",
+        "version": "12.3.0",
+        "format": "WEBP",
+        "quality": 94,
+        "method": 6,
+        "resized": false,
+        "artEdited": false
+      },
+      "prompt": "prompts/scene-09-v1.txt",
+      "generationRecord": "records/scene-09-v1.json",
+      "approval": "draft-for-review"
+    },
+    "scene-15": {
+      "slug": "scene-15",
+      "master": {
+        "path": "masters/scene-15-v1.png",
+        "bytes": 2207037,
+        "sha256": "10920c24c0943bf06edf0c1c34c47e8aa4bbf8cfc7f2c1890e33106c33a07ce2"
+      },
+      "web": {
+        "path": "web/scene-15.webp",
+        "bytes": 369152,
+        "sha256": "db48418b602e0c90cf27ebc802cac2dd8e7823c009089e77a06c28c4c31f8354"
+      },
+      "width": 1536,
+      "height": 1024,
+      "recipe": {
+        "tool": "Pillow",
+        "version": "12.3.0",
+        "format": "WEBP",
+        "quality": 94,
+        "method": 6,
+        "resized": false,
+        "artEdited": false
+      },
+      "prompt": "prompts/scene-15-v1.txt",
+      "generationRecord": "records/scene-15-v1.json",
+      "approval": "draft-for-review"
+    },
+    "scene-56": {
+      "slug": "scene-56",
+      "master": {
+        "path": "masters/scene-56-v1.png",
+        "bytes": 2627423,
+        "sha256": "e085e63da63fc521e40b38fccf0ee1c9f937e542282fa48b0ea982f57c42df84"
+      },
+      "web": {
+        "path": "web/scene-56.webp",
+        "bytes": 496484,
+        "sha256": "7aa040818a8bc7bb8876bc60805c99f9e247a778465a048052bce18b862bf212"
+      },
+      "width": 1536,
+      "height": 1024,
+      "recipe": {
+        "tool": "Pillow",
+        "version": "12.3.0",
+        "format": "WEBP",
+        "quality": 94,
+        "method": 6,
+        "resized": false,
+        "artEdited": false
+      },
+      "prompt": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r2/prompts/scene-56-v1.txt",
+      "generationRecord": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r2/records/scene-56-v1.json",
+      "approval": "draft-for-review"
+    },
+    "scene-25": {
+      "slug": "scene-25",
+      "master": {
+        "path": "masters/scene-25-v2.png",
+        "bytes": 2542801,
+        "sha256": "1a1a5012ee55b1ab1b0721d996ca2cd9c39c19c6b4df11f350f20486ee2e6fed"
+      },
+      "web": {
+        "path": "web/scene-25.webp",
+        "bytes": 474474,
+        "sha256": "c1f68b017d5c2d198d652d2363933e082865cb8cf3f9730419b8688209fcfc44"
+      },
+      "width": 1536,
+      "height": 1024,
+      "recipe": {
+        "tool": "Pillow",
+        "version": "12.3.0",
+        "format": "WEBP",
+        "quality": 94,
+        "method": 6,
+        "resized": false,
+        "artEdited": false
+      },
+      "prompt": "prompts/scene-25-v2.txt",
+      "generationRecord": "records/scene-25-v2.json",
+      "approval": "draft-for-review"
+    },
+    "scene-26": {
+      "slug": "scene-26",
+      "master": {
+        "path": "masters/scene-26-v1.png",
+        "bytes": 2578711,
+        "sha256": "fd6d26344f84034737d001b1f16ae0cffd9f668f7c24c0d69d119384b72f44a9"
+      },
+      "web": {
+        "path": "web/scene-26.webp",
+        "bytes": 482360,
+        "sha256": "18074b160d885df62a13415a9b88c54377d9e7f0df3bcb09ecdedd7793c507d5"
+      },
+      "width": 1536,
+      "height": 1024,
+      "recipe": {
+        "tool": "Pillow",
+        "version": "12.3.0",
+        "format": "WEBP",
+        "quality": 94,
+        "method": 6,
+        "resized": false,
+        "artEdited": false
+      },
+      "prompt": "prompts/scene-26-v1.txt",
+      "generationRecord": "records/scene-26-v1.json",
+      "approval": "draft-for-review"
+    },
+    "scene-27": {
+      "slug": "scene-27",
+      "master": {
+        "path": "masters/scene-27-v1.png",
+        "bytes": 2649341,
+        "sha256": "4a2012c96e18d798bd9dc54178d5a4048d8ced16827855ab6c26890940a1c4a6"
+      },
+      "web": {
+        "path": "web/scene-27.webp",
+        "bytes": 497048,
+        "sha256": "f67c09d029ea80f235e72cd38543e3928ec1438ca6a6632ee9276af8a8418f92"
+      },
+      "width": 1536,
+      "height": 1024,
+      "recipe": {
+        "tool": "Pillow",
+        "version": "12.3.0",
+        "format": "WEBP",
+        "quality": 94,
+        "method": 6,
+        "resized": false,
+        "artEdited": false
+      },
+      "prompt": "prompts/scene-27-v1.txt",
+      "generationRecord": "records/scene-27-v1.json",
+      "approval": "draft-for-review"
+    },
+    "scene-16": {
+      "slug": "scene-16",
+      "master": {
+        "path": "masters/scene-16-v2.png",
+        "bytes": 2255489,
+        "sha256": "6fc0d074f61f415fd73a0562efcb8de21982685955a546f971f7e431b6935a8b"
+      },
+      "web": {
+        "path": "web/scene-16.webp",
+        "bytes": 352556,
+        "sha256": "fd9fad80648244611cd8aab3bb24c39f244819cfea1afff66e5bb30a48401e86"
+      },
+      "width": 1536,
+      "height": 1024,
+      "recipe": {
+        "tool": "Pillow",
+        "version": "12.3.0",
+        "format": "WEBP",
+        "quality": 94,
+        "method": 6,
+        "resized": false,
+        "artEdited": false
+      },
+      "prompt": "prompts/scene-16-v2.txt",
+      "generationRecord": "records/scene-16-v2.json",
+      "approval": "draft-for-review"
+    },
+    "scene-51": {
+      "slug": "scene-51",
+      "master": {
+        "path": "masters/scene-51-v1.png",
+        "bytes": 2339107,
+        "sha256": "e425709d4f0ba2d9de2eddaf5069d8bb1e51dbe7f360bbb347d06dfdd67cf1f5"
+      },
+      "web": {
+        "path": "web/scene-51.webp",
+        "bytes": 377304,
+        "sha256": "ae0a7dc581932dc96fc9b7598952574be5803e9036d3f06be0214dd35f0f3943"
+      },
+      "width": 1536,
+      "height": 1024,
+      "recipe": {
+        "tool": "Pillow",
+        "version": "12.3.0",
+        "format": "WEBP",
+        "quality": 94,
+        "method": 6,
+        "resized": false,
+        "artEdited": false
+      },
+      "prompt": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r2/prompts/scene-51-v1.txt",
+      "generationRecord": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r2/records/scene-51-v1.json",
+      "approval": "draft-for-review"
+    },
+    "scene-48": {
+      "slug": "scene-48",
+      "master": {
+        "path": "masters/scene-48-v1.png",
+        "bytes": 2417071,
+        "sha256": "c91e2cee7a7933d1af67a77764bfc5c7831197e83088ba07fa9f4130aae91ced"
+      },
+      "web": {
+        "path": "web/scene-48.webp",
+        "bytes": 429256,
+        "sha256": "9e45540d295c800c921ac2a8838614741e83bd22f8ff340b14f74b5959fe7b5d"
+      },
+      "width": 1536,
+      "height": 1024,
+      "recipe": {
+        "tool": "Pillow",
+        "version": "12.3.0",
+        "format": "WEBP",
+        "quality": 94,
+        "method": 6,
+        "resized": false,
+        "artEdited": false
+      },
+      "prompt": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r2/prompts/scene-48-v1.txt",
+      "generationRecord": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r2/records/scene-48-v1.json",
+      "approval": "draft-for-review"
+    },
+    "scene-17": {
+      "slug": "scene-17",
+      "master": {
+        "path": "masters/scene-17-v2.png",
+        "bytes": 2069652,
+        "sha256": "dbbe81ab98415ef761e3a0c4319ceea7f31d9f8240789c2175dea524f6c77f87"
+      },
+      "web": {
+        "path": "web/scene-17.webp",
+        "bytes": 276526,
+        "sha256": "6b12b57c90af077a8b951d26b76eddd355f0a087ee6bc055fcec55994fcc0038"
+      },
+      "width": 1536,
+      "height": 1024,
+      "recipe": {
+        "tool": "Pillow",
+        "version": "12.3.0",
+        "format": "WEBP",
+        "quality": 94,
+        "method": 6,
+        "resized": false,
+        "artEdited": false
+      },
+      "prompt": "prompts/scene-17-v2.txt",
+      "generationRecord": "records/scene-17-v2.json",
+      "approval": "draft-for-review"
+    },
+    "scene-03": {
+      "slug": "scene-03",
+      "master": {
+        "path": "masters/scene-03-v1.png",
+        "bytes": 2208228,
+        "sha256": "164ab02a960f76020ed09581bac604c705a0b51fbd5f1f9c291862339b3dbe7f"
+      },
+      "web": {
+        "path": "web/scene-03.webp",
+        "bytes": 315034,
+        "sha256": "de83ba34ddba2916733e7242fbd0ec959d515a29c440e549f783a6384fc499ea"
+      },
+      "width": 1536,
+      "height": 1024,
+      "recipe": {
+        "tool": "Pillow",
+        "version": "12.3.0",
+        "format": "WEBP",
+        "quality": 94,
+        "method": 6,
+        "resized": false,
+        "artEdited": false
+      },
+      "prompt": "prompts/scene-03-v1.txt",
+      "generationRecord": "records/scene-03-v1.json",
+      "approval": "draft-for-review"
+    },
+    "scene-28": {
+      "slug": "scene-28",
+      "master": {
+        "path": "masters/scene-28-v1.png",
+        "bytes": 2720098,
+        "sha256": "fd8f8b6c5d58de08154a8c5b5a579fdbb6438e7bda05815332f8685f68b0ecda"
+      },
+      "web": {
+        "path": "web/scene-28.webp",
+        "bytes": 531754,
+        "sha256": "b7b153725b0fc74e6770d3aab0ba34d69f97876b6a37c39e52a878b4136ac4b9"
+      },
+      "width": 1536,
+      "height": 1024,
+      "recipe": {
+        "tool": "Pillow",
+        "version": "12.3.0",
+        "format": "WEBP",
+        "quality": 94,
+        "method": 6,
+        "resized": false,
+        "artEdited": false
+      },
+      "prompt": "prompts/scene-28-v1.txt",
+      "generationRecord": "records/scene-28-v1.json",
+      "approval": "draft-for-review"
+    },
+    "scene-29": {
+      "slug": "scene-29",
+      "master": {
+        "path": "masters/scene-29-v2.png",
+        "bytes": 2706140,
+        "sha256": "4c463aa510d8ced6c8e8760605700b5b0153bd8d37e8a3b25cd28440f2e3f355"
+      },
+      "web": {
+        "path": "web/scene-29.webp",
+        "bytes": 520338,
+        "sha256": "bba33c38327129c6f5175361c225054d7619d6bef1f925d0d2bf13dc05e16e02"
+      },
+      "width": 1536,
+      "height": 1024,
+      "recipe": {
+        "tool": "Pillow",
+        "version": "12.3.0",
+        "format": "WEBP",
+        "quality": 94,
+        "method": 6,
+        "resized": false,
+        "artEdited": false
+      },
+      "prompt": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r2/prompts/scene-29-v2.txt",
+      "generationRecord": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r2/records/scene-29-v2.json",
+      "approval": "draft-for-review"
+    },
+    "scene-30": {
+      "slug": "scene-30",
+      "master": {
+        "path": "masters/scene-30-v1.png",
+        "bytes": 2359580,
+        "sha256": "91ec4a0a0f50d4b6416454b158e53e5cd7e097c2e02646fbe3e5fc682140bf25"
+      },
+      "web": {
+        "path": "web/scene-30.webp",
+        "bytes": 396236,
+        "sha256": "567d4bc50a804e95867f394bb664a790a49973e701576b9f8408fd09d35f2cf0"
+      },
+      "width": 1536,
+      "height": 1024,
+      "recipe": {
+        "tool": "Pillow",
+        "version": "12.3.0",
+        "format": "WEBP",
+        "quality": 94,
+        "method": 6,
+        "resized": false,
+        "artEdited": false
+      },
+      "prompt": "prompts/scene-30-v1.txt",
+      "generationRecord": "records/scene-30-v1.json",
+      "approval": "draft-for-review"
+    },
+    "scene-31": {
+      "slug": "scene-31",
+      "master": {
+        "path": "masters/scene-31-v2.png",
+        "bytes": 2243331,
+        "sha256": "294b40fd2c984f56d3ed2116431aebd355161bb6ecac9ba22861773b186b41b0"
+      },
+      "web": {
+        "path": "web/scene-31.webp",
+        "bytes": 350232,
+        "sha256": "395dfdf43ac371ce4bfed1fdde517295b3e004437806935abbd6f2ccca45de14"
+      },
+      "width": 1536,
+      "height": 1024,
+      "recipe": {
+        "tool": "Pillow",
+        "version": "12.3.0",
+        "format": "WEBP",
+        "quality": 94,
+        "method": 6,
+        "resized": false,
+        "artEdited": false
+      },
+      "prompt": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r2/prompts/scene-31-v2.txt",
+      "generationRecord": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r2/records/scene-31-v2.json",
+      "approval": "draft-for-review"
+    },
+    "scene-32": {
+      "slug": "scene-32",
+      "master": {
+        "path": "masters/scene-32-v2.png",
+        "bytes": 2346329,
+        "sha256": "873a181ef800a93feb08a8311ac7c254a995eebfddad00b4cdba7668ffb4321d"
+      },
+      "web": {
+        "path": "web/scene-32.webp",
+        "bytes": 372650,
+        "sha256": "518f6106c780a36f54012316bb74d6d91b3039be9b2ac14dbe5d3d5665dfd2b9"
+      },
+      "width": 1536,
+      "height": 1024,
+      "recipe": {
+        "tool": "Pillow",
+        "version": "12.3.0",
+        "format": "WEBP",
+        "quality": 94,
+        "method": 6,
+        "resized": false,
+        "artEdited": false
+      },
+      "prompt": "prompts/scene-32-v2.txt",
+      "generationRecord": "records/scene-32-v2.json",
+      "approval": "draft-for-review"
+    },
+    "scene-33": {
+      "slug": "scene-33",
+      "master": {
+        "path": "masters/scene-33-v2.png",
+        "bytes": 2205195,
+        "sha256": "254a49ef3a8b0f491d4121f3a34aa1e28f65a30c05bfbd21b9f3539786eb8c54"
+      },
+      "web": {
+        "path": "web/scene-33.webp",
+        "bytes": 324302,
+        "sha256": "d0acef7938062d4c8845fbc643269f7c0ad8a0233c4dc9c2b1f1564da44c6e69"
+      },
+      "width": 1536,
+      "height": 1024,
+      "recipe": {
+        "tool": "Pillow",
+        "version": "12.3.0",
+        "format": "WEBP",
+        "quality": 94,
+        "method": 6,
+        "resized": false,
+        "artEdited": false
+      },
+      "prompt": "prompts/scene-33-v2.txt",
+      "generationRecord": "records/scene-33-v2.json",
+      "approval": "draft-for-review"
+    },
+    "scene-34": {
+      "slug": "scene-34",
+      "master": {
+        "path": "masters/scene-34-v1.png",
+        "bytes": 2375872,
+        "sha256": "7d443fcff4a7b7ca4cd126b2a90fe72c702aece5e6eb94425b223407127a81bf"
+      },
+      "web": {
+        "path": "web/scene-34.webp",
+        "bytes": 395804,
+        "sha256": "c4728218080dd076294e4dde2af0978b661649c9734459dc2c99b4b0b307bd1b"
+      },
+      "width": 1536,
+      "height": 1024,
+      "recipe": {
+        "tool": "Pillow",
+        "version": "12.3.0",
+        "format": "WEBP",
+        "quality": 94,
+        "method": 6,
+        "resized": false,
+        "artEdited": false
+      },
+      "prompt": "prompts/scene-34-v1.txt",
+      "generationRecord": "records/scene-34-v1.json",
+      "approval": "draft-for-review"
+    },
+    "scene-35": {
+      "slug": "scene-35",
+      "master": {
+        "path": "masters/scene-35-v2.png",
+        "bytes": 2240586,
+        "sha256": "bc0df76418c47a33281a6f1711bc099e949e7c23f320fd83e269006d14da28b5"
+      },
+      "web": {
+        "path": "web/scene-35.webp",
+        "bytes": 357436,
+        "sha256": "69d3a240a1ea33af6cac4b42d42b67f095eb26b86ffe38cb879adf3c459ab8f2"
+      },
+      "width": 1536,
+      "height": 1024,
+      "recipe": {
+        "tool": "Pillow",
+        "version": "12.3.0",
+        "format": "WEBP",
+        "quality": 94,
+        "method": 6,
+        "resized": false,
+        "artEdited": false
+      },
+      "prompt": "prompts/scene-35-v2.txt",
+      "generationRecord": "records/scene-35-v2.json",
+      "approval": "draft-for-review"
+    },
+    "scene-36": {
+      "slug": "scene-36",
+      "master": {
+        "path": "masters/scene-36-v2.png",
+        "bytes": 2348146,
+        "sha256": "73b31d237a2ae07b67a7de9984ab019c95f64342be7d1e2ba12df4d30a40d0a9"
+      },
+      "web": {
+        "path": "web/scene-36.webp",
+        "bytes": 385018,
+        "sha256": "ea9022f1e6e36f2a92bc590c3d88dfcdced3328317e946bc6f19e05440f6ffc2"
+      },
+      "width": 1536,
+      "height": 1024,
+      "recipe": {
+        "tool": "Pillow",
+        "version": "12.3.0",
+        "format": "WEBP",
+        "quality": 94,
+        "method": 6,
+        "resized": false,
+        "artEdited": false
+      },
+      "prompt": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r2/prompts/scene-36-v2.txt",
+      "generationRecord": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r2/records/scene-36-v2.json",
+      "approval": "draft-for-review"
+    },
+    "scene-37": {
+      "slug": "scene-37",
+      "master": {
+        "path": "masters/scene-37-v1.png",
+        "bytes": 2705541,
+        "sha256": "86a2c4b50a8e035412138f3a5b1f0f08bb950b9949eab6a91b383f8ce37d140e"
+      },
+      "web": {
+        "path": "web/scene-37.webp",
+        "bytes": 526894,
+        "sha256": "06f600ebc010b1d91dc93cf30c2ea696cfab4f3d5cc0fb6a997329465bf7cb32"
+      },
+      "width": 1536,
+      "height": 1024,
+      "recipe": {
+        "tool": "Pillow",
+        "version": "12.3.0",
+        "format": "WEBP",
+        "quality": 94,
+        "method": 6,
+        "resized": false,
+        "artEdited": false
+      },
+      "prompt": "prompts/scene-37-v1.txt",
+      "generationRecord": "records/scene-37-v1.json",
+      "approval": "draft-for-review"
+    },
+    "storyboard-00": {
+      "slug": "storyboard-00",
+      "master": {
+        "path": "masters/storyboard-00-v2.png",
+        "bytes": 11311770,
+        "sha256": "de222894ee6d6c7f6812ed59d3d1c92b71175595a393b01b4219d7447a4381c0"
+      },
+      "web": {
+        "path": "web/storyboard-00.webp",
+        "bytes": 2680262,
+        "sha256": "ee0ef28cfe6e8cebc85ccc27c48423f7dfe27b6badedbb099af76c3bde4141a5"
+      },
+      "width": 2400,
+      "height": 2988,
+      "recipe": {
+        "tool": "Pillow",
+        "version": "12.3.0",
+        "format": "WEBP",
+        "quality": 94,
+        "method": 6,
+        "resized": false,
+        "artEdited": false
+      },
+      "prompt": null,
+      "generationRecord": null,
+      "approval": "draft-for-review"
+    },
+    "storyboard-01": {
+      "slug": "storyboard-01",
+      "master": {
+        "path": "masters/storyboard-01-v2.png",
+        "bytes": 5457548,
+        "sha256": "8ab7e99f80ff4b371d8d25bd91c6da7c24e37e92e3d35354993ca6486ba2c407"
+      },
+      "web": {
+        "path": "web/storyboard-01.webp",
+        "bytes": 1106014,
+        "sha256": "370a4aec7dee456c1e38c99f3cea0ff6b6f51d4e5bb1981d74044fc11ec6d033"
+      },
+      "width": 1800,
+      "height": 1950,
+      "recipe": {
+        "tool": "Pillow",
+        "version": "12.3.0",
+        "format": "WEBP",
+        "quality": 94,
+        "method": 6,
+        "resized": false,
+        "artEdited": false
+      },
+      "prompt": null,
+      "generationRecord": null,
+      "approval": "draft-for-review"
+    },
+    "storyboard-02": {
+      "slug": "storyboard-02",
+      "master": {
+        "path": "masters/storyboard-02-v2.png",
+        "bytes": 5270653,
+        "sha256": "f4025dbcf7173a51ff3c0425a6314dd5e4ab570d1ec161fd1002a7e85380cc92"
+      },
+      "web": {
+        "path": "web/storyboard-02.webp",
+        "bytes": 1047238,
+        "sha256": "1d601710573310baacdb40b6ab80fa6daf51d9cd959c8e9f1bf4bbb19cc28034"
+      },
+      "width": 1800,
+      "height": 1950,
+      "recipe": {
+        "tool": "Pillow",
+        "version": "12.3.0",
+        "format": "WEBP",
+        "quality": 94,
+        "method": 6,
+        "resized": false,
+        "artEdited": false
+      },
+      "prompt": null,
+      "generationRecord": null,
+      "approval": "draft-for-review"
+    },
+    "storyboard-03": {
+      "slug": "storyboard-03",
+      "master": {
+        "path": "masters/storyboard-03-v2.png",
+        "bytes": 5158846,
+        "sha256": "8dd242e45305f6a6823cf094be822ae6401f8c4bf2205955d45d6ab064e02b4c"
+      },
+      "web": {
+        "path": "web/storyboard-03.webp",
+        "bytes": 1023904,
+        "sha256": "feea1b4e96f8a08a77a3c89c070a0da799d6da7ea2c329fa024c7529881d8e28"
+      },
+      "width": 1800,
+      "height": 1950,
+      "recipe": {
+        "tool": "Pillow",
+        "version": "12.3.0",
+        "format": "WEBP",
+        "quality": 94,
+        "method": 6,
+        "resized": false,
+        "artEdited": false
+      },
+      "prompt": null,
+      "generationRecord": null,
+      "approval": "draft-for-review"
+    },
+    "storyboard-04": {
+      "slug": "storyboard-04",
+      "master": {
+        "path": "masters/storyboard-04-v2.png",
+        "bytes": 5191158,
+        "sha256": "ffc44c6e91be8408164a3536d37307f06548583bf4f22cc0398a22e212d4af10"
+      },
+      "web": {
+        "path": "web/storyboard-04.webp",
+        "bytes": 1036958,
+        "sha256": "6e6d33b64570a6d24ba5e960dba3467d267d433b4d5db9dc6497c90ddeb73021"
+      },
+      "width": 1800,
+      "height": 1950,
+      "recipe": {
+        "tool": "Pillow",
+        "version": "12.3.0",
+        "format": "WEBP",
+        "quality": 94,
+        "method": 6,
+        "resized": false,
+        "artEdited": false
+      },
+      "prompt": null,
+      "generationRecord": null,
+      "approval": "draft-for-review"
+    },
+    "storyboard-05": {
+      "slug": "storyboard-05",
+      "master": {
+        "path": "masters/storyboard-05-v2.png",
+        "bytes": 5919820,
+        "sha256": "b0a08d0a44aebc07b2fd4f2aaa32ba892451b3c751104eba2a6e731fe5cfbfe8"
+      },
+      "web": {
+        "path": "web/storyboard-05.webp",
+        "bytes": 1297782,
+        "sha256": "6c20bdccceaf152bcd86c4ddcaf1ae1fba9ca740cce4bfb801aee101de3080aa"
+      },
+      "width": 1800,
+      "height": 1950,
+      "recipe": {
+        "tool": "Pillow",
+        "version": "12.3.0",
+        "format": "WEBP",
+        "quality": 94,
+        "method": 6,
+        "resized": false,
+        "artEdited": false
+      },
+      "prompt": null,
+      "generationRecord": null,
+      "approval": "draft-for-review"
+    },
+    "storyboard-06": {
+      "slug": "storyboard-06",
+      "master": {
+        "path": "masters/storyboard-06-v2.png",
+        "bytes": 5206060,
+        "sha256": "8f0fc6bd61697eda94f4578e08e60f3222afae0ebb49c1774272a781a3ca6ed4"
+      },
+      "web": {
+        "path": "web/storyboard-06.webp",
+        "bytes": 1016574,
+        "sha256": "4874e89c47a685b0f103f7c071845ae7d3495f4bc99deb2f6745019b58e65bdc"
+      },
+      "width": 1800,
+      "height": 1950,
+      "recipe": {
+        "tool": "Pillow",
+        "version": "12.3.0",
+        "format": "WEBP",
+        "quality": 94,
+        "method": 6,
+        "resized": false,
+        "artEdited": false
+      },
+      "prompt": null,
+      "generationRecord": null,
+      "approval": "draft-for-review"
+    },
+    "storyboard-07": {
+      "slug": "storyboard-07",
+      "master": {
+        "path": "masters/storyboard-07-v2.png",
+        "bytes": 5728553,
+        "sha256": "28554a89be1642bd43210c71961a7aa7c5ea80de1b7a43e34698c8765876f679"
+      },
+      "web": {
+        "path": "web/storyboard-07.webp",
+        "bytes": 1235412,
+        "sha256": "33f7851ae382bd58e2072a704095130aef98bcdd03b4638dea6748114f4c424c"
+      },
+      "width": 1800,
+      "height": 1950,
+      "recipe": {
+        "tool": "Pillow",
+        "version": "12.3.0",
+        "format": "WEBP",
+        "quality": 94,
+        "method": 6,
+        "resized": false,
+        "artEdited": false
+      },
+      "prompt": null,
+      "generationRecord": null,
+      "approval": "draft-for-review"
+    },
+    "storyboard-08": {
+      "slug": "storyboard-08",
+      "master": {
+        "path": "masters/storyboard-08-v2.png",
+        "bytes": 5641655,
+        "sha256": "d0c6f9285ddb6223030e8eb5938d98acff5616a81d6a23a8507e6b0ff91adfa4"
+      },
+      "web": {
+        "path": "web/storyboard-08.webp",
+        "bytes": 1169668,
+        "sha256": "1fbd4d18b46f096a1e776afe0ab54fafbffd9198bc32169db670b1e0dbb78b82"
+      },
+      "width": 1800,
+      "height": 1950,
+      "recipe": {
+        "tool": "Pillow",
+        "version": "12.3.0",
+        "format": "WEBP",
+        "quality": 94,
+        "method": 6,
+        "resized": false,
+        "artEdited": false
+      },
+      "prompt": null,
+      "generationRecord": null,
+      "approval": "draft-for-review"
+    },
+    "storyboard-09": {
+      "slug": "storyboard-09",
+      "master": {
+        "path": "masters/storyboard-09-v2.png",
+        "bytes": 5537783,
+        "sha256": "fbb24419cde6d1d9eaea0cf54df6e24049959eaaa3779e4b826528380c8d83a4"
+      },
+      "web": {
+        "path": "web/storyboard-09.webp",
+        "bytes": 1134166,
+        "sha256": "ae5dca0912e072b6b2044cdc1dd2e8ac8c6a5099805b9f568b0ddbec40dc12d5"
+      },
+      "width": 1800,
+      "height": 1950,
+      "recipe": {
+        "tool": "Pillow",
+        "version": "12.3.0",
+        "format": "WEBP",
+        "quality": 94,
+        "method": 6,
+        "resized": false,
+        "artEdited": false
+      },
+      "prompt": null,
+      "generationRecord": null,
+      "approval": "draft-for-review"
+    },
+    "storyboard-10": {
+      "slug": "storyboard-10",
+      "master": {
+        "path": "masters/storyboard-10-v2.png",
+        "bytes": 1841357,
+        "sha256": "a76a6bbc364387d7433c8663e8a4c0a8cbbeb3608e11756fba089ca1b92c30dd"
+      },
+      "web": {
+        "path": "web/storyboard-10.webp",
+        "bytes": 374466,
+        "sha256": "cf3c8e67749739bb54d393c721bd3f9d9f0549ddad225cd297c025cb44031499"
+      },
+      "width": 1800,
+      "height": 662,
+      "recipe": {
+        "tool": "Pillow",
+        "version": "12.3.0",
+        "format": "WEBP",
+        "quality": 94,
+        "method": 6,
+        "resized": false,
+        "artEdited": false
+      },
+      "prompt": null,
+      "generationRecord": null,
+      "approval": "draft-for-review"
+    }
+  }
+}

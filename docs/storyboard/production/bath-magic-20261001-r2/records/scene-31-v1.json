@@ -1,0 +1,30 @@
+{
+  "tool": "image_gen__imagegen",
+  "generatedAt": "2026-10-01T05:44:50.190Z",
+  "promptPath": "prompts/scene-31-v1.txt",
+  "sourceOutput": "/Users/miguel_lemos/.codex/generated_images/01a0be6f-b832-7d93-95df-9d2ff5f69dc1/exec-77f6697f-a79d-428b-8a9c-cb1b569988cd.png",
+  "references": [
+    "/Users/miguel_lemos/.codex/generated_images/01a0be6f-b832-7d93-95df-9d2ff5f69dc1/exec-8fec3cf9-cb6a-40ce-a2dc-0c524f097214.png",
+    "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r2/preproduction/duck-character-study-v1.png"
+  ],
+  "visualReview": "Faces, body support and reciprocal gaze pass first visual review. Scene32/33 background orientation needs continuity review; selected draft for feedback.",
+  "referenceIdentities": [
+    {
+      "path": "/Users/miguel_lemos/.codex/generated_images/01a0be6f-b832-7d93-95df-9d2ff5f69dc1/exec-8fec3cf9-cb6a-40ce-a2dc-0c524f097214.png",
+      "bytes": 2359580,
+      "sha256": "91ec4a0a0f50d4b6416454b158e53e5cd7e097c2e02646fbe3e5fc682140bf25"
+    },
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r2/preproduction/duck-character-study-v1.png",
+      "bytes": 2271323,
+      "sha256": "30b08a0cf9b5affa30edf8e694da90ae3d7c04fd0c6456df68a994c11dbe9f5b"
+    }
+  ],
+  "promptSha256": "a57e8f079f85660a98dcbd598674724b3b33db2b8a8d795286813adeaba7b0c0",
+  "master": {
+    "path": "masters/scene-31-v1.png",
+    "bytes": 2408992,
+    "sha256": "8f9c2b05725968d5e75a464d26f63ee4c9e7a922620c7a270e398a8671f65ffd"
+  },
+  "approval": "draft-for-review"
+}

@@ -1,0 +1,36 @@
+{
+  "tool": "image_gen__imagegen",
+  "generatedAt": "2026-10-01T05:44:50.190Z",
+  "promptPath": "prompts/scene-34-v1.txt",
+  "sourceOutput": "/Users/miguel_lemos/.codex/generated_images/01a0be6f-b832-7d93-95df-9d2ff5f69dc1/exec-bad37064-f378-4751-85eb-fc626de95eb4.png",
+  "references": [
+    "/Users/miguel_lemos/.codex/generated_images/01a0be6f-b832-7d93-95df-9d2ff5f69dc1/exec-ce5797e7-b736-4627-87a1-e7eaec1e2103.png",
+    "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r2/preproduction/duck-character-study-v1.png",
+    "/Users/miguel_lemos/anastasia-pinpin-repos/mr-pinpin-source/docs/storyboard/images/published/elder-cycle/elder-r6-family-015.webp"
+  ],
+  "visualReview": "Faces, body support and reciprocal gaze pass first visual review. Scene32/33 background orientation needs continuity review; selected draft for feedback.",
+  "referenceIdentities": [
+    {
+      "path": "/Users/miguel_lemos/.codex/generated_images/01a0be6f-b832-7d93-95df-9d2ff5f69dc1/exec-ce5797e7-b736-4627-87a1-e7eaec1e2103.png",
+      "bytes": 2649341,
+      "sha256": "4a2012c96e18d798bd9dc54178d5a4048d8ced16827855ab6c26890940a1c4a6"
+    },
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r2/preproduction/duck-character-study-v1.png",
+      "bytes": 2271323,
+      "sha256": "30b08a0cf9b5affa30edf8e694da90ae3d7c04fd0c6456df68a994c11dbe9f5b"
+    },
+    {
+      "path": "/Users/miguel_lemos/anastasia-pinpin-repos/mr-pinpin-source/docs/storyboard/images/published/elder-cycle/elder-r6-family-015.webp",
+      "bytes": 482926,
+      "sha256": "076321ed693bb541c91d99b4ab6fbb7cf0c7ed19c0fcf2c0dfb70b1e668d428e"
+    }
+  ],
+  "promptSha256": "bbebed79c668e1dcfa2aba6fe1cd59a14cc3268ea8fc08b4199d85e5b4a9c278",
+  "master": {
+    "path": "masters/scene-34-v1.png",
+    "bytes": 2375872,
+    "sha256": "7d443fcff4a7b7ca4cd126b2a90fe72c702aece5e6eb94425b223407127a81bf"
+  },
+  "approval": "draft-for-review"
+}

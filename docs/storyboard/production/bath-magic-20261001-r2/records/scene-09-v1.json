@@ -1,0 +1,25 @@
+{
+  "id": "scene-09",
+  "version": 1,
+  "tool": "image_gen__imagegen",
+  "prompt": "Use case: illustration-story. Create one finished landscape3:2 children's-book image. This image is STRICTLY FIRST PERSON through child PinPin's eyes looking DOWN into bath from east rim, as in input1 camera. Replace gray geometry with beautiful richlytextured warm wooden tub and magical-looking natural golden morninglight of input2, but NO MAGIC YET. At lower LEFT and RIGHT edges of frame, only his TWO small brown hedgehog forepaws rest on the near drywood rim, belonging to the viewer; do NOT show external hedgehog torso/head. Tub is almostempty: thin clear water layer at bottom FAR BELOW rim, inside woodwallmostlydry. One small carved honeyyellow WOODEN duck with closed orangebeak floats leftside, same duck asinput2. In the shallowwater near bottom-center, a SUBTLE TRANSLUCENT water REFLECTION of PinPin's curious face frominput3 appears under faint ripples. It must unmistakably be a flat reflected image on water, not a real hedgehog inside tub, not a floating severedhead, not another child: lowcontrastwarpedreflection mixingwoodgrainseenbelow. Warmchildwonder, two paws frame theview, wooden rim and interior dominant, no horizonportraitofchild. No text, captions, insetpanels, goldrings, waterstream, extra hands, adultfamily or deepfullwater.",
+  "references": [
+    {
+      "path": "/Users/miguel_lemos/.codex/tmp/pinpin-bath-magic-guides/r2-child-pov-down.png",
+      "sha256": "df7e0c4b7a6bb335dbed3329b12444fd715534ade1825bba83a81c862c4aa599"
+    },
+    {
+      "path": "/Users/miguel_lemos/.codex/generated_images/01a0f5c0-64db-7310-817a-d73d15314908/exec-de38e970-bb17-4d40-bd3c-1c3ed3cc1c32.png",
+      "sha256": "1eb07ca9910442225049dc22e5fcde5ffa8cb98db2144c3972ba2fbcc546f02f"
+    },
+    {
+      "path": "/Users/miguel_lemos/.codex/generated_images/01a0f5c0-64db-7310-817a-d73d15314908/exec-802ce44b-386b-46a2-84c8-c5fbbfee7d22.png",
+      "sha256": "c5068cc390cd2f5c6a04c0d146dc1f84227cf209298d2380325c4c58df938563"
+    }
+  ],
+  "startedAt": "2026-10-01T05:36:16.899Z",
+  "finishedAt": "2026-10-01T05:36:45.273Z",
+  "generatedFile": "/Users/miguel_lemos/.codex/generated_images/01a0f5c0-64db-7310-817a-d73d15314908/exec-68373d9d-ca6f-48c8-8e16-c7b932742731.png",
+  "review": "Selected R2 draft: first-person two paws bracket bath, shallow water reflects translucent child's face, one inert wooden duck, no magic. Reflection reads flat/translucent rather than a second physical child.",
+  "promptSha256": "4942bfd52501687700a34108d035aa2def53d0e4e6dc88719ffdec556902a6db"
+}

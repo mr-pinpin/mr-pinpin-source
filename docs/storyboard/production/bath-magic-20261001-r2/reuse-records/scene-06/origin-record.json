@@ -1,0 +1,25 @@
+{
+  "id": "scene-04",
+  "version": 1,
+  "tool": "image_gen__imagegen",
+  "prompt": "Use case: illustration-story. One finished landscape 3:2 full-page storybook illustration without lettering or panels. Reference1 gives the camera and room geometry; decorate its primitives as rich organic timber and warm plaster, never gray faceted walls. Reference2 is this exact chapter's PinPin and matching little wooden buckets, identity/material/style authority. Reference3 is approved original family art, rendering authority only. ONLY child PinPin appears; Mama, Papa and baby are off-camera. PinPin is a warm brown hedgehog child with cream muzzle and belly, expressive brown irises, no clothing. Match soft dimensional animated-film book rendering, warm morning sunlight and green outside leaves, actual glass in radial round windows. Illustrate filling buckets beside the east kitchen counter shown on backright of guide; table remains left foreground. Add a large lidded clay household water jar on a short wooden stand beside counter. Jar has one simple low wooden spigot. PinPin crouches and holds one small wooden pail under the spigot with one paw while turning wooden tap with other; second matching pail already half full stands separately beside him on floor. Clear modest water stream goes from spigot INSIDE pail. He watches stream attentively. No magical effects yet. No built-in modern sink plumbing, invented wall faucet, flood, extra buckets, drenching or splashing adults. Both pails portable child size as reference. Beautiful quiet practical action.",
+  "references": [
+    {
+      "path": "/Users/miguel_lemos/.codex/tmp/pinpin-bath-magic-guides/common-kitchen.png",
+      "sha256": "49d1832d4d64c686a70d5a6a8559c7a40e0a698fd9ecb56065a35175fe415fd5"
+    },
+    {
+      "path": "/Users/miguel_lemos/.codex/generated_images/01a0f5c0-64db-7310-817a-d73d15314908/exec-418651fa-06ce-4e15-b7c8-058234afea6f.png",
+      "sha256": "b9ae29c73ac4f91ddb6c0b8345c50931833e7502f6acca7bab79456d3672ab77"
+    },
+    {
+      "path": "/Users/miguel_lemos/anastasia-pinpin-repos/mr-pinpin-source/docs/storyboard/images/published/elder-cycle/elder-r6-family-015.webp",
+      "sha256": "076321ed693bb541c91d99b4ab6fbb7cf0c7ed19c0fcf2c0dfb70b1e668d428e"
+    }
+  ],
+  "startedAt": "2026-10-01T04:49:31.965Z",
+  "finishedAt": "2026-10-01T04:50:08.888Z",
+  "generatedFile": "/Users/miguel_lemos/.codex/generated_images/01a0f5c0-64db-7310-817a-d73d15314908/exec-39ae60ca-1da4-483c-86a3-cd9bc1f6ff68.png",
+  "review": "Full-image review: one child, two pails, water flows into one pail, distinct forelimbs. Good identity and practical action. Selected draft.",
+  "promptSha256": "9c60c3383a510feb07cb18bc40cc5f39477641874245f97a5fb01c246992b73f"
+}

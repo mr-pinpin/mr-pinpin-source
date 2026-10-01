@@ -1,0 +1,30 @@
+{
+  "tool": "image_gen__imagegen",
+  "generatedAt": "2026-10-01T05:41:15.018Z",
+  "promptPath": "prompts/scene-29-v1.txt",
+  "sourceOutput": "/Users/miguel_lemos/.codex/generated_images/01a0be6f-b832-7d93-95df-9d2ff5f69dc1/exec-3631e675-f73c-4e57-94b0-0d4f65afbf69.png",
+  "references": [
+    "/Users/miguel_lemos/.codex/generated_images/01a0be6f-b832-7d93-95df-9d2ff5f69dc1/exec-ce5797e7-b736-4627-87a1-e7eaec1e2103.png",
+    "/Users/miguel_lemos/anastasia-pinpin-repos/mr-pinpin-source/docs/storyboard/images/published/elder-cycle/elder-r6-family-015.webp"
+  ],
+  "visualReview": "Passed first visual review: Papa one-foot step followed by displacement splash; child outside; duck animation begins when touched in30. Draft for user feedback.",
+  "referenceIdentities": [
+    {
+      "path": "/Users/miguel_lemos/.codex/generated_images/01a0be6f-b832-7d93-95df-9d2ff5f69dc1/exec-ce5797e7-b736-4627-87a1-e7eaec1e2103.png",
+      "bytes": 2649341,
+      "sha256": "4a2012c96e18d798bd9dc54178d5a4048d8ced16827855ab6c26890940a1c4a6"
+    },
+    {
+      "path": "/Users/miguel_lemos/anastasia-pinpin-repos/mr-pinpin-source/docs/storyboard/images/published/elder-cycle/elder-r6-family-015.webp",
+      "bytes": 482926,
+      "sha256": "076321ed693bb541c91d99b4ab6fbb7cf0c7ed19c0fcf2c0dfb70b1e668d428e"
+    }
+  ],
+  "promptSha256": "c5f6931e9f90bbafdfd96e3d3c145a0d64490b48325dd43f3d2e7265ec12fa7a",
+  "master": {
+    "path": "masters/scene-29-v1.png",
+    "bytes": 2769879,
+    "sha256": "34f31b4f4be7f13c958bca92511c71b05267b5f15fbd98c535f5d3033fb9ea01"
+  },
+  "approval": "draft-for-review"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "scene-30-v2",
+  "prompt": "Use case: precise-object-edit. Advance this exactpicture by one moment: fountain has COMPLETELY STOPPED. Replace the entire waterarch with ONE last tiny suspended drop two centimeters above calmwater. No jet, no glowingcircle. Keep EXACT same TWO hedgehogs ONLY: Mama adult behind-right, PinPin child infront-right, no Papa or baby or otheranimals. PinPin looks up towardMama in relief and she looks down towardhim with small smile. Keep tub, room, camera, wetfloor and gorgeousbookstyle unchanged. The flood is still present becausecleanuphasnotbegun. Full landscape3:2 image, no text or borders.",
+  "referenced_image_paths": [
+    "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001/masters/scene-29-v1.png"
+  ],
+  "editTarget": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001/masters/scene-29-v1.png",
+  "inputHashes": {
+    "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001/masters/scene-29-v1.png": "a7164c3fd7ff117f62a0458fa1299ed7334b90b061b7544554cb551d28c98ea1"
+  },
+  "startedAt": "2026-10-01T04:58:21.403395+00:00",
+  "tool": "image_gen__imagegen",
+  "generatedAt": "2026-10-01T04:59:36.825392+00:00",
+  "sourceOutputPath": "/Users/miguel_lemos/.codex/generated_images/01a0f5c3-a7d1-70d0-b8cf-581aa5deee53/exec-b2ff0132-476c-409f-a4f2-c18a630f5f85.png",
+  "savedOriginalPath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001/masters/scene-30-v2.png",
+  "imageSha256": "74bf0084dcbb652f4cb829628b06dea06cfc098b371e1aecbab0a0f472c3fe5d",
+  "promptSha256": "df47d77db65d3812d12706da20cc661b32cf414d4ea5de16809a50477794dc1f",
+  "reviewStatus": "visually reviewed draft; selected for user review",
+  "selectedForDraft": true,
+  "visualReview": "V2 from scene29 retains exactly Mama and PinPin, final drop and relieved eyeline; V1 rejected because Papa/PomPom unexpectedly appeared.",
+  "promptPath": "prompts/scene-30-v2.txt",
+  "references": [
+    "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001/masters/scene-29-v1.png"
+  ]
+}

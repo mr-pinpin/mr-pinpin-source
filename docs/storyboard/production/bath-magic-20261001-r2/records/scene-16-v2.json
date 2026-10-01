@@ -1,0 +1,17 @@
+{
+  "id": "scene-16",
+  "version": 2,
+  "tool": "image_gen__imagegen",
+  "prompt": "Edit this single children's book illustration with a strictly local BACKGROUND correction. Preserve the hedgehog child's exact face, eyes, direct gaze, expression, body, quills, both forepaws and their pose; preserve framing, warm illumination and entire foreground bath/water as faithfully as possible. This is a reverse camera angle looking toward the RIGHT/EAST WALL of the same bathroom. There should NOT be a round window, floral washbasin or washstand on the LEFT SIDE OF THIS IMAGE behind the child, because those fixtures actually exist on the opposite side of the room out of view. REMOVE that visible round window, its circular frame, the washstand and any counter/jug/soap/flowers associated with the washstand in LEFT background. Replace that background area with continuous warm organic honey plaster and curved timber supporting ribs matching the existing room. Keep the EXISTING towel rail and towels on RIGHT, and the lantern exactly. Preserve dappled warm light from the actual window now off camera, no new window, no door, no basin. This is NOT a zoom/crop or restaging; ONLY fix background architecture while keeping the exquisite face and action identical. Same 3:2 landscape, no letters or watermark.",
+  "references": [
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r2/masters/scene-16-v1.png",
+      "sha256": "af905772463e385196c75d23900752c173802dd1a0176de9c8755b8339609369"
+    }
+  ],
+  "startedAt": "2026-10-01T06:02:11.497Z",
+  "finishedAt": "2026-10-01T06:03:14.135Z",
+  "generatedFile": "/Users/miguel_lemos/.codex/generated_images/01a0f5c0-64db-7310-817a-d73d15314908/exec-f862ab1e-bcee-4dd0-8df9-3ebf5123bea7.png",
+  "review": "Reviewed: duplicate reverse-view left window and washstand removed, warm plaster/timber replaces them; exact child action, two forepaws, lens gaze and foreground bath retained.",
+  "promptSha256": "227277abf20ded4d5c76650fb8a2e08564f8cf9ff4d2417633b92184cba6e06d"
+}

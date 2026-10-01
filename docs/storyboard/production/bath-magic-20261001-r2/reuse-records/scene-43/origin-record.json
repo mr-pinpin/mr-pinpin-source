@@ -1,0 +1,29 @@
+{
+  "id": "scene-26-v2",
+  "prompt": "Edit IMAGE1 into the later moment of this SAME children's book chapter. KEEP EXACT same right-shoulder overhead camera, PinPin size and position lower RIGHT, same tub shape/rim/wood, same reachable simple magic circle XY position, same gorgeous warm dimensional animated-storybook art and light. This is not a new room composition. IMAGE2 supplies Mama identity only, do not copy its camera. Now the tub has filled TO THE BRIM and is gently overflowing onto floor: water level rises but circle floats just above it at SAME spot. Remove wooden duck completely; it has already floated out into other room. Keep child OUTSIDE bath. Add only a glimpse of adult Mama kneeling close BEHIND his right shoulder at upper/right edge, quietly watching, her paws not doing magic. No extra animals, no text. PinPin rehearses how he drew the circle: RIGHT paw raised a few centimeters ABOVE existing goldcircle, tracing remembered clockwise motion in air without contact. Small existing fountain now arches within circle into bath. Ring whole and simple; child thoughtful gaze follows hand. Mama softly waiting, does not giveanswer.",
+  "referenced_image_paths": [
+    "/Users/miguel_lemos/.codex/generated_images/01a0f5c0-64db-7310-817a-d73d15314908/exec-2a4af977-bda0-464e-8db2-94674a92471d.png",
+    "/Users/miguel_lemos/.codex/generated_images/01a0be6f-b832-7d93-95df-9d2ff5f69dc1/exec-4345cab2-7718-42aa-aafb-70a2c825144b.png"
+  ],
+  "geometryGuide": "bath-circle",
+  "imageContinuityReference": "scene09 creation camera; later state directly edited",
+  "inputHashes": {
+    "/Users/miguel_lemos/.codex/generated_images/01a0f5c0-64db-7310-817a-d73d15314908/exec-2a4af977-bda0-464e-8db2-94674a92471d.png": "7f34bcffcbf3f73a9e4d98defd151165460075aff4f5cee912cca3fb4562f4fb",
+    "/Users/miguel_lemos/.codex/generated_images/01a0be6f-b832-7d93-95df-9d2ff5f69dc1/exec-4345cab2-7718-42aa-aafb-70a2c825144b.png": "bd669480c4795023983a1fc05c23415700016aa2017be61f699f0b2c441460b1"
+  },
+  "startedAt": "2026-10-01T04:54:08.414051+00:00",
+  "tool": "image_gen__imagegen",
+  "generatedAt": "2026-10-01T04:55:28.319366+00:00",
+  "sourceOutputPath": "/Users/miguel_lemos/.codex/generated_images/01a0f5c3-a7d1-70d0-b8cf-581aa5deee53/exec-0eedac27-952c-48ee-86c5-079ebea40eea.png",
+  "savedOriginalPath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001/masters/scene-26-v2.png",
+  "imageSha256": "b6c8cd8fbae0adb6ecc6cfbf83763cd8046b54bf0371a00558ddacf319ce4c1d",
+  "promptSha256": "87668b473ed5855e14ca059c933ef0d59c9216762a33b10f6d001df5aec8cdc4",
+  "reviewStatus": "visually reviewed draft; selected for user review",
+  "selectedForDraft": true,
+  "visualReview": "V2 branches directly from scene09, matching right-shoulder camera, child position and tub landmarks; brim-full water and Mama added, duck removed. V1 retained but rejected for camera and circle scale drift.",
+  "promptPath": "prompts/scene-26-v2.txt",
+  "references": [
+    "/Users/miguel_lemos/.codex/generated_images/01a0f5c0-64db-7310-817a-d73d15314908/exec-2a4af977-bda0-464e-8db2-94674a92471d.png",
+    "/Users/miguel_lemos/.codex/generated_images/01a0be6f-b832-7d93-95df-9d2ff5f69dc1/exec-4345cab2-7718-42aa-aafb-70a2c825144b.png"
+  ]
+}

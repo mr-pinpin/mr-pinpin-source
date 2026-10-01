@@ -1,0 +1,25 @@
+{
+  "tool": "image_gen__imagegen",
+  "generatedAt": "2026-10-01T05:58:04.288Z",
+  "promptPath": "prompts/scene-32-v2.txt",
+  "sourceOutput": "/Users/miguel_lemos/.codex/generated_images/01a0be6f-b832-7d93-95df-9d2ff5f69dc1/exec-0a32b45d-273c-420b-b0d9-693ffd789256.png",
+  "references": [
+    "/Users/miguel_lemos/.codex/generated_images/01a0be6f-b832-7d93-95df-9d2ff5f69dc1/exec-8260e17a-2b99-41d9-9d25-c17894e60417.png"
+  ],
+  "visualReview": "Passed full-size visual review: reverse-view background now correctly east wall without duplicated round window or washstand. Foreground character expressions, eye contact, body support and action retained. Draft for user feedback.",
+  "revisionOf": "scene-32-v1",
+  "referenceIdentities": [
+    {
+      "path": "/Users/miguel_lemos/.codex/generated_images/01a0be6f-b832-7d93-95df-9d2ff5f69dc1/exec-8260e17a-2b99-41d9-9d25-c17894e60417.png",
+      "bytes": 2376408,
+      "sha256": "de578ff58c7e5ad3129d868ca04beb00f46c9e4a31fb421de44220bf5f50a3fd"
+    }
+  ],
+  "promptSha256": "f4aa44c098605c0a7108b709b6b6480d6456d0027415757939cb26e874297b3f",
+  "master": {
+    "path": "masters/scene-32-v2.png",
+    "bytes": 2346329,
+    "sha256": "873a181ef800a93feb08a8311ac7c254a995eebfddad00b4cdba7668ffb4321d"
+  },
+  "approval": "draft-for-review"
+}

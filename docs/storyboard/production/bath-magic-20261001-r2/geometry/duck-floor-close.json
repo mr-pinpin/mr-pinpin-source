@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "id": "bath-magic-r2-duck-floor-close",
+  "location": "docs/storyboard/locations/pinpin-house/location.json",
+  "camera": {
+    "position": [
+      -1.8,
+      -0.1,
+      0.13
+    ],
+    "target": [
+      -2.12,
+      0.66,
+      0.1
+    ],
+    "lensMm": 45,
+    "width": 1400,
+    "height": 1000
+  },
+  "doorStates": {
+    "door-front": 0,
+    "door-bath": 75,
+    "door-bedroom": 0
+  },
+  "prompt": {
+    "template": "still",
+    "intent": "Floorlevel close perspective to little wooden duck in final small puddle; childhandclothmayenter foregroundedge.",
+    "characters": "No characters; empty architectural location study.",
+    "action": "No action; preserve all furnishings and openings.",
+    "lighting": "Warm gentle daytime with soft fill; maintain the rendered direction of window illumination.",
+    "referenceIds": [
+      "common-book"
+    ]
+  }
+}

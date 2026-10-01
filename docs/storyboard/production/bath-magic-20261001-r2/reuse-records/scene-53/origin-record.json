@@ -1,0 +1,28 @@
+{
+  "id": "scene-34-v3",
+  "prompt": "Use case: precise-object-edit. Edit IMAGE1 only the small duck floating beside child in the bath. Replace its bright yellow rubber-plastic appearance with the EXACT small CARVED WOODEN duck from IMAGE2: honey-colored naturalwood grain, carved wing lines, little orange beak, simple blackeye, mattehandmade finish. Keep duck sameposition and size in image1. Preserve ALL other image1 pixels/composition as closely as possible: fourfamilyhedgehogs facesposes, Papa holdingbaby, Mama kneeling, childtinysplash, LOWERED bathwaterlevel and dry innerwoodband, room, camera, lighting, all lovelybookstyle. No additional duck, no otherchanges, no text.",
+  "referenced_image_paths": [
+    "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001/masters/scene-34-v2.png",
+    "/Users/miguel_lemos/.codex/generated_images/01a0f5c0-64db-7310-817a-d73d15314908/exec-2a4af977-bda0-464e-8db2-94674a92471d.png"
+  ],
+  "editTarget": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001/masters/scene-34-v2.png",
+  "inputHashes": {
+    "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001/masters/scene-34-v2.png": "40c6c53eccca2b652652429ea2b10748d03e74f9205660ceccbae2ecfb283013",
+    "/Users/miguel_lemos/.codex/generated_images/01a0f5c0-64db-7310-817a-d73d15314908/exec-2a4af977-bda0-464e-8db2-94674a92471d.png": "7f34bcffcbf3f73a9e4d98defd151165460075aff4f5cee912cca3fb4562f4fb"
+  },
+  "startedAt": "2026-10-01T05:06:31.374656+00:00",
+  "tool": "image_gen__imagegen",
+  "generatedAt": "2026-10-01T05:07:29.813854+00:00",
+  "sourceOutputPath": "/Users/miguel_lemos/.codex/generated_images/01a0f5c3-a7d1-70d0-b8cf-581aa5deee53/exec-f1522299-2943-4e06-bc71-4d414ebc2e7d.png",
+  "savedOriginalPath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001/masters/scene-34-v3.png",
+  "imageSha256": "d963769f9d8d76090c108e8d5827782e029c39940e4e1889d0a466f82cb28bc1",
+  "promptSha256": "7283b137c8f95df3bd61fcbaf60f0415e4e2aed0d23feb3968b2b6915d4709b2",
+  "reviewStatus": "visually reviewed draft; selected for user review",
+  "selectedForDraft": true,
+  "visualReview": "V3 preserves lowered water and distinct four family members; duck now has clearly carved wing lines and natural honey wooden grain matching09. Earlier v2 retained but superseded for plastic-looking duck.",
+  "promptPath": "prompts/scene-34-v3.txt",
+  "references": [
+    "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001/masters/scene-34-v2.png",
+    "/Users/miguel_lemos/.codex/generated_images/01a0f5c0-64db-7310-817a-d73d15314908/exec-2a4af977-bda0-464e-8db2-94674a92471d.png"
+  ]
+}

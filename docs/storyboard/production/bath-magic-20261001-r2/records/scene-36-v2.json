@@ -1,0 +1,26 @@
+{
+  "id": "scene-36-v2",
+  "prompt": "Use case: precise-object-edit. Input image 1 is the only edit target. Make one narrowly localized background continuity correction: remove the duplicate floral ceramic washbasin on the RIGHT side of the bathroom behind the family, and remove its short supporting stand immediately under it. Reconstruct that small background area as natural golden plaster wall, honey timber baseboard and floor continuing the adjacent room. Keep the hanging pale striped towel above it. Preserve the correct LEFT washstand and floral pitcher/flowers exactly. Preserve every family member and all expressions, gazes, paws, Papa on left, PinPin middle, Mama holding a clearly separate infant on right. Keep the single expressive carved wooden duck in foreground exactly identical, including face, beak, woodgrain, size, pose and all water splashes. Preserve tub and overflowing water, round glazed window, door, camera position, framing, lighting, warm colors, detailed wood surfaces, rug and buckets. No other changes, no new objects, no text or border.",
+  "referenced_image_paths": [
+    "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r2/masters/scene-36-v1.png"
+  ],
+  "inputHashes": {
+    "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r2/masters/scene-36-v1.png": "d464f9156a9034cc865ff92d0ed83a24151b0e26933dbd8ed2dca17793812087"
+  },
+  "startedAt": "2026-10-01T05:59:35.648615+00:00",
+  "editType": "precise-object-edit",
+  "preservesVersion": "scene-36-v1",
+  "tool": "image_gen__imagegen",
+  "generatedAt": "2026-10-01T06:00:49.860874+00:00",
+  "sourceOutputPath": "/Users/miguel_lemos/.codex/generated_images/01a0f5c3-a7d1-70d0-b8cf-581aa5deee53/exec-316c536a-e6b9-4d60-911b-2133222f3f9f.png",
+  "savedOriginalPath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r2/masters/scene-36-v2.png",
+  "imageSha256": "73b31d237a2ae07b67a7de9984ab019c95f64342be7d1e2ba12df4d30a40d0a9",
+  "promptSha256": "bd814ea07018634cd4e0675c39674399e3096dbbff40dbb28afbf736b52eec60",
+  "reviewStatus": "visually reviewed draft; selected for user review",
+  "visualReview": "PASS: duplicate right-background basin and stand removed; warm wall/baseboard continuity retained. Left washstand/pitcher remains. All four family figures, separate supported baby, foreground talking wooden duck, splash and tub overflow unchanged in narrative content.",
+  "selectedForDraft": true,
+  "promptPath": "/Users/miguel_lemos/anastasia-pinpin-repos/mr-pinpin-source/docs/storyboard/production/bath-magic-20261001-r2/prompts/scene-36-v2.txt",
+  "references": [
+    "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r2/masters/scene-36-v1.png"
+  ]
+}

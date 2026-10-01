@@ -1,0 +1,2520 @@
+{
+  "schemaVersion": 1,
+  "productionId": "bath-magic-20261001-r2",
+  "status": "Final draft story continuity ledger; selected art internally reviewed, not a claim of exact geometry",
+  "references": [
+    {
+      "id": "bath-book",
+      "path": "docs/storyboard/images/standalone/home-sweet-home/bedtime-08-v2.png",
+      "roles": [
+        "style",
+        "cast",
+        "tub-design"
+      ],
+      "notes": "Viewed directly: three hedgehogs, broad low wooden tub with two metal hoops, warm plaster/timber, single radial round window. Geometry comes from plan.",
+      "exists": true,
+      "bytes": 2323256,
+      "sha256": "c6e3deefa1acc93dadb3467931719f080a81ab8807dbff960bca6c225f07635d"
+    },
+    {
+      "id": "bedroom-book",
+      "path": "docs/storyboard/images/standalone/home-sweet-home/bedtime-17-v2.png",
+      "roles": [
+        "style",
+        "cast",
+        "bed-design"
+      ],
+      "notes": "Viewed directly: Mama between boys, broad bed and green quilt, soft expressive eyes.",
+      "exists": true,
+      "bytes": 2294087,
+      "sha256": "e37fd9cccf68330ba62763958199839692e77c3c0092a5d4b5efa1db5835ff73"
+    },
+    {
+      "id": "family-breakfast",
+      "path": "docs/storyboard/images/published/elder-cycle/elder-r6-family-015.webp",
+      "roles": [
+        "Papa-identity",
+        "family-scale",
+        "style",
+        "breakfast-props"
+      ],
+      "notes": "Viewed directly: Papa broad cream muzzle and visible iris eyes, Mama reddish quills, older PinPin and much smaller PomPom, all hedgehogs without clothing.",
+      "exists": true,
+      "bytes": 482926,
+      "sha256": "076321ed693bb541c91d99b4ab6fbb7cf0c7ed19c0fcf2c0dfb70b1e668d428e"
+    },
+    {
+      "id": "common-master",
+      "path": "docs/storyboard/images/published/elder-cycle/elder-r6-family-008.webp",
+      "roles": [
+        "style",
+        "family-identity"
+      ],
+      "notes": "Prior production-approved kitchen master; not inspected here. Must inspect before generation. Does not override canonical plan.",
+      "exists": true,
+      "bytes": 444930,
+      "sha256": "58df35b99ee8c55b0f0e4011aa2354a7e62820c0c7f261374ee9bb7d2db31565"
+    },
+    {
+      "id": "current-plan",
+      "path": "docs/storyboard/locations/pinpin-house/scene/house-plan.json",
+      "roles": [
+        "geometry"
+      ],
+      "notes": "Read furniture/openings/room topology; tub center [-3.738022,2.66629], 1.864212 by1.184811, rim0.48m; common table center[-0.303371,-1.09069], height0.7m.",
+      "exists": true,
+      "bytes": 38347,
+      "sha256": "cab510b31c13e85beaa689edb54005223412a988f640724e56b9d95dba20c28c"
+    },
+    {
+      "id": "plan-underlay",
+      "path": "docs/storyboard/locations/pinpin-house/scene/merged-semantic-plan.png",
+      "roles": [
+        "geometry-underlay"
+      ],
+      "notes": "Registered current plan, not a painting texture or rendering style reference.",
+      "exists": true,
+      "bytes": 26265,
+      "sha256": "317c3447d13d915b7072cc096e641e37c33233d3ce4390ec163cf07ca49dd8c2"
+    }
+  ],
+  "cast": {
+    "PinPin": {
+      "species": "hedgehog",
+      "ageRole": "older preschool child",
+      "heightRelative": 1,
+      "appearance": "Warm brown quills, cream face and tummy, visible expressive irises; no costume; use actual reference."
+    },
+    "PomPom": {
+      "species": "hedgehog",
+      "ageRole": "infant younger sibling",
+      "heightRelative": 0.5,
+      "appearance": "Same family design, substantially smaller head/body than PinPin; never scaled to equal sibling.",
+      "support": "Papa lap/arms initially; stable high-sided infant chair scene20–33 with adults nearby; Papa arms towel34; Mama lap35–36."
+    },
+    "Mama": {
+      "species": "hedgehog",
+      "heightRelative": 1.6,
+      "appearance": "Reddish-brown quills, gentle cream face, round expressive eyes; no clothes.",
+      "action": "Cooking, notices floating duck, lifts belongings, asks child what happened, stays close, cleanup and bath."
+    },
+    "Papa": {
+      "species": "hedgehog",
+      "heightRelative": 1.6,
+      "appearance": "Mature broad cream face, darker quills, warm visible hazel irises and soft facial contours; no photographic eyes or clothing.",
+      "action": "Cares for baby, lifts common rug, empties pails and dries rug; no sudden arrival."
+    }
+  },
+  "location": {
+    "id": "pinpin-house",
+    "version": "1.0.0",
+    "plan": "docs/storyboard/locations/pinpin-house/scene/house-plan.json",
+    "coordinateFrame": "+X east; +Y north; +Z up; meters",
+    "topology": "Common/kitchen south, bath northwest, bedroom northeast. No fourth hallway.",
+    "tub": {
+      "centerXY": [
+        -3.738022,
+        2.66629
+      ],
+      "sizeXY": [
+        1.864212,
+        1.184811
+      ],
+      "height": 0.48,
+      "note": "Freestanding broad low wooden tub, circulation around it. East side PinPin; south spill runs toward entry. Do not push tub against wall."
+    },
+    "table": {
+      "centerXY": [
+        -0.303371,
+        -1.09069
+      ],
+      "height": 0.7
+    },
+    "stove": "West common room, center[-3.039125,-1.95927]; always closed fire door.",
+    "counter": "East common room, center[2.770064,-1.271268].",
+    "doors": "Bath opens75° into bath; bedroom opens into common and closes after opening beats; front opens outward for cleanup. Two radial round windows flank green front door; bathroom one round window.",
+    "newPortableProps": [
+      "Two matching small wooden pails",
+      "One yellow wooden duck",
+      "Lidded clay water jar with low spigot beside east counter",
+      "Stable high-sided infant chair beside east table edge, established scene02",
+      "Cloths and ordinary basket; no new built-in plumbing"
+    ],
+    "illustrationPolicy": "New props are draft movable dressing, not silent permanent canonical geometry edits. Camera positions are proposed staging; if using location-render workflow execute each saved camera and inspect, not merely claim Blender validation."
+  },
+  "magic": {
+    "rule": "One fixed horizontal gold circle above shallow tub water, clockwise tracing creates a small continual fountain into tub. Same gesture counterclockwise erases ring and stops NEW water only. No extra streams at floor or self-moving buckets.",
+    "ringCenterProposed": [
+      -3.15,
+      2.65,
+      0.42
+    ],
+    "fixedSetupScenes": [
+      9,
+      26,
+      28
+    ],
+    "viewConvention": "Clockwise/counterclockwise judged looking down onto horizontal ring from same side; preserve camera, landmarks, paw and visible short leading trail. Viewer must see erasure rather than a second circle.",
+    "waterOrigin": "One gentle fountain from ring, not a wall faucet. Gold ring remains above water surface as water rises, keeping XY fixed; elevation follows surface by a small constant clearance.",
+    "floorWater": "Spreads through open threshold; shallow, never chest-high or whole-house swimming. Reversal never drains existing water.",
+    "cleanup": "Remove excess clean tub water separately; scoop dirty floor water for outside; mop, hang rug, then supervised shallow bath. Recovered wooden duck returns in34 andbreakfast35.",
+    "rules": [
+      "Clockwise bathcircle continually makeswater; counterclockwise erasure stopsnewwateronly.",
+      "Mis-targeted partialgesture brusheswoodenduck in30; beakcomesalive in31. Thisdoesnotstopwater.",
+      "Duck retains speech after bathring disappears. Still carvedwood, no newlimbs orpersonbody."
+    ]
+  },
+  "storyboardSheetCount": 8,
+  "shots": [
+    {
+      "id": "scene-01",
+      "reusedFrom": "scene-01",
+      "camera": {
+        "position": [
+          1.2,
+          0.8,
+          1.05
+        ],
+        "target": [
+          2.46,
+          1.64,
+          0.85
+        ],
+        "lensMm": 28,
+        "sensorWidthMm": 36,
+        "status": "proposed blocking; unrendered, not measured image reconstruction",
+        "frame": "canonical house +X east, +Y north, +Z up; meters",
+        "aspectRatio": "3:2"
+      },
+      "cast": [
+        "PinPin"
+      ],
+      "blockingAndGaze": "PinPin sits up in the familiar broad wooden bed, lifting green quilt with both paws; bedroom door already open, breakfast light through opening.",
+      "state": {
+        "tubFillPercent": 0,
+        "floorWater": "dry",
+        "magic": "none",
+        "doorBathDegrees": 75,
+        "doorBedroomDegrees": 75,
+        "doorFrontDegrees": 0,
+        "babyLocation": "Papa lap/arms at table",
+        "adultOffscreen": "Papa and PomPom in common room; Mama preparing breakfast",
+        "duck": "not yet in frame; waiting bath prop",
+        "duckLiving": false,
+        "duckMaterial": "carved honey-yellow wood with visible grain, orange rounded beak, friendly inset dark eyes; no added limbs",
+        "duckLocation": "Papa/PomPom at table; Papa delivers offscreen before08",
+        "papaLocation": "commonroomcaringforbaby"
+      },
+      "selectedMaster": "masters/reused/scene-01/scene-01-v1.png",
+      "reviewStatus": "internally reviewed draft; user review pending"
+    },
+    {
+      "id": "scene-02",
+      "reusedFrom": "scene-02",
+      "camera": {
+        "position": [
+          1.1,
+          -1.8,
+          1.05
+        ],
+        "target": [
+          -1.3,
+          -0.6,
+          0.85
+        ],
+        "lensMm": 28,
+        "sensorWidthMm": 36,
+        "status": "proposed blocking; unrendered, not measured image reconstruction",
+        "frame": "canonical house +X east, +Y north, +Z up; meters",
+        "aspectRatio": "3:2"
+      },
+      "cast": [
+        "PinPin",
+        "Mama",
+        "Papa",
+        "PomPom"
+      ],
+      "blockingAndGaze": "PinPin enters common room from bedroom; Mama tends closed stove on west side, Papa seated at table holding baby on lap; rounded infant chair visible beside table.",
+      "state": {
+        "tubFillPercent": 0,
+        "floorWater": "dry",
+        "magic": "none",
+        "doorBathDegrees": 75,
+        "doorBedroomDegrees": 75,
+        "doorFrontDegrees": 0,
+        "babyLocation": "Papa lap/arms at table",
+        "adultOffscreen": "Papa and PomPom in common room; Mama preparing breakfast",
+        "duck": "not yet in frame; waiting bath prop",
+        "duckLiving": false,
+        "duckMaterial": "carved honey-yellow wood with visible grain, orange rounded beak, friendly inset dark eyes; no added limbs",
+        "duckLocation": "Papa/PomPom at table; Papa delivers offscreen before08",
+        "papaLocation": "commonroomcaringforbaby"
+      },
+      "selectedMaster": "masters/reused/scene-02/scene-02-v2.png",
+      "reviewStatus": "internally reviewed draft; user review pending"
+    },
+    {
+      "id": "scene-03",
+      "reusedFrom": null,
+      "camera": {
+        "position": [
+          1.1,
+          -1.8,
+          1.05
+        ],
+        "target": [
+          -1.3,
+          -0.6,
+          0.85
+        ],
+        "lensMm": 28,
+        "sensorWidthMm": 36,
+        "status": "proposed narrative camera, not measured image or executed render",
+        "frame": "canonical house +X east, +Y north, +Z up; meters",
+        "aspectRatio": "3:2",
+        "mode": "child-pov"
+      },
+      "cast": [
+        "Mama"
+      ],
+      "blockingAndGaze": "PinPin's actual low eye-level POV from a safe step away beside west stove: little puffs of porridge steam rise in near foreground, Mama's warm face above them looking gently DOWN DIRECTLY INTO LENS because lens is child. Mama stirs, stove stays closed, no child leaning over hotpot.",
+      "state": {
+        "tubFillPercent": 0,
+        "magic": "off",
+        "duckLiving": false,
+        "duckMaterial": "carved honey-yellow wood with visible grain, orange rounded beak, friendly inset dark eyes; no added limbs",
+        "duckLocation": "Papa/PomPom at table; Papa delivers offscreen before08",
+        "babyLocation": "Papa lap/arms at table",
+        "papaLocation": "commonroomcaringforbaby"
+      },
+      "selectedMaster": "masters/scene-03-v1.png",
+      "reviewStatus": "internally reviewed draft; user review pending"
+    },
+    {
+      "id": "scene-04",
+      "reusedFrom": null,
+      "camera": {
+        "position": [
+          1.1,
+          -1.8,
+          1.05
+        ],
+        "target": [
+          -1.3,
+          -0.6,
+          0.85
+        ],
+        "lensMm": 28,
+        "sensorWidthMm": 36,
+        "status": "proposed narrative camera, not measured image or executed render",
+        "frame": "canonical house +X east, +Y north, +Z up; meters",
+        "aspectRatio": "3:2",
+        "mode": "child-eye-level interaction"
+      },
+      "cast": [
+        "Papa",
+        "PomPom",
+        "PinPin"
+      ],
+      "blockingAndGaze": "Close actual interaction at breakfast table: Papa supports PomPom on lap with one forearm under baby torso; his free open paw receives one small carved honey-yellow wooden duck from baby's TWO tiny paws. PinPin watches close beside Papa with delighted face. Exactly one adult, one olderchild, one muchsmaller infant. Papa will put toy in bath while PinPin fetches water; no child carrying toy plus two pails.",
+      "state": {
+        "tubFillPercent": 0,
+        "magic": "off",
+        "duckLiving": false,
+        "duckMaterial": "carved honey-yellow wood with visible grain, orange rounded beak, friendly inset dark eyes; no added limbs",
+        "duckLocation": "Papa/PomPom at table; Papa delivers offscreen before08",
+        "babyLocation": "Papa lap/arms at table",
+        "papaLocation": "commonroomcaringforbaby"
+      },
+      "selectedMaster": "masters/scene-04-v1.png",
+      "reviewStatus": "internally reviewed draft; user review pending"
+    },
+    {
+      "id": "scene-05",
+      "reusedFrom": "scene-03",
+      "camera": {
+        "position": [
+          1.1,
+          -1.8,
+          1.05
+        ],
+        "target": [
+          -1.3,
+          -0.6,
+          0.85
+        ],
+        "lensMm": 28,
+        "sensorWidthMm": 36,
+        "status": "proposed blocking; unrendered, not measured image reconstruction",
+        "frame": "canonical house +X east, +Y north, +Z up; meters",
+        "aspectRatio": "3:2"
+      },
+      "cast": [
+        "Mama",
+        "PinPin"
+      ],
+      "blockingAndGaze": "Mama turns from stove toward PinPin holding empty matched small wooden pails; eye contact, room reference establishes bath opening behind PinPin.",
+      "state": {
+        "tubFillPercent": 0,
+        "floorWater": "dry",
+        "magic": "none",
+        "doorBathDegrees": 75,
+        "doorBedroomDegrees": 0,
+        "doorFrontDegrees": 0,
+        "babyLocation": "Papa lap/arms at table",
+        "adultOffscreen": "Papa and PomPom in common room; Mama preparing breakfast",
+        "duck": "not yet in frame; waiting bath prop",
+        "duckLiving": false,
+        "duckMaterial": "carved honey-yellow wood with visible grain, orange rounded beak, friendly inset dark eyes; no added limbs",
+        "duckLocation": "Papa/PomPom at table; Papa delivers offscreen before08",
+        "papaLocation": "commonroomcaringforbaby"
+      },
+      "selectedMaster": "masters/reused/scene-05/scene-03-v3.png",
+      "reviewStatus": "internally reviewed draft; user review pending"
+    },
+    {
+      "id": "scene-06",
+      "reusedFrom": "scene-04",
+      "camera": {
+        "position": [
+          1.65,
+          -0.9,
+          0.55
+        ],
+        "target": [
+          2.48,
+          -1.0,
+          0.3
+        ],
+        "lensMm": 40,
+        "sensorWidthMm": 36,
+        "status": "proposed blocking; unrendered, not measured image reconstruction",
+        "frame": "canonical house +X east, +Y north, +Z up; meters",
+        "aspectRatio": "3:2"
+      },
+      "cast": [
+        "PinPin"
+      ],
+      "blockingAndGaze": "PinPin fills small pail from new lidded clay household water jar with low wooden spigot beside east kitchen counter; second already half-filled on floor. Clearly portable jar, not new built-in plumbing.",
+      "state": {
+        "tubFillPercent": 0,
+        "floorWater": "dry",
+        "magic": "none",
+        "doorBathDegrees": 75,
+        "doorBedroomDegrees": 0,
+        "doorFrontDegrees": 0,
+        "babyLocation": "Papa lap/arms at table",
+        "adultOffscreen": "Papa and PomPom in common room; Mama preparing breakfast",
+        "duck": "not yet in frame; waiting bath prop",
+        "duckLiving": false,
+        "duckMaterial": "carved honey-yellow wood with visible grain, orange rounded beak, friendly inset dark eyes; no added limbs",
+        "duckLocation": "Papa/PomPom at table; Papa delivers offscreen before08",
+        "papaLocation": "commonroomcaringforbaby"
+      },
+      "selectedMaster": "masters/reused/scene-06/scene-04-v1.png",
+      "reviewStatus": "internally reviewed draft; user review pending"
+    },
+    {
+      "id": "scene-07",
+      "reusedFrom": "scene-05",
+      "camera": {
+        "position": [
+          -0.1,
+          -0.35,
+          0.3
+        ],
+        "target": [
+          -2.0,
+          0.8,
+          0.35
+        ],
+        "lensMm": 32,
+        "sensorWidthMm": 36,
+        "status": "proposed blocking; unrendered, not measured image reconstruction",
+        "frame": "canonical house +X east, +Y north, +Z up; meters",
+        "aspectRatio": "3:2"
+      },
+      "cast": [
+        "PinPin"
+      ],
+      "blockingAndGaze": "Child travels around table toward northwest bath opening, two small half-full pails at sides; only one little splash, no flood. Low tracking angle follows actual route.",
+      "state": {
+        "tubFillPercent": 0,
+        "floorWater": "a few drops from carrying only",
+        "magic": "none",
+        "doorBathDegrees": 75,
+        "doorBedroomDegrees": 0,
+        "doorFrontDegrees": 0,
+        "babyLocation": "Papa lap/arms at table",
+        "adultOffscreen": "Papa and PomPom in common room; Mama preparing breakfast",
+        "duck": "not yet in frame; waiting bath prop",
+        "duckLiving": false,
+        "duckMaterial": "carved honey-yellow wood with visible grain, orange rounded beak, friendly inset dark eyes; no added limbs",
+        "duckLocation": "Papa/PomPom at table; Papa delivers offscreen before08",
+        "papaLocation": "commonroomcaringforbaby"
+      },
+      "selectedMaster": "masters/reused/scene-07/scene-05-v2.png",
+      "reviewStatus": "internally reviewed draft; user review pending"
+    },
+    {
+      "id": "scene-08",
+      "reusedFrom": "scene-06",
+      "camera": {
+        "position": [
+          -1.97,
+          1.28,
+          1.1
+        ],
+        "target": [
+          -3.74,
+          2.66,
+          0.55
+        ],
+        "lensMm": 24,
+        "sensorWidthMm": 36,
+        "status": "proposed blocking; unrendered, not measured image reconstruction",
+        "frame": "canonical house +X east, +Y north, +Z up; meters",
+        "aspectRatio": "3:2"
+      },
+      "cast": [
+        "PinPin"
+      ],
+      "blockingAndGaze": "PinPin tips last pail using two paws over broad low tub; first empty pail on entry-side floor. Small yellow wooden duck floats in shallow water, introduced now.",
+      "state": {
+        "tubFillPercent": 5,
+        "floorWater": "dry apart from carry drops",
+        "magic": "none",
+        "doorBathDegrees": 75,
+        "doorBedroomDegrees": 0,
+        "doorFrontDegrees": 0,
+        "babyLocation": "Papa lap/arms at table",
+        "adultOffscreen": "Papa and PomPom in common room; Mama preparing breakfast",
+        "duck": "in bathtub",
+        "duckLiving": false,
+        "duckMaterial": "carved honey-yellow wood with visible grain, orange rounded beak, friendly inset dark eyes; no added limbs",
+        "duckLocation": "in bathtub",
+        "papaLocation": "commonroomcaringforbaby"
+      },
+      "selectedMaster": "masters/reused/scene-08/scene-06-v2.png",
+      "reviewStatus": "internally reviewed draft; user review pending"
+    },
+    {
+      "id": "scene-09",
+      "reusedFrom": null,
+      "camera": {
+        "position": [
+          -1.97,
+          1.28,
+          1.1
+        ],
+        "target": [
+          -3.74,
+          2.66,
+          0.55
+        ],
+        "lensMm": 24,
+        "sensorWidthMm": 36,
+        "status": "proposed narrative camera, not measured image or executed render",
+        "frame": "canonical house +X east, +Y north, +Z up; meters",
+        "aspectRatio": "3:2",
+        "mode": "child-pov"
+      },
+      "cast": [
+        "PinPin"
+      ],
+      "blockingAndGaze": "Exact PinPin POV looking down into nearlyempty bath from east rim: his two small brown paws bracket lower frame on dry wooden rim, shallow clear water far below, one carved duck and soft understandable reflection of PinPin's face. Reflected face is visibly a WATER REFLECTION, not second hedgehog swimming. No complete child body outside POV, no gold yet.",
+      "state": {
+        "tubFillPercent": 5,
+        "magic": "off",
+        "duckLiving": false,
+        "duckMaterial": "carved honey-yellow wood with visible grain, orange rounded beak, friendly inset dark eyes; no added limbs",
+        "duckLocation": "in bathtub",
+        "babyLocation": "Papa lap/arms at table",
+        "papaLocation": "commonroomcaringforbaby"
+      },
+      "selectedMaster": "masters/scene-09-v1.png",
+      "reviewStatus": "internally reviewed draft; user review pending"
+    },
+    {
+      "id": "scene-10",
+      "reusedFrom": "scene-07",
+      "camera": {
+        "position": [
+          -1.97,
+          1.28,
+          1.1
+        ],
+        "target": [
+          -3.74,
+          2.66,
+          0.55
+        ],
+        "lensMm": 24,
+        "sensorWidthMm": 36,
+        "status": "proposed blocking; unrendered, not measured image reconstruction",
+        "frame": "canonical house +X east, +Y north, +Z up; meters",
+        "aspectRatio": "3:2"
+      },
+      "cast": [
+        "PinPin"
+      ],
+      "blockingAndGaze": "PinPin rests both empty pails outside east tub rim and looks between pails and broad bath, body angled toward water, camera includes room to show disproportion.",
+      "state": {
+        "tubFillPercent": 5,
+        "floorWater": "dry",
+        "magic": "none",
+        "doorBathDegrees": 75,
+        "doorBedroomDegrees": 0,
+        "doorFrontDegrees": 0,
+        "babyLocation": "Papa lap/arms at table",
+        "adultOffscreen": "Papa and PomPom in common room; Mama preparing breakfast",
+        "duck": "in bathtub",
+        "duckLiving": false,
+        "duckMaterial": "carved honey-yellow wood with visible grain, orange rounded beak, friendly inset dark eyes; no added limbs",
+        "duckLocation": "in bathtub",
+        "papaLocation": "commonroomcaringforbaby"
+      },
+      "selectedMaster": "masters/reused/scene-10/scene-07-v2.png",
+      "reviewStatus": "internally reviewed draft; user review pending"
+    },
+    {
+      "id": "scene-11",
+      "reusedFrom": null,
+      "camera": {
+        "position": [
+          -1.97,
+          1.28,
+          1.1
+        ],
+        "target": [
+          -3.74,
+          2.66,
+          0.55
+        ],
+        "lensMm": 24,
+        "sensorWidthMm": 36,
+        "status": "proposed narrative camera, not measured image or executed render",
+        "frame": "canonical house +X east, +Y north, +Z up; meters",
+        "aspectRatio": "3:2",
+        "mode": "shared-look closeup"
+      },
+      "cast": [
+        "PinPin"
+      ],
+      "blockingAndGaze": "Warm intimate PinPin face closeup from beside bath at HIS eyeheight; he looks nearly DIRECTLY INTO LENS with a pleased conspiratorial-but-open shared smile, inviting reader to notice his idea. One forepaw lifts thoughtfully in lowerframe. Background bathrim and towels only, no new magic, no extra eyes. Motivated shared-look pause, not a whole chapter of portraits.",
+      "state": {
+        "tubFillPercent": 5,
+        "magic": "off",
+        "duckLiving": false,
+        "duckMaterial": "carved honey-yellow wood with visible grain, orange rounded beak, friendly inset dark eyes; no added limbs",
+        "duckLocation": "in bathtub",
+        "babyLocation": "Papa lap/arms at table",
+        "papaLocation": "commonroomcaringforbaby"
+      },
+      "selectedMaster": "masters/scene-11-v2.png",
+      "reviewStatus": "internally reviewed draft; user review pending"
+    },
+    {
+      "id": "scene-12",
+      "reusedFrom": "scene-09",
+      "camera": {
+        "position": [
+          -2.4,
+          2.15,
+          1.35
+        ],
+        "target": [
+          -3.1,
+          2.65,
+          0.42
+        ],
+        "lensMm": 45,
+        "sensorWidthMm": 36,
+        "status": "proposed blocking; unrendered, not measured image reconstruction",
+        "frame": "canonical house +X east, +Y north, +Z up; meters",
+        "aspectRatio": "3:2"
+      },
+      "cast": [
+        "PinPin"
+      ],
+      "blockingAndGaze": "Over same right shoulder used later in reverse: one paw draws clockwise horizontal gold ring just above shallow water near east end of tub; visible bright leading point and fading short tail show direction. No writing or symbolic runes.",
+      "state": {
+        "tubFillPercent": 5,
+        "floorWater": "dry",
+        "magic": "tracing clockwise",
+        "doorBathDegrees": 75,
+        "doorBedroomDegrees": 0,
+        "doorFrontDegrees": 0,
+        "babyLocation": "Papa lap/arms at table",
+        "adultOffscreen": "Papa and PomPom in common room; Mama preparing breakfast",
+        "duck": "in bathtub",
+        "duckLiving": false,
+        "duckMaterial": "carved honey-yellow wood with visible grain, orange rounded beak, friendly inset dark eyes; no added limbs",
+        "duckLocation": "in bathtub",
+        "papaLocation": "commonroomcaringforbaby"
+      },
+      "selectedMaster": "masters/reused/scene-12/scene-09-v1.png",
+      "reviewStatus": "internally reviewed draft; user review pending"
+    },
+    {
+      "id": "scene-13",
+      "reusedFrom": "scene-10",
+      "camera": {
+        "position": [
+          -3.1,
+          1.75,
+          0.63
+        ],
+        "target": [
+          -3.35,
+          2.65,
+          0.63
+        ],
+        "lensMm": 50,
+        "sensorWidthMm": 36,
+        "status": "proposed blocking; unrendered, not measured image reconstruction",
+        "frame": "canonical house +X east, +Y north, +Z up; meters",
+        "aspectRatio": "3:2"
+      },
+      "cast": [
+        "PinPin"
+      ],
+      "blockingAndGaze": "Stream emerges upward briefly from center of horizontal ring then curls downward into tub, contained small fountain; ring stays at the same horizontal position, floating just above the rising water. PinPin leans forward without entering tub.",
+      "state": {
+        "tubFillPercent": 15,
+        "floorWater": "dry",
+        "magic": "active",
+        "doorBathDegrees": 75,
+        "doorBedroomDegrees": 0,
+        "doorFrontDegrees": 0,
+        "babyLocation": "Papa lap/arms at table",
+        "adultOffscreen": "Papa and PomPom in common room; Mama preparing breakfast",
+        "duck": "in bathtub",
+        "duckLiving": false,
+        "duckMaterial": "carved honey-yellow wood with visible grain, orange rounded beak, friendly inset dark eyes; no added limbs",
+        "duckLocation": "in bathtub",
+        "papaLocation": "commonroomcaringforbaby"
+      },
+      "selectedMaster": "masters/reused/scene-13/scene-10-v1.png",
+      "reviewStatus": "internally reviewed draft; user review pending"
+    },
+    {
+      "id": "scene-14",
+      "reusedFrom": "scene-11",
+      "camera": {
+        "position": [
+          -4.45,
+          2.8,
+          0.49
+        ],
+        "target": [
+          -2.85,
+          2.55,
+          0.72
+        ],
+        "lensMm": 40,
+        "sensorWidthMm": 36,
+        "status": "proposed blocking; unrendered, not measured image reconstruction",
+        "frame": "canonical house +X east, +Y north, +Z up; meters",
+        "aspectRatio": "3:2"
+      },
+      "cast": [
+        "PinPin"
+      ],
+      "blockingAndGaze": "Duck-level angle across ripples toward delighted PinPin at east rim, same single stream behind duck; water rising, no overflow yet.",
+      "state": {
+        "tubFillPercent": 35,
+        "floorWater": "dry",
+        "magic": "active",
+        "doorBathDegrees": 75,
+        "doorBedroomDegrees": 0,
+        "doorFrontDegrees": 0,
+        "babyLocation": "Papa lap/arms at table",
+        "adultOffscreen": "Papa and PomPom in common room; Mama preparing breakfast",
+        "duck": "in bathtub",
+        "duckLiving": false,
+        "duckMaterial": "carved honey-yellow wood with visible grain, orange rounded beak, friendly inset dark eyes; no added limbs",
+        "duckLocation": "in bathtub",
+        "papaLocation": "commonroomcaringforbaby"
+      },
+      "selectedMaster": "masters/reused/scene-14/scene-11-v1.png",
+      "reviewStatus": "internally reviewed draft; user review pending"
+    },
+    {
+      "id": "scene-15",
+      "reusedFrom": null,
+      "camera": {
+        "position": [
+          -1.97,
+          1.28,
+          1.1
+        ],
+        "target": [
+          -3.74,
+          2.66,
+          0.55
+        ],
+        "lensMm": 24,
+        "sensorWidthMm": 36,
+        "status": "proposed narrative camera, not measured image or executed render",
+        "frame": "canonical house +X east, +Y north, +Z up; meters",
+        "aspectRatio": "3:2",
+        "mode": "child-pov"
+      },
+      "cast": [
+        "PinPin"
+      ],
+      "blockingAndGaze": "Child POV at same east rim: two paws clearly resting on drywood lowerleft/right, tiny fountain and single gold ring in middlewater, carved wooden duck bobbing beyond, concentric ripples approaching. Water still wellbelowrim, no splashoutsidetub, no reflected secondchild. Sensory enjoyment, pause withoutplotrush.",
+      "state": {
+        "tubFillPercent": 45,
+        "magic": "active water ring",
+        "duckLiving": false,
+        "duckMaterial": "carved honey-yellow wood with visible grain, orange rounded beak, friendly inset dark eyes; no added limbs",
+        "duckLocation": "in bathtub",
+        "babyLocation": "Papa lap/arms at table",
+        "papaLocation": "commonroomcaringforbaby"
+      },
+      "selectedMaster": "masters/scene-15-v1.png",
+      "reviewStatus": "internally reviewed draft; user review pending"
+    },
+    {
+      "id": "scene-16",
+      "reusedFrom": null,
+      "camera": {
+        "position": [
+          -1.97,
+          1.28,
+          1.1
+        ],
+        "target": [
+          -3.74,
+          2.66,
+          0.55
+        ],
+        "lensMm": 24,
+        "sensorWidthMm": 36,
+        "status": "proposed narrative camera, not measured image or executed render",
+        "frame": "canonical house +X east, +Y north, +Z up; meters",
+        "aspectRatio": "3:2",
+        "mode": "shared-look closeup"
+      },
+      "cast": [
+        "PinPin"
+      ],
+      "blockingAndGaze": "Close relaxed pleased PinPin face reflected warm waterlight in eyes, chin above dry bathrim, BOTH paws resting onrim, soft eyes looking nearviewer at duckheight as if sharing delight. Gentle closedmouthsmile, not huge exaggerated grin. Beautiful breathing pause; only PinPin.",
+      "state": {
+        "tubFillPercent": 55,
+        "magic": "active water ring",
+        "duckLiving": false,
+        "duckMaterial": "carved honey-yellow wood with visible grain, orange rounded beak, friendly inset dark eyes; no added limbs",
+        "duckLocation": "in bathtub",
+        "babyLocation": "Papa lap/arms at table",
+        "papaLocation": "commonroomcaringforbaby"
+      },
+      "selectedMaster": "masters/scene-16-v2.png",
+      "reviewStatus": "internally reviewed draft; user review pending"
+    },
+    {
+      "id": "scene-17",
+      "reusedFrom": null,
+      "camera": {
+        "position": [
+          -1.97,
+          1.28,
+          1.1
+        ],
+        "target": [
+          -3.74,
+          2.66,
+          0.55
+        ],
+        "lensMm": 24,
+        "sensorWidthMm": 36,
+        "status": "proposed narrative camera, not measured image or executed render",
+        "frame": "canonical house +X east, +Y north, +Z up; meters",
+        "aspectRatio": "3:2",
+        "mode": "duck-eye-level closeup"
+      },
+      "cast": [
+        "PinPin"
+      ],
+      "blockingAndGaze": "Extreme duck-level closeup one ordinary carved wooden toyduck on tiny rounded swell in bath. Woodgrain honeygold same09design, orange rounded beak CLOSED, inset dark friendlyeyes; toy NOT aliveyet. PinPin softbackground face laughs looking atduck. Ring/fountain softly behind but not spectaculargeyser; water belowrim.",
+      "state": {
+        "tubFillPercent": 65,
+        "magic": "active water ring; duck inert",
+        "duckLiving": false,
+        "duckMaterial": "carved honey-yellow wood with visible grain, orange rounded beak, friendly inset dark eyes; no added limbs",
+        "duckLocation": "in bathtub",
+        "babyLocation": "Papa lap/arms at table",
+        "papaLocation": "commonroomcaringforbaby"
+      },
+      "selectedMaster": "masters/scene-17-v2.png",
+      "reviewStatus": "internally reviewed draft; user review pending"
+    },
+    {
+      "id": "scene-18",
+      "reusedFrom": "scene-12",
+      "camera": {
+        "position": [
+          -2.8,
+          1.55,
+          2.0
+        ],
+        "target": [
+          -3.74,
+          2.66,
+          0.3
+        ],
+        "lensMm": 28,
+        "sensorWidthMm": 36,
+        "status": "proposed blocking; unrendered, not measured image reconstruction",
+        "frame": "canonical house +X east, +Y north, +Z up; meters",
+        "aspectRatio": "3:2"
+      },
+      "cast": [
+        "PinPin"
+      ],
+      "blockingAndGaze": "Higher overhead three-quarter shows tub interior now almost full, duck west of stream; PinPin checks water against rim with flat paw outside.",
+      "state": {
+        "tubFillPercent": 95,
+        "floorWater": "dry",
+        "magic": "active",
+        "doorBathDegrees": 75,
+        "doorBedroomDegrees": 0,
+        "doorFrontDegrees": 0,
+        "babyLocation": "Papa lap/arms at table",
+        "adultOffscreen": "Papa and PomPom in common room; Mama preparing breakfast",
+        "duck": "in bathtub",
+        "duckLiving": false,
+        "duckMaterial": "carved honey-yellow wood with visible grain, orange rounded beak, friendly inset dark eyes; no added limbs",
+        "duckLocation": "in bathtub",
+        "papaLocation": "commonroomcaringforbaby"
+      },
+      "selectedMaster": "masters/reused/scene-18/scene-12-v1.png",
+      "reviewStatus": "internally reviewed draft; user review pending"
+    },
+    {
+      "id": "scene-19",
+      "reusedFrom": "scene-13",
+      "camera": {
+        "position": [
+          -3.5,
+          1.45,
+          0.73
+        ],
+        "target": [
+          -2.75,
+          2.6,
+          0.65
+        ],
+        "lensMm": 55,
+        "sensorWidthMm": 36,
+        "status": "proposed blocking; unrendered, not measured image reconstruction",
+        "frame": "canonical house +X east, +Y north, +Z up; meters",
+        "aspectRatio": "3:2"
+      },
+      "cast": [
+        "PinPin"
+      ],
+      "blockingAndGaze": "Eye-height PinPin addresses stream with open stopping palm; hopeful polite smile becoming uncertainty; paw does not touch ring yet.",
+      "state": {
+        "tubFillPercent": 100,
+        "floorWater": "dry at start",
+        "magic": "active",
+        "doorBathDegrees": 75,
+        "doorBedroomDegrees": 0,
+        "doorFrontDegrees": 0,
+        "babyLocation": "Papa lap/arms at table",
+        "adultOffscreen": "Papa and PomPom in common room; Mama preparing breakfast",
+        "duck": "in bathtub",
+        "duckLiving": false,
+        "duckMaterial": "carved honey-yellow wood with visible grain, orange rounded beak, friendly inset dark eyes; no added limbs",
+        "duckLocation": "in bathtub",
+        "papaLocation": "commonroomcaringforbaby"
+      },
+      "selectedMaster": "masters/reused/scene-19/scene-13-v2.png",
+      "reviewStatus": "internally reviewed draft; user review pending"
+    },
+    {
+      "id": "scene-20",
+      "reusedFrom": "scene-14",
+      "camera": {
+        "position": [
+          -2.35,
+          2.45,
+          0.4
+        ],
+        "target": [
+          -2.84,
+          2.6,
+          0.4
+        ],
+        "lensMm": 65,
+        "sensorWidthMm": 36,
+        "status": "proposed blocking; unrendered, not measured image reconstruction",
+        "frame": "canonical house +X east, +Y north, +Z up; meters",
+        "aspectRatio": "3:2"
+      },
+      "cast": [
+        "PinPin"
+      ],
+      "blockingAndGaze": "Close side view of single east-side overflow running over continuous wooden rim; PinPin reaction visible above. Duck still in tub near south edge.",
+      "state": {
+        "tubFillPercent": 100,
+        "floorWater": "first ribbon wets east mat",
+        "magic": "active",
+        "doorBathDegrees": 75,
+        "doorBedroomDegrees": 0,
+        "doorFrontDegrees": 0,
+        "babyLocation": "Papa lap/arms at table",
+        "adultOffscreen": "Papa and PomPom in common room; Mama preparing breakfast",
+        "duck": "in bathtub",
+        "duckLiving": false,
+        "duckMaterial": "carved honey-yellow wood with visible grain, orange rounded beak, friendly inset dark eyes; no added limbs",
+        "duckLocation": "in bathtub",
+        "papaLocation": "commonroomcaringforbaby"
+      },
+      "selectedMaster": "masters/reused/scene-20/scene-14-v1.png",
+      "reviewStatus": "internally reviewed draft; user review pending"
+    },
+    {
+      "id": "scene-21",
+      "reusedFrom": "scene-15",
+      "camera": {
+        "position": [
+          -2.0,
+          1.7,
+          0.4
+        ],
+        "target": [
+          -2.9,
+          2.3,
+          0.3
+        ],
+        "lensMm": 35,
+        "sensorWidthMm": 36,
+        "status": "proposed blocking; unrendered, not measured image reconstruction",
+        "frame": "canonical house +X east, +Y north, +Z up; meters",
+        "aspectRatio": "3:2"
+      },
+      "cast": [
+        "PinPin"
+      ],
+      "blockingAndGaze": "PinPin crouches outside east rim gripping first pail with both paws beneath single spill; relieved expression, second pail waiting beside him.",
+      "state": {
+        "tubFillPercent": 100,
+        "floorWater": "small east puddle",
+        "magic": "active",
+        "doorBathDegrees": 75,
+        "doorBedroomDegrees": 0,
+        "doorFrontDegrees": 0,
+        "babyLocation": "Papa lap/arms at table",
+        "adultOffscreen": "Papa and PomPom in common room; Mama preparing breakfast",
+        "duck": "in bathtub",
+        "duckLiving": false,
+        "duckMaterial": "carved honey-yellow wood with visible grain, orange rounded beak, friendly inset dark eyes; no added limbs",
+        "duckLocation": "in bathtub",
+        "papaLocation": "commonroomcaringforbaby"
+      },
+      "selectedMaster": "masters/reused/scene-21/scene-15-v1.png",
+      "reviewStatus": "internally reviewed draft; user review pending"
+    },
+    {
+      "id": "scene-22",
+      "reusedFrom": "scene-16",
+      "camera": {
+        "position": [
+          -1.97,
+          1.28,
+          1.1
+        ],
+        "target": [
+          -3.74,
+          2.66,
+          0.55
+        ],
+        "lensMm": 24,
+        "sensorWidthMm": 36,
+        "status": "proposed blocking; unrendered, not measured image reconstruction",
+        "frame": "canonical house +X east, +Y north, +Z up; meters",
+        "aspectRatio": "3:2"
+      },
+      "cast": [
+        "PinPin"
+      ],
+      "blockingAndGaze": "Wide shows east pail placed beneath original stream now half full, new south spill nearest door; PinPin reaching second pail, exactly two forelimbs. Duck carried to south rim.",
+      "state": {
+        "tubFillPercent": 100,
+        "floorWater": "connected shallow bath puddles",
+        "magic": "active",
+        "doorBathDegrees": 75,
+        "doorBedroomDegrees": 0,
+        "doorFrontDegrees": 0,
+        "babyLocation": "Papa lap/arms at table",
+        "adultOffscreen": "Papa and PomPom in common room; Mama preparing breakfast",
+        "duck": "in bathtub",
+        "duckLiving": false,
+        "duckMaterial": "carved honey-yellow wood with visible grain, orange rounded beak, friendly inset dark eyes; no added limbs",
+        "duckLocation": "in bathtub",
+        "papaLocation": "commonroomcaringforbaby"
+      },
+      "selectedMaster": "masters/reused/scene-22/scene-16-v1.png",
+      "reviewStatus": "internally reviewed draft; user review pending"
+    },
+    {
+      "id": "scene-23",
+      "reusedFrom": "scene-17",
+      "camera": {
+        "position": [
+          -2.4,
+          0.25,
+          0.08
+        ],
+        "target": [
+          -2.8,
+          0.8,
+          0.12
+        ],
+        "lensMm": 45,
+        "sensorWidthMm": 36,
+        "status": "proposed blocking; unrendered, not measured image reconstruction",
+        "frame": "canonical house +X east, +Y north, +Z up; meters",
+        "aspectRatio": "3:2"
+      },
+      "cast": [
+        "PinPin"
+      ],
+      "blockingAndGaze": "Ground-level follows wooden duck in thin shallow moving sheet crossing open bath threshold into common room; tub and soft PinPin shape behind through real doorway. No duck duplication in tub.",
+      "state": {
+        "tubFillPercent": 100,
+        "floorWater": "shallow sheet crosses bath threshold",
+        "magic": "active",
+        "doorBathDegrees": 75,
+        "doorBedroomDegrees": 0,
+        "doorFrontDegrees": 0,
+        "babyLocation": "Papa lap/arms at table",
+        "adultOffscreen": "Papa and PomPom in common room; Mama preparing breakfast",
+        "duck": "floating into common room",
+        "duckLiving": false,
+        "duckMaterial": "carved honey-yellow wood with visible grain, orange rounded beak, friendly inset dark eyes; no added limbs",
+        "duckLocation": "shallow common-room stream",
+        "papaLocation": "commonroomcaringforbaby"
+      },
+      "selectedMaster": "masters/reused/scene-23/scene-17-v1.png",
+      "reviewStatus": "internally reviewed draft; user review pending"
+    },
+    {
+      "id": "scene-24",
+      "reusedFrom": "scene-18",
+      "camera": {
+        "position": [
+          -2.3,
+          -0.4,
+          0.1
+        ],
+        "target": [
+          -3,
+          -1.75,
+          0.75
+        ],
+        "lensMm": 28,
+        "sensorWidthMm": 36,
+        "status": "proposed blocking; unrendered, not measured image reconstruction",
+        "frame": "canonical house +X east, +Y north, +Z up; meters",
+        "aspectRatio": "3:2"
+      },
+      "cast": [
+        "Mama",
+        "Papa",
+        "PomPom"
+      ],
+      "blockingAndGaze": "From duck level near west stove Mama has set cooking spoon down and looks from duck toward bath opening; Papa seated with baby at table in background. Stove stays closed, breakfast pot on stable top.",
+      "state": {
+        "tubFillPercent": 100,
+        "floorWater": "thin sheet reaches common west side",
+        "magic": "active",
+        "doorBathDegrees": 75,
+        "doorBedroomDegrees": 0,
+        "doorFrontDegrees": 0,
+        "babyLocation": "Papa lap/arms at table",
+        "adultOffscreen": "Papa remains common-side with PomPom; Mama follows action as specified",
+        "duck": "floating into common room",
+        "duckLiving": false,
+        "duckMaterial": "carved honey-yellow wood with visible grain, orange rounded beak, friendly inset dark eyes; no added limbs",
+        "duckLocation": "shallow common-room stream",
+        "papaLocation": "commonroomcaringforbaby"
+      },
+      "selectedMaster": "masters/reused/scene-24/scene-18-v1.png",
+      "reviewStatus": "internally reviewed draft; user review pending"
+    },
+    {
+      "id": "scene-25",
+      "reusedFrom": null,
+      "camera": {
+        "position": [
+          1.1,
+          -1.8,
+          1.05
+        ],
+        "target": [
+          -1.3,
+          -0.6,
+          0.85
+        ],
+        "lensMm": 28,
+        "sensorWidthMm": 36,
+        "status": "proposed narrative camera, not measured image or executed render",
+        "frame": "canonical house +X east, +Y north, +Z up; meters",
+        "aspectRatio": "3:2",
+        "mode": "baby closeup"
+      },
+      "cast": [
+        "Papa",
+        "PomPom",
+        "Mama"
+      ],
+      "blockingAndGaze": "At baby eyeheight beside table: Papa securelysupports infant PomPom onlap, babyface foreground laughing down toward one wooden duck floating in shallow floorstream below. One open babyforepaw reaches toward duck, freebabybody remains supported, Papa keepssupport. Mama can remainsoftbackground nearstove noticing too. Warm playful discovery, no talkingbeakyet.",
+      "state": {
+        "tubFillPercent": 100,
+        "magic": "active water ring offscreen; duck inert",
+        "duckLiving": false,
+        "duckMaterial": "carved honey-yellow wood with visible grain, orange rounded beak, friendly inset dark eyes; no added limbs",
+        "duckLocation": "shallow common-room stream",
+        "babyLocation": "Papa lap/arms at table",
+        "papaLocation": "commonroomcaringforbaby"
+      },
+      "selectedMaster": "masters/scene-25-v2.png",
+      "reviewStatus": "internally reviewed draft; user review pending"
+    },
+    {
+      "id": "scene-26",
+      "reusedFrom": null,
+      "camera": {
+        "position": [
+          -2.4,
+          0.25,
+          0.08
+        ],
+        "target": [
+          -2.8,
+          0.8,
+          0.12
+        ],
+        "lensMm": 45,
+        "sensorWidthMm": 36,
+        "status": "proposed narrative camera, not measured image or executed render",
+        "frame": "canonical house +X east, +Y north, +Z up; meters",
+        "aspectRatio": "3:2",
+        "mode": "child-eye-level tracking"
+      },
+      "cast": [
+        "Papa",
+        "Mama",
+        "PomPom",
+        "PinPin"
+      ],
+      "blockingAndGaze": "Papa crouches at common-to-bath doorway and retrieves ONE carved toyduck from shallowstream with onepaw underneath its woodenbelly and other steadying it. Mama behind holds PomPom securely across bothforearms aftertakingbaby fromPapa; babylooksduck. PinPin waits easttubedgevisiblethroughdoor. Allfourcast distinct, Papa headingtowardbath, nobody in tubyet. Duck ordinary toybeakclosed.",
+      "state": {
+        "tubFillPercent": 100,
+        "magic": "active water ring; duck inert",
+        "duckLiving": false,
+        "duckMaterial": "carved honey-yellow wood with visible grain, orange rounded beak, friendly inset dark eyes; no added limbs",
+        "duckLocation": "Papa returns duck to bath",
+        "babyLocation": "Mama supported arms outsidebath",
+        "papaLocation": "bathside"
+      },
+      "selectedMaster": "masters/scene-26-v1.png",
+      "reviewStatus": "internally reviewed draft; user review pending"
+    },
+    {
+      "id": "scene-27",
+      "reusedFrom": null,
+      "camera": {
+        "position": [
+          -1.97,
+          1.28,
+          1.1
+        ],
+        "target": [
+          -3.74,
+          2.66,
+          0.55
+        ],
+        "lensMm": 24,
+        "sensorWidthMm": 36,
+        "status": "proposed narrative camera, not measured image or executed render",
+        "frame": "canonical house +X east, +Y north, +Z up; meters",
+        "aspectRatio": "3:2",
+        "mode": "child-eye-level family action"
+      },
+      "cast": [
+        "Papa",
+        "PinPin",
+        "Mama",
+        "PomPom"
+      ],
+      "blockingAndGaze": "Family activelysharespleasureBEFOREcleanup: Papa at west bathrim gentlyplaces wooden duck into water withonepaw, other supportsrim; PinPin at east reaches out toguide smallripples with fingertip. Mama behind/east securelyholds infantPomPom, bothfollowingduck withlaughingeyes. All OUTSIDE broad tub, small fountaincontinues fullwater spills narrowribbons, family optimistic playful notalarmed.",
+      "state": {
+        "tubFillPercent": 100,
+        "magic": "active water ring; duck inert",
+        "duckLiving": false,
+        "duckMaterial": "carved honey-yellow wood with visible grain, orange rounded beak, friendly inset dark eyes; no added limbs",
+        "duckLocation": "in bathtub",
+        "babyLocation": "Mama supported arms outsidebath",
+        "papaLocation": "bathside"
+      },
+      "selectedMaster": "masters/scene-27-v1.png",
+      "reviewStatus": "internally reviewed draft; user review pending"
+    },
+    {
+      "id": "scene-28",
+      "reusedFrom": null,
+      "camera": {
+        "position": [
+          -1.97,
+          1.28,
+          1.1
+        ],
+        "target": [
+          -3.74,
+          2.66,
+          0.55
+        ],
+        "lensMm": 24,
+        "sensorWidthMm": 36,
+        "status": "proposed narrative camera, not measured image or executed render",
+        "frame": "canonical house +X east, +Y north, +Z up; meters",
+        "aspectRatio": "3:2",
+        "mode": "child-eye-level action"
+      },
+      "cast": [
+        "Papa",
+        "PinPin",
+        "Mama",
+        "PomPom"
+      ],
+      "blockingAndGaze": "Wide lowchildheight actualaction: Papa westside broadLOW tub holds west rim securelywithbothforepaws, lifts ONE hindfoot overrim INTO water, otherhindfoot still groundedOUTSIDE. Clear correctfourlimbs, no clothing. PinPin eastside outsidewatches; Mama eastrear holdsbaby close. Woodenduck insideawayfromfoot, flowingmagicring farfromadultentry. Fullwaterbulgesgently fromdisplacement, notbigdangerwave.",
+      "state": {
+        "tubFillPercent": 100,
+        "magic": "active water ring; duck inert",
+        "duckLiving": false,
+        "duckMaterial": "carved honey-yellow wood with visible grain, orange rounded beak, friendly inset dark eyes; no added limbs",
+        "duckLocation": "in bathtub",
+        "babyLocation": "Mama supported arms outsidebath",
+        "papaLocation": "onefootintub oneoutside supportedrim"
+      },
+      "selectedMaster": "masters/scene-28-v1.png",
+      "reviewStatus": "internally reviewed draft; user review pending"
+    },
+    {
+      "id": "scene-29",
+      "reusedFrom": null,
+      "camera": {
+        "position": [
+          -1.97,
+          1.28,
+          1.1
+        ],
+        "target": [
+          -3.74,
+          2.66,
+          0.55
+        ],
+        "lensMm": 24,
+        "sensorWidthMm": 36,
+        "status": "proposed narrative camera, not measured image or executed render",
+        "frame": "canonical house +X east, +Y north, +Z up; meters",
+        "aspectRatio": "3:2",
+        "mode": "rim-level action closeup"
+      },
+      "cast": [
+        "Papa",
+        "PinPin",
+        "Mama",
+        "PomPom"
+      ],
+      "blockingAndGaze": "Close spillheight: onecomicalclear sheet of water sloshesover southtubrim towardempty pail, provoked byPapa's visiblehindfoot INSIDEtub onleft background and his twoforepawsstillrim. Papa balanceswithotherfootoutside, no entrapment. PinPin delightedstartledfaceonright, Mama baby's faces safelyabove. Wooden duck bobs INSIDE water, no suddenlivingbeak. Shallowflooronly.",
+      "state": {
+        "tubFillPercent": 100,
+        "magic": "active water ring; duck inert",
+        "duckLiving": false,
+        "duckMaterial": "carved honey-yellow wood with visible grain, orange rounded beak, friendly inset dark eyes; no added limbs",
+        "duckLocation": "in bathtub",
+        "babyLocation": "Mama supported arms outsidebath",
+        "papaLocation": "onefootintub oneoutside supportedrim"
+      },
+      "selectedMaster": "masters/scene-29-v2.png",
+      "reviewStatus": "internally reviewed draft; user review pending"
+    },
+    {
+      "id": "scene-30",
+      "reusedFrom": null,
+      "camera": {
+        "position": [
+          -1.97,
+          1.28,
+          1.1
+        ],
+        "target": [
+          -3.74,
+          2.66,
+          0.55
+        ],
+        "lensMm": 24,
+        "sensorWidthMm": 36,
+        "status": "proposed narrative camera, not measured image or executed render",
+        "frame": "canonical house +X east, +Y north, +Z up; meters",
+        "aspectRatio": "3:2",
+        "mode": "child-over-shoulder magic closeup"
+      },
+      "cast": [
+        "PinPin"
+      ],
+      "blockingAndGaze": "Child overrightshoulder closeup: PinPin outsideeasttub reaches towardwater but fingertip lightlybrushes WOODEN DUCK head/beak, leaving tinygoldfizz ONTOY, notonbathring. Originalwatercircle/fountain visibleapartstillactive. OnlyPinPinpaw andheadplusduck; Papa/Mamaoffscreen. Mis-targetedgesture, no secondlargecircle ornew fountain; same toybody, onebeakstartsslightlyopening.",
+      "state": {
+        "tubFillPercent": 100,
+        "magic": "water ring active; accidental duck enchantment",
+        "duckLiving": true,
+        "duckMaterial": "carved honey-yellow wood with visible grain, orange rounded beak, friendly inset dark eyes; no added limbs",
+        "duckLocation": "in bathtub",
+        "babyLocation": "Mama supported arms outsidebath",
+        "papaLocation": "atwestbathrim"
+      },
+      "selectedMaster": "masters/scene-30-v1.png",
+      "reviewStatus": "internally reviewed draft; user review pending"
+    },
+    {
+      "id": "scene-31",
+      "reusedFrom": null,
+      "camera": {
+        "position": [
+          -1.97,
+          1.28,
+          1.1
+        ],
+        "target": [
+          -3.74,
+          2.66,
+          0.55
+        ],
+        "lensMm": 24,
+        "sensorWidthMm": 36,
+        "status": "proposed narrative camera, not measured image or executed render",
+        "frame": "canonical house +X east, +Y north, +Z up; meters",
+        "aspectRatio": "3:2",
+        "mode": "child-pov duck closeup"
+      },
+      "cast": [
+        "duck"
+      ],
+      "blockingAndGaze": "FIRST talkingduck reveal: close wooden duck floating in bath at childwaterline, same honeygoldcarvedwoodgrainbody, friendlyinseteyes, its originalorangebeak has a subtlesmall hinge andisOPEN midquack. Tiny residualgold spark fadesnearhead. No added arms/legs/teeth/clothes, no rubberphotorealbird, no human lips. Duck looks directlens at PinPinPOV, wonderfullypleased. No speechbubbleorlettering.",
+      "state": {
+        "tubFillPercent": 100,
+        "magic": "water ring active; duck alive",
+        "duckLiving": true,
+        "duckMaterial": "carved honey-yellow wood with visible grain, orange rounded beak, friendly inset dark eyes; no added limbs",
+        "duckLocation": "in bathtub",
+        "babyLocation": "Mama supported arms outsidebath",
+        "papaLocation": "atwestbathrim"
+      },
+      "selectedMaster": "masters/scene-31-v2.png",
+      "reviewStatus": "internally reviewed draft; user review pending"
+    },
+    {
+      "id": "scene-32",
+      "reusedFrom": null,
+      "camera": {
+        "position": [
+          -1.97,
+          1.28,
+          1.1
+        ],
+        "target": [
+          -3.74,
+          2.66,
+          0.55
+        ],
+        "lensMm": 24,
+        "sensorWidthMm": 36,
+        "status": "proposed narrative camera, not measured image or executed render",
+        "frame": "canonical house +X east, +Y north, +Z up; meters",
+        "aspectRatio": "3:2",
+        "mode": "duck-pov direct reaction"
+      },
+      "cast": [
+        "PinPin"
+      ],
+      "blockingAndGaze": "Direct-to-camera PinPinfacecloseupfromduckPOV, wideeyesmeetlens, littleopenmouthandraisedbrows surprise, twoforepawsfreezeonrimlowerframe. Warmendearing notfearful, no new limb. Waterglints oncreamface, softsamebathbackground. Impliesduck->childreactioncut.",
+      "state": {
+        "tubFillPercent": 100,
+        "magic": "water ring active; duck alive",
+        "duckLiving": true,
+        "duckMaterial": "carved honey-yellow wood with visible grain, orange rounded beak, friendly inset dark eyes; no added limbs",
+        "duckLocation": "in bathtub",
+        "babyLocation": "Mama supported arms outsidebath",
+        "papaLocation": "atwestbathrim"
+      },
+      "selectedMaster": "masters/scene-32-v2.png",
+      "reviewStatus": "internally reviewed draft; user review pending"
+    },
+    {
+      "id": "scene-33",
+      "reusedFrom": null,
+      "camera": {
+        "position": [
+          -1.97,
+          1.28,
+          1.1
+        ],
+        "target": [
+          -3.74,
+          2.66,
+          0.55
+        ],
+        "lensMm": 24,
+        "sensorWidthMm": 36,
+        "status": "proposed narrative camera, not measured image or executed render",
+        "frame": "canonical house +X east, +Y north, +Z up; meters",
+        "aspectRatio": "3:2",
+        "mode": "child-pov adult response"
+      },
+      "cast": [
+        "Mama",
+        "PomPom"
+      ],
+      "blockingAndGaze": "PinPin childPOV looking UP at Mama holdingtinyPomPom: her warm amusedsurprisedface looks DOWN DIRECTLY INTOLENS in response, baby glances towardduckoffleft. Securebabyhead/torso distinct frommother, one forearm underbottom otheracrossback. Mama isn't deliveringlecture, she shareschildwonder.",
+      "state": {
+        "tubFillPercent": 100,
+        "magic": "water ring active; duck alive",
+        "duckLiving": true,
+        "duckMaterial": "carved honey-yellow wood with visible grain, orange rounded beak, friendly inset dark eyes; no added limbs",
+        "duckLocation": "in bathtub",
+        "babyLocation": "Mama supported arms outsidebath",
+        "papaLocation": "atwestbathrim"
+      },
+      "selectedMaster": "masters/scene-33-v2.png",
+      "reviewStatus": "internally reviewed draft; user review pending"
+    },
+    {
+      "id": "scene-34",
+      "reusedFrom": null,
+      "camera": {
+        "position": [
+          -1.97,
+          1.28,
+          1.1
+        ],
+        "target": [
+          -3.74,
+          2.66,
+          0.55
+        ],
+        "lensMm": 24,
+        "sensorWidthMm": 36,
+        "status": "proposed narrative camera, not measured image or executed render",
+        "frame": "canonical house +X east, +Y north, +Z up; meters",
+        "aspectRatio": "3:2",
+        "mode": "duck-eye-level adult greeting"
+      },
+      "cast": [
+        "Papa",
+        "duck"
+      ],
+      "blockingAndGaze": "Intimate reciprocaleyecontact: Papa crouches/bends fromwest rim now bothhindfeetbackONFLOORoutsidebath (endofcomicalstep), maturecreamface atduckeyeheight, onepawsteadyonrim. DuckfloatingfacesPapa withslightlyopenorangebeak; camera alignedbesideduck toseePapa's visiblehazelirises directedatduck justofflens. No child/adultheadswap, no Papa livinginsidebath.",
+      "state": {
+        "tubFillPercent": 100,
+        "magic": "water ring active; duck alive",
+        "duckLiving": true,
+        "duckMaterial": "carved honey-yellow wood with visible grain, orange rounded beak, friendly inset dark eyes; no added limbs",
+        "duckLocation": "in bathtub",
+        "babyLocation": "Mama supported arms outsidebath",
+        "papaLocation": "bothfeetbackoutsidebath"
+      },
+      "selectedMaster": "masters/scene-34-v1.png",
+      "reviewStatus": "internally reviewed draft; user review pending"
+    },
+    {
+      "id": "scene-35",
+      "reusedFrom": null,
+      "camera": {
+        "position": [
+          -1.97,
+          1.28,
+          1.1
+        ],
+        "target": [
+          -3.74,
+          2.66,
+          0.55
+        ],
+        "lensMm": 24,
+        "sensorWidthMm": 36,
+        "status": "proposed narrative camera, not measured image or executed render",
+        "frame": "canonical house +X east, +Y north, +Z up; meters",
+        "aspectRatio": "3:2",
+        "mode": "baby-eye-level two-shot"
+      },
+      "cast": [
+        "Mama",
+        "PomPom",
+        "duck"
+      ],
+      "blockingAndGaze": "Mama securelyholds babyPomPom closetooutsidebathrim, baby andlivingwoodduck exchangeopenmouthquacks across shortdistance. Camera atbabyeyeheight, babylaughing atduck, duckfacesbaby withsubtlehingedbeak. No doublebabies, mother body distinct. Mama smilesatinteraction; one paw underbabybottom, otheracrossback. Waterfullbutnotchesthighfloor.",
+      "state": {
+        "tubFillPercent": 100,
+        "magic": "water ring active; duck alive",
+        "duckLiving": true,
+        "duckMaterial": "carved honey-yellow wood with visible grain, orange rounded beak, friendly inset dark eyes; no added limbs",
+        "duckLocation": "in bathtub",
+        "babyLocation": "Mama supported arms outsidebath",
+        "papaLocation": "bothfeetbackoutsidebath"
+      },
+      "selectedMaster": "masters/scene-35-v2.png",
+      "reviewStatus": "internally reviewed draft; user review pending"
+    },
+    {
+      "id": "scene-36",
+      "reusedFrom": null,
+      "camera": {
+        "position": [
+          -2.4,
+          0.25,
+          0.08
+        ],
+        "target": [
+          -2.8,
+          0.8,
+          0.12
+        ],
+        "lensMm": 45,
+        "sensorWidthMm": 36,
+        "status": "proposed narrative camera, not measured image or executed render",
+        "frame": "canonical house +X east, +Y north, +Z up; meters",
+        "aspectRatio": "3:2",
+        "mode": "floor-level tracking closeup"
+      },
+      "cast": [
+        "duck",
+        "Papa",
+        "PinPin",
+        "Mama",
+        "PomPom"
+      ],
+      "blockingAndGaze": "Lowfloor camera captures ONE livingwoodduck surfing smallshallowstream awayfrombath towardcommon doorway, openbeak exuberant directednearreader. Tub andtinyoverflow behind, notduckfalling fromheightinjured. Wateronlyshallowpaws, pailstaysnearshore. Duckhasnoarmsorlegs. This secondescape followsPapa'sreturn; clear samewoodgrain.",
+      "state": {
+        "tubFillPercent": 100,
+        "magic": "water ring active; duck alive",
+        "duckLiving": true,
+        "duckMaterial": "carved honey-yellow wood with visible grain, orange rounded beak, friendly inset dark eyes; no added limbs",
+        "duckLocation": "shallow floor stream/puddles",
+        "babyLocation": "Mama supported arms outsidebath",
+        "papaLocation": "bothfeetbackoutsidebath"
+      },
+      "selectedMaster": "masters/scene-36-v2.png",
+      "reviewStatus": "internally reviewed draft; user review pending"
+    },
+    {
+      "id": "scene-37",
+      "reusedFrom": null,
+      "camera": {
+        "position": [
+          1.1,
+          -1.8,
+          1.05
+        ],
+        "target": [
+          -1.3,
+          -0.6,
+          0.85
+        ],
+        "lensMm": 28,
+        "sensorWidthMm": 36,
+        "status": "proposed narrative camera, not measured image or executed render",
+        "frame": "canonical house +X east, +Y north, +Z up; meters",
+        "aspectRatio": "3:2",
+        "mode": "child-eye-level family action"
+      },
+      "cast": [
+        "Mama",
+        "PomPom",
+        "Papa"
+      ],
+      "blockingAndGaze": "Commonroom action: Mama placesinfantsecurelyinpreviouslyestablished high-sided stablewoodchair at easttable, arms clearlysupportuntilseated. Papa besidebathdoorbothfeetoutsidefloor lifts one wetfootshortdistanceandshakesfewdropsintoexistingpuddle. PinPinoffscreenbath. One wooden duck insmallfloorstreamawayfromchair optionalbackground; baby above shallowwater, familynowmakingroomtohelp.",
+      "state": {
+        "tubFillPercent": 100,
+        "magic": "water ring active; duck alive",
+        "duckLiving": true,
+        "duckMaterial": "carved honey-yellow wood with visible grain, orange rounded beak, friendly inset dark eyes; no added limbs",
+        "duckLocation": "shallow floor stream/puddles",
+        "babyLocation": "Mama places into high-sidedchair",
+        "papaLocation": "commonroomhelping"
+      },
+      "selectedMaster": "masters/scene-37-v1.png",
+      "reviewStatus": "internally reviewed draft; user review pending"
+    },
+    {
+      "id": "scene-38",
+      "reusedFrom": "scene-21",
+      "camera": {
+        "position": [
+          1.55,
+          -1.7,
+          0.9
+        ],
+        "target": [
+          2.55,
+          -1.1,
+          0.65
+        ],
+        "lensMm": 40,
+        "sensorWidthMm": 36,
+        "status": "proposed blocking; unrendered, not measured image reconstruction",
+        "frame": "canonical house +X east, +Y north, +Z up; meters",
+        "aspectRatio": "3:2"
+      },
+      "cast": [
+        "Mama",
+        "Papa",
+        "PomPom"
+      ],
+      "blockingAndGaze": "Mama lifts single dry towel basket to east counter with two paws; baby visible safely in infant chair behind her, Papa reaches for common rug from west.",
+      "state": {
+        "tubFillPercent": 100,
+        "floorWater": "shallow common puddle below ankle",
+        "magic": "active",
+        "doorBathDegrees": 75,
+        "doorBedroomDegrees": 0,
+        "doorFrontDegrees": 0,
+        "babyLocation": "stable high-sidedchair incommon",
+        "adultOffscreen": "Papa remains common-side with PomPom; Mama follows action as specified",
+        "duck": "common-room shallow puddle, offscreen if absent",
+        "duckLiving": true,
+        "duckMaterial": "carved honey-yellow wood with visible grain, orange rounded beak, friendly inset dark eyes; no added limbs",
+        "duckLocation": "shallow floor stream/puddles",
+        "papaLocation": "commonroomhelping"
+      },
+      "selectedMaster": "masters/reused/scene-38/scene-21-v1.png",
+      "reviewStatus": "internally reviewed draft; user review pending"
+    },
+    {
+      "id": "scene-39",
+      "reusedFrom": "scene-22",
+      "camera": {
+        "position": [
+          1,
+          -2,
+          0.5
+        ],
+        "target": [
+          -0.4,
+          -0.9,
+          0.4
+        ],
+        "lensMm": 35,
+        "sensorWidthMm": 36,
+        "status": "proposed blocking; unrendered, not measured image reconstruction",
+        "frame": "canonical house +X east, +Y north, +Z up; meters",
+        "aspectRatio": "3:2"
+      },
+      "cast": [
+        "Papa",
+        "Mama",
+        "PomPom"
+      ],
+      "blockingAndGaze": "Papa rolls/lifts loose COMMON-room oval rug away from table legs, wet far corner makes small splash; do not pull fixed bath mat from underneath tub. Baby in east chair in sight, Mama moves books.",
+      "state": {
+        "tubFillPercent": 100,
+        "floorWater": "small splash in shallow puddle",
+        "magic": "active",
+        "doorBathDegrees": 75,
+        "doorBedroomDegrees": 0,
+        "doorFrontDegrees": 0,
+        "babyLocation": "stable high-sidedchair incommon",
+        "adultOffscreen": "Papa remains common-side with PomPom; Mama follows action as specified",
+        "duck": "common-room shallow puddle, offscreen if absent",
+        "duckLiving": true,
+        "duckMaterial": "carved honey-yellow wood with visible grain, orange rounded beak, friendly inset dark eyes; no added limbs",
+        "duckLocation": "shallow floor stream/puddles",
+        "papaLocation": "commonroomhelping"
+      },
+      "selectedMaster": "masters/reused/scene-39/scene-22-v1.png",
+      "reviewStatus": "internally reviewed draft; user review pending"
+    },
+    {
+      "id": "scene-40",
+      "reusedFrom": "scene-23",
+      "camera": {
+        "position": [
+          -2.3,
+          1.5,
+          1.8
+        ],
+        "target": [
+          -3.7,
+          2.5,
+          0.35
+        ],
+        "lensMm": 28,
+        "sensorWidthMm": 36,
+        "status": "proposed blocking; unrendered, not measured image reconstruction",
+        "frame": "canonical house +X east, +Y north, +Z up; meters",
+        "aspectRatio": "3:2"
+      },
+      "cast": [
+        "PinPin"
+      ],
+      "blockingAndGaze": "Slight overhead bath action: two pails on floor catching east and south spills, third narrow spill starts southwest; PinPin crouched between pails looking at new problem, no extra paws.",
+      "state": {
+        "tubFillPercent": 100,
+        "floorWater": "maximum shallow floor water, at most paws covered",
+        "magic": "active",
+        "doorBathDegrees": 75,
+        "doorBedroomDegrees": 0,
+        "doorFrontDegrees": 0,
+        "babyLocation": "stable high-sidedchair incommon",
+        "adultOffscreen": "Papa remains common-side with PomPom; Mama follows action as specified",
+        "duck": "common-room shallow puddle, offscreen if absent",
+        "duckLiving": true,
+        "duckMaterial": "carved honey-yellow wood with visible grain, orange rounded beak, friendly inset dark eyes; no added limbs",
+        "duckLocation": "shallow floor stream/puddles",
+        "papaLocation": "commonroomhelping"
+      },
+      "selectedMaster": "masters/reused/scene-40/scene-23-v1.png",
+      "reviewStatus": "internally reviewed draft; user review pending"
+    },
+    {
+      "id": "scene-41",
+      "reusedFrom": "scene-24",
+      "camera": {
+        "position": [
+          -1.97,
+          1.28,
+          1.1
+        ],
+        "target": [
+          -3.74,
+          2.66,
+          0.55
+        ],
+        "lensMm": 24,
+        "sensorWidthMm": 36,
+        "status": "proposed blocking; unrendered, not measured image reconstruction",
+        "frame": "canonical house +X east, +Y north, +Z up; meters",
+        "aspectRatio": "3:2"
+      },
+      "cast": [
+        "Mama",
+        "PinPin"
+      ],
+      "blockingAndGaze": "Mama kneels beside PinPin on east side of tub, open reassuring paw by his shoulder; both look at gold circle, no adult demonstrating solution. Papa/baby off-camera common room.",
+      "state": {
+        "tubFillPercent": 100,
+        "floorWater": "maximum shallow, flow continues",
+        "magic": "active",
+        "doorBathDegrees": 75,
+        "doorBedroomDegrees": 0,
+        "doorFrontDegrees": 0,
+        "babyLocation": "stable high-sidedchair incommon",
+        "adultOffscreen": "Papa remains common-side with PomPom; Mama follows action as specified",
+        "duck": "common-room shallow puddle, offscreen if absent",
+        "duckLiving": true,
+        "duckMaterial": "carved honey-yellow wood with visible grain, orange rounded beak, friendly inset dark eyes; no added limbs",
+        "duckLocation": "shallow floor stream/puddles",
+        "papaLocation": "commonroomhelping"
+      },
+      "selectedMaster": "masters/reused/scene-41/scene-24-v1.png",
+      "reviewStatus": "internally reviewed draft; user review pending"
+    },
+    {
+      "id": "scene-42",
+      "reusedFrom": "scene-25",
+      "camera": {
+        "position": [
+          -3.9,
+          3.75,
+          1.0
+        ],
+        "target": [
+          -2.8,
+          2.3,
+          0.75
+        ],
+        "lensMm": 40,
+        "sensorWidthMm": 36,
+        "status": "proposed blocking; unrendered, not measured image reconstruction",
+        "frame": "canonical house +X east, +Y north, +Z up; meters",
+        "aspectRatio": "3:2"
+      },
+      "cast": [
+        "Mama",
+        "PinPin"
+      ],
+      "blockingAndGaze": "Two-shot from north across tub sees child point at ring, Mama tracks exact pointing target; not direct reader gaze. Matching ring position unchanged from creation.",
+      "state": {
+        "tubFillPercent": 100,
+        "floorWater": "maximum shallow, flow continues",
+        "magic": "active",
+        "doorBathDegrees": 75,
+        "doorBedroomDegrees": 0,
+        "doorFrontDegrees": 0,
+        "babyLocation": "stable high-sidedchair incommon",
+        "adultOffscreen": "Papa remains common-side with PomPom; Mama follows action as specified",
+        "duck": "common-room shallow puddle, offscreen if absent",
+        "duckLiving": true,
+        "duckMaterial": "carved honey-yellow wood with visible grain, orange rounded beak, friendly inset dark eyes; no added limbs",
+        "duckLocation": "shallow floor stream/puddles",
+        "papaLocation": "commonroomhelping"
+      },
+      "selectedMaster": "masters/reused/scene-42/scene-25-v2.png",
+      "reviewStatus": "internally reviewed draft; user review pending"
+    },
+    {
+      "id": "scene-43",
+      "reusedFrom": "scene-26",
+      "camera": {
+        "position": [
+          -2.4,
+          2.15,
+          1.35
+        ],
+        "target": [
+          -3.1,
+          2.65,
+          0.42
+        ],
+        "lensMm": 45,
+        "sensorWidthMm": 36,
+        "status": "proposed blocking; unrendered, not measured image reconstruction",
+        "frame": "canonical house +X east, +Y north, +Z up; meters",
+        "aspectRatio": "3:2"
+      },
+      "cast": [
+        "Mama",
+        "PinPin"
+      ],
+      "blockingAndGaze": "Close same right-shoulder setup as scene09: child rehearses CLOCKWISE with raised paw above ring without touching, faint gesture arc no second new spell; Mama still watching behind shoulder.",
+      "state": {
+        "tubFillPercent": 100,
+        "floorWater": "maximum shallow",
+        "magic": "active; rehearsal does not add stream",
+        "doorBathDegrees": 75,
+        "doorBedroomDegrees": 0,
+        "doorFrontDegrees": 0,
+        "babyLocation": "stable high-sidedchair incommon",
+        "adultOffscreen": "Papa remains common-side with PomPom; Mama follows action as specified",
+        "duck": "common-room shallow puddle, offscreen if absent",
+        "duckLiving": true,
+        "duckMaterial": "carved honey-yellow wood with visible grain, orange rounded beak, friendly inset dark eyes; no added limbs",
+        "duckLocation": "shallow floor stream/puddles",
+        "papaLocation": "commonroomhelping"
+      },
+      "selectedMaster": "masters/reused/scene-43/scene-26-v2.png",
+      "reviewStatus": "internally reviewed draft; user review pending"
+    },
+    {
+      "id": "scene-44",
+      "reusedFrom": "scene-27",
+      "camera": {
+        "position": [
+          -3.5,
+          1.45,
+          0.85
+        ],
+        "target": [
+          -2.75,
+          2.6,
+          0.7
+        ],
+        "lensMm": 65,
+        "sensorWidthMm": 36,
+        "status": "proposed blocking; unrendered, not measured image reconstruction",
+        "frame": "canonical house +X east, +Y north, +Z up; meters",
+        "aspectRatio": "3:2"
+      },
+      "cast": [
+        "Mama",
+        "PinPin"
+      ],
+      "blockingAndGaze": "Tight child face and raised paw, eyes shift from paw to circle in lower frame; Mama softly visible waiting, not whispering instruction.",
+      "state": {
+        "tubFillPercent": 100,
+        "floorWater": "maximum shallow",
+        "magic": "active",
+        "doorBathDegrees": 75,
+        "doorBedroomDegrees": 0,
+        "doorFrontDegrees": 0,
+        "babyLocation": "stable high-sidedchair incommon",
+        "adultOffscreen": "Papa remains common-side with PomPom; Mama follows action as specified",
+        "duck": "common-room shallow puddle, offscreen if absent",
+        "duckLiving": true,
+        "duckMaterial": "carved honey-yellow wood with visible grain, orange rounded beak, friendly inset dark eyes; no added limbs",
+        "duckLocation": "shallow floor stream/puddles",
+        "papaLocation": "commonroomhelping"
+      },
+      "selectedMaster": "masters/reused/scene-44/scene-27-v1.png",
+      "reviewStatus": "internally reviewed draft; user review pending"
+    },
+    {
+      "id": "scene-45",
+      "reusedFrom": "scene-28",
+      "camera": {
+        "position": [
+          -2.4,
+          2.15,
+          1.35
+        ],
+        "target": [
+          -3.1,
+          2.65,
+          0.42
+        ],
+        "lensMm": 45,
+        "sensorWidthMm": 36,
+        "status": "proposed blocking; unrendered, not measured image reconstruction",
+        "frame": "canonical house +X east, +Y north, +Z up; meters",
+        "aspectRatio": "3:2"
+      },
+      "cast": [
+        "Mama",
+        "PinPin"
+      ],
+      "blockingAndGaze": "Exactly same right-shoulder camera and tub landmarks as09/26: fingertip traces COUNTERCLOCKWISE through existing ring, erasing it behind paw; remaining arc and leading contact point explain reversal without arrows/text.",
+      "state": {
+        "tubFillPercent": 100,
+        "floorWater": "maximum shallow",
+        "magic": "counterclockwise erasing existing ring",
+        "doorBathDegrees": 75,
+        "doorBedroomDegrees": 0,
+        "doorFrontDegrees": 0,
+        "babyLocation": "stable high-sidedchair incommon",
+        "adultOffscreen": "Papa remains common-side with PomPom; Mama follows action as specified",
+        "duck": "common-room shallow puddle, offscreen if absent",
+        "duckLiving": true,
+        "duckMaterial": "carved honey-yellow wood with visible grain, orange rounded beak, friendly inset dark eyes; no added limbs",
+        "duckLocation": "shallow floor stream/puddles",
+        "papaLocation": "commonroomhelping"
+      },
+      "selectedMaster": "masters/reused/scene-45/scene-28-v1.png",
+      "reviewStatus": "internally reviewed draft; user review pending"
+    },
+    {
+      "id": "scene-46",
+      "reusedFrom": "scene-29",
+      "camera": {
+        "position": [
+          -3.1,
+          1.75,
+          0.63
+        ],
+        "target": [
+          -3.35,
+          2.65,
+          0.63
+        ],
+        "lensMm": 50,
+        "sensorWidthMm": 36,
+        "status": "proposed blocking; unrendered, not measured image reconstruction",
+        "frame": "canonical house +X east, +Y north, +Z up; meters",
+        "aspectRatio": "3:2"
+      },
+      "cast": [
+        "Mama",
+        "PinPin"
+      ],
+      "blockingAndGaze": "Match scene10 stream angle now narrowing, three-quarter erased ring; PinPin hand follows last part of circle, Mama watches small stream. No new source.",
+      "state": {
+        "tubFillPercent": 100,
+        "floorWater": "existing spills slow, floor remains wet",
+        "magic": "fading",
+        "doorBathDegrees": 75,
+        "doorBedroomDegrees": 0,
+        "doorFrontDegrees": 0,
+        "babyLocation": "stable high-sidedchair incommon",
+        "adultOffscreen": "Papa remains common-side with PomPom; Mama follows action as specified",
+        "duck": "common-room shallow puddle, offscreen if absent",
+        "duckLiving": true,
+        "duckMaterial": "carved honey-yellow wood with visible grain, orange rounded beak, friendly inset dark eyes; no added limbs",
+        "duckLocation": "shallow floor stream/puddles",
+        "papaLocation": "commonroomhelping"
+      },
+      "selectedMaster": "masters/reused/scene-46/scene-29-v2.png",
+      "reviewStatus": "internally reviewed draft; user review pending"
+    },
+    {
+      "id": "scene-47",
+      "reusedFrom": "scene-30",
+      "camera": {
+        "position": [
+          -3.1,
+          1.75,
+          0.63
+        ],
+        "target": [
+          -3.35,
+          2.65,
+          0.63
+        ],
+        "lensMm": 50,
+        "sensorWidthMm": 36,
+        "status": "proposed blocking; unrendered, not measured image reconstruction",
+        "frame": "canonical house +X east, +Y north, +Z up; meters",
+        "aspectRatio": "3:2"
+      },
+      "cast": [
+        "Mama",
+        "PinPin"
+      ],
+      "blockingAndGaze": "Single final drop above calm brim-full tub, ring completely gone; child and Mama relieved eye contact across frame, both still outside water. Overflow dwindles from residual slosh, no dry-floor jump.",
+      "state": {
+        "tubFillPercent": 100,
+        "floorWater": "wet floor remains unchanged",
+        "magic": "off",
+        "doorBathDegrees": 75,
+        "doorBedroomDegrees": 0,
+        "doorFrontDegrees": 0,
+        "babyLocation": "stable high-sidedchair incommon",
+        "adultOffscreen": "Papa remains common-side with PomPom; Mama follows action as specified",
+        "duck": "common-room shallow puddle, offscreen if absent",
+        "duckLiving": true,
+        "duckMaterial": "carved honey-yellow wood with visible grain, orange rounded beak, friendly inset dark eyes; no added limbs",
+        "duckLocation": "shallow floor stream/puddles",
+        "papaLocation": "commonroomhelping"
+      },
+      "selectedMaster": "masters/reused/scene-47/scene-30-v2.png",
+      "reviewStatus": "internally reviewed draft; user review pending"
+    },
+    {
+      "id": "scene-48",
+      "reusedFrom": null,
+      "camera": {
+        "position": [
+          -2.4,
+          0.25,
+          0.08
+        ],
+        "target": [
+          -2.8,
+          0.8,
+          0.12
+        ],
+        "lensMm": 45,
+        "sensorWidthMm": 36,
+        "status": "proposed narrative camera, not measured image or executed render",
+        "frame": "canonical house +X east, +Y north, +Z up; meters",
+        "aspectRatio": "3:2",
+        "mode": "child-pov duck closeup"
+      },
+      "cast": [
+        "duck"
+      ],
+      "blockingAndGaze": "Afterwaterstop, closewoodduck floatinginSHALLOW floorpuddle bybathdoor, originalbeakopen curiousquestion, eyeslookdirectlens(childPOVlookingdown). Softbackgroundtubcalmno goldringorstream, residualwetfloorvisible; duckremainsenchantedbutnotwands/spells. No dramaticdryfloor; mildconfusioncomedy.",
+      "state": {
+        "tubFillPercent": 100,
+        "magic": "water off; duck alive",
+        "duckLiving": true,
+        "duckMaterial": "carved honey-yellow wood with visible grain, orange rounded beak, friendly inset dark eyes; no added limbs",
+        "duckLocation": "shallow floor stream/puddles",
+        "babyLocation": "stable high-sidedchair incommon",
+        "papaLocation": "commonroomhelping"
+      },
+      "selectedMaster": "masters/scene-48-v1.png",
+      "reviewStatus": "internally reviewed draft; user review pending"
+    },
+    {
+      "id": "scene-49",
+      "reusedFrom": "scene-31",
+      "camera": {
+        "position": [
+          1.5,
+          -2.25,
+          0.85
+        ],
+        "target": [
+          -1.2,
+          0,
+          0.7
+        ],
+        "lensMm": 24,
+        "sensorWidthMm": 36,
+        "status": "proposed blocking; unrendered, not measured image reconstruction",
+        "frame": "canonical house +X east, +Y north, +Z up; meters",
+        "aspectRatio": "3:2"
+      },
+      "cast": [
+        "PinPin",
+        "Mama",
+        "Papa",
+        "PomPom"
+      ],
+      "blockingAndGaze": "Common room wider comedic pause: Papa holds rolled rug away from chair, last collected pocket of water drops into existing puddle; Mama and PinPin visible bath doorway smiling, baby in stable chair laughing. No magic returning.",
+      "state": {
+        "tubFillPercent": 100,
+        "floorWater": "one residual rug splash, no new water",
+        "magic": "off",
+        "doorBathDegrees": 75,
+        "doorBedroomDegrees": 0,
+        "doorFrontDegrees": 0,
+        "babyLocation": "stable high-sidedchair incommon",
+        "adultOffscreen": "Papa remains common-side with PomPom; Mama follows action as specified",
+        "duck": "common-room shallow puddle, offscreen if absent",
+        "duckLiving": true,
+        "duckMaterial": "carved honey-yellow wood with visible grain, orange rounded beak, friendly inset dark eyes; no added limbs",
+        "duckLocation": "floorpuddle offcamera; talking ability persists",
+        "papaLocation": "commonroomhelping"
+      },
+      "selectedMaster": "masters/reused/scene-49/scene-31-v1.png",
+      "reviewStatus": "internally reviewed draft; user review pending"
+    },
+    {
+      "id": "scene-50",
+      "reusedFrom": "scene-32",
+      "camera": {
+        "position": [
+          -1.97,
+          1.28,
+          1.1
+        ],
+        "target": [
+          -3.74,
+          2.66,
+          0.55
+        ],
+        "lensMm": 24,
+        "sensorWidthMm": 36,
+        "status": "proposed blocking; unrendered, not measured image reconstruction",
+        "frame": "canonical house +X east, +Y north, +Z up; meters",
+        "aspectRatio": "3:2"
+      },
+      "cast": [
+        "Mama",
+        "PinPin"
+      ],
+      "blockingAndGaze": "Mama scoops excess clean TUB water into spare basin until bath half-full while PinPin scoops shallow floor puddle into one original pail; Papa carries other pail toward open front door to empty outside; water routes distinct and no floor water returned to bath.",
+      "state": {
+        "tubFillPercent": 55,
+        "floorWater": "puddles visibly receding through cleanup",
+        "magic": "off",
+        "doorBathDegrees": 75,
+        "doorBedroomDegrees": 0,
+        "doorFrontDegrees": 75,
+        "babyLocation": "stable high-sidedchair incommon",
+        "adultOffscreen": "Papa remains common-side with PomPom; Mama follows action as specified",
+        "duck": "retrieved during cleanup",
+        "duckLiving": true,
+        "duckMaterial": "carved honey-yellow wood with visible grain, orange rounded beak, friendly inset dark eyes; no added limbs",
+        "duckLocation": "shallow floor stream/puddles",
+        "papaLocation": "commonroomhelping"
+      },
+      "selectedMaster": "masters/reused/scene-50/scene-32-v2.png",
+      "reviewStatus": "internally reviewed draft; user review pending"
+    },
+    {
+      "id": "scene-51",
+      "reusedFrom": null,
+      "camera": {
+        "position": [
+          1.1,
+          -1.8,
+          1.05
+        ],
+        "target": [
+          -1.3,
+          -0.6,
+          0.85
+        ],
+        "lensMm": 28,
+        "sensorWidthMm": 36,
+        "status": "proposed narrative camera, not measured image or executed render",
+        "frame": "canonical house +X east, +Y north, +Z up; meters",
+        "aspectRatio": "3:2",
+        "mode": "floor-level comic closeup"
+      },
+      "cast": [
+        "duck",
+        "PinPin"
+      ],
+      "blockingAndGaze": "Low close livingcarvedduck in smalllastisolatedcleanlookingpuddle barelylargerthanwoodbody; openbeakproud, littlewingcarvingNOTarms. PinPin's clothapproaches fromedge pushedbyonepaw, withchildface softbackground amusement. Cleanup clearlyongoing, otherfloorareasdampnotflooded; fountainoff. No extra duck.",
+      "state": {
+        "tubFillPercent": 55,
+        "magic": "water off; duck alive",
+        "duckLiving": true,
+        "duckMaterial": "carved honey-yellow wood with visible grain, orange rounded beak, friendly inset dark eyes; no added limbs",
+        "duckLocation": "shallow floor stream/puddles",
+        "babyLocation": "stable high-sidedchair incommon",
+        "papaLocation": "commonroomhelping"
+      },
+      "selectedMaster": "masters/scene-51-v1.png",
+      "reviewStatus": "internally reviewed draft; user review pending"
+    },
+    {
+      "id": "scene-52",
+      "reusedFrom": "scene-33",
+      "camera": {
+        "position": [
+          -1.25,
+          -0.15,
+          0.65
+        ],
+        "target": [
+          -2.8,
+          1.1,
+          0.55
+        ],
+        "lensMm": 28,
+        "sensorWidthMm": 36,
+        "status": "proposed blocking; unrendered, not measured image reconstruction",
+        "frame": "canonical house +X east, +Y north, +Z up; meters",
+        "aspectRatio": "3:2"
+      },
+      "cast": [
+        "PinPin",
+        "Mama",
+        "Papa",
+        "PomPom"
+      ],
+      "blockingAndGaze": "PinPin pushes cloth over bath threshold toward common room; Mama wrings cloth into pail, Papa hangs wet rug on exterior rail visible open front door, PomPom still east chair near Mama. Flood gone by actual work, not magic.",
+      "state": {
+        "tubFillPercent": 55,
+        "floorWater": "damp patches only, no standing flood",
+        "magic": "off",
+        "doorBathDegrees": 75,
+        "doorBedroomDegrees": 0,
+        "doorFrontDegrees": 75,
+        "babyLocation": "stable high-sidedchair incommon",
+        "adultOffscreen": "Papa remains common-side with PomPom; Mama follows action as specified",
+        "duck": "retrieved during cleanup",
+        "duckLiving": true,
+        "duckMaterial": "carved honey-yellow wood with visible grain, orange rounded beak, friendly inset dark eyes; no added limbs",
+        "duckLocation": "shallow floor stream/puddles",
+        "papaLocation": "commonroomhelping"
+      },
+      "selectedMaster": "masters/reused/scene-52/scene-33-v1.png",
+      "reviewStatus": "internally reviewed draft; user review pending"
+    },
+    {
+      "id": "scene-53",
+      "reusedFrom": "scene-34",
+      "camera": {
+        "position": [
+          -1.97,
+          1.28,
+          1.1
+        ],
+        "target": [
+          -3.74,
+          2.66,
+          0.55
+        ],
+        "lensMm": 24,
+        "sensorWidthMm": 36,
+        "status": "proposed blocking; unrendered, not measured image reconstruction",
+        "frame": "canonical house +X east, +Y north, +Z up; meters",
+        "aspectRatio": "3:2"
+      },
+      "cast": [
+        "PinPin",
+        "Mama",
+        "Papa",
+        "PomPom"
+      ],
+      "blockingAndGaze": "Mama kneels outside same tub supervising PinPin seated in reduced shallow water; Papa holds dry PomPom in towel near doorway, awaiting his turn. Recovered duck in bath beside PinPin. Bath after clean-up, no ring, no overflow.",
+      "state": {
+        "tubFillPercent": 45,
+        "floorWater": "floor dry, tiny contained splash",
+        "magic": "off",
+        "doorBathDegrees": 75,
+        "doorBedroomDegrees": 0,
+        "doorFrontDegrees": 75,
+        "babyLocation": "Papa arms, own towel",
+        "adultOffscreen": "Papa remains common-side with PomPom; Mama follows action as specified",
+        "duck": "in bath",
+        "duckLiving": true,
+        "duckMaterial": "carved honey-yellow wood with visible grain, orange rounded beak, friendly inset dark eyes; no added limbs",
+        "duckLocation": "in supervised bath",
+        "papaLocation": "bathroomcaringforPomPom"
+      },
+      "selectedMaster": "masters/reused/scene-53/scene-34-v3.png",
+      "reviewStatus": "internally reviewed draft; user review pending"
+    },
+    {
+      "id": "scene-54",
+      "reusedFrom": null,
+      "camera": {
+        "position": [
+          -1.97,
+          1.28,
+          1.1
+        ],
+        "target": [
+          -3.74,
+          2.66,
+          0.55
+        ],
+        "lensMm": 24,
+        "sensorWidthMm": 36,
+        "status": "proposed narrative camera, not measured image or executed render",
+        "frame": "canonical house +X east, +Y north, +Z up; meters",
+        "aspectRatio": "3:2",
+        "mode": "child-eye-level family care"
+      },
+      "cast": [
+        "Mama",
+        "PinPin",
+        "Papa",
+        "PomPom",
+        "duck"
+      ],
+      "blockingAndGaze": "Warm allfamilypostbath actualcare: Mama kneels wrappingolderPinPinincreamstripedtowel outsidebath, Papa supportsinfantPomPominseparatesmaller matchingtowel. ONE livingwoodduck onlowwoodbench in foreground nestedinits OWNtinyfoldedcloth, beakpeeksoutasking; itwasgivencloth in same picturedmoment. Cleartwoadults/twochildheights, fourseparatebodies, no extrababy or mergedforearms. Shallowcalmbathbehind, floor dry, morning.",
+      "state": {
+        "tubFillPercent": 45,
+        "magic": "water off; duck alive",
+        "duckLiving": true,
+        "duckMaterial": "carved honey-yellow wood with visible grain, orange rounded beak, friendly inset dark eyes; no added limbs",
+        "duckLocation": "own little towel on bench",
+        "babyLocation": "Papa arms, own towel",
+        "papaLocation": "bathroomcaringforPomPom"
+      },
+      "selectedMaster": "masters/scene-54-v1.png",
+      "reviewStatus": "internally reviewed draft; user review pending"
+    },
+    {
+      "id": "scene-55",
+      "reusedFrom": null,
+      "camera": {
+        "position": [
+          -1.97,
+          1.28,
+          1.1
+        ],
+        "target": [
+          -3.74,
+          2.66,
+          0.55
+        ],
+        "lensMm": 24,
+        "sensorWidthMm": 36,
+        "status": "proposed narrative camera, not measured image or executed render",
+        "frame": "canonical house +X east, +Y north, +Z up; meters",
+        "aspectRatio": "3:2",
+        "mode": "direct-to-camera duck closeup"
+      },
+      "cast": [
+        "duck"
+      ],
+      "blockingAndGaze": "Tight intimate toyduck eyelevelcloseup: tinycreamstriped clothwrapped aroundsamecarvedwoodduck body restingonlowbench, honeygoldwoodface andONEorangehingedbeak peekingout, beakslightlyopen, one droplet atbeaktip. Duckeyesmeetlenswithfunnyseriouslook. Warm foldedtoweltexture and softwoodbackground, no armslegs, no human mouth. Clearstillwoodentoy, notlivingfeatheredduck.",
+      "state": {
+        "tubFillPercent": 45,
+        "magic": "water off; duck alive",
+        "duckLiving": true,
+        "duckMaterial": "carved honey-yellow wood with visible grain, orange rounded beak, friendly inset dark eyes; no added limbs",
+        "duckLocation": "own little towel on bench",
+        "babyLocation": "Papa supportedarms offscreen",
+        "papaLocation": "bathroomcaringforPomPom"
+      },
+      "selectedMaster": "masters/scene-55-v1.png",
+      "reviewStatus": "internally reviewed draft; user review pending"
+    },
+    {
+      "id": "scene-56",
+      "reusedFrom": null,
+      "camera": {
+        "position": [
+          1.1,
+          -1.8,
+          1.05
+        ],
+        "target": [
+          -1.3,
+          -0.6,
+          0.85
+        ],
+        "lensMm": 28,
+        "sensorWidthMm": 36,
+        "status": "proposed narrative camera, not measured image or executed render",
+        "frame": "canonical house +X east, +Y north, +Z up; meters",
+        "aspectRatio": "3:2",
+        "mode": "duck-eye-level family ending"
+      },
+      "cast": [
+        "Mama",
+        "PomPom",
+        "Papa",
+        "PinPin",
+        "duck"
+      ],
+      "blockingAndGaze": "Finalwarmfamilybreakfast allfourhedgehogs: Mama westseatedsecurelyholdsPomPomonlap; Papa north maturecreamfacehazelirises; PinPin east carefullypourswaterfromsmalljugintohiscupwithtwopaws. ONE livingwoodduck ontableforegroundbyverytinysaucer, beakopen asking, eyesnearDIRECTLENS offeringlastjoke. Camera atducktableheight soforegroundduckreadable butfamilyfaces/ordinaryjugactionstillclear. No magic, no towel onducknow, no modernsink/faucet throughbackgrounddoor, floor dry, wet rug dryingoutside notunderfoot.",
+      "state": {
+        "tubFillPercent": 45,
+        "magic": "water off; duck alive",
+        "duckLiving": true,
+        "duckMaterial": "carved honey-yellow wood with visible grain, orange rounded beak, friendly inset dark eyes; no added limbs",
+        "duckLocation": "breakfast table by saucer",
+        "babyLocation": "Mama lap atbreakfast",
+        "papaLocation": "breakfasttable"
+      },
+      "selectedMaster": "masters/scene-56-v1.png",
+      "reviewStatus": "internally reviewed draft; user review pending"
+    }
+  ],
+  "reviewChecklist": [
+    "Same four hedgehogs, no duplicate siblings or human children.",
+    "PinPin solves reversal; Mama asks and watches, never reveals answer.",
+    "No Elder rescue, humiliation, chosen-one speech or moral lecture.",
+    "Maximum flooding shallow at paws; baby supported and dry with clear body separation.",
+    "One tub, two matched pails, one wooden duck; no bath/rug/furniture teleportation.",
+    "Specific action and partner eyeline each shot; reverse-circle camera matches creation camera.",
+    "Keep original generated masters and exact prompts. Generated is not user approved or published."
+  ],
+  "rights": "Creative content under repository CONTENT-LICENSE.md; not blanket MIT.",
+  "baseProduction": "bath-magic-20261001",
+  "duckStudy": {
+    "requiredBeforeScene30Generation": true,
+    "reference": "bath-magic-20261001 selected scene-09 (carved toy) and scene-11 (waterline grain closeup)",
+    "appearance": "Honey-yellow carved woodgrain body, small orange roundedbeak, friendly inset darkeyes; intact single toybody, carved wingrelief not independentarms; no legs, teeth, lips, feathers orclothing.",
+    "states": [
+      "inert beakclosed",
+      "alive subtlebeakhinge open quack",
+      "delighted bobbing",
+      "questioning directgaze",
+      "tiny towel wrapped body, beakpeeking"
+    ],
+    "rule": "Same toy before and after enchantment. Only eyes attention/beak hinge and expressive timing change; retain material/shape/size.",
+    "output": "preproduction/duck-character-study-v1.png",
+    "actualStudy": "preproduction/duck-character-study-v1.png",
+    "reviewStatus": "internally inspected production reference; user approval not claimed",
+    "beforeAwakening": "Use inert v1 wooden toy for scenes before30; close beak. Concept sheet open beaks before30 are not literal continuity."
+  },
+  "povRules": {
+    "principle": "Lower camera to actual child/duck viewpoint; do not simply crop an adultheightwide.",
+    "childPOV": [
+      3,
+      9,
+      15,
+      33,
+      48
+    ],
+    "sharedLookCloseups": [
+      11,
+      16,
+      32,
+      55
+    ],
+    "duckLevel": [
+      17,
+      31,
+      34,
+      35,
+      51,
+      56
+    ],
+    "anatomy": "Child first-person views may show only TWO paws framing rim and a single understandable reflection; no disembodiedextraarms or secondchild."
+  },
+  "newPortableProps": [
+    "Toyduck tiny towel and tiny breakfast saucer only; samefamilyprops andtopology."
+  ],
+  "reviewedDraftLimits": [
+    "Room camera transforms are planning intent rather than measured reconstruction.",
+    "Minor v1 mat, background furniture and toy-eye detail variations are retained.",
+    "Concept sheet is exploratory and does not override chronological final selected images."
+  ]
+}

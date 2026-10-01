@@ -1,0 +1,25 @@
+{
+  "id": "scene-32-v2",
+  "prompt": "Use case: precise-object-edit. Correct just the water behavior in this exact image, preserving every character, camera, room, atmosphere and style. PinPin small child at RIGHT pours from tinycup directly INTO the center of his woodenpail: move cup above pail opening so ALL water lands INSIDE it, remove stream that misses and hitsfloor. Also lower bath water to about HALF of tub height, with broad visible band of DRY INNER wooden staves from waterline up to rim aroundback. Mama continues pouring scoopedbathwater into separate ceramicbasin. Keep floor damp and restsame. No magic. Full landscape3:2 image, no text or borders.",
+  "referenced_image_paths": [
+    "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001/masters/scene-32-v1.png"
+  ],
+  "editTarget": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001/masters/scene-32-v1.png",
+  "inputHashes": {
+    "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001/masters/scene-32-v1.png": "9ec08a4f78f51aa18f9f15740ffbd2993ef87651ab5d6079cd458f757f161bae"
+  },
+  "startedAt": "2026-10-01T04:58:21.487118+00:00",
+  "tool": "image_gen__imagegen",
+  "generatedAt": "2026-10-01T05:02:01.590737+00:00",
+  "sourceOutputPath": "/Users/miguel_lemos/.codex/generated_images/01a0f5c3-a7d1-70d0-b8cf-581aa5deee53/exec-819294ee-2f59-4022-a5c8-54ef72ca3100.png",
+  "savedOriginalPath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001/masters/scene-32-v2.png",
+  "imageSha256": "545e33b5f822d034b1728ee6f9f14250162174b8ebc9126e46b7e7cff5685294",
+  "promptSha256": "64eeaec2c04b21b5e61cf4c01c7780bb89639943ab6b60b5966591797dfd286c",
+  "reviewStatus": "visually reviewed draft; selected for user review",
+  "selectedForDraft": true,
+  "visualReview": "V2 aims child cup stream into pail and lowers tubwater; Mama pours into separate basin. Papa and baby intentionally off-camera in common room, despite original plan cast list; no dirty floor water returned to tub.",
+  "promptPath": "prompts/scene-32-v2.txt",
+  "references": [
+    "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001/masters/scene-32-v1.png"
+  ]
+}

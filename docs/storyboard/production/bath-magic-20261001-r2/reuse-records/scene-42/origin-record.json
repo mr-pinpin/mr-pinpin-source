@@ -1,0 +1,25 @@
+{
+  "id": "scene-25-v2",
+  "prompt": "Use case: precise-object-edit. Edit Image1 only in the small distant background area visible through the open doorway. BACKGROUND THROUGH OPEN DOOR ONLY: the round dark hole in the far commonroom wall must become a finished charming ROUND GLAZED WINDOW with warm wooden radial muntins and visible sunny green trees beyond glass. Finish the bare faceted-looking plaster wall through door with smooth honey-colored plaster, woodenbeams and cozy morninglight, small plants/pottery on visiblewoodentable. This visibleotherroom is the kitchen/commonroom, not anotherbath. Keep exact doorwayposition/openleaf and entire foregroundMama PinPin goldcircle overflowingwoodentub unchanged. Do not change camera or subjects. Same full landscape3:2 gorgeousanimatedstorybookrender, no text.",
+  "referenced_image_paths": [
+    "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001/masters/scene-25-v1.png"
+  ],
+  "editTarget": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001/masters/scene-25-v1.png",
+  "inputHashes": {
+    "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001/masters/scene-25-v1.png": "b54b1198169124d042e5c71d706774cb11f397120ec50e36c1dc53efe75a1a1e"
+  },
+  "startedAt": "2026-10-01T05:02:41.173194+00:00",
+  "tool": "image_gen__imagegen",
+  "generatedAt": "2026-10-01T05:04:46.281328+00:00",
+  "sourceOutputPath": "/Users/miguel_lemos/.codex/generated_images/01a0f5c3-a7d1-70d0-b8cf-581aa5deee53/exec-03122be9-2c25-4255-9f6a-6b5382b35116.png",
+  "savedOriginalPath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001/masters/scene-25-v2.png",
+  "imageSha256": "bf4e1b7a704f8c55cd7007b8718d1dab8f284ea4ed4c4a0b02f1ec4ae9b3bcaa",
+  "promptSha256": "534abb48f95671fbe614bc5bac35dfa8876256dc448b7edee3afc2319f7b97d4",
+  "reviewStatus": "visually reviewed draft; selected for user review",
+  "selectedForDraft": true,
+  "visualReview": "Reversed camera correctly shows actual doorway. V2 repairs dark empty round opening and bare distant walls into glazed radial wooden window and warm furnished room. Mama/PinPin clearly separate with point-and-listen interaction.",
+  "promptPath": "prompts/scene-25-v2.txt",
+  "references": [
+    "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001/masters/scene-25-v1.png"
+  ]
+}

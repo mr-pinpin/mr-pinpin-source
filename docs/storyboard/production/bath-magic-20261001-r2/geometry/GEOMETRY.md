@@ -1,0 +1,11 @@
+# R2 duck and camera preproduction; closing art
+
+The six-panel carved wooden duck study was made with the built-in imagegen tool from original scenes09 and17. Root reviewed it as the internal production reference, not user approval. The study preserves honeywood grain and carved wings while allowing expressive eyelids, eye direction and flexible orange beak. No mechanical hinges or extra humanoid limbs. Study master is `preproduction/duck-character-study-v1.png` in the R2 external pack.
+
+Six new canonical camera setups were rendered/prepared on the mini without editing the houseplan: child-pov-down, duck-pov-up, child-stove-up, duck-floor-child-pov-v2, duck-floor-close-v2, table-duck-eye. Two earlier floor attempts aimed beside the doorway and were superseded; both are retained. All eight render manifests pass CLI checksum validation. `camera-guides.json` records exact jobs, transforms, image hashes, status and validation. The prior bath-wide guide was reused for unchanged wide staging. Grey guides establish room orientation but do not prove that the image model preserved every measured coordinate.
+
+Five new closing illustrations were produced and full-frame reviewed: scene48v1,51v1,54v1,55v1,56v1. Scenes48,55,56 deliberately engage the lens. Scene55 is an extreme duck-face/towel closeup; scene56 places duck at near table foreground with four family faces and ordinary jugpour behind. Scene54 contains active parental towel-wrapping and distinct baby/child bodies;51 is a floor-level cleanup interaction. No image corrections were required after these first five outputs at this review stage.
+
+All six imagegen outputs including characterstudy retain original PNGs, exact prompts, reference hashes and built-in tool records. Art masters in `/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r2/masters/`; study in `preproduction/`; source exactprompts and records in adjacent `prompts/` and `records/`, mirrored to external pack. Scene53/other reused old images remain unchanged; no claim of generating reused assets. R1 media never modified.
+
+Final5 selection frozen for reader integration; draft for user review, not publication. Camera numerical fidelity is not guaranteed; 48 selected picture sits lower than the high first-person guide but maintains intentional upward eyecontact.

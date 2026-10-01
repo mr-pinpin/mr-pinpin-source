@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "id": "bath-magic-r2-table-duck-eye",
+  "location": "docs/storyboard/locations/pinpin-house/location.json",
+  "camera": {
+    "position": [
+      -0.15,
+      -2.3,
+      0.86
+    ],
+    "target": [
+      -0.3,
+      -1.05,
+      0.88
+    ],
+    "lensMm": 28,
+    "width": 1400,
+    "height": 1000
+  },
+  "doorStates": {
+    "door-front": 0,
+    "door-bath": 75,
+    "door-bedroom": 0
+  },
+  "prompt": {
+    "template": "still",
+    "intent": "Tabletopduckheight breakfast composition; talking duck foreground, family faces behind, child pours smalljug.",
+    "characters": "No characters; empty architectural location study.",
+    "action": "No action; preserve all furnishings and openings.",
+    "lighting": "Warm gentle daytime with soft fill; maintain the rendered direction of window illumination.",
+    "referenceIds": [
+      "common-book"
+    ]
+  }
+}

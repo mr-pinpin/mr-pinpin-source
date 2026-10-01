@@ -1,0 +1,36 @@
+{
+  "tool": "image_gen__imagegen",
+  "generatedAt": "2026-10-01T05:54:23.558Z",
+  "promptPath": "prompts/scene-35-v1.txt",
+  "sourceOutput": "/Users/miguel_lemos/.codex/generated_images/01a0be6f-b832-7d93-95df-9d2ff5f69dc1/exec-83442a15-c62d-4046-8554-1a1ffd9ae630.png",
+  "references": [
+    "/Users/miguel_lemos/.codex/generated_images/01a0be6f-b832-7d93-95df-9d2ff5f69dc1/exec-ce5797e7-b736-4627-87a1-e7eaec1e2103.png",
+    "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r2/preproduction/duck-character-study-v1.png",
+    "/Users/miguel_lemos/.codex/generated_images/01a0be6f-b832-7d93-95df-9d2ff5f69dc1/exec-4cb66c68-cfc0-4c16-a9e3-00d6d9f6f028.png"
+  ],
+  "visualReview": "First visual review: attentive baby/duck mutual gaze; joyful stream closeup; clear babychair support and Papa wetfoot action. Background continuity refinements pending on35/36. Draft for user feedback.",
+  "referenceIdentities": [
+    {
+      "path": "/Users/miguel_lemos/.codex/generated_images/01a0be6f-b832-7d93-95df-9d2ff5f69dc1/exec-ce5797e7-b736-4627-87a1-e7eaec1e2103.png",
+      "bytes": 2649341,
+      "sha256": "4a2012c96e18d798bd9dc54178d5a4048d8ced16827855ab6c26890940a1c4a6"
+    },
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r2/preproduction/duck-character-study-v1.png",
+      "bytes": 2271323,
+      "sha256": "30b08a0cf9b5affa30edf8e694da90ae3d7c04fd0c6456df68a994c11dbe9f5b"
+    },
+    {
+      "path": "/Users/miguel_lemos/.codex/generated_images/01a0be6f-b832-7d93-95df-9d2ff5f69dc1/exec-4cb66c68-cfc0-4c16-a9e3-00d6d9f6f028.png",
+      "bytes": 2476545,
+      "sha256": "45a2a6d5c67e02e62ec2c4b6331c4cdcf22737398af7c08d4bcbcdbc9f689814"
+    }
+  ],
+  "promptSha256": "9b769a06f3ae36d5c35e06d2896cfcd62bad5873d2cca66780bf88d11c1f7ec2",
+  "master": {
+    "path": "masters/scene-35-v1.png",
+    "bytes": 2354523,
+    "sha256": "156333727a19182b77e6a9f780bc9bf1b14ed6d96bb39ccb9319965610b6a91a"
+  },
+  "approval": "draft-for-review"
+}

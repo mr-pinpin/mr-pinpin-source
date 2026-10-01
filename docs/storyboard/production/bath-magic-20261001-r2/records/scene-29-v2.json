@@ -1,0 +1,26 @@
+{
+  "id": "scene-29-v2",
+  "prompt": "Use case: precise-object-edit. Input image 1 is the only edit target. Make one narrowly localized continuity correction to this finished children's book illustration: restore a SMALL active water fountain rising from the central area of the bathtub, behind the wooden duck and between Papa on the left and PinPin on the right. A slender clear jet rises roughly one duck-head-height above the back rim, with a few delicate arching droplets falling back into the bath, and a very subtle circular ripple at its base. The fountain is separate from the large foreground overflow pouring into the bucket. Preserve that overflow exactly. Preserve every family member, facial expression, eye direction, all hands/feet and their positions, Papa's leg in water and other foot outside, the wooden duck's inert toy eyes and closed beak, tub shape, waterline, all furniture, both buckets, camera, crop, lighting, colors, and the entire detailed background. This is only an addition of the missing small water jet, not a new composition. No added objects, no new magic effects on duck, no text or borders.",
+  "referenced_image_paths": [
+    "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r2/masters/scene-29-v1.png"
+  ],
+  "inputHashes": {
+    "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r2/masters/scene-29-v1.png": "34f31b4f4be7f13c958bca92511c71b05267b5f15fbd98c535f5d3033fb9ea01"
+  },
+  "startedAt": "2026-10-01T05:57:30.324343+00:00",
+  "editType": "precise-object-edit",
+  "preservesVersion": "scene-29-v1",
+  "tool": "image_gen__imagegen",
+  "generatedAt": "2026-10-01T05:59:07.297902+00:00",
+  "sourceOutputPath": "/Users/miguel_lemos/.codex/generated_images/01a0f5c3-a7d1-70d0-b8cf-581aa5deee53/exec-bdead93a-315d-4820-9d62-b42ffe2e9dc1.png",
+  "savedOriginalPath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r2/masters/scene-29-v2.png",
+  "imageSha256": "4c463aa510d8ced6c8e8760605700b5b0153bd8d37e8a3b25cd28440f2e3f355",
+  "promptSha256": "6fded5998e10a71ac3e492489750d4a5af5a2205f9599fc03d385da8ca8ed5d8",
+  "reviewStatus": "visually reviewed draft; selected for user review",
+  "visualReview": "PASS: slender central fountain restored behind inert wooden duck, separate from foreground overflow. Papa has two rim forepaws, one partly submerged leg and other foot outside. All four family identities/poses retained; bucket overflow and room preserved.",
+  "selectedForDraft": true,
+  "promptPath": "/Users/miguel_lemos/anastasia-pinpin-repos/mr-pinpin-source/docs/storyboard/production/bath-magic-20261001-r2/prompts/scene-29-v2.txt",
+  "references": [
+    "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r2/masters/scene-29-v1.png"
+  ]
+}

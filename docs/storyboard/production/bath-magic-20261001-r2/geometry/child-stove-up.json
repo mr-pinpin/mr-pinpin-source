@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "id": "bath-magic-r2-child-stove-up",
+  "location": "docs/storyboard/locations/pinpin-house/location.json",
+  "camera": {
+    "position": [
+      -2.2,
+      -1.2,
+      0.6
+    ],
+    "target": [
+      -2.9,
+      -1.85,
+      1
+    ],
+    "lensMm": 35,
+    "width": 1400,
+    "height": 1000
+  },
+  "doorStates": {
+    "door-front": 0,
+    "door-bath": 75,
+    "door-bedroom": 75
+  },
+  "prompt": {
+    "template": "still",
+    "intent": "Child POV looking up to Mama at stove, direct eye contact down into camera; white cylinder indicates stove footprint, finish like book.",
+    "characters": "No characters; empty architectural location study.",
+    "action": "No action; preserve all furnishings and openings.",
+    "lighting": "Warm gentle daytime with soft fill; maintain the rendered direction of window illumination.",
+    "referenceIds": [
+      "common-book"
+    ]
+  }
+}

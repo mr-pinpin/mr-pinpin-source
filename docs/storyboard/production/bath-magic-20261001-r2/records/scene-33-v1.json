@@ -1,0 +1,30 @@
+{
+  "tool": "image_gen__imagegen",
+  "generatedAt": "2026-10-01T05:44:50.190Z",
+  "promptPath": "prompts/scene-33-v1.txt",
+  "sourceOutput": "/Users/miguel_lemos/.codex/generated_images/01a0be6f-b832-7d93-95df-9d2ff5f69dc1/exec-4cb66c68-cfc0-4c16-a9e3-00d6d9f6f028.png",
+  "references": [
+    "/Users/miguel_lemos/.codex/generated_images/01a0be6f-b832-7d93-95df-9d2ff5f69dc1/exec-ce5797e7-b736-4627-87a1-e7eaec1e2103.png",
+    "/Users/miguel_lemos/anastasia-pinpin-repos/mr-pinpin-source/docs/storyboard/images/published/elder-cycle/elder-r6-family-015.webp"
+  ],
+  "visualReview": "Faces, body support and reciprocal gaze pass first visual review. Scene32/33 background orientation needs continuity review; selected draft for feedback.",
+  "referenceIdentities": [
+    {
+      "path": "/Users/miguel_lemos/.codex/generated_images/01a0be6f-b832-7d93-95df-9d2ff5f69dc1/exec-ce5797e7-b736-4627-87a1-e7eaec1e2103.png",
+      "bytes": 2649341,
+      "sha256": "4a2012c96e18d798bd9dc54178d5a4048d8ced16827855ab6c26890940a1c4a6"
+    },
+    {
+      "path": "/Users/miguel_lemos/anastasia-pinpin-repos/mr-pinpin-source/docs/storyboard/images/published/elder-cycle/elder-r6-family-015.webp",
+      "bytes": 482926,
+      "sha256": "076321ed693bb541c91d99b4ab6fbb7cf0c7ed19c0fcf2c0dfb70b1e668d428e"
+    }
+  ],
+  "promptSha256": "981d7820406c658ffa67bfc6748b9140713b485579f002908967729bd616f48a",
+  "master": {
+    "path": "masters/scene-33-v1.png",
+    "bytes": 2476545,
+    "sha256": "45a2a6d5c67e02e62ec2c4b6331c4cdcf22737398af7c08d4bcbcdbc9f689814"
+  },
+  "approval": "draft-for-review"
+}
