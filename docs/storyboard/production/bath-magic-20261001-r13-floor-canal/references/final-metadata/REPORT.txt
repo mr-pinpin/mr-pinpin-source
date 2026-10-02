@@ -1,0 +1,44 @@
+R13 FLOOR CANAL CORRECTION — UNPUBLISHED REVIEW
+
+112 story scenes plus cover, with exactly the same captions, reading numbers
+and order as R12. Three selected edits only:
+ 57 — scene-55
+ 58 — scene-55a
+ 60 — scene-55c
+
+The left/rear canal now reads as a wooden trough resting on the visible floor
+in front of the wall and turning around the doorway. The existing interior
+doors, family actions and approved right foreground outlet remain.
+The original55c image supplied the floor-layout reference.
+
+Papa's approved R12 faces in scenes75 and123 are unchanged bytes. All other
+110 selected image slots remain exactly R12. The earlier scene82 deletion stays
+in effect; R13 adds or removes nothing. Scene63's downstream duck correction,
+scene45 and thinking close-up55b remain unchanged.
+
+Full chapter:
+ http://127.0.0.1:18795/storyboard/review/bath-magic-r13-floor-canal.html?lang=ru
+Before/after: add &view=changes
+Five-sheet storyboard: add &view=storyboard
+Before/after uses exact R12 selected images and unchanged R12/current numbers.
+Flags select Russian, English and Spanish reading. Compact boards have Russian
+and English editions, five sheets each.
+
+Production and QA:
+Built-in image generation edited three selected illustrations. Native attempts,
+exact prompts, reviewed selections and input snapshots remain under geometry/.
+Root visually passed selected55-v2,55a-v1 and55c-v2. Unselected attempts are
+preserved as provenance; they do not replace final selections.
+input-preservation.json verifies original native tool bytes, prompts and inputs.
+reader/selection-qa.json checks all113 pointers and only three changed slots.
+boards/qa.json checks224 panels, exact captions and unchanged contained pixels.
+browser-check/results.json records Chrome390/1440 checks, all112 decoded story
+images, ten boards, three before/after rows, language flags, links and overflow.
+reader/HOUSE-CONTINUITY.txt records the narrow camera/floor geometry lesson.
+
+Preservation:
+The scoped R13 archive holds new art, reference inputs and final board assets.
+R12/R11/R10/R8 remain immutable restoration sources for upstream pointers.
+See RESTORE.txt. Only a matching archive-receipt.json with verified fresh remote
+readback proves preservation. No official publication, source push or unrelated
+file changes are part of this revision.

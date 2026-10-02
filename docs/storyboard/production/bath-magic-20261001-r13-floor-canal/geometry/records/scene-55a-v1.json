@@ -1,0 +1,56 @@
+{
+  "tool": "image_gen__imagegen",
+  "generatedAt": "2026-10-02T01:09:16.476Z",
+  "sourceOutput": "/Users/miguel_lemos/.codex/generated_images/01a0fa05-e7a6-7a00-a6f0-fc3a9cc0cc09/exec-9d5603f8-491a-43e8-8aa5-d0aa2bd85c15.png",
+  "promptPath": "prompts/scene-55a-v1.txt",
+  "references": [
+    "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r12-house-layout/geometry/masters/scene-55a-v1.png",
+    "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r13-floor-canal/geometry/masters/scene-55c-v2.png"
+  ],
+  "visualReview": "Viewed native output. Low curved rear trough crosses in front of door post on short grounded blocks and then hides behind Mama/table, matching approved55c-v2. High shelf rail removed. Four faces and original berry/feeding actions preserved; right foreground canal and closed interior door unchanged. Awaiting coordinator final pass. Coordinator independently viewed and approved the front-of-post floor curve; selected.",
+  "promptSha256": "48d121a0a0fd621fe86eef4427f00ca99906470dfea0bb7f8f0bafbd488376a1",
+  "master": {
+    "path": "masters/scene-55a-v1.png",
+    "sha256": "9bd586fc45290bd282eea36cbad675df1c768538273f4f0fea0cf23c443a9fb3",
+    "bytes": 2428984
+  },
+  "referenceIdentities": [
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r12-house-layout/geometry/masters/scene-55a-v1.png",
+      "sha256": "83ae011bfeb34e869bb0ec71987263597c288d9c0f5a6b9e8354ade1949dfcf9",
+      "bytes": 2481597
+    },
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r13-floor-canal/geometry/masters/scene-55c-v2.png",
+      "sha256": "9fb1f723cba5509b93f66d7d845a45d7f0c4f72213d0034d1958787808a5d404",
+      "bytes": 2377725
+    }
+  ],
+  "preservedReferences": [
+    {
+      "path": "references/inputs/83ae011bfeb3/scene-55a-v1.png",
+      "sha256": "83ae011bfeb34e869bb0ec71987263597c288d9c0f5a6b9e8354ade1949dfcf9"
+    },
+    {
+      "path": "references/inputs/9fb1f723cba5/scene-55c-v2.png",
+      "sha256": "9fb1f723cba5509b93f66d7d845a45d7f0c4f72213d0034d1958787808a5d404"
+    }
+  ],
+  "reviewStatus": "illustration candidate; awaiting user feedback",
+  "web": {
+    "path": "web/scene-55a.webp",
+    "sha256": "b890dc0f9e540d9b3dd5a2675a77275e5c6cd0c38def4c7829c5de3b4e0010b2",
+    "bytes": 426196
+  },
+  "dimensions": [
+    1536,
+    1024
+  ],
+  "conversion": {
+    "format": "WebP",
+    "quality": 94,
+    "method": 6,
+    "resized": false,
+    "artEdited": false
+  }
+}

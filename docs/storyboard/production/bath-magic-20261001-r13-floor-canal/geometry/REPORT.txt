@@ -1,0 +1,34 @@
+R13 geometry lane — floor-level rear canal correction
+Completed 2026-10-02T01:13:49.682Z
+
+Scope fixed by user:
+Only the LEFT/REAR canal section in breakfast scenes55/55a/55c. The RIGHT foreground route and all family identities/faces were already approved. No story text or order changes. R12 remains immutable.
+
+Diagnosis:
+R12 added a high diagonal trough from the bath rim toward the right jamb of the inner bathroom doorway. It looked like a shelf/rail penetrating the wall. The original R10 scene55c and R8 scene55 were inspected as references for the doorway's unobstructed lower floor and intact wooden post.
+
+Final selected native masters:
+geometry/masters/scene-55-v2.png
+geometry/masters/scene-55a-v1.png
+geometry/masters/scene-55c-v2.png
+
+Visible result:
+The elevated rail is gone. The replacement is a low supported curved trough crossing the threshold toward the viewer before turning right IN FRONT of the doorpost base. Short blocks and contact shadows establish floor support. It then becomes naturally hidden behind Mama and the table/mug, connecting to the already approved right-side route. It does not terminate against or penetrate the jamb.
+All four family members and distinct breakfast actions remain: toast sharing, berry breakfast/baby feeding, and PinPin proposing his plan. Camera, closed right interior door, towels, room openings, right foreground canal and warm dimensional rendering were retained.
+This is an illustration-led local correction, not a measured Blender or hydraulic simulation.
+
+Iteration:
+1. scene55c-v1 lowered the rail but its end still met the jamb. Preserved unselected.
+2. scene55c-v2 added the visible forward-then-right floor curve. Independently approved by root before propagation.
+3. scene55a-v1 copied only the approved low routing into its original R12 frame. Root approved.
+4. scene55-v1 remained too straight at jamb. Preserved unselected.
+5. scene55-v2 explicitly copied the front-of-post curve while retaining toast-sharing action. Root approved.
+Selected three images were all inspected at native size by both lane and root.
+
+Provenance:
+Built-in image_gen__imagegen, five calls for three selected assets and two rejected alternatives.
+Exact prompts: geometry/prompts/scene-{55-v1,55-v2,55a-v1,55c-v1,55c-v2}.txt
+Records and reference snapshots preserved by accept-lane-asset.py; native images are immutable.
+Web derivatives quality94 without resize or post-generation art editing.
+All selected assets registered. No further lane mutations required. Ready for finalization.
+No publication or commit made by this lane.

@@ -1,0 +1,46 @@
+{
+  "tool": "image_gen__imagegen",
+  "generatedAt": "2026-10-02T01:06:44.503Z",
+  "sourceOutput": "/Users/miguel_lemos/.codex/generated_images/01a0fa05-e7a6-7a00-a6f0-fc3a9cc0cc09/exec-9d0c9560-570d-49a0-911c-49acd72975dc.png",
+  "promptPath": "prompts/scene-55c-v2.txt",
+  "references": [
+    "/Users/miguel_lemos/.codex/generated_images/01a0fa05-e7a6-7a00-a6f0-fc3a9cc0cc09/exec-40f4400f-dc3c-4a1c-957c-acbe456b0795.png"
+  ],
+  "visualReview": "Viewed native output. Replaced straight jamb-intersecting rail with low curved segment on short visible floor-contact supports. Front curve visibly crosses in front of the post and continues right behind Mama/table mug. Raised-paw area and existing right foreground canal preserved. Four faces/activities and closed right interior door retained. Coordinator reviewing before propagation. Coordinator independently viewed and approved: grounded low blocks, curved front segment in front of post base and natural occlusion behind mug/Mama. Selected for propagation.",
+  "promptSha256": "83073dc53aa1a4ab292b323a61c8c2399ce2712dd82b02126e205082255e63ce",
+  "master": {
+    "path": "masters/scene-55c-v2.png",
+    "sha256": "9fb1f723cba5509b93f66d7d845a45d7f0c4f72213d0034d1958787808a5d404",
+    "bytes": 2377725
+  },
+  "referenceIdentities": [
+    {
+      "path": "/Users/miguel_lemos/.codex/generated_images/01a0fa05-e7a6-7a00-a6f0-fc3a9cc0cc09/exec-40f4400f-dc3c-4a1c-957c-acbe456b0795.png",
+      "sha256": "80615d9fb1fa4b187324adc40131d3c561ed2783084f521b5f70487c00f1f0a0",
+      "bytes": 2372250
+    }
+  ],
+  "preservedReferences": [
+    {
+      "path": "references/inputs/80615d9fb1fa/exec-40f4400f-dc3c-4a1c-957c-acbe456b0795.png",
+      "sha256": "80615d9fb1fa4b187324adc40131d3c561ed2783084f521b5f70487c00f1f0a0"
+    }
+  ],
+  "reviewStatus": "illustration candidate; awaiting user feedback",
+  "web": {
+    "path": "web/scene-55c.webp",
+    "sha256": "7fea19c7699bf9360fd4024d8f41d2fecd0c7ce01dc3fda2d0b1175c44136070",
+    "bytes": 402364
+  },
+  "dimensions": [
+    1536,
+    1024
+  ],
+  "conversion": {
+    "format": "WebP",
+    "quality": 94,
+    "method": 6,
+    "resized": false,
+    "artEdited": false
+  }
+}

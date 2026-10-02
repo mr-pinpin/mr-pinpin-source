@@ -1,0 +1,56 @@
+{
+  "tool": "image_gen__imagegen",
+  "generatedAt": "2026-10-02T01:11:59.596Z",
+  "sourceOutput": "/Users/miguel_lemos/.codex/generated_images/01a0fa05-e7a6-7a00-a6f0-fc3a9cc0cc09/exec-16ba9f96-dd62-4ae2-9d1a-6fe3e8995875.png",
+  "promptPath": "prompts/scene-55-v2.txt",
+  "references": [
+    "/Users/miguel_lemos/.codex/generated_images/01a0fa05-e7a6-7a00-a6f0-fc3a9cc0cc09/exec-e87c6571-a9ad-4256-9782-73304e5782bc.png",
+    "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r13-floor-canal/geometry/masters/scene-55c-v2.png"
+  ],
+  "visualReview": "Viewed native output. Low rear floor trough now curves in front of post base on visible short supports before disappearing behind Mama/mug, matching approved55a/55c. Original toast sharing and all four family members remain. Right foreground gutter and closed right interior door preserved. Awaiting coordinator final pass. Coordinator independently viewed and approved: front curve overlaps doorpost base, no high rail penetration, supported floor route matches other two. Selected.",
+  "promptSha256": "8a12f9b6ab855a5310958f542894f9649f823b0574955ac3050fb8488cc3b7e8",
+  "master": {
+    "path": "masters/scene-55-v2.png",
+    "sha256": "49d3cca83da93e3bcc04f67b4ad8c10adccaf7cf6b66bc887599d86bc1207e66",
+    "bytes": 2378835
+  },
+  "referenceIdentities": [
+    {
+      "path": "/Users/miguel_lemos/.codex/generated_images/01a0fa05-e7a6-7a00-a6f0-fc3a9cc0cc09/exec-e87c6571-a9ad-4256-9782-73304e5782bc.png",
+      "sha256": "6e002bbdfc1a2af81222027461277d99690ecf09547704adc88081fb49fe78c3",
+      "bytes": 2469606
+    },
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r13-floor-canal/geometry/masters/scene-55c-v2.png",
+      "sha256": "9fb1f723cba5509b93f66d7d845a45d7f0c4f72213d0034d1958787808a5d404",
+      "bytes": 2377725
+    }
+  ],
+  "preservedReferences": [
+    {
+      "path": "references/inputs/6e002bbdfc1a/exec-e87c6571-a9ad-4256-9782-73304e5782bc.png",
+      "sha256": "6e002bbdfc1a2af81222027461277d99690ecf09547704adc88081fb49fe78c3"
+    },
+    {
+      "path": "references/inputs/9fb1f723cba5/scene-55c-v2.png",
+      "sha256": "9fb1f723cba5509b93f66d7d845a45d7f0c4f72213d0034d1958787808a5d404"
+    }
+  ],
+  "reviewStatus": "illustration candidate; awaiting user feedback",
+  "web": {
+    "path": "web/scene-55.webp",
+    "sha256": "1ed7c69c4158f3d3154946257ab3196e4b2ca5b25223d52ee0a17826ba22fb83",
+    "bytes": 412230
+  },
+  "dimensions": [
+    1536,
+    1024
+  ],
+  "conversion": {
+    "format": "WebP",
+    "quality": 94,
+    "method": 6,
+    "resized": false,
+    "artEdited": false
+  }
+}

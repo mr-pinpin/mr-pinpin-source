@@ -1,0 +1,45 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "width": 1440,
+      "defaultRussian": true,
+      "fullReaderScenes": 112,
+      "decodedSceneImages": 112,
+      "boardImagesDecoded": 10,
+      "panelLinks": 112,
+      "textComparison": true,
+      "languages": [
+        "ru",
+        "en",
+        "es"
+      ],
+      "noOverflow": true
+    },
+    {
+      "width": 390,
+      "defaultRussian": true,
+      "fullReaderScenes": 112,
+      "decodedSceneImages": 112,
+      "boardImagesDecoded": 10,
+      "panelLinks": 112,
+      "textComparison": true,
+      "languages": [
+        "ru",
+        "en",
+        "es"
+      ],
+      "noOverflow": true
+    }
+  ],
+  "errors": [],
+  "sourceHashes": {
+    "story-plan.json": "06acc3de72206c40f1683f0a709e37bb7089d0c888c487b1b03b1b5d0c546080",
+    "causal-rhythm.json": "c679617504c93d14ce78ce6d0fa21aa2647957bf5b4c61661354723b14c76850",
+    "feedback-map.json": "f728b30f9ab57ac3360f7c88904b4c53784f8f6911f92b76c546c74b74c070ae",
+    "boards/manifest.json": "388c5294c38ca912b22d283f3c22c165e272a22003935367eea519c0fe8b7c03",
+    "docs/storyboard/review/bath-magic-r13-floor-canal.html": "10b34fbb0e442abbb05d3a3c2ea648f1f1a96a21e0ee66e1d90ce93a54d16bfb",
+    "docs/storyboard/review/bath-magic-r13-floor-canal.css": "12f8512376ea5ca1350d33497843830eca978c07bfcc17b59e4423fc1f492acd",
+    "docs/storyboard/review/bath-magic-r13-floor-canal.js": "f47eddbce8f7d2a7b15698c33c93c2de96fa132554d45fd9359fe94858ec326a"
+  }
+}

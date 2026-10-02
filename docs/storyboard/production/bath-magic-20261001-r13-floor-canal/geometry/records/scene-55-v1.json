@@ -1,0 +1,40 @@
+{
+  "tool": "image_gen__imagegen",
+  "generatedAt": "2026-10-02T01:08:42.844Z",
+  "sourceOutput": "/Users/miguel_lemos/.codex/generated_images/01a0fa05-e7a6-7a00-a6f0-fc3a9cc0cc09/exec-e87c6571-a9ad-4256-9782-73304e5782bc.png",
+  "promptPath": "prompts/scene-55-v1.txt",
+  "references": [
+    "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r12-house-layout/geometry/masters/scene-55-v1.png",
+    "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r13-floor-canal/geometry/masters/scene-55c-v2.png"
+  ],
+  "visualReview": "Viewed native output. High bath-rim rail lowered and breakfast/right canal preserved; however curve in front of jamb is not clearly established and original straight termination may persist. Keep unselected pending narrow repair.",
+  "promptSha256": "e31f285f7db4171b9a8719d64c6e2a470b666344e8394c0c8316a8cb7e0b0b39",
+  "master": {
+    "path": "masters/scene-55-v1.png",
+    "sha256": "6e002bbdfc1a2af81222027461277d99690ecf09547704adc88081fb49fe78c3",
+    "bytes": 2469606
+  },
+  "referenceIdentities": [
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r12-house-layout/geometry/masters/scene-55-v1.png",
+      "sha256": "8ac9aa7f454760fc8e9ba91ef3a98976f788984ab34b4eb04d1d909fca05f0ee",
+      "bytes": 2549068
+    },
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r13-floor-canal/geometry/masters/scene-55c-v2.png",
+      "sha256": "9fb1f723cba5509b93f66d7d845a45d7f0c4f72213d0034d1958787808a5d404",
+      "bytes": 2377725
+    }
+  ],
+  "preservedReferences": [
+    {
+      "path": "references/inputs/8ac9aa7f4547/scene-55-v1.png",
+      "sha256": "8ac9aa7f454760fc8e9ba91ef3a98976f788984ab34b4eb04d1d909fca05f0ee"
+    },
+    {
+      "path": "references/inputs/9fb1f723cba5/scene-55c-v2.png",
+      "sha256": "9fb1f723cba5509b93f66d7d845a45d7f0c4f72213d0034d1958787808a5d404"
+    }
+  ],
+  "reviewStatus": "illustration candidate; awaiting user feedback"
+}

@@ -1,0 +1,39 @@
+{
+  "productionId": "bath-magic-20261001-r13-floor-canal",
+  "sourceProduction": "bath-magic-20261001-r12-house-layout",
+  "counts": {
+    "storyImages": 112,
+    "cover": 1,
+    "newArt": 3,
+    "unchangedArt": 110
+  },
+  "changes": [
+    {
+      "id": "scene-55",
+      "number": 57,
+      "r12Number": 57,
+      "reason": "Place the left/rear canal visibly on the floor in front of the wall. Keep the approved right foreground outlet, original interior doors and characters."
+    },
+    {
+      "id": "scene-55a",
+      "number": 58,
+      "r12Number": 58,
+      "reason": "Place the left/rear canal visibly on the floor in front of the wall. Keep the approved right foreground outlet, original interior doors and characters."
+    },
+    {
+      "id": "scene-55c",
+      "number": 60,
+      "r12Number": 60,
+      "reason": "Place the left/rear canal visibly on the floor in front of the wall. Keep the approved right foreground outlet, original interior doors and characters."
+    }
+  ],
+  "removed": [],
+  "preserveExactly": [
+    "scene-75",
+    "scene-123",
+    "scene-63",
+    "scene-45",
+    "scene-55b"
+  ],
+  "layout": "Do not redesign the route: repair the left/rear floor placement only; keep the right foreground exit. ORIGINAL scene55c is the floor geometry reference."
+}

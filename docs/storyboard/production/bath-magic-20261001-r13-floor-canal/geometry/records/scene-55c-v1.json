@@ -1,0 +1,40 @@
+{
+  "tool": "image_gen__imagegen",
+  "generatedAt": "2026-10-02T01:04:24.108Z",
+  "sourceOutput": "/Users/miguel_lemos/.codex/generated_images/01a0fa05-e7a6-7a00-a6f0-fc3a9cc0cc09/exec-40f4400f-dc3c-4a1c-957c-acbe456b0795.png",
+  "promptPath": "prompts/scene-55c-v1.txt",
+  "references": [
+    "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r12-house-layout/geometry/masters/scene-55c-v1.png",
+    "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r10-story-repair/story/masters/scene-55c-v1.png"
+  ],
+  "visualReview": "Viewed native output. Elevated bath-rim diagonal removed. Lower trough now appears below PinPin raised paw with visible short supports on doorway floor. Right foreground gutter, closed right interior door and all family faces/poses preserved. Sent coordinator for assessment of low segment's occlusion at right jamb before selection or propagation.",
+  "promptSha256": "6cbf847d28e1c1d20cc2e8ae70a5ce9c8288a90b5bde6437941623dbcb3d28a7",
+  "master": {
+    "path": "masters/scene-55c-v1.png",
+    "sha256": "80615d9fb1fa4b187324adc40131d3c561ed2783084f521b5f70487c00f1f0a0",
+    "bytes": 2372250
+  },
+  "referenceIdentities": [
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r12-house-layout/geometry/masters/scene-55c-v1.png",
+      "sha256": "a66776621bd699f6d1f898d30352db1d1922830ebd898390eea650b7be9e65f9",
+      "bytes": 2489898
+    },
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r10-story-repair/story/masters/scene-55c-v1.png",
+      "sha256": "030a975c24b98c7e7c64fdb7577c9e74f619fe785cb9f2d608b307c74fc86b3f",
+      "bytes": 2568523
+    }
+  ],
+  "preservedReferences": [
+    {
+      "path": "references/inputs/a66776621bd6/scene-55c-v1.png",
+      "sha256": "a66776621bd699f6d1f898d30352db1d1922830ebd898390eea650b7be9e65f9"
+    },
+    {
+      "path": "references/inputs/030a975c24b9/scene-55c-v1.png",
+      "sha256": "030a975c24b98c7e7c64fdb7577c9e74f619fe785cb9f2d608b307c74fc86b3f"
+    }
+  ],
+  "reviewStatus": "illustration candidate; awaiting user feedback"
+}
