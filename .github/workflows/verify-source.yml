@@ -26,6 +26,10 @@ jobs:
         with:
           python-version: '3.12'
       - run: npm ci
+      - name: Install verified media restore dependencies
+        run: python -m pip install -r tools/assets/requirements.txt
+      - name: Restore production media from content-addressed public storage
+        run: python tools/assets/hf_store.py pull --manifest tools/assets/production-preservation.json --profile archive --root . --cache "$RUNNER_TEMP/pinpin-asset-cache"
       - run: npm run verify
       - run: npm run test:publishing
       # Official deployment is selected in mr-pinpin/mr-pinpin.github.io.
