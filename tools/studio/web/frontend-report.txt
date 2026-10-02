@@ -1,0 +1,17 @@
+Studio frontend acceptance — 2026-10-02
+
+Working authoring UI: http://127.0.0.1:18805/ (Air tunnel to Mini18806).
+Ownership: tools/studio/web/** only. No source publication, official artwork, or real project mutation performed by the browser test.
+
+Implemented six responsive stages: Book, References, Chapter, Tempo, Storyboard, Production. Named reference cards with uploads and visual pickers; chapter/scene creation and reordering; localized text; cast/location/props; optional per-character position/action/gaze and camera/continuity; editable ordinal tempo. Real composite PNG storyboards work before illustrations exist, with clickable panel/page feedback and explicit revision handoff. Generation requests persist with reference roles, truthful waiting status, candidates, before/after review, approval/history, and deliberate text-to-script adoption. Equirectangular references can be inspected in an owned WebGL look-around viewer.
+
+Explicit Save preserves dirty drafts. Conflicting remote project changes cannot advance the accepted revision through a later job-only update; unresolved conflicts block writes and offer draft download/reload. Pending writes disable editable controls, and save captures a draft epoch as an additional safeguard. Disclosure state is retained while adding blocking rows. Form controls have explicit accessible labels.
+
+Verification: tools/studio/web/tests/browser-smoke.cjs ran on Mini Chrome against a new isolated data directory and server18808. All11 checks passed, zero page errors. Tested chapter create/script/scenes/reorder/save/reload; reference upload; named cast/location and blocking; tempo persistence; actual PNG placeholders/panel feedback/revision queue; two distinct cubemap reference roles; CLI image completion and user approval/history; text completion and Use in script; remote project plus job-only conflict; delayed save; all six stages at390px with no horizontal overflow. All JavaScript modules passed node --check. Root separately visually reviewed all six stages on real seeded data desktop and390px.
+
+Evidence outside repository (no binary test assets committed):
+/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-browser-proof-20261002/browser-proof.json
+/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-browser-proof-20261002/storyboard-desktop.png
+/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-browser-proof-20261002/production-mobile.png
+
+Limits: requests await a real Codex worker; no pretend automatic image generation. Publishing remains separate. Completed candidate lists can be refreshed explicitly without replacing an unsaved draft. Native generation and public release are backend/agent responsibilities.
