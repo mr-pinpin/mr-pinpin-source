@@ -159,7 +159,7 @@
 
   function completeBath(story) {
     const prefix = 'images/published/bath-magic/';
-    const count = story?.editionVersion === 1 ? 139 : story?.editionVersion === 2 ? 172 : null;
+    const count = story?.editionVersion === 1 ? 139 : story?.editionVersion === 2 ? 173 : null;
     if (story?.id !== 'bath-magic' || !count || !localized(story.title) ||
         !localized(story.cover) || !languages.every(lang => [prefix + 'title-' + lang + '.webp', prefix + 'title-' + lang + '-v2.webp'].includes(story.cover[lang])) ||
         story.miniature !== prefix + 'miniature.webp' || story.scenes?.length !== count || story.spreads?.length !== count) return false;
@@ -179,7 +179,7 @@
           scene.width === 1024 && scene.height === 1536
         : /^scene-[0-9]{2,3}(?:[a-z][0-9]?)?$/.test(scene.id) &&
           (scene.image === prefix + scene.id + '.webp' ||
-            (story.editionVersion === 2 && scene.image === prefix + 'r17/' + scene.id + '.webp')) &&
+            (story.editionVersion === 2 && ['r17/','r18/'].some(version => scene.image === prefix + version + scene.id + '.webp'))) &&
           scene.width === 1536 && scene.height === 1024;
     });
   }

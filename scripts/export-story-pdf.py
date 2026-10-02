@@ -16,7 +16,8 @@ from xml.sax.saxutils import escape
 p=argparse.ArgumentParser();p.add_argument('--root',required=True);p.add_argument('--out',required=True);p.add_argument('--story',default='bath-magic');a=p.parse_args()
 root=Path(a.root);out=Path(a.out);out.mkdir(parents=True,exist_ok=True)
 sb=root/'docs/storyboard';model=json.loads((sb/'stories'/f'{a.story}.json').read_text())
-assert len(model['scenes'])==139
+story_count=len(model['scenes']); coloring_count=3; page_count=story_count+coloring_count
+assert story_count>1
 prefix=sb/'images/published'/a.story
 pack=out.parent
 cache=out/'jpeg-cache';cache.mkdir(exist_ok=True)
@@ -25,7 +26,7 @@ pdfmetrics.registerFont(TTFont('BookGeorgiaBold','/System/Library/Fonts/Suppleme
 style=ParagraphStyle('story',fontName='BookGeorgia',fontSize=17,leading=17*1.36,textColor='#282519',spaceAfter=2.4*mm)
 titleStyle=ParagraphStyle('title',fontName='BookGeorgiaBold',fontSize=31,leading=39,alignment=1,textColor='#523316')
 sha=lambda f:hashlib.sha256(Path(f).read_bytes()).hexdigest()
-report={'schemaVersion':1,'storyId':a.story,'storyPageCount':139,'coloringPageCount':3,'pageCount':142,
+report={'schemaVersion':1,'storyId':a.story,'storyPageCount':story_count,'coloringPageCount':coloring_count,'pageCount':page_count,
  'renderer':'ReportLab','verification':'PyMuPDF text/page/image checks','font':'Embedded Georgia/Georgia Bold with Cyrillic',
  'layout':{'story':'A4 landscape','cover':'Portrait at native cover aspect ratio','coloring':'A4 portrait','marginMm':12,'prosePt':17,'leading':23.12},
  'encoding':{'storyArt':'JPEG quality92 native dimensions; originals unchanged','cover':'registered illustrated title art fills page at native aspect ratio','coloring':'native PNG embedded'},
@@ -68,17 +69,17 @@ for lang in ['en','ru','es']:
  for id in ['coloring-title','coloring-ride','coloring-build']:
   c.setPageSize(A4);w,h=A4;fitted(c,pack/'masters'/f'{id}-v1.png',(12*mm,12*mm,w-24*mm,h-24*mm));c.showPage()
  c.save()
- d=fitz.open(file);assert len(d)==142
+ d=fitz.open(file);assert len(d)==page_count
  norm=lambda s:re.sub(r'\s+',' ',unicodedata.normalize('NFKC',s)).strip()
  for n,s in enumerate(model['scenes'][1:],1):
   text=norm(d[n].get_text())
   for para in s['paragraphs'][lang]:assert norm(para) in text,(lang,s['id'],'missing selectable text')
   assert len(d[n].get_images())>=1
- for n in range(139,142):assert len(d[n].get_images())==1
+ for n in range(story_count,page_count):assert len(d[n].get_images())==1
  assert norm(model['title'][lang]) in norm(d[0].get_text())
- longest=max(range(1,139),key=lambda n:sum(map(len,model['scenes'][n]['paragraphs'][lang])))
- for n in [0,1,longest,138,139,140,141]:
+ longest=max(range(1,story_count),key=lambda n:sum(map(len,model['scenes'][n]['paragraphs'][lang])))
+ for n in [0,1,longest,story_count-1,*range(story_count,page_count)]:
   d[n].get_pixmap(matrix=fitz.Matrix(1,1)).save(pack/'screenshots'/f'{lang}-page-{n+1:03}.png')
- entry={'id':a.story,'lang':lang,'filename':file.name,'file':str(file),'bytes':file.stat().st_size,'sha256':sha(file),'pageCount':142,'storyPageCount':139,'coloringPageCount':3,'allParagraphsSelectable':True,'layoutChecked':True}
- report['pdfs'].append(entry);print('PASS',file.name,'142 pages',entry['bytes'],flush=True)
+ entry={'id':a.story,'lang':lang,'filename':file.name,'file':str(file),'bytes':file.stat().st_size,'sha256':sha(file),'pageCount':page_count,'storyPageCount':story_count,'coloringPageCount':coloring_count,'allParagraphsSelectable':True,'layoutChecked':True}
+ report['pdfs'].append(entry);print('PASS',file.name,str(page_count)+' pages',entry['bytes'],flush=True)
 report['pass']=True;(out/'export-manifest.json').write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n')

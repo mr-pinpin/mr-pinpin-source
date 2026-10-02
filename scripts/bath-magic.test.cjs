@@ -1,7 +1,7 @@
 const test=require('node:test'),assert=require('node:assert/strict'),fs=require('node:fs'),path=require('node:path'),vm=require('node:vm');
 const root=path.join(__dirname,'../docs/storyboard'),story=JSON.parse(fs.readFileSync(path.join(root,'stories/bath-magic.json')));
 function api(){const c=vm.createContext({window:{},fetch:async()=>({ok:true,json:async()=>structuredClone(story)})});vm.runInContext(fs.readFileSync(path.join(root,'standalone-stories.js'),'utf8'),c);return c.window.standaloneStories;}
-test('approved bath is one continuous localized 172-image edition',async()=>{const a=api();assert(a.complete(story));assert.equal((await a.load('bath-magic')).scenes.length,172);for(const l of ['en','ru','es']){const e=a.edition(story,l);assert.equal(e.images[0].src,story.cover[l]);assert.equal(e.scenes.length,172);}assert.deepEqual(story.sectionNav.map(s=>s.startScene),[1,101,114,136]);});
+test('approved bath is one continuous localized 173-image edition',async()=>{const a=api();assert(a.complete(story));assert.equal((await a.load('bath-magic')).scenes.length,173);for(const l of ['en','ru','es']){const e=a.edition(story,l);assert.equal(e.images[0].src,story.cover[l]);assert.equal(e.scenes.length,173);}assert.deepEqual(story.sectionNav.map(s=>s.startScene),[1,103,116,137]);});
 test('bath rejects incomplete captions, duplicate scenes and misplaced spreads',()=>{for(const mutate of [s=>s.scenes.pop(),s=>s.scenes[2].id=s.scenes[1].id,s=>s.scenes[4].paragraphs.ru=[],s=>s.spreads[50].scenes=[0]]){const s=structuredClone(story);mutate(s);assert.equal(api().complete(s),false);}});
 
 test('home atlas keeps bedtime primary and exposes bath in the selected language',async()=>{
