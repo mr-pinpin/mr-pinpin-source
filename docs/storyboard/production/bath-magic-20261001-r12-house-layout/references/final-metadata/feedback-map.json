@@ -1,0 +1,69 @@
+{
+  "productionId": "bath-magic-20261001-r12-house-layout",
+  "sourceProduction": "bath-magic-20261001-r11-continuity",
+  "changes": [
+    {
+      "id": "scene-55",
+      "number": 57,
+      "r11Number": 57,
+      "reason": "Restore the original interior doors. The drainage trough runs into the foreground and out of frame toward the garden wall behind the camera."
+    },
+    {
+      "id": "scene-55a",
+      "number": 58,
+      "r11Number": 58,
+      "reason": "Keep the original interior layout during food sharing; continue the aqueduct out of the foreground without inventing a garden door."
+    },
+    {
+      "id": "scene-55c",
+      "number": 60,
+      "r11Number": 60,
+      "reason": "Keep PinPin’s plan and original interior doors; aqueduct continues offscreen toward the real garden exit behind the camera."
+    },
+    {
+      "id": "scene-75",
+      "number": 86,
+      "r11Number": 86,
+      "reason": "Restore Papa’s approved round short face and cool quill colors at the meal where Mama notices the plant growing."
+    },
+    {
+      "id": "scene-123",
+      "number": 108,
+      "r11Number": 109,
+      "reason": "Restore Papa’s approved round short face and cool quill colors, with one Mama and one Papa during aqueduct removal."
+    }
+  ],
+  "removed": [
+    {
+      "id": "scene-82",
+      "r11Number": 94,
+      "reason": "User explicitly removed this image."
+    }
+  ],
+  "counts": {
+    "storyImages": 112,
+    "cover": 1,
+    "newArt": 5,
+    "unchangedArt": 108
+  },
+  "preserveExactly": [
+    "scene-63",
+    "scene-45",
+    "scene-55b"
+  ],
+  "layout": "Kitchen garden wall lies behind the camera. Visible doorways remain interior doorways. The duck’s different frontal view shows the actual exterior door and remains unchanged.",
+  "cameraSpecificContinuity": {
+    "kitchenScenes": [
+      "scene-55",
+      "scene-55a",
+      "scene-55c"
+    ],
+    "kitchenView": "Bath doorway rear center; right door is interior and remains closed. Garden facade behind camera; trough leaves foreground offscreen.",
+    "frontFacadeViews": [
+      "scene-75",
+      "scene-63"
+    ],
+    "frontFacadeView": "Different camera: two round windows with a middle exterior door. Garden visibility is correct.",
+    "rule": "Never blanket-replace garden openings across different camera views."
+  }
+}

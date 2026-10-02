@@ -1,0 +1,39 @@
+{
+  "status": "Complete illustrated house-layout correction draft; unpublished",
+  "scenes": 112,
+  "cover": 1,
+  "newIllustrations": 5,
+  "unchangedSelectedImages": 108,
+  "removedStableId": "scene-82",
+  "removedR11Number": 94,
+  "remainingOrderAndCaptionsUnchanged": true,
+  "originalR11FeedbackNumbersPreserved": true,
+  "generationTool": "image_gen__imagegen",
+  "qa": {
+    "reader/selection-qa.json": {
+      "sha256": "43881af51c8569972716c06ad00bc18a74570ed0acd14f13c218936dbbd52e31"
+    },
+    "boards/qa.json": {
+      "sha256": "13e9c61d8e640b786801ce5eb337e986d2ce097dbf2c3c8f6941def393564539"
+    },
+    "browser-check/results.json": {
+      "sha256": "c0bbb603521cd4e40665f548e76600fa811391e4d810db062c1772f6fc398744"
+    },
+    "input-preservation.json": {
+      "sha256": "67cfa00bc8923fb71315dd46a63f2ce5a5792999b3f85a2ca159e3eec2353954"
+    },
+    "archive-manifest.json": {
+      "sha256": "f9c33b491baf005d6d60585a73ada4f716656f440816e31701bf0896e95f0b3c"
+    },
+    "archive-receipt.json": {
+      "sha256": "6be5fe731a20e76f1f5541bb4753723c58eacfff369edd8a7fe7e01f80637530"
+    }
+  },
+  "archive": {
+    "verified": true,
+    "artifacts": 107,
+    "bytes": 335098544,
+    "freshRemoteReadback": true
+  },
+  "preview": "http://127.0.0.1:18795/storyboard/review/bath-magic-r12-house-layout.html?lang=ru"
+}

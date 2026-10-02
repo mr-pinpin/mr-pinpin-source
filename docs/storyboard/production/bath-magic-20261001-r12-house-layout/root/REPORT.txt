@@ -1,0 +1,27 @@
+R12 Papa identity repair — completed 2026-10-01
+Owner: /root/r12_papa_round
+Scope: stable scene75 (user display86 breakfast) and scene123 (user display109 aqueduct cleanup).
+Built-in image_gen__imagegen used, one edit call per image. No CLI/API fallback. No dog/photo/model-sheet reference.
+
+Both edits restart from the R10 native originals, not rejected R11 wolf-faced revisions.
+Sole identity reference: R10 root/masters/scene-61-v1.png. It provides the compact short rounded cream muzzle, little button nose, soft round cheeks, small round ears, gray-brown cream-tipped quills, broad adult torso.
+All input images viewed before edits; all outputs viewed afterward.
+
+Selected native masters:
+root/masters/scene-75-v1.png
+root/masters/scene-123-v1.png
+Prompts:
+root/prompts/scene-75-v1.txt
+root/prompts/scene-123-v1.txt
+Records and preserved exact input hashes:
+root/records/scene-75-v1.json
+root/records/scene-123-v1.json
+
+Scene75 review:
+Viewed full native output against original and sole Papa scene61 reference. Central adult has compact short round cream muzzle/button nose, round ears/cheeks, gray-brown cream-tipped quills, broad adult body. Other three family members unchanged. Papa holds mug with two connected paws, eyes toward giant flower. Four family members total; Mama supports infant. Both windows, central FRONT garden doorway, aqueduct, plant, table and food remain original composition. No dog reference supplied.
+Geometry intentionally unchanged following coordinator clarification: this breakfast angle looks at the FRONT facade with two round windows and central garden door. The separate kitchen images57/58/60 use another angle and are being fixed in the geometry lane. We do not globally turn every garden door into an internal door.
+
+Scene123 review:
+Viewed full native output against original and sole Papa scene61 reference. Central adult Papa now has cool gray-brown cream-tipped quills, short rounded cream muzzle/little button nose/soft cheeks, round ears and stocky broad adult body, clearly distinct from Mama. Both paws support physical trough. Child carries blocks, Mama supports single baby in rear INTERNAL doorway. Four family members total. Full calm bath, stacked trough pieces, original room geometry unchanged. No canine snout.
+
+No scene82 generation; user display94 deletion belongs reader lane. No source commit or publication performed by this lane.

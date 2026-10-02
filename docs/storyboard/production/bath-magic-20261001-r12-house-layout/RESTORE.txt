@@ -1,0 +1,30 @@
+R12 RESTORATION
+
+Use scoped assets/bath-magic-20261001-r12-house-layout.json and its matching
+verified receipt with the repository asset restoration tool. Do not overwrite
+conflicting files or delete local originals. R12 preserves five new corrections,
+exact model inputs/prompts/native outputs and five RU/five EN comic derivatives.
+
+Also restore the unchanged upstream packs, from their own verified manifests:
+ pinpin-bath-magic-20261001-r11-continuity
+ pinpin-bath-magic-20261001-r10-story-repair
+ pinpin-bath-magic-20261001-r8-herculean
+Keep these as sibling packs under the mini SSD shared directory. Actual byte
+locations follow sourceProduction; immediate lineage follows reusedFromProduction.
+
+Source-only recipes and metadata are committed separately. R12 retains 112 story
+scenes plus cover, removes stable scene-82 (R11 display 94), and records original
+R11 feedback numbers independently of new sequential reading numbers.
+From the pack, using its Pillow environment:
+ .venv/bin/python refresh-media.py
+ .venv/bin/python verify-continuity-selection.py
+ .venv/bin/python finalize-selection.py
+ .venv/bin/python configure-storyboard.py
+ .venv/bin/python build-storyboard.py --languages ru,en --version NEW_INTEGER
+ .venv/bin/python verify-boards.py
+Do not overwrite immutable numbered board masters/build inputs.
+
+Archive upload uses the mini system python3, which has the existing HF package
+and standard authentication. It performs fresh remote byte readback.
+The Air preview forwards port18795 to mini18796. Serve all upstream production
+routes plus the R12 review runtime. This is an unpublished review draft.

@@ -1,0 +1,35 @@
+R12 geometry lane — kitchen continuity correction
+Completed 2026-10-02T00:44:24.706Z
+
+Authoritative user correction: the visible arched door at the right of the breakfast illustrations belongs to an INTERIOR ROOM. The exterior/front entrance is behind the camera. R11 incorrectly transformed this interior door into a garden exit. R12 fixes that mistake without changing the established house layout.
+
+Selected new edits:
+scene-55 (current image57), scene-55a (image58), scene-55c (image60).
+Image59 close-up is unchanged. Scene63 duck/front-door view was not touched.
+
+Original edit targets, inspected before generation:
+55: R8 geometry/masters/scene-55-v1.png
+55a: R10 story/masters/scene-55a-v1.png
+55c: R10 story/masters/scene-55c-v1.png
+The incorrect R11 kitchen images were NOT used as inputs.
+55 was corrected first. Its output served only as the successful trough-routing reference for the subsequent edits of original55a and55c.
+
+Visual result, independently reviewed at native image size:
+- Right door remains CLOSED exactly as in the original, with blue-striped towel across it and hanging towels beside it.
+- No new exterior doorway or garden opening is visible.
+- Rear-center bath fountain remains visible through the original open inner arch.
+- A supported wooden water trough leaves the bath, crosses the common-room floor behind family, then passes down the right side and continues OUT OF THE BOTTOM-RIGHT FRAME.
+- The unseen garden/front exit lies behind the camera. The gutter does not disappear through the wrong interior door.
+- The former indoor metal bucket and curved terminal gutter are removed.
+- Four family characters and their three distinct activities remain: Papa shares toast; family eats/Mama feeds baby; PinPin gestures while proposing his plan.
+- Character scale, warm dimensional faces, round table, camera, props, and architecture retained.
+
+Production/provenance:
+Built-in image_gen__imagegen only, three calls, first output accepted in each case after inspection.
+Native masters: geometry/masters/scene-{55,55a,55c}-v1.png
+Exact prompts: geometry/prompts/scene-{55,55a,55c}-v1.txt
+Records: geometry/records/scene-{55,55a,55c}-v1.json
+Input snapshots and hashes preserved by accept-lane-asset.py.
+Web derivatives quality94, no resize, no image manipulation after generation.
+Illustration-led routing, not a Blender/measured model.
+No R10/R11 master overwritten, no publication or commit performed in this lane.

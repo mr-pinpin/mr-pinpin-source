@@ -1,0 +1,83 @@
+{
+  "productionId": "bath-magic-20261001-r12-house-layout",
+  "sourceProduction": "bath-magic-20261001-r11-continuity",
+  "status": "replanned after user withdrew twelve-mishap direction",
+  "refrain": {
+    "en": "Round and round… just so!",
+    "ru": "Круг за кругом… вот так!",
+    "es": "Vuelta y vuelta… ¡así!"
+  },
+  "nodes": [
+    {
+      "id": 1,
+      "attemptSceneId": "scene-11",
+      "misfireSceneId": "scene-12",
+      "cause": "Many bucket trips",
+      "result": "Endless water"
+    },
+    {
+      "id": 2,
+      "attemptSceneId": "scene-45",
+      "misfireSceneId": "scene-46",
+      "cause": "Source still runs",
+      "result": "Flowers"
+    },
+    {
+      "id": 3,
+      "attemptSceneId": "scene-57",
+      "misfireSceneId": "scene-58",
+      "cause": "Flower obstruction",
+      "result": "Unexpected speaking duck"
+    },
+    {
+      "id": 4,
+      "attemptSceneId": "scene-65",
+      "misfireSceneId": "scene-66",
+      "cause": "Noisy duck",
+      "result": "Twelve ducks"
+    },
+    {
+      "id": 5,
+      "attemptSceneId": "scene-71",
+      "misfireSceneId": "scene-72",
+      "cause": "Flowers obstruct duck pool",
+      "result": "Giant plant"
+    },
+    {
+      "id": 6,
+      "attemptSceneId": "scene-80",
+      "misfireSceneId": "scene-81",
+      "cause": "Wet leaves and petals remain",
+      "result": "Bubbles"
+    }
+  ],
+  "resolution": {
+    "observationSceneIds": [
+      "scene-70",
+      "scene-87",
+      "scene-114"
+    ],
+    "priorHiccupSeed": null,
+    "testSceneIds": [
+      "scene-116",
+      "scene-117",
+      "scene-118"
+    ],
+    "successfulInverseSceneIds": [
+      "scene-119",
+      "scene-120",
+      "scene-121"
+    ],
+    "physicalCleanup": [
+      "scene-122",
+      "scene-123"
+    ],
+    "lakeRelease": [
+      "scene-124",
+      "scene-124a",
+      "scene-125",
+      "scene-126"
+    ],
+    "bathScale": "full-size at all times"
+  }
+}

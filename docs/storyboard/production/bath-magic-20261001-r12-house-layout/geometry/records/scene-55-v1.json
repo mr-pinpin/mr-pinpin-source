@@ -1,0 +1,46 @@
+{
+  "tool": "image_gen__imagegen",
+  "generatedAt": "2026-10-02T00:42:20.773Z",
+  "sourceOutput": "/Users/miguel_lemos/.codex/generated_images/01a0fa05-e7a6-7a00-a6f0-fc3a9cc0cc09/exec-86e1ec93-3c87-4c73-b579-4e1a0cb94647.png",
+  "promptPath": "prompts/scene-55-v1.txt",
+  "references": [
+    "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r8-herculean/geometry/masters/scene-55-v1.png"
+  ],
+  "visualReview": "Viewed full native output. Original CLOSED right INTERIOR door and hanging towels remain intact; no visible exterior doorway was introduced. Bath fountain remains in rear-center room, supported water trough leaves it, is naturally occluded behind family and then follows right common-room floor OUT OF BOTTOM-RIGHT FRAME toward unseen front exit behind camera. Metal bucket endpoint removed. All four original family characters and distinct breakfast activity preserved. No duplicate Mama, missing baby or architecture opening drift observed. Same trough routing across55/55a/55c.",
+  "promptSha256": "5e5f772e9a9bf6c36afe8839e2e9becee6fbfb2146883274b1a69badddd95624",
+  "master": {
+    "path": "masters/scene-55-v1.png",
+    "sha256": "8ac9aa7f454760fc8e9ba91ef3a98976f788984ab34b4eb04d1d909fca05f0ee",
+    "bytes": 2549068
+  },
+  "referenceIdentities": [
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r8-herculean/geometry/masters/scene-55-v1.png",
+      "sha256": "a90ce7eab6fed7790217f638a7d84a4d3f2ea059c232cf2e4e495b814bbd6b43",
+      "bytes": 2630967
+    }
+  ],
+  "preservedReferences": [
+    {
+      "path": "references/inputs/a90ce7eab6fe/scene-55-v1.png",
+      "sha256": "a90ce7eab6fed7790217f638a7d84a4d3f2ea059c232cf2e4e495b814bbd6b43"
+    }
+  ],
+  "reviewStatus": "illustration candidate; awaiting user feedback",
+  "web": {
+    "path": "web/scene-55.webp",
+    "sha256": "5c4e09eafb958bb8c524093a5dbf5ada0fbc9055e62ef76a8489cc7bb974b358",
+    "bytes": 459690
+  },
+  "dimensions": [
+    1536,
+    1024
+  ],
+  "conversion": {
+    "format": "WebP",
+    "quality": 94,
+    "method": 6,
+    "resized": false,
+    "artEdited": false
+  }
+}

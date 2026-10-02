@@ -1,0 +1,45 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "width": 1440,
+      "defaultRussian": true,
+      "fullReaderScenes": 112,
+      "decodedSceneImages": 112,
+      "boardImagesDecoded": 10,
+      "panelLinks": 112,
+      "textComparison": true,
+      "languages": [
+        "ru",
+        "en",
+        "es"
+      ],
+      "noOverflow": true
+    },
+    {
+      "width": 390,
+      "defaultRussian": true,
+      "fullReaderScenes": 112,
+      "decodedSceneImages": 112,
+      "boardImagesDecoded": 10,
+      "panelLinks": 112,
+      "textComparison": true,
+      "languages": [
+        "ru",
+        "en",
+        "es"
+      ],
+      "noOverflow": true
+    }
+  ],
+  "errors": [],
+  "sourceHashes": {
+    "story-plan.json": "741035d4a5342cdc957a29c32c8ca1b24559d2d595170b08e9f3089e7a0e97bd",
+    "causal-rhythm.json": "636b2d511e6ef11236f0438108ccaa28000525c93d2ab7fde797e93d7d9ea63b",
+    "feedback-map.json": "7d9fde29fad4e1d0e061417c3edb712c5089dd5808c9712a4926609190dcbb7d",
+    "boards/manifest.json": "e5caba6f5f20054380a198ccb8ecacbd4fe61994039639514c07d8e6319a6ec6",
+    "docs/storyboard/review/bath-magic-r12-house-layout.html": "cb7b7af8d51d9e012d9e6e66ffe46265967d4da5a4fc4ea9704c362bcd1d80f8",
+    "docs/storyboard/review/bath-magic-r12-house-layout.css": "12f8512376ea5ca1350d33497843830eca978c07bfcc17b59e4423fc1f492acd",
+    "docs/storyboard/review/bath-magic-r12-house-layout.js": "cf2df9ef2f4d69b872713afeba37ee9caaa703aaa7988aa7e3660339bdeeab4b"
+  }
+}

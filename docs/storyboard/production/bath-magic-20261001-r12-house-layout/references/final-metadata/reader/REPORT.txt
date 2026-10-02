@@ -1,0 +1,51 @@
+R12 HOUSE LAYOUT AND PAPA IDENTITY — UNPUBLISHED REVIEW
+
+112 story scenes plus cover. The only removal is stable scene-82, previously
+R11 image94. All other scenes keep their relative order and exact captions.
+Review labels preserve R11 image numbers; new reading numbers are sequential.
+
+Five changed illustrations, shown by R11 feedback number:
+57 (scene-55),58 (scene-55a),60 (scene-55c):
+  Restore the original interior kitchen doorways. The garden wall is behind
+  this camera. The wooden aqueduct runs toward and off the foreground, not
+  through the interior right-hand door into an invented garden opening.
+86 (scene-75):
+  Restore Papa's short rounded face, button nose and cool quill tones.
+  Preserve breakfast and Mama noticing the giant plant's growth.
+109 (scene-123; now reading108):
+  Restore Papa's short rounded face and adult body during aqueduct removal;
+  retain one Mama holding the baby and one Papa, with PinPin helping.
+
+Scene63 (R11 image69) remains byte-identical: this different camera faces the
+actual two-window front facade and exterior door. Its downstream duck correction
+is retained. This lesson is recorded in reader/HOUSE-CONTINUITY.txt. Do not
+replace garden views across different camera orientations indiscriminately.
+Stable scene45 and the tight thinking close-up scene55b also remain unchanged.
+All 108 unedited selected slots are byte-identical to R11.
+
+Full reader:
+ http://127.0.0.1:18795/storyboard/review/bath-magic-r12-house-layout.html?lang=ru
+Before/after: add &view=changes
+Five-sheet overview: add &view=storyboard
+Russian, English and Spanish reading; five compact sheets in Russian and English.
+Before/after compares five edits against exact R11 selected bytes and identifies
+deleted R11 image94 separately. Previous R11 version remains accessible.
+
+PROVENANCE AND CHECKS
+All five edits used the built-in image tool, with native outputs, exact prompts,
+reference snapshots and hashes retained under root/ and geometry/.
+Root inspected all five proposed corrections before selection freeze.
+input-preservation.json checks original image-tool bytes, prompts and inputs.
+reader/selection-qa.json checks all113 pointers, five changes, one removal,
+unchanged remaining order/captions and original R11 feedback numbering.
+boards/qa.json verifies224 captioned panels, hashes and exact contained pixels.
+browser-check/results.json records Chrome checks at390 and1440 widths, all112
+decoded story images, five comparison rows, one removal, flags and scene links.
+Board v2 is final; v1's inherited metadata counts were corrected without changing
+captions, artwork or actual112-panel layout. Original build inputs retained.
+
+PRESERVATION
+R12 archives new corrections/reference inputs/boards only. R11/R10/R8 remain
+the restoration sources for unchanged byte pointers. See RESTORE.txt.
+Only archive-receipt.json with fresh verified remote readback proves backup.
+No official publication, source push or unrelated edits are included.

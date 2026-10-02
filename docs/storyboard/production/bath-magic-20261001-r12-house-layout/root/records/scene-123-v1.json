@@ -1,0 +1,56 @@
+{
+  "tool": "image_gen__imagegen",
+  "generatedAt": "2026-10-02T00:44:05.593Z",
+  "sourceOutput": "/Users/miguel_lemos/.codex/generated_images/01a0fa0e-884b-7703-be8d-7ace86b986f9/exec-c8bfd935-a924-4027-9b61-08768cec8212.png",
+  "promptPath": "prompts/scene-123-v1.txt",
+  "references": [
+    "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r10-story-repair/root/masters/scene-123-v1.png",
+    "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r10-story-repair/root/masters/scene-61-v1.png"
+  ],
+  "visualReview": "Viewed full native output against original and sole Papa scene61 reference. Central adult Papa now has cool gray-brown cream-tipped quills, short rounded cream muzzle/little button nose/soft cheeks, round ears and stocky broad adult body, clearly distinct from Mama. Both paws support physical trough. Child carries blocks, Mama supports single baby in rear INTERNAL doorway. Four family members total. Full calm bath, stacked trough pieces, original room geometry unchanged. No canine snout.",
+  "promptSha256": "3d7d3ac4e5cc1a08951dd4fd13d10f2e39d7118343f652d081035664e26969d3",
+  "master": {
+    "path": "masters/scene-123-v1.png",
+    "sha256": "2cb68e594ffb126361f35fddabf0500893a7e61c3c61f4920b3ab8c30247c96e",
+    "bytes": 2435633
+  },
+  "referenceIdentities": [
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r10-story-repair/root/masters/scene-123-v1.png",
+      "sha256": "f854bf84c43108768a6c29d57773d01f305a1ab88ead494c89f57d64ca5994aa",
+      "bytes": 2528460
+    },
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r10-story-repair/root/masters/scene-61-v1.png",
+      "sha256": "9a9d067e92fd32cfd59c24f5a733711d522a42acb610f0c00891aa4e07b07314",
+      "bytes": 2407571
+    }
+  ],
+  "preservedReferences": [
+    {
+      "path": "references/inputs/f854bf84c431/scene-123-v1.png",
+      "sha256": "f854bf84c43108768a6c29d57773d01f305a1ab88ead494c89f57d64ca5994aa"
+    },
+    {
+      "path": "references/inputs/9a9d067e92fd/scene-61-v1.png",
+      "sha256": "9a9d067e92fd32cfd59c24f5a733711d522a42acb610f0c00891aa4e07b07314"
+    }
+  ],
+  "reviewStatus": "illustration candidate; awaiting user feedback",
+  "web": {
+    "path": "web/scene-123.webp",
+    "sha256": "dbdbabe8f5282f4e4cc5b81565825a25ac2eed7f6715fcbff3bfcc3fb9f691f7",
+    "bytes": 414216
+  },
+  "dimensions": [
+    1536,
+    1024
+  ],
+  "conversion": {
+    "format": "WebP",
+    "quality": 94,
+    "method": 6,
+    "resized": false,
+    "artEdited": false
+  }
+}

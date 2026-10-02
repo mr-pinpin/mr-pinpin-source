@@ -1,0 +1,56 @@
+{
+  "tool": "image_gen__imagegen",
+  "generatedAt": "2026-10-02T00:43:42.889Z",
+  "sourceOutput": "/Users/miguel_lemos/.codex/generated_images/01a0fa05-e7a6-7a00-a6f0-fc3a9cc0cc09/exec-7f8fd593-dd7d-4da0-b009-3cdc7d591404.png",
+  "promptPath": "prompts/scene-55c-v1.txt",
+  "references": [
+    "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r10-story-repair/story/masters/scene-55c-v1.png",
+    "/Users/miguel_lemos/.codex/generated_images/01a0fa05-e7a6-7a00-a6f0-fc3a9cc0cc09/exec-86e1ec93-3c87-4c73-b579-4e1a0cb94647.png"
+  ],
+  "visualReview": "Viewed full native output. Original CLOSED right INTERIOR door and hanging towels remain intact; no visible exterior doorway was introduced. Bath fountain remains in rear-center room, supported water trough leaves it, is naturally occluded behind family and then follows right common-room floor OUT OF BOTTOM-RIGHT FRAME toward unseen front exit behind camera. Metal bucket endpoint removed. All four original family characters and distinct breakfast activity preserved. No duplicate Mama, missing baby or architecture opening drift observed. Same trough routing across55/55a/55c.",
+  "promptSha256": "0dc95ad5bf1fc96f954cfc1f9859bf3a3651474fc3f17b46a6d6f0fa2481b2d3",
+  "master": {
+    "path": "masters/scene-55c-v1.png",
+    "sha256": "a66776621bd699f6d1f898d30352db1d1922830ebd898390eea650b7be9e65f9",
+    "bytes": 2489898
+  },
+  "referenceIdentities": [
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r10-story-repair/story/masters/scene-55c-v1.png",
+      "sha256": "030a975c24b98c7e7c64fdb7577c9e74f619fe785cb9f2d608b307c74fc86b3f",
+      "bytes": 2568523
+    },
+    {
+      "path": "/Users/miguel_lemos/.codex/generated_images/01a0fa05-e7a6-7a00-a6f0-fc3a9cc0cc09/exec-86e1ec93-3c87-4c73-b579-4e1a0cb94647.png",
+      "sha256": "8ac9aa7f454760fc8e9ba91ef3a98976f788984ab34b4eb04d1d909fca05f0ee",
+      "bytes": 2549068
+    }
+  ],
+  "preservedReferences": [
+    {
+      "path": "references/inputs/030a975c24b9/scene-55c-v1.png",
+      "sha256": "030a975c24b98c7e7c64fdb7577c9e74f619fe785cb9f2d608b307c74fc86b3f"
+    },
+    {
+      "path": "references/inputs/8ac9aa7f4547/exec-86e1ec93-3c87-4c73-b579-4e1a0cb94647.png",
+      "sha256": "8ac9aa7f454760fc8e9ba91ef3a98976f788984ab34b4eb04d1d909fca05f0ee"
+    }
+  ],
+  "reviewStatus": "illustration candidate; awaiting user feedback",
+  "web": {
+    "path": "web/scene-55c.webp",
+    "sha256": "9bbad2104772c2c61b8ad3f83753834e177035899caa6243ef3a60c1c3efffd7",
+    "bytes": 444190
+  },
+  "dimensions": [
+    1536,
+    1024
+  ],
+  "conversion": {
+    "format": "WebP",
+    "quality": 94,
+    "method": 6,
+    "resized": false,
+    "artEdited": false
+  }
+}
