@@ -15,3 +15,6 @@ Evidence outside repository (no binary test assets committed):
 /Volumes/TB4/mac-mini-storage/shared/pinpin-studio-browser-proof-20261002/production-mobile.png
 
 Limits: requests await a real Codex worker; no pretend automatic image generation. Publishing remains separate. Completed candidate lists can be refreshed explicitly without replacing an unsaved draft. Native generation and public release are backend/agent responsibilities.
+
+Catalog-only correction — 2026-10-02:
+Historical published entries now show Published chapter and a direct language-aware public reader link instead of0beats/Open-to-empty-editor. Selecting one in Chapter,Tempo,Storyboard orProduction shows its cover and clear published-reference explanation, Open published chapter and Start a new chapter actions. The working R18 draft remains editable. Read-only browser test tests/catalogue-smoke.cjs passed for all3languages at1440/390, with zero browser errors, zero project mutation requests, and no horizontal overflow. Evidence: external browser-proof folder/catalogue-proof.json. New module published.js centralizes safe HTTP(S) reader URLs and shared banner; no historic chapters imported or changed.
