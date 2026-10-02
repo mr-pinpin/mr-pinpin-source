@@ -1,0 +1,32 @@
+R16 TRAVEL DIRECTION — COMPLETE UNPUBLISHED REVIEW
+
+Only stable scene32b / current image51 changes: Scooby, Papa and PinPin now
+travel and look screen-right toward Beaver's position in next scene32c.
+One native image-model edit, one preserved input and exact prompt/record.
+Coordinator independently inspected and passed the native result.
+No other illustration, caption, title, cast, day, scene order or count changes.
+138 scenes plus cover; all138 other selected images byte-identical to R15.
+R15 preview remains intact.
+
+Full reader:
+http://127.0.0.1:18795/storyboard/review/bath-magic-r16-travel-direction.html?lang=ru
+Single before/after: add &view=changes
+Five-sheet storyboard: add &view=storyboard
+Three reader languages EN/RU/ES; comic boards RU/EN.
+
+Existing board builder has no selective-sheet mode. All ten compact sheets
+were rebuilt with current R15 feedback labels and one changed picture.
+No artwork changes from board assembly; boards/qa.json verifies276 panels,
+exact captions, selected image hashes and unchanged contained source pixels.
+
+Focused QA passes: scene32b and next32c decode with correct selected hashes,
+one comparison and zero text/insertion changes, affected board decodes,
+138 rendered scenes and3languages at390/1440 widths, no horizontal overflow
+or browser errors. Before/after1440 screenshot visually reviewed.
+reader/selection-qa.json checks all139 actual hashes and all narrative fields.
+
+Mini SSD retains native image, exact prompt/input snapshot, all board masters,
+derivatives and browser proof. Scoped archive uses fresh remote readback;
+archive-receipt.json and final-proof.json provide completion evidence.
+R15 and its ancestry remain immutable pointer sources for unchanged images.
+Source-only scoped commit, no push or official publication.

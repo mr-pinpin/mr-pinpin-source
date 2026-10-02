@@ -1,0 +1,46 @@
+{
+  "tool": "image_gen__imagegen",
+  "generatedAt": "2026-10-02T04:46:49.834Z",
+  "sourceOutput": "/Users/miguel_lemos/.codex/generated_images/01a0fa0e-884b-7703-be8d-7ace86b986f9/exec-3126d874-1a83-4a79-bd4d-d62395b90c68.png",
+  "promptPath": "prompts/scene-32b-v1.txt",
+  "references": [
+    "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r15-beaver-aqueduct/geometry/masters/scene-32b-v1.png"
+  ],
+  "visualReview": "Native viewed PASS. Scooby wholebody/leadingforepaw/nose moveRIGHT, curledtailLEFT. PinPinfrontnearshoulders/Papabehind supportchild andbasket. BothriderslookRIGHT, notbackwards. Exactly3characters1basket, sameidentitiesroundedPapa/copperchild/brownfloppydog.4doglegs physicallygroundedstride. Forest/riversetting/camera/warmdaylight retained.",
+  "promptSha256": "a867502b607f5f2e82f6d4a4ab9cb4969771176867842c026ce03fc37ef077db",
+  "master": {
+    "path": "masters/scene-32b-v1.png",
+    "sha256": "69bb4bdbdb93a81a1ff7bcf011b4f8aada0bcc6d3c3468771f55939c33828c78",
+    "bytes": 3046284
+  },
+  "referenceIdentities": [
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r15-beaver-aqueduct/geometry/masters/scene-32b-v1.png",
+      "sha256": "566e108028f7c6dba3dc9a0d074dffd2ac65728afbeecf965bc60eaa11878d44",
+      "bytes": 3038013
+    }
+  ],
+  "preservedReferences": [
+    {
+      "path": "references/inputs/566e108028f7/scene-32b-v1.png",
+      "sha256": "566e108028f7c6dba3dc9a0d074dffd2ac65728afbeecf965bc60eaa11878d44"
+    }
+  ],
+  "reviewStatus": "illustration candidate; awaiting user feedback",
+  "web": {
+    "path": "web/scene-32b.webp",
+    "sha256": "0ca6f054f3aabddf0dad48cbdfcb90cf9fb1ac085206900b2b9a6278d6ac2703",
+    "bytes": 601994
+  },
+  "dimensions": [
+    1536,
+    1024
+  ],
+  "conversion": {
+    "format": "WebP",
+    "quality": 94,
+    "method": 6,
+    "resized": false,
+    "artEdited": false
+  }
+}

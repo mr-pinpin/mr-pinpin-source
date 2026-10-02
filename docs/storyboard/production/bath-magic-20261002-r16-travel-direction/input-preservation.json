@@ -1,0 +1,27 @@
+{
+  "status": "Exact originals, prompts and input bytes verified locally; remote proof in scoped archive receipt",
+  "generations": [
+    {
+      "record": "geometry/records/scene-32b-v1.json",
+      "recordSha256": "ce2a4a387538d7891dd684214c57e4b10c4ce4b1d5171f8a2b923839256d95f3",
+      "tool": "image_gen__imagegen",
+      "master": "geometry/masters/scene-32b-v1.png",
+      "masterSha256": "69bb4bdbdb93a81a1ff7bcf011b4f8aada0bcc6d3c3468771f55939c33828c78",
+      "nativeToolOutputMatched": true,
+      "prompt": "geometry/prompts/scene-32b-v1.txt",
+      "promptSha256": "a867502b607f5f2e82f6d4a4ab9cb4969771176867842c026ce03fc37ef077db",
+      "inputs": [
+        {
+          "originalPath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r15-beaver-aqueduct/geometry/masters/scene-32b-v1.png",
+          "sha256": "566e108028f7c6dba3dc9a0d074dffd2ac65728afbeecf965bc60eaa11878d44",
+          "preservedPaths": [
+            "geometry/references/inputs/566e108028f7/scene-32b-v1.png"
+          ]
+        }
+      ]
+    }
+  ],
+  "uniqueInputHashes": [
+    "566e108028f7c6dba3dc9a0d074dffd2ac65728afbeecf965bc60eaa11878d44"
+  ]
+}
