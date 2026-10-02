@@ -1,0 +1,20 @@
+{
+  "tool": "image_gen__imagegen",
+  "promptPath": "prompts/coloring-title-v1.txt",
+  "promptSha256": "f5de3f6323d296e7bb9590849c1e47cbee78fc64bafd560000f8779fcedd178c",
+  "sourceOutput": "/Users/miguel_lemos/.codex/generated_images/01a0fa0e-884b-7703-be8d-7ace86b986f9/exec-343945cb-fbb3-4669-aafb-3f7e143d91df.png",
+  "master": "masters/coloring-title-v1.png",
+  "sha256": "9492da610b17787fc2a591da6e354e10e843df04eab49c3d971c2d6a0c7bdbbc",
+  "references": [
+    {
+      "source": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r8-herculean/root/web/title.webp",
+      "path": "references/bef832f38a4f/title.webp",
+      "sha256": "bef832f38a4fd690e647417fa6d26f1e2824c0ac5131f35ca724a2a8b0612842"
+    }
+  ],
+  "dimensions": [
+    1024,
+    1536
+  ],
+  "visualReview": "Native inspected: correct story identities/action, clean simple black contours with ample white crayon areas."
+}

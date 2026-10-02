@@ -1,0 +1,49 @@
+Approved R16 bath chapter publication — source/release handoff, 2026-10-02
+
+Canonical story: bath-magic. One continuous chapter,138 narrative illustrations
+plus localized title cover; EN/RU/ES. Optional four-day links use existing spread
+anchors, without pagination or changes to other books. Atlas geography remains
+four regions; bedtime remains primary in home's preview and bath appears as a
+second thumbnail/link. House entry still returns to the main menu. Library cover
+selection still downloads PDF. All3 PDFs have142pages including3 coloring pages.
+
+Build isolation:
+Source release branch publish/bath-magic-20261002 starts at currently published
+source2b61f81fd0f10ea80bf9d082dd47037cedebe437. Current official selector baseline
+edcc16b44cbb5e350719a3b04b826a446bd09d56da96b1491722fcc38e596b39.
+The published archive contained three runtime files differing from that source
+commit: room-compare.html/css and home-panorama-gl.js. Their already-public bytes
+were restored to this checkout; they are unchanged in the resulting public site.
+Baseline source also contains review routes intentionally absent from release.
+scripts/build-bath-release.py verifies the materialized current release, overlays
+only explicit bath integration files and registered art, then uses normal
+build-pages.cjs production/hash/reference/budget checks. No review pages ship.
+Final build-proof.json:894files909263528bytes;13intended runtime/catalog changes,
+143newfiles, zero removals; every other previously published file byte-identical.
+
+Art and downloads:
+All138narrativeWebPs and approved title-art WebP copied byte-exact from R16 selected
+pointers. Portrait typography preserves the full approved title art uncropped.
+3localizedcovers,1text-freeminiature and3line-art crayonpages meet chapter standards.
+146folderassets preserved with verified readback before new-file ignore entries;
+142runtimeassets extend tools/assets/production-preservation.json. No deletions,
+untracking, destructive history changes or binary Git additions.
+PDFs stay outside Pages. Exact URLs/hash/size/pagecounts in library-pdfs.json;
+all3 SDK and anonymous full readbacks passed. RU actual browser download verified
+112736395bytes/SHA and suppressed the HTML reader. Existing9catalog/27PDF entries
+unchanged. Native generation/provenance/recipes are archived independently.
+
+Validation:
+Focused registry/asset tests pass. Browser tests decode139images in RU/EN/ES at
+390/1440width, verify all4daylinks, no horizontal overflow, unchanged bedtime,
+new library tile, and home preview bath link preserving language. Zero JS errors.
+Final home-only fit refinement checked390/1200:both choices visible together.
+Source-art-lineage.json, build-proof.json, browser-results.json,
+home-preview-final.json, pdf-browser-check.json and pdf/anonymous proof record
+these gates. Package/upload/select/Pages/live verification happens after this
+source commit and is recorded in the external release pack REPORT.txt.
+
+Public routes on successful deployment:
+https://mr-pinpin.github.io/storyboard/?story=bath-magic&lang=ru
+https://mr-pinpin.github.io/storyboard/?story=bath-magic&lang=en
+Add &download=pdf for the selected language's PDF.

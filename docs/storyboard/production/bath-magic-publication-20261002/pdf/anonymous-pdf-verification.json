@@ -1,0 +1,42 @@
+{
+  "verified": true,
+  "authentication": "none; urllib requests with no auth headers or credentials",
+  "entries": [
+    {
+      "lang": "en",
+      "url": "https://huggingface.co/buckets/miguelemosreverte/mr-pinpin-archive/resolve/sha256/7f/7f6c0ce2e00b91cb33139fbdd2f6d4a3876564d2e35a120caf3a85f8b6d17389/bath-magic-en.pdf",
+      "status": 200,
+      "bytes": 112719297,
+      "sha256": "7f6c0ce2e00b91cb33139fbdd2f6d4a3876564d2e35a120caf3a85f8b6d17389",
+      "contentType": "application/pdf",
+      "cors": "*",
+      "anonymous": true,
+      "pdfMagic": true,
+      "verified": true
+    },
+    {
+      "lang": "ru",
+      "url": "https://huggingface.co/buckets/miguelemosreverte/mr-pinpin-archive/resolve/sha256/6c/6c09e5efe0841f8b85f876624e4ab76cf7211d666a63f369bc37ccb6765d5d2b/bath-magic-ru.pdf",
+      "status": 200,
+      "bytes": 112736395,
+      "sha256": "6c09e5efe0841f8b85f876624e4ab76cf7211d666a63f369bc37ccb6765d5d2b",
+      "contentType": "application/pdf",
+      "cors": "*",
+      "anonymous": true,
+      "pdfMagic": true,
+      "verified": true
+    },
+    {
+      "lang": "es",
+      "url": "https://huggingface.co/buckets/miguelemosreverte/mr-pinpin-archive/resolve/sha256/4c/4cc76ec19cf60717732a8e532a1968146c4b35565331ff033629abaf661c6079/bath-magic-es.pdf",
+      "status": 200,
+      "bytes": 112720838,
+      "sha256": "4cc76ec19cf60717732a8e532a1968146c4b35565331ff033629abaf661c6079",
+      "contentType": "application/pdf",
+      "cors": "*",
+      "anonymous": true,
+      "pdfMagic": true,
+      "verified": true
+    }
+  ]
+}

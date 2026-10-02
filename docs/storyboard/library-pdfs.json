@@ -401,6 +401,50 @@
       },
       "storyPageCount": 70,
       "coloringPageCount": 3
+    },
+    {
+      "id": "bath-magic",
+      "title": {
+        "en": "PinPin and the Water That Wouldn't Stop",
+        "ru": "Пин-Пин и непослушная вода",
+        "es": "PinPin y el agua que no paraba"
+      },
+      "cover": {
+        "en": "images/published/bath-magic/title-en.webp",
+        "ru": "images/published/bath-magic/title-ru.webp",
+        "es": "images/published/bath-magic/title-es.webp"
+      },
+      "coverId": "bath-magic",
+      "miniature": "images/published/bath-magic/miniature.webp",
+      "pageCount": 142,
+      "storyPageCount": 139,
+      "coloringPageCount": 3,
+      "route": {
+        "story": "bath-magic"
+      },
+      "pdf": {
+        "en": {
+          "url": "https://huggingface.co/buckets/miguelemosreverte/mr-pinpin-archive/resolve/sha256/7f/7f6c0ce2e00b91cb33139fbdd2f6d4a3876564d2e35a120caf3a85f8b6d17389/bath-magic-en.pdf",
+          "filename": "bath-magic-en.pdf",
+          "bytes": 112719297,
+          "sha256": "7f6c0ce2e00b91cb33139fbdd2f6d4a3876564d2e35a120caf3a85f8b6d17389",
+          "pageCount": 142
+        },
+        "ru": {
+          "url": "https://huggingface.co/buckets/miguelemosreverte/mr-pinpin-archive/resolve/sha256/6c/6c09e5efe0841f8b85f876624e4ab76cf7211d666a63f369bc37ccb6765d5d2b/bath-magic-ru.pdf",
+          "filename": "bath-magic-ru.pdf",
+          "bytes": 112736395,
+          "sha256": "6c09e5efe0841f8b85f876624e4ab76cf7211d666a63f369bc37ccb6765d5d2b",
+          "pageCount": 142
+        },
+        "es": {
+          "url": "https://huggingface.co/buckets/miguelemosreverte/mr-pinpin-archive/resolve/sha256/4c/4cc76ec19cf60717732a8e532a1968146c4b35565331ff033629abaf661c6079/bath-magic-es.pdf",
+          "filename": "bath-magic-es.pdf",
+          "bytes": 112720838,
+          "sha256": "4cc76ec19cf60717732a8e532a1968146c4b35565331ff033629abaf661c6079",
+          "pageCount": 142
+        }
+      }
     }
   ]
 }

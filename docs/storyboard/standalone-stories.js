@@ -76,6 +76,7 @@
   }
 
   function complete(story, chapter = story?.number ?? 1) {
+    if (story?.id === 'bath-magic') return completeBath(story);
     if (elderIds.includes(story?.id)) return completeElder(story);
     if (story?.id === 'home-sweet-home') return completeBedtime(story);
     const number = chapterNumber(chapter);
@@ -156,7 +157,39 @@
       Array.isArray(spread.scenes) && spread.scenes.length === 1 && spread.scenes[0] === index);
   }
 
+  function completeBath(story) {
+    const prefix = 'images/published/bath-magic/';
+    if (story?.id !== 'bath-magic' || story.editionVersion !== 1 || !localized(story.title) ||
+        !localized(story.cover) || !languages.every(lang => story.cover[lang] === prefix + 'title-' + lang + '.webp') ||
+        story.miniature !== prefix + 'miniature.webp' || story.scenes?.length !== 139 || story.spreads?.length !== 139) return false;
+    const seen = new Set();
+    return story.scenes.every((scene, index) => {
+      if (!scene || seen.has(scene.id) || !localized(scene.alt)) return false;
+      seen.add(scene.id);
+      if (!languages.every(lang => Array.isArray(scene.paragraphs?.[lang]) &&
+          (index === 0 ? scene.paragraphs[lang].length === 0 : scene.paragraphs[lang].length > 0) &&
+          scene.paragraphs[lang].every(p => typeof p === 'string' && p.trim()))) return false;
+      const spread = story.spreads[index];
+      if (!spread || spread.scenes?.length !== 1 || spread.scenes[0] !== index ||
+          spread.style !== (index === 0 ? 'cover' : 'elder') || spread.paper !== (index === 0 ? 'portrait' : 'landscape')) return false;
+      return index === 0
+        ? scene.id === 'bath-magic-title' && scene.role === 'title' && localized(scene.images) &&
+          languages.every(lang => scene.images[lang] === story.cover[lang]) && scene.image === story.cover.en &&
+          scene.width === 1024 && scene.height === 1536
+        : /^scene-[0-9]{2,3}[a-z]?$/.test(scene.id) && scene.image === prefix + scene.id + '.webp' &&
+          scene.width === 1536 && scene.height === 1024;
+    });
+  }
+
   async function load(id, legacyChapter) {
+    if (id === 'bath-magic') {
+      try {
+        const response = await fetch('stories/bath-magic.json', {cache:'no-cache'});
+        if (!response.ok) return null;
+        const story = await response.json();
+        return completeBath(story) ? story : null;
+      } catch { return null; }
+    }
     if (elderIds.includes(id)) {
       try {
         const response = await fetch(`stories/${id}.json`, {cache:'no-cache'});
@@ -196,5 +229,5 @@
     };
   }
   window.standaloneStories = {complete, completeElder, compose, load, edition,
-    available:async () => (await Promise.all(['timber-tractor', 'home-sweet-home', 'one-day-in-the-forest'].map(id => load(id)))).filter(Boolean)};
+    available:async () => (await Promise.all(['timber-tractor', 'home-sweet-home', 'one-day-in-the-forest', 'bath-magic'].map(id => load(id)))).filter(Boolean)};
 })();

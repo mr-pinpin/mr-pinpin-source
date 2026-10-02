@@ -1,10 +1,10 @@
 // Perspective rays sample a spherical base plus calibrated perspective repair faces.
-export function panoramaRenderer(canvas,image,repairs={},config={repairs:{fov:110,frontMask:[.102,-.028,.075,.075]}},detailImage=null){
+export function panoramaRenderer(canvas,image,repairs={},config={repairs:{fov:110,frontMask:[.102,-.028,.075,.075]}}){
  const gl=canvas.getContext('webgl',{alpha:false,antialias:false,powerPreference:'low-power'});if(!gl)throw Error('WebGL unavailable');
  const shaders=[];function shader(type,source){const s=gl.createShader(type);gl.shaderSource(s,source);gl.compileShader(s);if(!gl.getShaderParameter(s,gl.COMPILE_STATUS))throw Error('Panorama shader unavailable');shaders.push(s);return s;}
  const program=gl.createProgram();gl.attachShader(program,shader(gl.VERTEX_SHADER,'attribute vec2 aPosition;varying vec2 p;void main(){p=aPosition;gl_Position=vec4(aPosition,0.,1.);}'));
  gl.attachShader(program,shader(gl.FRAGMENT_SHADER,`precision highp float;varying vec2 p;
- uniform sampler2D uImage,uFront,uRear,uUp,uDown,uDetail;uniform vec4 uDetailCamera,uDetailMask;uniform vec4 uCamera,uEnabled,uFrontMask;uniform float uPatchTan;uniform vec3 uDownMaskX;
+ uniform sampler2D uImage,uFront,uRear,uUp,uDown;uniform vec4 uCamera,uEnabled,uFrontMask;uniform float uPatchTan;
  vec4 repair(sampler2D image,vec3 local,float enabled,float front){
   if(enabled<.5||local.z<=0.)return vec4(0.);
   vec2 q=local.xy/(local.z*uPatchTan);float edge=max(abs(q.x),abs(q.y));
@@ -20,37 +20,18 @@ export function panoramaRenderer(canvas,image,repairs={},config={repairs:{fov:11
   vec2 uv=vec2(fract(.5+atan(w.x,w.z)/6.28318530718),.5-asin(clamp(w.y,-1.,1.))/3.14159265359);
   vec4 f=repair(uFront,w,uEnabled.x,1.),b=repair(uRear,vec3(-w.x,w.y,-w.z),uEnabled.y,0.);
   vec4 t=repair(uUp,vec3(w.x,-w.z,w.y),uEnabled.z,0.),d=repair(uDown,vec3(w.x,w.z,-w.y),uEnabled.w,0.);
-  if(uDownMaskX.z>.5&&w.y<0.)d.a*=1.-smoothstep(uDownMaskX.x,uDownMaskX.y,w.x/(-w.y*uPatchTan));
   float base=1.-max(max(f.a,b.a),max(t.a,d.a));
   vec3 color=(texture2D(uImage,uv).rgb*base+f.rgb*f.a+b.rgb*b.a+t.rgb*t.a+d.rgb*d.a)/(base+f.a+b.a+t.a+d.a);
-  // Inverse yaw/pitch maps a world ray into the registered square detail view.
-  if(uDetailCamera.w>.5){
-   float dc=cos(uDetailCamera.x),ds=sin(uDetailCamera.x),pc=cos(uDetailCamera.y),ps=sin(uDetailCamera.y);
-   float dx=w.x*dc-w.z*ds,dz=w.x*ds+w.z*dc;
-   vec3 local=vec3(dx,w.y*pc-dz*ps,w.y*ps+dz*pc);
-   if(local.z>0.){
-    vec2 q=local.xy/(local.z*uDetailCamera.z);
-    vec2 m=abs((q-uDetailMask.xy)/uDetailMask.zw);
-    float weight=(1.-smoothstep(.60,1.,max(m.x,m.y)))*(1.-smoothstep(.98,1.,max(abs(q.x),abs(q.y))));
-    if(weight>0.)color=mix(color,texture2D(uDetail,vec2(.5+.5*q.x,.5-.5*q.y)).rgb,weight);
-   }
-  }
   gl_FragColor=vec4(color,1.);
  }`));
  gl.linkProgram(program);if(!gl.getProgramParameter(program,gl.LINK_STATUS))throw Error('Panorama renderer unavailable');gl.useProgram(program);
  const buffer=gl.createBuffer();gl.bindBuffer(gl.ARRAY_BUFFER,buffer);gl.bufferData(gl.ARRAY_BUFFER,new Float32Array([-1,-1,1,-1,-1,1,1,1]),gl.STATIC_DRAW);const position=gl.getAttribLocation(program,'aPosition');gl.enableVertexAttribArray(position);gl.vertexAttribPointer(position,2,gl.FLOAT,false,0,0);
- const names=['front','rear','up','down'],sources=[image,...names.map(id=>repairs[id]),detailImage];
+ const names=['front','rear','up','down'],sources=[image,...names.map(id=>repairs[id])];
  const textures=sources.map((source,i)=>{const texture=gl.createTexture();gl.activeTexture(gl.TEXTURE0+i);gl.bindTexture(gl.TEXTURE_2D,texture);gl.texParameteri(gl.TEXTURE_2D,gl.TEXTURE_MIN_FILTER,gl.LINEAR);gl.texParameteri(gl.TEXTURE_2D,gl.TEXTURE_MAG_FILTER,gl.LINEAR);gl.texParameteri(gl.TEXTURE_2D,gl.TEXTURE_WRAP_S,gl.CLAMP_TO_EDGE);gl.texParameteri(gl.TEXTURE_2D,gl.TEXTURE_WRAP_T,gl.CLAMP_TO_EDGE);if(source)gl.texImage2D(gl.TEXTURE_2D,0,gl.RGBA,gl.RGBA,gl.UNSIGNED_BYTE,source);else gl.texImage2D(gl.TEXTURE_2D,0,gl.RGBA,1,1,0,gl.RGBA,gl.UNSIGNED_BYTE,new Uint8Array([0,0,0,255]));return texture;});
- ['uImage','uFront','uRear','uUp','uDown','uDetail'].forEach((name,i)=>gl.uniform1i(gl.getUniformLocation(program,name),i));
+ ['uImage','uFront','uRear','uUp','uDown'].forEach((name,i)=>gl.uniform1i(gl.getUniformLocation(program,name),i));
  gl.uniform4f(gl.getUniformLocation(program,'uEnabled'),...names.map(id=>repairs[id]?1:0));
  gl.uniform1f(gl.getUniformLocation(program,'uPatchTan'),Math.tan(config.repairs.fov*Math.PI/360));
  gl.uniform4f(gl.getUniformLocation(program,'uFrontMask'),...config.repairs.frontMask);
- const downMask=config.repairs.downMaskX;
- const maskEnabled=Array.isArray(downMask)&&downMask.length===2&&downMask.every(Number.isFinite)&&downMask[0]<downMask[1];
- gl.uniform3f(gl.getUniformLocation(program,'uDownMaskX'),maskEnabled?downMask[0]:0,maskEnabled?downMask[1]:1,maskEnabled?1:0);
- const detail=config.details,detailEnabled=Boolean(detailImage&&detail&&[detail.yaw,detail.pitch,detail.fov].every(Number.isFinite)&&detail.fov>0&&detail.fov<180&&Array.isArray(detail.mask)&&detail.mask.length===4&&detail.mask.every(Number.isFinite)&&detail.mask[2]>0&&detail.mask[3]>0);
- gl.uniform4f(gl.getUniformLocation(program,'uDetailCamera'),detailEnabled?detail.yaw:0,detailEnabled?detail.pitch:0,detailEnabled?Math.tan(detail.fov*Math.PI/360):1,detailEnabled?1:0);
- gl.uniform4f(gl.getUniformLocation(program,'uDetailMask'),...(detailEnabled?detail.mask:[0,0,1,1]));
  const camera=gl.getUniformLocation(program,'uCamera');
  return {draw(s){const ratio=Math.min(devicePixelRatio||1,1.5,Math.sqrt(2000000/(s.width*s.height))),w=Math.round(s.width*ratio),h=Math.round(s.height*ratio);if(canvas.width!==w||canvas.height!==h){canvas.width=w;canvas.height=h;}gl.viewport(0,0,w,h);gl.uniform4f(camera,s.yaw,s.pitch,Math.tan(s.fov*Math.PI/360),s.width/s.height);gl.drawArrays(gl.TRIANGLE_STRIP,0,4);},destroy(){textures.forEach(t=>gl.deleteTexture(t));gl.deleteBuffer(buffer);shaders.forEach(s=>gl.deleteShader(s));gl.deleteProgram(program);}};
 }

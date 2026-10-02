@@ -1,6 +1,6 @@
 <!doctype html>
 <html lang="en">
-<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>PinPin room · A/B review</title><link rel="stylesheet" href="room-compare.css"><link rel="stylesheet" href="room-inputs.css"></head>
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>PinPin room · A/B review</title><link rel="stylesheet" href="room-compare.css"></head>
 <body>
 <header>
  <div class="heading"><h1 id="review-title">Room experiment · A / B</h1><a id="home-link" href="./">Main menu</a></div>
@@ -9,7 +9,7 @@
   <label>Compare A with <select id="candidate"><option value="separate">B · Six images</option><option value="unified">C · One image</option><option value="gray">D · Pure Blender</option></select></label>
   <button data-view="front">Front</button><button data-view="rear">Rear</button><button data-view="left">Left corner</button><button data-view="right">Right corner</button><button data-view="up">Ceiling</button><button data-view="down">Floor</button>
   <label>View angle <input id="fov" type="range" min="40" max="90" value="72"><output id="fov-value" for="fov">72°</output></label>
-  <button id="reload">Reload views</button><button id="show-inputs" aria-haspopup="dialog" aria-controls="room-inputs">Input images</button>
+  <button id="reload">Reload views</button><a id="gray-atlas-link" href="storyboard/images/house-menu/room-blender-gray-v1.webp" target="_blank" rel="noopener">Blender source atlas</a>
  </div>
  <div class="mobile-tabs" role="group" aria-label="Visible comparison"><button data-panel="a" aria-pressed="true">A · Panorama</button><button data-panel="b" aria-pressed="false">B · Blender faces</button></div>
 </header>
@@ -17,16 +17,5 @@
  <section class="panel" data-panel="a"><h2>A · Panorama with repaired views <span id="status-a" role="status">Loading…</span></h2><iframe id="frame-a" title="A: panoramic room with repaired views" allow="fullscreen"></iframe></section>
  <section class="panel" data-panel="b"><h2><span id="candidate-title">B · Six Blender views</span> <span id="status-b" role="status">Loading…</span></h2><iframe id="frame-b" title="B: room from six Blender camera views" allow="fullscreen"></iframe></section>
 </main>
-<dialog id="room-inputs" aria-labelledby="inputs-title" aria-describedby="inputs-description">
- <div class="inputs-heading"><h2 id="inputs-title">Images behind the room views</h2><button id="close-inputs" autofocus>Close</button></div>
- <div class="inputs-content">
-  <p id="inputs-description">Open any image to inspect the original file in a new tab. These flat images are the inputs, before the browser projects them around you.</p>
-  <section aria-labelledby="guide-input-title"><h3 id="guide-input-title">Blender input used for A · spherical panorama</h3><p>The actual 2:1 Blender guide used to create A. Its spherical projection is different from the six-face cube grid.</p><div id="guide-inputs" class="input-grid"></div></section>
-  <section aria-labelledby="blender-input-title"><h3 id="blender-input-title">Blender cubemap · six 90° faces</h3><p>The untouched gray render used by D. C styles this six-face layout in one image. This cube grid is not A’s source image.</p><div id="blender-inputs" class="input-grid"></div></section>
-  <section aria-labelledby="panorama-input-title"><h3 id="panorama-input-title">A · panoramic base image</h3><p>One equirectangular image covering the full room, not six separate cube faces.</p><div id="panorama-inputs" class="input-grid"></div></section>
-  <section aria-labelledby="repair-input-title"><h3 id="repair-input-title">A · four perspective repairs</h3><p>Front, rear, ceiling and floor repairs are projected over the panorama. Each covers a 110° perspective view.</p><div id="repair-inputs" class="input-grid repairs"></div></section>
- </div>
-</dialog>
 <script type="module" src="room-compare.js"></script>
-<script type="module" src="room-inputs.js"></script>
 </body></html>

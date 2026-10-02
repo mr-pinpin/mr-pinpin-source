@@ -1,0 +1,29 @@
+Bath official publication PDF/cover/coloring lane — COMPLETE 2026-10-02
+Owner /root/r12_papa_round; source edits limited to isolated release checkout.
+
+Deliverables: EN/RU/ES PDFs, each142pages = approved139story/titlepages + THREE language-neutralcrayonpages. 138storysourceWebPs andapprovedtitleart verifiedSHA256identicaltoapprovedR16selection. NativeJPEG92printderivatives, noresizing. SelectabletextverifiedagainstEVERYparagraphinall3languages. EmbeddedGeorgiafontsupportsCyrillic; originallegacy17pt/1.36leading andA4landscape12mmmargins retained. Portraitcover/colorings.
+
+Coverstandard: approvedlandscapetitleillustration preservedintact (nocrop/repaint), localizedGeorgiaBoldtitle/serieslabel onwarmcreamportraitlayout. 3titleWebPs1024x1536. Text-freeportraitminiature generatedfromapprovedcover.
+Colorings: titlederivedbathfamily; approvedrightwardScoobyride; Beaverwoodworkteam. Built-inimage_gen__imagegen4calls(total3BW+1miniature). Nativeoutputs inspected plusrootindependentPASS. Cleanblackcontoursandlargewhitespaces forcrayons. Exactprompts, inputhashes/snapshots/nativeoutputs inpack.
+
+Publicavailability: all3PDFsuploadedtoexistingHFarchive. 33PDF/native/prompt/reference/recipeobjects371,958,796bytes freshSDKreadbackSHAverified. Additionallyall3PDFs streamedANONYMOUSLY withurllibNOauthheaders: HTTP200 application/pdf CORS*, fullbytecount/SHA256match, %PDF-prefix. Seeanonymous-pdf-verification.json. ActualbrowserdownloadrouteQA ownedintegrationagent.
+
+Filesownedintheisolatedreleasecheckout:
+ scripts/export-story-pdf.py
+ docs/storyboard/library-pdfs.json
+ assets/chapter-pdfs.json
+ Artworkassets images/published/bath-magic/title-{en,ru,es}.webp, miniature.webp,coloring-{title,ride,build}.webp; integrationlaneownstheirproductionarchive/ignoremanifest.
+Existing9chaptercatalogentriesand27PDFassetentries verifieddeep-equalunchanged; appendedonlybath-magic.
+No sourcecommit/push/deploy donebythislane.
+
+Artifacts:
+ exports/bath-magic-en.pdf, bath-magic-ru.pdf, bath-magic-es.pdf
+ exports/export-manifest.json — exacthashes/pagecounts/font/layout/everyparagraphchecks
+ catalog-entry.json — publicURLs/exactPDFmetadata
+ archive-manifest.json + archive-receipt.json
+ anonymous-pdf-verification.json — anonymousremoteproof
+ approved-art-lineage.json — approvedR16sourceidentityproof
+ screenshots/ru-proof-contact.jpg — title,firststory,longestcaption,laststory,3coloringpages
+ masters/,prompts/,records/,references/,recipe/ — generation+exportreproduction
+
+Known size: ~107.5MiB perPDF, intentionalnativeartquality for139illustrations. Routechecksumstreaming/UIprogress usesexistingstandard.

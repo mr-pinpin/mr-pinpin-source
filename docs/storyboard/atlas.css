@@ -57,3 +57,11 @@ body.atlas [hidden] { display:none !important; }
 @media(max-width:360px) {
   html[lang="es"] .atlas-brand h1 { font-size:20px; }
 }
+
+.preview-related{border-top:1px solid #ccd6cd;margin-top:12px;padding-top:12px}
+.preview-related h3{font-size:16px;margin:0 0 8px}
+.preview-related-story{display:flex;align-items:center;gap:16px;color:inherit;max-width:560px;text-underline-offset:.2em}
+.preview-related-story img{width:72px;height:108px;object-fit:contain;flex:none}
+.preview-related-story:focus-visible{outline:3px solid #d9ad35;outline-offset:3px}
+
+#story-preview.has-related-stories #preview-image{max-height:max(160px,calc(100dvh - 310px))}

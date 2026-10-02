@@ -1,0 +1,20 @@
+{
+  "tool": "image_gen__imagegen",
+  "promptPath": "prompts/coloring-ride-v1.txt",
+  "promptSha256": "76450ad2ed9b24da0acbf872bc0e0275df6c87a225e39db7cc4e08c4721572bb",
+  "sourceOutput": "/Users/miguel_lemos/.codex/generated_images/01a0fa0e-884b-7703-be8d-7ace86b986f9/exec-802805dd-69a5-4648-bdd8-3e0c84a5f885.png",
+  "master": "masters/coloring-ride-v1.png",
+  "sha256": "99109eb426ea9b5ffc1546b23730194ac8b576eb6e1ebd8ef0198a1c0bb0e73d",
+  "references": [
+    {
+      "source": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r16-travel-direction/geometry/masters/scene-32b-v1.png",
+      "path": "references/69bb4bdbdb93/scene-32b-v1.png",
+      "sha256": "69bb4bdbdb93a81a1ff7bcf011b4f8aada0bcc6d3c3468771f55939c33828c78"
+    }
+  ],
+  "dimensions": [
+    1024,
+    1536
+  ],
+  "visualReview": "Native inspected: correct story identities/action, clean simple black contours with ample white crayon areas."
+}

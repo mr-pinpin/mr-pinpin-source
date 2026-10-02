@@ -408,6 +408,40 @@
         "textFree": true,
         "languageIndependent": true
       }
+    },
+    "bath-magic": {
+      "route": {
+        "story": "bath-magic"
+      },
+      "status": "approved",
+      "version": 1,
+      "width": 1024,
+      "height": 1536,
+      "placement": "replace",
+      "title": {
+        "en": "PinPin and the Water That Wouldn't Stop",
+        "ru": "Пин-Пин и непослушная вода",
+        "es": "PinPin y el agua que no paraba"
+      },
+      "assets": {
+        "en": "images/published/bath-magic/title-en.webp",
+        "ru": "images/published/bath-magic/title-ru.webp",
+        "es": "images/published/bath-magic/title-es.webp"
+      },
+      "alt": {
+        "en": "PinPin and the Water That Wouldn't Stop",
+        "ru": "Пин-Пин и непослушная вода",
+        "es": "PinPin y el agua que no paraba"
+      },
+      "miniature": {
+        "status": "approved",
+        "version": 1,
+        "width": 1024,
+        "height": 1536,
+        "asset": "images/published/bath-magic/miniature.webp",
+        "textFree": true,
+        "languageIndependent": true
+      }
     }
   }
 }

@@ -139,6 +139,18 @@
       }
       article.append(navigation);
     }
+    if (Array.isArray(story?.sectionNav) && story.sectionNav.length) {
+      const navigation = element('nav', 'story-section-nav');
+      navigation.setAttribute('aria-label', ui.contents);
+      for (const section of story.sectionNav) {
+        const spreadIndex = spreads.findIndex(spread => spread.scenes.includes(section.startScene));
+        if (spreadIndex < 0) continue;
+        const link = element('a', '', section.title[language] || section.title.en);
+        link.href = '#spread-' + (spreadIndex + 1);
+        navigation.append(link);
+      }
+      article.append(navigation);
+    }
     spreads.forEach((spread, spreadIndex) => {
       const sheet = element('section', 'spread spread-' + spread.style + ' paper-' + spread.paper);
       sheet.id = 'spread-' + (spreadIndex + 1);

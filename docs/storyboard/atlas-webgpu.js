@@ -7,7 +7,7 @@ import './atlas-face-layer.js';
 import './atlas-family.js';
 import './atlas-motion.js';
 import './atlas-focus.js';
-import './atlas-preview.js';
+import './atlas-preview.js?v=bath-magic-20261002';
 import {createCoverLayer} from './atlas-cover-layer.js';
 import {createCoverSelection} from './atlas-cover-selection.js';
 import {createCamera} from './gpu/camera.js';

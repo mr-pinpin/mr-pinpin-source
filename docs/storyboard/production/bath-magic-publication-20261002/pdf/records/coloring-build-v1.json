@@ -1,0 +1,20 @@
+{
+  "tool": "image_gen__imagegen",
+  "promptPath": "prompts/coloring-build-v1.txt",
+  "promptSha256": "69b182bf6e6b30f73fb89bc7bf80a202265f6e8fca24aaf812544ac1eeeb5a17",
+  "sourceOutput": "/Users/miguel_lemos/.codex/generated_images/01a0fa0e-884b-7703-be8d-7ace86b986f9/exec-f8b7d6f8-95d9-4238-868e-e3939fb78abb.png",
+  "master": "masters/coloring-build-v1.png",
+  "sha256": "867ef05f0d9331e73201ef5e9aa39a875d3fa7eea91c13ba4edbc1c7dd0cb8c1",
+  "references": [
+    {
+      "source": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r15-beaver-aqueduct/geometry/masters/scene-32h-v1.png",
+      "path": "references/fa97b23e4106/scene-32h-v1.png",
+      "sha256": "fa97b23e4106a9cdaf614ccc1ae227f68e4f870b70fbe5b3ff06d70e341b9e1d"
+    }
+  ],
+  "dimensions": [
+    1024,
+    1536
+  ],
+  "visualReview": "Native inspected: correct story identities/action, clean simple black contours with ample white crayon areas."
+}

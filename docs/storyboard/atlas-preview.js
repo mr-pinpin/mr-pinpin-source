@@ -4,6 +4,8 @@
   window.AtlasPreview = {create({canOpen,onOpen,onClose}) {
     const dialog=document.getElementById('story-preview'), image=document.getElementById('preview-image');
     const link=document.getElementById('preview-open'), close=document.getElementById('preview-close');
+    const related=document.createElement('section');
+    related.className='preview-related'; related.hidden=true; dialog.append(related);
     let ticket=0, current=null, closing=false, pointerStarted=false;
     dialog.addEventListener('pointerdown',() => { pointerStarted=true; });
     dialog.addEventListener('click',event => {
@@ -56,12 +58,39 @@
           if (!asset) throw new Error('Story unavailable');
           if (request!==ticket || !canOpen(id)) return;
           current={id}; image.src=asset.src; image.alt=asset.alt;
+          related.replaceChildren(); related.hidden=true; dialog.classList.remove('has-related-stories');
           const destination=new URL(asset.href,location.href);
           if (href) {
             const supplied=new URL(href,location.href);
             for (const key of ['returnTo','returnPlace']) {
               if (supplied.searchParams.has(key)) destination.searchParams.set(key,supplied.searchParams.get(key));
             }
+          }
+          const relatedAssets=await window.AtlasStories.related?.(id,lang).catch(()=>[]) || [];
+          if (request!==ticket || !canOpen(id)) return;
+          if (relatedAssets.length) {
+            const heading=document.createElement('h3');
+            heading.textContent={en:'More stories at home',ru:'Ещё истории дома',es:'Más historias en casa'}[lang] || 'More stories at home';
+            related.append(heading);
+            for (const item of relatedAssets) {
+              const card=document.createElement('a'), thumbnail=document.createElement('img'), label=document.createElement('span');
+              const url=new URL(item.href,location.href);
+              for (const key of ['returnTo','returnPlace']) if (destination.searchParams.has(key)) url.searchParams.set(key,destination.searchParams.get(key));
+              card.href=url.href; card.className='preview-related-story';
+              thumbnail.src=item.src; thumbnail.alt=''; thumbnail.width=1024; thumbnail.height=1536;
+              label.textContent=item.title; card.append(thumbnail,label);
+              card.addEventListener('click',event=>{
+                if (!current || !canOpen(current.id)) {event.preventDefault();dismiss();return;}
+                onOpen(current.id);
+                if (!event.ctrlKey && !event.metaKey && !event.shiftKey && !event.altKey) {
+                  event.preventDefault();const href=card.href, replace=Boolean(history.state?.atlasPreview);dismiss(true);
+                  if (replace) location.replace(href);else location.assign(href);
+                }
+              });
+              card.addEventListener('auxclick',event=>{if(event.button===1 && current && canOpen(current.id))onOpen(current.id);});
+              related.append(card);
+            }
+            related.hidden=false; dialog.classList.add('has-related-stories');
           }
           link.href=destination.href; link.setAttribute('aria-label',ui.available+': '+asset.title);
           document.getElementById('preview-title').textContent=asset.title;

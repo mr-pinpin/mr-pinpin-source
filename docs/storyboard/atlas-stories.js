@@ -5,7 +5,7 @@
     lake:{chapter:'1', coverId:'chapter-01', route:'chapter=1'},
     elder:{story:'one-day-in-the-forest', coverId:'one-day-in-the-forest', route:'story=one-day-in-the-forest'},
     bridge:{story:'timber-tractor', coverId:'timber-tractor', route:'story=timber-tractor'},
-    home:{story:'home-sweet-home', coverId:'home-sweet-home', route:'story=home-sweet-home'}
+    home:{story:'home-sweet-home', coverId:'home-sweet-home', route:'story=home-sweet-home', relatedStories:['bath-magic']}
   };
   const language = lang => languages.includes(lang) ? lang : 'en';
   function href(id, lang) {
@@ -80,6 +80,17 @@
     } catch { /* Unreadable editions do not produce a preview link. */ }
     return null;
   }
+  async function related(id, lang) {
+    lang = language(lang);
+    return (await Promise.all((entries[id]?.relatedStories || []).map(async storyId => {
+      try {
+        const story = await window.standaloneStories.load(storyId);
+        if (!story) return null;
+        const query = new URLSearchParams({story:storyId,lang});
+        return {title:story.title[lang], src:story.miniature || story.cover[lang], href:'index.html?' + query};
+      } catch { return null; }
+    }))).filter(Boolean);
+  }
   const bitmapLoads = new WeakMap();
   function loadMiniature(image, selected) {
     if (image.getAttribute?.('src') === selected.src && image.complete && image.naturalWidth) return Promise.resolve();
@@ -123,5 +134,5 @@
     } catch { /* Missing miniatures cannot trigger full-title downloads on the map. */ }
     return null;
   }
-  window.AtlasStories = {entries, available, href, preview, miniature};
+  window.AtlasStories = {entries, available, href, preview, miniature, related};
 })();

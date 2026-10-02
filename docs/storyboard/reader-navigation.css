@@ -45,3 +45,9 @@
 @media print {
   #reader-controls,.reader-footer,#preview,#print { display:none !important; }
 }
+
+/* Optional in-chapter day links; absent from editions without sectionNav. */
+.story-section-nav{display:flex;flex-wrap:wrap;justify-content:center;gap:.7rem 1.25rem;margin:1rem auto 2rem;padding:.5rem 1rem;font-size:.95rem}
+.story-section-nav a{color:inherit;text-underline-offset:.2em}
+.story-section-nav a:focus-visible{outline:2px solid currentColor;outline-offset:4px}
+@media print{.story-section-nav{display:none}}
