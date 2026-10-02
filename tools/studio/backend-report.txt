@@ -1,0 +1,6 @@
+Backend implementation complete, 2026-10-02.
+11 isolated unittest cases passed: revision conflicts/restart/history, malformed fields/cycles, media containment/symlinks, raw uploads/HTTP origin checks, automatic reference binding and role deduplication, distinct cubemap references, agent claim races, exact-vs-planned input provenance, image/text completion, approval-to-rejection rollback, immutable contact sheets and durable feedback inbox/replies.
+Command: python -m unittest discover -s tools/studio/tests -v (Mini existing Pillow environment; isolated TMPDIR on TB4).
+Persistent live server launched by coordinator in tmux pinpin-studio, Mini18806, Air forwarded18805. Existing seed is preserved, not recreated.
+The server uses stdlib HTTP, atomic locked JSON persistence, registered immutable native assets and Pillow contact sheets. No external generation API, fake job progress or automatic publication. An active agent must claim jobs, invoke its real tools and attach actual outputs/provenance. Public chapter deployment remains a separate reviewed release.
+Source ownership: API.md, README.md, backend-report.txt, model.py, store.py, jobs.py, boards.py, server.py, cli.py, tests/test_backend.py. Frontend and seed importer are other agents' work.
