@@ -1,0 +1,46 @@
+{
+  "scene-05g3": {
+    "schemaVersion": 1,
+    "id": "scene-05g3",
+    "version": 3,
+    "tool": "image_gen__imagegen",
+    "native": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r21/art/pot-continuity/masters/scene-05g3-v3.png",
+    "master": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r21/art/pot-continuity/masters/scene-05g3-v3.png",
+    "web": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r21/art/pot-continuity/web/scene-05g3-v3.webp",
+    "record": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r21/art/pot-continuity/records/scene-05g3-v3.json",
+    "prompt": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r21/art/pot-continuity/prompts/scene-05g3-v3.txt",
+    "exactPrompt": "Use case: precise-object-edit. Image 1 is the exact target, scene 05G3: Scooby leaving through the open green door, Papa guiding him while holding the bowl, Mama holding infant on the left, PinPin carrying one water bucket on the right. Image 2 is ONLY a continuity reference for the foreground table's flowerpot. Add the SAME round squat glossy warm brown ceramic pot with a gently flared lip and white daisies with yellow centers and green leaves, at the SAME physical foreground tabletop position as Image 2. The camera and table are essentially unchanged: pot centered about x570,y860 in the 1536x1024 frame, base resting on tabletop near y955, flowers reaching around y650. Match its scale, perspective, slightly soft foreground focus, warm highlights and contact shadow to Image 2. This is one local addition to the bare lower-left/center foreground table. Preserve everything else from Image 1: exactly the four hedgehog family members, all faces, poses, hands and body anatomy, Scooby's exiting body/head/tail/legs and gaze, Papa's bowl, child's one full wooden bucket, green doorway geometry, two windows, rug, stove, all existing wall plants and lighting. Preserve the folded cloth on the right foreground table. Do not move characters or change their actions to match Image 2. No new animals, no text, no extra pots, no second bucket. Keep original landscape framing and same warm cinematic children's-book rendering.",
+    "toolArguments": {
+      "referenced_image_paths": [
+        "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r17/art/opening/masters/scene-05g3-v2.png",
+        "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-05g2-neck-fur-20261002/masters/scene-05g2-v5.png"
+      ],
+      "transparent_background": false
+    },
+    "sourceOutputPath": "/Users/miguel_lemos/.codex/generated_images/01a0fa05-e7a6-7a00-a6f0-fc3a9cc0cc09/exec-e36c2543-a8d8-484e-9b4d-0a15f1e7b590.png",
+    "artistReview": "pass",
+    "rootReview": "pass-for-preview",
+    "userReview": "pending",
+    "selected": true,
+    "outputHandling": "Native copied unchanged; WebP format derivative only",
+    "visualReview": "Matching brown ceramic daisy pot restored to foreground table, same position and focus as 05G2. Characters, Scooby departure, bucket, door/window geometry and folded towel retained.",
+    "inputs": [
+      {
+        "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r17/art/opening/masters/scene-05g3-v2.png",
+        "sha256": "690f43284716b28814af078adf097723ca9e294d99d0f21446418218a675e1e6",
+        "role": "edit-target"
+      },
+      {
+        "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-05g2-neck-fur-20261002/masters/scene-05g2-v5.png",
+        "sha256": "5ef24c05842f4213ff1ea64aa24b968abf4cc6660c401d21fa384c04c662bc9c",
+        "role": "matching pot and location reference"
+      }
+    ],
+    "sha256": "38b47dfb31778c06a937c6ae0a54ce9b83cc50117b129f076c419dff376bc907",
+    "webSha256": "35bac793b9a939e7bd651697e848e218a4f2b531b697278860cea8d3a990e070",
+    "width": 1536,
+    "height": 1024,
+    "selectionStatus": "coordinator-reviewed candidate; awaiting user feedback",
+    "selectionManifest": "art/pot-continuity/selected-assets.json"
+  }
+}
