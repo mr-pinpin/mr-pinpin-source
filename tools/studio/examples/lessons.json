@@ -100,6 +100,28 @@
       "evidence": [
         "docs/storyboard/production/STUDIO.md"
       ]
+    },
+    {
+      "id": "precise-geometry-invariant",
+      "rule": "Name the invariant precisely: the collector hugs the wooden bath base, with direct falling water and one fixed outlet. Merely seeing a channel is insufficient; a loop around the rug or a detached floor loop fails. Scene84-v1 was explicitly approved by the user and becomes the locked geometry authority for repairing83.",
+      "evidence": [
+        "docs/storyboard/production/bath-magic-20261002-r18/plan/story-plan.json",
+        "docs/storyboard/production/bath-magic-20261002-r18/art/canal-merge/REPORT.txt"
+      ]
+    },
+    {
+      "id": "body-mass-and-camera",
+      "rule": "A dog changing from standing to sitting must keep the same body mass and proportions. Perspective can change projected size, but it cannot justify an inflated chest or body. Compare full body silhouettes and a shared scale reference across adjacent frames.",
+      "evidence": [
+        "docs/storyboard/production/bath-magic-20261002-r18/art/opening/REPORT.txt"
+      ]
+    },
+    {
+      "id": "foreground-object-anchor",
+      "rule": "If a foreground table reads as an unexplained slab, use the familiar flowerpot and consistent tabletop edge to identify it. Preserve this anchor across adjacent camera views instead of inventing furniture or changing the room.",
+      "evidence": [
+        "docs/storyboard/production/bath-magic-20261002-r18/art/opening/REPORT.txt"
+      ]
     }
   ]
 }

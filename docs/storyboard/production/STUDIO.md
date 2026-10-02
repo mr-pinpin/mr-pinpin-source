@@ -51,3 +51,9 @@ The R17 [restore contract](bath-magic-20261002-r17/RESTORE.txt) and scoped archi
 For a new machine, restore the catalog source packs, pass `--root NAME=PATH` overrides to the importer and run `--dry-run` first. Every asset SHA is checked before import. A nonempty Studio project is protected unless `--replace` is explicitly requested; the normal UI preserves ongoing work.
 
 Localized cover lettering belongs on the full-bleed artwork. The miniature is a separate text-free image. Published PDFs include three coloring pages. R17 remains a review draft, so its PDFs and official publication were not regenerated.
+
+## R18 lessons from live review
+
+“Channel present” was too weak a check. The collector must hug the wooden bath base, receive the water directly and keep its outlet fixed; a ring around the rug still fails. The user explicitly approved scene84-v1, so that exact image is now the geometry authority for83.
+
+Standing and sitting views must preserve Scooby’s body mass, not merely his face. A familiar flowerpot makes the foreground table legible across views without changing the camera or inventing furniture. Record these precise invariants before the next repair. Agent visual pass remains separate from an explicit user approval, even when publication of the overall correction is authorized.
