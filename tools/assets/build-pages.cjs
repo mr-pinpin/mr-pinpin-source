@@ -13,7 +13,8 @@ const valueParser = require('postcss-value-parser');
 const parseSrcset = require('parse-srcset');
 
 const BUDGET = 950000000;
-const EXCLUDED = ['docs/comparison', 'docs/storyboard/review', 'docs/storyboard/models', 'docs/storyboard/production'];
+const EXCLUDED = ['docs/comparison', 'docs/storyboard/review', 'docs/storyboard/models', 'docs/storyboard/production',
+  ...require('./review-entrypoints.json').paths];
 const STATIC = new Set(['.html','.css','.js','.mjs','.cjs','.json','.txt','.md','.xml','.webmanifest','.wgsl','.license','.map']);
 const URL_EXT = /\.(?:html?|css|[cm]?js|json|png|jpe?g|webp|avif|gif|svg|ico|mp4|webm|mp3|wav|ogg|glb|bin(?:\.gz)?|wgsl|woff2?|ttf|otf)(?:[?#].*)?$/i;
 const METADATA = new Set(['generationReview','rejectedRoutePlanSource','routeSurveySource','provenance','registration','preparation','prompt','generationLog','reference','sourceMask','sourceDraft','logs']);

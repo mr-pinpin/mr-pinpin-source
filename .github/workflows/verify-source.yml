@@ -27,10 +27,14 @@ jobs:
           python-version: '3.12'
       - run: npm ci
       - name: Install verified media restore dependencies
-        run: python -m pip install -r tools/assets/requirements.txt
+        run: python -m pip install -r tools/assets/requirements.txt -r tools/studio/requirements.txt
       - name: Restore production media from content-addressed public storage
         run: python tools/assets/hf_store.py pull --manifest tools/assets/production-preservation.json --profile archive --root . --cache "$RUNNER_TEMP/pinpin-asset-cache"
       - run: npm run verify
       - run: npm run test:publishing
+      - name: Verify Studio persistence and generation handoffs
+        run: python -m unittest discover -s tools/studio/tests -v
+      - name: Check Studio browser module syntax
+        run: for file in tools/studio/web/*.js tools/studio/web/tests/*.cjs; do node --check "$file"; done
       # Official deployment is selected in mr-pinpin/mr-pinpin.github.io.
       # This workflow neither uploads a Pages artifact nor selects a release.

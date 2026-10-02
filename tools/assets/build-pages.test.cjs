@@ -167,3 +167,21 @@ test('never replaces existing destinations or writes into source trees', t => {
   assert.throws(() => f.build({dest:'link/output'}),/symlink/);
   assert(f.build({dest:'other/output'}).dest.endsWith('/other/output'));
 });
+
+test('audited local experiment entrypoints stay out while public runtime and unknown references remain checked', t => {
+  const f=fixture(t);
+  f.write('docs/house-image-tour.html','<img src="storyboard/production/archived.png">');
+  f.write('docs/house-image-tour-config.js','const source="missing-review-only.png";');
+  f.write('docs/storyboard/locations/pinpin-house/location.json','{"source":"missing-guide.png"}');
+  f.write('docs/room-compare.html','<img src="images/live.png">');
+  f.write('docs/storyboard/atlas.html','<img src="../images/live.png">');
+  f.write('docs/storyboard/stories/example.json','{"image":"../../images/live.png"}');
+  const {dest}=f.build();
+  for(const name of ['room-compare.html','storyboard/atlas.html','storyboard/stories/example.json'])
+    assert(fs.existsSync(path.join(dest,name)),name);
+  for(const name of ['house-image-tour.html','house-image-tour-config.js','storyboard/locations'])
+    assert(!fs.existsSync(path.join(dest,name)),name);
+  assert(fs.existsSync(path.join(f.root,'docs/house-image-tour.html')));
+  f.write('docs/house-new-public.html','<img src="unknown.png">');
+  assert.throws(()=>f.build({check:true}),/dangling local reference.*unknown/);
+});
