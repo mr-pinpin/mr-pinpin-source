@@ -1,0 +1,58 @@
+{
+  "schemaVersion": 1,
+  "id": "scene-05g2",
+  "version": "v5",
+  "tool": "image_gen__imagegen",
+  "jobId": "job-79cbbddad65d40e98aa8",
+  "master": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-05g2-neck-fur-20261002/masters/scene-05g2-v5.png",
+  "masterSha256": "5ef24c05842f4213ff1ea64aa24b968abf4cc6660c401d21fa384c04c662bc9c",
+  "web": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-05g2-neck-fur-20261002/web/scene-05g2-v5.webp",
+  "webSha256": "8ad699a25f9f7f7c419a9d06e3ed11a2f2631fab22da4cb0cb1b7cdef8f56c4c",
+  "dimensions": [
+    1536,
+    1024
+  ],
+  "exactPrompt": "Use case: identity-preserve. Rebuild ONLY Scooby's HEAD and immediate NECK in IMAGE1 (original05G2v3 edit target); keep his already approved lean seated BODY and the entire scene. This is a CHARACTER IDENTITY correction, not merely a fur texture pass.\nREFERENCE ROLES: IMAGE2=approved05G1, the PRIMARY exact head identity, warm golden palette and soft layered neckruff. IMAGE3=approved05G, same dog in a clear right-facing profile, authoritative compact muzzle/cheek, ear shape, skull and gentle lively expression. IMAGE4=earlier published forest scene, anatomical evidence for coherent eyes and neckruff ONLY; DO NOT copy its darker saddle coloring, larger whole-body mass, background or hedgehog rendering. Keep IMAGE2/3's warm golden dog and animated storybook finish.\nThe existing target face is insufficiently like the reference and appears CROSS-EYED. Replace it with the same compact, gently rounded dog head as IMAGE2/3, naturally turned a little farther toward screen-RIGHT to look at PAPA'S FACE above the berry bowl. Head/neck rotation must be natural and moderate, not an owl turn. Match the reference's defined tan rounded muzzle and cheeks, modest forehead, two separately folded soft ears and relaxed brows, sweet attentive expression, small open smiling mouth. The gaze is ONE coherent external direction toward Papa, not converging onto the dog's own nose or a berry held against it. Both visible irises/pupils must track the SAME Papa target with anatomically consistent placement. In this more side-facing three-quarter/profile angle the FAR eye should be naturally smaller/partly hidden by the muzzle bridge; do NOT force two equally large eyes/pupils into the silhouette. Keep the nearer eye calm and focused toward Papa, natural sclera exposure, no crossed or wall-eyed look, no staring at camera.\nRestore IMAGE2's layered golden-brown small fur locks behind/below ears and along side-neck, and a soft cream throat bib tapering onto upper chest. No lion mane, oversized fluffy collar, overhead tuft or rear tail above head. Do NOT broaden chest/barrel/haunches or change seated body proportions, size, paw positions, tail, perspective or camera from IMAGE1. Preserve exact one Papa holding berry bowl at right, one Mama supporting one separate infant at left, one PinPin child and ONE full wooden bucket, all their faces/anatomy/actions. Preserve foreground daisy pot/table/cloth, room/stove/two real windows, open green door with clear foliage beyond and warm lighting. No other scene change, text, border or new props. Landscape1536x1024.",
+  "prompt": {
+    "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-05g2-neck-fur-20261002/prompts/scene-05g2-v5.txt",
+    "sha256": "53b92886b1dcad0774193ea89f91c21b7880b22b44192bd53590b45d12e699ff"
+  },
+  "references": [
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r18/art/opening/masters/scene-05g2-v3.png",
+      "sha256": "e869e8924d51497d40c579088185793ac543fc545150c528fee0841aa13257ed",
+      "role": "edit-target-original-v3"
+    },
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r18/art/opening/masters/scene-05g1-v2.png",
+      "sha256": "209cf0dfb8f34942cbee5e0163532318d1ba218f7a15266c673420bf81a2837b",
+      "role": "primary-approved-identity"
+    },
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r17/web/scene-05g-b8b914ed98fe.webp",
+      "sha256": "66131fe29408b8eb4acdd94745575e363838862b4f44d33f00fcb076a7854bd6",
+      "role": "approved-profile-identity"
+    },
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/images/published/elder-cycle/elder-r6-forest-005.webp",
+      "sha256": "76818bceb7b4fd16f65fe6d7e42e255d1f74f3c7afbf3c11adfb4a235d194a35",
+      "role": "eye-and-neck-anatomy-only"
+    }
+  ],
+  "toolArguments": {
+    "prompt": "Use case: identity-preserve. Rebuild ONLY Scooby's HEAD and immediate NECK in IMAGE1 (original05G2v3 edit target); keep his already approved lean seated BODY and the entire scene. This is a CHARACTER IDENTITY correction, not merely a fur texture pass.\nREFERENCE ROLES: IMAGE2=approved05G1, the PRIMARY exact head identity, warm golden palette and soft layered neckruff. IMAGE3=approved05G, same dog in a clear right-facing profile, authoritative compact muzzle/cheek, ear shape, skull and gentle lively expression. IMAGE4=earlier published forest scene, anatomical evidence for coherent eyes and neckruff ONLY; DO NOT copy its darker saddle coloring, larger whole-body mass, background or hedgehog rendering. Keep IMAGE2/3's warm golden dog and animated storybook finish.\nThe existing target face is insufficiently like the reference and appears CROSS-EYED. Replace it with the same compact, gently rounded dog head as IMAGE2/3, naturally turned a little farther toward screen-RIGHT to look at PAPA'S FACE above the berry bowl. Head/neck rotation must be natural and moderate, not an owl turn. Match the reference's defined tan rounded muzzle and cheeks, modest forehead, two separately folded soft ears and relaxed brows, sweet attentive expression, small open smiling mouth. The gaze is ONE coherent external direction toward Papa, not converging onto the dog's own nose or a berry held against it. Both visible irises/pupils must track the SAME Papa target with anatomically consistent placement. In this more side-facing three-quarter/profile angle the FAR eye should be naturally smaller/partly hidden by the muzzle bridge; do NOT force two equally large eyes/pupils into the silhouette. Keep the nearer eye calm and focused toward Papa, natural sclera exposure, no crossed or wall-eyed look, no staring at camera.\nRestore IMAGE2's layered golden-brown small fur locks behind/below ears and along side-neck, and a soft cream throat bib tapering onto upper chest. No lion mane, oversized fluffy collar, overhead tuft or rear tail above head. Do NOT broaden chest/barrel/haunches or change seated body proportions, size, paw positions, tail, perspective or camera from IMAGE1. Preserve exact one Papa holding berry bowl at right, one Mama supporting one separate infant at left, one PinPin child and ONE full wooden bucket, all their faces/anatomy/actions. Preserve foreground daisy pot/table/cloth, room/stove/two real windows, open green door with clear foliage beyond and warm lighting. No other scene change, text, border or new props. Landscape1536x1024.",
+    "referenced_image_paths": [
+      "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r18/art/opening/masters/scene-05g2-v3.png",
+      "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r18/art/opening/masters/scene-05g1-v2.png",
+      "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r17/web/scene-05g-b8b914ed98fe.webp",
+      "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/images/published/elder-cycle/elder-r6-forest-005.webp"
+    ],
+    "transparent_background": false
+  },
+  "artistReview": "pass",
+  "rootReview": "pass-for-preview",
+  "selected": true,
+  "restartSource": "original05G2v3; rejectedv4 not used",
+  "originalToolOutput": "/Users/miguel_lemos/.codex/generated_images/01a0fa05-e7a6-7a00-a6f0-fc3a9cc0cc09/exec-a0ab5798-c4e9-4c57-a718-02ee7c2a3c5f.png",
+  "selectionStatus": "coordinator-reviewed candidate; awaiting user feedback"
+}

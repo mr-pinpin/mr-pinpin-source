@@ -1,0 +1,47 @@
+{
+  "schemaVersion": 1,
+  "id": "scene-05g2",
+  "version": "v4",
+  "tool": "image_gen__imagegen",
+  "jobId": "job-38ae64124f104072905a",
+  "master": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-05g2-neck-fur-20261002/masters/scene-05g2-v4.png",
+  "masterSha256": "cb27635a1aa5ce922420fbc31d0be8660260fdb57b83b11abc082442ee6d2013",
+  "web": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-05g2-neck-fur-20261002/web/scene-05g2-v4.webp",
+  "webSha256": "3333c141d29415ec77e1ac6f41b57f5d8801854dee8185a60756c70642247b0c",
+  "dimensions": [
+    1536,
+    1024
+  ],
+  "exactPrompt": "Use case: identity-preserve / precise-object-edit. Image1 is the EDIT TARGET: current scene05G2. Image2 is the EXACT APPROVED identity reference: scene05G1. Make a very local fur-continuity correction ONLY to Scooby's neck, behind/below his ears, and cream throat bib in image1. The user considers image2 perfect. Match its visibly LAYERED golden-brown neckruff behind the ears and along the side of the neck: soft overlapping small tufted locks with readable strand clumps, warm rim-lit tips and natural shadow between layers. Restore the fuller soft cream fur under his jaw and on the upper throat/bib, with the same gentle feathered edges seen in image2. In image1 this area became too smooth/shaved and loses Scooby's familiar identity. This is a modest natural dog's neckruff, NOT a lion mane, huge furry collar, head tuft, curled tail over the skull, or thickened torso. Keep image1's already approved LEAN seated chest barrel, narrow body/waist, legs, haunches, body silhouette and large size relative to Papa unchanged. Keep the exact existing face, slim muzzle, attentive iris eyes, expression, ears and skull shape; do not redesign him. Add the reference texture/local fur fullness, not overall mass.\nPreserve EVERYTHING ELSE from image1: Scooby seated in the same position looking at Papa's berry bowl, all four separate hedgehog family members and their exact faces/body proportions/poses, one full wooden bucket, the foreground brown glazed daisy pot in its exact position/focus, tabletop/cloth, warm light, camera and framing. Keep the OPEN front doorway clear to outdoor foliage, green leaf and two real round side windows unchanged. No extra characters, props, text or border. Retain1536x1024 landscape. A narrow local edit, not a full scene rerender.",
+  "prompt": {
+    "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-05g2-neck-fur-20261002/prompts/scene-05g2-v4.txt",
+    "sha256": "8478ef9a4ee7246cd34b554492ab47a5dc1f7b6ed8042cc87b0de6068345aec5"
+  },
+  "references": [
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r18/art/opening/masters/scene-05g2-v3.png",
+      "sha256": "e869e8924d51497d40c579088185793ac543fc545150c528fee0841aa13257ed",
+      "role": "edit-target"
+    },
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r18/art/opening/masters/scene-05g1-v2.png",
+      "sha256": "209cf0dfb8f34942cbee5e0163532318d1ba218f7a15266c673420bf81a2837b",
+      "role": "approved-neck-fur-identity"
+    }
+  ],
+  "toolArguments": {
+    "prompt": "Use case: identity-preserve / precise-object-edit. Image1 is the EDIT TARGET: current scene05G2. Image2 is the EXACT APPROVED identity reference: scene05G1. Make a very local fur-continuity correction ONLY to Scooby's neck, behind/below his ears, and cream throat bib in image1. The user considers image2 perfect. Match its visibly LAYERED golden-brown neckruff behind the ears and along the side of the neck: soft overlapping small tufted locks with readable strand clumps, warm rim-lit tips and natural shadow between layers. Restore the fuller soft cream fur under his jaw and on the upper throat/bib, with the same gentle feathered edges seen in image2. In image1 this area became too smooth/shaved and loses Scooby's familiar identity. This is a modest natural dog's neckruff, NOT a lion mane, huge furry collar, head tuft, curled tail over the skull, or thickened torso. Keep image1's already approved LEAN seated chest barrel, narrow body/waist, legs, haunches, body silhouette and large size relative to Papa unchanged. Keep the exact existing face, slim muzzle, attentive iris eyes, expression, ears and skull shape; do not redesign him. Add the reference texture/local fur fullness, not overall mass.\nPreserve EVERYTHING ELSE from image1: Scooby seated in the same position looking at Papa's berry bowl, all four separate hedgehog family members and their exact faces/body proportions/poses, one full wooden bucket, the foreground brown glazed daisy pot in its exact position/focus, tabletop/cloth, warm light, camera and framing. Keep the OPEN front doorway clear to outdoor foliage, green leaf and two real round side windows unchanged. No extra characters, props, text or border. Retain1536x1024 landscape. A narrow local edit, not a full scene rerender.",
+    "referenced_image_paths": [
+      "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r18/art/opening/masters/scene-05g2-v3.png",
+      "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r18/art/opening/masters/scene-05g1-v2.png"
+    ],
+    "transparent_background": false
+  },
+  "artistReview": "pass",
+  "rootReview": "pass",
+  "selected": false,
+  "originalToolOutput": "/Users/miguel_lemos/.codex/generated_images/01a0fa05-e7a6-7a00-a6f0-fc3a9cc0cc09/exec-fbb0b4c9-d89c-40db-b9ae-d95ce08b2d63.png",
+  "selectionStatus": "coordinator-approved preview candidate; user approval pending",
+  "userReview": "rejected",
+  "userFeedback": "still doesn't look like reference\u2026take a look at more references\u2026He looked cross eyed."
+}

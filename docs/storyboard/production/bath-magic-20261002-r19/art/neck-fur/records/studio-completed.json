@@ -1,0 +1,421 @@
+{
+  "job": {
+    "id": "job-38ae64124f104072905a",
+    "kind": "edit",
+    "status": "completed",
+    "chapterId": "bath-magic-r17",
+    "sceneIds": [
+      "scene-05g2"
+    ],
+    "entityId": null,
+    "instruction": "Use case: identity-preserve / precise-object-edit. Image1 is the EDIT TARGET: current scene05G2. Image2 is the EXACT APPROVED identity reference: scene05G1. Make a very local fur-continuity correction ONLY to Scooby's neck, behind/below his ears, and cream throat bib in image1. The user considers image2 perfect. Match its visibly LAYERED golden-brown neckruff behind the ears and along the side of the neck: soft overlapping small tufted locks with readable strand clumps, warm rim-lit tips and natural shadow between layers. Restore the fuller soft cream fur under his jaw and on the upper throat/bib, with the same gentle feathered edges seen in image2. In image1 this area became too smooth/shaved and loses Scooby's familiar identity. This is a modest natural dog's neckruff, NOT a lion mane, huge furry collar, head tuft, curled tail over the skull, or thickened torso. Keep image1's already approved LEAN seated chest barrel, narrow body/waist, legs, haunches, body silhouette and large size relative to Papa unchanged. Keep the exact existing face, slim muzzle, attentive iris eyes, expression, ears and skull shape; do not redesign him. Add the reference texture/local fur fullness, not overall mass.\nPreserve EVERYTHING ELSE from image1: Scooby seated in the same position looking at Papa's berry bowl, all four separate hedgehog family members and their exact faces/body proportions/poses, one full wooden bucket, the foreground brown glazed daisy pot in its exact position/focus, tabletop/cloth, warm light, camera and framing. Keep the OPEN front doorway clear to outdoor foliage, green leaf and two real round side windows unchanged. No extra characters, props, text or border. Retain1536x1024 landscape. A narrow local edit, not a full scene rerender.",
+    "prompt": "Mr. PinPin production handoff v1\nUse the active Codex agent's built-in image tool; this queue does not call an external paid API.\nInspect all role-assigned references before generation. Preserve approved identities, relative scale,\nroom/door/window geography, gaze and physical contact. Use warm dimensional book rendering.\nShow real actions and varied cameras; no forced manic smiles or fatigue. Respect causal setup,\nattempt, consequence, family reaction and earned payoff. Preserve approved originals; edit a pristine\ninput rather than repeatedly degrading a derivative. Keep native output, exact ACTUAL submitted\nprompt, actual reference hashes, and candidate review separately from this planned handoff.\nNever automatically publish or silently replace selected artwork.\n\nRequested work:\nUse case: identity-preserve / precise-object-edit. Image1 is the EDIT TARGET: current scene05G2. Image2 is the EXACT APPROVED identity reference: scene05G1. Make a very local fur-continuity correction ONLY to Scooby's neck, behind/below his ears, and cream throat bib in image1. The user considers image2 perfect. Match its visibly LAYERED golden-brown neckruff behind the ears and along the side of the neck: soft overlapping small tufted locks with readable strand clumps, warm rim-lit tips and natural shadow between layers. Restore the fuller soft cream fur under his jaw and on the upper throat/bib, with the same gentle feathered edges seen in image2. In image1 this area became too smooth/shaved and loses Scooby's familiar identity. This is a modest natural dog's neckruff, NOT a lion mane, huge furry collar, head tuft, curled tail over the skull, or thickened torso. Keep image1's already approved LEAN seated chest barrel, narrow body/waist, legs, haunches, body silhouette and large size relative to Papa unchanged. Keep the exact existing face, slim muzzle, attentive iris eyes, expression, ears and skull shape; do not redesign him. Add the reference texture/local fur fullness, not overall mass.\nPreserve EVERYTHING ELSE from image1: Scooby seated in the same position looking at Papa's berry bowl, all four separate hedgehog family members and their exact faces/body proportions/poses, one full wooden bucket, the foreground brown glazed daisy pot in its exact position/focus, tabletop/cloth, warm light, camera and framing. Keep the OPEN front doorway clear to outdoor foliage, green leaf and two real round side windows unchanged. No extra characters, props, text or border. Retain1536x1024 landscape. A narrow local edit, not a full scene rerender.\n\nBound snapshot:\n{\n  \"chapterId\": \"bath-magic-r17\",\n  \"scenes\": [\n    {\n      \"id\": \"scene-05g2\",\n      \"title\": \"scene-05g2\",\n      \"captions\": {\n        \"en\": [\n          \"Scooby sat down. The kitchen suddenly had very little floor left! Papa put a few blueberries in his bowl.\"\n        ],\n        \"ru\": [\n          \"\u0421\u043a\u0443\u0431\u0438 \u0441\u0435\u043b. \u0421\u0432\u043e\u0431\u043e\u0434\u043d\u043e\u0433\u043e \u043f\u043e\u043b\u0430 \u043d\u0430 \u043a\u0443\u0445\u043d\u0435 \u0441\u0440\u0430\u0437\u0443 \u0441\u0442\u0430\u043b\u043e \u0441\u043e\u0432\u0441\u0435\u043c \u043c\u0430\u043b\u043e! \u041f\u0430\u043f\u0430 \u043f\u043e\u043b\u043e\u0436\u0438\u043b \u0432 \u0435\u0433\u043e \u043c\u0438\u0441\u043a\u0443 \u043d\u0435\u0441\u043a\u043e\u043b\u044c\u043a\u043e \u044f\u0433\u043e\u0434 \u0433\u043e\u043b\u0443\u0431\u0438\u043a\u0438.\"\n        ],\n        \"es\": [\n          \"Scooby se sent\u00f3. \u00a1De pronto quedaba muy poco suelo libre en la cocina! Pap\u00e1 puso unos ar\u00e1ndanos en su cuenco.\"\n        ]\n      },\n      \"action\": \"Widecommonroomfromsameapprovedhouseaxis: huge dogoccupiesmostCLEARfloor, normal table/stove/cabinetstillthere; Papa smaller besidedog, Mama holdsinfantseparate, olderchildONEbucketroutearounddog. Fewplainwashedblueberriesinbowl. No canal yet, no miniaturizingfurniture/dog, nobonusrooms.\",\n      \"dependsOn\": [\n        \"scene-05g1\"\n      ],\n      \"dependencyKind\": \"reading-order; refine to causal prerequisites when editing\",\n      \"castIds\": [\n        \"papa\",\n        \"mama\",\n        \"pinpin\",\n        \"pompom\",\n        \"scooby\"\n      ],\n      \"locationId\": \"house\",\n      \"propIds\": [\n        \"bucket\"\n      ],\n      \"camera\": {\n        \"position\": \"Widecommonroomfromsameapprovedhouseaxis: huge dogoccupiesmostCLEARfloor, normal table/stove/cabinetstillthere; Papa smaller besidedog, Mama holdsinfantseparate, olderchildONEbucketroutearounddog. Fewplainwashedblueberriesinbowl. No canal yet, no miniaturizingfurniture/dog, nobonusrooms.\",\n        \"height\": \"\",\n        \"yaw\": null,\n        \"pitch\": null,\n        \"fov\": null,\n        \"gaze\": \"\"\n      },\n      \"stateBefore\": \"\",\n      \"stateAfter\": \"\",\n      \"tempo\": {\n        \"activity\": 1,\n        \"comedy\": 3,\n        \"discovery\": 2\n      },\n      \"tempoStatus\": \"proposed R17 editorial rating; user review pending\",\n      \"imageAssetId\": \"asset-e869e8924d51497d40c57908\",\n      \"status\": \"published\",\n      \"userReview\": \"pending chapter revision\",\n      \"day\": 1,\n      \"number\": 35,\n      \"tempoBasis\": {\n        \"proposed\": true,\n        \"captionEvidence\": \"Scooby sat down. The kitchen suddenly had very little floor left! Papa put a few blueberries in his bowl.\",\n        \"rubric\": \"1 low, 2 medium, 3 high; ordinal categories, not runtime or observed response\"\n      },\n      \"imageHistory\": [\n        {\n          \"assetId\": \"asset-8855094286a8af60bd1a7795\",\n          \"reason\": \"Superseded by published R18 selection\",\n          \"release\": \"b5a94c02b5cb34e308261c877d5af19aa93b113b059a35043660ca7053162c22\"\n        }\n      ],\n      \"selectionBasis\": \"user-authorized publication; coordinator visual review\",\n      \"publicationSelection\": {\n        \"release\": \"b5a94c02b5cb34e308261c877d5af19aa93b113b059a35043660ca7053162c22\",\n        \"assetSha256\": \"e869e8924d51497d40c579088185793ac543fc545150c528fee0841aa13257ed\",\n        \"nativeAssetId\": \"asset-e869e8924d51497d40c57908\",\n        \"webSha256\": \"409ef7cd1e355e198ea67fa344fdabcfb84e0640cb8f78c098700c08d5843a7c\"\n      }\n    }\n  ],\n  \"entities\": [\n    {\n      \"id\": \"bucket\",\n      \"name\": \"Water bucket\",\n      \"kind\": \"prop\",\n      \"identity\": \"PinPin fetches ONE bucket. Papa introduces another later at scene20.\",\n      \"scale\": \"\",\n      \"geometry\": \"\",\n      \"referenceIds\": [],\n      \"reviewStatus\": \"user-approved\"\n    },\n    {\n      \"id\": \"house\",\n      \"name\": \"Family house\",\n      \"kind\": \"location\",\n      \"identity\": \"Warm timber and plaster family home.\",\n      \"scale\": \"Scooby occupies much of floor.\",\n      \"geometry\": \"Two round front windows and solid green front door. Kitchen rear/right doors are interior; garden can be behind camera.\",\n      \"referenceIds\": [\n        \"asset-88d74c56a468e3f250b12dbc\",\n        \"asset-fbf70ac4415fbc9e63febdc7\"\n      ],\n      \"reviewStatus\": \"user-approved\"\n    },\n    {\n      \"id\": \"mama\",\n      \"name\": \"Mama\",\n      \"kind\": \"character\",\n      \"identity\": \"Mother hedgehog; engaged gaze and distinct adult body.\",\n      \"scale\": \"Adult family scale\",\n      \"geometry\": \"\",\n      \"referenceIds\": [\n        \"asset-88d74c56a468e3f250b12dbc\"\n      ],\n      \"reviewStatus\": \"user-approved\"\n    },\n    {\n      \"id\": \"papa\",\n      \"name\": \"Papa\",\n      \"kind\": \"character\",\n      \"identity\": \"Adult broad shoulders, short rounded muzzle and button nose, cool quills; no wolf snout.\",\n      \"scale\": \"Clearly larger than PinPin\",\n      \"geometry\": \"\",\n      \"referenceIds\": [\n        \"asset-88d74c56a468e3f250b12dbc\"\n      ],\n      \"reviewStatus\": \"user-approved\"\n    },\n    {\n      \"id\": \"pinpin\",\n      \"name\": \"Mr. PinPin\",\n      \"kind\": \"character\",\n      \"identity\": \"Child hedgehog; rounded dimensional face, visible eye irises, golden quill. Not the infant.\",\n      \"scale\": \"About half Papa standing height\",\n      \"geometry\": \"\",\n      \"referenceIds\": [\n        \"asset-88d74c56a468e3f250b12dbc\"\n      ],\n      \"reviewStatus\": \"user-approved\"\n    },\n    {\n      \"id\": \"pompom\",\n      \"name\": \"Mr. PomPom\",\n      \"kind\": \"character\",\n      \"identity\": \"Infant; whole separate supported body, two clear arms and legs.\",\n      \"scale\": \"Small enough for Mama to carry\",\n      \"geometry\": \"\",\n      \"referenceIds\": [\n        \"asset-88d74c56a468e3f250b12dbc\"\n      ],\n      \"reviewStatus\": \"user-approved\"\n    },\n    {\n      \"id\": \"scooby\",\n      \"name\": \"Scooby\",\n      \"kind\": \"character\",\n      \"identity\": \"Brown short coat, curled tail, somewhat long ears, attentive book-style eyes.\",\n      \"scale\": \"Withers near standing Papa head; broad enough for Papa and PinPin to ride.\",\n      \"geometry\": \"\",\n      \"referenceIds\": [\n        \"asset-496b4f5dd35b520c54fce130\"\n      ],\n      \"reviewStatus\": \"user-approved\"\n    }\n  ],\n  \"bookContinuity\": \"Six current magical complications: endless water, flowers, talking duck, twelve ducks, giant plant, bubbles. The historical twelve-challenge outline is superseded. See lessons.json for spatial, character and production rules.\",\n  \"references\": [\n    {\n      \"assetId\": \"asset-88d74c56a468e3f250b12dbc\",\n      \"role\": \"location-identity\",\n      \"roles\": [\n        \"location-identity\",\n        \"character-identity\",\n        \"book-style\"\n      ],\n      \"entityIds\": [\n        \"house\",\n        \"mama\",\n        \"papa\",\n        \"pinpin\",\n        \"pompom\"\n      ],\n      \"sha256\": \"88d74c56a468e3f250b12dbcb5ecdb7b07bd1d789197663d8948ac199acd133d\",\n      \"name\": \"reference-family\",\n      \"url\": \"/api/assets/asset-88d74c56a468e3f250b12dbc\",\n      \"path\": \"/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-data/assets/88d74c56a468e3f250b12dbcb5ecdb7b07bd1d789197663d8948ac199acd133d.webp\",\n      \"reviewStatus\": \"user-approved\"\n    },\n    {\n      \"assetId\": \"asset-fbf70ac4415fbc9e63febdc7\",\n      \"role\": \"location-identity\",\n      \"roles\": [\n        \"location-identity\"\n      ],\n      \"entityIds\": [\n        \"house\"\n      ],\n      \"sha256\": \"fbf70ac4415fbc9e63febdc756af4a512ee9b7cd29e693fa4423e65608178184\",\n      \"name\": \"reference-kitchen-panorama\",\n      \"url\": \"/api/assets/asset-fbf70ac4415fbc9e63febdc7\",\n      \"path\": \"/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-data/assets/fbf70ac4415fbc9e63febdc756af4a512ee9b7cd29e693fa4423e65608178184.png\",\n      \"reviewStatus\": \"user-approved\"\n    },\n    {\n      \"assetId\": \"asset-496b4f5dd35b520c54fce130\",\n      \"role\": \"character-identity\",\n      \"roles\": [\n        \"character-identity\"\n      ],\n      \"entityIds\": [\n        \"scooby\"\n      ],\n      \"sha256\": \"496b4f5dd35b520c54fce130c4ace6758fc48b1efbabf1b1a06f5cd84aeedbe5\",\n      \"name\": \"reference-scooby\",\n      \"url\": \"/api/assets/asset-496b4f5dd35b520c54fce130\",\n      \"path\": \"/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-data/assets/496b4f5dd35b520c54fce130c4ace6758fc48b1efbabf1b1a06f5cd84aeedbe5.webp\",\n      \"reviewStatus\": \"user-approved\"\n    },\n    {\n      \"assetId\": \"asset-e869e8924d51497d40c57908\",\n      \"role\": \"current-scene\",\n      \"roles\": [\n        \"current-scene\",\n        \"edit-target\"\n      ],\n      \"entityIds\": [],\n      \"sha256\": \"e869e8924d51497d40c579088185793ac543fc545150c528fee0841aa13257ed\",\n      \"name\": \"scene-05g2-v3.png\",\n      \"url\": \"/api/assets/asset-e869e8924d51497d40c57908\",\n      \"path\": \"/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-data/assets/e869e8924d51497d40c579088185793ac543fc545150c528fee0841aa13257ed.png\",\n      \"reviewStatus\": \"candidate\"\n    },\n    {\n      \"assetId\": \"asset-209cf0dfb8f34942cbee5e01\",\n      \"role\": \"approved-neck-fur-identity\",\n      \"roles\": [\n        \"approved-neck-fur-identity\"\n      ],\n      \"entityIds\": [],\n      \"sha256\": \"209cf0dfb8f34942cbee5e0163532318d1ba218f7a15266c673420bf81a2837b\",\n      \"name\": \"scene-05g1-v2.png\",\n      \"url\": \"/api/assets/asset-209cf0dfb8f34942cbee5e01\",\n      \"path\": \"/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-data/assets/209cf0dfb8f34942cbee5e0163532318d1ba218f7a15266c673420bf81a2837b.png\",\n      \"reviewStatus\": \"candidate\"\n    }\n  ],\n  \"causalContext\": [\n    {\n      \"id\": \"scene-05g1\",\n      \"title\": \"scene-05g1\",\n      \"captions\": {\n        \"en\": [\n          \"\u201cHead down, Scooby.\u201d First came his nose. Then his ears. Then rather a lot of dog.\"\n        ],\n        \"ru\": [\n          \"\u2014 \u041f\u0440\u0438\u0433\u043d\u0438 \u0433\u043e\u043b\u043e\u0432\u0443, \u0421\u043a\u0443\u0431\u0438. \u2014 \u0421\u043d\u0430\u0447\u0430\u043b\u0430 \u043f\u043e\u044f\u0432\u0438\u043b\u0441\u044f \u043d\u043e\u0441. \u041f\u043e\u0442\u043e\u043c \u0443\u0448\u0438. \u0410 \u043f\u043e\u0442\u043e\u043c \u2014 \u043e\u0447\u0435\u043d\u044c \u043c\u043d\u043e\u0433\u043e \u0441\u043e\u0431\u0430\u043a\u0438.\"\n        ],\n        \"es\": [\n          \"\u2014Agacha la cabeza, Scooby. \u2014Primero entr\u00f3 el hocico. Luego las orejas. Y despu\u00e9s\u2026 un mont\u00f3n de perro.\"\n        ]\n      },\n      \"action\": \"Insidefrontdoorlow35mmwide: Scoobycroucheshead/shouldersthrough unchangedfrontopening, Papa guidespalmnearcheek; retainfrontwalls/tworoundwindows. Bodyenteringinonecontinuousorientation.\",\n      \"stateBefore\": \"\",\n      \"stateAfter\": \"\"\n    },\n    {\n      \"id\": \"scene-05g3\",\n      \"title\": \"scene-05g3\",\n      \"captions\": {\n        \"en\": [\n          \"\u201cAnd now, the sunny step.\u201d Papa led Scooby outside again. PinPin squeezed past with his bucket.\"\n        ],\n        \"ru\": [\n          \"\u2014 \u0410 \u0442\u0435\u043f\u0435\u0440\u044c \u2014 \u043d\u0430 \u0441\u043e\u043b\u043d\u044b\u0448\u043a\u043e. \u2014 \u041f\u0430\u043f\u0430 \u0432\u044b\u0432\u0435\u043b \u0421\u043a\u0443\u0431\u0438 \u043d\u0430 \u043a\u0440\u044b\u043b\u0435\u0447\u043a\u043e. \u041f\u0438\u043d-\u041f\u0438\u043d \u043e\u0441\u0442\u043e\u0440\u043e\u0436\u043d\u043e \u043f\u0440\u043e\u0448\u0451\u043b \u043c\u0438\u043c\u043e \u0441 \u0432\u0435\u0434\u0451\u0440\u043a\u043e\u043c.\"\n        ],\n        \"es\": [\n          \"\u2014Y ahora, al escal\u00f3n soleado. \u2014Pap\u00e1 volvi\u00f3 a sacar a Scooby. PinPin pas\u00f3 con cuidado, llevando su cubo.\"\n        ]\n      },\n      \"action\": \"Reversemediumdoorroute: dogexitsactualfrontdoorfollowingPapa, olderchildsinglebucket nowclearpasstobath; Mama/babyinsideplausible. Papareturnisclearbeforebathgag; Scoobysunstepoutside.\",\n      \"stateBefore\": \"\",\n      \"stateAfter\": \"\"\n    }\n  ]\n}",
+    "promptSha256": "8a028e0ebba56c7b34cd3a27989bb063bfa55781f42ddc6df94b558ad026f30c",
+    "promptPath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-data/jobs/job-38ae64124f104072905a/handoff-prompt.txt",
+    "referenceBindings": [
+      {
+        "assetId": "asset-88d74c56a468e3f250b12dbc",
+        "role": "location-identity",
+        "roles": [
+          "location-identity",
+          "character-identity",
+          "book-style"
+        ],
+        "entityIds": [
+          "house",
+          "mama",
+          "papa",
+          "pinpin",
+          "pompom"
+        ],
+        "sha256": "88d74c56a468e3f250b12dbcb5ecdb7b07bd1d789197663d8948ac199acd133d",
+        "name": "reference-family",
+        "url": "/api/assets/asset-88d74c56a468e3f250b12dbc",
+        "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-data/assets/88d74c56a468e3f250b12dbcb5ecdb7b07bd1d789197663d8948ac199acd133d.webp",
+        "reviewStatus": "user-approved"
+      },
+      {
+        "assetId": "asset-fbf70ac4415fbc9e63febdc7",
+        "role": "location-identity",
+        "roles": [
+          "location-identity"
+        ],
+        "entityIds": [
+          "house"
+        ],
+        "sha256": "fbf70ac4415fbc9e63febdc756af4a512ee9b7cd29e693fa4423e65608178184",
+        "name": "reference-kitchen-panorama",
+        "url": "/api/assets/asset-fbf70ac4415fbc9e63febdc7",
+        "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-data/assets/fbf70ac4415fbc9e63febdc756af4a512ee9b7cd29e693fa4423e65608178184.png",
+        "reviewStatus": "user-approved"
+      },
+      {
+        "assetId": "asset-496b4f5dd35b520c54fce130",
+        "role": "character-identity",
+        "roles": [
+          "character-identity"
+        ],
+        "entityIds": [
+          "scooby"
+        ],
+        "sha256": "496b4f5dd35b520c54fce130c4ace6758fc48b1efbabf1b1a06f5cd84aeedbe5",
+        "name": "reference-scooby",
+        "url": "/api/assets/asset-496b4f5dd35b520c54fce130",
+        "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-data/assets/496b4f5dd35b520c54fce130c4ace6758fc48b1efbabf1b1a06f5cd84aeedbe5.webp",
+        "reviewStatus": "user-approved"
+      },
+      {
+        "assetId": "asset-e869e8924d51497d40c57908",
+        "role": "current-scene",
+        "roles": [
+          "current-scene",
+          "edit-target"
+        ],
+        "entityIds": [],
+        "sha256": "e869e8924d51497d40c579088185793ac543fc545150c528fee0841aa13257ed",
+        "name": "scene-05g2-v3.png",
+        "url": "/api/assets/asset-e869e8924d51497d40c57908",
+        "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-data/assets/e869e8924d51497d40c579088185793ac543fc545150c528fee0841aa13257ed.png",
+        "reviewStatus": "candidate"
+      },
+      {
+        "assetId": "asset-209cf0dfb8f34942cbee5e01",
+        "role": "approved-neck-fur-identity",
+        "roles": [
+          "approved-neck-fur-identity"
+        ],
+        "entityIds": [],
+        "sha256": "209cf0dfb8f34942cbee5e0163532318d1ba218f7a15266c673420bf81a2837b",
+        "name": "scene-05g1-v2.png",
+        "url": "/api/assets/asset-209cf0dfb8f34942cbee5e01",
+        "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-data/assets/209cf0dfb8f34942cbee5e0163532318d1ba218f7a15266c673420bf81a2837b.png",
+        "reviewStatus": "candidate"
+      }
+    ],
+    "snapshot": {
+      "chapterId": "bath-magic-r17",
+      "scenes": [
+        {
+          "id": "scene-05g2",
+          "title": "scene-05g2",
+          "captions": {
+            "en": [
+              "Scooby sat down. The kitchen suddenly had very little floor left! Papa put a few blueberries in his bowl."
+            ],
+            "ru": [
+              "\u0421\u043a\u0443\u0431\u0438 \u0441\u0435\u043b. \u0421\u0432\u043e\u0431\u043e\u0434\u043d\u043e\u0433\u043e \u043f\u043e\u043b\u0430 \u043d\u0430 \u043a\u0443\u0445\u043d\u0435 \u0441\u0440\u0430\u0437\u0443 \u0441\u0442\u0430\u043b\u043e \u0441\u043e\u0432\u0441\u0435\u043c \u043c\u0430\u043b\u043e! \u041f\u0430\u043f\u0430 \u043f\u043e\u043b\u043e\u0436\u0438\u043b \u0432 \u0435\u0433\u043e \u043c\u0438\u0441\u043a\u0443 \u043d\u0435\u0441\u043a\u043e\u043b\u044c\u043a\u043e \u044f\u0433\u043e\u0434 \u0433\u043e\u043b\u0443\u0431\u0438\u043a\u0438."
+            ],
+            "es": [
+              "Scooby se sent\u00f3. \u00a1De pronto quedaba muy poco suelo libre en la cocina! Pap\u00e1 puso unos ar\u00e1ndanos en su cuenco."
+            ]
+          },
+          "action": "Widecommonroomfromsameapprovedhouseaxis: huge dogoccupiesmostCLEARfloor, normal table/stove/cabinetstillthere; Papa smaller besidedog, Mama holdsinfantseparate, olderchildONEbucketroutearounddog. Fewplainwashedblueberriesinbowl. No canal yet, no miniaturizingfurniture/dog, nobonusrooms.",
+          "dependsOn": [
+            "scene-05g1"
+          ],
+          "dependencyKind": "reading-order; refine to causal prerequisites when editing",
+          "castIds": [
+            "papa",
+            "mama",
+            "pinpin",
+            "pompom",
+            "scooby"
+          ],
+          "locationId": "house",
+          "propIds": [
+            "bucket"
+          ],
+          "camera": {
+            "position": "Widecommonroomfromsameapprovedhouseaxis: huge dogoccupiesmostCLEARfloor, normal table/stove/cabinetstillthere; Papa smaller besidedog, Mama holdsinfantseparate, olderchildONEbucketroutearounddog. Fewplainwashedblueberriesinbowl. No canal yet, no miniaturizingfurniture/dog, nobonusrooms.",
+            "height": "",
+            "yaw": null,
+            "pitch": null,
+            "fov": null,
+            "gaze": ""
+          },
+          "stateBefore": "",
+          "stateAfter": "",
+          "tempo": {
+            "activity": 1,
+            "comedy": 3,
+            "discovery": 2
+          },
+          "tempoStatus": "proposed R17 editorial rating; user review pending",
+          "imageAssetId": "asset-e869e8924d51497d40c57908",
+          "status": "published",
+          "userReview": "pending chapter revision",
+          "day": 1,
+          "number": 35,
+          "tempoBasis": {
+            "proposed": true,
+            "captionEvidence": "Scooby sat down. The kitchen suddenly had very little floor left! Papa put a few blueberries in his bowl.",
+            "rubric": "1 low, 2 medium, 3 high; ordinal categories, not runtime or observed response"
+          },
+          "imageHistory": [
+            {
+              "assetId": "asset-8855094286a8af60bd1a7795",
+              "reason": "Superseded by published R18 selection",
+              "release": "b5a94c02b5cb34e308261c877d5af19aa93b113b059a35043660ca7053162c22"
+            }
+          ],
+          "selectionBasis": "user-authorized publication; coordinator visual review",
+          "publicationSelection": {
+            "release": "b5a94c02b5cb34e308261c877d5af19aa93b113b059a35043660ca7053162c22",
+            "assetSha256": "e869e8924d51497d40c579088185793ac543fc545150c528fee0841aa13257ed",
+            "nativeAssetId": "asset-e869e8924d51497d40c57908",
+            "webSha256": "409ef7cd1e355e198ea67fa344fdabcfb84e0640cb8f78c098700c08d5843a7c"
+          }
+        }
+      ],
+      "entities": [
+        {
+          "id": "bucket",
+          "name": "Water bucket",
+          "kind": "prop",
+          "identity": "PinPin fetches ONE bucket. Papa introduces another later at scene20.",
+          "scale": "",
+          "geometry": "",
+          "referenceIds": [],
+          "reviewStatus": "user-approved"
+        },
+        {
+          "id": "house",
+          "name": "Family house",
+          "kind": "location",
+          "identity": "Warm timber and plaster family home.",
+          "scale": "Scooby occupies much of floor.",
+          "geometry": "Two round front windows and solid green front door. Kitchen rear/right doors are interior; garden can be behind camera.",
+          "referenceIds": [
+            "asset-88d74c56a468e3f250b12dbc",
+            "asset-fbf70ac4415fbc9e63febdc7"
+          ],
+          "reviewStatus": "user-approved"
+        },
+        {
+          "id": "mama",
+          "name": "Mama",
+          "kind": "character",
+          "identity": "Mother hedgehog; engaged gaze and distinct adult body.",
+          "scale": "Adult family scale",
+          "geometry": "",
+          "referenceIds": [
+            "asset-88d74c56a468e3f250b12dbc"
+          ],
+          "reviewStatus": "user-approved"
+        },
+        {
+          "id": "papa",
+          "name": "Papa",
+          "kind": "character",
+          "identity": "Adult broad shoulders, short rounded muzzle and button nose, cool quills; no wolf snout.",
+          "scale": "Clearly larger than PinPin",
+          "geometry": "",
+          "referenceIds": [
+            "asset-88d74c56a468e3f250b12dbc"
+          ],
+          "reviewStatus": "user-approved"
+        },
+        {
+          "id": "pinpin",
+          "name": "Mr. PinPin",
+          "kind": "character",
+          "identity": "Child hedgehog; rounded dimensional face, visible eye irises, golden quill. Not the infant.",
+          "scale": "About half Papa standing height",
+          "geometry": "",
+          "referenceIds": [
+            "asset-88d74c56a468e3f250b12dbc"
+          ],
+          "reviewStatus": "user-approved"
+        },
+        {
+          "id": "pompom",
+          "name": "Mr. PomPom",
+          "kind": "character",
+          "identity": "Infant; whole separate supported body, two clear arms and legs.",
+          "scale": "Small enough for Mama to carry",
+          "geometry": "",
+          "referenceIds": [
+            "asset-88d74c56a468e3f250b12dbc"
+          ],
+          "reviewStatus": "user-approved"
+        },
+        {
+          "id": "scooby",
+          "name": "Scooby",
+          "kind": "character",
+          "identity": "Brown short coat, curled tail, somewhat long ears, attentive book-style eyes.",
+          "scale": "Withers near standing Papa head; broad enough for Papa and PinPin to ride.",
+          "geometry": "",
+          "referenceIds": [
+            "asset-496b4f5dd35b520c54fce130"
+          ],
+          "reviewStatus": "user-approved"
+        }
+      ],
+      "bookContinuity": "Six current magical complications: endless water, flowers, talking duck, twelve ducks, giant plant, bubbles. The historical twelve-challenge outline is superseded. See lessons.json for spatial, character and production rules.",
+      "references": [
+        {
+          "assetId": "asset-88d74c56a468e3f250b12dbc",
+          "role": "location-identity",
+          "roles": [
+            "location-identity",
+            "character-identity",
+            "book-style"
+          ],
+          "entityIds": [
+            "house",
+            "mama",
+            "papa",
+            "pinpin",
+            "pompom"
+          ],
+          "sha256": "88d74c56a468e3f250b12dbcb5ecdb7b07bd1d789197663d8948ac199acd133d",
+          "name": "reference-family",
+          "url": "/api/assets/asset-88d74c56a468e3f250b12dbc",
+          "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-data/assets/88d74c56a468e3f250b12dbcb5ecdb7b07bd1d789197663d8948ac199acd133d.webp",
+          "reviewStatus": "user-approved"
+        },
+        {
+          "assetId": "asset-fbf70ac4415fbc9e63febdc7",
+          "role": "location-identity",
+          "roles": [
+            "location-identity"
+          ],
+          "entityIds": [
+            "house"
+          ],
+          "sha256": "fbf70ac4415fbc9e63febdc756af4a512ee9b7cd29e693fa4423e65608178184",
+          "name": "reference-kitchen-panorama",
+          "url": "/api/assets/asset-fbf70ac4415fbc9e63febdc7",
+          "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-data/assets/fbf70ac4415fbc9e63febdc756af4a512ee9b7cd29e693fa4423e65608178184.png",
+          "reviewStatus": "user-approved"
+        },
+        {
+          "assetId": "asset-496b4f5dd35b520c54fce130",
+          "role": "character-identity",
+          "roles": [
+            "character-identity"
+          ],
+          "entityIds": [
+            "scooby"
+          ],
+          "sha256": "496b4f5dd35b520c54fce130c4ace6758fc48b1efbabf1b1a06f5cd84aeedbe5",
+          "name": "reference-scooby",
+          "url": "/api/assets/asset-496b4f5dd35b520c54fce130",
+          "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-data/assets/496b4f5dd35b520c54fce130c4ace6758fc48b1efbabf1b1a06f5cd84aeedbe5.webp",
+          "reviewStatus": "user-approved"
+        },
+        {
+          "assetId": "asset-e869e8924d51497d40c57908",
+          "role": "current-scene",
+          "roles": [
+            "current-scene",
+            "edit-target"
+          ],
+          "entityIds": [],
+          "sha256": "e869e8924d51497d40c579088185793ac543fc545150c528fee0841aa13257ed",
+          "name": "scene-05g2-v3.png",
+          "url": "/api/assets/asset-e869e8924d51497d40c57908",
+          "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-data/assets/e869e8924d51497d40c579088185793ac543fc545150c528fee0841aa13257ed.png",
+          "reviewStatus": "candidate"
+        },
+        {
+          "assetId": "asset-209cf0dfb8f34942cbee5e01",
+          "role": "approved-neck-fur-identity",
+          "roles": [
+            "approved-neck-fur-identity"
+          ],
+          "entityIds": [],
+          "sha256": "209cf0dfb8f34942cbee5e0163532318d1ba218f7a15266c673420bf81a2837b",
+          "name": "scene-05g1-v2.png",
+          "url": "/api/assets/asset-209cf0dfb8f34942cbee5e01",
+          "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-data/assets/209cf0dfb8f34942cbee5e0163532318d1ba218f7a15266c673420bf81a2837b.png",
+          "reviewStatus": "candidate"
+        }
+      ],
+      "causalContext": [
+        {
+          "id": "scene-05g1",
+          "title": "scene-05g1",
+          "captions": {
+            "en": [
+              "\u201cHead down, Scooby.\u201d First came his nose. Then his ears. Then rather a lot of dog."
+            ],
+            "ru": [
+              "\u2014 \u041f\u0440\u0438\u0433\u043d\u0438 \u0433\u043e\u043b\u043e\u0432\u0443, \u0421\u043a\u0443\u0431\u0438. \u2014 \u0421\u043d\u0430\u0447\u0430\u043b\u0430 \u043f\u043e\u044f\u0432\u0438\u043b\u0441\u044f \u043d\u043e\u0441. \u041f\u043e\u0442\u043e\u043c \u0443\u0448\u0438. \u0410 \u043f\u043e\u0442\u043e\u043c \u2014 \u043e\u0447\u0435\u043d\u044c \u043c\u043d\u043e\u0433\u043e \u0441\u043e\u0431\u0430\u043a\u0438."
+            ],
+            "es": [
+              "\u2014Agacha la cabeza, Scooby. \u2014Primero entr\u00f3 el hocico. Luego las orejas. Y despu\u00e9s\u2026 un mont\u00f3n de perro."
+            ]
+          },
+          "action": "Insidefrontdoorlow35mmwide: Scoobycroucheshead/shouldersthrough unchangedfrontopening, Papa guidespalmnearcheek; retainfrontwalls/tworoundwindows. Bodyenteringinonecontinuousorientation.",
+          "stateBefore": "",
+          "stateAfter": ""
+        },
+        {
+          "id": "scene-05g3",
+          "title": "scene-05g3",
+          "captions": {
+            "en": [
+              "\u201cAnd now, the sunny step.\u201d Papa led Scooby outside again. PinPin squeezed past with his bucket."
+            ],
+            "ru": [
+              "\u2014 \u0410 \u0442\u0435\u043f\u0435\u0440\u044c \u2014 \u043d\u0430 \u0441\u043e\u043b\u043d\u044b\u0448\u043a\u043e. \u2014 \u041f\u0430\u043f\u0430 \u0432\u044b\u0432\u0435\u043b \u0421\u043a\u0443\u0431\u0438 \u043d\u0430 \u043a\u0440\u044b\u043b\u0435\u0447\u043a\u043e. \u041f\u0438\u043d-\u041f\u0438\u043d \u043e\u0441\u0442\u043e\u0440\u043e\u0436\u043d\u043e \u043f\u0440\u043e\u0448\u0451\u043b \u043c\u0438\u043c\u043e \u0441 \u0432\u0435\u0434\u0451\u0440\u043a\u043e\u043c."
+            ],
+            "es": [
+              "\u2014Y ahora, al escal\u00f3n soleado. \u2014Pap\u00e1 volvi\u00f3 a sacar a Scooby. PinPin pas\u00f3 con cuidado, llevando su cubo."
+            ]
+          },
+          "action": "Reversemediumdoorroute: dogexitsactualfrontdoorfollowingPapa, olderchildsinglebucket nowclearpasstobath; Mama/babyinsideplausible. Papareturnisclearbeforebathgag; Scoobysunstepoutside.",
+          "stateBefore": "",
+          "stateAfter": ""
+        }
+      ]
+    },
+    "projectRevision": 256,
+    "artifacts": [
+      {
+        "id": "artifact-fa96741bb8be45c68d6d",
+        "sceneId": "scene-05g2",
+        "agent": "05g2-neck-fur",
+        "createdAt": "2026-10-02T20:31:12.268702+00:00",
+        "reviewStatus": "candidate",
+        "agentVisualPass": true,
+        "toolName": "image_gen__imagegen",
+        "handoffPromptSha256": "8a028e0ebba56c7b34cd3a27989bb063bfa55781f42ddc6df94b558ad026f30c",
+        "actualPromptStatus": "recorded",
+        "actualPromptSha256": "8478ef9a4ee7246cd34b554492ab47a5dc1f7b6ed8042cc87b0de6068345aec5",
+        "actualReferencesStatus": "recorded",
+        "actualReferenceBindings": [
+          {
+            "assetId": "asset-e869e8924d51497d40c57908",
+            "roles": [
+              "edit-target"
+            ],
+            "sha256": "e869e8924d51497d40c579088185793ac543fc545150c528fee0841aa13257ed",
+            "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-data/assets/e869e8924d51497d40c579088185793ac543fc545150c528fee0841aa13257ed.png"
+          },
+          {
+            "assetId": "asset-209cf0dfb8f34942cbee5e01",
+            "roles": [
+              "approved-neck-fur-identity"
+            ],
+            "sha256": "209cf0dfb8f34942cbee5e0163532318d1ba218f7a15266c673420bf81a2837b",
+            "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-data/assets/209cf0dfb8f34942cbee5e0163532318d1ba218f7a15266c673420bf81a2837b.png"
+          }
+        ],
+        "actualPromptPath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-data/jobs/job-38ae64124f104072905a/artifact-fa96741bb8be45c68d6d-actual-prompt.txt",
+        "type": "image",
+        "assetId": "asset-cb27635a1aa5ce922420fbc3",
+        "sha256": "cb27635a1aa5ce922420fbc31d0be8660260fdb57b83b11abc082442ee6d2013",
+        "url": "/api/assets/asset-cb27635a1aa5ce922420fbc3"
+      }
+    ],
+    "feedback": [],
+    "createdAt": "2026-10-02T20:28:39.160787+00:00",
+    "updatedAt": "2026-10-02T20:31:12.277487+00:00",
+    "claimedBy": "05g2-neck-fur",
+    "claimedAt": "2026-10-02T20:28:39.251987+00:00",
+    "completedAt": "2026-10-02T20:31:12.277489+00:00"
+  }
+}
