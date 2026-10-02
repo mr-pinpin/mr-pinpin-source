@@ -1,0 +1,27 @@
+R11 CONTINUITY CORRECTION REVIEW
+
+113 scenes plus cover, unchanged order. Root owns story-plan captions and
+character lane; geometry owns aqueduct/duck-direction repairs. Reader owns
+runtime, layout, provenance consolidation and preservation.
+
+Original comparison is R10, never an earlier similarly numbered image.
+Current display numbers and stable scene IDs appear together in before/after.
+Inherited R9 feedback labels remain visible in the full reader for older notes.
+
+R11 baseline uses direct pointers to the exact selected R10 bytes. These may
+physically originate in R8 or R10; sourceProduction resolves the actual file.
+reusedFromProduction/reusedFromSceneId retain the immediate R10 lineage.
+Only explicit lane selections supersede their slots. No upstream art is copied.
+
+Run on the mini SSD:
+ .venv/bin/python accept-lane-asset.py --lane root --id scene-81 --record records/scene-81-v1.json
+ .venv/bin/python refresh-media.py
+ .venv/bin/python finalize-selection.py
+ .venv/bin/python configure-storyboard.py
+ .venv/bin/python build-storyboard.py --languages ru,en --version 1
+ .venv/bin/python verify-boards.py
+ /opt/homebrew/bin/node check-reader.cjs
+
+Archive only new art/input snapshots/prompt records and new comic derivatives.
+Existing R10 and R8 verified archives remain the restoration sources for their
+unchanged byte pointers. No official chapter indexes or published site change.

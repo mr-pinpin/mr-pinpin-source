@@ -1,0 +1,66 @@
+{
+  "tool": "image_gen__imagegen",
+  "generatedAt": "2026-10-01T21:27:59.726Z",
+  "sourceOutput": "/Users/miguel_lemos/.codex/generated_images/01a0f95a-ba97-7241-8dc6-f89b426715da/exec-0758260b-8532-4fa7-907b-380dfa199b59.png",
+  "promptPath": "prompts/scene-123-v1.txt",
+  "references": [
+    "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r10-story-repair/root/masters/scene-123-v1.png",
+    "/Volumes/TB4/mac-mini-storage/shared/pinpin-retained-worktrees/mr-pinpin-cover-standard/docs/storyboard/images/chapter-02-expanded/revision-04/style-tests/papa-scooby-style-study-v2.png",
+    "/Volumes/TB4/mac-mini-storage/shared/pinpin-retained-worktrees/mr-pinpin-cover-standard/docs/storyboard/images/chapter-02-expanded/revision-05/preproduction/family-style-v3.png"
+  ],
+  "visualReview": "Viewed output at native resolution. Center character now recognizably adult Papa with broad mature cream muzzle, smaller hazel eyes and cooler pale-tipped quills, distinct from reddish Mama holding baby at rear. Four family members, physical trough and block supports, calm full bath and scene geometry retained.",
+  "promptSha256": "c472a3f272fd94f23643ff4199b97ab72c634dbb496903f261297e5027021510",
+  "master": {
+    "path": "masters/scene-123-v1.png",
+    "sha256": "b5fe09b1d8ffb2034e1c8ebd15abd2eacf900ad04a3c49521c98560c3e35bebf",
+    "bytes": 2449442
+  },
+  "referenceIdentities": [
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r10-story-repair/root/masters/scene-123-v1.png",
+      "sha256": "f854bf84c43108768a6c29d57773d01f305a1ab88ead494c89f57d64ca5994aa",
+      "bytes": 2528460
+    },
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-retained-worktrees/mr-pinpin-cover-standard/docs/storyboard/images/chapter-02-expanded/revision-04/style-tests/papa-scooby-style-study-v2.png",
+      "sha256": "a2a9d78052a91b1e0b0aa38fd9d7dc16d77e10761d09203e4f29c1dfb8a12d36",
+      "bytes": 2244671
+    },
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-retained-worktrees/mr-pinpin-cover-standard/docs/storyboard/images/chapter-02-expanded/revision-05/preproduction/family-style-v3.png",
+      "sha256": "89922a4294888921ddb32a5d83fb193f9af85f2950cdc843d5cfc7d62374173d",
+      "bytes": 1791029
+    }
+  ],
+  "preservedReferences": [
+    {
+      "path": "references/inputs/f854bf84c431/scene-123-v1.png",
+      "sha256": "f854bf84c43108768a6c29d57773d01f305a1ab88ead494c89f57d64ca5994aa"
+    },
+    {
+      "path": "references/inputs/a2a9d78052a9/papa-scooby-style-study-v2.png",
+      "sha256": "a2a9d78052a91b1e0b0aa38fd9d7dc16d77e10761d09203e4f29c1dfb8a12d36"
+    },
+    {
+      "path": "references/inputs/89922a429488/family-style-v3.png",
+      "sha256": "89922a4294888921ddb32a5d83fb193f9af85f2950cdc843d5cfc7d62374173d"
+    }
+  ],
+  "reviewStatus": "illustration candidate; awaiting user feedback",
+  "web": {
+    "path": "web/scene-123.webp",
+    "sha256": "02a5dd64780c4014ac027f2f7b7c564c6204109ab6d3359c0fa183059e8bb318",
+    "bytes": 418142
+  },
+  "dimensions": [
+    1536,
+    1024
+  ],
+  "conversion": {
+    "format": "WebP",
+    "quality": 94,
+    "method": 6,
+    "resized": false,
+    "artEdited": false
+  }
+}

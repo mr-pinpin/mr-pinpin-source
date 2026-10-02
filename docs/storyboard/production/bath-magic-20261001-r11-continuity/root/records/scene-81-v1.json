@@ -1,0 +1,66 @@
+{
+  "tool": "image_gen__imagegen",
+  "generatedAt": "2026-10-01T21:27:58.979Z",
+  "sourceOutput": "/Users/miguel_lemos/.codex/generated_images/01a0f95a-ba97-7241-8dc6-f89b426715da/exec-e64627d3-abce-45db-963c-f25040fd9352.png",
+  "promptPath": "prompts/scene-81-v1.txt",
+  "references": [
+    "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r10-story-repair/root/masters/scene-81-v1.png",
+    "/Volumes/TB4/mac-mini-storage/shared/pinpin-workspace/mr-pinpin-source/docs/storyboard/production/papa-arrival-expansion-20260922/images/arrival-04.png",
+    "/Volumes/TB4/mac-mini-storage/shared/pinpin-retained-worktrees/mr-pinpin-cover-standard/docs/storyboard/images/chapter-02-expanded/revision-05/preproduction/family-style-v3.png"
+  ],
+  "visualReview": "Viewed output at native resolution. PinPin now has broader cream cheeks, longer softly rounded projecting muzzle and small closed smile, matching the approved arrival child rather than the former wide mouth. Arms remain attached, six bubbles with soap and cloth, full bath and source unchanged.",
+  "promptSha256": "530a578a08061a8b03a99f2fded7c9461c00c63e0b39f8ee8739e6b46b42c7a1",
+  "master": {
+    "path": "masters/scene-81-v1.png",
+    "sha256": "eef14332be48bb25fd699f8d2ee5ca645685285ff70a4713e9e3199951824989",
+    "bytes": 2485616
+  },
+  "referenceIdentities": [
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r10-story-repair/root/masters/scene-81-v1.png",
+      "sha256": "87871a0cfea90140ae4e9e9d5d432a6f81c9dc86936c71a5164571a60490587c",
+      "bytes": 2532100
+    },
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-workspace/mr-pinpin-source/docs/storyboard/production/papa-arrival-expansion-20260922/images/arrival-04.png",
+      "sha256": "6bf6114fd5f9e71c140800a3fa5a0c6967a2b02f826704fb003acc2b198baf4e",
+      "bytes": 2372361
+    },
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-retained-worktrees/mr-pinpin-cover-standard/docs/storyboard/images/chapter-02-expanded/revision-05/preproduction/family-style-v3.png",
+      "sha256": "89922a4294888921ddb32a5d83fb193f9af85f2950cdc843d5cfc7d62374173d",
+      "bytes": 1791029
+    }
+  ],
+  "preservedReferences": [
+    {
+      "path": "references/inputs/87871a0cfea9/scene-81-v1.png",
+      "sha256": "87871a0cfea90140ae4e9e9d5d432a6f81c9dc86936c71a5164571a60490587c"
+    },
+    {
+      "path": "references/inputs/6bf6114fd5f9/arrival-04.png",
+      "sha256": "6bf6114fd5f9e71c140800a3fa5a0c6967a2b02f826704fb003acc2b198baf4e"
+    },
+    {
+      "path": "references/inputs/89922a429488/family-style-v3.png",
+      "sha256": "89922a4294888921ddb32a5d83fb193f9af85f2950cdc843d5cfc7d62374173d"
+    }
+  ],
+  "reviewStatus": "illustration candidate; awaiting user feedback",
+  "web": {
+    "path": "web/scene-81.webp",
+    "sha256": "98617afe440da74b1eafd3dd7737fc2cb8103640edca528b8cb9ffdc4678a3fd",
+    "bytes": 409562
+  },
+  "dimensions": [
+    1536,
+    1024
+  ],
+  "conversion": {
+    "format": "WebP",
+    "quality": 94,
+    "method": 6,
+    "resized": false,
+    "artEdited": false
+  }
+}

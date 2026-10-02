@@ -1,0 +1,56 @@
+{
+  "tool": "image_gen__imagegen",
+  "generatedAt": "2026-10-01T21:27:28.350Z",
+  "sourceOutput": "/Users/miguel_lemos/.codex/generated_images/01a0f95b-256e-7991-9721-e1a97c624aa1/exec-4903abea-6eae-42f4-bfbf-9dad1e17f816.png",
+  "promptPath": "prompts/scene-55-v1.txt",
+  "references": [
+    "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r8-herculean/geometry/masters/scene-55-v1.png",
+    "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r10-story-repair/story/masters/scene-62b-v1.png"
+  ],
+  "visualReview": "Viewed native output. Four original breakfast characters and actions preserved. Existing right arched door is open; continuous supported water trough visible from bath behind table and crossing threshold into sunny garden. Old indoor bucket dead end removed.",
+  "promptSha256": "08164b822e4983359aae232f76b389550080feec02f803f6a9ffa02fb6da400c",
+  "master": {
+    "path": "masters/scene-55-v1.png",
+    "sha256": "0c51e0e669dd15c9f21633e6b766ed30278b16825fde7b37632fb34f5cfc0677",
+    "bytes": 2603378
+  },
+  "referenceIdentities": [
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r8-herculean/geometry/masters/scene-55-v1.png",
+      "sha256": "a90ce7eab6fed7790217f638a7d84a4d3f2ea059c232cf2e4e495b814bbd6b43",
+      "bytes": 2630967
+    },
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r10-story-repair/story/masters/scene-62b-v1.png",
+      "sha256": "3f6f8fd32d554d3d63d85f0bf023293aab5a770e70b2ee2c188e1100c10d96fd",
+      "bytes": 2336125
+    }
+  ],
+  "preservedReferences": [
+    {
+      "path": "references/inputs/a90ce7eab6fe/scene-55-v1.png",
+      "sha256": "a90ce7eab6fed7790217f638a7d84a4d3f2ea059c232cf2e4e495b814bbd6b43"
+    },
+    {
+      "path": "references/inputs/3f6f8fd32d55/scene-62b-v1.png",
+      "sha256": "3f6f8fd32d554d3d63d85f0bf023293aab5a770e70b2ee2c188e1100c10d96fd"
+    }
+  ],
+  "reviewStatus": "illustration candidate; awaiting user feedback",
+  "web": {
+    "path": "web/scene-55.webp",
+    "sha256": "b2200f54d77aadf29f0ebe30c82f6b8307843ca66aced6fd0d4dacb4540a4e1c",
+    "bytes": 491438
+  },
+  "dimensions": [
+    1536,
+    1024
+  ],
+  "conversion": {
+    "format": "WebP",
+    "quality": 94,
+    "method": 6,
+    "resized": false,
+    "artEdited": false
+  }
+}

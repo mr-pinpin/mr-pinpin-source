@@ -1,0 +1,56 @@
+{
+  "tool": "image_gen__imagegen",
+  "generatedAt": "2026-10-01T21:30:24.183Z",
+  "sourceOutput": "/Users/miguel_lemos/.codex/generated_images/01a0f95b-256e-7991-9721-e1a97c624aa1/exec-7f27c30a-ea03-450c-b0b9-1959de7d3320.png",
+  "promptPath": "prompts/scene-55c-v1.txt",
+  "references": [
+    "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r10-story-repair/story/masters/scene-55c-v1.png",
+    "/Users/miguel_lemos/.codex/generated_images/01a0f95b-256e-7991-9721-e1a97c624aa1/exec-4903abea-6eae-42f4-bfbf-9dad1e17f816.png"
+  ],
+  "visualReview": "Viewed native output. Matched repaired scene55 open right exterior door and connected supported wooden aqueduct through threshold to garden. Preserved original four family members, individual breakfast actions, camera and dimensional warm rendering. Indoor bucket dead end absent.",
+  "promptSha256": "01bac0b4a1ab8a0498a8c9f7cfda9610ccc1ab94a455613da7151f8a50841fb9",
+  "master": {
+    "path": "masters/scene-55c-v1.png",
+    "sha256": "cee144ebf23e45f9086ffcfb86dee9069185e89ee2880a022568b867a115493e",
+    "bytes": 2521232
+  },
+  "referenceIdentities": [
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r10-story-repair/story/masters/scene-55c-v1.png",
+      "sha256": "030a975c24b98c7e7c64fdb7577c9e74f619fe785cb9f2d608b307c74fc86b3f",
+      "bytes": 2568523
+    },
+    {
+      "path": "/Users/miguel_lemos/.codex/generated_images/01a0f95b-256e-7991-9721-e1a97c624aa1/exec-4903abea-6eae-42f4-bfbf-9dad1e17f816.png",
+      "sha256": "0c51e0e669dd15c9f21633e6b766ed30278b16825fde7b37632fb34f5cfc0677",
+      "bytes": 2603378
+    }
+  ],
+  "preservedReferences": [
+    {
+      "path": "references/inputs/030a975c24b9/scene-55c-v1.png",
+      "sha256": "030a975c24b98c7e7c64fdb7577c9e74f619fe785cb9f2d608b307c74fc86b3f"
+    },
+    {
+      "path": "references/inputs/0c51e0e669dd/exec-4903abea-6eae-42f4-bfbf-9dad1e17f816.png",
+      "sha256": "0c51e0e669dd15c9f21633e6b766ed30278b16825fde7b37632fb34f5cfc0677"
+    }
+  ],
+  "reviewStatus": "illustration candidate; awaiting user feedback",
+  "web": {
+    "path": "web/scene-55c.webp",
+    "sha256": "fdaeeaefd702c172b4889c0f7aed9ef3f97c39d675f50bc618e82baf730d4a71",
+    "bytes": 455628
+  },
+  "dimensions": [
+    1536,
+    1024
+  ],
+  "conversion": {
+    "format": "WebP",
+    "quality": 94,
+    "method": 6,
+    "resized": false,
+    "artEdited": false
+  }
+}

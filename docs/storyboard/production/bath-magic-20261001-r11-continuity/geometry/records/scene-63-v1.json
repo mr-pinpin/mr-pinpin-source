@@ -1,0 +1,56 @@
+{
+  "tool": "image_gen__imagegen",
+  "generatedAt": "2026-10-02T00:33:14.916Z",
+  "sourceOutput": "/Users/miguel_lemos/.codex/generated_images/01a0fa05-e7a6-7a00-a6f0-fc3a9cc0cc09/exec-19de2572-0a06-447e-9881-3fbdd1252114.png",
+  "promptPath": "prompts/scene-63-v1.txt",
+  "references": [
+    "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r8-herculean/geometry/web/scene-63.webp",
+    "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r10-story-repair/story/masters/scene-62b-v1.png"
+  ],
+  "visualReview": "Viewed native output. Exactly one yellow plastic duck remains in the same foreground-right trough segment at the same scale. Round back and tail face camera; body faces down the channel toward the garden, with a small head turn toward baby. Mama securely holds one baby; their faces, table and room composition remain consistent. Aqueduct is continuous through open exterior doorway, previous reversed stair-step waterfalls and conspicuous side leaks removed; water surface now smoothly recedes toward the garden. No additional duck or character.",
+  "promptSha256": "f1f36d5f7b015fe35d7b9b49005032ac9513c9c8fb36e31c43b8a3cdde3b90ba",
+  "master": {
+    "path": "masters/scene-63-v1.png",
+    "sha256": "48913565184659974c97958b012fb94823a86c2ba551a2b6977e155b6299b642",
+    "bytes": 2443379
+  },
+  "referenceIdentities": [
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r8-herculean/geometry/web/scene-63.webp",
+      "sha256": "48d2521c1d0c58b140235543692da1b6538c20c8999d95c8f093c7d2ce910d1d",
+      "bytes": 429044
+    },
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r10-story-repair/story/masters/scene-62b-v1.png",
+      "sha256": "3f6f8fd32d554d3d63d85f0bf023293aab5a770e70b2ee2c188e1100c10d96fd",
+      "bytes": 2336125
+    }
+  ],
+  "preservedReferences": [
+    {
+      "path": "references/inputs/48d2521c1d0c/scene-63.webp",
+      "sha256": "48d2521c1d0c58b140235543692da1b6538c20c8999d95c8f093c7d2ce910d1d"
+    },
+    {
+      "path": "references/inputs/3f6f8fd32d55/scene-62b-v1.png",
+      "sha256": "3f6f8fd32d554d3d63d85f0bf023293aab5a770e70b2ee2c188e1100c10d96fd"
+    }
+  ],
+  "reviewStatus": "illustration candidate; awaiting user feedback",
+  "web": {
+    "path": "web/scene-63.webp",
+    "sha256": "9b715bac2c941fff8fabf6e33da6bb797b072af6941faec00561050d82c096c5",
+    "bytes": 413380
+  },
+  "dimensions": [
+    1536,
+    1024
+  ],
+  "conversion": {
+    "format": "WebP",
+    "quality": 94,
+    "method": 6,
+    "resized": false,
+    "artEdited": false
+  }
+}

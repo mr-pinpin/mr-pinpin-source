@@ -1,0 +1,76 @@
+{
+  "tool": "image_gen__imagegen",
+  "generatedAt": "2026-10-01T21:31:17.611Z",
+  "sourceOutput": "/Users/miguel_lemos/.codex/generated_images/01a0f95a-ba97-7241-8dc6-f89b426715da/exec-14637fcd-68b3-441a-88b3-9082bac65813.png",
+  "promptPath": "prompts/scene-82-v1.txt",
+  "references": [
+    "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r8-herculean/geometry/web/scene-82.webp",
+    "/Volumes/TB4/mac-mini-storage/shared/pinpin-retained-worktrees/mr-pinpin-cover-standard/docs/storyboard/images/chapter-02-expanded/revision-04/style-tests/papa-scooby-style-study-v2.png",
+    "/Volumes/TB4/mac-mini-storage/shared/pinpin-retained-worktrees/mr-pinpin-cover-standard/docs/storyboard/images/chapter-02-expanded/revision-05/preproduction/family-style-v3.png",
+    "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r10-story-repair/root/masters/scene-61-v1.png"
+  ],
+  "visualReview": "Viewed native output. Papa now broad mature face with distinct cream muzzle, hazel irises and taupe pale-tipped quills. Upper torso/chest fully rises over bath rim rather than child head alone. Alert gaze at soap, soft amused focused smile; two attached arms including reaching paw. Source/bubbles/water/window preserved; soap bubble moves slightly lower-left to match hand reach.",
+  "promptSha256": "244eec5f72e6d4abd20ba68cb3b42818db2204160dcebcb93278ce0be78390a4",
+  "master": {
+    "path": "masters/scene-82-v1.png",
+    "sha256": "90e6eb5ac34f0298bb41a13f0e3346b65bf1540d4a6ffa444587b895e05a5cec",
+    "bytes": 2430165
+  },
+  "referenceIdentities": [
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r8-herculean/geometry/web/scene-82.webp",
+      "sha256": "a45234f424f25afe43c1ea98664ea61198c09d8546c50eb47829b109931a77aa",
+      "bytes": 372780
+    },
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-retained-worktrees/mr-pinpin-cover-standard/docs/storyboard/images/chapter-02-expanded/revision-04/style-tests/papa-scooby-style-study-v2.png",
+      "sha256": "a2a9d78052a91b1e0b0aa38fd9d7dc16d77e10761d09203e4f29c1dfb8a12d36",
+      "bytes": 2244671
+    },
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-retained-worktrees/mr-pinpin-cover-standard/docs/storyboard/images/chapter-02-expanded/revision-05/preproduction/family-style-v3.png",
+      "sha256": "89922a4294888921ddb32a5d83fb193f9af85f2950cdc843d5cfc7d62374173d",
+      "bytes": 1791029
+    },
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r10-story-repair/root/masters/scene-61-v1.png",
+      "sha256": "9a9d067e92fd32cfd59c24f5a733711d522a42acb610f0c00891aa4e07b07314",
+      "bytes": 2407571
+    }
+  ],
+  "preservedReferences": [
+    {
+      "path": "references/inputs/a45234f424f2/scene-82.webp",
+      "sha256": "a45234f424f25afe43c1ea98664ea61198c09d8546c50eb47829b109931a77aa"
+    },
+    {
+      "path": "references/inputs/a2a9d78052a9/papa-scooby-style-study-v2.png",
+      "sha256": "a2a9d78052a91b1e0b0aa38fd9d7dc16d77e10761d09203e4f29c1dfb8a12d36"
+    },
+    {
+      "path": "references/inputs/89922a429488/family-style-v3.png",
+      "sha256": "89922a4294888921ddb32a5d83fb193f9af85f2950cdc843d5cfc7d62374173d"
+    },
+    {
+      "path": "references/inputs/9a9d067e92fd/scene-61-v1.png",
+      "sha256": "9a9d067e92fd32cfd59c24f5a733711d522a42acb610f0c00891aa4e07b07314"
+    }
+  ],
+  "reviewStatus": "illustration candidate; awaiting user feedback",
+  "web": {
+    "path": "web/scene-82.webp",
+    "sha256": "3e4ddbbb0dd4f35f00deb786907ffac829c70f0af07fe76d32cffe4224198928",
+    "bytes": 390714
+  },
+  "dimensions": [
+    1536,
+    1024
+  ],
+  "conversion": {
+    "format": "WebP",
+    "quality": 94,
+    "method": 6,
+    "resized": false,
+    "artEdited": false
+  }
+}

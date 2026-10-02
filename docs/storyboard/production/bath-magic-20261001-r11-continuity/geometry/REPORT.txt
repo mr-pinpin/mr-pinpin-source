@@ -1,0 +1,18 @@
+R11 geometry lane — completion report
+Updated 2026-10-02T00:33:34.127Z
+Scope: selected image edits for scene-55, scene-55a, scene-55c and scene-63. Stable scene IDs retained.
+
+Breakfast aqueduct (55/55a/55c):
+The preceding worker generated these three edits; the finishing agent independently viewed each selected WebP at full size. All retain Papa, Mama, PinPin and baby PomPom at the normal round breakfast table. The running wooden channel is visible from the bath doorway and continues through the open exterior garden door, replacing the indoor bucket termination. Food sharing, baby feeding and PinPin proposing his plan remain distinct beats. Papa stays visibly larger than the children. No duplicate mother or missing family member observed.
+
+Duck (63, display 69):
+Used the exact existing scene as edit target and R10 scene62b as downstream heading/style reference. The duck remains at its original foreground-right position and scale. It now shows its back and tail toward the viewer, its body aligned along the trough toward the garden; a slight head turn still lets it address the baby. Exactly one plastic yellow duck is present.
+Removed reversed step-waterfalls at the joins and conspicuous side spills; trough now presents a continuous water bed from foreground through the open exterior door into the garden. This is an image-led visual continuity correction, not a measured hydraulic/Blender simulation. Original Mama/baby pose and room composition preserved.
+
+Production:
+Built-in image_gen__imagegen only; no CLI/API fallback.
+Native masters: geometry/masters/scene-{55,55a,55c,63}-v1.png.
+Exact prompts: geometry/prompts/scene-{55,55a,55c,63}-v1.txt.
+Records and preserved input snapshots: geometry/records and geometry/references/inputs.
+Registrar selected all four, retained native output, and made quality94 WebP derivatives without resize or art editing. Scene63 registered after independent native-image inspection.
+No R10 assets overwritten. No publication or commit performed by this lane.

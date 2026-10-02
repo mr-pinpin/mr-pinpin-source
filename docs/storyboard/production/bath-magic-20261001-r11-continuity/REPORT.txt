@@ -1,0 +1,50 @@
+R11 CONTINUITY CORRECTIONS — UNPUBLISHED REVIEW
+
+The chapter contains 113 scenes plus its cover, with R10 numbering and order
+unchanged. Eight illustrations were edited with the built-in image tool using
+approved character and selected chapter references.
+
+Current display number -> stable scene:
+ 57 -> scene-55: breakfast, continuous aqueduct through open garden doorway.
+ 58 -> scene-55a: food-sharing moment with the same exterior drainage route.
+ 60 -> scene-55c: PinPin's plan, with continuous drainage into the garden.
+ 69 -> scene-63: same duck position, beak and body aligned downstream.
+ 86 -> scene-75: restored breakfast where Mama notices the growing plant;
+                   English, Russian and Spanish captions restored accordingly.
+ 93 -> scene-81: PinPin's approved rounded child face and quills.
+ 94 -> scene-82: adult Papa's face, broad shoulders/chest and scale.
+109 -> scene-123: one Papa, one Mama holding the baby, and PinPin.
+
+Number 59 is the existing tight thinking close-up; it remains unchanged.
+All other 106 selected images are byte-identical to R10. Stable scene-45 remains
+unchanged as requested previously. No extra scenes, no reordered scenes.
+
+READER AND COMIC BOARDS
+Full chapter: http://127.0.0.1:18795/storyboard/review/bath-magic-r11-continuity.html?lang=ru
+Before/after: add &view=changes
+Five-sheet overview: add &view=storyboard
+Language flags select Russian, English or Spanish. Compact sheets exist in
+Russian and English; Spanish reading uses Spanish captions and English sheets.
+
+Five RU and five EN boards include all 113 scenes per language. They are
+layout-only derivatives: contained source pixels plus captions. Immutable v1
+build inputs retain the exact story, R11 media selection, layout and recipe.
+The R11 storyboard source path was corrected from an inherited R10 setting.
+Verification rejects any panel not matching its current selected image hash.
+
+QA
+reader/selection-qa.json checks all 114 selected pointers and exact eight edits.
+boards/qa.json checks 226 panels, exact captions, bounds and unmodified pixels.
+browser-check/results.json records real Chrome checks at 390 and 1440 pixels:
+113 decoded story images, ten decoded board images, eight before/after pairs,
+all scene links, three languages, zero browser errors or horizontal overflow.
+Root reviewed all eight corrections; geometry/REPORT.txt records independent
+aqueduct/duck review. Finalizer visually reviewed desktop comparison and mobile reader views.
+
+PRESERVATION
+Native outputs, exact prompts, reference snapshots and hashes are under root/
+and geometry/. input-preservation.json verifies them against original tool bytes.
+The scoped archive stores new R11 artifacts and references only; unchanged
+R10/R8 selected images remain upstream pointers. See RESTORE.txt for restoration.
+Only a matching archive-receipt.json with verified remote byte readback is proof
+of remote preservation. No official publication or source push is performed.

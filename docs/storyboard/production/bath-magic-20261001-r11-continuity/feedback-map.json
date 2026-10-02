@@ -1,0 +1,67 @@
+{
+  "productionId": "bath-magic-20261001-r11-continuity",
+  "sourceProduction": "bath-magic-20261001-r10-story-repair",
+  "status": "Eight continuity corrections; unpublished review draft",
+  "counts": {
+    "storyImages": 113,
+    "cover": 1,
+    "newArt": 8,
+    "unchangedArt": 106
+  },
+  "changes": [
+    {
+      "id": "scene-55",
+      "number": 57,
+      "historicalFeedbackLabel": "R9 image 55",
+      "reason": "Keep breakfast and show the connected aqueduct continuing through the open exterior doorway into the garden."
+    },
+    {
+      "id": "scene-55a",
+      "number": 58,
+      "historicalFeedbackLabel": "R9 55a",
+      "reason": "Preserve shared food and family interaction while making the same garden outlet continuous."
+    },
+    {
+      "id": "scene-55c",
+      "number": 60,
+      "historicalFeedbackLabel": "R9 55c",
+      "reason": "Preserve PinPin explaining his practical plan, with the aqueduct visibly leaving through the open doorway."
+    },
+    {
+      "id": "scene-63",
+      "number": 69,
+      "historicalFeedbackLabel": "R9 image 63",
+      "reason": "Keep the duck at the same stage of the journey and align its beak downstream with the current."
+    },
+    {
+      "id": "scene-75",
+      "number": 86,
+      "historicalFeedbackLabel": "R9 image 75",
+      "reason": "Restore the family meal where Mama notices the giant plant growing and proposes moving it outdoors."
+    },
+    {
+      "id": "scene-81",
+      "number": 93,
+      "historicalFeedbackLabel": "R9 image 81",
+      "reason": "Restore PinPin’s approved rounded child face and quill silhouette."
+    },
+    {
+      "id": "scene-82",
+      "number": 94,
+      "historicalFeedbackLabel": "R9 image 82",
+      "reason": "Restore adult Papa’s broad face, chest, shoulders and size rather than a second child."
+    },
+    {
+      "id": "scene-123",
+      "number": 109,
+      "historicalFeedbackLabel": "R9 image 123",
+      "reason": "Restore one Papa, one Mama holding the baby, and PinPin during physical aqueduct removal."
+    }
+  ],
+  "preserveExactly": [
+    "scene-45",
+    "scene-55b"
+  ],
+  "chronology": "Identical stable IDs, order and display numbers to R10. Current number 59 is a tight thinking close-up and remains unchanged.",
+  "upstreamFeedback": "Historical R9/R10 repair instructions remain in the R10 feedback-map.json; they are not new R11 requests."
+}

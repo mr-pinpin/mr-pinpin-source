@@ -1,0 +1,30 @@
+R11 RESTORATION
+
+Restore R11 scoped archive assets/bath-magic-20261001-r11-continuity.json
+using the repository assets/README.md and tools/assets/hf_store.py. The manifest
+paths begin docs/storyboard/production/bath-magic-20261001-r11-continuity/.
+
+The full chapter also needs exact upstream packs:
+ pinpin-bath-magic-20261001-r10-story-repair
+ pinpin-bath-magic-20261001-r8-herculean
+Restore each from its own verified scoped asset manifest if absent. R11 stores
+new corrections and their exact image-model inputs; unchanged upstream images
+remain byte pointers, not copies of previous complete archives.
+
+Place restored production folders under those sibling names on the mini SSD.
+Copy matching source-only recipes/metadata from the source commit. The reader
+uses sourceProduction for actual image paths, while reusedFromProduction and
+reuseSourceProduction record immediate R10 lineage independently.
+
+From the R11 pack, with a Pillow .venv:
+ .venv/bin/python refresh-media.py
+ .venv/bin/python verify-continuity-selection.py
+ .venv/bin/python finalize-selection.py
+ .venv/bin/python configure-storyboard.py
+ .venv/bin/python build-storyboard.py --languages ru,en --version NEW_INTEGER
+ .venv/bin/python verify-boards.py
+
+Do not overwrite numbered board masters or their build-input snapshots.
+The preview must serve R8/R10/R11 production routes and the R11 review UI.
+The local Air URL uses port18795 forwarded to the mini18796 preview.
+No official GitHub Pages publication is implied by archive preservation.

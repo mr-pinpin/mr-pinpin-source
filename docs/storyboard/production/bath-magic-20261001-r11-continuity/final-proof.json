@@ -1,0 +1,37 @@
+{
+  "status": "complete illustrated continuity draft; unpublished",
+  "scenes": 113,
+  "cover": 1,
+  "newIllustrations": 8,
+  "unchangedImages": 106,
+  "storyOrderUnchanged": true,
+  "qa": {
+    "reader/selection-qa.json": {
+      "sha256": "384bb5b9ca3dbaa5f0e67e6c9a681407093772c1e0414715982c93b5f732408a"
+    },
+    "boards/qa.json": {
+      "sha256": "2afe0608061f189cd8f746d3b443dfbbf31fcfd17da9c7c7dce485d702593e6c"
+    },
+    "browser-check/results.json": {
+      "sha256": "437a3dcae048d2edf0717e6e98cffa3bfc1488a60c9f5c54cc4826741863914a"
+    },
+    "input-preservation.json": {
+      "sha256": "6960dcd0251a62fbd0e1bc47e5085e939ac81dbdf3ba0ec6855abec64ce60f59"
+    },
+    "archive-manifest.json": {
+      "sha256": "6850073263939649c9538051f6f214a49a7cad251929c6ceea02b2dbe2ea87a5"
+    },
+    "archive-receipt.json": {
+      "sha256": "1930d0055d7f90b184d4a15946352cbf10b6346f68abe7128eeac7599e322e02"
+    }
+  },
+  "archive": {
+    "verified": true,
+    "artifacts": 111,
+    "bytes": 218591398,
+    "freshRemoteReadback": true
+  },
+  "preview": "http://127.0.0.1:18795/storyboard/review/bath-magic-r11-continuity.html?lang=ru",
+  "generationTool": "image_gen__imagegen",
+  "archivePython": "mini system python3 (existing huggingface_hub installation); image/board recipes use .venv/bin/python"
+}
