@@ -1,10 +1,11 @@
 {
   "schemaVersion": 1,
-  "sourceCommit": "d56d45c1c3796def448686b8be2c82b6791f5354",
+  "sourceCommit": "dddc6d7152be9b52c17056d296604738e0132bec",
   "roots": {
     "r17": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r17",
     "published": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-cover-fix-20261002/publication/site/storyboard",
-    "worlds": "/Volumes/TB4/mac-mini-storage/shared/pinpin-story-worlds-20260924"
+    "worlds": "/Volumes/TB4/mac-mini-storage/shared/pinpin-story-worlds-20260924",
+    "r18": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r18"
   },
   "project": "project-seed.json",
   "assets": [
@@ -2995,11 +2996,138 @@
         "role": "published chapter title cover",
         "evidence": "Published library catalog d56d45c"
       }
+    },
+    {
+      "key": "r18-scene-03g",
+      "root": "r18",
+      "path": "web/scene-03g-29d71ab01bce.webp",
+      "sha256": "29d71ab01bce26977821f692ed578d7ef74fc148df6e64cdbeafd14fc5133be4",
+      "name": "r18-scene-03g",
+      "reviewStatus": "agent-reviewed",
+      "provenance": {
+        "role": "final R18 scene illustration",
+        "sceneId": "scene-03g",
+        "evidence": "Explicit user approval of84; all other new R18 assets independently root-reviewed, user review not inferred",
+        "selectionManifest": "art/opening/selected-assets.json"
+      }
+    },
+    {
+      "key": "r18-scene-05f",
+      "root": "r18",
+      "path": "web/scene-05f-603a07035283.webp",
+      "sha256": "603a07035283420b070c7099009df6d8fd985ca32b70511c72408bc229ffb1db",
+      "name": "r18-scene-05f",
+      "reviewStatus": "agent-reviewed",
+      "provenance": {
+        "role": "final R18 scene illustration",
+        "sceneId": "scene-05f",
+        "evidence": "Explicit user approval of84; all other new R18 assets independently root-reviewed, user review not inferred",
+        "selectionManifest": "art/opening/selected-assets.json"
+      }
+    },
+    {
+      "key": "r18-scene-05f1",
+      "root": "r18",
+      "path": "web/scene-05f1-46dac3b91179.webp",
+      "sha256": "46dac3b911796465f77e98b23af05a8fb2cb40c3fbc4b43e022e3c2d8706e3c9",
+      "name": "r18-scene-05f1",
+      "reviewStatus": "agent-reviewed",
+      "provenance": {
+        "role": "final R18 scene illustration",
+        "sceneId": "scene-05f1",
+        "evidence": "Explicit user approval of84; all other new R18 assets independently root-reviewed, user review not inferred",
+        "selectionManifest": "art/opening/selected-assets.json"
+      }
+    },
+    {
+      "key": "r18-scene-05f2",
+      "root": "r18",
+      "path": "web/scene-05f2-4e3617d9f310.webp",
+      "sha256": "4e3617d9f310f994188df952dd2d43c7b860124e37bc216cd0dcfe544caaa019",
+      "name": "r18-scene-05f2",
+      "reviewStatus": "agent-reviewed",
+      "provenance": {
+        "role": "final R18 scene illustration",
+        "sceneId": "scene-05f2",
+        "evidence": "Explicit user approval of84; all other new R18 assets independently root-reviewed, user review not inferred",
+        "selectionManifest": "art/opening/selected-assets.json"
+      }
+    },
+    {
+      "key": "r18-scene-05g1",
+      "root": "r18",
+      "path": "web/scene-05g1-59e38ca6bdfb.webp",
+      "sha256": "59e38ca6bdfb3161b227be1763d62ecb25a2993c633365d447a09be85c1c6a60",
+      "name": "r18-scene-05g1",
+      "reviewStatus": "agent-reviewed",
+      "provenance": {
+        "role": "final R18 scene illustration",
+        "sceneId": "scene-05g1",
+        "evidence": "Explicit user approval of84; all other new R18 assets independently root-reviewed, user review not inferred",
+        "selectionManifest": "art/opening/selected-assets.json"
+      }
+    },
+    {
+      "key": "r18-scene-05g2",
+      "root": "r18",
+      "path": "web/scene-05g2-409ef7cd1e35.webp",
+      "sha256": "409ef7cd1e355e198ea67fa344fdabcfb84e0640cb8f78c098700c08d5843a7c",
+      "name": "r18-scene-05g2",
+      "reviewStatus": "agent-reviewed",
+      "provenance": {
+        "role": "final R18 scene illustration",
+        "sceneId": "scene-05g2",
+        "evidence": "Explicit user approval of84; all other new R18 assets independently root-reviewed, user review not inferred",
+        "selectionManifest": "art/opening/selected-assets.json"
+      }
+    },
+    {
+      "key": "r18-scene-63",
+      "root": "r18",
+      "path": "web/scene-63-51db3099328d.webp",
+      "sha256": "51db3099328d779e809f3e0b908d6cab2a38f27f3c3c75153a73441b8bf8bfe2",
+      "name": "r18-scene-63",
+      "reviewStatus": "agent-reviewed",
+      "provenance": {
+        "role": "final R18 scene illustration",
+        "sceneId": "scene-63",
+        "evidence": "Explicit user approval of84; all other new R18 assets independently root-reviewed, user review not inferred",
+        "selectionManifest": "art/canal-merge/selection.json"
+      }
+    },
+    {
+      "key": "r18-scene-83",
+      "root": "r18",
+      "path": "web/scene-83-350a55141789.webp",
+      "sha256": "350a551417895de4fcf217a6b763fdf4018975fd7a89e1a59a78f241bfa83a0c",
+      "name": "r18-scene-83",
+      "reviewStatus": "agent-reviewed",
+      "provenance": {
+        "role": "final R18 scene illustration",
+        "sceneId": "scene-83",
+        "evidence": "Explicit user approval of84; all other new R18 assets independently root-reviewed, user review not inferred",
+        "selectionManifest": "art/canal-merge/selection.json"
+      }
+    },
+    {
+      "key": "r18-scene-84",
+      "root": "r18",
+      "path": "web/scene-84-55d857e42479.webp",
+      "sha256": "55d857e424796d4bfdda6c68e398172806da8ca1fec46497767b01efd4582b5a",
+      "name": "r18-scene-84",
+      "reviewStatus": "user-approved",
+      "provenance": {
+        "role": "final R18 scene illustration",
+        "sceneId": "scene-84",
+        "evidence": "Explicit user approval of84; all other new R18 assets independently root-reviewed, user review not inferred",
+        "selectionManifest": "art/canal-merge/selection.json"
+      }
     }
   ],
   "notes": [
-    "Paths can be remapped with --root NAME=PATH; bytes are checked before import.",
-    "Catalog reference IDs are logical keys resolved into immutable asset IDs by the importer.",
-    "Agent-reviewed never means user-approved."
-  ]
+    "Portable named roots; no live Studio state/jobs are part of this seed.",
+    "Historical catalog reference review statuses are retained. Only scene84 has explicit new user approval; other new R18 art is agent-reviewed.",
+    "New installations receive172 narrative scenes,20 entities and176-page PDF metadata. Existing projects are never overwritten without --replace."
+  ],
+  "sourceRevision": "R18 final selection 2026-10-02"
 }

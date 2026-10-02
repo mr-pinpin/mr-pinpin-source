@@ -52,7 +52,8 @@ def main():
  if state['revision']!=initial_revision+len(files):raise SystemExit('Concurrent Studio changes detected; imported assets kept, project was not replaced.')
  validate_project(project,state['assets'])
  saved=store.save_project(project,state['revision'])
- report={'schemaVersion':1,'catalog':str(args.catalog.resolve()),'catalogSha256':hashlib.sha256(args.catalog.read_bytes()).hexdigest(),'verifiedAssets':len(files),'uniqueAssets':len(saved['assets']),'chapters':len(project['chapters']),'draftScenes':171,'revision':saved['revision'],'mapping':mapping}
+ active=next(c for c in project['chapters'] if c['id']==project['activeChapterId'])
+ report={'schemaVersion':1,'catalog':str(args.catalog.resolve()),'catalogSha256':hashlib.sha256(args.catalog.read_bytes()).hexdigest(),'verifiedAssets':len(files),'uniqueAssets':len(saved['assets']),'chapters':len(project['chapters']),'draftScenes':len(active['scenes']),'revision':saved['revision'],'mapping':mapping}
  (args.data_dir/'catalog-import.json').write_text(json.dumps(report,indent=2)+'\n')
  print(json.dumps({k:v for k,v in report.items() if k!='mapping'}))
 if __name__=='__main__':main()

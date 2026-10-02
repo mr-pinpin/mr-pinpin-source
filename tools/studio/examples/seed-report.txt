@@ -1,7 +1,3 @@
-Studio real-reference seed complete.
-Original38-chapter Russian manuscript;10 published catalog entries; separate171-scene R17 draft.
-18 entities;192 checked catalog imports deduplicate to190 immutable assets (133847807bytes).
-138 prior editorial ratings matched by stable ID,33 new proposed ratings, day allocation100/13/22/36.
-All asset bytes freshly checked. Nonempty-project overwrite guard verified on isolated state fixture.
-Scoped media-restore.json covers all192 inputs with existing archive objects.
-Seed snapshot records R17 user-pending status at import time; publication approval afterward is a separate event.
+R18 Studio seed refresh COMPLETE.172 narrative scenes,20 entities,10 published catalog entries plus active R18 chapter.201 named asset rows /199 unique images, all local bytes SHA-verified; new9 R18 images match verified remote archive receipts. Final captions equal official story, including held-door text.176-page PDF metadata for all3languages. Original manuscript preserved.
+Live Studio was read via GET only; no live project, asset or job mutations. Runtime image/review histories remain there, not copied as new-install history. Historical catalog approval states retained; only new scene84 marked explicitly user-approved. Other new R18 images remain agent-reviewed.137 inherited tempo annotations and35 explicitly proposed ratings.
+Dry-run checksum validation passed, complete import into isolated MiniSSD directory passed, repeat import refused and isolated stateSHA unchanged. No source index/commit changes by this lane.
