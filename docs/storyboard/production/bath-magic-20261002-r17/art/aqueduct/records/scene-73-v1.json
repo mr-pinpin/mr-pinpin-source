@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "id": "scene-73",
+  "priorR16Number": 106,
+  "version": 1,
+  "tool": "builtin image_gen.imagegen",
+  "native": {
+    "path": "native/scene-73-v1.png",
+    "sha256": "8bbdc8e985e9c976da3d7fd72294c19fd44d50814dcfc7759832e196c2850b34",
+    "bytes": 2573445,
+    "width": 1536,
+    "height": 1024
+  },
+  "prompt": {
+    "path": "prompts/scene-73-v1.txt",
+    "sha256": "fd9158277268c49f4e1877aace377eac463f13b2b95f4b1c73698846059f42d3",
+    "bytes": 1017
+  },
+  "exactPrompt": "Use case: precise-object-edit. IMAGE1 is the actual target; IMAGE2 scene-87 is geometry reference ONLY for a flowing wooden channel and floor clearance. Preserve the target's exact existing water channel, giant flower, camera, Mama holding infant, PinPin, tub and all approved faces. Correct ONLY Papa's feet/stance: he currently appears standing on the narrow inner trough edge beside the tub. Show a clear natural step OVER the intact trough: one hind paw supports his weight on the dry floor behind the trough, the other paw is visibly raised high above both water and rail, moving toward a dry landing on the foreground side. A clear air gap must separate the raised toes from the rail, no contact. Adjust lower legs just enough for coherent anatomy; his rounded adult hedgehog body, face, thoughtful hand at chin and gaze toward flower remain the same. The channel remains fully continuous beneath his step, water visible, no deleted rail segment or gap. Exactly the same four hedgehogs, no extra limbs. No text.",
+  "inputs": [
+    {
+      "path": "references/scene-73.webp",
+      "sha256": "03f17d23547a1e614bbd0dcaeb6e5bf46b8de400bea63906b374b801ff23cd4a",
+      "bytes": 500932
+    },
+    {
+      "path": "references/scene-87.webp",
+      "sha256": "a32c2ffc8660daf2d2f2fa96b48d37aaeed84e80f1a88e35398796b15ecc0fa0",
+      "bytes": 398346
+    }
+  ],
+  "transparent_background": false,
+  "selected": true,
+  "artistReview": "pass",
+  "rootReview": "pass",
+  "outputHandling": "Native PNG bytes preserved without raster editing; decoded builtin data URL and copied to SSD."
+}

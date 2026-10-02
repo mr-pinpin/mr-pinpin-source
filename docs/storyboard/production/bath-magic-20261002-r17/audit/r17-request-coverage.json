@@ -1,0 +1,1032 @@
+{
+  "schemaVersion": 1,
+  "createdAt": "2026-10-02T18:09:00.697154+00:00",
+  "scope": "Bounded R17 request coverage snapshot; not publication signoff",
+  "plan": {
+    "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r17/plan/r17-story-plan.json",
+    "sha256": "7f85dc0748447eac46ea344bd8c1526bb4906bdabb7ee81e2116129dafc85512",
+    "narrativeCount": 171
+  },
+  "method": "Read all relevant EN captions and all repaired opening EN/RU/ES captions; inspect actual selected contact sheets and every own-lane native. Selection files override stale plan production.reviewStatus. Unselected art remains pending, even if a generator may be in flight.",
+  "requests": [
+    {
+      "requestKey": "breakfast-eating",
+      "request": "Family breakfast shown before play/errand",
+      "scenes": [
+        {
+          "id": "scene-03a",
+          "r17Number": 4,
+          "priorR16Number": null,
+          "captionEN": "Mama set down the porridge. Four bowls, four spoons—and warm bread in the middle.",
+          "assetStatus": "root-approved",
+          "asset": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r17/art/opening/masters/scene-03a-v1.png",
+          "selectionManifest": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r17/art/opening/selection.json",
+          "reportedReview": "root independently visually reviewed: PASS"
+        },
+        {
+          "id": "scene-03b",
+          "r17Number": 5,
+          "priorR16Number": null,
+          "captionEN": "“This piece?” asked Papa. PinPin held out both paws. “That piece!”",
+          "assetStatus": "root-approved",
+          "asset": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r17/art/opening/masters/scene-03b-v1.png",
+          "selectionManifest": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r17/art/opening/selection.json",
+          "reportedReview": "root independently visually reviewed: PASS"
+        },
+        {
+          "id": "scene-03c",
+          "r17Number": 6,
+          "priorR16Number": null,
+          "captionEN": "PomPom tapped his spoon. Mama tapped hers back. Tap, tap!",
+          "assetStatus": "root-approved",
+          "asset": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r17/art/opening/masters/scene-03c-v1.png",
+          "selectionManifest": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r17/art/opening/selection.json",
+          "reportedReview": "root independently visually reviewed: PASS"
+        },
+        {
+          "id": "scene-03d",
+          "r17Number": 7,
+          "priorR16Number": null,
+          "captionEN": "PinPin carried his empty bowl to Mama. “Now can we play?”",
+          "assetStatus": "root-approved",
+          "asset": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r17/art/opening/masters/scene-03d-v1.png",
+          "selectionManifest": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r17/art/opening/selection.json",
+          "reportedReview": "root independently visually reviewed: PASS"
+        }
+      ],
+      "evidence": "Contact inspected: table bowls and bread, Papa-to-child bread handoff, Mama/baby spoons, then empty-bowl clearing. This is a four-beat eating sequence; not merely breakfast preparation.",
+      "coverageStatus": "covered-approved-art"
+    },
+    {
+      "requestKey": "mama-game",
+      "request": "Mama plays with PinPin and infant",
+      "scenes": [
+        {
+          "id": "scene-03e",
+          "r17Number": 8,
+          "priorR16Number": null,
+          "captionEN": "Mama rolled a soft ball across the mat. PinPin caught it against his tummy.",
+          "assetStatus": "root-approved",
+          "asset": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r17/art/opening/masters/scene-03e-v1.png",
+          "selectionManifest": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r17/art/opening/selection.json",
+          "reportedReview": "root independently visually reviewed: PASS"
+        },
+        {
+          "id": "scene-03f",
+          "r17Number": 9,
+          "priorR16Number": null,
+          "captionEN": "Back it went—to PomPom! He hugged the ball, and Mama laughed.",
+          "assetStatus": "root-approved",
+          "asset": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r17/art/opening/masters/scene-03f-v1.png",
+          "selectionManifest": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r17/art/opening/selection.json",
+          "reportedReview": "root independently visually reviewed: PASS"
+        }
+      ],
+      "evidence": "Contact inspected: ball roll reaches PinPin; reverse view infant hugs returned ball while Mama supports infant.",
+      "coverageStatus": "covered-approved-art"
+    },
+    {
+      "requestKey": "rabbit-visit-and-one-bucket",
+      "request": "Rabbit visits at home; shared errand and earned play; one bucket throughout",
+      "scenes": [
+        {
+          "id": "scene-03j",
+          "r17Number": 13,
+          "priorR16Number": null,
+          "captionEN": "Knock, knock! PinPin looked up from the ball.",
+          "assetStatus": "selected-pending-root-review",
+          "asset": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r17/art/opening/masters/scene-03j-v2.png",
+          "selectionManifest": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r17/art/opening/selection.json",
+          "reportedReview": "agent visual pass; root review pending"
+        },
+        {
+          "id": "scene-03k",
+          "r17Number": 14,
+          "priorR16Number": null,
+          "captionEN": "Mama opened the door. Rabbit was waiting on the step.",
+          "assetStatus": "selected-pending-root-review",
+          "asset": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r17/art/opening/masters/scene-03k-v1.png",
+          "selectionManifest": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r17/art/opening/selection.json",
+          "reportedReview": "agent visual pass; root review pending"
+        },
+        {
+          "id": "scene-03l",
+          "r17Number": 15,
+          "priorR16Number": null,
+          "captionEN": "“Come and play, PinPin!” Rabbit had found two leaves for boats.",
+          "assetStatus": "selected-pending-root-review",
+          "asset": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r17/art/opening/masters/scene-03l-v1.png",
+          "selectionManifest": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r17/art/opening/selection.json",
+          "reportedReview": "agent visual pass; root review pending"
+        },
+        {
+          "id": "scene-03m",
+          "r17Number": 16,
+          "priorR16Number": null,
+          "captionEN": "“Yes,” said Mama. “Please bring one bucket of water for the bath first.”",
+          "assetStatus": "selected-pending-root-review",
+          "asset": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r17/art/opening/masters/scene-03m-v1.png",
+          "selectionManifest": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r17/art/opening/selection.json",
+          "reportedReview": "agent visual pass; root review pending"
+        },
+        {
+          "id": "scene-04",
+          "r17Number": 17,
+          "priorR16Number": 4,
+          "captionEN": "PinPin picked up one little bucket. “I'll be quick!”",
+          "assetStatus": "root-approved",
+          "asset": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r17/art/opening-edits/native/scene-04-v1.png",
+          "selectionManifest": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r17/art/opening-edits/selected-assets.json",
+          "reportedReview": "pass"
+        },
+        {
+          "id": "scene-04a",
+          "r17Number": 18,
+          "priorR16Number": 5,
+          "captionEN": "Out through the front door went PinPin and Rabbit. The empty bucket bumped gently against his knee.",
+          "assetStatus": "root-approved",
+          "asset": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r17/art/opening-edits/native/scene-04a-v1.png",
+          "selectionManifest": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r17/art/opening-edits/selected-assets.json",
+          "reportedReview": "pass"
+        },
+        {
+          "id": "scene-04b",
+          "r17Number": 21,
+          "priorR16Number": 6,
+          "captionEN": "“The spring is this way,” said Rabbit. PinPin followed with his bucket.",
+          "assetStatus": "root-approved",
+          "asset": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r17/art/opening-edits/native/scene-04b-v1.png",
+          "selectionManifest": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r17/art/opening-edits/selected-assets.json",
+          "reportedReview": "pass"
+        },
+        {
+          "id": "scene-04c",
+          "r17Number": 22,
+          "priorR16Number": 7,
+          "captionEN": "“Water first, then our boats,” said PinPin. Rabbit held up the two leaves.",
+          "assetStatus": "root-approved",
+          "asset": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r17/art/opening-edits/native/scene-04c-v1.png",
+          "selectionManifest": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r17/art/opening-edits/selected-assets.json",
+          "reportedReview": "pass"
+        },
+        {
+          "id": "scene-04d",
+          "r17Number": 23,
+          "priorR16Number": 8,
+          "captionEN": "The spring splashed over the stones. “Hello, PinPin!” chirped two little birds.",
+          "assetStatus": "root-approved",
+          "asset": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r17/art/opening-edits/native/scene-04d-v1.png",
+          "selectionManifest": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r17/art/opening-edits/selected-assets.json",
+          "reportedReview": "pass"
+        },
+        {
+          "id": "scene-05",
+          "r17Number": 24,
+          "priorR16Number": 9,
+          "captionEN": "PinPin held his bucket under the stream. Glug, glug, glug.",
+          "assetStatus": "root-approved",
+          "asset": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r17/art/opening-edits/native/scene-05-v1.png",
+          "selectionManifest": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r17/art/opening-edits/selected-assets.json",
+          "reportedReview": "pass"
+        },
+        {
+          "id": "scene-05a",
+          "r17Number": 25,
+          "priorR16Number": 10,
+          "captionEN": "The little bird shook its wet feathers all around PinPin. “My bath has started!”",
+          "assetStatus": "root-approved",
+          "asset": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r17/art/opening-edits/native/scene-05a-v1.png",
+          "selectionManifest": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r17/art/opening-edits/selected-assets.json",
+          "reportedReview": "pass"
+        },
+        {
+          "id": "scene-05b",
+          "r17Number": 26,
+          "priorR16Number": 11,
+          "captionEN": "Rabbit set their leaf boats afloat. One went straight; the other went round and round!",
+          "assetStatus": "root-approved",
+          "asset": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r17/art/opening-edits/native/scene-05b-v1.png",
+          "selectionManifest": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r17/art/opening-edits/selected-assets.json",
+          "reportedReview": "pass"
+        },
+        {
+          "id": "scene-05c",
+          "r17Number": 27,
+          "priorR16Number": 12,
+          "captionEN": "“See you later!” called PinPin. He picked up his full bucket and started home.",
+          "assetStatus": "root-approved",
+          "asset": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r17/art/opening-edits/native/scene-05c-v1.png",
+          "selectionManifest": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r17/art/opening-edits/selected-assets.json",
+          "reportedReview": "pass"
+        },
+        {
+          "id": "scene-05d",
+          "r17Number": 28,
+          "priorR16Number": 13,
+          "captionEN": "“One bucket, Mama!” Mama held the door open. “The bath is waiting.”",
+          "assetStatus": "root-approved",
+          "asset": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r17/art/opening-edits/native/scene-05d-v1.png",
+          "selectionManifest": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r17/art/opening-edits/selected-assets.json",
+          "reportedReview": "pass"
+        },
+        {
+          "id": "scene-06",
+          "r17Number": 35,
+          "priorR16Number": 17,
+          "captionEN": "PinPin carried the bucket carefully. A little splash landed on his toes.",
+          "assetStatus": "root-approved",
+          "asset": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r17/art/opening-edits/native/scene-06-v1.png",
+          "selectionManifest": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r17/art/opening-edits/selected-assets.json",
+          "reportedReview": "pass"
+        },
+        {
+          "id": "scene-07",
+          "r17Number": 36,
+          "priorR16Number": 18,
+          "captionEN": "He poured his bucket into the bath. The bottom was only just covered.",
+          "assetStatus": "root-approved",
+          "asset": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r17/art/opening-edits/native/scene-07-v1.png",
+          "selectionManifest": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r17/art/opening-edits/selected-assets.json",
+          "reportedReview": "pass"
+        },
+        {
+          "id": "scene-09",
+          "r17Number": 38,
+          "priorR16Number": 20,
+          "captionEN": "PinPin looked at his bucket, then at the big bath. “That will take lots of trips.”",
+          "assetStatus": "root-approved",
+          "asset": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r17/art/opening-edits/native/scene-09-v1.png",
+          "selectionManifest": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r17/art/opening-edits/selected-assets.json",
+          "reportedReview": "pass"
+        },
+        {
+          "id": "scene-10",
+          "r17Number": 39,
+          "priorR16Number": 21,
+          "captionEN": "“I could finish the bath before our next game,” thought PinPin. “I could make the water come here!”",
+          "assetStatus": "root-approved-reuse",
+          "asset": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r17/art/opening-edits/references/scene-10.webp",
+          "selectionManifest": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r17/art/opening-edits/selected-assets.json",
+          "reportedReview": "pass"
+        }
+      ],
+      "evidence": "New visit contact inspected; all sixteen repaired existing opening natives individually inspected. Empty → filled → safe on dry rock during leaf-boat play → carried home → poured → empty. Scene10 unchanged compatible close-up.",
+      "coverageStatus": "pending-other-lane-art-or-review"
+    },
+    {
+      "requestKey": "papa-practice-and-split",
+      "request": "Papa introduces dog practice; family parties split clearly",
+      "scenes": [
+        {
+          "id": "scene-03g",
+          "r17Number": 10,
+          "priorR16Number": null,
+          "captionEN": "“Scooby and I are going for a little walk,” said Papa. “He has some practising to do.”",
+          "assetStatus": "root-approved",
+          "asset": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r17/art/opening/masters/scene-03g-v1.png",
+          "selectionManifest": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r17/art/opening/selection.json",
+          "reportedReview": "root independently visually reviewed: PASS"
+        },
+        {
+          "id": "scene-03h",
+          "r17Number": 11,
+          "priorR16Number": null,
+          "captionEN": "Outside, Scooby lowered his big nose to Papa. His tail was already going round.",
+          "assetStatus": "root-approved",
+          "asset": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r17/art/opening/masters/scene-03h-v1.png",
+          "selectionManifest": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r17/art/opening/selection.json",
+          "reportedReview": "root independently visually reviewed: PASS"
+        },
+        {
+          "id": "scene-03i",
+          "r17Number": 12,
+          "priorR16Number": null,
+          "captionEN": "“Sit, Scooby.” Down he sat. Then his ears sprang up again.",
+          "assetStatus": "selected-pending-root-review",
+          "asset": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r17/art/opening/masters/scene-03i-v1.png",
+          "selectionManifest": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r17/art/opening/selection.json",
+          "reportedReview": "agent visual pass; root review pending"
+        },
+        {
+          "id": "scene-04a1",
+          "r17Number": 19,
+          "priorR16Number": null,
+          "captionEN": "“Scooby is strong,” said Papa. “He can help us carry things after our practice.”",
+          "assetStatus": "selected-pending-root-review",
+          "asset": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r17/art/opening/masters/scene-04a1-v1.png",
+          "selectionManifest": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r17/art/opening/selection.json",
+          "reportedReview": "agent visual pass; root review pending"
+        },
+        {
+          "id": "scene-04a2",
+          "r17Number": 20,
+          "priorR16Number": null,
+          "captionEN": "Scooby's nose pointed the other way. “Our walk is over here, then!” said Papa.",
+          "assetStatus": "selected-pending-root-review",
+          "asset": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r17/art/opening/masters/scene-04a2-v1.png",
+          "selectionManifest": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r17/art/opening/selection.json",
+          "reportedReview": "agent visual pass; root review pending"
+        },
+        {
+          "id": "scene-05e",
+          "r17Number": 29,
+          "priorR16Number": 14,
+          "captionEN": "Meanwhile, Scooby found something to dig. Papa rescued a little plant.",
+          "assetStatus": "root-approved",
+          "asset": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r17/art/opening-edits/native/scene-05e-v1.png",
+          "selectionManifest": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r17/art/opening-edits/selected-assets.json",
+          "reportedReview": "pass"
+        },
+        {
+          "id": "scene-05f",
+          "r17Number": 30,
+          "priorR16Number": 15,
+          "captionEN": "“This way, Scooby!” said Papa. “Let's go home.”",
+          "assetStatus": "root-approved",
+          "asset": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r17/art/opening-edits/native/scene-05f-v1.png",
+          "selectionManifest": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r17/art/opening-edits/selected-assets.json",
+          "reportedReview": "pass"
+        }
+      ],
+      "evidence": "Contact inspected: Papa announces walk, greets full-sized Scooby, sit cue, exterior conversation and fork showing separate paths; later digging rescue and homeward gesture.",
+      "coverageStatus": "pending-other-lane-art-or-review"
+    },
+    {
+      "requestKey": "large-dog-entry-exit",
+      "request": "Mount-sized dog reaches step, enters, occupies kitchen and exits",
+      "scenes": [
+        {
+          "id": "scene-05e",
+          "r17Number": 29,
+          "priorR16Number": 14,
+          "captionEN": "Meanwhile, Scooby found something to dig. Papa rescued a little plant.",
+          "assetStatus": "root-approved",
+          "asset": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r17/art/opening-edits/native/scene-05e-v1.png",
+          "selectionManifest": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r17/art/opening-edits/selected-assets.json",
+          "reportedReview": "pass"
+        },
+        {
+          "id": "scene-05f",
+          "r17Number": 30,
+          "priorR16Number": 15,
+          "captionEN": "“This way, Scooby!” said Papa. “Let's go home.”",
+          "assetStatus": "root-approved",
+          "asset": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r17/art/opening-edits/native/scene-05f-v1.png",
+          "selectionManifest": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r17/art/opening-edits/selected-assets.json",
+          "reportedReview": "pass"
+        },
+        {
+          "id": "scene-05g",
+          "r17Number": 31,
+          "priorR16Number": 16,
+          "captionEN": "Papa opened the door. Scooby followed him to the step.",
+          "assetStatus": "root-approved",
+          "asset": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r17/art/opening-edits/native/scene-05g-v1.png",
+          "selectionManifest": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r17/art/opening-edits/selected-assets.json",
+          "reportedReview": "pass"
+        },
+        {
+          "id": "scene-05g1",
+          "r17Number": 32,
+          "priorR16Number": null,
+          "captionEN": "“Head down, Scooby.” First came his nose. Then his ears. Then rather a lot of dog.",
+          "assetStatus": "selected-pending-root-review",
+          "asset": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r17/art/opening/masters/scene-05g1-v2.png",
+          "selectionManifest": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r17/art/opening/selection.json",
+          "reportedReview": "agent visual pass; root review pending"
+        },
+        {
+          "id": "scene-05g2",
+          "r17Number": 33,
+          "priorR16Number": null,
+          "captionEN": "Scooby sat down. The kitchen suddenly had very little floor left! Papa put a few blueberries in his bowl.",
+          "assetStatus": "pending-no-selected-asset",
+          "asset": null,
+          "owner": "opening"
+        },
+        {
+          "id": "scene-05g3",
+          "r17Number": 34,
+          "priorR16Number": null,
+          "captionEN": "“And now, the sunny step.” Papa led Scooby outside again. PinPin squeezed past with his bucket.",
+          "assetStatus": "pending-no-selected-asset",
+          "asset": null,
+          "owner": "opening"
+        }
+      ],
+      "evidence": "05e/f/g native art root-approved. Three new interior/exit frames pending at audit snapshot; cannot yet claim full entry/exit coverage delivered.",
+      "coverageStatus": "pending-other-lane-art-or-review"
+    },
+    {
+      "requestKey": "beaver-bear-construction",
+      "request": "Reveal Beaver and Bear working; greet, participate, fabricate aqueduct",
+      "scenes": [
+        {
+          "id": "scene-32b1",
+          "r17Number": 70,
+          "priorR16Number": null,
+          "captionEN": "Tap, tap, tap. PinPin listened. “Someone is building something!”",
+          "assetStatus": "root-approved",
+          "asset": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r17/art/beaver-return/masters/scene-32b1-v1.png",
+          "selectionManifest": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r17/art/beaver-return/selection.json",
+          "reportedReview": "root visual PASS"
+        },
+        {
+          "id": "scene-32b2",
+          "r17Number": 71,
+          "priorR16Number": null,
+          "captionEN": "Between the trees, Beaver and Mr. Bear were making a little wooden walkway. A blue tractor stood beside the planks.",
+          "assetStatus": "root-approved",
+          "asset": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r17/art/beaver-return/masters/scene-32b2-v1.png",
+          "selectionManifest": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r17/art/beaver-return/selection.json",
+          "reportedReview": "root visual PASS"
+        },
+        {
+          "id": "scene-32c1",
+          "r17Number": 73,
+          "priorR16Number": null,
+          "captionEN": "“Good morning!” said Mr. Bear. He put down his plank and waved one enormous paw.",
+          "assetStatus": "root-approved",
+          "asset": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r17/art/beaver-return/masters/scene-32c1-v1.png",
+          "selectionManifest": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r17/art/beaver-return/selection.json",
+          "reportedReview": "root visual PASS"
+        },
+        {
+          "id": "scene-32c2",
+          "r17Number": 74,
+          "priorR16Number": null,
+          "captionEN": "“This way, paws stay out of the mud,” Beaver explained. PinPin tried one dry step.",
+          "assetStatus": "selected-pending-root-review",
+          "asset": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r17/art/beaver-return/masters/scene-32c2-v2.png",
+          "selectionManifest": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r17/art/beaver-return/selection.json",
+          "reportedReview": "agent visual pass; root review pending"
+        },
+        {
+          "id": "scene-32c3",
+          "r17Number": 75,
+          "priorR16Number": null,
+          "captionEN": "Mr. Bear held the next board. PinPin passed Beaver a little wooden peg.",
+          "assetStatus": "root-approved",
+          "asset": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r17/art/beaver-return/masters/scene-32c3-v1.png",
+          "selectionManifest": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r17/art/beaver-return/selection.json",
+          "reportedReview": "root visual PASS"
+        },
+        {
+          "id": "scene-32d",
+          "r17Number": 76,
+          "priorR16Number": 53,
+          "captionEN": "Over bread and fruit, PinPin told Beaver about the bath. “It keeps filling, even when nobody is splashing!”",
+          "assetStatus": "retained-approved-R16",
+          "asset": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-release-20261002-source/docs/storyboard/images/published/bath-magic/scene-32d.webp"
+        },
+        {
+          "id": "scene-32e",
+          "r17Number": 77,
+          "priorR16Number": 54,
+          "captionEN": "Beaver drew a little path in the earth. “We’ll give the water a road of its own.”",
+          "assetStatus": "retained-approved-R16",
+          "asset": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-release-20261002-source/docs/storyboard/images/published/bath-magic/scene-32e.webp"
+        },
+        {
+          "id": "scene-32f",
+          "r17Number": 78,
+          "priorR16Number": 55,
+          "captionEN": "He joined two little wooden gutters. “This end goes a little lower.”",
+          "assetStatus": "retained-approved-R16",
+          "asset": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-release-20261002-source/docs/storyboard/images/published/bath-magic/scene-32f.webp"
+        },
+        {
+          "id": "scene-32g",
+          "r17Number": 79,
+          "priorR16Number": 56,
+          "captionEN": "PinPin tipped the little jug. The water ran down, from one piece into the next.",
+          "assetStatus": "retained-approved-R16",
+          "asset": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-release-20261002-source/docs/storyboard/images/published/bath-magic/scene-32g.webp"
+        },
+        {
+          "id": "scene-32h",
+          "r17Number": 80,
+          "priorR16Number": 57,
+          "captionEN": "Beaver shaped the wood. Papa checked the edges, and PinPin stacked the little supports.",
+          "assetStatus": "retained-approved-R16",
+          "asset": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-release-20261002-source/docs/storyboard/images/published/bath-magic/scene-32h.webp"
+        },
+        {
+          "id": "scene-32h1",
+          "r17Number": 81,
+          "priorR16Number": null,
+          "captionEN": "“Long pieces coming through!” Mr. Bear carried them easily. Papa showed him the clear space.",
+          "assetStatus": "selected-pending-root-review",
+          "asset": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r17/art/beaver-return/masters/scene-32h1-v2.png",
+          "selectionManifest": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r17/art/beaver-return/selection.json",
+          "reportedReview": "agent visual pass; root review pending"
+        },
+        {
+          "id": "scene-32h2",
+          "r17Number": 82,
+          "priorR16Number": null,
+          "captionEN": "Papa set the gutters in a row. PinPin matched the little supports beside them.",
+          "assetStatus": "selected-pending-root-review",
+          "asset": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r17/art/beaver-return/masters/scene-32h2-v2.png",
+          "selectionManifest": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r17/art/beaver-return/selection.json",
+          "reportedReview": "agent visual pass; root review pending"
+        },
+        {
+          "id": "scene-32h3",
+          "r17Number": 83,
+          "priorR16Number": null,
+          "captionEN": "Beaver ran a paw along the last smooth edge. “There. Ready to make your water-road.”",
+          "assetStatus": "selected-pending-root-review",
+          "asset": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r17/art/beaver-return/masters/scene-32h3-v1.png",
+          "selectionManifest": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r17/art/beaver-return/selection.json",
+          "reportedReview": "agent visual pass; root review pending"
+        }
+      ],
+      "evidence": "New selected contact inspected: blue utility tractor parked with boardwalk work, friendly Bear, child tests dry plank and passes peg, Bear carries gutter pieces, Papa/PinPin arrange supports, Beaver checks edge. Caption references and retained prototype steps maintain causal construction story.",
+      "coverageStatus": "pending-other-lane-art-or-review"
+    },
+    {
+      "requestKey": "five-homeward-shots",
+      "request": "At least five actual homeward travel/arrival images",
+      "scenes": [
+        {
+          "id": "scene-32i1",
+          "r17Number": 85,
+          "priorR16Number": null,
+          "captionEN": "“Wait.” Scooby waited. Papa checked both bundles. PinPin checked that his toes had room.",
+          "assetStatus": "pending-no-selected-asset",
+          "asset": null,
+          "owner": "beaver-return"
+        },
+        {
+          "id": "scene-32i2",
+          "r17Number": 86,
+          "priorR16Number": null,
+          "captionEN": "“Thank you!” called PinPin. Mr. Bear lifted a paw, and Beaver waved his little plane.",
+          "assetStatus": "pending-no-selected-asset",
+          "asset": null,
+          "owner": "beaver-return"
+        },
+        {
+          "id": "scene-32i3",
+          "r17Number": 87,
+          "priorR16Number": null,
+          "captionEN": "The leaves brushed softly above them. Scooby carried his passengers and the little wooden road.",
+          "assetStatus": "pending-no-selected-asset",
+          "asset": null,
+          "owner": "beaver-return"
+        },
+        {
+          "id": "scene-32i4",
+          "r17Number": 88,
+          "priorR16Number": null,
+          "captionEN": "“Low branch!” said Papa. Two hedgehog heads dipped together.",
+          "assetStatus": "pending-no-selected-asset",
+          "asset": null,
+          "owner": "beaver-return"
+        },
+        {
+          "id": "scene-32i5",
+          "r17Number": 89,
+          "priorR16Number": null,
+          "captionEN": "Clack, clack went the wooden pieces. PinPin tapped the same rhythm on Papa's paw.",
+          "assetStatus": "pending-no-selected-asset",
+          "asset": null,
+          "owner": "beaver-return"
+        },
+        {
+          "id": "scene-32i6",
+          "r17Number": 90,
+          "priorR16Number": null,
+          "captionEN": "“There's our roof!” PinPin pointed between the trees. Scooby's ears turned forward.",
+          "assetStatus": "pending-no-selected-asset",
+          "asset": null,
+          "owner": "beaver-return"
+        },
+        {
+          "id": "scene-32i7",
+          "r17Number": 91,
+          "priorR16Number": null,
+          "captionEN": "Mama heard Scooby on the path. She opened the door before PinPin could knock.",
+          "assetStatus": "pending-no-selected-asset",
+          "asset": null,
+          "owner": "beaver-return"
+        }
+      ],
+      "evidence": "First two are load check and farewell; exactly five intended homeward beats are 32i3–32i7: ride, duck branch, rhythm, spot roof, arrival. All seven unselected at audit snapshot. Do not count packing/farewell as the five travel shots.",
+      "coverageStatus": "pending-other-lane-art-or-review"
+    },
+    {
+      "requestKey": "continuous-canal",
+      "request": "Aqueduct persists from installation through authorized disassembly",
+      "scenes": [
+        {
+          "id": "scene-35",
+          "r17Number": 95,
+          "priorR16Number": 62,
+          "captionEN": "They laid one end over the next. PinPin held it while Papa joined the pieces.",
+          "assetStatus": "retained-approved-R16",
+          "asset": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-release-20261002-source/docs/storyboard/images/published/bath-magic/scene-35.webp"
+        },
+        {
+          "id": "scene-36",
+          "r17Number": 96,
+          "priorR16Number": 63,
+          "captionEN": "Papa moved the little blocks underneath. Each piece rested a little lower.",
+          "assetStatus": "retained-approved-R16",
+          "asset": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-release-20261002-source/docs/storyboard/images/published/bath-magic/scene-36.webp"
+        },
+        {
+          "id": "scene-37",
+          "r17Number": 97,
+          "priorR16Number": 64,
+          "captionEN": "The water ran along their wooden path. It passed the table without wetting the legs.",
+          "assetStatus": "retained-approved-R16",
+          "asset": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-release-20261002-source/docs/storyboard/images/published/bath-magic/scene-37.webp"
+        },
+        {
+          "id": "scene-42",
+          "r17Number": 102,
+          "priorR16Number": 69,
+          "captionEN": "Papa stepped over the gutter with breakfast. PinPin brought the spoons.",
+          "assetStatus": "retained-approved-R16",
+          "asset": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-release-20261002-source/docs/storyboard/images/published/bath-magic/scene-42.webp"
+        },
+        {
+          "id": "scene-55",
+          "r17Number": 115,
+          "priorR16Number": 82,
+          "captionEN": "Papa passed the warm toast. PinPin took a big, happy bite.",
+          "assetStatus": "retained-approved-R16",
+          "asset": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-release-20261002-source/docs/storyboard/images/published/bath-magic/scene-55.webp"
+        },
+        {
+          "id": "scene-55a",
+          "r17Number": 116,
+          "priorR16Number": 83,
+          "captionEN": "Mama shared the sweet berries. PomPom opened his little mouth for another spoonful.",
+          "assetStatus": "retained-approved-R16",
+          "asset": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-release-20261002-source/docs/storyboard/images/published/bath-magic/scene-55a.webp"
+        },
+        {
+          "id": "scene-55c",
+          "r17Number": 118,
+          "priorR16Number": 85,
+          "captionEN": "“I'll gather the flowers out of the bath,” said PinPin. “Then I can see the water.”",
+          "assetStatus": "retained-approved-R16",
+          "asset": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-release-20261002-source/docs/storyboard/images/published/bath-magic/scene-55c.webp"
+        },
+        {
+          "id": "scene-73",
+          "r17Number": 139,
+          "priorR16Number": 106,
+          "captionEN": "A leaf covered the doorway. “Excuse me,” said Mama.",
+          "assetStatus": "root-approved",
+          "asset": {
+            "path": "native/scene-73-v1.png",
+            "sha256": "8bbdc8e985e9c976da3d7fd72294c19fd44d50814dcfc7759832e196c2850b34",
+            "bytes": 2573445,
+            "width": 1536,
+            "height": 1024
+          },
+          "selectionManifest": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r17/art/aqueduct/selected-assets.json",
+          "reportedReview": "pass"
+        },
+        {
+          "id": "scene-73d",
+          "r17Number": 140,
+          "priorR16Number": 107,
+          "captionEN": "Mama bent lower. The leaf had become a green ceiling.",
+          "assetStatus": "root-approved",
+          "asset": {
+            "path": "native/scene-73d-v2.png",
+            "sha256": "10742dfb057f23e65bf3dc7bc3b6b34835d2a7f6d11ccdc9ed685dbcff02dedd",
+            "bytes": 2568929,
+            "width": 1536,
+            "height": 1024
+          },
+          "selectionManifest": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r17/art/aqueduct/selected-assets.json",
+          "reportedReview": "pass"
+        },
+        {
+          "id": "scene-73a",
+          "r17Number": 141,
+          "priorR16Number": 108,
+          "captionEN": "Papa put both paws on the pot. “A little push!”",
+          "assetStatus": "root-approved",
+          "asset": {
+            "path": "native/scene-73a-v2.png",
+            "sha256": "ab45427440ce108b083fd30fa07c021dae7e4a457a38e14d7ceaa1cbb6bc154d",
+            "bytes": 2383217,
+            "width": 1536,
+            "height": 1024
+          },
+          "selectionManifest": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r17/art/aqueduct/selected-assets.json",
+          "reportedReview": "pass"
+        },
+        {
+          "id": "scene-77",
+          "r17Number": 147,
+          "priorR16Number": 114,
+          "captionEN": "Papa and PinPin carried the pot. Mama held PomPom and showed them the clear doorway.",
+          "assetStatus": "retained-approved-R16",
+          "asset": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-release-20261002-source/docs/storyboard/images/published/bath-magic/scene-77.webp"
+        },
+        {
+          "id": "scene-83",
+          "r17Number": 153,
+          "priorR16Number": 120,
+          "captionEN": "PinPin jumped. His paw went right past it.",
+          "assetStatus": "root-approved",
+          "asset": {
+            "path": "native/scene-83-v2.png",
+            "sha256": "c634dd6b8eee5cb72b8e95c1c6306fbd554944d22e189f0ec512695b205e2e1a",
+            "bytes": 2757311,
+            "width": 1536,
+            "height": 1024
+          },
+          "selectionManifest": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r17/art/aqueduct/selected-assets.json",
+          "reportedReview": "pass"
+        },
+        {
+          "id": "scene-84",
+          "r17Number": 154,
+          "priorR16Number": 121,
+          "captionEN": "Mama opened the window. “This way!”",
+          "assetStatus": "root-approved",
+          "asset": {
+            "path": "native/scene-84-v2.png",
+            "sha256": "dd1c58ebadb472ef9aec3d1f83a9868f87d15b8c45aa3adf8a3dd2b464f65940",
+            "bytes": 2460718,
+            "width": 1536,
+            "height": 1024
+          },
+          "selectionManifest": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r17/art/aqueduct/selected-assets.json",
+          "reportedReview": "pass"
+        },
+        {
+          "id": "scene-85",
+          "r17Number": 155,
+          "priorR16Number": 122,
+          "captionEN": "They waved a towel together. The bubbles sailed outside.",
+          "assetStatus": "root-approved",
+          "asset": {
+            "path": "native/scene-85-v1.png",
+            "sha256": "81bd2bec48cffa1ce686cca4e9f2fb62a49ac067f7b2984cfc92b1f31df8dedc",
+            "bytes": 2672555,
+            "width": 1536,
+            "height": 1024
+          },
+          "selectionManifest": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r17/art/aqueduct/selected-assets.json",
+          "reportedReview": "pass"
+        },
+        {
+          "id": "scene-87",
+          "r17Number": 157,
+          "priorR16Number": 124,
+          "captionEN": "The bubbles were gone. PinPin watched the little stream in the bath.",
+          "assetStatus": "retained-approved-R16",
+          "asset": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-release-20261002-source/docs/storyboard/images/published/bath-magic/scene-87.webp"
+        },
+        {
+          "id": "scene-115",
+          "r17Number": 159,
+          "priorR16Number": 126,
+          "captionEN": "Mama crouched beside him. “What are you thinking?”",
+          "assetStatus": "retained-approved-R16",
+          "asset": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-release-20261002-source/docs/storyboard/images/published/bath-magic/scene-115.webp"
+        },
+        {
+          "id": "scene-123",
+          "r17Number": 167,
+          "priorR16Number": 134,
+          "captionEN": "Papa lifted the gutters away. PinPin carried the little blocks.",
+          "assetStatus": "retained-approved-R16",
+          "asset": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-release-20261002-source/docs/storyboard/images/published/bath-magic/scene-123.webp"
+        }
+      ],
+      "evidence": "All relevant published late sequences inspected in audit/canal-1..4 and targeted natives. Six confirmed defects repaired and root-approved. Feet clear rails, supported channel captures rim spill, correct floor route passes toward foreground/offcamera garden door in common-room reverse view. Tight crops may legitimately occlude channel. Authorized removal remains stable123.",
+      "coverageStatus": "covered-approved-art"
+    }
+  ],
+  "openingCaptionIdentityChecks": [
+    {
+      "id": "scene-04",
+      "r17Number": 17,
+      "captionEN": "PinPin picked up one little bucket. “I'll be quick!”",
+      "captionRU": "Пин-Пин взял одно маленькое ведёрко. — Я быстро!",
+      "captionES": "PinPin cogió un cubo pequeño. —¡Vuelvo enseguida!",
+      "imageTextMatch": "pass",
+      "identityReview": "PinPin rounded copper-quilled child identity preserved; full native inspected",
+      "asset": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r17/art/opening-edits/native/scene-04-v1.png",
+      "rootReview": "pass"
+    },
+    {
+      "id": "scene-04a",
+      "r17Number": 18,
+      "captionEN": "Out through the front door went PinPin and Rabbit. The empty bucket bumped gently against his knee.",
+      "captionRU": "Пин-Пин и Зайка вышли через входную дверь. Пустое ведёрко тихонько стукнулось о его коленку.",
+      "captionES": "PinPin y Conejo salieron por la puerta. El cubo vacío rozó suavemente su rodilla.",
+      "imageTextMatch": "pass",
+      "identityReview": "PinPin rounded copper-quilled child identity preserved; full native inspected",
+      "asset": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r17/art/opening-edits/native/scene-04a-v1.png",
+      "rootReview": "pass"
+    },
+    {
+      "id": "scene-04b",
+      "r17Number": 21,
+      "captionEN": "“The spring is this way,” said Rabbit. PinPin followed with his bucket.",
+      "captionRU": "— Родник вон там, — сказала Зайка. Пин-Пин пошёл следом с ведёрком.",
+      "captionES": "—El manantial está por aquí —dijo Conejo. PinPin lo siguió con su cubo.",
+      "imageTextMatch": "pass",
+      "identityReview": "PinPin rounded copper-quilled child identity preserved; full native inspected",
+      "asset": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r17/art/opening-edits/native/scene-04b-v1.png",
+      "rootReview": "pass"
+    },
+    {
+      "id": "scene-04c",
+      "r17Number": 22,
+      "captionEN": "“Water first, then our boats,” said PinPin. Rabbit held up the two leaves.",
+      "captionRU": "— Сначала вода, потом кораблики, — сказал Пин-Пин. Зайка показала два листочка.",
+      "captionES": "—Primero el agua; luego los barquitos —dijo PinPin. Conejo levantó las dos hojas.",
+      "imageTextMatch": "pass",
+      "identityReview": "PinPin rounded copper-quilled child identity preserved; full native inspected",
+      "asset": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r17/art/opening-edits/native/scene-04c-v1.png",
+      "rootReview": "pass"
+    },
+    {
+      "id": "scene-04d",
+      "r17Number": 23,
+      "captionEN": "The spring splashed over the stones. “Hello, PinPin!” chirped two little birds.",
+      "captionRU": "Родник журчал между камнями. — Привет, Пин-Пин! — чирикнули две птички.",
+      "captionES": "El manantial saltaba entre las piedras. —¡Hola, PinPin! —piaron dos pajaritos.",
+      "imageTextMatch": "pass",
+      "identityReview": "PinPin rounded copper-quilled child identity preserved; full native inspected",
+      "asset": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r17/art/opening-edits/native/scene-04d-v1.png",
+      "rootReview": "pass"
+    },
+    {
+      "id": "scene-05",
+      "r17Number": 24,
+      "captionEN": "PinPin held his bucket under the stream. Glug, glug, glug.",
+      "captionRU": "Пин-Пин подставил ведёрко под струю. Буль-буль-буль.",
+      "captionES": "PinPin puso su cubo bajo el chorro. Glu, glu, glu.",
+      "imageTextMatch": "pass",
+      "identityReview": "PinPin rounded copper-quilled child identity preserved; full native inspected",
+      "asset": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r17/art/opening-edits/native/scene-05-v1.png",
+      "rootReview": "pass"
+    },
+    {
+      "id": "scene-05a",
+      "r17Number": 25,
+      "captionEN": "The little bird shook its wet feathers all around PinPin. “My bath has started!”",
+      "captionRU": "Птичка отряхнула мокрые перья рядом с Пин-Пином. — А я уже купаюсь!",
+      "captionES": "El pajarito sacudió sus plumas mojadas junto a PinPin. —¡Mi baño ya ha empezado!",
+      "imageTextMatch": "pass",
+      "identityReview": "PinPin rounded copper-quilled child identity preserved; full native inspected",
+      "asset": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r17/art/opening-edits/native/scene-05a-v1.png",
+      "rootReview": "pass"
+    },
+    {
+      "id": "scene-05b",
+      "r17Number": 26,
+      "captionEN": "Rabbit set their leaf boats afloat. One went straight; the other went round and round!",
+      "captionRU": "Зайка пустила кораблики из листьев по воде. Один поплыл прямо, а другой закружился на месте!",
+      "captionES": "Conejo puso sus barquitos de hojas en el agua. ¡Uno siguió recto y el otro empezó a dar vueltas!",
+      "imageTextMatch": "pass",
+      "identityReview": "PinPin rounded copper-quilled child identity preserved; full native inspected",
+      "asset": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r17/art/opening-edits/native/scene-05b-v1.png",
+      "rootReview": "pass"
+    },
+    {
+      "id": "scene-05c",
+      "r17Number": 27,
+      "captionEN": "“See you later!” called PinPin. He picked up his full bucket and started home.",
+      "captionRU": "— До встречи! — сказал Пин-Пин. Он поднял полное ведёрко и пошёл домой.",
+      "captionES": "—¡Hasta luego! —dijo PinPin. Cogió su cubo lleno y volvió a casa.",
+      "imageTextMatch": "pass",
+      "identityReview": "PinPin rounded copper-quilled child identity preserved; full native inspected",
+      "asset": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r17/art/opening-edits/native/scene-05c-v1.png",
+      "rootReview": "pass"
+    },
+    {
+      "id": "scene-05d",
+      "r17Number": 28,
+      "captionEN": "“One bucket, Mama!” Mama held the door open. “The bath is waiting.”",
+      "captionRU": "— Одно ведёрко, Мама! — Мама придержала дверь. — Ванна ждёт.",
+      "captionES": "—¡Un cubo, Mamá! —Mamá sujetó la puerta. —La bañera te espera.",
+      "imageTextMatch": "pass",
+      "identityReview": "PinPin rounded copper-quilled child identity preserved; full native inspected",
+      "asset": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r17/art/opening-edits/native/scene-05d-v1.png",
+      "rootReview": "pass"
+    },
+    {
+      "id": "scene-05e",
+      "r17Number": 29,
+      "captionEN": "Meanwhile, Scooby found something to dig. Papa rescued a little plant.",
+      "captionRU": "А Скуби тем временем нашёл, что покопать. Папа спас маленький росток.",
+      "captionES": "Mientras tanto, Scooby encontró dónde cavar. Papá rescató una plantita.",
+      "imageTextMatch": "pass",
+      "identityReview": "Papa and Scooby only; no PinPin identity present to assess",
+      "asset": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r17/art/opening-edits/native/scene-05e-v1.png",
+      "rootReview": "pass"
+    },
+    {
+      "id": "scene-05f",
+      "r17Number": 30,
+      "captionEN": "“This way, Scooby!” said Papa. “Let's go home.”",
+      "captionRU": "— Сюда, Скуби! — сказал Папа. — Пойдём домой.",
+      "captionES": "—¡Por aquí, Scooby! —dijo Papá—. Volvamos a casa.",
+      "imageTextMatch": "pass",
+      "identityReview": "Papa and Scooby only; no PinPin identity present to assess",
+      "asset": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r17/art/opening-edits/native/scene-05f-v1.png",
+      "rootReview": "pass"
+    },
+    {
+      "id": "scene-05g",
+      "r17Number": 31,
+      "captionEN": "Papa opened the door. Scooby followed him to the step.",
+      "captionRU": "Папа открыл дверь. Скуби подошёл за ним к крылечку.",
+      "captionES": "Papá abrió la puerta. Scooby lo siguió hasta el escalón.",
+      "imageTextMatch": "pass",
+      "identityReview": "Papa and Scooby only; no PinPin identity present to assess",
+      "asset": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r17/art/opening-edits/native/scene-05g-v1.png",
+      "rootReview": "pass"
+    },
+    {
+      "id": "scene-06",
+      "r17Number": 35,
+      "captionEN": "PinPin carried the bucket carefully. A little splash landed on his toes.",
+      "captionRU": "Пин-Пин осторожно нёс ведёрко. Немного воды плеснуло ему на лапки.",
+      "captionES": "PinPin llevó el cubo con cuidado. Un poco de agua le salpicó los dedos.",
+      "imageTextMatch": "pass",
+      "identityReview": "PinPin rounded copper-quilled child identity preserved; full native inspected",
+      "asset": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r17/art/opening-edits/native/scene-06-v1.png",
+      "rootReview": "pass"
+    },
+    {
+      "id": "scene-07",
+      "r17Number": 36,
+      "captionEN": "He poured his bucket into the bath. The bottom was only just covered.",
+      "captionRU": "Он вылил ведёрко в ванну. Вода едва покрыла дно.",
+      "captionES": "Vació el cubo en la bañera. El agua apenas cubría el fondo.",
+      "imageTextMatch": "pass",
+      "identityReview": "PinPin rounded copper-quilled child identity preserved; full native inspected",
+      "asset": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r17/art/opening-edits/native/scene-07-v1.png",
+      "rootReview": "pass"
+    },
+    {
+      "id": "scene-09",
+      "r17Number": 38,
+      "captionEN": "PinPin looked at his bucket, then at the big bath. “That will take lots of trips.”",
+      "captionRU": "Пин-Пин посмотрел на своё ведёрко, потом на большую ванну. — Это сколько же раз придётся ходить!",
+      "captionES": "PinPin miró su cubo y luego la bañera grande. —¡Tendré que hacer muchos viajes!",
+      "imageTextMatch": "pass",
+      "identityReview": "PinPin rounded copper-quilled child identity preserved; full native inspected",
+      "asset": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r17/art/opening-edits/native/scene-09-v1.png",
+      "rootReview": "pass"
+    },
+    {
+      "id": "scene-10",
+      "r17Number": 39,
+      "captionEN": "“I could finish the bath before our next game,” thought PinPin. “I could make the water come here!”",
+      "captionRU": "«Успею наполнить ванну до следующей игры, — подумал Пин-Пин. — Пусть вода сама придёт сюда!»",
+      "captionES": "«Podría llenar la bañera antes de nuestro próximo juego», pensó PinPin. «¡Haré que el agua venga aquí!»",
+      "imageTextMatch": "pass",
+      "identityReview": "PinPin rounded copper-quilled child identity preserved; full native inspected",
+      "asset": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r17/art/opening-edits/references/scene-10.webp",
+      "rootReview": "pass"
+    }
+  ],
+  "inspectionArtifacts": [
+    "audit/coverage-opening-1.jpg",
+    "audit/coverage-opening-2.jpg",
+    "audit/coverage-beaver-return-1.jpg",
+    "audit/canal-1.jpg",
+    "audit/canal-2.jpg",
+    "audit/canal-3.jpg",
+    "audit/canal-4.jpg",
+    "art/opening-edits/before-after-1.jpg",
+    "art/opening-edits/before-after-2.jpg",
+    "art/opening-edits/before-after-3.jpg",
+    "art/opening-edits/before-after-4.jpg",
+    "art/aqueduct/before-after.jpg"
+  ],
+  "handoffNotes": [
+    {
+      "id": "scene-20",
+      "severity": "caption-clarity-not-art-blocker",
+      "note": "Retained caption says Papa puts the second bucket under spill. Single-bucket errand does not prohibit Papa bringing another bucket later, but wording another bucket/Papa fetched another bucket would make its new introduction explicit. Integrator to decide; no art change requested."
+    },
+    {
+      "ids": [
+        "scene-32a",
+        "scene-32i",
+        "scene-32j"
+      ],
+      "severity": "existing-audit-scale-follow-up",
+      "note": "Earlier audit flagged standing/loading dog scale drift here. They remain R16 retain in current plan, outside this opening lane. Confirm other lane or root knowingly addresses/accepts these while adding full-scale adjacent shots; otherwise old small-dog frames can interrupt new scale continuity."
+    }
+  ],
+  "finalizationRequired": "Integrator must refresh selected asset statuses, confirm three dog interior frames and seven return/load/farewell frames, then repeat assembled-reader adjacency check. No publication done by this audit."
+}

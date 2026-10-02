@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "scene-04c",
+  "priorR16Number": 7,
+  "version": 1,
+  "tool": "builtin image_gen.imagegen",
+  "native": {
+    "path": "native/scene-04c-v1.png",
+    "sha256": "8f834a4a0100a62834045375a2cf7622248e91b0e9f60c7f3d34d24b8ba50956",
+    "bytes": 2931044,
+    "width": 1536,
+    "height": 1024
+  },
+  "prompt": {
+    "path": "prompts/scene-04c-v1.txt",
+    "sha256": "021d692670e8b74ed38d55edba7f12ef32d0838e5c612a245fbbc6cb827654f4",
+    "bytes": 684
+  },
+  "exactPrompt": "Use case: precise story continuity edit. Retain exact existing illustration, faces, identities, lighting and camera. Remove ONLY the empty bucket on the RIGHT of PinPin nearest Rabbit, keep the LEFT wooden bucket resting on the path under his right paw. Exactly ONE bucket total. Rabbit now holds up TWO broad green leaves in his forepaws, showing them as their future leaf boats, with his face still looking at PinPin. PinPin's free paw continues his conversational gesture as he suggests water first then boats. Preserve little hedgehog anatomy, gentle anticipatory expressions, gray-beige rabbit, forest flowers and scenery. No second bucket, no duplicate limbs, no text, no magic.",
+  "inputs": [
+    {
+      "path": "references/scene-04c.webp",
+      "sha256": "d1f5a3ffc1db332f23565e02ef071dac55b1585d9c9bb1b4f406be3b6646a4ed",
+      "bytes": 544016
+    }
+  ],
+  "toolArguments": {
+    "referenced_image_paths": [
+      "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r17/art/opening-edits/references/scene-04c.webp"
+    ],
+    "transparent_background": false
+  },
+  "sourceOutputPath": "/Users/miguel_lemos/.codex/generated_images/01a0fa05-e7a6-7a00-a6f0-fc3a9cc0cc09/exec-00ec4b9c-af68-481e-8577-a74b59f3e1f7.png",
+  "artistReview": "pass",
+  "rootReview": "pass",
+  "selected": true,
+  "outputHandling": "Native PNG copied unchanged; no raster edits outside builtin"
+}

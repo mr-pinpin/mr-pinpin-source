@@ -1,0 +1,51 @@
+R17 OPENING-EDITS — FROZEN, ROOT APPROVED
+Ownership: existing opening art only. No story/source/UI/publication changes.
+16 native built-in imagegen edits, each v1, plus one unchanged scene-10 reuse.
+Every generated native, exact prompt, ordered input list, SHA256 and review result preserved.
+All referenced bytes and native/prompt hashes independently verified; zero mismatches.
+All production input packs are unchanged.
+
+SELECTIONS
+scene-04,04a,04b,04c,04d,05,05a,05b,05c,05d,05e,05f,05g,06,07,09: native/scene-ID-v1.png
+scene-10: reuse references/scene-10.webp; caption-only change handled by plan agent.
+Absolute integration contract: selected-assets.json.
+Root reviewed first eight contact, all three dog natives, final five contact; all PASS.
+Artist inspected every native individually.
+
+CONTINUITY
+Single empty bucket leaving home and on spring approach. One bucket is filled at spring.
+Leaf-boat play happens AFTER filling; full bucket rests safely on dry rock.
+One full bucket returns home, is carried through common room and poured into bath.
+One empty bucket remains beside tub when PinPin considers a shortcut.
+Rabbit accompanies departure and points toward spring; holds two leaves before earned play.
+Mama supports distinct infant in doorway on departure; existing return infant-to-foot pose retained.
+Scooby is restored to mount scale in 05e/f/g while Papa retains rounded adult hedgehog identity.
+05f gesture now points back toward home; 05g reaches exterior step before new interior-entry sequence.
+Original architecture remains authority: solid green arched door, two round front windows.
+Shared study used ONLY for dog-to-family scale, not its erroneous inset door window.
+
+INSPECTION ARTIFACTS
+opening-first-eight.jpg; opening-last-five.jpg
+before-after-1.jpg through before-after-4.jpg (four scenes each, original left / selected right).
+Aqueduct lane remains separately frozen at ../aqueduct/selected-assets.json, all six root PASS.
+
+STORAGE
+Masters and default generated outputs reside on Mini TB4. Current session copied native PNGs unchanged
+from the generated-images SSD symlink into this pack. No new local heavy outputs or base64 transfers.
+Earlier Air duplicates were removed only after remote SHA verification, recorded in ../../audit/air-cleanup-verification.json.
+
+PRACTICAL LESSONS FOR WORKFLOW UI
+1. Track props as state, not just presence: bucket count=1 plus empty/filling/full/pouring/empty.
+   A cropped second handle still breaks continuity. Scene-05a needed a tiny edge removal.
+2. Write the interaction before editing: Rabbit is already introduced, leads the way, shows leaves,
+   then plays after the errand. Avoid retaining a greeting or second filling simply because art is attractive.
+3. Separate reference roles explicitly: edit target owns identity/architecture; scale study owns ratios only.
+   Prevent an attractive but wrong door-window detail from leaking into the scene.
+4. Show dog and Papa on a common ground plane. Use standing-head/withers relationship and riding capacity,
+   not an isolated dog size adjective. Preserve Papa's hedgehog face independently.
+5. Scene-10 demonstrates a retain decision: when the image already supports the new caption, use unchanged art.
+6. Require visible anatomy/contact where editing changes blocking: baby separate and supported, leafboat
+   paws reach the water, bucket stands on dry rock, dog steps onto threshold without overlap.
+7. Keep actual front door versus interior bedroom door distinct. Exterior green front door/two-window facade
+   is fixed architecture; the later common-room canal exits toward camera, not through the bedroom door.
+8. Record exact prompts, ordered input roles, native hashes, artist check and parent review before freeze.

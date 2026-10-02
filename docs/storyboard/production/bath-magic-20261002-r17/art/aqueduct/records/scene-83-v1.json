@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "id": "scene-83",
+  "priorR16Number": 120,
+  "version": 1,
+  "tool": "builtin image_gen.imagegen",
+  "native": {
+    "path": "native/scene-83-v1.png",
+    "sha256": "9db90280156cc3111c4e5e61f596e3a13f44609e388937e948b9ef84f43dd045",
+    "bytes": 2764533,
+    "width": 1536,
+    "height": 1024
+  },
+  "prompt": {
+    "path": "prompts/scene-83-v1.txt",
+    "sha256": "57e66923757b66ab4feb0a259d8f9d3d79f8473855fbe9e700a7cf9d0b949cf3",
+    "bytes": 2109
+  },
+  "exactPrompt": "Use case: precise-object-edit. Edit IMAGE1 only; keep its camera, lighting, crop, warm illustrated rendering and approved hedgehog faces/body identities unchanged. IMAGE2 is a geometry reference for the already-installed wooden overflow channel, not a replacement composition or extra cast. The source still flows: the channel was installed earlier and remains present until later disassembly. Restore physically continuous open wooden trough, matching the warm timber, curved section, low support blocks and flowing clear water in the reference. A narrow spill from the tub rim must visibly feed the collecting mouth. Water then follows the supported channel toward the actual bathroom exit, with a continuous downhill path, no blind end or uphill lip. Feet stand on dry floor or clearly step OVER it; never erase the canal to make room, never put feet or pot in the water or balance on rails. Keep existing room openings; do not turn a bedroom door into a garden door, do not add windows/doors or another room. No text or labels.\nIMAGE1: PinPin jumps for the floating soap bubble; Papa stands left, Mama holds infant PomPom right, bath behind. IMAGE2: scene-115 supplies the installed curved collecting trough with low wooden floor supports. The missing trough must reappear in this wide shot. Add the connected overflow collector at the near-left tub edge, curving along its near base and continuing along the floor toward the bathroom exit offscreen lower-left. Maintain one readable open water path around the existing figures, with natural occlusion where their legs overlap; foreground continuation can pass in front of their feet with clear floor clearance. Do not terminate at a character. Preserve all FOUR hedgehogs exactly, PinPin's airborne jump and raised paw reaching for soap, Mama's two arms safely holding distinct infant, Papa's approved rounded hedgehog muzzle and body size. Preserve soap bubble and other bubbles, full wooden oval tub, window, warm light and original energy. Do not add anyone, change their faces or lift Papa into a new jump. Restore channel and its water routing only.",
+  "inputs": [
+    {
+      "path": "references/scene-83.webp",
+      "sha256": "282fb7117772c97b1e1bbeb6a8591dc442e7180afa8e707687ef4a10c196c824",
+      "bytes": 532234
+    },
+    {
+      "path": "references/scene-115.webp",
+      "sha256": "0525754b52fbdaeb07e39790f8d5ba05d6f26bdb4972879b5c44adb12c06c02e",
+      "bytes": 433174
+    }
+  ],
+  "transparent_background": false,
+  "selected": false,
+  "artistReview": "superseded after identified foot clearance or bypass-spill issue",
+  "rootReview": "not selected",
+  "outputHandling": "Native PNG bytes preserved without raster editing; decoded builtin data URL and copied to SSD."
+}

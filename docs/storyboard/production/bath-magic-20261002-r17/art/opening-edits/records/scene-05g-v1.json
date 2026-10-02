@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "id": "scene-05g",
+  "priorR16Number": 16,
+  "version": 1,
+  "tool": "builtin image_gen.imagegen",
+  "native": {
+    "path": "native/scene-05g-v1.png",
+    "sha256": "b8b914ed98fe298c8c064bc20c8401759ddca9bcd603a8642c4be4ac4341aebd",
+    "bytes": 2851579,
+    "width": 1536,
+    "height": 1024
+  },
+  "prompt": {
+    "path": "prompts/scene-05g-v1.txt",
+    "sha256": "f5d707495597be0c2e42d1563fa760810545ee7941b8ad1971b132710babfff5",
+    "bytes": 1176
+  },
+  "exactPrompt": "Use case: identity-preserve precise scale edit. Image 1 is the exact target illustration and architectural authority. Image 2 is ONLY a relative-scale study for dog versus family; do not transfer its facade or extra characters. Make Scooby much larger, the established mount-sized brown adult dog: withers about Papa's upright head height when on the same ground, head taller, broad long torso carrying Papa and PinPin in other scenes. Papa has opened the green front door and is on the step turning warmly toward Scooby, who follows to the step with one front paw lifting onto it, still mainly outside. Keep a clear threshold and plausible four-legged anatomy, no collision with Papa or door. Preserve Papa's exact rounded adult hedgehog face/quills, keep attentive dog eyes, short warm brown coat, cream muzzle/chest, folded ears, curled tail. Preserve original green solid arched door WITHOUT inset window, both round facade windows, stone wall, step, flowers, warm light and illustrated cinematic style. Pull camera slightly wider if needed to fit full-sized dog. No extra people, no text, no buckets; this is the first moment BEFORE the following interior entrance scene.",
+  "inputs": [
+    {
+      "path": "references/scene-05g.webp",
+      "sha256": "7f2f12d91f324f90c519b6270807eca592912a6b3d9e45dbc04705c33f950607",
+      "bytes": 562974
+    },
+    {
+      "path": "references/scale-house-study-v1.png",
+      "sha256": "c707e55c38f29f7adaa93081a0ace6d69e8651ab52a0ed847581e6f312256112",
+      "bytes": 2987111
+    }
+  ],
+  "toolArguments": {
+    "referenced_image_paths": [
+      "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r17/art/opening-edits/references/scene-05g.webp",
+      "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r17/art/opening-edits/references/scale-house-study-v1.png"
+    ],
+    "transparent_background": false
+  },
+  "sourceOutputPath": "/Users/miguel_lemos/.codex/generated_images/01a0fa05-e7a6-7a00-a6f0-fc3a9cc0cc09/exec-19c05a25-f64a-4b0c-8924-9189d485a7cb.png",
+  "artistReview": "pass",
+  "rootReview": "pass",
+  "selected": true,
+  "outputHandling": "Native PNG copied unchanged; no raster edits outside builtin"
+}

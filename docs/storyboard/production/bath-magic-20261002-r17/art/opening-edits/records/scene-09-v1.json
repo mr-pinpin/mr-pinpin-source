@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "scene-09",
+  "priorR16Number": 20,
+  "version": 1,
+  "tool": "builtin image_gen.imagegen",
+  "native": {
+    "path": "native/scene-09-v1.png",
+    "sha256": "f00d378a38f852b3b5256292842016b481a5a4f2ade6d8ae0f63daab4a38fd92",
+    "bytes": 2207898,
+    "width": 1536,
+    "height": 1024
+  },
+  "prompt": {
+    "path": "prompts/scene-09-v1.txt",
+    "sha256": "c6a869f82d51d97a1bb2b4c97558a01707add66658c4f7fb24ed62a6b2999d8a",
+    "bytes": 561
+  },
+  "exactPrompt": "Use case: precise-object-edit. Minimal change to the approved illustration: remove the far RIGHT empty bucket and its handle, preserve the remaining empty wooden bucket nearer PinPin beside his feet. Restore floor naturally behind removed bucket. Exactly ONE bucket total. Keep PinPin's thoughtful lively expression, exact rounded face and quills, pose looking down at bucket, giant oval wooden bath with shallow water and yellow rubber duck, beautiful warm room, single window, towels, furniture and lighting unchanged. No new props, no other changes, no text.",
+  "inputs": [
+    {
+      "path": "references/scene-09.webp",
+      "sha256": "7990a7c79714610071e459be26d9c6f1aafe8040bb7638540c89e88aa8f8ff93",
+      "bytes": 365366
+    }
+  ],
+  "toolArguments": {
+    "referenced_image_paths": [
+      "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r17/art/opening-edits/references/scene-09.webp"
+    ],
+    "transparent_background": false
+  },
+  "sourceOutputPath": "/Users/miguel_lemos/.codex/generated_images/01a0fa05-e7a6-7a00-a6f0-fc3a9cc0cc09/exec-85b5f5cc-6ee7-4569-ad32-800498cf7b88.png",
+  "artistReview": "pass",
+  "rootReview": "pass",
+  "selected": true,
+  "outputHandling": "Native PNG copied unchanged; no raster edits outside builtin"
+}

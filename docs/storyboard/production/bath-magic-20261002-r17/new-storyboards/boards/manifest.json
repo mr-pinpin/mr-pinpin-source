@@ -1,0 +1,1081 @@
+{
+  "schemaVersion": 1,
+  "operation": "layout-only: contain, copy, caption; no generated or retouched artwork",
+  "sourcePack": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r17",
+  "plan": {
+    "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r17/new-storyboards/boards/build-inputs/v1/story-plan.json",
+    "sha256": "dd8376cf998d95e92a7296fc467694b56d0596984de230af6ef7496f651fb47f"
+  },
+  "layout": {
+    "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r17/new-storyboards/boards/build-inputs/v1/storyboard-layout.json",
+    "sha256": "9ae4c1bf4e96f7306aa5031d79551a614ab22bb0f67c9795482767f4f3c4025f"
+  },
+  "tool": {
+    "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r17/new-storyboards/boards/build-inputs/v1/build-storyboard.py",
+    "sha256": "39d3eed0049727e34192fc7b0f7d7e84b31778cae92f5cd4c4f0a68f5861b7b0",
+    "pillow": "12.3.0"
+  },
+  "font": {
+    "path": "/System/Library/Fonts/Supplemental/Arial.ttf",
+    "sha256": "525979822591a3447cfc49d943d6f7683508e25543407871c0ed8fed05fd2bd9"
+  },
+  "boards": [
+    {
+      "language": "ru",
+      "number": 1,
+      "path": "boards/storyboard-01-ru.webp",
+      "sha256": "0efb0d34e11d4815e2eeb3f38caeed13b6dfcb2c0c4a0c323c745e909aac6735",
+      "bytes": 1967498,
+      "master": "boards/masters/storyboard-01-ru-v1.png",
+      "masterSha256": "efed6964224b17c462d1da5a9748e1a056d3934bfe381a173e97f45e1d07e2a2",
+      "width": 3600,
+      "height": 2802,
+      "sceneStart": 4,
+      "sceneEnd": 34,
+      "pendingPanels": 0,
+      "panels": [
+        {
+          "sceneId": "scene-03a",
+          "caption": "Мама поставила кашу на стол. Четыре миски, четыре ложки — а посередине тёплый хлеб.",
+          "label": "04 · New",
+          "input": {
+            "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r17/art/opening/web/scene-03a-v1.webp",
+            "sha256": "037b2eb4099769a1e917edb32f2fca62c3f19bff0ecb6fb89cfe28cf69aa4d4f"
+          },
+          "readingBeat": {},
+          "readingBeatLabel": "",
+          "x": 32,
+          "y": 154,
+          "width": 688,
+          "height": 616
+        },
+        {
+          "sceneId": "scene-03b",
+          "caption": "— Этот кусочек? — спросил Папа. Пин-Пин протянул обе лапки: — Этот!",
+          "label": "05 · New",
+          "input": {
+            "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r17/art/opening/web/scene-03b-v1.webp",
+            "sha256": "1a5ab8a5a59c95ffe6b16a5b57aaa160edf906a6cdf62755bd2506071ae18443"
+          },
+          "readingBeat": {},
+          "readingBeatLabel": "",
+          "x": 744,
+          "y": 154,
+          "width": 688,
+          "height": 616
+        },
+        {
+          "sceneId": "scene-03c",
+          "caption": "Пом-Пом постучал ложкой. Мама постучала своей в ответ. Тук-тук!",
+          "label": "06 · New",
+          "input": {
+            "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r17/art/opening/web/scene-03c-v1.webp",
+            "sha256": "1e7f04fae9bc7e758688a1ea384f2d093df0651f9007b860adb22e5bcd4d3c88"
+          },
+          "readingBeat": {},
+          "readingBeatLabel": "",
+          "x": 1456,
+          "y": 154,
+          "width": 688,
+          "height": 616
+        },
+        {
+          "sceneId": "scene-03d",
+          "caption": "Пин-Пин отнёс Маме пустую миску. — А теперь поиграем?",
+          "label": "07 · New",
+          "input": {
+            "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r17/art/opening/web/scene-03d-v1.webp",
+            "sha256": "adbcf0f50204b5fd7ae1034eadfac2cffbd096965262de243bd2915ef123a0e1"
+          },
+          "readingBeat": {},
+          "readingBeatLabel": "",
+          "x": 2168,
+          "y": 154,
+          "width": 688,
+          "height": 616
+        },
+        {
+          "sceneId": "scene-03e",
+          "caption": "Мама покатила мягкий мячик по коврику. Пин-Пин прижал его к животику.",
+          "label": "08 · New",
+          "input": {
+            "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r17/art/opening/web/scene-03e-v1.webp",
+            "sha256": "818431353af5941716698fc80885208c8ed033f1b9dfb61bbbb4d97da4e75ba6"
+          },
+          "readingBeat": {},
+          "readingBeatLabel": "",
+          "x": 2880,
+          "y": 154,
+          "width": 688,
+          "height": 616
+        },
+        {
+          "sceneId": "scene-03f",
+          "caption": "Мячик покатился обратно — прямо к Пом-Пому! Он обнял мячик, а Мама засмеялась.",
+          "label": "09 · New",
+          "input": {
+            "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r17/art/opening/web/scene-03f-v1.webp",
+            "sha256": "fd5e1426986bdf9324497ca8ff178d3a80e063ea5dfeb0673d29ccba0a7587fd"
+          },
+          "readingBeat": {},
+          "readingBeatLabel": "",
+          "x": 32,
+          "y": 794,
+          "width": 688,
+          "height": 616
+        },
+        {
+          "sceneId": "scene-03g",
+          "caption": "— Мы со Скуби немного погуляем, — сказал Папа. — Ему ещё надо потренироваться.",
+          "label": "10 · New",
+          "input": {
+            "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r17/art/opening/web/scene-03g-v1.webp",
+            "sha256": "90cf531a30e133b1a87a0912f668d91b6bfeb6e399f7242fc64dbe60a0d942d1"
+          },
+          "readingBeat": {},
+          "readingBeatLabel": "",
+          "x": 744,
+          "y": 794,
+          "width": 688,
+          "height": 616
+        },
+        {
+          "sceneId": "scene-03h",
+          "caption": "Снаружи Скуби опустил к Папе большой нос. Хвост уже ходил ходуном.",
+          "label": "11 · New",
+          "input": {
+            "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r17/art/opening/web/scene-03h-v1.webp",
+            "sha256": "e394bec3bf4a7cbae83714906c5d8d286886cea3751eec6cfd572449b201d54e"
+          },
+          "readingBeat": {},
+          "readingBeatLabel": "",
+          "x": 1456,
+          "y": 794,
+          "width": 688,
+          "height": 616
+        },
+        {
+          "sceneId": "scene-03i",
+          "caption": "— Сидеть, Скуби. — Он сел. И тут же снова навострил уши.",
+          "label": "12 · New",
+          "input": {
+            "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r17/art/opening/web/scene-03i-v1.webp",
+            "sha256": "d4196a146376951d4b9555290458cbb7df30567185c99877014f34ac17198d41"
+          },
+          "readingBeat": {},
+          "readingBeatLabel": "",
+          "x": 2168,
+          "y": 794,
+          "width": 688,
+          "height": 616
+        },
+        {
+          "sceneId": "scene-03j",
+          "caption": "Тук-тук! Пин-Пин поднял голову от мячика.",
+          "label": "13 · New",
+          "input": {
+            "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r17/art/opening/web/scene-03j-v2.webp",
+            "sha256": "784f47af0361902fbc8cc83d4880229dd3fd12c1c5f5a4364d94c8496da2ebfc"
+          },
+          "readingBeat": {},
+          "readingBeatLabel": "",
+          "x": 2880,
+          "y": 794,
+          "width": 688,
+          "height": 616
+        },
+        {
+          "sceneId": "scene-03k",
+          "caption": "Мама открыла дверь. На ступеньке ждала Зайка.",
+          "label": "14 · New",
+          "input": {
+            "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r17/art/opening/web/scene-03k-v1.webp",
+            "sha256": "5e73e13aa43d426114906917a5051601423ce0bd6104cac05d1ca8d57ded1bf0"
+          },
+          "readingBeat": {},
+          "readingBeatLabel": "",
+          "x": 32,
+          "y": 1434,
+          "width": 688,
+          "height": 656
+        },
+        {
+          "sceneId": "scene-03l",
+          "caption": "— Пойдём играть, Пин-Пин! — Зайка нашла два листочка для корабликов.",
+          "label": "15 · New",
+          "input": {
+            "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r17/art/opening/web/scene-03l-v1.webp",
+            "sha256": "b40ac36e16a2f183f826d340f8be4c2ad85c30fa0a3e660c0dd0958cdb5da81b"
+          },
+          "readingBeat": {},
+          "readingBeatLabel": "",
+          "x": 744,
+          "y": 1434,
+          "width": 688,
+          "height": 656
+        },
+        {
+          "sceneId": "scene-03m",
+          "caption": "— Конечно, — сказала Мама. — Только сначала принеси, пожалуйста, одно ведёрко воды для ванны.",
+          "label": "16 · New",
+          "input": {
+            "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r17/art/opening/web/scene-03m-v1.webp",
+            "sha256": "4bda9eb877f8a753d8d924154cb76dcba2ba942e1aa397cad6a91395b046e57f"
+          },
+          "readingBeat": {},
+          "readingBeatLabel": "",
+          "x": 1456,
+          "y": 1434,
+          "width": 688,
+          "height": 656
+        },
+        {
+          "sceneId": "scene-04a1",
+          "caption": "— Скуби сильный, — сказал Папа. — После тренировки он поможет нам нести вещи.",
+          "label": "19 · New",
+          "input": {
+            "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r17/art/opening/web/scene-04a1-v1.webp",
+            "sha256": "2265919ee66ea1ded0a94e8ada203b374d2c212f8a9dc562a279b9122ed29a3e"
+          },
+          "readingBeat": {},
+          "readingBeatLabel": "",
+          "x": 2168,
+          "y": 1434,
+          "width": 688,
+          "height": 656
+        },
+        {
+          "sceneId": "scene-04a2",
+          "caption": "Нос Скуби повернулся в другую сторону. — Значит, нам сюда! — сказал Папа.",
+          "label": "20 · New",
+          "input": {
+            "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r17/art/opening/web/scene-04a2-v1.webp",
+            "sha256": "55fe669d63e5016ceef76fb690adabc564004170258dc9e190e116c18d6bb64c"
+          },
+          "readingBeat": {},
+          "readingBeatLabel": "",
+          "x": 2880,
+          "y": 1434,
+          "width": 688,
+          "height": 656
+        },
+        {
+          "sceneId": "scene-05g1",
+          "caption": "— Пригни голову, Скуби. — Сначала появился нос. Потом уши. А потом — очень много собаки.",
+          "label": "32 · New",
+          "input": {
+            "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r17/art/opening/web/scene-05g1-v2.webp",
+            "sha256": "4e1a9296b26c9cf4b203f7e4880d1b36f0c5e8996bd5de56623881ec3b457c80"
+          },
+          "readingBeat": {},
+          "readingBeatLabel": "",
+          "x": 32,
+          "y": 2114,
+          "width": 688,
+          "height": 656
+        },
+        {
+          "sceneId": "scene-05g2",
+          "caption": "Скуби сел. Свободного пола на кухне сразу стало совсем мало! Папа положил в его миску несколько ягод голубики.",
+          "label": "33 · New",
+          "input": {
+            "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r17/art/opening/web/scene-05g2-v1.webp",
+            "sha256": "8855094286a8af60bd1a779545e046057eaf978b8fe6252f716545400bf84a92"
+          },
+          "readingBeat": {},
+          "readingBeatLabel": "",
+          "x": 744,
+          "y": 2114,
+          "width": 688,
+          "height": 656
+        },
+        {
+          "sceneId": "scene-05g3",
+          "caption": "— А теперь — на солнышко. — Папа вывел Скуби на крылечко. Пин-Пин осторожно прошёл мимо с ведёрком.",
+          "label": "34 · New",
+          "input": {
+            "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r17/art/opening/web/scene-05g3-v2.webp",
+            "sha256": "abad08da381f69cefa8709b6e7730d2015060943bb428c45f676cdd98048783d"
+          },
+          "readingBeat": {},
+          "readingBeatLabel": "",
+          "x": 1456,
+          "y": 2114,
+          "width": 688,
+          "height": 656
+        }
+      ]
+    },
+    {
+      "language": "ru",
+      "number": 2,
+      "path": "boards/storyboard-02-ru.webp",
+      "sha256": "b7141ca3101162431a92ac7790022135687f76042e5253ad42f5705c5c14ccf3",
+      "bytes": 1852818,
+      "master": "boards/masters/storyboard-02-ru-v1.png",
+      "masterSha256": "807fb24d719f99aa4a5e4de3770cddd814fc2e4740c85a11f072333a97282643",
+      "width": 3600,
+      "height": 2202,
+      "sceneStart": 70,
+      "sceneEnd": 91,
+      "pendingPanels": 0,
+      "panels": [
+        {
+          "sceneId": "scene-32b1",
+          "caption": "Тук-тук-тук. Пин-Пин прислушался. — Там что-то строят!",
+          "label": "70 · New",
+          "input": {
+            "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r17/art/beaver-return/web/scene-32b1-v1.webp",
+            "sha256": "9ee40787d1d5cd5d737f2d9419063525689ab38b546607c341af81ee5dd000d9"
+          },
+          "readingBeat": {},
+          "readingBeatLabel": "",
+          "x": 32,
+          "y": 154,
+          "width": 688,
+          "height": 656
+        },
+        {
+          "sceneId": "scene-32b2",
+          "caption": "Между деревьями Бобр и господин Медведь делали деревянную дорожку. Рядом с досками стоял синий трактор.",
+          "label": "71 · New",
+          "input": {
+            "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r17/art/beaver-return/web/scene-32b2-v1.webp",
+            "sha256": "c295ab619ea7b71af6dde0871b501e3d45746aa38916c820f1faa101872fb48f"
+          },
+          "readingBeat": {},
+          "readingBeatLabel": "",
+          "x": 744,
+          "y": 154,
+          "width": 688,
+          "height": 656
+        },
+        {
+          "sceneId": "scene-32c1",
+          "caption": "— Доброе утро! — сказал господин Медведь. Он положил доску и помахал огромной лапой.",
+          "label": "73 · New",
+          "input": {
+            "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r17/art/beaver-return/web/scene-32c1-v1.webp",
+            "sha256": "aa3e38b91423190d32546bb2a50b27cdffec9715a8f98d2d2c03a5f5c14523ff"
+          },
+          "readingBeat": {},
+          "readingBeatLabel": "",
+          "x": 1456,
+          "y": 154,
+          "width": 688,
+          "height": 656
+        },
+        {
+          "sceneId": "scene-32c2",
+          "caption": "— Теперь лапы не испачкаются в грязи, — объяснил Бобр. Пин-Пин шагнул на сухую доску.",
+          "label": "74 · New",
+          "input": {
+            "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r17/art/beaver-return/web/scene-32c2-v2.webp",
+            "sha256": "10eadde7351bb1bca8ceedb5c471c72c4f7bdab5a2070f1eae88607ae4b07e00"
+          },
+          "readingBeat": {},
+          "readingBeatLabel": "",
+          "x": 2168,
+          "y": 154,
+          "width": 688,
+          "height": 656
+        },
+        {
+          "sceneId": "scene-32c3",
+          "caption": "Господин Медведь держал следующую доску. Пин-Пин подал Бобру маленький деревянный колышек.",
+          "label": "75 · New",
+          "input": {
+            "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r17/art/beaver-return/web/scene-32c3-v1.webp",
+            "sha256": "83504653c54e50722b7e05a704797156032d22d6c1455e1858f5f1b53f0d8887"
+          },
+          "readingBeat": {},
+          "readingBeatLabel": "",
+          "x": 2880,
+          "y": 154,
+          "width": 688,
+          "height": 656
+        },
+        {
+          "sceneId": "scene-32h1",
+          "caption": "— Несу длинные детали! — Господин Медведь легко подхватил их. Папа показал свободное место.",
+          "label": "81 · New",
+          "input": {
+            "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r17/art/beaver-return/web/scene-32h1-v2.webp",
+            "sha256": "11ece7369d84018a4bb307b14ccf90fd6eb195fbae57646e37de668f3a2e131a"
+          },
+          "readingBeat": {},
+          "readingBeatLabel": "",
+          "x": 32,
+          "y": 834,
+          "width": 688,
+          "height": 656
+        },
+        {
+          "sceneId": "scene-32h2",
+          "caption": "Папа разложил желобки в ряд. Пин-Пин положил рядом маленькие подпорки.",
+          "label": "82 · New",
+          "input": {
+            "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r17/art/beaver-return/web/scene-32h2-v2.webp",
+            "sha256": "f573b80d8bc9ba1e6e588347be603647e4c00f55bd81e140574d7512b47c4054"
+          },
+          "readingBeat": {},
+          "readingBeatLabel": "",
+          "x": 744,
+          "y": 834,
+          "width": 688,
+          "height": 656
+        },
+        {
+          "sceneId": "scene-32h3",
+          "caption": "Бобр провёл лапой по последнему гладкому краю. — Готово. Можно строить дорогу для воды.",
+          "label": "83 · New",
+          "input": {
+            "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r17/art/beaver-return/web/scene-32h3-v1.webp",
+            "sha256": "f9e85d3b80036c8121b86db74b958113ec864c231178fa00eb4d9b5f42fc198d"
+          },
+          "readingBeat": {},
+          "readingBeatLabel": "",
+          "x": 1456,
+          "y": 834,
+          "width": 688,
+          "height": 656
+        },
+        {
+          "sceneId": "scene-32i1",
+          "caption": "— Стой. — Скуби стоял спокойно. Папа проверил обе связки. Пин-Пин посмотрел, свободно ли его лапкам.",
+          "label": "85 · New",
+          "input": {
+            "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r17/art/beaver-return/web/scene-32i1-v1.webp",
+            "sha256": "35d6627a3092e392fc711508c4141c7d782a5db04f77a2d32a19882bf8b4a5a5"
+          },
+          "readingBeat": {},
+          "readingBeatLabel": "",
+          "x": 2168,
+          "y": 834,
+          "width": 688,
+          "height": 656
+        },
+        {
+          "sceneId": "scene-32i2",
+          "caption": "— Спасибо! — крикнул Пин-Пин. Господин Медведь поднял лапу, а Бобр помахал рубанком.",
+          "label": "86 · New",
+          "input": {
+            "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r17/art/beaver-return/web/scene-32i2-v1.webp",
+            "sha256": "c5a8d8f54f80c78ff18b56fff30c8b04879aced35429fffd4a64e1685567234a"
+          },
+          "readingBeat": {},
+          "readingBeatLabel": "",
+          "x": 2880,
+          "y": 834,
+          "width": 688,
+          "height": 656
+        },
+        {
+          "sceneId": "scene-32i3",
+          "caption": "Над ними тихо шелестели листья. Скуби нёс пассажиров и маленькую деревянную дорогу.",
+          "label": "87 · New",
+          "input": {
+            "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r17/art/beaver-return/web/scene-32i3-v1.webp",
+            "sha256": "d19b751e5cfef69e1da16ae3facd1b248ea3920494d8a1c24c7c84c5abdcc24e"
+          },
+          "readingBeat": {},
+          "readingBeatLabel": "",
+          "x": 32,
+          "y": 1514,
+          "width": 688,
+          "height": 656
+        },
+        {
+          "sceneId": "scene-32i4",
+          "caption": "— Низкая ветка! — сказал Папа. Две ежиные головы пригнулись одновременно.",
+          "label": "88 · New",
+          "input": {
+            "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r17/art/beaver-return/web/scene-32i4-v1.webp",
+            "sha256": "61429b556130d9ccd8df80c8a0c849d658fab6a54034a04de53a24cbcc12b836"
+          },
+          "readingBeat": {},
+          "readingBeatLabel": "",
+          "x": 744,
+          "y": 1514,
+          "width": 688,
+          "height": 656
+        },
+        {
+          "sceneId": "scene-32i5",
+          "caption": "Клац-клац — стукнули деревянные детали. Пин-Пин повторил этот ритм на Папиной лапе.",
+          "label": "89 · New",
+          "input": {
+            "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r17/art/homeward-finish/web/scene-32i5-v1.webp",
+            "sha256": "755c6cfaa5e1d4d0002db1c235c6fe261acc402f64fadf5f977f90e2b8a3c42a"
+          },
+          "readingBeat": {},
+          "readingBeatLabel": "",
+          "x": 1456,
+          "y": 1514,
+          "width": 688,
+          "height": 656
+        },
+        {
+          "sceneId": "scene-32i6",
+          "caption": "— Вон наша крыша! — Пин-Пин показал между деревьями. Скуби повернул уши вперёд.",
+          "label": "90 · New",
+          "input": {
+            "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r17/art/homeward-finish/web/scene-32i6-v1.webp",
+            "sha256": "8ee47791a124f184164ee57f509c27edcc43c4d04177e2da4ce4739393b2d9e6"
+          },
+          "readingBeat": {},
+          "readingBeatLabel": "",
+          "x": 2168,
+          "y": 1514,
+          "width": 688,
+          "height": 656
+        },
+        {
+          "sceneId": "scene-32i7",
+          "caption": "Мама услышала Скуби на дорожке. Она открыла дверь раньше, чем Пин-Пин успел постучать.",
+          "label": "91 · New",
+          "input": {
+            "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r17/art/homeward-finish/web/scene-32i7-v2.webp",
+            "sha256": "31a2ad4295e75f8a1ba08ff12f5e757be19f03beb951766c1f97ce55cf6b72de"
+          },
+          "readingBeat": {},
+          "readingBeatLabel": "",
+          "x": 2880,
+          "y": 1514,
+          "width": 688,
+          "height": 656
+        }
+      ]
+    },
+    {
+      "language": "en",
+      "number": 1,
+      "path": "boards/storyboard-01-en.webp",
+      "sha256": "e8371743f07299c09a3663d48cc5175dc384dbedba12a7d612289b3af41a6bbb",
+      "bytes": 1993014,
+      "master": "boards/masters/storyboard-01-en-v1.png",
+      "masterSha256": "61b0733d137acd1b512d2759170a3432da3d3d5cb8a29c8fd59e0956d2d3c800",
+      "width": 3600,
+      "height": 2762,
+      "sceneStart": 4,
+      "sceneEnd": 34,
+      "pendingPanels": 0,
+      "panels": [
+        {
+          "sceneId": "scene-03a",
+          "caption": "Mama set down the porridge. Four bowls, four spoons—and warm bread in the middle.",
+          "label": "04 · New",
+          "input": {
+            "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r17/art/opening/web/scene-03a-v1.webp",
+            "sha256": "037b2eb4099769a1e917edb32f2fca62c3f19bff0ecb6fb89cfe28cf69aa4d4f"
+          },
+          "readingBeat": {},
+          "readingBeatLabel": "",
+          "x": 32,
+          "y": 154,
+          "width": 688,
+          "height": 616
+        },
+        {
+          "sceneId": "scene-03b",
+          "caption": "“This piece?” asked Papa. PinPin held out both paws. “That piece!”",
+          "label": "05 · New",
+          "input": {
+            "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r17/art/opening/web/scene-03b-v1.webp",
+            "sha256": "1a5ab8a5a59c95ffe6b16a5b57aaa160edf906a6cdf62755bd2506071ae18443"
+          },
+          "readingBeat": {},
+          "readingBeatLabel": "",
+          "x": 744,
+          "y": 154,
+          "width": 688,
+          "height": 616
+        },
+        {
+          "sceneId": "scene-03c",
+          "caption": "PomPom tapped his spoon. Mama tapped hers back. Tap, tap!",
+          "label": "06 · New",
+          "input": {
+            "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r17/art/opening/web/scene-03c-v1.webp",
+            "sha256": "1e7f04fae9bc7e758688a1ea384f2d093df0651f9007b860adb22e5bcd4d3c88"
+          },
+          "readingBeat": {},
+          "readingBeatLabel": "",
+          "x": 1456,
+          "y": 154,
+          "width": 688,
+          "height": 616
+        },
+        {
+          "sceneId": "scene-03d",
+          "caption": "PinPin carried his empty bowl to Mama. “Now can we play?”",
+          "label": "07 · New",
+          "input": {
+            "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r17/art/opening/web/scene-03d-v1.webp",
+            "sha256": "adbcf0f50204b5fd7ae1034eadfac2cffbd096965262de243bd2915ef123a0e1"
+          },
+          "readingBeat": {},
+          "readingBeatLabel": "",
+          "x": 2168,
+          "y": 154,
+          "width": 688,
+          "height": 616
+        },
+        {
+          "sceneId": "scene-03e",
+          "caption": "Mama rolled a soft ball across the mat. PinPin caught it against his tummy.",
+          "label": "08 · New",
+          "input": {
+            "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r17/art/opening/web/scene-03e-v1.webp",
+            "sha256": "818431353af5941716698fc80885208c8ed033f1b9dfb61bbbb4d97da4e75ba6"
+          },
+          "readingBeat": {},
+          "readingBeatLabel": "",
+          "x": 2880,
+          "y": 154,
+          "width": 688,
+          "height": 616
+        },
+        {
+          "sceneId": "scene-03f",
+          "caption": "Back it went—to PomPom! He hugged the ball, and Mama laughed.",
+          "label": "09 · New",
+          "input": {
+            "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r17/art/opening/web/scene-03f-v1.webp",
+            "sha256": "fd5e1426986bdf9324497ca8ff178d3a80e063ea5dfeb0673d29ccba0a7587fd"
+          },
+          "readingBeat": {},
+          "readingBeatLabel": "",
+          "x": 32,
+          "y": 794,
+          "width": 688,
+          "height": 616
+        },
+        {
+          "sceneId": "scene-03g",
+          "caption": "“Scooby and I are going for a little walk,” said Papa. “He has some practising to do.”",
+          "label": "10 · New",
+          "input": {
+            "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r17/art/opening/web/scene-03g-v1.webp",
+            "sha256": "90cf531a30e133b1a87a0912f668d91b6bfeb6e399f7242fc64dbe60a0d942d1"
+          },
+          "readingBeat": {},
+          "readingBeatLabel": "",
+          "x": 744,
+          "y": 794,
+          "width": 688,
+          "height": 616
+        },
+        {
+          "sceneId": "scene-03h",
+          "caption": "Outside, Scooby lowered his big nose to Papa. His tail was already going round.",
+          "label": "11 · New",
+          "input": {
+            "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r17/art/opening/web/scene-03h-v1.webp",
+            "sha256": "e394bec3bf4a7cbae83714906c5d8d286886cea3751eec6cfd572449b201d54e"
+          },
+          "readingBeat": {},
+          "readingBeatLabel": "",
+          "x": 1456,
+          "y": 794,
+          "width": 688,
+          "height": 616
+        },
+        {
+          "sceneId": "scene-03i",
+          "caption": "“Sit, Scooby.” Down he sat. Then his ears sprang up again.",
+          "label": "12 · New",
+          "input": {
+            "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r17/art/opening/web/scene-03i-v1.webp",
+            "sha256": "d4196a146376951d4b9555290458cbb7df30567185c99877014f34ac17198d41"
+          },
+          "readingBeat": {},
+          "readingBeatLabel": "",
+          "x": 2168,
+          "y": 794,
+          "width": 688,
+          "height": 616
+        },
+        {
+          "sceneId": "scene-03j",
+          "caption": "Knock, knock! PinPin looked up from the ball.",
+          "label": "13 · New",
+          "input": {
+            "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r17/art/opening/web/scene-03j-v2.webp",
+            "sha256": "784f47af0361902fbc8cc83d4880229dd3fd12c1c5f5a4364d94c8496da2ebfc"
+          },
+          "readingBeat": {},
+          "readingBeatLabel": "",
+          "x": 2880,
+          "y": 794,
+          "width": 688,
+          "height": 616
+        },
+        {
+          "sceneId": "scene-03k",
+          "caption": "Mama opened the door. Rabbit was waiting on the step.",
+          "label": "14 · New",
+          "input": {
+            "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r17/art/opening/web/scene-03k-v1.webp",
+            "sha256": "5e73e13aa43d426114906917a5051601423ce0bd6104cac05d1ca8d57ded1bf0"
+          },
+          "readingBeat": {},
+          "readingBeatLabel": "",
+          "x": 32,
+          "y": 1434,
+          "width": 688,
+          "height": 616
+        },
+        {
+          "sceneId": "scene-03l",
+          "caption": "“Come and play, PinPin!” Rabbit had found two leaves for boats.",
+          "label": "15 · New",
+          "input": {
+            "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r17/art/opening/web/scene-03l-v1.webp",
+            "sha256": "b40ac36e16a2f183f826d340f8be4c2ad85c30fa0a3e660c0dd0958cdb5da81b"
+          },
+          "readingBeat": {},
+          "readingBeatLabel": "",
+          "x": 744,
+          "y": 1434,
+          "width": 688,
+          "height": 616
+        },
+        {
+          "sceneId": "scene-03m",
+          "caption": "“Yes,” said Mama. “Please bring one bucket of water for the bath first.”",
+          "label": "16 · New",
+          "input": {
+            "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r17/art/opening/web/scene-03m-v1.webp",
+            "sha256": "4bda9eb877f8a753d8d924154cb76dcba2ba942e1aa397cad6a91395b046e57f"
+          },
+          "readingBeat": {},
+          "readingBeatLabel": "",
+          "x": 1456,
+          "y": 1434,
+          "width": 688,
+          "height": 616
+        },
+        {
+          "sceneId": "scene-04a1",
+          "caption": "“Scooby is strong,” said Papa. “He can help us carry things after our practice.”",
+          "label": "19 · New",
+          "input": {
+            "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r17/art/opening/web/scene-04a1-v1.webp",
+            "sha256": "2265919ee66ea1ded0a94e8ada203b374d2c212f8a9dc562a279b9122ed29a3e"
+          },
+          "readingBeat": {},
+          "readingBeatLabel": "",
+          "x": 2168,
+          "y": 1434,
+          "width": 688,
+          "height": 616
+        },
+        {
+          "sceneId": "scene-04a2",
+          "caption": "Scooby's nose pointed the other way. “Our walk is over here, then!” said Papa.",
+          "label": "20 · New",
+          "input": {
+            "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r17/art/opening/web/scene-04a2-v1.webp",
+            "sha256": "55fe669d63e5016ceef76fb690adabc564004170258dc9e190e116c18d6bb64c"
+          },
+          "readingBeat": {},
+          "readingBeatLabel": "",
+          "x": 2880,
+          "y": 1434,
+          "width": 688,
+          "height": 616
+        },
+        {
+          "sceneId": "scene-05g1",
+          "caption": "“Head down, Scooby.” First came his nose. Then his ears. Then rather a lot of dog.",
+          "label": "32 · New",
+          "input": {
+            "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r17/art/opening/web/scene-05g1-v2.webp",
+            "sha256": "4e1a9296b26c9cf4b203f7e4880d1b36f0c5e8996bd5de56623881ec3b457c80"
+          },
+          "readingBeat": {},
+          "readingBeatLabel": "",
+          "x": 32,
+          "y": 2074,
+          "width": 688,
+          "height": 656
+        },
+        {
+          "sceneId": "scene-05g2",
+          "caption": "Scooby sat down. The kitchen suddenly had very little floor left! Papa put a few blueberries in his bowl.",
+          "label": "33 · New",
+          "input": {
+            "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r17/art/opening/web/scene-05g2-v1.webp",
+            "sha256": "8855094286a8af60bd1a779545e046057eaf978b8fe6252f716545400bf84a92"
+          },
+          "readingBeat": {},
+          "readingBeatLabel": "",
+          "x": 744,
+          "y": 2074,
+          "width": 688,
+          "height": 656
+        },
+        {
+          "sceneId": "scene-05g3",
+          "caption": "“And now, the sunny step.” Papa led Scooby outside again. PinPin squeezed past with his bucket.",
+          "label": "34 · New",
+          "input": {
+            "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r17/art/opening/web/scene-05g3-v2.webp",
+            "sha256": "abad08da381f69cefa8709b6e7730d2015060943bb428c45f676cdd98048783d"
+          },
+          "readingBeat": {},
+          "readingBeatLabel": "",
+          "x": 1456,
+          "y": 2074,
+          "width": 688,
+          "height": 656
+        }
+      ]
+    },
+    {
+      "language": "en",
+      "number": 2,
+      "path": "boards/storyboard-02-en.webp",
+      "sha256": "45b3445bd75275e8dacf2b06b585610535b53243af178db1e9f00ac48e17379e",
+      "bytes": 1844422,
+      "master": "boards/masters/storyboard-02-en-v1.png",
+      "masterSha256": "0fa1048b05819568a44e094aa8498342e0afbd732605a27a9a9e63a00b3ed55d",
+      "width": 3600,
+      "height": 2122,
+      "sceneStart": 70,
+      "sceneEnd": 91,
+      "pendingPanels": 0,
+      "panels": [
+        {
+          "sceneId": "scene-32b1",
+          "caption": "Tap, tap, tap. PinPin listened. “Someone is building something!”",
+          "label": "70 · New",
+          "input": {
+            "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r17/art/beaver-return/web/scene-32b1-v1.webp",
+            "sha256": "9ee40787d1d5cd5d737f2d9419063525689ab38b546607c341af81ee5dd000d9"
+          },
+          "readingBeat": {},
+          "readingBeatLabel": "",
+          "x": 32,
+          "y": 154,
+          "width": 688,
+          "height": 656
+        },
+        {
+          "sceneId": "scene-32b2",
+          "caption": "Between the trees, Beaver and Mr. Bear were making a little wooden walkway. A blue tractor stood beside the planks.",
+          "label": "71 · New",
+          "input": {
+            "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r17/art/beaver-return/web/scene-32b2-v1.webp",
+            "sha256": "c295ab619ea7b71af6dde0871b501e3d45746aa38916c820f1faa101872fb48f"
+          },
+          "readingBeat": {},
+          "readingBeatLabel": "",
+          "x": 744,
+          "y": 154,
+          "width": 688,
+          "height": 656
+        },
+        {
+          "sceneId": "scene-32c1",
+          "caption": "“Good morning!” said Mr. Bear. He put down his plank and waved one enormous paw.",
+          "label": "73 · New",
+          "input": {
+            "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r17/art/beaver-return/web/scene-32c1-v1.webp",
+            "sha256": "aa3e38b91423190d32546bb2a50b27cdffec9715a8f98d2d2c03a5f5c14523ff"
+          },
+          "readingBeat": {},
+          "readingBeatLabel": "",
+          "x": 1456,
+          "y": 154,
+          "width": 688,
+          "height": 656
+        },
+        {
+          "sceneId": "scene-32c2",
+          "caption": "“This way, paws stay out of the mud,” Beaver explained. PinPin tried one dry step.",
+          "label": "74 · New",
+          "input": {
+            "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r17/art/beaver-return/web/scene-32c2-v2.webp",
+            "sha256": "10eadde7351bb1bca8ceedb5c471c72c4f7bdab5a2070f1eae88607ae4b07e00"
+          },
+          "readingBeat": {},
+          "readingBeatLabel": "",
+          "x": 2168,
+          "y": 154,
+          "width": 688,
+          "height": 656
+        },
+        {
+          "sceneId": "scene-32c3",
+          "caption": "Mr. Bear held the next board. PinPin passed Beaver a little wooden peg.",
+          "label": "75 · New",
+          "input": {
+            "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r17/art/beaver-return/web/scene-32c3-v1.webp",
+            "sha256": "83504653c54e50722b7e05a704797156032d22d6c1455e1858f5f1b53f0d8887"
+          },
+          "readingBeat": {},
+          "readingBeatLabel": "",
+          "x": 2880,
+          "y": 154,
+          "width": 688,
+          "height": 656
+        },
+        {
+          "sceneId": "scene-32h1",
+          "caption": "“Long pieces coming through!” Mr. Bear carried them easily. Papa showed him the clear space.",
+          "label": "81 · New",
+          "input": {
+            "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r17/art/beaver-return/web/scene-32h1-v2.webp",
+            "sha256": "11ece7369d84018a4bb307b14ccf90fd6eb195fbae57646e37de668f3a2e131a"
+          },
+          "readingBeat": {},
+          "readingBeatLabel": "",
+          "x": 32,
+          "y": 834,
+          "width": 688,
+          "height": 616
+        },
+        {
+          "sceneId": "scene-32h2",
+          "caption": "Papa set the gutters in a row. PinPin matched the little supports beside them.",
+          "label": "82 · New",
+          "input": {
+            "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r17/art/beaver-return/web/scene-32h2-v2.webp",
+            "sha256": "f573b80d8bc9ba1e6e588347be603647e4c00f55bd81e140574d7512b47c4054"
+          },
+          "readingBeat": {},
+          "readingBeatLabel": "",
+          "x": 744,
+          "y": 834,
+          "width": 688,
+          "height": 616
+        },
+        {
+          "sceneId": "scene-32h3",
+          "caption": "Beaver ran a paw along the last smooth edge. “There. Ready to make your water-road.”",
+          "label": "83 · New",
+          "input": {
+            "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r17/art/beaver-return/web/scene-32h3-v1.webp",
+            "sha256": "f9e85d3b80036c8121b86db74b958113ec864c231178fa00eb4d9b5f42fc198d"
+          },
+          "readingBeat": {},
+          "readingBeatLabel": "",
+          "x": 1456,
+          "y": 834,
+          "width": 688,
+          "height": 616
+        },
+        {
+          "sceneId": "scene-32i1",
+          "caption": "“Wait.” Scooby waited. Papa checked both bundles. PinPin checked that his toes had room.",
+          "label": "85 · New",
+          "input": {
+            "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r17/art/beaver-return/web/scene-32i1-v1.webp",
+            "sha256": "35d6627a3092e392fc711508c4141c7d782a5db04f77a2d32a19882bf8b4a5a5"
+          },
+          "readingBeat": {},
+          "readingBeatLabel": "",
+          "x": 2168,
+          "y": 834,
+          "width": 688,
+          "height": 616
+        },
+        {
+          "sceneId": "scene-32i2",
+          "caption": "“Thank you!” called PinPin. Mr. Bear lifted a paw, and Beaver waved his little plane.",
+          "label": "86 · New",
+          "input": {
+            "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r17/art/beaver-return/web/scene-32i2-v1.webp",
+            "sha256": "c5a8d8f54f80c78ff18b56fff30c8b04879aced35429fffd4a64e1685567234a"
+          },
+          "readingBeat": {},
+          "readingBeatLabel": "",
+          "x": 2880,
+          "y": 834,
+          "width": 688,
+          "height": 616
+        },
+        {
+          "sceneId": "scene-32i3",
+          "caption": "The leaves brushed softly above them. Scooby carried his passengers and the little wooden road.",
+          "label": "87 · New",
+          "input": {
+            "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r17/art/beaver-return/web/scene-32i3-v1.webp",
+            "sha256": "d19b751e5cfef69e1da16ae3facd1b248ea3920494d8a1c24c7c84c5abdcc24e"
+          },
+          "readingBeat": {},
+          "readingBeatLabel": "",
+          "x": 32,
+          "y": 1474,
+          "width": 688,
+          "height": 616
+        },
+        {
+          "sceneId": "scene-32i4",
+          "caption": "“Low branch!” said Papa. Two hedgehog heads dipped together.",
+          "label": "88 · New",
+          "input": {
+            "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r17/art/beaver-return/web/scene-32i4-v1.webp",
+            "sha256": "61429b556130d9ccd8df80c8a0c849d658fab6a54034a04de53a24cbcc12b836"
+          },
+          "readingBeat": {},
+          "readingBeatLabel": "",
+          "x": 744,
+          "y": 1474,
+          "width": 688,
+          "height": 616
+        },
+        {
+          "sceneId": "scene-32i5",
+          "caption": "Clack, clack went the wooden pieces. PinPin tapped the same rhythm on Papa's paw.",
+          "label": "89 · New",
+          "input": {
+            "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r17/art/homeward-finish/web/scene-32i5-v1.webp",
+            "sha256": "755c6cfaa5e1d4d0002db1c235c6fe261acc402f64fadf5f977f90e2b8a3c42a"
+          },
+          "readingBeat": {},
+          "readingBeatLabel": "",
+          "x": 1456,
+          "y": 1474,
+          "width": 688,
+          "height": 616
+        },
+        {
+          "sceneId": "scene-32i6",
+          "caption": "“There's our roof!” PinPin pointed between the trees. Scooby's ears turned forward.",
+          "label": "90 · New",
+          "input": {
+            "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r17/art/homeward-finish/web/scene-32i6-v1.webp",
+            "sha256": "8ee47791a124f184164ee57f509c27edcc43c4d04177e2da4ce4739393b2d9e6"
+          },
+          "readingBeat": {},
+          "readingBeatLabel": "",
+          "x": 2168,
+          "y": 1474,
+          "width": 688,
+          "height": 616
+        },
+        {
+          "sceneId": "scene-32i7",
+          "caption": "Mama heard Scooby on the path. She opened the door before PinPin could knock.",
+          "label": "91 · New",
+          "input": {
+            "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r17/art/homeward-finish/web/scene-32i7-v2.webp",
+            "sha256": "31a2ad4295e75f8a1ba08ff12f5e757be19f03beb951766c1f97ce55cf6b72de"
+          },
+          "readingBeat": {},
+          "readingBeatLabel": "",
+          "x": 2880,
+          "y": 1474,
+          "width": 688,
+          "height": 616
+        }
+      ]
+    }
+  ],
+  "pendingPanels": 0,
+  "version": 1,
+  "preproduction": false
+}

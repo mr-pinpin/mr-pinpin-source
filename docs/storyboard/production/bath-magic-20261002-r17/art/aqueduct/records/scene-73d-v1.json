@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "id": "scene-73d",
+  "priorR16Number": 107,
+  "version": 1,
+  "tool": "builtin image_gen.imagegen",
+  "native": {
+    "path": "native/scene-73d-v1.png",
+    "sha256": "e4c109105f03bc95318348f66ac7aaaa42e254443b6080be66f239bcb887ef5c",
+    "bytes": 2639074,
+    "width": 1536,
+    "height": 1024
+  },
+  "prompt": {
+    "path": "prompts/scene-73d-v1.txt",
+    "sha256": "ff39870d74494e31fd1fc7cc0e101c6efcdcfe9d716e6d384dfabcbf37da81cf",
+    "bytes": 2030
+  },
+  "exactPrompt": "Use case: precise-object-edit. Edit IMAGE1 only; keep its camera, lighting, crop, warm illustrated rendering and approved hedgehog faces/body identities unchanged. IMAGE2 is a geometry reference for the already-installed wooden overflow channel, not a replacement composition or extra cast. The source still flows: the channel was installed earlier and remains present until later disassembly. Restore physically continuous open wooden trough, matching the warm timber, curved section, low support blocks and flowing clear water in the reference. A narrow spill from the tub rim must visibly feed the collecting mouth. Water then follows the supported channel toward the actual bathroom exit, with a continuous downhill path, no blind end or uphill lip. Feet stand on dry floor or clearly step OVER it; never erase the canal to make room, never put feet or pot in the water or balance on rails. Keep existing room openings; do not turn a bedroom door into a garden door, do not add windows/doors or another room. No text or labels.\nIMAGE1: Mama ducks under a giant leaf, alone in foreground, large potted plant at left, oval bath behind. IMAGE2: scene-87 shows the correct installed collector and low curved trough around that same bath. The mistake to fix is ONLY the missing channel. Add the low water-filled curved collector around the visible near side of the bath, outside the rug edge where appropriate, supported on little wooden blocks. Show a readable short overflow feed from rim into it. Let its continuous outlet run across the lower floor toward the bathroom exit outside the shot, disappearing naturally beyond the frame, rather than ending at Mama. Keep Mama's charming exact face, lifted leaf, hand placements and ducking action. Keep Mama's feet on unobstructed dry floor with natural channel occlusion behind her if needed; no other characters. The huge leaf, pot, oval bath water, round window and bathroom decoration remain unchanged. Do not reduce bathtub, raise rim, flatten face or make floor flooded again.",
+  "inputs": [
+    {
+      "path": "references/scene-73d.webp",
+      "sha256": "90948c095130b472d050acb66c21d17f5781697d82ea49ea6fd9afc1f212a1d2",
+      "bytes": 508848
+    },
+    {
+      "path": "references/scene-87.webp",
+      "sha256": "a32c2ffc8660daf2d2f2fa96b48d37aaeed84e80f1a88e35398796b15ecc0fa0",
+      "bytes": 398346
+    }
+  ],
+  "transparent_background": false,
+  "selected": false,
+  "artistReview": "superseded after identified foot clearance or bypass-spill issue",
+  "rootReview": "not selected",
+  "outputHandling": "Native PNG bytes preserved without raster editing; decoded builtin data URL and copied to SSD."
+}

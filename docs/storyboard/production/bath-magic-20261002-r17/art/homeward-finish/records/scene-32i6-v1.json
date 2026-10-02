@@ -1,0 +1,50 @@
+{
+  "schemaVersion": 1,
+  "id": "scene-32i6",
+  "version": "v1",
+  "tool": "image_gen__imagegen",
+  "master": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r17/art/homeward-finish/masters/scene-32i6-v1.png",
+  "masterSha256": "a5533bdfeac92e143b580ba5a8899efd984c16301ab5c218ff8d10c4fa1f1022",
+  "dimensions": [
+    1536,
+    1024
+  ],
+  "native": {
+    "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r17/art/homeward-finish/masters/scene-32i6-v1.png",
+    "sha256": "a5533bdfeac92e143b580ba5a8899efd984c16301ab5c218ff8d10c4fa1f1022",
+    "bytes": 3023654
+  },
+  "web": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r17/art/homeward-finish/web/scene-32i6-v1.webp",
+  "webSha256": "8ee47791a124f184164ee57f509c27edcc43c4d04177e2da4ce4739393b2d9e6",
+  "prompt": {
+    "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r17/art/homeward-finish/prompts/scene-32i6-v1.txt",
+    "sha256": "75e325c1507fd0816b7c06ddee833bd9d06f811a48587e3daaeea686b5654ead",
+    "bytes": 2283
+  },
+  "exactPrompt": "Use case: illustration-story. Produce ONE finished 1536x1024 landscape illustration matching the supplied approved children's book, no text or panels. Rich warm cinematic bounce lighting, tactile gentle stylized materials and rounded dimensional faces. Papa is the large round adult gray-brown hedgehog, short rounded muzzle, soft eyes, cream cheeks, NEVER a wolf or canine. PinPin is the small copper-quilled child. Scooby is the large warm brown short-haired dog with cream muzzle/chest, folded ears and curled tail, broad enough to carry both hedgehogs. Keep EXACT established character identities and relaxed engaged expressions, no fatigue or manic brows. Image1 locks the loaded mounted arrangement: PinPin seated FRONT near dog's neck, Papa BEHIND supporting child. Two modest balanced side bundles, each three wooden U-channel gutter pieces, secured over cream cloth with BLUE STRIPES, wicker basket of small support blocks behind Papa. Gutters are open-topped U troughs OPEN at BOTH short ends, no endcaps/boxes. Cargo secure below rider legs, no floating pieces or legs fused with wood. Image2 gives clear gutter geometry and canonical HOME facade/Mama/infant only; do not copy its dismounted pose. Exactly two riders. Story beat: 'There's our roof! PinPin pointed between the trees. Scooby's ears turned forward.' Camera a WIDE OVER-THE-RIDERS-SHOULDER view from slightly above and behind Papa, looking forward along the shaded forest path. Dog and two riders lower RIGHT foreground moving toward UPPER LEFT distant HOME visible between trees. Papa remains behind child on back; copper child profile visible just ahead of Papa's shoulder, one separate arm pointing toward distant mossy cottage roof. Scooby head/ears face that destination. Keep both cargo bundles attached and basket behind rider, foreshortened naturally. The cottage is the SAME canonical cozy stone-and-timber home from image2: mossy flowered curved roof, chimney, central solid arched GREEN door, TWO ROUND facade windows one on each side; no door inset glass, no added wing. Door still closed at this distance, no characters at house yet. House visible as discovery through tree trunks, not an entirely new house. Warm sun patches; NO river, workshop, tractor or watercourse beside the house. No text.",
+  "references": [
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r17/art/homeward-finish/references/scene-32i1-v1.png",
+      "sha256": "8c230d723cc44e6967798cac07b0136ac71c1170bccaba3b5db6271e08fcdcf1",
+      "bytes": 2923808
+    },
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r17/art/homeward-finish/references/scene-32j-v3.png",
+      "sha256": "5fa2da5fa1d7cc9700d167498849f6bd0a5ab0fb57416c94c592b26285c073a6",
+      "bytes": 2820014
+    }
+  ],
+  "toolArguments": {
+    "prompt": "Use case: illustration-story. Produce ONE finished 1536x1024 landscape illustration matching the supplied approved children's book, no text or panels. Rich warm cinematic bounce lighting, tactile gentle stylized materials and rounded dimensional faces. Papa is the large round adult gray-brown hedgehog, short rounded muzzle, soft eyes, cream cheeks, NEVER a wolf or canine. PinPin is the small copper-quilled child. Scooby is the large warm brown short-haired dog with cream muzzle/chest, folded ears and curled tail, broad enough to carry both hedgehogs. Keep EXACT established character identities and relaxed engaged expressions, no fatigue or manic brows. Image1 locks the loaded mounted arrangement: PinPin seated FRONT near dog's neck, Papa BEHIND supporting child. Two modest balanced side bundles, each three wooden U-channel gutter pieces, secured over cream cloth with BLUE STRIPES, wicker basket of small support blocks behind Papa. Gutters are open-topped U troughs OPEN at BOTH short ends, no endcaps/boxes. Cargo secure below rider legs, no floating pieces or legs fused with wood. Image2 gives clear gutter geometry and canonical HOME facade/Mama/infant only; do not copy its dismounted pose. Exactly two riders. Story beat: 'There's our roof! PinPin pointed between the trees. Scooby's ears turned forward.' Camera a WIDE OVER-THE-RIDERS-SHOULDER view from slightly above and behind Papa, looking forward along the shaded forest path. Dog and two riders lower RIGHT foreground moving toward UPPER LEFT distant HOME visible between trees. Papa remains behind child on back; copper child profile visible just ahead of Papa's shoulder, one separate arm pointing toward distant mossy cottage roof. Scooby head/ears face that destination. Keep both cargo bundles attached and basket behind rider, foreshortened naturally. The cottage is the SAME canonical cozy stone-and-timber home from image2: mossy flowered curved roof, chimney, central solid arched GREEN door, TWO ROUND facade windows one on each side; no door inset glass, no added wing. Door still closed at this distance, no characters at house yet. House visible as discovery through tree trunks, not an entirely new house. Warm sun patches; NO river, workshop, tractor or watercourse beside the house. No text.",
+    "referenced_image_paths": [
+      "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r17/art/homeward-finish/references/scene-32i1-v1.png",
+      "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r17/art/homeward-finish/references/scene-32j-v3.png"
+    ],
+    "transparent_background": false
+  },
+  "originalToolOutput": "/Users/miguel_lemos/.codex/generated_images/01a0fa05-e7a6-7a00-a6f0-fc3a9cc0cc09/exec-776b4995-ca36-4a0e-9ad8-a93b55c32a54.png",
+  "artistReview": "pass",
+  "rootReview": "pass",
+  "selected": true,
+  "nativePreservation": "Copied unchanged to Mini SSD; web is format-only derivative"
+}

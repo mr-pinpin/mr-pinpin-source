@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "id": "scene-85",
+  "priorR16Number": 122,
+  "version": 1,
+  "tool": "builtin image_gen.imagegen",
+  "native": {
+    "path": "native/scene-85-v1.png",
+    "sha256": "81bd2bec48cffa1ce686cca4e9f2fb62a49ac067f7b2984cfc92b1f31df8dedc",
+    "bytes": 2672555,
+    "width": 1536,
+    "height": 1024
+  },
+  "prompt": {
+    "path": "prompts/scene-85-v1.txt",
+    "sha256": "5cb29291f021893fc4a79beeac7caec7805e0f9cd3d76fbfb10e254b7fd1d4a8",
+    "bytes": 2044
+  },
+  "exactPrompt": "Use case: precise-object-edit. Edit IMAGE1 only; keep its camera, lighting, crop, warm illustrated rendering and approved hedgehog faces/body identities unchanged. IMAGE2 is a geometry reference for the already-installed wooden overflow channel, not a replacement composition or extra cast. The source still flows: the channel was installed earlier and remains present until later disassembly. Restore physically continuous open wooden trough, matching the warm timber, curved section, low support blocks and flowing clear water in the reference. A narrow spill from the tub rim must visibly feed the collecting mouth. Water then follows the supported channel toward the actual bathroom exit, with a continuous downhill path, no blind end or uphill lip. Feet stand on dry floor or clearly step OVER it; never erase the canal to make room, never put feet or pot in the water or balance on rails. Keep existing room openings; do not turn a bedroom door into a garden door, do not add windows/doors or another room. No text or labels.\nIMAGE1 shows Papa LEFT and child PinPin front RIGHT holding opposite sides of a towel to send bubbles to the window; Mama farther RIGHT safely holds infant PomPom. IMAGE2 scene-87 supplies correct installed channel geometry. Restore a curved collecting trough under the bath's near rim, with visible overflow FEED flowing into that trough, then carry water continuously around the near bath base and toward lower-left offscreen bathroom exit on low wooden blocks. Preserve four-family identities and the two towel holders exactly; Mama must not gain an extra arm. Place the trough BETWEEN tub and foreground towel holders wherever possible, using natural occlusion, and retain a clearly visible dry-floor space between all feet and the channel. If front continuation approaches toes, curve it farther toward camera rather than resting feet on a rail. Keep towel above it, all approved paws/legs distinct, and preserve original camera/lighting/expressions. No new doorway, no scene enlargement, no border or text.",
+  "inputs": [
+    {
+      "path": "references/scene-85.webp",
+      "sha256": "8dd1c23620c2411e6568c1e250adc1fb5495370a6bdda0b4c91ac699e06ede1d",
+      "bytes": 485296
+    },
+    {
+      "path": "references/scene-87.webp",
+      "sha256": "a32c2ffc8660daf2d2f2fa96b48d37aaeed84e80f1a88e35398796b15ecc0fa0",
+      "bytes": 398346
+    }
+  ],
+  "transparent_background": false,
+  "selected": true,
+  "artistReview": "pass",
+  "rootReview": "pass",
+  "outputHandling": "Native PNG bytes preserved without raster editing; decoded builtin data URL and copied to SSD."
+}

@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "scene-05b",
+  "priorR16Number": 11,
+  "version": 1,
+  "tool": "builtin image_gen.imagegen",
+  "native": {
+    "path": "native/scene-05b-v1.png",
+    "sha256": "c403dec946924ad8274fd566c49bf493818b54ab31f101818dc65cfd786f4a96",
+    "bytes": 3220990,
+    "width": 1536,
+    "height": 1024
+  },
+  "prompt": {
+    "path": "prompts/scene-05b-v1.txt",
+    "sha256": "95026af6f3a8e791ede85a90a1ed636a38e9b8665ca861a7c4cc9a1df7682bb5",
+    "bytes": 1106
+  },
+  "exactPrompt": "Use case: identity-preserve story action edit. Transform this approved spring illustration into the next quiet playful moment AFTER filling a single bucket. Preserve exact PinPin and Rabbit faces/species/colors, the natural mossy rock spout on RIGHT, clear shallow catchment, blue-gold bird above, redbreast bird foreground, dry rock left and golden forest rendering. Only ONE filled wood-stave bucket with two dark bands now stands safely on DRY ROCK at far LEFT, clear of the edge; remove the other bucket and remove all filling action. PinPin and Rabbit crouch/sit together on dry rock at water's edge, leaning forward to watch TWO simple green LEAF BOATS floating in the shallow clear pool. Rabbit gently releases one leaf with a paw just above water; PinPin points at the other as it turns in a little ripple. Both look toward the leaves with quiet playful delight, readable eyes, not manic eyebrows. Show leaves clearly without paper sails or manufactured toy boats. Keep spring flowing freely into pool, exactly two birds, two friends and one bucket. Original camera/aspect/style; no text, no magic.",
+  "inputs": [
+    {
+      "path": "references/scene-05b.webp",
+      "sha256": "923158e5aa723181de0f0aa4291cf718b0280cfeb66a3859d5f26ddb1219f762",
+      "bytes": 669914
+    }
+  ],
+  "toolArguments": {
+    "referenced_image_paths": [
+      "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r17/art/opening-edits/references/scene-05b.webp"
+    ],
+    "transparent_background": false
+  },
+  "sourceOutputPath": "/Users/miguel_lemos/.codex/generated_images/01a0fa05-e7a6-7a00-a6f0-fc3a9cc0cc09/exec-b5a86b9c-70ac-435f-a033-d0d80d5719c2.png",
+  "artistReview": "pass",
+  "rootReview": "pass",
+  "selected": true,
+  "outputHandling": "Native PNG copied unchanged; no raster edits outside builtin"
+}

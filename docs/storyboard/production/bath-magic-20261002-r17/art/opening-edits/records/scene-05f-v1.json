@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "id": "scene-05f",
+  "priorR16Number": 15,
+  "version": 1,
+  "tool": "builtin image_gen.imagegen",
+  "native": {
+    "path": "native/scene-05f-v1.png",
+    "sha256": "cbffe0f23904f26a3925c5293a7ae67e2863b1f83dd94498cf2f050167c9e059",
+    "bytes": 2855671,
+    "width": 1536,
+    "height": 1024
+  },
+  "prompt": {
+    "path": "prompts/scene-05f-v1.txt",
+    "sha256": "33635aa48120e326b7ba841c834217bf8fc4880b05934669c37d818685d0cde2",
+    "bytes": 1059
+  },
+  "exactPrompt": "Use case: identity-preserve continuity edit. Image 1 is the target approved story illustration. Image 2 supplies ONLY Scooby-to-Papa relative size; its architecture and extra people are irrelevant. Correct Scooby into the same mount-sized adult brown dog, withers near standing Papa's head, dog head above Papa, broad long back that can seat Papa and child. Preserve brown short coat, cream chest/muzzle, folded ears, curled tail, and attentive gaze. Papa stays the EXACT rounded HEDGEHOG father in image 1, not a dog or wolf. They now turn and walk HOME toward the green cottage door visible behind them, Papa clearly gestures back toward that house and Scooby follows his gesture. Use a natural three-quarter side turn so both faces remain readable, all paws anatomically grounded in the same plane, no floating limbs. Keep the original cottage's green solid door, two round windows, warm morning garden light and lush forest style. Camera may pull back slightly to fit the larger dog, not shrink Papa to a child. No other characters, no text, no new props.",
+  "inputs": [
+    {
+      "path": "references/scene-05f.webp",
+      "sha256": "24250104ae19c60dfcf7278a3f15f696b1f7fbf5447c67bcd959f298017749fe",
+      "bytes": 498636
+    },
+    {
+      "path": "references/scale-house-study-v1.png",
+      "sha256": "c707e55c38f29f7adaa93081a0ace6d69e8651ab52a0ed847581e6f312256112",
+      "bytes": 2987111
+    }
+  ],
+  "toolArguments": {
+    "referenced_image_paths": [
+      "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r17/art/opening-edits/references/scene-05f.webp",
+      "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r17/art/opening-edits/references/scale-house-study-v1.png"
+    ],
+    "transparent_background": false
+  },
+  "sourceOutputPath": "/Users/miguel_lemos/.codex/generated_images/01a0fa05-e7a6-7a00-a6f0-fc3a9cc0cc09/exec-7ed68d1f-e3c9-47ec-b790-88a4fbed5c70.png",
+  "artistReview": "pass",
+  "rootReview": "pass",
+  "selected": true,
+  "outputHandling": "Native PNG copied unchanged; no raster edits outside builtin"
+}

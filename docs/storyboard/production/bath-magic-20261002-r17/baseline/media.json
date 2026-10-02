@@ -1,0 +1,1272 @@
+{
+  "version": 1,
+  "status": "draft-for-review",
+  "images": {
+    "scene-32b": {
+      "path": "baseline/web/scene-32b.webp",
+      "sha256": "0ca6f054f3aabddf0dad48cbdfcb90cf9fb1ac085206900b2b9a6278d6ac2703",
+      "bytes": 601994,
+      "mtimeNs": 1790916410268616698,
+      "width": 1536,
+      "height": 1024,
+      "sourceProduction": "bath-magic-20261002-r17"
+    },
+    "cover": {
+      "path": "baseline/web/cover.webp",
+      "sha256": "bef832f38a4fd690e647417fa6d26f1e2824c0ac5131f35ca724a2a8b0612842",
+      "bytes": 437708,
+      "mtimeNs": 1790877167869493473,
+      "width": 1536,
+      "height": 1024,
+      "sourceProduction": "bath-magic-20261002-r17"
+    },
+    "scene-01": {
+      "path": "baseline/web/scene-01.webp",
+      "sha256": "38c63615c8a5208a2ec6a34ba4b90e844ccfdafd17ac916a8ed2ec8449b90c19",
+      "bytes": 421068,
+      "mtimeNs": 1790873709781511998,
+      "width": 1536,
+      "height": 1024,
+      "sourceProduction": "bath-magic-20261002-r17"
+    },
+    "scene-02": {
+      "path": "baseline/web/scene-02.webp",
+      "sha256": "7bb7bfae1e01595cda5cc4d9dfc24056f349302929d8b4a5487b2f8eb6643377",
+      "bytes": 412906,
+      "mtimeNs": 1790831258523142816,
+      "width": 1536,
+      "height": 1024,
+      "sourceProduction": "bath-magic-20261002-r17"
+    },
+    "scene-03": {
+      "path": "baseline/web/scene-03.webp",
+      "sha256": "de83ba34ddba2916733e7242fbd0ec959d515a29c440e549f783a6384fc499ea",
+      "bytes": 315034,
+      "mtimeNs": 1790833465074076284,
+      "width": 1536,
+      "height": 1024,
+      "sourceProduction": "bath-magic-20261002-r17"
+    },
+    "scene-04": {
+      "path": "baseline/web/scene-04.webp",
+      "sha256": "4faefd133c89261bb57edca2dcaec263b8f1cd27c2f23f9b67002d28df6bcb2c",
+      "bytes": 392224,
+      "mtimeNs": 1790910514561838506,
+      "width": 1536,
+      "height": 1024,
+      "sourceProduction": "bath-magic-20261002-r17"
+    },
+    "scene-04a": {
+      "path": "baseline/web/scene-04a.webp",
+      "sha256": "8a95a24193265171d5d90a21f675427afa0b7003aa91354f87aa278bfa5c206b",
+      "bytes": 576888,
+      "mtimeNs": 1790913424008038901,
+      "width": 1536,
+      "height": 1024,
+      "sourceProduction": "bath-magic-20261002-r17"
+    },
+    "scene-04b": {
+      "path": "baseline/web/scene-04b.webp",
+      "sha256": "f945f4802de940f91dc6a78a2a5e7bc5d8e7b3239e3fdb3a883f56c73ebd7b3d",
+      "bytes": 533046,
+      "mtimeNs": 1790910611071728917,
+      "width": 1536,
+      "height": 1024,
+      "sourceProduction": "bath-magic-20261002-r17"
+    },
+    "scene-04c": {
+      "path": "baseline/web/scene-04c.webp",
+      "sha256": "d1f5a3ffc1db332f23565e02ef071dac55b1585d9c9bb1b4f406be3b6646a4ed",
+      "bytes": 544016,
+      "mtimeNs": 1790910611855900076,
+      "width": 1536,
+      "height": 1024,
+      "sourceProduction": "bath-magic-20261002-r17"
+    },
+    "scene-04d": {
+      "path": "baseline/web/scene-04d.webp",
+      "sha256": "24b2ef07f621278bbb103328b5064936ddf6dd885f406b6b198b5fbe2a228c2e",
+      "bytes": 641680,
+      "mtimeNs": 1790910404266612002,
+      "width": 1536,
+      "height": 1024,
+      "sourceProduction": "bath-magic-20261002-r17"
+    },
+    "scene-05": {
+      "path": "baseline/web/scene-05.webp",
+      "sha256": "101d4fbfd88c918dc6787f7789d37983b27964dc2772c3a092ebef94b7b8bba1",
+      "bytes": 663462,
+      "mtimeNs": 1790910612701833994,
+      "width": 1536,
+      "height": 1024,
+      "sourceProduction": "bath-magic-20261002-r17"
+    },
+    "scene-05a": {
+      "path": "baseline/web/scene-05a.webp",
+      "sha256": "0b12d9278c35dcf80bae97c457e25cf1a75abf6ab544e89a5b48d7c6f7a92070",
+      "bytes": 484582,
+      "mtimeNs": 1790913424676100803,
+      "width": 1536,
+      "height": 1024,
+      "sourceProduction": "bath-magic-20261002-r17"
+    },
+    "scene-05b": {
+      "path": "baseline/web/scene-05b.webp",
+      "sha256": "923158e5aa723181de0f0aa4291cf718b0280cfeb66a3859d5f26ddb1219f762",
+      "bytes": 669914,
+      "mtimeNs": 1790910807985856501,
+      "width": 1536,
+      "height": 1024,
+      "sourceProduction": "bath-magic-20261002-r17"
+    },
+    "scene-05c": {
+      "path": "baseline/web/scene-05c.webp",
+      "sha256": "ddde9556ceb81c61cd54b97ba04812edc043d6018389735c680a282acdf50fdc",
+      "bytes": 642050,
+      "mtimeNs": 1790910808778132166,
+      "width": 1536,
+      "height": 1024,
+      "sourceProduction": "bath-magic-20261002-r17"
+    },
+    "scene-05d": {
+      "path": "baseline/web/scene-05d.webp",
+      "sha256": "08749a8c77532de41f362eb3aa889539760e3107f09b49913d56f1e2226e854c",
+      "bytes": 573764,
+      "mtimeNs": 1790913425364146438,
+      "width": 1536,
+      "height": 1024,
+      "sourceProduction": "bath-magic-20261002-r17"
+    },
+    "scene-05e": {
+      "path": "baseline/web/scene-05e.webp",
+      "sha256": "e0e3b89794118edcecc02dae1a16703fc43752aeb6f71c95d1de5d62069336db",
+      "bytes": 522810,
+      "mtimeNs": 1790913422485239591,
+      "width": 1536,
+      "height": 1024,
+      "sourceProduction": "bath-magic-20261002-r17"
+    },
+    "scene-05f": {
+      "path": "baseline/web/scene-05f.webp",
+      "sha256": "24250104ae19c60dfcf7278a3f15f696b1f7fbf5447c67bcd959f298017749fe",
+      "bytes": 498636,
+      "mtimeNs": 1790913981371777392,
+      "width": 1536,
+      "height": 1024,
+      "sourceProduction": "bath-magic-20261002-r17"
+    },
+    "scene-05g": {
+      "path": "baseline/web/scene-05g.webp",
+      "sha256": "7f2f12d91f324f90c519b6270807eca592912a6b3d9e45dbc04705c33f950607",
+      "bytes": 562974,
+      "mtimeNs": 1790913740701680522,
+      "width": 1536,
+      "height": 1024,
+      "sourceProduction": "bath-magic-20261002-r17"
+    },
+    "scene-06": {
+      "path": "baseline/web/scene-06.webp",
+      "sha256": "3c49dea690f22fe5723c6ac503eecb9323b56f494edb066535900cbcfb567225",
+      "bytes": 402694,
+      "mtimeNs": 1790830485784463810,
+      "width": 1536,
+      "height": 1024,
+      "sourceProduction": "bath-magic-20261002-r17"
+    },
+    "scene-07": {
+      "path": "baseline/web/scene-07.webp",
+      "sha256": "8771dba2049835f9dc9492a5025454e251dbba06785d2706895ce8b61457f89d",
+      "bytes": 337424,
+      "mtimeNs": 1790868798886657187,
+      "width": 1536,
+      "height": 1024,
+      "sourceProduction": "bath-magic-20261002-r17"
+    },
+    "scene-08": {
+      "path": "baseline/web/scene-08.webp",
+      "sha256": "93997856d26c416df0ad26ce3c1284ab7427bc945f6a09e148cbbf5dbd41ca97",
+      "bytes": 417752,
+      "mtimeNs": 1790837572843892662,
+      "width": 1536,
+      "height": 1024,
+      "sourceProduction": "bath-magic-20261002-r17"
+    },
+    "scene-09": {
+      "path": "baseline/web/scene-09.webp",
+      "sha256": "7990a7c79714610071e459be26d9c6f1aafe8040bb7638540c89e88aa8f8ff93",
+      "bytes": 365366,
+      "mtimeNs": 1790884486038648145,
+      "width": 1536,
+      "height": 1024,
+      "sourceProduction": "bath-magic-20261002-r17"
+    },
+    "scene-10": {
+      "path": "baseline/web/scene-10.webp",
+      "sha256": "dbcf9af5f65bcf406428a33bb865372b6e59ebb34151fdafe12e72264d1b6b16",
+      "bytes": 346568,
+      "mtimeNs": 1790834618914710321,
+      "width": 1536,
+      "height": 1024,
+      "sourceProduction": "bath-magic-20261002-r17"
+    },
+    "scene-11": {
+      "path": "baseline/web/scene-11.webp",
+      "sha256": "fb1fbe460c7531d79b983bfb961c51bdcc953f85d1a1154e2e66b68e54a69473",
+      "bytes": 412550,
+      "mtimeNs": 1790868898427891145,
+      "width": 1536,
+      "height": 1024,
+      "sourceProduction": "bath-magic-20261002-r17"
+    },
+    "scene-12": {
+      "path": "baseline/web/scene-12.webp",
+      "sha256": "af4f422aea4d6a74c304f85e85d1af4ff6a2adf5f6e9cb4d647b4f0e542fe5df",
+      "bytes": 392356,
+      "mtimeNs": 1790868899917499416,
+      "width": 1536,
+      "height": 1024,
+      "sourceProduction": "bath-magic-20261002-r17"
+    },
+    "scene-13": {
+      "path": "baseline/web/scene-13.webp",
+      "sha256": "015345deaeeae903099bc7c95ce03a7f97d2c37ac459dcde7452bd9d561668b9",
+      "bytes": 369128,
+      "mtimeNs": 1790869014995181114,
+      "width": 1536,
+      "height": 1024,
+      "sourceProduction": "bath-magic-20261002-r17"
+    },
+    "scene-14": {
+      "path": "baseline/web/scene-14.webp",
+      "sha256": "fd9fad80648244611cd8aab3bb24c39f244819cfea1afff66e5bb30a48401e86",
+      "bytes": 352556,
+      "mtimeNs": 1790834620982130640,
+      "width": 1536,
+      "height": 1024,
+      "sourceProduction": "bath-magic-20261002-r17"
+    },
+    "scene-15": {
+      "path": "baseline/web/scene-15.webp",
+      "sha256": "43e77793ecb4746543650fd5ee14c11e987e0df36781737e78332b6a8195f155",
+      "bytes": 371148,
+      "mtimeNs": 1790837574557599759,
+      "width": 1536,
+      "height": 1024,
+      "sourceProduction": "bath-magic-20261002-r17"
+    },
+    "scene-16": {
+      "path": "baseline/web/scene-16.webp",
+      "sha256": "5e17df370bd4e685fd887c21b316d861b960e96b00fcc3aaf16ac8162de868c4",
+      "bytes": 483726,
+      "mtimeNs": 1790869016773866164,
+      "width": 1536,
+      "height": 1024,
+      "sourceProduction": "bath-magic-20261002-r17"
+    },
+    "scene-17": {
+      "path": "baseline/web/scene-17.webp",
+      "sha256": "0074c93f7b6c385b2d041c315d7fcfd733d434ab0d9b60fea96111529df3d6f9",
+      "bytes": 392190,
+      "mtimeNs": 1790869363412831007,
+      "width": 1536,
+      "height": 1024,
+      "sourceProduction": "bath-magic-20261002-r17"
+    },
+    "scene-18": {
+      "path": "baseline/web/scene-18.webp",
+      "sha256": "edca38715e04dacc5ec79df3a9550951398d058112d0e1561c063faed2b3c53a",
+      "bytes": 367712,
+      "mtimeNs": 1790869364902014940,
+      "width": 1536,
+      "height": 1024,
+      "sourceProduction": "bath-magic-20261002-r17"
+    },
+    "scene-19": {
+      "path": "baseline/web/scene-19.webp",
+      "sha256": "9e342a9cce145ea58333b2287da84b9f5fc72fb9c85aca985ed852e41bc2b134",
+      "bytes": 341486,
+      "mtimeNs": 1790869366303498634,
+      "width": 1536,
+      "height": 1024,
+      "sourceProduction": "bath-magic-20261002-r17"
+    },
+    "scene-19a": {
+      "path": "baseline/web/scene-19a.webp",
+      "sha256": "34eecc05dd546906c99d9a8c656225e4f0b65c1b606c922b577398777f0aa946",
+      "bytes": 434222,
+      "mtimeNs": 1790885105471183275,
+      "width": 1536,
+      "height": 1024,
+      "sourceProduction": "bath-magic-20261002-r17"
+    },
+    "scene-19b": {
+      "path": "baseline/web/scene-19b.webp",
+      "sha256": "c7d01f7b509858f60cce5a930b1e35a93809578a862d7d6695b04b31957406bf",
+      "bytes": 480466,
+      "mtimeNs": 1790885447949620912,
+      "width": 1536,
+      "height": 1024,
+      "sourceProduction": "bath-magic-20261002-r17"
+    },
+    "scene-20": {
+      "path": "baseline/web/scene-20.webp",
+      "sha256": "bc84648b4a3f2fe6fb8eb5e41c514fd1070cc18d56f93f86f16ec7dd43869ee8",
+      "bytes": 506172,
+      "mtimeNs": 1790869367725220110,
+      "width": 1536,
+      "height": 1024,
+      "sourceProduction": "bath-magic-20261002-r17"
+    },
+    "scene-21": {
+      "path": "baseline/web/scene-21.webp",
+      "sha256": "e3ca716a99194dee05b0cd2c27940acc73ff5a9e44d2c3106bb971aa97f9d568",
+      "bytes": 471188,
+      "mtimeNs": 1790869525470459165,
+      "width": 1536,
+      "height": 1024,
+      "sourceProduction": "bath-magic-20261002-r17"
+    },
+    "scene-22": {
+      "path": "baseline/web/scene-22.webp",
+      "sha256": "7722f2d77144a61da85c97769c8659b69243439671a1151d9677e0b5a9a42dbb",
+      "bytes": 451960,
+      "mtimeNs": 1790869526891420587,
+      "width": 1536,
+      "height": 1024,
+      "sourceProduction": "bath-magic-20261002-r17"
+    },
+    "scene-23": {
+      "path": "baseline/web/scene-23.webp",
+      "sha256": "2929cd88ecd90f099c5373a60a58476e6e1b80078f62cf4ab06b0d697fb85bc9",
+      "bytes": 448274,
+      "mtimeNs": 1790869655241565669,
+      "width": 1536,
+      "height": 1024,
+      "sourceProduction": "bath-magic-20261002-r17"
+    },
+    "scene-24": {
+      "path": "baseline/web/scene-24.webp",
+      "sha256": "0eae0e1efad658a1321d215aa6ce8dbfcc39d76e08bd327e7044add4bb196ffc",
+      "bytes": 512030,
+      "mtimeNs": 1790869656733647151,
+      "width": 1536,
+      "height": 1024,
+      "sourceProduction": "bath-magic-20261002-r17"
+    },
+    "scene-25": {
+      "path": "baseline/web/scene-25.webp",
+      "sha256": "8882eb666f19d514bc673320922550ca0a774593e1ad14f63092485d386a57ca",
+      "bytes": 429260,
+      "mtimeNs": 1790837684286406714,
+      "width": 1536,
+      "height": 1024,
+      "sourceProduction": "bath-magic-20261002-r17"
+    },
+    "scene-26": {
+      "path": "baseline/web/scene-26.webp",
+      "sha256": "d6952d9421656ddc81f92e0dfd2d4d4d97fe8d0e517a492e161b93fa19c6f581",
+      "bytes": 492010,
+      "mtimeNs": 1790869789721612943,
+      "width": 1536,
+      "height": 1024,
+      "sourceProduction": "bath-magic-20261002-r17"
+    },
+    "scene-27": {
+      "path": "baseline/web/scene-27.webp",
+      "sha256": "7b5b8e5ead9c86de5e477841457dbd77bc5e1741e3d80e8419006c870fb8ed71",
+      "bytes": 489458,
+      "mtimeNs": 1790869791282294398,
+      "width": 1536,
+      "height": 1024,
+      "sourceProduction": "bath-magic-20261002-r17"
+    },
+    "scene-28": {
+      "path": "baseline/web/scene-28.webp",
+      "sha256": "ec06bd8246ba1b6fe1f1c8508b0843d04d33d4d80059af7b25f13631b10947b7",
+      "bytes": 489152,
+      "mtimeNs": 1790869880479010537,
+      "width": 1536,
+      "height": 1024,
+      "sourceProduction": "bath-magic-20261002-r17"
+    },
+    "scene-29": {
+      "path": "baseline/web/scene-29.webp",
+      "sha256": "d3573d35a51a883c7719772d1d3bf639c1faa61f7e8e7a65afc8d42fe92be2b8",
+      "bytes": 443850,
+      "mtimeNs": 1790837571517766928,
+      "width": 1536,
+      "height": 1024,
+      "sourceProduction": "bath-magic-20261002-r17"
+    },
+    "scene-30": {
+      "path": "baseline/web/scene-30.webp",
+      "sha256": "8c95d6f30e746a3df82f2ab069b3ebae267321aaf82af9e22c9e120c0cd1b90b",
+      "bytes": 410854,
+      "mtimeNs": 1790874991758367782,
+      "width": 1536,
+      "height": 1024,
+      "sourceProduction": "bath-magic-20261002-r17"
+    },
+    "scene-30a": {
+      "path": "baseline/web/scene-30a.webp",
+      "sha256": "3001db314e025d49312c5ed1457531b39f10987e94c1f5d24ac6864abd322135",
+      "bytes": 471978,
+      "mtimeNs": 1790913651333755114,
+      "width": 1536,
+      "height": 1024,
+      "sourceProduction": "bath-magic-20261002-r17"
+    },
+    "scene-30b": {
+      "path": "baseline/web/scene-30b.webp",
+      "sha256": "3fd487d8f4673606b4681fcd72a1267ca002a7ddce518e1eaa7d45e82ae4e687",
+      "bytes": 418322,
+      "mtimeNs": 1790913815802271913,
+      "width": 1536,
+      "height": 1024,
+      "sourceProduction": "bath-magic-20261002-r17"
+    },
+    "scene-30c": {
+      "path": "baseline/web/scene-30c.webp",
+      "sha256": "dab36eaa6bcefbaaf1c444258f1ad0048151896e80b2e86a377eb0d0f0be62a9",
+      "bytes": 443610,
+      "mtimeNs": 1790914283132851017,
+      "width": 1536,
+      "height": 1024,
+      "sourceProduction": "bath-magic-20261002-r17"
+    },
+    "scene-30d": {
+      "path": "baseline/web/scene-30d.webp",
+      "sha256": "6037c605a14318d4f36528a29db26dd9de709c111bc8db0d491fcbabbf34945d",
+      "bytes": 380078,
+      "mtimeNs": 1790914283756026343,
+      "width": 1536,
+      "height": 1024,
+      "sourceProduction": "bath-magic-20261002-r17"
+    },
+    "scene-31": {
+      "path": "baseline/web/scene-31.webp",
+      "sha256": "a1e0f024faa711cbd735a5ce85ba2a7496a12994e2631c6e03558927cc55d715",
+      "bytes": 538280,
+      "mtimeNs": 1790869072451586737,
+      "width": 1536,
+      "height": 1024,
+      "sourceProduction": "bath-magic-20261002-r17"
+    },
+    "scene-32": {
+      "path": "baseline/web/scene-32.webp",
+      "sha256": "41d0d399970ad6af0c4e4e9ee0242fc348123510e79d4b71067fbc1878b9a949",
+      "bytes": 454594,
+      "mtimeNs": 1790870361095767804,
+      "width": 1536,
+      "height": 1024,
+      "sourceProduction": "bath-magic-20261002-r17"
+    },
+    "scene-32a": {
+      "path": "baseline/web/scene-32a.webp",
+      "sha256": "3bd118cb417cd8104c5dd45328def9a6c6088b7ff8eec3f78f455caa547b59fd",
+      "bytes": 562640,
+      "mtimeNs": 1790913741389937949,
+      "width": 1536,
+      "height": 1024,
+      "sourceProduction": "bath-magic-20261002-r17"
+    },
+    "scene-32c": {
+      "path": "baseline/web/scene-32c.webp",
+      "sha256": "ba7a145d717fda98a3bc409b964add05b5dca4bac6704b2ff3676054ced73caf",
+      "bytes": 587500,
+      "mtimeNs": 1790913423183549354,
+      "width": 1536,
+      "height": 1024,
+      "sourceProduction": "bath-magic-20261002-r17"
+    },
+    "scene-32d": {
+      "path": "baseline/web/scene-32d.webp",
+      "sha256": "55df79885d4605b21935fd73f9c30822195eb1e4d5b1c2d42a6e981cd696bfbf",
+      "bytes": 585458,
+      "mtimeNs": 1790913982792596291,
+      "width": 1536,
+      "height": 1024,
+      "sourceProduction": "bath-magic-20261002-r17"
+    },
+    "scene-32e": {
+      "path": "baseline/web/scene-32e.webp",
+      "sha256": "7113adce5b475f5682746548774e7e15a4b99c7d12372b19bef05b4bee90db09",
+      "bytes": 559574,
+      "mtimeNs": 1790913983485811538,
+      "width": 1536,
+      "height": 1024,
+      "sourceProduction": "bath-magic-20261002-r17"
+    },
+    "scene-32f": {
+      "path": "baseline/web/scene-32f.webp",
+      "sha256": "06e412e782cadd2c2a2a80b45b93cd372161a1852d4366dd19c306756610ea2d",
+      "bytes": 549888,
+      "mtimeNs": 1790914192965550350,
+      "width": 1536,
+      "height": 1024,
+      "sourceProduction": "bath-magic-20261002-r17"
+    },
+    "scene-32g": {
+      "path": "baseline/web/scene-32g.webp",
+      "sha256": "bd7afde59142a3088ac3c1e8cb4dfcc1c137c396d59d5727d534baa985da815b",
+      "bytes": 536520,
+      "mtimeNs": 1790914386488411650,
+      "width": 1536,
+      "height": 1024,
+      "sourceProduction": "bath-magic-20261002-r17"
+    },
+    "scene-32h": {
+      "path": "baseline/web/scene-32h.webp",
+      "sha256": "7abb1583e33a7349da16ee35d840ac548f99db106a5d47a8f0c6a887db362d10",
+      "bytes": 597468,
+      "mtimeNs": 1790914193680534352,
+      "width": 1536,
+      "height": 1024,
+      "sourceProduction": "bath-magic-20261002-r17"
+    },
+    "scene-32i": {
+      "path": "baseline/web/scene-32i.webp",
+      "sha256": "314e87b3b292b135f10083f713288463fae1ca131902e56958badcee644ed463",
+      "bytes": 592670,
+      "mtimeNs": 1790914387208573072,
+      "width": 1536,
+      "height": 1024,
+      "sourceProduction": "bath-magic-20261002-r17"
+    },
+    "scene-32j": {
+      "path": "baseline/web/scene-32j.webp",
+      "sha256": "9c1fbb48544abc2457238edd851082b109b6e3011b5708a0e987efc9471e9f38",
+      "bytes": 561612,
+      "mtimeNs": 1790914784052368291,
+      "width": 1536,
+      "height": 1024,
+      "sourceProduction": "bath-magic-20261002-r17"
+    },
+    "scene-33": {
+      "path": "baseline/web/scene-33.webp",
+      "sha256": "2770aba4f75111ca998ec365964ca81f91c84c82fe119262e3c58b0178116c49",
+      "bytes": 502220,
+      "mtimeNs": 1790870146775969559,
+      "width": 1536,
+      "height": 1024,
+      "sourceProduction": "bath-magic-20261002-r17"
+    },
+    "scene-34": {
+      "path": "baseline/web/scene-34.webp",
+      "sha256": "7942d4bf74b70ae9ca72f5067d28e4bc553bb7abe14b8e1a002cadea668fd5a3",
+      "bytes": 481962,
+      "mtimeNs": 1790870148194543904,
+      "width": 1536,
+      "height": 1024,
+      "sourceProduction": "bath-magic-20261002-r17"
+    },
+    "scene-35": {
+      "path": "baseline/web/scene-35.webp",
+      "sha256": "c238a7025feb134dbb72a2ee41220fa4af7ca58b2eac4c704d2a0e7caa73170c",
+      "bytes": 430920,
+      "mtimeNs": 1790870149663300373,
+      "width": 1536,
+      "height": 1024,
+      "sourceProduction": "bath-magic-20261002-r17"
+    },
+    "scene-36": {
+      "path": "baseline/web/scene-36.webp",
+      "sha256": "3514dd69f82191d94de6b4602cca2535b4a14af538b9dbd28791d12d0b092068",
+      "bytes": 451164,
+      "mtimeNs": 1790870362469497299,
+      "width": 1536,
+      "height": 1024,
+      "sourceProduction": "bath-magic-20261002-r17"
+    },
+    "scene-37": {
+      "path": "baseline/web/scene-37.webp",
+      "sha256": "57f091e729f7f4bb89f7373cae52f6a512818e337d23032dc6dcec532b57fd3d",
+      "bytes": 399032,
+      "mtimeNs": 1790870363822513276,
+      "width": 1536,
+      "height": 1024,
+      "sourceProduction": "bath-magic-20261002-r17"
+    },
+    "scene-38": {
+      "path": "baseline/web/scene-38.webp",
+      "sha256": "915aeebf74a532b8914d39ff3727b6343cdec368e6a169fc04f22db7e3ea1631",
+      "bytes": 547852,
+      "mtimeNs": 1790870152237017533,
+      "width": 1536,
+      "height": 1024,
+      "sourceProduction": "bath-magic-20261002-r17"
+    },
+    "scene-39": {
+      "path": "baseline/web/scene-39.webp",
+      "sha256": "d308c776fde9aa87a728e241ea26f3f0d902d828f837f38cf5889fdbfefb0207",
+      "bytes": 441908,
+      "mtimeNs": 1790870984752339171,
+      "width": 1536,
+      "height": 1024,
+      "sourceProduction": "bath-magic-20261002-r17"
+    },
+    "scene-40": {
+      "path": "baseline/web/scene-40.webp",
+      "sha256": "c30f67ab9eefb312bee6b7b910a413ecb3b883fd84c7864cb82ab7cfa97b090a",
+      "bytes": 402866,
+      "mtimeNs": 1790875517356067278,
+      "width": 1536,
+      "height": 1024,
+      "sourceProduction": "bath-magic-20261002-r17"
+    },
+    "scene-41": {
+      "path": "baseline/web/scene-41.webp",
+      "sha256": "7dc7e270afd7d2cd9b1d9d083a295bfcb95cc713ebf873b53f85e500b2a0d36e",
+      "bytes": 397720,
+      "mtimeNs": 1790875517976810044,
+      "width": 1536,
+      "height": 1024,
+      "sourceProduction": "bath-magic-20261002-r17"
+    },
+    "scene-42": {
+      "path": "baseline/web/scene-42.webp",
+      "sha256": "52a09c47266decfb7d16619a8428973a9d9168dc0f63875913e8d5ffec30a502",
+      "bytes": 472604,
+      "mtimeNs": 1790875892076083946,
+      "width": 1536,
+      "height": 1024,
+      "sourceProduction": "bath-magic-20261002-r17"
+    },
+    "scene-43": {
+      "path": "baseline/web/scene-43.webp",
+      "sha256": "c642cd7aa76da506e304569c58803b783076ff0b7199aab87a8613b8d1f3c05c",
+      "bytes": 391598,
+      "mtimeNs": 1790870992156695935,
+      "width": 1536,
+      "height": 1024,
+      "sourceProduction": "bath-magic-20261002-r17"
+    },
+    "scene-44": {
+      "path": "baseline/web/scene-44.webp",
+      "sha256": "b9e1ff59b6d3278a9980a444473df74b2fe70112cb491fd573b2444322ee3b8d",
+      "bytes": 374124,
+      "mtimeNs": 1790875892733904213,
+      "width": 1536,
+      "height": 1024,
+      "sourceProduction": "bath-magic-20261002-r17"
+    },
+    "scene-45": {
+      "path": "baseline/web/scene-45.webp",
+      "sha256": "1406524b54cfdbbfe0405d4a9cf831cf80536272d1ec028d8b90d744402c601f",
+      "bytes": 433600,
+      "mtimeNs": 1790871691732201538,
+      "width": 1536,
+      "height": 1024,
+      "sourceProduction": "bath-magic-20261002-r17"
+    },
+    "scene-46": {
+      "path": "baseline/web/scene-46.webp",
+      "sha256": "be1793d76a03ea33f81f7ad6c266183d88ad9cb17ee7d5d4feeada3952fd9365",
+      "bytes": 431572,
+      "mtimeNs": 1790871692174287230,
+      "width": 1536,
+      "height": 1024,
+      "sourceProduction": "bath-magic-20261002-r17"
+    },
+    "scene-47": {
+      "path": "baseline/web/scene-47.webp",
+      "sha256": "2f026b5d0bc7a7ff9f6cc060ab3e0cf5e51659b946cf3609e970de41f76851ff",
+      "bytes": 487526,
+      "mtimeNs": 1790913650708320439,
+      "width": 1536,
+      "height": 1024,
+      "sourceProduction": "bath-magic-20261002-r17"
+    },
+    "scene-48": {
+      "path": "baseline/web/scene-48.webp",
+      "sha256": "270bef636b34580d908bbfd2da31abdb409cb8d31f7ddea2be6b5db7d021be33",
+      "bytes": 313996,
+      "mtimeNs": 1790871692953106918,
+      "width": 1536,
+      "height": 1024,
+      "sourceProduction": "bath-magic-20261002-r17"
+    },
+    "scene-48a": {
+      "path": "baseline/web/scene-48a.webp",
+      "sha256": "229b3742ae33b23f8c20bde3917a77b10fe5eac7d245dc2ff9173493f8151443",
+      "bytes": 411070,
+      "mtimeNs": 1790885105829849944,
+      "width": 1536,
+      "height": 1024,
+      "sourceProduction": "bath-magic-20261002-r17"
+    },
+    "scene-49": {
+      "path": "baseline/web/scene-49.webp",
+      "sha256": "22d8dc7444da53f218697453b8ad31a7c176b001085441aee12b62252c9f9e35",
+      "bytes": 433730,
+      "mtimeNs": 1790871693344441379,
+      "width": 1536,
+      "height": 1024,
+      "sourceProduction": "bath-magic-20261002-r17"
+    },
+    "scene-52": {
+      "path": "baseline/web/scene-52.webp",
+      "sha256": "36273acd6f5d5ab5bd1e24368711801a5b8b98d65275ec148e55b74145699e45",
+      "bytes": 448914,
+      "mtimeNs": 1790876147361707868,
+      "width": 1536,
+      "height": 1024,
+      "sourceProduction": "bath-magic-20261002-r17"
+    },
+    "scene-53": {
+      "path": "baseline/web/scene-53.webp",
+      "sha256": "2f4e485bd0e0ab29ca8f8838e47f15efd0bfc84fee79dd71dded51b619f4c854",
+      "bytes": 475774,
+      "mtimeNs": 1790876148004512177,
+      "width": 1536,
+      "height": 1024,
+      "sourceProduction": "bath-magic-20261002-r17"
+    },
+    "scene-54": {
+      "path": "baseline/web/scene-54.webp",
+      "sha256": "c30f67ab9eefb312bee6b7b910a413ecb3b883fd84c7864cb82ab7cfa97b090a",
+      "bytes": 402866,
+      "mtimeNs": 1790875517356067278,
+      "width": 1536,
+      "height": 1024,
+      "sourceProduction": "bath-magic-20261002-r17"
+    },
+    "scene-54a": {
+      "path": "baseline/web/scene-54a.webp",
+      "sha256": "995ae474e38cdb78503ba1b8b06980ba30873fe9ad6a795c0aa9314f3c0a5098",
+      "bytes": 402998,
+      "mtimeNs": 1790885106193173841,
+      "width": 1536,
+      "height": 1024,
+      "sourceProduction": "bath-magic-20261002-r17"
+    },
+    "scene-55": {
+      "path": "baseline/web/scene-55.webp",
+      "sha256": "1ed7c69c4158f3d3154946257ab3196e4b2ca5b25223d52ee0a17826ba22fb83",
+      "bytes": 412230,
+      "mtimeNs": 1790903629637221806,
+      "width": 1536,
+      "height": 1024,
+      "sourceProduction": "bath-magic-20261002-r17"
+    },
+    "scene-55a": {
+      "path": "baseline/web/scene-55a.webp",
+      "sha256": "b890dc0f9e540d9b3dd5a2675a77275e5c6cd0c38def4c7829c5de3b4e0010b2",
+      "bytes": 426196,
+      "mtimeNs": 1790903563009111905,
+      "width": 1536,
+      "height": 1024,
+      "sourceProduction": "bath-magic-20261002-r17"
+    },
+    "scene-55b": {
+      "path": "baseline/web/scene-55b.webp",
+      "sha256": "2c318d1be01da20ececfe37283c521ff49570e792291e589185f2d0de96368e0",
+      "bytes": 302024,
+      "mtimeNs": 1790885448680809733,
+      "width": 1536,
+      "height": 1024,
+      "sourceProduction": "bath-magic-20261002-r17"
+    },
+    "scene-55c": {
+      "path": "baseline/web/scene-55c.webp",
+      "sha256": "7fea19c7699bf9360fd4024d8f41d2fecd0c7ce01dc3fda2d0b1175c44136070",
+      "bytes": 402364,
+      "mtimeNs": 1790903273276974716,
+      "width": 1536,
+      "height": 1024,
+      "sourceProduction": "bath-magic-20261002-r17"
+    },
+    "scene-57": {
+      "path": "baseline/web/scene-57.webp",
+      "sha256": "cbc78b79f40cacb4a40ce66c146d455bb4a19072ca52d13f204552daea19128b",
+      "bytes": 423790,
+      "mtimeNs": 1790884598406966476,
+      "width": 1536,
+      "height": 1024,
+      "sourceProduction": "bath-magic-20261002-r17"
+    },
+    "scene-58": {
+      "path": "baseline/web/scene-58.webp",
+      "sha256": "57583460c010db42ad3dce249f222447504db83fa1f91274d395f14553ef6f74",
+      "bytes": 292692,
+      "mtimeNs": 1790875521791141476,
+      "width": 1536,
+      "height": 1024,
+      "sourceProduction": "bath-magic-20261002-r17"
+    },
+    "scene-59": {
+      "path": "baseline/web/scene-59.webp",
+      "sha256": "592555650cedeefbe159ebc1947a7d1fcf3a53ec064ebc0a5a669c14b943d5df",
+      "bytes": 333770,
+      "mtimeNs": 1790875522401532909,
+      "width": 1536,
+      "height": 1024,
+      "sourceProduction": "bath-magic-20261002-r17"
+    },
+    "scene-60": {
+      "path": "baseline/web/scene-60.webp",
+      "sha256": "e92c8cfda7c297c0c172e971328c98c920e6c0dbef1536b886f01a575a9fe465",
+      "bytes": 319778,
+      "mtimeNs": 1790875670056421127,
+      "width": 1536,
+      "height": 1024,
+      "sourceProduction": "bath-magic-20261002-r17"
+    },
+    "scene-61": {
+      "path": "baseline/web/scene-61.webp",
+      "sha256": "d20b81ce414b1ab2c5c4e4705b1259d856928a1c70c356b443b57421b63060a0",
+      "bytes": 383562,
+      "mtimeNs": 1790884764925562670,
+      "width": 1536,
+      "height": 1024,
+      "sourceProduction": "bath-magic-20261002-r17"
+    },
+    "scene-62": {
+      "path": "baseline/web/scene-62.webp",
+      "sha256": "6037974706fffe5c179d41fdd6519141e50a9511e3159e2b8a758a684ad281d8",
+      "bytes": 386116,
+      "mtimeNs": 1790885449446107374,
+      "width": 1536,
+      "height": 1024,
+      "sourceProduction": "bath-magic-20261002-r17"
+    },
+    "scene-62a": {
+      "path": "baseline/web/scene-62a.webp",
+      "sha256": "8c73d68428cfe2a55bf188b535609cca50dfc39421a71e871327c8c318d981a6",
+      "bytes": 277990,
+      "mtimeNs": 1790885822019108949,
+      "width": 1536,
+      "height": 1024,
+      "sourceProduction": "bath-magic-20261002-r17"
+    },
+    "scene-62b": {
+      "path": "baseline/web/scene-62b.webp",
+      "sha256": "564a270ce63a7f6870edefa22b099153b8bd2dd401563085c353529c6717c0de",
+      "bytes": 390638,
+      "mtimeNs": 1790885639789670524,
+      "width": 1536,
+      "height": 1024,
+      "sourceProduction": "bath-magic-20261002-r17"
+    },
+    "scene-63": {
+      "path": "baseline/web/scene-63.webp",
+      "sha256": "9b715bac2c941fff8fabf6e33da6bb797b072af6941faec00561050d82c096c5",
+      "bytes": 413380,
+      "mtimeNs": 1790901195511137977,
+      "width": 1536,
+      "height": 1024,
+      "sourceProduction": "bath-magic-20261002-r17"
+    },
+    "scene-62c": {
+      "path": "baseline/web/scene-62c.webp",
+      "sha256": "8299ed6b1af749328c8bcbd933f2ec1dbf2b6db9fc18a0a0ec1765f7f7dac63b",
+      "bytes": 434674,
+      "mtimeNs": 1790885640183615538,
+      "width": 1536,
+      "height": 1024,
+      "sourceProduction": "bath-magic-20261002-r17"
+    },
+    "scene-64": {
+      "path": "baseline/web/scene-64.webp",
+      "sha256": "7c30e9aa595e3d205cad1e5fd6155d247a0f6389a420843671760a9bee8b6549",
+      "bytes": 477638,
+      "mtimeNs": 1790876021029835274,
+      "width": 1536,
+      "height": 1024,
+      "sourceProduction": "bath-magic-20261002-r17"
+    },
+    "scene-65": {
+      "path": "baseline/web/scene-65.webp",
+      "sha256": "87559bd94fc21df2324055720fb5840e15d31f8e31d992a005a287e5fe598036",
+      "bytes": 416864,
+      "mtimeNs": 1790884945855500539,
+      "width": 1536,
+      "height": 1024,
+      "sourceProduction": "bath-magic-20261002-r17"
+    },
+    "scene-66": {
+      "path": "baseline/web/scene-66.webp",
+      "sha256": "8b2d950c015aabb8efdb76527a9f07221346f23f379f9a124b92e7cd0cdc41f2",
+      "bytes": 330970,
+      "mtimeNs": 1790876021805966711,
+      "width": 1536,
+      "height": 1024,
+      "sourceProduction": "bath-magic-20261002-r17"
+    },
+    "scene-67": {
+      "path": "baseline/web/scene-67.webp",
+      "sha256": "f91ff8992414a534b1e9f3b2e5a96e220e6152f04a006d7a102e66f8449fe07f",
+      "bytes": 415462,
+      "mtimeNs": 1790885134890728713,
+      "width": 1536,
+      "height": 1024,
+      "sourceProduction": "bath-magic-20261002-r17"
+    },
+    "scene-68": {
+      "path": "baseline/web/scene-68.webp",
+      "sha256": "f687ba52f813808e4f2f7e7aa541eb80aaaefea7aab2fe70c4507d437fdfbf14",
+      "bytes": 366020,
+      "mtimeNs": 1790886097136024313,
+      "width": 1536,
+      "height": 1024,
+      "sourceProduction": "bath-magic-20261002-r17"
+    },
+    "scene-69": {
+      "path": "baseline/web/scene-69.webp",
+      "sha256": "874f5623acd949731f2032bb14f9f7d065c86ae9fe9406115079ef0c70657148",
+      "bytes": 532224,
+      "mtimeNs": 1790876176451542244,
+      "width": 1536,
+      "height": 1024,
+      "sourceProduction": "bath-magic-20261002-r17"
+    },
+    "scene-70": {
+      "path": "baseline/web/scene-70.webp",
+      "sha256": "f4c1b62820e68f64a02c551d100cbe016d8e1b48a63746c6cd2d505316f2f525",
+      "bytes": 351448,
+      "mtimeNs": 1790876477949325853,
+      "width": 1536,
+      "height": 1024,
+      "sourceProduction": "bath-magic-20261002-r17"
+    },
+    "scene-71": {
+      "path": "baseline/web/scene-71.webp",
+      "sha256": "2bc1844ea3c2f32d46f642bed9557fca8ea605753e78979bcfefe6fa7247fab0",
+      "bytes": 417088,
+      "mtimeNs": 1790884914059394062,
+      "width": 1536,
+      "height": 1024,
+      "sourceProduction": "bath-magic-20261002-r17"
+    },
+    "scene-72": {
+      "path": "baseline/web/scene-72.webp",
+      "sha256": "61a11cce9ea4c5656ecb0f74c11219d4f29e1b785a2794a35987613401f9eda2",
+      "bytes": 427520,
+      "mtimeNs": 1790884914425189925,
+      "width": 1536,
+      "height": 1024,
+      "sourceProduction": "bath-magic-20261002-r17"
+    },
+    "scene-72a": {
+      "path": "baseline/web/scene-72a.webp",
+      "sha256": "293e895feb9a73179078d509f71d630a68b03d1abe469aeaed8e83a898d9f2c8",
+      "bytes": 404660,
+      "mtimeNs": 1790885151545634723,
+      "width": 1536,
+      "height": 1024,
+      "sourceProduction": "bath-magic-20261002-r17"
+    },
+    "scene-73": {
+      "path": "baseline/web/scene-73.webp",
+      "sha256": "03f17d23547a1e614bbd0dcaeb6e5bf46b8de400bea63906b374b801ff23cd4a",
+      "bytes": 500932,
+      "mtimeNs": 1790885151940157731,
+      "width": 1536,
+      "height": 1024,
+      "sourceProduction": "bath-magic-20261002-r17"
+    },
+    "scene-73d": {
+      "path": "baseline/web/scene-73d.webp",
+      "sha256": "90948c095130b472d050acb66c21d17f5781697d82ea49ea6fd9afc1f212a1d2",
+      "bytes": 508848,
+      "mtimeNs": 1790876624422744518,
+      "width": 1536,
+      "height": 1024,
+      "sourceProduction": "bath-magic-20261002-r17"
+    },
+    "scene-73a": {
+      "path": "baseline/web/scene-73a.webp",
+      "sha256": "cd4e6d98bf525233b043302c0e3c589471d0e9482e948d653390d76a0e28768a",
+      "bytes": 460788,
+      "mtimeNs": 1790885501893066354,
+      "width": 1536,
+      "height": 1024,
+      "sourceProduction": "bath-magic-20261002-r17"
+    },
+    "scene-73b": {
+      "path": "baseline/web/scene-73b.webp",
+      "sha256": "05f761807d27b97b1413000cd9cd0fe961d1970b7ffd112e606bdc0ba3b48ed5",
+      "bytes": 406044,
+      "mtimeNs": 1790885326113285481,
+      "width": 1536,
+      "height": 1024,
+      "sourceProduction": "bath-magic-20261002-r17"
+    },
+    "scene-73c": {
+      "path": "baseline/web/scene-73c.webp",
+      "sha256": "2227bb7d2a97ce15574f4a57788b27bef59fde8c17d035a01770d75e0c38afb8",
+      "bytes": 389964,
+      "mtimeNs": 1790885502271539886,
+      "width": 1536,
+      "height": 1024,
+      "sourceProduction": "bath-magic-20261002-r17"
+    },
+    "scene-74": {
+      "path": "baseline/web/scene-74.webp",
+      "sha256": "cc84b2c21549ea201ab9860c812dbb82aea9b12216964370e166ec4d0e595bc0",
+      "bytes": 407810,
+      "mtimeNs": 1790885675205335936,
+      "width": 1536,
+      "height": 1024,
+      "sourceProduction": "bath-magic-20261002-r17"
+    },
+    "scene-75": {
+      "path": "baseline/web/scene-75.webp",
+      "sha256": "d805ae9382d41439f50a042bf019ccb15abe618d2c4570ac30fa8fd9aff61874",
+      "bytes": 406696,
+      "mtimeNs": 1790901845489953437,
+      "width": 1536,
+      "height": 1024,
+      "sourceProduction": "bath-magic-20261002-r17"
+    },
+    "scene-76": {
+      "path": "baseline/web/scene-76.webp",
+      "sha256": "e674273d10c1d4dae0831cb2529b973c220acc5682e9dccb01fbbf59bdf68ae8",
+      "bytes": 391516,
+      "mtimeNs": 1790886150974010833,
+      "width": 1536,
+      "height": 1024,
+      "sourceProduction": "bath-magic-20261002-r17"
+    },
+    "scene-77": {
+      "path": "baseline/web/scene-77.webp",
+      "sha256": "3a3534680fabe9739fdc2b41e2eebcc1db06738fa858bb97d6761bc730a99f12",
+      "bytes": 520256,
+      "mtimeNs": 1790885894126757907,
+      "width": 1536,
+      "height": 1024,
+      "sourceProduction": "bath-magic-20261002-r17"
+    },
+    "scene-78": {
+      "path": "baseline/web/scene-78.webp",
+      "sha256": "181d206151ea7c2d233610d8e1533950c22975f1434c3de103ab981cbb9441a4",
+      "bytes": 527038,
+      "mtimeNs": 1790886295473829184,
+      "width": 1536,
+      "height": 1024,
+      "sourceProduction": "bath-magic-20261002-r17"
+    },
+    "scene-79": {
+      "path": "baseline/web/scene-79.webp",
+      "sha256": "99c7d5020299282c4520e3d5bee194a7797d74e66513d4dab513a9da0fd168b9",
+      "bytes": 535806,
+      "mtimeNs": 1790886369846713339,
+      "width": 1536,
+      "height": 1024,
+      "sourceProduction": "bath-magic-20261002-r17"
+    },
+    "scene-79a": {
+      "path": "baseline/web/scene-79a.webp",
+      "sha256": "26d350a0520fe85279e8e8d60b8613293dbc0acb1480429a4a0d570e92ee94c6",
+      "bytes": 387120,
+      "mtimeNs": 1790886295859493169,
+      "width": 1536,
+      "height": 1024,
+      "sourceProduction": "bath-magic-20261002-r17"
+    },
+    "scene-80": {
+      "path": "baseline/web/scene-80.webp",
+      "sha256": "96cd7ced511189452aa7ad7841941ed2741db7610c13d002ac0e1fc0df4158ea",
+      "bytes": 436124,
+      "mtimeNs": 1790876955327706905,
+      "width": 1536,
+      "height": 1024,
+      "sourceProduction": "bath-magic-20261002-r17"
+    },
+    "scene-81": {
+      "path": "baseline/web/scene-81.webp",
+      "sha256": "98617afe440da74b1eafd3dd7737fc2cb8103640edca528b8cb9ffdc4678a3fd",
+      "bytes": 409562,
+      "mtimeNs": 1790890079742158045,
+      "width": 1536,
+      "height": 1024,
+      "sourceProduction": "bath-magic-20261002-r17"
+    },
+    "scene-83": {
+      "path": "baseline/web/scene-83.webp",
+      "sha256": "282fb7117772c97b1e1bbeb6a8591dc442e7180afa8e707687ef4a10c196c824",
+      "bytes": 532234,
+      "mtimeNs": 1790877147551609532,
+      "width": 1536,
+      "height": 1024,
+      "sourceProduction": "bath-magic-20261002-r17"
+    },
+    "scene-84": {
+      "path": "baseline/web/scene-84.webp",
+      "sha256": "db624ad81ec82a03cac0a199922a2fc415b789b2ae31ad4777810f084b7e0651",
+      "bytes": 467690,
+      "mtimeNs": 1790877332430399545,
+      "width": 1536,
+      "height": 1024,
+      "sourceProduction": "bath-magic-20261002-r17"
+    },
+    "scene-85": {
+      "path": "baseline/web/scene-85.webp",
+      "sha256": "8dd1c23620c2411e6568c1e250adc1fb5495370a6bdda0b4c91ac699e06ede1d",
+      "bytes": 485296,
+      "mtimeNs": 1790877475279586524,
+      "width": 1536,
+      "height": 1024,
+      "sourceProduction": "bath-magic-20261002-r17"
+    },
+    "scene-86": {
+      "path": "baseline/web/scene-86.webp",
+      "sha256": "6f3012d9b232094c71f4bdde8d997579e2c77075c6bc981a4bd3c5cabd6bad82",
+      "bytes": 535158,
+      "mtimeNs": 1790877332949663933,
+      "width": 1536,
+      "height": 1024,
+      "sourceProduction": "bath-magic-20261002-r17"
+    },
+    "scene-87": {
+      "path": "baseline/web/scene-87.webp",
+      "sha256": "a32c2ffc8660daf2d2f2fa96b48d37aaeed84e80f1a88e35398796b15ecc0fa0",
+      "bytes": 398346,
+      "mtimeNs": 1790885380846175621,
+      "width": 1536,
+      "height": 1024,
+      "sourceProduction": "bath-magic-20261002-r17"
+    },
+    "scene-114": {
+      "path": "baseline/web/scene-114.webp",
+      "sha256": "f727c82a67a6a45b7eb1a15b81369e6765a6f52e1d3ed34fe432771f6bfa6531",
+      "bytes": 330416,
+      "mtimeNs": 1790876815802787257,
+      "width": 1536,
+      "height": 1024,
+      "sourceProduction": "bath-magic-20261002-r17"
+    },
+    "scene-115": {
+      "path": "baseline/web/scene-115.webp",
+      "sha256": "0525754b52fbdaeb07e39790f8d5ba05d6f26bdb4972879b5c44adb12c06c02e",
+      "bytes": 433174,
+      "mtimeNs": 1790885381611010682,
+      "width": 1536,
+      "height": 1024,
+      "sourceProduction": "bath-magic-20261002-r17"
+    },
+    "scene-116": {
+      "path": "baseline/web/scene-116.webp",
+      "sha256": "d5119b159c2b0a989686956c7e5884072d86e066f0a009d921dd979ba4c65970",
+      "bytes": 354430,
+      "mtimeNs": 1790885538875845467,
+      "width": 1536,
+      "height": 1024,
+      "sourceProduction": "bath-magic-20261002-r17"
+    },
+    "scene-117": {
+      "path": "baseline/web/scene-117.webp",
+      "sha256": "e6fdd05e24bc99b2151d865621515c59cae9a7607cf5b91b471febe012a64afb",
+      "bytes": 329462,
+      "mtimeNs": 1790885539509603375,
+      "width": 1536,
+      "height": 1024,
+      "sourceProduction": "bath-magic-20261002-r17"
+    },
+    "scene-118": {
+      "path": "baseline/web/scene-118.webp",
+      "sha256": "ad26a034e1c728bc0774080370b5526cd682e877ea796604cd787c15504b1ab5",
+      "bytes": 433510,
+      "mtimeNs": 1790885540321672288,
+      "width": 1536,
+      "height": 1024,
+      "sourceProduction": "bath-magic-20261002-r17"
+    },
+    "scene-119": {
+      "path": "baseline/web/scene-119.webp",
+      "sha256": "8a54b424cdd6fbc7d788c2491af386d06dd9c4dff73c7cf154ebc002a311136f",
+      "bytes": 424846,
+      "mtimeNs": 1790886028323777281,
+      "width": 1536,
+      "height": 1024,
+      "sourceProduction": "bath-magic-20261002-r17"
+    },
+    "scene-120": {
+      "path": "baseline/web/scene-120.webp",
+      "sha256": "6ab53810d6797d610e3a246c19c326ea18cf00d88d07ceef1addc1dc4c18fb43",
+      "bytes": 327304,
+      "mtimeNs": 1790886028953827131,
+      "width": 1536,
+      "height": 1024,
+      "sourceProduction": "bath-magic-20261002-r17"
+    },
+    "scene-121": {
+      "path": "baseline/web/scene-121.webp",
+      "sha256": "2ee96027221a32a7e82b603545981349bdcb4d2cc196a56d666a47a9788a20d8",
+      "bytes": 422186,
+      "mtimeNs": 1790886029596449232,
+      "width": 1536,
+      "height": 1024,
+      "sourceProduction": "bath-magic-20261002-r17"
+    },
+    "scene-122": {
+      "path": "baseline/web/scene-122.webp",
+      "sha256": "b40ceace35152f02acfcc3aa1a9f2604902867dc7a3d4adcf1f18325fe8f4eb9",
+      "bytes": 438956,
+      "mtimeNs": 1790878052665037635,
+      "width": 1536,
+      "height": 1024,
+      "sourceProduction": "bath-magic-20261002-r17"
+    },
+    "scene-123": {
+      "path": "baseline/web/scene-123.webp",
+      "sha256": "dbdbabe8f5282f4e4cc5b81565825a25ac2eed7f6715fcbff3bfcc3fb9f691f7",
+      "bytes": 414216,
+      "mtimeNs": 1790901846139817355,
+      "width": 1536,
+      "height": 1024,
+      "sourceProduction": "bath-magic-20261002-r17"
+    },
+    "scene-124": {
+      "path": "baseline/web/scene-124.webp",
+      "sha256": "5357172bbacf2303ef185bbc3c432beaf4c118847c4f594c46bc981c452bc4aa",
+      "bytes": 482694,
+      "mtimeNs": 1790886448004724690,
+      "width": 1536,
+      "height": 1024,
+      "sourceProduction": "bath-magic-20261002-r17"
+    },
+    "scene-124a": {
+      "path": "baseline/web/scene-124a.webp",
+      "sha256": "3df0653d0b8181cc64af28bbe1a149d67ed9d753cfbb6011c10885893351832e",
+      "bytes": 619266,
+      "mtimeNs": 1790886373932464289,
+      "width": 1536,
+      "height": 1024,
+      "sourceProduction": "bath-magic-20261002-r17"
+    },
+    "scene-125": {
+      "path": "baseline/web/scene-125.webp",
+      "sha256": "0aa240713b699253d73666d071d4ffbcf16f204b11e605be4add1d4d21dbf973",
+      "bytes": 527080,
+      "mtimeNs": 1790886658060786316,
+      "width": 1536,
+      "height": 1024,
+      "sourceProduction": "bath-magic-20261002-r17"
+    },
+    "scene-126": {
+      "path": "baseline/web/scene-126.webp",
+      "sha256": "2a069c25eb95f937cd444fe358ab15479d4a91b4a81e4bac524f75fadd3b48d2",
+      "bytes": 447108,
+      "mtimeNs": 1790886375410178798,
+      "width": 1536,
+      "height": 1024,
+      "sourceProduction": "bath-magic-20261002-r17"
+    }
+  },
+  "references": [],
+  "documents": [
+    {
+      "path": "story-plan.json",
+      "title": "story-plan.json"
+    },
+    {
+      "path": "causal-rhythm.json",
+      "title": "causal-rhythm.json"
+    },
+    {
+      "path": "derivatives.json",
+      "title": "derivatives.json"
+    }
+  ]
+}

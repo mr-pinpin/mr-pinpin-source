@@ -1,0 +1,38 @@
+{
+  "id": "scene-32c2",
+  "version": "v2",
+  "tool": "image_gen__imagegen",
+  "master": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r17/art/beaver-return/masters/scene-32c2-v2.png",
+  "masterSha256": "17eaca27a999d8e985ec36842c0afa31efd303f547d5eae49baf2f567bb5d98e",
+  "masterBytes": 2878226,
+  "dimensions": [
+    1536,
+    1024
+  ],
+  "originalToolOutput": "/Users/miguel_lemos/.codex/generated_images/01a0fa0e-884b-7703-be8d-7ace86b986f9/exec-a98ccab3-7537-49dc-9bda-3ffac74f60b9.png",
+  "durableToolOutput": "/Volumes/TB4/mac-mini-storage/shared/air-space-recovery/codex-generated-images-elder-r6/01a0fa0e-884b-7703-be8d-7ace86b986f9/exec-a98ccab3-7537-49dc-9bda-3ffac74f60b9.png",
+  "prompt": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r17/art/beaver-return/prompts/scene-32c2-v2.txt",
+  "promptSha256": "26caaf6fcdcd388ccf105c3b0844b2e25d1ec6ea5422387f3447947ef818d045",
+  "toolArguments": {
+    "prompt": "Edit the FIRST supplied finished illustration narrowly. Preserve the exact camera, all hedgehog/Beaver/Bear identities, sizes, poses and gazes, child testing walkway as focal action, picnic basket, planks, willow, river-right and parked blue tractor-left, lighting and book style. Correct ONLY Scooby dog's physical scale at the left. He is much too small currently. The SECOND reference shows the established large dog who can comfortably carry both Papa and child. In the first picture Scooby stands slightly CLOSER to camera than standing Papa: his withers must reach around Papa's head/upper shoulder and his head must extend ABOVE Papa's quill crown, not below it. Enlarge the entire dog coherently, including long broad torso, legs, floppy ears and curly tail; naturally crop part of his larger body at the LEFT edge rather than shrinking him to fit. Keep his head attentive toward child walking on dry board, same warm brown short-haired body/cream chest and snout, no breed change. Do not move Papa or alter Papa face. Do not cover the child, Beaver or stepping paw. Preserve the rest of this beautiful illustration as exactly as possible. 1536x1024 landscape, no text.",
+    "referenced_image_paths": [
+      "/Users/miguel_lemos/.codex/tmp/r17-beaver-return-references/scene-32c2-v1.png",
+      "/Users/miguel_lemos/.codex/tmp/r17-beaver-return-references/scene-32b-v1.png"
+    ],
+    "transparent_background": false
+  },
+  "references": [
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r17/art/beaver-return/masters/scene-32c2-v1.png",
+      "sha256": "853931eb6cf30054751be96464ea732526b2763247a8c98b54c25bb610a07d39"
+    },
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r16-travel-direction/geometry/masters/scene-32b-v1.png",
+      "sha256": "69bb4bdbdb93a81a1ff7bcf011b4f8aada0bcc6d3c3468771f55939c33828c78"
+    }
+  ],
+  "web": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r17/art/beaver-return/web/scene-32c2-v2.webp",
+  "webSha256": "10eadde7351bb1bca8ceedb5c471c72c4f7bdab5a2070f1eae88607ae4b07e00",
+  "reviewStatus": "root visual PASS",
+  "createdAt": "2026-10-02T18:05:34.738107+00:00"
+}

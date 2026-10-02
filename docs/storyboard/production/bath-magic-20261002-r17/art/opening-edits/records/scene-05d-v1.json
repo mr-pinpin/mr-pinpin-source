@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "scene-05d",
+  "priorR16Number": 13,
+  "version": "v1",
+  "tool": "builtin image_gen.imagegen",
+  "native": {
+    "path": "native/scene-05d-v1.png",
+    "sha256": "9fecffac269ff91fa5021a0f4ecd672e94aab09bf1458328fbeb1aa6b01690d5",
+    "bytes": 2915192,
+    "width": 1536,
+    "height": 1024
+  },
+  "prompt": {
+    "path": "prompts/scene-05d-v1.txt",
+    "sha256": "25ac11fd719017da0c28a1a98b0d2f7a4d2c31f3bd1afc12735f1de476d195cb",
+    "bytes": 611
+  },
+  "exactPrompt": "Use case: precise-object-edit. Edit the provided approved storybook illustration minimally for single-bucket continuity. Remove only the bucket on PinPin's RIGHT in the image, nearest Mama. Preserve his LEFT full bucket. Relax the freed arm naturally. Keep Mama's exact face and open green door, infant's distinct small body sitting safely at and hugging Mama's foot, the two round windows and every cottage detail. Exactly ONE bucket total in the resulting image. Preserve the rich soft cinematic illustrated rendering and original framing/aspect ratio. No new characters, no text, no magic, no other changes.",
+  "inputs": [
+    {
+      "path": "references/scene-05d.webp",
+      "sha256": "08749a8c77532de41f362eb3aa889539760e3107f09b49913d56f1e2226e854c",
+      "bytes": 573764
+    }
+  ],
+  "toolArguments": {
+    "referenced_image_paths": [
+      "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r17/art/opening-edits/references/scene-05d.webp"
+    ],
+    "transparent_background": false
+  },
+  "artistReview": "pass",
+  "rootReview": "pass",
+  "selected": true,
+  "outputHandling": "Native PNG copied unchanged; no raster edits outside builtin",
+  "artistReviewNotes": "Native inspected: one bucket, approved identities, action and architecture retained; no duplicate container."
+}

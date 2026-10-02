@@ -1,0 +1,50 @@
+{
+  "schemaVersion": 1,
+  "id": "scene-32i5",
+  "version": "v1",
+  "tool": "image_gen__imagegen",
+  "master": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r17/art/homeward-finish/masters/scene-32i5-v1.png",
+  "masterSha256": "eb9cf362c5db62628281c6456a550c849ae48615bc3e588046ee4ed8d7d5c117",
+  "dimensions": [
+    1536,
+    1024
+  ],
+  "native": {
+    "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r17/art/homeward-finish/masters/scene-32i5-v1.png",
+    "sha256": "eb9cf362c5db62628281c6456a550c849ae48615bc3e588046ee4ed8d7d5c117",
+    "bytes": 2608476
+  },
+  "web": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r17/art/homeward-finish/web/scene-32i5-v1.webp",
+  "webSha256": "755c6cfaa5e1d4d0002db1c235c6fe261acc402f64fadf5f977f90e2b8a3c42a",
+  "prompt": {
+    "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r17/art/homeward-finish/prompts/scene-32i5-v1.txt",
+    "sha256": "c0724ec7ba0600fb469b24b25a9797d6e831e5e664342d4ff1664855f3a9e66b",
+    "bytes": 2076
+  },
+  "exactPrompt": "Use case: illustration-story. Produce ONE finished 1536x1024 landscape illustration matching the supplied approved children's book, no text or panels. Rich warm cinematic bounce lighting, tactile gentle stylized materials and rounded dimensional faces. Papa is the large round adult gray-brown hedgehog, short rounded muzzle, soft eyes, cream cheeks, NEVER a wolf or canine. PinPin is the small copper-quilled child. Scooby is the large warm brown short-haired dog with cream muzzle/chest, folded ears and curled tail, broad enough to carry both hedgehogs. Keep EXACT established character identities and relaxed engaged expressions, no fatigue or manic brows. Image1 locks the loaded mounted arrangement: PinPin seated FRONT near dog's neck, Papa BEHIND supporting child. Two modest balanced side bundles, each three wooden U-channel gutter pieces, secured over cream cloth with BLUE STRIPES, wicker basket of small support blocks behind Papa. Gutters are open-topped U troughs OPEN at BOTH short ends, no endcaps/boxes. Cargo secure below rider legs, no floating pieces or legs fused with wood. Image2 gives clear gutter geometry and canonical HOME facade/Mama/infant only; do not copy its dismounted pose. Exactly two riders. Story beat: 'Clack, clack went the wooden pieces. PinPin tapped the same rhythm on Papa's paw.' Camera intimate 65mm-equivalent medium close-up from the dog's near side, showing child/Papa upper bodies, their actual PAW CONTACT and a little of Scooby's leftward-looking ear/neck and secured cargo at lower edge. Travelling toward LEFT on sunlit forest path away from workshop; no tractor or river visible now. Papa offers one paw open beside PinPin, who gently taps its palm with two little fingertips; both look down at the contact with soft amused attention. Papa's other arm supports child's waist, anatomy clear separate arms and paws. The audience sees a specific shared game, not a posed smile. Basket behind Papa partly cropped is fine; no new props. Leaves soft bokeh behind, gentle sense of safe walking motion, no blur on hands or faces.",
+  "references": [
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r17/art/homeward-finish/references/scene-32i1-v1.png",
+      "sha256": "8c230d723cc44e6967798cac07b0136ac71c1170bccaba3b5db6271e08fcdcf1",
+      "bytes": 2923808
+    },
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r17/art/homeward-finish/references/scene-32j-v3.png",
+      "sha256": "5fa2da5fa1d7cc9700d167498849f6bd0a5ab0fb57416c94c592b26285c073a6",
+      "bytes": 2820014
+    }
+  ],
+  "toolArguments": {
+    "prompt": "Use case: illustration-story. Produce ONE finished 1536x1024 landscape illustration matching the supplied approved children's book, no text or panels. Rich warm cinematic bounce lighting, tactile gentle stylized materials and rounded dimensional faces. Papa is the large round adult gray-brown hedgehog, short rounded muzzle, soft eyes, cream cheeks, NEVER a wolf or canine. PinPin is the small copper-quilled child. Scooby is the large warm brown short-haired dog with cream muzzle/chest, folded ears and curled tail, broad enough to carry both hedgehogs. Keep EXACT established character identities and relaxed engaged expressions, no fatigue or manic brows. Image1 locks the loaded mounted arrangement: PinPin seated FRONT near dog's neck, Papa BEHIND supporting child. Two modest balanced side bundles, each three wooden U-channel gutter pieces, secured over cream cloth with BLUE STRIPES, wicker basket of small support blocks behind Papa. Gutters are open-topped U troughs OPEN at BOTH short ends, no endcaps/boxes. Cargo secure below rider legs, no floating pieces or legs fused with wood. Image2 gives clear gutter geometry and canonical HOME facade/Mama/infant only; do not copy its dismounted pose. Exactly two riders. Story beat: 'Clack, clack went the wooden pieces. PinPin tapped the same rhythm on Papa's paw.' Camera intimate 65mm-equivalent medium close-up from the dog's near side, showing child/Papa upper bodies, their actual PAW CONTACT and a little of Scooby's leftward-looking ear/neck and secured cargo at lower edge. Travelling toward LEFT on sunlit forest path away from workshop; no tractor or river visible now. Papa offers one paw open beside PinPin, who gently taps its palm with two little fingertips; both look down at the contact with soft amused attention. Papa's other arm supports child's waist, anatomy clear separate arms and paws. The audience sees a specific shared game, not a posed smile. Basket behind Papa partly cropped is fine; no new props. Leaves soft bokeh behind, gentle sense of safe walking motion, no blur on hands or faces.",
+    "referenced_image_paths": [
+      "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r17/art/homeward-finish/references/scene-32i1-v1.png",
+      "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r17/art/homeward-finish/references/scene-32j-v3.png"
+    ],
+    "transparent_background": false
+  },
+  "originalToolOutput": "/Users/miguel_lemos/.codex/generated_images/01a0fa05-e7a6-7a00-a6f0-fc3a9cc0cc09/exec-50e94623-bc5f-41ce-812d-00d6f0d5aac3.png",
+  "artistReview": "pass",
+  "rootReview": "pass",
+  "selected": true,
+  "nativePreservation": "Copied unchanged to Mini SSD; web is format-only derivative"
+}

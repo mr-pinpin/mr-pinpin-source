@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "scene-73a",
+  "priorR16Number": 108,
+  "version": 2,
+  "tool": "builtin image_gen.imagegen",
+  "native": {
+    "path": "native/scene-73a-v2.png",
+    "sha256": "ab45427440ce108b083fd30fa07c021dae7e4a457a38e14d7ceaa1cbb6bc154d",
+    "bytes": 2383217,
+    "width": 1536,
+    "height": 1024
+  },
+  "prompt": {
+    "path": "prompts/scene-73a-v2.txt",
+    "sha256": "7a9f33ad54ef44e607fc506293efe026b72e428f84e039368f2c716917726633",
+    "bytes": 917
+  },
+  "exactPrompt": "Use case: precise-object-edit. The image is already correct except that Papa's lifted leading hind paw still nearly touches the curved inner wooden gutter rail. Raise ONLY that bent leading leg/paw another clear paw-height upward so there is an unmistakable visible air gap of approximately 40 image pixels between the lowest toe and the rail. It is a genuine step OVER an intact flowing channel, never stepping ON the rim. Papa's other paw stays flat on dry floor supporting him; both hands stay pushing the flowerpot. Preserve every other pixel-level feature as closely as possible: all four characters and their exact approved faces, full pot and flower, Mama pointing with infant securely held, PinPin helping, complete continuous channel and current, tub rim/spill, floor/rug, doorway, light and camera. Do not lower or erase the channel to gain clearance. Do not change the size of the paw or add toes. No text.",
+  "inputs": [
+    {
+      "path": "native/scene-73a-v1.png",
+      "sha256": "1c989e47d829b916060ff12d041aaf835817c853bddb2a7dfc25913ce90c5d6f",
+      "bytes": 2417840
+    }
+  ],
+  "transparent_background": false,
+  "selected": true,
+  "artistReview": "pass",
+  "rootReview": "pass",
+  "outputHandling": "Native PNG bytes preserved without raster editing; decoded builtin data URL and copied to SSD."
+}

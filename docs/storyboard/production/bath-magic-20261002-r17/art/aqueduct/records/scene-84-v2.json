@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "scene-84",
+  "priorR16Number": 121,
+  "version": 2,
+  "tool": "builtin image_gen.imagegen",
+  "native": {
+    "path": "native/scene-84-v2.png",
+    "sha256": "dd1c58ebadb472ef9aec3d1f83a9868f87d15b8c45aa3adf8a3dd2b464f65940",
+    "bytes": 2460718,
+    "width": 1536,
+    "height": 1024
+  },
+  "prompt": {
+    "path": "prompts/scene-84-v2.txt",
+    "sha256": "293df1c8559eea84d14c32d983a3f1ba3382999df4b5101832b8a05022831d62",
+    "bytes": 963
+  },
+  "exactPrompt": "Use case: precise-object-edit. This otherwise approved image needs ONLY the overflow water corrected. The wooden channel is already installed and working. Keep the one clear waterfall from the near-left tub rim directly INTO the wooden channel's intake, keep the central magical fountain inside the bath, and keep the water flowing along the existing trough. Remove the other uncaptured thin vertical waterfalls that run down the front-right tub wall directly onto the rug/floor, including their actively falling drops. Those tub staves and metal bands should be normal intact wood/metal. No spill may bypass the installed gutter. Preserve the tub water level near the rim, gentle ripples, rug, every character/face/body/hand/foot, Mama holding baby, Papa opening window, PinPin, bubbles/soap, room/camera/light and existing connected aqueduct exactly. Do not stop the fountain or drain the bath. Do not move or multiply the intake or the wooden channel. No text.",
+  "inputs": [
+    {
+      "path": "native/scene-84-v1.png",
+      "sha256": "f1f6ae59c6393921d9718fb80f0fc8b1f3b2292c3c88e6c2956744e09096ea22",
+      "bytes": 2535413
+    }
+  ],
+  "transparent_background": false,
+  "selected": true,
+  "artistReview": "pass",
+  "rootReview": "pass",
+  "outputHandling": "Native PNG bytes preserved without raster editing; decoded builtin data URL and copied to SSD."
+}

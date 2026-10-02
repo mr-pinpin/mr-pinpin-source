@@ -1,0 +1,10 @@
+R17 review restoration
+No official publication. New artwork is a root-reviewed candidate awaiting user approval.
+Code/recipes/provenance are tracked in the source repository; heavy media use the scoped content-addressed archive-manifest.json and verified archive-receipt.json.
+From a clean source checkout on Mini:
+  python tools/assets/hf_store.py pull --manifest docs/storyboard/production/bath-magic-20261002-r17/archive-manifest.json --root . --cache /Volumes/TB4/mac-mini-storage/shared/pinpin-asset-cache --profile archive
+The manifest uses repo-relative paths and regular restored files, not Mini absolute media assumptions.
+Serve docs locally with existing review server and open /storyboard/review/bath-magic-r17.html?lang=ru.
+Media and before/after baseline are self-contained under the R17 pack; all113 unchanged art and all before-images preserve original bytes.
+Historical generation records retain original machine paths as provenance. Runtime media.json uses relative paths. To regenerate from selected source after relocating, map the historical R17 prefix to the restored pack; do not pretend historical paths were original relative paths.
+No PDF was built for this review. The official138-scene chapter remains unchanged.

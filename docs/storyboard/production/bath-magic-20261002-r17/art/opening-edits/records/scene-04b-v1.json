@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "scene-04b",
+  "priorR16Number": 6,
+  "version": 1,
+  "tool": "builtin image_gen.imagegen",
+  "native": {
+    "path": "native/scene-04b-v1.png",
+    "sha256": "65e4f8f7618220705a5fd0cd6e2788c50867e156858abcc25fa2c1d7df56862d",
+    "bytes": 2921180,
+    "width": 1536,
+    "height": 1024
+  },
+  "prompt": {
+    "path": "prompts/scene-04b-v1.txt",
+    "sha256": "214e174b49a5f14a59f023c3f27a707310fafe49c6d683c3224130ad8745320d",
+    "bytes": 725
+  },
+  "exactPrompt": "Use case: precise story continuity edit. Edit image 1 retaining exact PinPin and gray-beige Rabbit identities, proportions, forest path, daisies and warm light. They are already friends travelling together, not meeting or greeting: Rabbit takes a small step ahead toward the path receding to the RIGHT, turns his head back to PinPin and points down that path as he says the spring is this way. PinPin follows attentively carrying exactly ONE EMPTY wooden bucket: preserve image-left bucket, remove right-side bucket and handle, let free paw rest naturally. Keep faces soft and lively, natural anatomy and contact with ground, original camera and detailed illustrated style. No new characters, extra containers, text or magic.",
+  "inputs": [
+    {
+      "path": "references/scene-04b.webp",
+      "sha256": "f945f4802de940f91dc6a78a2a5e7bc5d8e7b3239e3fdb3a883f56c73ebd7b3d",
+      "bytes": 533046
+    }
+  ],
+  "toolArguments": {
+    "referenced_image_paths": [
+      "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r17/art/opening-edits/references/scene-04b.webp"
+    ],
+    "transparent_background": false
+  },
+  "sourceOutputPath": "/Users/miguel_lemos/.codex/generated_images/01a0fa05-e7a6-7a00-a6f0-fc3a9cc0cc09/exec-92a6500c-c506-49a7-bb40-69a8e3127228.png",
+  "artistReview": "pass",
+  "rootReview": "pass",
+  "selected": true,
+  "outputHandling": "Native PNG copied unchanged; no raster edits outside builtin"
+}

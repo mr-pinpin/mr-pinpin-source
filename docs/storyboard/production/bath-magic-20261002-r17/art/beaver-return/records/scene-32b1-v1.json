@@ -1,0 +1,38 @@
+{
+  "id": "scene-32b1",
+  "version": "v1",
+  "tool": "image_gen__imagegen",
+  "master": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r17/art/beaver-return/masters/scene-32b1-v1.png",
+  "masterSha256": "f7420c338d5cf97ec4fa15e897032fc15e63e462d6a29982d94217ba09f6da1e",
+  "masterBytes": 2630731,
+  "dimensions": [
+    1536,
+    1024
+  ],
+  "originalToolOutput": "/Users/miguel_lemos/.codex/tmp/r17-beaver-return-references/scene-32b1-v1.png",
+  "prompt": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r17/art/beaver-return/prompts/scene-32b1-v1.txt",
+  "promptSha256": "25a260dec6fa6d27996439317feb3243af21c6d60f9893dae429a765546cc7f5",
+  "references": [
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r16-travel-direction/geometry/masters/scene-32b-v1.png",
+      "sha256": "69bb4bdbdb93a81a1ff7bcf011b4f8aada0bcc6d3c3468771f55939c33828c78"
+    },
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r12-house-layout/root/masters/scene-123-v1.png",
+      "sha256": "2cb68e594ffb126361f35fddabf0500893a7e61c3c61f4920b3ab8c30247c96e"
+    }
+  ],
+  "web": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r17/art/beaver-return/web/scene-32b1-v1.webp",
+  "webSha256": "9ee40787d1d5cd5d737f2d9419063525689ab38b546607c341af81ee5dd000d9",
+  "reviewStatus": "root visual PASS",
+  "visualReview": "Root visual PASS: mounted listening action and rightward gazes; identity and proportions preserved.",
+  "createdAt": "2026-10-02T17:49:30.104425+00:00",
+  "toolArguments": {
+    "prompt": "Use case: illustration-story. Create ONE finished 1536x1024 landscape children's-book illustration, not a storyboard sheet. Match the supplied approved book artwork: rich warm cinematic bounce light, soft rounded dimensional characters, gentle tactile materials, clear expressive eyes and full hedgehog quill mantles, naturally composed physical action. No text, lettering, captions, panel borders or watermark. Keep the characters' exact established identities. Papa is the large round adult gray-brown hedgehog with a very short rounded muzzle, cream cheeks and little button nose, never a wolf. PinPin is the small copper-quilled child with a rounded lively face. Scooby is the large brown short-haired dog with floppy ears, cream muzzle/chest and curled tail, broad and tall enough to carry Papa plus PinPin; he is not a Great Dane or a photoreal dog. Thoughtful calm expressions and attentive eye contact, no fatigue and no manic eyebrow grins.\nInput1 locks Papa and PinPin riding Scooby toward screen-RIGHT through the sunny forest, with the picnic basket. Input2 locks Papa's rounded adult hedgehog face only, not the indoor setting.\nCamera: a close, intimate three-quarter view from slightly in front of the riders on their right side, about 65mm-equivalent portrait framing, naturally cropped around their torsos. PinPin, seated securely just ahead of Papa on Scooby's withers, hears tapping from farther along the path to the RIGHT. He turns his head and attentive eyes toward the unseen sound at upper-right and lifts one small paw close to his ear, intrigued. Papa follows his gaze, gently supporting the child's waist with a clear separate paw. Scooby's attentive floppy ear and part of his brow/neck are visible at the lower-right edge, also oriented RIGHT. A sliver of the picnic basket can appear at left; no wood cargo yet. Behind them soft sunlit leaves and the familiar forest path, no visible workshop yet. The humor is quiet curiosity: someone ahead is building. Preserve the same mounted arrangement and travel direction as input1. This is an active listening moment, not characters posing for the viewer.",
+    "referenced_image_paths": [
+      "/Users/miguel_lemos/.codex/tmp/r17-beaver-return-references/scene-32b-v1.png",
+      "/Users/miguel_lemos/.codex/tmp/r17-beaver-return-references/scene-123-v1.png"
+    ],
+    "transparent_background": false
+  }
+}

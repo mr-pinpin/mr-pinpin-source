@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "scene-73d",
+  "priorR16Number": 107,
+  "version": 2,
+  "tool": "builtin image_gen.imagegen",
+  "native": {
+    "path": "native/scene-73d-v2.png",
+    "sha256": "10742dfb057f23e65bf3dc7bc3b6b34835d2a7f6d11ccdc9ed685dbcff02dedd",
+    "bytes": 2568929,
+    "width": 1536,
+    "height": 1024
+  },
+  "prompt": {
+    "path": "prompts/scene-73d-v2.txt",
+    "sha256": "fa3f2999d15f3fcf372f1b66dcc24dddfc6d752ba72d2a659c5683ae5fb1bafa",
+    "bytes": 843
+  },
+  "exactPrompt": "Use case: precise-object-edit. This image is almost correct. Make ONE narrow anatomy correction: Mama's rear/back foot, the small paw currently touching the wooden gutter rail beside her lower-right leg, must lift CLEARLY UP over the trough. Bend that rear leg naturally and raise the paw high enough that a visible strip of air separates every toe from both rails and water; her forward foot remains firmly planted on the dry foreground floor. She is stepping across the intact gutter while ducking under the giant leaf. The continuous water-filled channel, its supports, feed from bath, entire giant leaf/pot, all lighting, composition and exact approved rounded Mama face must remain unchanged. No paw rests on a rail. No missing waterway beneath her. One Mama only. Do not alter her raised leaf-holding hand, eye contact or smile. No text.",
+  "inputs": [
+    {
+      "path": "native/scene-73d-v1.png",
+      "sha256": "e4c109105f03bc95318348f66ac7aaaa42e254443b6080be66f239bcb887ef5c",
+      "bytes": 2639074
+    }
+  ],
+  "transparent_background": false,
+  "selected": true,
+  "artistReview": "pass",
+  "rootReview": "pass",
+  "outputHandling": "Native PNG bytes preserved without raster editing; decoded builtin data URL and copied to SSD."
+}

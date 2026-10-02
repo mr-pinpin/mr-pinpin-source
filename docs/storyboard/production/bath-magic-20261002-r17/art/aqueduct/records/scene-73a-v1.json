@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "id": "scene-73a",
+  "priorR16Number": 108,
+  "version": 1,
+  "tool": "builtin image_gen.imagegen",
+  "native": {
+    "path": "native/scene-73a-v1.png",
+    "sha256": "1c989e47d829b916060ff12d041aaf835817c853bddb2a7dfc25913ce90c5d6f",
+    "bytes": 2417840,
+    "width": 1536,
+    "height": 1024
+  },
+  "prompt": {
+    "path": "prompts/scene-73a-v1.txt",
+    "sha256": "7fffc533444a0745cf60ee2fbf472318bd9e62c2c61b9a02b28ec6a23155594d",
+    "bytes": 1020
+  },
+  "exactPrompt": "Use case: precise-object-edit. IMAGE1 is the target with Papa and PinPin pushing the large flower pot. IMAGE2 scene-87 is geometry reference only, not cast/camera. Make a narrow correction to Papa's hind feet: currently his leading toes balance on the curved wooden water-trough lip. Keep his planted rear paw flat on dry floor behind the channel; lift his leading paw clearly up and over the intact gutter, with obvious air between toes and rail, towards dry floor beside the pot. He can lean naturally while pushing the pot with BOTH front paws. Preserve his exact approved round hedgehog face, Mama holding infant and pointing, PinPin helping, existing pot size and towel beneath it, all room geometry/light/camera. Preserve the already-present wooden trough and flowing water continuously under the raised foot; do not erase a segment, make the channel a footbridge, or let pot/towel obstruct it. The pot stays outside the water route. Only correct coherent step-over anatomy; no extra feet, no wolf muzzle, no text.",
+  "inputs": [
+    {
+      "path": "references/scene-73a.webp",
+      "sha256": "cd4e6d98bf525233b043302c0e3c589471d0e9482e948d653390d76a0e28768a",
+      "bytes": 460788
+    },
+    {
+      "path": "references/scene-87.webp",
+      "sha256": "a32c2ffc8660daf2d2f2fa96b48d37aaeed84e80f1a88e35398796b15ecc0fa0",
+      "bytes": 398346
+    }
+  ],
+  "transparent_background": false,
+  "selected": false,
+  "artistReview": "superseded after identified foot clearance or bypass-spill issue",
+  "rootReview": "not selected",
+  "outputHandling": "Native PNG bytes preserved without raster editing; decoded builtin data URL and copied to SSD."
+}

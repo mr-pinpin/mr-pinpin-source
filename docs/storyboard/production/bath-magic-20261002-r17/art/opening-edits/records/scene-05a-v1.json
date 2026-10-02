@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "id": "scene-05a",
+  "priorR16Number": 10,
+  "version": 1,
+  "tool": "builtin image_gen.imagegen",
+  "native": {
+    "path": "native/scene-05a-v1.png",
+    "sha256": "d1a5df287f5a442dc7a61212605f9c1ba94901f84d3fec399f723156b29078c1",
+    "bytes": 2749861,
+    "width": 1536,
+    "height": 1024
+  },
+  "prompt": {
+    "path": "prompts/scene-05a-v1.txt",
+    "sha256": "b476de78c1ee8d9bdb7f35d7a34aaed78a4aa7dc0ea28814cd4bb3d88c927b42",
+    "bytes": 1040
+  },
+  "exactPrompt": "Use case: precise-object-edit. Make a minimal continuity edit to this approved children's book illustration: the errand uses exactly ONE small wooden bucket, not two. Preserve the retained bucket's exact wood-stave construction, dark two metal bands and arched handle. Preserve every character identity, approved rounded face, expression, body proportions, paws, camera, framing, setting and warm light. Remove only the specified extra bucket and restore the naturally visible background/body behind it. Do not add any new containers, characters, furniture, magic, text or decoration. Keep the one filled bucket standing BEHIND PinPin toward the middle-right beside the spring. Remove the other partially cropped bucket in the far LEFT foreground in front of Rabbit, INCLUDING its black arched handle. Restore rock and Rabbit's natural body/paws behind it. Preserve PinPin's wink and mischievous smile, the wet bird shaking droplets, Rabbit watching, and the spring. Keep PinPin's nose clean with NO hanging drop. Exactly one filled bucket.",
+  "inputs": [
+    {
+      "path": "references/scene-05a.webp",
+      "sha256": "0b12d9278c35dcf80bae97c457e25cf1a75abf6ab544e89a5b48d7c6f7a92070",
+      "bytes": 484582
+    }
+  ],
+  "toolArguments": {
+    "referenced_image_paths": [
+      "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r17/art/opening-edits/references/scene-05a.webp"
+    ],
+    "transparent_background": false
+  },
+  "artistReview": "pass",
+  "rootReview": "pass",
+  "selected": true,
+  "outputHandling": "Native PNG copied unchanged; no raster edits outside builtin"
+}

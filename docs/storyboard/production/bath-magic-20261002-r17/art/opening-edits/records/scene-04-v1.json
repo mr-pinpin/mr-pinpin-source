@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "id": "scene-04",
+  "priorR16Number": 4,
+  "version": 1,
+  "tool": "builtin image_gen.imagegen",
+  "native": {
+    "path": "native/scene-04-v1.png",
+    "sha256": "c5297ce948538d5e57c46afae2de668837ad7df310689d8bf8a520ef16c506de",
+    "bytes": 2359886,
+    "width": 1536,
+    "height": 1024
+  },
+  "prompt": {
+    "path": "prompts/scene-04-v1.txt",
+    "sha256": "b414494a04cc94f99afbf2c3cffa35d4e9f657012fa5df9caede173c666b25a4",
+    "bytes": 970
+  },
+  "exactPrompt": "Use case: precise-object-edit. Make a minimal continuity edit to this approved children's book illustration: the errand uses exactly ONE small wooden bucket, not two. Preserve the retained bucket's exact wood-stave construction, dark two metal bands and arched handle. Preserve every character identity, approved rounded face, expression, body proportions, paws, camera, framing, setting and warm light. Remove only the specified extra bucket and restore the naturally visible background/body behind it. Do not add any new containers, characters, furniture, magic, text or decoration. Keep PinPin's bucket on the LEFT side of the image, held in his right paw, clearly EMPTY. Remove the other bucket between PinPin and Mama, including its handle, and let that newly free paw rest naturally beside him. Mama continues looking at PinPin by the cooking STOVE and copper pot; stove stays stove. Keep green front door, window, table and room exactly. Only one bucket anywhere.",
+  "inputs": [
+    {
+      "path": "references/scene-04.webp",
+      "sha256": "4faefd133c89261bb57edca2dcaec263b8f1cd27c2f23f9b67002d28df6bcb2c",
+      "bytes": 392224
+    }
+  ],
+  "toolArguments": {
+    "referenced_image_paths": [
+      "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r17/art/opening-edits/references/scene-04.webp"
+    ],
+    "transparent_background": false
+  },
+  "artistReview": "pass",
+  "rootReview": "pass",
+  "selected": true,
+  "outputHandling": "Native PNG copied unchanged; no raster edits outside builtin"
+}

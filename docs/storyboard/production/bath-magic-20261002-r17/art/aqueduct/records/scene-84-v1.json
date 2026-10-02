@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "id": "scene-84",
+  "priorR16Number": 121,
+  "version": 1,
+  "tool": "builtin image_gen.imagegen",
+  "native": {
+    "path": "native/scene-84-v1.png",
+    "sha256": "f1f6ae59c6393921d9718fb80f0fc8b1f3b2292c3c88e6c2956744e09096ea22",
+    "bytes": 2535413,
+    "width": 1536,
+    "height": 1024
+  },
+  "prompt": {
+    "path": "prompts/scene-84-v1.txt",
+    "sha256": "586d4c1dd2ba3fc63f3c78677b4675eb034f923611c6cec2bf19d0eee30523d1",
+    "bytes": 2082
+  },
+  "exactPrompt": "Use case: precise-object-edit. Edit IMAGE1 only; keep its camera, lighting, crop, warm illustrated rendering and approved hedgehog faces/body identities unchanged. IMAGE2 is a geometry reference for the already-installed wooden overflow channel, not a replacement composition or extra cast. The source still flows: the channel was installed earlier and remains present until later disassembly. Restore physically continuous open wooden trough, matching the warm timber, curved section, low support blocks and flowing clear water in the reference. A narrow spill from the tub rim must visibly feed the collecting mouth. Water then follows the supported channel toward the actual bathroom exit, with a continuous downhill path, no blind end or uphill lip. Feet stand on dry floor or clearly step OVER it; never erase the canal to make room, never put feet or pot in the water or balance on rails. Keep existing room openings; do not turn a bedroom door into a garden door, do not add windows/doors or another room. No text or labels.\nIMAGE1 shows Mama holding the infant at left, Papa opening the circular window behind the bath, and PinPin at right. IMAGE2 scene-87 supplies correct channel geometry. Restore the missing curved wooden collector directly outside the oval bath's near base, fed by a clear small overflow from near tub rim. It curves left along the floor and continues out of the bottom-left edge toward the actual bathroom exit OFFSCREEN. The tub retains its normal oval proportions and normal wooden rim. The channel is lower than everyone's ankles and rests on distinct low wooden support blocks. All existing feet remain on DRY floor/rug; route the trough farther forward so a visible strip of dry floor separates every paw from its rails. Do not put any character on the channel. Existing window and indoor room remain exactly as drawn; bubbles float through window while WATER leaves by floor channel, not by window. Preserve exact four-family identities, hand/arm positions, facial expressions, source fountain and bubbles. No extra cast or new exterior doorway.",
+  "inputs": [
+    {
+      "path": "references/scene-84.webp",
+      "sha256": "db624ad81ec82a03cac0a199922a2fc415b789b2ae31ad4777810f084b7e0651",
+      "bytes": 467690
+    },
+    {
+      "path": "references/scene-87.webp",
+      "sha256": "a32c2ffc8660daf2d2f2fa96b48d37aaeed84e80f1a88e35398796b15ecc0fa0",
+      "bytes": 398346
+    }
+  ],
+  "transparent_background": false,
+  "selected": false,
+  "artistReview": "superseded after identified foot clearance or bypass-spill issue",
+  "rootReview": "not selected",
+  "outputHandling": "Native PNG bytes preserved without raster editing; decoded builtin data URL and copied to SSD."
+}

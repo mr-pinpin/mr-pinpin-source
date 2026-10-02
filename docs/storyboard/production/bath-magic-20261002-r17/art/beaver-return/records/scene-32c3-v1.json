@@ -1,0 +1,43 @@
+{
+  "id": "scene-32c3",
+  "version": "v1",
+  "tool": "image_gen__imagegen",
+  "master": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r17/art/beaver-return/masters/scene-32c3-v1.png",
+  "masterSha256": "ab42feabbad4e47bbe5be22eb77015177fa36c2574b9281b3e89a443224cc6f1",
+  "masterBytes": 3052217,
+  "dimensions": [
+    1536,
+    1024
+  ],
+  "originalToolOutput": "/Users/miguel_lemos/.codex/tmp/r17-beaver-return-references/scene-32c3-v1.png",
+  "prompt": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r17/art/beaver-return/prompts/scene-32c3-v1.txt",
+  "promptSha256": "23192e0d3beffb0f725806a15ab0b3f45b6e9664a4575af212972ce428beb9c4",
+  "references": [
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r17/art/beaver-return/masters/scene-32b2-v1.png",
+      "sha256": "60fb218dcb0c1aaee4b3d367edcca4b2ee2444cdf51685ea1a710397c86771d0"
+    },
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r17/art/beaver-return/studies/bear-blue-tractor-study-v1.png",
+      "sha256": "3b92d67454ebb1f3a0e51b67c581693bebb0e5115791ba4da3b75644123e0309"
+    },
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r12-house-layout/root/masters/scene-123-v1.png",
+      "sha256": "2cb68e594ffb126361f35fddabf0500893a7e61c3c61f4920b3ab8c30247c96e"
+    }
+  ],
+  "web": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r17/art/beaver-return/web/scene-32c3-v1.webp",
+  "webSha256": "83504653c54e50722b7e05a704797156032d22d6c1455e1858f5f1b53f0d8887",
+  "reviewStatus": "root visual PASS",
+  "visualReview": "Root visual PASS: clear peg handoff and Bear supporting board; active attention.",
+  "createdAt": "2026-10-02T17:49:31.111495+00:00",
+  "toolArguments": {
+    "prompt": "Use case: illustration-story. Create ONE finished 1536x1024 landscape children's-book illustration, not a storyboard sheet. Match the supplied approved book artwork: rich warm cinematic bounce light, soft rounded dimensional characters, gentle tactile materials, clear expressive eyes and full hedgehog quill mantles, naturally composed physical action. No text, lettering, captions, panel borders or watermark. Keep the characters' exact established identities. Papa is the large round adult gray-brown hedgehog with a very short rounded muzzle, cream cheeks and little button nose, never a wolf. PinPin is the small copper-quilled child with a rounded lively face. Scooby is the large brown short-haired dog with floppy ears, cream muzzle/chest and curled tail, broad and tall enough to carry Papa plus PinPin; he is not a Great Dane or a photoreal dog. Thoughtful calm expressions and attentive eye contact, no fatigue and no manic eyebrow grins.\nInput1 is the LOCKED worksite geography and character scale: willow/bench and parked blue tractor LEFT, muddy-patch wooden walkway CENTER-RIGHT, river behind RIGHT. Input2 locks the Bear and tractor designs; use one of each at most, never the multiple study views. Input3 locks only Papa's compact rounded adult hedgehog face. Bear is1.35times Papa's standing height, Beaver0.95times Papa, PinPin0.55times Papa. Scooby is the larger mount, not a small household dog. Blue tractor remains parked in the same far-left clearing with nose LEFT; no new attachments. Beaver has chestnut fur, blue denim vest and broad flat tail. Bear has warm brown fur and olive apron. One natural moment, coherent feet on ground and distinct paws.\nCamera: medium 45mm three-quarter view at the child's chest height, close enough to read a precise three-character collaboration. Bear, on the RIGHT, supports the next broad flat walkway plank with TWO bear paws at its ends; the plank is low over its wooden supports, not over anyone's head. Beaver, blue vest at CENTER, kneels beside that support and reaches out with ONE open beaver paw. PinPin on the LEFT physically passes one small smooth WOODEN PEG into that receiving paw: show the peg between their separate fingers at the moment of transfer. Child's other paw is free at his own body, no tools and no duplicate arms. PinPin and Beaver look at the actual handoff; Bear watches the board alignment. Papa may be a gentle attentive partial figure behind PinPin, but do not crowd the action. Bare feet rest on dry ground/planks, not in mud. Keep the same short boardwalk and familiar riverbank; old parked blue tractor remains soft in far-LEFT background if included. No finished gutters yet, no magical effects, no captions. The scene should clearly show the child contributing one small useful part.",
+    "referenced_image_paths": [
+      "/Users/miguel_lemos/.codex/tmp/r17-beaver-return-references/scene-32b2-v1.png",
+      "/Users/miguel_lemos/.codex/tmp/r17-beaver-return-references/bear-blue-tractor-study-v1.png",
+      "/Users/miguel_lemos/.codex/tmp/r17-beaver-return-references/scene-123-v1.png"
+    ],
+    "transparent_background": false
+  }
+}

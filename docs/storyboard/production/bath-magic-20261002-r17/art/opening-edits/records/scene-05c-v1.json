@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "scene-05c",
+  "priorR16Number": 12,
+  "version": "v1",
+  "tool": "builtin image_gen.imagegen",
+  "native": {
+    "path": "native/scene-05c-v1.png",
+    "sha256": "c1f7824cd1fa476d27986e68a189c3e30b3309cbd93935dfa4c5499d2cfffe0b",
+    "bytes": 3187079,
+    "width": 1536,
+    "height": 1024
+  },
+  "prompt": {
+    "path": "prompts/scene-05c-v1.txt",
+    "sha256": "08a1a252ede482a5a2d83541dbac142cefa169ee264f39bdd14539937540d6f8",
+    "bytes": 637
+  },
+  "exactPrompt": "Use case: precise-object-edit. Edit the provided approved storybook illustration minimally for single-bucket continuity. Remove only the bucket on the RIGHT side of PinPin nearest Rabbit. Preserve the LEFT full bucket and handle in his hand. His freed hand makes a small natural goodbye gesture. Rabbit is already waving. Keep the exact smiling faces, eyes, stepping pose, clear water spring, two birds, leaves, flowers, forest and lighting. Exactly ONE bucket total in the resulting image. Preserve the rich soft cinematic illustrated rendering and original framing/aspect ratio. No new characters, no text, no magic, no other changes.",
+  "inputs": [
+    {
+      "path": "references/scene-05c.webp",
+      "sha256": "ddde9556ceb81c61cd54b97ba04812edc043d6018389735c680a282acdf50fdc",
+      "bytes": 642050
+    }
+  ],
+  "toolArguments": {
+    "referenced_image_paths": [
+      "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r17/art/opening-edits/references/scene-05c.webp"
+    ],
+    "transparent_background": false
+  },
+  "artistReview": "pass",
+  "rootReview": "pass",
+  "selected": true,
+  "outputHandling": "Native PNG copied unchanged; no raster edits outside builtin",
+  "artistReviewNotes": "Native inspected: one bucket, approved identities, action and architecture retained; no duplicate container."
+}

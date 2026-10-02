@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "id": "scene-04d",
+  "priorR16Number": 8,
+  "version": 1,
+  "tool": "builtin image_gen.imagegen",
+  "native": {
+    "path": "native/scene-04d-v1.png",
+    "sha256": "298eaf08466791c71ec93806ed7004fbd677cb07d45b2843870c1c3ae7cac5e5",
+    "bytes": 3049837,
+    "width": 1536,
+    "height": 1024
+  },
+  "prompt": {
+    "path": "prompts/scene-04d-v1.txt",
+    "sha256": "0415618994909b6764fbf61e1ecb9cffcf9b839158865999eb79dc531c0219f0",
+    "bytes": 870
+  },
+  "exactPrompt": "Use case: precise-object-edit. Make a minimal continuity edit to this approved children's book illustration: the errand uses exactly ONE small wooden bucket, not two. Preserve the retained bucket's exact wood-stave construction, dark two metal bands and arched handle. Preserve every character identity, approved rounded face, expression, body proportions, paws, camera, framing, setting and warm light. Remove only the specified extra bucket and restore the naturally visible background/body behind it. Do not add any new containers, characters, furniture, magic, text or decoration. Keep the empty bucket on the LEFT of PinPin in the image. Remove the other bucket nearer Rabbit, including handle; let PinPin's free paw rest naturally. Preserve Rabbit, blue-yellow bird above the spring and redbreast below, all eyelines and spring geometry. No second bucket anywhere.",
+  "inputs": [
+    {
+      "path": "references/scene-04d.webp",
+      "sha256": "24b2ef07f621278bbb103328b5064936ddf6dd885f406b6b198b5fbe2a228c2e",
+      "bytes": 641680
+    }
+  ],
+  "toolArguments": {
+    "referenced_image_paths": [
+      "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r17/art/opening-edits/references/scene-04d.webp"
+    ],
+    "transparent_background": false
+  },
+  "artistReview": "pass",
+  "rootReview": "pass",
+  "selected": true,
+  "outputHandling": "Native PNG copied unchanged; no raster edits outside builtin"
+}

@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "scene-83",
+  "priorR16Number": 120,
+  "version": 2,
+  "tool": "builtin image_gen.imagegen",
+  "native": {
+    "path": "native/scene-83-v2.png",
+    "sha256": "c634dd6b8eee5cb72b8e95c1c6306fbd554944d22e189f0ec512695b205e2e1a",
+    "bytes": 2757311,
+    "width": 1536,
+    "height": 1024
+  },
+  "prompt": {
+    "path": "prompts/scene-83-v2.txt",
+    "sha256": "8dab070880ea609ae877d62caf956431d148e8a115371f0eda5e5c39f0838f60",
+    "bytes": 910
+  },
+  "exactPrompt": "Use case: precise-object-edit. Make ONE narrow foot/channel clearance correction to this otherwise approved image. Mama at RIGHT holds the infant. Her LEFTMOST visible foot currently touches the inner rail of the new wooden gutter. Move that foot a little BACK onto unobstructed dry floor beside her other foot so BOTH Mama feet are behind the gutter, with a clearly visible dry wooden-floor gap between every toe and the channel rail. Keep Mama's natural balanced stance while securely holding her distinct infant; do not change any face, expression, hand or body identity. Keep PinPin jumping toward the soap bubble, Papa on left, all four family members, bubbles, tub, source, channel and its supports. Do not remove or interrupt any channel segment: it must remain fully connected and flowing past the family. Preserve exact warm rendering, room, camera and lighting. No extra characters or limbs, no text.",
+  "inputs": [
+    {
+      "path": "native/scene-83-v1.png",
+      "sha256": "9db90280156cc3111c4e5e61f596e3a13f44609e388937e948b9ef84f43dd045",
+      "bytes": 2764533
+    }
+  ],
+  "transparent_background": false,
+  "selected": true,
+  "artistReview": "pass",
+  "rootReview": "pass",
+  "outputHandling": "Native PNG bytes preserved without raster editing; decoded builtin data URL and copied to SSD."
+}

@@ -1,0 +1,31 @@
+{
+  "id": "scene-03g",
+  "version": "v1",
+  "tool": "image_gen__imagegen",
+  "master": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r17/art/opening/masters/scene-03g-v1.png",
+  "masterSha256": "5a59ede08cf875833ae7b05d74dd2ea99e341101afff329c11de0559ebb6024a",
+  "masterBytes": 2791505,
+  "dimensions": [
+    1536,
+    1024
+  ],
+  "originalToolOutput": "/Users/miguel_lemos/.codex/generated_images/01a0fa05-86f4-7a91-88c7-86a512c72c99/exec-f0745648-037b-4c4c-a23a-333f609b122b.png",
+  "prompt": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r17/art/opening/prompts/scene-03g-v1.txt",
+  "promptSha256": "7a05c14edb8eb6c20e917eea04e7313fedf8971b9ff1057c4046a08cab5da29b",
+  "references": [
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r17/art/opening/masters/scene-03e-v1.png",
+      "sha256": "c2d3967148bd4b62182da1a0cc65c556b71808376ab3304f3f1346a6c36e22e1"
+    },
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r17/art/opening/references/elder-r6-family-016.webp",
+      "sha256": "88d74c56a468e3f250b12dbcb5ecdb7b07bd1d789197663d8948ac199acd133d"
+    }
+  ],
+  "web": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r17/art/opening/web/scene-03g-v1.webp",
+  "webSha256": "90cf531a30e133b1a87a0912f668d91b6bfeb6e399f7242fc64dbe60a0d942d1",
+  "reviewStatus": "root independently visually reviewed: PASS; user approval pending",
+  "visualReview": "Agent visual pass: coherent bodies, attentive interaction and reference continuity; root review pending.",
+  "createdAt": "2026-10-02T17:01:43.692028+00:00",
+  "userReview": "pending"
+}

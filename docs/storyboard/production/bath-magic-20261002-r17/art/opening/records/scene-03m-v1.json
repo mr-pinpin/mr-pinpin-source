@@ -1,0 +1,28 @@
+{
+  "id": "scene-03m",
+  "version": "v1",
+  "tool": "image_gen__imagegen",
+  "master": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r17/art/opening/masters/scene-03m-v1.png",
+  "masterSha256": "b5849bbe883986e5365592c7e32ef6ec7c684802c8128d04d9c199d5bbe6e9fd",
+  "masterBytes": 2646242,
+  "dimensions": [
+    1536,
+    1024
+  ],
+  "originalToolOutput": "/Users/miguel_lemos/.codex/generated_images/01a0fa05-86f4-7a91-88c7-86a512c72c99/exec-bced7ac0-a05f-4f0d-8c84-86a06825ce98.png",
+  "prompt": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r17/art/opening/prompts/scene-03m-v1.txt",
+  "promptSha256": "48904ab7e5e05a886fcfc51f27524e6788db771e32b7b82bec12a1c0cd1b764b",
+  "references": [
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r17/art/opening/masters/scene-03k-v1.png",
+      "sha256": "b4fb3e835c96a7ba9c0dc1065fe10ffcaf4b00b3edb2a421d94b06a3ca6eec5e"
+    }
+  ],
+  "web": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r17/art/opening/web/scene-03m-v1.webp",
+  "webSha256": "4bda9eb877f8a753d8d924154cb76dcba2ba942e1aa397cad6a91395b046e57f",
+  "reviewStatus": "root independently visually reviewed: PASS; user approval pending",
+  "visualReview": "Agent visual pass. Recovered from builtin generated_images directory after aborted parallel call. Association with submitted scene prompt/reference inferred from unique matching content and timing; exact returned tool-output association UNVERIFIED. Root authorized recovered candidate use with disclosure.",
+  "createdAt": "2026-10-02T18:00:01.984372+00:00",
+  "provenanceAssociation": "inferred/unverified; exact submitted batch prompt saved, native tool artifact preserved",
+  "userReview": "pending"
+}

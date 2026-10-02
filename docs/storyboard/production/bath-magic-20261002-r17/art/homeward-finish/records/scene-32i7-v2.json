@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "id": "scene-32i7",
+  "version": "v2",
+  "tool": "image_gen__imagegen",
+  "master": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r17/art/homeward-finish/masters/scene-32i7-v2.png",
+  "masterSha256": "19149bc740169e32ebd88daf1347aad709a47e94abb642c7868380c533d55e5d",
+  "dimensions": [
+    1536,
+    1024
+  ],
+  "native": {
+    "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r17/art/homeward-finish/masters/scene-32i7-v2.png",
+    "sha256": "19149bc740169e32ebd88daf1347aad709a47e94abb642c7868380c533d55e5d",
+    "bytes": 2882258
+  },
+  "web": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r17/art/homeward-finish/web/scene-32i7-v2.webp",
+  "webSha256": "31a2ad4295e75f8a1ba08ff12f5e757be19f03beb951766c1f97ce55cf6b72de",
+  "prompt": {
+    "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r17/art/homeward-finish/prompts/scene-32i7-v2.txt",
+    "sha256": "497dd3d8eb46bb230801273685b3608ebc7892853c2a9ddbc63f813468395113",
+    "bytes": 1546
+  },
+  "exactPrompt": "Use case: precise-object-edit. Image1 is the nearly finished scene to correct. Image2 is ONLY the canonical house hardware/door geometry reference. Make a narrow architectural continuity repair on the FRONT DOOR AREA of image1. As seen from OUTSIDE, the green door is HINGED ON THE RIGHT jamb (facade-right), exactly like image2; the opened green door leaf therefore sits at the RIGHT side of the doorway, with knob on its free edge opposite the hinges. Restore the left jamb as plain continuous wood; remove the wrongly left-hinged green door leaf there. The wall lantern also belongs on facade-RIGHT beside the door, as in image2, not facade-left. Keep the same central doorway size and two round facade windows, no new window in door, no new exterior opening. Preserve the four hedgehogs' exact faces, body sizes, positions and eye contact, full dog size and pose, riders in same order (PinPin front, Papa behind), both secured gutter bundles and blue-striped cloth/basket, camera composition, roof/plants, golden lighting and wet glint ONLY inside threshold. Mama still welcomes them and supports the DISTINCT infant snugly; if her previously door-touching hand needs changing, let it help support infant against her body rather than making a stretched arm or third hand. Door open sufficiently to keep Mama and infant visible. Do NOT mirror the whole image, move dog, swap characters or copy the unloading action from image2. Only correct door handedness and adjacent lantern and the minimum local hand/background adjustment needed. No text.",
+  "references": [
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r17/art/homeward-finish/masters/scene-32i7-v1.png",
+      "sha256": "6fd9d10307aabbfb6d2bf1607f2ea2907e23e038ef0dc4fb64b6f6a68f0b60e2",
+      "bytes": 2974659
+    },
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r17/art/homeward-finish/references/scene-32j-v3.png",
+      "sha256": "5fa2da5fa1d7cc9700d167498849f6bd0a5ab0fb57416c94c592b26285c073a6",
+      "bytes": 2820014
+    }
+  ],
+  "toolArguments": {
+    "prompt": "Use case: precise-object-edit. Image1 is the nearly finished scene to correct. Image2 is ONLY the canonical house hardware/door geometry reference. Make a narrow architectural continuity repair on the FRONT DOOR AREA of image1. As seen from OUTSIDE, the green door is HINGED ON THE RIGHT jamb (facade-right), exactly like image2; the opened green door leaf therefore sits at the RIGHT side of the doorway, with knob on its free edge opposite the hinges. Restore the left jamb as plain continuous wood; remove the wrongly left-hinged green door leaf there. The wall lantern also belongs on facade-RIGHT beside the door, as in image2, not facade-left. Keep the same central doorway size and two round facade windows, no new window in door, no new exterior opening. Preserve the four hedgehogs' exact faces, body sizes, positions and eye contact, full dog size and pose, riders in same order (PinPin front, Papa behind), both secured gutter bundles and blue-striped cloth/basket, camera composition, roof/plants, golden lighting and wet glint ONLY inside threshold. Mama still welcomes them and supports the DISTINCT infant snugly; if her previously door-touching hand needs changing, let it help support infant against her body rather than making a stretched arm or third hand. Door open sufficiently to keep Mama and infant visible. Do NOT mirror the whole image, move dog, swap characters or copy the unloading action from image2. Only correct door handedness and adjacent lantern and the minimum local hand/background adjustment needed. No text.",
+    "referenced_image_paths": [
+      "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r17/art/homeward-finish/masters/scene-32i7-v1.png",
+      "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r17/art/homeward-finish/references/scene-32j-v3.png"
+    ],
+    "transparent_background": false
+  },
+  "originalToolOutput": "/Users/miguel_lemos/.codex/generated_images/01a0fa05-e7a6-7a00-a6f0-fc3a9cc0cc09/exec-e7742bde-aca2-48bf-a699-f5d5dea9906e.png",
+  "artistReview": "pass",
+  "rootReview": "pass",
+  "selected": true,
+  "nativePreservation": "Copied unchanged to Mini SSD; web is format-only derivative",
+  "repair": "Only exterior door hinge and lantern moved to facade-right to match canonical house; original characters and cargo preserved."
+}

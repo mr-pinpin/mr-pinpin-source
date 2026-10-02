@@ -1,0 +1,50 @@
+{
+  "schemaVersion": 1,
+  "id": "scene-04a",
+  "priorR16Number": 5,
+  "version": 1,
+  "tool": "builtin image_gen.imagegen",
+  "native": {
+    "path": "native/scene-04a-v1.png",
+    "sha256": "f8d6120b7dfbc616a1b2e5e85c09e466f5d50e5cf5e42a728b8fd45ccfab9041",
+    "bytes": 2843741,
+    "width": 1536,
+    "height": 1024
+  },
+  "prompt": {
+    "path": "prompts/scene-04a-v1.txt",
+    "sha256": "3a0eb5e616114d529b5f257f2fbce95ae19006bcbc1285f884062c9ba25d622c",
+    "bytes": 1057
+  },
+  "exactPrompt": "Use case: identity-preserve story continuity edit. Image 1 is the exact target and authority for Mama/PinPin/house/lighting. Image 2 supplies only Rabbit's gray-beige cream-faced identity and relative child scale. Image 3 supplies only the tiny infant PomPom's identity, not his pose. Keep PinPin stepping out cheerfully, carrying ONLY the empty wooden bucket on image-left; remove the second bucket on his right completely and relax that paw. Add Rabbit walking beside him on the right of foreground path, both setting out together, natural eye contact. Mama stands in the open doorway, warmly watching them while cradling tiny PomPom securely against her chest with BOTH arms supporting his separate body and bottom; no hand on door, door remains open. Show distinct infant head, torso and limbs, no fused baby/Mama or extra arms. Preserve all approved faces, solid green arched door without inset window, two round windows, stone/wood facade, plants, morning light, cinematic warm illustrated style. No other characters, no text, no more than ONE bucket.",
+  "inputs": [
+    {
+      "path": "references/scene-04a.webp",
+      "sha256": "8a95a24193265171d5d90a21f675427afa0b7003aa91354f87aa278bfa5c206b",
+      "bytes": 576888
+    },
+    {
+      "path": "references/scene-04b.webp",
+      "sha256": "f945f4802de940f91dc6a78a2a5e7bc5d8e7b3239e3fdb3a883f56c73ebd7b3d",
+      "bytes": 533046
+    },
+    {
+      "path": "references/scene-05d.webp",
+      "sha256": "08749a8c77532de41f362eb3aa889539760e3107f09b49913d56f1e2226e854c",
+      "bytes": 573764
+    }
+  ],
+  "toolArguments": {
+    "referenced_image_paths": [
+      "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r17/art/opening-edits/references/scene-04a.webp",
+      "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r17/art/opening-edits/references/scene-04b.webp",
+      "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r17/art/opening-edits/references/scene-05d.webp"
+    ],
+    "transparent_background": false
+  },
+  "sourceOutputPath": "/Users/miguel_lemos/.codex/generated_images/01a0fa05-e7a6-7a00-a6f0-fc3a9cc0cc09/exec-befecf69-35a2-439d-b589-cc856f628e42.png",
+  "artistReview": "pass",
+  "rootReview": "pass",
+  "selected": true,
+  "outputHandling": "Native PNG copied unchanged; no raster edits outside builtin"
+}
