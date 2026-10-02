@@ -1,0 +1,436 @@
+{
+  "job": {
+    "id": "job-bd7736ed08e44ccd9302",
+    "kind": "illustration",
+    "status": "completed",
+    "chapterId": "bath-magic-r17",
+    "sceneIds": [
+      "scene-05f1"
+    ],
+    "entityId": null,
+    "instruction": "R18 rabbit closure beat. Follow this saved scene script, camera and cast. Keep approved house front, large Scooby identity, Papa and PinPin. Rabbit briefly returns the forgotten leaf boats, greets Scooby, then waves goodbye to return boats to the stream. Scooby stays with Papa and goes home; bucket remains inside from05d. No harnesses. Exact current scene action: Outside canonical front threshold: Rabbit returns holding two leaf boats; PinPin greets him, Scooby lowers nose attentively, Papa guides full-size dog. Single full bucket remains inside, never duplicated.",
+    "prompt": "Mr. PinPin production handoff v1\nUse the active Codex agent's built-in image tool; this queue does not call an external paid API.\nInspect all role-assigned references before generation. Preserve approved identities, relative scale,\nroom/door/window geography, gaze and physical contact. Use warm dimensional book rendering.\nShow real actions and varied cameras; no forced manic smiles or fatigue. Respect causal setup,\nattempt, consequence, family reaction and earned payoff. Preserve approved originals; edit a pristine\ninput rather than repeatedly degrading a derivative. Keep native output, exact ACTUAL submitted\nprompt, actual reference hashes, and candidate review separately from this planned handoff.\nNever automatically publish or silently replace selected artwork.\n\nRequested work:\nR18 rabbit closure beat. Follow this saved scene script, camera and cast. Keep approved house front, large Scooby identity, Papa and PinPin. Rabbit briefly returns the forgotten leaf boats, greets Scooby, then waves goodbye to return boats to the stream. Scooby stays with Papa and goes home; bucket remains inside from05d. No harnesses. Exact current scene action: Outside canonical front threshold: Rabbit returns holding two leaf boats; PinPin greets him, Scooby lowers nose attentively, Papa guides full-size dog. Single full bucket remains inside, never duplicated.\n\nBound snapshot:\n{\n  \"chapterId\": \"bath-magic-r17\",\n  \"scenes\": [\n    {\n      \"id\": \"scene-05f1\",\n      \"title\": \"Rabbit returns\",\n      \"captions\": {\n        \"en\": [\n          \"Rabbit came back with the leaf boats. \u201cYou left yours!\u201d Scooby lowered his nose to say hello.\"\n        ],\n        \"ru\": [\n          \"\u041a\u0440\u043e\u043b\u0438\u043a \u0432\u0435\u0440\u043d\u0443\u043b\u0441\u044f \u0441 \u043a\u043e\u0440\u0430\u0431\u043b\u0438\u043a\u0430\u043c\u0438 \u0438\u0437 \u043b\u0438\u0441\u0442\u044c\u0435\u0432. \u00ab\u0422\u044b \u0437\u0430\u0431\u044b\u043b \u0441\u0432\u043e\u0439!\u00bb \u0421\u043a\u0443\u0431\u0438 \u043e\u043f\u0443\u0441\u0442\u0438\u043b \u043d\u043e\u0441, \u0447\u0442\u043e\u0431\u044b \u043f\u043e\u0437\u0434\u043e\u0440\u043e\u0432\u0430\u0442\u044c\u0441\u044f.\"\n        ],\n        \"es\": [\n          \"El conejo volvi\u00f3 con los barquitos de hojas. \u00ab\u00a1Te dejaste el tuyo!\u00bb Scooby baj\u00f3 el hocico para saludar.\"\n        ]\n      },\n      \"action\": \"Outside canonical front threshold: Rabbit returns holding two leaf boats; PinPin greets him, Scooby lowers nose attentively, Papa guides full-size dog. Single full bucket remains inside, never duplicated.\",\n      \"dependsOn\": [\n        \"scene-05f\"\n      ],\n      \"castIds\": [\n        \"pinpin\",\n        \"papa\",\n        \"rabbit\",\n        \"scooby\"\n      ],\n      \"locationId\": \"house\",\n      \"propIds\": [\n        \"bucket\",\n        \"leaf-boats\"\n      ],\n      \"camera\": {\n        \"position\": \"Exterior front threshold\",\n        \"height\": \"PinPin eye level\",\n        \"yaw\": null,\n        \"pitch\": null,\n        \"fov\": null,\n        \"gaze\": \"Scooby nose toward Rabbit; PinPin eye contact with friend\"\n      },\n      \"stateBefore\": \"One full bucket indoors; Rabbit carries two leaf boats.\",\n      \"stateAfter\": \"Rabbit leaves toward stream; Scooby remains with Papa.\",\n      \"tempo\": {\n        \"activity\": 2,\n        \"comedy\": 2,\n        \"discovery\": 1\n      },\n      \"tempoBasis\": {\n        \"proposed\": true,\n        \"rubric\": \"R18 editorial proposal, low/medium/high\"\n      },\n      \"imageAssetId\": null,\n      \"status\": \"planned\",\n      \"number\": 31\n    }\n  ],\n  \"entities\": [\n    {\n      \"id\": \"bucket\",\n      \"name\": \"Water bucket\",\n      \"kind\": \"prop\",\n      \"identity\": \"PinPin fetches ONE bucket. Papa introduces another later at scene20.\",\n      \"scale\": \"\",\n      \"geometry\": \"\",\n      \"referenceIds\": [],\n      \"reviewStatus\": \"user-approved\"\n    },\n    {\n      \"id\": \"house\",\n      \"name\": \"Family house\",\n      \"kind\": \"location\",\n      \"identity\": \"Warm timber and plaster family home.\",\n      \"scale\": \"Scooby occupies much of floor.\",\n      \"geometry\": \"Two round front windows and solid green front door. Kitchen rear/right doors are interior; garden can be behind camera.\",\n      \"referenceIds\": [\n        \"asset-88d74c56a468e3f250b12dbc\",\n        \"asset-fbf70ac4415fbc9e63febdc7\"\n      ],\n      \"reviewStatus\": \"user-approved\"\n    },\n    {\n      \"id\": \"leaf-boats\",\n      \"name\": \"Two leaf boats\",\n      \"kind\": \"prop\",\n      \"identity\": \"The leaf boats PinPin and Rabbit floated at the stream; Rabbit brings them back and carries them away.\",\n      \"referenceIds\": [\n        \"asset-a86e6b63684679b92b1211b9\"\n      ],\n      \"reviewStatus\": \"retained story prop\"\n    },\n    {\n      \"id\": \"papa\",\n      \"name\": \"Papa\",\n      \"kind\": \"character\",\n      \"identity\": \"Adult broad shoulders, short rounded muzzle and button nose, cool quills; no wolf snout.\",\n      \"scale\": \"Clearly larger than PinPin\",\n      \"geometry\": \"\",\n      \"referenceIds\": [\n        \"asset-88d74c56a468e3f250b12dbc\"\n      ],\n      \"reviewStatus\": \"user-approved\"\n    },\n    {\n      \"id\": \"pinpin\",\n      \"name\": \"Mr. PinPin\",\n      \"kind\": \"character\",\n      \"identity\": \"Child hedgehog; rounded dimensional face, visible eye irises, golden quill. Not the infant.\",\n      \"scale\": \"About half Papa standing height\",\n      \"geometry\": \"\",\n      \"referenceIds\": [\n        \"asset-88d74c56a468e3f250b12dbc\"\n      ],\n      \"reviewStatus\": \"user-approved\"\n    },\n    {\n      \"id\": \"rabbit\",\n      \"name\": \"Rabbit\",\n      \"kind\": \"character\",\n      \"identity\": \"Use published Rabbit identity; simple concrete dialogue for four-year-olds.\",\n      \"scale\": \"\",\n      \"geometry\": \"\",\n      \"referenceIds\": [\n        \"asset-f945f4802de940f91dc6a78a\"\n      ],\n      \"reviewStatus\": \"user-approved\"\n    },\n    {\n      \"id\": \"scooby\",\n      \"name\": \"Scooby\",\n      \"kind\": \"character\",\n      \"identity\": \"Brown short coat, curled tail, somewhat long ears, attentive book-style eyes.\",\n      \"scale\": \"Withers near standing Papa head; broad enough for Papa and PinPin to ride.\",\n      \"geometry\": \"\",\n      \"referenceIds\": [\n        \"asset-496b4f5dd35b520c54fce130\"\n      ],\n      \"reviewStatus\": \"user-approved\"\n    }\n  ],\n  \"bookContinuity\": \"Six current magical complications: endless water, flowers, talking duck, twelve ducks, giant plant, bubbles. The historical twelve-challenge outline is superseded. See lessons.json for spatial, character and production rules.\",\n  \"references\": [\n    {\n      \"assetId\": \"asset-88d74c56a468e3f250b12dbc\",\n      \"role\": \"location-identity\",\n      \"roles\": [\n        \"location-identity\",\n        \"character-identity\",\n        \"book-style\"\n      ],\n      \"entityIds\": [\n        \"house\",\n        \"papa\",\n        \"pinpin\"\n      ],\n      \"sha256\": \"88d74c56a468e3f250b12dbcb5ecdb7b07bd1d789197663d8948ac199acd133d\",\n      \"name\": \"reference-family\",\n      \"url\": \"/api/assets/asset-88d74c56a468e3f250b12dbc\",\n      \"path\": \"/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-data/assets/88d74c56a468e3f250b12dbcb5ecdb7b07bd1d789197663d8948ac199acd133d.webp\",\n      \"reviewStatus\": \"user-approved\"\n    },\n    {\n      \"assetId\": \"asset-fbf70ac4415fbc9e63febdc7\",\n      \"role\": \"location-identity\",\n      \"roles\": [\n        \"location-identity\"\n      ],\n      \"entityIds\": [\n        \"house\"\n      ],\n      \"sha256\": \"fbf70ac4415fbc9e63febdc756af4a512ee9b7cd29e693fa4423e65608178184\",\n      \"name\": \"reference-kitchen-panorama\",\n      \"url\": \"/api/assets/asset-fbf70ac4415fbc9e63febdc7\",\n      \"path\": \"/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-data/assets/fbf70ac4415fbc9e63febdc756af4a512ee9b7cd29e693fa4423e65608178184.png\",\n      \"reviewStatus\": \"user-approved\"\n    },\n    {\n      \"assetId\": \"asset-a86e6b63684679b92b1211b9\",\n      \"role\": \"prop-geometry\",\n      \"roles\": [\n        \"prop-geometry\"\n      ],\n      \"entityIds\": [\n        \"leaf-boats\"\n      ],\n      \"sha256\": \"a86e6b63684679b92b1211b97b3cf41926613a3894dabaaef5c4a8d08c996c49\",\n      \"name\": \"r17-scene-05b\",\n      \"url\": \"/api/assets/asset-a86e6b63684679b92b1211b9\",\n      \"path\": \"/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-data/assets/a86e6b63684679b92b1211b97b3cf41926613a3894dabaaef5c4a8d08c996c49.webp\",\n      \"reviewStatus\": \"agent-reviewed\"\n    },\n    {\n      \"assetId\": \"asset-f945f4802de940f91dc6a78a\",\n      \"role\": \"character-identity\",\n      \"roles\": [\n        \"character-identity\"\n      ],\n      \"entityIds\": [\n        \"rabbit\"\n      ],\n      \"sha256\": \"f945f4802de940f91dc6a78a2a5e7bc5d8e7b3239e3fdb3a883f56c73ebd7b3d\",\n      \"name\": \"reference-rabbit\",\n      \"url\": \"/api/assets/asset-f945f4802de940f91dc6a78a\",\n      \"path\": \"/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-data/assets/f945f4802de940f91dc6a78a2a5e7bc5d8e7b3239e3fdb3a883f56c73ebd7b3d.webp\",\n      \"reviewStatus\": \"user-approved\"\n    },\n    {\n      \"assetId\": \"asset-496b4f5dd35b520c54fce130\",\n      \"role\": \"character-identity\",\n      \"roles\": [\n        \"character-identity\"\n      ],\n      \"entityIds\": [\n        \"scooby\"\n      ],\n      \"sha256\": \"496b4f5dd35b520c54fce130c4ace6758fc48b1efbabf1b1a06f5cd84aeedbe5\",\n      \"name\": \"reference-scooby\",\n      \"url\": \"/api/assets/asset-496b4f5dd35b520c54fce130\",\n      \"path\": \"/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-data/assets/496b4f5dd35b520c54fce130c4ace6758fc48b1efbabf1b1a06f5cd84aeedbe5.webp\",\n      \"reviewStatus\": \"user-approved\"\n    },\n    {\n      \"assetId\": \"asset-66131fe29408b8eb4acdd947\",\n      \"role\": \"house-dog-papa-continuity\",\n      \"roles\": [\n        \"house-dog-papa-continuity\"\n      ],\n      \"entityIds\": [],\n      \"sha256\": \"66131fe29408b8eb4acdd94745575e363838862b4f44d33f00fcb076a7854bd6\",\n      \"name\": \"r17-scene-05g\",\n      \"url\": \"/api/assets/asset-66131fe29408b8eb4acdd947\",\n      \"path\": \"/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-data/assets/66131fe29408b8eb4acdd94745575e363838862b4f44d33f00fcb076a7854bd6.webp\",\n      \"reviewStatus\": \"agent-reviewed\"\n    }\n  ],\n  \"causalContext\": [\n    {\n      \"id\": \"scene-05f\",\n      \"title\": \"\",\n      \"captions\": {\n        \"en\": [\n          \"\u201cThis way, Scooby!\u201d said Papa. \u201cLet's go home.\u201d\"\n        ],\n        \"ru\": [\n          \"\u2014 \u0421\u044e\u0434\u0430, \u0421\u043a\u0443\u0431\u0438! \u2014 \u0441\u043a\u0430\u0437\u0430\u043b \u041f\u0430\u043f\u0430. \u2014 \u041f\u043e\u0439\u0434\u0451\u043c \u0434\u043e\u043c\u043e\u0439.\"\n        ],\n        \"es\": [\n          \"\u2014\u00a1Por aqu\u00ed, Scooby! \u2014dijo Pap\u00e1\u2014. Volvamos a casa.\"\n        ]\n      },\n      \"action\": \"Enlargedmountscaledog fullbody besidePapa; returningearlybeforebathgag.\",\n      \"stateBefore\": \"\",\n      \"stateAfter\": \"\"\n    },\n    {\n      \"id\": \"scene-05f2\",\n      \"title\": \"Rabbit farewell\",\n      \"captions\": {\n        \"en\": [\n          \"\u201cI\u2019ll take them back to the stream,\u201d said Rabbit. PinPin waved goodbye. Scooby gave one friendly woof.\"\n        ],\n        \"ru\": [\n          \"\u00ab\u042f \u043e\u0442\u043d\u0435\u0441\u0443 \u0438\u0445 \u043e\u0431\u0440\u0430\u0442\u043d\u043e \u043a \u0440\u0443\u0447\u044c\u044e\u00bb, \u2014 \u0441\u043a\u0430\u0437\u0430\u043b \u041a\u0440\u043e\u043b\u0438\u043a. \u041f\u0438\u043d-\u041f\u0438\u043d \u043f\u043e\u043c\u0430\u0445\u0430\u043b \u043d\u0430 \u043f\u0440\u043e\u0449\u0430\u043d\u0438\u0435. \u0421\u043a\u0443\u0431\u0438 \u0434\u0440\u0443\u0436\u0435\u043b\u044e\u0431\u043d\u043e \u0433\u0430\u0432\u043a\u043d\u0443\u043b.\"\n        ],\n        \"es\": [\n          \"\u00abLos llevar\u00e9 de vuelta al arroyo\u00bb, dijo el conejo. PinPin se despidi\u00f3 con la mano. Scooby dio un ladrido amistoso.\"\n        ]\n      },\n      \"action\": \"Same facade and positions; Rabbit turns toward stream with both boats and waves goodbye; PinPin waves, Scooby gives friendly woof, Papa guides dog toward next doorway shot.\",\n      \"stateBefore\": \"One full bucket indoors; Rabbit carries two leaf boats.\",\n      \"stateAfter\": \"Rabbit leaves toward stream; Scooby remains with Papa.\"\n    }\n  ]\n}",
+    "promptSha256": "09f1b7872f4e0749f8fbcce08ffa0e7bab6265d71ac2ae08c4e295d214058d86",
+    "promptPath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-data/jobs/job-bd7736ed08e44ccd9302/handoff-prompt.txt",
+    "referenceBindings": [
+      {
+        "assetId": "asset-88d74c56a468e3f250b12dbc",
+        "role": "location-identity",
+        "roles": [
+          "location-identity",
+          "character-identity",
+          "book-style"
+        ],
+        "entityIds": [
+          "house",
+          "papa",
+          "pinpin"
+        ],
+        "sha256": "88d74c56a468e3f250b12dbcb5ecdb7b07bd1d789197663d8948ac199acd133d",
+        "name": "reference-family",
+        "url": "/api/assets/asset-88d74c56a468e3f250b12dbc",
+        "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-data/assets/88d74c56a468e3f250b12dbcb5ecdb7b07bd1d789197663d8948ac199acd133d.webp",
+        "reviewStatus": "user-approved"
+      },
+      {
+        "assetId": "asset-fbf70ac4415fbc9e63febdc7",
+        "role": "location-identity",
+        "roles": [
+          "location-identity"
+        ],
+        "entityIds": [
+          "house"
+        ],
+        "sha256": "fbf70ac4415fbc9e63febdc756af4a512ee9b7cd29e693fa4423e65608178184",
+        "name": "reference-kitchen-panorama",
+        "url": "/api/assets/asset-fbf70ac4415fbc9e63febdc7",
+        "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-data/assets/fbf70ac4415fbc9e63febdc756af4a512ee9b7cd29e693fa4423e65608178184.png",
+        "reviewStatus": "user-approved"
+      },
+      {
+        "assetId": "asset-a86e6b63684679b92b1211b9",
+        "role": "prop-geometry",
+        "roles": [
+          "prop-geometry"
+        ],
+        "entityIds": [
+          "leaf-boats"
+        ],
+        "sha256": "a86e6b63684679b92b1211b97b3cf41926613a3894dabaaef5c4a8d08c996c49",
+        "name": "r17-scene-05b",
+        "url": "/api/assets/asset-a86e6b63684679b92b1211b9",
+        "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-data/assets/a86e6b63684679b92b1211b97b3cf41926613a3894dabaaef5c4a8d08c996c49.webp",
+        "reviewStatus": "agent-reviewed"
+      },
+      {
+        "assetId": "asset-f945f4802de940f91dc6a78a",
+        "role": "character-identity",
+        "roles": [
+          "character-identity"
+        ],
+        "entityIds": [
+          "rabbit"
+        ],
+        "sha256": "f945f4802de940f91dc6a78a2a5e7bc5d8e7b3239e3fdb3a883f56c73ebd7b3d",
+        "name": "reference-rabbit",
+        "url": "/api/assets/asset-f945f4802de940f91dc6a78a",
+        "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-data/assets/f945f4802de940f91dc6a78a2a5e7bc5d8e7b3239e3fdb3a883f56c73ebd7b3d.webp",
+        "reviewStatus": "user-approved"
+      },
+      {
+        "assetId": "asset-496b4f5dd35b520c54fce130",
+        "role": "character-identity",
+        "roles": [
+          "character-identity"
+        ],
+        "entityIds": [
+          "scooby"
+        ],
+        "sha256": "496b4f5dd35b520c54fce130c4ace6758fc48b1efbabf1b1a06f5cd84aeedbe5",
+        "name": "reference-scooby",
+        "url": "/api/assets/asset-496b4f5dd35b520c54fce130",
+        "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-data/assets/496b4f5dd35b520c54fce130c4ace6758fc48b1efbabf1b1a06f5cd84aeedbe5.webp",
+        "reviewStatus": "user-approved"
+      },
+      {
+        "assetId": "asset-66131fe29408b8eb4acdd947",
+        "role": "house-dog-papa-continuity",
+        "roles": [
+          "house-dog-papa-continuity"
+        ],
+        "entityIds": [],
+        "sha256": "66131fe29408b8eb4acdd94745575e363838862b4f44d33f00fcb076a7854bd6",
+        "name": "r17-scene-05g",
+        "url": "/api/assets/asset-66131fe29408b8eb4acdd947",
+        "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-data/assets/66131fe29408b8eb4acdd94745575e363838862b4f44d33f00fcb076a7854bd6.webp",
+        "reviewStatus": "agent-reviewed"
+      }
+    ],
+    "snapshot": {
+      "chapterId": "bath-magic-r17",
+      "scenes": [
+        {
+          "id": "scene-05f1",
+          "title": "Rabbit returns",
+          "captions": {
+            "en": [
+              "Rabbit came back with the leaf boats. \u201cYou left yours!\u201d Scooby lowered his nose to say hello."
+            ],
+            "ru": [
+              "\u041a\u0440\u043e\u043b\u0438\u043a \u0432\u0435\u0440\u043d\u0443\u043b\u0441\u044f \u0441 \u043a\u043e\u0440\u0430\u0431\u043b\u0438\u043a\u0430\u043c\u0438 \u0438\u0437 \u043b\u0438\u0441\u0442\u044c\u0435\u0432. \u00ab\u0422\u044b \u0437\u0430\u0431\u044b\u043b \u0441\u0432\u043e\u0439!\u00bb \u0421\u043a\u0443\u0431\u0438 \u043e\u043f\u0443\u0441\u0442\u0438\u043b \u043d\u043e\u0441, \u0447\u0442\u043e\u0431\u044b \u043f\u043e\u0437\u0434\u043e\u0440\u043e\u0432\u0430\u0442\u044c\u0441\u044f."
+            ],
+            "es": [
+              "El conejo volvi\u00f3 con los barquitos de hojas. \u00ab\u00a1Te dejaste el tuyo!\u00bb Scooby baj\u00f3 el hocico para saludar."
+            ]
+          },
+          "action": "Outside canonical front threshold: Rabbit returns holding two leaf boats; PinPin greets him, Scooby lowers nose attentively, Papa guides full-size dog. Single full bucket remains inside, never duplicated.",
+          "dependsOn": [
+            "scene-05f"
+          ],
+          "castIds": [
+            "pinpin",
+            "papa",
+            "rabbit",
+            "scooby"
+          ],
+          "locationId": "house",
+          "propIds": [
+            "bucket",
+            "leaf-boats"
+          ],
+          "camera": {
+            "position": "Exterior front threshold",
+            "height": "PinPin eye level",
+            "yaw": null,
+            "pitch": null,
+            "fov": null,
+            "gaze": "Scooby nose toward Rabbit; PinPin eye contact with friend"
+          },
+          "stateBefore": "One full bucket indoors; Rabbit carries two leaf boats.",
+          "stateAfter": "Rabbit leaves toward stream; Scooby remains with Papa.",
+          "tempo": {
+            "activity": 2,
+            "comedy": 2,
+            "discovery": 1
+          },
+          "tempoBasis": {
+            "proposed": true,
+            "rubric": "R18 editorial proposal, low/medium/high"
+          },
+          "imageAssetId": null,
+          "status": "planned",
+          "number": 31
+        }
+      ],
+      "entities": [
+        {
+          "id": "bucket",
+          "name": "Water bucket",
+          "kind": "prop",
+          "identity": "PinPin fetches ONE bucket. Papa introduces another later at scene20.",
+          "scale": "",
+          "geometry": "",
+          "referenceIds": [],
+          "reviewStatus": "user-approved"
+        },
+        {
+          "id": "house",
+          "name": "Family house",
+          "kind": "location",
+          "identity": "Warm timber and plaster family home.",
+          "scale": "Scooby occupies much of floor.",
+          "geometry": "Two round front windows and solid green front door. Kitchen rear/right doors are interior; garden can be behind camera.",
+          "referenceIds": [
+            "asset-88d74c56a468e3f250b12dbc",
+            "asset-fbf70ac4415fbc9e63febdc7"
+          ],
+          "reviewStatus": "user-approved"
+        },
+        {
+          "id": "leaf-boats",
+          "name": "Two leaf boats",
+          "kind": "prop",
+          "identity": "The leaf boats PinPin and Rabbit floated at the stream; Rabbit brings them back and carries them away.",
+          "referenceIds": [
+            "asset-a86e6b63684679b92b1211b9"
+          ],
+          "reviewStatus": "retained story prop"
+        },
+        {
+          "id": "papa",
+          "name": "Papa",
+          "kind": "character",
+          "identity": "Adult broad shoulders, short rounded muzzle and button nose, cool quills; no wolf snout.",
+          "scale": "Clearly larger than PinPin",
+          "geometry": "",
+          "referenceIds": [
+            "asset-88d74c56a468e3f250b12dbc"
+          ],
+          "reviewStatus": "user-approved"
+        },
+        {
+          "id": "pinpin",
+          "name": "Mr. PinPin",
+          "kind": "character",
+          "identity": "Child hedgehog; rounded dimensional face, visible eye irises, golden quill. Not the infant.",
+          "scale": "About half Papa standing height",
+          "geometry": "",
+          "referenceIds": [
+            "asset-88d74c56a468e3f250b12dbc"
+          ],
+          "reviewStatus": "user-approved"
+        },
+        {
+          "id": "rabbit",
+          "name": "Rabbit",
+          "kind": "character",
+          "identity": "Use published Rabbit identity; simple concrete dialogue for four-year-olds.",
+          "scale": "",
+          "geometry": "",
+          "referenceIds": [
+            "asset-f945f4802de940f91dc6a78a"
+          ],
+          "reviewStatus": "user-approved"
+        },
+        {
+          "id": "scooby",
+          "name": "Scooby",
+          "kind": "character",
+          "identity": "Brown short coat, curled tail, somewhat long ears, attentive book-style eyes.",
+          "scale": "Withers near standing Papa head; broad enough for Papa and PinPin to ride.",
+          "geometry": "",
+          "referenceIds": [
+            "asset-496b4f5dd35b520c54fce130"
+          ],
+          "reviewStatus": "user-approved"
+        }
+      ],
+      "bookContinuity": "Six current magical complications: endless water, flowers, talking duck, twelve ducks, giant plant, bubbles. The historical twelve-challenge outline is superseded. See lessons.json for spatial, character and production rules.",
+      "references": [
+        {
+          "assetId": "asset-88d74c56a468e3f250b12dbc",
+          "role": "location-identity",
+          "roles": [
+            "location-identity",
+            "character-identity",
+            "book-style"
+          ],
+          "entityIds": [
+            "house",
+            "papa",
+            "pinpin"
+          ],
+          "sha256": "88d74c56a468e3f250b12dbcb5ecdb7b07bd1d789197663d8948ac199acd133d",
+          "name": "reference-family",
+          "url": "/api/assets/asset-88d74c56a468e3f250b12dbc",
+          "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-data/assets/88d74c56a468e3f250b12dbcb5ecdb7b07bd1d789197663d8948ac199acd133d.webp",
+          "reviewStatus": "user-approved"
+        },
+        {
+          "assetId": "asset-fbf70ac4415fbc9e63febdc7",
+          "role": "location-identity",
+          "roles": [
+            "location-identity"
+          ],
+          "entityIds": [
+            "house"
+          ],
+          "sha256": "fbf70ac4415fbc9e63febdc756af4a512ee9b7cd29e693fa4423e65608178184",
+          "name": "reference-kitchen-panorama",
+          "url": "/api/assets/asset-fbf70ac4415fbc9e63febdc7",
+          "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-data/assets/fbf70ac4415fbc9e63febdc756af4a512ee9b7cd29e693fa4423e65608178184.png",
+          "reviewStatus": "user-approved"
+        },
+        {
+          "assetId": "asset-a86e6b63684679b92b1211b9",
+          "role": "prop-geometry",
+          "roles": [
+            "prop-geometry"
+          ],
+          "entityIds": [
+            "leaf-boats"
+          ],
+          "sha256": "a86e6b63684679b92b1211b97b3cf41926613a3894dabaaef5c4a8d08c996c49",
+          "name": "r17-scene-05b",
+          "url": "/api/assets/asset-a86e6b63684679b92b1211b9",
+          "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-data/assets/a86e6b63684679b92b1211b97b3cf41926613a3894dabaaef5c4a8d08c996c49.webp",
+          "reviewStatus": "agent-reviewed"
+        },
+        {
+          "assetId": "asset-f945f4802de940f91dc6a78a",
+          "role": "character-identity",
+          "roles": [
+            "character-identity"
+          ],
+          "entityIds": [
+            "rabbit"
+          ],
+          "sha256": "f945f4802de940f91dc6a78a2a5e7bc5d8e7b3239e3fdb3a883f56c73ebd7b3d",
+          "name": "reference-rabbit",
+          "url": "/api/assets/asset-f945f4802de940f91dc6a78a",
+          "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-data/assets/f945f4802de940f91dc6a78a2a5e7bc5d8e7b3239e3fdb3a883f56c73ebd7b3d.webp",
+          "reviewStatus": "user-approved"
+        },
+        {
+          "assetId": "asset-496b4f5dd35b520c54fce130",
+          "role": "character-identity",
+          "roles": [
+            "character-identity"
+          ],
+          "entityIds": [
+            "scooby"
+          ],
+          "sha256": "496b4f5dd35b520c54fce130c4ace6758fc48b1efbabf1b1a06f5cd84aeedbe5",
+          "name": "reference-scooby",
+          "url": "/api/assets/asset-496b4f5dd35b520c54fce130",
+          "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-data/assets/496b4f5dd35b520c54fce130c4ace6758fc48b1efbabf1b1a06f5cd84aeedbe5.webp",
+          "reviewStatus": "user-approved"
+        },
+        {
+          "assetId": "asset-66131fe29408b8eb4acdd947",
+          "role": "house-dog-papa-continuity",
+          "roles": [
+            "house-dog-papa-continuity"
+          ],
+          "entityIds": [],
+          "sha256": "66131fe29408b8eb4acdd94745575e363838862b4f44d33f00fcb076a7854bd6",
+          "name": "r17-scene-05g",
+          "url": "/api/assets/asset-66131fe29408b8eb4acdd947",
+          "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-data/assets/66131fe29408b8eb4acdd94745575e363838862b4f44d33f00fcb076a7854bd6.webp",
+          "reviewStatus": "agent-reviewed"
+        }
+      ],
+      "causalContext": [
+        {
+          "id": "scene-05f",
+          "title": "",
+          "captions": {
+            "en": [
+              "\u201cThis way, Scooby!\u201d said Papa. \u201cLet's go home.\u201d"
+            ],
+            "ru": [
+              "\u2014 \u0421\u044e\u0434\u0430, \u0421\u043a\u0443\u0431\u0438! \u2014 \u0441\u043a\u0430\u0437\u0430\u043b \u041f\u0430\u043f\u0430. \u2014 \u041f\u043e\u0439\u0434\u0451\u043c \u0434\u043e\u043c\u043e\u0439."
+            ],
+            "es": [
+              "\u2014\u00a1Por aqu\u00ed, Scooby! \u2014dijo Pap\u00e1\u2014. Volvamos a casa."
+            ]
+          },
+          "action": "Enlargedmountscaledog fullbody besidePapa; returningearlybeforebathgag.",
+          "stateBefore": "",
+          "stateAfter": ""
+        },
+        {
+          "id": "scene-05f2",
+          "title": "Rabbit farewell",
+          "captions": {
+            "en": [
+              "\u201cI\u2019ll take them back to the stream,\u201d said Rabbit. PinPin waved goodbye. Scooby gave one friendly woof."
+            ],
+            "ru": [
+              "\u00ab\u042f \u043e\u0442\u043d\u0435\u0441\u0443 \u0438\u0445 \u043e\u0431\u0440\u0430\u0442\u043d\u043e \u043a \u0440\u0443\u0447\u044c\u044e\u00bb, \u2014 \u0441\u043a\u0430\u0437\u0430\u043b \u041a\u0440\u043e\u043b\u0438\u043a. \u041f\u0438\u043d-\u041f\u0438\u043d \u043f\u043e\u043c\u0430\u0445\u0430\u043b \u043d\u0430 \u043f\u0440\u043e\u0449\u0430\u043d\u0438\u0435. \u0421\u043a\u0443\u0431\u0438 \u0434\u0440\u0443\u0436\u0435\u043b\u044e\u0431\u043d\u043e \u0433\u0430\u0432\u043a\u043d\u0443\u043b."
+            ],
+            "es": [
+              "\u00abLos llevar\u00e9 de vuelta al arroyo\u00bb, dijo el conejo. PinPin se despidi\u00f3 con la mano. Scooby dio un ladrido amistoso."
+            ]
+          },
+          "action": "Same facade and positions; Rabbit turns toward stream with both boats and waves goodbye; PinPin waves, Scooby gives friendly woof, Papa guides dog toward next doorway shot.",
+          "stateBefore": "One full bucket indoors; Rabbit carries two leaf boats.",
+          "stateAfter": "Rabbit leaves toward stream; Scooby remains with Papa."
+        }
+      ]
+    },
+    "projectRevision": 215,
+    "artifacts": [
+      {
+        "id": "artifact-b2fa468dd1ad4e15bfa7",
+        "sceneId": "scene-05f1",
+        "agent": "r18-opening",
+        "createdAt": "2026-10-02T19:25:41.820652+00:00",
+        "reviewStatus": "candidate",
+        "agentVisualPass": true,
+        "toolName": "image_gen__imagegen",
+        "handoffPromptSha256": "09f1b7872f4e0749f8fbcce08ffa0e7bab6265d71ac2ae08c4e295d214058d86",
+        "actualPromptStatus": "recorded",
+        "actualPromptSha256": "474e8b9798adb4f264078603da7e5b918449a97ddd1c466eec8d73063f86a399",
+        "actualReferencesStatus": "recorded",
+        "actualReferenceBindings": [
+          {
+            "assetId": "asset-66131fe29408b8eb4acdd947",
+            "roles": [
+              "house-dog-papa-reference"
+            ],
+            "sha256": "66131fe29408b8eb4acdd94745575e363838862b4f44d33f00fcb076a7854bd6",
+            "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-data/assets/66131fe29408b8eb4acdd94745575e363838862b4f44d33f00fcb076a7854bd6.webp"
+          },
+          {
+            "assetId": "asset-a86e6b63684679b92b1211b9",
+            "roles": [
+              "rabbit-pinpin-leafboat-reference"
+            ],
+            "sha256": "a86e6b63684679b92b1211b97b3cf41926613a3894dabaaef5c4a8d08c996c49",
+            "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-data/assets/a86e6b63684679b92b1211b97b3cf41926613a3894dabaaef5c4a8d08c996c49.webp"
+          },
+          {
+            "assetId": "asset-980acd8539291c82ef5ece69",
+            "roles": [
+              "house-threshold-reference"
+            ],
+            "sha256": "980acd8539291c82ef5ece6970211a31d99679422ff11829fc4f2768c0361cc7",
+            "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-data/assets/980acd8539291c82ef5ece6970211a31d99679422ff11829fc4f2768c0361cc7.webp"
+          }
+        ],
+        "actualPromptPath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-data/jobs/job-bd7736ed08e44ccd9302/artifact-b2fa468dd1ad4e15bfa7-actual-prompt.txt",
+        "type": "image",
+        "assetId": "asset-2ccc67bce211031a0037737b",
+        "sha256": "2ccc67bce211031a0037737bf579281996f61ec085255af1876ec119ea3e9b36",
+        "url": "/api/assets/asset-2ccc67bce211031a0037737b"
+      }
+    ],
+    "feedback": [],
+    "createdAt": "2026-10-02T19:19:20.255272+00:00",
+    "updatedAt": "2026-10-02T19:25:41.830204+00:00",
+    "claimedBy": "r18-opening",
+    "claimedAt": "2026-10-02T19:22:19.364594+00:00",
+    "completedAt": "2026-10-02T19:25:41.830206+00:00"
+  }
+}

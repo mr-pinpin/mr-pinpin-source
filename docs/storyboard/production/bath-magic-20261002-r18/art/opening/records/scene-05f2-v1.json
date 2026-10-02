@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "id": "scene-05f2",
+  "version": "v1",
+  "jobId": "job-92205f924ee4428ca6f0",
+  "tool": "image_gen__imagegen",
+  "master": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r18/art/opening/masters/scene-05f2-v1.png",
+  "masterSha256": "36ec8cc9bca851998835b7ddb287f28e35ac3517c8219ce5724b0067331a4226",
+  "dimensions": [
+    1536,
+    1024
+  ],
+  "web": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r18/art/opening/web/scene-05f2-v1.webp",
+  "webSha256": "4e3617d9f310f994188df952dd2d43c7b860124e37bc216cd0dcfe544caaa019",
+  "exactPrompt": "Use case: illustration-story. Create the NEXT MOMENT after input1, same house/characters/style and morning light. Input1 is the exact continuity authority for positions, sizes, TWO simple cupped green leaf boats and house frontage. Input2 reinforces the approved attentive Scooby face and huge mount-scale body, adult Papa identity and door architecture. Story action: Rabbit says he will take both leaf boats back to the stream, then sets off down the dry forest path toward SCREEN LEFT. Show Rabbit in left foreground mid-hop/step AWAY from the house, natural three-quarter profile glancing back for farewell, holding both small green cupped leaf boats together securely in one paw and waving with the other. Show PinPin, the small rounded hedgehog child, on the threshold RIGHT waving back at Rabbit with actual eye contact. Papa stands beside the opened green door behind/to right of PinPin, one hand holding the door free edge and his other hand making a gentle inviting gesture toward the interior. Scooby stands between Rabbit and doorway, now turning toward Papa/the open door, head upright and alert with a small happy open mouth as if one friendly woof. Distinct clear actions, not four figures looking aimlessly at camera.\nMatch ALL identities, short-haired brown dog with clean modest skull/separatefloppy ears/slim tan muzzle/ONE curled tail at REAR, adult Papa rounded hedgehog taller than child, rabbit cream-gray with tall pink ears. Keep dog huge enough to carry Papa+PinPin, paws grounded naturally on dry path. Exactly four visible characters: Scooby, Papa, PinPin, Rabbit; Mama/infant offscreen inside. The sole full bucket already stays INSIDE out of frame; NO bucket outside. No river or stream visible here; path leads off left toward forest. House is same low stone/timber moss-roof house, TWO round glazed windows, ONE central arched solid-green door hinged on FACADE RIGHT with lantern beside RIGHT jamb, open rightward as reference. No new door window or framebars across open doorway. Medium-wide children's-eye-height camera like image1 but slightly wider to show the departing Rabbit's path and complete feet. Rich warm 3D storybook materials/rendering consistent with reference, calm earned amusement, normal brows. No text, no new props, no aqueduct. Landscape1536x1024.",
+  "prompt": {
+    "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r18/art/opening/prompts/scene-05f2-v1.txt",
+    "sha256": "05e8e961b014d8b25e0346797d54ae15bc35b937159f1a007ac7a55647ef7a45"
+  },
+  "references": [
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r18/art/opening/masters/scene-05f1-v1.png",
+      "sha256": "2ccc67bce211031a0037737bf579281996f61ec085255af1876ec119ea3e9b36",
+      "bytes": 2839484
+    },
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r17/web/scene-05g-b8b914ed98fe.webp",
+      "sha256": "66131fe29408b8eb4acdd94745575e363838862b4f44d33f00fcb076a7854bd6",
+      "bytes": 482918
+    }
+  ],
+  "toolArguments": {
+    "prompt": "Use case: illustration-story. Create the NEXT MOMENT after input1, same house/characters/style and morning light. Input1 is the exact continuity authority for positions, sizes, TWO simple cupped green leaf boats and house frontage. Input2 reinforces the approved attentive Scooby face and huge mount-scale body, adult Papa identity and door architecture. Story action: Rabbit says he will take both leaf boats back to the stream, then sets off down the dry forest path toward SCREEN LEFT. Show Rabbit in left foreground mid-hop/step AWAY from the house, natural three-quarter profile glancing back for farewell, holding both small green cupped leaf boats together securely in one paw and waving with the other. Show PinPin, the small rounded hedgehog child, on the threshold RIGHT waving back at Rabbit with actual eye contact. Papa stands beside the opened green door behind/to right of PinPin, one hand holding the door free edge and his other hand making a gentle inviting gesture toward the interior. Scooby stands between Rabbit and doorway, now turning toward Papa/the open door, head upright and alert with a small happy open mouth as if one friendly woof. Distinct clear actions, not four figures looking aimlessly at camera.\nMatch ALL identities, short-haired brown dog with clean modest skull/separatefloppy ears/slim tan muzzle/ONE curled tail at REAR, adult Papa rounded hedgehog taller than child, rabbit cream-gray with tall pink ears. Keep dog huge enough to carry Papa+PinPin, paws grounded naturally on dry path. Exactly four visible characters: Scooby, Papa, PinPin, Rabbit; Mama/infant offscreen inside. The sole full bucket already stays INSIDE out of frame; NO bucket outside. No river or stream visible here; path leads off left toward forest. House is same low stone/timber moss-roof house, TWO round glazed windows, ONE central arched solid-green door hinged on FACADE RIGHT with lantern beside RIGHT jamb, open rightward as reference. No new door window or framebars across open doorway. Medium-wide children's-eye-height camera like image1 but slightly wider to show the departing Rabbit's path and complete feet. Rich warm 3D storybook materials/rendering consistent with reference, calm earned amusement, normal brows. No text, no new props, no aqueduct. Landscape1536x1024.",
+    "referenced_image_paths": [
+      "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r18/art/opening/masters/scene-05f1-v1.png",
+      "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r17/web/scene-05g-b8b914ed98fe.webp"
+    ],
+    "transparent_background": false
+  },
+  "originalToolOutput": "/Users/miguel_lemos/.codex/generated_images/01a0fa05-e7a6-7a00-a6f0-fc3a9cc0cc09/exec-903a8445-3442-46bf-98aa-857fe0f2b57d.png",
+  "artistReview": "pass",
+  "rootReview": "pass",
+  "selected": true
+}

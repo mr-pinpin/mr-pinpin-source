@@ -1,0 +1,21 @@
+Independent R18 reader verification — final assembled versions — PASS
+2026-10-02
+
+Confirmed assembly explicitly uses opening05g1-v2,05g2-v3 and canal83-v3. No edits made to story, artwork, or reader implementation by this verification.
+
+172 unique story scenes in exact numbered order. New05f1/05f2 follow05f and precede05g. Removed62b is absent; its dialogue/action is merged into63. Four days start at1,103,116,137. All172 captions nonempty in RU,EN,ES. No pending artwork.
+
+All172 scene images and3 localized covers were fetched from the running Mini review server:175 HTTP200 responses,175 exact SHA256 matches against final media manifest,175 successful actual Chrome image decodes with expected dimensions.
+
+Browser tested at1440x1000 and390x844 in each of RU,EN,ES. Each rendered scene ID and paragraph array matches the final story plan exactly. Four day links present. Before/after mode has7 replacement rows,2 new insertion rows, and the3-image merged63 context including previous62b. No horizontal overflow and zero browser page errors. Mobile reader/changes screenshots visually inspected: readable typography, correct flags and no clipped content.
+
+Evidence:
+reader/independent-proof.json (including all175 hashes/URLs/dimensions)
+reader/independent-check.cjs (reproducible browser check)
+reader/independent-reader-1440.png
+reader/independent-reader-390.png
+reader/independent-changes-1440.png
+reader/independent-changes-390.png
+
+Review route on Mini: http://127.0.0.1:18796/storyboard/review/bath-magic-r18.html?lang=ru
+This report verifies the assembled review, not a later public deployment or PDF export.

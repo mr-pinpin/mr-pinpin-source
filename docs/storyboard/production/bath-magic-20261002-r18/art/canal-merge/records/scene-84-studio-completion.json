@@ -1,0 +1,240 @@
+{
+  "job": {
+    "id": "job-1f032598878342bc800c",
+    "kind": "edit",
+    "status": "completed",
+    "chapterId": "bath-magic-r17",
+    "sceneIds": [
+      "scene-84"
+    ],
+    "entityId": null,
+    "instruction": "R18 user-requested correction. Keep the aqueduct wrapping around the bath exactly as the route shown in scene85. Maintain open water channel connection and floor-level supports. Preserve characters, action, tub and camera.",
+    "prompt": "Mr. PinPin production handoff v1\nUse the active Codex agent's built-in image tool; this queue does not call an external paid API.\nInspect all role-assigned references before generation. Preserve approved identities, relative scale,\nroom/door/window geography, gaze and physical contact. Use warm dimensional book rendering.\nShow real actions and varied cameras; no forced manic smiles or fatigue. Respect causal setup,\nattempt, consequence, family reaction and earned payoff. Preserve approved originals; edit a pristine\ninput rather than repeatedly degrading a derivative. Keep native output, exact ACTUAL submitted\nprompt, actual reference hashes, and candidate review separately from this planned handoff.\nNever automatically publish or silently replace selected artwork.\n\nRequested work:\nR18 user-requested correction. Keep the aqueduct wrapping around the bath exactly as the route shown in scene85. Maintain open water channel connection and floor-level supports. Preserve characters, action, tub and camera.\n\nBound snapshot:\n{\n  \"chapterId\": \"bath-magic-r17\",\n  \"scenes\": [\n    {\n      \"id\": \"scene-84\",\n      \"title\": \"\",\n      \"captions\": {\n        \"en\": [\n          \"Mama opened the window. “This way!”\"\n        ],\n        \"ru\": [\n          \"Мама открыла окно. «Сюда!»\"\n        ],\n        \"es\": [\n          \"Mamá abrió la ventana. «¡Por aquí!»\"\n        ]\n      },\n      \"action\": \"\",\n      \"dependsOn\": [\n        \"scene-83\"\n      ],\n      \"dependencyKind\": \"reading-order; refine to causal prerequisites when editing\",\n      \"castIds\": [],\n      \"locationId\": null,\n      \"propIds\": [],\n      \"camera\": {\n        \"position\": \"\",\n        \"height\": \"\",\n        \"yaw\": null,\n        \"pitch\": null,\n        \"fov\": null,\n        \"gaze\": \"\"\n      },\n      \"stateBefore\": \"\",\n      \"stateAfter\": \"\",\n      \"tempo\": {\n        \"activity\": 2,\n        \"comedy\": 2,\n        \"discovery\": 1\n      },\n      \"tempoStatus\": \"inherited editorial annotation by stable ID; not re-scored for R17\",\n      \"imageAssetId\": \"asset-09489dfb992b09a9d806762e\",\n      \"status\": \"agent-reviewed\",\n      \"userReview\": \"pending chapter revision\",\n      \"day\": 4,\n      \"number\": 154,\n      \"tempoBasis\": {\n        \"source\": \"published-tempo-138.json\",\n        \"priorNumber\": 121,\n        \"proposed\": false,\n        \"captionEvidence\": \"Mama opened the window. “This way!”\"\n      }\n    }\n  ],\n  \"entities\": [],\n  \"bookContinuity\": \"Six current magical complications: endless water, flowers, talking duck, twelve ducks, giant plant, bubbles. The historical twelve-challenge outline is superseded. See lessons.json for spatial, character and production rules.\",\n  \"references\": [\n    {\n      \"assetId\": \"asset-88d74c56a468e3f250b12dbc\",\n      \"role\": \"book-style\",\n      \"roles\": [\n        \"book-style\"\n      ],\n      \"entityIds\": [],\n      \"sha256\": \"88d74c56a468e3f250b12dbcb5ecdb7b07bd1d789197663d8948ac199acd133d\",\n      \"name\": \"reference-family\",\n      \"url\": \"/api/assets/asset-88d74c56a468e3f250b12dbc\",\n      \"path\": \"/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-data/assets/88d74c56a468e3f250b12dbcb5ecdb7b07bd1d789197663d8948ac199acd133d.webp\",\n      \"reviewStatus\": \"user-approved\"\n    },\n    {\n      \"assetId\": \"asset-09489dfb992b09a9d806762e\",\n      \"role\": \"current-scene\",\n      \"roles\": [\n        \"current-scene\",\n        \"edit-target\"\n      ],\n      \"entityIds\": [],\n      \"sha256\": \"09489dfb992b09a9d806762e98f694975a32e8d365a3692cf0f7583ca199c73b\",\n      \"name\": \"r17-scene-84\",\n      \"url\": \"/api/assets/asset-09489dfb992b09a9d806762e\",\n      \"path\": \"/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-data/assets/09489dfb992b09a9d806762e98f694975a32e8d365a3692cf0f7583ca199c73b.webp\",\n      \"reviewStatus\": \"agent-reviewed\"\n    },\n    {\n      \"assetId\": \"asset-8f0fe04a3218457adc0d37e2\",\n      \"role\": \"canal-layout\",\n      \"roles\": [\n        \"canal-layout\"\n      ],\n      \"entityIds\": [],\n      \"sha256\": \"8f0fe04a3218457adc0d37e2f0d43244b7f15b60af9cbd3c4e3d4a8fab0f3813\",\n      \"name\": \"r17-scene-85\",\n      \"url\": \"/api/assets/asset-8f0fe04a3218457adc0d37e2\",\n      \"path\": \"/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-data/assets/8f0fe04a3218457adc0d37e2f0d43244b7f15b60af9cbd3c4e3d4a8fab0f3813.webp\",\n      \"reviewStatus\": \"agent-reviewed\"\n    }\n  ],\n  \"causalContext\": [\n    {\n      \"id\": \"scene-83\",\n      \"title\": \"\",\n      \"captions\": {\n        \"en\": [\n          \"PinPin jumped. His paw went right past it.\"\n        ],\n        \"ru\": [\n          \"Пин-Пин подпрыгнул. Лапка пролетела мимо.\"\n        ],\n        \"es\": [\n          \"PinPin saltó. Su patita pasó justo al lado.\"\n        ]\n      },\n      \"action\": \"\",\n      \"stateBefore\": \"\",\n      \"stateAfter\": \"\"\n    },\n    {\n      \"id\": \"scene-85\",\n      \"title\": \"\",\n      \"captions\": {\n        \"en\": [\n          \"They waved a towel together. The bubbles sailed outside.\"\n        ],\n        \"ru\": [\n          \"Они вместе махнули полотенцем. Пузыри выплыли наружу.\"\n        ],\n        \"es\": [\n          \"Agitaron una toalla juntos. Las burbujas salieron flotando.\"\n        ]\n      },\n      \"action\": \"\",\n      \"stateBefore\": \"\",\n      \"stateAfter\": \"\"\n    }\n  ]\n}",
+    "promptSha256": "339e7baeac9ba7864e7cf2daf3916307850c7ffa97a65818ce7cae2c4412fdfc",
+    "promptPath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-data/jobs/job-1f032598878342bc800c/handoff-prompt.txt",
+    "referenceBindings": [
+      {
+        "assetId": "asset-88d74c56a468e3f250b12dbc",
+        "role": "book-style",
+        "roles": [
+          "book-style"
+        ],
+        "entityIds": [],
+        "sha256": "88d74c56a468e3f250b12dbcb5ecdb7b07bd1d789197663d8948ac199acd133d",
+        "name": "reference-family",
+        "url": "/api/assets/asset-88d74c56a468e3f250b12dbc",
+        "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-data/assets/88d74c56a468e3f250b12dbcb5ecdb7b07bd1d789197663d8948ac199acd133d.webp",
+        "reviewStatus": "user-approved"
+      },
+      {
+        "assetId": "asset-09489dfb992b09a9d806762e",
+        "role": "current-scene",
+        "roles": [
+          "current-scene",
+          "edit-target"
+        ],
+        "entityIds": [],
+        "sha256": "09489dfb992b09a9d806762e98f694975a32e8d365a3692cf0f7583ca199c73b",
+        "name": "r17-scene-84",
+        "url": "/api/assets/asset-09489dfb992b09a9d806762e",
+        "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-data/assets/09489dfb992b09a9d806762e98f694975a32e8d365a3692cf0f7583ca199c73b.webp",
+        "reviewStatus": "agent-reviewed"
+      },
+      {
+        "assetId": "asset-8f0fe04a3218457adc0d37e2",
+        "role": "canal-layout",
+        "roles": [
+          "canal-layout"
+        ],
+        "entityIds": [],
+        "sha256": "8f0fe04a3218457adc0d37e2f0d43244b7f15b60af9cbd3c4e3d4a8fab0f3813",
+        "name": "r17-scene-85",
+        "url": "/api/assets/asset-8f0fe04a3218457adc0d37e2",
+        "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-data/assets/8f0fe04a3218457adc0d37e2f0d43244b7f15b60af9cbd3c4e3d4a8fab0f3813.webp",
+        "reviewStatus": "agent-reviewed"
+      }
+    ],
+    "snapshot": {
+      "chapterId": "bath-magic-r17",
+      "scenes": [
+        {
+          "id": "scene-84",
+          "title": "",
+          "captions": {
+            "en": [
+              "Mama opened the window. “This way!”"
+            ],
+            "ru": [
+              "Мама открыла окно. «Сюда!»"
+            ],
+            "es": [
+              "Mamá abrió la ventana. «¡Por aquí!»"
+            ]
+          },
+          "action": "",
+          "dependsOn": [
+            "scene-83"
+          ],
+          "dependencyKind": "reading-order; refine to causal prerequisites when editing",
+          "castIds": [],
+          "locationId": null,
+          "propIds": [],
+          "camera": {
+            "position": "",
+            "height": "",
+            "yaw": null,
+            "pitch": null,
+            "fov": null,
+            "gaze": ""
+          },
+          "stateBefore": "",
+          "stateAfter": "",
+          "tempo": {
+            "activity": 2,
+            "comedy": 2,
+            "discovery": 1
+          },
+          "tempoStatus": "inherited editorial annotation by stable ID; not re-scored for R17",
+          "imageAssetId": "asset-09489dfb992b09a9d806762e",
+          "status": "agent-reviewed",
+          "userReview": "pending chapter revision",
+          "day": 4,
+          "number": 154,
+          "tempoBasis": {
+            "source": "published-tempo-138.json",
+            "priorNumber": 121,
+            "proposed": false,
+            "captionEvidence": "Mama opened the window. “This way!”"
+          }
+        }
+      ],
+      "entities": [],
+      "bookContinuity": "Six current magical complications: endless water, flowers, talking duck, twelve ducks, giant plant, bubbles. The historical twelve-challenge outline is superseded. See lessons.json for spatial, character and production rules.",
+      "references": [
+        {
+          "assetId": "asset-88d74c56a468e3f250b12dbc",
+          "role": "book-style",
+          "roles": [
+            "book-style"
+          ],
+          "entityIds": [],
+          "sha256": "88d74c56a468e3f250b12dbcb5ecdb7b07bd1d789197663d8948ac199acd133d",
+          "name": "reference-family",
+          "url": "/api/assets/asset-88d74c56a468e3f250b12dbc",
+          "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-data/assets/88d74c56a468e3f250b12dbcb5ecdb7b07bd1d789197663d8948ac199acd133d.webp",
+          "reviewStatus": "user-approved"
+        },
+        {
+          "assetId": "asset-09489dfb992b09a9d806762e",
+          "role": "current-scene",
+          "roles": [
+            "current-scene",
+            "edit-target"
+          ],
+          "entityIds": [],
+          "sha256": "09489dfb992b09a9d806762e98f694975a32e8d365a3692cf0f7583ca199c73b",
+          "name": "r17-scene-84",
+          "url": "/api/assets/asset-09489dfb992b09a9d806762e",
+          "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-data/assets/09489dfb992b09a9d806762e98f694975a32e8d365a3692cf0f7583ca199c73b.webp",
+          "reviewStatus": "agent-reviewed"
+        },
+        {
+          "assetId": "asset-8f0fe04a3218457adc0d37e2",
+          "role": "canal-layout",
+          "roles": [
+            "canal-layout"
+          ],
+          "entityIds": [],
+          "sha256": "8f0fe04a3218457adc0d37e2f0d43244b7f15b60af9cbd3c4e3d4a8fab0f3813",
+          "name": "r17-scene-85",
+          "url": "/api/assets/asset-8f0fe04a3218457adc0d37e2",
+          "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-data/assets/8f0fe04a3218457adc0d37e2f0d43244b7f15b60af9cbd3c4e3d4a8fab0f3813.webp",
+          "reviewStatus": "agent-reviewed"
+        }
+      ],
+      "causalContext": [
+        {
+          "id": "scene-83",
+          "title": "",
+          "captions": {
+            "en": [
+              "PinPin jumped. His paw went right past it."
+            ],
+            "ru": [
+              "Пин-Пин подпрыгнул. Лапка пролетела мимо."
+            ],
+            "es": [
+              "PinPin saltó. Su patita pasó justo al lado."
+            ]
+          },
+          "action": "",
+          "stateBefore": "",
+          "stateAfter": ""
+        },
+        {
+          "id": "scene-85",
+          "title": "",
+          "captions": {
+            "en": [
+              "They waved a towel together. The bubbles sailed outside."
+            ],
+            "ru": [
+              "Они вместе махнули полотенцем. Пузыри выплыли наружу."
+            ],
+            "es": [
+              "Agitaron una toalla juntos. Las burbujas salieron flotando."
+            ]
+          },
+          "action": "",
+          "stateBefore": "",
+          "stateAfter": ""
+        }
+      ]
+    },
+    "projectRevision": 199,
+    "artifacts": [
+      {
+        "id": "artifact-e1ebddb9dcda46238258",
+        "sceneId": "scene-84",
+        "agent": "r12_papa_round",
+        "createdAt": "2026-10-02T19:20:54.026379+00:00",
+        "reviewStatus": "candidate",
+        "agentVisualPass": true,
+        "toolName": "image_gen__imagegen",
+        "handoffPromptSha256": "339e7baeac9ba7864e7cf2daf3916307850c7ffa97a65818ce7cae2c4412fdfc",
+        "actualPromptStatus": "recorded",
+        "actualPromptSha256": "efb4dcde11d7d91a70acdfcfba4ad5d5c1c58b5a052b42175379ba9d3785aedf",
+        "actualReferencesStatus": "recorded",
+        "actualReferenceBindings": [
+          {
+            "assetId": "asset-09489dfb992b09a9d806762e",
+            "roles": [
+              "edit-target"
+            ],
+            "sha256": "09489dfb992b09a9d806762e98f694975a32e8d365a3692cf0f7583ca199c73b",
+            "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-data/assets/09489dfb992b09a9d806762e98f694975a32e8d365a3692cf0f7583ca199c73b.webp"
+          },
+          {
+            "assetId": "asset-8f0fe04a3218457adc0d37e2",
+            "roles": [
+              "canal-layout"
+            ],
+            "sha256": "8f0fe04a3218457adc0d37e2f0d43244b7f15b60af9cbd3c4e3d4a8fab0f3813",
+            "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-data/assets/8f0fe04a3218457adc0d37e2f0d43244b7f15b60af9cbd3c4e3d4a8fab0f3813.webp"
+          }
+        ],
+        "actualPromptPath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-data/jobs/job-1f032598878342bc800c/artifact-e1ebddb9dcda46238258-actual-prompt.txt",
+        "type": "image",
+        "assetId": "asset-a65e99f2899192a78f9ceac3",
+        "sha256": "a65e99f2899192a78f9ceac3c8c4da286fa48547c54a4ee6c0562ee4812f92ae",
+        "url": "/api/assets/asset-a65e99f2899192a78f9ceac3"
+      }
+    ],
+    "feedback": [],
+    "createdAt": "2026-10-02T19:13:49.390868+00:00",
+    "updatedAt": "2026-10-02T19:20:54.035263+00:00",
+    "claimedBy": "r12_papa_round",
+    "claimedAt": "2026-10-02T19:15:19.838464+00:00",
+    "completedAt": "2026-10-02T19:20:54.035264+00:00"
+  }
+}

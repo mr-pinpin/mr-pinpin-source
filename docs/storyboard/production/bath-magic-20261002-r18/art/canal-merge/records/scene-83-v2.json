@@ -1,0 +1,38 @@
+{
+  "id": "scene-83",
+  "version": "v2",
+  "tool": "image_gen__imagegen",
+  "actualToolArguments": {
+    "prompt": "Use case: precise-object-edit. Image1 is the edit target, the jumping-child scene83. Image2 is the APPROVED construction reference scene84 and is authoritative for the gutter geometry. Correct ONLY image1's low curved bath collector. In image1 it is incorrectly a wide loop around the rug, separated from the wooden tub by a broad red rug strip. Remove that outer rug-edge loop completely. Rebuild the SAME snug collector seen in image2: its INNER sidewall follows and nearly TOUCHES the wooden tub's bottom edge along the visible front circumference, directly at the WOODEN BATH BASE, with at most a finger-width clearance. No red rug or floor gap between the wood tub and the inner wall of this collector. Its curve is smaller and further back than image1's current wide loop, behind the jumping PinPin. It must hug the wooden tub, not outline the rug. The little waterfall at the left lip drops straight into this snug low gutter beside the tub; remove the tall stepped dogleg pedestal from image1 and use image2's direct fall into the low bath-base collector. One connected open wooden outlet leaves this snug collector and extends diagonally toward the bottom-left corner in the established direction, crossing over the rug naturally on low supports. No detached segment or end cap at the join. Preserve the exact wooden bathtub diameter and position, existing red rug size and position, entire family identities/poses including the jumping child, Mama holding infant, Papa left, all expressions/hands/feet, floating soap bubble, fountain, background decor, camera and lighting. Correct drainage construction only; do not move the tub, family or rug to disguise the gap. Warm dimensional children's-book illustration unchanged. No text. Landscape1536x1024.",
+    "referenced_image_paths": [
+      "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r18/art/canal-merge/masters/scene-83-v1.png",
+      "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r18/art/canal-merge/masters/scene-84-v1.png"
+    ],
+    "transparent_background": false
+  },
+  "master": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r18/art/canal-merge/masters/scene-83-v2.png",
+  "reviewStatus": "superseded-inlet-step-mismatch",
+  "supersedes": "scene-83-v1",
+  "note": "v1 user rejected; direct reference is user-approved84v1. Collector moved tight to wooden bath base. Original poses preserved.",
+  "masterSha256": "336655673f343e1cbc7b23f18575f000c287ef400ef111b1ad6d69768e3bc37b",
+  "web": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r18/art/canal-merge/web/scene-83-v2.webp",
+  "webSha256": "a559f1813124cd902d502e24aa4e6d6fc8ff8f3408ae83f293dec06abb47eb4b",
+  "promptSha256": "31049869bf4268c0aa0ff84a745d67543a926428c2c22c30b668564ff7fa79bf",
+  "dimensions": [
+    1536,
+    1024
+  ],
+  "references": [
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r18/art/canal-merge/masters/scene-83-v1.png",
+      "sha256": "782afec8d09e3dbab391ea03bb44badd501d415d6e15b5f327624cb610ea50f4"
+    },
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r18/art/canal-merge/masters/scene-84-v1.png",
+      "sha256": "a65e99f2899192a78f9ceac3c8c4da286fa48547c54a4ee6c0562ee4812f92ae"
+    }
+  ],
+  "originalToolNative": "/Users/miguel_lemos/.codex/generated_images/01a0fa0e-884b-7703-be8d-7ace86b986f9/exec-ff6ee750-d113-4968-8d2c-e43777dad0a2.png",
+  "originalToolNativeSha256": "336655673f343e1cbc7b23f18575f000c287ef400ef111b1ad6d69768e3bc37b",
+  "nativeCopyVerified": true
+}

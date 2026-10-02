@@ -1,0 +1,38 @@
+{
+  "id": "scene-83",
+  "version": "v3",
+  "tool": "image_gen__imagegen",
+  "actualToolArguments": {
+    "prompt": "Use case: precise-object-edit. Image1 is the target. Image2 is the approved reference ONLY for how overflowing water lands in the gutter. Make one tiny localized repair in image1: REMOVE the raised little wooden box/step directly underneath the waterfall at the front-left lip of the bathtub. Remove both the raised crosswise top board and its raised vertical wooden sides. Let that waterfall travel uninterrupted from the tub rim down to the water surface inside the LOW curved collector that already hugs the bath base, exactly like the simple open falling stream in image2. The low collector remains continuous and level there, with its existing two LOW side rails only. No elevated little receiving box, no intermediate tier, no raised crossbar across the stream. Preserve image1's now-correct tight curved bath-base collector and its entire connected bottom-left outlet EXACTLY, and all character faces, hands, poses, jumping child, bubbles, bath, room, lighting and camera unchanged. Edit only the few centimeters of extra wood beneath the falling stream and the water landing. Do not move the collector outward onto the rug again. No other changes, no text. Landscape1536x1024.",
+    "referenced_image_paths": [
+      "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r18/art/canal-merge/masters/scene-83-v2.png",
+      "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r18/art/canal-merge/masters/scene-84-v1.png"
+    ],
+    "transparent_background": false
+  },
+  "master": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r18/art/canal-merge/masters/scene-83-v3.png",
+  "reviewStatus": "root-visual-pass-user-pending",
+  "supersedes": "scene-83-v2",
+  "note": "Removed remaining raised inlet step. Water now falls directly into tight bath-base collector as user-approved84.",
+  "masterSha256": "f4919b779e81e06281111fd3990207b2c55a69f3087523e77c392069b171cba5",
+  "web": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r18/art/canal-merge/web/scene-83-v3.webp",
+  "webSha256": "350a551417895de4fcf217a6b763fdf4018975fd7a89e1a59a78f241bfa83a0c",
+  "promptSha256": "f09265a385b1c3a40cf9ae88fd22c7c4e01e4bf03a99437dee551375d3586049",
+  "dimensions": [
+    1536,
+    1024
+  ],
+  "references": [
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r18/art/canal-merge/masters/scene-83-v2.png",
+      "sha256": "336655673f343e1cbc7b23f18575f000c287ef400ef111b1ad6d69768e3bc37b"
+    },
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r18/art/canal-merge/masters/scene-84-v1.png",
+      "sha256": "a65e99f2899192a78f9ceac3c8c4da286fa48547c54a4ee6c0562ee4812f92ae"
+    }
+  ],
+  "originalToolNative": "/Users/miguel_lemos/.codex/generated_images/01a0fa0e-884b-7703-be8d-7ace86b986f9/exec-28a210e8-9196-403a-867f-cf7aa1522f12.png",
+  "originalToolNativeSha256": "f4919b779e81e06281111fd3990207b2c55a69f3087523e77c392069b171cba5",
+  "nativeCopyVerified": true
+}

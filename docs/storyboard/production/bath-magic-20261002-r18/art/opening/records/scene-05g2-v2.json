@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "id": "scene-05g2",
+  "version": "v2",
+  "jobId": "job-09f6868063fd44178a81",
+  "tool": "image_gen__imagegen",
+  "master": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r18/art/opening/masters/scene-05g2-v2.png",
+  "masterSha256": "d8058f73fbcec44f1eb954eaccdd4aedf554060cb24e6df6781d2694344da2f0",
+  "dimensions": [
+    1536,
+    1024
+  ],
+  "web": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r18/art/opening/web/scene-05g2-v2.webp",
+  "webSha256": "a73dfb153218e431a2a199a1f51f004ccfd72a46d2b3160650836760bb229fe7",
+  "exactPrompt": "Use case: precise-object-edit. Image1 is the nearly finished EDIT TARGET. Image2 shows the correct OPEN doorway for continuity ONLY. Make an extremely narrow BACKGROUND repair in image1, in the arched front-door opening ABOVE and BEHIND the dog's head. Remove the invented green vertical and horizontal window bars/crosspieces in that opening: this is an OPEN DOOR with a clear view of softly blurred sunlit outdoor foliage and sky, not a glazed window. Fill the exposed space with outdoor foliage matching image2. Keep the surrounding wooden arch, the opened green door LEAF standing on the LEFT, its hinges/knob, and the two REAL round windows at far left and far right completely unchanged. Most importantly preserve the dog's corrected face, ears, skull, every detail of expression and huge seated body EXACTLY; preserve all four hedgehogs, berry bowl, full bucket, stove, room, floor, lighting and framing unchanged. Do not alter or repaint the dog or family. Only remove the false bars inside the open door behind his head. Landscape1536x1024, no text.",
+  "prompt": {
+    "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r18/art/opening/prompts/scene-05g2-v2.txt",
+    "sha256": "8817439ab1d436959480a8673977a29c34980c66f86e361d7a60ddd539d3cfca"
+  },
+  "references": [
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r18/art/opening/masters/scene-05g2-v1.png",
+      "sha256": "8d5b4e8b3bc92b802a547d10c734a7829055f2b8a12a25a0e2219d69dd0540b5",
+      "bytes": 2518589
+    },
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r18/art/opening/masters/scene-05g1-v1.png",
+      "sha256": "8ad5d9c2236d326ec153bde4f337b046819b4cae146623103055c3121b7aa36e",
+      "bytes": 2533213
+    }
+  ],
+  "toolArguments": {
+    "prompt": "Use case: precise-object-edit. Image1 is the nearly finished EDIT TARGET. Image2 shows the correct OPEN doorway for continuity ONLY. Make an extremely narrow BACKGROUND repair in image1, in the arched front-door opening ABOVE and BEHIND the dog's head. Remove the invented green vertical and horizontal window bars/crosspieces in that opening: this is an OPEN DOOR with a clear view of softly blurred sunlit outdoor foliage and sky, not a glazed window. Fill the exposed space with outdoor foliage matching image2. Keep the surrounding wooden arch, the opened green door LEAF standing on the LEFT, its hinges/knob, and the two REAL round windows at far left and far right completely unchanged. Most importantly preserve the dog's corrected face, ears, skull, every detail of expression and huge seated body EXACTLY; preserve all four hedgehogs, berry bowl, full bucket, stove, room, floor, lighting and framing unchanged. Do not alter or repaint the dog or family. Only remove the false bars inside the open door behind his head. Landscape1536x1024, no text.",
+    "referenced_image_paths": [
+      "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r18/art/opening/masters/scene-05g2-v1.png",
+      "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r18/art/opening/masters/scene-05g1-v1.png"
+    ],
+    "transparent_background": false
+  },
+  "originalToolOutput": "/Users/miguel_lemos/.codex/generated_images/01a0fa05-e7a6-7a00-a6f0-fc3a9cc0cc09/exec-86bb8069-e92d-4ed2-a7c8-7dea9b973eae.png",
+  "artistReview": "pass",
+  "rootReview": "pass-superseded-by-user-feedback",
+  "selected": false
+}

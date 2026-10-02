@@ -1,0 +1,205 @@
+{
+  "job": {
+    "id": "job-06ece63573a74f1690a8",
+    "kind": "edit",
+    "status": "completed",
+    "chapterId": "bath-magic-r17",
+    "sceneIds": [
+      "scene-03g"
+    ],
+    "entityId": null,
+    "instruction": "R18 user-requested correction. Remove Papa\u2019s harness/straps. He never wears a harness. Preserve the pose, family, room, light and illustration style.",
+    "prompt": "Mr. PinPin production handoff v1\nUse the active Codex agent's built-in image tool; this queue does not call an external paid API.\nInspect all role-assigned references before generation. Preserve approved identities, relative scale,\nroom/door/window geography, gaze and physical contact. Use warm dimensional book rendering.\nShow real actions and varied cameras; no forced manic smiles or fatigue. Respect causal setup,\nattempt, consequence, family reaction and earned payoff. Preserve approved originals; edit a pristine\ninput rather than repeatedly degrading a derivative. Keep native output, exact ACTUAL submitted\nprompt, actual reference hashes, and candidate review separately from this planned handoff.\nNever automatically publish or silently replace selected artwork.\n\nRequested work:\nR18 user-requested correction. Remove Papa\u2019s harness/straps. He never wears a harness. Preserve the pose, family, room, light and illustration style.\n\nBound snapshot:\n{\n  \"chapterId\": \"bath-magic-r17\",\n  \"scenes\": [\n    {\n      \"id\": \"scene-03g\",\n      \"title\": \"Papa's morning plan\",\n      \"captions\": {\n        \"en\": [\n          \"\u201cScooby and I are going for a little walk,\u201d said Papa. \u201cHe has some practising to do.\u201d\"\n        ],\n        \"ru\": [\n          \"\u2014 \u041c\u044b \u0441\u043e \u0421\u043a\u0443\u0431\u0438 \u043d\u0435\u043c\u043d\u043e\u0433\u043e \u043f\u043e\u0433\u0443\u043b\u044f\u0435\u043c, \u2014 \u0441\u043a\u0430\u0437\u0430\u043b \u041f\u0430\u043f\u0430. \u2014 \u0415\u043c\u0443 \u0435\u0449\u0451 \u043d\u0430\u0434\u043e \u043f\u043e\u0442\u0440\u0435\u043d\u0438\u0440\u043e\u0432\u0430\u0442\u044c\u0441\u044f.\"\n        ],\n        \"es\": [\n          \"\u2014Scooby y yo vamos a dar un paseo \u2014dijo Pap\u00e1\u2014. Tenemos un poco que practicar.\"\n        ]\n      },\n      \"action\": \"Medium Papa addressing family while moving to actual front door, not interior bedroom/bath door; no dog miniaturized indoors.\",\n      \"dependsOn\": [\n        \"scene-03f\"\n      ],\n      \"dependencyKind\": \"reading-order; refine to causal prerequisites when editing\",\n      \"castIds\": [],\n      \"locationId\": null,\n      \"propIds\": [],\n      \"camera\": {\n        \"position\": \"Medium Papa addressing family while moving to actual front door, not interior bedroom/bath door; no dog miniaturized indoors.\",\n        \"height\": \"\",\n        \"yaw\": null,\n        \"pitch\": null,\n        \"fov\": null,\n        \"gaze\": \"\"\n      },\n      \"stateBefore\": \"\",\n      \"stateAfter\": \"\",\n      \"tempo\": {\n        \"activity\": 2,\n        \"comedy\": 1,\n        \"discovery\": 1\n      },\n      \"tempoStatus\": \"proposed R17 editorial rating; user review pending\",\n      \"imageAssetId\": \"asset-90cf531a30e133b1a87a0912\",\n      \"status\": \"agent-reviewed\",\n      \"userReview\": \"pending chapter revision\",\n      \"day\": 1,\n      \"number\": 10,\n      \"tempoBasis\": {\n        \"proposed\": true,\n        \"captionEvidence\": \"\u201cScooby and I are going for a little walk,\u201d said Papa. \u201cHe has some practising to do.\u201d\",\n        \"rubric\": \"1 low, 2 medium, 3 high; ordinal categories, not runtime or observed response\"\n      }\n    }\n  ],\n  \"entities\": [],\n  \"bookContinuity\": \"Six current magical complications: endless water, flowers, talking duck, twelve ducks, giant plant, bubbles. The historical twelve-challenge outline is superseded. See lessons.json for spatial, character and production rules.\",\n  \"references\": [\n    {\n      \"assetId\": \"asset-88d74c56a468e3f250b12dbc\",\n      \"role\": \"book-style\",\n      \"roles\": [\n        \"book-style\"\n      ],\n      \"entityIds\": [],\n      \"sha256\": \"88d74c56a468e3f250b12dbcb5ecdb7b07bd1d789197663d8948ac199acd133d\",\n      \"name\": \"reference-family\",\n      \"url\": \"/api/assets/asset-88d74c56a468e3f250b12dbc\",\n      \"path\": \"/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-data/assets/88d74c56a468e3f250b12dbcb5ecdb7b07bd1d789197663d8948ac199acd133d.webp\",\n      \"reviewStatus\": \"user-approved\"\n    },\n    {\n      \"assetId\": \"asset-90cf531a30e133b1a87a0912\",\n      \"role\": \"current-scene\",\n      \"roles\": [\n        \"current-scene\",\n        \"edit-target\"\n      ],\n      \"entityIds\": [],\n      \"sha256\": \"90cf531a30e133b1a87a0912f668d91b6bfeb6e399f7242fc64dbe60a0d942d1\",\n      \"name\": \"r17-scene-03g\",\n      \"url\": \"/api/assets/asset-90cf531a30e133b1a87a0912\",\n      \"path\": \"/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-data/assets/90cf531a30e133b1a87a0912f668d91b6bfeb6e399f7242fc64dbe60a0d942d1.webp\",\n      \"reviewStatus\": \"agent-reviewed\"\n    }\n  ],\n  \"causalContext\": [\n    {\n      \"id\": \"scene-03f\",\n      \"title\": \"One more roll\",\n      \"captions\": {\n        \"en\": [\n          \"Back it went\u2014to PomPom! He hugged the ball, and Mama laughed.\"\n        ],\n        \"ru\": [\n          \"\u041c\u044f\u0447\u0438\u043a \u043f\u043e\u043a\u0430\u0442\u0438\u043b\u0441\u044f \u043e\u0431\u0440\u0430\u0442\u043d\u043e \u2014 \u043f\u0440\u044f\u043c\u043e \u043a \u041f\u043e\u043c-\u041f\u043e\u043c\u0443! \u041e\u043d \u043e\u0431\u043d\u044f\u043b \u043c\u044f\u0447\u0438\u043a, \u0430 \u041c\u0430\u043c\u0430 \u0437\u0430\u0441\u043c\u0435\u044f\u043b\u0430\u0441\u044c.\"\n        ],\n        \"es\": [\n          \"La pelota volvi\u00f3\u2026 \u00a1hasta PomPom! La abraz\u00f3 y Mam\u00e1 se rio.\"\n        ]\n      },\n      \"action\": \"Reverse over PinPin shoulder, baby hugging large cloth ball; Mama steadies baby; restrained earned laughter after small surprise.\",\n      \"stateBefore\": \"\",\n      \"stateAfter\": \"\"\n    },\n    {\n      \"id\": \"scene-03h\",\n      \"title\": \"A very large waiting friend\",\n      \"captions\": {\n        \"en\": [\n          \"Outside, Scooby lowered his big nose to Papa. His tail was already going round.\"\n        ],\n        \"ru\": [\n          \"\u0421\u043d\u0430\u0440\u0443\u0436\u0438 \u0421\u043a\u0443\u0431\u0438 \u043e\u043f\u0443\u0441\u0442\u0438\u043b \u043a \u041f\u0430\u043f\u0435 \u0431\u043e\u043b\u044c\u0448\u043e\u0439 \u043d\u043e\u0441. \u0425\u0432\u043e\u0441\u0442 \u0443\u0436\u0435 \u0445\u043e\u0434\u0438\u043b \u0445\u043e\u0434\u0443\u043d\u043e\u043c.\"\n        ],\n        \"es\": [\n          \"Fuera, Scooby baj\u00f3 su gran hocico hacia Pap\u00e1. La cola ya se le mov\u00eda sin parar.\"\n        ]\n      },\n      \"action\": \"Exterior two round windows/green middle door. Full adult Papa and dog share ground plane, canonical mount-sized Scooby; dog nose lowers to Papa.\",\n      \"stateBefore\": \"\",\n      \"stateAfter\": \"\"\n    }\n  ]\n}",
+    "promptSha256": "67abdaff142e5c56528347f6d8668648f38f275a8f7d12ff780438979d8a0608",
+    "promptPath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-data/jobs/job-06ece63573a74f1690a8/handoff-prompt.txt",
+    "referenceBindings": [
+      {
+        "assetId": "asset-88d74c56a468e3f250b12dbc",
+        "role": "book-style",
+        "roles": [
+          "book-style"
+        ],
+        "entityIds": [],
+        "sha256": "88d74c56a468e3f250b12dbcb5ecdb7b07bd1d789197663d8948ac199acd133d",
+        "name": "reference-family",
+        "url": "/api/assets/asset-88d74c56a468e3f250b12dbc",
+        "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-data/assets/88d74c56a468e3f250b12dbcb5ecdb7b07bd1d789197663d8948ac199acd133d.webp",
+        "reviewStatus": "user-approved"
+      },
+      {
+        "assetId": "asset-90cf531a30e133b1a87a0912",
+        "role": "current-scene",
+        "roles": [
+          "current-scene",
+          "edit-target"
+        ],
+        "entityIds": [],
+        "sha256": "90cf531a30e133b1a87a0912f668d91b6bfeb6e399f7242fc64dbe60a0d942d1",
+        "name": "r17-scene-03g",
+        "url": "/api/assets/asset-90cf531a30e133b1a87a0912",
+        "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-data/assets/90cf531a30e133b1a87a0912f668d91b6bfeb6e399f7242fc64dbe60a0d942d1.webp",
+        "reviewStatus": "agent-reviewed"
+      }
+    ],
+    "snapshot": {
+      "chapterId": "bath-magic-r17",
+      "scenes": [
+        {
+          "id": "scene-03g",
+          "title": "Papa's morning plan",
+          "captions": {
+            "en": [
+              "\u201cScooby and I are going for a little walk,\u201d said Papa. \u201cHe has some practising to do.\u201d"
+            ],
+            "ru": [
+              "\u2014 \u041c\u044b \u0441\u043e \u0421\u043a\u0443\u0431\u0438 \u043d\u0435\u043c\u043d\u043e\u0433\u043e \u043f\u043e\u0433\u0443\u043b\u044f\u0435\u043c, \u2014 \u0441\u043a\u0430\u0437\u0430\u043b \u041f\u0430\u043f\u0430. \u2014 \u0415\u043c\u0443 \u0435\u0449\u0451 \u043d\u0430\u0434\u043e \u043f\u043e\u0442\u0440\u0435\u043d\u0438\u0440\u043e\u0432\u0430\u0442\u044c\u0441\u044f."
+            ],
+            "es": [
+              "\u2014Scooby y yo vamos a dar un paseo \u2014dijo Pap\u00e1\u2014. Tenemos un poco que practicar."
+            ]
+          },
+          "action": "Medium Papa addressing family while moving to actual front door, not interior bedroom/bath door; no dog miniaturized indoors.",
+          "dependsOn": [
+            "scene-03f"
+          ],
+          "dependencyKind": "reading-order; refine to causal prerequisites when editing",
+          "castIds": [],
+          "locationId": null,
+          "propIds": [],
+          "camera": {
+            "position": "Medium Papa addressing family while moving to actual front door, not interior bedroom/bath door; no dog miniaturized indoors.",
+            "height": "",
+            "yaw": null,
+            "pitch": null,
+            "fov": null,
+            "gaze": ""
+          },
+          "stateBefore": "",
+          "stateAfter": "",
+          "tempo": {
+            "activity": 2,
+            "comedy": 1,
+            "discovery": 1
+          },
+          "tempoStatus": "proposed R17 editorial rating; user review pending",
+          "imageAssetId": "asset-90cf531a30e133b1a87a0912",
+          "status": "agent-reviewed",
+          "userReview": "pending chapter revision",
+          "day": 1,
+          "number": 10,
+          "tempoBasis": {
+            "proposed": true,
+            "captionEvidence": "\u201cScooby and I are going for a little walk,\u201d said Papa. \u201cHe has some practising to do.\u201d",
+            "rubric": "1 low, 2 medium, 3 high; ordinal categories, not runtime or observed response"
+          }
+        }
+      ],
+      "entities": [],
+      "bookContinuity": "Six current magical complications: endless water, flowers, talking duck, twelve ducks, giant plant, bubbles. The historical twelve-challenge outline is superseded. See lessons.json for spatial, character and production rules.",
+      "references": [
+        {
+          "assetId": "asset-88d74c56a468e3f250b12dbc",
+          "role": "book-style",
+          "roles": [
+            "book-style"
+          ],
+          "entityIds": [],
+          "sha256": "88d74c56a468e3f250b12dbcb5ecdb7b07bd1d789197663d8948ac199acd133d",
+          "name": "reference-family",
+          "url": "/api/assets/asset-88d74c56a468e3f250b12dbc",
+          "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-data/assets/88d74c56a468e3f250b12dbcb5ecdb7b07bd1d789197663d8948ac199acd133d.webp",
+          "reviewStatus": "user-approved"
+        },
+        {
+          "assetId": "asset-90cf531a30e133b1a87a0912",
+          "role": "current-scene",
+          "roles": [
+            "current-scene",
+            "edit-target"
+          ],
+          "entityIds": [],
+          "sha256": "90cf531a30e133b1a87a0912f668d91b6bfeb6e399f7242fc64dbe60a0d942d1",
+          "name": "r17-scene-03g",
+          "url": "/api/assets/asset-90cf531a30e133b1a87a0912",
+          "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-data/assets/90cf531a30e133b1a87a0912f668d91b6bfeb6e399f7242fc64dbe60a0d942d1.webp",
+          "reviewStatus": "agent-reviewed"
+        }
+      ],
+      "causalContext": [
+        {
+          "id": "scene-03f",
+          "title": "One more roll",
+          "captions": {
+            "en": [
+              "Back it went\u2014to PomPom! He hugged the ball, and Mama laughed."
+            ],
+            "ru": [
+              "\u041c\u044f\u0447\u0438\u043a \u043f\u043e\u043a\u0430\u0442\u0438\u043b\u0441\u044f \u043e\u0431\u0440\u0430\u0442\u043d\u043e \u2014 \u043f\u0440\u044f\u043c\u043e \u043a \u041f\u043e\u043c-\u041f\u043e\u043c\u0443! \u041e\u043d \u043e\u0431\u043d\u044f\u043b \u043c\u044f\u0447\u0438\u043a, \u0430 \u041c\u0430\u043c\u0430 \u0437\u0430\u0441\u043c\u0435\u044f\u043b\u0430\u0441\u044c."
+            ],
+            "es": [
+              "La pelota volvi\u00f3\u2026 \u00a1hasta PomPom! La abraz\u00f3 y Mam\u00e1 se rio."
+            ]
+          },
+          "action": "Reverse over PinPin shoulder, baby hugging large cloth ball; Mama steadies baby; restrained earned laughter after small surprise.",
+          "stateBefore": "",
+          "stateAfter": ""
+        },
+        {
+          "id": "scene-03h",
+          "title": "A very large waiting friend",
+          "captions": {
+            "en": [
+              "Outside, Scooby lowered his big nose to Papa. His tail was already going round."
+            ],
+            "ru": [
+              "\u0421\u043d\u0430\u0440\u0443\u0436\u0438 \u0421\u043a\u0443\u0431\u0438 \u043e\u043f\u0443\u0441\u0442\u0438\u043b \u043a \u041f\u0430\u043f\u0435 \u0431\u043e\u043b\u044c\u0448\u043e\u0439 \u043d\u043e\u0441. \u0425\u0432\u043e\u0441\u0442 \u0443\u0436\u0435 \u0445\u043e\u0434\u0438\u043b \u0445\u043e\u0434\u0443\u043d\u043e\u043c."
+            ],
+            "es": [
+              "Fuera, Scooby baj\u00f3 su gran hocico hacia Pap\u00e1. La cola ya se le mov\u00eda sin parar."
+            ]
+          },
+          "action": "Exterior two round windows/green middle door. Full adult Papa and dog share ground plane, canonical mount-sized Scooby; dog nose lowers to Papa.",
+          "stateBefore": "",
+          "stateAfter": ""
+        }
+      ]
+    },
+    "projectRevision": 194,
+    "artifacts": [
+      {
+        "id": "artifact-9d84b3b679bf4961a19e",
+        "sceneId": "scene-03g",
+        "agent": "r18-opening",
+        "createdAt": "2026-10-02T19:21:45.167715+00:00",
+        "reviewStatus": "candidate",
+        "agentVisualPass": true,
+        "toolName": "image_gen__imagegen",
+        "handoffPromptSha256": "67abdaff142e5c56528347f6d8668648f38f275a8f7d12ff780438979d8a0608",
+        "actualPromptStatus": "recorded",
+        "actualPromptSha256": "485126652ce57e5c87ccfb400728297725d1b85e0a9f64511a8776c0555d6da9",
+        "actualReferencesStatus": "recorded",
+        "actualReferenceBindings": [
+          {
+            "assetId": "asset-90cf531a30e133b1a87a0912",
+            "roles": [
+              "edit-target"
+            ],
+            "sha256": "90cf531a30e133b1a87a0912f668d91b6bfeb6e399f7242fc64dbe60a0d942d1",
+            "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-data/assets/90cf531a30e133b1a87a0912f668d91b6bfeb6e399f7242fc64dbe60a0d942d1.webp"
+          }
+        ],
+        "actualPromptPath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-data/jobs/job-06ece63573a74f1690a8/artifact-9d84b3b679bf4961a19e-actual-prompt.txt",
+        "type": "image",
+        "assetId": "asset-8218ec2cb6bff57b4256cd2f",
+        "sha256": "8218ec2cb6bff57b4256cd2fd0a67b913ce2a9c6e5a4a9868e86b711227bd319",
+        "url": "/api/assets/asset-8218ec2cb6bff57b4256cd2f"
+      }
+    ],
+    "feedback": [],
+    "createdAt": "2026-10-02T19:13:49.180420+00:00",
+    "updatedAt": "2026-10-02T19:21:45.177175+00:00",
+    "claimedBy": "r18-opening",
+    "claimedAt": "2026-10-02T19:17:28.769389+00:00",
+    "completedAt": "2026-10-02T19:21:45.177176+00:00"
+  }
+}

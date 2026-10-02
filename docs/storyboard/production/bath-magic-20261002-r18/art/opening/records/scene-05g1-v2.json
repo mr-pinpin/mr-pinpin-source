@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "id": "scene-05g1",
+  "version": "v2",
+  "jobId": "job-90189caac38c44bdb549",
+  "tool": "image_gen__imagegen",
+  "master": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r18/art/opening/masters/scene-05g1-v2.png",
+  "masterSha256": "209cf0dfb8f34942cbee5e0163532318d1ba218f7a15266c673420bf81a2837b",
+  "dimensions": [
+    1536,
+    1024
+  ],
+  "web": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r18/art/opening/web/scene-05g1-v2.webp",
+  "webSha256": "59e38ca6bdfb3161b227be1763d62ecb25a2993c633365d447a09be85c1c6a60",
+  "exactPrompt": "Use case: precise-object-edit. Image1 is the EDIT TARGET. Image2 is ONLY the reference for the familiar small rounded brown glazed ceramic pot of white/yellow daisies visible at its lower-right, not a scene/composition reference. In image1, the large warm wooden surface filling the bottom foreground is a TABLETOP, not the floor; make this readable by placing that familiar brown flowerpot with a modest bunch of daisies ON the tabletop at lower-left/center foreground. Pot base should visibly rest on the wood with a soft contact shadow and no floating. Approximately x430,y865 in this1536x1024 composition, with flowers rising only to around y700; enough clear tabletop surrounding it, no obstruction of any character's face/body or full bucket. Natural mild foreground softness consistent with nearby folded cloth, still recognizable round pot and flowers. This is ordinary kitchen decoration, no magic plant growth. Keep camera exactly unchanged; keep the same table outline, wood planks, folded cloth at lower right, room floor behind it, rug, two windows, open solid-green door with clear outdoor foliage, all FOUR hedgehog family members and their anatomy/expressions/positions, ONE full bucket, and Scooby's corrected face/huge BODY completely unchanged. Do not enlarge, shrink, or otherwise alter Scooby. No new furniture, no extra characters or props besides ONE flowerpot, no text. Landscape1536x1024.",
+  "prompt": {
+    "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r18/art/opening/prompts/scene-05g1-v2.txt",
+    "sha256": "c62e55f86c5256aec2abeb8c967cf8b1d63b8a55d0febf60ea131cd1137fd6ee"
+  },
+  "references": [
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r18/art/opening/masters/scene-05g1-v1.png",
+      "sha256": "8ad5d9c2236d326ec153bde4f337b046819b4cae146623103055c3121b7aa36e",
+      "bytes": 2533213
+    },
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r17/retained/scene-03.webp",
+      "sha256": "de83ba34ddba2916733e7242fbd0ec959d515a29c440e549f783a6384fc499ea",
+      "bytes": 315034
+    }
+  ],
+  "toolArguments": {
+    "prompt": "Use case: precise-object-edit. Image1 is the EDIT TARGET. Image2 is ONLY the reference for the familiar small rounded brown glazed ceramic pot of white/yellow daisies visible at its lower-right, not a scene/composition reference. In image1, the large warm wooden surface filling the bottom foreground is a TABLETOP, not the floor; make this readable by placing that familiar brown flowerpot with a modest bunch of daisies ON the tabletop at lower-left/center foreground. Pot base should visibly rest on the wood with a soft contact shadow and no floating. Approximately x430,y865 in this1536x1024 composition, with flowers rising only to around y700; enough clear tabletop surrounding it, no obstruction of any character's face/body or full bucket. Natural mild foreground softness consistent with nearby folded cloth, still recognizable round pot and flowers. This is ordinary kitchen decoration, no magic plant growth. Keep camera exactly unchanged; keep the same table outline, wood planks, folded cloth at lower right, room floor behind it, rug, two windows, open solid-green door with clear outdoor foliage, all FOUR hedgehog family members and their anatomy/expressions/positions, ONE full bucket, and Scooby's corrected face/huge BODY completely unchanged. Do not enlarge, shrink, or otherwise alter Scooby. No new furniture, no extra characters or props besides ONE flowerpot, no text. Landscape1536x1024.",
+    "referenced_image_paths": [
+      "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r18/art/opening/masters/scene-05g1-v1.png",
+      "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r17/retained/scene-03.webp"
+    ],
+    "transparent_background": false
+  },
+  "originalToolOutput": "/Users/miguel_lemos/.codex/generated_images/01a0fa05-e7a6-7a00-a6f0-fc3a9cc0cc09/exec-845581b1-f4ce-4197-b67e-64d8cdb6c0d0.png",
+  "artistReview": "pass",
+  "rootReview": "pass",
+  "selected": true
+}

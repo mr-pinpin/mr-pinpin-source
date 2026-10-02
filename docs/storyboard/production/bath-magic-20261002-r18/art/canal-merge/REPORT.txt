@@ -1,0 +1,14 @@
+R18 canal and merged family scene — three native candidates completed, 2026-10-02.
+
+scene-83-v1 and scene-84-v1: changed only the drainage apparatus to the scene85 reference's curved bath-base collector and connected foreground-left outlet. Original composition, character faces/actions, bath and lighting retained. Root independently passed both.
+scene-63-v1: primary source62b retained, Mama holding infant from63 added behindPapa. All four family members watch the rear-facing duck sail downstream toward the garden. Large flower jug and otherwise bare table preserved. This replaces63 while the integrator removes62b only;62 and62a remain. Artist visual pass; root review pending at report creation.
+
+Built-in image_gen__imagegen, one call per asset, no fallback API. Exact actual tool arguments saved in records/scene-ID-v1.json. Native PNG masters copied unchanged from the generated-image store on Mini, SHA256 recorded. WebP quality92 derivatives are solely for review/reader use. Old R17 originals unchanged. Selection schema in selection.json.
+
+All three actual Studio jobs were claimed and completed with native files and actual reference asset bindings. They remain user-review candidates, not automatically approved or published. Studio's initial83 prompt-file capture included a terminal newline absent from the tool argument; the precise actual argument is retained in its production record, with the serialization distinction explicitly noted.
+
+Jobs:83 job-255b414b90e940e1ac58;84 job-1f032598878342bc800c;63 job-983102ecda2441c4bd9c. Completion JSON receipts retained in records/.
+
+Root independently passed63 as well. All three selections now frozen for R18 integration; user review remains pending.
+
+Final revision:83v1 rejected by user for distant rug-edge collector.83v2 moved tight to bath but retained raised inlet.83v3 removes inlet and matches approved84 direct fall; root independently PASS. Final selection83v3,84v1(user-approved),63v1. Exact original tool-native SHA verified for all5 versions. Studio v2 andv3 each preserved in separate completed revision jobs.

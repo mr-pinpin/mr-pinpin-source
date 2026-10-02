@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "scene-05f",
+  "version": "v1",
+  "jobId": "job-0c4e84ef957944a1a403",
+  "tool": "image_gen__imagegen",
+  "master": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r18/art/opening/masters/scene-05f-v1.png",
+  "masterSha256": "50e8a621e66fd7181aea0969cdaf4288bf1ecf68978579bea96dda1a2f4b8ce4",
+  "dimensions": [
+    1536,
+    1024
+  ],
+  "web": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r18/art/opening/web/scene-05f-v1.webp",
+  "webSha256": "603a07035283420b070c7099009df6d8fd985ca32b70511c72408bc229ffb1db",
+  "exactPrompt": "Use case: precise-object-edit. Image is the exact scene to correct. Papa hedgehog is walking away toward his home at upper left while pointing home with his left arm. His head/neck has an impossible backwards-facing orientation. Make a LOCAL anatomical repair: turn Papa's head to naturally face the house in the same direction as his walking body, showing the BACK of his rounded spiny head and short neck, perhaps only the far ear edge, with NO eyes or muzzle facing the camera. Align shoulders/back with that natural away-facing walking pose with minimal necessary change; preserve his pointing arm and adult rounded hedgehog size. Keep the dog completely unchanged, including face, scale, pose and curled rear tail. Preserve house facade, forest, feet/path, light and camera. Do not twist his head back to look at us; no owl-like rotation. No extra characters or props, no text. Landscape1536x1024.",
+  "prompt": {
+    "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r18/art/opening/prompts/scene-05f-v1.txt",
+    "sha256": "4096822212d35e45404786d5be560a9a72e4d9c21340fc78ebf6d67b3cf8450f"
+  },
+  "references": [
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r17/web/scene-05f-cbffe0f23904.webp",
+      "sha256": "fedd6b2abc9a0fa6313e7b4aa6a05109c3f7a93a1b50d4181d1a6923b19ea72f",
+      "bytes": 497246
+    }
+  ],
+  "toolArguments": {
+    "prompt": "Use case: precise-object-edit. Image is the exact scene to correct. Papa hedgehog is walking away toward his home at upper left while pointing home with his left arm. His head/neck has an impossible backwards-facing orientation. Make a LOCAL anatomical repair: turn Papa's head to naturally face the house in the same direction as his walking body, showing the BACK of his rounded spiny head and short neck, perhaps only the far ear edge, with NO eyes or muzzle facing the camera. Align shoulders/back with that natural away-facing walking pose with minimal necessary change; preserve his pointing arm and adult rounded hedgehog size. Keep the dog completely unchanged, including face, scale, pose and curled rear tail. Preserve house facade, forest, feet/path, light and camera. Do not twist his head back to look at us; no owl-like rotation. No extra characters or props, no text. Landscape1536x1024.",
+    "referenced_image_paths": [
+      "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r17/web/scene-05f-cbffe0f23904.webp"
+    ],
+    "transparent_background": false
+  },
+  "originalToolOutput": "/Users/miguel_lemos/.codex/generated_images/01a0fa05-e7a6-7a00-a6f0-fc3a9cc0cc09/exec-df16e8fc-64b9-4704-a4ad-be2dcbea4c13.png",
+  "artistReview": "pass",
+  "rootReview": "pass",
+  "selected": true
+}

@@ -1,0 +1,239 @@
+{
+  "job": {
+    "id": "job-4ac32a92aadb48b4b012",
+    "kind": "edit",
+    "status": "completed",
+    "chapterId": "bath-magic-r17",
+    "sceneIds": [
+      "scene-05g1"
+    ],
+    "entityId": null,
+    "instruction": "R18 user-requested correction. Correct Scooby\u2019s face to precisely match approved scene05g: short brown coat, clean skull, distinct floppy ears, slimmer lively muzzle and attentive eyes. Remove oversized curl/tuft arch above head; curled tail belongs at rear. Preserve huge dog size and house/family action.",
+    "prompt": "Mr. PinPin production handoff v1\nUse the active Codex agent's built-in image tool; this queue does not call an external paid API.\nInspect all role-assigned references before generation. Preserve approved identities, relative scale,\nroom/door/window geography, gaze and physical contact. Use warm dimensional book rendering.\nShow real actions and varied cameras; no forced manic smiles or fatigue. Respect causal setup,\nattempt, consequence, family reaction and earned payoff. Preserve approved originals; edit a pristine\ninput rather than repeatedly degrading a derivative. Keep native output, exact ACTUAL submitted\nprompt, actual reference hashes, and candidate review separately from this planned handoff.\nNever automatically publish or silently replace selected artwork.\n\nRequested work:\nR18 user-requested correction. Correct Scooby\u2019s face to precisely match approved scene05g: short brown coat, clean skull, distinct floppy ears, slimmer lively muzzle and attentive eyes. Remove oversized curl/tuft arch above head; curled tail belongs at rear. Preserve huge dog size and house/family action.\n\nBound snapshot:\n{\n  \"chapterId\": \"bath-magic-r17\",\n  \"scenes\": [\n    {\n      \"id\": \"scene-05g1\",\n      \"title\": \"scene-05g1\",\n      \"captions\": {\n        \"en\": [\n          \"\u201cHead down, Scooby.\u201d First came his nose. Then his ears. Then rather a lot of dog.\"\n        ],\n        \"ru\": [\n          \"\u2014 \u041f\u0440\u0438\u0433\u043d\u0438 \u0433\u043e\u043b\u043e\u0432\u0443, \u0421\u043a\u0443\u0431\u0438. \u2014 \u0421\u043d\u0430\u0447\u0430\u043b\u0430 \u043f\u043e\u044f\u0432\u0438\u043b\u0441\u044f \u043d\u043e\u0441. \u041f\u043e\u0442\u043e\u043c \u0443\u0448\u0438. \u0410 \u043f\u043e\u0442\u043e\u043c \u2014 \u043e\u0447\u0435\u043d\u044c \u043c\u043d\u043e\u0433\u043e \u0441\u043e\u0431\u0430\u043a\u0438.\"\n        ],\n        \"es\": [\n          \"\u2014Agacha la cabeza, Scooby. \u2014Primero entr\u00f3 el hocico. Luego las orejas. Y despu\u00e9s\u2026 un mont\u00f3n de perro.\"\n        ]\n      },\n      \"action\": \"Insidefrontdoorlow35mmwide: Scoobycroucheshead/shouldersthrough unchangedfrontopening, Papa guidespalmnearcheek; retainfrontwalls/tworoundwindows. Bodyenteringinonecontinuousorientation.\",\n      \"dependsOn\": [\n        \"scene-05g\"\n      ],\n      \"dependencyKind\": \"reading-order; refine to causal prerequisites when editing\",\n      \"castIds\": [],\n      \"locationId\": null,\n      \"propIds\": [],\n      \"camera\": {\n        \"position\": \"Insidefrontdoorlow35mmwide: Scoobycroucheshead/shouldersthrough unchangedfrontopening, Papa guidespalmnearcheek; retainfrontwalls/tworoundwindows. Bodyenteringinonecontinuousorientation.\",\n        \"height\": \"\",\n        \"yaw\": null,\n        \"pitch\": null,\n        \"fov\": null,\n        \"gaze\": \"\"\n      },\n      \"stateBefore\": \"\",\n      \"stateAfter\": \"\",\n      \"tempo\": {\n        \"activity\": 2,\n        \"comedy\": 2,\n        \"discovery\": 2\n      },\n      \"tempoStatus\": \"proposed R17 editorial rating; user review pending\",\n      \"imageAssetId\": \"asset-4e1a9296b26c9cf4b203f7e4\",\n      \"status\": \"agent-reviewed\",\n      \"userReview\": \"pending chapter revision\",\n      \"day\": 1,\n      \"number\": 32,\n      \"tempoBasis\": {\n        \"proposed\": true,\n        \"captionEvidence\": \"\u201cHead down, Scooby.\u201d First came his nose. Then his ears. Then rather a lot of dog.\",\n        \"rubric\": \"1 low, 2 medium, 3 high; ordinal categories, not runtime or observed response\"\n      }\n    }\n  ],\n  \"entities\": [],\n  \"bookContinuity\": \"Six current magical complications: endless water, flowers, talking duck, twelve ducks, giant plant, bubbles. The historical twelve-challenge outline is superseded. See lessons.json for spatial, character and production rules.\",\n  \"references\": [\n    {\n      \"assetId\": \"asset-88d74c56a468e3f250b12dbc\",\n      \"role\": \"book-style\",\n      \"roles\": [\n        \"book-style\"\n      ],\n      \"entityIds\": [],\n      \"sha256\": \"88d74c56a468e3f250b12dbcb5ecdb7b07bd1d789197663d8948ac199acd133d\",\n      \"name\": \"reference-family\",\n      \"url\": \"/api/assets/asset-88d74c56a468e3f250b12dbc\",\n      \"path\": \"/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-data/assets/88d74c56a468e3f250b12dbcb5ecdb7b07bd1d789197663d8948ac199acd133d.webp\",\n      \"reviewStatus\": \"user-approved\"\n    },\n    {\n      \"assetId\": \"asset-4e1a9296b26c9cf4b203f7e4\",\n      \"role\": \"current-scene\",\n      \"roles\": [\n        \"current-scene\",\n        \"edit-target\"\n      ],\n      \"entityIds\": [],\n      \"sha256\": \"4e1a9296b26c9cf4b203f7e4880d1b36f0c5e8996bd5de56623881ec3b457c80\",\n      \"name\": \"r17-scene-05g1\",\n      \"url\": \"/api/assets/asset-4e1a9296b26c9cf4b203f7e4\",\n      \"path\": \"/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-data/assets/4e1a9296b26c9cf4b203f7e4880d1b36f0c5e8996bd5de56623881ec3b457c80.webp\",\n      \"reviewStatus\": \"agent-reviewed\"\n    },\n    {\n      \"assetId\": \"asset-66131fe29408b8eb4acdd947\",\n      \"role\": \"dog-identity\",\n      \"roles\": [\n        \"dog-identity\"\n      ],\n      \"entityIds\": [],\n      \"sha256\": \"66131fe29408b8eb4acdd94745575e363838862b4f44d33f00fcb076a7854bd6\",\n      \"name\": \"r17-scene-05g\",\n      \"url\": \"/api/assets/asset-66131fe29408b8eb4acdd947\",\n      \"path\": \"/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-data/assets/66131fe29408b8eb4acdd94745575e363838862b4f44d33f00fcb076a7854bd6.webp\",\n      \"reviewStatus\": \"agent-reviewed\"\n    }\n  ],\n  \"causalContext\": [\n    {\n      \"id\": \"scene-05g\",\n      \"title\": \"\",\n      \"captions\": {\n        \"en\": [\n          \"Papa opened the door. Scooby followed him to the step.\"\n        ],\n        \"ru\": [\n          \"\u041f\u0430\u043f\u0430 \u043e\u0442\u043a\u0440\u044b\u043b \u0434\u0432\u0435\u0440\u044c. \u0421\u043a\u0443\u0431\u0438 \u043f\u043e\u0434\u043e\u0448\u0451\u043b \u0437\u0430 \u043d\u0438\u043c \u043a \u043a\u0440\u044b\u043b\u0435\u0447\u043a\u0443.\"\n        ],\n        \"es\": [\n          \"Pap\u00e1 abri\u00f3 la puerta. Scooby lo sigui\u00f3 hasta el escal\u00f3n.\"\n        ]\n      },\n      \"action\": \"Large Scooby atcanonicalactualfrontdoor, begin clearentrysequence.\",\n      \"stateBefore\": \"\",\n      \"stateAfter\": \"\"\n    },\n    {\n      \"id\": \"scene-05g2\",\n      \"title\": \"scene-05g2\",\n      \"captions\": {\n        \"en\": [\n          \"Scooby sat down. The kitchen suddenly had very little floor left! Papa put a few blueberries in his bowl.\"\n        ],\n        \"ru\": [\n          \"\u0421\u043a\u0443\u0431\u0438 \u0441\u0435\u043b. \u0421\u0432\u043e\u0431\u043e\u0434\u043d\u043e\u0433\u043e \u043f\u043e\u043b\u0430 \u043d\u0430 \u043a\u0443\u0445\u043d\u0435 \u0441\u0440\u0430\u0437\u0443 \u0441\u0442\u0430\u043b\u043e \u0441\u043e\u0432\u0441\u0435\u043c \u043c\u0430\u043b\u043e! \u041f\u0430\u043f\u0430 \u043f\u043e\u043b\u043e\u0436\u0438\u043b \u0432 \u0435\u0433\u043e \u043c\u0438\u0441\u043a\u0443 \u043d\u0435\u0441\u043a\u043e\u043b\u044c\u043a\u043e \u044f\u0433\u043e\u0434 \u0433\u043e\u043b\u0443\u0431\u0438\u043a\u0438.\"\n        ],\n        \"es\": [\n          \"Scooby se sent\u00f3. \u00a1De pronto quedaba muy poco suelo libre en la cocina! Pap\u00e1 puso unos ar\u00e1ndanos en su cuenco.\"\n        ]\n      },\n      \"action\": \"Widecommonroomfromsameapprovedhouseaxis: huge dogoccupiesmostCLEARfloor, normal table/stove/cabinetstillthere; Papa smaller besidedog, Mama holdsinfantseparate, olderchildONEbucketroutearounddog. Fewplainwashedblueberriesinbowl. No canal yet, no miniaturizingfurniture/dog, nobonusrooms.\",\n      \"stateBefore\": \"\",\n      \"stateAfter\": \"\"\n    }\n  ]\n}",
+    "promptSha256": "f2dbc7499101cf87abec2e903b86216278b075254b23073ae9e1e0aa59b903da",
+    "promptPath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-data/jobs/job-4ac32a92aadb48b4b012/handoff-prompt.txt",
+    "referenceBindings": [
+      {
+        "assetId": "asset-88d74c56a468e3f250b12dbc",
+        "role": "book-style",
+        "roles": [
+          "book-style"
+        ],
+        "entityIds": [],
+        "sha256": "88d74c56a468e3f250b12dbcb5ecdb7b07bd1d789197663d8948ac199acd133d",
+        "name": "reference-family",
+        "url": "/api/assets/asset-88d74c56a468e3f250b12dbc",
+        "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-data/assets/88d74c56a468e3f250b12dbcb5ecdb7b07bd1d789197663d8948ac199acd133d.webp",
+        "reviewStatus": "user-approved"
+      },
+      {
+        "assetId": "asset-4e1a9296b26c9cf4b203f7e4",
+        "role": "current-scene",
+        "roles": [
+          "current-scene",
+          "edit-target"
+        ],
+        "entityIds": [],
+        "sha256": "4e1a9296b26c9cf4b203f7e4880d1b36f0c5e8996bd5de56623881ec3b457c80",
+        "name": "r17-scene-05g1",
+        "url": "/api/assets/asset-4e1a9296b26c9cf4b203f7e4",
+        "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-data/assets/4e1a9296b26c9cf4b203f7e4880d1b36f0c5e8996bd5de56623881ec3b457c80.webp",
+        "reviewStatus": "agent-reviewed"
+      },
+      {
+        "assetId": "asset-66131fe29408b8eb4acdd947",
+        "role": "dog-identity",
+        "roles": [
+          "dog-identity"
+        ],
+        "entityIds": [],
+        "sha256": "66131fe29408b8eb4acdd94745575e363838862b4f44d33f00fcb076a7854bd6",
+        "name": "r17-scene-05g",
+        "url": "/api/assets/asset-66131fe29408b8eb4acdd947",
+        "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-data/assets/66131fe29408b8eb4acdd94745575e363838862b4f44d33f00fcb076a7854bd6.webp",
+        "reviewStatus": "agent-reviewed"
+      }
+    ],
+    "snapshot": {
+      "chapterId": "bath-magic-r17",
+      "scenes": [
+        {
+          "id": "scene-05g1",
+          "title": "scene-05g1",
+          "captions": {
+            "en": [
+              "\u201cHead down, Scooby.\u201d First came his nose. Then his ears. Then rather a lot of dog."
+            ],
+            "ru": [
+              "\u2014 \u041f\u0440\u0438\u0433\u043d\u0438 \u0433\u043e\u043b\u043e\u0432\u0443, \u0421\u043a\u0443\u0431\u0438. \u2014 \u0421\u043d\u0430\u0447\u0430\u043b\u0430 \u043f\u043e\u044f\u0432\u0438\u043b\u0441\u044f \u043d\u043e\u0441. \u041f\u043e\u0442\u043e\u043c \u0443\u0448\u0438. \u0410 \u043f\u043e\u0442\u043e\u043c \u2014 \u043e\u0447\u0435\u043d\u044c \u043c\u043d\u043e\u0433\u043e \u0441\u043e\u0431\u0430\u043a\u0438."
+            ],
+            "es": [
+              "\u2014Agacha la cabeza, Scooby. \u2014Primero entr\u00f3 el hocico. Luego las orejas. Y despu\u00e9s\u2026 un mont\u00f3n de perro."
+            ]
+          },
+          "action": "Insidefrontdoorlow35mmwide: Scoobycroucheshead/shouldersthrough unchangedfrontopening, Papa guidespalmnearcheek; retainfrontwalls/tworoundwindows. Bodyenteringinonecontinuousorientation.",
+          "dependsOn": [
+            "scene-05g"
+          ],
+          "dependencyKind": "reading-order; refine to causal prerequisites when editing",
+          "castIds": [],
+          "locationId": null,
+          "propIds": [],
+          "camera": {
+            "position": "Insidefrontdoorlow35mmwide: Scoobycroucheshead/shouldersthrough unchangedfrontopening, Papa guidespalmnearcheek; retainfrontwalls/tworoundwindows. Bodyenteringinonecontinuousorientation.",
+            "height": "",
+            "yaw": null,
+            "pitch": null,
+            "fov": null,
+            "gaze": ""
+          },
+          "stateBefore": "",
+          "stateAfter": "",
+          "tempo": {
+            "activity": 2,
+            "comedy": 2,
+            "discovery": 2
+          },
+          "tempoStatus": "proposed R17 editorial rating; user review pending",
+          "imageAssetId": "asset-4e1a9296b26c9cf4b203f7e4",
+          "status": "agent-reviewed",
+          "userReview": "pending chapter revision",
+          "day": 1,
+          "number": 32,
+          "tempoBasis": {
+            "proposed": true,
+            "captionEvidence": "\u201cHead down, Scooby.\u201d First came his nose. Then his ears. Then rather a lot of dog.",
+            "rubric": "1 low, 2 medium, 3 high; ordinal categories, not runtime or observed response"
+          }
+        }
+      ],
+      "entities": [],
+      "bookContinuity": "Six current magical complications: endless water, flowers, talking duck, twelve ducks, giant plant, bubbles. The historical twelve-challenge outline is superseded. See lessons.json for spatial, character and production rules.",
+      "references": [
+        {
+          "assetId": "asset-88d74c56a468e3f250b12dbc",
+          "role": "book-style",
+          "roles": [
+            "book-style"
+          ],
+          "entityIds": [],
+          "sha256": "88d74c56a468e3f250b12dbcb5ecdb7b07bd1d789197663d8948ac199acd133d",
+          "name": "reference-family",
+          "url": "/api/assets/asset-88d74c56a468e3f250b12dbc",
+          "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-data/assets/88d74c56a468e3f250b12dbcb5ecdb7b07bd1d789197663d8948ac199acd133d.webp",
+          "reviewStatus": "user-approved"
+        },
+        {
+          "assetId": "asset-4e1a9296b26c9cf4b203f7e4",
+          "role": "current-scene",
+          "roles": [
+            "current-scene",
+            "edit-target"
+          ],
+          "entityIds": [],
+          "sha256": "4e1a9296b26c9cf4b203f7e4880d1b36f0c5e8996bd5de56623881ec3b457c80",
+          "name": "r17-scene-05g1",
+          "url": "/api/assets/asset-4e1a9296b26c9cf4b203f7e4",
+          "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-data/assets/4e1a9296b26c9cf4b203f7e4880d1b36f0c5e8996bd5de56623881ec3b457c80.webp",
+          "reviewStatus": "agent-reviewed"
+        },
+        {
+          "assetId": "asset-66131fe29408b8eb4acdd947",
+          "role": "dog-identity",
+          "roles": [
+            "dog-identity"
+          ],
+          "entityIds": [],
+          "sha256": "66131fe29408b8eb4acdd94745575e363838862b4f44d33f00fcb076a7854bd6",
+          "name": "r17-scene-05g",
+          "url": "/api/assets/asset-66131fe29408b8eb4acdd947",
+          "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-data/assets/66131fe29408b8eb4acdd94745575e363838862b4f44d33f00fcb076a7854bd6.webp",
+          "reviewStatus": "agent-reviewed"
+        }
+      ],
+      "causalContext": [
+        {
+          "id": "scene-05g",
+          "title": "",
+          "captions": {
+            "en": [
+              "Papa opened the door. Scooby followed him to the step."
+            ],
+            "ru": [
+              "\u041f\u0430\u043f\u0430 \u043e\u0442\u043a\u0440\u044b\u043b \u0434\u0432\u0435\u0440\u044c. \u0421\u043a\u0443\u0431\u0438 \u043f\u043e\u0434\u043e\u0448\u0451\u043b \u0437\u0430 \u043d\u0438\u043c \u043a \u043a\u0440\u044b\u043b\u0435\u0447\u043a\u0443."
+            ],
+            "es": [
+              "Pap\u00e1 abri\u00f3 la puerta. Scooby lo sigui\u00f3 hasta el escal\u00f3n."
+            ]
+          },
+          "action": "Large Scooby atcanonicalactualfrontdoor, begin clearentrysequence.",
+          "stateBefore": "",
+          "stateAfter": ""
+        },
+        {
+          "id": "scene-05g2",
+          "title": "scene-05g2",
+          "captions": {
+            "en": [
+              "Scooby sat down. The kitchen suddenly had very little floor left! Papa put a few blueberries in his bowl."
+            ],
+            "ru": [
+              "\u0421\u043a\u0443\u0431\u0438 \u0441\u0435\u043b. \u0421\u0432\u043e\u0431\u043e\u0434\u043d\u043e\u0433\u043e \u043f\u043e\u043b\u0430 \u043d\u0430 \u043a\u0443\u0445\u043d\u0435 \u0441\u0440\u0430\u0437\u0443 \u0441\u0442\u0430\u043b\u043e \u0441\u043e\u0432\u0441\u0435\u043c \u043c\u0430\u043b\u043e! \u041f\u0430\u043f\u0430 \u043f\u043e\u043b\u043e\u0436\u0438\u043b \u0432 \u0435\u0433\u043e \u043c\u0438\u0441\u043a\u0443 \u043d\u0435\u0441\u043a\u043e\u043b\u044c\u043a\u043e \u044f\u0433\u043e\u0434 \u0433\u043e\u043b\u0443\u0431\u0438\u043a\u0438."
+            ],
+            "es": [
+              "Scooby se sent\u00f3. \u00a1De pronto quedaba muy poco suelo libre en la cocina! Pap\u00e1 puso unos ar\u00e1ndanos en su cuenco."
+            ]
+          },
+          "action": "Widecommonroomfromsameapprovedhouseaxis: huge dogoccupiesmostCLEARfloor, normal table/stove/cabinetstillthere; Papa smaller besidedog, Mama holdsinfantseparate, olderchildONEbucketroutearounddog. Fewplainwashedblueberriesinbowl. No canal yet, no miniaturizingfurniture/dog, nobonusrooms.",
+          "stateBefore": "",
+          "stateAfter": ""
+        }
+      ]
+    },
+    "projectRevision": 196,
+    "artifacts": [
+      {
+        "id": "artifact-ebb7bd0e518b426ba717",
+        "sceneId": "scene-05g1",
+        "agent": "r18-opening",
+        "createdAt": "2026-10-02T19:20:26.730601+00:00",
+        "reviewStatus": "candidate",
+        "agentVisualPass": true,
+        "toolName": "image_gen__imagegen",
+        "handoffPromptSha256": "f2dbc7499101cf87abec2e903b86216278b075254b23073ae9e1e0aa59b903da",
+        "actualPromptStatus": "recorded",
+        "actualPromptSha256": "9b45ef96d12ddf7660f5c9bce6623f0d968988b920708f54811251de347acd0c",
+        "actualReferencesStatus": "recorded",
+        "actualReferenceBindings": [
+          {
+            "assetId": "asset-4e1a9296b26c9cf4b203f7e4",
+            "roles": [
+              "edit-target"
+            ],
+            "sha256": "4e1a9296b26c9cf4b203f7e4880d1b36f0c5e8996bd5de56623881ec3b457c80",
+            "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-data/assets/4e1a9296b26c9cf4b203f7e4880d1b36f0c5e8996bd5de56623881ec3b457c80.webp"
+          },
+          {
+            "assetId": "asset-66131fe29408b8eb4acdd947",
+            "roles": [
+              "identity-reference"
+            ],
+            "sha256": "66131fe29408b8eb4acdd94745575e363838862b4f44d33f00fcb076a7854bd6",
+            "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-data/assets/66131fe29408b8eb4acdd94745575e363838862b4f44d33f00fcb076a7854bd6.webp"
+          }
+        ],
+        "actualPromptPath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-data/jobs/job-4ac32a92aadb48b4b012/artifact-ebb7bd0e518b426ba717-actual-prompt.txt",
+        "type": "image",
+        "assetId": "asset-8ad5d9c2236d326ec153bde4",
+        "sha256": "8ad5d9c2236d326ec153bde4f337b046819b4cae146623103055c3121b7aa36e",
+        "url": "/api/assets/asset-8ad5d9c2236d326ec153bde4"
+      }
+    ],
+    "feedback": [],
+    "createdAt": "2026-10-02T19:13:49.276147+00:00",
+    "updatedAt": "2026-10-02T19:20:26.739535+00:00",
+    "claimedBy": "r18-opening",
+    "claimedAt": "2026-10-02T19:15:12.348078+00:00",
+    "completedAt": "2026-10-02T19:20:26.739537+00:00"
+  }
+}

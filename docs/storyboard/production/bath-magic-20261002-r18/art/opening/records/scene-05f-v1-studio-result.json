@@ -1,0 +1,206 @@
+{
+  "job": {
+    "id": "job-0c4e84ef957944a1a403",
+    "kind": "edit",
+    "status": "completed",
+    "chapterId": "bath-magic-r17",
+    "sceneIds": [
+      "scene-05f"
+    ],
+    "entityId": null,
+    "instruction": "R18 user-requested correction. Fix Papa\u2019s anatomically impossible owl-like head rotation. Show his natural back of head/neck as he walks home with Scooby; no face twisted toward camera. Preserve dog and environment.",
+    "prompt": "Mr. PinPin production handoff v1\nUse the active Codex agent's built-in image tool; this queue does not call an external paid API.\nInspect all role-assigned references before generation. Preserve approved identities, relative scale,\nroom/door/window geography, gaze and physical contact. Use warm dimensional book rendering.\nShow real actions and varied cameras; no forced manic smiles or fatigue. Respect causal setup,\nattempt, consequence, family reaction and earned payoff. Preserve approved originals; edit a pristine\ninput rather than repeatedly degrading a derivative. Keep native output, exact ACTUAL submitted\nprompt, actual reference hashes, and candidate review separately from this planned handoff.\nNever automatically publish or silently replace selected artwork.\n\nRequested work:\nR18 user-requested correction. Fix Papa\u2019s anatomically impossible owl-like head rotation. Show his natural back of head/neck as he walks home with Scooby; no face twisted toward camera. Preserve dog and environment.\n\nBound snapshot:\n{\n  \"chapterId\": \"bath-magic-r17\",\n  \"scenes\": [\n    {\n      \"id\": \"scene-05f\",\n      \"title\": \"\",\n      \"captions\": {\n        \"en\": [\n          \"\u201cThis way, Scooby!\u201d said Papa. \u201cLet's go home.\u201d\"\n        ],\n        \"ru\": [\n          \"\u2014 \u0421\u044e\u0434\u0430, \u0421\u043a\u0443\u0431\u0438! \u2014 \u0441\u043a\u0430\u0437\u0430\u043b \u041f\u0430\u043f\u0430. \u2014 \u041f\u043e\u0439\u0434\u0451\u043c \u0434\u043e\u043c\u043e\u0439.\"\n        ],\n        \"es\": [\n          \"\u2014\u00a1Por aqu\u00ed, Scooby! \u2014dijo Pap\u00e1\u2014. Volvamos a casa.\"\n        ]\n      },\n      \"action\": \"Enlargedmountscaledog fullbody besidePapa; returningearlybeforebathgag.\",\n      \"dependsOn\": [\n        \"scene-05e\"\n      ],\n      \"dependencyKind\": \"reading-order; refine to causal prerequisites when editing\",\n      \"castIds\": [],\n      \"locationId\": null,\n      \"propIds\": [],\n      \"camera\": {\n        \"position\": \"Enlargedmountscaledog fullbody besidePapa; returningearlybeforebathgag.\",\n        \"height\": \"\",\n        \"yaw\": null,\n        \"pitch\": null,\n        \"fov\": null,\n        \"gaze\": \"\"\n      },\n      \"stateBefore\": \"\",\n      \"stateAfter\": \"\",\n      \"tempo\": {\n        \"activity\": 2,\n        \"comedy\": 1,\n        \"discovery\": 1\n      },\n      \"tempoStatus\": \"inherited editorial annotation by stable ID; not re-scored for R17\",\n      \"imageAssetId\": \"asset-fedd6b2abc9a0fa6313e7b4a\",\n      \"status\": \"agent-reviewed\",\n      \"userReview\": \"pending chapter revision\",\n      \"day\": 1,\n      \"number\": 30,\n      \"tempoBasis\": {\n        \"source\": \"published-tempo-138.json\",\n        \"priorNumber\": 15,\n        \"proposed\": false,\n        \"captionEvidence\": \"\u201cThis way, Scooby!\u201d said Papa. Off they went, side by side.\"\n      }\n    }\n  ],\n  \"entities\": [],\n  \"bookContinuity\": \"Six current magical complications: endless water, flowers, talking duck, twelve ducks, giant plant, bubbles. The historical twelve-challenge outline is superseded. See lessons.json for spatial, character and production rules.\",\n  \"references\": [\n    {\n      \"assetId\": \"asset-88d74c56a468e3f250b12dbc\",\n      \"role\": \"book-style\",\n      \"roles\": [\n        \"book-style\"\n      ],\n      \"entityIds\": [],\n      \"sha256\": \"88d74c56a468e3f250b12dbcb5ecdb7b07bd1d789197663d8948ac199acd133d\",\n      \"name\": \"reference-family\",\n      \"url\": \"/api/assets/asset-88d74c56a468e3f250b12dbc\",\n      \"path\": \"/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-data/assets/88d74c56a468e3f250b12dbcb5ecdb7b07bd1d789197663d8948ac199acd133d.webp\",\n      \"reviewStatus\": \"user-approved\"\n    },\n    {\n      \"assetId\": \"asset-fedd6b2abc9a0fa6313e7b4a\",\n      \"role\": \"current-scene\",\n      \"roles\": [\n        \"current-scene\",\n        \"edit-target\"\n      ],\n      \"entityIds\": [],\n      \"sha256\": \"fedd6b2abc9a0fa6313e7b4aa6a05109c3f7a93a1b50d4181d1a6923b19ea72f\",\n      \"name\": \"r17-scene-05f\",\n      \"url\": \"/api/assets/asset-fedd6b2abc9a0fa6313e7b4a\",\n      \"path\": \"/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-data/assets/fedd6b2abc9a0fa6313e7b4aa6a05109c3f7a93a1b50d4181d1a6923b19ea72f.webp\",\n      \"reviewStatus\": \"agent-reviewed\"\n    }\n  ],\n  \"causalContext\": [\n    {\n      \"id\": \"scene-05e\",\n      \"title\": \"\",\n      \"captions\": {\n        \"en\": [\n          \"Meanwhile, Scooby found something to dig. Papa rescued a little plant.\"\n        ],\n        \"ru\": [\n          \"\u0410 \u0421\u043a\u0443\u0431\u0438 \u0442\u0435\u043c \u0432\u0440\u0435\u043c\u0435\u043d\u0435\u043c \u043d\u0430\u0448\u0451\u043b, \u0447\u0442\u043e \u043f\u043e\u043a\u043e\u043f\u0430\u0442\u044c. \u041f\u0430\u043f\u0430 \u0441\u043f\u0430\u0441 \u043c\u0430\u043b\u0435\u043d\u044c\u043a\u0438\u0439 \u0440\u043e\u0441\u0442\u043e\u043a.\"\n        ],\n        \"es\": [\n          \"Mientras tanto, Scooby encontr\u00f3 d\u00f3nde cavar. Pap\u00e1 rescat\u00f3 una plantita.\"\n        ]\n      },\n      \"action\": \"ResizeScoobytocanonicalmountscale; Papasizeconsistent. Shortnearhomeloop notlongabsence.\",\n      \"stateBefore\": \"\",\n      \"stateAfter\": \"\"\n    },\n    {\n      \"id\": \"scene-05g\",\n      \"title\": \"\",\n      \"captions\": {\n        \"en\": [\n          \"Papa opened the door. Scooby followed him to the step.\"\n        ],\n        \"ru\": [\n          \"\u041f\u0430\u043f\u0430 \u043e\u0442\u043a\u0440\u044b\u043b \u0434\u0432\u0435\u0440\u044c. \u0421\u043a\u0443\u0431\u0438 \u043f\u043e\u0434\u043e\u0448\u0451\u043b \u0437\u0430 \u043d\u0438\u043c \u043a \u043a\u0440\u044b\u043b\u0435\u0447\u043a\u0443.\"\n        ],\n        \"es\": [\n          \"Pap\u00e1 abri\u00f3 la puerta. Scooby lo sigui\u00f3 hasta el escal\u00f3n.\"\n        ]\n      },\n      \"action\": \"Large Scooby atcanonicalactualfrontdoor, begin clearentrysequence.\",\n      \"stateBefore\": \"\",\n      \"stateAfter\": \"\"\n    }\n  ]\n}",
+    "promptSha256": "c3fd94581f02dbbc9ab60a9f5b3385920a74888c195d8c4661b12096b6e64054",
+    "promptPath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-data/jobs/job-0c4e84ef957944a1a403/handoff-prompt.txt",
+    "referenceBindings": [
+      {
+        "assetId": "asset-88d74c56a468e3f250b12dbc",
+        "role": "book-style",
+        "roles": [
+          "book-style"
+        ],
+        "entityIds": [],
+        "sha256": "88d74c56a468e3f250b12dbcb5ecdb7b07bd1d789197663d8948ac199acd133d",
+        "name": "reference-family",
+        "url": "/api/assets/asset-88d74c56a468e3f250b12dbc",
+        "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-data/assets/88d74c56a468e3f250b12dbcb5ecdb7b07bd1d789197663d8948ac199acd133d.webp",
+        "reviewStatus": "user-approved"
+      },
+      {
+        "assetId": "asset-fedd6b2abc9a0fa6313e7b4a",
+        "role": "current-scene",
+        "roles": [
+          "current-scene",
+          "edit-target"
+        ],
+        "entityIds": [],
+        "sha256": "fedd6b2abc9a0fa6313e7b4aa6a05109c3f7a93a1b50d4181d1a6923b19ea72f",
+        "name": "r17-scene-05f",
+        "url": "/api/assets/asset-fedd6b2abc9a0fa6313e7b4a",
+        "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-data/assets/fedd6b2abc9a0fa6313e7b4aa6a05109c3f7a93a1b50d4181d1a6923b19ea72f.webp",
+        "reviewStatus": "agent-reviewed"
+      }
+    ],
+    "snapshot": {
+      "chapterId": "bath-magic-r17",
+      "scenes": [
+        {
+          "id": "scene-05f",
+          "title": "",
+          "captions": {
+            "en": [
+              "\u201cThis way, Scooby!\u201d said Papa. \u201cLet's go home.\u201d"
+            ],
+            "ru": [
+              "\u2014 \u0421\u044e\u0434\u0430, \u0421\u043a\u0443\u0431\u0438! \u2014 \u0441\u043a\u0430\u0437\u0430\u043b \u041f\u0430\u043f\u0430. \u2014 \u041f\u043e\u0439\u0434\u0451\u043c \u0434\u043e\u043c\u043e\u0439."
+            ],
+            "es": [
+              "\u2014\u00a1Por aqu\u00ed, Scooby! \u2014dijo Pap\u00e1\u2014. Volvamos a casa."
+            ]
+          },
+          "action": "Enlargedmountscaledog fullbody besidePapa; returningearlybeforebathgag.",
+          "dependsOn": [
+            "scene-05e"
+          ],
+          "dependencyKind": "reading-order; refine to causal prerequisites when editing",
+          "castIds": [],
+          "locationId": null,
+          "propIds": [],
+          "camera": {
+            "position": "Enlargedmountscaledog fullbody besidePapa; returningearlybeforebathgag.",
+            "height": "",
+            "yaw": null,
+            "pitch": null,
+            "fov": null,
+            "gaze": ""
+          },
+          "stateBefore": "",
+          "stateAfter": "",
+          "tempo": {
+            "activity": 2,
+            "comedy": 1,
+            "discovery": 1
+          },
+          "tempoStatus": "inherited editorial annotation by stable ID; not re-scored for R17",
+          "imageAssetId": "asset-fedd6b2abc9a0fa6313e7b4a",
+          "status": "agent-reviewed",
+          "userReview": "pending chapter revision",
+          "day": 1,
+          "number": 30,
+          "tempoBasis": {
+            "source": "published-tempo-138.json",
+            "priorNumber": 15,
+            "proposed": false,
+            "captionEvidence": "\u201cThis way, Scooby!\u201d said Papa. Off they went, side by side."
+          }
+        }
+      ],
+      "entities": [],
+      "bookContinuity": "Six current magical complications: endless water, flowers, talking duck, twelve ducks, giant plant, bubbles. The historical twelve-challenge outline is superseded. See lessons.json for spatial, character and production rules.",
+      "references": [
+        {
+          "assetId": "asset-88d74c56a468e3f250b12dbc",
+          "role": "book-style",
+          "roles": [
+            "book-style"
+          ],
+          "entityIds": [],
+          "sha256": "88d74c56a468e3f250b12dbcb5ecdb7b07bd1d789197663d8948ac199acd133d",
+          "name": "reference-family",
+          "url": "/api/assets/asset-88d74c56a468e3f250b12dbc",
+          "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-data/assets/88d74c56a468e3f250b12dbcb5ecdb7b07bd1d789197663d8948ac199acd133d.webp",
+          "reviewStatus": "user-approved"
+        },
+        {
+          "assetId": "asset-fedd6b2abc9a0fa6313e7b4a",
+          "role": "current-scene",
+          "roles": [
+            "current-scene",
+            "edit-target"
+          ],
+          "entityIds": [],
+          "sha256": "fedd6b2abc9a0fa6313e7b4aa6a05109c3f7a93a1b50d4181d1a6923b19ea72f",
+          "name": "r17-scene-05f",
+          "url": "/api/assets/asset-fedd6b2abc9a0fa6313e7b4a",
+          "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-data/assets/fedd6b2abc9a0fa6313e7b4aa6a05109c3f7a93a1b50d4181d1a6923b19ea72f.webp",
+          "reviewStatus": "agent-reviewed"
+        }
+      ],
+      "causalContext": [
+        {
+          "id": "scene-05e",
+          "title": "",
+          "captions": {
+            "en": [
+              "Meanwhile, Scooby found something to dig. Papa rescued a little plant."
+            ],
+            "ru": [
+              "\u0410 \u0421\u043a\u0443\u0431\u0438 \u0442\u0435\u043c \u0432\u0440\u0435\u043c\u0435\u043d\u0435\u043c \u043d\u0430\u0448\u0451\u043b, \u0447\u0442\u043e \u043f\u043e\u043a\u043e\u043f\u0430\u0442\u044c. \u041f\u0430\u043f\u0430 \u0441\u043f\u0430\u0441 \u043c\u0430\u043b\u0435\u043d\u044c\u043a\u0438\u0439 \u0440\u043e\u0441\u0442\u043e\u043a."
+            ],
+            "es": [
+              "Mientras tanto, Scooby encontr\u00f3 d\u00f3nde cavar. Pap\u00e1 rescat\u00f3 una plantita."
+            ]
+          },
+          "action": "ResizeScoobytocanonicalmountscale; Papasizeconsistent. Shortnearhomeloop notlongabsence.",
+          "stateBefore": "",
+          "stateAfter": ""
+        },
+        {
+          "id": "scene-05g",
+          "title": "",
+          "captions": {
+            "en": [
+              "Papa opened the door. Scooby followed him to the step."
+            ],
+            "ru": [
+              "\u041f\u0430\u043f\u0430 \u043e\u0442\u043a\u0440\u044b\u043b \u0434\u0432\u0435\u0440\u044c. \u0421\u043a\u0443\u0431\u0438 \u043f\u043e\u0434\u043e\u0448\u0451\u043b \u0437\u0430 \u043d\u0438\u043c \u043a \u043a\u0440\u044b\u043b\u0435\u0447\u043a\u0443."
+            ],
+            "es": [
+              "Pap\u00e1 abri\u00f3 la puerta. Scooby lo sigui\u00f3 hasta el escal\u00f3n."
+            ]
+          },
+          "action": "Large Scooby atcanonicalactualfrontdoor, begin clearentrysequence.",
+          "stateBefore": "",
+          "stateAfter": ""
+        }
+      ]
+    },
+    "projectRevision": 195,
+    "artifacts": [
+      {
+        "id": "artifact-8000c105616d476ebeae",
+        "sceneId": "scene-05f",
+        "agent": "r18-opening",
+        "createdAt": "2026-10-02T19:21:45.613439+00:00",
+        "reviewStatus": "candidate",
+        "agentVisualPass": true,
+        "toolName": "image_gen__imagegen",
+        "handoffPromptSha256": "c3fd94581f02dbbc9ab60a9f5b3385920a74888c195d8c4661b12096b6e64054",
+        "actualPromptStatus": "recorded",
+        "actualPromptSha256": "4096822212d35e45404786d5be560a9a72e4d9c21340fc78ebf6d67b3cf8450f",
+        "actualReferencesStatus": "recorded",
+        "actualReferenceBindings": [
+          {
+            "assetId": "asset-fedd6b2abc9a0fa6313e7b4a",
+            "roles": [
+              "edit-target"
+            ],
+            "sha256": "fedd6b2abc9a0fa6313e7b4aa6a05109c3f7a93a1b50d4181d1a6923b19ea72f",
+            "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-data/assets/fedd6b2abc9a0fa6313e7b4aa6a05109c3f7a93a1b50d4181d1a6923b19ea72f.webp"
+          }
+        ],
+        "actualPromptPath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-data/jobs/job-0c4e84ef957944a1a403/artifact-8000c105616d476ebeae-actual-prompt.txt",
+        "type": "image",
+        "assetId": "asset-50e8a621e66fd7181aea0969",
+        "sha256": "50e8a621e66fd7181aea0969cdaf4288bf1ecf68978579bea96dda1a2f4b8ce4",
+        "url": "/api/assets/asset-50e8a621e66fd7181aea0969"
+      }
+    ],
+    "feedback": [],
+    "createdAt": "2026-10-02T19:13:49.230147+00:00",
+    "updatedAt": "2026-10-02T19:21:45.623031+00:00",
+    "claimedBy": "r18-opening",
+    "claimedAt": "2026-10-02T19:19:15.425946+00:00",
+    "completedAt": "2026-10-02T19:21:45.623033+00:00"
+  }
+}

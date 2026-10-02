@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "id": "scene-05g2",
+  "version": "v1",
+  "jobId": "job-09f6868063fd44178a81",
+  "tool": "image_gen__imagegen",
+  "master": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r18/art/opening/masters/scene-05g2-v1.png",
+  "masterSha256": "8d5b4e8b3bc92b802a547d10c734a7829055f2b8a12a25a0e2219d69dd0540b5",
+  "dimensions": [
+    1536,
+    1024
+  ],
+  "web": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r18/art/opening/web/scene-05g2-v1.webp",
+  "webSha256": "f3c8e93d623c21351837c7ec08b2054e7f9f6773b59e85b4ddecba84d3b207c1",
+  "exactPrompt": "Use case: identity-preserve. Image1 is the EDIT TARGET, image2 is the APPROVED SCOOBY identity reference only. Narrow repair to Scooby's head and immediate neck in image1. Match exactly the same young attentive brown short-haired dog seen in image2: clean modest rounded skull, two separate soft floppy ears, slim friendly tan muzzle, lively clear iris eyes and relaxed natural brows, short smooth coat. Remove the huge fluffy curved arch/fur-hat above his head completely: his curled tail belongs at the rear of his body, never over his forehead. Replace only that incorrect overhead mass with the appropriate room/door background exposed behind his correctly sized head. Keep dog BODY and legs HUGE relative to the hedgehog family as in image1, large enough for Papa and child to ride; don't shrink him. Keep him seated looking attentively at Papa's offered berry bowl, with a friendly calm expression. Keep the family exactly unchanged: one adult Papa at right, one Mama holding one separate infant at left and one PinPin child with ONE full wooden bucket. Preserve their approved identities, anatomy, scale, camera, furniture, stove, two windows, door and warm lighting. No extra tails or tufts. Same landscape1536x1024, no text.",
+  "prompt": {
+    "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r18/art/opening/prompts/scene-05g2-v1.txt",
+    "sha256": "a980fef8f2caed1b01bf71222465280e55092c68aa9c61066279e8697dab05bf"
+  },
+  "references": [
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r17/art/opening/web/scene-05g2-v1.webp",
+      "sha256": "8855094286a8af60bd1a779545e046057eaf978b8fe6252f716545400bf84a92",
+      "bytes": 434222
+    },
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r17/web/scene-05g-b8b914ed98fe.webp",
+      "sha256": "66131fe29408b8eb4acdd94745575e363838862b4f44d33f00fcb076a7854bd6",
+      "bytes": 482918
+    }
+  ],
+  "toolArguments": {
+    "prompt": "Use case: identity-preserve. Image1 is the EDIT TARGET, image2 is the APPROVED SCOOBY identity reference only. Narrow repair to Scooby's head and immediate neck in image1. Match exactly the same young attentive brown short-haired dog seen in image2: clean modest rounded skull, two separate soft floppy ears, slim friendly tan muzzle, lively clear iris eyes and relaxed natural brows, short smooth coat. Remove the huge fluffy curved arch/fur-hat above his head completely: his curled tail belongs at the rear of his body, never over his forehead. Replace only that incorrect overhead mass with the appropriate room/door background exposed behind his correctly sized head. Keep dog BODY and legs HUGE relative to the hedgehog family as in image1, large enough for Papa and child to ride; don't shrink him. Keep him seated looking attentively at Papa's offered berry bowl, with a friendly calm expression. Keep the family exactly unchanged: one adult Papa at right, one Mama holding one separate infant at left and one PinPin child with ONE full wooden bucket. Preserve their approved identities, anatomy, scale, camera, furniture, stove, two windows, door and warm lighting. No extra tails or tufts. Same landscape1536x1024, no text.",
+    "referenced_image_paths": [
+      "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r17/art/opening/web/scene-05g2-v1.webp",
+      "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r17/web/scene-05g-b8b914ed98fe.webp"
+    ],
+    "transparent_background": false
+  },
+  "originalToolOutput": "/Users/miguel_lemos/.codex/generated_images/01a0fa05-e7a6-7a00-a6f0-fc3a9cc0cc09/exec-8083a485-06cb-438d-9fbd-3d0b22920783.png",
+  "artistReview": "pass",
+  "rootReview": "rejected",
+  "selected": false
+}

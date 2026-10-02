@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "id": "scene-05g1",
+  "version": "v1",
+  "jobId": "job-4ac32a92aadb48b4b012",
+  "tool": "image_gen__imagegen",
+  "master": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r18/art/opening/masters/scene-05g1-v1.png",
+  "masterSha256": "8ad5d9c2236d326ec153bde4f337b046819b4cae146623103055c3121b7aa36e",
+  "dimensions": [
+    1536,
+    1024
+  ],
+  "web": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r18/art/opening/web/scene-05g1-v1.webp",
+  "webSha256": "6c444ee17627ed53538d594bc99287a8a493e59a249b3689ed1ba3afb12573e9",
+  "exactPrompt": "Use case: identity-preserve. Image1 is the EDIT TARGET, image2 is the APPROVED SCOOBY identity reference only. Narrow repair to Scooby's head and immediate neck in image1. Match exactly the same young attentive brown short-haired dog seen in image2: clean modest rounded skull, two separate soft floppy ears, slim friendly tan muzzle, lively clear iris eyes and relaxed natural brows, short smooth coat. Remove the huge fluffy curved arch/fur-hat above his head completely: his curled tail belongs at the rear of his body, never over his forehead. Replace only that incorrect overhead mass with the appropriate room/door background exposed behind his correctly sized head. Keep dog BODY and legs HUGE relative to the hedgehog family as in image1, large enough for Papa and child to ride; don't shrink him. Keep him entering the doorway with one front paw stepping over the threshold, looking attentively toward Papa at right. Keep the family exactly unchanged: one adult Papa at right, one Mama holding one separate infant at left and one PinPin child with ONE full wooden bucket. Preserve their approved identities, anatomy, scale, camera, furniture, stove, two windows, door and warm lighting. No extra tails or tufts. Same landscape1536x1024, no text.",
+  "prompt": {
+    "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r18/art/opening/prompts/scene-05g1-v1.txt",
+    "sha256": "9b45ef96d12ddf7660f5c9bce6623f0d968988b920708f54811251de347acd0c"
+  },
+  "references": [
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r17/art/opening/web/scene-05g1-v2.webp",
+      "sha256": "4e1a9296b26c9cf4b203f7e4880d1b36f0c5e8996bd5de56623881ec3b457c80",
+      "bytes": 422494
+    },
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r17/web/scene-05g-b8b914ed98fe.webp",
+      "sha256": "66131fe29408b8eb4acdd94745575e363838862b4f44d33f00fcb076a7854bd6",
+      "bytes": 482918
+    }
+  ],
+  "toolArguments": {
+    "prompt": "Use case: identity-preserve. Image1 is the EDIT TARGET, image2 is the APPROVED SCOOBY identity reference only. Narrow repair to Scooby's head and immediate neck in image1. Match exactly the same young attentive brown short-haired dog seen in image2: clean modest rounded skull, two separate soft floppy ears, slim friendly tan muzzle, lively clear iris eyes and relaxed natural brows, short smooth coat. Remove the huge fluffy curved arch/fur-hat above his head completely: his curled tail belongs at the rear of his body, never over his forehead. Replace only that incorrect overhead mass with the appropriate room/door background exposed behind his correctly sized head. Keep dog BODY and legs HUGE relative to the hedgehog family as in image1, large enough for Papa and child to ride; don't shrink him. Keep him entering the doorway with one front paw stepping over the threshold, looking attentively toward Papa at right. Keep the family exactly unchanged: one adult Papa at right, one Mama holding one separate infant at left and one PinPin child with ONE full wooden bucket. Preserve their approved identities, anatomy, scale, camera, furniture, stove, two windows, door and warm lighting. No extra tails or tufts. Same landscape1536x1024, no text.",
+    "referenced_image_paths": [
+      "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r17/art/opening/web/scene-05g1-v2.webp",
+      "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r17/web/scene-05g-b8b914ed98fe.webp"
+    ],
+    "transparent_background": false
+  },
+  "originalToolOutput": "/Users/miguel_lemos/.codex/generated_images/01a0fa05-e7a6-7a00-a6f0-fc3a9cc0cc09/exec-8cf7e374-c9fa-4a65-9f34-32f0276683db.png",
+  "artistReview": "pass",
+  "rootReview": "pass-superseded-by-user-feedback",
+  "selected": false
+}

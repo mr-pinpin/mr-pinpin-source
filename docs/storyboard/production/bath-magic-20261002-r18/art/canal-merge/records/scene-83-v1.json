@@ -1,0 +1,37 @@
+{
+  "id": "scene-83",
+  "version": "v1",
+  "tool": "image_gen__imagegen",
+  "actualToolArguments": {
+    "prompt": "Use case: precise-object-edit. Edit image1, preserving its whole warm dimensional children's-book illustration, camera, bath, room, window, every character identity, size, expression and pose, floating soap bubble, water fountain, and light. Image2 supplies ONLY the correct wooden drainage layout used in this same bathroom in the next scene. Change only image1's wooden aqueduct: it must be a low, open-topped continuous U-section wooden collector following the curved FRONT BASE of the tub, immediately outside the circular rug's inner edge, like image2. Overflow falls from the near-left lip of the bathtub down into that low curved collector. From the near/front portion of that collector, a single connected open-topped outlet runs diagonally toward the BOTTOM LEFT frame edge, leaving the image there, exactly the room's established downstream route in image2. Eliminate image1's old long channel that crosses toward the bottom RIGHT. The bottom right instead shows uninterrupted wet wooden floor. Keep the collector close to the bath so the existing jumping child remains in front, not standing inside water or wood. Where a character occludes the channel, keep natural occlusion. Thin long sidewalls, flat channel bed, open joints, small supports; no closed planter ends, no pipes, no disconnected channel, no new doorway. Preserve all four family members, existing hands/feet, quill faces and rounded book style unchanged. No text. One landscape1536x1024 illustration.",
+    "referenced_image_paths": [
+      "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r17/web/scene-83-c634dd6b8eee.webp",
+      "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r17/web/scene-85-81bd2bec48cf.webp"
+    ],
+    "transparent_background": false
+  },
+  "master": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r18/art/canal-merge/masters/scene-83-v1.png",
+  "reviewStatus": "user-rejected-collector-too-far-from-bath",
+  "masterSha256": "782afec8d09e3dbab391ea03bb44badd501d415d6e15b5f327624cb610ea50f4",
+  "web": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r18/art/canal-merge/web/scene-83-v1.webp",
+  "webSha256": "aebd88853adb2325a3459a5e49804a460a76008c808c59353e6667fac9e725f6",
+  "dimensions": [
+    1536,
+    1024
+  ],
+  "references": [
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r17/web/scene-83-c634dd6b8eee.webp",
+      "sha256": "e7a685310e122dfe6db0c0496ca60a0adb750d2c7a1924ff092b66455787a127"
+    },
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r17/web/scene-85-81bd2bec48cf.webp",
+      "sha256": "8f0fe04a3218457adc0d37e2f0d43244b7f15b60af9cbd3c4e3d4a8fab0f3813"
+    }
+  ],
+  "promptSha256": "e11ef0bce6ebbcd45b4cbd0ef343b4ae5d3bc25a37446a5db7098dbe6b71685a",
+  "studioPromptNote": "Initial Studio prompt-file serialization included one terminal newline; exact tool argument without that newline is preserved here. Semantic prompt text identical.",
+  "originalToolNative": "/Users/miguel_lemos/.codex/generated_images/01a0fa0e-884b-7703-be8d-7ace86b986f9/exec-21f33766-2c73-49d9-ab3d-b251e31aa85e.png",
+  "originalToolNativeSha256": "782afec8d09e3dbab391ea03bb44badd501d415d6e15b5f327624cb610ea50f4",
+  "nativeCopyVerified": true
+}

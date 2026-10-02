@@ -1,0 +1,406 @@
+{
+  "job": {
+    "id": "job-ba0c6c6df8354a7d93bc",
+    "kind": "edit",
+    "status": "completed",
+    "chapterId": "bath-magic-r17",
+    "sceneIds": [
+      "scene-83"
+    ],
+    "entityId": null,
+    "instruction": "R18 second review. User says84 is perfect but83 still incorrect. Match84 directly: collector closely hugs wooden BATHBASE, not outer rug edge. Move curved channel back against bath, behind jumpingPinPin; continuous outlet foregroundleft, same action/cast.",
+    "prompt": "Mr. PinPin production handoff v1\nUse the active Codex agent's built-in image tool; this queue does not call an external paid API.\nInspect all role-assigned references before generation. Preserve approved identities, relative scale,\nroom/door/window geography, gaze and physical contact. Use warm dimensional book rendering.\nShow real actions and varied cameras; no forced manic smiles or fatigue. Respect causal setup,\nattempt, consequence, family reaction and earned payoff. Preserve approved originals; edit a pristine\ninput rather than repeatedly degrading a derivative. Keep native output, exact ACTUAL submitted\nprompt, actual reference hashes, and candidate review separately from this planned handoff.\nNever automatically publish or silently replace selected artwork.\n\nRequested work:\nR18 second review. User says84 is perfect but83 still incorrect. Match84 directly: collector closely hugs wooden BATHBASE, not outer rug edge. Move curved channel back against bath, behind jumpingPinPin; continuous outlet foregroundleft, same action/cast.\n\nBound snapshot:\n{\n  \"chapterId\": \"bath-magic-r17\",\n  \"scenes\": [\n    {\n      \"id\": \"scene-83\",\n      \"title\": \"\",\n      \"captions\": {\n        \"en\": [\n          \"PinPin jumped. His paw went right past it.\"\n        ],\n        \"ru\": [\n          \"Пин-Пин подпрыгнул. Лапка пролетела мимо.\"\n        ],\n        \"es\": [\n          \"PinPin saltó. Su patita pasó justo al lado.\"\n        ]\n      },\n      \"action\": \"\",\n      \"dependsOn\": [\n        \"scene-81\"\n      ],\n      \"dependencyKind\": \"reading-order; refine to causal prerequisites when editing\",\n      \"castIds\": [\n        \"papa\",\n        \"mama\",\n        \"pinpin\",\n        \"pompom\"\n      ],\n      \"locationId\": \"house\",\n      \"propIds\": [\n        \"bath\",\n        \"canal\"\n      ],\n      \"camera\": {\n        \"position\": \"\",\n        \"height\": \"\",\n        \"yaw\": null,\n        \"pitch\": null,\n        \"fov\": null,\n        \"gaze\": \"\"\n      },\n      \"stateBefore\": \"\",\n      \"stateAfter\": \"\",\n      \"tempo\": {\n        \"activity\": 3,\n        \"comedy\": 3,\n        \"discovery\": 2\n      },\n      \"tempoStatus\": \"inherited editorial annotation by stable ID; not re-scored for R17\",\n      \"imageAssetId\": \"asset-e7a685310e122dfe6db0c049\",\n      \"status\": \"agent-reviewed\",\n      \"userReview\": \"pending chapter revision\",\n      \"day\": 4,\n      \"number\": 154,\n      \"tempoBasis\": {\n        \"source\": \"published-tempo-138.json\",\n        \"priorNumber\": 120,\n        \"proposed\": false,\n        \"captionEvidence\": \"PinPin jumped. His paw went right past it.\"\n      }\n    }\n  ],\n  \"entities\": [\n    {\n      \"id\": \"bath\",\n      \"name\": \"Wooden bath\",\n      \"kind\": \"prop\",\n      \"identity\": \"Large wooden tub with believable crescent rim and interior.\",\n      \"scale\": \"Family fits inside; rim follows waterline.\",\n      \"geometry\": \"Underwater camera sees underwater surfaces; split view must show wood behind bodies.\",\n      \"referenceIds\": [\n        \"asset-88d74c56a468e3f250b12dbc\"\n      ],\n      \"reviewStatus\": \"user-approved\"\n    },\n    {\n      \"id\": \"canal\",\n      \"name\": \"Wooden canal\",\n      \"kind\": \"prop\",\n      \"identity\": \"Open U-shaped trough sections; no closed end caps.\",\n      \"scale\": \"Continuous low floor route.\",\n      \"geometry\": \"Persists from installation until explicit removal; feet step over it, never through it.\",\n      \"referenceIds\": [],\n      \"reviewStatus\": \"user-approved\"\n    },\n    {\n      \"id\": \"house\",\n      \"name\": \"Family house\",\n      \"kind\": \"location\",\n      \"identity\": \"Warm timber and plaster family home.\",\n      \"scale\": \"Scooby occupies much of floor.\",\n      \"geometry\": \"Two round front windows and solid green front door. Kitchen rear/right doors are interior; garden can be behind camera.\",\n      \"referenceIds\": [\n        \"asset-88d74c56a468e3f250b12dbc\",\n        \"asset-fbf70ac4415fbc9e63febdc7\"\n      ],\n      \"reviewStatus\": \"user-approved\"\n    },\n    {\n      \"id\": \"mama\",\n      \"name\": \"Mama\",\n      \"kind\": \"character\",\n      \"identity\": \"Mother hedgehog; engaged gaze and distinct adult body.\",\n      \"scale\": \"Adult family scale\",\n      \"geometry\": \"\",\n      \"referenceIds\": [\n        \"asset-88d74c56a468e3f250b12dbc\"\n      ],\n      \"reviewStatus\": \"user-approved\"\n    },\n    {\n      \"id\": \"papa\",\n      \"name\": \"Papa\",\n      \"kind\": \"character\",\n      \"identity\": \"Adult broad shoulders, short rounded muzzle and button nose, cool quills; no wolf snout.\",\n      \"scale\": \"Clearly larger than PinPin\",\n      \"geometry\": \"\",\n      \"referenceIds\": [\n        \"asset-88d74c56a468e3f250b12dbc\"\n      ],\n      \"reviewStatus\": \"user-approved\"\n    },\n    {\n      \"id\": \"pinpin\",\n      \"name\": \"Mr. PinPin\",\n      \"kind\": \"character\",\n      \"identity\": \"Child hedgehog; rounded dimensional face, visible eye irises, golden quill. Not the infant.\",\n      \"scale\": \"About half Papa standing height\",\n      \"geometry\": \"\",\n      \"referenceIds\": [\n        \"asset-88d74c56a468e3f250b12dbc\"\n      ],\n      \"reviewStatus\": \"user-approved\"\n    },\n    {\n      \"id\": \"pompom\",\n      \"name\": \"Mr. PomPom\",\n      \"kind\": \"character\",\n      \"identity\": \"Infant; whole separate supported body, two clear arms and legs.\",\n      \"scale\": \"Small enough for Mama to carry\",\n      \"geometry\": \"\",\n      \"referenceIds\": [\n        \"asset-88d74c56a468e3f250b12dbc\"\n      ],\n      \"reviewStatus\": \"user-approved\"\n    }\n  ],\n  \"bookContinuity\": \"Six current magical complications: endless water, flowers, talking duck, twelve ducks, giant plant, bubbles. The historical twelve-challenge outline is superseded. See lessons.json for spatial, character and production rules.\",\n  \"references\": [\n    {\n      \"assetId\": \"asset-88d74c56a468e3f250b12dbc\",\n      \"role\": \"prop-geometry\",\n      \"roles\": [\n        \"prop-geometry\",\n        \"location-identity\",\n        \"character-identity\",\n        \"book-style\"\n      ],\n      \"entityIds\": [\n        \"bath\",\n        \"house\",\n        \"mama\",\n        \"papa\",\n        \"pinpin\",\n        \"pompom\"\n      ],\n      \"sha256\": \"88d74c56a468e3f250b12dbcb5ecdb7b07bd1d789197663d8948ac199acd133d\",\n      \"name\": \"reference-family\",\n      \"url\": \"/api/assets/asset-88d74c56a468e3f250b12dbc\",\n      \"path\": \"/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-data/assets/88d74c56a468e3f250b12dbcb5ecdb7b07bd1d789197663d8948ac199acd133d.webp\",\n      \"reviewStatus\": \"user-approved\"\n    },\n    {\n      \"assetId\": \"asset-fbf70ac4415fbc9e63febdc7\",\n      \"role\": \"location-identity\",\n      \"roles\": [\n        \"location-identity\"\n      ],\n      \"entityIds\": [\n        \"house\"\n      ],\n      \"sha256\": \"fbf70ac4415fbc9e63febdc756af4a512ee9b7cd29e693fa4423e65608178184\",\n      \"name\": \"reference-kitchen-panorama\",\n      \"url\": \"/api/assets/asset-fbf70ac4415fbc9e63febdc7\",\n      \"path\": \"/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-data/assets/fbf70ac4415fbc9e63febdc756af4a512ee9b7cd29e693fa4423e65608178184.png\",\n      \"reviewStatus\": \"user-approved\"\n    },\n    {\n      \"assetId\": \"asset-e7a685310e122dfe6db0c049\",\n      \"role\": \"current-scene\",\n      \"roles\": [\n        \"current-scene\"\n      ],\n      \"entityIds\": [],\n      \"sha256\": \"e7a685310e122dfe6db0c0496ca60a0adb750d2c7a1924ff092b66455787a127\",\n      \"name\": \"r17-scene-83\",\n      \"url\": \"/api/assets/asset-e7a685310e122dfe6db0c049\",\n      \"path\": \"/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-data/assets/e7a685310e122dfe6db0c0496ca60a0adb750d2c7a1924ff092b66455787a127.webp\",\n      \"reviewStatus\": \"agent-reviewed\"\n    },\n    {\n      \"assetId\": \"asset-782afec8d09e3dbab391ea03\",\n      \"role\": \"edit-target\",\n      \"roles\": [\n        \"edit-target\"\n      ],\n      \"entityIds\": [],\n      \"sha256\": \"782afec8d09e3dbab391ea03bb44badd501d415d6e15b5f327624cb610ea50f4\",\n      \"name\": \"scene-83-v1.png\",\n      \"url\": \"/api/assets/asset-782afec8d09e3dbab391ea03\",\n      \"path\": \"/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-data/assets/782afec8d09e3dbab391ea03bb44badd501d415d6e15b5f327624cb610ea50f4.png\",\n      \"reviewStatus\": \"candidate\"\n    },\n    {\n      \"assetId\": \"asset-a65e99f2899192a78f9ceac3\",\n      \"role\": \"user-approved-bath-collector\",\n      \"roles\": [\n        \"user-approved-bath-collector\"\n      ],\n      \"entityIds\": [],\n      \"sha256\": \"a65e99f2899192a78f9ceac3c8c4da286fa48547c54a4ee6c0562ee4812f92ae\",\n      \"name\": \"scene-84-v1.png\",\n      \"url\": \"/api/assets/asset-a65e99f2899192a78f9ceac3\",\n      \"path\": \"/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-data/assets/a65e99f2899192a78f9ceac3c8c4da286fa48547c54a4ee6c0562ee4812f92ae.png\",\n      \"reviewStatus\": \"user-approved\"\n    }\n  ],\n  \"causalContext\": [\n    {\n      \"id\": \"scene-81\",\n      \"title\": \"\",\n      \"captions\": {\n        \"en\": [\n          \"Bubbles rose as big as bowls. One carried the soap.\"\n        ],\n        \"ru\": [\n          \"Поднялись пузыри с миску величиной. Один унёс мыло.\"\n        ],\n        \"es\": [\n          \"Subieron burbujas grandes como cuencos. Una llevaba el jabón.\"\n        ]\n      },\n      \"action\": \"\",\n      \"stateBefore\": \"\",\n      \"stateAfter\": \"\"\n    },\n    {\n      \"id\": \"scene-84\",\n      \"title\": \"\",\n      \"captions\": {\n        \"en\": [\n          \"Mama opened the window. “This way!”\"\n        ],\n        \"ru\": [\n          \"Мама открыла окно. «Сюда!»\"\n        ],\n        \"es\": [\n          \"Mamá abrió la ventana. «¡Por aquí!»\"\n        ]\n      },\n      \"action\": \"\",\n      \"stateBefore\": \"\",\n      \"stateAfter\": \"\"\n    }\n  ]\n}",
+    "promptSha256": "5784993b45d22ba53a35e5dfe5806a49ac8e36a3f7936f04093febce8f495521",
+    "promptPath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-data/jobs/job-ba0c6c6df8354a7d93bc/handoff-prompt.txt",
+    "referenceBindings": [
+      {
+        "assetId": "asset-88d74c56a468e3f250b12dbc",
+        "role": "prop-geometry",
+        "roles": [
+          "prop-geometry",
+          "location-identity",
+          "character-identity",
+          "book-style"
+        ],
+        "entityIds": [
+          "bath",
+          "house",
+          "mama",
+          "papa",
+          "pinpin",
+          "pompom"
+        ],
+        "sha256": "88d74c56a468e3f250b12dbcb5ecdb7b07bd1d789197663d8948ac199acd133d",
+        "name": "reference-family",
+        "url": "/api/assets/asset-88d74c56a468e3f250b12dbc",
+        "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-data/assets/88d74c56a468e3f250b12dbcb5ecdb7b07bd1d789197663d8948ac199acd133d.webp",
+        "reviewStatus": "user-approved"
+      },
+      {
+        "assetId": "asset-fbf70ac4415fbc9e63febdc7",
+        "role": "location-identity",
+        "roles": [
+          "location-identity"
+        ],
+        "entityIds": [
+          "house"
+        ],
+        "sha256": "fbf70ac4415fbc9e63febdc756af4a512ee9b7cd29e693fa4423e65608178184",
+        "name": "reference-kitchen-panorama",
+        "url": "/api/assets/asset-fbf70ac4415fbc9e63febdc7",
+        "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-data/assets/fbf70ac4415fbc9e63febdc756af4a512ee9b7cd29e693fa4423e65608178184.png",
+        "reviewStatus": "user-approved"
+      },
+      {
+        "assetId": "asset-e7a685310e122dfe6db0c049",
+        "role": "current-scene",
+        "roles": [
+          "current-scene"
+        ],
+        "entityIds": [],
+        "sha256": "e7a685310e122dfe6db0c0496ca60a0adb750d2c7a1924ff092b66455787a127",
+        "name": "r17-scene-83",
+        "url": "/api/assets/asset-e7a685310e122dfe6db0c049",
+        "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-data/assets/e7a685310e122dfe6db0c0496ca60a0adb750d2c7a1924ff092b66455787a127.webp",
+        "reviewStatus": "agent-reviewed"
+      },
+      {
+        "assetId": "asset-782afec8d09e3dbab391ea03",
+        "role": "edit-target",
+        "roles": [
+          "edit-target"
+        ],
+        "entityIds": [],
+        "sha256": "782afec8d09e3dbab391ea03bb44badd501d415d6e15b5f327624cb610ea50f4",
+        "name": "scene-83-v1.png",
+        "url": "/api/assets/asset-782afec8d09e3dbab391ea03",
+        "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-data/assets/782afec8d09e3dbab391ea03bb44badd501d415d6e15b5f327624cb610ea50f4.png",
+        "reviewStatus": "candidate"
+      },
+      {
+        "assetId": "asset-a65e99f2899192a78f9ceac3",
+        "role": "user-approved-bath-collector",
+        "roles": [
+          "user-approved-bath-collector"
+        ],
+        "entityIds": [],
+        "sha256": "a65e99f2899192a78f9ceac3c8c4da286fa48547c54a4ee6c0562ee4812f92ae",
+        "name": "scene-84-v1.png",
+        "url": "/api/assets/asset-a65e99f2899192a78f9ceac3",
+        "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-data/assets/a65e99f2899192a78f9ceac3c8c4da286fa48547c54a4ee6c0562ee4812f92ae.png",
+        "reviewStatus": "user-approved"
+      }
+    ],
+    "snapshot": {
+      "chapterId": "bath-magic-r17",
+      "scenes": [
+        {
+          "id": "scene-83",
+          "title": "",
+          "captions": {
+            "en": [
+              "PinPin jumped. His paw went right past it."
+            ],
+            "ru": [
+              "Пин-Пин подпрыгнул. Лапка пролетела мимо."
+            ],
+            "es": [
+              "PinPin saltó. Su patita pasó justo al lado."
+            ]
+          },
+          "action": "",
+          "dependsOn": [
+            "scene-81"
+          ],
+          "dependencyKind": "reading-order; refine to causal prerequisites when editing",
+          "castIds": [
+            "papa",
+            "mama",
+            "pinpin",
+            "pompom"
+          ],
+          "locationId": "house",
+          "propIds": [
+            "bath",
+            "canal"
+          ],
+          "camera": {
+            "position": "",
+            "height": "",
+            "yaw": null,
+            "pitch": null,
+            "fov": null,
+            "gaze": ""
+          },
+          "stateBefore": "",
+          "stateAfter": "",
+          "tempo": {
+            "activity": 3,
+            "comedy": 3,
+            "discovery": 2
+          },
+          "tempoStatus": "inherited editorial annotation by stable ID; not re-scored for R17",
+          "imageAssetId": "asset-e7a685310e122dfe6db0c049",
+          "status": "agent-reviewed",
+          "userReview": "pending chapter revision",
+          "day": 4,
+          "number": 154,
+          "tempoBasis": {
+            "source": "published-tempo-138.json",
+            "priorNumber": 120,
+            "proposed": false,
+            "captionEvidence": "PinPin jumped. His paw went right past it."
+          }
+        }
+      ],
+      "entities": [
+        {
+          "id": "bath",
+          "name": "Wooden bath",
+          "kind": "prop",
+          "identity": "Large wooden tub with believable crescent rim and interior.",
+          "scale": "Family fits inside; rim follows waterline.",
+          "geometry": "Underwater camera sees underwater surfaces; split view must show wood behind bodies.",
+          "referenceIds": [
+            "asset-88d74c56a468e3f250b12dbc"
+          ],
+          "reviewStatus": "user-approved"
+        },
+        {
+          "id": "canal",
+          "name": "Wooden canal",
+          "kind": "prop",
+          "identity": "Open U-shaped trough sections; no closed end caps.",
+          "scale": "Continuous low floor route.",
+          "geometry": "Persists from installation until explicit removal; feet step over it, never through it.",
+          "referenceIds": [],
+          "reviewStatus": "user-approved"
+        },
+        {
+          "id": "house",
+          "name": "Family house",
+          "kind": "location",
+          "identity": "Warm timber and plaster family home.",
+          "scale": "Scooby occupies much of floor.",
+          "geometry": "Two round front windows and solid green front door. Kitchen rear/right doors are interior; garden can be behind camera.",
+          "referenceIds": [
+            "asset-88d74c56a468e3f250b12dbc",
+            "asset-fbf70ac4415fbc9e63febdc7"
+          ],
+          "reviewStatus": "user-approved"
+        },
+        {
+          "id": "mama",
+          "name": "Mama",
+          "kind": "character",
+          "identity": "Mother hedgehog; engaged gaze and distinct adult body.",
+          "scale": "Adult family scale",
+          "geometry": "",
+          "referenceIds": [
+            "asset-88d74c56a468e3f250b12dbc"
+          ],
+          "reviewStatus": "user-approved"
+        },
+        {
+          "id": "papa",
+          "name": "Papa",
+          "kind": "character",
+          "identity": "Adult broad shoulders, short rounded muzzle and button nose, cool quills; no wolf snout.",
+          "scale": "Clearly larger than PinPin",
+          "geometry": "",
+          "referenceIds": [
+            "asset-88d74c56a468e3f250b12dbc"
+          ],
+          "reviewStatus": "user-approved"
+        },
+        {
+          "id": "pinpin",
+          "name": "Mr. PinPin",
+          "kind": "character",
+          "identity": "Child hedgehog; rounded dimensional face, visible eye irises, golden quill. Not the infant.",
+          "scale": "About half Papa standing height",
+          "geometry": "",
+          "referenceIds": [
+            "asset-88d74c56a468e3f250b12dbc"
+          ],
+          "reviewStatus": "user-approved"
+        },
+        {
+          "id": "pompom",
+          "name": "Mr. PomPom",
+          "kind": "character",
+          "identity": "Infant; whole separate supported body, two clear arms and legs.",
+          "scale": "Small enough for Mama to carry",
+          "geometry": "",
+          "referenceIds": [
+            "asset-88d74c56a468e3f250b12dbc"
+          ],
+          "reviewStatus": "user-approved"
+        }
+      ],
+      "bookContinuity": "Six current magical complications: endless water, flowers, talking duck, twelve ducks, giant plant, bubbles. The historical twelve-challenge outline is superseded. See lessons.json for spatial, character and production rules.",
+      "references": [
+        {
+          "assetId": "asset-88d74c56a468e3f250b12dbc",
+          "role": "prop-geometry",
+          "roles": [
+            "prop-geometry",
+            "location-identity",
+            "character-identity",
+            "book-style"
+          ],
+          "entityIds": [
+            "bath",
+            "house",
+            "mama",
+            "papa",
+            "pinpin",
+            "pompom"
+          ],
+          "sha256": "88d74c56a468e3f250b12dbcb5ecdb7b07bd1d789197663d8948ac199acd133d",
+          "name": "reference-family",
+          "url": "/api/assets/asset-88d74c56a468e3f250b12dbc",
+          "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-data/assets/88d74c56a468e3f250b12dbcb5ecdb7b07bd1d789197663d8948ac199acd133d.webp",
+          "reviewStatus": "user-approved"
+        },
+        {
+          "assetId": "asset-fbf70ac4415fbc9e63febdc7",
+          "role": "location-identity",
+          "roles": [
+            "location-identity"
+          ],
+          "entityIds": [
+            "house"
+          ],
+          "sha256": "fbf70ac4415fbc9e63febdc756af4a512ee9b7cd29e693fa4423e65608178184",
+          "name": "reference-kitchen-panorama",
+          "url": "/api/assets/asset-fbf70ac4415fbc9e63febdc7",
+          "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-data/assets/fbf70ac4415fbc9e63febdc756af4a512ee9b7cd29e693fa4423e65608178184.png",
+          "reviewStatus": "user-approved"
+        },
+        {
+          "assetId": "asset-e7a685310e122dfe6db0c049",
+          "role": "current-scene",
+          "roles": [
+            "current-scene"
+          ],
+          "entityIds": [],
+          "sha256": "e7a685310e122dfe6db0c0496ca60a0adb750d2c7a1924ff092b66455787a127",
+          "name": "r17-scene-83",
+          "url": "/api/assets/asset-e7a685310e122dfe6db0c049",
+          "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-data/assets/e7a685310e122dfe6db0c0496ca60a0adb750d2c7a1924ff092b66455787a127.webp",
+          "reviewStatus": "agent-reviewed"
+        },
+        {
+          "assetId": "asset-782afec8d09e3dbab391ea03",
+          "role": "edit-target",
+          "roles": [
+            "edit-target"
+          ],
+          "entityIds": [],
+          "sha256": "782afec8d09e3dbab391ea03bb44badd501d415d6e15b5f327624cb610ea50f4",
+          "name": "scene-83-v1.png",
+          "url": "/api/assets/asset-782afec8d09e3dbab391ea03",
+          "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-data/assets/782afec8d09e3dbab391ea03bb44badd501d415d6e15b5f327624cb610ea50f4.png",
+          "reviewStatus": "candidate"
+        },
+        {
+          "assetId": "asset-a65e99f2899192a78f9ceac3",
+          "role": "user-approved-bath-collector",
+          "roles": [
+            "user-approved-bath-collector"
+          ],
+          "entityIds": [],
+          "sha256": "a65e99f2899192a78f9ceac3c8c4da286fa48547c54a4ee6c0562ee4812f92ae",
+          "name": "scene-84-v1.png",
+          "url": "/api/assets/asset-a65e99f2899192a78f9ceac3",
+          "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-data/assets/a65e99f2899192a78f9ceac3c8c4da286fa48547c54a4ee6c0562ee4812f92ae.png",
+          "reviewStatus": "user-approved"
+        }
+      ],
+      "causalContext": [
+        {
+          "id": "scene-81",
+          "title": "",
+          "captions": {
+            "en": [
+              "Bubbles rose as big as bowls. One carried the soap."
+            ],
+            "ru": [
+              "Поднялись пузыри с миску величиной. Один унёс мыло."
+            ],
+            "es": [
+              "Subieron burbujas grandes como cuencos. Una llevaba el jabón."
+            ]
+          },
+          "action": "",
+          "stateBefore": "",
+          "stateAfter": ""
+        },
+        {
+          "id": "scene-84",
+          "title": "",
+          "captions": {
+            "en": [
+              "Mama opened the window. “This way!”"
+            ],
+            "ru": [
+              "Мама открыла окно. «Сюда!»"
+            ],
+            "es": [
+              "Mamá abrió la ventana. «¡Por aquí!»"
+            ]
+          },
+          "action": "",
+          "stateBefore": "",
+          "stateAfter": ""
+        }
+      ]
+    },
+    "projectRevision": 239,
+    "artifacts": [
+      {
+        "id": "artifact-4bfbfed20dee44c48052",
+        "sceneId": "scene-83",
+        "agent": "r12_papa_round",
+        "createdAt": "2026-10-02T19:32:54.816567+00:00",
+        "reviewStatus": "candidate",
+        "agentVisualPass": true,
+        "toolName": "image_gen__imagegen",
+        "handoffPromptSha256": "5784993b45d22ba53a35e5dfe5806a49ac8e36a3f7936f04093febce8f495521",
+        "actualPromptStatus": "recorded",
+        "actualPromptSha256": "31049869bf4268c0aa0ff84a745d67543a926428c2c22c30b668564ff7fa79bf",
+        "actualReferencesStatus": "recorded",
+        "actualReferenceBindings": [
+          {
+            "assetId": "asset-782afec8d09e3dbab391ea03",
+            "roles": [
+              "edit-target"
+            ],
+            "sha256": "782afec8d09e3dbab391ea03bb44badd501d415d6e15b5f327624cb610ea50f4",
+            "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-data/assets/782afec8d09e3dbab391ea03bb44badd501d415d6e15b5f327624cb610ea50f4.png"
+          },
+          {
+            "assetId": "asset-a65e99f2899192a78f9ceac3",
+            "roles": [
+              "approved-collector-layout"
+            ],
+            "sha256": "a65e99f2899192a78f9ceac3c8c4da286fa48547c54a4ee6c0562ee4812f92ae",
+            "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-data/assets/a65e99f2899192a78f9ceac3c8c4da286fa48547c54a4ee6c0562ee4812f92ae.png"
+          }
+        ],
+        "actualPromptPath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-data/jobs/job-ba0c6c6df8354a7d93bc/artifact-4bfbfed20dee44c48052-actual-prompt.txt",
+        "type": "image",
+        "assetId": "asset-336655673f343e1cbc7b23f1",
+        "sha256": "336655673f343e1cbc7b23f18575f000c287ef400ef111b1ad6d69768e3bc37b",
+        "url": "/api/assets/asset-336655673f343e1cbc7b23f1"
+      }
+    ],
+    "feedback": [],
+    "createdAt": "2026-10-02T19:31:30.366286+00:00",
+    "updatedAt": "2026-10-02T19:32:54.825801+00:00",
+    "claimedBy": "r12_papa_round",
+    "claimedAt": "2026-10-02T19:32:54.756858+00:00",
+    "completedAt": "2026-10-02T19:32:54.825803+00:00"
+  }
+}

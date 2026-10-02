@@ -1,0 +1,50 @@
+{
+  "schemaVersion": 1,
+  "id": "scene-05g2",
+  "version": "v3",
+  "jobId": "job-959132ca584149f5a048",
+  "tool": "image_gen__imagegen",
+  "master": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r18/art/opening/masters/scene-05g2-v3.png",
+  "masterSha256": "e869e8924d51497d40c579088185793ac543fc545150c528fee0841aa13257ed",
+  "dimensions": [
+    1536,
+    1024
+  ],
+  "web": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r18/art/opening/web/scene-05g2-v3.webp",
+  "webSha256": "409ef7cd1e355e198ea67fa344fdabcfb84e0640cb8f78c098700c08d5843a7c",
+  "exactPrompt": "Use case: precise-object-edit. Image1 is the seated-dog EDIT TARGET. Image2 is the immediately preceding frame and authority for the foreground flowerpot/table cue and dog's lean BODY proportions. Image3 is canonical Scooby identity/scale. Make exactly TWO bounded repairs to image1.\n1. BODY continuity: Scooby's seated chest/neck/haunch mass is too broad and puffed-up compared with his lean short-haired build in images2/3. Slim his chest barrel and fluffy lower-neck mane visibly, about20\u201325% narrower in the torso/shoulders and haunch silhouette, with natural taper from chest to forelegs. Remove bulky retriever-like fur volume, use the same short coat as reference. Keep him seated and HUGE relative to Papa/child, his paws on the SAME floor plane and head at nearly the same height, but no artificially inflated chest. This is the same dog's body sitting, not suddenly a giant bear. Preserve the EXACT approved face, eyes, gaze at Papa/bowl, ears, modest skull and friendly expression from image1. Do not make him a miniature or change breed. Reconstruct only small exposed background strips where body narrows.\n2. FOREGROUND TABLE: Add the identical small rounded brown glazed ceramic flowerpot of white/yellow daisies from image2 ON the same wooden tabletop in the lower-left/center foreground, matching its placement, size, soft focus and base contact shadow precisely. This reveals the big wooden surface as a TABLE, not floor. Preserve existing folded cloth at lower right and table geometry; no large camera reframe. Daisies must not cover any character's face/body/bucket.\nPreserve one Papa holding berry bowl at right, Mama holding separate infant at left, PinPin beside ONE full wooden bucket, their exact faces/anatomy/positions and all room lighting/materials/camera. Keep OPEN front-door opening entirely clear to softly blurred outdoor foliage: no window bars/crosspieces or new pane. Keep its green opened leaf, wooden arch and TWO real side windows exactly as image1. No additional characters, extra props, new tails above head, text or borders. Landscape1536x1024.",
+  "prompt": {
+    "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r18/art/opening/prompts/scene-05g2-v3.txt",
+    "sha256": "939a78e1fd3a65615eee992419478a6e576a62ae168844e2c982e0c3afab1d2e"
+  },
+  "references": [
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r18/art/opening/masters/scene-05g2-v2.png",
+      "sha256": "d8058f73fbcec44f1eb954eaccdd4aedf554060cb24e6df6781d2694344da2f0",
+      "bytes": 2404422
+    },
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r18/art/opening/masters/scene-05g1-v2.png",
+      "sha256": "209cf0dfb8f34942cbee5e0163532318d1ba218f7a15266c673420bf81a2837b",
+      "bytes": 2529024
+    },
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r17/web/scene-05g-b8b914ed98fe.webp",
+      "sha256": "66131fe29408b8eb4acdd94745575e363838862b4f44d33f00fcb076a7854bd6",
+      "bytes": 482918
+    }
+  ],
+  "toolArguments": {
+    "prompt": "Use case: precise-object-edit. Image1 is the seated-dog EDIT TARGET. Image2 is the immediately preceding frame and authority for the foreground flowerpot/table cue and dog's lean BODY proportions. Image3 is canonical Scooby identity/scale. Make exactly TWO bounded repairs to image1.\n1. BODY continuity: Scooby's seated chest/neck/haunch mass is too broad and puffed-up compared with his lean short-haired build in images2/3. Slim his chest barrel and fluffy lower-neck mane visibly, about20\u201325% narrower in the torso/shoulders and haunch silhouette, with natural taper from chest to forelegs. Remove bulky retriever-like fur volume, use the same short coat as reference. Keep him seated and HUGE relative to Papa/child, his paws on the SAME floor plane and head at nearly the same height, but no artificially inflated chest. This is the same dog's body sitting, not suddenly a giant bear. Preserve the EXACT approved face, eyes, gaze at Papa/bowl, ears, modest skull and friendly expression from image1. Do not make him a miniature or change breed. Reconstruct only small exposed background strips where body narrows.\n2. FOREGROUND TABLE: Add the identical small rounded brown glazed ceramic flowerpot of white/yellow daisies from image2 ON the same wooden tabletop in the lower-left/center foreground, matching its placement, size, soft focus and base contact shadow precisely. This reveals the big wooden surface as a TABLE, not floor. Preserve existing folded cloth at lower right and table geometry; no large camera reframe. Daisies must not cover any character's face/body/bucket.\nPreserve one Papa holding berry bowl at right, Mama holding separate infant at left, PinPin beside ONE full wooden bucket, their exact faces/anatomy/positions and all room lighting/materials/camera. Keep OPEN front-door opening entirely clear to softly blurred outdoor foliage: no window bars/crosspieces or new pane. Keep its green opened leaf, wooden arch and TWO real side windows exactly as image1. No additional characters, extra props, new tails above head, text or borders. Landscape1536x1024.",
+    "referenced_image_paths": [
+      "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r18/art/opening/masters/scene-05g2-v2.png",
+      "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r18/art/opening/masters/scene-05g1-v2.png",
+      "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r17/web/scene-05g-b8b914ed98fe.webp"
+    ],
+    "transparent_background": false
+  },
+  "originalToolOutput": "/Users/miguel_lemos/.codex/generated_images/01a0fa05-e7a6-7a00-a6f0-fc3a9cc0cc09/exec-67537300-5b27-4400-aaa5-ad3beab590f6.png",
+  "artistReview": "pass",
+  "rootReview": "pass",
+  "selected": true
+}

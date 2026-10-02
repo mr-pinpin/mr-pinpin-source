@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "scene-03g",
+  "version": "v1",
+  "jobId": "job-06ece63573a74f1690a8",
+  "tool": "image_gen__imagegen",
+  "master": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r18/art/opening/masters/scene-03g-v1.png",
+  "masterSha256": "8218ec2cb6bff57b4256cd2fd0a67b913ce2a9c6e5a4a9868e86b711227bd319",
+  "dimensions": [
+    1536,
+    1024
+  ],
+  "web": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r18/art/opening/web/scene-03g-v1.webp",
+  "webSha256": "29d71ab01bce26977821f692ed578d7ef74fc148df6e64cdbeafd14fc5133be4",
+  "exactPrompt": "Use case: precise-object-edit. This is the edit target. Remove ONLY the brown leather harness/looped straps and brass hardware held against Papa's belly in the center of this family scene. Fill that small area naturally with his existing soft cream-brown belly fur and a normal relaxed empty paw, with correct single-arm anatomy. Preserve Papa's exact face, head, body, raised other hand and stance, Mama seated with the distinct infant and ball, PinPin seated at right, all four family members, room geometry, round windows, solid green door, stove, lighting, colors, materials and camera. No new prop or clothing. Same landscape1536x1024, no text.",
+  "prompt": {
+    "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r18/art/opening/prompts/scene-03g-v1.txt",
+    "sha256": "485126652ce57e5c87ccfb400728297725d1b85e0a9f64511a8776c0555d6da9"
+  },
+  "references": [
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r17/art/opening/web/scene-03g-v1.webp",
+      "sha256": "90cf531a30e133b1a87a0912f668d91b6bfeb6e399f7242fc64dbe60a0d942d1",
+      "bytes": 506678
+    }
+  ],
+  "toolArguments": {
+    "prompt": "Use case: precise-object-edit. This is the edit target. Remove ONLY the brown leather harness/looped straps and brass hardware held against Papa's belly in the center of this family scene. Fill that small area naturally with his existing soft cream-brown belly fur and a normal relaxed empty paw, with correct single-arm anatomy. Preserve Papa's exact face, head, body, raised other hand and stance, Mama seated with the distinct infant and ball, PinPin seated at right, all four family members, room geometry, round windows, solid green door, stove, lighting, colors, materials and camera. No new prop or clothing. Same landscape1536x1024, no text.",
+    "referenced_image_paths": [
+      "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r17/art/opening/web/scene-03g-v1.webp"
+    ],
+    "transparent_background": false
+  },
+  "originalToolOutput": "/Users/miguel_lemos/.codex/generated_images/01a0fa05-e7a6-7a00-a6f0-fc3a9cc0cc09/exec-33f6d010-3849-4bb8-969e-7afe720f6f68.png",
+  "artistReview": "pass",
+  "rootReview": "pass",
+  "selected": true
+}
