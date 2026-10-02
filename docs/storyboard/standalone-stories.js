@@ -159,9 +159,10 @@
 
   function completeBath(story) {
     const prefix = 'images/published/bath-magic/';
-    if (story?.id !== 'bath-magic' || story.editionVersion !== 1 || !localized(story.title) ||
+    const count = story?.editionVersion === 1 ? 139 : story?.editionVersion === 2 ? 172 : null;
+    if (story?.id !== 'bath-magic' || !count || !localized(story.title) ||
         !localized(story.cover) || !languages.every(lang => [prefix + 'title-' + lang + '.webp', prefix + 'title-' + lang + '-v2.webp'].includes(story.cover[lang])) ||
-        story.miniature !== prefix + 'miniature.webp' || story.scenes?.length !== 139 || story.spreads?.length !== 139) return false;
+        story.miniature !== prefix + 'miniature.webp' || story.scenes?.length !== count || story.spreads?.length !== count) return false;
     const seen = new Set();
     return story.scenes.every((scene, index) => {
       if (!scene || seen.has(scene.id) || !localized(scene.alt)) return false;
@@ -176,7 +177,9 @@
         ? scene.id === 'bath-magic-title' && scene.role === 'title' && localized(scene.images) &&
           languages.every(lang => scene.images[lang] === story.cover[lang]) && scene.image === story.cover.en &&
           scene.width === 1024 && scene.height === 1536
-        : /^scene-[0-9]{2,3}[a-z]?$/.test(scene.id) && scene.image === prefix + scene.id + '.webp' &&
+        : /^scene-[0-9]{2,3}(?:[a-z][0-9]?)?$/.test(scene.id) &&
+          (scene.image === prefix + scene.id + '.webp' ||
+            (story.editionVersion === 2 && scene.image === prefix + 'r17/' + scene.id + '.webp')) &&
           scene.width === 1536 && scene.height === 1024;
     });
   }
