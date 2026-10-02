@@ -1,0 +1,76 @@
+{
+  "tool": "image_gen__imagegen",
+  "generatedAt": "2026-10-02T04:09:53.146Z",
+  "sourceOutput": "/Users/miguel_lemos/.codex/generated_images/01a0fa0e-884b-7703-be8d-7ace86b986f9/exec-36dca43e-3d46-4907-95e7-ae6b1bc89cc3.png",
+  "promptPath": "prompts/scene-32h-v1.txt",
+  "references": [
+    "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r12-house-layout/root/masters/scene-123-v1.png",
+    "/Volumes/TB4/mac-mini-storage/shared/pinpin-workspace/mr-pinpin-source/docs/storyboard/images/published/elder-cycle/elder-r6-forest-021.webp",
+    "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r15-beaver-aqueduct/geometry/masters/scene-32c-v1.png",
+    "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r8-herculean/reused/web/scene-35.webp"
+  ],
+  "visualReview": "Viewed native: Beaver2pawsusinghandplane onbenchwoodtrough, Papaliftsfinishedsection2paws, childgroundstacksblocks, Scoobylieswatching. OpenUchannelsandcurvedsectionleanatbench, matchingwoodmodules, no closedpipes. Clearadult/childscale/roundPapa.",
+  "promptSha256": "5ee1318dac859fad0d9b702f231bf135c6db136e2125ff0b022241775896c109",
+  "master": {
+    "path": "masters/scene-32h-v1.png",
+    "sha256": "fa97b23e4106a9cdaf614ccc1ae227f68e4f870b70fbe5b3ff06d70e341b9e1d",
+    "bytes": 3025787
+  },
+  "referenceIdentities": [
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r12-house-layout/root/masters/scene-123-v1.png",
+      "sha256": "2cb68e594ffb126361f35fddabf0500893a7e61c3c61f4920b3ab8c30247c96e",
+      "bytes": 2435633
+    },
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-workspace/mr-pinpin-source/docs/storyboard/images/published/elder-cycle/elder-r6-forest-021.webp",
+      "sha256": "496b4f5dd35b520c54fce130c4ace6758fc48b1efbabf1b1a06f5cd84aeedbe5",
+      "bytes": 505342
+    },
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r15-beaver-aqueduct/geometry/masters/scene-32c-v1.png",
+      "sha256": "e6cdb33ea8f140f644e487d7a2b7c18b1e01f7b99fd2b7f7f1bfc302ac4f5186",
+      "bytes": 3030390
+    },
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r8-herculean/reused/web/scene-35.webp",
+      "sha256": "c238a7025feb134dbb72a2ee41220fa4af7ca58b2eac4c704d2a0e7caa73170c",
+      "bytes": 430920
+    }
+  ],
+  "preservedReferences": [
+    {
+      "path": "references/inputs/2cb68e594ffb/scene-123-v1.png",
+      "sha256": "2cb68e594ffb126361f35fddabf0500893a7e61c3c61f4920b3ab8c30247c96e"
+    },
+    {
+      "path": "references/inputs/496b4f5dd35b/elder-r6-forest-021.webp",
+      "sha256": "496b4f5dd35b520c54fce130c4ace6758fc48b1efbabf1b1a06f5cd84aeedbe5"
+    },
+    {
+      "path": "references/inputs/e6cdb33ea8f1/scene-32c-v1.png",
+      "sha256": "e6cdb33ea8f140f644e487d7a2b7c18b1e01f7b99fd2b7f7f1bfc302ac4f5186"
+    },
+    {
+      "path": "references/inputs/c238a7025feb/scene-35.webp",
+      "sha256": "c238a7025feb134dbb72a2ee41220fa4af7ca58b2eac4c704d2a0e7caa73170c"
+    }
+  ],
+  "reviewStatus": "illustration candidate; awaiting user feedback",
+  "web": {
+    "path": "web/scene-32h.webp",
+    "sha256": "7abb1583e33a7349da16ee35d840ac548f99db106a5d47a8f0c6a887db362d10",
+    "bytes": 597468
+  },
+  "dimensions": [
+    1536,
+    1024
+  ],
+  "conversion": {
+    "format": "WebP",
+    "quality": 94,
+    "method": 6,
+    "resized": false,
+    "artEdited": false
+  }
+}

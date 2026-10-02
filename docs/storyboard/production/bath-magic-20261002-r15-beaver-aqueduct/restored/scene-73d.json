@@ -1,0 +1,43 @@
+{
+  "operation": "Exact selected R8 scene73 byte pointer; no generation, cropping or recompression",
+  "sourceProduction": "bath-magic-20261001-r8-herculean",
+  "sourceSceneId": "scene-73",
+  "master": {
+    "path": "geometry/masters/scene-73-v1.png",
+    "sha256": "3cf0ea21b684939a7c30eaa777692a19d925e664f8d594c61c9c72df4a1e5fdd",
+    "bytes": 2741259,
+    "mtimeNs": 1790876527150542121
+  },
+  "web": {
+    "path": "geometry/web/scene-73.webp",
+    "sha256": "90948c095130b472d050acb66c21d17f5781697d82ea49ea6fd9afc1f212a1d2",
+    "bytes": 508848,
+    "mtimeNs": 1790876624422744518
+  },
+  "review": "Coordinator viewed archived candidate and selected it to restore Mama ducking beneath the leaf. This is not a claim of new user approval.",
+  "caveat": "Older close shot uses broad foliage and does not depict the collector; flower is outside the crop. Retained intentionally as the requested original gag.",
+  "insertAfter": "scene-73",
+  "insertBefore": "scene-73a",
+  "upstreamArchiveProof": {
+    "receipt": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r8-herculean/archive-receipt.json",
+    "receiptSha256": "9e438e4ad7b702ab3d3c75c964a333d6469baca5709ab3bcbbd8b33ee6eb8d15",
+    "matchedEntries": [
+      {
+        "field": "master",
+        "path": "docs/storyboard/production/bath-magic-20261001-r8-herculean/geometry/masters/scene-73-v1.png",
+        "sha256": "3cf0ea21b684939a7c30eaa777692a19d925e664f8d594c61c9c72df4a1e5fdd",
+        "bytes": 2741259,
+        "object": "sha256/3c/3cf0ea21b684939a7c30eaa777692a19d925e664f8d594c61c9c72df4a1e5fdd/scene-73-v1.png",
+        "remoteVerified": true
+      },
+      {
+        "field": "web",
+        "path": "docs/storyboard/production/bath-magic-20261001-r8-herculean/geometry/web/scene-73.webp",
+        "sha256": "90948c095130b472d050acb66c21d17f5781697d82ea49ea6fd9afc1f212a1d2",
+        "bytes": 508848,
+        "object": "sha256/90/90948c095130b472d050acb66c21d17f5781697d82ea49ea6fd9afc1f212a1d2/scene-73.webp",
+        "remoteVerified": true
+      }
+    ]
+  }
+}

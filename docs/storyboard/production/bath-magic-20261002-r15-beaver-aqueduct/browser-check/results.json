@@ -1,0 +1,45 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "width": 1440,
+      "defaultRussian": true,
+      "fullReaderScenes": 138,
+      "decodedSceneImages": 138,
+      "boardImagesDecoded": 10,
+      "panelLinks": 138,
+      "textComparison": true,
+      "languages": [
+        "ru",
+        "en",
+        "es"
+      ],
+      "noOverflow": true
+    },
+    {
+      "width": 390,
+      "defaultRussian": true,
+      "fullReaderScenes": 138,
+      "decodedSceneImages": 138,
+      "boardImagesDecoded": 10,
+      "panelLinks": 138,
+      "textComparison": true,
+      "languages": [
+        "ru",
+        "en",
+        "es"
+      ],
+      "noOverflow": true
+    }
+  ],
+  "errors": [],
+  "sourceHashes": {
+    "story-plan.json": "88c14117ed57734410cf97e62f7ea44104feefce546efeba8d56087e951d5c10",
+    "causal-rhythm.json": "ce97ca9cdf9f922edac1974de0e481ac1e829051dd5d520e0dcf8f02d93cb5a9",
+    "feedback-map.json": "95e5203ae65f33845f3951bfaf8e60e3542f5adce7be49d99fe7c6998921f5c2",
+    "boards/manifest.json": "636ac3b9fba9c07f355ad5e931e0182f9aa52b2841f8e7f7f89d87d8fc0f62e9",
+    "docs/storyboard/review/bath-magic-r15-beaver-aqueduct.html": "6327dd91c6f89352bcb2adb80012f41a54ddb113a11094992b20fa73ff74d76a",
+    "docs/storyboard/review/bath-magic-r15-beaver-aqueduct.css": "daf5187f487b23f7d6c7d91cc42873ef27c2c763b554c85612317839cfae3cb4",
+    "docs/storyboard/review/bath-magic-r15-beaver-aqueduct.js": "3df0876d302b5e41943565cc7a10cefc5783c9c7dd037a4fee6ab4cb8b676f3d"
+  }
+}

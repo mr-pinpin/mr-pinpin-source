@@ -1,0 +1,56 @@
+{
+  "tool": "image_gen__imagegen",
+  "generatedAt": "2026-10-02T04:19:43.601Z",
+  "sourceOutput": "/Users/miguel_lemos/.codex/generated_images/01a0fa0e-884b-7703-be8d-7ace86b986f9/exec-db3f6940-fd8f-4f2d-bde5-2cda330f3d2a.png",
+  "promptPath": "prompts/scene-32j-v2.txt",
+  "references": [
+    "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r15-beaver-aqueduct/geometry/masters/scene-32j-v1.png",
+    "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r15-beaver-aqueduct/geometry/masters/scene-05g-v1.png"
+  ],
+  "visualReview": "Native v2 viewed: distantLEFTbodywater removed and replaced matchingtrees/ferns/gardenfence. Exact5castfacesposeswoodloads/cottage/windows/greenfrontdoor/camera/light preserved. Smallthresholdbathpuddle remainsunchanged. NarrowbackgroundrepairPASS.",
+  "promptSha256": "b6d5dd70f54c7246dcd450fd63f5877c0e584a0a88f7f2cf34588db151c47e42",
+  "master": {
+    "path": "masters/scene-32j-v2.png",
+    "sha256": "bfaec0ad4fe4526c215f44cf108dba6f09f6a826899e8d93d76563d357ac8cb4",
+    "bytes": 2893016
+  },
+  "referenceIdentities": [
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r15-beaver-aqueduct/geometry/masters/scene-32j-v1.png",
+      "sha256": "98e86c433bb8b1c696ec0fd943ee450d5c1f4c561c77d89502e2b68d3f369b68",
+      "bytes": 2971666
+    },
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r15-beaver-aqueduct/geometry/masters/scene-05g-v1.png",
+      "sha256": "02f0f4d5145afd30db60dfcf3e5c2ba51d8693624369938779ea399131892151",
+      "bytes": 2922691
+    }
+  ],
+  "preservedReferences": [
+    {
+      "path": "references/inputs/98e86c433bb8/scene-32j-v1.png",
+      "sha256": "98e86c433bb8b1c696ec0fd943ee450d5c1f4c561c77d89502e2b68d3f369b68"
+    },
+    {
+      "path": "references/inputs/02f0f4d5145a/scene-05g-v1.png",
+      "sha256": "02f0f4d5145afd30db60dfcf3e5c2ba51d8693624369938779ea399131892151"
+    }
+  ],
+  "reviewStatus": "illustration candidate; awaiting user feedback",
+  "web": {
+    "path": "web/scene-32j.webp",
+    "sha256": "9c1fbb48544abc2457238edd851082b109b6e3011b5708a0e987efc9471e9f38",
+    "bytes": 561612
+  },
+  "dimensions": [
+    1536,
+    1024
+  ],
+  "conversion": {
+    "format": "WebP",
+    "quality": 94,
+    "method": 6,
+    "resized": false,
+    "artEdited": false
+  }
+}

@@ -1,0 +1,64 @@
+R15 BEAVER AQUEDUCT EXPANSION — UNPUBLISHED REVIEW
+
+138 story scenes plus cover (139 selected images). Four illustrations corrected,
+17 new intermediate illustrations, and one exact archived illustration restored.
+No scenes removed. R14 feedback numbers remain visible with stable scene IDs.
+
+CORRECTIONS
+04a: Mama's happy attentive gaze toward departing PinPin.
+05a: Removed only the hanging nose drop; ordinary bird splashes remain.
+05d: Distinct infant PomPom hugs Mama's ankle at the dry threshold.
+47: Corrected full oval wooden bathtub contour, with separate lower collector.
+Only existing 05a caption changes; every other R14 caption remains unchanged.
+
+ADDED STORY
+05e–g: Scooby digs and Papa rescues a plant, walks with him, opens the home door.
+30a–d: Mama brings supported tea tray, family enjoys a quiet bath, she notices
+overflow, Papa proposes building a wooden channel with Beaver.
+32a–j: Mount Scooby with picnic, ride through forest, greet canonical Beaver,
+share bread/fruit and explain, draw practical plan in earth, join prototype,
+test downhill water flow with pitcher, build pieces, load light side bundles,
+return and unload at home. Existing33 continues carrying the channels inside.
+No premature aqueduct, magical plan drawing, or infant travelling with riders.
+73d: Exact R8scene73 Mama ducking under the large leaf, restored after73 before
+the moving sequence. Source is unchanged; older foliage/crop documented in
+restored/scene-73d.json. This is a restoration, not newly generated artwork.
+
+CONTINUITY
+All117 other selected R14 slots, including approved Papa75/123, user45, and
+canal55/55a/55c remain byte-identical. Captions EN/RU/ES match actual actions:
+bread/fruit at picnic, Papa checks wood edges, child carries support blocks.
+Casts include visible baby at home; Beaver stays at creek. Last home return
+was repaired narrowly to remove accidentally imported workshop river scenery.
+Selected paths/hashes now describe actual selected art; no inherited stale
+selection metadata. Review labels say inspected draft awaiting user feedback.
+
+REVIEW
+http://127.0.0.1:18795/storyboard/review/bath-magic-r15-beaver-aqueduct.html?lang=ru
+Before/after: add &view=changes
+Five-sheet storyboard: add &view=storyboard
+Reader EN/RU/ES; five compact comic sheets each in RU and EN.
+Four R14 comparisons, 17 new cards and separately labelled restored73d.
+
+QA
+Coordinator independently viewed and passed all21 selected generated images
+and restored73d. Art reports retain specific fixes and iteration history.
+All25 native generated outputs (21 selected,4 rejected), exact prompts and
+24 distinct reference inputs retained and hash-checked.
+reader/selection-qa.json:139 actual file hashes, exact ordering/counts,
+117 untouched R14 selections, approved character/canal art unchanged.
+boards/qa.json:10 boards,276 panels, exact captions, valid bounds and unchanged
+contained source pixels; layout-only assembly.
+browser-check/results.json: Chrome1440/390 passes;138 scene images decoded,
+10 board images,138 panel links,4 comparisons/18 insertions,3 languages,
+zero browser errors, zero horizontal overflow.
+Changes1440 screenshot visually inspected after automated passes.
+
+PRESERVATION
+New R15 art, all rejected native alternatives, inputs, prompts, reports, board
+masters/derivatives and browser proof preserved on mini SSD and scoped archive.
+Upstream R14 and exact restored R8 slots remain immutable pointers with prior
+verified archive identities; restored73d records explicit R8 receipt/hash proof.
+Only matching archive-receipt.json verified by fresh remote download proves
+completion of preservation. See final-proof.json after backup completes.
+Source-only scoped commit; no push, official publication, or unrelated edits.

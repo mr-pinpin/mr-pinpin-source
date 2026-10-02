@@ -1,0 +1,76 @@
+{
+  "tool": "image_gen__imagegen",
+  "generatedAt": "2026-10-02T04:02:20.166Z",
+  "sourceOutput": "/Users/miguel_lemos/.codex/generated_images/01a0fa0e-884b-7703-be8d-7ace86b986f9/exec-e168e80c-67d2-4b86-b58a-f173b06f4655.png",
+  "promptPath": "prompts/scene-05g-v1.txt",
+  "references": [
+    "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r12-house-layout/root/masters/scene-123-v1.png",
+    "/Volumes/TB4/mac-mini-storage/shared/pinpin-workspace/mr-pinpin-source/docs/storyboard/images/published/elder-cycle/elder-r6-forest-021.webp",
+    "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r14-water-trip/root/masters/scene-05d-v1.png",
+    "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r15-beaver-aqueduct/geometry/masters/scene-05e-v1.png"
+  ],
+  "visualReview": "Viewed native: Papaopensgreenhousefrontdoor andlooksbackatScoobyfollowingontothreshold. TwoPapafoot/twopaws,4doglegs, correctfaces/quills/curledtail.2roundwindows, dryinterior.Nofootbrushingaction; readernotifiedcaptionalign.",
+  "promptSha256": "74ebd66735d782b04d7b571baf548286938b94335c126acbb07b5b9026bc6147",
+  "master": {
+    "path": "masters/scene-05g-v1.png",
+    "sha256": "02f0f4d5145afd30db60dfcf3e5c2ba51d8693624369938779ea399131892151",
+    "bytes": 2922691
+  },
+  "referenceIdentities": [
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r12-house-layout/root/masters/scene-123-v1.png",
+      "sha256": "2cb68e594ffb126361f35fddabf0500893a7e61c3c61f4920b3ab8c30247c96e",
+      "bytes": 2435633
+    },
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-workspace/mr-pinpin-source/docs/storyboard/images/published/elder-cycle/elder-r6-forest-021.webp",
+      "sha256": "496b4f5dd35b520c54fce130c4ace6758fc48b1efbabf1b1a06f5cd84aeedbe5",
+      "bytes": 505342
+    },
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r14-water-trip/root/masters/scene-05d-v1.png",
+      "sha256": "7ba45a81a6a5cb42e7b9709f7be501f09ced2ce9910690ecf678edebfcbe7b3a",
+      "bytes": 2972935
+    },
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r15-beaver-aqueduct/geometry/masters/scene-05e-v1.png",
+      "sha256": "5c4b4db8d218ebecf30f30b8051ffc8424c9ed1f1e0911196a51d094bec4c89b",
+      "bytes": 2858286
+    }
+  ],
+  "preservedReferences": [
+    {
+      "path": "references/inputs/2cb68e594ffb/scene-123-v1.png",
+      "sha256": "2cb68e594ffb126361f35fddabf0500893a7e61c3c61f4920b3ab8c30247c96e"
+    },
+    {
+      "path": "references/inputs/496b4f5dd35b/elder-r6-forest-021.webp",
+      "sha256": "496b4f5dd35b520c54fce130c4ace6758fc48b1efbabf1b1a06f5cd84aeedbe5"
+    },
+    {
+      "path": "references/inputs/7ba45a81a6a5/scene-05d-v1.png",
+      "sha256": "7ba45a81a6a5cb42e7b9709f7be501f09ced2ce9910690ecf678edebfcbe7b3a"
+    },
+    {
+      "path": "references/inputs/5c4b4db8d218/scene-05e-v1.png",
+      "sha256": "5c4b4db8d218ebecf30f30b8051ffc8424c9ed1f1e0911196a51d094bec4c89b"
+    }
+  ],
+  "reviewStatus": "illustration candidate; awaiting user feedback",
+  "web": {
+    "path": "web/scene-05g.webp",
+    "sha256": "7f2f12d91f324f90c519b6270807eca592912a6b3d9e45dbc04705c33f950607",
+    "bytes": 562974
+  },
+  "dimensions": [
+    1536,
+    1024
+  ],
+  "conversion": {
+    "format": "WebP",
+    "quality": 94,
+    "method": 6,
+    "resized": false,
+    "artEdited": false
+  }
+}

@@ -1,0 +1,11 @@
+R15 RESTORATION
+
+Restore scoped assets/bath-magic-20261002-r15-beaver-aqueduct.json with matching verified receipt through repository asset tools. New native generations, prompts/references and comic derivatives are preserved. The restored Mama-under-leaf is an exact pointer to R8 scene73, named scene73d here; no new generation or native copy. See restoration-manifest.json and restored/scene-73d.json.
+
+Upstream selected pointers require sibling packs pinpin-bath-magic-20261002-r14-water-trip, pinpin-bath-magic-20261001-r13-floor-canal, pinpin-bath-magic-20261001-r12-house-layout, pinpin-bath-magic-20261001-r11-continuity, pinpin-bath-magic-20261001-r10-story-repair and pinpin-bath-magic-20261001-r8-herculean, restored from their own manifests.
+
+138scenes+cover139: four replacements,17generated insertions,one restored archive insertion. No removals. Stable IDs preserve provenance; r14Number retains user feedback references. sourceProduction gives actual bytes; reusedFromProduction immediate lineage.
+
+Use source-only committed recipes. Pillow .venv runs refresh-media.py, verify-continuity-selection.py, normalize-selection.py, finalize-selection.py, configure-storyboard.py, build-storyboard.py --languages ru,en --version NEW_INTEGER, verify-boards.py. Never overwrite immutable masters/build inputs. Mini system python3 has HF dependencies/authentication. Matching fresh-readback receipt is backup proof.
+
+Serve R15 review and upstream routes on mini18796, Air18795 tunnel. This is an unpublished review draft.

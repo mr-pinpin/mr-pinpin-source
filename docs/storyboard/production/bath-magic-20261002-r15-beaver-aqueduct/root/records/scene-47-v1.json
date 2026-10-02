@@ -1,0 +1,56 @@
+{
+  "tool": "image_gen__imagegen",
+  "generatedAt": "2026-10-02T04:00:04.242Z",
+  "sourceOutput": "/Users/miguel_lemos/.codex/generated_images/01a0fa05-e7a6-7a00-a6f0-fc3a9cc0cc09/exec-1ee7870d-d93c-4987-ade1-fee3af517ebb.png",
+  "promptPath": "prompts/scene-47-v1.txt",
+  "references": [
+    "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r8-herculean/story/web/scene-47.webp",
+    "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r8-herculean/reused/web/scene-46.webp"
+  ],
+  "visualReview": "Viewed native image. Full convex oval tub restored: far/right rim smoothly rounds behind Mama's perch and joins near ellipse without inward notch/crescent. Mama holding flower with both feet inside water, single duck, flowers, running source preserved. Solid stave wall/iron bands coherent; separate foreground collector remains outside and supported.",
+  "promptSha256": "5f2699a2ed4e7a6ccc78e632c3db9812d06a104e387c55c10b633558965db1f4",
+  "master": {
+    "path": "masters/scene-47-v1.png",
+    "sha256": "2d066f2d9d8edba05ddcaa909f196c9f3fd598133608e607311e34e6e295a15d",
+    "bytes": 2636459
+  },
+  "referenceIdentities": [
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r8-herculean/story/web/scene-47.webp",
+      "sha256": "47464bb4555207039b48ffe4502423b3eddc0be97a6cf8a702760e3dbfaeadc9",
+      "bytes": 499760
+    },
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r8-herculean/reused/web/scene-46.webp",
+      "sha256": "be1793d76a03ea33f81f7ad6c266183d88ad9cb17ee7d5d4feeada3952fd9365",
+      "bytes": 431572
+    }
+  ],
+  "preservedReferences": [
+    {
+      "path": "references/inputs/47464bb45552/scene-47.webp",
+      "sha256": "47464bb4555207039b48ffe4502423b3eddc0be97a6cf8a702760e3dbfaeadc9"
+    },
+    {
+      "path": "references/inputs/be1793d76a03/scene-46.webp",
+      "sha256": "be1793d76a03ea33f81f7ad6c266183d88ad9cb17ee7d5d4feeada3952fd9365"
+    }
+  ],
+  "reviewStatus": "illustration candidate; awaiting user feedback",
+  "web": {
+    "path": "web/scene-47.webp",
+    "sha256": "2f026b5d0bc7a7ff9f6cc060ab3e0cf5e51659b946cf3609e970de41f76851ff",
+    "bytes": 487526
+  },
+  "dimensions": [
+    1536,
+    1024
+  ],
+  "conversion": {
+    "format": "WebP",
+    "quality": 94,
+    "method": 6,
+    "resized": false,
+    "artEdited": false
+  }
+}

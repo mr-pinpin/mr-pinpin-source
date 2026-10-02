@@ -1,0 +1,92 @@
+{
+  "productionId": "bath-magic-20261002-r15-beaver-aqueduct",
+  "sourceProduction": "bath-magic-20261002-r14-water-trip",
+  "counts": {
+    "storyImages": 138,
+    "cover": 1,
+    "newArt": 21,
+    "retainedR14": 117,
+    "restoredR8": 1
+  },
+  "changes": [
+    {
+      "id": "scene-04a",
+      "r14Number": 5,
+      "reason": "Mama smiles and makes eye contact with departing PinPin."
+    },
+    {
+      "id": "scene-05a",
+      "r14Number": 10,
+      "reason": "Remove the hanging water drop from PinPin’s nose; keep playful bird splashes."
+    },
+    {
+      "id": "scene-05d",
+      "r14Number": 13,
+      "reason": "Add infant PomPom hugging Mama’s toes, separately and anatomically coherent."
+    },
+    {
+      "id": "scene-47",
+      "r14Number": 57,
+      "reason": "Correct the crescent bath/rim geometry."
+    }
+  ],
+  "insertedIds": [
+    "scene-05e",
+    "scene-05f",
+    "scene-05g",
+    "scene-30a",
+    "scene-30b",
+    "scene-30c",
+    "scene-30d",
+    "scene-32a",
+    "scene-32b",
+    "scene-32c",
+    "scene-32d",
+    "scene-32e",
+    "scene-32f",
+    "scene-32g",
+    "scene-32h",
+    "scene-32i",
+    "scene-32j",
+    "scene-73d"
+  ],
+  "restoredIds": [
+    "scene-73d"
+  ],
+  "removed": [],
+  "preserveExactly": [
+    "scene-75",
+    "scene-123",
+    "scene-55",
+    "scene-55a",
+    "scene-55c",
+    "scene-45"
+  ],
+  "artOwnership": {
+    "root": [
+      "scene-04a",
+      "scene-05a",
+      "scene-05d",
+      "scene-47",
+      "scene-30a",
+      "scene-30b",
+      "scene-30c",
+      "scene-30d"
+    ],
+    "geometry": [
+      "scene-05e",
+      "scene-05f",
+      "scene-05g",
+      "scene-32a",
+      "scene-32b",
+      "scene-32c",
+      "scene-32d",
+      "scene-32e",
+      "scene-32f",
+      "scene-32g",
+      "scene-32h",
+      "scene-32i",
+      "scene-32j"
+    ]
+  }
+}

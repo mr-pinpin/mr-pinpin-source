@@ -1,0 +1,46 @@
+{
+  "tool": "image_gen__imagegen",
+  "generatedAt": "2026-10-02T03:55:38.479Z",
+  "sourceOutput": "/Users/miguel_lemos/.codex/generated_images/01a0fa05-e7a6-7a00-a6f0-fc3a9cc0cc09/exec-0337cc37-dc68-459c-ac74-2e29ca09e181.png",
+  "promptPath": "prompts/scene-05a-v1.txt",
+  "references": [
+    "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r14-water-trip/geometry/masters/scene-05a-v1.png"
+  ],
+  "visualReview": "Viewed native output. Hanging nose droplet removed cleanly; nose contour and wink preserved. Robin shake,other airborne droplets,spring,rabbit and2buckets remain intact.",
+  "promptSha256": "ef419fc9eb1fd8ce03b7ce210844ccc9c31b1c0b9644dce6f73e210ca6ba3962",
+  "master": {
+    "path": "masters/scene-05a-v1.png",
+    "sha256": "f6e6d63d33f45b7fbd0eaa64fdd6927e1b8c214b816b49db081bb1626796d9ee",
+    "bytes": 2728678
+  },
+  "referenceIdentities": [
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r14-water-trip/geometry/masters/scene-05a-v1.png",
+      "sha256": "7570bca98a050ba5ff1323fe70632a01a4dabeff2206c8e7e49d3a21b364dee7",
+      "bytes": 2843020
+    }
+  ],
+  "preservedReferences": [
+    {
+      "path": "references/inputs/7570bca98a05/scene-05a-v1.png",
+      "sha256": "7570bca98a050ba5ff1323fe70632a01a4dabeff2206c8e7e49d3a21b364dee7"
+    }
+  ],
+  "reviewStatus": "illustration candidate; awaiting user feedback",
+  "web": {
+    "path": "web/scene-05a.webp",
+    "sha256": "0b12d9278c35dcf80bae97c457e25cf1a75abf6ab544e89a5b48d7c6f7a92070",
+    "bytes": 484582
+  },
+  "dimensions": [
+    1536,
+    1024
+  ],
+  "conversion": {
+    "format": "WebP",
+    "quality": 94,
+    "method": 6,
+    "resized": false,
+    "artEdited": false
+  }
+}

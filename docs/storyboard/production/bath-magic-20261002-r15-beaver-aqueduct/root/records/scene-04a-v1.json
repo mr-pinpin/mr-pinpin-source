@@ -1,0 +1,46 @@
+{
+  "tool": "image_gen__imagegen",
+  "generatedAt": "2026-10-02T03:55:05.809Z",
+  "sourceOutput": "/Users/miguel_lemos/.codex/generated_images/01a0fa05-e7a6-7a00-a6f0-fc3a9cc0cc09/exec-80c8723c-c20b-4d2b-a5b8-14e8d40713ec.png",
+  "promptPath": "prompts/scene-04a-v1.txt",
+  "references": [
+    "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r14-water-trip/root/masters/scene-04a-v1.png"
+  ],
+  "visualReview": "Viewed native output. Mama now has soft open happy smile and attentive downward-left gaze toward departing PinPin; brows relaxed. Original child,2empty buckets,doorway,2windows and morning composition retained. No infant added.",
+  "promptSha256": "f1150803c40ea4ca94c289badd59d6cae9c25b74a092fd6b9603bc5ed0c48279",
+  "master": {
+    "path": "masters/scene-04a-v1.png",
+    "sha256": "03baf0bb4ec7882f27ea17a8114b77bfdeb80f4a2391429a813b3a9029e448c2",
+    "bytes": 2910619
+  },
+  "referenceIdentities": [
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r14-water-trip/root/masters/scene-04a-v1.png",
+      "sha256": "9c8eb7b6c2b8b318394fe7744ab2f6a314db6f01800bbc6a2f6bc0ed5df57773",
+      "bytes": 3152695
+    }
+  ],
+  "preservedReferences": [
+    {
+      "path": "references/inputs/9c8eb7b6c2b8/scene-04a-v1.png",
+      "sha256": "9c8eb7b6c2b8b318394fe7744ab2f6a314db6f01800bbc6a2f6bc0ed5df57773"
+    }
+  ],
+  "reviewStatus": "illustration candidate; awaiting user feedback",
+  "web": {
+    "path": "web/scene-04a.webp",
+    "sha256": "8a95a24193265171d5d90a21f675427afa0b7003aa91354f87aa278bfa5c206b",
+    "bytes": 576888
+  },
+  "dimensions": [
+    1536,
+    1024
+  ],
+  "conversion": {
+    "format": "WebP",
+    "quality": 94,
+    "method": 6,
+    "resized": false,
+    "artEdited": false
+  }
+}

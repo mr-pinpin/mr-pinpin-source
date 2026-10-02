@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "assets": {
+    "scene-73d": {
+      "slug": "scene-73d",
+      "lane": "geometry",
+      "kind": "restored unchanged archive",
+      "status": "candidate",
+      "master": {
+        "path": "geometry/masters/scene-73-v1.png",
+        "sha256": "3cf0ea21b684939a7c30eaa777692a19d925e664f8d594c61c9c72df4a1e5fdd",
+        "bytes": 2741259,
+        "mtimeNs": 1790876527150542121
+      },
+      "web": {
+        "path": "geometry/web/scene-73.webp",
+        "sha256": "90948c095130b472d050acb66c21d17f5781697d82ea49ea6fd9afc1f212a1d2",
+        "bytes": 508848,
+        "mtimeNs": 1790876624422744518
+      },
+      "width": 1536,
+      "height": 1024,
+      "sourceProduction": "bath-magic-20261001-r8-herculean",
+      "sourceSceneId": "scene-73",
+      "reusedFromProduction": "bath-magic-20261001-r8-herculean",
+      "reusedFromSceneId": "scene-73",
+      "upstreamGenerationRecord": "geometry/records/scene-73-v1.json",
+      "restorationRecord": "restored/scene-73d.json"
+    }
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "tool": "image_gen__imagegen",
+  "generatedAt": "2026-10-02T04:06:20.877Z",
+  "sourceOutput": "/Users/miguel_lemos/.codex/generated_images/01a0fa0e-884b-7703-be8d-7ace86b986f9/exec-78db7788-8cf9-4e04-845d-7c75f6c1e719.png",
+  "promptPath": "prompts/scene-05f-v2.txt",
+  "references": [
+    "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r15-beaver-aqueduct/geometry/masters/scene-05f-v1.png"
+  ],
+  "visualReview": "v2 native viewed: Papa now clearly2feet oneplantedandoneforward, Scooby4legs otherraisedsolebelongsdogfrontpaw. Originalidentityfacesandphysicalwalkingmaintained. Selectedv2.",
+  "promptSha256": "8d671e6c5216fef8de77973e0424d7ea97ddc8cb1fcbce65499fd1d78585f197",
+  "master": {
+    "path": "masters/scene-05f-v2.png",
+    "sha256": "5373270545d9b79f583c7db1b5e805e7b064b21ce6e39d6f11656c224038081b",
+    "bytes": 2809574
+  },
+  "referenceIdentities": [
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r15-beaver-aqueduct/geometry/masters/scene-05f-v1.png",
+      "sha256": "c017e2e651c53121bbb52e339876ab57050c0602c2e9f91fa6c9bda79d72e6b2",
+      "bytes": 2935295
+    }
+  ],
+  "preservedReferences": [
+    {
+      "path": "references/inputs/c017e2e651c5/scene-05f-v1.png",
+      "sha256": "c017e2e651c53121bbb52e339876ab57050c0602c2e9f91fa6c9bda79d72e6b2"
+    }
+  ],
+  "reviewStatus": "illustration candidate; awaiting user feedback",
+  "web": {
+    "path": "web/scene-05f.webp",
+    "sha256": "24250104ae19c60dfcf7278a3f15f696b1f7fbf5447c67bcd959f298017749fe",
+    "bytes": 498636
+  },
+  "dimensions": [
+    1536,
+    1024
+  ],
+  "conversion": {
+    "format": "WebP",
+    "quality": 94,
+    "method": 6,
+    "resized": false,
+    "artEdited": false
+  }
+}

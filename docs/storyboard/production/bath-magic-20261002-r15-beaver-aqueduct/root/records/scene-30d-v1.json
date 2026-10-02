@@ -1,0 +1,40 @@
+{
+  "tool": "image_gen__imagegen",
+  "generatedAt": "2026-10-02T04:06:28.925Z",
+  "sourceOutput": "/Users/miguel_lemos/.codex/generated_images/01a0fa05-e7a6-7a00-a6f0-fc3a9cc0cc09/exec-94606b77-6645-45c8-aa77-602501e37805.png",
+  "promptPath": "prompts/scene-30d-v1.txt",
+  "references": [
+    "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r15-beaver-aqueduct/root/masters/scene-30b-v1.png",
+    "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r12-house-layout/root/masters/scene-123-v1.png"
+  ],
+  "visualReview": "Native reviewed: four-family reverse conversation, father holds infant and gestures coherently, child listens. However invented second round window at far right. Preserve unselected pending architecture-only repair.",
+  "promptSha256": "a477c15d406deb5a1df0de2341ab00b008e6470ac351471ae653300dddb1bac4",
+  "master": {
+    "path": "masters/scene-30d-v1.png",
+    "sha256": "0cc84f28259c3e960e6bdba3299ce1b0d7139220246f92ed1a46970fbed49176",
+    "bytes": 2345166
+  },
+  "referenceIdentities": [
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r15-beaver-aqueduct/root/masters/scene-30b-v1.png",
+      "sha256": "397f06788dca76ac216d07d292ec2c3713704eea3f67c74c8046b93ebc021d5d",
+      "bytes": 2422290
+    },
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r12-house-layout/root/masters/scene-123-v1.png",
+      "sha256": "2cb68e594ffb126361f35fddabf0500893a7e61c3c61f4920b3ab8c30247c96e",
+      "bytes": 2435633
+    }
+  ],
+  "preservedReferences": [
+    {
+      "path": "references/inputs/397f06788dca/scene-30b-v1.png",
+      "sha256": "397f06788dca76ac216d07d292ec2c3713704eea3f67c74c8046b93ebc021d5d"
+    },
+    {
+      "path": "references/inputs/2cb68e594ffb/scene-123-v1.png",
+      "sha256": "2cb68e594ffb126361f35fddabf0500893a7e61c3c61f4920b3ab8c30247c96e"
+    }
+  ],
+  "reviewStatus": "illustration candidate; awaiting user feedback"
+}

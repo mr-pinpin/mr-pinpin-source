@@ -1,0 +1,66 @@
+{
+  "tool": "image_gen__imagegen",
+  "generatedAt": "2026-10-02T03:59:31.409Z",
+  "sourceOutput": "/Users/miguel_lemos/.codex/generated_images/01a0fa05-e7a6-7a00-a6f0-fc3a9cc0cc09/exec-57bd0e7a-bb25-411e-82b1-3e427c47b3ea.png",
+  "promptPath": "prompts/scene-30a-v1.txt",
+  "references": [
+    "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r8-herculean/reused/web/scene-30.webp",
+    "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r12-house-layout/root/masters/scene-123-v1.png",
+    "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r8-herculean/reused/web/scene-46.webp"
+  ],
+  "visualReview": "Viewed native image. Four distinct family members: adult rounded gray-brown Papa inside tub safely cradles tiny infant in both arms; PinPin plays inside water; Mama outside places wooden tea tray on solid four-leg stool. Two adult cups and teapot stable, not floating. Full oval wooden tub, same round window/towels, active small source/goldcircle and overflow onto floor. One yellow plastic duck; no aqueduct,flowers or early construction. Calm happy faces and cross-family gaze.",
+  "promptSha256": "e955874eac0303650d52ee70aad40ef779689a60f6c11aeaf6abbc33e31c86da",
+  "master": {
+    "path": "masters/scene-30a-v1.png",
+    "sha256": "0cd446692e5cc948f2568a6b177acee4acec33ab16a66507f88fe7afdc9aca31",
+    "bytes": 2572551
+  },
+  "referenceIdentities": [
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r8-herculean/reused/web/scene-30.webp",
+      "sha256": "8c95d6f30e746a3df82f2ab069b3ebae267321aaf82af9e22c9e120c0cd1b90b",
+      "bytes": 410854
+    },
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r12-house-layout/root/masters/scene-123-v1.png",
+      "sha256": "2cb68e594ffb126361f35fddabf0500893a7e61c3c61f4920b3ab8c30247c96e",
+      "bytes": 2435633
+    },
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r8-herculean/reused/web/scene-46.webp",
+      "sha256": "be1793d76a03ea33f81f7ad6c266183d88ad9cb17ee7d5d4feeada3952fd9365",
+      "bytes": 431572
+    }
+  ],
+  "preservedReferences": [
+    {
+      "path": "references/inputs/8c95d6f30e74/scene-30.webp",
+      "sha256": "8c95d6f30e746a3df82f2ab069b3ebae267321aaf82af9e22c9e120c0cd1b90b"
+    },
+    {
+      "path": "references/inputs/2cb68e594ffb/scene-123-v1.png",
+      "sha256": "2cb68e594ffb126361f35fddabf0500893a7e61c3c61f4920b3ab8c30247c96e"
+    },
+    {
+      "path": "references/inputs/be1793d76a03/scene-46.webp",
+      "sha256": "be1793d76a03ea33f81f7ad6c266183d88ad9cb17ee7d5d4feeada3952fd9365"
+    }
+  ],
+  "reviewStatus": "illustration candidate; awaiting user feedback",
+  "web": {
+    "path": "web/scene-30a.webp",
+    "sha256": "3001db314e025d49312c5ed1457531b39f10987e94c1f5d24ac6864abd322135",
+    "bytes": 471978
+  },
+  "dimensions": [
+    1536,
+    1024
+  ],
+  "conversion": {
+    "format": "WebP",
+    "quality": 94,
+    "method": 6,
+    "resized": false,
+    "artEdited": false
+  }
+}

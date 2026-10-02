@@ -1,0 +1,56 @@
+{
+  "tool": "image_gen__imagegen",
+  "generatedAt": "2026-10-02T04:09:41.011Z",
+  "sourceOutput": "/Users/miguel_lemos/.codex/generated_images/01a0fa05-e7a6-7a00-a6f0-fc3a9cc0cc09/exec-87bd4c62-003d-4352-af8a-938bb7b239a5.png",
+  "promptPath": "prompts/scene-30c-v2.txt",
+  "references": [
+    "/Users/miguel_lemos/.codex/generated_images/01a0fa05-e7a6-7a00-a6f0-fc3a9cc0cc09/exec-98e379a3-0cdf-4192-938f-c306d16cb402.png",
+    "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r15-beaver-aqueduct/root/masters/scene-30b-v1.png"
+  ],
+  "visualReview": "Viewed native v2: Mama now visibly INSIDE tub, water around shoulders and full near wood rim IN FRONT of lower torso. Same4family members, Papa infant-supported, shared glance/gesture toward visible spill/puddle. Mama cup and2connectedarms preserved. Extra rectangular leftwindow removed, canonical single roundwindow retained. No aqueduct/flowers. New over-shoulder question shot coherent with insidebath30b/d.",
+  "promptSha256": "8982fdd08ec6de8c9be56764ae6070dfb0b07e00751b3c00814a7caa1431bfd1",
+  "master": {
+    "path": "masters/scene-30c-v2.png",
+    "sha256": "a477ab98c76e59cf7ebca469b2803849ecc1ad16253368f8af552a651e79bed0",
+    "bytes": 2465168
+  },
+  "referenceIdentities": [
+    {
+      "path": "/Users/miguel_lemos/.codex/generated_images/01a0fa05-e7a6-7a00-a6f0-fc3a9cc0cc09/exec-98e379a3-0cdf-4192-938f-c306d16cb402.png",
+      "sha256": "b6280eacea544e1692abab47803a8aaf9edffdf74cb9ce748db454de918b7000",
+      "bytes": 2492414
+    },
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r15-beaver-aqueduct/root/masters/scene-30b-v1.png",
+      "sha256": "397f06788dca76ac216d07d292ec2c3713704eea3f67c74c8046b93ebc021d5d",
+      "bytes": 2422290
+    }
+  ],
+  "preservedReferences": [
+    {
+      "path": "references/inputs/b6280eacea54/exec-98e379a3-0cdf-4192-938f-c306d16cb402.png",
+      "sha256": "b6280eacea544e1692abab47803a8aaf9edffdf74cb9ce748db454de918b7000"
+    },
+    {
+      "path": "references/inputs/397f06788dca/scene-30b-v1.png",
+      "sha256": "397f06788dca76ac216d07d292ec2c3713704eea3f67c74c8046b93ebc021d5d"
+    }
+  ],
+  "reviewStatus": "illustration candidate; awaiting user feedback",
+  "web": {
+    "path": "web/scene-30c.webp",
+    "sha256": "dab36eaa6bcefbaaf1c444258f1ad0048151896e80b2e86a377eb0d0f0be62a9",
+    "bytes": 443610
+  },
+  "dimensions": [
+    1536,
+    1024
+  ],
+  "conversion": {
+    "format": "WebP",
+    "quality": 94,
+    "method": 6,
+    "resized": false,
+    "artEdited": false
+  }
+}

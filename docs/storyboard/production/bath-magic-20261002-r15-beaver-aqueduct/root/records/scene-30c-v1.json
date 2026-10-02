@@ -1,0 +1,40 @@
+{
+  "tool": "image_gen__imagegen",
+  "generatedAt": "2026-10-02T04:05:54.560Z",
+  "sourceOutput": "/Users/miguel_lemos/.codex/generated_images/01a0fa05-e7a6-7a00-a6f0-fc3a9cc0cc09/exec-98e379a3-0cdf-4192-938f-c306d16cb402.png",
+  "promptPath": "prompts/scene-30c-v1.txt",
+  "references": [
+    "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r15-beaver-aqueduct/root/masters/scene-30b-v1.png",
+    "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r12-house-layout/root/masters/scene-123-v1.png"
+  ],
+  "visualReview": "Native reviewed: shared attention/spill visible, but Mama incorrectly outside bath between inside-bath scenes. Also invented rectangular left window. Preserve unselected for narrow repair.",
+  "promptSha256": "d4ef3a69bfa9a9ceea1a7ffb67bfed1a7afa40a0cea3b7907f87bc1d3e64e536",
+  "master": {
+    "path": "masters/scene-30c-v1.png",
+    "sha256": "b6280eacea544e1692abab47803a8aaf9edffdf74cb9ce748db454de918b7000",
+    "bytes": 2492414
+  },
+  "referenceIdentities": [
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r15-beaver-aqueduct/root/masters/scene-30b-v1.png",
+      "sha256": "397f06788dca76ac216d07d292ec2c3713704eea3f67c74c8046b93ebc021d5d",
+      "bytes": 2422290
+    },
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r12-house-layout/root/masters/scene-123-v1.png",
+      "sha256": "2cb68e594ffb126361f35fddabf0500893a7e61c3c61f4920b3ab8c30247c96e",
+      "bytes": 2435633
+    }
+  ],
+  "preservedReferences": [
+    {
+      "path": "references/inputs/397f06788dca/scene-30b-v1.png",
+      "sha256": "397f06788dca76ac216d07d292ec2c3713704eea3f67c74c8046b93ebc021d5d"
+    },
+    {
+      "path": "references/inputs/2cb68e594ffb/scene-123-v1.png",
+      "sha256": "2cb68e594ffb126361f35fddabf0500893a7e61c3c61f4920b3ab8c30247c96e"
+    }
+  ],
+  "reviewStatus": "illustration candidate; awaiting user feedback"
+}

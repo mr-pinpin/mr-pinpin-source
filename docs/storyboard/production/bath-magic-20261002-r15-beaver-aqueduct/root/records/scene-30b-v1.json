@@ -1,0 +1,56 @@
+{
+  "tool": "image_gen__imagegen",
+  "generatedAt": "2026-10-02T04:02:44.931Z",
+  "sourceOutput": "/Users/miguel_lemos/.codex/generated_images/01a0fa05-e7a6-7a00-a6f0-fc3a9cc0cc09/exec-81caff2f-7a41-4007-8d15-7a0ca820c816.png",
+  "promptPath": "prompts/scene-30b-v1.txt",
+  "references": [
+    "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r15-beaver-aqueduct/root/masters/scene-30a-v1.png",
+    "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r12-house-layout/root/masters/scene-123-v1.png"
+  ],
+  "visualReview": "Viewed native image. Four family members distinct within full oval tub: rounded adult Papa supports infant with forearm and holds owncup inotherpaw, Mama inside bath holds secondcup, childfingertip makesripple. Infant face/head stayshigh, no babytea. Calm sharedadultgaze, childwatchesripple, one duck. Central active source/goldring, spilldownnearwall, noflowers/aqueduct. Closer composition vs30a; no floating tray.",
+  "promptSha256": "cf24e6e1ccf35a29bd6b81142b1bccca9eabd09ae9ebb483a1f95bc151c8f38a",
+  "master": {
+    "path": "masters/scene-30b-v1.png",
+    "sha256": "397f06788dca76ac216d07d292ec2c3713704eea3f67c74c8046b93ebc021d5d",
+    "bytes": 2422290
+  },
+  "referenceIdentities": [
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r15-beaver-aqueduct/root/masters/scene-30a-v1.png",
+      "sha256": "0cd446692e5cc948f2568a6b177acee4acec33ab16a66507f88fe7afdc9aca31",
+      "bytes": 2572551
+    },
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r12-house-layout/root/masters/scene-123-v1.png",
+      "sha256": "2cb68e594ffb126361f35fddabf0500893a7e61c3c61f4920b3ab8c30247c96e",
+      "bytes": 2435633
+    }
+  ],
+  "preservedReferences": [
+    {
+      "path": "references/inputs/0cd446692e5c/scene-30a-v1.png",
+      "sha256": "0cd446692e5cc948f2568a6b177acee4acec33ab16a66507f88fe7afdc9aca31"
+    },
+    {
+      "path": "references/inputs/2cb68e594ffb/scene-123-v1.png",
+      "sha256": "2cb68e594ffb126361f35fddabf0500893a7e61c3c61f4920b3ab8c30247c96e"
+    }
+  ],
+  "reviewStatus": "illustration candidate; awaiting user feedback",
+  "web": {
+    "path": "web/scene-30b.webp",
+    "sha256": "3fd487d8f4673606b4681fcd72a1267ca002a7ddce518e1eaa7d45e82ae4e687",
+    "bytes": 418322
+  },
+  "dimensions": [
+    1536,
+    1024
+  ],
+  "conversion": {
+    "format": "WebP",
+    "quality": 94,
+    "method": 6,
+    "resized": false,
+    "artEdited": false
+  }
+}

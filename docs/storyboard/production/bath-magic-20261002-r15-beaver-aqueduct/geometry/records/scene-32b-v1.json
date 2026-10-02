@@ -1,0 +1,66 @@
+{
+  "tool": "image_gen__imagegen",
+  "generatedAt": "2026-10-02T04:06:21.543Z",
+  "sourceOutput": "/Users/miguel_lemos/.codex/generated_images/01a0fa0e-884b-7703-be8d-7ace86b986f9/exec-e029fc2f-2f50-4826-a77b-bbd517457bc4.png",
+  "promptPath": "prompts/scene-32b-v1.txt",
+  "references": [
+    "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r12-house-layout/root/masters/scene-123-v1.png",
+    "/Volumes/TB4/mac-mini-storage/shared/pinpin-workspace/mr-pinpin-source/docs/storyboard/images/published/elder-cycle/elder-r6-forest-021.webp",
+    "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r15-beaver-aqueduct/geometry/masters/scene-32a-v1.png"
+  ],
+  "visualReview": "Viewed native: Papa andchild astrideScooby, Papaonepawsupportschild otherpicnicbasket. Dog4walkinglegs sturdyrelativeadultscale; facesroundandcorrect, riverforesttravel. Noextras.",
+  "promptSha256": "51ebdf75e0325575e9a7f8af4d9fe4269e083b12d6972597b833ded599e55775",
+  "master": {
+    "path": "masters/scene-32b-v1.png",
+    "sha256": "566e108028f7c6dba3dc9a0d074dffd2ac65728afbeecf965bc60eaa11878d44",
+    "bytes": 3038013
+  },
+  "referenceIdentities": [
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r12-house-layout/root/masters/scene-123-v1.png",
+      "sha256": "2cb68e594ffb126361f35fddabf0500893a7e61c3c61f4920b3ab8c30247c96e",
+      "bytes": 2435633
+    },
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-workspace/mr-pinpin-source/docs/storyboard/images/published/elder-cycle/elder-r6-forest-021.webp",
+      "sha256": "496b4f5dd35b520c54fce130c4ace6758fc48b1efbabf1b1a06f5cd84aeedbe5",
+      "bytes": 505342
+    },
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r15-beaver-aqueduct/geometry/masters/scene-32a-v1.png",
+      "sha256": "9a9cf7bacb5168d5e1d482e0047f80a1c39d4c1f33a3370d6c380ffeb7732783",
+      "bytes": 2967524
+    }
+  ],
+  "preservedReferences": [
+    {
+      "path": "references/inputs/2cb68e594ffb/scene-123-v1.png",
+      "sha256": "2cb68e594ffb126361f35fddabf0500893a7e61c3c61f4920b3ab8c30247c96e"
+    },
+    {
+      "path": "references/inputs/496b4f5dd35b/elder-r6-forest-021.webp",
+      "sha256": "496b4f5dd35b520c54fce130c4ace6758fc48b1efbabf1b1a06f5cd84aeedbe5"
+    },
+    {
+      "path": "references/inputs/9a9cf7bacb51/scene-32a-v1.png",
+      "sha256": "9a9cf7bacb5168d5e1d482e0047f80a1c39d4c1f33a3370d6c380ffeb7732783"
+    }
+  ],
+  "reviewStatus": "illustration candidate; awaiting user feedback",
+  "web": {
+    "path": "web/scene-32b.webp",
+    "sha256": "bd73360829740657a5a7754783afa7b2bddcb919834ab8c6a4b594ee51612595",
+    "bytes": 587344
+  },
+  "dimensions": [
+    1536,
+    1024
+  ],
+  "conversion": {
+    "format": "WebP",
+    "quality": 94,
+    "method": 6,
+    "resized": false,
+    "artEdited": false
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "tool": "image_gen__imagegen",
+  "generatedAt": "2026-10-02T04:10:12.238Z",
+  "sourceOutput": "/Users/miguel_lemos/.codex/generated_images/01a0fa05-e7a6-7a00-a6f0-fc3a9cc0cc09/exec-9f49f97c-2087-4e57-8b89-e7351f82c9c7.png",
+  "promptPath": "prompts/scene-30d-v2.txt",
+  "references": [
+    "/Users/miguel_lemos/.codex/generated_images/01a0fa05-e7a6-7a00-a6f0-fc3a9cc0cc09/exec-94606b77-6645-45c8-aa77-602501e37805.png"
+  ],
+  "visualReview": "Viewed native v2: invented far-right secondwindow removed, matching warmplaster/timberwall instead; original single left roundwindow remains. Reverse camera from child toward adultPapa gesturingidea while safelyholdinginfant; Mama listenswithcup.4distinct family, fullovalwoodbath, activesource/goldring,1duck, trayteapot stable. No actualcanal or prematureBeaverillustration.",
+  "promptSha256": "e62b46b8a718c2ded269b51d2a5b81cbe5d99fa23ceea045037fc66ec21debe8",
+  "master": {
+    "path": "masters/scene-30d-v2.png",
+    "sha256": "598f1c321b0ed8ebe97d01abce845705407099f14a6df5eef7211f5e694cad89",
+    "bytes": 2315041
+  },
+  "referenceIdentities": [
+    {
+      "path": "/Users/miguel_lemos/.codex/generated_images/01a0fa05-e7a6-7a00-a6f0-fc3a9cc0cc09/exec-94606b77-6645-45c8-aa77-602501e37805.png",
+      "sha256": "0cc84f28259c3e960e6bdba3299ce1b0d7139220246f92ed1a46970fbed49176",
+      "bytes": 2345166
+    }
+  ],
+  "preservedReferences": [
+    {
+      "path": "references/inputs/0cc84f28259c/exec-94606b77-6645-45c8-aa77-602501e37805.png",
+      "sha256": "0cc84f28259c3e960e6bdba3299ce1b0d7139220246f92ed1a46970fbed49176"
+    }
+  ],
+  "reviewStatus": "illustration candidate; awaiting user feedback",
+  "web": {
+    "path": "web/scene-30d.webp",
+    "sha256": "6037c605a14318d4f36528a29db26dd9de709c111bc8db0d491fcbabbf34945d",
+    "bytes": 380078
+  },
+  "dimensions": [
+    1536,
+    1024
+  ],
+  "conversion": {
+    "format": "WebP",
+    "quality": 94,
+    "method": 6,
+    "resized": false,
+    "artEdited": false
+  }
+}

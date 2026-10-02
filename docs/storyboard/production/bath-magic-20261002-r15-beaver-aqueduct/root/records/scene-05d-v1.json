@@ -1,0 +1,56 @@
+{
+  "tool": "image_gen__imagegen",
+  "generatedAt": "2026-10-02T03:56:15.062Z",
+  "sourceOutput": "/Users/miguel_lemos/.codex/generated_images/01a0fa05-e7a6-7a00-a6f0-fc3a9cc0cc09/exec-724227df-f3f1-410e-9d6f-af71a700f16e.png",
+  "promptPath": "prompts/scene-05d-v1.txt",
+  "references": [
+    "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r14-water-trip/root/masters/scene-05d-v1.png",
+    "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r8-herculean/reused/web/scene-02.webp"
+  ],
+  "visualReview": "Viewed native output. Distinct tiny infant PomPom now sits on broad dry threshold beside Mama, arms around her lower ankle/foot, looking toward returning brother. Baby head,torso,2arms and2legs separate from Mama; no fusion/extraadult. Mother retains2arms,PinPin retains2fullbuckets and return pose. Exact house camera retained.",
+  "promptSha256": "f83b8e270ab2ac5cf40fe42d9010e3eefdb40d5ef7244e5c6fb0c7d7cb35a3fa",
+  "master": {
+    "path": "masters/scene-05d-v1.png",
+    "sha256": "238a74238889b6478ce4156bbde93ae96ab913de15fa093537a848673f6c2bb0",
+    "bytes": 2897760
+  },
+  "referenceIdentities": [
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r14-water-trip/root/masters/scene-05d-v1.png",
+      "sha256": "7ba45a81a6a5cb42e7b9709f7be501f09ced2ce9910690ecf678edebfcbe7b3a",
+      "bytes": 2972935
+    },
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r8-herculean/reused/web/scene-02.webp",
+      "sha256": "7bb7bfae1e01595cda5cc4d9dfc24056f349302929d8b4a5487b2f8eb6643377",
+      "bytes": 412906
+    }
+  ],
+  "preservedReferences": [
+    {
+      "path": "references/inputs/7ba45a81a6a5/scene-05d-v1.png",
+      "sha256": "7ba45a81a6a5cb42e7b9709f7be501f09ced2ce9910690ecf678edebfcbe7b3a"
+    },
+    {
+      "path": "references/inputs/7bb7bfae1e01/scene-02.webp",
+      "sha256": "7bb7bfae1e01595cda5cc4d9dfc24056f349302929d8b4a5487b2f8eb6643377"
+    }
+  ],
+  "reviewStatus": "illustration candidate; awaiting user feedback",
+  "web": {
+    "path": "web/scene-05d.webp",
+    "sha256": "08749a8c77532de41f362eb3aa889539760e3107f09b49913d56f1e2226e854c",
+    "bytes": 573764
+  },
+  "dimensions": [
+    1536,
+    1024
+  ],
+  "conversion": {
+    "format": "WebP",
+    "quality": 94,
+    "method": 6,
+    "resized": false,
+    "artEdited": false
+  }
+}

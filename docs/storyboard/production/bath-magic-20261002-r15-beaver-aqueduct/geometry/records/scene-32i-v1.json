@@ -1,0 +1,76 @@
+{
+  "tool": "image_gen__imagegen",
+  "generatedAt": "2026-10-02T04:13:06.713Z",
+  "sourceOutput": "/Users/miguel_lemos/.codex/generated_images/01a0fa0e-884b-7703-be8d-7ace86b986f9/exec-d767677e-976b-4464-a26e-5f611a5e0b16.png",
+  "promptPath": "prompts/scene-32i-v1.txt",
+  "references": [
+    "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r12-house-layout/root/masters/scene-123-v1.png",
+    "/Volumes/TB4/mac-mini-storage/shared/pinpin-workspace/mr-pinpin-source/docs/storyboard/images/published/elder-cycle/elder-r6-forest-021.webp",
+    "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r15-beaver-aqueduct/geometry/masters/scene-32c-v1.png",
+    "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r15-beaver-aqueduct/geometry/masters/scene-32h-v1.png"
+  ],
+  "visualReview": "Viewed native: balanced2shortopenwoodchannelbundles alongdog'ssides wideclothbacksupport, Papa2pawsweightnearbundle, Beaversecuringstrapfarbundle, dog4groundedlegscomfortablealert. Childbasketblocks. Noone ridesloaded dog. Geographystable.",
+  "promptSha256": "aaaf56faa35370064d8c41ea475de35f6e271f25c0e5354fa527d44025555af7",
+  "master": {
+    "path": "masters/scene-32i-v1.png",
+    "sha256": "398135c9a3809f61d009a01bfa1c7a9edb81ac9b55551d8491aedcbccd8a3d3f",
+    "bytes": 3009943
+  },
+  "referenceIdentities": [
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r12-house-layout/root/masters/scene-123-v1.png",
+      "sha256": "2cb68e594ffb126361f35fddabf0500893a7e61c3c61f4920b3ab8c30247c96e",
+      "bytes": 2435633
+    },
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-workspace/mr-pinpin-source/docs/storyboard/images/published/elder-cycle/elder-r6-forest-021.webp",
+      "sha256": "496b4f5dd35b520c54fce130c4ace6758fc48b1efbabf1b1a06f5cd84aeedbe5",
+      "bytes": 505342
+    },
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r15-beaver-aqueduct/geometry/masters/scene-32c-v1.png",
+      "sha256": "e6cdb33ea8f140f644e487d7a2b7c18b1e01f7b99fd2b7f7f1bfc302ac4f5186",
+      "bytes": 3030390
+    },
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r15-beaver-aqueduct/geometry/masters/scene-32h-v1.png",
+      "sha256": "fa97b23e4106a9cdaf614ccc1ae227f68e4f870b70fbe5b3ff06d70e341b9e1d",
+      "bytes": 3025787
+    }
+  ],
+  "preservedReferences": [
+    {
+      "path": "references/inputs/2cb68e594ffb/scene-123-v1.png",
+      "sha256": "2cb68e594ffb126361f35fddabf0500893a7e61c3c61f4920b3ab8c30247c96e"
+    },
+    {
+      "path": "references/inputs/496b4f5dd35b/elder-r6-forest-021.webp",
+      "sha256": "496b4f5dd35b520c54fce130c4ace6758fc48b1efbabf1b1a06f5cd84aeedbe5"
+    },
+    {
+      "path": "references/inputs/e6cdb33ea8f1/scene-32c-v1.png",
+      "sha256": "e6cdb33ea8f140f644e487d7a2b7c18b1e01f7b99fd2b7f7f1bfc302ac4f5186"
+    },
+    {
+      "path": "references/inputs/fa97b23e4106/scene-32h-v1.png",
+      "sha256": "fa97b23e4106a9cdaf614ccc1ae227f68e4f870b70fbe5b3ff06d70e341b9e1d"
+    }
+  ],
+  "reviewStatus": "illustration candidate; awaiting user feedback",
+  "web": {
+    "path": "web/scene-32i.webp",
+    "sha256": "314e87b3b292b135f10083f713288463fae1ca131902e56958badcee644ed463",
+    "bytes": 592670
+  },
+  "dimensions": [
+    1536,
+    1024
+  ],
+  "conversion": {
+    "format": "WebP",
+    "quality": 94,
+    "method": 6,
+    "resized": false,
+    "artEdited": false
+  }
+}
