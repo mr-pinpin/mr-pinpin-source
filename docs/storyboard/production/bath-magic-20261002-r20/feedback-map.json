@@ -1,0 +1,66 @@
+{
+  "changedArtIds": [
+    "scene-05g"
+  ],
+  "newIds": [],
+  "removed": [
+    {
+      "id": "scene-05d",
+      "previousNumber": 33,
+      "replacedBy": "scene-05c5",
+      "reason": {
+        "en": "KEEP05C5, with Rabbit. REMOVE05D, without Rabbit. The full reader contains only05C5; this removed image appears here solely for comparison.",
+        "ru": "ОСТАВИТЬ05C5, где есть Зайка. УДАЛИТЬ05D, где Зайки нет. В самой главе показан только05C5; удалённый кадр здесь нужен лишь для сравнения.",
+        "es": "CONSERVAR05C5, con Conejo. ELIMINAR05D, sin Conejo. El lector completo contiene solamente05C5; esta imagen retirada se muestra aquí solo para comparar."
+      },
+      "authority": "explicit user request",
+      "removedSceneSnapshot": {
+        "id": "scene-05d",
+        "image": "images/published/bath-magic/scene-05d.webp",
+        "width": 1536,
+        "height": 1024,
+        "alt": {
+          "en": "PinPin brings one full bucket through the doorway while Mama holds the door and PomPom stays beside her.",
+          "ru": "Пин-Пин приносит одно полное ведёрко. Мама придерживает дверь, а Пом-Пом стоит рядом с ней.",
+          "es": "PinPin trae un solo cubo lleno; Mamá sujeta la puerta y PomPom está a su lado."
+        },
+        "paragraphs": {
+          "en": [
+            "“One bucket, Mama!” Mama held the door. “Thank you, both of you!”"
+          ],
+          "ru": [
+            "«Одно ведёрко, Мама!» Мама придержала дверь. «Спасибо вам обоим!»"
+          ],
+          "es": [
+            "«¡Un cubo, Mamá!» Mamá sujetó la puerta. «¡Gracias a los dos!»"
+          ]
+        },
+        "priorR16Number": 13,
+        "production": {
+          "operation": "edit",
+          "reviewStatus": "retained published R18",
+          "cameraAction": "Retain doorway close-up. PinPin brings the one full bucket inside; Mama thanks both friends. Rabbit is just outside this close crop, waiting at the step as established by05c5.",
+          "sourceImage": "baseline/scene-05d"
+        },
+        "number": 33,
+        "day": 1,
+        "artChanged": false,
+        "retainArt": true,
+        "feedbackLabel": "Retained published R18",
+        "priorR17Number": 28,
+        "priorR18Number": 28,
+        "title": "Water arrives home"
+      }
+    }
+  ],
+  "changes": [
+    {
+      "id": "scene-05c5",
+      "reason": {
+        "en": "The shared arrival replaces05d and keeps Mama’s thanks for the water.",
+        "ru": "Общий приход домой заменяет05d и сохраняет благодарность Мамы за воду.",
+        "es": "La llegada juntos sustituye05d y conserva el agradecimiento de Mamá por el agua."
+      }
+    }
+  ]
+}

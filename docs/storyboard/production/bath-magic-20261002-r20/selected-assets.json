@@ -1,0 +1,46 @@
+{
+  "scene-05g": {
+    "schemaVersion": 1,
+    "id": "scene-05g",
+    "version": 2,
+    "tool": "image_gen__imagegen",
+    "native": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r20/art/papa-arm/masters/scene-05g-v2.png",
+    "master": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r20/art/papa-arm/masters/scene-05g-v2.png",
+    "web": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r20/art/papa-arm/web/scene-05g-v2.webp",
+    "prompt": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r20/art/papa-arm/prompts/scene-05g-v2.txt",
+    "exactPrompt": "Use case: precise-object-edit. Image 1 is the exact edit target: exterior Papa holding the open green front door for Scooby. Image 2 is ONLY the approved Papa character/anatomy reference; do not copy its interior scene, family, pose, or camera. Correct one local anatomical omission in Image 1: Papa is missing his camera-facing anatomical RIGHT arm (on the left side of his visible body in the picture). Add that single right arm attached naturally at the near shoulder beneath the quills, descending along the front edge of the quill coat with a gentle elbow bend; a small relaxed brown paw is clearly visible against the lower cream belly near the hip. The arm has the same rounded furry construction, thickness and short fingers as approved Papa in Image 2; correct shoulder-to-elbow-to-wrist continuity, not a detached hand. Keep his existing other arm holding the green door exactly where it is. Papa must have exactly two arms and two legs total. Preserve his entire face, expression, head, round body size, quills and stance. Preserve Scooby completely: exact head, attentive gaze, fur, huge body, lifted paw, curled tail and position. Preserve door opening/hinges/knobs, house facade/windows, step, plants, lighting, camera framing and all colors. This is a narrow arm repair, not a redesign or new scene. Same 1536 by 1024 landscape cinematic children's-book illustration; no text, labels or new objects.",
+    "toolArguments": {
+      "referenced_image_paths": [
+        "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r17/art/opening-edits/native/scene-05g-v1.png",
+        "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r18/art/opening/masters/scene-05g1-v2.png"
+      ],
+      "transparent_background": false
+    },
+    "sourceOutputPath": "/Users/miguel_lemos/.codex/generated_images/01a0fa05-e7a6-7a00-a6f0-fc3a9cc0cc09/exec-52289679-9861-449b-ad38-7764b3bd7464.png",
+    "artistReview": "pass",
+    "rootReview": "pass-for-preview",
+    "userReview": "pending",
+    "selected": true,
+    "outputHandling": "Native PNG copied unchanged; WebP is a format derivative only.",
+    "visualReview": "One correctly attached near-side right arm with shoulder/elbow/wrist/paw; two arms total. Existing door arm, face, dog, facade and lighting retained.",
+    "inputs": [
+      {
+        "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r17/art/opening-edits/native/scene-05g-v1.png",
+        "sha256": "b8b914ed98fe298c8c064bc20c8401759ddca9bcd603a8642c4be4ac4341aebd",
+        "role": "edit-target"
+      },
+      {
+        "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r18/art/opening/masters/scene-05g1-v2.png",
+        "sha256": "209cf0dfb8f34942cbee5e0163532318d1ba218f7a15266c673420bf81a2837b",
+        "role": "Papa anatomy and identity"
+      }
+    ],
+    "sha256": "4c7eb23be2a8a21f25b58b8dc25670ee4dcd3f7f1339488c2f08276098516d90",
+    "webSha256": "0f3ca853ba89c28516fc4010c66a7f8ec567755bea3c092291858b98d5fa45bf",
+    "width": 1536,
+    "height": 1024,
+    "selectionStatus": "coordinator-reviewed candidate; awaiting user feedback",
+    "record": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r20/art/papa-arm/records/scene-05g-v2.json",
+    "selectionManifest": "art/papa-arm/selected-assets.json"
+  }
+}

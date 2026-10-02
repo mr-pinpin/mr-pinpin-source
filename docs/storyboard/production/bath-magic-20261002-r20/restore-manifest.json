@@ -1,0 +1,3555 @@
+{
+  "version": 1,
+  "bucket": "miguelemosreverte/mr-pinpin-archive",
+  "assets": [
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/RESTORE.txt",
+      "role": "archive",
+      "bytes": 548,
+      "sha256": "b923e5b0834ff3d63a4ce38c66d67934d6944f3d36000b6dca30b6103c9e981e",
+      "object": "sha256/b9/b923e5b0834ff3d63a4ce38c66d67934d6944f3d36000b6dca30b6103c9e981e/RESTORE.txt"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/archive-tools/hf_store.py",
+      "role": "archive",
+      "bytes": 22541,
+      "sha256": "078313a4f089d1d27c7a35c0ee2a5eb5552050432da2536bd5fd1dbc2c18afcd",
+      "object": "sha256/07/078313a4f089d1d27c7a35c0ee2a5eb5552050432da2536bd5fd1dbc2c18afcd/hf_store.py"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/art/neck-fur/REPORT.txt",
+      "role": "archive",
+      "bytes": 1899,
+      "sha256": "87e5ce3e36bb0e52f62fed87988d95f4457c26a772d49086a45e1530807c8459",
+      "object": "sha256/87/87e5ce3e36bb0e52f62fed87988d95f4457c26a772d49086a45e1530807c8459/REPORT.txt"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/art/neck-fur/approved-dog-reference-contact.jpg",
+      "role": "archive",
+      "bytes": 534127,
+      "sha256": "7bb6ce75eb87cf012bf8be8e5da2976d4f9034faee8830432dfc250c84fcff20",
+      "object": "sha256/7b/7bb6ce75eb87cf012bf8be8e5da2976d4f9034faee8830432dfc250c84fcff20/approved-dog-reference-contact.jpg"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/art/neck-fur/masters/scene-05g2-v4.png",
+      "role": "archive",
+      "bytes": 2294908,
+      "sha256": "cb27635a1aa5ce922420fbc31d0be8660260fdb57b83b11abc082442ee6d2013",
+      "object": "sha256/cb/cb27635a1aa5ce922420fbc31d0be8660260fdb57b83b11abc082442ee6d2013/scene-05g2-v4.png"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/art/neck-fur/masters/scene-05g2-v5.png",
+      "role": "archive",
+      "bytes": 2364835,
+      "sha256": "5ef24c05842f4213ff1ea64aa24b968abf4cc6660c401d21fa384c04c662bc9c",
+      "object": "sha256/5e/5ef24c05842f4213ff1ea64aa24b968abf4cc6660c401d21fa384c04c662bc9c/scene-05g2-v5.png"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/art/neck-fur/prompts/scene-05g2-v4.txt",
+      "role": "archive",
+      "bytes": 1767,
+      "sha256": "8478ef9a4ee7246cd34b554492ab47a5dc1f7b6ed8042cc87b0de6068345aec5",
+      "object": "sha256/84/8478ef9a4ee7246cd34b554492ab47a5dc1f7b6ed8042cc87b0de6068345aec5/scene-05g2-v4.txt"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/art/neck-fur/prompts/scene-05g2-v5.txt",
+      "role": "archive",
+      "bytes": 2562,
+      "sha256": "53b92886b1dcad0774193ea89f91c21b7880b22b44192bd53590b45d12e699ff",
+      "object": "sha256/53/53b92886b1dcad0774193ea89f91c21b7880b22b44192bd53590b45d12e699ff/scene-05g2-v5.txt"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/art/neck-fur/records/inputs.json",
+      "role": "archive",
+      "bytes": 244,
+      "sha256": "7a81cf0924ff2b4fdab2fa7a7c1c403d4dfb9df2ede59e78d9b8390ad4562b1b",
+      "object": "sha256/7a/7a81cf0924ff2b4fdab2fa7a7c1c403d4dfb9df2ede59e78d9b8390ad4562b1b/inputs.json"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/art/neck-fur/records/scene-05g2-v4.json",
+      "role": "archive",
+      "bytes": 5676,
+      "sha256": "feabc470cd290e4c15cf0680af8822ea9659eeffa5c8ec111dfeac0360c7ba84",
+      "object": "sha256/fe/feabc470cd290e4c15cf0680af8822ea9659eeffa5c8ec111dfeac0360c7ba84/scene-05g2-v4.json"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/art/neck-fur/records/scene-05g2-v5.json",
+      "role": "archive",
+      "bytes": 7991,
+      "sha256": "beacfafe1e45f427f15917a6bcdd39ee14c942669f2a7e7377b562c691ffe106",
+      "object": "sha256/be/beacfafe1e45f427f15917a6bcdd39ee14c942669f2a7e7377b562c691ffe106/scene-05g2-v5.json"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/art/neck-fur/records/studio-actual-references.json",
+      "role": "archive",
+      "bytes": 185,
+      "sha256": "200494029545bd7b6cf02e97d904c63c8de46f4a00900fb36e2c2d18d76970f4",
+      "object": "sha256/20/200494029545bd7b6cf02e97d904c63c8de46f4a00900fb36e2c2d18d76970f4/studio-actual-references.json"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/art/neck-fur/records/studio-completed.json",
+      "role": "archive",
+      "bytes": 35575,
+      "sha256": "8c818415d09b960a3d388a57cf791c59410dfaebc89bdc6115a7f01564b2e4b5",
+      "object": "sha256/8c/8c818415d09b960a3d388a57cf791c59410dfaebc89bdc6115a7f01564b2e4b5/studio-completed.json"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/art/neck-fur/records/studio-job.json",
+      "role": "archive",
+      "bytes": 33624,
+      "sha256": "7ab23eaa0b3d2b4abeb378cce4bc539a317232e13e5687a5d543f9a2939f2b41",
+      "object": "sha256/7a/7ab23eaa0b3d2b4abeb378cce4bc539a317232e13e5687a5d543f9a2939f2b41/studio-job.json"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/art/neck-fur/records/v4-user-rejection.json",
+      "role": "archive",
+      "bytes": 36052,
+      "sha256": "d4522bbe482ddf0fd2e7621f13749c54618e128aa22d79140ec02b8f991bfbb8",
+      "object": "sha256/d4/d4522bbe482ddf0fd2e7621f13749c54618e128aa22d79140ec02b8f991bfbb8/v4-user-rejection.json"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/art/neck-fur/records/v5-inputs.json",
+      "role": "archive",
+      "bytes": 490,
+      "sha256": "5b10fda35023b56ea7db0365628d35ac3ad012ea66bba070b4dd9c81870b68db",
+      "object": "sha256/5b/5b10fda35023b56ea7db0365628d35ac3ad012ea66bba070b4dd9c81870b68db/v5-inputs.json"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/art/neck-fur/records/v5-reference-audit.json",
+      "role": "archive",
+      "bytes": 1091,
+      "sha256": "b8b4b935b052c3c58c2fc81dd47a73f976d4e343eb449e08e23902be4e0f42b8",
+      "object": "sha256/b8/b8b4b935b052c3c58c2fc81dd47a73f976d4e343eb449e08e23902be4e0f42b8/v5-reference-audit.json"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/art/neck-fur/records/v5-studio-actual-references.json",
+      "role": "archive",
+      "bytes": 392,
+      "sha256": "d751216f120c00dbf30b04f3915df6f3c227ab54deb04a5a06fbf8d5cc3abd2a",
+      "object": "sha256/d7/d751216f120c00dbf30b04f3915df6f3c227ab54deb04a5a06fbf8d5cc3abd2a/v5-studio-actual-references.json"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/art/neck-fur/records/v5-studio-completed.json",
+      "role": "archive",
+      "bytes": 41625,
+      "sha256": "e18867bf2b77834208b4166eba607875c485d99271dfb9af2e62cdf6166de7a3",
+      "object": "sha256/e1/e18867bf2b77834208b4166eba607875c485d99271dfb9af2e62cdf6166de7a3/v5-studio-completed.json"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/art/neck-fur/records/v5-studio-job.json",
+      "role": "archive",
+      "bytes": 38849,
+      "sha256": "20f2ac7ad7edbdfa620dd3c87e4a79cbaaa5cac20ba51fd62c903ff263a13ce8",
+      "object": "sha256/20/20f2ac7ad7edbdfa620dd3c87e4a79cbaaa5cac20ba51fd62c903ff263a13ce8/v5-studio-job.json"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/art/neck-fur/review-1440.png",
+      "role": "archive",
+      "bytes": 832782,
+      "sha256": "7c3097058669768973baefa5cd4c6e7405ab8de768864cc5571c459bbf2057f5",
+      "object": "sha256/7c/7c3097058669768973baefa5cd4c6e7405ab8de768864cc5571c459bbf2057f5/review-1440.png"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/art/neck-fur/review-390.png",
+      "role": "archive",
+      "bytes": 346442,
+      "sha256": "c3c5af8b16a2228d00c318be4e93c192d6e762f0d2b6d3065f79cdd9580115ba",
+      "object": "sha256/c3/c3c5af8b16a2228d00c318be4e93c192d6e762f0d2b6d3065f79cdd9580115ba/review-390.png"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/art/neck-fur/review-proof.json",
+      "role": "archive",
+      "bytes": 156,
+      "sha256": "4e7344ebb3a2cf678c7d2cb703690e133163a232a1db59d3283cdfb0a4cb5e4b",
+      "object": "sha256/4e/4e7344ebb3a2cf678c7d2cb703690e133163a232a1db59d3283cdfb0a4cb5e4b/review-proof.json"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/art/neck-fur/review.html",
+      "role": "archive",
+      "bytes": 4028,
+      "sha256": "a8f1062685c0efbcc1a11f730b7a7a3ffae6934b7b1c297f36c92d645e162498",
+      "object": "sha256/a8/a8f1062685c0efbcc1a11f730b7a7a3ffae6934b7b1c297f36c92d645e162498/review.html"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/art/neck-fur/selected-assets.json",
+      "role": "archive",
+      "bytes": 8337,
+      "sha256": "502936114b3a9e36063f1afbfe1148553c6170c39d93f5d63fc340453c2df97b",
+      "object": "sha256/50/502936114b3a9e36063f1afbfe1148553c6170c39d93f5d63fc340453c2df97b/selected-assets.json"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/art/neck-fur/web/before.webp",
+      "role": "archive",
+      "bytes": 394648,
+      "sha256": "409ef7cd1e355e198ea67fa344fdabcfb84e0640cb8f78c098700c08d5843a7c",
+      "object": "sha256/40/409ef7cd1e355e198ea67fa344fdabcfb84e0640cb8f78c098700c08d5843a7c/before.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/art/neck-fur/web/reference.webp",
+      "role": "archive",
+      "bytes": 442560,
+      "sha256": "59e38ca6bdfb3161b227be1763d62ecb25a2993c633365d447a09be85c1c6a60",
+      "object": "sha256/59/59e38ca6bdfb3161b227be1763d62ecb25a2993c633365d447a09be85c1c6a60/reference.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/art/neck-fur/web/scene-05g2-v4.webp",
+      "role": "archive",
+      "bytes": 367656,
+      "sha256": "3333c141d29415ec77e1ac6f41b57f5d8801854dee8185a60756c70642247b0c",
+      "object": "sha256/33/3333c141d29415ec77e1ac6f41b57f5d8801854dee8185a60756c70642247b0c/scene-05g2-v4.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/art/neck-fur/web/scene-05g2-v5.webp",
+      "role": "archive",
+      "bytes": 390652,
+      "sha256": "8ad699a25f9f7f7c419a9d06e3ed11a2f2631fab22da4cb0cb1b7cdef8f56c4c",
+      "object": "sha256/8a/8ad699a25f9f7f7c419a9d06e3ed11a2f2631fab22da4cb0cb1b7cdef8f56c4c/scene-05g2-v5.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/art/return-walk/REPORT.txt",
+      "role": "archive",
+      "bytes": 2221,
+      "sha256": "04579a2b3e468f922b84eb88fb6dd45562a9100aae92803eecc6b1d1490f9395",
+      "object": "sha256/04/04579a2b3e468f922b84eb88fb6dd45562a9100aae92803eecc6b1d1490f9395/REPORT.txt"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/art/return-walk/masters/scene-05c1-v1.png",
+      "role": "archive",
+      "bytes": 3016232,
+      "sha256": "3ffe2365121a0b47a30121f005da3bc91fc1fab66fc3eefdbf78a6ed29e871a6",
+      "object": "sha256/3f/3ffe2365121a0b47a30121f005da3bc91fc1fab66fc3eefdbf78a6ed29e871a6/scene-05c1-v1.png"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/art/return-walk/masters/scene-05c2-v1.png",
+      "role": "archive",
+      "bytes": 2854738,
+      "sha256": "7d3d52d474974e1e665a863b3c4a964fe83b41c4318f972b75a2461bd7ab58a2",
+      "object": "sha256/7d/7d3d52d474974e1e665a863b3c4a964fe83b41c4318f972b75a2461bd7ab58a2/scene-05c2-v1.png"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/art/return-walk/masters/scene-05c3-v1.png",
+      "role": "archive",
+      "bytes": 2732758,
+      "sha256": "a782771edecd1b929e4222d9ee9b959fbb1150ebfe5685264e9dc929be5b4445",
+      "object": "sha256/a7/a782771edecd1b929e4222d9ee9b959fbb1150ebfe5685264e9dc929be5b4445/scene-05c3-v1.png"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/art/return-walk/masters/scene-05c4-v1.png",
+      "role": "archive",
+      "bytes": 3064713,
+      "sha256": "0eac10711214d853bc8c496813d22f149d31ab115200b36d6e999af60b870c7a",
+      "object": "sha256/0e/0eac10711214d853bc8c496813d22f149d31ab115200b36d6e999af60b870c7a/scene-05c4-v1.png"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/art/return-walk/masters/scene-05c5-v1.png",
+      "role": "archive",
+      "bytes": 2972357,
+      "sha256": "c6d984f4515f4e1c52b4a9325b2cdd0bd40a8295fd08c7d9d7e2734bb9b2adbb",
+      "object": "sha256/c6/c6d984f4515f4e1c52b4a9325b2cdd0bd40a8295fd08c7d9d7e2734bb9b2adbb/scene-05c5-v1.png"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/art/return-walk/preproduction.json",
+      "role": "archive",
+      "bytes": 2970,
+      "sha256": "f1e445e0db859c4cd23fce442564d8665b7fc678139c734f720a3fb033437c62",
+      "object": "sha256/f1/f1e445e0db859c4cd23fce442564d8665b7fc678139c734f720a3fb033437c62/preproduction.json"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/art/return-walk/prompts/scene-05c1-v1.txt",
+      "role": "archive",
+      "bytes": 1838,
+      "sha256": "4a6593bf7db85fcfe5d12a14687cd6bf7e07c1b6c32aef46c7c41b2606a39c9b",
+      "object": "sha256/4a/4a6593bf7db85fcfe5d12a14687cd6bf7e07c1b6c32aef46c7c41b2606a39c9b/scene-05c1-v1.txt"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/art/return-walk/prompts/scene-05c2-v1.txt",
+      "role": "archive",
+      "bytes": 1558,
+      "sha256": "27e4faeba7c81f1d8f3b1beb7783a7c16bb13927d0905797f734a19f89eb5ae7",
+      "object": "sha256/27/27e4faeba7c81f1d8f3b1beb7783a7c16bb13927d0905797f734a19f89eb5ae7/scene-05c2-v1.txt"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/art/return-walk/prompts/scene-05c3-v1.txt",
+      "role": "archive",
+      "bytes": 1597,
+      "sha256": "ca5b6dd644968b2cf7bde2a30c318ca350ea6334652c40a2a83186c9b6e85660",
+      "object": "sha256/ca/ca5b6dd644968b2cf7bde2a30c318ca350ea6334652c40a2a83186c9b6e85660/scene-05c3-v1.txt"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/art/return-walk/prompts/scene-05c4-v1.txt",
+      "role": "archive",
+      "bytes": 1629,
+      "sha256": "cb0ccdb73b81a1db1b861b7f18accdc5c7ff5cae9ce721ba10c840412d80aea4",
+      "object": "sha256/cb/cb0ccdb73b81a1db1b861b7f18accdc5c7ff5cae9ce721ba10c840412d80aea4/scene-05c4-v1.txt"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/art/return-walk/prompts/scene-05c5-v1.txt",
+      "role": "archive",
+      "bytes": 1686,
+      "sha256": "668b46cba0475a9350e6de22967a5804bdda21e6a274f3156885c7d77d24069e",
+      "object": "sha256/66/668b46cba0475a9350e6de22967a5804bdda21e6a274f3156885c7d77d24069e/scene-05c5-v1.txt"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/art/return-walk/records/scene-05c1-v1.json",
+      "role": "archive",
+      "bytes": 3579,
+      "sha256": "a27f8444d087e80233d41a488fad61146d53a4d55fb107908c189a85d6f86cab",
+      "object": "sha256/a2/a27f8444d087e80233d41a488fad61146d53a4d55fb107908c189a85d6f86cab/scene-05c1-v1.json"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/art/return-walk/records/scene-05c2-v1.json",
+      "role": "archive",
+      "bytes": 3319,
+      "sha256": "a28d955ed58f166ae254a629ac5dfa438d256def08924d8728eec479997f1e76",
+      "object": "sha256/a2/a28d955ed58f166ae254a629ac5dfa438d256def08924d8728eec479997f1e76/scene-05c2-v1.json"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/art/return-walk/records/scene-05c3-v1.json",
+      "role": "archive",
+      "bytes": 3358,
+      "sha256": "80b833afa6c63a2a7b4971e0d434b47324c3bb96cc34e40505b4cb1c5486860b",
+      "object": "sha256/80/80b833afa6c63a2a7b4971e0d434b47324c3bb96cc34e40505b4cb1c5486860b/scene-05c3-v1.json"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/art/return-walk/records/scene-05c4-v1.json",
+      "role": "archive",
+      "bytes": 3390,
+      "sha256": "565300712687344261d028e46b054c7e50f02e485fa5ccb0cf4df594d91f45c8",
+      "object": "sha256/56/565300712687344261d028e46b054c7e50f02e485fa5ccb0cf4df594d91f45c8/scene-05c4-v1.json"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/art/return-walk/records/scene-05c5-v1.json",
+      "role": "archive",
+      "bytes": 3447,
+      "sha256": "8d1e7bda4f3fb1082a73eeba0689362ee264ffacf428f85c05d84dbb56d9c7e7",
+      "object": "sha256/8d/8d1e7bda4f3fb1082a73eeba0689362ee264ffacf428f85c05d84dbb56d9c7e7/scene-05c5-v1.json"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/art/return-walk/selection.json",
+      "role": "archive",
+      "bytes": 3609,
+      "sha256": "64f35db87420e1fc3d08952eb05231a68c9159ddf312d0074a50e790402a081b",
+      "object": "sha256/64/64f35db87420e1fc3d08952eb05231a68c9159ddf312d0074a50e790402a081b/selection.json"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/art/return-walk/web/scene-05c1-v1.webp",
+      "role": "archive",
+      "bytes": 486110,
+      "sha256": "095e149265a7f60d09f4f3755b9836b099d5e77490a53b7f6de3a337c99c9878",
+      "object": "sha256/09/095e149265a7f60d09f4f3755b9836b099d5e77490a53b7f6de3a337c99c9878/scene-05c1-v1.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/art/return-walk/web/scene-05c2-v1.webp",
+      "role": "archive",
+      "bytes": 428078,
+      "sha256": "9d2f86a2e0282004c497e03a1a6da86d144c2dc104546c609887f22c8b53db45",
+      "object": "sha256/9d/9d2f86a2e0282004c497e03a1a6da86d144c2dc104546c609887f22c8b53db45/scene-05c2-v1.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/art/return-walk/web/scene-05c3-v1.webp",
+      "role": "archive",
+      "bytes": 378720,
+      "sha256": "ea97771b5d840e5dbbde8f5054bf4c032de918093a371649e097524c2470c58c",
+      "object": "sha256/ea/ea97771b5d840e5dbbde8f5054bf4c032de918093a371649e097524c2470c58c/scene-05c3-v1.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/art/return-walk/web/scene-05c4-v1.webp",
+      "role": "archive",
+      "bytes": 512654,
+      "sha256": "aa834a07d5d0daca4459e2709fe59146b834e5a044cb8c50c123e371bdd0d521",
+      "object": "sha256/aa/aa834a07d5d0daca4459e2709fe59146b834e5a044cb8c50c123e371bdd0d521/scene-05c4-v1.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/art/return-walk/web/scene-05c5-v1.webp",
+      "role": "archive",
+      "bytes": 503198,
+      "sha256": "22527c09ba2cdb0503cfbe9c66d7de240404fcc6dbe74107acf1044b3b2f5387",
+      "object": "sha256/22/22527c09ba2cdb0503cfbe9c66d7de240404fcc6dbe74107acf1044b3b2f5387/scene-05c5-v1.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/baseline/media.json",
+      "role": "archive",
+      "bytes": 60196,
+      "sha256": "40bdb591500323fb18fd356ef520a4d0487fe3df20b4553b827e84aba4d3042f",
+      "object": "sha256/40/40bdb591500323fb18fd356ef520a4d0487fe3df20b4553b827e84aba4d3042f/media.json"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/baseline/story-plan.json",
+      "role": "archive",
+      "bytes": 208654,
+      "sha256": "42beb8b06a240214ad42aa19963281ae93d7d67ce9a32d44b2a41dba406911e3",
+      "object": "sha256/42/42beb8b06a240214ad42aa19963281ae93d7d67ce9a32d44b2a41dba406911e3/story-plan.json"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/baseline/web/cover.webp",
+      "role": "archive",
+      "bytes": 492018,
+      "sha256": "318c2ba546d08a73d812600ec248e5c2d4e522e21cd9bf3ad1ca4e2314202195",
+      "object": "sha256/31/318c2ba546d08a73d812600ec248e5c2d4e522e21cd9bf3ad1ca4e2314202195/cover.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/baseline/web/scene-01.webp",
+      "role": "archive",
+      "bytes": 421068,
+      "sha256": "38c63615c8a5208a2ec6a34ba4b90e844ccfdafd17ac916a8ed2ec8449b90c19",
+      "object": "sha256/38/38c63615c8a5208a2ec6a34ba4b90e844ccfdafd17ac916a8ed2ec8449b90c19/scene-01.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/baseline/web/scene-02.webp",
+      "role": "archive",
+      "bytes": 412906,
+      "sha256": "7bb7bfae1e01595cda5cc4d9dfc24056f349302929d8b4a5487b2f8eb6643377",
+      "object": "sha256/7b/7bb7bfae1e01595cda5cc4d9dfc24056f349302929d8b4a5487b2f8eb6643377/scene-02.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/baseline/web/scene-03.webp",
+      "role": "archive",
+      "bytes": 315034,
+      "sha256": "de83ba34ddba2916733e7242fbd0ec959d515a29c440e549f783a6384fc499ea",
+      "object": "sha256/de/de83ba34ddba2916733e7242fbd0ec959d515a29c440e549f783a6384fc499ea/scene-03.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/baseline/web/scene-03a.webp",
+      "role": "archive",
+      "bytes": 447448,
+      "sha256": "037b2eb4099769a1e917edb32f2fca62c3f19bff0ecb6fb89cfe28cf69aa4d4f",
+      "object": "sha256/03/037b2eb4099769a1e917edb32f2fca62c3f19bff0ecb6fb89cfe28cf69aa4d4f/scene-03a.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/baseline/web/scene-03b.webp",
+      "role": "archive",
+      "bytes": 379006,
+      "sha256": "1a5ab8a5a59c95ffe6b16a5b57aaa160edf906a6cdf62755bd2506071ae18443",
+      "object": "sha256/1a/1a5ab8a5a59c95ffe6b16a5b57aaa160edf906a6cdf62755bd2506071ae18443/scene-03b.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/baseline/web/scene-03c.webp",
+      "role": "archive",
+      "bytes": 361694,
+      "sha256": "1e7f04fae9bc7e758688a1ea384f2d093df0651f9007b860adb22e5bcd4d3c88",
+      "object": "sha256/1e/1e7f04fae9bc7e758688a1ea384f2d093df0651f9007b860adb22e5bcd4d3c88/scene-03c.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/baseline/web/scene-03d.webp",
+      "role": "archive",
+      "bytes": 463050,
+      "sha256": "adbcf0f50204b5fd7ae1034eadfac2cffbd096965262de243bd2915ef123a0e1",
+      "object": "sha256/ad/adbcf0f50204b5fd7ae1034eadfac2cffbd096965262de243bd2915ef123a0e1/scene-03d.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/baseline/web/scene-03e.webp",
+      "role": "archive",
+      "bytes": 453402,
+      "sha256": "818431353af5941716698fc80885208c8ed033f1b9dfb61bbbb4d97da4e75ba6",
+      "object": "sha256/81/818431353af5941716698fc80885208c8ed033f1b9dfb61bbbb4d97da4e75ba6/scene-03e.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/baseline/web/scene-03f.webp",
+      "role": "archive",
+      "bytes": 398902,
+      "sha256": "fd5e1426986bdf9324497ca8ff178d3a80e063ea5dfeb0673d29ccba0a7587fd",
+      "object": "sha256/fd/fd5e1426986bdf9324497ca8ff178d3a80e063ea5dfeb0673d29ccba0a7587fd/scene-03f.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/baseline/web/scene-03g.webp",
+      "role": "archive",
+      "bytes": 495810,
+      "sha256": "29d71ab01bce26977821f692ed578d7ef74fc148df6e64cdbeafd14fc5133be4",
+      "object": "sha256/29/29d71ab01bce26977821f692ed578d7ef74fc148df6e64cdbeafd14fc5133be4/scene-03g.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/baseline/web/scene-03h.webp",
+      "role": "archive",
+      "bytes": 519668,
+      "sha256": "e394bec3bf4a7cbae83714906c5d8d286886cea3751eec6cfd572449b201d54e",
+      "object": "sha256/e3/e394bec3bf4a7cbae83714906c5d8d286886cea3751eec6cfd572449b201d54e/scene-03h.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/baseline/web/scene-03i.webp",
+      "role": "archive",
+      "bytes": 483416,
+      "sha256": "d4196a146376951d4b9555290458cbb7df30567185c99877014f34ac17198d41",
+      "object": "sha256/d4/d4196a146376951d4b9555290458cbb7df30567185c99877014f34ac17198d41/scene-03i.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/baseline/web/scene-03j.webp",
+      "role": "archive",
+      "bytes": 436916,
+      "sha256": "784f47af0361902fbc8cc83d4880229dd3fd12c1c5f5a4364d94c8496da2ebfc",
+      "object": "sha256/78/784f47af0361902fbc8cc83d4880229dd3fd12c1c5f5a4364d94c8496da2ebfc/scene-03j.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/baseline/web/scene-03k.webp",
+      "role": "archive",
+      "bytes": 419846,
+      "sha256": "5e73e13aa43d426114906917a5051601423ce0bd6104cac05d1ca8d57ded1bf0",
+      "object": "sha256/5e/5e73e13aa43d426114906917a5051601423ce0bd6104cac05d1ca8d57ded1bf0/scene-03k.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/baseline/web/scene-03l.webp",
+      "role": "archive",
+      "bytes": 346812,
+      "sha256": "b40ac36e16a2f183f826d340f8be4c2ad85c30fa0a3e660c0dd0958cdb5da81b",
+      "object": "sha256/b4/b40ac36e16a2f183f826d340f8be4c2ad85c30fa0a3e660c0dd0958cdb5da81b/scene-03l.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/baseline/web/scene-03m.webp",
+      "role": "archive",
+      "bytes": 429426,
+      "sha256": "4bda9eb877f8a753d8d924154cb76dcba2ba942e1aa397cad6a91395b046e57f",
+      "object": "sha256/4b/4bda9eb877f8a753d8d924154cb76dcba2ba942e1aa397cad6a91395b046e57f/scene-03m.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/baseline/web/scene-04.webp",
+      "role": "archive",
+      "bytes": 349284,
+      "sha256": "008320443ae91e15120e61a4f094e93c4eac53a884ecdbd5f9ef3b735e5a49eb",
+      "object": "sha256/00/008320443ae91e15120e61a4f094e93c4eac53a884ecdbd5f9ef3b735e5a49eb/scene-04.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/baseline/web/scene-04a.webp",
+      "role": "archive",
+      "bytes": 502252,
+      "sha256": "76eb7f11e4777aad672f1f88e0c4d0d0913b1c96fee2569a37bc7b0fac00b04b",
+      "object": "sha256/76/76eb7f11e4777aad672f1f88e0c4d0d0913b1c96fee2569a37bc7b0fac00b04b/scene-04a.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/baseline/web/scene-04a1.webp",
+      "role": "archive",
+      "bytes": 496790,
+      "sha256": "2265919ee66ea1ded0a94e8ada203b374d2c212f8a9dc562a279b9122ed29a3e",
+      "object": "sha256/22/2265919ee66ea1ded0a94e8ada203b374d2c212f8a9dc562a279b9122ed29a3e/scene-04a1.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/baseline/web/scene-04a2.webp",
+      "role": "archive",
+      "bytes": 665262,
+      "sha256": "55fe669d63e5016ceef76fb690adabc564004170258dc9e190e116c18d6bb64c",
+      "object": "sha256/55/55fe669d63e5016ceef76fb690adabc564004170258dc9e190e116c18d6bb64c/scene-04a2.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/baseline/web/scene-04b.webp",
+      "role": "archive",
+      "bytes": 507346,
+      "sha256": "e987d4ff6856f59b065c05cff7dd9345f5fed19417f7d32a070e5ecdd1737dbd",
+      "object": "sha256/e9/e987d4ff6856f59b065c05cff7dd9345f5fed19417f7d32a070e5ecdd1737dbd/scene-04b.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/baseline/web/scene-04c.webp",
+      "role": "archive",
+      "bytes": 505126,
+      "sha256": "5b5c0e2eef562551022ba3c3ea913b1a761db4facbc5e7ea4c4d4f9341e32653",
+      "object": "sha256/5b/5b5c0e2eef562551022ba3c3ea913b1a761db4facbc5e7ea4c4d4f9341e32653/scene-04c.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/baseline/web/scene-04d.webp",
+      "role": "archive",
+      "bytes": 552840,
+      "sha256": "57a66759e8f289ff642042a6f507a9f4781174cf079e95ea013fb2cdc82a88c7",
+      "object": "sha256/57/57a66759e8f289ff642042a6f507a9f4781174cf079e95ea013fb2cdc82a88c7/scene-04d.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/baseline/web/scene-05.webp",
+      "role": "archive",
+      "bytes": 603340,
+      "sha256": "e416157c9ca4032832df349cd5699f3924058476a00136484199015981926319",
+      "object": "sha256/e4/e416157c9ca4032832df349cd5699f3924058476a00136484199015981926319/scene-05.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/baseline/web/scene-05a.webp",
+      "role": "archive",
+      "bytes": 437984,
+      "sha256": "d74d56c4cd5e4422f21c3454d2271cb11f7105c3b42a4679d5e82cd2e8b821a2",
+      "object": "sha256/d7/d74d56c4cd5e4422f21c3454d2271cb11f7105c3b42a4679d5e82cd2e8b821a2/scene-05a.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/baseline/web/scene-05b.webp",
+      "role": "archive",
+      "bytes": 605494,
+      "sha256": "a86e6b63684679b92b1211b97b3cf41926613a3894dabaaef5c4a8d08c996c49",
+      "object": "sha256/a8/a86e6b63684679b92b1211b97b3cf41926613a3894dabaaef5c4a8d08c996c49/scene-05b.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/baseline/web/scene-05c.webp",
+      "role": "archive",
+      "bytes": 584688,
+      "sha256": "2aa6fe2d58e1179b8b7c389cfe1722bc19f09a57940323d11e1c358b90b81ceb",
+      "object": "sha256/2a/2aa6fe2d58e1179b8b7c389cfe1722bc19f09a57940323d11e1c358b90b81ceb/scene-05c.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/baseline/web/scene-05d.webp",
+      "role": "archive",
+      "bytes": 536110,
+      "sha256": "980acd8539291c82ef5ece6970211a31d99679422ff11829fc4f2768c0361cc7",
+      "object": "sha256/98/980acd8539291c82ef5ece6970211a31d99679422ff11829fc4f2768c0361cc7/scene-05d.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/baseline/web/scene-05e.webp",
+      "role": "archive",
+      "bytes": 484928,
+      "sha256": "6bba7204c8dd77e89341b113a8774ef27977e41ce425efb17ed29e2981aaa44c",
+      "object": "sha256/6b/6bba7204c8dd77e89341b113a8774ef27977e41ce425efb17ed29e2981aaa44c/scene-05e.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/baseline/web/scene-05f.webp",
+      "role": "archive",
+      "bytes": 564114,
+      "sha256": "603a07035283420b070c7099009df6d8fd985ca32b70511c72408bc229ffb1db",
+      "object": "sha256/60/603a07035283420b070c7099009df6d8fd985ca32b70511c72408bc229ffb1db/scene-05f.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/baseline/web/scene-05f1.webp",
+      "role": "archive",
+      "bytes": 509654,
+      "sha256": "46dac3b911796465f77e98b23af05a8fb2cb40c3fbc4b43e022e3c2d8706e3c9",
+      "object": "sha256/46/46dac3b911796465f77e98b23af05a8fb2cb40c3fbc4b43e022e3c2d8706e3c9/scene-05f1.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/baseline/web/scene-05f2.webp",
+      "role": "archive",
+      "bytes": 542182,
+      "sha256": "4e3617d9f310f994188df952dd2d43c7b860124e37bc216cd0dcfe544caaa019",
+      "object": "sha256/4e/4e3617d9f310f994188df952dd2d43c7b860124e37bc216cd0dcfe544caaa019/scene-05f2.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/baseline/web/scene-05g.webp",
+      "role": "archive",
+      "bytes": 482918,
+      "sha256": "66131fe29408b8eb4acdd94745575e363838862b4f44d33f00fcb076a7854bd6",
+      "object": "sha256/66/66131fe29408b8eb4acdd94745575e363838862b4f44d33f00fcb076a7854bd6/scene-05g.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/baseline/web/scene-05g1.webp",
+      "role": "archive",
+      "bytes": 442560,
+      "sha256": "59e38ca6bdfb3161b227be1763d62ecb25a2993c633365d447a09be85c1c6a60",
+      "object": "sha256/59/59e38ca6bdfb3161b227be1763d62ecb25a2993c633365d447a09be85c1c6a60/scene-05g1.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/baseline/web/scene-05g2.webp",
+      "role": "archive",
+      "bytes": 394648,
+      "sha256": "409ef7cd1e355e198ea67fa344fdabcfb84e0640cb8f78c098700c08d5843a7c",
+      "object": "sha256/40/409ef7cd1e355e198ea67fa344fdabcfb84e0640cb8f78c098700c08d5843a7c/scene-05g2.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/baseline/web/scene-05g3.webp",
+      "role": "archive",
+      "bytes": 426970,
+      "sha256": "abad08da381f69cefa8709b6e7730d2015060943bb428c45f676cdd98048783d",
+      "object": "sha256/ab/abad08da381f69cefa8709b6e7730d2015060943bb428c45f676cdd98048783d/scene-05g3.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/baseline/web/scene-06.webp",
+      "role": "archive",
+      "bytes": 330756,
+      "sha256": "d3fd54c060a07fe301690abff4cfc4f6cd0dfdc22574dc270989b7c0380c3c49",
+      "object": "sha256/d3/d3fd54c060a07fe301690abff4cfc4f6cd0dfdc22574dc270989b7c0380c3c49/scene-06.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/baseline/web/scene-07.webp",
+      "role": "archive",
+      "bytes": 293246,
+      "sha256": "b793dbc3dc4f47e311f844941d2ebfb6af31da3b6aafa8d9e39789d8a3891518",
+      "object": "sha256/b7/b793dbc3dc4f47e311f844941d2ebfb6af31da3b6aafa8d9e39789d8a3891518/scene-07.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/baseline/web/scene-08.webp",
+      "role": "archive",
+      "bytes": 417752,
+      "sha256": "93997856d26c416df0ad26ce3c1284ab7427bc945f6a09e148cbbf5dbd41ca97",
+      "object": "sha256/93/93997856d26c416df0ad26ce3c1284ab7427bc945f6a09e148cbbf5dbd41ca97/scene-08.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/baseline/web/scene-09.webp",
+      "role": "archive",
+      "bytes": 311934,
+      "sha256": "9e85548132c9b1fa4b542ba07c02997e32c1f0af9e1b5df69e3526f4228328f9",
+      "object": "sha256/9e/9e85548132c9b1fa4b542ba07c02997e32c1f0af9e1b5df69e3526f4228328f9/scene-09.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/baseline/web/scene-10.webp",
+      "role": "archive",
+      "bytes": 346568,
+      "sha256": "dbcf9af5f65bcf406428a33bb865372b6e59ebb34151fdafe12e72264d1b6b16",
+      "object": "sha256/db/dbcf9af5f65bcf406428a33bb865372b6e59ebb34151fdafe12e72264d1b6b16/scene-10.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/baseline/web/scene-11.webp",
+      "role": "archive",
+      "bytes": 412550,
+      "sha256": "fb1fbe460c7531d79b983bfb961c51bdcc953f85d1a1154e2e66b68e54a69473",
+      "object": "sha256/fb/fb1fbe460c7531d79b983bfb961c51bdcc953f85d1a1154e2e66b68e54a69473/scene-11.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/baseline/web/scene-114.webp",
+      "role": "archive",
+      "bytes": 330416,
+      "sha256": "f727c82a67a6a45b7eb1a15b81369e6765a6f52e1d3ed34fe432771f6bfa6531",
+      "object": "sha256/f7/f727c82a67a6a45b7eb1a15b81369e6765a6f52e1d3ed34fe432771f6bfa6531/scene-114.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/baseline/web/scene-115.webp",
+      "role": "archive",
+      "bytes": 433174,
+      "sha256": "0525754b52fbdaeb07e39790f8d5ba05d6f26bdb4972879b5c44adb12c06c02e",
+      "object": "sha256/05/0525754b52fbdaeb07e39790f8d5ba05d6f26bdb4972879b5c44adb12c06c02e/scene-115.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/baseline/web/scene-116.webp",
+      "role": "archive",
+      "bytes": 354430,
+      "sha256": "d5119b159c2b0a989686956c7e5884072d86e066f0a009d921dd979ba4c65970",
+      "object": "sha256/d5/d5119b159c2b0a989686956c7e5884072d86e066f0a009d921dd979ba4c65970/scene-116.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/baseline/web/scene-117.webp",
+      "role": "archive",
+      "bytes": 329462,
+      "sha256": "e6fdd05e24bc99b2151d865621515c59cae9a7607cf5b91b471febe012a64afb",
+      "object": "sha256/e6/e6fdd05e24bc99b2151d865621515c59cae9a7607cf5b91b471febe012a64afb/scene-117.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/baseline/web/scene-118.webp",
+      "role": "archive",
+      "bytes": 433510,
+      "sha256": "ad26a034e1c728bc0774080370b5526cd682e877ea796604cd787c15504b1ab5",
+      "object": "sha256/ad/ad26a034e1c728bc0774080370b5526cd682e877ea796604cd787c15504b1ab5/scene-118.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/baseline/web/scene-119.webp",
+      "role": "archive",
+      "bytes": 424846,
+      "sha256": "8a54b424cdd6fbc7d788c2491af386d06dd9c4dff73c7cf154ebc002a311136f",
+      "object": "sha256/8a/8a54b424cdd6fbc7d788c2491af386d06dd9c4dff73c7cf154ebc002a311136f/scene-119.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/baseline/web/scene-12.webp",
+      "role": "archive",
+      "bytes": 392356,
+      "sha256": "af4f422aea4d6a74c304f85e85d1af4ff6a2adf5f6e9cb4d647b4f0e542fe5df",
+      "object": "sha256/af/af4f422aea4d6a74c304f85e85d1af4ff6a2adf5f6e9cb4d647b4f0e542fe5df/scene-12.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/baseline/web/scene-120.webp",
+      "role": "archive",
+      "bytes": 327304,
+      "sha256": "6ab53810d6797d610e3a246c19c326ea18cf00d88d07ceef1addc1dc4c18fb43",
+      "object": "sha256/6a/6ab53810d6797d610e3a246c19c326ea18cf00d88d07ceef1addc1dc4c18fb43/scene-120.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/baseline/web/scene-121.webp",
+      "role": "archive",
+      "bytes": 422186,
+      "sha256": "2ee96027221a32a7e82b603545981349bdcb4d2cc196a56d666a47a9788a20d8",
+      "object": "sha256/2e/2ee96027221a32a7e82b603545981349bdcb4d2cc196a56d666a47a9788a20d8/scene-121.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/baseline/web/scene-122.webp",
+      "role": "archive",
+      "bytes": 438956,
+      "sha256": "b40ceace35152f02acfcc3aa1a9f2604902867dc7a3d4adcf1f18325fe8f4eb9",
+      "object": "sha256/b4/b40ceace35152f02acfcc3aa1a9f2604902867dc7a3d4adcf1f18325fe8f4eb9/scene-122.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/baseline/web/scene-123.webp",
+      "role": "archive",
+      "bytes": 414216,
+      "sha256": "dbdbabe8f5282f4e4cc5b81565825a25ac2eed7f6715fcbff3bfcc3fb9f691f7",
+      "object": "sha256/db/dbdbabe8f5282f4e4cc5b81565825a25ac2eed7f6715fcbff3bfcc3fb9f691f7/scene-123.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/baseline/web/scene-124.webp",
+      "role": "archive",
+      "bytes": 482694,
+      "sha256": "5357172bbacf2303ef185bbc3c432beaf4c118847c4f594c46bc981c452bc4aa",
+      "object": "sha256/53/5357172bbacf2303ef185bbc3c432beaf4c118847c4f594c46bc981c452bc4aa/scene-124.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/baseline/web/scene-124a.webp",
+      "role": "archive",
+      "bytes": 619266,
+      "sha256": "3df0653d0b8181cc64af28bbe1a149d67ed9d753cfbb6011c10885893351832e",
+      "object": "sha256/3d/3df0653d0b8181cc64af28bbe1a149d67ed9d753cfbb6011c10885893351832e/scene-124a.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/baseline/web/scene-125.webp",
+      "role": "archive",
+      "bytes": 527080,
+      "sha256": "0aa240713b699253d73666d071d4ffbcf16f204b11e605be4add1d4d21dbf973",
+      "object": "sha256/0a/0aa240713b699253d73666d071d4ffbcf16f204b11e605be4add1d4d21dbf973/scene-125.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/baseline/web/scene-126.webp",
+      "role": "archive",
+      "bytes": 447108,
+      "sha256": "2a069c25eb95f937cd444fe358ab15479d4a91b4a81e4bac524f75fadd3b48d2",
+      "object": "sha256/2a/2a069c25eb95f937cd444fe358ab15479d4a91b4a81e4bac524f75fadd3b48d2/scene-126.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/baseline/web/scene-13.webp",
+      "role": "archive",
+      "bytes": 369128,
+      "sha256": "015345deaeeae903099bc7c95ce03a7f97d2c37ac459dcde7452bd9d561668b9",
+      "object": "sha256/01/015345deaeeae903099bc7c95ce03a7f97d2c37ac459dcde7452bd9d561668b9/scene-13.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/baseline/web/scene-14.webp",
+      "role": "archive",
+      "bytes": 352556,
+      "sha256": "fd9fad80648244611cd8aab3bb24c39f244819cfea1afff66e5bb30a48401e86",
+      "object": "sha256/fd/fd9fad80648244611cd8aab3bb24c39f244819cfea1afff66e5bb30a48401e86/scene-14.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/baseline/web/scene-15.webp",
+      "role": "archive",
+      "bytes": 371148,
+      "sha256": "43e77793ecb4746543650fd5ee14c11e987e0df36781737e78332b6a8195f155",
+      "object": "sha256/43/43e77793ecb4746543650fd5ee14c11e987e0df36781737e78332b6a8195f155/scene-15.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/baseline/web/scene-16.webp",
+      "role": "archive",
+      "bytes": 483726,
+      "sha256": "5e17df370bd4e685fd887c21b316d861b960e96b00fcc3aaf16ac8162de868c4",
+      "object": "sha256/5e/5e17df370bd4e685fd887c21b316d861b960e96b00fcc3aaf16ac8162de868c4/scene-16.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/baseline/web/scene-17.webp",
+      "role": "archive",
+      "bytes": 392190,
+      "sha256": "0074c93f7b6c385b2d041c315d7fcfd733d434ab0d9b60fea96111529df3d6f9",
+      "object": "sha256/00/0074c93f7b6c385b2d041c315d7fcfd733d434ab0d9b60fea96111529df3d6f9/scene-17.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/baseline/web/scene-18.webp",
+      "role": "archive",
+      "bytes": 367712,
+      "sha256": "edca38715e04dacc5ec79df3a9550951398d058112d0e1561c063faed2b3c53a",
+      "object": "sha256/ed/edca38715e04dacc5ec79df3a9550951398d058112d0e1561c063faed2b3c53a/scene-18.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/baseline/web/scene-19.webp",
+      "role": "archive",
+      "bytes": 341486,
+      "sha256": "9e342a9cce145ea58333b2287da84b9f5fc72fb9c85aca985ed852e41bc2b134",
+      "object": "sha256/9e/9e342a9cce145ea58333b2287da84b9f5fc72fb9c85aca985ed852e41bc2b134/scene-19.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/baseline/web/scene-19a.webp",
+      "role": "archive",
+      "bytes": 434222,
+      "sha256": "34eecc05dd546906c99d9a8c656225e4f0b65c1b606c922b577398777f0aa946",
+      "object": "sha256/34/34eecc05dd546906c99d9a8c656225e4f0b65c1b606c922b577398777f0aa946/scene-19a.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/baseline/web/scene-19b.webp",
+      "role": "archive",
+      "bytes": 480466,
+      "sha256": "c7d01f7b509858f60cce5a930b1e35a93809578a862d7d6695b04b31957406bf",
+      "object": "sha256/c7/c7d01f7b509858f60cce5a930b1e35a93809578a862d7d6695b04b31957406bf/scene-19b.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/baseline/web/scene-20.webp",
+      "role": "archive",
+      "bytes": 506172,
+      "sha256": "bc84648b4a3f2fe6fb8eb5e41c514fd1070cc18d56f93f86f16ec7dd43869ee8",
+      "object": "sha256/bc/bc84648b4a3f2fe6fb8eb5e41c514fd1070cc18d56f93f86f16ec7dd43869ee8/scene-20.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/baseline/web/scene-21.webp",
+      "role": "archive",
+      "bytes": 471188,
+      "sha256": "e3ca716a99194dee05b0cd2c27940acc73ff5a9e44d2c3106bb971aa97f9d568",
+      "object": "sha256/e3/e3ca716a99194dee05b0cd2c27940acc73ff5a9e44d2c3106bb971aa97f9d568/scene-21.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/baseline/web/scene-22.webp",
+      "role": "archive",
+      "bytes": 451960,
+      "sha256": "7722f2d77144a61da85c97769c8659b69243439671a1151d9677e0b5a9a42dbb",
+      "object": "sha256/77/7722f2d77144a61da85c97769c8659b69243439671a1151d9677e0b5a9a42dbb/scene-22.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/baseline/web/scene-23.webp",
+      "role": "archive",
+      "bytes": 448274,
+      "sha256": "2929cd88ecd90f099c5373a60a58476e6e1b80078f62cf4ab06b0d697fb85bc9",
+      "object": "sha256/29/2929cd88ecd90f099c5373a60a58476e6e1b80078f62cf4ab06b0d697fb85bc9/scene-23.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/baseline/web/scene-24.webp",
+      "role": "archive",
+      "bytes": 512030,
+      "sha256": "0eae0e1efad658a1321d215aa6ce8dbfcc39d76e08bd327e7044add4bb196ffc",
+      "object": "sha256/0e/0eae0e1efad658a1321d215aa6ce8dbfcc39d76e08bd327e7044add4bb196ffc/scene-24.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/baseline/web/scene-25.webp",
+      "role": "archive",
+      "bytes": 429260,
+      "sha256": "8882eb666f19d514bc673320922550ca0a774593e1ad14f63092485d386a57ca",
+      "object": "sha256/88/8882eb666f19d514bc673320922550ca0a774593e1ad14f63092485d386a57ca/scene-25.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/baseline/web/scene-26.webp",
+      "role": "archive",
+      "bytes": 492010,
+      "sha256": "d6952d9421656ddc81f92e0dfd2d4d4d97fe8d0e517a492e161b93fa19c6f581",
+      "object": "sha256/d6/d6952d9421656ddc81f92e0dfd2d4d4d97fe8d0e517a492e161b93fa19c6f581/scene-26.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/baseline/web/scene-27.webp",
+      "role": "archive",
+      "bytes": 489458,
+      "sha256": "7b5b8e5ead9c86de5e477841457dbd77bc5e1741e3d80e8419006c870fb8ed71",
+      "object": "sha256/7b/7b5b8e5ead9c86de5e477841457dbd77bc5e1741e3d80e8419006c870fb8ed71/scene-27.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/baseline/web/scene-28.webp",
+      "role": "archive",
+      "bytes": 489152,
+      "sha256": "ec06bd8246ba1b6fe1f1c8508b0843d04d33d4d80059af7b25f13631b10947b7",
+      "object": "sha256/ec/ec06bd8246ba1b6fe1f1c8508b0843d04d33d4d80059af7b25f13631b10947b7/scene-28.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/baseline/web/scene-29.webp",
+      "role": "archive",
+      "bytes": 443850,
+      "sha256": "d3573d35a51a883c7719772d1d3bf639c1faa61f7e8e7a65afc8d42fe92be2b8",
+      "object": "sha256/d3/d3573d35a51a883c7719772d1d3bf639c1faa61f7e8e7a65afc8d42fe92be2b8/scene-29.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/baseline/web/scene-30.webp",
+      "role": "archive",
+      "bytes": 410854,
+      "sha256": "8c95d6f30e746a3df82f2ab069b3ebae267321aaf82af9e22c9e120c0cd1b90b",
+      "object": "sha256/8c/8c95d6f30e746a3df82f2ab069b3ebae267321aaf82af9e22c9e120c0cd1b90b/scene-30.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/baseline/web/scene-30a.webp",
+      "role": "archive",
+      "bytes": 471978,
+      "sha256": "3001db314e025d49312c5ed1457531b39f10987e94c1f5d24ac6864abd322135",
+      "object": "sha256/30/3001db314e025d49312c5ed1457531b39f10987e94c1f5d24ac6864abd322135/scene-30a.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/baseline/web/scene-30b.webp",
+      "role": "archive",
+      "bytes": 418322,
+      "sha256": "3fd487d8f4673606b4681fcd72a1267ca002a7ddce518e1eaa7d45e82ae4e687",
+      "object": "sha256/3f/3fd487d8f4673606b4681fcd72a1267ca002a7ddce518e1eaa7d45e82ae4e687/scene-30b.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/baseline/web/scene-30c.webp",
+      "role": "archive",
+      "bytes": 443610,
+      "sha256": "dab36eaa6bcefbaaf1c444258f1ad0048151896e80b2e86a377eb0d0f0be62a9",
+      "object": "sha256/da/dab36eaa6bcefbaaf1c444258f1ad0048151896e80b2e86a377eb0d0f0be62a9/scene-30c.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/baseline/web/scene-30d.webp",
+      "role": "archive",
+      "bytes": 380078,
+      "sha256": "6037c605a14318d4f36528a29db26dd9de709c111bc8db0d491fcbabbf34945d",
+      "object": "sha256/60/6037c605a14318d4f36528a29db26dd9de709c111bc8db0d491fcbabbf34945d/scene-30d.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/baseline/web/scene-31.webp",
+      "role": "archive",
+      "bytes": 538280,
+      "sha256": "a1e0f024faa711cbd735a5ce85ba2a7496a12994e2631c6e03558927cc55d715",
+      "object": "sha256/a1/a1e0f024faa711cbd735a5ce85ba2a7496a12994e2631c6e03558927cc55d715/scene-31.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/baseline/web/scene-32.webp",
+      "role": "archive",
+      "bytes": 454594,
+      "sha256": "41d0d399970ad6af0c4e4e9ee0242fc348123510e79d4b71067fbc1878b9a949",
+      "object": "sha256/41/41d0d399970ad6af0c4e4e9ee0242fc348123510e79d4b71067fbc1878b9a949/scene-32.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/baseline/web/scene-32a.webp",
+      "role": "archive",
+      "bytes": 500388,
+      "sha256": "32e78ba098b2863be190520ed73c5e62c5a13229bb8203ab04176ae6b9cce604",
+      "object": "sha256/32/32e78ba098b2863be190520ed73c5e62c5a13229bb8203ab04176ae6b9cce604/scene-32a.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/baseline/web/scene-32b.webp",
+      "role": "archive",
+      "bytes": 601994,
+      "sha256": "0ca6f054f3aabddf0dad48cbdfcb90cf9fb1ac085206900b2b9a6278d6ac2703",
+      "object": "sha256/0c/0ca6f054f3aabddf0dad48cbdfcb90cf9fb1ac085206900b2b9a6278d6ac2703/scene-32b.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/baseline/web/scene-32b1.webp",
+      "role": "archive",
+      "bytes": 399980,
+      "sha256": "9ee40787d1d5cd5d737f2d9419063525689ab38b546607c341af81ee5dd000d9",
+      "object": "sha256/9e/9ee40787d1d5cd5d737f2d9419063525689ab38b546607c341af81ee5dd000d9/scene-32b1.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/baseline/web/scene-32b2.webp",
+      "role": "archive",
+      "bytes": 570754,
+      "sha256": "c295ab619ea7b71af6dde0871b501e3d45746aa38916c820f1faa101872fb48f",
+      "object": "sha256/c2/c295ab619ea7b71af6dde0871b501e3d45746aa38916c820f1faa101872fb48f/scene-32b2.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/baseline/web/scene-32c.webp",
+      "role": "archive",
+      "bytes": 587500,
+      "sha256": "ba7a145d717fda98a3bc409b964add05b5dca4bac6704b2ff3676054ced73caf",
+      "object": "sha256/ba/ba7a145d717fda98a3bc409b964add05b5dca4bac6704b2ff3676054ced73caf/scene-32c.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/baseline/web/scene-32c1.webp",
+      "role": "archive",
+      "bytes": 525220,
+      "sha256": "aa3e38b91423190d32546bb2a50b27cdffec9715a8f98d2d2c03a5f5c14523ff",
+      "object": "sha256/aa/aa3e38b91423190d32546bb2a50b27cdffec9715a8f98d2d2c03a5f5c14523ff/scene-32c1.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/baseline/web/scene-32c2.webp",
+      "role": "archive",
+      "bytes": 522802,
+      "sha256": "10eadde7351bb1bca8ceedb5c471c72c4f7bdab5a2070f1eae88607ae4b07e00",
+      "object": "sha256/10/10eadde7351bb1bca8ceedb5c471c72c4f7bdab5a2070f1eae88607ae4b07e00/scene-32c2.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/baseline/web/scene-32c3.webp",
+      "role": "archive",
+      "bytes": 585840,
+      "sha256": "83504653c54e50722b7e05a704797156032d22d6c1455e1858f5f1b53f0d8887",
+      "object": "sha256/83/83504653c54e50722b7e05a704797156032d22d6c1455e1858f5f1b53f0d8887/scene-32c3.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/baseline/web/scene-32d.webp",
+      "role": "archive",
+      "bytes": 585458,
+      "sha256": "55df79885d4605b21935fd73f9c30822195eb1e4d5b1c2d42a6e981cd696bfbf",
+      "object": "sha256/55/55df79885d4605b21935fd73f9c30822195eb1e4d5b1c2d42a6e981cd696bfbf/scene-32d.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/baseline/web/scene-32e.webp",
+      "role": "archive",
+      "bytes": 559574,
+      "sha256": "7113adce5b475f5682746548774e7e15a4b99c7d12372b19bef05b4bee90db09",
+      "object": "sha256/71/7113adce5b475f5682746548774e7e15a4b99c7d12372b19bef05b4bee90db09/scene-32e.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/baseline/web/scene-32f.webp",
+      "role": "archive",
+      "bytes": 549888,
+      "sha256": "06e412e782cadd2c2a2a80b45b93cd372161a1852d4366dd19c306756610ea2d",
+      "object": "sha256/06/06e412e782cadd2c2a2a80b45b93cd372161a1852d4366dd19c306756610ea2d/scene-32f.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/baseline/web/scene-32g.webp",
+      "role": "archive",
+      "bytes": 536520,
+      "sha256": "bd7afde59142a3088ac3c1e8cb4dfcc1c137c396d59d5727d534baa985da815b",
+      "object": "sha256/bd/bd7afde59142a3088ac3c1e8cb4dfcc1c137c396d59d5727d534baa985da815b/scene-32g.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/baseline/web/scene-32h.webp",
+      "role": "archive",
+      "bytes": 597468,
+      "sha256": "7abb1583e33a7349da16ee35d840ac548f99db106a5d47a8f0c6a887db362d10",
+      "object": "sha256/7a/7abb1583e33a7349da16ee35d840ac548f99db106a5d47a8f0c6a887db362d10/scene-32h.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/baseline/web/scene-32h1.webp",
+      "role": "archive",
+      "bytes": 566480,
+      "sha256": "11ece7369d84018a4bb307b14ccf90fd6eb195fbae57646e37de668f3a2e131a",
+      "object": "sha256/11/11ece7369d84018a4bb307b14ccf90fd6eb195fbae57646e37de668f3a2e131a/scene-32h1.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/baseline/web/scene-32h2.webp",
+      "role": "archive",
+      "bytes": 515756,
+      "sha256": "f573b80d8bc9ba1e6e588347be603647e4c00f55bd81e140574d7512b47c4054",
+      "object": "sha256/f5/f573b80d8bc9ba1e6e588347be603647e4c00f55bd81e140574d7512b47c4054/scene-32h2.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/baseline/web/scene-32h3.webp",
+      "role": "archive",
+      "bytes": 447252,
+      "sha256": "f9e85d3b80036c8121b86db74b958113ec864c231178fa00eb4d9b5f42fc198d",
+      "object": "sha256/f9/f9e85d3b80036c8121b86db74b958113ec864c231178fa00eb4d9b5f42fc198d/scene-32h3.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/baseline/web/scene-32i.webp",
+      "role": "archive",
+      "bytes": 519646,
+      "sha256": "0260ae0a413380feee54a3b69a7038ff0c39c2663594a52bfe1b7ccb81904942",
+      "object": "sha256/02/0260ae0a413380feee54a3b69a7038ff0c39c2663594a52bfe1b7ccb81904942/scene-32i.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/baseline/web/scene-32i1.webp",
+      "role": "archive",
+      "bytes": 523952,
+      "sha256": "35d6627a3092e392fc711508c4141c7d782a5db04f77a2d32a19882bf8b4a5a5",
+      "object": "sha256/35/35d6627a3092e392fc711508c4141c7d782a5db04f77a2d32a19882bf8b4a5a5/scene-32i1.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/baseline/web/scene-32i2.webp",
+      "role": "archive",
+      "bytes": 547484,
+      "sha256": "c5a8d8f54f80c78ff18b56fff30c8b04879aced35429fffd4a64e1685567234a",
+      "object": "sha256/c5/c5a8d8f54f80c78ff18b56fff30c8b04879aced35429fffd4a64e1685567234a/scene-32i2.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/baseline/web/scene-32i3.webp",
+      "role": "archive",
+      "bytes": 558658,
+      "sha256": "d19b751e5cfef69e1da16ae3facd1b248ea3920494d8a1c24c7c84c5abdcc24e",
+      "object": "sha256/d1/d19b751e5cfef69e1da16ae3facd1b248ea3920494d8a1c24c7c84c5abdcc24e/scene-32i3.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/baseline/web/scene-32i4.webp",
+      "role": "archive",
+      "bytes": 582442,
+      "sha256": "61429b556130d9ccd8df80c8a0c849d658fab6a54034a04de53a24cbcc12b836",
+      "object": "sha256/61/61429b556130d9ccd8df80c8a0c849d658fab6a54034a04de53a24cbcc12b836/scene-32i4.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/baseline/web/scene-32i5.webp",
+      "role": "archive",
+      "bytes": 393796,
+      "sha256": "755c6cfaa5e1d4d0002db1c235c6fe261acc402f64fadf5f977f90e2b8a3c42a",
+      "object": "sha256/75/755c6cfaa5e1d4d0002db1c235c6fe261acc402f64fadf5f977f90e2b8a3c42a/scene-32i5.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/baseline/web/scene-32i6.webp",
+      "role": "archive",
+      "bytes": 530750,
+      "sha256": "8ee47791a124f184164ee57f509c27edcc43c4d04177e2da4ce4739393b2d9e6",
+      "object": "sha256/8e/8ee47791a124f184164ee57f509c27edcc43c4d04177e2da4ce4739393b2d9e6/scene-32i6.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/baseline/web/scene-32i7.webp",
+      "role": "archive",
+      "bytes": 494078,
+      "sha256": "31a2ad4295e75f8a1ba08ff12f5e757be19f03beb951766c1f97ce55cf6b72de",
+      "object": "sha256/31/31a2ad4295e75f8a1ba08ff12f5e757be19f03beb951766c1f97ce55cf6b72de/scene-32i7.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/baseline/web/scene-32j.webp",
+      "role": "archive",
+      "bytes": 507648,
+      "sha256": "bd104aabb955169cc4c43f654c6b7e665ac07c32e3e2beaca0ab83c6b95636b4",
+      "object": "sha256/bd/bd104aabb955169cc4c43f654c6b7e665ac07c32e3e2beaca0ab83c6b95636b4/scene-32j.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/baseline/web/scene-33.webp",
+      "role": "archive",
+      "bytes": 502220,
+      "sha256": "2770aba4f75111ca998ec365964ca81f91c84c82fe119262e3c58b0178116c49",
+      "object": "sha256/27/2770aba4f75111ca998ec365964ca81f91c84c82fe119262e3c58b0178116c49/scene-33.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/baseline/web/scene-34.webp",
+      "role": "archive",
+      "bytes": 481962,
+      "sha256": "7942d4bf74b70ae9ca72f5067d28e4bc553bb7abe14b8e1a002cadea668fd5a3",
+      "object": "sha256/79/7942d4bf74b70ae9ca72f5067d28e4bc553bb7abe14b8e1a002cadea668fd5a3/scene-34.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/baseline/web/scene-35.webp",
+      "role": "archive",
+      "bytes": 430920,
+      "sha256": "c238a7025feb134dbb72a2ee41220fa4af7ca58b2eac4c704d2a0e7caa73170c",
+      "object": "sha256/c2/c238a7025feb134dbb72a2ee41220fa4af7ca58b2eac4c704d2a0e7caa73170c/scene-35.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/baseline/web/scene-36.webp",
+      "role": "archive",
+      "bytes": 451164,
+      "sha256": "3514dd69f82191d94de6b4602cca2535b4a14af538b9dbd28791d12d0b092068",
+      "object": "sha256/35/3514dd69f82191d94de6b4602cca2535b4a14af538b9dbd28791d12d0b092068/scene-36.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/baseline/web/scene-37.webp",
+      "role": "archive",
+      "bytes": 399032,
+      "sha256": "57f091e729f7f4bb89f7373cae52f6a512818e337d23032dc6dcec532b57fd3d",
+      "object": "sha256/57/57f091e729f7f4bb89f7373cae52f6a512818e337d23032dc6dcec532b57fd3d/scene-37.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/baseline/web/scene-38.webp",
+      "role": "archive",
+      "bytes": 547852,
+      "sha256": "915aeebf74a532b8914d39ff3727b6343cdec368e6a169fc04f22db7e3ea1631",
+      "object": "sha256/91/915aeebf74a532b8914d39ff3727b6343cdec368e6a169fc04f22db7e3ea1631/scene-38.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/baseline/web/scene-39.webp",
+      "role": "archive",
+      "bytes": 441908,
+      "sha256": "d308c776fde9aa87a728e241ea26f3f0d902d828f837f38cf5889fdbfefb0207",
+      "object": "sha256/d3/d308c776fde9aa87a728e241ea26f3f0d902d828f837f38cf5889fdbfefb0207/scene-39.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/baseline/web/scene-40.webp",
+      "role": "archive",
+      "bytes": 402866,
+      "sha256": "c30f67ab9eefb312bee6b7b910a413ecb3b883fd84c7864cb82ab7cfa97b090a",
+      "object": "sha256/c3/c30f67ab9eefb312bee6b7b910a413ecb3b883fd84c7864cb82ab7cfa97b090a/scene-40.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/baseline/web/scene-41.webp",
+      "role": "archive",
+      "bytes": 397720,
+      "sha256": "7dc7e270afd7d2cd9b1d9d083a295bfcb95cc713ebf873b53f85e500b2a0d36e",
+      "object": "sha256/7d/7dc7e270afd7d2cd9b1d9d083a295bfcb95cc713ebf873b53f85e500b2a0d36e/scene-41.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/baseline/web/scene-42.webp",
+      "role": "archive",
+      "bytes": 472604,
+      "sha256": "52a09c47266decfb7d16619a8428973a9d9168dc0f63875913e8d5ffec30a502",
+      "object": "sha256/52/52a09c47266decfb7d16619a8428973a9d9168dc0f63875913e8d5ffec30a502/scene-42.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/baseline/web/scene-43.webp",
+      "role": "archive",
+      "bytes": 391598,
+      "sha256": "c642cd7aa76da506e304569c58803b783076ff0b7199aab87a8613b8d1f3c05c",
+      "object": "sha256/c6/c642cd7aa76da506e304569c58803b783076ff0b7199aab87a8613b8d1f3c05c/scene-43.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/baseline/web/scene-44.webp",
+      "role": "archive",
+      "bytes": 374124,
+      "sha256": "b9e1ff59b6d3278a9980a444473df74b2fe70112cb491fd573b2444322ee3b8d",
+      "object": "sha256/b9/b9e1ff59b6d3278a9980a444473df74b2fe70112cb491fd573b2444322ee3b8d/scene-44.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/baseline/web/scene-45.webp",
+      "role": "archive",
+      "bytes": 433600,
+      "sha256": "1406524b54cfdbbfe0405d4a9cf831cf80536272d1ec028d8b90d744402c601f",
+      "object": "sha256/14/1406524b54cfdbbfe0405d4a9cf831cf80536272d1ec028d8b90d744402c601f/scene-45.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/baseline/web/scene-46.webp",
+      "role": "archive",
+      "bytes": 431572,
+      "sha256": "be1793d76a03ea33f81f7ad6c266183d88ad9cb17ee7d5d4feeada3952fd9365",
+      "object": "sha256/be/be1793d76a03ea33f81f7ad6c266183d88ad9cb17ee7d5d4feeada3952fd9365/scene-46.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/baseline/web/scene-47.webp",
+      "role": "archive",
+      "bytes": 487526,
+      "sha256": "2f026b5d0bc7a7ff9f6cc060ab3e0cf5e51659b946cf3609e970de41f76851ff",
+      "object": "sha256/2f/2f026b5d0bc7a7ff9f6cc060ab3e0cf5e51659b946cf3609e970de41f76851ff/scene-47.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/baseline/web/scene-48.webp",
+      "role": "archive",
+      "bytes": 313996,
+      "sha256": "270bef636b34580d908bbfd2da31abdb409cb8d31f7ddea2be6b5db7d021be33",
+      "object": "sha256/27/270bef636b34580d908bbfd2da31abdb409cb8d31f7ddea2be6b5db7d021be33/scene-48.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/baseline/web/scene-48a.webp",
+      "role": "archive",
+      "bytes": 411070,
+      "sha256": "229b3742ae33b23f8c20bde3917a77b10fe5eac7d245dc2ff9173493f8151443",
+      "object": "sha256/22/229b3742ae33b23f8c20bde3917a77b10fe5eac7d245dc2ff9173493f8151443/scene-48a.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/baseline/web/scene-49.webp",
+      "role": "archive",
+      "bytes": 433730,
+      "sha256": "22d8dc7444da53f218697453b8ad31a7c176b001085441aee12b62252c9f9e35",
+      "object": "sha256/22/22d8dc7444da53f218697453b8ad31a7c176b001085441aee12b62252c9f9e35/scene-49.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/baseline/web/scene-52.webp",
+      "role": "archive",
+      "bytes": 448914,
+      "sha256": "36273acd6f5d5ab5bd1e24368711801a5b8b98d65275ec148e55b74145699e45",
+      "object": "sha256/36/36273acd6f5d5ab5bd1e24368711801a5b8b98d65275ec148e55b74145699e45/scene-52.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/baseline/web/scene-53.webp",
+      "role": "archive",
+      "bytes": 475774,
+      "sha256": "2f4e485bd0e0ab29ca8f8838e47f15efd0bfc84fee79dd71dded51b619f4c854",
+      "object": "sha256/2f/2f4e485bd0e0ab29ca8f8838e47f15efd0bfc84fee79dd71dded51b619f4c854/scene-53.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/baseline/web/scene-54.webp",
+      "role": "archive",
+      "bytes": 402866,
+      "sha256": "c30f67ab9eefb312bee6b7b910a413ecb3b883fd84c7864cb82ab7cfa97b090a",
+      "object": "sha256/c3/c30f67ab9eefb312bee6b7b910a413ecb3b883fd84c7864cb82ab7cfa97b090a/scene-54.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/baseline/web/scene-54a.webp",
+      "role": "archive",
+      "bytes": 402998,
+      "sha256": "995ae474e38cdb78503ba1b8b06980ba30873fe9ad6a795c0aa9314f3c0a5098",
+      "object": "sha256/99/995ae474e38cdb78503ba1b8b06980ba30873fe9ad6a795c0aa9314f3c0a5098/scene-54a.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/baseline/web/scene-55.webp",
+      "role": "archive",
+      "bytes": 412230,
+      "sha256": "1ed7c69c4158f3d3154946257ab3196e4b2ca5b25223d52ee0a17826ba22fb83",
+      "object": "sha256/1e/1ed7c69c4158f3d3154946257ab3196e4b2ca5b25223d52ee0a17826ba22fb83/scene-55.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/baseline/web/scene-55a.webp",
+      "role": "archive",
+      "bytes": 426196,
+      "sha256": "b890dc0f9e540d9b3dd5a2675a77275e5c6cd0c38def4c7829c5de3b4e0010b2",
+      "object": "sha256/b8/b890dc0f9e540d9b3dd5a2675a77275e5c6cd0c38def4c7829c5de3b4e0010b2/scene-55a.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/baseline/web/scene-55b.webp",
+      "role": "archive",
+      "bytes": 302024,
+      "sha256": "2c318d1be01da20ececfe37283c521ff49570e792291e589185f2d0de96368e0",
+      "object": "sha256/2c/2c318d1be01da20ececfe37283c521ff49570e792291e589185f2d0de96368e0/scene-55b.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/baseline/web/scene-55c.webp",
+      "role": "archive",
+      "bytes": 402364,
+      "sha256": "7fea19c7699bf9360fd4024d8f41d2fecd0c7ce01dc3fda2d0b1175c44136070",
+      "object": "sha256/7f/7fea19c7699bf9360fd4024d8f41d2fecd0c7ce01dc3fda2d0b1175c44136070/scene-55c.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/baseline/web/scene-57.webp",
+      "role": "archive",
+      "bytes": 423790,
+      "sha256": "cbc78b79f40cacb4a40ce66c146d455bb4a19072ca52d13f204552daea19128b",
+      "object": "sha256/cb/cbc78b79f40cacb4a40ce66c146d455bb4a19072ca52d13f204552daea19128b/scene-57.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/baseline/web/scene-58.webp",
+      "role": "archive",
+      "bytes": 292692,
+      "sha256": "57583460c010db42ad3dce249f222447504db83fa1f91274d395f14553ef6f74",
+      "object": "sha256/57/57583460c010db42ad3dce249f222447504db83fa1f91274d395f14553ef6f74/scene-58.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/baseline/web/scene-59.webp",
+      "role": "archive",
+      "bytes": 333770,
+      "sha256": "592555650cedeefbe159ebc1947a7d1fcf3a53ec064ebc0a5a669c14b943d5df",
+      "object": "sha256/59/592555650cedeefbe159ebc1947a7d1fcf3a53ec064ebc0a5a669c14b943d5df/scene-59.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/baseline/web/scene-60.webp",
+      "role": "archive",
+      "bytes": 319778,
+      "sha256": "e92c8cfda7c297c0c172e971328c98c920e6c0dbef1536b886f01a575a9fe465",
+      "object": "sha256/e9/e92c8cfda7c297c0c172e971328c98c920e6c0dbef1536b886f01a575a9fe465/scene-60.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/baseline/web/scene-61.webp",
+      "role": "archive",
+      "bytes": 383562,
+      "sha256": "d20b81ce414b1ab2c5c4e4705b1259d856928a1c70c356b443b57421b63060a0",
+      "object": "sha256/d2/d20b81ce414b1ab2c5c4e4705b1259d856928a1c70c356b443b57421b63060a0/scene-61.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/baseline/web/scene-62.webp",
+      "role": "archive",
+      "bytes": 386116,
+      "sha256": "6037974706fffe5c179d41fdd6519141e50a9511e3159e2b8a758a684ad281d8",
+      "object": "sha256/60/6037974706fffe5c179d41fdd6519141e50a9511e3159e2b8a758a684ad281d8/scene-62.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/baseline/web/scene-62a.webp",
+      "role": "archive",
+      "bytes": 277990,
+      "sha256": "8c73d68428cfe2a55bf188b535609cca50dfc39421a71e871327c8c318d981a6",
+      "object": "sha256/8c/8c73d68428cfe2a55bf188b535609cca50dfc39421a71e871327c8c318d981a6/scene-62a.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/baseline/web/scene-62c.webp",
+      "role": "archive",
+      "bytes": 434674,
+      "sha256": "8299ed6b1af749328c8bcbd933f2ec1dbf2b6db9fc18a0a0ec1765f7f7dac63b",
+      "object": "sha256/82/8299ed6b1af749328c8bcbd933f2ec1dbf2b6db9fc18a0a0ec1765f7f7dac63b/scene-62c.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/baseline/web/scene-63.webp",
+      "role": "archive",
+      "bytes": 336232,
+      "sha256": "51db3099328d779e809f3e0b908d6cab2a38f27f3c3c75153a73441b8bf8bfe2",
+      "object": "sha256/51/51db3099328d779e809f3e0b908d6cab2a38f27f3c3c75153a73441b8bf8bfe2/scene-63.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/baseline/web/scene-64.webp",
+      "role": "archive",
+      "bytes": 477638,
+      "sha256": "7c30e9aa595e3d205cad1e5fd6155d247a0f6389a420843671760a9bee8b6549",
+      "object": "sha256/7c/7c30e9aa595e3d205cad1e5fd6155d247a0f6389a420843671760a9bee8b6549/scene-64.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/baseline/web/scene-65.webp",
+      "role": "archive",
+      "bytes": 416864,
+      "sha256": "87559bd94fc21df2324055720fb5840e15d31f8e31d992a005a287e5fe598036",
+      "object": "sha256/87/87559bd94fc21df2324055720fb5840e15d31f8e31d992a005a287e5fe598036/scene-65.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/baseline/web/scene-66.webp",
+      "role": "archive",
+      "bytes": 330970,
+      "sha256": "8b2d950c015aabb8efdb76527a9f07221346f23f379f9a124b92e7cd0cdc41f2",
+      "object": "sha256/8b/8b2d950c015aabb8efdb76527a9f07221346f23f379f9a124b92e7cd0cdc41f2/scene-66.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/baseline/web/scene-67.webp",
+      "role": "archive",
+      "bytes": 415462,
+      "sha256": "f91ff8992414a534b1e9f3b2e5a96e220e6152f04a006d7a102e66f8449fe07f",
+      "object": "sha256/f9/f91ff8992414a534b1e9f3b2e5a96e220e6152f04a006d7a102e66f8449fe07f/scene-67.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/baseline/web/scene-68.webp",
+      "role": "archive",
+      "bytes": 366020,
+      "sha256": "f687ba52f813808e4f2f7e7aa541eb80aaaefea7aab2fe70c4507d437fdfbf14",
+      "object": "sha256/f6/f687ba52f813808e4f2f7e7aa541eb80aaaefea7aab2fe70c4507d437fdfbf14/scene-68.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/baseline/web/scene-69.webp",
+      "role": "archive",
+      "bytes": 532224,
+      "sha256": "874f5623acd949731f2032bb14f9f7d065c86ae9fe9406115079ef0c70657148",
+      "object": "sha256/87/874f5623acd949731f2032bb14f9f7d065c86ae9fe9406115079ef0c70657148/scene-69.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/baseline/web/scene-70.webp",
+      "role": "archive",
+      "bytes": 351448,
+      "sha256": "f4c1b62820e68f64a02c551d100cbe016d8e1b48a63746c6cd2d505316f2f525",
+      "object": "sha256/f4/f4c1b62820e68f64a02c551d100cbe016d8e1b48a63746c6cd2d505316f2f525/scene-70.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/baseline/web/scene-71.webp",
+      "role": "archive",
+      "bytes": 417088,
+      "sha256": "2bc1844ea3c2f32d46f642bed9557fca8ea605753e78979bcfefe6fa7247fab0",
+      "object": "sha256/2b/2bc1844ea3c2f32d46f642bed9557fca8ea605753e78979bcfefe6fa7247fab0/scene-71.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/baseline/web/scene-72.webp",
+      "role": "archive",
+      "bytes": 427520,
+      "sha256": "61a11cce9ea4c5656ecb0f74c11219d4f29e1b785a2794a35987613401f9eda2",
+      "object": "sha256/61/61a11cce9ea4c5656ecb0f74c11219d4f29e1b785a2794a35987613401f9eda2/scene-72.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/baseline/web/scene-72a.webp",
+      "role": "archive",
+      "bytes": 404660,
+      "sha256": "293e895feb9a73179078d509f71d630a68b03d1abe469aeaed8e83a898d9f2c8",
+      "object": "sha256/29/293e895feb9a73179078d509f71d630a68b03d1abe469aeaed8e83a898d9f2c8/scene-72a.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/baseline/web/scene-73.webp",
+      "role": "archive",
+      "bytes": 422726,
+      "sha256": "fbec6284bba7704276e7294f49518c37a1dc210ce35597f9a315a3218f8f1fe9",
+      "object": "sha256/fb/fbec6284bba7704276e7294f49518c37a1dc210ce35597f9a315a3218f8f1fe9/scene-73.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/baseline/web/scene-73a.webp",
+      "role": "archive",
+      "bytes": 378986,
+      "sha256": "a6c8e6c33c93e5804191299e0842118e2727ccd76269acebda9e7df5d61bfe15",
+      "object": "sha256/a6/a6c8e6c33c93e5804191299e0842118e2727ccd76269acebda9e7df5d61bfe15/scene-73a.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/baseline/web/scene-73b.webp",
+      "role": "archive",
+      "bytes": 406044,
+      "sha256": "05f761807d27b97b1413000cd9cd0fe961d1970b7ffd112e606bdc0ba3b48ed5",
+      "object": "sha256/05/05f761807d27b97b1413000cd9cd0fe961d1970b7ffd112e606bdc0ba3b48ed5/scene-73b.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/baseline/web/scene-73c.webp",
+      "role": "archive",
+      "bytes": 389964,
+      "sha256": "2227bb7d2a97ce15574f4a57788b27bef59fde8c17d035a01770d75e0c38afb8",
+      "object": "sha256/22/2227bb7d2a97ce15574f4a57788b27bef59fde8c17d035a01770d75e0c38afb8/scene-73c.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/baseline/web/scene-73d.webp",
+      "role": "archive",
+      "bytes": 432254,
+      "sha256": "4f272a16dbc530285a0bc54cbad8cfa9bf08688d82e8da54fcd0d1df8333768f",
+      "object": "sha256/4f/4f272a16dbc530285a0bc54cbad8cfa9bf08688d82e8da54fcd0d1df8333768f/scene-73d.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/baseline/web/scene-74.webp",
+      "role": "archive",
+      "bytes": 407810,
+      "sha256": "cc84b2c21549ea201ab9860c812dbb82aea9b12216964370e166ec4d0e595bc0",
+      "object": "sha256/cc/cc84b2c21549ea201ab9860c812dbb82aea9b12216964370e166ec4d0e595bc0/scene-74.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/baseline/web/scene-75.webp",
+      "role": "archive",
+      "bytes": 406696,
+      "sha256": "d805ae9382d41439f50a042bf019ccb15abe618d2c4570ac30fa8fd9aff61874",
+      "object": "sha256/d8/d805ae9382d41439f50a042bf019ccb15abe618d2c4570ac30fa8fd9aff61874/scene-75.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/baseline/web/scene-76.webp",
+      "role": "archive",
+      "bytes": 391516,
+      "sha256": "e674273d10c1d4dae0831cb2529b973c220acc5682e9dccb01fbbf59bdf68ae8",
+      "object": "sha256/e6/e674273d10c1d4dae0831cb2529b973c220acc5682e9dccb01fbbf59bdf68ae8/scene-76.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/baseline/web/scene-77.webp",
+      "role": "archive",
+      "bytes": 520256,
+      "sha256": "3a3534680fabe9739fdc2b41e2eebcc1db06738fa858bb97d6761bc730a99f12",
+      "object": "sha256/3a/3a3534680fabe9739fdc2b41e2eebcc1db06738fa858bb97d6761bc730a99f12/scene-77.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/baseline/web/scene-78.webp",
+      "role": "archive",
+      "bytes": 527038,
+      "sha256": "181d206151ea7c2d233610d8e1533950c22975f1434c3de103ab981cbb9441a4",
+      "object": "sha256/18/181d206151ea7c2d233610d8e1533950c22975f1434c3de103ab981cbb9441a4/scene-78.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/baseline/web/scene-79.webp",
+      "role": "archive",
+      "bytes": 535806,
+      "sha256": "99c7d5020299282c4520e3d5bee194a7797d74e66513d4dab513a9da0fd168b9",
+      "object": "sha256/99/99c7d5020299282c4520e3d5bee194a7797d74e66513d4dab513a9da0fd168b9/scene-79.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/baseline/web/scene-79a.webp",
+      "role": "archive",
+      "bytes": 387120,
+      "sha256": "26d350a0520fe85279e8e8d60b8613293dbc0acb1480429a4a0d570e92ee94c6",
+      "object": "sha256/26/26d350a0520fe85279e8e8d60b8613293dbc0acb1480429a4a0d570e92ee94c6/scene-79a.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/baseline/web/scene-80.webp",
+      "role": "archive",
+      "bytes": 436124,
+      "sha256": "96cd7ced511189452aa7ad7841941ed2741db7610c13d002ac0e1fc0df4158ea",
+      "object": "sha256/96/96cd7ced511189452aa7ad7841941ed2741db7610c13d002ac0e1fc0df4158ea/scene-80.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/baseline/web/scene-81.webp",
+      "role": "archive",
+      "bytes": 409562,
+      "sha256": "98617afe440da74b1eafd3dd7737fc2cb8103640edca528b8cb9ffdc4678a3fd",
+      "object": "sha256/98/98617afe440da74b1eafd3dd7737fc2cb8103640edca528b8cb9ffdc4678a3fd/scene-81.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/baseline/web/scene-83.webp",
+      "role": "archive",
+      "bytes": 458468,
+      "sha256": "350a551417895de4fcf217a6b763fdf4018975fd7a89e1a59a78f241bfa83a0c",
+      "object": "sha256/35/350a551417895de4fcf217a6b763fdf4018975fd7a89e1a59a78f241bfa83a0c/scene-83.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/baseline/web/scene-84.webp",
+      "role": "archive",
+      "bytes": 371624,
+      "sha256": "55d857e424796d4bfdda6c68e398172806da8ca1fec46497767b01efd4582b5a",
+      "object": "sha256/55/55d857e424796d4bfdda6c68e398172806da8ca1fec46497767b01efd4582b5a/scene-84.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/baseline/web/scene-85.webp",
+      "role": "archive",
+      "bytes": 450588,
+      "sha256": "8f0fe04a3218457adc0d37e2f0d43244b7f15b60af9cbd3c4e3d4a8fab0f3813",
+      "object": "sha256/8f/8f0fe04a3218457adc0d37e2f0d43244b7f15b60af9cbd3c4e3d4a8fab0f3813/scene-85.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/baseline/web/scene-86.webp",
+      "role": "archive",
+      "bytes": 535158,
+      "sha256": "6f3012d9b232094c71f4bdde8d997579e2c77075c6bc981a4bd3c5cabd6bad82",
+      "object": "sha256/6f/6f3012d9b232094c71f4bdde8d997579e2c77075c6bc981a4bd3c5cabd6bad82/scene-86.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/baseline/web/scene-87.webp",
+      "role": "archive",
+      "bytes": 398346,
+      "sha256": "a32c2ffc8660daf2d2f2fa96b48d37aaeed84e80f1a88e35398796b15ecc0fa0",
+      "object": "sha256/a3/a32c2ffc8660daf2d2f2fa96b48d37aaeed84e80f1a88e35398796b15ecc0fa0/scene-87.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/boards/build-inputs/v1/build-storyboard.py",
+      "role": "archive",
+      "bytes": 10796,
+      "sha256": "d9d408820d053a02acac4399439694009a53f9048a70db985068b545229d6b4b",
+      "object": "sha256/d9/d9d408820d053a02acac4399439694009a53f9048a70db985068b545229d6b4b/build-storyboard.py"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/boards/build-inputs/v1/media.json",
+      "role": "archive",
+      "bytes": 66797,
+      "sha256": "c409959992ebf0f6882b4749fe9e55749da7429cf9470a18c086fa970fb82f43",
+      "object": "sha256/c4/c409959992ebf0f6882b4749fe9e55749da7429cf9470a18c086fa970fb82f43/media.json"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/boards/build-inputs/v1/story-plan.json",
+      "role": "archive",
+      "bytes": 229354,
+      "sha256": "f7fecae0194803045ef5b0190001cdf157b8c9655adae8b7b52c5ea5e27581df",
+      "object": "sha256/f7/f7fecae0194803045ef5b0190001cdf157b8c9655adae8b7b52c5ea5e27581df/story-plan.json"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/boards/build-inputs/v1/storyboard-layout.json",
+      "role": "archive",
+      "bytes": 10226,
+      "sha256": "ac7d8bb542fcdfd6df4833f6d53f41504836ed0ca0816db163b70b57237fb885",
+      "object": "sha256/ac/ac7d8bb542fcdfd6df4833f6d53f41504836ed0ca0816db163b70b57237fb885/storyboard-layout.json"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/boards/manifest.json",
+      "role": "archive",
+      "bytes": 224136,
+      "sha256": "99e48dcd58ed90c9ad289379e7de1296a9665dbc299f69f97d93b6a8bd9298db",
+      "object": "sha256/99/99e48dcd58ed90c9ad289379e7de1296a9665dbc299f69f97d93b6a8bd9298db/manifest.json"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/boards/masters/storyboard-01-en-v1.png",
+      "role": "archive",
+      "bytes": 24607875,
+      "sha256": "fbb6fcdfa9b725fcba97206946c347e718bca2a3073b7e199b3d62b47ddedf0f",
+      "object": "sha256/fb/fbb6fcdfa9b725fcba97206946c347e718bca2a3073b7e199b3d62b47ddedf0f/storyboard-01-en-v1.png"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/boards/masters/storyboard-01-ru-v1.png",
+      "role": "archive",
+      "bytes": 24622908,
+      "sha256": "5058bfd5b18f314d90c66d6a1915861d17e5a4894de2d81b158e6ea9fbd7b3a8",
+      "object": "sha256/50/5058bfd5b18f314d90c66d6a1915861d17e5a4894de2d81b158e6ea9fbd7b3a8/storyboard-01-ru-v1.png"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/boards/masters/storyboard-02-en-v1.png",
+      "role": "archive",
+      "bytes": 22220801,
+      "sha256": "96f6c84bda7f9672bd5b4fab13bf297140448a7b64bc90825cd0b2ce8e3a0e4c",
+      "object": "sha256/96/96f6c84bda7f9672bd5b4fab13bf297140448a7b64bc90825cd0b2ce8e3a0e4c/storyboard-02-en-v1.png"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/boards/masters/storyboard-02-ru-v1.png",
+      "role": "archive",
+      "bytes": 22237864,
+      "sha256": "ce4f2d5247adcc016f9b99f262ccf8ae816f163d687ba7e777facab08e3bf93d",
+      "object": "sha256/ce/ce4f2d5247adcc016f9b99f262ccf8ae816f163d687ba7e777facab08e3bf93d/storyboard-02-ru-v1.png"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/boards/masters/storyboard-03-en-v1.png",
+      "role": "archive",
+      "bytes": 24607696,
+      "sha256": "da6b34d652b52dfcdfc57deeedcde98be7806ef67ab5ac9c3bbc5c69089e66de",
+      "object": "sha256/da/da6b34d652b52dfcdfc57deeedcde98be7806ef67ab5ac9c3bbc5c69089e66de/storyboard-03-en-v1.png"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/boards/masters/storyboard-03-ru-v1.png",
+      "role": "archive",
+      "bytes": 24643534,
+      "sha256": "4194cb1521d0323d4921e260900664e12c682467a217b61a27212ae0c499a00f",
+      "object": "sha256/41/4194cb1521d0323d4921e260900664e12c682467a217b61a27212ae0c499a00f/storyboard-03-ru-v1.png"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/boards/masters/storyboard-04-en-v1.png",
+      "role": "archive",
+      "bytes": 21845703,
+      "sha256": "4c82b8a2f474781f34f161c50ea92a1633c633c66a20d29bdfbc38de3517d2eb",
+      "object": "sha256/4c/4c82b8a2f474781f34f161c50ea92a1633c633c66a20d29bdfbc38de3517d2eb/storyboard-04-en-v1.png"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/boards/masters/storyboard-04-ru-v1.png",
+      "role": "archive",
+      "bytes": 21871343,
+      "sha256": "5b47e35c5396f89a0a6d19b532b1384351d5108b0d92955d96a0e60c1da9b5fc",
+      "object": "sha256/5b/5b47e35c5396f89a0a6d19b532b1384351d5108b0d92955d96a0e60c1da9b5fc/storyboard-04-ru-v1.png"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/boards/masters/storyboard-05-en-v1.png",
+      "role": "archive",
+      "bytes": 20796156,
+      "sha256": "6aa26dd44ea121dd32e76fe926b1a1ea865b69922741b536d961796372d42dee",
+      "object": "sha256/6a/6aa26dd44ea121dd32e76fe926b1a1ea865b69922741b536d961796372d42dee/storyboard-05-en-v1.png"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/boards/masters/storyboard-05-ru-v1.png",
+      "role": "archive",
+      "bytes": 20816172,
+      "sha256": "8c44f6393654548360e76289ac69425b6f3c85daf87e38c52ecba0a343265f5c",
+      "object": "sha256/8c/8c44f6393654548360e76289ac69425b6f3c85daf87e38c52ecba0a343265f5c/storyboard-05-ru-v1.png"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/boards/storyboard-01-en.webp",
+      "role": "archive",
+      "bytes": 4233358,
+      "sha256": "924e265b9283b03ac7b8be90afa98c376fc281d89a5a47255eff89ba636383d9",
+      "object": "sha256/92/924e265b9283b03ac7b8be90afa98c376fc281d89a5a47255eff89ba636383d9/storyboard-01-en.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/boards/storyboard-01-ru.webp",
+      "role": "archive",
+      "bytes": 4238888,
+      "sha256": "25ed94c73c6b5b5382522dd99bc21c51ee8b3b6bee385b19b4fd62db6ff65c20",
+      "object": "sha256/25/25ed94c73c6b5b5382522dd99bc21c51ee8b3b6bee385b19b4fd62db6ff65c20/storyboard-01-ru.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/boards/storyboard-02-en.webp",
+      "role": "archive",
+      "bytes": 3407036,
+      "sha256": "1322a12b19092762a8091f059edc7d99b6c7da8ae95fe97f8d6041cc4930e899",
+      "object": "sha256/13/1322a12b19092762a8091f059edc7d99b6c7da8ae95fe97f8d6041cc4930e899/storyboard-02-en.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/boards/storyboard-02-ru.webp",
+      "role": "archive",
+      "bytes": 3424992,
+      "sha256": "8d5a327ef3782e165d7561669c04ac385cbe97c4f83b921640749a9b431ca46c",
+      "object": "sha256/8d/8d5a327ef3782e165d7561669c04ac385cbe97c4f83b921640749a9b431ca46c/storyboard-02-ru.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/boards/storyboard-03-en.webp",
+      "role": "archive",
+      "bytes": 4286558,
+      "sha256": "b960b5d03200bbdd550371eb7bdcf504ae0d86b0f131a1cc60f7f47842dca069",
+      "object": "sha256/b9/b960b5d03200bbdd550371eb7bdcf504ae0d86b0f131a1cc60f7f47842dca069/storyboard-03-en.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/boards/storyboard-03-ru.webp",
+      "role": "archive",
+      "bytes": 4294520,
+      "sha256": "5ac804553084c93a6f0655b9665f9d2bd0d24cde5a67d3891db0773fbe93a8b4",
+      "object": "sha256/5a/5ac804553084c93a6f0655b9665f9d2bd0d24cde5a67d3891db0773fbe93a8b4/storyboard-03-ru.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/boards/storyboard-04-en.webp",
+      "role": "archive",
+      "bytes": 3199896,
+      "sha256": "dc7d65b582153357428421b676deec76b0a27221e4f52f1a24a0b77737cdeeb7",
+      "object": "sha256/dc/dc7d65b582153357428421b676deec76b0a27221e4f52f1a24a0b77737cdeeb7/storyboard-04-en.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/boards/storyboard-04-ru.webp",
+      "role": "archive",
+      "bytes": 3206386,
+      "sha256": "4d504b6613880229006634f97df3dad2b40ee10507a08102efff6b1eae717b41",
+      "object": "sha256/4d/4d504b6613880229006634f97df3dad2b40ee10507a08102efff6b1eae717b41/storyboard-04-ru.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/boards/storyboard-05-en.webp",
+      "role": "archive",
+      "bytes": 3265654,
+      "sha256": "0f428017e37d8e351d615299694a97fad3c7688814e1a934ea4a09e48c5b5823",
+      "object": "sha256/0f/0f428017e37d8e351d615299694a97fad3c7688814e1a934ea4a09e48c5b5823/storyboard-05-en.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/boards/storyboard-05-ru.webp",
+      "role": "archive",
+      "bytes": 3284876,
+      "sha256": "8e681d167f1dc5249ba40f3840fc2df03b9d602b2f1d7f118cb7a395d3586c75",
+      "object": "sha256/8e/8e681d167f1dc5249ba40f3840fc2df03b9d602b2f1d7f118cb7a395d3586c75/storyboard-05-ru.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/build-storyboard.py",
+      "role": "archive",
+      "bytes": 10796,
+      "sha256": "d9d408820d053a02acac4399439694009a53f9048a70db985068b545229d6b4b",
+      "object": "sha256/d9/d9d408820d053a02acac4399439694009a53f9048a70db985068b545229d6b4b/build-storyboard.py"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/build-walk-board.py",
+      "role": "archive",
+      "bytes": 1534,
+      "sha256": "ef31906e2f9da30f3d9dcffcde2764e99cd2b437b6347ad11aecd4a4858297d3",
+      "object": "sha256/ef/ef31906e2f9da30f3d9dcffcde2764e99cd2b437b6347ad11aecd4a4858297d3/build-walk-board.py"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/feedback-map.json",
+      "role": "archive",
+      "bytes": 171,
+      "sha256": "d7a983929e5bd78aabd0ca25aac9a36d0515200d7efd91d4d96283a689e31be4",
+      "object": "sha256/d7/d7a983929e5bd78aabd0ca25aac9a36d0515200d7efd91d4d96283a689e31be4/feedback-map.json"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/integration/REPORT.txt",
+      "role": "archive",
+      "bytes": 1568,
+      "sha256": "efe82f2bdd0850c665457131e7a2a1e058443364974a065ba651740e2dc38068",
+      "object": "sha256/ef/efe82f2bdd0850c665457131e7a2a1e058443364974a065ba651740e2dc38068/REPORT.txt"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/integration/opening-baseline.json",
+      "role": "archive",
+      "bytes": 8127,
+      "sha256": "9b820e9100770fcca708d2a8e312b01a278fda625a561910011a6c8759c7727b",
+      "object": "sha256/9b/9b820e9100770fcca708d2a8e312b01a278fda625a561910011a6c8759c7727b/opening-baseline.json"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/media.json",
+      "role": "archive",
+      "bytes": 67007,
+      "sha256": "31832f8fbd38a811efeb6a2298373183676caa6447387febaca64d8b2d9802e7",
+      "object": "sha256/31/31832f8fbd38a811efeb6a2298373183676caa6447387febaca64d8b2d9802e7/media.json"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/plan/caption-changes.json",
+      "role": "archive",
+      "bytes": 5506,
+      "sha256": "6117f3e2d8d196a8d1bd14fe18eb58a69a73f7852fe1a8c03e4514c5411e9b74",
+      "object": "sha256/61/6117f3e2d8d196a8d1bd14fe18eb58a69a73f7852fe1a8c03e4514c5411e9b74/caption-changes.json"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/plan/rejected-candidates.json",
+      "role": "archive",
+      "bytes": 300,
+      "sha256": "e7a4d723078cec02192b313f44ffad0ef8f93a3965ab0a73dd8f3cbe6216ee94",
+      "object": "sha256/e7/e7a4d723078cec02192b313f44ffad0ef8f93a3965ab0a73dd8f3cbe6216ee94/rejected-candidates.json"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/plan/return-home-inserts.json",
+      "role": "archive",
+      "bytes": 6670,
+      "sha256": "155678ab914836c0b11dc00a5387a0bd5e637bca04cbb62f99a7a4123c340001",
+      "object": "sha256/15/155678ab914836c0b11dc00a5387a0bd5e637bca04cbb62f99a7a4123c340001/return-home-inserts.json"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/plan/story-plan.json",
+      "role": "archive",
+      "bytes": 227316,
+      "sha256": "c414224d1e0f76b2da8f430cc623a76e4bdd773dae428774990847bb6239be72",
+      "object": "sha256/c4/c414224d1e0f76b2da8f430cc623a76e4bdd773dae428774990847bb6239be72/story-plan.json"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/prepare-archive.py",
+      "role": "archive",
+      "bytes": 1583,
+      "sha256": "4b56c7a58710e9759a8e77a7be77be5963ff153bd9bdc2e9c48e5ea95321737f",
+      "object": "sha256/4b/4b56c7a58710e9759a8e77a7be77be5963ff153bd9bdc2e9c48e5ea95321737f/prepare-archive.py"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/reader/REPORT.txt",
+      "role": "archive",
+      "bytes": 1568,
+      "sha256": "efe82f2bdd0850c665457131e7a2a1e058443364974a065ba651740e2dc38068",
+      "object": "sha256/ef/efe82f2bdd0850c665457131e7a2a1e058443364974a065ba651740e2dc38068/REPORT.txt"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/reader/assemble.py",
+      "role": "archive",
+      "bytes": 4570,
+      "sha256": "76cb04c02f4bea71e4cb626b4820c6a3e692f3c2a4e9945b16a828a502db8eb3",
+      "object": "sha256/76/76cb04c02f4bea71e4cb626b4820c6a3e692f3c2a4e9945b16a828a502db8eb3/assemble.py"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/reader/bath-magic-r19.css",
+      "role": "archive",
+      "bytes": 9613,
+      "sha256": "db64c2d833eebd2881e8bd5a103b17fa6d6680176257fa22ce03e3821789f804",
+      "object": "sha256/db/db64c2d833eebd2881e8bd5a103b17fa6d6680176257fa22ce03e3821789f804/bath-magic-r19.css"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/reader/bath-magic-r19.html",
+      "role": "archive",
+      "bytes": 2154,
+      "sha256": "503fb8309394593752203996859cf1260feafbd48ad70dc646da0baddf523228",
+      "object": "sha256/50/503fb8309394593752203996859cf1260feafbd48ad70dc646da0baddf523228/bath-magic-r19.html"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/reader/bath-magic-r19.js",
+      "role": "archive",
+      "bytes": 17321,
+      "sha256": "154f3584bd8e7617fb7b6153b76b3eccdabed10490675012baa80cf4c852238b",
+      "object": "sha256/15/154f3584bd8e7617fb7b6153b76b3eccdabed10490675012baa80cf4c852238b/bath-magic-r19.js"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/reader/boards-1440.png",
+      "role": "archive",
+      "bytes": 920340,
+      "sha256": "41a8f2e80d17b08d0e6d38d47af0b996f794fd426328c55231d089c7dab72810",
+      "object": "sha256/41/41a8f2e80d17b08d0e6d38d47af0b996f794fd426328c55231d089c7dab72810/boards-1440.png"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/reader/boards-390.png",
+      "role": "archive",
+      "bytes": 285041,
+      "sha256": "763c4d0552be0ab855e38c384b19d5f84e4b6bdd8d94e160d93e2c55559c4f21",
+      "object": "sha256/76/763c4d0552be0ab855e38c384b19d5f84e4b6bdd8d94e160d93e2c55559c4f21/boards-390.png"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/reader/boards-proof.json",
+      "role": "archive",
+      "bytes": 323,
+      "sha256": "ad799f4a6fb73ae6579cd120489f1d9f0ac45eac553a1a50cd2a792c78cada3e",
+      "object": "sha256/ad/ad799f4a6fb73ae6579cd120489f1d9f0ac45eac553a1a50cd2a792c78cada3e/boards-proof.json"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/reader/check-boards.cjs",
+      "role": "archive",
+      "bytes": 2737,
+      "sha256": "25ad751a3fdc37707a553288015b3da407d42da610e9a4b1816d5134f03bc141",
+      "object": "sha256/25/25ad751a3fdc37707a553288015b3da407d42da610e9a4b1816d5134f03bc141/check-boards.cjs"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/reader/check-reader.cjs",
+      "role": "archive",
+      "bytes": 4618,
+      "sha256": "e520118a36c45b559173747ba10743eaef353bfd41390beb55c31df05b664533",
+      "object": "sha256/e5/e520118a36c45b559173747ba10743eaef353bfd41390beb55c31df05b664533/check-reader.cjs"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/reader/preview-changes-1440.png",
+      "role": "archive",
+      "bytes": 449898,
+      "sha256": "d4cfe59c464f9fba3f52308445261a68fef703583e109e632054817c89c35fcb",
+      "object": "sha256/d4/d4cfe59c464f9fba3f52308445261a68fef703583e109e632054817c89c35fcb/preview-changes-1440.png"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/reader/preview-changes-390.png",
+      "role": "archive",
+      "bytes": 161828,
+      "sha256": "93aa7f96ea5ed534a094671c17acafc2d14b7cb89d65637ee9fd18e20650414d",
+      "object": "sha256/93/93aa7f96ea5ed534a094671c17acafc2d14b7cb89d65637ee9fd18e20650414d/preview-changes-390.png"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/reader/preview-proof.json",
+      "role": "archive",
+      "bytes": 49607,
+      "sha256": "d51a23c46c4e3dfad5922932fdc3c906e4cc098419758d93fdc9336bafdb9082",
+      "object": "sha256/d5/d51a23c46c4e3dfad5922932fdc3c906e4cc098419758d93fdc9336bafdb9082/preview-proof.json"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/reader/preview-reader-1440.png",
+      "role": "archive",
+      "bytes": 571442,
+      "sha256": "2e6bb2d68a8b1b2510bee3ef3afd9f394974880d71e54218c47a4474dc5e8837",
+      "object": "sha256/2e/2e6bb2d68a8b1b2510bee3ef3afd9f394974880d71e54218c47a4474dc5e8837/preview-reader-1440.png"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/reader/preview-reader-390.png",
+      "role": "archive",
+      "bytes": 352905,
+      "sha256": "e2e403e4de6785692f80c7d9601d879d6700c1c2c45596ccd2c8d1e17e9896fe",
+      "object": "sha256/e2/e2e403e4de6785692f80c7d9601d879d6700c1c2c45596ccd2c8d1e17e9896fe/preview-reader-390.png"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/reader/selection-qa.json",
+      "role": "archive",
+      "bytes": 198,
+      "sha256": "3b2de6d0c7f4edba1716b1a6615a35d68ac203034c8e52e545967a3caaea373e",
+      "object": "sha256/3b/3b2de6d0c7f4edba1716b1a6615a35d68ac203034c8e52e545967a3caaea373e/selection-qa.json"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/retained/scene-01.webp",
+      "role": "archive",
+      "bytes": 421068,
+      "sha256": "38c63615c8a5208a2ec6a34ba4b90e844ccfdafd17ac916a8ed2ec8449b90c19",
+      "object": "sha256/38/38c63615c8a5208a2ec6a34ba4b90e844ccfdafd17ac916a8ed2ec8449b90c19/scene-01.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/retained/scene-02.webp",
+      "role": "archive",
+      "bytes": 412906,
+      "sha256": "7bb7bfae1e01595cda5cc4d9dfc24056f349302929d8b4a5487b2f8eb6643377",
+      "object": "sha256/7b/7bb7bfae1e01595cda5cc4d9dfc24056f349302929d8b4a5487b2f8eb6643377/scene-02.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/retained/scene-03.webp",
+      "role": "archive",
+      "bytes": 315034,
+      "sha256": "de83ba34ddba2916733e7242fbd0ec959d515a29c440e549f783a6384fc499ea",
+      "object": "sha256/de/de83ba34ddba2916733e7242fbd0ec959d515a29c440e549f783a6384fc499ea/scene-03.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/retained/scene-03a.webp",
+      "role": "archive",
+      "bytes": 447448,
+      "sha256": "037b2eb4099769a1e917edb32f2fca62c3f19bff0ecb6fb89cfe28cf69aa4d4f",
+      "object": "sha256/03/037b2eb4099769a1e917edb32f2fca62c3f19bff0ecb6fb89cfe28cf69aa4d4f/scene-03a.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/retained/scene-03b.webp",
+      "role": "archive",
+      "bytes": 379006,
+      "sha256": "1a5ab8a5a59c95ffe6b16a5b57aaa160edf906a6cdf62755bd2506071ae18443",
+      "object": "sha256/1a/1a5ab8a5a59c95ffe6b16a5b57aaa160edf906a6cdf62755bd2506071ae18443/scene-03b.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/retained/scene-03c.webp",
+      "role": "archive",
+      "bytes": 361694,
+      "sha256": "1e7f04fae9bc7e758688a1ea384f2d093df0651f9007b860adb22e5bcd4d3c88",
+      "object": "sha256/1e/1e7f04fae9bc7e758688a1ea384f2d093df0651f9007b860adb22e5bcd4d3c88/scene-03c.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/retained/scene-03d.webp",
+      "role": "archive",
+      "bytes": 463050,
+      "sha256": "adbcf0f50204b5fd7ae1034eadfac2cffbd096965262de243bd2915ef123a0e1",
+      "object": "sha256/ad/adbcf0f50204b5fd7ae1034eadfac2cffbd096965262de243bd2915ef123a0e1/scene-03d.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/retained/scene-03e.webp",
+      "role": "archive",
+      "bytes": 453402,
+      "sha256": "818431353af5941716698fc80885208c8ed033f1b9dfb61bbbb4d97da4e75ba6",
+      "object": "sha256/81/818431353af5941716698fc80885208c8ed033f1b9dfb61bbbb4d97da4e75ba6/scene-03e.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/retained/scene-03f.webp",
+      "role": "archive",
+      "bytes": 398902,
+      "sha256": "fd5e1426986bdf9324497ca8ff178d3a80e063ea5dfeb0673d29ccba0a7587fd",
+      "object": "sha256/fd/fd5e1426986bdf9324497ca8ff178d3a80e063ea5dfeb0673d29ccba0a7587fd/scene-03f.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/retained/scene-03g.webp",
+      "role": "archive",
+      "bytes": 495810,
+      "sha256": "29d71ab01bce26977821f692ed578d7ef74fc148df6e64cdbeafd14fc5133be4",
+      "object": "sha256/29/29d71ab01bce26977821f692ed578d7ef74fc148df6e64cdbeafd14fc5133be4/scene-03g.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/retained/scene-03h.webp",
+      "role": "archive",
+      "bytes": 519668,
+      "sha256": "e394bec3bf4a7cbae83714906c5d8d286886cea3751eec6cfd572449b201d54e",
+      "object": "sha256/e3/e394bec3bf4a7cbae83714906c5d8d286886cea3751eec6cfd572449b201d54e/scene-03h.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/retained/scene-03i.webp",
+      "role": "archive",
+      "bytes": 483416,
+      "sha256": "d4196a146376951d4b9555290458cbb7df30567185c99877014f34ac17198d41",
+      "object": "sha256/d4/d4196a146376951d4b9555290458cbb7df30567185c99877014f34ac17198d41/scene-03i.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/retained/scene-03j.webp",
+      "role": "archive",
+      "bytes": 436916,
+      "sha256": "784f47af0361902fbc8cc83d4880229dd3fd12c1c5f5a4364d94c8496da2ebfc",
+      "object": "sha256/78/784f47af0361902fbc8cc83d4880229dd3fd12c1c5f5a4364d94c8496da2ebfc/scene-03j.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/retained/scene-03k.webp",
+      "role": "archive",
+      "bytes": 419846,
+      "sha256": "5e73e13aa43d426114906917a5051601423ce0bd6104cac05d1ca8d57ded1bf0",
+      "object": "sha256/5e/5e73e13aa43d426114906917a5051601423ce0bd6104cac05d1ca8d57ded1bf0/scene-03k.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/retained/scene-03l.webp",
+      "role": "archive",
+      "bytes": 346812,
+      "sha256": "b40ac36e16a2f183f826d340f8be4c2ad85c30fa0a3e660c0dd0958cdb5da81b",
+      "object": "sha256/b4/b40ac36e16a2f183f826d340f8be4c2ad85c30fa0a3e660c0dd0958cdb5da81b/scene-03l.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/retained/scene-03m.webp",
+      "role": "archive",
+      "bytes": 429426,
+      "sha256": "4bda9eb877f8a753d8d924154cb76dcba2ba942e1aa397cad6a91395b046e57f",
+      "object": "sha256/4b/4bda9eb877f8a753d8d924154cb76dcba2ba942e1aa397cad6a91395b046e57f/scene-03m.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/retained/scene-04.webp",
+      "role": "archive",
+      "bytes": 349284,
+      "sha256": "008320443ae91e15120e61a4f094e93c4eac53a884ecdbd5f9ef3b735e5a49eb",
+      "object": "sha256/00/008320443ae91e15120e61a4f094e93c4eac53a884ecdbd5f9ef3b735e5a49eb/scene-04.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/retained/scene-04a.webp",
+      "role": "archive",
+      "bytes": 502252,
+      "sha256": "76eb7f11e4777aad672f1f88e0c4d0d0913b1c96fee2569a37bc7b0fac00b04b",
+      "object": "sha256/76/76eb7f11e4777aad672f1f88e0c4d0d0913b1c96fee2569a37bc7b0fac00b04b/scene-04a.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/retained/scene-04a1.webp",
+      "role": "archive",
+      "bytes": 496790,
+      "sha256": "2265919ee66ea1ded0a94e8ada203b374d2c212f8a9dc562a279b9122ed29a3e",
+      "object": "sha256/22/2265919ee66ea1ded0a94e8ada203b374d2c212f8a9dc562a279b9122ed29a3e/scene-04a1.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/retained/scene-04a2.webp",
+      "role": "archive",
+      "bytes": 665262,
+      "sha256": "55fe669d63e5016ceef76fb690adabc564004170258dc9e190e116c18d6bb64c",
+      "object": "sha256/55/55fe669d63e5016ceef76fb690adabc564004170258dc9e190e116c18d6bb64c/scene-04a2.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/retained/scene-04b.webp",
+      "role": "archive",
+      "bytes": 507346,
+      "sha256": "e987d4ff6856f59b065c05cff7dd9345f5fed19417f7d32a070e5ecdd1737dbd",
+      "object": "sha256/e9/e987d4ff6856f59b065c05cff7dd9345f5fed19417f7d32a070e5ecdd1737dbd/scene-04b.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/retained/scene-04c.webp",
+      "role": "archive",
+      "bytes": 505126,
+      "sha256": "5b5c0e2eef562551022ba3c3ea913b1a761db4facbc5e7ea4c4d4f9341e32653",
+      "object": "sha256/5b/5b5c0e2eef562551022ba3c3ea913b1a761db4facbc5e7ea4c4d4f9341e32653/scene-04c.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/retained/scene-04d.webp",
+      "role": "archive",
+      "bytes": 552840,
+      "sha256": "57a66759e8f289ff642042a6f507a9f4781174cf079e95ea013fb2cdc82a88c7",
+      "object": "sha256/57/57a66759e8f289ff642042a6f507a9f4781174cf079e95ea013fb2cdc82a88c7/scene-04d.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/retained/scene-05.webp",
+      "role": "archive",
+      "bytes": 603340,
+      "sha256": "e416157c9ca4032832df349cd5699f3924058476a00136484199015981926319",
+      "object": "sha256/e4/e416157c9ca4032832df349cd5699f3924058476a00136484199015981926319/scene-05.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/retained/scene-05a.webp",
+      "role": "archive",
+      "bytes": 437984,
+      "sha256": "d74d56c4cd5e4422f21c3454d2271cb11f7105c3b42a4679d5e82cd2e8b821a2",
+      "object": "sha256/d7/d74d56c4cd5e4422f21c3454d2271cb11f7105c3b42a4679d5e82cd2e8b821a2/scene-05a.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/retained/scene-05b.webp",
+      "role": "archive",
+      "bytes": 605494,
+      "sha256": "a86e6b63684679b92b1211b97b3cf41926613a3894dabaaef5c4a8d08c996c49",
+      "object": "sha256/a8/a86e6b63684679b92b1211b97b3cf41926613a3894dabaaef5c4a8d08c996c49/scene-05b.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/retained/scene-05c.webp",
+      "role": "archive",
+      "bytes": 584688,
+      "sha256": "2aa6fe2d58e1179b8b7c389cfe1722bc19f09a57940323d11e1c358b90b81ceb",
+      "object": "sha256/2a/2aa6fe2d58e1179b8b7c389cfe1722bc19f09a57940323d11e1c358b90b81ceb/scene-05c.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/retained/scene-05d.webp",
+      "role": "archive",
+      "bytes": 536110,
+      "sha256": "980acd8539291c82ef5ece6970211a31d99679422ff11829fc4f2768c0361cc7",
+      "object": "sha256/98/980acd8539291c82ef5ece6970211a31d99679422ff11829fc4f2768c0361cc7/scene-05d.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/retained/scene-05e.webp",
+      "role": "archive",
+      "bytes": 484928,
+      "sha256": "6bba7204c8dd77e89341b113a8774ef27977e41ce425efb17ed29e2981aaa44c",
+      "object": "sha256/6b/6bba7204c8dd77e89341b113a8774ef27977e41ce425efb17ed29e2981aaa44c/scene-05e.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/retained/scene-05f.webp",
+      "role": "archive",
+      "bytes": 564114,
+      "sha256": "603a07035283420b070c7099009df6d8fd985ca32b70511c72408bc229ffb1db",
+      "object": "sha256/60/603a07035283420b070c7099009df6d8fd985ca32b70511c72408bc229ffb1db/scene-05f.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/retained/scene-05f1.webp",
+      "role": "archive",
+      "bytes": 509654,
+      "sha256": "46dac3b911796465f77e98b23af05a8fb2cb40c3fbc4b43e022e3c2d8706e3c9",
+      "object": "sha256/46/46dac3b911796465f77e98b23af05a8fb2cb40c3fbc4b43e022e3c2d8706e3c9/scene-05f1.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/retained/scene-05f2.webp",
+      "role": "archive",
+      "bytes": 542182,
+      "sha256": "4e3617d9f310f994188df952dd2d43c7b860124e37bc216cd0dcfe544caaa019",
+      "object": "sha256/4e/4e3617d9f310f994188df952dd2d43c7b860124e37bc216cd0dcfe544caaa019/scene-05f2.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/retained/scene-05g.webp",
+      "role": "archive",
+      "bytes": 482918,
+      "sha256": "66131fe29408b8eb4acdd94745575e363838862b4f44d33f00fcb076a7854bd6",
+      "object": "sha256/66/66131fe29408b8eb4acdd94745575e363838862b4f44d33f00fcb076a7854bd6/scene-05g.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/retained/scene-05g1.webp",
+      "role": "archive",
+      "bytes": 442560,
+      "sha256": "59e38ca6bdfb3161b227be1763d62ecb25a2993c633365d447a09be85c1c6a60",
+      "object": "sha256/59/59e38ca6bdfb3161b227be1763d62ecb25a2993c633365d447a09be85c1c6a60/scene-05g1.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/retained/scene-05g2.webp",
+      "role": "archive",
+      "bytes": 394648,
+      "sha256": "409ef7cd1e355e198ea67fa344fdabcfb84e0640cb8f78c098700c08d5843a7c",
+      "object": "sha256/40/409ef7cd1e355e198ea67fa344fdabcfb84e0640cb8f78c098700c08d5843a7c/scene-05g2.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/retained/scene-05g3.webp",
+      "role": "archive",
+      "bytes": 426970,
+      "sha256": "abad08da381f69cefa8709b6e7730d2015060943bb428c45f676cdd98048783d",
+      "object": "sha256/ab/abad08da381f69cefa8709b6e7730d2015060943bb428c45f676cdd98048783d/scene-05g3.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/retained/scene-06.webp",
+      "role": "archive",
+      "bytes": 330756,
+      "sha256": "d3fd54c060a07fe301690abff4cfc4f6cd0dfdc22574dc270989b7c0380c3c49",
+      "object": "sha256/d3/d3fd54c060a07fe301690abff4cfc4f6cd0dfdc22574dc270989b7c0380c3c49/scene-06.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/retained/scene-07.webp",
+      "role": "archive",
+      "bytes": 293246,
+      "sha256": "b793dbc3dc4f47e311f844941d2ebfb6af31da3b6aafa8d9e39789d8a3891518",
+      "object": "sha256/b7/b793dbc3dc4f47e311f844941d2ebfb6af31da3b6aafa8d9e39789d8a3891518/scene-07.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/retained/scene-08.webp",
+      "role": "archive",
+      "bytes": 417752,
+      "sha256": "93997856d26c416df0ad26ce3c1284ab7427bc945f6a09e148cbbf5dbd41ca97",
+      "object": "sha256/93/93997856d26c416df0ad26ce3c1284ab7427bc945f6a09e148cbbf5dbd41ca97/scene-08.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/retained/scene-09.webp",
+      "role": "archive",
+      "bytes": 311934,
+      "sha256": "9e85548132c9b1fa4b542ba07c02997e32c1f0af9e1b5df69e3526f4228328f9",
+      "object": "sha256/9e/9e85548132c9b1fa4b542ba07c02997e32c1f0af9e1b5df69e3526f4228328f9/scene-09.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/retained/scene-10.webp",
+      "role": "archive",
+      "bytes": 346568,
+      "sha256": "dbcf9af5f65bcf406428a33bb865372b6e59ebb34151fdafe12e72264d1b6b16",
+      "object": "sha256/db/dbcf9af5f65bcf406428a33bb865372b6e59ebb34151fdafe12e72264d1b6b16/scene-10.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/retained/scene-11.webp",
+      "role": "archive",
+      "bytes": 412550,
+      "sha256": "fb1fbe460c7531d79b983bfb961c51bdcc953f85d1a1154e2e66b68e54a69473",
+      "object": "sha256/fb/fb1fbe460c7531d79b983bfb961c51bdcc953f85d1a1154e2e66b68e54a69473/scene-11.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/retained/scene-114.webp",
+      "role": "archive",
+      "bytes": 330416,
+      "sha256": "f727c82a67a6a45b7eb1a15b81369e6765a6f52e1d3ed34fe432771f6bfa6531",
+      "object": "sha256/f7/f727c82a67a6a45b7eb1a15b81369e6765a6f52e1d3ed34fe432771f6bfa6531/scene-114.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/retained/scene-115.webp",
+      "role": "archive",
+      "bytes": 433174,
+      "sha256": "0525754b52fbdaeb07e39790f8d5ba05d6f26bdb4972879b5c44adb12c06c02e",
+      "object": "sha256/05/0525754b52fbdaeb07e39790f8d5ba05d6f26bdb4972879b5c44adb12c06c02e/scene-115.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/retained/scene-116.webp",
+      "role": "archive",
+      "bytes": 354430,
+      "sha256": "d5119b159c2b0a989686956c7e5884072d86e066f0a009d921dd979ba4c65970",
+      "object": "sha256/d5/d5119b159c2b0a989686956c7e5884072d86e066f0a009d921dd979ba4c65970/scene-116.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/retained/scene-117.webp",
+      "role": "archive",
+      "bytes": 329462,
+      "sha256": "e6fdd05e24bc99b2151d865621515c59cae9a7607cf5b91b471febe012a64afb",
+      "object": "sha256/e6/e6fdd05e24bc99b2151d865621515c59cae9a7607cf5b91b471febe012a64afb/scene-117.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/retained/scene-118.webp",
+      "role": "archive",
+      "bytes": 433510,
+      "sha256": "ad26a034e1c728bc0774080370b5526cd682e877ea796604cd787c15504b1ab5",
+      "object": "sha256/ad/ad26a034e1c728bc0774080370b5526cd682e877ea796604cd787c15504b1ab5/scene-118.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/retained/scene-119.webp",
+      "role": "archive",
+      "bytes": 424846,
+      "sha256": "8a54b424cdd6fbc7d788c2491af386d06dd9c4dff73c7cf154ebc002a311136f",
+      "object": "sha256/8a/8a54b424cdd6fbc7d788c2491af386d06dd9c4dff73c7cf154ebc002a311136f/scene-119.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/retained/scene-12.webp",
+      "role": "archive",
+      "bytes": 392356,
+      "sha256": "af4f422aea4d6a74c304f85e85d1af4ff6a2adf5f6e9cb4d647b4f0e542fe5df",
+      "object": "sha256/af/af4f422aea4d6a74c304f85e85d1af4ff6a2adf5f6e9cb4d647b4f0e542fe5df/scene-12.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/retained/scene-120.webp",
+      "role": "archive",
+      "bytes": 327304,
+      "sha256": "6ab53810d6797d610e3a246c19c326ea18cf00d88d07ceef1addc1dc4c18fb43",
+      "object": "sha256/6a/6ab53810d6797d610e3a246c19c326ea18cf00d88d07ceef1addc1dc4c18fb43/scene-120.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/retained/scene-121.webp",
+      "role": "archive",
+      "bytes": 422186,
+      "sha256": "2ee96027221a32a7e82b603545981349bdcb4d2cc196a56d666a47a9788a20d8",
+      "object": "sha256/2e/2ee96027221a32a7e82b603545981349bdcb4d2cc196a56d666a47a9788a20d8/scene-121.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/retained/scene-122.webp",
+      "role": "archive",
+      "bytes": 438956,
+      "sha256": "b40ceace35152f02acfcc3aa1a9f2604902867dc7a3d4adcf1f18325fe8f4eb9",
+      "object": "sha256/b4/b40ceace35152f02acfcc3aa1a9f2604902867dc7a3d4adcf1f18325fe8f4eb9/scene-122.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/retained/scene-123.webp",
+      "role": "archive",
+      "bytes": 414216,
+      "sha256": "dbdbabe8f5282f4e4cc5b81565825a25ac2eed7f6715fcbff3bfcc3fb9f691f7",
+      "object": "sha256/db/dbdbabe8f5282f4e4cc5b81565825a25ac2eed7f6715fcbff3bfcc3fb9f691f7/scene-123.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/retained/scene-124.webp",
+      "role": "archive",
+      "bytes": 482694,
+      "sha256": "5357172bbacf2303ef185bbc3c432beaf4c118847c4f594c46bc981c452bc4aa",
+      "object": "sha256/53/5357172bbacf2303ef185bbc3c432beaf4c118847c4f594c46bc981c452bc4aa/scene-124.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/retained/scene-124a.webp",
+      "role": "archive",
+      "bytes": 619266,
+      "sha256": "3df0653d0b8181cc64af28bbe1a149d67ed9d753cfbb6011c10885893351832e",
+      "object": "sha256/3d/3df0653d0b8181cc64af28bbe1a149d67ed9d753cfbb6011c10885893351832e/scene-124a.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/retained/scene-125.webp",
+      "role": "archive",
+      "bytes": 527080,
+      "sha256": "0aa240713b699253d73666d071d4ffbcf16f204b11e605be4add1d4d21dbf973",
+      "object": "sha256/0a/0aa240713b699253d73666d071d4ffbcf16f204b11e605be4add1d4d21dbf973/scene-125.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/retained/scene-126.webp",
+      "role": "archive",
+      "bytes": 447108,
+      "sha256": "2a069c25eb95f937cd444fe358ab15479d4a91b4a81e4bac524f75fadd3b48d2",
+      "object": "sha256/2a/2a069c25eb95f937cd444fe358ab15479d4a91b4a81e4bac524f75fadd3b48d2/scene-126.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/retained/scene-13.webp",
+      "role": "archive",
+      "bytes": 369128,
+      "sha256": "015345deaeeae903099bc7c95ce03a7f97d2c37ac459dcde7452bd9d561668b9",
+      "object": "sha256/01/015345deaeeae903099bc7c95ce03a7f97d2c37ac459dcde7452bd9d561668b9/scene-13.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/retained/scene-14.webp",
+      "role": "archive",
+      "bytes": 352556,
+      "sha256": "fd9fad80648244611cd8aab3bb24c39f244819cfea1afff66e5bb30a48401e86",
+      "object": "sha256/fd/fd9fad80648244611cd8aab3bb24c39f244819cfea1afff66e5bb30a48401e86/scene-14.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/retained/scene-15.webp",
+      "role": "archive",
+      "bytes": 371148,
+      "sha256": "43e77793ecb4746543650fd5ee14c11e987e0df36781737e78332b6a8195f155",
+      "object": "sha256/43/43e77793ecb4746543650fd5ee14c11e987e0df36781737e78332b6a8195f155/scene-15.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/retained/scene-16.webp",
+      "role": "archive",
+      "bytes": 483726,
+      "sha256": "5e17df370bd4e685fd887c21b316d861b960e96b00fcc3aaf16ac8162de868c4",
+      "object": "sha256/5e/5e17df370bd4e685fd887c21b316d861b960e96b00fcc3aaf16ac8162de868c4/scene-16.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/retained/scene-17.webp",
+      "role": "archive",
+      "bytes": 392190,
+      "sha256": "0074c93f7b6c385b2d041c315d7fcfd733d434ab0d9b60fea96111529df3d6f9",
+      "object": "sha256/00/0074c93f7b6c385b2d041c315d7fcfd733d434ab0d9b60fea96111529df3d6f9/scene-17.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/retained/scene-18.webp",
+      "role": "archive",
+      "bytes": 367712,
+      "sha256": "edca38715e04dacc5ec79df3a9550951398d058112d0e1561c063faed2b3c53a",
+      "object": "sha256/ed/edca38715e04dacc5ec79df3a9550951398d058112d0e1561c063faed2b3c53a/scene-18.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/retained/scene-19.webp",
+      "role": "archive",
+      "bytes": 341486,
+      "sha256": "9e342a9cce145ea58333b2287da84b9f5fc72fb9c85aca985ed852e41bc2b134",
+      "object": "sha256/9e/9e342a9cce145ea58333b2287da84b9f5fc72fb9c85aca985ed852e41bc2b134/scene-19.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/retained/scene-19a.webp",
+      "role": "archive",
+      "bytes": 434222,
+      "sha256": "34eecc05dd546906c99d9a8c656225e4f0b65c1b606c922b577398777f0aa946",
+      "object": "sha256/34/34eecc05dd546906c99d9a8c656225e4f0b65c1b606c922b577398777f0aa946/scene-19a.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/retained/scene-19b.webp",
+      "role": "archive",
+      "bytes": 480466,
+      "sha256": "c7d01f7b509858f60cce5a930b1e35a93809578a862d7d6695b04b31957406bf",
+      "object": "sha256/c7/c7d01f7b509858f60cce5a930b1e35a93809578a862d7d6695b04b31957406bf/scene-19b.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/retained/scene-20.webp",
+      "role": "archive",
+      "bytes": 506172,
+      "sha256": "bc84648b4a3f2fe6fb8eb5e41c514fd1070cc18d56f93f86f16ec7dd43869ee8",
+      "object": "sha256/bc/bc84648b4a3f2fe6fb8eb5e41c514fd1070cc18d56f93f86f16ec7dd43869ee8/scene-20.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/retained/scene-21.webp",
+      "role": "archive",
+      "bytes": 471188,
+      "sha256": "e3ca716a99194dee05b0cd2c27940acc73ff5a9e44d2c3106bb971aa97f9d568",
+      "object": "sha256/e3/e3ca716a99194dee05b0cd2c27940acc73ff5a9e44d2c3106bb971aa97f9d568/scene-21.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/retained/scene-22.webp",
+      "role": "archive",
+      "bytes": 451960,
+      "sha256": "7722f2d77144a61da85c97769c8659b69243439671a1151d9677e0b5a9a42dbb",
+      "object": "sha256/77/7722f2d77144a61da85c97769c8659b69243439671a1151d9677e0b5a9a42dbb/scene-22.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/retained/scene-23.webp",
+      "role": "archive",
+      "bytes": 448274,
+      "sha256": "2929cd88ecd90f099c5373a60a58476e6e1b80078f62cf4ab06b0d697fb85bc9",
+      "object": "sha256/29/2929cd88ecd90f099c5373a60a58476e6e1b80078f62cf4ab06b0d697fb85bc9/scene-23.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/retained/scene-24.webp",
+      "role": "archive",
+      "bytes": 512030,
+      "sha256": "0eae0e1efad658a1321d215aa6ce8dbfcc39d76e08bd327e7044add4bb196ffc",
+      "object": "sha256/0e/0eae0e1efad658a1321d215aa6ce8dbfcc39d76e08bd327e7044add4bb196ffc/scene-24.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/retained/scene-25.webp",
+      "role": "archive",
+      "bytes": 429260,
+      "sha256": "8882eb666f19d514bc673320922550ca0a774593e1ad14f63092485d386a57ca",
+      "object": "sha256/88/8882eb666f19d514bc673320922550ca0a774593e1ad14f63092485d386a57ca/scene-25.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/retained/scene-26.webp",
+      "role": "archive",
+      "bytes": 492010,
+      "sha256": "d6952d9421656ddc81f92e0dfd2d4d4d97fe8d0e517a492e161b93fa19c6f581",
+      "object": "sha256/d6/d6952d9421656ddc81f92e0dfd2d4d4d97fe8d0e517a492e161b93fa19c6f581/scene-26.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/retained/scene-27.webp",
+      "role": "archive",
+      "bytes": 489458,
+      "sha256": "7b5b8e5ead9c86de5e477841457dbd77bc5e1741e3d80e8419006c870fb8ed71",
+      "object": "sha256/7b/7b5b8e5ead9c86de5e477841457dbd77bc5e1741e3d80e8419006c870fb8ed71/scene-27.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/retained/scene-28.webp",
+      "role": "archive",
+      "bytes": 489152,
+      "sha256": "ec06bd8246ba1b6fe1f1c8508b0843d04d33d4d80059af7b25f13631b10947b7",
+      "object": "sha256/ec/ec06bd8246ba1b6fe1f1c8508b0843d04d33d4d80059af7b25f13631b10947b7/scene-28.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/retained/scene-29.webp",
+      "role": "archive",
+      "bytes": 443850,
+      "sha256": "d3573d35a51a883c7719772d1d3bf639c1faa61f7e8e7a65afc8d42fe92be2b8",
+      "object": "sha256/d3/d3573d35a51a883c7719772d1d3bf639c1faa61f7e8e7a65afc8d42fe92be2b8/scene-29.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/retained/scene-30.webp",
+      "role": "archive",
+      "bytes": 410854,
+      "sha256": "8c95d6f30e746a3df82f2ab069b3ebae267321aaf82af9e22c9e120c0cd1b90b",
+      "object": "sha256/8c/8c95d6f30e746a3df82f2ab069b3ebae267321aaf82af9e22c9e120c0cd1b90b/scene-30.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/retained/scene-30a.webp",
+      "role": "archive",
+      "bytes": 471978,
+      "sha256": "3001db314e025d49312c5ed1457531b39f10987e94c1f5d24ac6864abd322135",
+      "object": "sha256/30/3001db314e025d49312c5ed1457531b39f10987e94c1f5d24ac6864abd322135/scene-30a.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/retained/scene-30b.webp",
+      "role": "archive",
+      "bytes": 418322,
+      "sha256": "3fd487d8f4673606b4681fcd72a1267ca002a7ddce518e1eaa7d45e82ae4e687",
+      "object": "sha256/3f/3fd487d8f4673606b4681fcd72a1267ca002a7ddce518e1eaa7d45e82ae4e687/scene-30b.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/retained/scene-30c.webp",
+      "role": "archive",
+      "bytes": 443610,
+      "sha256": "dab36eaa6bcefbaaf1c444258f1ad0048151896e80b2e86a377eb0d0f0be62a9",
+      "object": "sha256/da/dab36eaa6bcefbaaf1c444258f1ad0048151896e80b2e86a377eb0d0f0be62a9/scene-30c.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/retained/scene-30d.webp",
+      "role": "archive",
+      "bytes": 380078,
+      "sha256": "6037c605a14318d4f36528a29db26dd9de709c111bc8db0d491fcbabbf34945d",
+      "object": "sha256/60/6037c605a14318d4f36528a29db26dd9de709c111bc8db0d491fcbabbf34945d/scene-30d.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/retained/scene-31.webp",
+      "role": "archive",
+      "bytes": 538280,
+      "sha256": "a1e0f024faa711cbd735a5ce85ba2a7496a12994e2631c6e03558927cc55d715",
+      "object": "sha256/a1/a1e0f024faa711cbd735a5ce85ba2a7496a12994e2631c6e03558927cc55d715/scene-31.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/retained/scene-32.webp",
+      "role": "archive",
+      "bytes": 454594,
+      "sha256": "41d0d399970ad6af0c4e4e9ee0242fc348123510e79d4b71067fbc1878b9a949",
+      "object": "sha256/41/41d0d399970ad6af0c4e4e9ee0242fc348123510e79d4b71067fbc1878b9a949/scene-32.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/retained/scene-32a.webp",
+      "role": "archive",
+      "bytes": 500388,
+      "sha256": "32e78ba098b2863be190520ed73c5e62c5a13229bb8203ab04176ae6b9cce604",
+      "object": "sha256/32/32e78ba098b2863be190520ed73c5e62c5a13229bb8203ab04176ae6b9cce604/scene-32a.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/retained/scene-32b.webp",
+      "role": "archive",
+      "bytes": 601994,
+      "sha256": "0ca6f054f3aabddf0dad48cbdfcb90cf9fb1ac085206900b2b9a6278d6ac2703",
+      "object": "sha256/0c/0ca6f054f3aabddf0dad48cbdfcb90cf9fb1ac085206900b2b9a6278d6ac2703/scene-32b.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/retained/scene-32b1.webp",
+      "role": "archive",
+      "bytes": 399980,
+      "sha256": "9ee40787d1d5cd5d737f2d9419063525689ab38b546607c341af81ee5dd000d9",
+      "object": "sha256/9e/9ee40787d1d5cd5d737f2d9419063525689ab38b546607c341af81ee5dd000d9/scene-32b1.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/retained/scene-32b2.webp",
+      "role": "archive",
+      "bytes": 570754,
+      "sha256": "c295ab619ea7b71af6dde0871b501e3d45746aa38916c820f1faa101872fb48f",
+      "object": "sha256/c2/c295ab619ea7b71af6dde0871b501e3d45746aa38916c820f1faa101872fb48f/scene-32b2.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/retained/scene-32c.webp",
+      "role": "archive",
+      "bytes": 587500,
+      "sha256": "ba7a145d717fda98a3bc409b964add05b5dca4bac6704b2ff3676054ced73caf",
+      "object": "sha256/ba/ba7a145d717fda98a3bc409b964add05b5dca4bac6704b2ff3676054ced73caf/scene-32c.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/retained/scene-32c1.webp",
+      "role": "archive",
+      "bytes": 525220,
+      "sha256": "aa3e38b91423190d32546bb2a50b27cdffec9715a8f98d2d2c03a5f5c14523ff",
+      "object": "sha256/aa/aa3e38b91423190d32546bb2a50b27cdffec9715a8f98d2d2c03a5f5c14523ff/scene-32c1.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/retained/scene-32c2.webp",
+      "role": "archive",
+      "bytes": 522802,
+      "sha256": "10eadde7351bb1bca8ceedb5c471c72c4f7bdab5a2070f1eae88607ae4b07e00",
+      "object": "sha256/10/10eadde7351bb1bca8ceedb5c471c72c4f7bdab5a2070f1eae88607ae4b07e00/scene-32c2.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/retained/scene-32c3.webp",
+      "role": "archive",
+      "bytes": 585840,
+      "sha256": "83504653c54e50722b7e05a704797156032d22d6c1455e1858f5f1b53f0d8887",
+      "object": "sha256/83/83504653c54e50722b7e05a704797156032d22d6c1455e1858f5f1b53f0d8887/scene-32c3.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/retained/scene-32d.webp",
+      "role": "archive",
+      "bytes": 585458,
+      "sha256": "55df79885d4605b21935fd73f9c30822195eb1e4d5b1c2d42a6e981cd696bfbf",
+      "object": "sha256/55/55df79885d4605b21935fd73f9c30822195eb1e4d5b1c2d42a6e981cd696bfbf/scene-32d.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/retained/scene-32e.webp",
+      "role": "archive",
+      "bytes": 559574,
+      "sha256": "7113adce5b475f5682746548774e7e15a4b99c7d12372b19bef05b4bee90db09",
+      "object": "sha256/71/7113adce5b475f5682746548774e7e15a4b99c7d12372b19bef05b4bee90db09/scene-32e.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/retained/scene-32f.webp",
+      "role": "archive",
+      "bytes": 549888,
+      "sha256": "06e412e782cadd2c2a2a80b45b93cd372161a1852d4366dd19c306756610ea2d",
+      "object": "sha256/06/06e412e782cadd2c2a2a80b45b93cd372161a1852d4366dd19c306756610ea2d/scene-32f.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/retained/scene-32g.webp",
+      "role": "archive",
+      "bytes": 536520,
+      "sha256": "bd7afde59142a3088ac3c1e8cb4dfcc1c137c396d59d5727d534baa985da815b",
+      "object": "sha256/bd/bd7afde59142a3088ac3c1e8cb4dfcc1c137c396d59d5727d534baa985da815b/scene-32g.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/retained/scene-32h.webp",
+      "role": "archive",
+      "bytes": 597468,
+      "sha256": "7abb1583e33a7349da16ee35d840ac548f99db106a5d47a8f0c6a887db362d10",
+      "object": "sha256/7a/7abb1583e33a7349da16ee35d840ac548f99db106a5d47a8f0c6a887db362d10/scene-32h.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/retained/scene-32h1.webp",
+      "role": "archive",
+      "bytes": 566480,
+      "sha256": "11ece7369d84018a4bb307b14ccf90fd6eb195fbae57646e37de668f3a2e131a",
+      "object": "sha256/11/11ece7369d84018a4bb307b14ccf90fd6eb195fbae57646e37de668f3a2e131a/scene-32h1.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/retained/scene-32h2.webp",
+      "role": "archive",
+      "bytes": 515756,
+      "sha256": "f573b80d8bc9ba1e6e588347be603647e4c00f55bd81e140574d7512b47c4054",
+      "object": "sha256/f5/f573b80d8bc9ba1e6e588347be603647e4c00f55bd81e140574d7512b47c4054/scene-32h2.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/retained/scene-32h3.webp",
+      "role": "archive",
+      "bytes": 447252,
+      "sha256": "f9e85d3b80036c8121b86db74b958113ec864c231178fa00eb4d9b5f42fc198d",
+      "object": "sha256/f9/f9e85d3b80036c8121b86db74b958113ec864c231178fa00eb4d9b5f42fc198d/scene-32h3.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/retained/scene-32i.webp",
+      "role": "archive",
+      "bytes": 519646,
+      "sha256": "0260ae0a413380feee54a3b69a7038ff0c39c2663594a52bfe1b7ccb81904942",
+      "object": "sha256/02/0260ae0a413380feee54a3b69a7038ff0c39c2663594a52bfe1b7ccb81904942/scene-32i.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/retained/scene-32i1.webp",
+      "role": "archive",
+      "bytes": 523952,
+      "sha256": "35d6627a3092e392fc711508c4141c7d782a5db04f77a2d32a19882bf8b4a5a5",
+      "object": "sha256/35/35d6627a3092e392fc711508c4141c7d782a5db04f77a2d32a19882bf8b4a5a5/scene-32i1.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/retained/scene-32i2.webp",
+      "role": "archive",
+      "bytes": 547484,
+      "sha256": "c5a8d8f54f80c78ff18b56fff30c8b04879aced35429fffd4a64e1685567234a",
+      "object": "sha256/c5/c5a8d8f54f80c78ff18b56fff30c8b04879aced35429fffd4a64e1685567234a/scene-32i2.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/retained/scene-32i3.webp",
+      "role": "archive",
+      "bytes": 558658,
+      "sha256": "d19b751e5cfef69e1da16ae3facd1b248ea3920494d8a1c24c7c84c5abdcc24e",
+      "object": "sha256/d1/d19b751e5cfef69e1da16ae3facd1b248ea3920494d8a1c24c7c84c5abdcc24e/scene-32i3.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/retained/scene-32i4.webp",
+      "role": "archive",
+      "bytes": 582442,
+      "sha256": "61429b556130d9ccd8df80c8a0c849d658fab6a54034a04de53a24cbcc12b836",
+      "object": "sha256/61/61429b556130d9ccd8df80c8a0c849d658fab6a54034a04de53a24cbcc12b836/scene-32i4.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/retained/scene-32i5.webp",
+      "role": "archive",
+      "bytes": 393796,
+      "sha256": "755c6cfaa5e1d4d0002db1c235c6fe261acc402f64fadf5f977f90e2b8a3c42a",
+      "object": "sha256/75/755c6cfaa5e1d4d0002db1c235c6fe261acc402f64fadf5f977f90e2b8a3c42a/scene-32i5.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/retained/scene-32i6.webp",
+      "role": "archive",
+      "bytes": 530750,
+      "sha256": "8ee47791a124f184164ee57f509c27edcc43c4d04177e2da4ce4739393b2d9e6",
+      "object": "sha256/8e/8ee47791a124f184164ee57f509c27edcc43c4d04177e2da4ce4739393b2d9e6/scene-32i6.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/retained/scene-32i7.webp",
+      "role": "archive",
+      "bytes": 494078,
+      "sha256": "31a2ad4295e75f8a1ba08ff12f5e757be19f03beb951766c1f97ce55cf6b72de",
+      "object": "sha256/31/31a2ad4295e75f8a1ba08ff12f5e757be19f03beb951766c1f97ce55cf6b72de/scene-32i7.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/retained/scene-32j.webp",
+      "role": "archive",
+      "bytes": 507648,
+      "sha256": "bd104aabb955169cc4c43f654c6b7e665ac07c32e3e2beaca0ab83c6b95636b4",
+      "object": "sha256/bd/bd104aabb955169cc4c43f654c6b7e665ac07c32e3e2beaca0ab83c6b95636b4/scene-32j.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/retained/scene-33.webp",
+      "role": "archive",
+      "bytes": 502220,
+      "sha256": "2770aba4f75111ca998ec365964ca81f91c84c82fe119262e3c58b0178116c49",
+      "object": "sha256/27/2770aba4f75111ca998ec365964ca81f91c84c82fe119262e3c58b0178116c49/scene-33.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/retained/scene-34.webp",
+      "role": "archive",
+      "bytes": 481962,
+      "sha256": "7942d4bf74b70ae9ca72f5067d28e4bc553bb7abe14b8e1a002cadea668fd5a3",
+      "object": "sha256/79/7942d4bf74b70ae9ca72f5067d28e4bc553bb7abe14b8e1a002cadea668fd5a3/scene-34.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/retained/scene-35.webp",
+      "role": "archive",
+      "bytes": 430920,
+      "sha256": "c238a7025feb134dbb72a2ee41220fa4af7ca58b2eac4c704d2a0e7caa73170c",
+      "object": "sha256/c2/c238a7025feb134dbb72a2ee41220fa4af7ca58b2eac4c704d2a0e7caa73170c/scene-35.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/retained/scene-36.webp",
+      "role": "archive",
+      "bytes": 451164,
+      "sha256": "3514dd69f82191d94de6b4602cca2535b4a14af538b9dbd28791d12d0b092068",
+      "object": "sha256/35/3514dd69f82191d94de6b4602cca2535b4a14af538b9dbd28791d12d0b092068/scene-36.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/retained/scene-37.webp",
+      "role": "archive",
+      "bytes": 399032,
+      "sha256": "57f091e729f7f4bb89f7373cae52f6a512818e337d23032dc6dcec532b57fd3d",
+      "object": "sha256/57/57f091e729f7f4bb89f7373cae52f6a512818e337d23032dc6dcec532b57fd3d/scene-37.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/retained/scene-38.webp",
+      "role": "archive",
+      "bytes": 547852,
+      "sha256": "915aeebf74a532b8914d39ff3727b6343cdec368e6a169fc04f22db7e3ea1631",
+      "object": "sha256/91/915aeebf74a532b8914d39ff3727b6343cdec368e6a169fc04f22db7e3ea1631/scene-38.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/retained/scene-39.webp",
+      "role": "archive",
+      "bytes": 441908,
+      "sha256": "d308c776fde9aa87a728e241ea26f3f0d902d828f837f38cf5889fdbfefb0207",
+      "object": "sha256/d3/d308c776fde9aa87a728e241ea26f3f0d902d828f837f38cf5889fdbfefb0207/scene-39.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/retained/scene-40.webp",
+      "role": "archive",
+      "bytes": 402866,
+      "sha256": "c30f67ab9eefb312bee6b7b910a413ecb3b883fd84c7864cb82ab7cfa97b090a",
+      "object": "sha256/c3/c30f67ab9eefb312bee6b7b910a413ecb3b883fd84c7864cb82ab7cfa97b090a/scene-40.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/retained/scene-41.webp",
+      "role": "archive",
+      "bytes": 397720,
+      "sha256": "7dc7e270afd7d2cd9b1d9d083a295bfcb95cc713ebf873b53f85e500b2a0d36e",
+      "object": "sha256/7d/7dc7e270afd7d2cd9b1d9d083a295bfcb95cc713ebf873b53f85e500b2a0d36e/scene-41.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/retained/scene-42.webp",
+      "role": "archive",
+      "bytes": 472604,
+      "sha256": "52a09c47266decfb7d16619a8428973a9d9168dc0f63875913e8d5ffec30a502",
+      "object": "sha256/52/52a09c47266decfb7d16619a8428973a9d9168dc0f63875913e8d5ffec30a502/scene-42.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/retained/scene-43.webp",
+      "role": "archive",
+      "bytes": 391598,
+      "sha256": "c642cd7aa76da506e304569c58803b783076ff0b7199aab87a8613b8d1f3c05c",
+      "object": "sha256/c6/c642cd7aa76da506e304569c58803b783076ff0b7199aab87a8613b8d1f3c05c/scene-43.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/retained/scene-44.webp",
+      "role": "archive",
+      "bytes": 374124,
+      "sha256": "b9e1ff59b6d3278a9980a444473df74b2fe70112cb491fd573b2444322ee3b8d",
+      "object": "sha256/b9/b9e1ff59b6d3278a9980a444473df74b2fe70112cb491fd573b2444322ee3b8d/scene-44.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/retained/scene-45.webp",
+      "role": "archive",
+      "bytes": 433600,
+      "sha256": "1406524b54cfdbbfe0405d4a9cf831cf80536272d1ec028d8b90d744402c601f",
+      "object": "sha256/14/1406524b54cfdbbfe0405d4a9cf831cf80536272d1ec028d8b90d744402c601f/scene-45.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/retained/scene-46.webp",
+      "role": "archive",
+      "bytes": 431572,
+      "sha256": "be1793d76a03ea33f81f7ad6c266183d88ad9cb17ee7d5d4feeada3952fd9365",
+      "object": "sha256/be/be1793d76a03ea33f81f7ad6c266183d88ad9cb17ee7d5d4feeada3952fd9365/scene-46.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/retained/scene-47.webp",
+      "role": "archive",
+      "bytes": 487526,
+      "sha256": "2f026b5d0bc7a7ff9f6cc060ab3e0cf5e51659b946cf3609e970de41f76851ff",
+      "object": "sha256/2f/2f026b5d0bc7a7ff9f6cc060ab3e0cf5e51659b946cf3609e970de41f76851ff/scene-47.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/retained/scene-48.webp",
+      "role": "archive",
+      "bytes": 313996,
+      "sha256": "270bef636b34580d908bbfd2da31abdb409cb8d31f7ddea2be6b5db7d021be33",
+      "object": "sha256/27/270bef636b34580d908bbfd2da31abdb409cb8d31f7ddea2be6b5db7d021be33/scene-48.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/retained/scene-48a.webp",
+      "role": "archive",
+      "bytes": 411070,
+      "sha256": "229b3742ae33b23f8c20bde3917a77b10fe5eac7d245dc2ff9173493f8151443",
+      "object": "sha256/22/229b3742ae33b23f8c20bde3917a77b10fe5eac7d245dc2ff9173493f8151443/scene-48a.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/retained/scene-49.webp",
+      "role": "archive",
+      "bytes": 433730,
+      "sha256": "22d8dc7444da53f218697453b8ad31a7c176b001085441aee12b62252c9f9e35",
+      "object": "sha256/22/22d8dc7444da53f218697453b8ad31a7c176b001085441aee12b62252c9f9e35/scene-49.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/retained/scene-52.webp",
+      "role": "archive",
+      "bytes": 448914,
+      "sha256": "36273acd6f5d5ab5bd1e24368711801a5b8b98d65275ec148e55b74145699e45",
+      "object": "sha256/36/36273acd6f5d5ab5bd1e24368711801a5b8b98d65275ec148e55b74145699e45/scene-52.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/retained/scene-53.webp",
+      "role": "archive",
+      "bytes": 475774,
+      "sha256": "2f4e485bd0e0ab29ca8f8838e47f15efd0bfc84fee79dd71dded51b619f4c854",
+      "object": "sha256/2f/2f4e485bd0e0ab29ca8f8838e47f15efd0bfc84fee79dd71dded51b619f4c854/scene-53.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/retained/scene-54.webp",
+      "role": "archive",
+      "bytes": 402866,
+      "sha256": "c30f67ab9eefb312bee6b7b910a413ecb3b883fd84c7864cb82ab7cfa97b090a",
+      "object": "sha256/c3/c30f67ab9eefb312bee6b7b910a413ecb3b883fd84c7864cb82ab7cfa97b090a/scene-54.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/retained/scene-54a.webp",
+      "role": "archive",
+      "bytes": 402998,
+      "sha256": "995ae474e38cdb78503ba1b8b06980ba30873fe9ad6a795c0aa9314f3c0a5098",
+      "object": "sha256/99/995ae474e38cdb78503ba1b8b06980ba30873fe9ad6a795c0aa9314f3c0a5098/scene-54a.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/retained/scene-55.webp",
+      "role": "archive",
+      "bytes": 412230,
+      "sha256": "1ed7c69c4158f3d3154946257ab3196e4b2ca5b25223d52ee0a17826ba22fb83",
+      "object": "sha256/1e/1ed7c69c4158f3d3154946257ab3196e4b2ca5b25223d52ee0a17826ba22fb83/scene-55.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/retained/scene-55a.webp",
+      "role": "archive",
+      "bytes": 426196,
+      "sha256": "b890dc0f9e540d9b3dd5a2675a77275e5c6cd0c38def4c7829c5de3b4e0010b2",
+      "object": "sha256/b8/b890dc0f9e540d9b3dd5a2675a77275e5c6cd0c38def4c7829c5de3b4e0010b2/scene-55a.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/retained/scene-55b.webp",
+      "role": "archive",
+      "bytes": 302024,
+      "sha256": "2c318d1be01da20ececfe37283c521ff49570e792291e589185f2d0de96368e0",
+      "object": "sha256/2c/2c318d1be01da20ececfe37283c521ff49570e792291e589185f2d0de96368e0/scene-55b.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/retained/scene-55c.webp",
+      "role": "archive",
+      "bytes": 402364,
+      "sha256": "7fea19c7699bf9360fd4024d8f41d2fecd0c7ce01dc3fda2d0b1175c44136070",
+      "object": "sha256/7f/7fea19c7699bf9360fd4024d8f41d2fecd0c7ce01dc3fda2d0b1175c44136070/scene-55c.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/retained/scene-57.webp",
+      "role": "archive",
+      "bytes": 423790,
+      "sha256": "cbc78b79f40cacb4a40ce66c146d455bb4a19072ca52d13f204552daea19128b",
+      "object": "sha256/cb/cbc78b79f40cacb4a40ce66c146d455bb4a19072ca52d13f204552daea19128b/scene-57.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/retained/scene-58.webp",
+      "role": "archive",
+      "bytes": 292692,
+      "sha256": "57583460c010db42ad3dce249f222447504db83fa1f91274d395f14553ef6f74",
+      "object": "sha256/57/57583460c010db42ad3dce249f222447504db83fa1f91274d395f14553ef6f74/scene-58.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/retained/scene-59.webp",
+      "role": "archive",
+      "bytes": 333770,
+      "sha256": "592555650cedeefbe159ebc1947a7d1fcf3a53ec064ebc0a5a669c14b943d5df",
+      "object": "sha256/59/592555650cedeefbe159ebc1947a7d1fcf3a53ec064ebc0a5a669c14b943d5df/scene-59.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/retained/scene-60.webp",
+      "role": "archive",
+      "bytes": 319778,
+      "sha256": "e92c8cfda7c297c0c172e971328c98c920e6c0dbef1536b886f01a575a9fe465",
+      "object": "sha256/e9/e92c8cfda7c297c0c172e971328c98c920e6c0dbef1536b886f01a575a9fe465/scene-60.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/retained/scene-61.webp",
+      "role": "archive",
+      "bytes": 383562,
+      "sha256": "d20b81ce414b1ab2c5c4e4705b1259d856928a1c70c356b443b57421b63060a0",
+      "object": "sha256/d2/d20b81ce414b1ab2c5c4e4705b1259d856928a1c70c356b443b57421b63060a0/scene-61.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/retained/scene-62.webp",
+      "role": "archive",
+      "bytes": 386116,
+      "sha256": "6037974706fffe5c179d41fdd6519141e50a9511e3159e2b8a758a684ad281d8",
+      "object": "sha256/60/6037974706fffe5c179d41fdd6519141e50a9511e3159e2b8a758a684ad281d8/scene-62.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/retained/scene-62a.webp",
+      "role": "archive",
+      "bytes": 277990,
+      "sha256": "8c73d68428cfe2a55bf188b535609cca50dfc39421a71e871327c8c318d981a6",
+      "object": "sha256/8c/8c73d68428cfe2a55bf188b535609cca50dfc39421a71e871327c8c318d981a6/scene-62a.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/retained/scene-62c.webp",
+      "role": "archive",
+      "bytes": 434674,
+      "sha256": "8299ed6b1af749328c8bcbd933f2ec1dbf2b6db9fc18a0a0ec1765f7f7dac63b",
+      "object": "sha256/82/8299ed6b1af749328c8bcbd933f2ec1dbf2b6db9fc18a0a0ec1765f7f7dac63b/scene-62c.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/retained/scene-63.webp",
+      "role": "archive",
+      "bytes": 336232,
+      "sha256": "51db3099328d779e809f3e0b908d6cab2a38f27f3c3c75153a73441b8bf8bfe2",
+      "object": "sha256/51/51db3099328d779e809f3e0b908d6cab2a38f27f3c3c75153a73441b8bf8bfe2/scene-63.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/retained/scene-64.webp",
+      "role": "archive",
+      "bytes": 477638,
+      "sha256": "7c30e9aa595e3d205cad1e5fd6155d247a0f6389a420843671760a9bee8b6549",
+      "object": "sha256/7c/7c30e9aa595e3d205cad1e5fd6155d247a0f6389a420843671760a9bee8b6549/scene-64.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/retained/scene-65.webp",
+      "role": "archive",
+      "bytes": 416864,
+      "sha256": "87559bd94fc21df2324055720fb5840e15d31f8e31d992a005a287e5fe598036",
+      "object": "sha256/87/87559bd94fc21df2324055720fb5840e15d31f8e31d992a005a287e5fe598036/scene-65.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/retained/scene-66.webp",
+      "role": "archive",
+      "bytes": 330970,
+      "sha256": "8b2d950c015aabb8efdb76527a9f07221346f23f379f9a124b92e7cd0cdc41f2",
+      "object": "sha256/8b/8b2d950c015aabb8efdb76527a9f07221346f23f379f9a124b92e7cd0cdc41f2/scene-66.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/retained/scene-67.webp",
+      "role": "archive",
+      "bytes": 415462,
+      "sha256": "f91ff8992414a534b1e9f3b2e5a96e220e6152f04a006d7a102e66f8449fe07f",
+      "object": "sha256/f9/f91ff8992414a534b1e9f3b2e5a96e220e6152f04a006d7a102e66f8449fe07f/scene-67.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/retained/scene-68.webp",
+      "role": "archive",
+      "bytes": 366020,
+      "sha256": "f687ba52f813808e4f2f7e7aa541eb80aaaefea7aab2fe70c4507d437fdfbf14",
+      "object": "sha256/f6/f687ba52f813808e4f2f7e7aa541eb80aaaefea7aab2fe70c4507d437fdfbf14/scene-68.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/retained/scene-69.webp",
+      "role": "archive",
+      "bytes": 532224,
+      "sha256": "874f5623acd949731f2032bb14f9f7d065c86ae9fe9406115079ef0c70657148",
+      "object": "sha256/87/874f5623acd949731f2032bb14f9f7d065c86ae9fe9406115079ef0c70657148/scene-69.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/retained/scene-70.webp",
+      "role": "archive",
+      "bytes": 351448,
+      "sha256": "f4c1b62820e68f64a02c551d100cbe016d8e1b48a63746c6cd2d505316f2f525",
+      "object": "sha256/f4/f4c1b62820e68f64a02c551d100cbe016d8e1b48a63746c6cd2d505316f2f525/scene-70.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/retained/scene-71.webp",
+      "role": "archive",
+      "bytes": 417088,
+      "sha256": "2bc1844ea3c2f32d46f642bed9557fca8ea605753e78979bcfefe6fa7247fab0",
+      "object": "sha256/2b/2bc1844ea3c2f32d46f642bed9557fca8ea605753e78979bcfefe6fa7247fab0/scene-71.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/retained/scene-72.webp",
+      "role": "archive",
+      "bytes": 427520,
+      "sha256": "61a11cce9ea4c5656ecb0f74c11219d4f29e1b785a2794a35987613401f9eda2",
+      "object": "sha256/61/61a11cce9ea4c5656ecb0f74c11219d4f29e1b785a2794a35987613401f9eda2/scene-72.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/retained/scene-72a.webp",
+      "role": "archive",
+      "bytes": 404660,
+      "sha256": "293e895feb9a73179078d509f71d630a68b03d1abe469aeaed8e83a898d9f2c8",
+      "object": "sha256/29/293e895feb9a73179078d509f71d630a68b03d1abe469aeaed8e83a898d9f2c8/scene-72a.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/retained/scene-73.webp",
+      "role": "archive",
+      "bytes": 422726,
+      "sha256": "fbec6284bba7704276e7294f49518c37a1dc210ce35597f9a315a3218f8f1fe9",
+      "object": "sha256/fb/fbec6284bba7704276e7294f49518c37a1dc210ce35597f9a315a3218f8f1fe9/scene-73.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/retained/scene-73a.webp",
+      "role": "archive",
+      "bytes": 378986,
+      "sha256": "a6c8e6c33c93e5804191299e0842118e2727ccd76269acebda9e7df5d61bfe15",
+      "object": "sha256/a6/a6c8e6c33c93e5804191299e0842118e2727ccd76269acebda9e7df5d61bfe15/scene-73a.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/retained/scene-73b.webp",
+      "role": "archive",
+      "bytes": 406044,
+      "sha256": "05f761807d27b97b1413000cd9cd0fe961d1970b7ffd112e606bdc0ba3b48ed5",
+      "object": "sha256/05/05f761807d27b97b1413000cd9cd0fe961d1970b7ffd112e606bdc0ba3b48ed5/scene-73b.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/retained/scene-73c.webp",
+      "role": "archive",
+      "bytes": 389964,
+      "sha256": "2227bb7d2a97ce15574f4a57788b27bef59fde8c17d035a01770d75e0c38afb8",
+      "object": "sha256/22/2227bb7d2a97ce15574f4a57788b27bef59fde8c17d035a01770d75e0c38afb8/scene-73c.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/retained/scene-73d.webp",
+      "role": "archive",
+      "bytes": 432254,
+      "sha256": "4f272a16dbc530285a0bc54cbad8cfa9bf08688d82e8da54fcd0d1df8333768f",
+      "object": "sha256/4f/4f272a16dbc530285a0bc54cbad8cfa9bf08688d82e8da54fcd0d1df8333768f/scene-73d.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/retained/scene-74.webp",
+      "role": "archive",
+      "bytes": 407810,
+      "sha256": "cc84b2c21549ea201ab9860c812dbb82aea9b12216964370e166ec4d0e595bc0",
+      "object": "sha256/cc/cc84b2c21549ea201ab9860c812dbb82aea9b12216964370e166ec4d0e595bc0/scene-74.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/retained/scene-75.webp",
+      "role": "archive",
+      "bytes": 406696,
+      "sha256": "d805ae9382d41439f50a042bf019ccb15abe618d2c4570ac30fa8fd9aff61874",
+      "object": "sha256/d8/d805ae9382d41439f50a042bf019ccb15abe618d2c4570ac30fa8fd9aff61874/scene-75.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/retained/scene-76.webp",
+      "role": "archive",
+      "bytes": 391516,
+      "sha256": "e674273d10c1d4dae0831cb2529b973c220acc5682e9dccb01fbbf59bdf68ae8",
+      "object": "sha256/e6/e674273d10c1d4dae0831cb2529b973c220acc5682e9dccb01fbbf59bdf68ae8/scene-76.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/retained/scene-77.webp",
+      "role": "archive",
+      "bytes": 520256,
+      "sha256": "3a3534680fabe9739fdc2b41e2eebcc1db06738fa858bb97d6761bc730a99f12",
+      "object": "sha256/3a/3a3534680fabe9739fdc2b41e2eebcc1db06738fa858bb97d6761bc730a99f12/scene-77.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/retained/scene-78.webp",
+      "role": "archive",
+      "bytes": 527038,
+      "sha256": "181d206151ea7c2d233610d8e1533950c22975f1434c3de103ab981cbb9441a4",
+      "object": "sha256/18/181d206151ea7c2d233610d8e1533950c22975f1434c3de103ab981cbb9441a4/scene-78.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/retained/scene-79.webp",
+      "role": "archive",
+      "bytes": 535806,
+      "sha256": "99c7d5020299282c4520e3d5bee194a7797d74e66513d4dab513a9da0fd168b9",
+      "object": "sha256/99/99c7d5020299282c4520e3d5bee194a7797d74e66513d4dab513a9da0fd168b9/scene-79.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/retained/scene-79a.webp",
+      "role": "archive",
+      "bytes": 387120,
+      "sha256": "26d350a0520fe85279e8e8d60b8613293dbc0acb1480429a4a0d570e92ee94c6",
+      "object": "sha256/26/26d350a0520fe85279e8e8d60b8613293dbc0acb1480429a4a0d570e92ee94c6/scene-79a.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/retained/scene-80.webp",
+      "role": "archive",
+      "bytes": 436124,
+      "sha256": "96cd7ced511189452aa7ad7841941ed2741db7610c13d002ac0e1fc0df4158ea",
+      "object": "sha256/96/96cd7ced511189452aa7ad7841941ed2741db7610c13d002ac0e1fc0df4158ea/scene-80.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/retained/scene-81.webp",
+      "role": "archive",
+      "bytes": 409562,
+      "sha256": "98617afe440da74b1eafd3dd7737fc2cb8103640edca528b8cb9ffdc4678a3fd",
+      "object": "sha256/98/98617afe440da74b1eafd3dd7737fc2cb8103640edca528b8cb9ffdc4678a3fd/scene-81.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/retained/scene-83.webp",
+      "role": "archive",
+      "bytes": 458468,
+      "sha256": "350a551417895de4fcf217a6b763fdf4018975fd7a89e1a59a78f241bfa83a0c",
+      "object": "sha256/35/350a551417895de4fcf217a6b763fdf4018975fd7a89e1a59a78f241bfa83a0c/scene-83.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/retained/scene-84.webp",
+      "role": "archive",
+      "bytes": 371624,
+      "sha256": "55d857e424796d4bfdda6c68e398172806da8ca1fec46497767b01efd4582b5a",
+      "object": "sha256/55/55d857e424796d4bfdda6c68e398172806da8ca1fec46497767b01efd4582b5a/scene-84.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/retained/scene-85.webp",
+      "role": "archive",
+      "bytes": 450588,
+      "sha256": "8f0fe04a3218457adc0d37e2f0d43244b7f15b60af9cbd3c4e3d4a8fab0f3813",
+      "object": "sha256/8f/8f0fe04a3218457adc0d37e2f0d43244b7f15b60af9cbd3c4e3d4a8fab0f3813/scene-85.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/retained/scene-86.webp",
+      "role": "archive",
+      "bytes": 535158,
+      "sha256": "6f3012d9b232094c71f4bdde8d997579e2c77075c6bc981a4bd3c5cabd6bad82",
+      "object": "sha256/6f/6f3012d9b232094c71f4bdde8d997579e2c77075c6bc981a4bd3c5cabd6bad82/scene-86.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/retained/scene-87.webp",
+      "role": "archive",
+      "bytes": 398346,
+      "sha256": "a32c2ffc8660daf2d2f2fa96b48d37aaeed84e80f1a88e35398796b15ecc0fa0",
+      "object": "sha256/a3/a32c2ffc8660daf2d2f2fa96b48d37aaeed84e80f1a88e35398796b15ecc0fa0/scene-87.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/selected-assets.json",
+      "role": "archive",
+      "bytes": 11913,
+      "sha256": "ac28f26ebd1e22bcebae3bb0ee7f1241273c023d8107e82299811b7a098b7f09",
+      "object": "sha256/ac/ac28f26ebd1e22bcebae3bb0ee7f1241273c023d8107e82299811b7a098b7f09/selected-assets.json"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/story-plan.json",
+      "role": "archive",
+      "bytes": 229354,
+      "sha256": "f7fecae0194803045ef5b0190001cdf157b8c9655adae8b7b52c5ea5e27581df",
+      "object": "sha256/f7/f7fecae0194803045ef5b0190001cdf157b8c9655adae8b7b52c5ea5e27581df/story-plan.json"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/storyboard-layout.json",
+      "role": "archive",
+      "bytes": 10226,
+      "sha256": "ac7d8bb542fcdfd6df4833f6d53f41504836ed0ca0816db163b70b57237fb885",
+      "object": "sha256/ac/ac7d8bb542fcdfd6df4833f6d53f41504836ed0ca0816db163b70b57237fb885/storyboard-layout.json"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/upload-archive.py",
+      "role": "archive",
+      "bytes": 2016,
+      "sha256": "844adce8541556a5f18b9041e5fd69d370fe4efbce82b7dd790b9084d59a9de3",
+      "object": "sha256/84/844adce8541556a5f18b9041e5fd69d370fe4efbce82b7dd790b9084d59a9de3/upload-archive.py"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/verify-archive-batched.py",
+      "role": "archive",
+      "bytes": 2319,
+      "sha256": "81fe87ac839f8531078422a2c0cc1e1a10efe4acc0117cbe97ddf27d3b14b6a9",
+      "object": "sha256/81/81fe87ac839f8531078422a2c0cc1e1a10efe4acc0117cbe97ddf27d3b14b6a9/verify-archive-batched.py"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/walk-board/index.html",
+      "role": "archive",
+      "bytes": 2327,
+      "sha256": "84192effdf77b8ab74d87cbbc42de0973cfc9712556933a4b78be4d172e4941f",
+      "object": "sha256/84/84192effdf77b8ab74d87cbbc42de0973cfc9712556933a4b78be4d172e4941f/index.html"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/walk-board/manifest.json",
+      "role": "archive",
+      "bytes": 798,
+      "sha256": "f79a045400632658f9c186a3b640882101d1204a85ee8aca5603795e2ff30f02",
+      "object": "sha256/f7/f79a045400632658f9c186a3b640882101d1204a85ee8aca5603795e2ff30f02/manifest.json"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/walk-board/return-home-en.webp",
+      "role": "archive",
+      "bytes": 445494,
+      "sha256": "95f31cafd4005086840e8f74865f1b2f992c7209fe78c5998341207afb5cefb8",
+      "object": "sha256/95/95f31cafd4005086840e8f74865f1b2f992c7209fe78c5998341207afb5cefb8/return-home-en.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/walk-board/return-home-es.webp",
+      "role": "archive",
+      "bytes": 448354,
+      "sha256": "b99e725833289fd7363d03afdbad6a635f30e6227a5259585322bc0ab80c2a0c",
+      "object": "sha256/b9/b99e725833289fd7363d03afdbad6a635f30e6227a5259585322bc0ab80c2a0c/return-home-es.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/walk-board/return-home-ru.webp",
+      "role": "archive",
+      "bytes": 446142,
+      "sha256": "a0576b4ff26e51c6a8ac87eaa2e2ac9bf933fdc43e1482881ef3098cac802e40",
+      "object": "sha256/a0/a0576b4ff26e51c6a8ac87eaa2e2ac9bf933fdc43e1482881ef3098cac802e40/return-home-ru.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/web/scene-05c1-095e149265a7.webp",
+      "role": "archive",
+      "bytes": 486110,
+      "sha256": "095e149265a7f60d09f4f3755b9836b099d5e77490a53b7f6de3a337c99c9878",
+      "object": "sha256/09/095e149265a7f60d09f4f3755b9836b099d5e77490a53b7f6de3a337c99c9878/scene-05c1-095e149265a7.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/web/scene-05c2-9d2f86a2e028.webp",
+      "role": "archive",
+      "bytes": 428078,
+      "sha256": "9d2f86a2e0282004c497e03a1a6da86d144c2dc104546c609887f22c8b53db45",
+      "object": "sha256/9d/9d2f86a2e0282004c497e03a1a6da86d144c2dc104546c609887f22c8b53db45/scene-05c2-9d2f86a2e028.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/web/scene-05c3-ea97771b5d84.webp",
+      "role": "archive",
+      "bytes": 378720,
+      "sha256": "ea97771b5d840e5dbbde8f5054bf4c032de918093a371649e097524c2470c58c",
+      "object": "sha256/ea/ea97771b5d840e5dbbde8f5054bf4c032de918093a371649e097524c2470c58c/scene-05c3-ea97771b5d84.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/web/scene-05c4-aa834a07d5d0.webp",
+      "role": "archive",
+      "bytes": 512654,
+      "sha256": "aa834a07d5d0daca4459e2709fe59146b834e5a044cb8c50c123e371bdd0d521",
+      "object": "sha256/aa/aa834a07d5d0daca4459e2709fe59146b834e5a044cb8c50c123e371bdd0d521/scene-05c4-aa834a07d5d0.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/web/scene-05c5-22527c09ba2c.webp",
+      "role": "archive",
+      "bytes": 503198,
+      "sha256": "22527c09ba2cdb0503cfbe9c66d7de240404fcc6dbe74107acf1044b3b2f5387",
+      "object": "sha256/22/22527c09ba2cdb0503cfbe9c66d7de240404fcc6dbe74107acf1044b3b2f5387/scene-05c5-22527c09ba2c.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/web/scene-05g2-3333c141d294.webp",
+      "role": "archive",
+      "bytes": 367656,
+      "sha256": "3333c141d29415ec77e1ac6f41b57f5d8801854dee8185a60756c70642247b0c",
+      "object": "sha256/33/3333c141d29415ec77e1ac6f41b57f5d8801854dee8185a60756c70642247b0c/scene-05g2-3333c141d294.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/web/scene-05g2-8ad699a25f9f.webp",
+      "role": "archive",
+      "bytes": 390652,
+      "sha256": "8ad699a25f9f7f7c419a9d06e3ed11a2f2631fab22da4cb0cb1b7cdef8f56c4c",
+      "object": "sha256/8a/8ad699a25f9f7f7c419a9d06e3ed11a2f2631fab22da4cb0cb1b7cdef8f56c4c/scene-05g2-8ad699a25f9f.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/web/title-en-v2.webp",
+      "role": "archive",
+      "bytes": 473146,
+      "sha256": "c892a6eea0433ff88264f6d27d65bbe6eee33bb78a382740226ef723c639ff6e",
+      "object": "sha256/c8/c892a6eea0433ff88264f6d27d65bbe6eee33bb78a382740226ef723c639ff6e/title-en-v2.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/web/title-es-v2.webp",
+      "role": "archive",
+      "bytes": 468724,
+      "sha256": "e6750b0e5b95d8bd41d46cc2fb3622c2666065e6c7c9cee03daa149397cad03a",
+      "object": "sha256/e6/e6750b0e5b95d8bd41d46cc2fb3622c2666065e6c7c9cee03daa149397cad03a/title-es-v2.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r19/web/title-ru-v2.webp",
+      "role": "archive",
+      "bytes": 492018,
+      "sha256": "318c2ba546d08a73d812600ec248e5c2d4e522e21cd9bf3ad1ca4e2314202195",
+      "object": "sha256/31/318c2ba546d08a73d812600ec248e5c2d4e522e21cd9bf3ad1ca4e2314202195/title-ru-v2.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r20/RESTORE.txt",
+      "role": "archive",
+      "sha256": "8761d9ecde4851343cc742bb6e55378eed22d0344be90fd987af0a4398d330c0",
+      "bytes": 510,
+      "object": "sha256/87/8761d9ecde4851343cc742bb6e55378eed22d0344be90fd987af0a4398d330c0/RESTORE.txt"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r20/archive-tools/hf_store.py",
+      "role": "archive",
+      "sha256": "078313a4f089d1d27c7a35c0ee2a5eb5552050432da2536bd5fd1dbc2c18afcd",
+      "bytes": 22541,
+      "object": "sha256/07/078313a4f089d1d27c7a35c0ee2a5eb5552050432da2536bd5fd1dbc2c18afcd/hf_store.py"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r20/art/papa-arm/REPORT.txt",
+      "role": "archive",
+      "sha256": "df44cf8d73b8447dcb52561caa1ea7b27971033f7758dd02f1a7d22556a3efa8",
+      "bytes": 942,
+      "object": "sha256/df/df44cf8d73b8447dcb52561caa1ea7b27971033f7758dd02f1a7d22556a3efa8/REPORT.txt"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r20/art/papa-arm/masters/scene-05g-v2.png",
+      "role": "archive",
+      "sha256": "4c7eb23be2a8a21f25b58b8dc25670ee4dcd3f7f1339488c2f08276098516d90",
+      "bytes": 2784340,
+      "object": "sha256/4c/4c7eb23be2a8a21f25b58b8dc25670ee4dcd3f7f1339488c2f08276098516d90/scene-05g-v2.png"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r20/art/papa-arm/prompts/scene-05g-v2.txt",
+      "role": "archive",
+      "sha256": "4ec2c91ee72cbe9a4ae3598799ade463cca294d6d2872196c671d897de8a9176",
+      "bytes": 1414,
+      "object": "sha256/4e/4ec2c91ee72cbe9a4ae3598799ade463cca294d6d2872196c671d897de8a9176/scene-05g-v2.txt"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r20/art/papa-arm/records/inputs.json",
+      "role": "archive",
+      "sha256": "72848f67471eeb3e00495bcd0568678a1ac85f57c4595f9b52a2912eacdaedd7",
+      "bytes": 496,
+      "object": "sha256/72/72848f67471eeb3e00495bcd0568678a1ac85f57c4595f9b52a2912eacdaedd7/inputs.json"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r20/art/papa-arm/records/scene-05g-v2.json",
+      "role": "archive",
+      "sha256": "47a0fd22f8a79f308f9423cfb71cb6b1d73badd75614d445861433d2a7966313",
+      "bytes": 3790,
+      "object": "sha256/47/47a0fd22f8a79f308f9423cfb71cb6b1d73badd75614d445861433d2a7966313/scene-05g-v2.json"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r20/art/papa-arm/review.html",
+      "role": "archive",
+      "sha256": "f1df561f1ad01742f79c0c1310c506c1712c1abd3b789e698b9e2af5d933bcc3",
+      "bytes": 2153,
+      "object": "sha256/f1/f1df561f1ad01742f79c0c1310c506c1712c1abd3b789e698b9e2af5d933bcc3/review.html"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r20/art/papa-arm/selected-assets.json",
+      "role": "archive",
+      "sha256": "733668a10238d461f6ae4b8231e0319e12f9110e5e07929e7ba81765de4bf2d9",
+      "bytes": 4050,
+      "object": "sha256/73/733668a10238d461f6ae4b8231e0319e12f9110e5e07929e7ba81765de4bf2d9/selected-assets.json"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r20/art/papa-arm/web/before.webp",
+      "role": "archive",
+      "sha256": "de0c0078524360270eeede2df116f29f7974594ae055b8030869ef936c22da9f",
+      "bytes": 538922,
+      "object": "sha256/de/de0c0078524360270eeede2df116f29f7974594ae055b8030869ef936c22da9f/before.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r20/art/papa-arm/web/reference.webp",
+      "role": "archive",
+      "sha256": "477a77c66d227912e312f5bd0b6a101e09f908b3469ad887054661afb1994fb6",
+      "bytes": 451114,
+      "object": "sha256/47/477a77c66d227912e312f5bd0b6a101e09f908b3469ad887054661afb1994fb6/reference.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r20/art/papa-arm/web/scene-05g-v2.webp",
+      "role": "archive",
+      "sha256": "0f3ca853ba89c28516fc4010c66a7f8ec567755bea3c092291858b98d5fa45bf",
+      "bytes": 523942,
+      "object": "sha256/0f/0f3ca853ba89c28516fc4010c66a7f8ec567755bea3c092291858b98d5fa45bf/scene-05g-v2.webp"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r20/baseline/media.json",
+      "role": "archive",
+      "sha256": "31832f8fbd38a811efeb6a2298373183676caa6447387febaca64d8b2d9802e7",
+      "bytes": 67007,
+      "object": "sha256/31/31832f8fbd38a811efeb6a2298373183676caa6447387febaca64d8b2d9802e7/media.json"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r20/baseline/story-plan.json",
+      "role": "archive",
+      "sha256": "f7fecae0194803045ef5b0190001cdf157b8c9655adae8b7b52c5ea5e27581df",
+      "bytes": 229354,
+      "object": "sha256/f7/f7fecae0194803045ef5b0190001cdf157b8c9655adae8b7b52c5ea5e27581df/story-plan.json"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r20/feedback-map.json",
+      "role": "archive",
+      "sha256": "a29f9074132032e8d1c99011801e93579f7167d31ebc7fd506ee2dafae23facd",
+      "bytes": 2939,
+      "object": "sha256/a2/a29f9074132032e8d1c99011801e93579f7167d31ebc7fd506ee2dafae23facd/feedback-map.json"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r20/integration/REPORT.txt",
+      "role": "archive",
+      "sha256": "f2880b4c749e43bafa5236bc018e88ab8dc1c847478ccbb0b1e856ac6e4c9a71",
+      "bytes": 1158,
+      "object": "sha256/f2/f2880b4c749e43bafa5236bc018e88ab8dc1c847478ccbb0b1e856ac6e4c9a71/REPORT.txt"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r20/integration/source-build-check.json",
+      "role": "archive",
+      "sha256": "44eca9f0250e41a201897be2472d283fc785ca4fb76ab81fd3bd0f1c99c94af9",
+      "bytes": 109,
+      "object": "sha256/44/44eca9f0250e41a201897be2472d283fc785ca4fb76ab81fd3bd0f1c99c94af9/source-build-check.json"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r20/integration/source-tests.log",
+      "role": "archive",
+      "sha256": "a35a2f2bde3773a4952edffb1493a4eec442155da60d3b7aac4926a770481b06",
+      "bytes": 1483,
+      "object": "sha256/a3/a35a2f2bde3773a4952edffb1493a4eec442155da60d3b7aac4926a770481b06/source-tests.log"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r20/media.json",
+      "role": "archive",
+      "sha256": "f978ba666a4cb2c327e8f35dec9ca47abef796db2044258b670feaeeb6e0b90c",
+      "bytes": 66633,
+      "object": "sha256/f9/f978ba666a4cb2c327e8f35dec9ca47abef796db2044258b670feaeeb6e0b90c/media.json"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r20/plan/story-plan.json",
+      "role": "archive",
+      "sha256": "738cb4d73725c326fa55fa995ee38b16e197885b09ddbf8264ffbb4d43943b29",
+      "bytes": 232560,
+      "object": "sha256/73/738cb4d73725c326fa55fa995ee38b16e197885b09ddbf8264ffbb4d43943b29/story-plan.json"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r20/plan/supersession.json",
+      "role": "archive",
+      "sha256": "93e428021d29cf502cce78b3cd84e04787c451a2c6d095a4a7d8eb20911558f3",
+      "bytes": 3449,
+      "object": "sha256/93/93e428021d29cf502cce78b3cd84e04787c451a2c6d095a4a7d8eb20911558f3/supersession.json"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r20/prepare-delta.py",
+      "role": "archive",
+      "sha256": "fae988e32a7a8b2f04e6217cb3e0fc070ca0d3bd9122e87421ab374e4e0d7e1e",
+      "bytes": 1648,
+      "object": "sha256/fa/fae988e32a7a8b2f04e6217cb3e0fc070ca0d3bd9122e87421ab374e4e0d7e1e/prepare-delta.py"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r20/reader/REPORT.txt",
+      "role": "archive",
+      "sha256": "f2880b4c749e43bafa5236bc018e88ab8dc1c847478ccbb0b1e856ac6e4c9a71",
+      "bytes": 1158,
+      "object": "sha256/f2/f2880b4c749e43bafa5236bc018e88ab8dc1c847478ccbb0b1e856ac6e4c9a71/REPORT.txt"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r20/reader/assemble.py",
+      "role": "archive",
+      "sha256": "4a9c7ae3c5464f0c8848b09dbed5c21cbe993dfea990ffcc56266cfeb7462ab0",
+      "bytes": 2802,
+      "object": "sha256/4a/4a9c7ae3c5464f0c8848b09dbed5c21cbe993dfea990ffcc56266cfeb7462ab0/assemble.py"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r20/reader/bath-magic-r20.css",
+      "role": "archive",
+      "sha256": "db64c2d833eebd2881e8bd5a103b17fa6d6680176257fa22ce03e3821789f804",
+      "bytes": 9613,
+      "object": "sha256/db/db64c2d833eebd2881e8bd5a103b17fa6d6680176257fa22ce03e3821789f804/bath-magic-r20.css"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r20/reader/bath-magic-r20.html",
+      "role": "archive",
+      "sha256": "1041f34c294f4f275cbe4a42c957640f0c8eff7192bac205a0febd1faeaef69e",
+      "bytes": 2168,
+      "object": "sha256/10/1041f34c294f4f275cbe4a42c957640f0c8eff7192bac205a0febd1faeaef69e/bath-magic-r20.html"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r20/reader/bath-magic-r20.js",
+      "role": "archive",
+      "sha256": "3f33f9e463ad82fd1e8deafd8f212572b9828f9ef7a2ba5bdd7d4d162485ba5e",
+      "bytes": 16805,
+      "object": "sha256/3f/3f33f9e463ad82fd1e8deafd8f212572b9828f9ef7a2ba5bdd7d4d162485ba5e/bath-magic-r20.js"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r20/reader/changes-1440.png",
+      "role": "archive",
+      "sha256": "4b9749239e7416ed61968fd54da9cafb629616de762d1837a2efb26fce346441",
+      "bytes": 615518,
+      "object": "sha256/4b/4b9749239e7416ed61968fd54da9cafb629616de762d1837a2efb26fce346441/changes-1440.png"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r20/reader/changes-390.png",
+      "role": "archive",
+      "sha256": "6371eba56e66294fd277a001be74e3c9ac29a363960611acd4769e05a2227619",
+      "bytes": 226002,
+      "object": "sha256/63/6371eba56e66294fd277a001be74e3c9ac29a363960611acd4769e05a2227619/changes-390.png"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r20/reader/check-preview.cjs",
+      "role": "archive",
+      "sha256": "33088ce5d12454810d82e16f92a96b9bb30c1de1df3a72516ae2ff2d97386240",
+      "bytes": 3406,
+      "object": "sha256/33/33088ce5d12454810d82e16f92a96b9bb30c1de1df3a72516ae2ff2d97386240/check-preview.cjs"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r20/reader/preview-proof.json",
+      "role": "archive",
+      "sha256": "ed446587d479ee9f7833c54e132204e17e30bfbdd995cf6929b743fbb636ebec",
+      "bytes": 518,
+      "object": "sha256/ed/ed446587d479ee9f7833c54e132204e17e30bfbdd995cf6929b743fbb636ebec/preview-proof.json"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r20/reader/selection-qa.json",
+      "role": "archive",
+      "sha256": "96765abedb2fbd771f05034de9e9c924e0416ff82523f1cd30213bf3d5161968",
+      "bytes": 125,
+      "object": "sha256/96/96765abedb2fbd771f05034de9e9c924e0416ff82523f1cd30213bf3d5161968/selection-qa.json"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r20/selected-assets.json",
+      "role": "archive",
+      "sha256": "0953646703ef94f5713fe3b7d531d43d41f2ac153714fc6a97742847a3438c53",
+      "bytes": 3956,
+      "object": "sha256/09/0953646703ef94f5713fe3b7d531d43d41f2ac153714fc6a97742847a3438c53/selected-assets.json"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r20/story-plan.json",
+      "role": "archive",
+      "sha256": "68f0c7d73be1b31ed4e960326b6e563287226c45999339eb8eff61617172852d",
+      "bytes": 232329,
+      "object": "sha256/68/68f0c7d73be1b31ed4e960326b6e563287226c45999339eb8eff61617172852d/story-plan.json"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r20/upload-archive.py",
+      "role": "archive",
+      "sha256": "844adce8541556a5f18b9041e5fd69d370fe4efbce82b7dd790b9084d59a9de3",
+      "bytes": 2016,
+      "object": "sha256/84/844adce8541556a5f18b9041e5fd69d370fe4efbce82b7dd790b9084d59a9de3/upload-archive.py"
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-20261002-r20/verify-archive-batched.py",
+      "role": "archive",
+      "sha256": "81fe87ac839f8531078422a2c0cc1e1a10efe4acc0117cbe97ddf27d3b14b6a9",
+      "bytes": 2319,
+      "object": "sha256/81/81fe87ac839f8531078422a2c0cc1e1a10efe4acc0117cbe97ddf27d3b14b6a9/verify-archive-batched.py"
+    }
+  ]
+}
