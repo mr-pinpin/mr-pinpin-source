@@ -1,0 +1,105 @@
+{
+  "schemaVersion": 1,
+  "purpose": "Practical rules learned from the approved book and iterative R17 draft; no automatic approval or guarantee.",
+  "lessons": [
+    {
+      "id": "causality",
+      "rule": "Set up a concrete problem, let PinPin form a plan, attempt it, show the surprising consequence and the family response. Insert approach/threshold/return beats when a location changes.",
+      "evidence": [
+        "docs/storyboard/production/bath-magic-20261002-r17/plan/causal-flow.mmd",
+        "docs/storyboard/production/bath-magic-20261002-r17/plan/storyboard-script.txt"
+      ]
+    },
+    {
+      "id": "tempo",
+      "rule": "Earn warmth and laughter through actual action. Herculean determination, not exhausted faces or constant raised eyebrows. Quiet physical action can carry high discovery. Four days have 100/13/22/36 scenes in R17; long day1 allocation is visible for discussion, not automatically a defect.",
+      "evidence": [
+        "published-tempo-138.json",
+        "project-seed.json"
+      ]
+    },
+    {
+      "id": "magic-count",
+      "rule": "Current story has six magical complications. Twelve refers to duck count; the old twelve-challenge plan is superseded.",
+      "evidence": [
+        "docs/storyboard/production/bath-magic-20261002-r17/story-plan.json"
+      ]
+    },
+    {
+      "id": "cast",
+      "rule": "Papa is adult, broad and round-faced. PomPom is the infant; PinPin is the active child. Keep separate bodies, plausible joints and gaze toward the object or partner.",
+      "evidence": [
+        "reference-catalog.json:reference-family"
+      ]
+    },
+    {
+      "id": "scooby",
+      "rule": "Use complete mounted silhouette as scale authority: withers near standing Papa head. Show head ducking through door and floor occupancy when indoors. A few washed plain blueberries are a small treat, not a pile of unidentified wild berries.",
+      "evidence": [
+        "reference-catalog.json:reference-scooby",
+        "docs/storyboard/production/bath-magic-20261002-r17/plan/preproduction.txt",
+        "https://www.akc.org/expert-advice/nutrition/can-dogs-eat-blueberries/"
+      ]
+    },
+    {
+      "id": "bucket",
+      "rule": "One bucket during the opening errand through scene19. Papa introduces another at scene20; later catch-buckets are valid. Track empty/full states and handle grip.",
+      "evidence": [
+        "docs/storyboard/production/bath-magic-20261002-r17/story-plan.json"
+      ]
+    },
+    {
+      "id": "house",
+      "rule": "Two round front windows and solid green front door. Doors behind/right in the kitchen view are interior rooms; the garden can be behind camera. Do not turn an interior door into an exterior shortcut. Preserve architecture from the specific camera reference.",
+      "evidence": [
+        "docs/storyboard/production/bath-magic-20261002-r17/audit/REPORT.txt",
+        "docs/storyboard/production/bath-magic-20261002-r17/plan/preproduction.txt"
+      ]
+    },
+    {
+      "id": "canal",
+      "rule": "Open U-shaped ends form a continuous floor channel from bath to garden. It is installed from scene34 through scene122 and dismantled at scene123 (R17 page167). Papa steps over, not through. Tight close-ups can legitimately occlude it.",
+      "evidence": [
+        "docs/storyboard/production/bath-magic-20261002-r17/art/aqueduct/REPORT.txt"
+      ]
+    },
+    {
+      "id": "new-design",
+      "rule": "Bear and blue utility tractor are new R17 designs, agent-reviewed and user-pending. Blue tractor is separate from the existing red logging tractor. That red tractor crane belongs immediately behind the cab, ahead of logs.",
+      "evidence": [
+        "docs/storyboard/production/bath-magic-20261002-r17/art/beaver-return/preproduction.json"
+      ]
+    },
+    {
+      "id": "panorama",
+      "rule": "Give two separate inputs: successful continuous house panorama for projection/continuity, target book image for identity/style. Generate one 2:1 image, inspect in viewer, use registered perspective repairs only where needed, then deterministically export the cubemap. Do not generate six unrelated faces.",
+      "evidence": [
+        "docs/storyboard/panorama-workflow/README.md",
+        "docs/storyboard/production/story-worlds-20260924/README.md",
+        "panorama-example.json"
+      ]
+    },
+    {
+      "id": "titles",
+      "rule": "Localized full-bleed cover with title lettering on the image; separate text-free miniature. PDF includes three black-and-white coloring pages. Rebuild PDF only once story version is approved.",
+      "evidence": [
+        "docs/storyboard/covers.json",
+        "docs/storyboard/library-pdfs.json"
+      ]
+    },
+    {
+      "id": "provenance",
+      "rule": "Keep exact native output, prompt, references and hashes. Separate selected candidates, agent review, user approval and published state. For recovered03l/03m the tool-output association is explicitly inferred/unverified; do not upgrade it. Scope repairs to the reported defect.",
+      "evidence": [
+        "docs/storyboard/production/bath-magic-20261002-r17/art/opening/REPORT.txt"
+      ]
+    },
+    {
+      "id": "iteration",
+      "rule": "Discuss text, inspect small contact sheets, then generate referenced candidates in short cycles. Time planning/generation/review/export separately; 30 minutes is a measured improvement target, never a promise for a 171-image revision. Native assets and builds live on Mini SSD; Git stores recipes and content-addressed restore manifests.",
+      "evidence": [
+        "docs/storyboard/production/STUDIO.md"
+      ]
+    }
+  ]
+}

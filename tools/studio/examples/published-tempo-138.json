@@ -1,0 +1,5316 @@
+{
+  "schemaVersion": 2,
+  "status": "Editorial analysis of the published 138-scene chapter; no story or art changes",
+  "source": {
+    "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-release-20261002-source/docs/storyboard/stories/bath-magic.json",
+    "publicURL": "https://mr-pinpin.github.io/storyboard/stories/bath-magic.json",
+    "sha256": "d6e7186682a4d88782d64c973ff769ac5f0ec677b713800c7c6c2049038068a6",
+    "editionVersion": 1,
+    "checkedDate": "2026-10-02",
+    "coverExcluded": true,
+    "sceneCount": 138,
+    "stableIdMappingSource": "R16 story-plan.json (days and IDs only; no old draft status or scores copied)",
+    "publicSha256": "d6e7186682a4d88782d64c973ff769ac5f0ec677b713800c7c6c2049038068a6",
+    "publicMatchesLocalExact": true,
+    "publicCheckedAt": "2026-10-02"
+  },
+  "method": {
+    "axis": "Current published story-scene positions, not seconds; cover excluded.",
+    "annotation": "Manual primary-beat and ordinal editorial ratings after reading all English and Russian captions sequentially. Thirty actual published image anchors inspected on a contact sheet. Other visual claims are intentionally absent.",
+    "uncertainty": "Interpretive low/medium/high editorial categories, not psychological measurements, predicted laughs, quality scores, frame timing or a Disney/Pixar ground truth. Same three-level metric family as R8; prefer broad blocks and raw steps, not a statistically smoothed curve.",
+    "aggregation": "For sequence summaries, use the modal category (or explicitly labeled median ordinal category); do not present sums, averages or differences as measured quantities.",
+    "comparison": "Prior R8 chart described126 scenes, six days and twelve planned outcomes with activity/pressure/attention on three levels. This publication has138 scenes, four days and six. The same category family is retained, but the new annotations are re-read from current captions; old target curves are not imported. Warmth is a categorical band.",
+    "wordCount": "Whitespace-delimited tokens in narrative paragraphs only."
+  },
+  "rubric": {
+    "scale": {
+      "1": "Low",
+      "2": "Medium",
+      "3": "High"
+    },
+    "activity": "Editorial action emphasis: low looking/listening/rest; medium deliberate gestures, travel or practical work; high vigorous jump/splash, chase or coordinated heavy movement. Not physical speed measurement.",
+    "comicPressure": "Editorial unresolved nuisance: low no active problem or settled outcome; medium continuing but managed source/inconvenience; high immediate spill, blockage, multiplication or obstruction. Never danger, fear, fatigue or measured audience stress. Background water stays medium from recognition28 until cessation132, even during warm pauses.",
+    "attention": "Editorial learning/discovery emphasis: low routine or uncomplicated play; medium noticing, intention or application; high comparing the task, testing the channel, asking about the source or testing/reversing the circle. Not measured child attention.",
+    "warmthBand": {
+      "foregrounded": "Family play, care, reunion or collaboration is the focal beat.",
+      "supporting": "Friendly presence or help supports the main beat.",
+      "not-foregrounded": "The task, individual discovery or nuisance is foregrounded; not a claim that the image feels cold."
+    },
+    "beatRoles": {
+      "S": "setup",
+      "I": "intention",
+      "A": "attempt",
+      "U": "surprise",
+      "R": "reaction",
+      "P": "practicalresponse",
+      "B": "breath",
+      "E": "resolution"
+    },
+    "waterState": "Independent objective continuity track: routing water is not magical source cessation."
+  },
+  "days": [
+    {
+      "day": 1,
+      "start": 1,
+      "end": 67,
+      "sceneCount": 67,
+      "wordCounts": {
+        "en": 848,
+        "ru": 720
+      }
+    },
+    {
+      "day": 2,
+      "start": 68,
+      "end": 80,
+      "sceneCount": 13,
+      "wordCounts": {
+        "en": 136,
+        "ru": 111
+      }
+    },
+    {
+      "day": 3,
+      "start": 81,
+      "end": 102,
+      "sceneCount": 22,
+      "wordCounts": {
+        "en": 217,
+        "ru": 189
+      }
+    },
+    {
+      "day": 4,
+      "start": 103,
+      "end": 138,
+      "sceneCount": 36,
+      "wordCounts": {
+        "en": 383,
+        "ru": 328
+      }
+    }
+  ],
+  "sequences": [
+    {
+      "id": "morning",
+      "start": 1,
+      "end": 4,
+      "title": "The morning task",
+      "summary": "A familiar family morning gives the water errand a purpose.",
+      "sceneCount": 4
+    },
+    {
+      "id": "water-trip",
+      "start": 5,
+      "end": 17,
+      "title": "The spring trip and home arrivals",
+      "summary": "Empty-to-full buckets establish the work that the shortcut will replace; friendship and bird splashes supply a small early joke.",
+      "sceneCount": 13
+    },
+    {
+      "id": "shortcut",
+      "start": 18,
+      "end": 27,
+      "title": "The shortcut works—at first",
+      "summary": "Too little water prompts an idea, a spell and a sustained interval of delighted discovery.",
+      "sceneCount": 10
+    },
+    {
+      "id": "overflow",
+      "start": 28,
+      "end": 34,
+      "title": "The water will not stop",
+      "summary": "Polite requests fail; the family peeks in and starts practical containment.",
+      "sceneCount": 7
+    },
+    {
+      "id": "splash",
+      "start": 35,
+      "end": 43,
+      "title": "Papa's splash and the family bath",
+      "summary": "Papa converts the inconvenience into shared play; the jump has anticipation, impact and a reaction before quiet underwater discovery.",
+      "sceneCount": 9
+    },
+    {
+      "id": "tea",
+      "start": 44,
+      "end": 49,
+      "title": "Tea, then the practical question",
+      "summary": "A shared pause is interrupted by Mama noticing the continuing overflow; Papa proposes help and they protect the bedroom.",
+      "sceneCount": 6
+    },
+    {
+      "id": "beaver",
+      "start": 50,
+      "end": 59,
+      "title": "Beaver's plan and prototype",
+      "summary": "Travel, explanation, a downhill experiment and collaborative preparation make the channel solution legible.",
+      "sceneCount": 10
+    },
+    {
+      "id": "channel",
+      "start": 60,
+      "end": 67,
+      "title": "A road for the water",
+      "summary": "The family installs the tested design, succeeds in routing the spill and settles down; the source audibly remains active.",
+      "sceneCount": 8
+    },
+    {
+      "id": "flowers",
+      "start": 68,
+      "end": 80,
+      "title": "Day two: flowers instead of a stop",
+      "summary": "Domestic life adjusts to the gutter; a stopping spell produces flowers, then a clog, then a practical clearing response.",
+      "sceneCount": 13
+    },
+    {
+      "id": "talking-duck",
+      "start": 81,
+      "end": 90,
+      "title": "Breakfast, intention and a talking duck",
+      "summary": "Thinking over breakfast leads to a flower-removal spell, an unexpected voice and time for several listening reactions.",
+      "sceneCount": 10
+    },
+    {
+      "id": "duck-family",
+      "start": 91,
+      "end": 102,
+      "title": "The duck's ride becomes twelve ducks",
+      "summary": "The channel becomes a ride. A request for quiet multiplies the noise, and the family gives the ducks a pool.",
+      "sceneCount": 12
+    },
+    {
+      "id": "giant-plant",
+      "start": 103,
+      "end": 116,
+      "title": "A plant that will not fit",
+      "summary": "Making room for ducks grows a plant; corner relocation works briefly, renewed growth motivates a second move outside.",
+      "sceneCount": 14
+    },
+    {
+      "id": "bubbles",
+      "start": 117,
+      "end": 123,
+      "title": "Petals become floating bubbles",
+      "summary": "A cleanup intention produces floating bubbles; a missed catch leads to a cooperative towel rescue and a final splat.",
+      "sceneCount": 7
+    },
+    {
+      "id": "reverse",
+      "start": 124,
+      "end": 132,
+      "title": "Look, test, reverse",
+      "summary": "The method changes from another command to observing the source, testing a small reversal, noticing its limit and completing it.",
+      "sceneCount": 9
+    },
+    {
+      "id": "lake",
+      "start": 133,
+      "end": 138,
+      "title": "Cleanup and a home for the ducks",
+      "summary": "Removing the now-unneeded gutter proves closure; the family brings the surviving ducks to a real lake.",
+      "sceneCount": 6
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "id": "scene-01",
+      "day": 1,
+      "paragraphs": {
+        "en": [
+          "A stripe of sunshine tickled PinPin’s nose. Beside him, Mama opened her eyes."
+        ],
+        "ru": [
+          "Солнечный лучик пощекотал Пин-Пину нос. Рядом Мама открыла глаза."
+        ]
+      },
+      "image": "images/published/bath-magic/scene-01.webp",
+      "imageURL": "https://mr-pinpin.github.io/storyboard/images/published/bath-magic/scene-01.webp",
+      "wordCounts": {
+        "en": 13,
+        "ru": 9
+      },
+      "sequenceId": "morning",
+      "beatRole": "breath",
+      "editorial": {
+        "activity": 1,
+        "comicPressure": 1,
+        "attention": 1
+      },
+      "evidence": {
+        "caption": "A stripe of sunshine tickled PinPin’s nose. Beside him, Mama opened her eyes.",
+        "visual": null,
+        "visualInspected": false
+      },
+      "waterState": "not-started",
+      "warmthBand": "foregrounded"
+    },
+    {
+      "number": 2,
+      "id": "scene-02",
+      "day": 1,
+      "paragraphs": {
+        "en": [
+          "Mama stirred the porridge. Papa bounced little PomPom on his knee."
+        ],
+        "ru": [
+          "Мама помешивала кашу. Папа покачивал маленького Пом-Пома на коленях."
+        ]
+      },
+      "image": "images/published/bath-magic/scene-02.webp",
+      "imageURL": "https://mr-pinpin.github.io/storyboard/images/published/bath-magic/scene-02.webp",
+      "wordCounts": {
+        "en": 11,
+        "ru": 9
+      },
+      "sequenceId": "morning",
+      "beatRole": "setup",
+      "editorial": {
+        "activity": 2,
+        "comicPressure": 1,
+        "attention": 1
+      },
+      "evidence": {
+        "caption": "Mama stirred the porridge. Papa bounced little PomPom on his knee.",
+        "visual": null,
+        "visualInspected": false
+      },
+      "waterState": "not-started",
+      "warmthBand": "foregrounded"
+    },
+    {
+      "number": 3,
+      "id": "scene-03",
+      "day": 1,
+      "paragraphs": {
+        "en": [
+          "PinPin watched the warm little clouds above Mama’s pot. Mama smiled down at him."
+        ],
+        "ru": [
+          "Пин-Пин смотрел на тёплые облачка над Маминой кастрюлькой. Мама улыбнулась ему."
+        ]
+      },
+      "image": "images/published/bath-magic/scene-03.webp",
+      "imageURL": "https://mr-pinpin.github.io/storyboard/images/published/bath-magic/scene-03.webp",
+      "wordCounts": {
+        "en": 14,
+        "ru": 11
+      },
+      "sequenceId": "morning",
+      "beatRole": "breath",
+      "editorial": {
+        "activity": 1,
+        "comicPressure": 1,
+        "attention": 1
+      },
+      "evidence": {
+        "caption": "PinPin watched the warm little clouds above Mama’s pot. Mama smiled down at him.",
+        "visual": null,
+        "visualInspected": false
+      },
+      "waterState": "not-started",
+      "warmthBand": "foregrounded"
+    },
+    {
+      "number": 4,
+      "id": "scene-04",
+      "day": 1,
+      "paragraphs": {
+        "en": [
+          "“Please bring some water for the bath,” said Mama. PinPin picked up the two little buckets."
+        ],
+        "ru": [
+          "«Принеси, пожалуйста, воды для ванны», — сказала мама. Пин-Пин взял два маленьких ведёрка."
+        ]
+      },
+      "image": "images/published/bath-magic/scene-04.webp",
+      "imageURL": "https://mr-pinpin.github.io/storyboard/images/published/bath-magic/scene-04.webp",
+      "wordCounts": {
+        "en": 16,
+        "ru": 13
+      },
+      "sequenceId": "morning",
+      "beatRole": "intention",
+      "editorial": {
+        "activity": 2,
+        "comicPressure": 1,
+        "attention": 2
+      },
+      "evidence": {
+        "caption": "“Please bring some water for the bath,” said Mama. PinPin picked up the two little buckets.",
+        "visual": null,
+        "visualInspected": false
+      },
+      "waterState": "not-started",
+      "warmthBand": "supporting"
+    },
+    {
+      "number": 5,
+      "id": "scene-04a",
+      "day": 1,
+      "paragraphs": {
+        "en": [
+          "Out through the front door he went. The empty buckets swung beside his knees."
+        ],
+        "ru": [
+          "Он вышел через входную дверь. Пустые ведёрки покачивались у его коленок."
+        ]
+      },
+      "image": "images/published/bath-magic/scene-04a.webp",
+      "imageURL": "https://mr-pinpin.github.io/storyboard/images/published/bath-magic/scene-04a.webp",
+      "wordCounts": {
+        "en": 14,
+        "ru": 11
+      },
+      "sequenceId": "water-trip",
+      "beatRole": "practicalresponse",
+      "editorial": {
+        "activity": 2,
+        "comicPressure": 1,
+        "attention": 1
+      },
+      "evidence": {
+        "caption": "Out through the front door he went. The empty buckets swung beside his knees.",
+        "visual": "Exterior doorway: Mama watches PinPin leave with two wooden buckets.",
+        "visualInspected": true
+      },
+      "waterState": "not-started",
+      "warmthBand": "not-foregrounded"
+    },
+    {
+      "number": 6,
+      "id": "scene-04b",
+      "day": 1,
+      "paragraphs": {
+        "en": [
+          "“Good morning, PinPin!” called his rabbit friend. “Where are you going?”"
+        ],
+        "ru": [
+          "«Доброе утро, Пин-Пин! — позвал его друг Кролик. — Ты куда?»"
+        ]
+      },
+      "image": "images/published/bath-magic/scene-04b.webp",
+      "imageURL": "https://mr-pinpin.github.io/storyboard/images/published/bath-magic/scene-04b.webp",
+      "wordCounts": {
+        "en": 11,
+        "ru": 11
+      },
+      "sequenceId": "water-trip",
+      "beatRole": "setup",
+      "editorial": {
+        "activity": 1,
+        "comicPressure": 1,
+        "attention": 1
+      },
+      "evidence": {
+        "caption": "“Good morning, PinPin!” called his rabbit friend. “Where are you going?”",
+        "visual": null,
+        "visualInspected": false
+      },
+      "waterState": "not-started",
+      "warmthBand": "foregrounded"
+    },
+    {
+      "number": 7,
+      "id": "scene-04c",
+      "day": 1,
+      "paragraphs": {
+        "en": [
+          "“To fetch water for our bath.” PinPin showed his empty bucket. “I’ll come with you,” said Rabbit."
+        ],
+        "ru": [
+          "«За водой для нашей ванны». Пин-Пин показал пустое ведёрко. «Я с тобой», — сказал Кролик."
+        ]
+      },
+      "image": "images/published/bath-magic/scene-04c.webp",
+      "imageURL": "https://mr-pinpin.github.io/storyboard/images/published/bath-magic/scene-04c.webp",
+      "wordCounts": {
+        "en": 17,
+        "ru": 15
+      },
+      "sequenceId": "water-trip",
+      "beatRole": "intention",
+      "editorial": {
+        "activity": 1,
+        "comicPressure": 1,
+        "attention": 2
+      },
+      "evidence": {
+        "caption": "“To fetch water for our bath.” PinPin showed his empty bucket. “I’ll come with you,” said Rabbit.",
+        "visual": null,
+        "visualInspected": false
+      },
+      "waterState": "not-started",
+      "warmthBand": "foregrounded"
+    },
+    {
+      "number": 8,
+      "id": "scene-04d",
+      "day": 1,
+      "paragraphs": {
+        "en": [
+          "The spring splashed over the stones. “Hello, PinPin!” chirped two little birds."
+        ],
+        "ru": [
+          "Родник журчал по камешкам. «Привет, Пин-Пин!» — защебетали две птички."
+        ]
+      },
+      "image": "images/published/bath-magic/scene-04d.webp",
+      "imageURL": "https://mr-pinpin.github.io/storyboard/images/published/bath-magic/scene-04d.webp",
+      "wordCounts": {
+        "en": 12,
+        "ru": 10
+      },
+      "sequenceId": "water-trip",
+      "beatRole": "setup",
+      "editorial": {
+        "activity": 1,
+        "comicPressure": 1,
+        "attention": 1
+      },
+      "evidence": {
+        "caption": "The spring splashed over the stones. “Hello, PinPin!” chirped two little birds.",
+        "visual": null,
+        "visualInspected": false
+      },
+      "waterState": "not-started",
+      "warmthBand": "foregrounded"
+    },
+    {
+      "number": 9,
+      "id": "scene-05",
+      "day": 1,
+      "paragraphs": {
+        "en": [
+          "PinPin held the first bucket under the stream. Glug, glug, glug."
+        ],
+        "ru": [
+          "Пин-Пин подставил первое ведёрко под струйку. Буль-буль-буль."
+        ]
+      },
+      "image": "images/published/bath-magic/scene-05.webp",
+      "imageURL": "https://mr-pinpin.github.io/storyboard/images/published/bath-magic/scene-05.webp",
+      "wordCounts": {
+        "en": 11,
+        "ru": 7
+      },
+      "sequenceId": "water-trip",
+      "beatRole": "practicalresponse",
+      "editorial": {
+        "activity": 2,
+        "comicPressure": 1,
+        "attention": 1
+      },
+      "evidence": {
+        "caption": "PinPin held the first bucket under the stream. Glug, glug, glug.",
+        "visual": null,
+        "visualInspected": false
+      },
+      "waterState": "not-started",
+      "warmthBand": "not-foregrounded"
+    },
+    {
+      "number": 10,
+      "id": "scene-05a",
+      "day": 1,
+      "paragraphs": {
+        "en": [
+          "The little bird shook its wet feathers all around PinPin. “My bath has started!”"
+        ],
+        "ru": [
+          "Птичка отряхнула мокрые пёрышки и обрызгала Пин-Пина. «Моё купание уже началось!»"
+        ]
+      },
+      "image": "images/published/bath-magic/scene-05a.webp",
+      "imageURL": "https://mr-pinpin.github.io/storyboard/images/published/bath-magic/scene-05a.webp",
+      "wordCounts": {
+        "en": 14,
+        "ru": 11
+      },
+      "sequenceId": "water-trip",
+      "beatRole": "surprise",
+      "editorial": {
+        "activity": 2,
+        "comicPressure": 1,
+        "attention": 1
+      },
+      "evidence": {
+        "caption": "The little bird shook its wet feathers all around PinPin. “My bath has started!”",
+        "visual": "PinPin, rabbit, wet bird and filled bucket share the spring setting.",
+        "visualInspected": true
+      },
+      "waterState": "not-started",
+      "warmthBand": "foregrounded"
+    },
+    {
+      "number": 11,
+      "id": "scene-05b",
+      "day": 1,
+      "paragraphs": {
+        "en": [
+          "Rabbit steadied the full bucket. PinPin filled the other one."
+        ],
+        "ru": [
+          "Кролик придержал полное ведёрко. Пин-Пин наполнил второе."
+        ]
+      },
+      "image": "images/published/bath-magic/scene-05b.webp",
+      "imageURL": "https://mr-pinpin.github.io/storyboard/images/published/bath-magic/scene-05b.webp",
+      "wordCounts": {
+        "en": 10,
+        "ru": 7
+      },
+      "sequenceId": "water-trip",
+      "beatRole": "practicalresponse",
+      "editorial": {
+        "activity": 2,
+        "comicPressure": 1,
+        "attention": 1
+      },
+      "evidence": {
+        "caption": "Rabbit steadied the full bucket. PinPin filled the other one.",
+        "visual": null,
+        "visualInspected": false
+      },
+      "waterState": "not-started",
+      "warmthBand": "foregrounded"
+    },
+    {
+      "number": 12,
+      "id": "scene-05c",
+      "day": 1,
+      "paragraphs": {
+        "en": [
+          "“See you later!” called PinPin. This time the buckets swung very little."
+        ],
+        "ru": [
+          "«До встречи!» — сказал Пин-Пин. Теперь ведёрки почти не качались."
+        ]
+      },
+      "image": "images/published/bath-magic/scene-05c.webp",
+      "imageURL": "https://mr-pinpin.github.io/storyboard/images/published/bath-magic/scene-05c.webp",
+      "wordCounts": {
+        "en": 12,
+        "ru": 10
+      },
+      "sequenceId": "water-trip",
+      "beatRole": "resolution",
+      "editorial": {
+        "activity": 2,
+        "comicPressure": 1,
+        "attention": 1
+      },
+      "evidence": {
+        "caption": "“See you later!” called PinPin. This time the buckets swung very little.",
+        "visual": null,
+        "visualInspected": false
+      },
+      "waterState": "not-started",
+      "warmthBand": "foregrounded"
+    },
+    {
+      "number": 13,
+      "id": "scene-05d",
+      "day": 1,
+      "paragraphs": {
+        "en": [
+          "“Two buckets, Mama!” Mama held the door open. “The bath is waiting.”"
+        ],
+        "ru": [
+          "«Два ведёрка, мама!» Мама придержала дверь. «Ванна тебя ждёт»."
+        ]
+      },
+      "image": "images/published/bath-magic/scene-05d.webp",
+      "imageURL": "https://mr-pinpin.github.io/storyboard/images/published/bath-magic/scene-05d.webp",
+      "wordCounts": {
+        "en": 12,
+        "ru": 9
+      },
+      "sequenceId": "water-trip",
+      "beatRole": "resolution",
+      "editorial": {
+        "activity": 1,
+        "comicPressure": 1,
+        "attention": 1
+      },
+      "evidence": {
+        "caption": "“Two buckets, Mama!” Mama held the door open. “The bath is waiting.”",
+        "visual": null,
+        "visualInspected": false
+      },
+      "waterState": "not-started",
+      "warmthBand": "foregrounded"
+    },
+    {
+      "number": 14,
+      "id": "scene-05e",
+      "day": 1,
+      "paragraphs": {
+        "en": [
+          "Scooby dug a hole beside the path. Papa rescued a little plant."
+        ],
+        "ru": [
+          "Скуби выкопал ямку у дорожки. Папа спас маленькое растение."
+        ]
+      },
+      "image": "images/published/bath-magic/scene-05e.webp",
+      "imageURL": "https://mr-pinpin.github.io/storyboard/images/published/bath-magic/scene-05e.webp",
+      "wordCounts": {
+        "en": 12,
+        "ru": 9
+      },
+      "sequenceId": "water-trip",
+      "beatRole": "surprise",
+      "editorial": {
+        "activity": 2,
+        "comicPressure": 1,
+        "attention": 1
+      },
+      "evidence": {
+        "caption": "Scooby dug a hole beside the path. Papa rescued a little plant.",
+        "visual": null,
+        "visualInspected": false
+      },
+      "waterState": "not-started",
+      "warmthBand": "supporting"
+    },
+    {
+      "number": 15,
+      "id": "scene-05f",
+      "day": 1,
+      "paragraphs": {
+        "en": [
+          "“This way, Scooby!” said Papa. Off they went, side by side."
+        ],
+        "ru": [
+          "«Сюда, Скуби!» — сказал Папа. И они пошли рядом друг с другом."
+        ]
+      },
+      "image": "images/published/bath-magic/scene-05f.webp",
+      "imageURL": "https://mr-pinpin.github.io/storyboard/images/published/bath-magic/scene-05f.webp",
+      "wordCounts": {
+        "en": 11,
+        "ru": 12
+      },
+      "sequenceId": "water-trip",
+      "beatRole": "practicalresponse",
+      "editorial": {
+        "activity": 2,
+        "comicPressure": 1,
+        "attention": 1
+      },
+      "evidence": {
+        "caption": "“This way, Scooby!” said Papa. Off they went, side by side.",
+        "visual": null,
+        "visualInspected": false
+      },
+      "waterState": "not-started",
+      "warmthBand": "supporting"
+    },
+    {
+      "number": 16,
+      "id": "scene-05g",
+      "day": 1,
+      "paragraphs": {
+        "en": [
+          "Papa pushed open the green door and looked back. “Come on, Scooby!”"
+        ],
+        "ru": [
+          "Папа открыл зелёную дверь и оглянулся. «Заходи, Скуби!»"
+        ]
+      },
+      "image": "images/published/bath-magic/scene-05g.webp",
+      "imageURL": "https://mr-pinpin.github.io/storyboard/images/published/bath-magic/scene-05g.webp",
+      "wordCounts": {
+        "en": 12,
+        "ru": 8
+      },
+      "sequenceId": "water-trip",
+      "beatRole": "practicalresponse",
+      "editorial": {
+        "activity": 2,
+        "comicPressure": 1,
+        "attention": 1
+      },
+      "evidence": {
+        "caption": "Papa pushed open the green door and looked back. “Come on, Scooby!”",
+        "visual": null,
+        "visualInspected": false
+      },
+      "waterState": "not-started",
+      "warmthBand": "foregrounded"
+    },
+    {
+      "number": 17,
+      "id": "scene-06",
+      "day": 1,
+      "paragraphs": {
+        "en": [
+          "PinPin carried the buckets carefully. A little splash landed on his toes."
+        ],
+        "ru": [
+          "Пин-Пин осторожно понёс ведёрки. Немного воды плеснуло ему на лапки."
+        ]
+      },
+      "image": "images/published/bath-magic/scene-06.webp",
+      "imageURL": "https://mr-pinpin.github.io/storyboard/images/published/bath-magic/scene-06.webp",
+      "wordCounts": {
+        "en": 12,
+        "ru": 10
+      },
+      "sequenceId": "water-trip",
+      "beatRole": "practicalresponse",
+      "editorial": {
+        "activity": 2,
+        "comicPressure": 1,
+        "attention": 1
+      },
+      "evidence": {
+        "caption": "PinPin carried the buckets carefully. A little splash landed on his toes.",
+        "visual": null,
+        "visualInspected": false
+      },
+      "waterState": "not-started",
+      "warmthBand": "not-foregrounded"
+    },
+    {
+      "number": 18,
+      "id": "scene-07",
+      "day": 1,
+      "paragraphs": {
+        "en": [
+          "He poured both buckets into the bath. The bottom was only just covered."
+        ],
+        "ru": [
+          "Он вылил оба ведёрка в ванну. Вода едва покрыла дно."
+        ]
+      },
+      "image": "images/published/bath-magic/scene-07.webp",
+      "imageURL": "https://mr-pinpin.github.io/storyboard/images/published/bath-magic/scene-07.webp",
+      "wordCounts": {
+        "en": 13,
+        "ru": 10
+      },
+      "sequenceId": "shortcut",
+      "beatRole": "setup",
+      "editorial": {
+        "activity": 2,
+        "comicPressure": 1,
+        "attention": 2
+      },
+      "evidence": {
+        "caption": "He poured both buckets into the bath. The bottom was only just covered.",
+        "visual": null,
+        "visualInspected": false
+      },
+      "waterState": "not-started",
+      "warmthBand": "not-foregrounded"
+    },
+    {
+      "number": 19,
+      "id": "scene-08",
+      "day": 1,
+      "paragraphs": {
+        "en": [
+          "PinPin peered into the clear water. His little face peered back."
+        ],
+        "ru": [
+          "Пин-Пин заглянул в чистую воду. Его мордашка смотрела на него."
+        ]
+      },
+      "image": "images/published/bath-magic/scene-08.webp",
+      "imageURL": "https://mr-pinpin.github.io/storyboard/images/published/bath-magic/scene-08.webp",
+      "wordCounts": {
+        "en": 11,
+        "ru": 10
+      },
+      "sequenceId": "shortcut",
+      "beatRole": "breath",
+      "editorial": {
+        "activity": 1,
+        "comicPressure": 1,
+        "attention": 2
+      },
+      "evidence": {
+        "caption": "PinPin peered into the clear water. His little face peered back.",
+        "visual": null,
+        "visualInspected": false
+      },
+      "waterState": "not-started",
+      "warmthBand": "not-foregrounded"
+    },
+    {
+      "number": 20,
+      "id": "scene-09",
+      "day": 1,
+      "paragraphs": {
+        "en": [
+          "He looked at the buckets, then at the big bath. “That will take lots of trips.”"
+        ],
+        "ru": [
+          "Он посмотрел на ведёрки, потом на большую ванну. — Это сколько же раз ходить!"
+        ]
+      },
+      "image": "images/published/bath-magic/scene-09.webp",
+      "imageURL": "https://mr-pinpin.github.io/storyboard/images/published/bath-magic/scene-09.webp",
+      "wordCounts": {
+        "en": 16,
+        "ru": 14
+      },
+      "sequenceId": "shortcut",
+      "beatRole": "intention",
+      "editorial": {
+        "activity": 1,
+        "comicPressure": 1,
+        "attention": 3
+      },
+      "evidence": {
+        "caption": "He looked at the buckets, then at the big bath. “That will take lots of trips.”",
+        "visual": "Small PinPin and buckets beside the substantially larger wooden bath make the scale comparison visible.",
+        "visualInspected": true
+      },
+      "waterState": "not-started",
+      "warmthBand": "not-foregrounded"
+    },
+    {
+      "number": 21,
+      "id": "scene-10",
+      "day": 1,
+      "paragraphs": {
+        "en": [
+          "PinPin’s eyes lit up. “I could make the water come here!”"
+        ],
+        "ru": [
+          "Глаза Пин-Пина загорелись. — А я могу сделать воду прямо здесь!"
+        ]
+      },
+      "image": "images/published/bath-magic/scene-10.webp",
+      "imageURL": "https://mr-pinpin.github.io/storyboard/images/published/bath-magic/scene-10.webp",
+      "wordCounts": {
+        "en": 11,
+        "ru": 11
+      },
+      "sequenceId": "shortcut",
+      "beatRole": "intention",
+      "editorial": {
+        "activity": 2,
+        "comicPressure": 1,
+        "attention": 3
+      },
+      "evidence": {
+        "caption": "PinPin’s eyes lit up. “I could make the water come here!”",
+        "visual": null,
+        "visualInspected": false
+      },
+      "waterState": "not-started",
+      "warmthBand": "not-foregrounded"
+    },
+    {
+      "number": 22,
+      "id": "scene-11",
+      "day": 1,
+      "paragraphs": {
+        "en": [
+          "“Round and round… just so!” PinPin traced a golden circle."
+        ],
+        "ru": [
+          "«Круг за кругом… вот так!» Пин-Пин обвёл золотой круг."
+        ]
+      },
+      "image": "images/published/bath-magic/scene-11.webp",
+      "imageURL": "https://mr-pinpin.github.io/storyboard/images/published/bath-magic/scene-11.webp",
+      "wordCounts": {
+        "en": 10,
+        "ru": 9
+      },
+      "sequenceId": "shortcut",
+      "beatRole": "attempt",
+      "editorial": {
+        "activity": 2,
+        "comicPressure": 1,
+        "attention": 3
+      },
+      "evidence": {
+        "caption": "“Round and round… just so!” PinPin traced a golden circle.",
+        "visual": null,
+        "visualInspected": false
+      },
+      "waterState": "not-started",
+      "warmthBand": "not-foregrounded"
+    },
+    {
+      "number": 23,
+      "id": "scene-12",
+      "day": 1,
+      "paragraphs": {
+        "en": [
+          "Drip, drip—then a little stream! PinPin’s eyes opened wide."
+        ],
+        "ru": [
+          "Кап, кап — и побежала струйка! Пин-Пин раскрыл глаза."
+        ]
+      },
+      "image": "images/published/bath-magic/scene-12.webp",
+      "imageURL": "https://mr-pinpin.github.io/storyboard/images/published/bath-magic/scene-12.webp",
+      "wordCounts": {
+        "en": 9,
+        "ru": 9
+      },
+      "sequenceId": "shortcut",
+      "beatRole": "surprise",
+      "editorial": {
+        "activity": 2,
+        "comicPressure": 1,
+        "attention": 3
+      },
+      "evidence": {
+        "caption": "Drip, drip—then a little stream! PinPin’s eyes opened wide.",
+        "visual": null,
+        "visualInspected": false
+      },
+      "waterState": "flowing-uncontained",
+      "warmthBand": "not-foregrounded"
+    },
+    {
+      "number": 24,
+      "id": "scene-13",
+      "day": 1,
+      "paragraphs": {
+        "en": [
+          "He rested his paws on the rim. Round little ripples spread beneath them."
+        ],
+        "ru": [
+          "Он положил лапки на край ванны. Внизу разбегались круглые волны."
+        ]
+      },
+      "image": "images/published/bath-magic/scene-13.webp",
+      "imageURL": "https://mr-pinpin.github.io/storyboard/images/published/bath-magic/scene-13.webp",
+      "wordCounts": {
+        "en": 13,
+        "ru": 10
+      },
+      "sequenceId": "shortcut",
+      "beatRole": "breath",
+      "editorial": {
+        "activity": 1,
+        "comicPressure": 1,
+        "attention": 2
+      },
+      "evidence": {
+        "caption": "He rested his paws on the rim. Round little ripples spread beneath them.",
+        "visual": null,
+        "visualInspected": false
+      },
+      "waterState": "flowing-uncontained",
+      "warmthBand": "not-foregrounded"
+    },
+    {
+      "number": 25,
+      "id": "scene-14",
+      "day": 1,
+      "paragraphs": {
+        "en": [
+          "PinPin listened to the little splashes. He liked this very much."
+        ],
+        "ru": [
+          "Пин-Пин слушал тихий плеск. Как же ему это нравилось!"
+        ]
+      },
+      "image": "images/published/bath-magic/scene-14.webp",
+      "imageURL": "https://mr-pinpin.github.io/storyboard/images/published/bath-magic/scene-14.webp",
+      "wordCounts": {
+        "en": 11,
+        "ru": 9
+      },
+      "sequenceId": "shortcut",
+      "beatRole": "breath",
+      "editorial": {
+        "activity": 1,
+        "comicPressure": 1,
+        "attention": 2
+      },
+      "evidence": {
+        "caption": "PinPin listened to the little splashes. He liked this very much.",
+        "visual": null,
+        "visualInspected": false
+      },
+      "waterState": "flowing-uncontained",
+      "warmthBand": "supporting"
+    },
+    {
+      "number": 26,
+      "id": "scene-15",
+      "day": 1,
+      "paragraphs": {
+        "en": [
+          "He drew little ripples with his paw. Round and round they went."
+        ],
+        "ru": [
+          "Он провёл лапкой по воде. По воде разбежались круги."
+        ]
+      },
+      "image": "images/published/bath-magic/scene-15.webp",
+      "imageURL": "https://mr-pinpin.github.io/storyboard/images/published/bath-magic/scene-15.webp",
+      "wordCounts": {
+        "en": 12,
+        "ru": 9
+      },
+      "sequenceId": "shortcut",
+      "beatRole": "breath",
+      "editorial": {
+        "activity": 2,
+        "comicPressure": 1,
+        "attention": 2
+      },
+      "evidence": {
+        "caption": "He drew little ripples with his paw. Round and round they went.",
+        "visual": null,
+        "visualInspected": false
+      },
+      "waterState": "flowing-uncontained",
+      "warmthBand": "not-foregrounded"
+    },
+    {
+      "number": 27,
+      "id": "scene-16",
+      "day": 1,
+      "paragraphs": {
+        "en": [
+          "The water rose higher. Soon the bath was full."
+        ],
+        "ru": [
+          "Вода поднималась всё выше. Скоро ванна наполнилась."
+        ]
+      },
+      "image": "images/published/bath-magic/scene-16.webp",
+      "imageURL": "https://mr-pinpin.github.io/storyboard/images/published/bath-magic/scene-16.webp",
+      "wordCounts": {
+        "en": 9,
+        "ru": 7
+      },
+      "sequenceId": "shortcut",
+      "beatRole": "setup",
+      "editorial": {
+        "activity": 2,
+        "comicPressure": 1,
+        "attention": 2
+      },
+      "evidence": {
+        "caption": "The water rose higher. Soon the bath was full.",
+        "visual": null,
+        "visualInspected": false
+      },
+      "waterState": "flowing-uncontained",
+      "warmthBand": "not-foregrounded"
+    },
+    {
+      "number": 28,
+      "id": "scene-17",
+      "day": 1,
+      "paragraphs": {
+        "en": [
+          "“That’s enough,” said PinPin. The water kept coming."
+        ],
+        "ru": [
+          "— Хватит уже, — сказал Пин-Пин. А вода всё лилась."
+        ]
+      },
+      "image": "images/published/bath-magic/scene-17.webp",
+      "imageURL": "https://mr-pinpin.github.io/storyboard/images/published/bath-magic/scene-17.webp",
+      "wordCounts": {
+        "en": 8,
+        "ru": 10
+      },
+      "sequenceId": "overflow",
+      "beatRole": "reaction",
+      "editorial": {
+        "activity": 1,
+        "comicPressure": 3,
+        "attention": 2
+      },
+      "evidence": {
+        "caption": "“That’s enough,” said PinPin. The water kept coming.",
+        "visual": null,
+        "visualInspected": false
+      },
+      "waterState": "flowing-uncontained",
+      "warmthBand": "not-foregrounded"
+    },
+    {
+      "number": 29,
+      "id": "scene-18",
+      "day": 1,
+      "paragraphs": {
+        "en": [
+          "“Thank you. That’s enough!” A ribbon of water slipped over the edge."
+        ],
+        "ru": [
+          "— Спасибо, уже хватит! — Тонкая струйка перелилась через край."
+        ]
+      },
+      "image": "images/published/bath-magic/scene-18.webp",
+      "imageURL": "https://mr-pinpin.github.io/storyboard/images/published/bath-magic/scene-18.webp",
+      "wordCounts": {
+        "en": 12,
+        "ru": 10
+      },
+      "sequenceId": "overflow",
+      "beatRole": "surprise",
+      "editorial": {
+        "activity": 2,
+        "comicPressure": 3,
+        "attention": 2
+      },
+      "evidence": {
+        "caption": "“Thank you. That’s enough!” A ribbon of water slipped over the edge.",
+        "visual": "Water visibly spills over the wooden tub rim while PinPin watches.",
+        "visualInspected": true
+      },
+      "waterState": "flowing-uncontained",
+      "warmthBand": "not-foregrounded"
+    },
+    {
+      "number": 30,
+      "id": "scene-19",
+      "day": 1,
+      "paragraphs": {
+        "en": [
+          "PinPin caught the water in a bucket. “Papa, it won’t stop!”"
+        ],
+        "ru": [
+          "Пин-Пин подставил ведёрко. «Папа, вода не останавливается!»"
+        ]
+      },
+      "image": "images/published/bath-magic/scene-19.webp",
+      "imageURL": "https://mr-pinpin.github.io/storyboard/images/published/bath-magic/scene-19.webp",
+      "wordCounts": {
+        "en": 11,
+        "ru": 7
+      },
+      "sequenceId": "overflow",
+      "beatRole": "practicalresponse",
+      "editorial": {
+        "activity": 2,
+        "comicPressure": 3,
+        "attention": 2
+      },
+      "evidence": {
+        "caption": "PinPin caught the water in a bucket. “Papa, it won’t stop!”",
+        "visual": null,
+        "visualInspected": false
+      },
+      "waterState": "flowing-uncontained",
+      "warmthBand": "not-foregrounded"
+    },
+    {
+      "number": 31,
+      "id": "scene-19a",
+      "day": 1,
+      "paragraphs": {
+        "en": [
+          "Three faces peeked round the door. Papa looked over Mama, and PomPom looked out from her arms."
+        ],
+        "ru": [
+          "Из-за двери выглянули три лица. Папа смотрел над Мамой, а Пом-Пом — из её рук."
+        ]
+      },
+      "image": "images/published/bath-magic/scene-19a.webp",
+      "imageURL": "https://mr-pinpin.github.io/storyboard/images/published/bath-magic/scene-19a.webp",
+      "wordCounts": {
+        "en": 17,
+        "ru": 15
+      },
+      "sequenceId": "overflow",
+      "beatRole": "reaction",
+      "editorial": {
+        "activity": 2,
+        "comicPressure": 2,
+        "attention": 1
+      },
+      "evidence": {
+        "caption": "Three faces peeked round the door. Papa looked over Mama, and PomPom looked out from her arms.",
+        "visual": "Three family faces peek around the doorway, stacked at different heights.",
+        "visualInspected": true
+      },
+      "waterState": "flowing-uncontained",
+      "warmthBand": "foregrounded"
+    },
+    {
+      "number": 32,
+      "id": "scene-19b",
+      "day": 1,
+      "paragraphs": {
+        "en": [
+          "Papa followed the little stream with his eyes. Then the family came closer."
+        ],
+        "ru": [
+          "Папа проследил взглядом за ручейком. Потом семья подошла ближе."
+        ]
+      },
+      "image": "images/published/bath-magic/scene-19b.webp",
+      "imageURL": "https://mr-pinpin.github.io/storyboard/images/published/bath-magic/scene-19b.webp",
+      "wordCounts": {
+        "en": 13,
+        "ru": 9
+      },
+      "sequenceId": "overflow",
+      "beatRole": "reaction",
+      "editorial": {
+        "activity": 2,
+        "comicPressure": 2,
+        "attention": 2
+      },
+      "evidence": {
+        "caption": "Papa followed the little stream with his eyes. Then the family came closer.",
+        "visual": null,
+        "visualInspected": false
+      },
+      "waterState": "flowing-uncontained",
+      "warmthBand": "foregrounded"
+    },
+    {
+      "number": 33,
+      "id": "scene-20",
+      "day": 1,
+      "paragraphs": {
+        "en": [
+          "Papa looked at the stream, then at PinPin. He put the second bucket under the spill."
+        ],
+        "ru": [
+          "Папа посмотрел на струйку, потом на Пин-Пина. Он подставил второе ведёрко."
+        ]
+      },
+      "image": "images/published/bath-magic/scene-20.webp",
+      "imageURL": "https://mr-pinpin.github.io/storyboard/images/published/bath-magic/scene-20.webp",
+      "wordCounts": {
+        "en": 16,
+        "ru": 11
+      },
+      "sequenceId": "overflow",
+      "beatRole": "practicalresponse",
+      "editorial": {
+        "activity": 2,
+        "comicPressure": 2,
+        "attention": 1
+      },
+      "evidence": {
+        "caption": "Papa looked at the stream, then at PinPin. He put the second bucket under the spill.",
+        "visual": null,
+        "visualInspected": false
+      },
+      "waterState": "flowing-uncontained",
+      "warmthBand": "foregrounded"
+    },
+    {
+      "number": 34,
+      "id": "scene-21",
+      "day": 1,
+      "paragraphs": {
+        "en": [
+          "Mama put the towels up high. Papa felt the warm water with his paw."
+        ],
+        "ru": [
+          "Мама убрала полотенца повыше. Папа потрогал лапкой тёплую воду."
+        ]
+      },
+      "image": "images/published/bath-magic/scene-21.webp",
+      "imageURL": "https://mr-pinpin.github.io/storyboard/images/published/bath-magic/scene-21.webp",
+      "wordCounts": {
+        "en": 14,
+        "ru": 9
+      },
+      "sequenceId": "overflow",
+      "beatRole": "practicalresponse",
+      "editorial": {
+        "activity": 2,
+        "comicPressure": 2,
+        "attention": 1
+      },
+      "evidence": {
+        "caption": "Mama put the towels up high. Papa felt the warm water with his paw.",
+        "visual": null,
+        "visualInspected": false
+      },
+      "waterState": "flowing-uncontained",
+      "warmthBand": "foregrounded"
+    },
+    {
+      "number": 35,
+      "id": "scene-22",
+      "day": 1,
+      "paragraphs": {
+        "en": [
+          "“We are getting wet anyway,” said Papa. “Here I come!”"
+        ],
+        "ru": [
+          "«Мы и так уже мокрые, — сказал Папа. — Сейчас прыгну!»"
+        ]
+      },
+      "image": "images/published/bath-magic/scene-22.webp",
+      "imageURL": "https://mr-pinpin.github.io/storyboard/images/published/bath-magic/scene-22.webp",
+      "wordCounts": {
+        "en": 10,
+        "ru": 11
+      },
+      "sequenceId": "splash",
+      "beatRole": "intention",
+      "editorial": {
+        "activity": 2,
+        "comicPressure": 2,
+        "attention": 2
+      },
+      "evidence": {
+        "caption": "“We are getting wet anyway,” said Papa. “Here I come!”",
+        "visual": null,
+        "visualInspected": false
+      },
+      "waterState": "flowing-uncontained",
+      "warmthBand": "foregrounded"
+    },
+    {
+      "number": 36,
+      "id": "scene-23",
+      "day": 1,
+      "paragraphs": {
+        "en": [
+          "Up went Papa—both feet in the air!"
+        ],
+        "ru": [
+          "Папа подпрыгнул — обе лапы в воздухе!"
+        ]
+      },
+      "image": "images/published/bath-magic/scene-23.webp",
+      "imageURL": "https://mr-pinpin.github.io/storyboard/images/published/bath-magic/scene-23.webp",
+      "wordCounts": {
+        "en": 7,
+        "ru": 7
+      },
+      "sequenceId": "splash",
+      "beatRole": "attempt",
+      "editorial": {
+        "activity": 3,
+        "comicPressure": 2,
+        "attention": 2
+      },
+      "evidence": {
+        "caption": "Up went Papa—both feet in the air!",
+        "visual": null,
+        "visualInspected": false
+      },
+      "waterState": "flowing-uncontained",
+      "warmthBand": "foregrounded"
+    },
+    {
+      "number": 37,
+      "id": "scene-24",
+      "day": 1,
+      "paragraphs": {
+        "en": [
+          "SPLASH! Water flew onto everybody."
+        ],
+        "ru": [
+          "ПЛЮХ! Брызги полетели на всех."
+        ]
+      },
+      "image": "images/published/bath-magic/scene-24.webp",
+      "imageURL": "https://mr-pinpin.github.io/storyboard/images/published/bath-magic/scene-24.webp",
+      "wordCounts": {
+        "en": 5,
+        "ru": 5
+      },
+      "sequenceId": "splash",
+      "beatRole": "surprise",
+      "editorial": {
+        "activity": 3,
+        "comicPressure": 2,
+        "attention": 1
+      },
+      "evidence": {
+        "caption": "SPLASH! Water flew onto everybody.",
+        "visual": "Papa lands in the bath amid a broad splash; the family is gathered around.",
+        "visualInspected": true
+      },
+      "waterState": "flowing-uncontained",
+      "warmthBand": "foregrounded"
+    },
+    {
+      "number": 38,
+      "id": "scene-25",
+      "day": 1,
+      "paragraphs": {
+        "en": [
+          "PinPin blinked the drops away. Then he laughed."
+        ],
+        "ru": [
+          "Пин-Пин стряхнул капли с ресниц. И засмеялся."
+        ]
+      },
+      "image": "images/published/bath-magic/scene-25.webp",
+      "imageURL": "https://mr-pinpin.github.io/storyboard/images/published/bath-magic/scene-25.webp",
+      "wordCounts": {
+        "en": 8,
+        "ru": 7
+      },
+      "sequenceId": "splash",
+      "beatRole": "reaction",
+      "editorial": {
+        "activity": 2,
+        "comicPressure": 2,
+        "attention": 1
+      },
+      "evidence": {
+        "caption": "PinPin blinked the drops away. Then he laughed.",
+        "visual": null,
+        "visualInspected": false
+      },
+      "waterState": "flowing-uncontained",
+      "warmthBand": "foregrounded"
+    },
+    {
+      "number": 39,
+      "id": "scene-26",
+      "day": 1,
+      "paragraphs": {
+        "en": [
+          "“Come here, little one,” said Mama. She climbed in with PomPom in her arms."
+        ],
+        "ru": [
+          "«Иди ко мне, малыш», — сказала Мама. Она забралась в ванну с Пом-Помом на руках."
+        ]
+      },
+      "image": "images/published/bath-magic/scene-26.webp",
+      "imageURL": "https://mr-pinpin.github.io/storyboard/images/published/bath-magic/scene-26.webp",
+      "wordCounts": {
+        "en": 14,
+        "ru": 15
+      },
+      "sequenceId": "splash",
+      "beatRole": "practicalresponse",
+      "editorial": {
+        "activity": 2,
+        "comicPressure": 2,
+        "attention": 1
+      },
+      "evidence": {
+        "caption": "“Come here, little one,” said Mama. She climbed in with PomPom in her arms.",
+        "visual": null,
+        "visualInspected": false
+      },
+      "waterState": "flowing-uncontained",
+      "warmthBand": "foregrounded"
+    },
+    {
+      "number": 40,
+      "id": "scene-27",
+      "day": 1,
+      "paragraphs": {
+        "en": [
+          "“Me too!” said PinPin. Papa gave him a paw."
+        ],
+        "ru": [
+          "«И я!» — сказал Пин-Пин. Папа протянул ему лапу."
+        ]
+      },
+      "image": "images/published/bath-magic/scene-27.webp",
+      "imageURL": "https://mr-pinpin.github.io/storyboard/images/published/bath-magic/scene-27.webp",
+      "wordCounts": {
+        "en": 9,
+        "ru": 9
+      },
+      "sequenceId": "splash",
+      "beatRole": "practicalresponse",
+      "editorial": {
+        "activity": 2,
+        "comicPressure": 2,
+        "attention": 1
+      },
+      "evidence": {
+        "caption": "“Me too!” said PinPin. Papa gave him a paw.",
+        "visual": null,
+        "visualInspected": false
+      },
+      "waterState": "flowing-uncontained",
+      "warmthBand": "foregrounded"
+    },
+    {
+      "number": 41,
+      "id": "scene-28",
+      "day": 1,
+      "paragraphs": {
+        "en": [
+          "Now they were all in the bath. PomPom watched the splashes from Mama’s arms."
+        ],
+        "ru": [
+          "Теперь все были в ванне. Пом-Пом смотрел на брызги из Маминых объятий."
+        ]
+      },
+      "image": "images/published/bath-magic/scene-28.webp",
+      "imageURL": "https://mr-pinpin.github.io/storyboard/images/published/bath-magic/scene-28.webp",
+      "wordCounts": {
+        "en": 14,
+        "ru": 12
+      },
+      "sequenceId": "splash",
+      "beatRole": "breath",
+      "editorial": {
+        "activity": 2,
+        "comicPressure": 2,
+        "attention": 1
+      },
+      "evidence": {
+        "caption": "Now they were all in the bath. PomPom watched the splashes from Mama’s arms.",
+        "visual": null,
+        "visualInspected": false
+      },
+      "waterState": "flowing-uncontained",
+      "warmthBand": "foregrounded"
+    },
+    {
+      "number": 42,
+      "id": "scene-29",
+      "day": 1,
+      "paragraphs": {
+        "en": [
+          "PinPin dipped his face under the water. Bubbles tickled his cheeks."
+        ],
+        "ru": [
+          "Пин-Пин опустил мордочку в воду. Пузырьки пощекотали ему щёки."
+        ]
+      },
+      "image": "images/published/bath-magic/scene-29.webp",
+      "imageURL": "https://mr-pinpin.github.io/storyboard/images/published/bath-magic/scene-29.webp",
+      "wordCounts": {
+        "en": 11,
+        "ru": 9
+      },
+      "sequenceId": "splash",
+      "beatRole": "breath",
+      "editorial": {
+        "activity": 2,
+        "comicPressure": 2,
+        "attention": 1
+      },
+      "evidence": {
+        "caption": "PinPin dipped his face under the water. Bubbles tickled his cheeks.",
+        "visual": "Underwater close-up foregrounds PinPin's face and bubbles.",
+        "visualInspected": true
+      },
+      "waterState": "flowing-uncontained",
+      "warmthBand": "supporting"
+    },
+    {
+      "number": 43,
+      "id": "scene-30",
+      "day": 1,
+      "paragraphs": {
+        "en": [
+          "Their faces wobbled in the ripples. PomPom waved from Mama’s arms."
+        ],
+        "ru": [
+          "Лица отражались в волнах. Пом-Пом махал из Маминых объятий."
+        ]
+      },
+      "image": "images/published/bath-magic/scene-30.webp",
+      "imageURL": "https://mr-pinpin.github.io/storyboard/images/published/bath-magic/scene-30.webp",
+      "wordCounts": {
+        "en": 11,
+        "ru": 9
+      },
+      "sequenceId": "splash",
+      "beatRole": "breath",
+      "editorial": {
+        "activity": 2,
+        "comicPressure": 2,
+        "attention": 1
+      },
+      "evidence": {
+        "caption": "Their faces wobbled in the ripples. PomPom waved from Mama’s arms.",
+        "visual": null,
+        "visualInspected": false
+      },
+      "waterState": "flowing-uncontained",
+      "warmthBand": "foregrounded"
+    },
+    {
+      "number": 44,
+      "id": "scene-30a",
+      "day": 1,
+      "paragraphs": {
+        "en": [
+          "Mama brought a little tray of tea. Papa held PomPom while she set it beside the bath."
+        ],
+        "ru": [
+          "Мама принесла маленький поднос с чаем. Папа держал Пом-Пома, пока она ставила поднос рядом с ванной."
+        ]
+      },
+      "image": "images/published/bath-magic/scene-30a.webp",
+      "imageURL": "https://mr-pinpin.github.io/storyboard/images/published/bath-magic/scene-30a.webp",
+      "wordCounts": {
+        "en": 17,
+        "ru": 16
+      },
+      "sequenceId": "tea",
+      "beatRole": "practicalresponse",
+      "editorial": {
+        "activity": 2,
+        "comicPressure": 2,
+        "attention": 1
+      },
+      "evidence": {
+        "caption": "Mama brought a little tray of tea. Papa held PomPom while she set it beside the bath.",
+        "visual": null,
+        "visualInspected": false
+      },
+      "waterState": "flowing-uncontained",
+      "warmthBand": "foregrounded"
+    },
+    {
+      "number": 45,
+      "id": "scene-30b",
+      "day": 1,
+      "paragraphs": {
+        "en": [
+          "The tea was warm. PinPin made one little ripple, and then another."
+        ],
+        "ru": [
+          "Чай был тёплый. Пин-Пин пустил по воде одну маленькую волну, а потом ещё одну."
+        ]
+      },
+      "image": "images/published/bath-magic/scene-30b.webp",
+      "imageURL": "https://mr-pinpin.github.io/storyboard/images/published/bath-magic/scene-30b.webp",
+      "wordCounts": {
+        "en": 12,
+        "ru": 14
+      },
+      "sequenceId": "tea",
+      "beatRole": "breath",
+      "editorial": {
+        "activity": 1,
+        "comicPressure": 2,
+        "attention": 1
+      },
+      "evidence": {
+        "caption": "The tea was warm. PinPin made one little ripple, and then another.",
+        "visual": "Family shares the bath; Papa holds the infant while the grownups have tea.",
+        "visualInspected": true
+      },
+      "waterState": "flowing-uncontained",
+      "warmthBand": "foregrounded"
+    },
+    {
+      "number": 46,
+      "id": "scene-30c",
+      "day": 1,
+      "paragraphs": {
+        "en": [
+          "Mama watched the water trickling over the rim. “And where shall all this water go?”"
+        ],
+        "ru": [
+          "Мама посмотрела на воду, переливавшуюся через край. «А куда мы денем всю эту воду?»"
+        ]
+      },
+      "image": "images/published/bath-magic/scene-30c.webp",
+      "imageURL": "https://mr-pinpin.github.io/storyboard/images/published/bath-magic/scene-30c.webp",
+      "wordCounts": {
+        "en": 15,
+        "ru": 14
+      },
+      "sequenceId": "tea",
+      "beatRole": "intention",
+      "editorial": {
+        "activity": 2,
+        "comicPressure": 2,
+        "attention": 2
+      },
+      "evidence": {
+        "caption": "Mama watched the water trickling over the rim. “And where shall all this water go?”",
+        "visual": null,
+        "visualInspected": false
+      },
+      "waterState": "flowing-uncontained",
+      "warmthBand": "foregrounded"
+    },
+    {
+      "number": 47,
+      "id": "scene-30d",
+      "day": 1,
+      "paragraphs": {
+        "en": [
+          "“Beaver and I could build a wooden channel,” said Papa. “All the way to the garden.”"
+        ],
+        "ru": [
+          "«Мы с Бобром можем построить деревянный желоб, — сказал Папа. — До самого сада»."
+        ]
+      },
+      "image": "images/published/bath-magic/scene-30d.webp",
+      "imageURL": "https://mr-pinpin.github.io/storyboard/images/published/bath-magic/scene-30d.webp",
+      "wordCounts": {
+        "en": 16,
+        "ru": 14
+      },
+      "sequenceId": "tea",
+      "beatRole": "intention",
+      "editorial": {
+        "activity": 2,
+        "comicPressure": 2,
+        "attention": 2
+      },
+      "evidence": {
+        "caption": "“Beaver and I could build a wooden channel,” said Papa. “All the way to the garden.”",
+        "visual": null,
+        "visualInspected": false
+      },
+      "waterState": "flowing-uncontained",
+      "warmthBand": "foregrounded"
+    },
+    {
+      "number": 48,
+      "id": "scene-31",
+      "day": 1,
+      "paragraphs": {
+        "en": [
+          "Water was still spilling onto the floor. “Out we come,” said Mama."
+        ],
+        "ru": [
+          "Вода всё ещё лилась на пол. «Пора вылезать», — сказала Мама."
+        ]
+      },
+      "image": "images/published/bath-magic/scene-31.webp",
+      "imageURL": "https://mr-pinpin.github.io/storyboard/images/published/bath-magic/scene-31.webp",
+      "wordCounts": {
+        "en": 12,
+        "ru": 11
+      },
+      "sequenceId": "tea",
+      "beatRole": "practicalresponse",
+      "editorial": {
+        "activity": 2,
+        "comicPressure": 2,
+        "attention": 1
+      },
+      "evidence": {
+        "caption": "Water was still spilling onto the floor. “Out we come,” said Mama.",
+        "visual": null,
+        "visualInspected": false
+      },
+      "waterState": "flowing-uncontained",
+      "warmthBand": "foregrounded"
+    },
+    {
+      "number": 49,
+      "id": "scene-32",
+      "day": 1,
+      "paragraphs": {
+        "en": [
+          "Mama shut the bedroom door. She put a rolled towel at the bottom."
+        ],
+        "ru": [
+          "Мама закрыла дверь в спальню. Внизу она положила свёрнутое полотенце."
+        ]
+      },
+      "image": "images/published/bath-magic/scene-32.webp",
+      "imageURL": "https://mr-pinpin.github.io/storyboard/images/published/bath-magic/scene-32.webp",
+      "wordCounts": {
+        "en": 13,
+        "ru": 10
+      },
+      "sequenceId": "tea",
+      "beatRole": "practicalresponse",
+      "editorial": {
+        "activity": 2,
+        "comicPressure": 2,
+        "attention": 1
+      },
+      "evidence": {
+        "caption": "Mama shut the bedroom door. She put a rolled towel at the bottom.",
+        "visual": null,
+        "visualInspected": false
+      },
+      "waterState": "flowing-uncontained",
+      "warmthBand": "supporting"
+    },
+    {
+      "number": 50,
+      "id": "scene-32a",
+      "day": 1,
+      "paragraphs": {
+        "en": [
+          "Papa packed bread and fruit. “Up you come!” He helped PinPin onto Scooby."
+        ],
+        "ru": [
+          "Папа взял хлеб и фрукты. «Залезай!» Он помог Пин-Пину забраться на Скуби."
+        ]
+      },
+      "image": "images/published/bath-magic/scene-32a.webp",
+      "imageURL": "https://mr-pinpin.github.io/storyboard/images/published/bath-magic/scene-32a.webp",
+      "wordCounts": {
+        "en": 13,
+        "ru": 12
+      },
+      "sequenceId": "beaver",
+      "beatRole": "practicalresponse",
+      "editorial": {
+        "activity": 2,
+        "comicPressure": 2,
+        "attention": 1
+      },
+      "evidence": {
+        "caption": "Papa packed bread and fruit. “Up you come!” He helped PinPin onto Scooby.",
+        "visual": null,
+        "visualInspected": false
+      },
+      "waterState": "flowing-uncontained",
+      "warmthBand": "foregrounded"
+    },
+    {
+      "number": 51,
+      "id": "scene-32b",
+      "day": 1,
+      "paragraphs": {
+        "en": [
+          "Scooby trotted between the trees. PinPin watched the sun hop from leaf to leaf."
+        ],
+        "ru": [
+          "Скуби бежал между деревьями. Пин-Пин смотрел, как солнечные зайчики прыгают с листочка на листочек."
+        ]
+      },
+      "image": "images/published/bath-magic/scene-32b.webp",
+      "imageURL": "https://mr-pinpin.github.io/storyboard/images/published/bath-magic/scene-32b.webp",
+      "wordCounts": {
+        "en": 14,
+        "ru": 14
+      },
+      "sequenceId": "beaver",
+      "beatRole": "breath",
+      "editorial": {
+        "activity": 2,
+        "comicPressure": 2,
+        "attention": 1
+      },
+      "evidence": {
+        "caption": "Scooby trotted between the trees. PinPin watched the sun hop from leaf to leaf.",
+        "visual": null,
+        "visualInspected": false
+      },
+      "waterState": "flowing-uncontained",
+      "warmthBand": "supporting"
+    },
+    {
+      "number": 52,
+      "id": "scene-32c",
+      "day": 1,
+      "paragraphs": {
+        "en": [
+          "“Good morning!” called PinPin. Beaver put down his tools and came to meet them."
+        ],
+        "ru": [
+          "«Доброе утро!» — позвал Пин-Пин. Бобр отложил инструменты и вышел им навстречу."
+        ]
+      },
+      "image": "images/published/bath-magic/scene-32c.webp",
+      "imageURL": "https://mr-pinpin.github.io/storyboard/images/published/bath-magic/scene-32c.webp",
+      "wordCounts": {
+        "en": 14,
+        "ru": 12
+      },
+      "sequenceId": "beaver",
+      "beatRole": "setup",
+      "editorial": {
+        "activity": 1,
+        "comicPressure": 2,
+        "attention": 1
+      },
+      "evidence": {
+        "caption": "“Good morning!” called PinPin. Beaver put down his tools and came to meet them.",
+        "visual": null,
+        "visualInspected": false
+      },
+      "waterState": "flowing-uncontained",
+      "warmthBand": "foregrounded"
+    },
+    {
+      "number": 53,
+      "id": "scene-32d",
+      "day": 1,
+      "paragraphs": {
+        "en": [
+          "Over bread and fruit, PinPin told Beaver about the bath. “It keeps filling, even when nobody is splashing!”"
+        ],
+        "ru": [
+          "Они ели хлеб и фрукты, а Пин-Пин рассказывал Бобру про ванну. «Она всё наполняется, даже когда никто не плещется!»"
+        ]
+      },
+      "image": "images/published/bath-magic/scene-32d.webp",
+      "imageURL": "https://mr-pinpin.github.io/storyboard/images/published/bath-magic/scene-32d.webp",
+      "wordCounts": {
+        "en": 18,
+        "ru": 19
+      },
+      "sequenceId": "beaver",
+      "beatRole": "setup",
+      "editorial": {
+        "activity": 1,
+        "comicPressure": 2,
+        "attention": 2
+      },
+      "evidence": {
+        "caption": "Over bread and fruit, PinPin told Beaver about the bath. “It keeps filling, even when nobody is splashing!”",
+        "visual": null,
+        "visualInspected": false
+      },
+      "waterState": "flowing-uncontained",
+      "warmthBand": "foregrounded"
+    },
+    {
+      "number": 54,
+      "id": "scene-32e",
+      "day": 1,
+      "paragraphs": {
+        "en": [
+          "Beaver drew a little path in the earth. “We’ll give the water a road of its own.”"
+        ],
+        "ru": [
+          "Бобр начертил на земле дорожку. «Сделаем для воды её собственную дорогу»."
+        ]
+      },
+      "image": "images/published/bath-magic/scene-32e.webp",
+      "imageURL": "https://mr-pinpin.github.io/storyboard/images/published/bath-magic/scene-32e.webp",
+      "wordCounts": {
+        "en": 17,
+        "ru": 11
+      },
+      "sequenceId": "beaver",
+      "beatRole": "intention",
+      "editorial": {
+        "activity": 2,
+        "comicPressure": 2,
+        "attention": 3
+      },
+      "evidence": {
+        "caption": "Beaver drew a little path in the earth. “We’ll give the water a road of its own.”",
+        "visual": "Beaver draws a route on the ground; Papa and PinPin attend nearby.",
+        "visualInspected": true
+      },
+      "waterState": "flowing-uncontained",
+      "warmthBand": "not-foregrounded"
+    },
+    {
+      "number": 55,
+      "id": "scene-32f",
+      "day": 1,
+      "paragraphs": {
+        "en": [
+          "He joined two little wooden gutters. “This end goes a little lower.”"
+        ],
+        "ru": [
+          "Он соединил два маленьких деревянных желоба. «А этот конец опустим чуть ниже»."
+        ]
+      },
+      "image": "images/published/bath-magic/scene-32f.webp",
+      "imageURL": "https://mr-pinpin.github.io/storyboard/images/published/bath-magic/scene-32f.webp",
+      "wordCounts": {
+        "en": 12,
+        "ru": 12
+      },
+      "sequenceId": "beaver",
+      "beatRole": "practicalresponse",
+      "editorial": {
+        "activity": 2,
+        "comicPressure": 2,
+        "attention": 3
+      },
+      "evidence": {
+        "caption": "He joined two little wooden gutters. “This end goes a little lower.”",
+        "visual": null,
+        "visualInspected": false
+      },
+      "waterState": "flowing-uncontained",
+      "warmthBand": "not-foregrounded"
+    },
+    {
+      "number": 56,
+      "id": "scene-32g",
+      "day": 1,
+      "paragraphs": {
+        "en": [
+          "PinPin tipped the little jug. The water ran down, from one piece into the next."
+        ],
+        "ru": [
+          "Пин-Пин наклонил кувшинчик. Вода побежала вниз — из одного желоба в другой."
+        ]
+      },
+      "image": "images/published/bath-magic/scene-32g.webp",
+      "imageURL": "https://mr-pinpin.github.io/storyboard/images/published/bath-magic/scene-32g.webp",
+      "wordCounts": {
+        "en": 15,
+        "ru": 12
+      },
+      "sequenceId": "beaver",
+      "beatRole": "resolution",
+      "editorial": {
+        "activity": 2,
+        "comicPressure": 2,
+        "attention": 3
+      },
+      "evidence": {
+        "caption": "PinPin tipped the little jug. The water ran down, from one piece into the next.",
+        "visual": "A small raised wooden gutter demonstration visibly carries water into a basin.",
+        "visualInspected": true
+      },
+      "waterState": "flowing-uncontained",
+      "warmthBand": "supporting"
+    },
+    {
+      "number": 57,
+      "id": "scene-32h",
+      "day": 1,
+      "paragraphs": {
+        "en": [
+          "Beaver shaped the wood. Papa checked the edges, and PinPin stacked the little supports."
+        ],
+        "ru": [
+          "Бобр придавал дереву нужную форму. Папа проверял края, а Пин-Пин складывал маленькие подпорки."
+        ]
+      },
+      "image": "images/published/bath-magic/scene-32h.webp",
+      "imageURL": "https://mr-pinpin.github.io/storyboard/images/published/bath-magic/scene-32h.webp",
+      "wordCounts": {
+        "en": 14,
+        "ru": 13
+      },
+      "sequenceId": "beaver",
+      "beatRole": "practicalresponse",
+      "editorial": {
+        "activity": 2,
+        "comicPressure": 2,
+        "attention": 2
+      },
+      "evidence": {
+        "caption": "Beaver shaped the wood. Papa checked the edges, and PinPin stacked the little supports.",
+        "visual": null,
+        "visualInspected": false
+      },
+      "waterState": "flowing-uncontained",
+      "warmthBand": "foregrounded"
+    },
+    {
+      "number": 58,
+      "id": "scene-32i",
+      "day": 1,
+      "paragraphs": {
+        "en": [
+          "They tied the light bundles on Scooby’s sides. He stood very still until the last knot was done."
+        ],
+        "ru": [
+          "Лёгкие связки закрепили по бокам у Скуби. Он стоял совсем неподвижно, пока не завязали последний узел."
+        ]
+      },
+      "image": "images/published/bath-magic/scene-32i.webp",
+      "imageURL": "https://mr-pinpin.github.io/storyboard/images/published/bath-magic/scene-32i.webp",
+      "wordCounts": {
+        "en": 18,
+        "ru": 16
+      },
+      "sequenceId": "beaver",
+      "beatRole": "practicalresponse",
+      "editorial": {
+        "activity": 2,
+        "comicPressure": 2,
+        "attention": 1
+      },
+      "evidence": {
+        "caption": "They tied the light bundles on Scooby’s sides. He stood very still until the last knot was done.",
+        "visual": null,
+        "visualInspected": false
+      },
+      "waterState": "flowing-uncontained",
+      "warmthBand": "supporting"
+    },
+    {
+      "number": 59,
+      "id": "scene-32j",
+      "day": 1,
+      "paragraphs": {
+        "en": [
+          "Mama met them at the door. Papa lifted down the wooden pieces, and PinPin carried the little blocks."
+        ],
+        "ru": [
+          "Мама встретила их у двери. Папа снимал деревянные детали, а Пин-Пин нёс маленькие брусочки."
+        ]
+      },
+      "image": "images/published/bath-magic/scene-32j.webp",
+      "imageURL": "https://mr-pinpin.github.io/storyboard/images/published/bath-magic/scene-32j.webp",
+      "wordCounts": {
+        "en": 18,
+        "ru": 14
+      },
+      "sequenceId": "beaver",
+      "beatRole": "practicalresponse",
+      "editorial": {
+        "activity": 2,
+        "comicPressure": 2,
+        "attention": 1
+      },
+      "evidence": {
+        "caption": "Mama met them at the door. Papa lifted down the wooden pieces, and PinPin carried the little blocks.",
+        "visual": null,
+        "visualInspected": false
+      },
+      "waterState": "flowing-uncontained",
+      "warmthBand": "foregrounded"
+    },
+    {
+      "number": 60,
+      "id": "scene-33",
+      "day": 1,
+      "paragraphs": {
+        "en": [
+          "Papa brought some short wooden gutters. PinPin made room for them."
+        ],
+        "ru": [
+          "Папа принёс короткие деревянные желобки. Пин-Пин освободил для них место."
+        ]
+      },
+      "image": "images/published/bath-magic/scene-33.webp",
+      "imageURL": "https://mr-pinpin.github.io/storyboard/images/published/bath-magic/scene-33.webp",
+      "wordCounts": {
+        "en": 11,
+        "ru": 10
+      },
+      "sequenceId": "channel",
+      "beatRole": "practicalresponse",
+      "editorial": {
+        "activity": 2,
+        "comicPressure": 2,
+        "attention": 1
+      },
+      "evidence": {
+        "caption": "Papa brought some short wooden gutters. PinPin made room for them.",
+        "visual": null,
+        "visualInspected": false
+      },
+      "waterState": "flowing-uncontained",
+      "warmthBand": "supporting"
+    },
+    {
+      "number": 61,
+      "id": "scene-34",
+      "day": 1,
+      "paragraphs": {
+        "en": [
+          "Papa put a wide wooden mouth under the spill. The water splashed into it."
+        ],
+        "ru": [
+          "Папа подставил под струйку широкий деревянный лоток. Вода заплескалась в нём."
+        ]
+      },
+      "image": "images/published/bath-magic/scene-34.webp",
+      "imageURL": "https://mr-pinpin.github.io/storyboard/images/published/bath-magic/scene-34.webp",
+      "wordCounts": {
+        "en": 14,
+        "ru": 11
+      },
+      "sequenceId": "channel",
+      "beatRole": "practicalresponse",
+      "editorial": {
+        "activity": 2,
+        "comicPressure": 2,
+        "attention": 2
+      },
+      "evidence": {
+        "caption": "Papa put a wide wooden mouth under the spill. The water splashed into it.",
+        "visual": null,
+        "visualInspected": false
+      },
+      "waterState": "flowing-uncontained",
+      "warmthBand": "supporting"
+    },
+    {
+      "number": 62,
+      "id": "scene-35",
+      "day": 1,
+      "paragraphs": {
+        "en": [
+          "They laid one end over the next. PinPin held it while Papa joined the pieces."
+        ],
+        "ru": [
+          "Один конец положили поверх другого. Пин-Пин придерживал, а Папа соединял."
+        ]
+      },
+      "image": "images/published/bath-magic/scene-35.webp",
+      "imageURL": "https://mr-pinpin.github.io/storyboard/images/published/bath-magic/scene-35.webp",
+      "wordCounts": {
+        "en": 15,
+        "ru": 10
+      },
+      "sequenceId": "channel",
+      "beatRole": "practicalresponse",
+      "editorial": {
+        "activity": 2,
+        "comicPressure": 2,
+        "attention": 2
+      },
+      "evidence": {
+        "caption": "They laid one end over the next. PinPin held it while Papa joined the pieces.",
+        "visual": null,
+        "visualInspected": false
+      },
+      "waterState": "flowing-uncontained",
+      "warmthBand": "supporting"
+    },
+    {
+      "number": 63,
+      "id": "scene-36",
+      "day": 1,
+      "paragraphs": {
+        "en": [
+          "Papa moved the little blocks underneath. Each piece rested a little lower."
+        ],
+        "ru": [
+          "Папа передвинул подпорки снизу. Каждый желобок оказался чуть ниже предыдущего."
+        ]
+      },
+      "image": "images/published/bath-magic/scene-36.webp",
+      "imageURL": "https://mr-pinpin.github.io/storyboard/images/published/bath-magic/scene-36.webp",
+      "wordCounts": {
+        "en": 12,
+        "ru": 10
+      },
+      "sequenceId": "channel",
+      "beatRole": "practicalresponse",
+      "editorial": {
+        "activity": 2,
+        "comicPressure": 2,
+        "attention": 2
+      },
+      "evidence": {
+        "caption": "Papa moved the little blocks underneath. Each piece rested a little lower.",
+        "visual": "Papa and PinPin adjust a supported channel at floor level beside the tub.",
+        "visualInspected": true
+      },
+      "waterState": "flowing-uncontained",
+      "warmthBand": "supporting"
+    },
+    {
+      "number": 64,
+      "id": "scene-37",
+      "day": 1,
+      "paragraphs": {
+        "en": [
+          "The water ran along their wooden path. It passed the table without wetting the legs."
+        ],
+        "ru": [
+          "Вода побежала по деревянной дорожке. Мимо стола — не замочив ножек."
+        ]
+      },
+      "image": "images/published/bath-magic/scene-37.webp",
+      "imageURL": "https://mr-pinpin.github.io/storyboard/images/published/bath-magic/scene-37.webp",
+      "wordCounts": {
+        "en": 15,
+        "ru": 11
+      },
+      "sequenceId": "channel",
+      "beatRole": "resolution",
+      "editorial": {
+        "activity": 2,
+        "comicPressure": 2,
+        "attention": 2
+      },
+      "evidence": {
+        "caption": "The water ran along their wooden path. It passed the table without wetting the legs.",
+        "visual": null,
+        "visualInspected": false
+      },
+      "waterState": "flowing-routed-not-stopped",
+      "warmthBand": "foregrounded"
+    },
+    {
+      "number": 65,
+      "id": "scene-38",
+      "day": 1,
+      "paragraphs": {
+        "en": [
+          "Out it went through the open door. PinPin watched it reach the garden."
+        ],
+        "ru": [
+          "Через открытую дверь вода побежала наружу. Пин-Пин смотрел, как она течёт в сад."
+        ]
+      },
+      "image": "images/published/bath-magic/scene-38.webp",
+      "imageURL": "https://mr-pinpin.github.io/storyboard/images/published/bath-magic/scene-38.webp",
+      "wordCounts": {
+        "en": 13,
+        "ru": 13
+      },
+      "sequenceId": "channel",
+      "beatRole": "resolution",
+      "editorial": {
+        "activity": 2,
+        "comicPressure": 2,
+        "attention": 2
+      },
+      "evidence": {
+        "caption": "Out it went through the open door. PinPin watched it reach the garden.",
+        "visual": "The channel visibly carries water through the exterior doorway toward the garden.",
+        "visualInspected": true
+      },
+      "waterState": "flowing-routed-not-stopped",
+      "warmthBand": "foregrounded"
+    },
+    {
+      "number": 66,
+      "id": "scene-39",
+      "day": 1,
+      "paragraphs": {
+        "en": [
+          "Mama wiped the puddles. PinPin squeezed out a cloth."
+        ],
+        "ru": [
+          "Мама вытерла лужицы. Пин-Пин отжал тряпочку."
+        ]
+      },
+      "image": "images/published/bath-magic/scene-39.webp",
+      "imageURL": "https://mr-pinpin.github.io/storyboard/images/published/bath-magic/scene-39.webp",
+      "wordCounts": {
+        "en": 9,
+        "ru": 6
+      },
+      "sequenceId": "channel",
+      "beatRole": "practicalresponse",
+      "editorial": {
+        "activity": 2,
+        "comicPressure": 2,
+        "attention": 1
+      },
+      "evidence": {
+        "caption": "Mama wiped the puddles. PinPin squeezed out a cloth.",
+        "visual": null,
+        "visualInspected": false
+      },
+      "waterState": "flowing-routed-not-stopped",
+      "warmthBand": "foregrounded"
+    },
+    {
+      "number": 67,
+      "id": "scene-40",
+      "day": 1,
+      "paragraphs": {
+        "en": [
+          "The family tucked in together. Beyond the door, the water whispered shhh."
+        ],
+        "ru": [
+          "Вся семья устроилась под одеялом. За дверью вода шептала: ш-ш-ш."
+        ]
+      },
+      "image": "images/published/bath-magic/scene-40.webp",
+      "imageURL": "https://mr-pinpin.github.io/storyboard/images/published/bath-magic/scene-40.webp",
+      "wordCounts": {
+        "en": 12,
+        "ru": 10
+      },
+      "sequenceId": "channel",
+      "beatRole": "breath",
+      "editorial": {
+        "activity": 1,
+        "comicPressure": 2,
+        "attention": 1
+      },
+      "evidence": {
+        "caption": "The family tucked in together. Beyond the door, the water whispered shhh.",
+        "visual": null,
+        "visualInspected": false
+      },
+      "waterState": "flowing-routed-not-stopped",
+      "warmthBand": "foregrounded"
+    },
+    {
+      "number": 68,
+      "id": "scene-41",
+      "day": 2,
+      "paragraphs": {
+        "en": [
+          "Morning again! PinPin stretched both paws."
+        ],
+        "ru": [
+          "Снова утро! Пин-Пин потянулся обеими лапками."
+        ]
+      },
+      "image": "images/published/bath-magic/scene-41.webp",
+      "imageURL": "https://mr-pinpin.github.io/storyboard/images/published/bath-magic/scene-41.webp",
+      "wordCounts": {
+        "en": 6,
+        "ru": 6
+      },
+      "sequenceId": "flowers",
+      "beatRole": "breath",
+      "editorial": {
+        "activity": 1,
+        "comicPressure": 2,
+        "attention": 1
+      },
+      "evidence": {
+        "caption": "Morning again! PinPin stretched both paws.",
+        "visual": null,
+        "visualInspected": false
+      },
+      "waterState": "flowing-routed-not-stopped",
+      "warmthBand": "supporting"
+    },
+    {
+      "number": 69,
+      "id": "scene-42",
+      "day": 2,
+      "paragraphs": {
+        "en": [
+          "Papa stepped over the gutter with breakfast. PinPin brought the spoons."
+        ],
+        "ru": [
+          "Папа перешагнул через желоб с завтраком. Пин-Пин принёс ложки."
+        ]
+      },
+      "image": "images/published/bath-magic/scene-42.webp",
+      "imageURL": "https://mr-pinpin.github.io/storyboard/images/published/bath-magic/scene-42.webp",
+      "wordCounts": {
+        "en": 11,
+        "ru": 9
+      },
+      "sequenceId": "flowers",
+      "beatRole": "setup",
+      "editorial": {
+        "activity": 2,
+        "comicPressure": 2,
+        "attention": 1
+      },
+      "evidence": {
+        "caption": "Papa stepped over the gutter with breakfast. PinPin brought the spoons.",
+        "visual": null,
+        "visualInspected": false
+      },
+      "waterState": "flowing-routed-not-stopped",
+      "warmthBand": "foregrounded"
+    },
+    {
+      "number": 70,
+      "id": "scene-43",
+      "day": 2,
+      "paragraphs": {
+        "en": [
+          "A little drip escaped. Papa pushed the two pieces together."
+        ],
+        "ru": [
+          "Маленькая капля убежала. Папа сдвинул два желобка."
+        ]
+      },
+      "image": "images/published/bath-magic/scene-43.webp",
+      "imageURL": "https://mr-pinpin.github.io/storyboard/images/published/bath-magic/scene-43.webp",
+      "wordCounts": {
+        "en": 10,
+        "ru": 7
+      },
+      "sequenceId": "flowers",
+      "beatRole": "practicalresponse",
+      "editorial": {
+        "activity": 2,
+        "comicPressure": 2,
+        "attention": 1
+      },
+      "evidence": {
+        "caption": "A little drip escaped. Papa pushed the two pieces together.",
+        "visual": null,
+        "visualInspected": false
+      },
+      "waterState": "flowing-routed-not-stopped",
+      "warmthBand": "supporting"
+    },
+    {
+      "number": 71,
+      "id": "scene-44",
+      "day": 2,
+      "paragraphs": {
+        "en": [
+          "PinPin squeezed the cloth. A whole shower fell into the bucket!"
+        ],
+        "ru": [
+          "Пин-Пин выжал тряпку. В ведро полился целый дождик!"
+        ]
+      },
+      "image": "images/published/bath-magic/scene-44.webp",
+      "imageURL": "https://mr-pinpin.github.io/storyboard/images/published/bath-magic/scene-44.webp",
+      "wordCounts": {
+        "en": 11,
+        "ru": 8
+      },
+      "sequenceId": "flowers",
+      "beatRole": "surprise",
+      "editorial": {
+        "activity": 2,
+        "comicPressure": 2,
+        "attention": 1
+      },
+      "evidence": {
+        "caption": "PinPin squeezed the cloth. A whole shower fell into the bucket!",
+        "visual": null,
+        "visualInspected": false
+      },
+      "waterState": "flowing-routed-not-stopped",
+      "warmthBand": "supporting"
+    },
+    {
+      "number": 72,
+      "id": "scene-45",
+      "day": 2,
+      "paragraphs": {
+        "en": [
+          "“Round and round… just so! Water, stop.”"
+        ],
+        "ru": [
+          "«Круг за кругом… вот так! Вода, остановись»."
+        ]
+      },
+      "image": "images/published/bath-magic/scene-45.webp",
+      "imageURL": "https://mr-pinpin.github.io/storyboard/images/published/bath-magic/scene-45.webp",
+      "wordCounts": {
+        "en": 7,
+        "ru": 7
+      },
+      "sequenceId": "flowers",
+      "beatRole": "attempt",
+      "editorial": {
+        "activity": 2,
+        "comicPressure": 2,
+        "attention": 2
+      },
+      "evidence": {
+        "caption": "“Round and round… just so! Water, stop.”",
+        "visual": null,
+        "visualInspected": false
+      },
+      "waterState": "flowing-routed-not-stopped",
+      "warmthBand": "not-foregrounded"
+    },
+    {
+      "number": 73,
+      "id": "scene-46",
+      "day": 2,
+      "paragraphs": {
+        "en": [
+          "Flowers opened on the water. The stream kept running."
+        ],
+        "ru": [
+          "На воде раскрылись цветы. А ручеёк всё бежал."
+        ]
+      },
+      "image": "images/published/bath-magic/scene-46.webp",
+      "imageURL": "https://mr-pinpin.github.io/storyboard/images/published/bath-magic/scene-46.webp",
+      "wordCounts": {
+        "en": 9,
+        "ru": 8
+      },
+      "sequenceId": "flowers",
+      "beatRole": "surprise",
+      "editorial": {
+        "activity": 2,
+        "comicPressure": 2,
+        "attention": 2
+      },
+      "evidence": {
+        "caption": "Flowers opened on the water. The stream kept running.",
+        "visual": "Golden circle and flowers share the water surface; PinPin watches from the rim.",
+        "visualInspected": true
+      },
+      "waterState": "flowing-routed-not-stopped",
+      "warmthBand": "not-foregrounded"
+    },
+    {
+      "number": 74,
+      "id": "scene-47",
+      "day": 2,
+      "paragraphs": {
+        "en": [
+          "Mama moved a flower to see her toes. Another opened in its place."
+        ],
+        "ru": [
+          "Мама отодвинула цветок, чтобы увидеть пальцы. На его месте раскрылся другой."
+        ]
+      },
+      "image": "images/published/bath-magic/scene-47.webp",
+      "imageURL": "https://mr-pinpin.github.io/storyboard/images/published/bath-magic/scene-47.webp",
+      "wordCounts": {
+        "en": 13,
+        "ru": 11
+      },
+      "sequenceId": "flowers",
+      "beatRole": "surprise",
+      "editorial": {
+        "activity": 2,
+        "comicPressure": 2,
+        "attention": 2
+      },
+      "evidence": {
+        "caption": "Mama moved a flower to see her toes. Another opened in its place.",
+        "visual": null,
+        "visualInspected": false
+      },
+      "waterState": "flowing-routed-not-stopped",
+      "warmthBand": "supporting"
+    },
+    {
+      "number": 75,
+      "id": "scene-48",
+      "day": 2,
+      "paragraphs": {
+        "en": [
+          "The flowers crowded into the gutter. “Not that way!” said PinPin."
+        ],
+        "ru": [
+          "Цветы столпились в желобе. «Не туда!» — сказал Пин-Пин."
+        ]
+      },
+      "image": "images/published/bath-magic/scene-48.webp",
+      "imageURL": "https://mr-pinpin.github.io/storyboard/images/published/bath-magic/scene-48.webp",
+      "wordCounts": {
+        "en": 11,
+        "ru": 9
+      },
+      "sequenceId": "flowers",
+      "beatRole": "surprise",
+      "editorial": {
+        "activity": 2,
+        "comicPressure": 3,
+        "attention": 2
+      },
+      "evidence": {
+        "caption": "The flowers crowded into the gutter. “Not that way!” said PinPin.",
+        "visual": "Close-up of flower heads lodged at a channel join; water continues along the trough.",
+        "visualInspected": true
+      },
+      "waterState": "flowing-routed-not-stopped",
+      "warmthBand": "not-foregrounded"
+    },
+    {
+      "number": 76,
+      "id": "scene-48a",
+      "day": 2,
+      "paragraphs": {
+        "en": [
+          "Papa lifted PomPom to see. Mama and PinPin came to look at the crowded gutter."
+        ],
+        "ru": [
+          "Папа приподнял Пом-Пома, чтобы тот увидел. Мама и Пин-Пин подошли посмотреть на забитый желоб."
+        ]
+      },
+      "image": "images/published/bath-magic/scene-48a.webp",
+      "imageURL": "https://mr-pinpin.github.io/storyboard/images/published/bath-magic/scene-48a.webp",
+      "wordCounts": {
+        "en": 15,
+        "ru": 14
+      },
+      "sequenceId": "flowers",
+      "beatRole": "reaction",
+      "editorial": {
+        "activity": 2,
+        "comicPressure": 3,
+        "attention": 2
+      },
+      "evidence": {
+        "caption": "Papa lifted PomPom to see. Mama and PinPin came to look at the crowded gutter.",
+        "visual": null,
+        "visualInspected": false
+      },
+      "waterState": "flowing-routed-not-stopped",
+      "warmthBand": "foregrounded"
+    },
+    {
+      "number": 77,
+      "id": "scene-49",
+      "day": 2,
+      "paragraphs": {
+        "en": [
+          "Papa scooped them out. Mama held a big bowl."
+        ],
+        "ru": [
+          "Папа вынимал цветы. Мама держала большую миску."
+        ]
+      },
+      "image": "images/published/bath-magic/scene-49.webp",
+      "imageURL": "https://mr-pinpin.github.io/storyboard/images/published/bath-magic/scene-49.webp",
+      "wordCounts": {
+        "en": 9,
+        "ru": 7
+      },
+      "sequenceId": "flowers",
+      "beatRole": "practicalresponse",
+      "editorial": {
+        "activity": 2,
+        "comicPressure": 3,
+        "attention": 1
+      },
+      "evidence": {
+        "caption": "Papa scooped them out. Mama held a big bowl.",
+        "visual": null,
+        "visualInspected": false
+      },
+      "waterState": "flowing-routed-not-stopped",
+      "warmthBand": "foregrounded"
+    },
+    {
+      "number": 78,
+      "id": "scene-52",
+      "day": 2,
+      "paragraphs": {
+        "en": [
+          "The flowers were safe in a basin. Shhh—the water ran along its path again."
+        ],
+        "ru": [
+          "Цветы собрали в таз. Ш-ш-ш — вода снова побежала по своему пути."
+        ]
+      },
+      "image": "images/published/bath-magic/scene-52.webp",
+      "imageURL": "https://mr-pinpin.github.io/storyboard/images/published/bath-magic/scene-52.webp",
+      "wordCounts": {
+        "en": 14,
+        "ru": 12
+      },
+      "sequenceId": "flowers",
+      "beatRole": "resolution",
+      "editorial": {
+        "activity": 2,
+        "comicPressure": 2,
+        "attention": 1
+      },
+      "evidence": {
+        "caption": "The flowers were safe in a basin. Shhh—the water ran along its path again.",
+        "visual": null,
+        "visualInspected": false
+      },
+      "waterState": "flowing-routed-not-stopped",
+      "warmthBand": "foregrounded"
+    },
+    {
+      "number": 79,
+      "id": "scene-53",
+      "day": 2,
+      "paragraphs": {
+        "en": [
+          "PinPin ate a big bowl of supper. “I could have some more!”"
+        ],
+        "ru": [
+          "Пин-Пин съел большую миску ужина. «Можно ещё?»"
+        ]
+      },
+      "image": "images/published/bath-magic/scene-53.webp",
+      "imageURL": "https://mr-pinpin.github.io/storyboard/images/published/bath-magic/scene-53.webp",
+      "wordCounts": {
+        "en": 12,
+        "ru": 7
+      },
+      "sequenceId": "flowers",
+      "beatRole": "breath",
+      "editorial": {
+        "activity": 1,
+        "comicPressure": 2,
+        "attention": 1
+      },
+      "evidence": {
+        "caption": "PinPin ate a big bowl of supper. “I could have some more!”",
+        "visual": null,
+        "visualInspected": false
+      },
+      "waterState": "flowing-routed-not-stopped",
+      "warmthBand": "foregrounded"
+    },
+    {
+      "number": 80,
+      "id": "scene-54",
+      "day": 2,
+      "paragraphs": {
+        "en": [
+          "They curled up together under the green quilt."
+        ],
+        "ru": [
+          "Они устроились вместе под зелёным одеялом."
+        ]
+      },
+      "image": "images/published/bath-magic/scene-54.webp",
+      "imageURL": "https://mr-pinpin.github.io/storyboard/images/published/bath-magic/scene-54.webp",
+      "wordCounts": {
+        "en": 8,
+        "ru": 6
+      },
+      "sequenceId": "flowers",
+      "beatRole": "breath",
+      "editorial": {
+        "activity": 1,
+        "comicPressure": 2,
+        "attention": 1
+      },
+      "evidence": {
+        "caption": "They curled up together under the green quilt.",
+        "visual": null,
+        "visualInspected": false
+      },
+      "waterState": "flowing-routed-not-stopped",
+      "warmthBand": "foregrounded"
+    },
+    {
+      "number": 81,
+      "id": "scene-54a",
+      "day": 3,
+      "paragraphs": {
+        "en": [
+          "In the morning, PinPin opened his eyes. Shhh—the water was awake too."
+        ],
+        "ru": [
+          "Утром Пин-Пин открыл глаза. Ш-ш-ш — вода тоже не спала."
+        ]
+      },
+      "image": "images/published/bath-magic/scene-54a.webp",
+      "imageURL": "https://mr-pinpin.github.io/storyboard/images/published/bath-magic/scene-54a.webp",
+      "wordCounts": {
+        "en": 12,
+        "ru": 10
+      },
+      "sequenceId": "talking-duck",
+      "beatRole": "breath",
+      "editorial": {
+        "activity": 1,
+        "comicPressure": 2,
+        "attention": 2
+      },
+      "evidence": {
+        "caption": "In the morning, PinPin opened his eyes. Shhh—the water was awake too.",
+        "visual": null,
+        "visualInspected": false
+      },
+      "waterState": "flowing-routed-not-stopped",
+      "warmthBand": "supporting"
+    },
+    {
+      "number": 82,
+      "id": "scene-55",
+      "day": 3,
+      "paragraphs": {
+        "en": [
+          "Papa passed the warm toast. PinPin took a big, happy bite."
+        ],
+        "ru": [
+          "Папа передал тёплую гренку. Пин-Пин с удовольствием откусил большой кусок."
+        ]
+      },
+      "image": "images/published/bath-magic/scene-55.webp",
+      "imageURL": "https://mr-pinpin.github.io/storyboard/images/published/bath-magic/scene-55.webp",
+      "wordCounts": {
+        "en": 11,
+        "ru": 10
+      },
+      "sequenceId": "talking-duck",
+      "beatRole": "breath",
+      "editorial": {
+        "activity": 1,
+        "comicPressure": 2,
+        "attention": 1
+      },
+      "evidence": {
+        "caption": "Papa passed the warm toast. PinPin took a big, happy bite.",
+        "visual": null,
+        "visualInspected": false
+      },
+      "waterState": "flowing-routed-not-stopped",
+      "warmthBand": "foregrounded"
+    },
+    {
+      "number": 83,
+      "id": "scene-55a",
+      "day": 3,
+      "paragraphs": {
+        "en": [
+          "Mama shared the sweet berries. PomPom opened his little mouth for another spoonful."
+        ],
+        "ru": [
+          "Мама поделилась сладкими ягодами. Пом-Пом открыл ротик ещё для одной ложечки."
+        ]
+      },
+      "image": "images/published/bath-magic/scene-55a.webp",
+      "imageURL": "https://mr-pinpin.github.io/storyboard/images/published/bath-magic/scene-55a.webp",
+      "wordCounts": {
+        "en": 13,
+        "ru": 11
+      },
+      "sequenceId": "talking-duck",
+      "beatRole": "breath",
+      "editorial": {
+        "activity": 1,
+        "comicPressure": 2,
+        "attention": 1
+      },
+      "evidence": {
+        "caption": "Mama shared the sweet berries. PomPom opened his little mouth for another spoonful.",
+        "visual": null,
+        "visualInspected": false
+      },
+      "waterState": "flowing-routed-not-stopped",
+      "warmthBand": "foregrounded"
+    },
+    {
+      "number": 84,
+      "id": "scene-55b",
+      "day": 3,
+      "paragraphs": {
+        "en": [
+          "PinPin listened between bites. Shhh… what could he try?"
+        ],
+        "ru": [
+          "Между кусочками Пин-Пин прислушался. Ш-ш-ш… что бы ему попробовать?"
+        ]
+      },
+      "image": "images/published/bath-magic/scene-55b.webp",
+      "imageURL": "https://mr-pinpin.github.io/storyboard/images/published/bath-magic/scene-55b.webp",
+      "wordCounts": {
+        "en": 9,
+        "ru": 9
+      },
+      "sequenceId": "talking-duck",
+      "beatRole": "intention",
+      "editorial": {
+        "activity": 1,
+        "comicPressure": 2,
+        "attention": 2
+      },
+      "evidence": {
+        "caption": "PinPin listened between bites. Shhh… what could he try?",
+        "visual": null,
+        "visualInspected": false
+      },
+      "waterState": "flowing-routed-not-stopped",
+      "warmthBand": "not-foregrounded"
+    },
+    {
+      "number": 85,
+      "id": "scene-55c",
+      "day": 3,
+      "paragraphs": {
+        "en": [
+          "“I'll gather the flowers out of the bath,” said PinPin. “Then I can see the water.”"
+        ],
+        "ru": [
+          "«Я соберу цветы из ванны, — сказал Пин-Пин. — Тогда я снова увижу воду»."
+        ]
+      },
+      "image": "images/published/bath-magic/scene-55c.webp",
+      "imageURL": "https://mr-pinpin.github.io/storyboard/images/published/bath-magic/scene-55c.webp",
+      "wordCounts": {
+        "en": 16,
+        "ru": 14
+      },
+      "sequenceId": "talking-duck",
+      "beatRole": "intention",
+      "editorial": {
+        "activity": 2,
+        "comicPressure": 2,
+        "attention": 2
+      },
+      "evidence": {
+        "caption": "“I'll gather the flowers out of the bath,” said PinPin. “Then I can see the water.”",
+        "visual": null,
+        "visualInspected": false
+      },
+      "waterState": "flowing-routed-not-stopped",
+      "warmthBand": "not-foregrounded"
+    },
+    {
+      "number": 86,
+      "id": "scene-57",
+      "day": 3,
+      "paragraphs": {
+        "en": [
+          "“Round and round… just so! Flowers, go away.”"
+        ],
+        "ru": [
+          "«Круг за кругом… вот так! Цветочки, исчезните»."
+        ]
+      },
+      "image": "images/published/bath-magic/scene-57.webp",
+      "imageURL": "https://mr-pinpin.github.io/storyboard/images/published/bath-magic/scene-57.webp",
+      "wordCounts": {
+        "en": 8,
+        "ru": 7
+      },
+      "sequenceId": "talking-duck",
+      "beatRole": "attempt",
+      "editorial": {
+        "activity": 2,
+        "comicPressure": 2,
+        "attention": 2
+      },
+      "evidence": {
+        "caption": "“Round and round… just so! Flowers, go away.”",
+        "visual": null,
+        "visualInspected": false
+      },
+      "waterState": "flowing-routed-not-stopped",
+      "warmthBand": "not-foregrounded"
+    },
+    {
+      "number": 87,
+      "id": "scene-58",
+      "day": 3,
+      "paragraphs": {
+        "en": [
+          "“Quack! More water! This is lovely!”"
+        ],
+        "ru": [
+          "«Кря! Ещё воды! Как здорово!»"
+        ]
+      },
+      "image": "images/published/bath-magic/scene-58.webp",
+      "imageURL": "https://mr-pinpin.github.io/storyboard/images/published/bath-magic/scene-58.webp",
+      "wordCounts": {
+        "en": 6,
+        "ru": 5
+      },
+      "sequenceId": "talking-duck",
+      "beatRole": "surprise",
+      "editorial": {
+        "activity": 2,
+        "comicPressure": 2,
+        "attention": 2
+      },
+      "evidence": {
+        "caption": "“Quack! More water! This is lovely!”",
+        "visual": "Close-up isolates the yellow toy duck with its open beak, giving the voice a visual reveal.",
+        "visualInspected": true
+      },
+      "waterState": "flowing-routed-not-stopped",
+      "warmthBand": "not-foregrounded"
+    },
+    {
+      "number": 88,
+      "id": "scene-59",
+      "day": 3,
+      "paragraphs": {
+        "en": [
+          "PinPin froze. “Who said that?”"
+        ],
+        "ru": [
+          "Пин-Пин замер. «Кто это сказал?»"
+        ]
+      },
+      "image": "images/published/bath-magic/scene-59.webp",
+      "imageURL": "https://mr-pinpin.github.io/storyboard/images/published/bath-magic/scene-59.webp",
+      "wordCounts": {
+        "en": 5,
+        "ru": 5
+      },
+      "sequenceId": "talking-duck",
+      "beatRole": "reaction",
+      "editorial": {
+        "activity": 1,
+        "comicPressure": 2,
+        "attention": 2
+      },
+      "evidence": {
+        "caption": "PinPin froze. “Who said that?”",
+        "visual": "Close-up of PinPin's round-eyed listening face gives space for the reaction.",
+        "visualInspected": true
+      },
+      "waterState": "flowing-routed-not-stopped",
+      "warmthBand": "not-foregrounded"
+    },
+    {
+      "number": 89,
+      "id": "scene-60",
+      "day": 3,
+      "paragraphs": {
+        "en": [
+          "“Mama… did you hear?” Mama looked at the duck."
+        ],
+        "ru": [
+          "«Мама… ты слышала?» Мама посмотрела на уточку."
+        ]
+      },
+      "image": "images/published/bath-magic/scene-60.webp",
+      "imageURL": "https://mr-pinpin.github.io/storyboard/images/published/bath-magic/scene-60.webp",
+      "wordCounts": {
+        "en": 9,
+        "ru": 7
+      },
+      "sequenceId": "talking-duck",
+      "beatRole": "reaction",
+      "editorial": {
+        "activity": 1,
+        "comicPressure": 2,
+        "attention": 2
+      },
+      "evidence": {
+        "caption": "“Mama… did you hear?” Mama looked at the duck.",
+        "visual": null,
+        "visualInspected": false
+      },
+      "waterState": "flowing-routed-not-stopped",
+      "warmthBand": "foregrounded"
+    },
+    {
+      "number": 90,
+      "id": "scene-61",
+      "day": 3,
+      "paragraphs": {
+        "en": [
+          "“More!” said the duck. Papa raised one eyebrow."
+        ],
+        "ru": [
+          "«Ещё!» — сказала уточка. Папа приподнял бровь."
+        ]
+      },
+      "image": "images/published/bath-magic/scene-61.webp",
+      "imageURL": "https://mr-pinpin.github.io/storyboard/images/published/bath-magic/scene-61.webp",
+      "wordCounts": {
+        "en": 8,
+        "ru": 7
+      },
+      "sequenceId": "talking-duck",
+      "beatRole": "surprise",
+      "editorial": {
+        "activity": 2,
+        "comicPressure": 2,
+        "attention": 2
+      },
+      "evidence": {
+        "caption": "“More!” said the duck. Papa raised one eyebrow.",
+        "visual": null,
+        "visualInspected": false
+      },
+      "waterState": "flowing-routed-not-stopped",
+      "warmthBand": "foregrounded"
+    },
+    {
+      "number": 91,
+      "id": "scene-62",
+      "day": 3,
+      "paragraphs": {
+        "en": [
+          "The duck turned with the current. “Wheee!” Down the wooden path it went."
+        ],
+        "ru": [
+          "Уточка повернулась по течению. «Уи-и-и!» — и поплыла по деревянной дорожке."
+        ]
+      },
+      "image": "images/published/bath-magic/scene-62.webp",
+      "imageURL": "https://mr-pinpin.github.io/storyboard/images/published/bath-magic/scene-62.webp",
+      "wordCounts": {
+        "en": 13,
+        "ru": 11
+      },
+      "sequenceId": "duck-family",
+      "beatRole": "surprise",
+      "editorial": {
+        "activity": 3,
+        "comicPressure": 2,
+        "attention": 1
+      },
+      "evidence": {
+        "caption": "The duck turned with the current. “Wheee!” Down the wooden path it went.",
+        "visual": null,
+        "visualInspected": false
+      },
+      "waterState": "flowing-routed-not-stopped",
+      "warmthBand": "supporting"
+    },
+    {
+      "number": 92,
+      "id": "scene-62a",
+      "day": 3,
+      "paragraphs": {
+        "en": [
+          "Over one join, then the next. The duck bobbed along, beak first."
+        ],
+        "ru": [
+          "Через один стык, потом через другой. Уточка покачивалась и плыла клювом вперёд."
+        ]
+      },
+      "image": "images/published/bath-magic/scene-62a.webp",
+      "imageURL": "https://mr-pinpin.github.io/storyboard/images/published/bath-magic/scene-62a.webp",
+      "wordCounts": {
+        "en": 12,
+        "ru": 12
+      },
+      "sequenceId": "duck-family",
+      "beatRole": "breath",
+      "editorial": {
+        "activity": 2,
+        "comicPressure": 2,
+        "attention": 1
+      },
+      "evidence": {
+        "caption": "Over one join, then the next. The duck bobbed along, beak first.",
+        "visual": null,
+        "visualInspected": false
+      },
+      "waterState": "flowing-routed-not-stopped",
+      "warmthBand": "supporting"
+    },
+    {
+      "number": 93,
+      "id": "scene-62b",
+      "day": 3,
+      "paragraphs": {
+        "en": [
+          "It sailed past the table. PinPin trotted alongside."
+        ],
+        "ru": [
+          "Она проплыла мимо стола. Пин-Пин побежал рядом."
+        ]
+      },
+      "image": "images/published/bath-magic/scene-62b.webp",
+      "imageURL": "https://mr-pinpin.github.io/storyboard/images/published/bath-magic/scene-62b.webp",
+      "wordCounts": {
+        "en": 8,
+        "ru": 7
+      },
+      "sequenceId": "duck-family",
+      "beatRole": "practicalresponse",
+      "editorial": {
+        "activity": 2,
+        "comicPressure": 2,
+        "attention": 1
+      },
+      "evidence": {
+        "caption": "It sailed past the table. PinPin trotted alongside.",
+        "visual": "Duck in the room's channel while PinPin and Mama watch from beside it.",
+        "visualInspected": true
+      },
+      "waterState": "flowing-routed-not-stopped",
+      "warmthBand": "supporting"
+    },
+    {
+      "number": 94,
+      "id": "scene-63",
+      "day": 3,
+      "paragraphs": {
+        "en": [
+          "“Quack!” said PomPom. The duck answered, “Quack!”"
+        ],
+        "ru": [
+          "«Кря!» — сказал Пом-Пом. Уточка ответила: «Кря!»"
+        ]
+      },
+      "image": "images/published/bath-magic/scene-63.webp",
+      "imageURL": "https://mr-pinpin.github.io/storyboard/images/published/bath-magic/scene-63.webp",
+      "wordCounts": {
+        "en": 7,
+        "ru": 7
+      },
+      "sequenceId": "duck-family",
+      "beatRole": "surprise",
+      "editorial": {
+        "activity": 2,
+        "comicPressure": 2,
+        "attention": 1
+      },
+      "evidence": {
+        "caption": "“Quack!” said PomPom. The duck answered, “Quack!”",
+        "visual": null,
+        "visualInspected": false
+      },
+      "waterState": "flowing-routed-not-stopped",
+      "warmthBand": "foregrounded"
+    },
+    {
+      "number": 95,
+      "id": "scene-62c",
+      "day": 3,
+      "paragraphs": {
+        "en": [
+          "Through the open door! The garden shone ahead."
+        ],
+        "ru": [
+          "Через открытую дверь! Впереди сиял сад."
+        ]
+      },
+      "image": "images/published/bath-magic/scene-62c.webp",
+      "imageURL": "https://mr-pinpin.github.io/storyboard/images/published/bath-magic/scene-62c.webp",
+      "wordCounts": {
+        "en": 8,
+        "ru": 6
+      },
+      "sequenceId": "duck-family",
+      "beatRole": "breath",
+      "editorial": {
+        "activity": 2,
+        "comicPressure": 2,
+        "attention": 1
+      },
+      "evidence": {
+        "caption": "Through the open door! The garden shone ahead.",
+        "visual": null,
+        "visualInspected": false
+      },
+      "waterState": "flowing-routed-not-stopped",
+      "warmthBand": "supporting"
+    },
+    {
+      "number": 96,
+      "id": "scene-64",
+      "day": 3,
+      "paragraphs": {
+        "en": [
+          "Papa caught it at the end. “Again!” said the duck."
+        ],
+        "ru": [
+          "Папа поймал её в конце желоба. «Ещё раз!» — сказала уточка."
+        ]
+      },
+      "image": "images/published/bath-magic/scene-64.webp",
+      "imageURL": "https://mr-pinpin.github.io/storyboard/images/published/bath-magic/scene-64.webp",
+      "wordCounts": {
+        "en": 10,
+        "ru": 11
+      },
+      "sequenceId": "duck-family",
+      "beatRole": "resolution",
+      "editorial": {
+        "activity": 2,
+        "comicPressure": 2,
+        "attention": 1
+      },
+      "evidence": {
+        "caption": "Papa caught it at the end. “Again!” said the duck.",
+        "visual": null,
+        "visualInspected": false
+      },
+      "waterState": "flowing-routed-not-stopped",
+      "warmthBand": "foregrounded"
+    },
+    {
+      "number": 97,
+      "id": "scene-65",
+      "day": 3,
+      "paragraphs": {
+        "en": [
+          "“Round and round… just so! A quiet duck, please.”"
+        ],
+        "ru": [
+          "«Круг за кругом… вот так! Пусть уточка помолчит»."
+        ]
+      },
+      "image": "images/published/bath-magic/scene-65.webp",
+      "imageURL": "https://mr-pinpin.github.io/storyboard/images/published/bath-magic/scene-65.webp",
+      "wordCounts": {
+        "en": 9,
+        "ru": 8
+      },
+      "sequenceId": "duck-family",
+      "beatRole": "attempt",
+      "editorial": {
+        "activity": 2,
+        "comicPressure": 2,
+        "attention": 2
+      },
+      "evidence": {
+        "caption": "“Round and round… just so! A quiet duck, please.”",
+        "visual": null,
+        "visualInspected": false
+      },
+      "waterState": "flowing-routed-not-stopped",
+      "warmthBand": "not-foregrounded"
+    },
+    {
+      "number": 98,
+      "id": "scene-66",
+      "day": 3,
+      "paragraphs": {
+        "en": [
+          "Pop, pop, pop! Now there were twelve."
+        ],
+        "ru": [
+          "Хлоп, хлоп, хлоп! Теперь их было двенадцать."
+        ]
+      },
+      "image": "images/published/bath-magic/scene-66.webp",
+      "imageURL": "https://mr-pinpin.github.io/storyboard/images/published/bath-magic/scene-66.webp",
+      "wordCounts": {
+        "en": 7,
+        "ru": 7
+      },
+      "sequenceId": "duck-family",
+      "beatRole": "surprise",
+      "editorial": {
+        "activity": 3,
+        "comicPressure": 3,
+        "attention": 2
+      },
+      "evidence": {
+        "caption": "Pop, pop, pop! Now there were twelve.",
+        "visual": "A basin contains many distinct yellow ducks, making multiplication visually readable.",
+        "visualInspected": true
+      },
+      "waterState": "flowing-routed-not-stopped",
+      "warmthBand": "not-foregrounded"
+    },
+    {
+      "number": 99,
+      "id": "scene-67",
+      "day": 3,
+      "paragraphs": {
+        "en": [
+          "Papa counted the little yellow heads. “Nine… ten… eleven…”"
+        ],
+        "ru": [
+          "Папа считал жёлтые головки. «Девять… десять… одиннадцать…»"
+        ]
+      },
+      "image": "images/published/bath-magic/scene-67.webp",
+      "imageURL": "https://mr-pinpin.github.io/storyboard/images/published/bath-magic/scene-67.webp",
+      "wordCounts": {
+        "en": 9,
+        "ru": 7
+      },
+      "sequenceId": "duck-family",
+      "beatRole": "reaction",
+      "editorial": {
+        "activity": 2,
+        "comicPressure": 3,
+        "attention": 2
+      },
+      "evidence": {
+        "caption": "Papa counted the little yellow heads. “Nine… ten… eleven…”",
+        "visual": null,
+        "visualInspected": false
+      },
+      "waterState": "flowing-routed-not-stopped",
+      "warmthBand": "supporting"
+    },
+    {
+      "number": 100,
+      "id": "scene-68",
+      "day": 3,
+      "paragraphs": {
+        "en": [
+          "“Twelve!” Quack, quack, quack—the whole line set off."
+        ],
+        "ru": [
+          "«Двенадцать!» Кря-кря-кря — вся вереница поплыла."
+        ]
+      },
+      "image": "images/published/bath-magic/scene-68.webp",
+      "imageURL": "https://mr-pinpin.github.io/storyboard/images/published/bath-magic/scene-68.webp",
+      "wordCounts": {
+        "en": 8,
+        "ru": 6
+      },
+      "sequenceId": "duck-family",
+      "beatRole": "surprise",
+      "editorial": {
+        "activity": 3,
+        "comicPressure": 3,
+        "attention": 2
+      },
+      "evidence": {
+        "caption": "“Twelve!” Quack, quack, quack—the whole line set off.",
+        "visual": "A single-file line of ducks occupies the channel toward the open exterior door.",
+        "visualInspected": true
+      },
+      "waterState": "flowing-routed-not-stopped",
+      "warmthBand": "supporting"
+    },
+    {
+      "number": 101,
+      "id": "scene-69",
+      "day": 3,
+      "paragraphs": {
+        "en": [
+          "They gave the ducks a wide little pool. But flowers kept catching their tails."
+        ],
+        "ru": [
+          "Уточкам дали широкий маленький бассейн. Но цветы всё цеплялись за хвостики."
+        ]
+      },
+      "image": "images/published/bath-magic/scene-69.webp",
+      "imageURL": "https://mr-pinpin.github.io/storyboard/images/published/bath-magic/scene-69.webp",
+      "wordCounts": {
+        "en": 14,
+        "ru": 11
+      },
+      "sequenceId": "duck-family",
+      "beatRole": "practicalresponse",
+      "editorial": {
+        "activity": 2,
+        "comicPressure": 2,
+        "attention": 1
+      },
+      "evidence": {
+        "caption": "They gave the ducks a wide little pool. But flowers kept catching their tails.",
+        "visual": null,
+        "visualInspected": false
+      },
+      "waterState": "flowing-routed-not-stopped",
+      "warmthBand": "foregrounded"
+    },
+    {
+      "number": 102,
+      "id": "scene-70",
+      "day": 3,
+      "paragraphs": {
+        "en": [
+          "In bed, PinPin listened to the water. Where did that little stream keep coming from?"
+        ],
+        "ru": [
+          "В кровати Пин-Пин слушал воду. Откуда всё бежал этот маленький ручеёк?"
+        ]
+      },
+      "image": "images/published/bath-magic/scene-70.webp",
+      "imageURL": "https://mr-pinpin.github.io/storyboard/images/published/bath-magic/scene-70.webp",
+      "wordCounts": {
+        "en": 15,
+        "ru": 11
+      },
+      "sequenceId": "duck-family",
+      "beatRole": "intention",
+      "editorial": {
+        "activity": 1,
+        "comicPressure": 2,
+        "attention": 3
+      },
+      "evidence": {
+        "caption": "In bed, PinPin listened to the water. Where did that little stream keep coming from?",
+        "visual": null,
+        "visualInspected": false
+      },
+      "waterState": "flowing-routed-not-stopped",
+      "warmthBand": "supporting"
+    },
+    {
+      "number": 103,
+      "id": "scene-71",
+      "day": 4,
+      "paragraphs": {
+        "en": [
+          "PinPin potted one flower. “Round and round… just so! Smaller, please—room for the ducks!”"
+        ],
+        "ru": [
+          "Пин-Пин посадил один цветок в горшок. «Круг за кругом… вот так! Стань поменьше — уткам нужно место!»"
+        ]
+      },
+      "image": "images/published/bath-magic/scene-71.webp",
+      "imageURL": "https://mr-pinpin.github.io/storyboard/images/published/bath-magic/scene-71.webp",
+      "wordCounts": {
+        "en": 14,
+        "ru": 17
+      },
+      "sequenceId": "giant-plant",
+      "beatRole": "attempt",
+      "editorial": {
+        "activity": 2,
+        "comicPressure": 2,
+        "attention": 2
+      },
+      "evidence": {
+        "caption": "PinPin potted one flower. “Round and round… just so! Smaller, please—room for the ducks!”",
+        "visual": null,
+        "visualInspected": false
+      },
+      "waterState": "flowing-routed-not-stopped",
+      "warmthBand": "not-foregrounded"
+    },
+    {
+      "number": 104,
+      "id": "scene-72",
+      "day": 4,
+      "paragraphs": {
+        "en": [
+          "One stem grew… and grew…"
+        ],
+        "ru": [
+          "Один стебель рос… и рос…"
+        ]
+      },
+      "image": "images/published/bath-magic/scene-72.webp",
+      "imageURL": "https://mr-pinpin.github.io/storyboard/images/published/bath-magic/scene-72.webp",
+      "wordCounts": {
+        "en": 5,
+        "ru": 5
+      },
+      "sequenceId": "giant-plant",
+      "beatRole": "surprise",
+      "editorial": {
+        "activity": 3,
+        "comicPressure": 3,
+        "attention": 2
+      },
+      "evidence": {
+        "caption": "One stem grew… and grew…",
+        "visual": null,
+        "visualInspected": false
+      },
+      "waterState": "flowing-routed-not-stopped",
+      "warmthBand": "not-foregrounded"
+    },
+    {
+      "number": 105,
+      "id": "scene-72a",
+      "day": 4,
+      "paragraphs": {
+        "en": [
+          "The leaves rustled. The family peeked in to see what had grown."
+        ],
+        "ru": [
+          "Листья зашуршали. Семья заглянула посмотреть, что там выросло."
+        ]
+      },
+      "image": "images/published/bath-magic/scene-72a.webp",
+      "imageURL": "https://mr-pinpin.github.io/storyboard/images/published/bath-magic/scene-72a.webp",
+      "wordCounts": {
+        "en": 12,
+        "ru": 8
+      },
+      "sequenceId": "giant-plant",
+      "beatRole": "reaction",
+      "editorial": {
+        "activity": 2,
+        "comicPressure": 3,
+        "attention": 2
+      },
+      "evidence": {
+        "caption": "The leaves rustled. The family peeked in to see what had grown.",
+        "visual": null,
+        "visualInspected": false
+      },
+      "waterState": "flowing-routed-not-stopped",
+      "warmthBand": "foregrounded"
+    },
+    {
+      "number": 106,
+      "id": "scene-73",
+      "day": 4,
+      "paragraphs": {
+        "en": [
+          "A leaf covered the doorway. “Excuse me,” said Mama."
+        ],
+        "ru": [
+          "Лист закрыл проход. «Разрешите пройти», — сказала Мама."
+        ]
+      },
+      "image": "images/published/bath-magic/scene-73.webp",
+      "imageURL": "https://mr-pinpin.github.io/storyboard/images/published/bath-magic/scene-73.webp",
+      "wordCounts": {
+        "en": 9,
+        "ru": 8
+      },
+      "sequenceId": "giant-plant",
+      "beatRole": "surprise",
+      "editorial": {
+        "activity": 2,
+        "comicPressure": 3,
+        "attention": 1
+      },
+      "evidence": {
+        "caption": "A leaf covered the doorway. “Excuse me,” said Mama.",
+        "visual": "Tall flowering plant fills the space beside the bath; the family gathers at the doorway.",
+        "visualInspected": true
+      },
+      "waterState": "flowing-routed-not-stopped",
+      "warmthBand": "supporting"
+    },
+    {
+      "number": 107,
+      "id": "scene-73d",
+      "day": 4,
+      "paragraphs": {
+        "en": [
+          "Mama bent lower. The leaf had become a green ceiling."
+        ],
+        "ru": [
+          "Мама пригнулась пониже. Лист превратился в зелёный потолок."
+        ]
+      },
+      "image": "images/published/bath-magic/scene-73d.webp",
+      "imageURL": "https://mr-pinpin.github.io/storyboard/images/published/bath-magic/scene-73d.webp",
+      "wordCounts": {
+        "en": 10,
+        "ru": 8
+      },
+      "sequenceId": "giant-plant",
+      "beatRole": "surprise",
+      "editorial": {
+        "activity": 2,
+        "comicPressure": 3,
+        "attention": 1
+      },
+      "evidence": {
+        "caption": "Mama bent lower. The leaf had become a green ceiling.",
+        "visual": null,
+        "visualInspected": false
+      },
+      "waterState": "flowing-routed-not-stopped",
+      "warmthBand": "supporting"
+    },
+    {
+      "number": 108,
+      "id": "scene-73a",
+      "day": 4,
+      "paragraphs": {
+        "en": [
+          "Papa put both paws on the pot. “A little push!”"
+        ],
+        "ru": [
+          "Папа упёрся в горшок обеими лапами. «Чуть-чуть подтолкнём!»"
+        ]
+      },
+      "image": "images/published/bath-magic/scene-73a.webp",
+      "imageURL": "https://mr-pinpin.github.io/storyboard/images/published/bath-magic/scene-73a.webp",
+      "wordCounts": {
+        "en": 10,
+        "ru": 8
+      },
+      "sequenceId": "giant-plant",
+      "beatRole": "practicalresponse",
+      "editorial": {
+        "activity": 3,
+        "comicPressure": 3,
+        "attention": 1
+      },
+      "evidence": {
+        "caption": "Papa put both paws on the pot. “A little push!”",
+        "visual": null,
+        "visualInspected": false
+      },
+      "waterState": "flowing-routed-not-stopped",
+      "warmthBand": "foregrounded"
+    },
+    {
+      "number": 109,
+      "id": "scene-73b",
+      "day": 4,
+      "paragraphs": {
+        "en": [
+          "“This way,” said Mama. PinPin pushed with Papa."
+        ],
+        "ru": [
+          "«Сюда», — сказала Мама. Пин-Пин толкал горшок вместе с Папой."
+        ]
+      },
+      "image": "images/published/bath-magic/scene-73b.webp",
+      "imageURL": "https://mr-pinpin.github.io/storyboard/images/published/bath-magic/scene-73b.webp",
+      "wordCounts": {
+        "en": 8,
+        "ru": 10
+      },
+      "sequenceId": "giant-plant",
+      "beatRole": "practicalresponse",
+      "editorial": {
+        "activity": 3,
+        "comicPressure": 3,
+        "attention": 1
+      },
+      "evidence": {
+        "caption": "“This way,” said Mama. PinPin pushed with Papa.",
+        "visual": "Papa and PinPin brace the pot while Mama indicates a direction.",
+        "visualInspected": true
+      },
+      "waterState": "flowing-routed-not-stopped",
+      "warmthBand": "foregrounded"
+    },
+    {
+      "number": 110,
+      "id": "scene-73c",
+      "day": 4,
+      "paragraphs": {
+        "en": [
+          "The pot settled in the corner. Now there was room to pass."
+        ],
+        "ru": [
+          "Горшок встал в угол. Теперь можно было пройти."
+        ]
+      },
+      "image": "images/published/bath-magic/scene-73c.webp",
+      "imageURL": "https://mr-pinpin.github.io/storyboard/images/published/bath-magic/scene-73c.webp",
+      "wordCounts": {
+        "en": 12,
+        "ru": 8
+      },
+      "sequenceId": "giant-plant",
+      "beatRole": "resolution",
+      "editorial": {
+        "activity": 2,
+        "comicPressure": 2,
+        "attention": 1
+      },
+      "evidence": {
+        "caption": "The pot settled in the corner. Now there was room to pass.",
+        "visual": null,
+        "visualInspected": false
+      },
+      "waterState": "flowing-routed-not-stopped",
+      "warmthBand": "foregrounded"
+    },
+    {
+      "number": 111,
+      "id": "scene-74",
+      "day": 4,
+      "paragraphs": {
+        "en": [
+          "She lifted the leaf. Papa passed breakfast underneath."
+        ],
+        "ru": [
+          "Она приподняла лист. Папа передал под ним завтрак."
+        ]
+      },
+      "image": "images/published/bath-magic/scene-74.webp",
+      "imageURL": "https://mr-pinpin.github.io/storyboard/images/published/bath-magic/scene-74.webp",
+      "wordCounts": {
+        "en": 8,
+        "ru": 8
+      },
+      "sequenceId": "giant-plant",
+      "beatRole": "surprise",
+      "editorial": {
+        "activity": 2,
+        "comicPressure": 2,
+        "attention": 1
+      },
+      "evidence": {
+        "caption": "She lifted the leaf. Papa passed breakfast underneath.",
+        "visual": null,
+        "visualInspected": false
+      },
+      "waterState": "flowing-routed-not-stopped",
+      "warmthBand": "foregrounded"
+    },
+    {
+      "number": 112,
+      "id": "scene-75",
+      "day": 4,
+      "paragraphs": {
+        "en": [
+          "Over breakfast, Mama pointed at the plant. “Look—it’s still growing!”",
+          "“Let’s take it outside before it grows even bigger.”"
+        ],
+        "ru": [
+          "За завтраком мама показала на цветок. «Смотрите — он всё ещё растёт!»",
+          "«Давайте вынесем его, пока он не вырос ещё больше»."
+        ]
+      },
+      "image": "images/published/bath-magic/scene-75.webp",
+      "imageURL": "https://mr-pinpin.github.io/storyboard/images/published/bath-magic/scene-75.webp",
+      "wordCounts": {
+        "en": 19,
+        "ru": 21
+      },
+      "sequenceId": "giant-plant",
+      "beatRole": "reaction",
+      "editorial": {
+        "activity": 2,
+        "comicPressure": 3,
+        "attention": 2
+      },
+      "evidence": {
+        "caption": "Over breakfast, Mama pointed at the plant. “Look—it’s still growing!” “Let’s take it outside before it grows even bigger.”",
+        "visual": "Family breakfast at the table with the large plant still visible behind them.",
+        "visualInspected": true
+      },
+      "waterState": "flowing-routed-not-stopped",
+      "warmthBand": "foregrounded"
+    },
+    {
+      "number": 113,
+      "id": "scene-76",
+      "day": 4,
+      "paragraphs": {
+        "en": [
+          "“Together!” said Papa. He and PinPin lifted the heavy pot."
+        ],
+        "ru": [
+          "«Вместе!» — сказал Папа. Они с Пин-Пином подняли тяжёлый горшок."
+        ]
+      },
+      "image": "images/published/bath-magic/scene-76.webp",
+      "imageURL": "https://mr-pinpin.github.io/storyboard/images/published/bath-magic/scene-76.webp",
+      "wordCounts": {
+        "en": 10,
+        "ru": 10
+      },
+      "sequenceId": "giant-plant",
+      "beatRole": "practicalresponse",
+      "editorial": {
+        "activity": 3,
+        "comicPressure": 3,
+        "attention": 1
+      },
+      "evidence": {
+        "caption": "“Together!” said Papa. He and PinPin lifted the heavy pot.",
+        "visual": null,
+        "visualInspected": false
+      },
+      "waterState": "flowing-routed-not-stopped",
+      "warmthBand": "foregrounded"
+    },
+    {
+      "number": 114,
+      "id": "scene-77",
+      "day": 4,
+      "paragraphs": {
+        "en": [
+          "Papa and PinPin carried the pot. Mama held PomPom and showed them the clear doorway."
+        ],
+        "ru": [
+          "Папа и Пин-Пин несли горшок. Мама держала Пом-Пома и показала им свободный проход."
+        ]
+      },
+      "image": "images/published/bath-magic/scene-77.webp",
+      "imageURL": "https://mr-pinpin.github.io/storyboard/images/published/bath-magic/scene-77.webp",
+      "wordCounts": {
+        "en": 15,
+        "ru": 13
+      },
+      "sequenceId": "giant-plant",
+      "beatRole": "practicalresponse",
+      "editorial": {
+        "activity": 3,
+        "comicPressure": 3,
+        "attention": 1
+      },
+      "evidence": {
+        "caption": "Papa and PinPin carried the pot. Mama held PomPom and showed them the clear doorway.",
+        "visual": null,
+        "visualInspected": false
+      },
+      "waterState": "flowing-routed-not-stopped",
+      "warmthBand": "foregrounded"
+    },
+    {
+      "number": 115,
+      "id": "scene-78",
+      "day": 4,
+      "paragraphs": {
+        "en": [
+          "Outside, the big flower had room to open."
+        ],
+        "ru": [
+          "Снаружи большому цветку хватило места раскрыться."
+        ]
+      },
+      "image": "images/published/bath-magic/scene-78.webp",
+      "imageURL": "https://mr-pinpin.github.io/storyboard/images/published/bath-magic/scene-78.webp",
+      "wordCounts": {
+        "en": 8,
+        "ru": 6
+      },
+      "sequenceId": "giant-plant",
+      "beatRole": "resolution",
+      "editorial": {
+        "activity": 2,
+        "comicPressure": 2,
+        "attention": 1
+      },
+      "evidence": {
+        "caption": "Outside, the big flower had room to open.",
+        "visual": "Papa and PinPin hold the large potted flower outside by the duck pool and channel.",
+        "visualInspected": true
+      },
+      "waterState": "flowing-routed-not-stopped",
+      "warmthBand": "foregrounded"
+    },
+    {
+      "number": 116,
+      "id": "scene-79",
+      "day": 4,
+      "paragraphs": {
+        "en": [
+          "The flower was outside. Petals were scattered along the water's path."
+        ],
+        "ru": [
+          "Цветок был снаружи. Вдоль ручейка лежали рассыпанные лепестки."
+        ]
+      },
+      "image": "images/published/bath-magic/scene-79.webp",
+      "imageURL": "https://mr-pinpin.github.io/storyboard/images/published/bath-magic/scene-79.webp",
+      "wordCounts": {
+        "en": 11,
+        "ru": 8
+      },
+      "sequenceId": "giant-plant",
+      "beatRole": "setup",
+      "editorial": {
+        "activity": 2,
+        "comicPressure": 2,
+        "attention": 2
+      },
+      "evidence": {
+        "caption": "The flower was outside. Petals were scattered along the water's path.",
+        "visual": null,
+        "visualInspected": false
+      },
+      "waterState": "flowing-routed-not-stopped",
+      "warmthBand": "not-foregrounded"
+    },
+    {
+      "number": 117,
+      "id": "scene-79a",
+      "day": 4,
+      "paragraphs": {
+        "en": [
+          "Back by the bath, PinPin sat and looked at the wet petals. He had an idea."
+        ],
+        "ru": [
+          "Вернувшись к ванне, Пин-Пин сел и посмотрел на мокрые лепестки. У него появилась идея."
+        ]
+      },
+      "image": "images/published/bath-magic/scene-79a.webp",
+      "imageURL": "https://mr-pinpin.github.io/storyboard/images/published/bath-magic/scene-79a.webp",
+      "wordCounts": {
+        "en": 16,
+        "ru": 14
+      },
+      "sequenceId": "bubbles",
+      "beatRole": "intention",
+      "editorial": {
+        "activity": 1,
+        "comicPressure": 2,
+        "attention": 2
+      },
+      "evidence": {
+        "caption": "Back by the bath, PinPin sat and looked at the wet petals. He had an idea.",
+        "visual": null,
+        "visualInspected": false
+      },
+      "waterState": "flowing-routed-not-stopped",
+      "warmthBand": "not-foregrounded"
+    },
+    {
+      "number": 118,
+      "id": "scene-80",
+      "day": 4,
+      "paragraphs": {
+        "en": [
+          "PinPin looked at the petals. “I'll clear these away. Round and round… just so!”"
+        ],
+        "ru": [
+          "Пин-Пин посмотрел на лепестки. «Я их уберу. Круг за кругом… вот так!»"
+        ]
+      },
+      "image": "images/published/bath-magic/scene-80.webp",
+      "imageURL": "https://mr-pinpin.github.io/storyboard/images/published/bath-magic/scene-80.webp",
+      "wordCounts": {
+        "en": 14,
+        "ru": 12
+      },
+      "sequenceId": "bubbles",
+      "beatRole": "attempt",
+      "editorial": {
+        "activity": 2,
+        "comicPressure": 2,
+        "attention": 2
+      },
+      "evidence": {
+        "caption": "PinPin looked at the petals. “I'll clear these away. Round and round… just so!”",
+        "visual": null,
+        "visualInspected": false
+      },
+      "waterState": "flowing-routed-not-stopped",
+      "warmthBand": "not-foregrounded"
+    },
+    {
+      "number": 119,
+      "id": "scene-81",
+      "day": 4,
+      "paragraphs": {
+        "en": [
+          "Bubbles rose as big as bowls. One carried the soap."
+        ],
+        "ru": [
+          "Поднялись пузыри с миску величиной. Один унёс мыло."
+        ]
+      },
+      "image": "images/published/bath-magic/scene-81.webp",
+      "imageURL": "https://mr-pinpin.github.io/storyboard/images/published/bath-magic/scene-81.webp",
+      "wordCounts": {
+        "en": 10,
+        "ru": 8
+      },
+      "sequenceId": "bubbles",
+      "beatRole": "surprise",
+      "editorial": {
+        "activity": 3,
+        "comicPressure": 3,
+        "attention": 2
+      },
+      "evidence": {
+        "caption": "Bubbles rose as big as bowls. One carried the soap.",
+        "visual": "Large bubbles visibly carry objects above the bath.",
+        "visualInspected": true
+      },
+      "waterState": "flowing-routed-not-stopped",
+      "warmthBand": "not-foregrounded"
+    },
+    {
+      "number": 120,
+      "id": "scene-83",
+      "day": 4,
+      "paragraphs": {
+        "en": [
+          "PinPin jumped. His paw went right past it."
+        ],
+        "ru": [
+          "Пин-Пин подпрыгнул. Лапка пролетела мимо."
+        ]
+      },
+      "image": "images/published/bath-magic/scene-83.webp",
+      "imageURL": "https://mr-pinpin.github.io/storyboard/images/published/bath-magic/scene-83.webp",
+      "wordCounts": {
+        "en": 8,
+        "ru": 5
+      },
+      "sequenceId": "bubbles",
+      "beatRole": "reaction",
+      "editorial": {
+        "activity": 3,
+        "comicPressure": 3,
+        "attention": 2
+      },
+      "evidence": {
+        "caption": "PinPin jumped. His paw went right past it.",
+        "visual": null,
+        "visualInspected": false
+      },
+      "waterState": "flowing-routed-not-stopped",
+      "warmthBand": "not-foregrounded"
+    },
+    {
+      "number": 121,
+      "id": "scene-84",
+      "day": 4,
+      "paragraphs": {
+        "en": [
+          "Mama opened the window. “This way!”"
+        ],
+        "ru": [
+          "Мама открыла окно. «Сюда!»"
+        ]
+      },
+      "image": "images/published/bath-magic/scene-84.webp",
+      "imageURL": "https://mr-pinpin.github.io/storyboard/images/published/bath-magic/scene-84.webp",
+      "wordCounts": {
+        "en": 6,
+        "ru": 4
+      },
+      "sequenceId": "bubbles",
+      "beatRole": "practicalresponse",
+      "editorial": {
+        "activity": 2,
+        "comicPressure": 2,
+        "attention": 1
+      },
+      "evidence": {
+        "caption": "Mama opened the window. “This way!”",
+        "visual": null,
+        "visualInspected": false
+      },
+      "waterState": "flowing-routed-not-stopped",
+      "warmthBand": "supporting"
+    },
+    {
+      "number": 122,
+      "id": "scene-85",
+      "day": 4,
+      "paragraphs": {
+        "en": [
+          "They waved a towel together. The bubbles sailed outside."
+        ],
+        "ru": [
+          "Они вместе махнули полотенцем. Пузыри выплыли наружу."
+        ]
+      },
+      "image": "images/published/bath-magic/scene-85.webp",
+      "imageURL": "https://mr-pinpin.github.io/storyboard/images/published/bath-magic/scene-85.webp",
+      "wordCounts": {
+        "en": 9,
+        "ru": 7
+      },
+      "sequenceId": "bubbles",
+      "beatRole": "practicalresponse",
+      "editorial": {
+        "activity": 3,
+        "comicPressure": 2,
+        "attention": 1
+      },
+      "evidence": {
+        "caption": "They waved a towel together. The bubbles sailed outside.",
+        "visual": "Papa and Mama hold a towel together beneath floating bubbles.",
+        "visualInspected": true
+      },
+      "waterState": "flowing-routed-not-stopped",
+      "warmthBand": "foregrounded"
+    },
+    {
+      "number": 123,
+      "id": "scene-86",
+      "day": 4,
+      "paragraphs": {
+        "en": [
+          "Pop! Papa caught the soap. The dripping cloth landed with a splat."
+        ],
+        "ru": [
+          "Хлоп! Папа поймал мыло. А мокрая тряпка шлёпнулась на землю."
+        ]
+      },
+      "image": "images/published/bath-magic/scene-86.webp",
+      "imageURL": "https://mr-pinpin.github.io/storyboard/images/published/bath-magic/scene-86.webp",
+      "wordCounts": {
+        "en": 12,
+        "ru": 10
+      },
+      "sequenceId": "bubbles",
+      "beatRole": "resolution",
+      "editorial": {
+        "activity": 2,
+        "comicPressure": 2,
+        "attention": 1
+      },
+      "evidence": {
+        "caption": "Pop! Papa caught the soap. The dripping cloth landed with a splat.",
+        "visual": null,
+        "visualInspected": false
+      },
+      "waterState": "flowing-routed-not-stopped",
+      "warmthBand": "foregrounded"
+    },
+    {
+      "number": 124,
+      "id": "scene-87",
+      "day": 4,
+      "paragraphs": {
+        "en": [
+          "The bubbles were gone. PinPin watched the little stream in the bath."
+        ],
+        "ru": [
+          "Пузырей больше не было. Пин-Пин смотрел на ручеёк в ванне."
+        ]
+      },
+      "image": "images/published/bath-magic/scene-87.webp",
+      "imageURL": "https://mr-pinpin.github.io/storyboard/images/published/bath-magic/scene-87.webp",
+      "wordCounts": {
+        "en": 12,
+        "ru": 10
+      },
+      "sequenceId": "reverse",
+      "beatRole": "breath",
+      "editorial": {
+        "activity": 1,
+        "comicPressure": 2,
+        "attention": 2
+      },
+      "evidence": {
+        "caption": "The bubbles were gone. PinPin watched the little stream in the bath.",
+        "visual": null,
+        "visualInspected": false
+      },
+      "waterState": "flowing-routed-not-stopped",
+      "warmthBand": "not-foregrounded"
+    },
+    {
+      "number": 125,
+      "id": "scene-114",
+      "day": 4,
+      "paragraphs": {
+        "en": [
+          "The water came from his golden circle. PinPin followed its curve with his eyes."
+        ],
+        "ru": [
+          "Вода бежала из его золотого круга. Пин-Пин проследил глазами за линией."
+        ]
+      },
+      "image": "images/published/bath-magic/scene-114.webp",
+      "imageURL": "https://mr-pinpin.github.io/storyboard/images/published/bath-magic/scene-114.webp",
+      "wordCounts": {
+        "en": 14,
+        "ru": 11
+      },
+      "sequenceId": "reverse",
+      "beatRole": "intention",
+      "editorial": {
+        "activity": 1,
+        "comicPressure": 2,
+        "attention": 3
+      },
+      "evidence": {
+        "caption": "The water came from his golden circle. PinPin followed its curve with his eyes.",
+        "visual": "Close-up frames PinPin considering the problem, with the water setting behind him.",
+        "visualInspected": true
+      },
+      "waterState": "flowing-routed-not-stopped",
+      "warmthBand": "not-foregrounded"
+    },
+    {
+      "number": 126,
+      "id": "scene-115",
+      "day": 4,
+      "paragraphs": {
+        "en": [
+          "Mama crouched beside him. “What are you thinking?”"
+        ],
+        "ru": [
+          "Мама присела рядом. «О чём ты думаешь?»"
+        ]
+      },
+      "image": "images/published/bath-magic/scene-115.webp",
+      "imageURL": "https://mr-pinpin.github.io/storyboard/images/published/bath-magic/scene-115.webp",
+      "wordCounts": {
+        "en": 8,
+        "ru": 7
+      },
+      "sequenceId": "reverse",
+      "beatRole": "reaction",
+      "editorial": {
+        "activity": 1,
+        "comicPressure": 2,
+        "attention": 2
+      },
+      "evidence": {
+        "caption": "Mama crouched beside him. “What are you thinking?”",
+        "visual": null,
+        "visualInspected": false
+      },
+      "waterState": "flowing-routed-not-stopped",
+      "warmthBand": "foregrounded"
+    },
+    {
+      "number": 127,
+      "id": "scene-116",
+      "day": 4,
+      "paragraphs": {
+        "en": [
+          "“What if I go the other way?” PinPin moved his paw back a little."
+        ],
+        "ru": [
+          "«А если в другую сторону?» Пин-Пин немного повёл лапкой назад."
+        ]
+      },
+      "image": "images/published/bath-magic/scene-116.webp",
+      "imageURL": "https://mr-pinpin.github.io/storyboard/images/published/bath-magic/scene-116.webp",
+      "wordCounts": {
+        "en": 14,
+        "ru": 10
+      },
+      "sequenceId": "reverse",
+      "beatRole": "attempt",
+      "editorial": {
+        "activity": 2,
+        "comicPressure": 2,
+        "attention": 3
+      },
+      "evidence": {
+        "caption": "“What if I go the other way?” PinPin moved his paw back a little.",
+        "visual": null,
+        "visualInspected": false
+      },
+      "waterState": "flowing-routed-not-stopped",
+      "warmthBand": "not-foregrounded"
+    },
+    {
+      "number": 128,
+      "id": "scene-117",
+      "day": 4,
+      "paragraphs": {
+        "en": [
+          "The stream grew thin. PinPin watched closely."
+        ],
+        "ru": [
+          "Ручеёк стал тоненьким. Пин-Пин внимательно смотрел."
+        ]
+      },
+      "image": "images/published/bath-magic/scene-117.webp",
+      "imageURL": "https://mr-pinpin.github.io/storyboard/images/published/bath-magic/scene-117.webp",
+      "wordCounts": {
+        "en": 7,
+        "ru": 6
+      },
+      "sequenceId": "reverse",
+      "beatRole": "reaction",
+      "editorial": {
+        "activity": 1,
+        "comicPressure": 2,
+        "attention": 3
+      },
+      "evidence": {
+        "caption": "The stream grew thin. PinPin watched closely.",
+        "visual": null,
+        "visualInspected": false
+      },
+      "waterState": "flowing-routed-not-stopped",
+      "warmthBand": "not-foregrounded"
+    },
+    {
+      "number": 129,
+      "id": "scene-118",
+      "day": 4,
+      "paragraphs": {
+        "en": [
+          "He stopped his paw. The water came rushing back."
+        ],
+        "ru": [
+          "Он остановил лапку. Вода снова полилась сильнее."
+        ]
+      },
+      "image": "images/published/bath-magic/scene-118.webp",
+      "imageURL": "https://mr-pinpin.github.io/storyboard/images/published/bath-magic/scene-118.webp",
+      "wordCounts": {
+        "en": 9,
+        "ru": 7
+      },
+      "sequenceId": "reverse",
+      "beatRole": "surprise",
+      "editorial": {
+        "activity": 2,
+        "comicPressure": 2,
+        "attention": 3
+      },
+      "evidence": {
+        "caption": "He stopped his paw. The water came rushing back.",
+        "visual": "PinPin and Mama watch the golden source and renewed stream beside the tub.",
+        "visualInspected": true
+      },
+      "waterState": "flowing-routed-not-stopped",
+      "warmthBand": "not-foregrounded"
+    },
+    {
+      "number": 130,
+      "id": "scene-119",
+      "day": 4,
+      "paragraphs": {
+        "en": [
+          "“All the way back,” said PinPin. His paw followed the circle."
+        ],
+        "ru": [
+          "«Назад, до самого конца», — сказал Пин-Пин. Его лапка пошла по кругу."
+        ]
+      },
+      "image": "images/published/bath-magic/scene-119.webp",
+      "imageURL": "https://mr-pinpin.github.io/storyboard/images/published/bath-magic/scene-119.webp",
+      "wordCounts": {
+        "en": 11,
+        "ru": 12
+      },
+      "sequenceId": "reverse",
+      "beatRole": "attempt",
+      "editorial": {
+        "activity": 2,
+        "comicPressure": 2,
+        "attention": 3
+      },
+      "evidence": {
+        "caption": "“All the way back,” said PinPin. His paw followed the circle.",
+        "visual": null,
+        "visualInspected": false
+      },
+      "waterState": "flowing-routed-not-stopped",
+      "warmthBand": "not-foregrounded"
+    },
+    {
+      "number": 131,
+      "id": "scene-120",
+      "day": 4,
+      "paragraphs": {
+        "en": [
+          "The golden line faded. The stream became a thread."
+        ],
+        "ru": [
+          "Золотая линия погасла. Ручеёк стал ниточкой."
+        ]
+      },
+      "image": "images/published/bath-magic/scene-120.webp",
+      "imageURL": "https://mr-pinpin.github.io/storyboard/images/published/bath-magic/scene-120.webp",
+      "wordCounts": {
+        "en": 9,
+        "ru": 6
+      },
+      "sequenceId": "reverse",
+      "beatRole": "reaction",
+      "editorial": {
+        "activity": 1,
+        "comicPressure": 2,
+        "attention": 3
+      },
+      "evidence": {
+        "caption": "The golden line faded. The stream became a thread.",
+        "visual": null,
+        "visualInspected": false
+      },
+      "waterState": "flowing-routed-not-stopped",
+      "warmthBand": "not-foregrounded"
+    },
+    {
+      "number": 132,
+      "id": "scene-121",
+      "day": 4,
+      "paragraphs": {
+        "en": [
+          "One last drop. Then—quiet."
+        ],
+        "ru": [
+          "Последняя капля. И — тишина."
+        ]
+      },
+      "image": "images/published/bath-magic/scene-121.webp",
+      "imageURL": "https://mr-pinpin.github.io/storyboard/images/published/bath-magic/scene-121.webp",
+      "wordCounts": {
+        "en": 4,
+        "ru": 5
+      },
+      "sequenceId": "reverse",
+      "beatRole": "resolution",
+      "editorial": {
+        "activity": 1,
+        "comicPressure": 1,
+        "attention": 3
+      },
+      "evidence": {
+        "caption": "One last drop. Then—quiet.",
+        "visual": "PinPin's quiet pause beside Mama and the tub contrasts with earlier splashing scenes.",
+        "visualInspected": true
+      },
+      "waterState": "source-stopped",
+      "warmthBand": "foregrounded"
+    },
+    {
+      "number": 133,
+      "id": "scene-122",
+      "day": 4,
+      "paragraphs": {
+        "en": [
+          "They scooped up the puddles and wrung out the cloths."
+        ],
+        "ru": [
+          "Они собрали лужицы и выжали тряпочки."
+        ]
+      },
+      "image": "images/published/bath-magic/scene-122.webp",
+      "imageURL": "https://mr-pinpin.github.io/storyboard/images/published/bath-magic/scene-122.webp",
+      "wordCounts": {
+        "en": 10,
+        "ru": 6
+      },
+      "sequenceId": "lake",
+      "beatRole": "practicalresponse",
+      "editorial": {
+        "activity": 2,
+        "comicPressure": 1,
+        "attention": 1
+      },
+      "evidence": {
+        "caption": "They scooped up the puddles and wrung out the cloths.",
+        "visual": null,
+        "visualInspected": false
+      },
+      "waterState": "source-stopped",
+      "warmthBand": "foregrounded"
+    },
+    {
+      "number": 134,
+      "id": "scene-123",
+      "day": 4,
+      "paragraphs": {
+        "en": [
+          "Papa lifted the gutters away. PinPin carried the little blocks."
+        ],
+        "ru": [
+          "Папа убрал желоба. Пин-Пин понёс маленькие подпорки."
+        ]
+      },
+      "image": "images/published/bath-magic/scene-123.webp",
+      "imageURL": "https://mr-pinpin.github.io/storyboard/images/published/bath-magic/scene-123.webp",
+      "wordCounts": {
+        "en": 10,
+        "ru": 7
+      },
+      "sequenceId": "lake",
+      "beatRole": "practicalresponse",
+      "editorial": {
+        "activity": 2,
+        "comicPressure": 1,
+        "attention": 1
+      },
+      "evidence": {
+        "caption": "Papa lifted the gutters away. PinPin carried the little blocks.",
+        "visual": "Papa carries away a wooden trough and PinPin carries a support block.",
+        "visualInspected": true
+      },
+      "waterState": "source-stopped",
+      "warmthBand": "foregrounded"
+    },
+    {
+      "number": 135,
+      "id": "scene-124",
+      "day": 4,
+      "paragraphs": {
+        "en": [
+          "“A real lake!” said PinPin. They carried the ducks along the forest path."
+        ],
+        "ru": [
+          "«Настоящее озеро!» — сказал Пин-Пин. Они понесли уточек по лесной тропинке."
+        ]
+      },
+      "image": "images/published/bath-magic/scene-124.webp",
+      "imageURL": "https://mr-pinpin.github.io/storyboard/images/published/bath-magic/scene-124.webp",
+      "wordCounts": {
+        "en": 13,
+        "ru": 11
+      },
+      "sequenceId": "lake",
+      "beatRole": "intention",
+      "editorial": {
+        "activity": 2,
+        "comicPressure": 1,
+        "attention": 2
+      },
+      "evidence": {
+        "caption": "“A real lake!” said PinPin. They carried the ducks along the forest path.",
+        "visual": null,
+        "visualInspected": false
+      },
+      "waterState": "source-stopped",
+      "warmthBand": "foregrounded"
+    },
+    {
+      "number": 136,
+      "id": "scene-124a",
+      "day": 4,
+      "paragraphs": {
+        "en": [
+          "The lake glittered through the reeds. Twelve little bills pointed towards it."
+        ],
+        "ru": [
+          "Озеро блестело за камышами. Двенадцать клювиков повернулись к воде."
+        ]
+      },
+      "image": "images/published/bath-magic/scene-124a.webp",
+      "imageURL": "https://mr-pinpin.github.io/storyboard/images/published/bath-magic/scene-124a.webp",
+      "wordCounts": {
+        "en": 12,
+        "ru": 9
+      },
+      "sequenceId": "lake",
+      "beatRole": "breath",
+      "editorial": {
+        "activity": 1,
+        "comicPressure": 1,
+        "attention": 1
+      },
+      "evidence": {
+        "caption": "The lake glittered through the reeds. Twelve little bills pointed towards it.",
+        "visual": null,
+        "visualInspected": false
+      },
+      "waterState": "source-stopped",
+      "warmthBand": "foregrounded"
+    },
+    {
+      "number": 137,
+      "id": "scene-125",
+      "day": 4,
+      "paragraphs": {
+        "en": [
+          "Papa lowered the basin. PinPin helped the ducks into the lake, one by one."
+        ],
+        "ru": [
+          "Папа опустил таз. Пин-Пин помог уточкам спуститься в озеро, одной за другой."
+        ]
+      },
+      "image": "images/published/bath-magic/scene-125.webp",
+      "imageURL": "https://mr-pinpin.github.io/storyboard/images/published/bath-magic/scene-125.webp",
+      "wordCounts": {
+        "en": 14,
+        "ru": 12
+      },
+      "sequenceId": "lake",
+      "beatRole": "resolution",
+      "editorial": {
+        "activity": 2,
+        "comicPressure": 1,
+        "attention": 1
+      },
+      "evidence": {
+        "caption": "Papa lowered the basin. PinPin helped the ducks into the lake, one by one.",
+        "visual": null,
+        "visualInspected": false
+      },
+      "waterState": "source-stopped",
+      "warmthBand": "foregrounded"
+    },
+    {
+      "number": 138,
+      "id": "scene-126",
+      "day": 4,
+      "paragraphs": {
+        "en": [
+          "Twelve ducks bobbed on the lake. “More room!” they quacked."
+        ],
+        "ru": [
+          "Двенадцать уточек покачивались на озере. «Вот это простор!» — закрякали они."
+        ]
+      },
+      "image": "images/published/bath-magic/scene-126.webp",
+      "imageURL": "https://mr-pinpin.github.io/storyboard/images/published/bath-magic/scene-126.webp",
+      "wordCounts": {
+        "en": 10,
+        "ru": 11
+      },
+      "sequenceId": "lake",
+      "beatRole": "resolution",
+      "editorial": {
+        "activity": 1,
+        "comicPressure": 1,
+        "attention": 1
+      },
+      "evidence": {
+        "caption": "Twelve ducks bobbed on the lake. “More room!” they quacked.",
+        "visual": "A group of yellow ducks floats freely on a broad outdoor lake.",
+        "visualInspected": true
+      },
+      "waterState": "source-stopped",
+      "warmthBand": "foregrounded"
+    }
+  ],
+  "causalChain": [
+    {
+      "id": "water",
+      "title": "Water that will not stop",
+      "kind": "magical-complication",
+      "setup": [
+        18,
+        20,
+        21
+      ],
+      "attempt": [
+        22
+      ],
+      "payoff": [
+        23
+      ],
+      "familyResponse": [
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34
+      ],
+      "parentIds": [],
+      "persistentConsequence": "Source continues until scene132; delight at23 becomes a problem28–30.",
+      "closure": {
+        "type": "source-cessation",
+        "scenes": [
+          132
+        ]
+      }
+    },
+    {
+      "id": "aqueduct",
+      "title": "A road for the water",
+      "kind": "practical-response",
+      "setup": [
+        46,
+        47,
+        48,
+        49,
+        53,
+        54
+      ],
+      "attempt": [
+        55,
+        56,
+        57,
+        60,
+        61,
+        62,
+        63
+      ],
+      "payoff": [
+        64,
+        65
+      ],
+      "familyResponse": [
+        66,
+        67,
+        69,
+        70
+      ],
+      "parentIds": [
+        "water"
+      ],
+      "persistentConsequence": "Spill is routed, not stopped. The channel later carries flowers and ducks.",
+      "closure": {
+        "type": "successful-management-not-source-resolution",
+        "scenes": [
+          64,
+          65
+        ]
+      }
+    },
+    {
+      "id": "flowers",
+      "title": "A stopping spell makes flowers",
+      "kind": "magical-complication",
+      "setup": [
+        68,
+        69,
+        70,
+        71
+      ],
+      "attempt": [
+        72
+      ],
+      "payoff": [
+        73
+      ],
+      "familyResponse": [
+        74,
+        75,
+        76,
+        77,
+        78
+      ],
+      "parentIds": [
+        "water",
+        "aqueduct"
+      ],
+      "persistentConsequence": "Flowers persist and obstruct the route; collecting them permits flow but does not switch it off.",
+      "closure": {
+        "type": "management",
+        "scenes": [
+          77,
+          78
+        ]
+      }
+    },
+    {
+      "id": "voice",
+      "title": "Removing flowers gives the duck a voice",
+      "kind": "magical-complication",
+      "setup": [
+        81,
+        84,
+        85
+      ],
+      "attempt": [
+        86
+      ],
+      "payoff": [
+        87
+      ],
+      "familyResponse": [
+        88,
+        89,
+        90,
+        91,
+        92,
+        93,
+        94,
+        95,
+        96
+      ],
+      "parentIds": [
+        "flowers"
+      ],
+      "persistentConsequence": "The duck enjoys the current and asks for more; its voice survives the ending.",
+      "closure": {
+        "type": "integration",
+        "scenes": [
+          94,
+          96,
+          138
+        ]
+      }
+    },
+    {
+      "id": "twelve-ducks",
+      "title": "Quiet please becomes twelve",
+      "kind": "magical-complication",
+      "setup": [
+        90,
+        96
+      ],
+      "attempt": [
+        97
+      ],
+      "payoff": [
+        98
+      ],
+      "familyResponse": [
+        99,
+        100,
+        101
+      ],
+      "parentIds": [
+        "voice"
+      ],
+      "persistentConsequence": "Twelve ducks need space; flowers obstruct their tails. They remain twelve.",
+      "closure": {
+        "type": "integration",
+        "scenes": [
+          101,
+          135,
+          136,
+          137,
+          138
+        ]
+      }
+    },
+    {
+      "id": "giant-plant",
+      "title": "Smaller please becomes larger",
+      "kind": "magical-complication",
+      "setup": [
+        101,
+        103
+      ],
+      "attempt": [
+        103
+      ],
+      "payoff": [
+        104
+      ],
+      "familyResponse": [
+        105,
+        106,
+        107,
+        108,
+        109,
+        110,
+        111,
+        112,
+        113,
+        114,
+        115
+      ],
+      "parentIds": [
+        "flowers",
+        "twelve-ducks"
+      ],
+      "persistentConsequence": "A corner move makes room only briefly; continuing growth112 motivates the outdoor move. Petals remain116.",
+      "closure": {
+        "type": "relocation",
+        "scenes": [
+          110,
+          115
+        ]
+      }
+    },
+    {
+      "id": "bubbles",
+      "title": "Clearing petals produces floating bubbles",
+      "kind": "magical-complication",
+      "setup": [
+        116,
+        117
+      ],
+      "attempt": [
+        118
+      ],
+      "payoff": [
+        119
+      ],
+      "familyResponse": [
+        120,
+        121,
+        122,
+        123
+      ],
+      "parentIds": [
+        "giant-plant"
+      ],
+      "persistentConsequence": "The family moves bubbles outside and catches objects; the source still flows124.",
+      "closure": {
+        "type": "management",
+        "scenes": [
+          121,
+          122,
+          123
+        ]
+      }
+    },
+    {
+      "id": "reverse",
+      "title": "Observe and reverse the original circle",
+      "kind": "source-resolution",
+      "setup": [
+        102,
+        124,
+        125,
+        126
+      ],
+      "attempt": [
+        127,
+        130
+      ],
+      "payoff": [
+        128,
+        129,
+        131,
+        132
+      ],
+      "familyResponse": [
+        133,
+        134
+      ],
+      "parentIds": [
+        "water",
+        "bubbles"
+      ],
+      "persistentConsequence": "Partial backward motion thins the stream; stopping too early brings it back. Complete reversal stops it.",
+      "closure": {
+        "type": "source-cessation",
+        "scenes": [
+          132
+        ]
+      }
+    },
+    {
+      "id": "lake",
+      "title": "A permanent home for the ducks",
+      "kind": "integration",
+      "setup": [
+        101,
+        134,
+        135
+      ],
+      "attempt": [
+        137
+      ],
+      "payoff": [
+        138
+      ],
+      "familyResponse": [
+        135,
+        136,
+        137,
+        138
+      ],
+      "parentIds": [
+        "twelve-ducks",
+        "reverse"
+      ],
+      "persistentConsequence": "The original problem ends; the funny new characters remain.",
+      "closure": {
+        "type": "integration",
+        "scenes": [
+          138
+        ]
+      }
+    }
+  ],
+  "findings": [
+    {
+      "kind": "strength",
+      "title": "The family gets real jobs and real play",
+      "scenes": [
+        31,
+        37,
+        45,
+        56,
+        63,
+        77,
+        109,
+        122,
+        137
+      ],
+      "text": "Shared play, testing, construction, collection and carrying make this a family story rather than a sequence of solo spells."
+    },
+    {
+      "kind": "strength",
+      "title": "Reveals have reaction space",
+      "scenes": [
+        35,
+        36,
+        37,
+        38,
+        86,
+        87,
+        88,
+        89,
+        90,
+        97,
+        98,
+        99,
+        100
+      ],
+      "text": "Papa's jump and the duck's voice both allow anticipation, reveal and a held reaction. Multiplication is followed by counting and a visible procession."
+    },
+    {
+      "kind": "strength",
+      "title": "Practical successes never pretend the source stopped",
+      "scenes": [
+        64,
+        65,
+        67,
+        73,
+        78,
+        81,
+        102,
+        124,
+        132,
+        134
+      ],
+      "text": "The whispering water and subsequent action keep the source active. Removing the channel only after132 gives closure a visible consequence."
+    },
+    {
+      "kind": "watch",
+      "title": "A long first act, with several different payoffs",
+      "scenes": [
+        5,
+        17,
+        23,
+        37,
+        45,
+        56,
+        65,
+        73
+      ],
+      "text": "Day1 occupies67 of138 scenes. First magical outcome23 to next73 spans50 positions, but contains the splash, bath intimacy, tea, prototype and working channel. This is not49 empty frames; read-aloud pacing should vary between those mini-arcs."
+    },
+    {
+      "kind": "watch",
+      "title": "The prototype is repeated at full scale",
+      "scenes": [
+        55,
+        56,
+        62,
+        63,
+        64
+      ],
+      "text": "This can be satisfying learning-by-application; it is the clearest place to test whether explaining every join twice slows a familiar rereading. Observe a real read-through before proposing cuts."
+    },
+    {
+      "kind": "watch",
+      "title": "The giant plant is moved twice",
+      "scenes": [
+        108,
+        109,
+        110,
+        111,
+        112,
+        113,
+        114,
+        115
+      ],
+      "text": "The renewed-growth line112 earns the second move. Without holding that causal line, the two moves might feel repetitive. No story edit is proposed here."
+    },
+    {
+      "kind": "watch",
+      "title": "The decisive change is a new method",
+      "scenes": [
+        102,
+        117,
+        124,
+        125,
+        127,
+        128,
+        129,
+        130,
+        132
+      ],
+      "text": "He asks about the source at102, but examines it at125:23 positions later. The intervening plant and bubble problems have causes. The final quiet sequence needs attention rather than more physical action."
+    },
+    {
+      "kind": "payoff",
+      "title": "A repeated request changes meaning",
+      "scenes": [
+        28,
+        29,
+        87,
+        90,
+        96,
+        97,
+        98,
+        138
+      ],
+      "text": "'Enough' and 'more' oppose each other through water and duck requests; the final 'More room' in English / spaciousness in Russian gives the ducks a fitting ending. This is an intended textual comic pattern, not a measured audience laugh."
+    },
+    {
+      "kind": "scope",
+      "title": "Six complications, not the abandoned twelve",
+      "scenes": [
+        23,
+        73,
+        87,
+        98,
+        104,
+        119
+      ],
+      "text": "Water, flowers, voice, twelve ducks, giant plant and bubbles are the six current magical outcomes. The removed cloud/rain/shoes/clothing paths belong to an older plan; do not score the final story against a twelve-failure quota."
+    }
+  ],
+  "events": {
+    "magicalOutcomeOnsets": [
+      23,
+      73,
+      87,
+      98,
+      104,
+      119
+    ],
+    "troubleRecognition": [
+      28,
+      29,
+      30
+    ],
+    "onsetGaps": [
+      50,
+      14,
+      11,
+      6,
+      15
+    ],
+    "interveningSceneCounts": [
+      49,
+      13,
+      10,
+      5,
+      14
+    ],
+    "firstCounterspell": 72,
+    "finalFullReversal": 130,
+    "sourceStops": 132,
+    "lastOutcomeToCessationPositions": 13,
+    "lastOutcomeToCessationInterveningScenes": 12,
+    "sourceQuestion": 102,
+    "sourceExamination": 125,
+    "questionToExaminationPositions": 23
+  },
+  "visualInspection": {
+    "contactSheet": "analysis-contact-sheet.jpg",
+    "sceneNumbers": [
+      5,
+      10,
+      20,
+      29,
+      31,
+      37,
+      42,
+      45,
+      54,
+      56,
+      63,
+      65,
+      73,
+      75,
+      87,
+      88,
+      93,
+      98,
+      100,
+      106,
+      109,
+      112,
+      115,
+      119,
+      122,
+      125,
+      129,
+      132,
+      134,
+      138
+    ],
+    "limitation": "Contact-sheet review establishes broad blocking and action, not exhaustive anatomy or pixel-level continuity QA."
+  }
+}

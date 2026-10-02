@@ -1,0 +1,47 @@
+{
+  "schemaVersion": 1,
+  "illustration": {
+    "stableHeader": "Use approved identity and style references. Preserve camera-specific layout, relative scale and current object states. Draw actual interaction and directed gaze; earn expressions from the action.",
+    "parameters": [
+      "sceneId",
+      "captions",
+      "action",
+      "camera.position",
+      "camera.height",
+      "camera.yaw",
+      "camera.pitch",
+      "camera.fov",
+      "camera.gaze",
+      "castReferenceIds",
+      "locationReferenceIds",
+      "stateBefore",
+      "stateAfter"
+    ],
+    "review": [
+      "identity/scale",
+      "anatomy",
+      "geometry/doors",
+      "prop state",
+      "gaze/action",
+      "caption causality",
+      "style"
+    ]
+  },
+  "repair": {
+    "stableHeader": "Edit the selected source image only for the named defect. Keep unrelated composition, lighting, approved faces, objects and camera geometry.",
+    "parameters": [
+      "sourceAssetId",
+      "defect",
+      "preserve",
+      "referenceRoles"
+    ]
+  },
+  "storyboard": {
+    "panelsPerPage": [
+      6,
+      12,
+      24
+    ],
+    "method": "Layout existing selected art and caption; blank panel for unresolved image. This is a comparison artifact, not new image generation."
+  }
+}

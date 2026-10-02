@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "kind": "cubemap",
+  "name": "Elder house from successful kitchen projection",
+  "references": [
+    {
+      "catalogKey": "reference-kitchen-panorama",
+      "role": "projection-bootstrap",
+      "instruction": "Preserve continuous spherical coverage and projection conventions, not kitchen identity."
+    },
+    {
+      "catalogKey": "reference-elder-panorama",
+      "role": "target-location",
+      "instruction": "Use Elder architecture, furnishings, lighting and book material language."
+    }
+  ],
+  "prompt": "Create one continuous 2:1 equirectangular panorama of the target location. Use the first input only as the proven projection/continuity example. Use the second input for place identity and artistic style. Maintain coherent wrapping geometry and poles, one fixed viewpoint, no repeated furniture, no panels or atlas gutters. Preserve the book character of doors, curved walls, decoration and lighting without importing kitchen props.",
+  "camera": {
+    "yaw": 0,
+    "pitch": 0,
+    "fov": 90,
+    "units": "degrees; preview field of view only, panorama remains full sphere"
+  },
+  "afterGeneration": [
+    "Save native and both input hashes.",
+    "Inspect yaw0/90/180/270, up/down and oblique boundaries in real viewer.",
+    "If needed extract a registered perspective view, edit with the same location reference, and blend back using saved transform.",
+    "Export cubemap deterministically from the final assembled panorama; inspect exported seams."
+  ],
+  "historicalProof": "docs/storyboard/production/story-worlds-20260924/README.md",
+  "limits": "Image-led camera changes are artistic reconstruction, not metric geometry. One-shot success is not guaranteed."
+}

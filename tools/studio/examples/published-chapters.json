@@ -1,0 +1,450 @@
+{
+  "schemaVersion": 1,
+  "chapters": [
+    {
+      "id": "chapter-01",
+      "title": {
+        "en": "Mr. PinPin and His Mysterious Forest",
+        "es": "El señor PinPin y su bosque misterioso",
+        "ru": "Мистер Пин-Пин и его загадочный лес"
+      },
+      "cover": {
+        "ru": "images/covers/chapter-01/title-ru-v1.png",
+        "en": "images/covers/chapter-01/title-en-v1.png",
+        "es": "images/covers/chapter-01/title-es-v1.png"
+      },
+      "coverId": "chapter-01",
+      "miniature": null,
+      "pageCount": 19,
+      "route": {
+        "chapter": "1"
+      },
+      "pdf": {
+        "en": {
+          "url": "https://huggingface.co/buckets/miguelemosreverte/mr-pinpin-archive/resolve/sha256/0b/0b622a6d233460334ab3896daaeee0177fdf99489dbb608bd3066da6b0f4f1ec/chapter-01-en.pdf",
+          "filename": "chapter-01-en.pdf",
+          "bytes": 16420947,
+          "sha256": "0b622a6d233460334ab3896daaeee0177fdf99489dbb608bd3066da6b0f4f1ec",
+          "pageCount": 19
+        },
+        "ru": {
+          "url": "https://huggingface.co/buckets/miguelemosreverte/mr-pinpin-archive/resolve/sha256/80/80366d10b03e071f3a3be5aa56e0e0cb1d1b7b141c3cf972fd70598a94f2e11c/chapter-01-ru.pdf",
+          "filename": "chapter-01-ru.pdf",
+          "bytes": 16455425,
+          "sha256": "80366d10b03e071f3a3be5aa56e0e0cb1d1b7b141c3cf972fd70598a94f2e11c",
+          "pageCount": 19
+        },
+        "es": {
+          "url": "https://huggingface.co/buckets/miguelemosreverte/mr-pinpin-archive/resolve/sha256/31/314a58959e870ed29f9cf591effb9d82f798943b9d8435c3f47576071c365023/chapter-01-es.pdf",
+          "filename": "chapter-01-es.pdf",
+          "bytes": 16422660,
+          "sha256": "314a58959e870ed29f9cf591effb9d82f798943b9d8435c3f47576071c365023",
+          "pageCount": 19
+        }
+      },
+      "storyPageCount": 16,
+      "coloringPageCount": 3
+    },
+    {
+      "id": "chapter-02",
+      "title": {
+        "en": "The Elder's Wisdom",
+        "es": "La sabiduría del anciano",
+        "ru": "Мудрость Старейшины"
+      },
+      "cover": {
+        "ru": "images/covers/chapter-02/title-ru-v1.png",
+        "en": "images/covers/chapter-02/title-en-v1.png",
+        "es": "images/covers/chapter-02/title-es-v1.png"
+      },
+      "coverId": "chapter-02",
+      "miniature": null,
+      "pageCount": 20,
+      "route": {
+        "chapter": "2"
+      },
+      "editionLabel": {
+        "en": "Earlier edition",
+        "ru": "Ранняя версия",
+        "es": "Versión anterior"
+      },
+      "pdf": {
+        "en": {
+          "url": "https://huggingface.co/buckets/miguelemosreverte/mr-pinpin-archive/resolve/sha256/f1/f1a4f6bb13428126cad378daf40df2fdda80b2af95eab076f83ba77895f47ba6/chapter-02-en.pdf",
+          "filename": "chapter-02-en.pdf",
+          "bytes": 17866546,
+          "sha256": "f1a4f6bb13428126cad378daf40df2fdda80b2af95eab076f83ba77895f47ba6",
+          "pageCount": 20
+        },
+        "ru": {
+          "url": "https://huggingface.co/buckets/miguelemosreverte/mr-pinpin-archive/resolve/sha256/0b/0bace931a153299544c677999a51cd85d83560018fc18882c01b2293c911552a/chapter-02-ru.pdf",
+          "filename": "chapter-02-ru.pdf",
+          "bytes": 17903376,
+          "sha256": "0bace931a153299544c677999a51cd85d83560018fc18882c01b2293c911552a",
+          "pageCount": 20
+        },
+        "es": {
+          "url": "https://huggingface.co/buckets/miguelemosreverte/mr-pinpin-archive/resolve/sha256/be/be7bfaff39befcbb5aea3cc674c2c07e86e88c213b5c1cd2a2cee9f5152a5190/chapter-02-es.pdf",
+          "filename": "chapter-02-es.pdf",
+          "bytes": 17874741,
+          "sha256": "be7bfaff39befcbb5aea3cc674c2c07e86e88c213b5c1cd2a2cee9f5152a5190",
+          "pageCount": 20
+        }
+      },
+      "storyPageCount": 17,
+      "coloringPageCount": 3
+    },
+    {
+      "id": "timber-tractor",
+      "title": {
+        "en": "Mr. PinPin and the Timber Tractor",
+        "es": "El señor PinPin y el tractor forestal",
+        "ru": "Мистер Пин-Пин и лесной трактор"
+      },
+      "cover": {
+        "ru": "images/covers/timber-tractor/title-ru-v1.png",
+        "en": "images/covers/timber-tractor/title-en-v1.png",
+        "es": "images/covers/timber-tractor/title-es-v1.png"
+      },
+      "coverId": "timber-tractor",
+      "miniature": null,
+      "pageCount": 37,
+      "route": {
+        "story": "timber-tractor"
+      },
+      "pdf": {
+        "en": {
+          "url": "https://huggingface.co/buckets/miguelemosreverte/mr-pinpin-archive/resolve/sha256/17/17b487b78edfef655e77747158a9eb35d85286d38e281e9394571d8ddab09c33/timber-tractor-en.pdf",
+          "filename": "timber-tractor-en.pdf",
+          "bytes": 32191955,
+          "sha256": "17b487b78edfef655e77747158a9eb35d85286d38e281e9394571d8ddab09c33",
+          "pageCount": 37
+        },
+        "ru": {
+          "url": "https://huggingface.co/buckets/miguelemosreverte/mr-pinpin-archive/resolve/sha256/99/992d122be53ba8d15c09f0cdb440e199969a194b03fec9c89b626b26bf59796c/timber-tractor-ru.pdf",
+          "filename": "timber-tractor-ru.pdf",
+          "bytes": 32152968,
+          "sha256": "992d122be53ba8d15c09f0cdb440e199969a194b03fec9c89b626b26bf59796c",
+          "pageCount": 37
+        },
+        "es": {
+          "url": "https://huggingface.co/buckets/miguelemosreverte/mr-pinpin-archive/resolve/sha256/ef/ef320b486f3c1361914b1d8e621174cac32e1ab046b7982c99c6ebf116b09d6e/timber-tractor-es.pdf",
+          "filename": "timber-tractor-es.pdf",
+          "bytes": 32145329,
+          "sha256": "ef320b486f3c1361914b1d8e621174cac32e1ab046b7982c99c6ebf116b09d6e",
+          "pageCount": 37
+        }
+      },
+      "storyPageCount": 34,
+      "coloringPageCount": 3
+    },
+    {
+      "id": "home-sweet-home",
+      "title": {
+        "en": "Home, Sweet Home",
+        "ru": "Дом, милый дом",
+        "es": "Hogar, dulce hogar"
+      },
+      "cover": {
+        "ru": "images/covers/home-sweet-home/title-ru-v1.png",
+        "en": "images/covers/home-sweet-home/title-en-v1.png",
+        "es": "images/covers/home-sweet-home/title-es-v1.png"
+      },
+      "coverId": "home-sweet-home",
+      "miniature": "images/covers/home-sweet-home/miniature/miniature-v1.png",
+      "pageCount": 24,
+      "route": {
+        "story": "home-sweet-home"
+      },
+      "pdf": {
+        "en": {
+          "url": "https://huggingface.co/buckets/miguelemosreverte/mr-pinpin-archive/resolve/sha256/32/32b05e427f4482f529475fe774b9b943399f56f8afd4d4a3a0634b341998e437/home-sweet-home-en.pdf",
+          "filename": "home-sweet-home-en.pdf",
+          "bytes": 15681787,
+          "sha256": "32b05e427f4482f529475fe774b9b943399f56f8afd4d4a3a0634b341998e437",
+          "pageCount": 24
+        },
+        "ru": {
+          "url": "https://huggingface.co/buckets/miguelemosreverte/mr-pinpin-archive/resolve/sha256/c7/c707c579a0cf7f5c451892f1cbd8e24d251c2f9ddaf29ae6c417bc13577b7d17/home-sweet-home-ru.pdf",
+          "filename": "home-sweet-home-ru.pdf",
+          "bytes": 15715829,
+          "sha256": "c707c579a0cf7f5c451892f1cbd8e24d251c2f9ddaf29ae6c417bc13577b7d17",
+          "pageCount": 24
+        },
+        "es": {
+          "url": "https://huggingface.co/buckets/miguelemosreverte/mr-pinpin-archive/resolve/sha256/80/809a38095d27c747712dfb0f5375c0b31d1c1013721949ce1088b6fbc8e8ff41/home-sweet-home-es.pdf",
+          "filename": "home-sweet-home-es.pdf",
+          "bytes": 15679878,
+          "sha256": "809a38095d27c747712dfb0f5375c0b31d1c1013721949ce1088b6fbc8e8ff41",
+          "pageCount": 24
+        }
+      },
+      "storyPageCount": 21,
+      "coloringPageCount": 3
+    },
+    {
+      "id": "elder-papa-home",
+      "title": {
+        "en": "Papa Comes Home",
+        "ru": "Папа возвращается",
+        "es": "Papá vuelve a casa"
+      },
+      "cover": {
+        "en": "images/published/elder-cycle/papa-home-title-en.webp",
+        "ru": "images/published/elder-cycle/papa-home-title-ru.webp",
+        "es": "images/published/elder-cycle/papa-home-title-es.webp"
+      },
+      "coverId": "elder-papa-home",
+      "miniature": "images/published/elder-cycle/papa-home-miniature.webp",
+      "pageCount": 31,
+      "route": {
+        "story": "elder-papa-home"
+      },
+      "pdf": {
+        "en": {
+          "url": "https://huggingface.co/buckets/miguelemosreverte/mr-pinpin-archive/resolve/sha256/b5/b5a0dfbed3c29c8cc8e338f83799c41cdafab01e74181cb9c97f146796cdfb54/elder-papa-home-en.pdf",
+          "filename": "elder-papa-home-en.pdf",
+          "bytes": 20875867,
+          "sha256": "b5a0dfbed3c29c8cc8e338f83799c41cdafab01e74181cb9c97f146796cdfb54",
+          "pageCount": 31
+        },
+        "ru": {
+          "url": "https://huggingface.co/buckets/miguelemosreverte/mr-pinpin-archive/resolve/sha256/00/00dd3276093fd75aaecb18bc9eb7120973c8786ac7167903ec4224c7aed68c47/elder-papa-home-ru.pdf",
+          "filename": "elder-papa-home-ru.pdf",
+          "bytes": 20864540,
+          "sha256": "00dd3276093fd75aaecb18bc9eb7120973c8786ac7167903ec4224c7aed68c47",
+          "pageCount": 31
+        },
+        "es": {
+          "url": "https://huggingface.co/buckets/miguelemosreverte/mr-pinpin-archive/resolve/sha256/d0/d05b753f865ce6aa4555c92514e8fc59c755d5bcbdbc9b720edf097681df2ca5/elder-papa-home-es.pdf",
+          "filename": "elder-papa-home-es.pdf",
+          "bytes": 20847759,
+          "sha256": "d05b753f865ce6aa4555c92514e8fc59c755d5bcbdbc9b720edf097681df2ca5",
+          "pageCount": 31
+        }
+      },
+      "storyPageCount": 28,
+      "coloringPageCount": 3
+    },
+    {
+      "id": "elder-family-morning",
+      "title": {
+        "en": "A Morning Together",
+        "ru": "Утро всей семьёй",
+        "es": "Una mañana en familia"
+      },
+      "cover": {
+        "en": "images/published/elder-cycle/family-morning-title-en.webp",
+        "ru": "images/published/elder-cycle/family-morning-title-ru.webp",
+        "es": "images/published/elder-cycle/family-morning-title-es.webp"
+      },
+      "coverId": "elder-family-morning",
+      "miniature": "images/published/elder-cycle/family-morning-miniature.webp",
+      "pageCount": 24,
+      "route": {
+        "story": "elder-family-morning"
+      },
+      "pdf": {
+        "en": {
+          "url": "https://huggingface.co/buckets/miguelemosreverte/mr-pinpin-archive/resolve/sha256/e5/e5236309173cda4c1a175e34617799b6f8b68d14e8065cf7eadc1893fe055850/elder-family-morning-en.pdf",
+          "filename": "elder-family-morning-en.pdf",
+          "bytes": 16795560,
+          "sha256": "e5236309173cda4c1a175e34617799b6f8b68d14e8065cf7eadc1893fe055850",
+          "pageCount": 24
+        },
+        "ru": {
+          "url": "https://huggingface.co/buckets/miguelemosreverte/mr-pinpin-archive/resolve/sha256/52/52d73f36d78ce8695b9b09fb668dba8645befcd32db746f8663cd2339d9bab48/elder-family-morning-ru.pdf",
+          "filename": "elder-family-morning-ru.pdf",
+          "bytes": 16785988,
+          "sha256": "52d73f36d78ce8695b9b09fb668dba8645befcd32db746f8663cd2339d9bab48",
+          "pageCount": 24
+        },
+        "es": {
+          "url": "https://huggingface.co/buckets/miguelemosreverte/mr-pinpin-archive/resolve/sha256/64/6440d91e8d8383ffcd2e8f34475b23a6fa13fc70feb29d08141a7d4c974cf324/elder-family-morning-es.pdf",
+          "filename": "elder-family-morning-es.pdf",
+          "bytes": 16789559,
+          "sha256": "6440d91e8d8383ffcd2e8f34475b23a6fa13fc70feb29d08141a7d4c974cf324",
+          "pageCount": 24
+        }
+      },
+      "storyPageCount": 21,
+      "coloringPageCount": 3
+    },
+    {
+      "id": "elder-forest-path",
+      "title": {
+        "en": "Through the Forest",
+        "ru": "Через лес",
+        "es": "Por el bosque"
+      },
+      "cover": {
+        "en": "images/published/elder-cycle/forest-path-title-en.webp",
+        "ru": "images/published/elder-cycle/forest-path-title-ru.webp",
+        "es": "images/published/elder-cycle/forest-path-title-es.webp"
+      },
+      "coverId": "elder-forest-path",
+      "miniature": "images/published/elder-cycle/forest-path-miniature.webp",
+      "pageCount": 26,
+      "route": {
+        "story": "elder-forest-path"
+      },
+      "pdf": {
+        "en": {
+          "url": "https://huggingface.co/buckets/miguelemosreverte/mr-pinpin-archive/resolve/sha256/6e/6e8143bbd1a8e9ff643a38373e2ec15607b6786bbf87a2837ab06e514efa85b9/elder-forest-path-en.pdf",
+          "filename": "elder-forest-path-en.pdf",
+          "bytes": 19044410,
+          "sha256": "6e8143bbd1a8e9ff643a38373e2ec15607b6786bbf87a2837ab06e514efa85b9",
+          "pageCount": 26
+        },
+        "ru": {
+          "url": "https://huggingface.co/buckets/miguelemosreverte/mr-pinpin-archive/resolve/sha256/c8/c8d490763f96fc7aee765aa1989b1db541fa402d56d227c44ca2b40ad5d2474c/elder-forest-path-ru.pdf",
+          "filename": "elder-forest-path-ru.pdf",
+          "bytes": 19028201,
+          "sha256": "c8d490763f96fc7aee765aa1989b1db541fa402d56d227c44ca2b40ad5d2474c",
+          "pageCount": 26
+        },
+        "es": {
+          "url": "https://huggingface.co/buckets/miguelemosreverte/mr-pinpin-archive/resolve/sha256/fc/fc06f5e2730bb7075ad122d7c17f465cecfbd0b78c7ba63ba87e9c1ac016a966/elder-forest-path-es.pdf",
+          "filename": "elder-forest-path-es.pdf",
+          "bytes": 19032352,
+          "sha256": "fc06f5e2730bb7075ad122d7c17f465cecfbd0b78c7ba63ba87e9c1ac016a966",
+          "pageCount": 26
+        }
+      },
+      "storyPageCount": 23,
+      "coloringPageCount": 3
+    },
+    {
+      "id": "elder-elder-house",
+      "title": {
+        "en": "The Elder’s House",
+        "ru": "Дом Старейшины",
+        "es": "La casa del Anciano"
+      },
+      "cover": {
+        "en": "images/published/elder-cycle/elder-house-title-en.webp",
+        "ru": "images/published/elder-cycle/elder-house-title-ru.webp",
+        "es": "images/published/elder-cycle/elder-house-title-es.webp"
+      },
+      "coverId": "elder-elder-house",
+      "miniature": "images/published/elder-cycle/elder-house-miniature.webp",
+      "pageCount": 39,
+      "route": {
+        "story": "elder-elder-house"
+      },
+      "pdf": {
+        "en": {
+          "url": "https://huggingface.co/buckets/miguelemosreverte/mr-pinpin-archive/resolve/sha256/e9/e9fce278664a93fab1fd9cc0c619de44f05e8f9a1f5df8083718b1db9328f85e/elder-elder-house-en.pdf",
+          "filename": "elder-elder-house-en.pdf",
+          "bytes": 27291192,
+          "sha256": "e9fce278664a93fab1fd9cc0c619de44f05e8f9a1f5df8083718b1db9328f85e",
+          "pageCount": 39
+        },
+        "ru": {
+          "url": "https://huggingface.co/buckets/miguelemosreverte/mr-pinpin-archive/resolve/sha256/22/22c09b801acc70df40160ab1fbb87e7774babc4f81210caf7811d57a510a8c5b/elder-elder-house-ru.pdf",
+          "filename": "elder-elder-house-ru.pdf",
+          "bytes": 27279924,
+          "sha256": "22c09b801acc70df40160ab1fbb87e7774babc4f81210caf7811d57a510a8c5b",
+          "pageCount": 39
+        },
+        "es": {
+          "url": "https://huggingface.co/buckets/miguelemosreverte/mr-pinpin-archive/resolve/sha256/33/33c95b934be9fce12cda93230636c3061e379989e8e0072c84819de2684df279/elder-elder-house-es.pdf",
+          "filename": "elder-elder-house-es.pdf",
+          "bytes": 27279018,
+          "sha256": "33c95b934be9fce12cda93230636c3061e379989e8e0072c84819de2684df279",
+          "pageCount": 39
+        }
+      },
+      "storyPageCount": 36,
+      "coloringPageCount": 3
+    },
+    {
+      "id": "elder-beneath-roots",
+      "title": {
+        "en": "Beneath the Roots",
+        "ru": "Под корнями",
+        "es": "Bajo las raíces"
+      },
+      "cover": {
+        "en": "images/published/elder-cycle/beneath-roots-title-en.webp",
+        "ru": "images/published/elder-cycle/beneath-roots-title-ru.webp",
+        "es": "images/published/elder-cycle/beneath-roots-title-es.webp"
+      },
+      "coverId": "elder-beneath-roots",
+      "miniature": "images/published/elder-cycle/beneath-roots-miniature.webp",
+      "pageCount": 73,
+      "route": {
+        "story": "elder-beneath-roots"
+      },
+      "pdf": {
+        "en": {
+          "url": "https://huggingface.co/buckets/miguelemosreverte/mr-pinpin-archive/resolve/sha256/c8/c85edd9223f5fb9e98e8007fb4979428ec2850b6372876a785ff2e7280c7f1b0/elder-beneath-roots-en.pdf",
+          "filename": "elder-beneath-roots-en.pdf",
+          "bytes": 47815291,
+          "sha256": "c85edd9223f5fb9e98e8007fb4979428ec2850b6372876a785ff2e7280c7f1b0",
+          "pageCount": 73
+        },
+        "ru": {
+          "url": "https://huggingface.co/buckets/miguelemosreverte/mr-pinpin-archive/resolve/sha256/47/475319b2483c8cecc7e2f414ff7d66fccad8d63c0c59ebd3bab72ca7393b1512/elder-beneath-roots-ru.pdf",
+          "filename": "elder-beneath-roots-ru.pdf",
+          "bytes": 47795605,
+          "sha256": "475319b2483c8cecc7e2f414ff7d66fccad8d63c0c59ebd3bab72ca7393b1512",
+          "pageCount": 73
+        },
+        "es": {
+          "url": "https://huggingface.co/buckets/miguelemosreverte/mr-pinpin-archive/resolve/sha256/aa/aa1e0981e5d7a6cdffb47109f70615ec2930ca90441990cce869722aefb60752/elder-beneath-roots-es.pdf",
+          "filename": "elder-beneath-roots-es.pdf",
+          "bytes": 47798274,
+          "sha256": "aa1e0981e5d7a6cdffb47109f70615ec2930ca90441990cce869722aefb60752",
+          "pageCount": 73
+        }
+      },
+      "storyPageCount": 70,
+      "coloringPageCount": 3
+    },
+    {
+      "id": "bath-magic",
+      "title": {
+        "en": "PinPin and the Water That Wouldn't Stop",
+        "ru": "Пин-Пин и непослушная вода",
+        "es": "PinPin y el agua que no paraba"
+      },
+      "cover": {
+        "en": "images/published/bath-magic/title-en-v2.webp",
+        "ru": "images/published/bath-magic/title-ru-v2.webp",
+        "es": "images/published/bath-magic/title-es-v2.webp"
+      },
+      "coverId": "bath-magic",
+      "miniature": "images/published/bath-magic/miniature.webp",
+      "pageCount": 142,
+      "storyPageCount": 139,
+      "coloringPageCount": 3,
+      "route": {
+        "story": "bath-magic"
+      },
+      "pdf": {
+        "en": {
+          "url": "https://huggingface.co/buckets/miguelemosreverte/mr-pinpin-archive/resolve/sha256/6b/6b1466bf247b98ae282c1e15a38093f2242ad0d85b2e490c79d87a535c29f808/bath-magic-en.pdf",
+          "filename": "bath-magic-en.pdf",
+          "bytes": 112763643,
+          "sha256": "6b1466bf247b98ae282c1e15a38093f2242ad0d85b2e490c79d87a535c29f808",
+          "pageCount": 142
+        },
+        "ru": {
+          "url": "https://huggingface.co/buckets/miguelemosreverte/mr-pinpin-archive/resolve/sha256/b8/b88884cb99e2f7922be305214e728d8e9b9d3db0b2ca561f41abc03e7ba2171f/bath-magic-ru.pdf",
+          "filename": "bath-magic-ru.pdf",
+          "bytes": 112801223,
+          "sha256": "b88884cb99e2f7922be305214e728d8e9b9d3db0b2ca561f41abc03e7ba2171f",
+          "pageCount": 142
+        },
+        "es": {
+          "url": "https://huggingface.co/buckets/miguelemosreverte/mr-pinpin-archive/resolve/sha256/7c/7c5b9c2750baf3a7c8e57f1077b0b4b7b954f0ba0c400020c3ff49fc5b4aaa68/bath-magic-es.pdf",
+          "filename": "bath-magic-es.pdf",
+          "bytes": 112740096,
+          "sha256": "7c5b9c2750baf3a7c8e57f1077b0b4b7b954f0ba0c400020c3ff49fc5b4aaa68",
+          "pageCount": 142
+        }
+      }
+    }
+  ]
+}

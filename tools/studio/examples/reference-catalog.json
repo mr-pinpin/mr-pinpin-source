@@ -1,0 +1,3005 @@
+{
+  "schemaVersion": 1,
+  "sourceCommit": "d56d45c1c3796def448686b8be2c82b6791f5354",
+  "roots": {
+    "r17": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r17",
+    "published": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-cover-fix-20261002/publication/site/storyboard",
+    "worlds": "/Volumes/TB4/mac-mini-storage/shared/pinpin-story-worlds-20260924"
+  },
+  "project": "project-seed.json",
+  "assets": [
+    {
+      "key": "reference-family",
+      "root": "r17",
+      "path": "art/opening/references/elder-r6-family-016.webp",
+      "sha256": "88d74c56a468e3f250b12dbcb5ecdb7b07bd1d789197663d8948ac199acd133d",
+      "name": "reference-family",
+      "reviewStatus": "user-approved",
+      "provenance": {
+        "role": "family identity, warm dimensional style and relative scale",
+        "evidence": "Previously approved published reference; R17 uses exact copied source"
+      }
+    },
+    {
+      "key": "reference-scooby",
+      "root": "r17",
+      "path": "art/opening/references/elder-r6-forest-021.webp",
+      "sha256": "496b4f5dd35b520c54fce130c4ace6758fc48b1efbabf1b1a06f5cd84aeedbe5",
+      "name": "reference-scooby",
+      "reviewStatus": "user-approved",
+      "provenance": {
+        "role": "approved mounted dog scale, not architecture",
+        "evidence": "Previously approved published reference; R17 uses exact copied source"
+      }
+    },
+    {
+      "key": "reference-rabbit",
+      "root": "r17",
+      "path": "art/opening/references/scene-04b.webp",
+      "sha256": "f945f4802de940f91dc6a78a2a5e7bc5d8e7b3239e3fdb3a883f56c73ebd7b3d",
+      "name": "reference-rabbit",
+      "reviewStatus": "user-approved",
+      "provenance": {
+        "role": "Rabbit identity",
+        "evidence": "Previously approved published reference; R17 uses exact copied source"
+      }
+    },
+    {
+      "key": "reference-beaver",
+      "root": "published",
+      "path": "images/standalone/timber-tractor/scene-03.png",
+      "sha256": "cd6fc9a3e01decb743ce5c999fb4eca7ccfccd568115695c492ac9e9cacdaba4",
+      "name": "reference-beaver",
+      "reviewStatus": "user-approved",
+      "provenance": {
+        "role": "Beaver identity; chestnut fur and blue work vest",
+        "evidence": "Published timber-tractor scene03"
+      }
+    },
+    {
+      "key": "reference-bear-tractor-study",
+      "root": "r17",
+      "path": "art/beaver-return/studies/bear-blue-tractor-study-v1.png",
+      "sha256": "3b92d67454ebb1f3a0e51b67c581693bebb0e5115791ba4da3b75644123e0309",
+      "name": "reference-bear-tractor-study",
+      "reviewStatus": "agent-reviewed",
+      "provenance": {
+        "role": "NEW Bear and separate blue utility tractor design",
+        "evidence": "R17 art/beaver-return/preproduction.json; root visual pass, user pending"
+      }
+    },
+    {
+      "key": "reference-kitchen-panorama",
+      "root": "worlds",
+      "path": "kitchen-bootstrap.png",
+      "sha256": "fbf70ac4415fbc9e63febdc756af4a512ee9b7cd29e693fa4423e65608178184",
+      "name": "reference-kitchen-panorama",
+      "reviewStatus": "user-approved",
+      "provenance": {
+        "role": "projection continuity bootstrap ONLY; do not copy room identity into another place",
+        "evidence": "kitchen-bootstrap.json; final assembled successful central-house panorama"
+      }
+    },
+    {
+      "key": "reference-elder-panorama",
+      "root": "worlds",
+      "path": "elder/panorama-assembled-v1.png",
+      "sha256": "1d8f53ac8d13af3a79c516c36cd13d6d60f786c9551d401622ae0f16dac62fba",
+      "name": "reference-elder-panorama",
+      "reviewStatus": "user-approved",
+      "provenance": {
+        "role": "Elder location and style target",
+        "evidence": "story-worlds-20260924/README.md and ELDER.md; user approved visual direction"
+      }
+    },
+    {
+      "key": "reference-forest-panorama",
+      "root": "worlds",
+      "path": "lake/panorama-assembled-v1.png",
+      "sha256": "2661ecb67019860b1d72099dd6a1672837006324af52561b65ce6240c8b0a6f9",
+      "name": "reference-forest-panorama",
+      "reviewStatus": "user-approved",
+      "provenance": {
+        "role": "restored lake and forest location target",
+        "evidence": "story-worlds-20260924/README.md and OUTDOORS.md; user approved visual direction"
+      }
+    },
+    {
+      "key": "r17-scene-32b",
+      "root": "r17",
+      "path": "retained/scene-32b.webp",
+      "sha256": "0ca6f054f3aabddf0dad48cbdfcb90cf9fb1ac085206900b2b9a6278d6ac2703",
+      "name": "r17-scene-32b",
+      "reviewStatus": "user-approved",
+      "provenance": {
+        "role": "current R17 story illustration",
+        "evidence": {
+          "stableId": "scene-32b",
+          "retainedApprovedR16": true,
+          "userReview": "approved previous art"
+        }
+      }
+    },
+    {
+      "key": "r17-scene-01",
+      "root": "r17",
+      "path": "retained/scene-01.webp",
+      "sha256": "38c63615c8a5208a2ec6a34ba4b90e844ccfdafd17ac916a8ed2ec8449b90c19",
+      "name": "r17-scene-01",
+      "reviewStatus": "user-approved",
+      "provenance": {
+        "role": "current R17 story illustration",
+        "evidence": {
+          "stableId": "scene-01",
+          "retainedApprovedR16": true,
+          "userReview": "approved previous art"
+        }
+      }
+    },
+    {
+      "key": "r17-scene-02",
+      "root": "r17",
+      "path": "retained/scene-02.webp",
+      "sha256": "7bb7bfae1e01595cda5cc4d9dfc24056f349302929d8b4a5487b2f8eb6643377",
+      "name": "r17-scene-02",
+      "reviewStatus": "user-approved",
+      "provenance": {
+        "role": "current R17 story illustration",
+        "evidence": {
+          "stableId": "scene-02",
+          "retainedApprovedR16": true,
+          "userReview": "approved previous art"
+        }
+      }
+    },
+    {
+      "key": "r17-scene-03",
+      "root": "r17",
+      "path": "retained/scene-03.webp",
+      "sha256": "de83ba34ddba2916733e7242fbd0ec959d515a29c440e549f783a6384fc499ea",
+      "name": "r17-scene-03",
+      "reviewStatus": "user-approved",
+      "provenance": {
+        "role": "current R17 story illustration",
+        "evidence": {
+          "stableId": "scene-03",
+          "retainedApprovedR16": true,
+          "userReview": "approved previous art"
+        }
+      }
+    },
+    {
+      "key": "r17-scene-04",
+      "root": "r17",
+      "path": "web/scene-04-c5297ce94853.webp",
+      "sha256": "008320443ae91e15120e61a4f094e93c4eac53a884ecdbd5f9ef3b735e5a49eb",
+      "name": "r17-scene-04",
+      "reviewStatus": "agent-reviewed",
+      "provenance": {
+        "role": "current R17 story illustration",
+        "evidence": {
+          "stableId": "scene-04",
+          "retainedApprovedR16": false,
+          "userReview": "pending"
+        }
+      }
+    },
+    {
+      "key": "r17-scene-04a",
+      "root": "r17",
+      "path": "web/scene-04a-f8d6120b7dfb.webp",
+      "sha256": "76eb7f11e4777aad672f1f88e0c4d0d0913b1c96fee2569a37bc7b0fac00b04b",
+      "name": "r17-scene-04a",
+      "reviewStatus": "agent-reviewed",
+      "provenance": {
+        "role": "current R17 story illustration",
+        "evidence": {
+          "stableId": "scene-04a",
+          "retainedApprovedR16": false,
+          "userReview": "pending"
+        }
+      }
+    },
+    {
+      "key": "r17-scene-04b",
+      "root": "r17",
+      "path": "web/scene-04b-65e4f8f76182.webp",
+      "sha256": "e987d4ff6856f59b065c05cff7dd9345f5fed19417f7d32a070e5ecdd1737dbd",
+      "name": "r17-scene-04b",
+      "reviewStatus": "agent-reviewed",
+      "provenance": {
+        "role": "current R17 story illustration",
+        "evidence": {
+          "stableId": "scene-04b",
+          "retainedApprovedR16": false,
+          "userReview": "pending"
+        }
+      }
+    },
+    {
+      "key": "r17-scene-04c",
+      "root": "r17",
+      "path": "web/scene-04c-8f834a4a0100.webp",
+      "sha256": "5b5c0e2eef562551022ba3c3ea913b1a761db4facbc5e7ea4c4d4f9341e32653",
+      "name": "r17-scene-04c",
+      "reviewStatus": "agent-reviewed",
+      "provenance": {
+        "role": "current R17 story illustration",
+        "evidence": {
+          "stableId": "scene-04c",
+          "retainedApprovedR16": false,
+          "userReview": "pending"
+        }
+      }
+    },
+    {
+      "key": "r17-scene-04d",
+      "root": "r17",
+      "path": "web/scene-04d-298eaf084667.webp",
+      "sha256": "57a66759e8f289ff642042a6f507a9f4781174cf079e95ea013fb2cdc82a88c7",
+      "name": "r17-scene-04d",
+      "reviewStatus": "agent-reviewed",
+      "provenance": {
+        "role": "current R17 story illustration",
+        "evidence": {
+          "stableId": "scene-04d",
+          "retainedApprovedR16": false,
+          "userReview": "pending"
+        }
+      }
+    },
+    {
+      "key": "r17-scene-05",
+      "root": "r17",
+      "path": "web/scene-05-cc85d7784a56.webp",
+      "sha256": "e416157c9ca4032832df349cd5699f3924058476a00136484199015981926319",
+      "name": "r17-scene-05",
+      "reviewStatus": "agent-reviewed",
+      "provenance": {
+        "role": "current R17 story illustration",
+        "evidence": {
+          "stableId": "scene-05",
+          "retainedApprovedR16": false,
+          "userReview": "pending"
+        }
+      }
+    },
+    {
+      "key": "r17-scene-05a",
+      "root": "r17",
+      "path": "web/scene-05a-d1a5df287f5a.webp",
+      "sha256": "d74d56c4cd5e4422f21c3454d2271cb11f7105c3b42a4679d5e82cd2e8b821a2",
+      "name": "r17-scene-05a",
+      "reviewStatus": "agent-reviewed",
+      "provenance": {
+        "role": "current R17 story illustration",
+        "evidence": {
+          "stableId": "scene-05a",
+          "retainedApprovedR16": false,
+          "userReview": "pending"
+        }
+      }
+    },
+    {
+      "key": "r17-scene-05b",
+      "root": "r17",
+      "path": "web/scene-05b-c403dec94692.webp",
+      "sha256": "a86e6b63684679b92b1211b97b3cf41926613a3894dabaaef5c4a8d08c996c49",
+      "name": "r17-scene-05b",
+      "reviewStatus": "agent-reviewed",
+      "provenance": {
+        "role": "current R17 story illustration",
+        "evidence": {
+          "stableId": "scene-05b",
+          "retainedApprovedR16": false,
+          "userReview": "pending"
+        }
+      }
+    },
+    {
+      "key": "r17-scene-05c",
+      "root": "r17",
+      "path": "web/scene-05c-c1f7824cd1fa.webp",
+      "sha256": "2aa6fe2d58e1179b8b7c389cfe1722bc19f09a57940323d11e1c358b90b81ceb",
+      "name": "r17-scene-05c",
+      "reviewStatus": "agent-reviewed",
+      "provenance": {
+        "role": "current R17 story illustration",
+        "evidence": {
+          "stableId": "scene-05c",
+          "retainedApprovedR16": false,
+          "userReview": "pending"
+        }
+      }
+    },
+    {
+      "key": "r17-scene-05d",
+      "root": "r17",
+      "path": "web/scene-05d-9fecffac269f.webp",
+      "sha256": "980acd8539291c82ef5ece6970211a31d99679422ff11829fc4f2768c0361cc7",
+      "name": "r17-scene-05d",
+      "reviewStatus": "agent-reviewed",
+      "provenance": {
+        "role": "current R17 story illustration",
+        "evidence": {
+          "stableId": "scene-05d",
+          "retainedApprovedR16": false,
+          "userReview": "pending"
+        }
+      }
+    },
+    {
+      "key": "r17-scene-05e",
+      "root": "r17",
+      "path": "web/scene-05e-5f6c562865e0.webp",
+      "sha256": "6bba7204c8dd77e89341b113a8774ef27977e41ce425efb17ed29e2981aaa44c",
+      "name": "r17-scene-05e",
+      "reviewStatus": "agent-reviewed",
+      "provenance": {
+        "role": "current R17 story illustration",
+        "evidence": {
+          "stableId": "scene-05e",
+          "retainedApprovedR16": false,
+          "userReview": "pending"
+        }
+      }
+    },
+    {
+      "key": "r17-scene-05f",
+      "root": "r17",
+      "path": "web/scene-05f-cbffe0f23904.webp",
+      "sha256": "fedd6b2abc9a0fa6313e7b4aa6a05109c3f7a93a1b50d4181d1a6923b19ea72f",
+      "name": "r17-scene-05f",
+      "reviewStatus": "agent-reviewed",
+      "provenance": {
+        "role": "current R17 story illustration",
+        "evidence": {
+          "stableId": "scene-05f",
+          "retainedApprovedR16": false,
+          "userReview": "pending"
+        }
+      }
+    },
+    {
+      "key": "r17-scene-05g",
+      "root": "r17",
+      "path": "web/scene-05g-b8b914ed98fe.webp",
+      "sha256": "66131fe29408b8eb4acdd94745575e363838862b4f44d33f00fcb076a7854bd6",
+      "name": "r17-scene-05g",
+      "reviewStatus": "agent-reviewed",
+      "provenance": {
+        "role": "current R17 story illustration",
+        "evidence": {
+          "stableId": "scene-05g",
+          "retainedApprovedR16": false,
+          "userReview": "pending"
+        }
+      }
+    },
+    {
+      "key": "r17-scene-06",
+      "root": "r17",
+      "path": "web/scene-06-408234bb07c4.webp",
+      "sha256": "d3fd54c060a07fe301690abff4cfc4f6cd0dfdc22574dc270989b7c0380c3c49",
+      "name": "r17-scene-06",
+      "reviewStatus": "agent-reviewed",
+      "provenance": {
+        "role": "current R17 story illustration",
+        "evidence": {
+          "stableId": "scene-06",
+          "retainedApprovedR16": false,
+          "userReview": "pending"
+        }
+      }
+    },
+    {
+      "key": "r17-scene-07",
+      "root": "r17",
+      "path": "web/scene-07-2deae41b6480.webp",
+      "sha256": "b793dbc3dc4f47e311f844941d2ebfb6af31da3b6aafa8d9e39789d8a3891518",
+      "name": "r17-scene-07",
+      "reviewStatus": "agent-reviewed",
+      "provenance": {
+        "role": "current R17 story illustration",
+        "evidence": {
+          "stableId": "scene-07",
+          "retainedApprovedR16": false,
+          "userReview": "pending"
+        }
+      }
+    },
+    {
+      "key": "r17-scene-08",
+      "root": "r17",
+      "path": "retained/scene-08.webp",
+      "sha256": "93997856d26c416df0ad26ce3c1284ab7427bc945f6a09e148cbbf5dbd41ca97",
+      "name": "r17-scene-08",
+      "reviewStatus": "user-approved",
+      "provenance": {
+        "role": "current R17 story illustration",
+        "evidence": {
+          "stableId": "scene-08",
+          "retainedApprovedR16": true,
+          "userReview": "approved previous art"
+        }
+      }
+    },
+    {
+      "key": "r17-scene-09",
+      "root": "r17",
+      "path": "web/scene-09-f00d378a38f8.webp",
+      "sha256": "9e85548132c9b1fa4b542ba07c02997e32c1f0af9e1b5df69e3526f4228328f9",
+      "name": "r17-scene-09",
+      "reviewStatus": "agent-reviewed",
+      "provenance": {
+        "role": "current R17 story illustration",
+        "evidence": {
+          "stableId": "scene-09",
+          "retainedApprovedR16": false,
+          "userReview": "pending"
+        }
+      }
+    },
+    {
+      "key": "r17-scene-10",
+      "root": "r17",
+      "path": "retained/scene-10.webp",
+      "sha256": "dbcf9af5f65bcf406428a33bb865372b6e59ebb34151fdafe12e72264d1b6b16",
+      "name": "r17-scene-10",
+      "reviewStatus": "user-approved",
+      "provenance": {
+        "role": "current R17 story illustration",
+        "evidence": {
+          "stableId": "scene-10",
+          "retainedApprovedR16": true,
+          "userReview": "approved previous art"
+        }
+      }
+    },
+    {
+      "key": "r17-scene-11",
+      "root": "r17",
+      "path": "retained/scene-11.webp",
+      "sha256": "fb1fbe460c7531d79b983bfb961c51bdcc953f85d1a1154e2e66b68e54a69473",
+      "name": "r17-scene-11",
+      "reviewStatus": "user-approved",
+      "provenance": {
+        "role": "current R17 story illustration",
+        "evidence": {
+          "stableId": "scene-11",
+          "retainedApprovedR16": true,
+          "userReview": "approved previous art"
+        }
+      }
+    },
+    {
+      "key": "r17-scene-12",
+      "root": "r17",
+      "path": "retained/scene-12.webp",
+      "sha256": "af4f422aea4d6a74c304f85e85d1af4ff6a2adf5f6e9cb4d647b4f0e542fe5df",
+      "name": "r17-scene-12",
+      "reviewStatus": "user-approved",
+      "provenance": {
+        "role": "current R17 story illustration",
+        "evidence": {
+          "stableId": "scene-12",
+          "retainedApprovedR16": true,
+          "userReview": "approved previous art"
+        }
+      }
+    },
+    {
+      "key": "r17-scene-13",
+      "root": "r17",
+      "path": "retained/scene-13.webp",
+      "sha256": "015345deaeeae903099bc7c95ce03a7f97d2c37ac459dcde7452bd9d561668b9",
+      "name": "r17-scene-13",
+      "reviewStatus": "user-approved",
+      "provenance": {
+        "role": "current R17 story illustration",
+        "evidence": {
+          "stableId": "scene-13",
+          "retainedApprovedR16": true,
+          "userReview": "approved previous art"
+        }
+      }
+    },
+    {
+      "key": "r17-scene-14",
+      "root": "r17",
+      "path": "retained/scene-14.webp",
+      "sha256": "fd9fad80648244611cd8aab3bb24c39f244819cfea1afff66e5bb30a48401e86",
+      "name": "r17-scene-14",
+      "reviewStatus": "user-approved",
+      "provenance": {
+        "role": "current R17 story illustration",
+        "evidence": {
+          "stableId": "scene-14",
+          "retainedApprovedR16": true,
+          "userReview": "approved previous art"
+        }
+      }
+    },
+    {
+      "key": "r17-scene-15",
+      "root": "r17",
+      "path": "retained/scene-15.webp",
+      "sha256": "43e77793ecb4746543650fd5ee14c11e987e0df36781737e78332b6a8195f155",
+      "name": "r17-scene-15",
+      "reviewStatus": "user-approved",
+      "provenance": {
+        "role": "current R17 story illustration",
+        "evidence": {
+          "stableId": "scene-15",
+          "retainedApprovedR16": true,
+          "userReview": "approved previous art"
+        }
+      }
+    },
+    {
+      "key": "r17-scene-16",
+      "root": "r17",
+      "path": "retained/scene-16.webp",
+      "sha256": "5e17df370bd4e685fd887c21b316d861b960e96b00fcc3aaf16ac8162de868c4",
+      "name": "r17-scene-16",
+      "reviewStatus": "user-approved",
+      "provenance": {
+        "role": "current R17 story illustration",
+        "evidence": {
+          "stableId": "scene-16",
+          "retainedApprovedR16": true,
+          "userReview": "approved previous art"
+        }
+      }
+    },
+    {
+      "key": "r17-scene-17",
+      "root": "r17",
+      "path": "retained/scene-17.webp",
+      "sha256": "0074c93f7b6c385b2d041c315d7fcfd733d434ab0d9b60fea96111529df3d6f9",
+      "name": "r17-scene-17",
+      "reviewStatus": "user-approved",
+      "provenance": {
+        "role": "current R17 story illustration",
+        "evidence": {
+          "stableId": "scene-17",
+          "retainedApprovedR16": true,
+          "userReview": "approved previous art"
+        }
+      }
+    },
+    {
+      "key": "r17-scene-18",
+      "root": "r17",
+      "path": "retained/scene-18.webp",
+      "sha256": "edca38715e04dacc5ec79df3a9550951398d058112d0e1561c063faed2b3c53a",
+      "name": "r17-scene-18",
+      "reviewStatus": "user-approved",
+      "provenance": {
+        "role": "current R17 story illustration",
+        "evidence": {
+          "stableId": "scene-18",
+          "retainedApprovedR16": true,
+          "userReview": "approved previous art"
+        }
+      }
+    },
+    {
+      "key": "r17-scene-19",
+      "root": "r17",
+      "path": "retained/scene-19.webp",
+      "sha256": "9e342a9cce145ea58333b2287da84b9f5fc72fb9c85aca985ed852e41bc2b134",
+      "name": "r17-scene-19",
+      "reviewStatus": "user-approved",
+      "provenance": {
+        "role": "current R17 story illustration",
+        "evidence": {
+          "stableId": "scene-19",
+          "retainedApprovedR16": true,
+          "userReview": "approved previous art"
+        }
+      }
+    },
+    {
+      "key": "r17-scene-19a",
+      "root": "r17",
+      "path": "retained/scene-19a.webp",
+      "sha256": "34eecc05dd546906c99d9a8c656225e4f0b65c1b606c922b577398777f0aa946",
+      "name": "r17-scene-19a",
+      "reviewStatus": "user-approved",
+      "provenance": {
+        "role": "current R17 story illustration",
+        "evidence": {
+          "stableId": "scene-19a",
+          "retainedApprovedR16": true,
+          "userReview": "approved previous art"
+        }
+      }
+    },
+    {
+      "key": "r17-scene-19b",
+      "root": "r17",
+      "path": "retained/scene-19b.webp",
+      "sha256": "c7d01f7b509858f60cce5a930b1e35a93809578a862d7d6695b04b31957406bf",
+      "name": "r17-scene-19b",
+      "reviewStatus": "user-approved",
+      "provenance": {
+        "role": "current R17 story illustration",
+        "evidence": {
+          "stableId": "scene-19b",
+          "retainedApprovedR16": true,
+          "userReview": "approved previous art"
+        }
+      }
+    },
+    {
+      "key": "r17-scene-20",
+      "root": "r17",
+      "path": "retained/scene-20.webp",
+      "sha256": "bc84648b4a3f2fe6fb8eb5e41c514fd1070cc18d56f93f86f16ec7dd43869ee8",
+      "name": "r17-scene-20",
+      "reviewStatus": "user-approved",
+      "provenance": {
+        "role": "current R17 story illustration",
+        "evidence": {
+          "stableId": "scene-20",
+          "retainedApprovedR16": true,
+          "userReview": "approved previous art"
+        }
+      }
+    },
+    {
+      "key": "r17-scene-21",
+      "root": "r17",
+      "path": "retained/scene-21.webp",
+      "sha256": "e3ca716a99194dee05b0cd2c27940acc73ff5a9e44d2c3106bb971aa97f9d568",
+      "name": "r17-scene-21",
+      "reviewStatus": "user-approved",
+      "provenance": {
+        "role": "current R17 story illustration",
+        "evidence": {
+          "stableId": "scene-21",
+          "retainedApprovedR16": true,
+          "userReview": "approved previous art"
+        }
+      }
+    },
+    {
+      "key": "r17-scene-22",
+      "root": "r17",
+      "path": "retained/scene-22.webp",
+      "sha256": "7722f2d77144a61da85c97769c8659b69243439671a1151d9677e0b5a9a42dbb",
+      "name": "r17-scene-22",
+      "reviewStatus": "user-approved",
+      "provenance": {
+        "role": "current R17 story illustration",
+        "evidence": {
+          "stableId": "scene-22",
+          "retainedApprovedR16": true,
+          "userReview": "approved previous art"
+        }
+      }
+    },
+    {
+      "key": "r17-scene-23",
+      "root": "r17",
+      "path": "retained/scene-23.webp",
+      "sha256": "2929cd88ecd90f099c5373a60a58476e6e1b80078f62cf4ab06b0d697fb85bc9",
+      "name": "r17-scene-23",
+      "reviewStatus": "user-approved",
+      "provenance": {
+        "role": "current R17 story illustration",
+        "evidence": {
+          "stableId": "scene-23",
+          "retainedApprovedR16": true,
+          "userReview": "approved previous art"
+        }
+      }
+    },
+    {
+      "key": "r17-scene-24",
+      "root": "r17",
+      "path": "retained/scene-24.webp",
+      "sha256": "0eae0e1efad658a1321d215aa6ce8dbfcc39d76e08bd327e7044add4bb196ffc",
+      "name": "r17-scene-24",
+      "reviewStatus": "user-approved",
+      "provenance": {
+        "role": "current R17 story illustration",
+        "evidence": {
+          "stableId": "scene-24",
+          "retainedApprovedR16": true,
+          "userReview": "approved previous art"
+        }
+      }
+    },
+    {
+      "key": "r17-scene-25",
+      "root": "r17",
+      "path": "retained/scene-25.webp",
+      "sha256": "8882eb666f19d514bc673320922550ca0a774593e1ad14f63092485d386a57ca",
+      "name": "r17-scene-25",
+      "reviewStatus": "user-approved",
+      "provenance": {
+        "role": "current R17 story illustration",
+        "evidence": {
+          "stableId": "scene-25",
+          "retainedApprovedR16": true,
+          "userReview": "approved previous art"
+        }
+      }
+    },
+    {
+      "key": "r17-scene-26",
+      "root": "r17",
+      "path": "retained/scene-26.webp",
+      "sha256": "d6952d9421656ddc81f92e0dfd2d4d4d97fe8d0e517a492e161b93fa19c6f581",
+      "name": "r17-scene-26",
+      "reviewStatus": "user-approved",
+      "provenance": {
+        "role": "current R17 story illustration",
+        "evidence": {
+          "stableId": "scene-26",
+          "retainedApprovedR16": true,
+          "userReview": "approved previous art"
+        }
+      }
+    },
+    {
+      "key": "r17-scene-27",
+      "root": "r17",
+      "path": "retained/scene-27.webp",
+      "sha256": "7b5b8e5ead9c86de5e477841457dbd77bc5e1741e3d80e8419006c870fb8ed71",
+      "name": "r17-scene-27",
+      "reviewStatus": "user-approved",
+      "provenance": {
+        "role": "current R17 story illustration",
+        "evidence": {
+          "stableId": "scene-27",
+          "retainedApprovedR16": true,
+          "userReview": "approved previous art"
+        }
+      }
+    },
+    {
+      "key": "r17-scene-28",
+      "root": "r17",
+      "path": "retained/scene-28.webp",
+      "sha256": "ec06bd8246ba1b6fe1f1c8508b0843d04d33d4d80059af7b25f13631b10947b7",
+      "name": "r17-scene-28",
+      "reviewStatus": "user-approved",
+      "provenance": {
+        "role": "current R17 story illustration",
+        "evidence": {
+          "stableId": "scene-28",
+          "retainedApprovedR16": true,
+          "userReview": "approved previous art"
+        }
+      }
+    },
+    {
+      "key": "r17-scene-29",
+      "root": "r17",
+      "path": "retained/scene-29.webp",
+      "sha256": "d3573d35a51a883c7719772d1d3bf639c1faa61f7e8e7a65afc8d42fe92be2b8",
+      "name": "r17-scene-29",
+      "reviewStatus": "user-approved",
+      "provenance": {
+        "role": "current R17 story illustration",
+        "evidence": {
+          "stableId": "scene-29",
+          "retainedApprovedR16": true,
+          "userReview": "approved previous art"
+        }
+      }
+    },
+    {
+      "key": "r17-scene-30",
+      "root": "r17",
+      "path": "retained/scene-30.webp",
+      "sha256": "8c95d6f30e746a3df82f2ab069b3ebae267321aaf82af9e22c9e120c0cd1b90b",
+      "name": "r17-scene-30",
+      "reviewStatus": "user-approved",
+      "provenance": {
+        "role": "current R17 story illustration",
+        "evidence": {
+          "stableId": "scene-30",
+          "retainedApprovedR16": true,
+          "userReview": "approved previous art"
+        }
+      }
+    },
+    {
+      "key": "r17-scene-30a",
+      "root": "r17",
+      "path": "retained/scene-30a.webp",
+      "sha256": "3001db314e025d49312c5ed1457531b39f10987e94c1f5d24ac6864abd322135",
+      "name": "r17-scene-30a",
+      "reviewStatus": "user-approved",
+      "provenance": {
+        "role": "current R17 story illustration",
+        "evidence": {
+          "stableId": "scene-30a",
+          "retainedApprovedR16": true,
+          "userReview": "approved previous art"
+        }
+      }
+    },
+    {
+      "key": "r17-scene-30b",
+      "root": "r17",
+      "path": "retained/scene-30b.webp",
+      "sha256": "3fd487d8f4673606b4681fcd72a1267ca002a7ddce518e1eaa7d45e82ae4e687",
+      "name": "r17-scene-30b",
+      "reviewStatus": "user-approved",
+      "provenance": {
+        "role": "current R17 story illustration",
+        "evidence": {
+          "stableId": "scene-30b",
+          "retainedApprovedR16": true,
+          "userReview": "approved previous art"
+        }
+      }
+    },
+    {
+      "key": "r17-scene-30c",
+      "root": "r17",
+      "path": "retained/scene-30c.webp",
+      "sha256": "dab36eaa6bcefbaaf1c444258f1ad0048151896e80b2e86a377eb0d0f0be62a9",
+      "name": "r17-scene-30c",
+      "reviewStatus": "user-approved",
+      "provenance": {
+        "role": "current R17 story illustration",
+        "evidence": {
+          "stableId": "scene-30c",
+          "retainedApprovedR16": true,
+          "userReview": "approved previous art"
+        }
+      }
+    },
+    {
+      "key": "r17-scene-30d",
+      "root": "r17",
+      "path": "retained/scene-30d.webp",
+      "sha256": "6037c605a14318d4f36528a29db26dd9de709c111bc8db0d491fcbabbf34945d",
+      "name": "r17-scene-30d",
+      "reviewStatus": "user-approved",
+      "provenance": {
+        "role": "current R17 story illustration",
+        "evidence": {
+          "stableId": "scene-30d",
+          "retainedApprovedR16": true,
+          "userReview": "approved previous art"
+        }
+      }
+    },
+    {
+      "key": "r17-scene-31",
+      "root": "r17",
+      "path": "retained/scene-31.webp",
+      "sha256": "a1e0f024faa711cbd735a5ce85ba2a7496a12994e2631c6e03558927cc55d715",
+      "name": "r17-scene-31",
+      "reviewStatus": "user-approved",
+      "provenance": {
+        "role": "current R17 story illustration",
+        "evidence": {
+          "stableId": "scene-31",
+          "retainedApprovedR16": true,
+          "userReview": "approved previous art"
+        }
+      }
+    },
+    {
+      "key": "r17-scene-32",
+      "root": "r17",
+      "path": "retained/scene-32.webp",
+      "sha256": "41d0d399970ad6af0c4e4e9ee0242fc348123510e79d4b71067fbc1878b9a949",
+      "name": "r17-scene-32",
+      "reviewStatus": "user-approved",
+      "provenance": {
+        "role": "current R17 story illustration",
+        "evidence": {
+          "stableId": "scene-32",
+          "retainedApprovedR16": true,
+          "userReview": "approved previous art"
+        }
+      }
+    },
+    {
+      "key": "r17-scene-32a",
+      "root": "r17",
+      "path": "art/beaver-return/web/scene-32a-v3.webp",
+      "sha256": "32e78ba098b2863be190520ed73c5e62c5a13229bb8203ab04176ae6b9cce604",
+      "name": "r17-scene-32a",
+      "reviewStatus": "agent-reviewed",
+      "provenance": {
+        "role": "current R17 story illustration",
+        "evidence": {
+          "stableId": "scene-32a",
+          "retainedApprovedR16": false,
+          "userReview": "pending"
+        }
+      }
+    },
+    {
+      "key": "r17-scene-32c",
+      "root": "r17",
+      "path": "retained/scene-32c.webp",
+      "sha256": "ba7a145d717fda98a3bc409b964add05b5dca4bac6704b2ff3676054ced73caf",
+      "name": "r17-scene-32c",
+      "reviewStatus": "user-approved",
+      "provenance": {
+        "role": "current R17 story illustration",
+        "evidence": {
+          "stableId": "scene-32c",
+          "retainedApprovedR16": true,
+          "userReview": "approved previous art"
+        }
+      }
+    },
+    {
+      "key": "r17-scene-32d",
+      "root": "r17",
+      "path": "retained/scene-32d.webp",
+      "sha256": "55df79885d4605b21935fd73f9c30822195eb1e4d5b1c2d42a6e981cd696bfbf",
+      "name": "r17-scene-32d",
+      "reviewStatus": "user-approved",
+      "provenance": {
+        "role": "current R17 story illustration",
+        "evidence": {
+          "stableId": "scene-32d",
+          "retainedApprovedR16": true,
+          "userReview": "approved previous art"
+        }
+      }
+    },
+    {
+      "key": "r17-scene-32e",
+      "root": "r17",
+      "path": "retained/scene-32e.webp",
+      "sha256": "7113adce5b475f5682746548774e7e15a4b99c7d12372b19bef05b4bee90db09",
+      "name": "r17-scene-32e",
+      "reviewStatus": "user-approved",
+      "provenance": {
+        "role": "current R17 story illustration",
+        "evidence": {
+          "stableId": "scene-32e",
+          "retainedApprovedR16": true,
+          "userReview": "approved previous art"
+        }
+      }
+    },
+    {
+      "key": "r17-scene-32f",
+      "root": "r17",
+      "path": "retained/scene-32f.webp",
+      "sha256": "06e412e782cadd2c2a2a80b45b93cd372161a1852d4366dd19c306756610ea2d",
+      "name": "r17-scene-32f",
+      "reviewStatus": "user-approved",
+      "provenance": {
+        "role": "current R17 story illustration",
+        "evidence": {
+          "stableId": "scene-32f",
+          "retainedApprovedR16": true,
+          "userReview": "approved previous art"
+        }
+      }
+    },
+    {
+      "key": "r17-scene-32g",
+      "root": "r17",
+      "path": "retained/scene-32g.webp",
+      "sha256": "bd7afde59142a3088ac3c1e8cb4dfcc1c137c396d59d5727d534baa985da815b",
+      "name": "r17-scene-32g",
+      "reviewStatus": "user-approved",
+      "provenance": {
+        "role": "current R17 story illustration",
+        "evidence": {
+          "stableId": "scene-32g",
+          "retainedApprovedR16": true,
+          "userReview": "approved previous art"
+        }
+      }
+    },
+    {
+      "key": "r17-scene-32h",
+      "root": "r17",
+      "path": "retained/scene-32h.webp",
+      "sha256": "7abb1583e33a7349da16ee35d840ac548f99db106a5d47a8f0c6a887db362d10",
+      "name": "r17-scene-32h",
+      "reviewStatus": "user-approved",
+      "provenance": {
+        "role": "current R17 story illustration",
+        "evidence": {
+          "stableId": "scene-32h",
+          "retainedApprovedR16": true,
+          "userReview": "approved previous art"
+        }
+      }
+    },
+    {
+      "key": "r17-scene-32i",
+      "root": "r17",
+      "path": "art/beaver-return/web/scene-32i-v2.webp",
+      "sha256": "0260ae0a413380feee54a3b69a7038ff0c39c2663594a52bfe1b7ccb81904942",
+      "name": "r17-scene-32i",
+      "reviewStatus": "agent-reviewed",
+      "provenance": {
+        "role": "current R17 story illustration",
+        "evidence": {
+          "stableId": "scene-32i",
+          "retainedApprovedR16": false,
+          "userReview": "pending"
+        }
+      }
+    },
+    {
+      "key": "r17-scene-32j",
+      "root": "r17",
+      "path": "art/beaver-return/web/scene-32j-v3.webp",
+      "sha256": "bd104aabb955169cc4c43f654c6b7e665ac07c32e3e2beaca0ab83c6b95636b4",
+      "name": "r17-scene-32j",
+      "reviewStatus": "agent-reviewed",
+      "provenance": {
+        "role": "current R17 story illustration",
+        "evidence": {
+          "stableId": "scene-32j",
+          "retainedApprovedR16": false,
+          "userReview": "pending"
+        }
+      }
+    },
+    {
+      "key": "r17-scene-33",
+      "root": "r17",
+      "path": "retained/scene-33.webp",
+      "sha256": "2770aba4f75111ca998ec365964ca81f91c84c82fe119262e3c58b0178116c49",
+      "name": "r17-scene-33",
+      "reviewStatus": "user-approved",
+      "provenance": {
+        "role": "current R17 story illustration",
+        "evidence": {
+          "stableId": "scene-33",
+          "retainedApprovedR16": true,
+          "userReview": "approved previous art"
+        }
+      }
+    },
+    {
+      "key": "r17-scene-34",
+      "root": "r17",
+      "path": "retained/scene-34.webp",
+      "sha256": "7942d4bf74b70ae9ca72f5067d28e4bc553bb7abe14b8e1a002cadea668fd5a3",
+      "name": "r17-scene-34",
+      "reviewStatus": "user-approved",
+      "provenance": {
+        "role": "current R17 story illustration",
+        "evidence": {
+          "stableId": "scene-34",
+          "retainedApprovedR16": true,
+          "userReview": "approved previous art"
+        }
+      }
+    },
+    {
+      "key": "r17-scene-35",
+      "root": "r17",
+      "path": "retained/scene-35.webp",
+      "sha256": "c238a7025feb134dbb72a2ee41220fa4af7ca58b2eac4c704d2a0e7caa73170c",
+      "name": "r17-scene-35",
+      "reviewStatus": "user-approved",
+      "provenance": {
+        "role": "current R17 story illustration",
+        "evidence": {
+          "stableId": "scene-35",
+          "retainedApprovedR16": true,
+          "userReview": "approved previous art"
+        }
+      }
+    },
+    {
+      "key": "r17-scene-36",
+      "root": "r17",
+      "path": "retained/scene-36.webp",
+      "sha256": "3514dd69f82191d94de6b4602cca2535b4a14af538b9dbd28791d12d0b092068",
+      "name": "r17-scene-36",
+      "reviewStatus": "user-approved",
+      "provenance": {
+        "role": "current R17 story illustration",
+        "evidence": {
+          "stableId": "scene-36",
+          "retainedApprovedR16": true,
+          "userReview": "approved previous art"
+        }
+      }
+    },
+    {
+      "key": "r17-scene-37",
+      "root": "r17",
+      "path": "retained/scene-37.webp",
+      "sha256": "57f091e729f7f4bb89f7373cae52f6a512818e337d23032dc6dcec532b57fd3d",
+      "name": "r17-scene-37",
+      "reviewStatus": "user-approved",
+      "provenance": {
+        "role": "current R17 story illustration",
+        "evidence": {
+          "stableId": "scene-37",
+          "retainedApprovedR16": true,
+          "userReview": "approved previous art"
+        }
+      }
+    },
+    {
+      "key": "r17-scene-38",
+      "root": "r17",
+      "path": "retained/scene-38.webp",
+      "sha256": "915aeebf74a532b8914d39ff3727b6343cdec368e6a169fc04f22db7e3ea1631",
+      "name": "r17-scene-38",
+      "reviewStatus": "user-approved",
+      "provenance": {
+        "role": "current R17 story illustration",
+        "evidence": {
+          "stableId": "scene-38",
+          "retainedApprovedR16": true,
+          "userReview": "approved previous art"
+        }
+      }
+    },
+    {
+      "key": "r17-scene-39",
+      "root": "r17",
+      "path": "retained/scene-39.webp",
+      "sha256": "d308c776fde9aa87a728e241ea26f3f0d902d828f837f38cf5889fdbfefb0207",
+      "name": "r17-scene-39",
+      "reviewStatus": "user-approved",
+      "provenance": {
+        "role": "current R17 story illustration",
+        "evidence": {
+          "stableId": "scene-39",
+          "retainedApprovedR16": true,
+          "userReview": "approved previous art"
+        }
+      }
+    },
+    {
+      "key": "r17-scene-40",
+      "root": "r17",
+      "path": "retained/scene-40.webp",
+      "sha256": "c30f67ab9eefb312bee6b7b910a413ecb3b883fd84c7864cb82ab7cfa97b090a",
+      "name": "r17-scene-40",
+      "reviewStatus": "user-approved",
+      "provenance": {
+        "role": "current R17 story illustration",
+        "evidence": {
+          "stableId": "scene-40",
+          "retainedApprovedR16": true,
+          "userReview": "approved previous art"
+        }
+      }
+    },
+    {
+      "key": "r17-scene-41",
+      "root": "r17",
+      "path": "retained/scene-41.webp",
+      "sha256": "7dc7e270afd7d2cd9b1d9d083a295bfcb95cc713ebf873b53f85e500b2a0d36e",
+      "name": "r17-scene-41",
+      "reviewStatus": "user-approved",
+      "provenance": {
+        "role": "current R17 story illustration",
+        "evidence": {
+          "stableId": "scene-41",
+          "retainedApprovedR16": true,
+          "userReview": "approved previous art"
+        }
+      }
+    },
+    {
+      "key": "r17-scene-42",
+      "root": "r17",
+      "path": "retained/scene-42.webp",
+      "sha256": "52a09c47266decfb7d16619a8428973a9d9168dc0f63875913e8d5ffec30a502",
+      "name": "r17-scene-42",
+      "reviewStatus": "user-approved",
+      "provenance": {
+        "role": "current R17 story illustration",
+        "evidence": {
+          "stableId": "scene-42",
+          "retainedApprovedR16": true,
+          "userReview": "approved previous art"
+        }
+      }
+    },
+    {
+      "key": "r17-scene-43",
+      "root": "r17",
+      "path": "retained/scene-43.webp",
+      "sha256": "c642cd7aa76da506e304569c58803b783076ff0b7199aab87a8613b8d1f3c05c",
+      "name": "r17-scene-43",
+      "reviewStatus": "user-approved",
+      "provenance": {
+        "role": "current R17 story illustration",
+        "evidence": {
+          "stableId": "scene-43",
+          "retainedApprovedR16": true,
+          "userReview": "approved previous art"
+        }
+      }
+    },
+    {
+      "key": "r17-scene-44",
+      "root": "r17",
+      "path": "retained/scene-44.webp",
+      "sha256": "b9e1ff59b6d3278a9980a444473df74b2fe70112cb491fd573b2444322ee3b8d",
+      "name": "r17-scene-44",
+      "reviewStatus": "user-approved",
+      "provenance": {
+        "role": "current R17 story illustration",
+        "evidence": {
+          "stableId": "scene-44",
+          "retainedApprovedR16": true,
+          "userReview": "approved previous art"
+        }
+      }
+    },
+    {
+      "key": "r17-scene-45",
+      "root": "r17",
+      "path": "retained/scene-45.webp",
+      "sha256": "1406524b54cfdbbfe0405d4a9cf831cf80536272d1ec028d8b90d744402c601f",
+      "name": "r17-scene-45",
+      "reviewStatus": "user-approved",
+      "provenance": {
+        "role": "current R17 story illustration",
+        "evidence": {
+          "stableId": "scene-45",
+          "retainedApprovedR16": true,
+          "userReview": "approved previous art"
+        }
+      }
+    },
+    {
+      "key": "r17-scene-46",
+      "root": "r17",
+      "path": "retained/scene-46.webp",
+      "sha256": "be1793d76a03ea33f81f7ad6c266183d88ad9cb17ee7d5d4feeada3952fd9365",
+      "name": "r17-scene-46",
+      "reviewStatus": "user-approved",
+      "provenance": {
+        "role": "current R17 story illustration",
+        "evidence": {
+          "stableId": "scene-46",
+          "retainedApprovedR16": true,
+          "userReview": "approved previous art"
+        }
+      }
+    },
+    {
+      "key": "r17-scene-47",
+      "root": "r17",
+      "path": "retained/scene-47.webp",
+      "sha256": "2f026b5d0bc7a7ff9f6cc060ab3e0cf5e51659b946cf3609e970de41f76851ff",
+      "name": "r17-scene-47",
+      "reviewStatus": "user-approved",
+      "provenance": {
+        "role": "current R17 story illustration",
+        "evidence": {
+          "stableId": "scene-47",
+          "retainedApprovedR16": true,
+          "userReview": "approved previous art"
+        }
+      }
+    },
+    {
+      "key": "r17-scene-48",
+      "root": "r17",
+      "path": "retained/scene-48.webp",
+      "sha256": "270bef636b34580d908bbfd2da31abdb409cb8d31f7ddea2be6b5db7d021be33",
+      "name": "r17-scene-48",
+      "reviewStatus": "user-approved",
+      "provenance": {
+        "role": "current R17 story illustration",
+        "evidence": {
+          "stableId": "scene-48",
+          "retainedApprovedR16": true,
+          "userReview": "approved previous art"
+        }
+      }
+    },
+    {
+      "key": "r17-scene-48a",
+      "root": "r17",
+      "path": "retained/scene-48a.webp",
+      "sha256": "229b3742ae33b23f8c20bde3917a77b10fe5eac7d245dc2ff9173493f8151443",
+      "name": "r17-scene-48a",
+      "reviewStatus": "user-approved",
+      "provenance": {
+        "role": "current R17 story illustration",
+        "evidence": {
+          "stableId": "scene-48a",
+          "retainedApprovedR16": true,
+          "userReview": "approved previous art"
+        }
+      }
+    },
+    {
+      "key": "r17-scene-49",
+      "root": "r17",
+      "path": "retained/scene-49.webp",
+      "sha256": "22d8dc7444da53f218697453b8ad31a7c176b001085441aee12b62252c9f9e35",
+      "name": "r17-scene-49",
+      "reviewStatus": "user-approved",
+      "provenance": {
+        "role": "current R17 story illustration",
+        "evidence": {
+          "stableId": "scene-49",
+          "retainedApprovedR16": true,
+          "userReview": "approved previous art"
+        }
+      }
+    },
+    {
+      "key": "r17-scene-52",
+      "root": "r17",
+      "path": "retained/scene-52.webp",
+      "sha256": "36273acd6f5d5ab5bd1e24368711801a5b8b98d65275ec148e55b74145699e45",
+      "name": "r17-scene-52",
+      "reviewStatus": "user-approved",
+      "provenance": {
+        "role": "current R17 story illustration",
+        "evidence": {
+          "stableId": "scene-52",
+          "retainedApprovedR16": true,
+          "userReview": "approved previous art"
+        }
+      }
+    },
+    {
+      "key": "r17-scene-53",
+      "root": "r17",
+      "path": "retained/scene-53.webp",
+      "sha256": "2f4e485bd0e0ab29ca8f8838e47f15efd0bfc84fee79dd71dded51b619f4c854",
+      "name": "r17-scene-53",
+      "reviewStatus": "user-approved",
+      "provenance": {
+        "role": "current R17 story illustration",
+        "evidence": {
+          "stableId": "scene-53",
+          "retainedApprovedR16": true,
+          "userReview": "approved previous art"
+        }
+      }
+    },
+    {
+      "key": "r17-scene-54",
+      "root": "r17",
+      "path": "retained/scene-54.webp",
+      "sha256": "c30f67ab9eefb312bee6b7b910a413ecb3b883fd84c7864cb82ab7cfa97b090a",
+      "name": "r17-scene-54",
+      "reviewStatus": "user-approved",
+      "provenance": {
+        "role": "current R17 story illustration",
+        "evidence": {
+          "stableId": "scene-54",
+          "retainedApprovedR16": true,
+          "userReview": "approved previous art"
+        }
+      }
+    },
+    {
+      "key": "r17-scene-54a",
+      "root": "r17",
+      "path": "retained/scene-54a.webp",
+      "sha256": "995ae474e38cdb78503ba1b8b06980ba30873fe9ad6a795c0aa9314f3c0a5098",
+      "name": "r17-scene-54a",
+      "reviewStatus": "user-approved",
+      "provenance": {
+        "role": "current R17 story illustration",
+        "evidence": {
+          "stableId": "scene-54a",
+          "retainedApprovedR16": true,
+          "userReview": "approved previous art"
+        }
+      }
+    },
+    {
+      "key": "r17-scene-55",
+      "root": "r17",
+      "path": "retained/scene-55.webp",
+      "sha256": "1ed7c69c4158f3d3154946257ab3196e4b2ca5b25223d52ee0a17826ba22fb83",
+      "name": "r17-scene-55",
+      "reviewStatus": "user-approved",
+      "provenance": {
+        "role": "current R17 story illustration",
+        "evidence": {
+          "stableId": "scene-55",
+          "retainedApprovedR16": true,
+          "userReview": "approved previous art"
+        }
+      }
+    },
+    {
+      "key": "r17-scene-55a",
+      "root": "r17",
+      "path": "retained/scene-55a.webp",
+      "sha256": "b890dc0f9e540d9b3dd5a2675a77275e5c6cd0c38def4c7829c5de3b4e0010b2",
+      "name": "r17-scene-55a",
+      "reviewStatus": "user-approved",
+      "provenance": {
+        "role": "current R17 story illustration",
+        "evidence": {
+          "stableId": "scene-55a",
+          "retainedApprovedR16": true,
+          "userReview": "approved previous art"
+        }
+      }
+    },
+    {
+      "key": "r17-scene-55b",
+      "root": "r17",
+      "path": "retained/scene-55b.webp",
+      "sha256": "2c318d1be01da20ececfe37283c521ff49570e792291e589185f2d0de96368e0",
+      "name": "r17-scene-55b",
+      "reviewStatus": "user-approved",
+      "provenance": {
+        "role": "current R17 story illustration",
+        "evidence": {
+          "stableId": "scene-55b",
+          "retainedApprovedR16": true,
+          "userReview": "approved previous art"
+        }
+      }
+    },
+    {
+      "key": "r17-scene-55c",
+      "root": "r17",
+      "path": "retained/scene-55c.webp",
+      "sha256": "7fea19c7699bf9360fd4024d8f41d2fecd0c7ce01dc3fda2d0b1175c44136070",
+      "name": "r17-scene-55c",
+      "reviewStatus": "user-approved",
+      "provenance": {
+        "role": "current R17 story illustration",
+        "evidence": {
+          "stableId": "scene-55c",
+          "retainedApprovedR16": true,
+          "userReview": "approved previous art"
+        }
+      }
+    },
+    {
+      "key": "r17-scene-57",
+      "root": "r17",
+      "path": "retained/scene-57.webp",
+      "sha256": "cbc78b79f40cacb4a40ce66c146d455bb4a19072ca52d13f204552daea19128b",
+      "name": "r17-scene-57",
+      "reviewStatus": "user-approved",
+      "provenance": {
+        "role": "current R17 story illustration",
+        "evidence": {
+          "stableId": "scene-57",
+          "retainedApprovedR16": true,
+          "userReview": "approved previous art"
+        }
+      }
+    },
+    {
+      "key": "r17-scene-58",
+      "root": "r17",
+      "path": "retained/scene-58.webp",
+      "sha256": "57583460c010db42ad3dce249f222447504db83fa1f91274d395f14553ef6f74",
+      "name": "r17-scene-58",
+      "reviewStatus": "user-approved",
+      "provenance": {
+        "role": "current R17 story illustration",
+        "evidence": {
+          "stableId": "scene-58",
+          "retainedApprovedR16": true,
+          "userReview": "approved previous art"
+        }
+      }
+    },
+    {
+      "key": "r17-scene-59",
+      "root": "r17",
+      "path": "retained/scene-59.webp",
+      "sha256": "592555650cedeefbe159ebc1947a7d1fcf3a53ec064ebc0a5a669c14b943d5df",
+      "name": "r17-scene-59",
+      "reviewStatus": "user-approved",
+      "provenance": {
+        "role": "current R17 story illustration",
+        "evidence": {
+          "stableId": "scene-59",
+          "retainedApprovedR16": true,
+          "userReview": "approved previous art"
+        }
+      }
+    },
+    {
+      "key": "r17-scene-60",
+      "root": "r17",
+      "path": "retained/scene-60.webp",
+      "sha256": "e92c8cfda7c297c0c172e971328c98c920e6c0dbef1536b886f01a575a9fe465",
+      "name": "r17-scene-60",
+      "reviewStatus": "user-approved",
+      "provenance": {
+        "role": "current R17 story illustration",
+        "evidence": {
+          "stableId": "scene-60",
+          "retainedApprovedR16": true,
+          "userReview": "approved previous art"
+        }
+      }
+    },
+    {
+      "key": "r17-scene-61",
+      "root": "r17",
+      "path": "retained/scene-61.webp",
+      "sha256": "d20b81ce414b1ab2c5c4e4705b1259d856928a1c70c356b443b57421b63060a0",
+      "name": "r17-scene-61",
+      "reviewStatus": "user-approved",
+      "provenance": {
+        "role": "current R17 story illustration",
+        "evidence": {
+          "stableId": "scene-61",
+          "retainedApprovedR16": true,
+          "userReview": "approved previous art"
+        }
+      }
+    },
+    {
+      "key": "r17-scene-62",
+      "root": "r17",
+      "path": "retained/scene-62.webp",
+      "sha256": "6037974706fffe5c179d41fdd6519141e50a9511e3159e2b8a758a684ad281d8",
+      "name": "r17-scene-62",
+      "reviewStatus": "user-approved",
+      "provenance": {
+        "role": "current R17 story illustration",
+        "evidence": {
+          "stableId": "scene-62",
+          "retainedApprovedR16": true,
+          "userReview": "approved previous art"
+        }
+      }
+    },
+    {
+      "key": "r17-scene-62a",
+      "root": "r17",
+      "path": "retained/scene-62a.webp",
+      "sha256": "8c73d68428cfe2a55bf188b535609cca50dfc39421a71e871327c8c318d981a6",
+      "name": "r17-scene-62a",
+      "reviewStatus": "user-approved",
+      "provenance": {
+        "role": "current R17 story illustration",
+        "evidence": {
+          "stableId": "scene-62a",
+          "retainedApprovedR16": true,
+          "userReview": "approved previous art"
+        }
+      }
+    },
+    {
+      "key": "r17-scene-62b",
+      "root": "r17",
+      "path": "retained/scene-62b.webp",
+      "sha256": "564a270ce63a7f6870edefa22b099153b8bd2dd401563085c353529c6717c0de",
+      "name": "r17-scene-62b",
+      "reviewStatus": "user-approved",
+      "provenance": {
+        "role": "current R17 story illustration",
+        "evidence": {
+          "stableId": "scene-62b",
+          "retainedApprovedR16": true,
+          "userReview": "approved previous art"
+        }
+      }
+    },
+    {
+      "key": "r17-scene-63",
+      "root": "r17",
+      "path": "retained/scene-63.webp",
+      "sha256": "9b715bac2c941fff8fabf6e33da6bb797b072af6941faec00561050d82c096c5",
+      "name": "r17-scene-63",
+      "reviewStatus": "user-approved",
+      "provenance": {
+        "role": "current R17 story illustration",
+        "evidence": {
+          "stableId": "scene-63",
+          "retainedApprovedR16": true,
+          "userReview": "approved previous art"
+        }
+      }
+    },
+    {
+      "key": "r17-scene-62c",
+      "root": "r17",
+      "path": "retained/scene-62c.webp",
+      "sha256": "8299ed6b1af749328c8bcbd933f2ec1dbf2b6db9fc18a0a0ec1765f7f7dac63b",
+      "name": "r17-scene-62c",
+      "reviewStatus": "user-approved",
+      "provenance": {
+        "role": "current R17 story illustration",
+        "evidence": {
+          "stableId": "scene-62c",
+          "retainedApprovedR16": true,
+          "userReview": "approved previous art"
+        }
+      }
+    },
+    {
+      "key": "r17-scene-64",
+      "root": "r17",
+      "path": "retained/scene-64.webp",
+      "sha256": "7c30e9aa595e3d205cad1e5fd6155d247a0f6389a420843671760a9bee8b6549",
+      "name": "r17-scene-64",
+      "reviewStatus": "user-approved",
+      "provenance": {
+        "role": "current R17 story illustration",
+        "evidence": {
+          "stableId": "scene-64",
+          "retainedApprovedR16": true,
+          "userReview": "approved previous art"
+        }
+      }
+    },
+    {
+      "key": "r17-scene-65",
+      "root": "r17",
+      "path": "retained/scene-65.webp",
+      "sha256": "87559bd94fc21df2324055720fb5840e15d31f8e31d992a005a287e5fe598036",
+      "name": "r17-scene-65",
+      "reviewStatus": "user-approved",
+      "provenance": {
+        "role": "current R17 story illustration",
+        "evidence": {
+          "stableId": "scene-65",
+          "retainedApprovedR16": true,
+          "userReview": "approved previous art"
+        }
+      }
+    },
+    {
+      "key": "r17-scene-66",
+      "root": "r17",
+      "path": "retained/scene-66.webp",
+      "sha256": "8b2d950c015aabb8efdb76527a9f07221346f23f379f9a124b92e7cd0cdc41f2",
+      "name": "r17-scene-66",
+      "reviewStatus": "user-approved",
+      "provenance": {
+        "role": "current R17 story illustration",
+        "evidence": {
+          "stableId": "scene-66",
+          "retainedApprovedR16": true,
+          "userReview": "approved previous art"
+        }
+      }
+    },
+    {
+      "key": "r17-scene-67",
+      "root": "r17",
+      "path": "retained/scene-67.webp",
+      "sha256": "f91ff8992414a534b1e9f3b2e5a96e220e6152f04a006d7a102e66f8449fe07f",
+      "name": "r17-scene-67",
+      "reviewStatus": "user-approved",
+      "provenance": {
+        "role": "current R17 story illustration",
+        "evidence": {
+          "stableId": "scene-67",
+          "retainedApprovedR16": true,
+          "userReview": "approved previous art"
+        }
+      }
+    },
+    {
+      "key": "r17-scene-68",
+      "root": "r17",
+      "path": "retained/scene-68.webp",
+      "sha256": "f687ba52f813808e4f2f7e7aa541eb80aaaefea7aab2fe70c4507d437fdfbf14",
+      "name": "r17-scene-68",
+      "reviewStatus": "user-approved",
+      "provenance": {
+        "role": "current R17 story illustration",
+        "evidence": {
+          "stableId": "scene-68",
+          "retainedApprovedR16": true,
+          "userReview": "approved previous art"
+        }
+      }
+    },
+    {
+      "key": "r17-scene-69",
+      "root": "r17",
+      "path": "retained/scene-69.webp",
+      "sha256": "874f5623acd949731f2032bb14f9f7d065c86ae9fe9406115079ef0c70657148",
+      "name": "r17-scene-69",
+      "reviewStatus": "user-approved",
+      "provenance": {
+        "role": "current R17 story illustration",
+        "evidence": {
+          "stableId": "scene-69",
+          "retainedApprovedR16": true,
+          "userReview": "approved previous art"
+        }
+      }
+    },
+    {
+      "key": "r17-scene-70",
+      "root": "r17",
+      "path": "retained/scene-70.webp",
+      "sha256": "f4c1b62820e68f64a02c551d100cbe016d8e1b48a63746c6cd2d505316f2f525",
+      "name": "r17-scene-70",
+      "reviewStatus": "user-approved",
+      "provenance": {
+        "role": "current R17 story illustration",
+        "evidence": {
+          "stableId": "scene-70",
+          "retainedApprovedR16": true,
+          "userReview": "approved previous art"
+        }
+      }
+    },
+    {
+      "key": "r17-scene-71",
+      "root": "r17",
+      "path": "retained/scene-71.webp",
+      "sha256": "2bc1844ea3c2f32d46f642bed9557fca8ea605753e78979bcfefe6fa7247fab0",
+      "name": "r17-scene-71",
+      "reviewStatus": "user-approved",
+      "provenance": {
+        "role": "current R17 story illustration",
+        "evidence": {
+          "stableId": "scene-71",
+          "retainedApprovedR16": true,
+          "userReview": "approved previous art"
+        }
+      }
+    },
+    {
+      "key": "r17-scene-72",
+      "root": "r17",
+      "path": "retained/scene-72.webp",
+      "sha256": "61a11cce9ea4c5656ecb0f74c11219d4f29e1b785a2794a35987613401f9eda2",
+      "name": "r17-scene-72",
+      "reviewStatus": "user-approved",
+      "provenance": {
+        "role": "current R17 story illustration",
+        "evidence": {
+          "stableId": "scene-72",
+          "retainedApprovedR16": true,
+          "userReview": "approved previous art"
+        }
+      }
+    },
+    {
+      "key": "r17-scene-72a",
+      "root": "r17",
+      "path": "retained/scene-72a.webp",
+      "sha256": "293e895feb9a73179078d509f71d630a68b03d1abe469aeaed8e83a898d9f2c8",
+      "name": "r17-scene-72a",
+      "reviewStatus": "user-approved",
+      "provenance": {
+        "role": "current R17 story illustration",
+        "evidence": {
+          "stableId": "scene-72a",
+          "retainedApprovedR16": true,
+          "userReview": "approved previous art"
+        }
+      }
+    },
+    {
+      "key": "r17-scene-73",
+      "root": "r17",
+      "path": "web/scene-73-8bbdc8e985e9.webp",
+      "sha256": "fbec6284bba7704276e7294f49518c37a1dc210ce35597f9a315a3218f8f1fe9",
+      "name": "r17-scene-73",
+      "reviewStatus": "agent-reviewed",
+      "provenance": {
+        "role": "current R17 story illustration",
+        "evidence": {
+          "stableId": "scene-73",
+          "retainedApprovedR16": false,
+          "userReview": "pending"
+        }
+      }
+    },
+    {
+      "key": "r17-scene-73d",
+      "root": "r17",
+      "path": "web/scene-73d-10742dfb057f.webp",
+      "sha256": "4f272a16dbc530285a0bc54cbad8cfa9bf08688d82e8da54fcd0d1df8333768f",
+      "name": "r17-scene-73d",
+      "reviewStatus": "agent-reviewed",
+      "provenance": {
+        "role": "current R17 story illustration",
+        "evidence": {
+          "stableId": "scene-73d",
+          "retainedApprovedR16": false,
+          "userReview": "pending"
+        }
+      }
+    },
+    {
+      "key": "r17-scene-73a",
+      "root": "r17",
+      "path": "web/scene-73a-ab45427440ce.webp",
+      "sha256": "a6c8e6c33c93e5804191299e0842118e2727ccd76269acebda9e7df5d61bfe15",
+      "name": "r17-scene-73a",
+      "reviewStatus": "agent-reviewed",
+      "provenance": {
+        "role": "current R17 story illustration",
+        "evidence": {
+          "stableId": "scene-73a",
+          "retainedApprovedR16": false,
+          "userReview": "pending"
+        }
+      }
+    },
+    {
+      "key": "r17-scene-73b",
+      "root": "r17",
+      "path": "retained/scene-73b.webp",
+      "sha256": "05f761807d27b97b1413000cd9cd0fe961d1970b7ffd112e606bdc0ba3b48ed5",
+      "name": "r17-scene-73b",
+      "reviewStatus": "user-approved",
+      "provenance": {
+        "role": "current R17 story illustration",
+        "evidence": {
+          "stableId": "scene-73b",
+          "retainedApprovedR16": true,
+          "userReview": "approved previous art"
+        }
+      }
+    },
+    {
+      "key": "r17-scene-73c",
+      "root": "r17",
+      "path": "retained/scene-73c.webp",
+      "sha256": "2227bb7d2a97ce15574f4a57788b27bef59fde8c17d035a01770d75e0c38afb8",
+      "name": "r17-scene-73c",
+      "reviewStatus": "user-approved",
+      "provenance": {
+        "role": "current R17 story illustration",
+        "evidence": {
+          "stableId": "scene-73c",
+          "retainedApprovedR16": true,
+          "userReview": "approved previous art"
+        }
+      }
+    },
+    {
+      "key": "r17-scene-74",
+      "root": "r17",
+      "path": "retained/scene-74.webp",
+      "sha256": "cc84b2c21549ea201ab9860c812dbb82aea9b12216964370e166ec4d0e595bc0",
+      "name": "r17-scene-74",
+      "reviewStatus": "user-approved",
+      "provenance": {
+        "role": "current R17 story illustration",
+        "evidence": {
+          "stableId": "scene-74",
+          "retainedApprovedR16": true,
+          "userReview": "approved previous art"
+        }
+      }
+    },
+    {
+      "key": "r17-scene-75",
+      "root": "r17",
+      "path": "retained/scene-75.webp",
+      "sha256": "d805ae9382d41439f50a042bf019ccb15abe618d2c4570ac30fa8fd9aff61874",
+      "name": "r17-scene-75",
+      "reviewStatus": "user-approved",
+      "provenance": {
+        "role": "current R17 story illustration",
+        "evidence": {
+          "stableId": "scene-75",
+          "retainedApprovedR16": true,
+          "userReview": "approved previous art"
+        }
+      }
+    },
+    {
+      "key": "r17-scene-76",
+      "root": "r17",
+      "path": "retained/scene-76.webp",
+      "sha256": "e674273d10c1d4dae0831cb2529b973c220acc5682e9dccb01fbbf59bdf68ae8",
+      "name": "r17-scene-76",
+      "reviewStatus": "user-approved",
+      "provenance": {
+        "role": "current R17 story illustration",
+        "evidence": {
+          "stableId": "scene-76",
+          "retainedApprovedR16": true,
+          "userReview": "approved previous art"
+        }
+      }
+    },
+    {
+      "key": "r17-scene-77",
+      "root": "r17",
+      "path": "retained/scene-77.webp",
+      "sha256": "3a3534680fabe9739fdc2b41e2eebcc1db06738fa858bb97d6761bc730a99f12",
+      "name": "r17-scene-77",
+      "reviewStatus": "user-approved",
+      "provenance": {
+        "role": "current R17 story illustration",
+        "evidence": {
+          "stableId": "scene-77",
+          "retainedApprovedR16": true,
+          "userReview": "approved previous art"
+        }
+      }
+    },
+    {
+      "key": "r17-scene-78",
+      "root": "r17",
+      "path": "retained/scene-78.webp",
+      "sha256": "181d206151ea7c2d233610d8e1533950c22975f1434c3de103ab981cbb9441a4",
+      "name": "r17-scene-78",
+      "reviewStatus": "user-approved",
+      "provenance": {
+        "role": "current R17 story illustration",
+        "evidence": {
+          "stableId": "scene-78",
+          "retainedApprovedR16": true,
+          "userReview": "approved previous art"
+        }
+      }
+    },
+    {
+      "key": "r17-scene-79",
+      "root": "r17",
+      "path": "retained/scene-79.webp",
+      "sha256": "99c7d5020299282c4520e3d5bee194a7797d74e66513d4dab513a9da0fd168b9",
+      "name": "r17-scene-79",
+      "reviewStatus": "user-approved",
+      "provenance": {
+        "role": "current R17 story illustration",
+        "evidence": {
+          "stableId": "scene-79",
+          "retainedApprovedR16": true,
+          "userReview": "approved previous art"
+        }
+      }
+    },
+    {
+      "key": "r17-scene-79a",
+      "root": "r17",
+      "path": "retained/scene-79a.webp",
+      "sha256": "26d350a0520fe85279e8e8d60b8613293dbc0acb1480429a4a0d570e92ee94c6",
+      "name": "r17-scene-79a",
+      "reviewStatus": "user-approved",
+      "provenance": {
+        "role": "current R17 story illustration",
+        "evidence": {
+          "stableId": "scene-79a",
+          "retainedApprovedR16": true,
+          "userReview": "approved previous art"
+        }
+      }
+    },
+    {
+      "key": "r17-scene-80",
+      "root": "r17",
+      "path": "retained/scene-80.webp",
+      "sha256": "96cd7ced511189452aa7ad7841941ed2741db7610c13d002ac0e1fc0df4158ea",
+      "name": "r17-scene-80",
+      "reviewStatus": "user-approved",
+      "provenance": {
+        "role": "current R17 story illustration",
+        "evidence": {
+          "stableId": "scene-80",
+          "retainedApprovedR16": true,
+          "userReview": "approved previous art"
+        }
+      }
+    },
+    {
+      "key": "r17-scene-81",
+      "root": "r17",
+      "path": "retained/scene-81.webp",
+      "sha256": "98617afe440da74b1eafd3dd7737fc2cb8103640edca528b8cb9ffdc4678a3fd",
+      "name": "r17-scene-81",
+      "reviewStatus": "user-approved",
+      "provenance": {
+        "role": "current R17 story illustration",
+        "evidence": {
+          "stableId": "scene-81",
+          "retainedApprovedR16": true,
+          "userReview": "approved previous art"
+        }
+      }
+    },
+    {
+      "key": "r17-scene-83",
+      "root": "r17",
+      "path": "web/scene-83-c634dd6b8eee.webp",
+      "sha256": "e7a685310e122dfe6db0c0496ca60a0adb750d2c7a1924ff092b66455787a127",
+      "name": "r17-scene-83",
+      "reviewStatus": "agent-reviewed",
+      "provenance": {
+        "role": "current R17 story illustration",
+        "evidence": {
+          "stableId": "scene-83",
+          "retainedApprovedR16": false,
+          "userReview": "pending"
+        }
+      }
+    },
+    {
+      "key": "r17-scene-84",
+      "root": "r17",
+      "path": "web/scene-84-dd1c58ebadb4.webp",
+      "sha256": "09489dfb992b09a9d806762e98f694975a32e8d365a3692cf0f7583ca199c73b",
+      "name": "r17-scene-84",
+      "reviewStatus": "agent-reviewed",
+      "provenance": {
+        "role": "current R17 story illustration",
+        "evidence": {
+          "stableId": "scene-84",
+          "retainedApprovedR16": false,
+          "userReview": "pending"
+        }
+      }
+    },
+    {
+      "key": "r17-scene-85",
+      "root": "r17",
+      "path": "web/scene-85-81bd2bec48cf.webp",
+      "sha256": "8f0fe04a3218457adc0d37e2f0d43244b7f15b60af9cbd3c4e3d4a8fab0f3813",
+      "name": "r17-scene-85",
+      "reviewStatus": "agent-reviewed",
+      "provenance": {
+        "role": "current R17 story illustration",
+        "evidence": {
+          "stableId": "scene-85",
+          "retainedApprovedR16": false,
+          "userReview": "pending"
+        }
+      }
+    },
+    {
+      "key": "r17-scene-86",
+      "root": "r17",
+      "path": "retained/scene-86.webp",
+      "sha256": "6f3012d9b232094c71f4bdde8d997579e2c77075c6bc981a4bd3c5cabd6bad82",
+      "name": "r17-scene-86",
+      "reviewStatus": "user-approved",
+      "provenance": {
+        "role": "current R17 story illustration",
+        "evidence": {
+          "stableId": "scene-86",
+          "retainedApprovedR16": true,
+          "userReview": "approved previous art"
+        }
+      }
+    },
+    {
+      "key": "r17-scene-87",
+      "root": "r17",
+      "path": "retained/scene-87.webp",
+      "sha256": "a32c2ffc8660daf2d2f2fa96b48d37aaeed84e80f1a88e35398796b15ecc0fa0",
+      "name": "r17-scene-87",
+      "reviewStatus": "user-approved",
+      "provenance": {
+        "role": "current R17 story illustration",
+        "evidence": {
+          "stableId": "scene-87",
+          "retainedApprovedR16": true,
+          "userReview": "approved previous art"
+        }
+      }
+    },
+    {
+      "key": "r17-scene-114",
+      "root": "r17",
+      "path": "retained/scene-114.webp",
+      "sha256": "f727c82a67a6a45b7eb1a15b81369e6765a6f52e1d3ed34fe432771f6bfa6531",
+      "name": "r17-scene-114",
+      "reviewStatus": "user-approved",
+      "provenance": {
+        "role": "current R17 story illustration",
+        "evidence": {
+          "stableId": "scene-114",
+          "retainedApprovedR16": true,
+          "userReview": "approved previous art"
+        }
+      }
+    },
+    {
+      "key": "r17-scene-115",
+      "root": "r17",
+      "path": "retained/scene-115.webp",
+      "sha256": "0525754b52fbdaeb07e39790f8d5ba05d6f26bdb4972879b5c44adb12c06c02e",
+      "name": "r17-scene-115",
+      "reviewStatus": "user-approved",
+      "provenance": {
+        "role": "current R17 story illustration",
+        "evidence": {
+          "stableId": "scene-115",
+          "retainedApprovedR16": true,
+          "userReview": "approved previous art"
+        }
+      }
+    },
+    {
+      "key": "r17-scene-116",
+      "root": "r17",
+      "path": "retained/scene-116.webp",
+      "sha256": "d5119b159c2b0a989686956c7e5884072d86e066f0a009d921dd979ba4c65970",
+      "name": "r17-scene-116",
+      "reviewStatus": "user-approved",
+      "provenance": {
+        "role": "current R17 story illustration",
+        "evidence": {
+          "stableId": "scene-116",
+          "retainedApprovedR16": true,
+          "userReview": "approved previous art"
+        }
+      }
+    },
+    {
+      "key": "r17-scene-117",
+      "root": "r17",
+      "path": "retained/scene-117.webp",
+      "sha256": "e6fdd05e24bc99b2151d865621515c59cae9a7607cf5b91b471febe012a64afb",
+      "name": "r17-scene-117",
+      "reviewStatus": "user-approved",
+      "provenance": {
+        "role": "current R17 story illustration",
+        "evidence": {
+          "stableId": "scene-117",
+          "retainedApprovedR16": true,
+          "userReview": "approved previous art"
+        }
+      }
+    },
+    {
+      "key": "r17-scene-118",
+      "root": "r17",
+      "path": "retained/scene-118.webp",
+      "sha256": "ad26a034e1c728bc0774080370b5526cd682e877ea796604cd787c15504b1ab5",
+      "name": "r17-scene-118",
+      "reviewStatus": "user-approved",
+      "provenance": {
+        "role": "current R17 story illustration",
+        "evidence": {
+          "stableId": "scene-118",
+          "retainedApprovedR16": true,
+          "userReview": "approved previous art"
+        }
+      }
+    },
+    {
+      "key": "r17-scene-119",
+      "root": "r17",
+      "path": "retained/scene-119.webp",
+      "sha256": "8a54b424cdd6fbc7d788c2491af386d06dd9c4dff73c7cf154ebc002a311136f",
+      "name": "r17-scene-119",
+      "reviewStatus": "user-approved",
+      "provenance": {
+        "role": "current R17 story illustration",
+        "evidence": {
+          "stableId": "scene-119",
+          "retainedApprovedR16": true,
+          "userReview": "approved previous art"
+        }
+      }
+    },
+    {
+      "key": "r17-scene-120",
+      "root": "r17",
+      "path": "retained/scene-120.webp",
+      "sha256": "6ab53810d6797d610e3a246c19c326ea18cf00d88d07ceef1addc1dc4c18fb43",
+      "name": "r17-scene-120",
+      "reviewStatus": "user-approved",
+      "provenance": {
+        "role": "current R17 story illustration",
+        "evidence": {
+          "stableId": "scene-120",
+          "retainedApprovedR16": true,
+          "userReview": "approved previous art"
+        }
+      }
+    },
+    {
+      "key": "r17-scene-121",
+      "root": "r17",
+      "path": "retained/scene-121.webp",
+      "sha256": "2ee96027221a32a7e82b603545981349bdcb4d2cc196a56d666a47a9788a20d8",
+      "name": "r17-scene-121",
+      "reviewStatus": "user-approved",
+      "provenance": {
+        "role": "current R17 story illustration",
+        "evidence": {
+          "stableId": "scene-121",
+          "retainedApprovedR16": true,
+          "userReview": "approved previous art"
+        }
+      }
+    },
+    {
+      "key": "r17-scene-122",
+      "root": "r17",
+      "path": "retained/scene-122.webp",
+      "sha256": "b40ceace35152f02acfcc3aa1a9f2604902867dc7a3d4adcf1f18325fe8f4eb9",
+      "name": "r17-scene-122",
+      "reviewStatus": "user-approved",
+      "provenance": {
+        "role": "current R17 story illustration",
+        "evidence": {
+          "stableId": "scene-122",
+          "retainedApprovedR16": true,
+          "userReview": "approved previous art"
+        }
+      }
+    },
+    {
+      "key": "r17-scene-123",
+      "root": "r17",
+      "path": "retained/scene-123.webp",
+      "sha256": "dbdbabe8f5282f4e4cc5b81565825a25ac2eed7f6715fcbff3bfcc3fb9f691f7",
+      "name": "r17-scene-123",
+      "reviewStatus": "user-approved",
+      "provenance": {
+        "role": "current R17 story illustration",
+        "evidence": {
+          "stableId": "scene-123",
+          "retainedApprovedR16": true,
+          "userReview": "approved previous art"
+        }
+      }
+    },
+    {
+      "key": "r17-scene-124",
+      "root": "r17",
+      "path": "retained/scene-124.webp",
+      "sha256": "5357172bbacf2303ef185bbc3c432beaf4c118847c4f594c46bc981c452bc4aa",
+      "name": "r17-scene-124",
+      "reviewStatus": "user-approved",
+      "provenance": {
+        "role": "current R17 story illustration",
+        "evidence": {
+          "stableId": "scene-124",
+          "retainedApprovedR16": true,
+          "userReview": "approved previous art"
+        }
+      }
+    },
+    {
+      "key": "r17-scene-124a",
+      "root": "r17",
+      "path": "retained/scene-124a.webp",
+      "sha256": "3df0653d0b8181cc64af28bbe1a149d67ed9d753cfbb6011c10885893351832e",
+      "name": "r17-scene-124a",
+      "reviewStatus": "user-approved",
+      "provenance": {
+        "role": "current R17 story illustration",
+        "evidence": {
+          "stableId": "scene-124a",
+          "retainedApprovedR16": true,
+          "userReview": "approved previous art"
+        }
+      }
+    },
+    {
+      "key": "r17-scene-125",
+      "root": "r17",
+      "path": "retained/scene-125.webp",
+      "sha256": "0aa240713b699253d73666d071d4ffbcf16f204b11e605be4add1d4d21dbf973",
+      "name": "r17-scene-125",
+      "reviewStatus": "user-approved",
+      "provenance": {
+        "role": "current R17 story illustration",
+        "evidence": {
+          "stableId": "scene-125",
+          "retainedApprovedR16": true,
+          "userReview": "approved previous art"
+        }
+      }
+    },
+    {
+      "key": "r17-scene-126",
+      "root": "r17",
+      "path": "retained/scene-126.webp",
+      "sha256": "2a069c25eb95f937cd444fe358ab15479d4a91b4a81e4bac524f75fadd3b48d2",
+      "name": "r17-scene-126",
+      "reviewStatus": "user-approved",
+      "provenance": {
+        "role": "current R17 story illustration",
+        "evidence": {
+          "stableId": "scene-126",
+          "retainedApprovedR16": true,
+          "userReview": "approved previous art"
+        }
+      }
+    },
+    {
+      "key": "r17-scene-03a",
+      "root": "r17",
+      "path": "art/opening/web/scene-03a-v1.webp",
+      "sha256": "037b2eb4099769a1e917edb32f2fca62c3f19bff0ecb6fb89cfe28cf69aa4d4f",
+      "name": "r17-scene-03a",
+      "reviewStatus": "agent-reviewed",
+      "provenance": {
+        "role": "current R17 story illustration",
+        "evidence": {
+          "stableId": "scene-03a",
+          "retainedApprovedR16": false,
+          "userReview": "pending"
+        }
+      }
+    },
+    {
+      "key": "r17-scene-03b",
+      "root": "r17",
+      "path": "art/opening/web/scene-03b-v1.webp",
+      "sha256": "1a5ab8a5a59c95ffe6b16a5b57aaa160edf906a6cdf62755bd2506071ae18443",
+      "name": "r17-scene-03b",
+      "reviewStatus": "agent-reviewed",
+      "provenance": {
+        "role": "current R17 story illustration",
+        "evidence": {
+          "stableId": "scene-03b",
+          "retainedApprovedR16": false,
+          "userReview": "pending"
+        }
+      }
+    },
+    {
+      "key": "r17-scene-03c",
+      "root": "r17",
+      "path": "art/opening/web/scene-03c-v1.webp",
+      "sha256": "1e7f04fae9bc7e758688a1ea384f2d093df0651f9007b860adb22e5bcd4d3c88",
+      "name": "r17-scene-03c",
+      "reviewStatus": "agent-reviewed",
+      "provenance": {
+        "role": "current R17 story illustration",
+        "evidence": {
+          "stableId": "scene-03c",
+          "retainedApprovedR16": false,
+          "userReview": "pending"
+        }
+      }
+    },
+    {
+      "key": "r17-scene-03d",
+      "root": "r17",
+      "path": "art/opening/web/scene-03d-v1.webp",
+      "sha256": "adbcf0f50204b5fd7ae1034eadfac2cffbd096965262de243bd2915ef123a0e1",
+      "name": "r17-scene-03d",
+      "reviewStatus": "agent-reviewed",
+      "provenance": {
+        "role": "current R17 story illustration",
+        "evidence": {
+          "stableId": "scene-03d",
+          "retainedApprovedR16": false,
+          "userReview": "pending"
+        }
+      }
+    },
+    {
+      "key": "r17-scene-03e",
+      "root": "r17",
+      "path": "art/opening/web/scene-03e-v1.webp",
+      "sha256": "818431353af5941716698fc80885208c8ed033f1b9dfb61bbbb4d97da4e75ba6",
+      "name": "r17-scene-03e",
+      "reviewStatus": "agent-reviewed",
+      "provenance": {
+        "role": "current R17 story illustration",
+        "evidence": {
+          "stableId": "scene-03e",
+          "retainedApprovedR16": false,
+          "userReview": "pending"
+        }
+      }
+    },
+    {
+      "key": "r17-scene-03f",
+      "root": "r17",
+      "path": "art/opening/web/scene-03f-v1.webp",
+      "sha256": "fd5e1426986bdf9324497ca8ff178d3a80e063ea5dfeb0673d29ccba0a7587fd",
+      "name": "r17-scene-03f",
+      "reviewStatus": "agent-reviewed",
+      "provenance": {
+        "role": "current R17 story illustration",
+        "evidence": {
+          "stableId": "scene-03f",
+          "retainedApprovedR16": false,
+          "userReview": "pending"
+        }
+      }
+    },
+    {
+      "key": "r17-scene-03g",
+      "root": "r17",
+      "path": "art/opening/web/scene-03g-v1.webp",
+      "sha256": "90cf531a30e133b1a87a0912f668d91b6bfeb6e399f7242fc64dbe60a0d942d1",
+      "name": "r17-scene-03g",
+      "reviewStatus": "agent-reviewed",
+      "provenance": {
+        "role": "current R17 story illustration",
+        "evidence": {
+          "stableId": "scene-03g",
+          "retainedApprovedR16": false,
+          "userReview": "pending"
+        }
+      }
+    },
+    {
+      "key": "r17-scene-03h",
+      "root": "r17",
+      "path": "art/opening/web/scene-03h-v1.webp",
+      "sha256": "e394bec3bf4a7cbae83714906c5d8d286886cea3751eec6cfd572449b201d54e",
+      "name": "r17-scene-03h",
+      "reviewStatus": "agent-reviewed",
+      "provenance": {
+        "role": "current R17 story illustration",
+        "evidence": {
+          "stableId": "scene-03h",
+          "retainedApprovedR16": false,
+          "userReview": "pending"
+        }
+      }
+    },
+    {
+      "key": "r17-scene-03i",
+      "root": "r17",
+      "path": "art/opening/web/scene-03i-v1.webp",
+      "sha256": "d4196a146376951d4b9555290458cbb7df30567185c99877014f34ac17198d41",
+      "name": "r17-scene-03i",
+      "reviewStatus": "agent-reviewed",
+      "provenance": {
+        "role": "current R17 story illustration",
+        "evidence": {
+          "stableId": "scene-03i",
+          "retainedApprovedR16": false,
+          "userReview": "pending"
+        }
+      }
+    },
+    {
+      "key": "r17-scene-03k",
+      "root": "r17",
+      "path": "art/opening/web/scene-03k-v1.webp",
+      "sha256": "5e73e13aa43d426114906917a5051601423ce0bd6104cac05d1ca8d57ded1bf0",
+      "name": "r17-scene-03k",
+      "reviewStatus": "agent-reviewed",
+      "provenance": {
+        "role": "current R17 story illustration",
+        "evidence": {
+          "stableId": "scene-03k",
+          "retainedApprovedR16": false,
+          "userReview": "pending"
+        }
+      }
+    },
+    {
+      "key": "r17-scene-03j",
+      "root": "r17",
+      "path": "art/opening/web/scene-03j-v2.webp",
+      "sha256": "784f47af0361902fbc8cc83d4880229dd3fd12c1c5f5a4364d94c8496da2ebfc",
+      "name": "r17-scene-03j",
+      "reviewStatus": "agent-reviewed",
+      "provenance": {
+        "role": "current R17 story illustration",
+        "evidence": {
+          "stableId": "scene-03j",
+          "retainedApprovedR16": false,
+          "userReview": "pending"
+        }
+      }
+    },
+    {
+      "key": "r17-scene-03l",
+      "root": "r17",
+      "path": "art/opening/web/scene-03l-v1.webp",
+      "sha256": "b40ac36e16a2f183f826d340f8be4c2ad85c30fa0a3e660c0dd0958cdb5da81b",
+      "name": "r17-scene-03l",
+      "reviewStatus": "agent-reviewed",
+      "provenance": {
+        "role": "current R17 story illustration",
+        "evidence": {
+          "stableId": "scene-03l",
+          "retainedApprovedR16": false,
+          "userReview": "pending"
+        }
+      }
+    },
+    {
+      "key": "r17-scene-03m",
+      "root": "r17",
+      "path": "art/opening/web/scene-03m-v1.webp",
+      "sha256": "4bda9eb877f8a753d8d924154cb76dcba2ba942e1aa397cad6a91395b046e57f",
+      "name": "r17-scene-03m",
+      "reviewStatus": "agent-reviewed",
+      "provenance": {
+        "role": "current R17 story illustration",
+        "evidence": {
+          "stableId": "scene-03m",
+          "retainedApprovedR16": false,
+          "userReview": "pending"
+        }
+      }
+    },
+    {
+      "key": "r17-scene-04a1",
+      "root": "r17",
+      "path": "art/opening/web/scene-04a1-v1.webp",
+      "sha256": "2265919ee66ea1ded0a94e8ada203b374d2c212f8a9dc562a279b9122ed29a3e",
+      "name": "r17-scene-04a1",
+      "reviewStatus": "agent-reviewed",
+      "provenance": {
+        "role": "current R17 story illustration",
+        "evidence": {
+          "stableId": "scene-04a1",
+          "retainedApprovedR16": false,
+          "userReview": "pending"
+        }
+      }
+    },
+    {
+      "key": "r17-scene-04a2",
+      "root": "r17",
+      "path": "art/opening/web/scene-04a2-v1.webp",
+      "sha256": "55fe669d63e5016ceef76fb690adabc564004170258dc9e190e116c18d6bb64c",
+      "name": "r17-scene-04a2",
+      "reviewStatus": "agent-reviewed",
+      "provenance": {
+        "role": "current R17 story illustration",
+        "evidence": {
+          "stableId": "scene-04a2",
+          "retainedApprovedR16": false,
+          "userReview": "pending"
+        }
+      }
+    },
+    {
+      "key": "r17-scene-05g1",
+      "root": "r17",
+      "path": "art/opening/web/scene-05g1-v2.webp",
+      "sha256": "4e1a9296b26c9cf4b203f7e4880d1b36f0c5e8996bd5de56623881ec3b457c80",
+      "name": "r17-scene-05g1",
+      "reviewStatus": "agent-reviewed",
+      "provenance": {
+        "role": "current R17 story illustration",
+        "evidence": {
+          "stableId": "scene-05g1",
+          "retainedApprovedR16": false,
+          "userReview": "pending"
+        }
+      }
+    },
+    {
+      "key": "r17-scene-05g2",
+      "root": "r17",
+      "path": "art/opening/web/scene-05g2-v1.webp",
+      "sha256": "8855094286a8af60bd1a779545e046057eaf978b8fe6252f716545400bf84a92",
+      "name": "r17-scene-05g2",
+      "reviewStatus": "agent-reviewed",
+      "provenance": {
+        "role": "current R17 story illustration",
+        "evidence": {
+          "stableId": "scene-05g2",
+          "retainedApprovedR16": false,
+          "userReview": "pending"
+        }
+      }
+    },
+    {
+      "key": "r17-scene-05g3",
+      "root": "r17",
+      "path": "art/opening/web/scene-05g3-v2.webp",
+      "sha256": "abad08da381f69cefa8709b6e7730d2015060943bb428c45f676cdd98048783d",
+      "name": "r17-scene-05g3",
+      "reviewStatus": "agent-reviewed",
+      "provenance": {
+        "role": "current R17 story illustration",
+        "evidence": {
+          "stableId": "scene-05g3",
+          "retainedApprovedR16": false,
+          "userReview": "pending"
+        }
+      }
+    },
+    {
+      "key": "r17-scene-32b1",
+      "root": "r17",
+      "path": "art/beaver-return/web/scene-32b1-v1.webp",
+      "sha256": "9ee40787d1d5cd5d737f2d9419063525689ab38b546607c341af81ee5dd000d9",
+      "name": "r17-scene-32b1",
+      "reviewStatus": "agent-reviewed",
+      "provenance": {
+        "role": "current R17 story illustration",
+        "evidence": {
+          "stableId": "scene-32b1",
+          "retainedApprovedR16": false,
+          "userReview": "pending"
+        }
+      }
+    },
+    {
+      "key": "r17-scene-32b2",
+      "root": "r17",
+      "path": "art/beaver-return/web/scene-32b2-v1.webp",
+      "sha256": "c295ab619ea7b71af6dde0871b501e3d45746aa38916c820f1faa101872fb48f",
+      "name": "r17-scene-32b2",
+      "reviewStatus": "agent-reviewed",
+      "provenance": {
+        "role": "current R17 story illustration",
+        "evidence": {
+          "stableId": "scene-32b2",
+          "retainedApprovedR16": false,
+          "userReview": "pending"
+        }
+      }
+    },
+    {
+      "key": "r17-scene-32c1",
+      "root": "r17",
+      "path": "art/beaver-return/web/scene-32c1-v1.webp",
+      "sha256": "aa3e38b91423190d32546bb2a50b27cdffec9715a8f98d2d2c03a5f5c14523ff",
+      "name": "r17-scene-32c1",
+      "reviewStatus": "agent-reviewed",
+      "provenance": {
+        "role": "current R17 story illustration",
+        "evidence": {
+          "stableId": "scene-32c1",
+          "retainedApprovedR16": false,
+          "userReview": "pending"
+        }
+      }
+    },
+    {
+      "key": "r17-scene-32c3",
+      "root": "r17",
+      "path": "art/beaver-return/web/scene-32c3-v1.webp",
+      "sha256": "83504653c54e50722b7e05a704797156032d22d6c1455e1858f5f1b53f0d8887",
+      "name": "r17-scene-32c3",
+      "reviewStatus": "agent-reviewed",
+      "provenance": {
+        "role": "current R17 story illustration",
+        "evidence": {
+          "stableId": "scene-32c3",
+          "retainedApprovedR16": false,
+          "userReview": "pending"
+        }
+      }
+    },
+    {
+      "key": "r17-scene-32c2",
+      "root": "r17",
+      "path": "art/beaver-return/web/scene-32c2-v2.webp",
+      "sha256": "10eadde7351bb1bca8ceedb5c471c72c4f7bdab5a2070f1eae88607ae4b07e00",
+      "name": "r17-scene-32c2",
+      "reviewStatus": "agent-reviewed",
+      "provenance": {
+        "role": "current R17 story illustration",
+        "evidence": {
+          "stableId": "scene-32c2",
+          "retainedApprovedR16": false,
+          "userReview": "pending"
+        }
+      }
+    },
+    {
+      "key": "r17-scene-32h1",
+      "root": "r17",
+      "path": "art/beaver-return/web/scene-32h1-v2.webp",
+      "sha256": "11ece7369d84018a4bb307b14ccf90fd6eb195fbae57646e37de668f3a2e131a",
+      "name": "r17-scene-32h1",
+      "reviewStatus": "agent-reviewed",
+      "provenance": {
+        "role": "current R17 story illustration",
+        "evidence": {
+          "stableId": "scene-32h1",
+          "retainedApprovedR16": false,
+          "userReview": "pending"
+        }
+      }
+    },
+    {
+      "key": "r17-scene-32h2",
+      "root": "r17",
+      "path": "art/beaver-return/web/scene-32h2-v2.webp",
+      "sha256": "f573b80d8bc9ba1e6e588347be603647e4c00f55bd81e140574d7512b47c4054",
+      "name": "r17-scene-32h2",
+      "reviewStatus": "agent-reviewed",
+      "provenance": {
+        "role": "current R17 story illustration",
+        "evidence": {
+          "stableId": "scene-32h2",
+          "retainedApprovedR16": false,
+          "userReview": "pending"
+        }
+      }
+    },
+    {
+      "key": "r17-scene-32h3",
+      "root": "r17",
+      "path": "art/beaver-return/web/scene-32h3-v1.webp",
+      "sha256": "f9e85d3b80036c8121b86db74b958113ec864c231178fa00eb4d9b5f42fc198d",
+      "name": "r17-scene-32h3",
+      "reviewStatus": "agent-reviewed",
+      "provenance": {
+        "role": "current R17 story illustration",
+        "evidence": {
+          "stableId": "scene-32h3",
+          "retainedApprovedR16": false,
+          "userReview": "pending"
+        }
+      }
+    },
+    {
+      "key": "r17-scene-32i1",
+      "root": "r17",
+      "path": "art/beaver-return/web/scene-32i1-v1.webp",
+      "sha256": "35d6627a3092e392fc711508c4141c7d782a5db04f77a2d32a19882bf8b4a5a5",
+      "name": "r17-scene-32i1",
+      "reviewStatus": "agent-reviewed",
+      "provenance": {
+        "role": "current R17 story illustration",
+        "evidence": {
+          "stableId": "scene-32i1",
+          "retainedApprovedR16": false,
+          "userReview": "pending"
+        }
+      }
+    },
+    {
+      "key": "r17-scene-32i2",
+      "root": "r17",
+      "path": "art/beaver-return/web/scene-32i2-v1.webp",
+      "sha256": "c5a8d8f54f80c78ff18b56fff30c8b04879aced35429fffd4a64e1685567234a",
+      "name": "r17-scene-32i2",
+      "reviewStatus": "agent-reviewed",
+      "provenance": {
+        "role": "current R17 story illustration",
+        "evidence": {
+          "stableId": "scene-32i2",
+          "retainedApprovedR16": false,
+          "userReview": "pending"
+        }
+      }
+    },
+    {
+      "key": "r17-scene-32i3",
+      "root": "r17",
+      "path": "art/beaver-return/web/scene-32i3-v1.webp",
+      "sha256": "d19b751e5cfef69e1da16ae3facd1b248ea3920494d8a1c24c7c84c5abdcc24e",
+      "name": "r17-scene-32i3",
+      "reviewStatus": "agent-reviewed",
+      "provenance": {
+        "role": "current R17 story illustration",
+        "evidence": {
+          "stableId": "scene-32i3",
+          "retainedApprovedR16": false,
+          "userReview": "pending"
+        }
+      }
+    },
+    {
+      "key": "r17-scene-32i4",
+      "root": "r17",
+      "path": "art/beaver-return/web/scene-32i4-v1.webp",
+      "sha256": "61429b556130d9ccd8df80c8a0c849d658fab6a54034a04de53a24cbcc12b836",
+      "name": "r17-scene-32i4",
+      "reviewStatus": "agent-reviewed",
+      "provenance": {
+        "role": "current R17 story illustration",
+        "evidence": {
+          "stableId": "scene-32i4",
+          "retainedApprovedR16": false,
+          "userReview": "pending"
+        }
+      }
+    },
+    {
+      "key": "r17-scene-32i5",
+      "root": "r17",
+      "path": "art/homeward-finish/web/scene-32i5-v1.webp",
+      "sha256": "755c6cfaa5e1d4d0002db1c235c6fe261acc402f64fadf5f977f90e2b8a3c42a",
+      "name": "r17-scene-32i5",
+      "reviewStatus": "agent-reviewed",
+      "provenance": {
+        "role": "current R17 story illustration",
+        "evidence": {
+          "stableId": "scene-32i5",
+          "retainedApprovedR16": false,
+          "userReview": "pending"
+        }
+      }
+    },
+    {
+      "key": "r17-scene-32i6",
+      "root": "r17",
+      "path": "art/homeward-finish/web/scene-32i6-v1.webp",
+      "sha256": "8ee47791a124f184164ee57f509c27edcc43c4d04177e2da4ce4739393b2d9e6",
+      "name": "r17-scene-32i6",
+      "reviewStatus": "agent-reviewed",
+      "provenance": {
+        "role": "current R17 story illustration",
+        "evidence": {
+          "stableId": "scene-32i6",
+          "retainedApprovedR16": false,
+          "userReview": "pending"
+        }
+      }
+    },
+    {
+      "key": "r17-scene-32i7",
+      "root": "r17",
+      "path": "art/homeward-finish/web/scene-32i7-v2.webp",
+      "sha256": "31a2ad4295e75f8a1ba08ff12f5e757be19f03beb951766c1f97ce55cf6b72de",
+      "name": "r17-scene-32i7",
+      "reviewStatus": "agent-reviewed",
+      "provenance": {
+        "role": "current R17 story illustration",
+        "evidence": {
+          "stableId": "scene-32i7",
+          "retainedApprovedR16": false,
+          "userReview": "pending"
+        }
+      }
+    },
+    {
+      "key": "bath-cover-en",
+      "root": "r17",
+      "path": "web/title-en-v2.webp",
+      "sha256": "c892a6eea0433ff88264f6d27d65bbe6eee33bb78a382740226ef723c639ff6e",
+      "name": "bath-cover-en",
+      "reviewStatus": "user-approved",
+      "provenance": {
+        "role": "localized full-bleed title cover",
+        "evidence": "Published cover fix d56d45c; letters on artwork"
+      }
+    },
+    {
+      "key": "bath-cover-ru",
+      "root": "r17",
+      "path": "web/title-ru-v2.webp",
+      "sha256": "318c2ba546d08a73d812600ec248e5c2d4e522e21cd9bf3ad1ca4e2314202195",
+      "name": "bath-cover-ru",
+      "reviewStatus": "user-approved",
+      "provenance": {
+        "role": "localized full-bleed title cover",
+        "evidence": "Published cover fix d56d45c; letters on artwork"
+      }
+    },
+    {
+      "key": "bath-cover-es",
+      "root": "r17",
+      "path": "web/title-es-v2.webp",
+      "sha256": "e6750b0e5b95d8bd41d46cc2fb3622c2666065e6c7c9cee03daa149397cad03a",
+      "name": "bath-cover-es",
+      "reviewStatus": "user-approved",
+      "provenance": {
+        "role": "localized full-bleed title cover",
+        "evidence": "Published cover fix d56d45c; letters on artwork"
+      }
+    },
+    {
+      "key": "catalog-cover-chapter-01",
+      "root": "published",
+      "path": "images/covers/chapter-01/title-ru-v1.png",
+      "sha256": "5f519b21218b7b4d402dc0fd267f4dc75c94a5e0bf06d98d532c473d2cb411b6",
+      "name": "catalog-cover-chapter-01",
+      "reviewStatus": "user-approved",
+      "provenance": {
+        "role": "published chapter title cover",
+        "evidence": "Published library catalog d56d45c"
+      }
+    },
+    {
+      "key": "catalog-cover-chapter-02",
+      "root": "published",
+      "path": "images/covers/chapter-02/title-ru-v1.png",
+      "sha256": "de91546612898eca6dcdfe27eddf6e6735e283d8d1a7fc50bd082a64f993b657",
+      "name": "catalog-cover-chapter-02",
+      "reviewStatus": "user-approved",
+      "provenance": {
+        "role": "published chapter title cover",
+        "evidence": "Published library catalog d56d45c"
+      }
+    },
+    {
+      "key": "catalog-cover-timber-tractor",
+      "root": "published",
+      "path": "images/covers/timber-tractor/title-ru-v1.png",
+      "sha256": "a191c3145352c8415cba67b66b14a2051fdd88fdcb648980085eb23f6579c16b",
+      "name": "catalog-cover-timber-tractor",
+      "reviewStatus": "user-approved",
+      "provenance": {
+        "role": "published chapter title cover",
+        "evidence": "Published library catalog d56d45c"
+      }
+    },
+    {
+      "key": "catalog-cover-home-sweet-home",
+      "root": "published",
+      "path": "images/covers/home-sweet-home/title-ru-v1.png",
+      "sha256": "2dbab0b356f9107d73e7ee48ddc1af24bb5fc3fce3e95811b6967c7c784b8cd7",
+      "name": "catalog-cover-home-sweet-home",
+      "reviewStatus": "user-approved",
+      "provenance": {
+        "role": "published chapter title cover",
+        "evidence": "Published library catalog d56d45c"
+      }
+    },
+    {
+      "key": "catalog-cover-elder-papa-home",
+      "root": "published",
+      "path": "images/published/elder-cycle/papa-home-title-ru.webp",
+      "sha256": "761a879c3adae31b5e2abb85ec6d1941d4c284a68dd79604c1e95fd0c1ba4ad6",
+      "name": "catalog-cover-elder-papa-home",
+      "reviewStatus": "user-approved",
+      "provenance": {
+        "role": "published chapter title cover",
+        "evidence": "Published library catalog d56d45c"
+      }
+    },
+    {
+      "key": "catalog-cover-elder-family-morning",
+      "root": "published",
+      "path": "images/published/elder-cycle/family-morning-title-ru.webp",
+      "sha256": "e8d29c9318737e8cada30340bb741d2d3821ce5984b934a0106f1806e24aa2dd",
+      "name": "catalog-cover-elder-family-morning",
+      "reviewStatus": "user-approved",
+      "provenance": {
+        "role": "published chapter title cover",
+        "evidence": "Published library catalog d56d45c"
+      }
+    },
+    {
+      "key": "catalog-cover-elder-forest-path",
+      "root": "published",
+      "path": "images/published/elder-cycle/forest-path-title-ru.webp",
+      "sha256": "a5396c4136830a966d9345048967714206812cd2615b4b63ccd87f176e9a6fe1",
+      "name": "catalog-cover-elder-forest-path",
+      "reviewStatus": "user-approved",
+      "provenance": {
+        "role": "published chapter title cover",
+        "evidence": "Published library catalog d56d45c"
+      }
+    },
+    {
+      "key": "catalog-cover-elder-elder-house",
+      "root": "published",
+      "path": "images/published/elder-cycle/elder-house-title-ru.webp",
+      "sha256": "7b326cb62c22a7bdbc64f6b927983bdd86fe34fe7b8834f6175e164da3611dba",
+      "name": "catalog-cover-elder-elder-house",
+      "reviewStatus": "user-approved",
+      "provenance": {
+        "role": "published chapter title cover",
+        "evidence": "Published library catalog d56d45c"
+      }
+    },
+    {
+      "key": "catalog-cover-elder-beneath-roots",
+      "root": "published",
+      "path": "images/published/elder-cycle/beneath-roots-title-ru.webp",
+      "sha256": "a5d3191b9dbe463b4e7240146b407df4e3630b188355615fa54932bdac685a3d",
+      "name": "catalog-cover-elder-beneath-roots",
+      "reviewStatus": "user-approved",
+      "provenance": {
+        "role": "published chapter title cover",
+        "evidence": "Published library catalog d56d45c"
+      }
+    },
+    {
+      "key": "catalog-cover-bath-magic",
+      "root": "published",
+      "path": "images/published/bath-magic/title-ru-v2.webp",
+      "sha256": "318c2ba546d08a73d812600ec248e5c2d4e522e21cd9bf3ad1ca4e2314202195",
+      "name": "catalog-cover-bath-magic",
+      "reviewStatus": "user-approved",
+      "provenance": {
+        "role": "published chapter title cover",
+        "evidence": "Published library catalog d56d45c"
+      }
+    }
+  ],
+  "notes": [
+    "Paths can be remapped with --root NAME=PATH; bytes are checked before import.",
+    "Catalog reference IDs are logical keys resolved into immutable asset IDs by the importer.",
+    "Agent-reviewed never means user-approved."
+  ]
+}
