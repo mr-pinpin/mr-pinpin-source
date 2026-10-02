@@ -1,0 +1,41 @@
+{
+  "prompt": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r23/art/willow-finish/prompts/scene-347-v1.txt",
+  "exactPrompt": "Use case: illustration-story precise story continuation. ONE full-bleed1536x1024 frame directly after this exact reference. Keep same rooted little mossy stool with short cut stubs CENTER, two gray stones, accumulated horizontal leafy-rod pile LEFT beside bench (all four harvests, overlapping bundles), old leaning willow left, bench behind left and blue tractor right. Do NOT grow tree yet; this is the decisive moment BEFORE the big trunk rises.\nElder on RIGHT finally says firmly 'Enough! Let it grow!' without written words. He plants the bottom of his curled wooden staff once into the soil immediately next to the stool; free paw held palm-out toward Beaver as a clear 'stop cutting' gesture. Body upright, determined brows and small open speaking mouth, comic impatience, NOT rage, menace or tiredness. Keep exact gray hedgehog quills, round gold spectacles, cream face and two arms. PinPin small copper-quilled HEDGEHOG at far RIGHT behind Elder stays clear, watches the exchange attentively with a little surprised smile.\nMr Beaver stays LEFT beside same undiminished rod pile, has just retrieved the red-handled pruning shears from bench, now pauses with CLOSED shears DOWN safely beside his own thigh and turns his eyes toward Elder. Other paw relaxed/open in mild puzzled response. Do not make him afraid or cutting. Remove shears from bench now that held; exactly one tool. Smooth fur, blue vest, paddle tail, NOT hedgehog. Keep all scene geometry, grounded feet, lighting and style. No magicblast yet, no text/speech bubbles, no new cast. Hands and staff anatomy clear.",
+  "inputRoles": [
+    "exact immediately preceding scene: stump/pile/three characters/props/camera"
+  ],
+  "toolArguments": {
+    "referenced_image_paths": [
+      "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r23/art/willow-gag/masters/scene-346-v1.png"
+    ],
+    "transparent_background": false
+  },
+  "schemaVersion": 1,
+  "id": "scene-347",
+  "version": "v1",
+  "tool": "image_gen__imagegen",
+  "native": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r23/art/willow-finish/masters/scene-347-v1.png",
+  "master": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r23/art/willow-finish/masters/scene-347-v1.png",
+  "web": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r23/art/willow-finish/web/scene-347-v1.webp",
+  "record": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r23/art/willow-finish/records/scene-347-v1.json",
+  "sourceOutputPath": "/Users/miguel_lemos/.codex/generated_images/01a0fa05-e7a6-7a00-a6f0-fc3a9cc0cc09/exec-92924d5d-be41-4dba-9128-2d45f660040d.png",
+  "sha256": "9b24fa27778ea4fc86749748c2d770f2f7d1a4bb15f11794f987f7a6b4ef51b0",
+  "webSha256": "1bc050d2a03cc3b4bae58a7ff73c28fa8b77487d30ddfee7841d1cb84ed5a91f",
+  "artistReview": "pass",
+  "rootReview": "pass-for-preview",
+  "userReview": "pending",
+  "selected": true,
+  "width": 1536,
+  "height": 1024,
+  "inputs": [
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r23/art/willow-gag/masters/scene-346-v1.png",
+      "sha256": "5e0ce508a5182e0743c8b2fb1fdac86c7860e3efcfd1c567d0839a08466341f9",
+      "role": "exact immediately preceding scene: stump/pile/three characters/props/camera"
+    }
+  ],
+  "visualReview": "Exact346 small stump/pile, Elder stop gesture, Beaver retrieves shears safely down.",
+  "selectionStatus": "coordinator-reviewed candidate; user approval pending",
+  "promptSha256": "7edd0459a18e3cfad169ec99ed0fe734779b811593cee3f4d0ab3cec89cd572f",
+  "nativeBytes": 2932400
+}

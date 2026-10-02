@@ -1,0 +1,48 @@
+{
+  "prompt": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r23/art/willow-finish/prompts/scene-32i2-v2.txt",
+  "exactPrompt": "Use case: precise-object-edit environment continuity. Image1 is the exact already-approved departure illustration. Add ONLY the persistent new giant upright willow from Image2 into its correct middle-background nursery position just pondward/right of the workbench. Keep the OLD leaning weeping-willow trunk/overhanging bough at far LEFT unchanged as a separate tree. The new giant has broad upright warm gray-brown bark, mossy buttress base where nursery stump was, and a high fork/crown that extend beyond the TOP crop in this closer departure camera. It should be visible in background behind Papa/dog's rear area and left of the waving Beaver, naturally occluded by foreground cast/cargo. Do not move bench, pond, paths or characters to reveal its base. A small glimpse of four low horizontal gathered willow-rod bundles near bench/base is acceptable only where unoccluded, not upright logs.\nPreserve ALL foreground from Image1 exactly: huge Scooby walking screenLEFT with same head/coat/limbs/tail; PinPin small HEDGEHOG in front riding position waving; Papa adult HEDGEHOG behind, same faces/quills/poses; balanced side cargo of open wooden channels and blue-striped protective cloth, wicker basket; blue-vested Beaver with handplane waving and taller Bear oliveapron waving on boardwalk; parked blue tractor and existingworkbench unchanged. Do NOT use study characters as identities or add extra cast. New trunk should be a background landmark only, correct depth and lighting, no coverage of faces, no new magic. Same warm style and framing; no text.",
+  "inputRoles": [
+    "exact departing scene target, preserve all foreground",
+    "new towering tree landmark GEOMETRY ONLY"
+  ],
+  "toolArguments": {
+    "referenced_image_paths": [
+      "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r19/retained/scene-32i2.webp",
+      "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r23/art/willow-finish/masters/tree-anchor-v1.png"
+    ],
+    "transparent_background": false
+  },
+  "schemaVersion": 1,
+  "id": "scene-32i2",
+  "version": "v2",
+  "tool": "image_gen__imagegen",
+  "native": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r23/art/willow-finish/masters/scene-32i2-v2.png",
+  "master": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r23/art/willow-finish/masters/scene-32i2-v2.png",
+  "web": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r23/art/willow-finish/web/scene-32i2-v2.webp",
+  "record": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r23/art/willow-finish/records/scene-32i2-v2.json",
+  "sourceOutputPath": "/Users/miguel_lemos/.codex/generated_images/01a0fa05-e7a6-7a00-a6f0-fc3a9cc0cc09/exec-3e5ae121-c4f2-4467-8c71-de5cfafa819b.png",
+  "sha256": "501f27384d6e75d7985145262f3b23b33ae9b64d25cc419c0d2f8e1fed792a1d",
+  "webSha256": "9c0024ca35541c2f6fac396f16d01beddf873ffb396f4b27e48e8f2ab6adf301",
+  "artistReview": "pass",
+  "rootReview": "pass-for-preview",
+  "userReview": "pending",
+  "selected": true,
+  "width": 1536,
+  "height": 1024,
+  "inputs": [
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r19/retained/scene-32i2.webp",
+      "sha256": "c5a8d8f54f80c78ff18b56fff30c8b04879aced35429fffd4a64e1685567234a",
+      "role": "exact departing scene target, preserve all foreground"
+    },
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r23/art/willow-finish/masters/tree-anchor-v1.png",
+      "sha256": "783aa32f03d9e9611ac920e0a3a7286f2ac73daf5e9f74068738d6376d8f39a9",
+      "role": "new towering tree landmark GEOMETRY ONLY"
+    }
+  ],
+  "visualReview": "New tree background landmark added; departing dog/riders/cargo/waving workers unchanged.",
+  "selectionStatus": "coordinator-reviewed candidate; user approval pending",
+  "promptSha256": "82f5dda9fad2ab2597f7fa0908b73b136138fd43d2898ed28ab2550726c86e8b",
+  "nativeBytes": 2997597
+}

@@ -1,0 +1,48 @@
+{
+  "prompt": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r23/art/willow-finish/prompts/scene-352-v1.txt",
+  "exactPrompt": "Use case: illustration-story. ONE full-bleed1536x1024 quiet comic reaction shot after the enormous willow has finished growing. Image1 is exact character authority: Mr Beaver atLEFT is smooth golden-brown fur, blue vest, flat paddle tail/two incisors; Elder atRIGHT is gray quilled HEDGEHOG with round gold spectacles, cream cheeks and curled wood staff. Image2 only final upright new tree geometry.\nClose-medium on Mr Beaver's face AND hands in foreground LEFT/center. With dawning comprehension he glances UP toward the unseen crown, mouth small slightly open 'Oh'; his two paws close the same red-handled pruning shears and slip them safely tip-down into an open simple tool pouch resting on the nearby workbench edge lowerleft. Show actual two handles meeting, short closed blades mostly inside pouch, no extra fingers or floating tools. The shears are being PUT AWAY, not cutting the big tree. His body remains rounded adult beaver, no hedgehog quills.\nAt right frame edge Elder partially visible watches him with a calm satisfied half-smile, relaxed brows, not gloating or threatening; same spectacles and staff, no extra elder. New immense vertical barked trunk rises in middle-background, high crown outside this close camera; preserve four harvested horizontal leafy-rod bundles low left in soft background wherever visible. Old leaning willow remains separate offleft. Same warm light/style/textures and coherent geometry. Only two adult characters in frame. No dialogue lettering, no magic blast, no anger or danger.",
+  "inputRoles": [
+    "exact Mr Beaver and Elder faces/positions/four groundbundles",
+    "persistent fully-grown tree bark/base geometry only"
+  ],
+  "toolArguments": {
+    "referenced_image_paths": [
+      "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r23/art/willow-finish/masters/scene-348-v1.png",
+      "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r23/art/willow-finish/masters/tree-anchor-v1.png"
+    ],
+    "transparent_background": false
+  },
+  "schemaVersion": 1,
+  "id": "scene-352",
+  "version": "v1",
+  "tool": "image_gen__imagegen",
+  "native": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r23/art/willow-finish/masters/scene-352-v1.png",
+  "master": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r23/art/willow-finish/masters/scene-352-v1.png",
+  "web": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r23/art/willow-finish/web/scene-352-v1.webp",
+  "record": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r23/art/willow-finish/records/scene-352-v1.json",
+  "sourceOutputPath": "/Users/miguel_lemos/.codex/generated_images/01a0fa05-e7a6-7a00-a6f0-fc3a9cc0cc09/exec-761073cd-ee38-4439-9460-fcfa0d39e9d7.png",
+  "sha256": "28ad7c8310b1a0b82601f0b66ee1ec3c70f123628323fe5eff424be20ab9c0f2",
+  "webSha256": "c077a268c6a0ba1160536636f6165c1cd9d3491a2fdbb03aff8b630a8fe85c78",
+  "artistReview": "pass",
+  "rootReview": "pass-for-preview",
+  "userReview": "pending",
+  "selected": true,
+  "width": 1536,
+  "height": 1024,
+  "inputs": [
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r23/art/willow-finish/masters/scene-348-v1.png",
+      "sha256": "dcf92050d225875cf82fa161114374aa72bca5f1b75ce8921faaf3ced7ba71c1",
+      "role": "exact Mr Beaver and Elder faces/positions/four groundbundles"
+    },
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r23/art/willow-finish/masters/tree-anchor-v1.png",
+      "sha256": "783aa32f03d9e9611ac920e0a3a7286f2ac73daf5e9f74068738d6376d8f39a9",
+      "role": "persistent fully-grown tree bark/base geometry only"
+    }
+  ],
+  "visualReview": "Beaver puts pruning shears away in workbench pouch, quiet comprehension.",
+  "selectionStatus": "coordinator-reviewed candidate; user approval pending",
+  "promptSha256": "7dfc690b9a3bb6b5c355ffd9f54735a3eca10f14a43b34555154845b351d06d3",
+  "nativeBytes": 2813891
+}

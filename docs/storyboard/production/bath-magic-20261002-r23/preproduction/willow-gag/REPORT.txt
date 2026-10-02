@@ -1,0 +1,26 @@
+R23 willow gag — production handoff
+2026-10-02
+
+Scope: 15 gag images including retained scene-331, followed by 14 new scenes 340–353. This lane delivered 340–346 (seven new images) and two background-only persistence edits, scene-339 and scene-32d. Peer willow-finish owns 347–353, the giant-tree geometry study, and 32i2 persistence. Expected integrated chapter: 205 narrative scenes plus cover.
+
+All nine lane assets are coordinator visual PASS, user review pending. Nine built-in imagegen calls produced nine selected v1 natives; no retries or pixel-level art manipulation. Native output files are retained intact on Mini TB4. Master/native, exact prompt, ordered input hashes, tool arguments, WebP derivative and source path are recorded per asset. selection.json is frozen; verification.json confirms all native/WebP/prompt hashes.
+
+Story rhythm: after original331 first harvest, three distinct regrow/cut pairs (340/341,342/343,344/345) repeat the framing while the horizontal rod pile grows and Elder's expression changes. 346 pauses on the enlarged pile and Elder's comic exasperation. Captions avoid an exact bundle count; overlapping ties in346 were explicitly accepted because pile volume increases clearly. Red-handled shears rest on the bench in346; peer was notified before347.
+
+Geography: original left leaning willow remains distinct. The new giant upright willow grows from the exact nursery stool beside the workbench. Peer tree-anchor-v1 is geometry authority only, not character or pile authority. Later339 and32d preserve their foreground cast, gestures, food and camera while adding the persistent trunk and horizontal rods. Other later shots remain governed by the integrator's visibility audit; no blanket background edits.
+
+The shared plan was coordinator-approved. Its exact EN/RU/ES captions remain authoritative; 347 reads “No—let it grow!” and equivalent RU/ES. Integrator reads this plan on every assembly to avoid stale caption copies.
+
+Studio: all nine natives completed as real candidates with actual submitted prompts and references. Registration is explicitly after generation; job duration is not represented as model runtime. No live chapter selection, user approval, official publication or PDF export performed.
+
+Files:
+art/willow-gag/selection.json
+art/willow-gag/verification.json
+art/willow-gag/studio-registration.json
+art/willow-gag/records/*-studio-completed.json
+preproduction/willow-gag/plan.json
+
+Private exact-prompt archive delta will be appended once both lanes' final attempts are settled.
+
+
+R23 bounded exact-prompt delta complete: 19 new files (both lanes, tree geometry study, all attempts), 1414 total exact prompts. Four previous sanitized session snapshots/17031 records unchanged. No raw-log transfer or deletion. Pattern and known-credential SHA audits passed. Private GitHub commit 84116547cf379ec3407b36796cbcd08d600189e7; all1424 remote blob hashes match local Git objects. Native images remain Mini TB4; no binary/base64 content in archive.

@@ -1,0 +1,41 @@
+{
+  "prompt": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r23/art/willow-finish/prompts/scene-350-v2.txt",
+  "exactPrompt": "Use case: precise-object-edit. Make ONLY TWO narrow prop-continuity corrections to this exact illustration. (1) Scooby the large dog at far LEFT must have NO collar and NO round tag. Remove brown collar strap and gold medallion, replace those tiny neck pixels with matching natural warm brown/cream fur. Keep his head, ears, gaze, body, limbs and tail exactly unchanged. (2) The cut green willow-rod bundles now lying on the workbench behind Papa are in the wrong place. Move that same gathered horizontal stack down onto the GROUND beside the same bench to its LEFT/rear, partly occluded naturally by Scooby/Papa if necessary. Bench tabletop becomes visible plain wood with its original tools/pots, no replacement objects. Bundles stay horizontal and stacked, not standing upright, not reduced in total volume; this is the same accumulated four harvests.\nPreserve ALL NINE characters exactly: dog, adult hedgehog Papa, small hedgehog PinPin, bluevest Beaver, gray spectacled Elder, scarf Mama Beaver, exactly two beaver kits, apron Bear. Do not change faces, expressions, gaze upward, poses, quills/tails, scale or number. Preserve giant root/trunk, old leaning willow, bench position, blue tractor, pond, camera, lighting and entire composition. No other edits, no text.",
+  "inputRoles": [
+    "exact nine-cast reaction target; preserve all character identity and gaze"
+  ],
+  "toolArguments": {
+    "referenced_image_paths": [
+      "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r23/art/willow-finish/masters/scene-350-v1.png"
+    ],
+    "transparent_background": false
+  },
+  "schemaVersion": 1,
+  "id": "scene-350",
+  "version": "v2",
+  "tool": "image_gen__imagegen",
+  "native": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r23/art/willow-finish/masters/scene-350-v2.png",
+  "master": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r23/art/willow-finish/masters/scene-350-v2.png",
+  "web": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r23/art/willow-finish/web/scene-350-v2.webp",
+  "record": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r23/art/willow-finish/records/scene-350-v2.json",
+  "sourceOutputPath": "/Users/miguel_lemos/.codex/generated_images/01a0fa05-e7a6-7a00-a6f0-fc3a9cc0cc09/exec-4d831120-f636-4cd9-87bb-117cdce1011b.png",
+  "sha256": "4ecca493301dc479dcbbf35f9121c2d17135c5cc39c2fb7a87abdcd41f0d78ec",
+  "webSha256": "c0acf8f067e22a8d0d1f34953f393c8cb558f7ba9b52b38cfdb3af33752446c4",
+  "artistReview": "pass",
+  "rootReview": "pass-for-preview",
+  "userReview": "pending",
+  "selected": true,
+  "width": 1536,
+  "height": 1024,
+  "inputs": [
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r23/art/willow-finish/masters/scene-350-v1.png",
+      "sha256": "b990e5b5c620f499eb6076e61804c48474eb75f0d9536f2fca7f527a64f83ed8",
+      "role": "exact nine-cast reaction target; preserve all character identity and gaze"
+    }
+  ],
+  "visualReview": "Nine exact cast/two kits, upward gaze, dog collar removed and bundles grounded.",
+  "selectionStatus": "coordinator-reviewed candidate; user approval pending",
+  "promptSha256": "bcd48dad8a52d784b33cf2e72330013b4caf014980e5aba35b497618039ab2ff",
+  "nativeBytes": 3128196
+}

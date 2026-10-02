@@ -1,0 +1,15 @@
+{
+  "prompt": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r23/art/willow-finish/prompts/scene-32i2-v2.txt",
+  "exactPrompt": "Use case: precise-object-edit environment continuity. Image1 is the exact already-approved departure illustration. Add ONLY the persistent new giant upright willow from Image2 into its correct middle-background nursery position just pondward/right of the workbench. Keep the OLD leaning weeping-willow trunk/overhanging bough at far LEFT unchanged as a separate tree. The new giant has broad upright warm gray-brown bark, mossy buttress base where nursery stump was, and a high fork/crown that extend beyond the TOP crop in this closer departure camera. It should be visible in background behind Papa/dog's rear area and left of the waving Beaver, naturally occluded by foreground cast/cargo. Do not move bench, pond, paths or characters to reveal its base. A small glimpse of four low horizontal gathered willow-rod bundles near bench/base is acceptable only where unoccluded, not upright logs.\nPreserve ALL foreground from Image1 exactly: huge Scooby walking screenLEFT with same head/coat/limbs/tail; PinPin small HEDGEHOG in front riding position waving; Papa adult HEDGEHOG behind, same faces/quills/poses; balanced side cargo of open wooden channels and blue-striped protective cloth, wicker basket; blue-vested Beaver with handplane waving and taller Bear oliveapron waving on boardwalk; parked blue tractor and existingworkbench unchanged. Do NOT use study characters as identities or add extra cast. New trunk should be a background landmark only, correct depth and lighting, no coverage of faces, no new magic. Same warm style and framing; no text.",
+  "inputRoles": [
+    "exact departing scene target, preserve all foreground",
+    "new towering tree landmark GEOMETRY ONLY"
+  ],
+  "toolArguments": {
+    "referenced_image_paths": [
+      "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r19/retained/scene-32i2.webp",
+      "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r23/art/willow-finish/masters/tree-anchor-v1.png"
+    ],
+    "transparent_background": false
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "prompt": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r23/art/willow-finish/prompts/scene-353-v1.txt",
+  "exactPrompt": "Use case: illustration-story. ONE beautiful full-bleed1536x1024 final wide picture concluding this comic willow-growth episode. Image1 is the exact NINE-character cast authority. Image2/3 are ONLY the huge new upright tree/site geometry. Never copy their tiny study figures. Change camera to an extremely LOW wide shot from farther back, angled upward, showing the vast NEW straight mossy buttressed trunk rise above all nine animals toward its high Yfork, three upper limbs and luminous broad leafy willow crown. The NEW tree grows at nursery stool position just pondward/right of bench. OLD leaning weeping willow remains separately on LEFT shading bench. Pond/lodge and sole spillway remain RIGHT. Sense of immense height and earned wonder.\nAll NINE same animals from Image1 stand in natural staggered groups around base, clearly tiny relative to tree, looking UP at the crown; not posing for reader. From left area: Scooby large brown dog NO COLLAR/TAG, Papa round adult dark-quilled HEDGEHOG, PinPin small copper-quilled HEDGEHOG beside Papa; middle bluevest Mr Beaver smoothfur/paddletail and Elder gray HEDGEHOG spectacles/staff; right russet-scarf Mama Beaver, exactly TWO beaver kits (older chestnut and younger smaller cream-bib), taller olive-apron Bear. No extra hedgehog Mama/baby, no duplicate character, no third kit. Bodies/limbs distinct and grounded. PinPin points one paw UP high toward crown and turns his delighted little face slightly toward Papa as he says the final joke; Papa also admires the height. Mr Beaver's shears already PUT AWAY, do not show shears in his hands; his paws relax by sides. Elder calm, not angry. Gentle smiles/amused awe, no fear.\nKeep horizontal accumulated willow-rod bundles on GROUND LEFT beside bench (partly occluded is fine), no bundles standing or on bench. Parked vehicles can be small glimpses farleft, not central. Strong depth: mossy root/near grass foreground, full nine-cast middle, soaring trunk and golden-green leaf canopy above with blue sky; no second tree magically growing. Same exact warm cinematic children's-book rendering and colors, not photoreal landscape. No text, arrows, borders or panels. Preserve species identities rigorously: Papa/PinPin/Elder are spiny HEDGEHOGS; Beaver family smoothfur/flat tails; dog and Bear distinct.",
+  "inputRoles": [
+    "EXACT nine cast identities/relative sizes; ground rod pile, no dog collar",
+    "giant tree/location mature state",
+    "new tree geometry only; not its tiny figures or upright bundles"
+  ],
+  "toolArguments": {
+    "referenced_image_paths": [
+      "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r23/art/willow-finish/masters/scene-350-v2.png",
+      "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r23/art/willow-finish/masters/scene-349-v1.png",
+      "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r23/art/willow-finish/masters/tree-anchor-v1.png"
+    ],
+    "transparent_background": false
+  },
+  "schemaVersion": 1,
+  "id": "scene-353",
+  "version": "v1",
+  "tool": "image_gen__imagegen",
+  "native": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r23/art/willow-finish/masters/scene-353-v1.png",
+  "master": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r23/art/willow-finish/masters/scene-353-v1.png",
+  "web": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r23/art/willow-finish/web/scene-353-v1.webp",
+  "record": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r23/art/willow-finish/records/scene-353-v1.json",
+  "sourceOutputPath": "/Users/miguel_lemos/.codex/generated_images/01a0fa05-e7a6-7a00-a6f0-fc3a9cc0cc09/exec-d0ccb1ae-6a1a-4ff6-bd36-698f7df4e015.png",
+  "sha256": "4479cba6605ae2e63b772be2f01ac13e2e37d3d53d3dce8d5901287bde06ca36",
+  "webSha256": "6b4bf2e96a13dd0a02cb61a93355a0718a6d2714c68316bf310b6b589b335d64",
+  "artistReview": "pass",
+  "rootReview": "pass-for-preview",
+  "userReview": "pending",
+  "selected": true,
+  "width": 1536,
+  "height": 1024,
+  "inputs": [
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r23/art/willow-finish/masters/scene-350-v2.png",
+      "sha256": "4ecca493301dc479dcbbf35f9121c2d17135c5cc39c2fb7a87abdcd41f0d78ec",
+      "role": "EXACT nine cast identities/relative sizes; ground rod pile, no dog collar"
+    },
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r23/art/willow-finish/masters/scene-349-v1.png",
+      "sha256": "56e1deb1baf9eb0e1872783420ef394471831ad574ccacc5d6b5a5798874fa5b",
+      "role": "giant tree/location mature state"
+    },
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r23/art/willow-finish/masters/tree-anchor-v1.png",
+      "sha256": "783aa32f03d9e9611ac920e0a3a7286f2ac73daf5e9f74068738d6376d8f39a9",
+      "role": "new tree geometry only; not its tiny figures or upright bundles"
+    }
+  ],
+  "visualReview": "Nine cast admire giant new tree, PinPin points up, Beaver empty hands.",
+  "selectionStatus": "coordinator-reviewed candidate; user approval pending",
+  "promptSha256": "fc47919e8136d108fac9ebfe60fef66471b83f8fd673e1caa185629094e0b162",
+  "nativeBytes": 3625386
+}

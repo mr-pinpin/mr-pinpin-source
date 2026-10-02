@@ -1,0 +1,385 @@
+{
+  "schemaVersion": 1,
+  "status": "eight coordinator-reviewed preview assets; no publication",
+  "generationCount": 10,
+  "studyCount": 1,
+  "assets": [
+    {
+      "prompt": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r23/art/willow-finish/prompts/scene-347-v1.txt",
+      "exactPrompt": "Use case: illustration-story precise story continuation. ONE full-bleed1536x1024 frame directly after this exact reference. Keep same rooted little mossy stool with short cut stubs CENTER, two gray stones, accumulated horizontal leafy-rod pile LEFT beside bench (all four harvests, overlapping bundles), old leaning willow left, bench behind left and blue tractor right. Do NOT grow tree yet; this is the decisive moment BEFORE the big trunk rises.\nElder on RIGHT finally says firmly 'Enough! Let it grow!' without written words. He plants the bottom of his curled wooden staff once into the soil immediately next to the stool; free paw held palm-out toward Beaver as a clear 'stop cutting' gesture. Body upright, determined brows and small open speaking mouth, comic impatience, NOT rage, menace or tiredness. Keep exact gray hedgehog quills, round gold spectacles, cream face and two arms. PinPin small copper-quilled HEDGEHOG at far RIGHT behind Elder stays clear, watches the exchange attentively with a little surprised smile.\nMr Beaver stays LEFT beside same undiminished rod pile, has just retrieved the red-handled pruning shears from bench, now pauses with CLOSED shears DOWN safely beside his own thigh and turns his eyes toward Elder. Other paw relaxed/open in mild puzzled response. Do not make him afraid or cutting. Remove shears from bench now that held; exactly one tool. Smooth fur, blue vest, paddle tail, NOT hedgehog. Keep all scene geometry, grounded feet, lighting and style. No magicblast yet, no text/speech bubbles, no new cast. Hands and staff anatomy clear.",
+      "inputRoles": [
+        "exact immediately preceding scene: stump/pile/three characters/props/camera"
+      ],
+      "toolArguments": {
+        "referenced_image_paths": [
+          "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r23/art/willow-gag/masters/scene-346-v1.png"
+        ],
+        "transparent_background": false
+      },
+      "schemaVersion": 1,
+      "id": "scene-347",
+      "version": "v1",
+      "tool": "image_gen__imagegen",
+      "native": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r23/art/willow-finish/masters/scene-347-v1.png",
+      "master": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r23/art/willow-finish/masters/scene-347-v1.png",
+      "web": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r23/art/willow-finish/web/scene-347-v1.webp",
+      "record": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r23/art/willow-finish/records/scene-347-v1.json",
+      "sourceOutputPath": "/Users/miguel_lemos/.codex/generated_images/01a0fa05-e7a6-7a00-a6f0-fc3a9cc0cc09/exec-92924d5d-be41-4dba-9128-2d45f660040d.png",
+      "sha256": "9b24fa27778ea4fc86749748c2d770f2f7d1a4bb15f11794f987f7a6b4ef51b0",
+      "webSha256": "1bc050d2a03cc3b4bae58a7ff73c28fa8b77487d30ddfee7841d1cb84ed5a91f",
+      "artistReview": "pass",
+      "rootReview": "pass-for-preview",
+      "userReview": "pending",
+      "selected": true,
+      "width": 1536,
+      "height": 1024,
+      "inputs": [
+        {
+          "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r23/art/willow-gag/masters/scene-346-v1.png",
+          "sha256": "5e0ce508a5182e0743c8b2fb1fdac86c7860e3efcfd1c567d0839a08466341f9",
+          "role": "exact immediately preceding scene: stump/pile/three characters/props/camera"
+        }
+      ],
+      "visualReview": "Exact346 small stump/pile, Elder stop gesture, Beaver retrieves shears safely down.",
+      "selectionStatus": "coordinator-reviewed candidate; user approval pending",
+      "promptSha256": "7edd0459a18e3cfad169ec99ed0fe734779b811593cee3f4d0ab3cec89cd572f",
+      "nativeBytes": 2932400
+    },
+    {
+      "prompt": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r23/art/willow-finish/prompts/scene-348-v1.txt",
+      "exactPrompt": "Use case: illustration-story. ONE full-bleed1536x1024 frame at the SAME nursery as Image1. Input1 determines exact close camera, mossy stump between two gray stones CENTER, Mr Beaver smooth brown fur/blue vest LEFT, Elder gray HEDGEHOG with round gold spectacles RIGHT, workbench rear LEFT, old leaning weeping willow left, distant blue tractor right. Input2 determines ONLY the final new upright tree's bark/root geometry; its characters and upright bundle placements must NOT be copied.\nAfter THREE more grow-and-cut cycles, the Elder has firmly told Beaver to stop. Now a powerful warm golden growth surge makes the SAME mossy rooted stump thicken upward into a stout VERTICAL living trunk, emerging directly from that base with unchanged two gray stones still either side. Capture early strong growth: trunk already rises past their heads and exits TOP of this close frame, not yet showing high crown. Solid warm gray-brown bark and basal buttress roots transition naturally from the old stump; no separate tree teleport, no oldwillow transformation. Golden glimmer and drifting tiny leaves rise along the trunk, no fire, blast, shockwave or danger.\nBeaver on LEFT has stepped back half a pace, red-handled shears closed and held DOWN beside his body; attentive slightly astonished face looking UP along trunk, not cutting it. Elder on RIGHT stands firmly, curled wooden staff in one paw planted on soil beside base, free paw extended in decisive measured gesture; brows firm with comic determination, mouth relaxed rather than evil/rage. Exactly these TWO adult characters, no extra child unless already offscreen. Maintain exact faces, one flat paddle tail on Beaver, full quill back on Elder.\nFOUR harvest bundles of thin cut leafy willow rods now lie HORIZONTALLY stacked on ground rear-LEFT next to workbench, same place as image1's onebundle, accumulated from four cuts incl original331. Keep them on ground, not upright, notlogs, do notconsume them into tree. Same sunny warm detailed storybook lighting, clear rooted anatomy, no text or symbols.",
+      "inputRoles": [
+        "exact near-camera actors/stool/stones/blocking; by this later moment four harvests have occurred",
+        "FINAL tree geometry ONLY; ignore its cast and upright bundles"
+      ],
+      "toolArguments": {
+        "referenced_image_paths": [
+          "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r23/art/willow-gag/masters/scene-340-v1.png",
+          "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r23/art/willow-finish/masters/tree-anchor-v1.png"
+        ],
+        "transparent_background": false
+      },
+      "schemaVersion": 1,
+      "id": "scene-348",
+      "version": "v1",
+      "tool": "image_gen__imagegen",
+      "native": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r23/art/willow-finish/masters/scene-348-v1.png",
+      "master": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r23/art/willow-finish/masters/scene-348-v1.png",
+      "web": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r23/art/willow-finish/web/scene-348-v1.webp",
+      "record": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r23/art/willow-finish/records/scene-348-v1.json",
+      "sourceOutputPath": "/Users/miguel_lemos/.codex/generated_images/01a0fa05-e7a6-7a00-a6f0-fc3a9cc0cc09/exec-3ee37f21-9b57-4549-929d-8e168023257c.png",
+      "sha256": "dcf92050d225875cf82fa161114374aa72bca5f1b75ce8921faaf3ced7ba71c1",
+      "webSha256": "294732d8e7e17406e9016c6c0df4583a288433c299e6dae25a29bba8e9abf86e",
+      "artistReview": "pass",
+      "rootReview": "pass-for-preview",
+      "userReview": "pending",
+      "selected": true,
+      "width": 1536,
+      "height": 1024,
+      "inputs": [
+        {
+          "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r23/art/willow-gag/masters/scene-340-v1.png",
+          "sha256": "bc51234a52b29017b6173e9226a88eb7e5340e0fef3f413e2f706ac3856ef2c6",
+          "role": "exact near-camera actors/stool/stones/blocking; by this later moment four harvests have occurred"
+        },
+        {
+          "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r23/art/willow-finish/masters/tree-anchor-v1.png",
+          "sha256": "783aa32f03d9e9611ac920e0a3a7286f2ac73daf5e9f74068738d6376d8f39a9",
+          "role": "FINAL tree geometry ONLY; ignore its cast and upright bundles"
+        }
+      ],
+      "visualReview": "Same stool expands rooted trunk between matching stones, four ground bundles remain.",
+      "selectionStatus": "coordinator-reviewed candidate; user approval pending",
+      "promptSha256": "a46009086b7a0a799a21e72487b32a5e38fa96c3b775a2d20ad525f74ae3b4d0",
+      "nativeBytes": 3068618
+    },
+    {
+      "prompt": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r23/art/willow-finish/prompts/scene-349-v1.txt",
+      "exactPrompt": "Use case: illustration-story. ONE full-bleed1536x1024 landscape frame moments after Image1. Same NEW upright willow is racing higher from same mossy buttressed base between two gray stones; image2 is final geometry authority only, not character or pile authority. Track the camera upward and pull wider: see its trunk climb far above workbench and parked tractors into sky, high Yfork at four Elder heights divides into three upper limbs and a broad high crown of narrow green willow leaves opens. Final height about twelve Elder heights, immense relative to two adult animals near base. Make this a dynamic growth escalation with subtle upward drifting leaves/light, solid beautiful bark and branches, not a blurry warp or exploding tree.\nKeep OLD leaning weeping willow at left separately shading existing bench. Pond/lodge/right single spillway remain beyond, not blocked. Four HORIZONTAL leafy rod harvest bundles stay on ground LEFT beside bench, unchanged from Image1; do not copy upright study bundles. Mr Beaver stays LEFT of new base, blue vest/smoothfur/paddletail, shears lowered, looking high UP; Elder stays RIGHT, exact gray hedgehog with spectacles/staff, freepaw lowers as he looks UP. Only those two at base, other cast outside frame for this tracking shot. Use exact faces from Image1, not tiny study faces. No rage/fear, no additional tree, no text. Warm cinematic children's-book depth and organic form, strong vertical perspective into sky, camera lower than canopy not topdown. Upper crown catches golden sunlight.",
+      "inputRoles": [
+        "exact rooted base, characters and four horizontal rod bundles",
+        "FINAL high Yfork/three limbs/crown geometry only"
+      ],
+      "toolArguments": {
+        "referenced_image_paths": [
+          "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r23/art/willow-finish/masters/scene-348-v1.png",
+          "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r23/art/willow-finish/masters/tree-anchor-v1.png"
+        ],
+        "transparent_background": false
+      },
+      "schemaVersion": 1,
+      "id": "scene-349",
+      "version": "v1",
+      "tool": "image_gen__imagegen",
+      "native": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r23/art/willow-finish/masters/scene-349-v1.png",
+      "master": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r23/art/willow-finish/masters/scene-349-v1.png",
+      "web": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r23/art/willow-finish/web/scene-349-v1.webp",
+      "record": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r23/art/willow-finish/records/scene-349-v1.json",
+      "sourceOutputPath": "/Users/miguel_lemos/.codex/generated_images/01a0fa05-e7a6-7a00-a6f0-fc3a9cc0cc09/exec-cb71735e-145d-41ad-859d-ae02fad1c059.png",
+      "sha256": "56e1deb1baf9eb0e1872783420ef394471831ad574ccacc5d6b5a5798874fa5b",
+      "webSha256": "43d77d26ac4311af516e680c8db98c58e0826ad4e6fed9e5e3be0295eb1ca5bb",
+      "artistReview": "pass",
+      "rootReview": "pass-for-preview",
+      "userReview": "pending",
+      "selected": true,
+      "width": 1536,
+      "height": 1024,
+      "inputs": [
+        {
+          "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r23/art/willow-finish/masters/scene-348-v1.png",
+          "sha256": "dcf92050d225875cf82fa161114374aa72bca5f1b75ce8921faaf3ced7ba71c1",
+          "role": "exact rooted base, characters and four horizontal rod bundles"
+        },
+        {
+          "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r23/art/willow-finish/masters/tree-anchor-v1.png",
+          "sha256": "783aa32f03d9e9611ac920e0a3a7286f2ac73daf5e9f74068738d6376d8f39a9",
+          "role": "FINAL high Yfork/three limbs/crown geometry only"
+        }
+      ],
+      "visualReview": "Upward wider growth, giant tree distinct from original left willow.",
+      "selectionStatus": "coordinator-reviewed candidate; user approval pending",
+      "promptSha256": "50b28156435887f4dc72e2338d961955dcb2b2142c3e2aa35f8f251c874e02c0",
+      "nativeBytes": 3574606
+    },
+    {
+      "prompt": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r23/art/willow-finish/prompts/scene-350-v2.txt",
+      "exactPrompt": "Use case: precise-object-edit. Make ONLY TWO narrow prop-continuity corrections to this exact illustration. (1) Scooby the large dog at far LEFT must have NO collar and NO round tag. Remove brown collar strap and gold medallion, replace those tiny neck pixels with matching natural warm brown/cream fur. Keep his head, ears, gaze, body, limbs and tail exactly unchanged. (2) The cut green willow-rod bundles now lying on the workbench behind Papa are in the wrong place. Move that same gathered horizontal stack down onto the GROUND beside the same bench to its LEFT/rear, partly occluded naturally by Scooby/Papa if necessary. Bench tabletop becomes visible plain wood with its original tools/pots, no replacement objects. Bundles stay horizontal and stacked, not standing upright, not reduced in total volume; this is the same accumulated four harvests.\nPreserve ALL NINE characters exactly: dog, adult hedgehog Papa, small hedgehog PinPin, bluevest Beaver, gray spectacled Elder, scarf Mama Beaver, exactly two beaver kits, apron Bear. Do not change faces, expressions, gaze upward, poses, quills/tails, scale or number. Preserve giant root/trunk, old leaning willow, bench position, blue tractor, pond, camera, lighting and entire composition. No other edits, no text.",
+      "inputRoles": [
+        "exact nine-cast reaction target; preserve all character identity and gaze"
+      ],
+      "toolArguments": {
+        "referenced_image_paths": [
+          "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r23/art/willow-finish/masters/scene-350-v1.png"
+        ],
+        "transparent_background": false
+      },
+      "schemaVersion": 1,
+      "id": "scene-350",
+      "version": "v2",
+      "tool": "image_gen__imagegen",
+      "native": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r23/art/willow-finish/masters/scene-350-v2.png",
+      "master": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r23/art/willow-finish/masters/scene-350-v2.png",
+      "web": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r23/art/willow-finish/web/scene-350-v2.webp",
+      "record": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r23/art/willow-finish/records/scene-350-v2.json",
+      "sourceOutputPath": "/Users/miguel_lemos/.codex/generated_images/01a0fa05-e7a6-7a00-a6f0-fc3a9cc0cc09/exec-4d831120-f636-4cd9-87bb-117cdce1011b.png",
+      "sha256": "4ecca493301dc479dcbbf35f9121c2d17135c5cc39c2fb7a87abdcd41f0d78ec",
+      "webSha256": "c0acf8f067e22a8d0d1f34953f393c8cb558f7ba9b52b38cfdb3af33752446c4",
+      "artistReview": "pass",
+      "rootReview": "pass-for-preview",
+      "userReview": "pending",
+      "selected": true,
+      "width": 1536,
+      "height": 1024,
+      "inputs": [
+        {
+          "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r23/art/willow-finish/masters/scene-350-v1.png",
+          "sha256": "b990e5b5c620f499eb6076e61804c48474eb75f0d9536f2fca7f527a64f83ed8",
+          "role": "exact nine-cast reaction target; preserve all character identity and gaze"
+        }
+      ],
+      "visualReview": "Nine exact cast/two kits, upward gaze, dog collar removed and bundles grounded.",
+      "selectionStatus": "coordinator-reviewed candidate; user approval pending",
+      "promptSha256": "bcd48dad8a52d784b33cf2e72330013b4caf014980e5aba35b497618039ab2ff",
+      "nativeBytes": 3128196
+    },
+    {
+      "prompt": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r23/art/willow-finish/prompts/scene-351-v1.txt",
+      "exactPrompt": "Use case: illustration-story. A dramatic TRUE WORM'S-EYE full-bleed1536x1024 view of the SAME enormous NEW upright willow from the references. Place camera on earth right at its mossy buttress root, point nearly straight UP along the richly textured warm gray-brown trunk. Trunk begins HUGE at bottom edge and converges far above into the same recognizable Y-fork at about four adult heights, three main upperlimbs and very high broad crown of narrow willow leaves. Make the immense upward distance unmistakable, cinematic foreshortening, bright sky showing through high golden-green canopy. Thin hanging leafy twigs rustle overhead, delicate leaves cross sunbeams. The viewer shares the animals' upward perspective.\nDo NOT show ground-level mediumview again. No characters required in this shot, no repeated faces floating at margins; this is the breathtaking tree POV. No machinery or buildings in sky. Old separate leaning willow may contribute only a few side leaves, never replace central straight immense trunk. Final tree solid/mature, no new growth blast, no human faces in bark. Match reference bark/fork/crown and warm dimensional storybook style, beautiful leaf detail and atmospheric depth, not photoreal photograph or lowpoly geometry. No text, borders, arrows, labels or panels.",
+      "inputRoles": [
+        "exact mature new willow high fork/three upperlimbs/crown",
+        "bark texture and mossy basal geometry, no cast needed"
+      ],
+      "toolArguments": {
+        "referenced_image_paths": [
+          "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r23/art/willow-finish/masters/tree-anchor-v1.png",
+          "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r23/art/willow-finish/masters/scene-348-v1.png"
+        ],
+        "transparent_background": false
+      },
+      "schemaVersion": 1,
+      "id": "scene-351",
+      "version": "v1",
+      "tool": "image_gen__imagegen",
+      "native": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r23/art/willow-finish/masters/scene-351-v1.png",
+      "master": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r23/art/willow-finish/masters/scene-351-v1.png",
+      "web": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r23/art/willow-finish/web/scene-351-v1.webp",
+      "record": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r23/art/willow-finish/records/scene-351-v1.json",
+      "sourceOutputPath": "/Users/miguel_lemos/.codex/generated_images/01a0fa05-e7a6-7a00-a6f0-fc3a9cc0cc09/exec-4584cde1-1c44-4fba-b000-72cbb60b67bf.png",
+      "sha256": "355f1cae2db9946c3a03ae64814c0eb9dd9b41e93c4356b7492d927495083924",
+      "webSha256": "7e4473875ed53a1892e9f7ab310c5ba430275962d815fec6d56e0f5f12d3edbf",
+      "artistReview": "pass",
+      "rootReview": "pass-for-preview",
+      "userReview": "pending",
+      "selected": true,
+      "width": 1536,
+      "height": 1024,
+      "inputs": [
+        {
+          "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r23/art/willow-finish/masters/tree-anchor-v1.png",
+          "sha256": "783aa32f03d9e9611ac920e0a3a7286f2ac73daf5e9f74068738d6376d8f39a9",
+          "role": "exact mature new willow high fork/three upperlimbs/crown"
+        },
+        {
+          "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r23/art/willow-finish/masters/scene-348-v1.png",
+          "sha256": "dcf92050d225875cf82fa161114374aa72bca5f1b75ce8921faaf3ced7ba71c1",
+          "role": "bark texture and mossy basal geometry, no cast needed"
+        }
+      ],
+      "visualReview": "True root-level upward POV into high fork/crown, no floating faces.",
+      "selectionStatus": "coordinator-reviewed candidate; user approval pending",
+      "promptSha256": "8daee57905675f7cf17554f5575c1bdec8f9b9a3b0dfaf244b627e65b4a35f75",
+      "nativeBytes": 3598742
+    },
+    {
+      "prompt": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r23/art/willow-finish/prompts/scene-352-v1.txt",
+      "exactPrompt": "Use case: illustration-story. ONE full-bleed1536x1024 quiet comic reaction shot after the enormous willow has finished growing. Image1 is exact character authority: Mr Beaver atLEFT is smooth golden-brown fur, blue vest, flat paddle tail/two incisors; Elder atRIGHT is gray quilled HEDGEHOG with round gold spectacles, cream cheeks and curled wood staff. Image2 only final upright new tree geometry.\nClose-medium on Mr Beaver's face AND hands in foreground LEFT/center. With dawning comprehension he glances UP toward the unseen crown, mouth small slightly open 'Oh'; his two paws close the same red-handled pruning shears and slip them safely tip-down into an open simple tool pouch resting on the nearby workbench edge lowerleft. Show actual two handles meeting, short closed blades mostly inside pouch, no extra fingers or floating tools. The shears are being PUT AWAY, not cutting the big tree. His body remains rounded adult beaver, no hedgehog quills.\nAt right frame edge Elder partially visible watches him with a calm satisfied half-smile, relaxed brows, not gloating or threatening; same spectacles and staff, no extra elder. New immense vertical barked trunk rises in middle-background, high crown outside this close camera; preserve four harvested horizontal leafy-rod bundles low left in soft background wherever visible. Old leaning willow remains separate offleft. Same warm light/style/textures and coherent geometry. Only two adult characters in frame. No dialogue lettering, no magic blast, no anger or danger.",
+      "inputRoles": [
+        "exact Mr Beaver and Elder faces/positions/four groundbundles",
+        "persistent fully-grown tree bark/base geometry only"
+      ],
+      "toolArguments": {
+        "referenced_image_paths": [
+          "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r23/art/willow-finish/masters/scene-348-v1.png",
+          "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r23/art/willow-finish/masters/tree-anchor-v1.png"
+        ],
+        "transparent_background": false
+      },
+      "schemaVersion": 1,
+      "id": "scene-352",
+      "version": "v1",
+      "tool": "image_gen__imagegen",
+      "native": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r23/art/willow-finish/masters/scene-352-v1.png",
+      "master": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r23/art/willow-finish/masters/scene-352-v1.png",
+      "web": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r23/art/willow-finish/web/scene-352-v1.webp",
+      "record": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r23/art/willow-finish/records/scene-352-v1.json",
+      "sourceOutputPath": "/Users/miguel_lemos/.codex/generated_images/01a0fa05-e7a6-7a00-a6f0-fc3a9cc0cc09/exec-761073cd-ee38-4439-9460-fcfa0d39e9d7.png",
+      "sha256": "28ad7c8310b1a0b82601f0b66ee1ec3c70f123628323fe5eff424be20ab9c0f2",
+      "webSha256": "c077a268c6a0ba1160536636f6165c1cd9d3491a2fdbb03aff8b630a8fe85c78",
+      "artistReview": "pass",
+      "rootReview": "pass-for-preview",
+      "userReview": "pending",
+      "selected": true,
+      "width": 1536,
+      "height": 1024,
+      "inputs": [
+        {
+          "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r23/art/willow-finish/masters/scene-348-v1.png",
+          "sha256": "dcf92050d225875cf82fa161114374aa72bca5f1b75ce8921faaf3ced7ba71c1",
+          "role": "exact Mr Beaver and Elder faces/positions/four groundbundles"
+        },
+        {
+          "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r23/art/willow-finish/masters/tree-anchor-v1.png",
+          "sha256": "783aa32f03d9e9611ac920e0a3a7286f2ac73daf5e9f74068738d6376d8f39a9",
+          "role": "persistent fully-grown tree bark/base geometry only"
+        }
+      ],
+      "visualReview": "Beaver puts pruning shears away in workbench pouch, quiet comprehension.",
+      "selectionStatus": "coordinator-reviewed candidate; user approval pending",
+      "promptSha256": "7dfc690b9a3bb6b5c355ffd9f54735a3eca10f14a43b34555154845b351d06d3",
+      "nativeBytes": 2813891
+    },
+    {
+      "prompt": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r23/art/willow-finish/prompts/scene-353-v1.txt",
+      "exactPrompt": "Use case: illustration-story. ONE beautiful full-bleed1536x1024 final wide picture concluding this comic willow-growth episode. Image1 is the exact NINE-character cast authority. Image2/3 are ONLY the huge new upright tree/site geometry. Never copy their tiny study figures. Change camera to an extremely LOW wide shot from farther back, angled upward, showing the vast NEW straight mossy buttressed trunk rise above all nine animals toward its high Yfork, three upper limbs and luminous broad leafy willow crown. The NEW tree grows at nursery stool position just pondward/right of bench. OLD leaning weeping willow remains separately on LEFT shading bench. Pond/lodge and sole spillway remain RIGHT. Sense of immense height and earned wonder.\nAll NINE same animals from Image1 stand in natural staggered groups around base, clearly tiny relative to tree, looking UP at the crown; not posing for reader. From left area: Scooby large brown dog NO COLLAR/TAG, Papa round adult dark-quilled HEDGEHOG, PinPin small copper-quilled HEDGEHOG beside Papa; middle bluevest Mr Beaver smoothfur/paddletail and Elder gray HEDGEHOG spectacles/staff; right russet-scarf Mama Beaver, exactly TWO beaver kits (older chestnut and younger smaller cream-bib), taller olive-apron Bear. No extra hedgehog Mama/baby, no duplicate character, no third kit. Bodies/limbs distinct and grounded. PinPin points one paw UP high toward crown and turns his delighted little face slightly toward Papa as he says the final joke; Papa also admires the height. Mr Beaver's shears already PUT AWAY, do not show shears in his hands; his paws relax by sides. Elder calm, not angry. Gentle smiles/amused awe, no fear.\nKeep horizontal accumulated willow-rod bundles on GROUND LEFT beside bench (partly occluded is fine), no bundles standing or on bench. Parked vehicles can be small glimpses farleft, not central. Strong depth: mossy root/near grass foreground, full nine-cast middle, soaring trunk and golden-green leaf canopy above with blue sky; no second tree magically growing. Same exact warm cinematic children's-book rendering and colors, not photoreal landscape. No text, arrows, borders or panels. Preserve species identities rigorously: Papa/PinPin/Elder are spiny HEDGEHOGS; Beaver family smoothfur/flat tails; dog and Bear distinct.",
+      "inputRoles": [
+        "EXACT nine cast identities/relative sizes; ground rod pile, no dog collar",
+        "giant tree/location mature state",
+        "new tree geometry only; not its tiny figures or upright bundles"
+      ],
+      "toolArguments": {
+        "referenced_image_paths": [
+          "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r23/art/willow-finish/masters/scene-350-v2.png",
+          "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r23/art/willow-finish/masters/scene-349-v1.png",
+          "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r23/art/willow-finish/masters/tree-anchor-v1.png"
+        ],
+        "transparent_background": false
+      },
+      "schemaVersion": 1,
+      "id": "scene-353",
+      "version": "v1",
+      "tool": "image_gen__imagegen",
+      "native": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r23/art/willow-finish/masters/scene-353-v1.png",
+      "master": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r23/art/willow-finish/masters/scene-353-v1.png",
+      "web": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r23/art/willow-finish/web/scene-353-v1.webp",
+      "record": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r23/art/willow-finish/records/scene-353-v1.json",
+      "sourceOutputPath": "/Users/miguel_lemos/.codex/generated_images/01a0fa05-e7a6-7a00-a6f0-fc3a9cc0cc09/exec-d0ccb1ae-6a1a-4ff6-bd36-698f7df4e015.png",
+      "sha256": "4479cba6605ae2e63b772be2f01ac13e2e37d3d53d3dce8d5901287bde06ca36",
+      "webSha256": "6b4bf2e96a13dd0a02cb61a93355a0718a6d2714c68316bf310b6b589b335d64",
+      "artistReview": "pass",
+      "rootReview": "pass-for-preview",
+      "userReview": "pending",
+      "selected": true,
+      "width": 1536,
+      "height": 1024,
+      "inputs": [
+        {
+          "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r23/art/willow-finish/masters/scene-350-v2.png",
+          "sha256": "4ecca493301dc479dcbbf35f9121c2d17135c5cc39c2fb7a87abdcd41f0d78ec",
+          "role": "EXACT nine cast identities/relative sizes; ground rod pile, no dog collar"
+        },
+        {
+          "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r23/art/willow-finish/masters/scene-349-v1.png",
+          "sha256": "56e1deb1baf9eb0e1872783420ef394471831ad574ccacc5d6b5a5798874fa5b",
+          "role": "giant tree/location mature state"
+        },
+        {
+          "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r23/art/willow-finish/masters/tree-anchor-v1.png",
+          "sha256": "783aa32f03d9e9611ac920e0a3a7286f2ac73daf5e9f74068738d6376d8f39a9",
+          "role": "new tree geometry only; not its tiny figures or upright bundles"
+        }
+      ],
+      "visualReview": "Nine cast admire giant new tree, PinPin points up, Beaver empty hands.",
+      "selectionStatus": "coordinator-reviewed candidate; user approval pending",
+      "promptSha256": "fc47919e8136d108fac9ebfe60fef66471b83f8fd673e1caa185629094e0b162",
+      "nativeBytes": 3625386
+    },
+    {
+      "prompt": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r23/art/willow-finish/prompts/scene-32i2-v2.txt",
+      "exactPrompt": "Use case: precise-object-edit environment continuity. Image1 is the exact already-approved departure illustration. Add ONLY the persistent new giant upright willow from Image2 into its correct middle-background nursery position just pondward/right of the workbench. Keep the OLD leaning weeping-willow trunk/overhanging bough at far LEFT unchanged as a separate tree. The new giant has broad upright warm gray-brown bark, mossy buttress base where nursery stump was, and a high fork/crown that extend beyond the TOP crop in this closer departure camera. It should be visible in background behind Papa/dog's rear area and left of the waving Beaver, naturally occluded by foreground cast/cargo. Do not move bench, pond, paths or characters to reveal its base. A small glimpse of four low horizontal gathered willow-rod bundles near bench/base is acceptable only where unoccluded, not upright logs.\nPreserve ALL foreground from Image1 exactly: huge Scooby walking screenLEFT with same head/coat/limbs/tail; PinPin small HEDGEHOG in front riding position waving; Papa adult HEDGEHOG behind, same faces/quills/poses; balanced side cargo of open wooden channels and blue-striped protective cloth, wicker basket; blue-vested Beaver with handplane waving and taller Bear oliveapron waving on boardwalk; parked blue tractor and existingworkbench unchanged. Do NOT use study characters as identities or add extra cast. New trunk should be a background landmark only, correct depth and lighting, no coverage of faces, no new magic. Same warm style and framing; no text.",
+      "inputRoles": [
+        "exact departing scene target, preserve all foreground",
+        "new towering tree landmark GEOMETRY ONLY"
+      ],
+      "toolArguments": {
+        "referenced_image_paths": [
+          "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r19/retained/scene-32i2.webp",
+          "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r23/art/willow-finish/masters/tree-anchor-v1.png"
+        ],
+        "transparent_background": false
+      },
+      "schemaVersion": 1,
+      "id": "scene-32i2",
+      "version": "v2",
+      "tool": "image_gen__imagegen",
+      "native": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r23/art/willow-finish/masters/scene-32i2-v2.png",
+      "master": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r23/art/willow-finish/masters/scene-32i2-v2.png",
+      "web": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r23/art/willow-finish/web/scene-32i2-v2.webp",
+      "record": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r23/art/willow-finish/records/scene-32i2-v2.json",
+      "sourceOutputPath": "/Users/miguel_lemos/.codex/generated_images/01a0fa05-e7a6-7a00-a6f0-fc3a9cc0cc09/exec-3e5ae121-c4f2-4467-8c71-de5cfafa819b.png",
+      "sha256": "501f27384d6e75d7985145262f3b23b33ae9b64d25cc419c0d2f8e1fed792a1d",
+      "webSha256": "9c0024ca35541c2f6fac396f16d01beddf873ffb396f4b27e48e8f2ab6adf301",
+      "artistReview": "pass",
+      "rootReview": "pass-for-preview",
+      "userReview": "pending",
+      "selected": true,
+      "width": 1536,
+      "height": 1024,
+      "inputs": [
+        {
+          "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r19/retained/scene-32i2.webp",
+          "sha256": "c5a8d8f54f80c78ff18b56fff30c8b04879aced35429fffd4a64e1685567234a",
+          "role": "exact departing scene target, preserve all foreground"
+        },
+        {
+          "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r23/art/willow-finish/masters/tree-anchor-v1.png",
+          "sha256": "783aa32f03d9e9611ac920e0a3a7286f2ac73daf5e9f74068738d6376d8f39a9",
+          "role": "new towering tree landmark GEOMETRY ONLY"
+        }
+      ],
+      "visualReview": "New tree background landmark added; departing dog/riders/cargo/waving workers unchanged.",
+      "selectionStatus": "coordinator-reviewed candidate; user approval pending",
+      "promptSha256": "82f5dda9fad2ab2597f7fa0908b73b136138fd43d2898ed28ab2550726c86e8b",
+      "nativeBytes": 2997597
+    }
+  ]
+}

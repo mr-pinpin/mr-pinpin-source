@@ -1,7 +1,7 @@
 {
   "schemaVersion": 3,
-  "id": "bath-magic-r23",
-  "productionId": "bath-magic-20261002-r23",
+  "id": "bath-magic-r22",
+  "productionId": "bath-magic-20261002-r22",
   "status": "complete review candidate; coordinator-reviewed art; user review pending",
   "source": {
     "baseline": "R21 preview",
@@ -23,30 +23,30 @@
     "ru",
     "es"
   ],
-  "storyIllustrationCount": 205,
+  "storyIllustrationCount": 191,
   "coverIllustrationCount": 1,
-  "totalIllustrations": 206,
+  "totalIllustrations": 192,
   "style": "Same warm dimensional animated-feature storybook art as approved family and bedtime references; soft expressive eyes with visible irises, tactile quills, warm timber and plaster. No photographic/PBR family faces.",
   "days": [
     {
       "day": 1,
       "start": 1,
-      "end": 135
+      "end": 121
     },
     {
       "day": 2,
-      "start": 136,
-      "end": 148
+      "start": 122,
+      "end": 134
     },
     {
       "day": 3,
-      "start": 149,
-      "end": 169
+      "start": 135,
+      "end": 155
     },
     {
       "day": 4,
-      "start": 170,
-      "end": 205
+      "start": 156,
+      "end": 191
     }
   ],
   "magicRules": [
@@ -104,20 +104,19 @@
       "priorR16Number": 1,
       "production": {
         "operation": "retain",
-        "reviewStatus": "retained R22 preview",
+        "reviewStatus": "retained R21 preview",
         "sourceImage": "baseline/scene-01"
       },
       "number": 1,
       "day": 1,
       "artChanged": false,
       "retainArt": true,
-      "feedbackLabel": "Retained R22",
+      "feedbackLabel": "Retained R21",
       "priorR17Number": 1,
       "priorR18Number": 1,
       "priorR19Number": 1,
       "priorR20Number": 1,
-      "priorR21Number": 1,
-      "priorR22Number": 1
+      "priorR21Number": 1
     },
     {
       "id": "scene-02",
@@ -143,20 +142,19 @@
       "priorR16Number": 2,
       "production": {
         "operation": "retain",
-        "reviewStatus": "retained R22 preview",
+        "reviewStatus": "retained R21 preview",
         "sourceImage": "baseline/scene-02"
       },
       "number": 2,
       "day": 1,
       "artChanged": false,
       "retainArt": true,
-      "feedbackLabel": "Retained R22",
+      "feedbackLabel": "Retained R21",
       "priorR17Number": 2,
       "priorR18Number": 2,
       "priorR19Number": 2,
       "priorR20Number": 2,
-      "priorR21Number": 2,
-      "priorR22Number": 2
+      "priorR21Number": 2
     },
     {
       "id": "scene-03",
@@ -182,20 +180,19 @@
       "priorR16Number": 3,
       "production": {
         "operation": "retain",
-        "reviewStatus": "retained R22 preview",
+        "reviewStatus": "retained R21 preview",
         "sourceImage": "baseline/scene-03"
       },
       "number": 3,
       "day": 1,
       "artChanged": false,
       "retainArt": true,
-      "feedbackLabel": "Retained R22",
+      "feedbackLabel": "Retained R21",
       "priorR17Number": 3,
       "priorR18Number": 3,
       "priorR19Number": 3,
       "priorR20Number": 3,
-      "priorR21Number": 3,
-      "priorR22Number": 3
+      "priorR21Number": 3
     },
     {
       "id": "scene-03a",
@@ -214,7 +211,7 @@
       "image": null,
       "production": {
         "operation": "new",
-        "reviewStatus": "retained R22 preview",
+        "reviewStatus": "retained R21 preview",
         "cameraAction": "Wide eye-level table; all four separate bodies; Papa far side, Mama supports infant, PinPin near side; actual eating, normal tabletop.",
         "sourceFeedback": "R17 new opening",
         "sourceImage": "baseline/scene-03a"
@@ -224,13 +221,12 @@
       "day": 1,
       "artChanged": false,
       "retainArt": true,
-      "feedbackLabel": "Retained R22",
+      "feedbackLabel": "Retained R21",
       "priorR17Number": 4,
       "priorR18Number": 4,
       "priorR19Number": 4,
       "priorR20Number": 4,
-      "priorR21Number": 4,
-      "priorR22Number": 4
+      "priorR21Number": 4
     },
     {
       "id": "scene-03b",
@@ -249,7 +245,7 @@
       "image": null,
       "production": {
         "operation": "new",
-        "reviewStatus": "retained R22 preview",
+        "reviewStatus": "retained R21 preview",
         "cameraAction": "Tight two-shot at table height; bread touches Papa's paw and child's receiving paws; gaze on handoff, no posed camera smile.",
         "sourceFeedback": "R17 new opening",
         "sourceImage": "baseline/scene-03b"
@@ -259,13 +255,12 @@
       "day": 1,
       "artChanged": false,
       "retainArt": true,
-      "feedbackLabel": "Retained R22",
+      "feedbackLabel": "Retained R21",
       "priorR17Number": 5,
       "priorR18Number": 5,
       "priorR19Number": 5,
       "priorR20Number": 5,
-      "priorR21Number": 5,
-      "priorR22Number": 5
+      "priorR21Number": 5
     },
     {
       "id": "scene-03c",
@@ -284,7 +279,7 @@
       "image": null,
       "production": {
         "operation": "new",
-        "reviewStatus": "retained R22 preview",
+        "reviewStatus": "retained R21 preview",
         "cameraAction": "Medium Mama/baby action; infant fully separate supported body; two spoons clear; Papa/PinPin remain implied off crop.",
         "sourceFeedback": "R17 new opening",
         "sourceImage": "baseline/scene-03c"
@@ -294,13 +289,12 @@
       "day": 1,
       "artChanged": false,
       "retainArt": true,
-      "feedbackLabel": "Retained R22",
+      "feedbackLabel": "Retained R21",
       "priorR17Number": 6,
       "priorR18Number": 6,
       "priorR19Number": 6,
       "priorR20Number": 6,
-      "priorR21Number": 6,
-      "priorR22Number": 6
+      "priorR21Number": 6
     },
     {
       "id": "scene-03d",
@@ -319,7 +313,7 @@
       "image": null,
       "production": {
         "operation": "new",
-        "reviewStatus": "retained R22 preview",
+        "reviewStatus": "retained R21 preview",
         "cameraAction": "Track child from table to Mama; bowl one object held two paws; breakfast visibly eaten before errands.",
         "sourceFeedback": "R17 new opening",
         "sourceImage": "baseline/scene-03d"
@@ -329,13 +323,12 @@
       "day": 1,
       "artChanged": false,
       "retainArt": true,
-      "feedbackLabel": "Retained R22",
+      "feedbackLabel": "Retained R21",
       "priorR17Number": 7,
       "priorR18Number": 7,
       "priorR19Number": 7,
       "priorR20Number": 7,
-      "priorR21Number": 7,
-      "priorR22Number": 7
+      "priorR21Number": 7
     },
     {
       "id": "scene-03e",
@@ -354,7 +347,7 @@
       "image": null,
       "production": {
         "operation": "new",
-        "reviewStatus": "retained R22 preview",
+        "reviewStatus": "retained R21 preview",
         "cameraAction": "Low floor-level wide; Mama plays directly with older PinPin, baby seated supported in her lap; ball roll axis connects eye contact.",
         "sourceFeedback": "R17 new opening",
         "sourceImage": "baseline/scene-03e"
@@ -364,13 +357,12 @@
       "day": 1,
       "artChanged": false,
       "retainArt": true,
-      "feedbackLabel": "Retained R22",
+      "feedbackLabel": "Retained R21",
       "priorR17Number": 8,
       "priorR18Number": 8,
       "priorR19Number": 8,
       "priorR20Number": 8,
-      "priorR21Number": 8,
-      "priorR22Number": 8
+      "priorR21Number": 8
     },
     {
       "id": "scene-03f",
@@ -389,7 +381,7 @@
       "image": null,
       "production": {
         "operation": "new",
-        "reviewStatus": "retained R22 preview",
+        "reviewStatus": "retained R21 preview",
         "cameraAction": "Reverse over PinPin shoulder, baby hugging large cloth ball; Mama steadies baby; restrained earned laughter after small surprise.",
         "sourceFeedback": "R17 new opening",
         "sourceImage": "baseline/scene-03f"
@@ -399,13 +391,12 @@
       "day": 1,
       "artChanged": false,
       "retainArt": true,
-      "feedbackLabel": "Retained R22",
+      "feedbackLabel": "Retained R21",
       "priorR17Number": 9,
       "priorR18Number": 9,
       "priorR19Number": 9,
       "priorR20Number": 9,
-      "priorR21Number": 9,
-      "priorR22Number": 9
+      "priorR21Number": 9
     },
     {
       "id": "scene-03g",
@@ -424,7 +415,7 @@
       "image": null,
       "production": {
         "operation": "new",
-        "reviewStatus": "retained R22 preview",
+        "reviewStatus": "retained R21 preview",
         "cameraAction": "Medium Papa addressing family while moving to actual front door, not interior bedroom/bath door; no dog miniaturized indoors.",
         "sourceFeedback": "R17 new opening",
         "sourceImage": "baseline/scene-03g"
@@ -434,13 +425,12 @@
       "day": 1,
       "artChanged": false,
       "retainArt": true,
-      "feedbackLabel": "Retained R22",
+      "feedbackLabel": "Retained R21",
       "priorR17Number": 10,
       "priorR18Number": 10,
       "priorR19Number": 10,
       "priorR20Number": 10,
-      "priorR21Number": 10,
-      "priorR22Number": 10
+      "priorR21Number": 10
     },
     {
       "id": "scene-03h",
@@ -459,7 +449,7 @@
       "image": null,
       "production": {
         "operation": "new",
-        "reviewStatus": "retained R22 preview",
+        "reviewStatus": "retained R21 preview",
         "cameraAction": "Exterior two round windows/green middle door. Full adult Papa and dog share ground plane, canonical mount-sized Scooby; dog nose lowers to Papa.",
         "sourceFeedback": "R17 new opening",
         "sourceImage": "baseline/scene-03h"
@@ -469,13 +459,12 @@
       "day": 1,
       "artChanged": false,
       "retainArt": true,
-      "feedbackLabel": "Retained R22",
+      "feedbackLabel": "Retained R21",
       "priorR17Number": 11,
       "priorR18Number": 11,
       "priorR19Number": 11,
       "priorR20Number": 11,
-      "priorR21Number": 11,
-      "priorR22Number": 11
+      "priorR21Number": 11
     },
     {
       "id": "scene-03i",
@@ -494,7 +483,7 @@
       "image": null,
       "production": {
         "operation": "new",
-        "reviewStatus": "retained R22 preview",
+        "reviewStatus": "retained R21 preview",
         "cameraAction": "Outside training sit-cue; no food yet. Treat payoff comes inside later, one small serving only.",
         "sourceFeedback": "R17 new opening",
         "sourceImage": "baseline/scene-03i"
@@ -504,13 +493,12 @@
       "day": 1,
       "artChanged": false,
       "retainArt": true,
-      "feedbackLabel": "Retained R22",
+      "feedbackLabel": "Retained R21",
       "priorR17Number": 12,
       "priorR18Number": 12,
       "priorR19Number": 12,
       "priorR20Number": 12,
-      "priorR21Number": 12,
-      "priorR22Number": 12
+      "priorR21Number": 12
     },
     {
       "id": "scene-03j",
@@ -529,7 +517,7 @@
       "image": null,
       "production": {
         "operation": "new",
-        "reviewStatus": "retained R22 preview",
+        "reviewStatus": "retained R21 preview",
         "cameraAction": "Interior low child POV toward correct front-door wall; Mama/baby established nearby, ball grounded, no water/channel yet.",
         "sourceFeedback": "R17 new opening",
         "sourceImage": "baseline/scene-03j"
@@ -539,13 +527,12 @@
       "day": 1,
       "artChanged": false,
       "retainArt": true,
-      "feedbackLabel": "Retained R22",
+      "feedbackLabel": "Retained R21",
       "priorR17Number": 13,
       "priorR18Number": 13,
       "priorR19Number": 13,
       "priorR20Number": 13,
-      "priorR21Number": 13,
-      "priorR22Number": 13
+      "priorR21Number": 13
     },
     {
       "id": "scene-03k",
@@ -564,7 +551,7 @@
       "image": null,
       "production": {
         "operation": "new",
-        "reviewStatus": "retained R22 preview",
+        "reviewStatus": "retained R21 preview",
         "cameraAction": "Door-opening action with visible hinge/leaf, Mama profile and baby supported; Rabbit eye contact to PinPin not random gaze.",
         "sourceFeedback": "R17 new opening",
         "sourceImage": "baseline/scene-03k"
@@ -574,13 +561,12 @@
       "day": 1,
       "artChanged": false,
       "retainArt": true,
-      "feedbackLabel": "Retained R22",
+      "feedbackLabel": "Retained R21",
       "priorR17Number": 14,
       "priorR18Number": 14,
       "priorR19Number": 14,
       "priorR20Number": 14,
-      "priorR21Number": 14,
-      "priorR22Number": 14
+      "priorR21Number": 14
     },
     {
       "id": "scene-03l",
@@ -599,7 +585,7 @@
       "image": null,
       "production": {
         "operation": "new",
-        "reviewStatus": "retained R22 preview",
+        "reviewStatus": "retained R21 preview",
         "cameraAction": "Child-height over Mama arm toward Rabbit holding two actual leaves; older child receives invitation, baby stays with Mama.",
         "sourceFeedback": "R17 new opening",
         "sourceImage": "baseline/scene-03l"
@@ -609,13 +595,12 @@
       "day": 1,
       "artChanged": false,
       "retainArt": true,
-      "feedbackLabel": "Retained R22",
+      "feedbackLabel": "Retained R21",
       "priorR17Number": 15,
       "priorR18Number": 15,
       "priorR19Number": 15,
       "priorR20Number": 15,
-      "priorR21Number": 15,
-      "priorR22Number": 15
+      "priorR21Number": 15
     },
     {
       "id": "scene-03m",
@@ -634,7 +619,7 @@
       "image": null,
       "production": {
         "operation": "new",
-        "reviewStatus": "retained R22 preview",
+        "reviewStatus": "retained R21 preview",
         "cameraAction": "Medium three-character triangle Mama/PinPin/Rabbit; Mama gestures toward ONE existing child bucket by front door; no stove tap or second bucket.",
         "sourceFeedback": "R17 new opening",
         "sourceImage": "baseline/scene-03m"
@@ -644,13 +629,12 @@
       "day": 1,
       "artChanged": false,
       "retainArt": true,
-      "feedbackLabel": "Retained R22",
+      "feedbackLabel": "Retained R21",
       "priorR17Number": 16,
       "priorR18Number": 16,
       "priorR19Number": 16,
       "priorR20Number": 16,
-      "priorR21Number": 16,
-      "priorR22Number": 16
+      "priorR21Number": 16
     },
     {
       "id": "scene-04",
@@ -676,7 +660,7 @@
       "priorR16Number": 4,
       "production": {
         "operation": "edit",
-        "reviewStatus": "retained R22 preview",
+        "reviewStatus": "retained R21 preview",
         "cameraAction": "One EMPTY bucket only; Mama looks at olderPinPin; baby separate; source stove remains stove, not water tap.",
         "sourceImage": "baseline/scene-04"
       },
@@ -684,13 +668,12 @@
       "day": 1,
       "artChanged": false,
       "retainArt": true,
-      "feedbackLabel": "Retained R22",
+      "feedbackLabel": "Retained R21",
       "priorR17Number": 17,
       "priorR18Number": 17,
       "priorR19Number": 17,
       "priorR20Number": 17,
-      "priorR21Number": 17,
-      "priorR22Number": 17
+      "priorR21Number": 17
     },
     {
       "id": "scene-04a",
@@ -716,7 +699,7 @@
       "priorR16Number": 5,
       "production": {
         "operation": "edit",
-        "reviewStatus": "retained R22 preview",
+        "reviewStatus": "retained R21 preview",
         "cameraAction": "ONE bucket, addRabbitoutsidecontext. Mama supportedbaby noextraarms; keepcorrectdoor.",
         "sourceImage": "baseline/scene-04a"
       },
@@ -724,13 +707,12 @@
       "day": 1,
       "artChanged": false,
       "retainArt": true,
-      "feedbackLabel": "Retained R22",
+      "feedbackLabel": "Retained R21",
       "priorR17Number": 18,
       "priorR18Number": 18,
       "priorR19Number": 18,
       "priorR20Number": 18,
-      "priorR21Number": 18,
-      "priorR22Number": 18
+      "priorR21Number": 18
     },
     {
       "id": "scene-04a1",
@@ -749,7 +731,7 @@
       "image": null,
       "production": {
         "operation": "new",
-        "reviewStatus": "retained R22 preview",
+        "reviewStatus": "retained R21 preview",
         "cameraAction": "Exterior family paths split; Papa beside full-scale dog, PinPin with one EMPTY bucket and Rabbit on spring trail; Papa communicates to child.",
         "sourceFeedback": "R17 new opening",
         "sourceImage": "baseline/scene-04a1"
@@ -759,13 +741,12 @@
       "day": 1,
       "artChanged": false,
       "retainArt": true,
-      "feedbackLabel": "Retained R22",
+      "feedbackLabel": "Retained R21",
       "priorR17Number": 19,
       "priorR18Number": 19,
       "priorR19Number": 19,
       "priorR20Number": 19,
-      "priorR21Number": 19,
-      "priorR22Number": 19
+      "priorR21Number": 19
     },
     {
       "id": "scene-04a2",
@@ -784,7 +765,7 @@
       "image": null,
       "production": {
         "operation": "new",
-        "reviewStatus": "retained R22 preview",
+        "reviewStatus": "retained R21 preview",
         "cameraAction": "Wide fork in path; PinPin/Rabbit continue screen-right toward spring; Scooby/Papa go screen-left short loop. Keep same-world route split, humorous attentive dog, no scary separation.",
         "sourceFeedback": "R17 new opening",
         "sourceImage": "baseline/scene-04a2"
@@ -794,13 +775,12 @@
       "day": 1,
       "artChanged": false,
       "retainArt": true,
-      "feedbackLabel": "Retained R22",
+      "feedbackLabel": "Retained R21",
       "priorR17Number": 20,
       "priorR18Number": 20,
       "priorR19Number": 20,
       "priorR20Number": 20,
-      "priorR21Number": 20,
-      "priorR22Number": 20
+      "priorR21Number": 20
     },
     {
       "id": "scene-04b",
@@ -826,7 +806,7 @@
       "priorR16Number": 6,
       "production": {
         "operation": "edit",
-        "reviewStatus": "retained R22 preview",
+        "reviewStatus": "retained R21 preview",
         "cameraAction": "Rabbitalreadyintroduced; turn greetinginto leadingtrail; singlebucket.",
         "sourceImage": "baseline/scene-04b"
       },
@@ -834,13 +814,12 @@
       "day": 1,
       "artChanged": false,
       "retainArt": true,
-      "feedbackLabel": "Retained R22",
+      "feedbackLabel": "Retained R21",
       "priorR17Number": 21,
       "priorR18Number": 21,
       "priorR19Number": 21,
       "priorR20Number": 21,
-      "priorR21Number": 21,
-      "priorR22Number": 21
+      "priorR21Number": 21
     },
     {
       "id": "scene-04c",
@@ -866,7 +845,7 @@
       "priorR16Number": 7,
       "production": {
         "operation": "edit",
-        "reviewStatus": "retained R22 preview",
+        "reviewStatus": "retained R21 preview",
         "cameraAction": "Oneemptybucketgrounded/held, leavesmotif notsecondbucket.",
         "sourceImage": "baseline/scene-04c"
       },
@@ -874,13 +853,12 @@
       "day": 1,
       "artChanged": false,
       "retainArt": true,
-      "feedbackLabel": "Retained R22",
+      "feedbackLabel": "Retained R21",
       "priorR17Number": 22,
       "priorR18Number": 22,
       "priorR19Number": 22,
       "priorR20Number": 22,
-      "priorR21Number": 22,
-      "priorR22Number": 22
+      "priorR21Number": 22
     },
     {
       "id": "scene-04d",
@@ -906,7 +884,7 @@
       "priorR16Number": 8,
       "production": {
         "operation": "edit",
-        "reviewStatus": "retained R22 preview",
+        "reviewStatus": "retained R21 preview",
         "cameraAction": "Keepcaptionmeaning; inspect/removeanysecondbucket.",
         "sourceImage": "baseline/scene-04d"
       },
@@ -914,13 +892,12 @@
       "day": 1,
       "artChanged": false,
       "retainArt": true,
-      "feedbackLabel": "Retained R22",
+      "feedbackLabel": "Retained R21",
       "priorR17Number": 23,
       "priorR18Number": 23,
       "priorR19Number": 23,
       "priorR20Number": 23,
-      "priorR21Number": 23,
-      "priorR22Number": 23
+      "priorR21Number": 23
     },
     {
       "id": "scene-05",
@@ -946,7 +923,7 @@
       "priorR16Number": 9,
       "production": {
         "operation": "edit",
-        "reviewStatus": "retained R22 preview",
+        "reviewStatus": "retained R21 preview",
         "cameraAction": "Onebucketfills once.",
         "sourceImage": "baseline/scene-05"
       },
@@ -954,13 +931,12 @@
       "day": 1,
       "artChanged": false,
       "retainArt": true,
-      "feedbackLabel": "Retained R22",
+      "feedbackLabel": "Retained R21",
       "priorR17Number": 24,
       "priorR18Number": 24,
       "priorR19Number": 24,
       "priorR20Number": 24,
-      "priorR21Number": 24,
-      "priorR22Number": 24
+      "priorR21Number": 24
     },
     {
       "id": "scene-05a",
@@ -986,7 +962,7 @@
       "priorR16Number": 10,
       "production": {
         "operation": "edit",
-        "reviewStatus": "retained R22 preview",
+        "reviewStatus": "retained R21 preview",
         "cameraAction": "Retainapprovednohangingnosedrop, onebucketfilled nearby.",
         "sourceImage": "baseline/scene-05a"
       },
@@ -994,13 +970,12 @@
       "day": 1,
       "artChanged": false,
       "retainArt": true,
-      "feedbackLabel": "Retained R22",
+      "feedbackLabel": "Retained R21",
       "priorR17Number": 25,
       "priorR18Number": 25,
       "priorR19Number": 25,
       "priorR20Number": 25,
-      "priorR21Number": 25,
-      "priorR22Number": 25
+      "priorR21Number": 25
     },
     {
       "id": "scene-05b",
@@ -1026,7 +1001,7 @@
       "priorR16Number": 11,
       "production": {
         "operation": "edit",
-        "reviewStatus": "retained R22 preview",
+        "reviewStatus": "retained R21 preview",
         "cameraAction": "Earn promised shared play AT SPRING after filling ONE bucket; fullbucket sits stable on rock besidechild, bothwatch leafboats; no secondcontainer.",
         "sourceImage": "baseline/scene-05b"
       },
@@ -1034,13 +1009,12 @@
       "day": 1,
       "artChanged": false,
       "retainArt": true,
-      "feedbackLabel": "Retained R22",
+      "feedbackLabel": "Retained R21",
       "priorR17Number": 26,
       "priorR18Number": 26,
       "priorR19Number": 26,
       "priorR20Number": 26,
-      "priorR21Number": 26,
-      "priorR22Number": 26
+      "priorR21Number": 26
     },
     {
       "id": "scene-05c",
@@ -1066,7 +1040,7 @@
       "priorR16Number": 12,
       "production": {
         "operation": "edit",
-        "reviewStatus": "retained R22 preview",
+        "reviewStatus": "retained R21 preview",
         "cameraAction": "Retain published image. PinPin invites Rabbit to walk home; Rabbit collects their two leaf boats. PinPin has one full wooden bucket. No farewell here.",
         "sourceImage": "baseline/scene-05c"
       },
@@ -1074,14 +1048,13 @@
       "day": 1,
       "artChanged": false,
       "retainArt": true,
-      "feedbackLabel": "Retained R22",
+      "feedbackLabel": "Retained R21",
       "priorR17Number": 27,
       "priorR18Number": 27,
       "title": "Friends start home together",
       "priorR19Number": 27,
       "priorR20Number": 27,
-      "priorR21Number": 27,
-      "priorR22Number": 27
+      "priorR21Number": 27
     },
     {
       "id": "scene-05c1",
@@ -1103,18 +1076,17 @@
       "production": {
         "operation": "new",
         "cameraAction": "Wide child-height three-quarter departure, screen-left travel. The spring remains behind/right; both friends walk on the same dry path. One full bucket in PinPin's paw, two leaf boats in Rabbit's forepaws.",
-        "reviewStatus": "retained R22 preview",
+        "reviewStatus": "retained R21 preview",
         "sourceFeedback": "Rabbit and PinPin return home together discussing the unexplained dry lake",
         "sourceImage": "baseline/scene-05c1"
       },
       "artChanged": false,
       "retainArt": true,
       "number": 28,
-      "feedbackLabel": "Retained R22",
+      "feedbackLabel": "Retained R21",
       "priorR19Number": 28,
       "priorR20Number": 28,
-      "priorR21Number": 28,
-      "priorR22Number": 28
+      "priorR21Number": 28
     },
     {
       "id": "scene-05c2",
@@ -1136,18 +1108,17 @@
       "production": {
         "operation": "new",
         "cameraAction": "Closer side tracking two-shot at child eye height, both still moving left along same path. Rabbit looks at PinPin while asking, PinPin turns his attentive eyes toward Rabbit. Full bucket remains visible, boats held by Rabbit.",
-        "reviewStatus": "retained R22 preview",
+        "reviewStatus": "retained R21 preview",
         "sourceFeedback": "Rabbit and PinPin return home together discussing the unexplained dry lake",
         "sourceImage": "baseline/scene-05c2"
       },
       "artChanged": false,
       "retainArt": true,
       "number": 29,
-      "feedbackLabel": "Retained R22",
+      "feedbackLabel": "Retained R21",
       "priorR19Number": 29,
       "priorR20Number": 29,
-      "priorR21Number": 29,
-      "priorR22Number": 29
+      "priorR21Number": 29
     },
     {
       "id": "scene-05c3",
@@ -1169,18 +1140,17 @@
       "production": {
         "operation": "new",
         "cameraAction": "PinPin's downward POV close-up into the ONE filled wooden bucket, briefly steadied at knee height. His small paws and a few shoulder quills edge the frame. Rabbit leans into upper/right frame, ears and face recognizable, listening and looking into the same water; both leaf boats held dry outside bucket. Ordinary sky/leaves reflected, no magic.",
-        "reviewStatus": "retained R22 preview",
+        "reviewStatus": "retained R21 preview",
         "sourceFeedback": "Rabbit and PinPin return home together discussing the unexplained dry lake",
         "sourceImage": "baseline/scene-05c3"
       },
       "artChanged": false,
       "retainArt": true,
       "number": 30,
-      "feedbackLabel": "Retained R22",
+      "feedbackLabel": "Retained R21",
       "priorR19Number": 30,
       "priorR20Number": 30,
-      "priorR21Number": 30,
-      "priorR22Number": 30
+      "priorR21Number": 30
     },
     {
       "id": "scene-05c4",
@@ -1202,18 +1172,17 @@
       "production": {
         "operation": "new",
         "cameraAction": "Rear wide path shot, both walking away toward the small familiar moss-roof house glimpsed ahead through ferns. Neither points at invented clues; quiet companionship, attentive posture, bucket still full, Rabbit still carries two boats.",
-        "reviewStatus": "retained R22 preview",
+        "reviewStatus": "retained R21 preview",
         "sourceFeedback": "Rabbit and PinPin return home together discussing the unexplained dry lake",
         "sourceImage": "baseline/scene-05c4"
       },
       "artChanged": false,
       "retainArt": true,
       "number": 31,
-      "feedbackLabel": "Retained R22",
+      "feedbackLabel": "Retained R21",
       "priorR19Number": 31,
       "priorR20Number": 31,
-      "priorR21Number": 31,
-      "priorR22Number": 31
+      "priorR21Number": 31
     },
     {
       "id": "scene-05c5",
@@ -1235,7 +1204,7 @@
       "production": {
         "operation": "new",
         "cameraAction": "Keep R19 joint arrival image: Mama acknowledges one full bucket; Rabbit waits by the step with both leaf boats. This replaces the old05d solo close arrival, so show the arrival only once.",
-        "reviewStatus": "retained R22 preview",
+        "reviewStatus": "retained R21 preview",
         "sourceFeedback": "Rabbit and PinPin return home together discussing the unexplained dry lake",
         "sourceImage": "baseline/scene-05c5",
         "selectionBasis": "User explicitly requested05c5 replace05d."
@@ -1243,11 +1212,10 @@
       "artChanged": false,
       "retainArt": true,
       "number": 32,
-      "feedbackLabel": "Retained R22",
+      "feedbackLabel": "Retained R21",
       "priorR19Number": 32,
       "priorR20Number": 32,
-      "priorR21Number": 32,
-      "priorR22Number": 32
+      "priorR21Number": 32
     },
     {
       "id": "scene-05e",
@@ -1273,7 +1241,7 @@
       "priorR16Number": 14,
       "production": {
         "operation": "edit",
-        "reviewStatus": "retained R22 preview",
+        "reviewStatus": "retained R21 preview",
         "cameraAction": "ResizeScoobytocanonicalmountscale; Papasizeconsistent. Shortnearhomeloop notlongabsence.",
         "sourceImage": "baseline/scene-05e"
       },
@@ -1281,13 +1249,12 @@
       "day": 1,
       "artChanged": false,
       "retainArt": true,
-      "feedbackLabel": "Retained R22",
+      "feedbackLabel": "Retained R21",
       "priorR17Number": 29,
       "priorR18Number": 29,
       "priorR19Number": 34,
       "priorR20Number": 33,
-      "priorR21Number": 33,
-      "priorR22Number": 33
+      "priorR21Number": 33
     },
     {
       "id": "scene-05f",
@@ -1313,7 +1280,7 @@
       "priorR16Number": 15,
       "production": {
         "operation": "edit",
-        "reviewStatus": "retained R22 preview",
+        "reviewStatus": "retained R21 preview",
         "cameraAction": "Enlargedmountscaledog fullbody besidePapa; returningearlybeforebathgag.",
         "sourceImage": "baseline/scene-05f"
       },
@@ -1321,13 +1288,12 @@
       "day": 1,
       "artChanged": false,
       "retainArt": true,
-      "feedbackLabel": "Retained R22",
+      "feedbackLabel": "Retained R21",
       "priorR17Number": 30,
       "priorR18Number": 30,
       "priorR19Number": 35,
       "priorR20Number": 34,
-      "priorR21Number": 34,
-      "priorR22Number": 34
+      "priorR21Number": 34
     },
     {
       "id": "scene-05f1",
@@ -1348,19 +1314,18 @@
       "production": {
         "operation": "new",
         "cameraAction": "Retain published image. Rabbit has been waiting at the step, holding both leaf boats. Papa and Scooby return; Rabbit greets Scooby. This is not another arrival or forgotten-boat delivery.",
-        "reviewStatus": "retained R22 preview",
+        "reviewStatus": "retained R21 preview",
         "sourceImage": "baseline/scene-05f1"
       },
       "priorR17Number": null,
       "number": 35,
       "artChanged": false,
       "retainArt": true,
-      "feedbackLabel": "Retained R22",
+      "feedbackLabel": "Retained R21",
       "priorR18Number": 31,
       "priorR19Number": 36,
       "priorR20Number": 35,
-      "priorR21Number": 35,
-      "priorR22Number": 35
+      "priorR21Number": 35
     },
     {
       "id": "scene-05f2",
@@ -1381,19 +1346,18 @@
       "production": {
         "operation": "new",
         "cameraAction": "Retain published image. Rabbit takes both boats back to the stream and says the only goodbye; PinPin waves, Scooby woofs, Papa guides the dog toward the open doorway.",
-        "reviewStatus": "retained R22 preview",
+        "reviewStatus": "retained R21 preview",
         "sourceImage": "baseline/scene-05f2"
       },
       "priorR17Number": null,
       "number": 36,
       "artChanged": false,
       "retainArt": true,
-      "feedbackLabel": "Retained R22",
+      "feedbackLabel": "Retained R21",
       "priorR18Number": 32,
       "priorR19Number": 37,
       "priorR20Number": 36,
-      "priorR21Number": 36,
-      "priorR22Number": 36
+      "priorR21Number": 36
     },
     {
       "id": "scene-05g",
@@ -1419,7 +1383,7 @@
       "priorR16Number": 16,
       "production": {
         "operation": "edit",
-        "reviewStatus": "retained R22 preview",
+        "reviewStatus": "retained R21 preview",
         "cameraAction": "Large Scooby atcanonicalactualfrontdoor, begin clearentrysequence.",
         "sourceImage": "baseline/scene-05g"
       },
@@ -1427,13 +1391,12 @@
       "day": 1,
       "artChanged": false,
       "retainArt": true,
-      "feedbackLabel": "Retained R22",
+      "feedbackLabel": "Retained R21",
       "priorR17Number": 31,
       "priorR18Number": 33,
       "priorR19Number": 38,
       "priorR20Number": 37,
-      "priorR21Number": 37,
-      "priorR22Number": 37
+      "priorR21Number": 37
     },
     {
       "id": "scene-05g1",
@@ -1453,7 +1416,7 @@
       "priorR16Number": null,
       "production": {
         "operation": "new",
-        "reviewStatus": "retained R22 preview",
+        "reviewStatus": "retained R21 preview",
         "cameraAction": "Insidefrontdoorlow35mmwide: Scoobycroucheshead/shouldersthrough unchangedfrontopening, Papa guidespalmnearcheek; retainfrontwalls/tworoundwindows. Bodyenteringinonecontinuousorientation.",
         "sourceFeedback": "R17 explicit full-scale dog interior sequence",
         "sourceImage": "baseline/scene-05g1"
@@ -1462,13 +1425,12 @@
       "day": 1,
       "artChanged": false,
       "retainArt": true,
-      "feedbackLabel": "Retained R22",
+      "feedbackLabel": "Retained R21",
       "priorR17Number": 32,
       "priorR18Number": 34,
       "priorR19Number": 39,
       "priorR20Number": 38,
-      "priorR21Number": 38,
-      "priorR22Number": 38
+      "priorR21Number": 38
     },
     {
       "id": "scene-05g2",
@@ -1488,7 +1450,7 @@
       "priorR16Number": null,
       "production": {
         "operation": "new",
-        "reviewStatus": "retained R22 preview",
+        "reviewStatus": "retained R21 preview",
         "cameraAction": "Widecommonroomfromsameapprovedhouseaxis: huge dogoccupiesmostCLEARfloor, normal table/stove/cabinetstillthere; Papa smaller besidedog, Mama holdsinfantseparate, olderchildONEbucketroutearounddog. Fewplainwashedblueberriesinbowl. No canal yet, no miniaturizingfurniture/dog, nobonusrooms.",
         "sourceFeedback": "R17 explicit full-scale dog interior sequence",
         "sourceImage": "baseline/scene-05g2"
@@ -1497,13 +1459,12 @@
       "day": 1,
       "artChanged": false,
       "retainArt": true,
-      "feedbackLabel": "Retained R22",
+      "feedbackLabel": "Retained R21",
       "priorR17Number": 33,
       "priorR18Number": 35,
       "priorR19Number": 40,
       "priorR20Number": 39,
-      "priorR21Number": 39,
-      "priorR22Number": 39
+      "priorR21Number": 39
     },
     {
       "id": "scene-05g3",
@@ -1523,7 +1484,7 @@
       "priorR16Number": null,
       "production": {
         "operation": "new",
-        "reviewStatus": "retained R22 preview",
+        "reviewStatus": "retained R21 preview",
         "cameraAction": "Reversemediumdoorroute: dogexitsactualfrontdoorfollowingPapa, olderchildsinglebucket nowclearpasstobath; Mama/babyinsideplausible. Papareturnisclearbeforebathgag; Scoobysunstepoutside.",
         "sourceFeedback": "R17 explicit full-scale dog interior sequence",
         "sourceImage": "baseline/scene-05g3"
@@ -1532,13 +1493,12 @@
       "day": 1,
       "artChanged": false,
       "retainArt": true,
-      "feedbackLabel": "Retained R22",
+      "feedbackLabel": "Retained R21",
       "priorR17Number": 34,
       "priorR18Number": 36,
       "priorR19Number": 41,
       "priorR20Number": 40,
-      "priorR21Number": 40,
-      "priorR22Number": 40
+      "priorR21Number": 40
     },
     {
       "id": "scene-06",
@@ -1564,7 +1524,7 @@
       "priorR16Number": 17,
       "production": {
         "operation": "edit",
-        "reviewStatus": "retained R22 preview",
+        "reviewStatus": "retained R21 preview",
         "cameraAction": "Onebucket passagebetweenkitchenbath correct.",
         "sourceImage": "baseline/scene-06"
       },
@@ -1572,13 +1532,12 @@
       "day": 1,
       "artChanged": false,
       "retainArt": true,
-      "feedbackLabel": "Retained R22",
+      "feedbackLabel": "Retained R21",
       "priorR17Number": 35,
       "priorR18Number": 37,
       "priorR19Number": 42,
       "priorR20Number": 41,
-      "priorR21Number": 41,
-      "priorR22Number": 41
+      "priorR21Number": 41
     },
     {
       "id": "scene-07",
@@ -1604,7 +1563,7 @@
       "priorR16Number": 18,
       "production": {
         "operation": "edit",
-        "reviewStatus": "retained R22 preview",
+        "reviewStatus": "retained R21 preview",
         "cameraAction": "Oneemptybucketafterpour, visiblecorrecttubinside.",
         "sourceImage": "baseline/scene-07"
       },
@@ -1612,13 +1571,12 @@
       "day": 1,
       "artChanged": false,
       "retainArt": true,
-      "feedbackLabel": "Retained R22",
+      "feedbackLabel": "Retained R21",
       "priorR17Number": 36,
       "priorR18Number": 38,
       "priorR19Number": 43,
       "priorR20Number": 42,
-      "priorR21Number": 42,
-      "priorR22Number": 42
+      "priorR21Number": 42
     },
     {
       "id": "scene-08",
@@ -1644,20 +1602,19 @@
       "priorR16Number": 19,
       "production": {
         "operation": "retain",
-        "reviewStatus": "retained R22 preview",
+        "reviewStatus": "retained R21 preview",
         "sourceImage": "baseline/scene-08"
       },
       "number": 43,
       "day": 1,
       "artChanged": false,
       "retainArt": true,
-      "feedbackLabel": "Retained R22",
+      "feedbackLabel": "Retained R21",
       "priorR17Number": 37,
       "priorR18Number": 39,
       "priorR19Number": 44,
       "priorR20Number": 43,
-      "priorR21Number": 43,
-      "priorR22Number": 43
+      "priorR21Number": 43
     },
     {
       "id": "scene-09",
@@ -1683,7 +1640,7 @@
       "priorR16Number": 20,
       "production": {
         "operation": "edit",
-        "reviewStatus": "retained R22 preview",
+        "reviewStatus": "retained R21 preview",
         "cameraAction": "Singlebucket visual; energeticthinking notexhaustion, motivationgetbacktoplay.",
         "sourceImage": "baseline/scene-09"
       },
@@ -1691,13 +1648,12 @@
       "day": 1,
       "artChanged": false,
       "retainArt": true,
-      "feedbackLabel": "Retained R22",
+      "feedbackLabel": "Retained R21",
       "priorR17Number": 38,
       "priorR18Number": 40,
       "priorR19Number": 45,
       "priorR20Number": 44,
-      "priorR21Number": 44,
-      "priorR22Number": 44
+      "priorR21Number": 44
     },
     {
       "id": "scene-10",
@@ -1723,7 +1679,7 @@
       "priorR16Number": 21,
       "production": {
         "operation": "edit",
-        "reviewStatus": "retained R22 preview",
+        "reviewStatus": "retained R21 preview",
         "cameraAction": "Motivationquickerbathandnextgame; Rabbit hasalreadyplayed andleft, nofriendwaitingmanydays.",
         "sourceImage": "baseline/scene-10"
       },
@@ -1731,13 +1687,12 @@
       "day": 1,
       "artChanged": false,
       "retainArt": true,
-      "feedbackLabel": "Retained R22",
+      "feedbackLabel": "Retained R21",
       "priorR17Number": 39,
       "priorR18Number": 41,
       "priorR19Number": 46,
       "priorR20Number": 45,
-      "priorR21Number": 45,
-      "priorR22Number": 45
+      "priorR21Number": 45
     },
     {
       "id": "scene-11",
@@ -1763,20 +1718,19 @@
       "priorR16Number": 22,
       "production": {
         "operation": "retain",
-        "reviewStatus": "retained R22 preview",
+        "reviewStatus": "retained R21 preview",
         "sourceImage": "baseline/scene-11"
       },
       "number": 46,
       "day": 1,
       "artChanged": false,
       "retainArt": true,
-      "feedbackLabel": "Retained R22",
+      "feedbackLabel": "Retained R21",
       "priorR17Number": 40,
       "priorR18Number": 42,
       "priorR19Number": 47,
       "priorR20Number": 46,
-      "priorR21Number": 46,
-      "priorR22Number": 46
+      "priorR21Number": 46
     },
     {
       "id": "scene-12",
@@ -1802,20 +1756,19 @@
       "priorR16Number": 23,
       "production": {
         "operation": "retain",
-        "reviewStatus": "retained R22 preview",
+        "reviewStatus": "retained R21 preview",
         "sourceImage": "baseline/scene-12"
       },
       "number": 47,
       "day": 1,
       "artChanged": false,
       "retainArt": true,
-      "feedbackLabel": "Retained R22",
+      "feedbackLabel": "Retained R21",
       "priorR17Number": 41,
       "priorR18Number": 43,
       "priorR19Number": 48,
       "priorR20Number": 47,
-      "priorR21Number": 47,
-      "priorR22Number": 47
+      "priorR21Number": 47
     },
     {
       "id": "scene-13",
@@ -1841,20 +1794,19 @@
       "priorR16Number": 24,
       "production": {
         "operation": "retain",
-        "reviewStatus": "retained R22 preview",
+        "reviewStatus": "retained R21 preview",
         "sourceImage": "baseline/scene-13"
       },
       "number": 48,
       "day": 1,
       "artChanged": false,
       "retainArt": true,
-      "feedbackLabel": "Retained R22",
+      "feedbackLabel": "Retained R21",
       "priorR17Number": 42,
       "priorR18Number": 44,
       "priorR19Number": 49,
       "priorR20Number": 48,
-      "priorR21Number": 48,
-      "priorR22Number": 48
+      "priorR21Number": 48
     },
     {
       "id": "scene-14",
@@ -1880,20 +1832,19 @@
       "priorR16Number": 25,
       "production": {
         "operation": "retain",
-        "reviewStatus": "retained R22 preview",
+        "reviewStatus": "retained R21 preview",
         "sourceImage": "baseline/scene-14"
       },
       "number": 49,
       "day": 1,
       "artChanged": false,
       "retainArt": true,
-      "feedbackLabel": "Retained R22",
+      "feedbackLabel": "Retained R21",
       "priorR17Number": 43,
       "priorR18Number": 45,
       "priorR19Number": 50,
       "priorR20Number": 49,
-      "priorR21Number": 49,
-      "priorR22Number": 49
+      "priorR21Number": 49
     },
     {
       "id": "scene-15",
@@ -1919,20 +1870,19 @@
       "priorR16Number": 26,
       "production": {
         "operation": "retain",
-        "reviewStatus": "retained R22 preview",
+        "reviewStatus": "retained R21 preview",
         "sourceImage": "baseline/scene-15"
       },
       "number": 50,
       "day": 1,
       "artChanged": false,
       "retainArt": true,
-      "feedbackLabel": "Retained R22",
+      "feedbackLabel": "Retained R21",
       "priorR17Number": 44,
       "priorR18Number": 46,
       "priorR19Number": 51,
       "priorR20Number": 50,
-      "priorR21Number": 50,
-      "priorR22Number": 50
+      "priorR21Number": 50
     },
     {
       "id": "scene-16",
@@ -1958,20 +1908,19 @@
       "priorR16Number": 27,
       "production": {
         "operation": "retain",
-        "reviewStatus": "retained R22 preview",
+        "reviewStatus": "retained R21 preview",
         "sourceImage": "baseline/scene-16"
       },
       "number": 51,
       "day": 1,
       "artChanged": false,
       "retainArt": true,
-      "feedbackLabel": "Retained R22",
+      "feedbackLabel": "Retained R21",
       "priorR17Number": 45,
       "priorR18Number": 47,
       "priorR19Number": 52,
       "priorR20Number": 51,
-      "priorR21Number": 51,
-      "priorR22Number": 51
+      "priorR21Number": 51
     },
     {
       "id": "scene-17",
@@ -1997,20 +1946,19 @@
       "priorR16Number": 28,
       "production": {
         "operation": "retain",
-        "reviewStatus": "retained R22 preview",
+        "reviewStatus": "retained R21 preview",
         "sourceImage": "baseline/scene-17"
       },
       "number": 52,
       "day": 1,
       "artChanged": false,
       "retainArt": true,
-      "feedbackLabel": "Retained R22",
+      "feedbackLabel": "Retained R21",
       "priorR17Number": 46,
       "priorR18Number": 48,
       "priorR19Number": 53,
       "priorR20Number": 52,
-      "priorR21Number": 52,
-      "priorR22Number": 52
+      "priorR21Number": 52
     },
     {
       "id": "scene-18",
@@ -2036,20 +1984,19 @@
       "priorR16Number": 29,
       "production": {
         "operation": "retain",
-        "reviewStatus": "retained R22 preview",
+        "reviewStatus": "retained R21 preview",
         "sourceImage": "baseline/scene-18"
       },
       "number": 53,
       "day": 1,
       "artChanged": false,
       "retainArt": true,
-      "feedbackLabel": "Retained R22",
+      "feedbackLabel": "Retained R21",
       "priorR17Number": 47,
       "priorR18Number": 49,
       "priorR19Number": 54,
       "priorR20Number": 53,
-      "priorR21Number": 53,
-      "priorR22Number": 53
+      "priorR21Number": 53
     },
     {
       "id": "scene-19",
@@ -2075,20 +2022,19 @@
       "priorR16Number": 30,
       "production": {
         "operation": "retain",
-        "reviewStatus": "retained R22 preview",
+        "reviewStatus": "retained R21 preview",
         "sourceImage": "baseline/scene-19"
       },
       "number": 54,
       "day": 1,
       "artChanged": false,
       "retainArt": true,
-      "feedbackLabel": "Retained R22",
+      "feedbackLabel": "Retained R21",
       "priorR17Number": 48,
       "priorR18Number": 50,
       "priorR19Number": 55,
       "priorR20Number": 54,
-      "priorR21Number": 54,
-      "priorR22Number": 54
+      "priorR21Number": 54
     },
     {
       "id": "scene-19a",
@@ -2114,20 +2060,19 @@
       "priorR16Number": 31,
       "production": {
         "operation": "retain",
-        "reviewStatus": "retained R22 preview",
+        "reviewStatus": "retained R21 preview",
         "sourceImage": "baseline/scene-19a"
       },
       "number": 55,
       "day": 1,
       "artChanged": false,
       "retainArt": true,
-      "feedbackLabel": "Retained R22",
+      "feedbackLabel": "Retained R21",
       "priorR17Number": 49,
       "priorR18Number": 51,
       "priorR19Number": 56,
       "priorR20Number": 55,
-      "priorR21Number": 55,
-      "priorR22Number": 55
+      "priorR21Number": 55
     },
     {
       "id": "scene-19b",
@@ -2153,20 +2098,19 @@
       "priorR16Number": 32,
       "production": {
         "operation": "retain",
-        "reviewStatus": "retained R22 preview",
+        "reviewStatus": "retained R21 preview",
         "sourceImage": "baseline/scene-19b"
       },
       "number": 56,
       "day": 1,
       "artChanged": false,
       "retainArt": true,
-      "feedbackLabel": "Retained R22",
+      "feedbackLabel": "Retained R21",
       "priorR17Number": 50,
       "priorR18Number": 52,
       "priorR19Number": 57,
       "priorR20Number": 56,
-      "priorR21Number": 56,
-      "priorR22Number": 56
+      "priorR21Number": 56
     },
     {
       "id": "scene-20",
@@ -2192,20 +2136,19 @@
       "priorR16Number": 33,
       "production": {
         "operation": "retain",
-        "reviewStatus": "retained R22 preview",
+        "reviewStatus": "retained R21 preview",
         "sourceImage": "baseline/scene-20"
       },
       "number": 57,
       "day": 1,
       "artChanged": false,
       "retainArt": true,
-      "feedbackLabel": "Retained R22",
+      "feedbackLabel": "Retained R21",
       "priorR17Number": 51,
       "priorR18Number": 53,
       "priorR19Number": 58,
       "priorR20Number": 57,
-      "priorR21Number": 57,
-      "priorR22Number": 57
+      "priorR21Number": 57
     },
     {
       "id": "scene-21",
@@ -2231,20 +2174,19 @@
       "priorR16Number": 34,
       "production": {
         "operation": "retain",
-        "reviewStatus": "retained R22 preview",
+        "reviewStatus": "retained R21 preview",
         "sourceImage": "baseline/scene-21"
       },
       "number": 58,
       "day": 1,
       "artChanged": false,
       "retainArt": true,
-      "feedbackLabel": "Retained R22",
+      "feedbackLabel": "Retained R21",
       "priorR17Number": 52,
       "priorR18Number": 54,
       "priorR19Number": 59,
       "priorR20Number": 58,
-      "priorR21Number": 58,
-      "priorR22Number": 58
+      "priorR21Number": 58
     },
     {
       "id": "scene-22",
@@ -2270,20 +2212,19 @@
       "priorR16Number": 35,
       "production": {
         "operation": "retain",
-        "reviewStatus": "retained R22 preview",
+        "reviewStatus": "retained R21 preview",
         "sourceImage": "baseline/scene-22"
       },
       "number": 59,
       "day": 1,
       "artChanged": false,
       "retainArt": true,
-      "feedbackLabel": "Retained R22",
+      "feedbackLabel": "Retained R21",
       "priorR17Number": 53,
       "priorR18Number": 55,
       "priorR19Number": 60,
       "priorR20Number": 59,
-      "priorR21Number": 59,
-      "priorR22Number": 59
+      "priorR21Number": 59
     },
     {
       "id": "scene-23",
@@ -2309,20 +2250,19 @@
       "priorR16Number": 36,
       "production": {
         "operation": "retain",
-        "reviewStatus": "retained R22 preview",
+        "reviewStatus": "retained R21 preview",
         "sourceImage": "baseline/scene-23"
       },
       "number": 60,
       "day": 1,
       "artChanged": false,
       "retainArt": true,
-      "feedbackLabel": "Retained R22",
+      "feedbackLabel": "Retained R21",
       "priorR17Number": 54,
       "priorR18Number": 56,
       "priorR19Number": 61,
       "priorR20Number": 60,
-      "priorR21Number": 60,
-      "priorR22Number": 60
+      "priorR21Number": 60
     },
     {
       "id": "scene-24",
@@ -2348,20 +2288,19 @@
       "priorR16Number": 37,
       "production": {
         "operation": "retain",
-        "reviewStatus": "retained R22 preview",
+        "reviewStatus": "retained R21 preview",
         "sourceImage": "baseline/scene-24"
       },
       "number": 61,
       "day": 1,
       "artChanged": false,
       "retainArt": true,
-      "feedbackLabel": "Retained R22",
+      "feedbackLabel": "Retained R21",
       "priorR17Number": 55,
       "priorR18Number": 57,
       "priorR19Number": 62,
       "priorR20Number": 61,
-      "priorR21Number": 61,
-      "priorR22Number": 61
+      "priorR21Number": 61
     },
     {
       "id": "scene-25",
@@ -2387,20 +2326,19 @@
       "priorR16Number": 38,
       "production": {
         "operation": "retain",
-        "reviewStatus": "retained R22 preview",
+        "reviewStatus": "retained R21 preview",
         "sourceImage": "baseline/scene-25"
       },
       "number": 62,
       "day": 1,
       "artChanged": false,
       "retainArt": true,
-      "feedbackLabel": "Retained R22",
+      "feedbackLabel": "Retained R21",
       "priorR17Number": 56,
       "priorR18Number": 58,
       "priorR19Number": 63,
       "priorR20Number": 62,
-      "priorR21Number": 62,
-      "priorR22Number": 62
+      "priorR21Number": 62
     },
     {
       "id": "scene-26",
@@ -2426,20 +2364,19 @@
       "priorR16Number": 39,
       "production": {
         "operation": "retain",
-        "reviewStatus": "retained R22 preview",
+        "reviewStatus": "retained R21 preview",
         "sourceImage": "baseline/scene-26"
       },
       "number": 63,
       "day": 1,
       "artChanged": false,
       "retainArt": true,
-      "feedbackLabel": "Retained R22",
+      "feedbackLabel": "Retained R21",
       "priorR17Number": 57,
       "priorR18Number": 59,
       "priorR19Number": 64,
       "priorR20Number": 63,
-      "priorR21Number": 63,
-      "priorR22Number": 63
+      "priorR21Number": 63
     },
     {
       "id": "scene-27",
@@ -2465,20 +2402,19 @@
       "priorR16Number": 40,
       "production": {
         "operation": "retain",
-        "reviewStatus": "retained R22 preview",
+        "reviewStatus": "retained R21 preview",
         "sourceImage": "baseline/scene-27"
       },
       "number": 64,
       "day": 1,
       "artChanged": false,
       "retainArt": true,
-      "feedbackLabel": "Retained R22",
+      "feedbackLabel": "Retained R21",
       "priorR17Number": 58,
       "priorR18Number": 60,
       "priorR19Number": 65,
       "priorR20Number": 64,
-      "priorR21Number": 64,
-      "priorR22Number": 64
+      "priorR21Number": 64
     },
     {
       "id": "scene-28",
@@ -2504,20 +2440,19 @@
       "priorR16Number": 41,
       "production": {
         "operation": "retain",
-        "reviewStatus": "retained R22 preview",
+        "reviewStatus": "retained R21 preview",
         "sourceImage": "baseline/scene-28"
       },
       "number": 65,
       "day": 1,
       "artChanged": false,
       "retainArt": true,
-      "feedbackLabel": "Retained R22",
+      "feedbackLabel": "Retained R21",
       "priorR17Number": 59,
       "priorR18Number": 61,
       "priorR19Number": 66,
       "priorR20Number": 65,
-      "priorR21Number": 65,
-      "priorR22Number": 65
+      "priorR21Number": 65
     },
     {
       "id": "scene-29",
@@ -2543,20 +2478,19 @@
       "priorR16Number": 42,
       "production": {
         "operation": "retain",
-        "reviewStatus": "retained R22 preview",
+        "reviewStatus": "retained R21 preview",
         "sourceImage": "baseline/scene-29"
       },
       "number": 66,
       "day": 1,
       "artChanged": false,
       "retainArt": true,
-      "feedbackLabel": "Retained R22",
+      "feedbackLabel": "Retained R21",
       "priorR17Number": 60,
       "priorR18Number": 62,
       "priorR19Number": 67,
       "priorR20Number": 66,
-      "priorR21Number": 66,
-      "priorR22Number": 66
+      "priorR21Number": 66
     },
     {
       "id": "scene-30",
@@ -2582,20 +2516,19 @@
       "priorR16Number": 43,
       "production": {
         "operation": "retain",
-        "reviewStatus": "retained R22 preview",
+        "reviewStatus": "retained R21 preview",
         "sourceImage": "baseline/scene-30"
       },
       "number": 67,
       "day": 1,
       "artChanged": false,
       "retainArt": true,
-      "feedbackLabel": "Retained R22",
+      "feedbackLabel": "Retained R21",
       "priorR17Number": 61,
       "priorR18Number": 63,
       "priorR19Number": 68,
       "priorR20Number": 67,
-      "priorR21Number": 67,
-      "priorR22Number": 67
+      "priorR21Number": 67
     },
     {
       "id": "scene-30a",
@@ -2621,20 +2554,19 @@
       "priorR16Number": 44,
       "production": {
         "operation": "retain",
-        "reviewStatus": "retained R22 preview",
+        "reviewStatus": "retained R21 preview",
         "sourceImage": "baseline/scene-30a"
       },
       "number": 68,
       "day": 1,
       "artChanged": false,
       "retainArt": true,
-      "feedbackLabel": "Retained R22",
+      "feedbackLabel": "Retained R21",
       "priorR17Number": 62,
       "priorR18Number": 64,
       "priorR19Number": 69,
       "priorR20Number": 68,
-      "priorR21Number": 68,
-      "priorR22Number": 68
+      "priorR21Number": 68
     },
     {
       "id": "scene-30b",
@@ -2660,20 +2592,19 @@
       "priorR16Number": 45,
       "production": {
         "operation": "retain",
-        "reviewStatus": "retained R22 preview",
+        "reviewStatus": "retained R21 preview",
         "sourceImage": "baseline/scene-30b"
       },
       "number": 69,
       "day": 1,
       "artChanged": false,
       "retainArt": true,
-      "feedbackLabel": "Retained R22",
+      "feedbackLabel": "Retained R21",
       "priorR17Number": 63,
       "priorR18Number": 65,
       "priorR19Number": 70,
       "priorR20Number": 69,
-      "priorR21Number": 69,
-      "priorR22Number": 69
+      "priorR21Number": 69
     },
     {
       "id": "scene-30c",
@@ -2699,20 +2630,19 @@
       "priorR16Number": 46,
       "production": {
         "operation": "retain",
-        "reviewStatus": "retained R22 preview",
+        "reviewStatus": "retained R21 preview",
         "sourceImage": "baseline/scene-30c"
       },
       "number": 70,
       "day": 1,
       "artChanged": false,
       "retainArt": true,
-      "feedbackLabel": "Retained R22",
+      "feedbackLabel": "Retained R21",
       "priorR17Number": 64,
       "priorR18Number": 66,
       "priorR19Number": 71,
       "priorR20Number": 70,
-      "priorR21Number": 70,
-      "priorR22Number": 70
+      "priorR21Number": 70
     },
     {
       "id": "scene-30d",
@@ -2738,20 +2668,19 @@
       "priorR16Number": 47,
       "production": {
         "operation": "retain",
-        "reviewStatus": "retained R22 preview",
+        "reviewStatus": "retained R21 preview",
         "sourceImage": "baseline/scene-30d"
       },
       "number": 71,
       "day": 1,
       "artChanged": false,
       "retainArt": true,
-      "feedbackLabel": "Retained R22",
+      "feedbackLabel": "Retained R21",
       "priorR17Number": 65,
       "priorR18Number": 67,
       "priorR19Number": 72,
       "priorR20Number": 71,
-      "priorR21Number": 71,
-      "priorR22Number": 71
+      "priorR21Number": 71
     },
     {
       "id": "scene-31",
@@ -2777,20 +2706,19 @@
       "priorR16Number": 48,
       "production": {
         "operation": "retain",
-        "reviewStatus": "retained R22 preview",
+        "reviewStatus": "retained R21 preview",
         "sourceImage": "baseline/scene-31"
       },
       "number": 72,
       "day": 1,
       "artChanged": false,
       "retainArt": true,
-      "feedbackLabel": "Retained R22",
+      "feedbackLabel": "Retained R21",
       "priorR17Number": 66,
       "priorR18Number": 68,
       "priorR19Number": 73,
       "priorR20Number": 72,
-      "priorR21Number": 72,
-      "priorR22Number": 72
+      "priorR21Number": 72
     },
     {
       "id": "scene-32",
@@ -2816,20 +2744,19 @@
       "priorR16Number": 49,
       "production": {
         "operation": "retain",
-        "reviewStatus": "retained R22 preview",
+        "reviewStatus": "retained R21 preview",
         "sourceImage": "baseline/scene-32"
       },
       "number": 73,
       "day": 1,
       "artChanged": false,
       "retainArt": true,
-      "feedbackLabel": "Retained R22",
+      "feedbackLabel": "Retained R21",
       "priorR17Number": 67,
       "priorR18Number": 69,
       "priorR19Number": 74,
       "priorR20Number": 73,
-      "priorR21Number": 73,
-      "priorR22Number": 73
+      "priorR21Number": 73
     },
     {
       "id": "scene-32a",
@@ -2855,20 +2782,19 @@
       "priorR16Number": 50,
       "production": {
         "operation": "retain",
-        "reviewStatus": "retained R22 preview",
+        "reviewStatus": "retained R21 preview",
         "sourceImage": "baseline/scene-32a"
       },
       "number": 74,
       "day": 1,
       "artChanged": false,
       "retainArt": true,
-      "feedbackLabel": "Retained R22",
+      "feedbackLabel": "Retained R21",
       "priorR17Number": 68,
       "priorR18Number": 70,
       "priorR19Number": 75,
       "priorR20Number": 74,
-      "priorR21Number": 74,
-      "priorR22Number": 74
+      "priorR21Number": 74
     },
     {
       "id": "scene-32b",
@@ -2894,20 +2820,19 @@
       "priorR16Number": 51,
       "production": {
         "operation": "retain",
-        "reviewStatus": "retained R22 preview",
+        "reviewStatus": "retained R21 preview",
         "sourceImage": "baseline/scene-32b"
       },
       "number": 75,
       "day": 1,
       "artChanged": false,
       "retainArt": true,
-      "feedbackLabel": "Retained R22",
+      "feedbackLabel": "Retained R21",
       "priorR17Number": 69,
       "priorR18Number": 71,
       "priorR19Number": 76,
       "priorR20Number": 75,
-      "priorR21Number": 75,
-      "priorR22Number": 75
+      "priorR21Number": 75
     },
     {
       "id": "scene-32b1",
@@ -2926,7 +2851,7 @@
       "image": null,
       "production": {
         "operation": "new",
-        "reviewStatus": "retained R22 preview",
+        "reviewStatus": "retained R21 preview",
         "cameraAction": "Mounted child reaction close-up framed with Papa support/Scooby ear; travel stays screen-right as approved R16scene32b; workshop not yet fully visible.",
         "sourceFeedback": "R17 construction/return expansion",
         "sourceImage": "baseline/scene-32b1"
@@ -2936,13 +2861,12 @@
       "day": 1,
       "artChanged": false,
       "retainArt": true,
-      "feedbackLabel": "Retained R22",
+      "feedbackLabel": "Retained R21",
       "priorR17Number": 70,
       "priorR18Number": 72,
       "priorR19Number": 77,
       "priorR20Number": 76,
-      "priorR21Number": 76,
-      "priorR22Number": 76
+      "priorR21Number": 76
     },
     {
       "id": "scene-320",
@@ -2965,14 +2889,13 @@
         "operation": "new",
         "cameraAction": "Wide approach extending approved workshop: pond/dam beyond right, willow/bench left, both distinct tractors on dry left staging ground; Papa/PinPin mounted on Scooby entering rightward.",
         "owner": "beaver-dam",
-        "reviewStatus": "retained R22 preview",
+        "reviewStatus": "agent-reviewed proposal; user review pending",
         "sourceFeedback": "User authorized20-image beaver dam expansion integrated into fullchapter"
       },
       "artChanged": false,
-      "retainArt": true,
+      "retainArt": false,
       "number": 77,
-      "feedbackLabel": "Retained R22",
-      "priorR22Number": 77
+      "feedbackLabel": "New"
     },
     {
       "id": "scene-321",
@@ -2995,14 +2918,13 @@
         "operation": "new",
         "cameraAction": "Mama Beaver comes onto bank with two children dripping from swimming; Beaver greets dismounting visitors. Shared eye contact, no lineup.",
         "owner": "beaver-dam",
-        "reviewStatus": "retained R22 preview",
+        "reviewStatus": "agent-reviewed proposal; user review pending",
         "sourceFeedback": "User authorized20-image beaver dam expansion integrated into fullchapter"
       },
       "artChanged": false,
-      "retainArt": true,
+      "retainArt": false,
       "number": 78,
-      "feedbackLabel": "Retained R22",
-      "priorR22Number": 78
+      "feedbackLabel": "New"
     },
     {
       "id": "scene-322",
@@ -3025,14 +2947,13 @@
         "operation": "new",
         "cameraAction": "At waterline near calm bank two kits push off and dive, Mama watches nearby; PinPin crouches on dry bank to see.",
         "owner": "beaver-dam",
-        "reviewStatus": "retained R22 preview",
+        "reviewStatus": "agent-reviewed proposal; user review pending",
         "sourceFeedback": "User authorized20-image beaver dam expansion integrated into fullchapter"
       },
       "artChanged": false,
-      "retainArt": true,
+      "retainArt": false,
       "number": 79,
-      "feedbackLabel": "Retained R22",
-      "priorR22Number": 79
+      "feedbackLabel": "New"
     },
     {
       "id": "scene-323",
@@ -3055,14 +2976,13 @@
         "operation": "new",
         "cameraAction": "Entire camera underwater in clear calm pond: exactly two beaver children paddle and bubbles trail, tails clear; no PinPin swimming.",
         "owner": "beaver-dam",
-        "reviewStatus": "retained R22 preview",
+        "reviewStatus": "agent-reviewed proposal; user review pending",
         "sourceFeedback": "User authorized20-image beaver dam expansion integrated into fullchapter"
       },
       "artChanged": false,
-      "retainArt": true,
+      "retainArt": false,
       "number": 80,
-      "feedbackLabel": "Retained R22",
-      "priorR22Number": 80
+      "feedbackLabel": "New"
     },
     {
       "id": "scene-324",
@@ -3085,14 +3005,13 @@
         "operation": "new",
         "cameraAction": "Over Mama shoulder show quiet pond and modest lodge; child on bank follows gesture; spillway visibly continues stream.",
         "owner": "beaver-dam",
-        "reviewStatus": "retained R22 preview",
+        "reviewStatus": "agent-reviewed proposal; user review pending",
         "sourceFeedback": "User authorized20-image beaver dam expansion integrated into fullchapter"
       },
       "artChanged": false,
-      "retainArt": true,
+      "retainArt": false,
       "number": 81,
-      "feedbackLabel": "Retained R22",
-      "priorR22Number": 81
+      "feedbackLabel": "New"
     },
     {
       "id": "scene-325",
@@ -3115,14 +3034,13 @@
         "operation": "new",
         "cameraAction": "Close hands: Beaver lifts loose side weave at dam edge away from deliberately clear notch; Papa inspects brace while PinPin watches.",
         "owner": "beaver-dam",
-        "reviewStatus": "retained R22 preview",
+        "reviewStatus": "agent-reviewed proposal; user review pending",
         "sourceFeedback": "User authorized20-image beaver dam expansion integrated into fullchapter"
       },
       "artChanged": false,
-      "retainArt": true,
+      "retainArt": false,
       "number": 82,
-      "feedbackLabel": "Retained R22",
-      "priorR22Number": 82
+      "feedbackLabel": "New"
     },
     {
       "id": "scene-326",
@@ -3145,14 +3063,13 @@
         "operation": "new",
         "cameraAction": "Corrected red logging tractor unloads fallen timber on dry left pad; yellow crane immediately behind cab before trailer, Beaver operating, other cast clear.",
         "owner": "beaver-dam",
-        "reviewStatus": "retained R22 preview",
+        "reviewStatus": "agent-reviewed proposal; user review pending",
         "sourceFeedback": "User authorized20-image beaver dam expansion integrated into fullchapter"
       },
       "artChanged": false,
-      "retainArt": true,
+      "retainArt": false,
       "number": 83,
-      "feedbackLabel": "Retained R22",
-      "priorR22Number": 83
+      "feedbackLabel": "New"
     },
     {
       "id": "scene-327",
@@ -3175,14 +3092,13 @@
         "operation": "new",
         "cameraAction": "Bear in blue utility tractor pulls small low wooden flatbed with prepared short boards along dry service lane; tractor engine nose left, arrives in pad; no crane.",
         "owner": "beaver-dam",
-        "reviewStatus": "retained R22 preview",
+        "reviewStatus": "agent-reviewed proposal; user review pending",
         "sourceFeedback": "User authorized20-image beaver dam expansion integrated into fullchapter"
       },
       "artChanged": false,
-      "retainArt": true,
+      "retainArt": false,
       "number": 84,
-      "feedbackLabel": "Retained R22",
-      "priorR22Number": 84
+      "feedbackLabel": "New"
     },
     {
       "id": "scene-328",
@@ -3205,14 +3121,13 @@
         "operation": "new",
         "cameraAction": "Low child-height two-shot PinPin greeting gray spectacle Elder beside established willow nursery on dry left; Elder tends rooted willow stool.",
         "owner": "beaver-dam",
-        "reviewStatus": "retained R22 preview",
+        "reviewStatus": "agent-reviewed proposal; user review pending",
         "sourceFeedback": "User authorized20-image beaver dam expansion integrated into fullchapter"
       },
       "artChanged": false,
-      "retainArt": true,
+      "retainArt": false,
       "number": 85,
-      "feedbackLabel": "Retained R22",
-      "priorR22Number": 85
+      "feedbackLabel": "New"
     },
     {
       "id": "scene-329",
@@ -3235,14 +3150,13 @@
         "operation": "new",
         "cameraAction": "Macro/close low plant growth starts: Elder staff lightly beside rootstock, tiny shoots and opening buds; PinPin face watches, no blast.",
         "owner": "beaver-dam",
-        "reviewStatus": "retained R22 preview",
+        "reviewStatus": "agent-reviewed proposal; user review pending",
         "sourceFeedback": "User authorized20-image beaver dam expansion integrated into fullchapter"
       },
       "artChanged": false,
-      "retainArt": true,
+      "retainArt": false,
       "number": 86,
-      "feedbackLabel": "Retained R22",
-      "priorR22Number": 86
+      "feedbackLabel": "New"
     },
     {
       "id": "scene-330",
@@ -3265,14 +3179,13 @@
         "operation": "new",
         "cameraAction": "Same willow rootstock/time progression medium low angle: several long straight flexible shoots grown above child, Elder calm handgesture, child tracks upward.",
         "owner": "beaver-dam-finish",
-        "reviewStatus": "retained R22 preview",
+        "reviewStatus": "agent-reviewed proposal; user review pending",
         "sourceFeedback": "User authorized20-image beaver dam expansion integrated into fullchapter"
       },
       "artChanged": false,
-      "retainArt": true,
+      "retainArt": false,
       "number": 87,
-      "feedbackLabel": "Retained R22",
-      "priorR22Number": 87
+      "feedbackLabel": "New"
     },
     {
       "id": "scene-331",
@@ -3295,447 +3208,12 @@
         "operation": "new",
         "cameraAction": "Beaver cuts selected new side shoots, Elder holds bundle; rooted stump leaves and uncut buds visible. Adult tool handling clear.",
         "owner": "beaver-dam-finish",
-        "reviewStatus": "retained R22 preview",
+        "reviewStatus": "agent-reviewed proposal; user review pending",
         "sourceFeedback": "User authorized20-image beaver dam expansion integrated into fullchapter"
       },
       "artChanged": false,
-      "retainArt": true,
+      "retainArt": false,
       "number": 88,
-      "feedbackLabel": "Retained R22",
-      "priorR22Number": 88
-    },
-    {
-      "id": "scene-340",
-      "number": 89,
-      "title": "Grow, little willow",
-      "cameraAction": "Cycle1 REGROW. ElderRIGHT has set first harvestbundle on groundrearLEFT besidebench, retrievesstaff; willowstoolcenter regrows slim shoots. BeaverLEFT sees renewedwood, not Elder intent. ChildPinPin leftrear maywatch.",
-      "paragraphs": {
-        "en": [
-          "The Elder put the branches down. ‘Now you can grow,’ he told the willow."
-        ],
-        "ru": [
-          "Старейшина положил ветки. «А теперь расти», — сказал он иве."
-        ],
-        "es": [
-          "El Anciano dejó las ramas. «Ahora puedes crecer», le dijo al sauce."
-        ]
-      },
-      "owner": "willow-gag",
-      "image": null,
-      "day": 1,
-      "priorR22Number": null,
-      "production": {
-        "operation": "new",
-        "cameraAction": "Cycle1 REGROW. ElderRIGHT has set first harvestbundle on groundrearLEFT besidebench, retrievesstaff; willowstoolcenter regrows slim shoots. BeaverLEFT sees renewedwood, not Elder intent. ChildPinPin leftrear maywatch.",
-        "owner": "willow-gag",
-        "reviewStatus": "agent-reviewed proposal; user review pending",
-        "sourceFeedback": "User authorized15-scene willow harvesting gag including retained331"
-      },
-      "artChanged": false,
-      "retainArt": false,
-      "feedbackLabel": "New"
-    },
-    {
-      "id": "scene-341",
-      "number": 90,
-      "title": "Thank you—snip",
-      "cameraAction": "Cycle1 RECUT. Match331 mediumsidecomposition, BeaverLEFT cutsfreshthinshoot, ElderRIGHT starts toobjectbut mouthjustopens. Addsecondharvestbundle tofixedrearLEFTpile.",
-      "paragraphs": {
-        "en": [
-          "‘Oh, thank you!’ said Beaver. Snip, snip!"
-        ],
-        "ru": [
-          "«О, спасибо!» — сказал Бобр. Щёлк-щёлк!"
-        ],
-        "es": [
-          "«¡Oh, gracias!», dijo Castor. ¡Clic, clic!"
-        ]
-      },
-      "owner": "willow-gag",
-      "image": null,
-      "day": 1,
-      "priorR22Number": null,
-      "production": {
-        "operation": "new",
-        "cameraAction": "Cycle1 RECUT. Match331 mediumsidecomposition, BeaverLEFT cutsfreshthinshoot, ElderRIGHT starts toobjectbut mouthjustopens. Addsecondharvestbundle tofixedrearLEFTpile.",
-        "owner": "willow-gag",
-        "reviewStatus": "agent-reviewed proposal; user review pending",
-        "sourceFeedback": "User authorized15-scene willow harvesting gag including retained331"
-      },
-      "artChanged": false,
-      "retainArt": false,
-      "feedbackLabel": "New"
-    },
-    {
-      "id": "scene-342",
-      "number": 91,
-      "title": "Up again",
-      "cameraAction": "Cycle2 REGROW. Exactsameplant/camera/mouthrhythm; Elderregrows rodsagain withcontrolledfrown, staffpointingstool. Beaverbundleswoodlookingdown, misunderstands.",
-      "paragraphs": {
-        "en": [
-          "The Elder waved his staff again. Up came more shoots."
-        ],
-        "ru": [
-          "Старейшина снова взмахнул посохом. Побеги опять потянулись вверх."
-        ],
-        "es": [
-          "El Anciano volvió a mover el bastón. Brotaron más tallos."
-        ]
-      },
-      "owner": "willow-gag",
-      "image": null,
-      "day": 1,
-      "priorR22Number": null,
-      "production": {
-        "operation": "new",
-        "cameraAction": "Cycle2 REGROW. Exactsameplant/camera/mouthrhythm; Elderregrows rodsagain withcontrolledfrown, staffpointingstool. Beaverbundleswoodlookingdown, misunderstands.",
-        "owner": "willow-gag",
-        "reviewStatus": "agent-reviewed proposal; user review pending",
-        "sourceFeedback": "User authorized15-scene willow harvesting gag including retained331"
-      },
-      "artChanged": false,
-      "retainArt": false,
-      "feedbackLabel": "New"
-    },
-    {
-      "id": "scene-343",
-      "number": 92,
-      "title": "Thank you again",
-      "cameraAction": "Cycle2 RECUT. Repeated331/341 framing, BeaverfriendlygratefulsnipswhileElderfreepawhalfraised; thirdbundlefixedpilegrows. No magicelsewhere.",
-      "paragraphs": {
-        "en": [
-          "‘Thank you again!’ Snip, snip, snip!"
-        ],
-        "ru": [
-          "«Ещё раз спасибо!» Щёлк-щёлк-щёлк!"
-        ],
-        "es": [
-          "«¡Gracias otra vez!» ¡Clic, clic, clic!"
-        ]
-      },
-      "owner": "willow-gag",
-      "image": null,
-      "day": 1,
-      "priorR22Number": null,
-      "production": {
-        "operation": "new",
-        "cameraAction": "Cycle2 RECUT. Repeated331/341 framing, BeaverfriendlygratefulsnipswhileElderfreepawhalfraised; thirdbundlefixedpilegrows. No magicelsewhere.",
-        "owner": "willow-gag",
-        "reviewStatus": "agent-reviewed proposal; user review pending",
-        "sourceFeedback": "User authorized15-scene willow harvesting gag including retained331"
-      },
-      "artChanged": false,
-      "retainArt": false,
-      "feedbackLabel": "New"
-    },
-    {
-      "id": "scene-344",
-      "number": 93,
-      "title": "Surely this time",
-      "cameraAction": "Cycle3 REGROW. CloserElderfirmbrowsstafftip atsamebase, tallshootsgrowing, Beaverlookingatwoodpile notlistening; PinPin eyestrackinteraction.",
-      "paragraphs": {
-        "en": [
-          "‘Grow,’ said the Elder, a little more firmly. The willow grew."
-        ],
-        "ru": [
-          "«Расти», — сказал Старейшина чуть строже. Ива выросла."
-        ],
-        "es": [
-          "«Crece», dijo el Anciano, un poco más serio. El sauce creció."
-        ]
-      },
-      "owner": "willow-gag",
-      "image": null,
-      "day": 1,
-      "priorR22Number": null,
-      "production": {
-        "operation": "new",
-        "cameraAction": "Cycle3 REGROW. CloserElderfirmbrowsstafftip atsamebase, tallshootsgrowing, Beaverlookingatwoodpile notlistening; PinPin eyestrackinteraction.",
-        "owner": "willow-gag",
-        "reviewStatus": "agent-reviewed proposal; user review pending",
-        "sourceFeedback": "User authorized15-scene willow harvesting gag including retained331"
-      },
-      "artChanged": false,
-      "retainArt": false,
-      "feedbackLabel": "New"
-    },
-    {
-      "id": "scene-345",
-      "number": 94,
-      "title": "Just what we need",
-      "cameraAction": "Cycle3 RECUT. Thirdgratitude+physicalsnip unmistakable; Beaveraddsfinalfreshbundle toPILEnowfourharvests incl331; Elderflatbemusedlook.",
-      "paragraphs": {
-        "en": [
-          "‘Just what we need!’ said Beaver. Snip!"
-        ],
-        "ru": [
-          "«Как раз то, что нужно!» — сказал Бобр. Щёлк!"
-        ],
-        "es": [
-          "«¡Justo lo que necesitamos!», dijo Castor. ¡Clic!"
-        ]
-      },
-      "owner": "willow-gag",
-      "image": null,
-      "day": 1,
-      "priorR22Number": null,
-      "production": {
-        "operation": "new",
-        "cameraAction": "Cycle3 RECUT. Thirdgratitude+physicalsnip unmistakable; Beaveraddsfinalfreshbundle toPILEnowfourharvests incl331; Elderflatbemusedlook.",
-        "owner": "willow-gag",
-        "reviewStatus": "agent-reviewed proposal; user review pending",
-        "sourceFeedback": "User authorized15-scene willow harvesting gag including retained331"
-      },
-      "artChanged": false,
-      "retainArt": false,
-      "feedbackLabel": "New"
-    },
-    {
-      "id": "scene-346",
-      "number": 95,
-      "title": "Quite enough branches",
-      "cameraAction": "Pilepayoff mediumwide samebank. Beaverliftslastcutarmfulontofixedgrowingpile; stumpfewstubssmallbuds; ElderRIGHT holdsstaffverticallyfreepawhip, tightmouthraisedONEbrow unimpressed, notfatigued/evil. PinPinHEDGEHOG watchesElder thenpile.",
-      "paragraphs": {
-        "en": [
-          "Beaver added another armful. The Elder looked at the pile. Then at the stump."
-        ],
-        "ru": [
-          "Бобр добавил ещё охапку. Старейшина посмотрел на кучу. Потом — на пенёк."
-        ],
-        "es": [
-          "Castor añadió otro brazado. El Anciano miró el montón. Después, el tocón."
-        ]
-      },
-      "owner": "willow-gag",
-      "image": null,
-      "day": 1,
-      "priorR22Number": null,
-      "production": {
-        "operation": "new",
-        "cameraAction": "Pilepayoff mediumwide samebank. Beaverliftslastcutarmfulontofixedgrowingpile; stumpfewstubssmallbuds; ElderRIGHT holdsstaffverticallyfreepawhip, tightmouthraisedONEbrow unimpressed, notfatigued/evil. PinPinHEDGEHOG watchesElder thenpile.",
-        "owner": "willow-gag",
-        "reviewStatus": "agent-reviewed proposal; user review pending",
-        "sourceFeedback": "User authorized15-scene willow harvesting gag including retained331"
-      },
-      "artChanged": false,
-      "retainArt": false,
-      "feedbackLabel": "New"
-    },
-    {
-      "id": "scene-347",
-      "number": 96,
-      "title": "Enough",
-      "cameraAction": "ElderRIGHT stampsstaffendonce soilnextstool/freepawcommandstop. Beaverpauses/closeshears nofear; everyonebackclear. Pilesameas346.",
-      "paragraphs": {
-        "en": [
-          "‘No—let it grow!’ said the Elder."
-        ],
-        "ru": [
-          "«Нет, пусть растёт!» — сказал Старейшина."
-        ],
-        "es": [
-          "«¡No, déjalo crecer!», dijo el Anciano."
-        ]
-      },
-      "owner": "willow-gag-finish",
-      "image": null,
-      "day": 1,
-      "priorR22Number": null,
-      "production": {
-        "operation": "new",
-        "cameraAction": "ElderRIGHT stampsstaffendonce soilnextstool/freepawcommandstop. Beaverpauses/closeshears nofear; everyonebackclear. Pilesameas346.",
-        "owner": "willow-gag-finish",
-        "reviewStatus": "agent-reviewed proposal; user review pending",
-        "sourceFeedback": "User authorized15-scene willow harvesting gag including retained331"
-      },
-      "artChanged": false,
-      "retainArt": false,
-      "feedbackLabel": "New"
-    },
-    {
-      "id": "scene-348",
-      "number": 97,
-      "title": "A trunk rises",
-      "cameraAction": "Powerfulmagic expands actualsame rootedstool into uprighttrunk; base/rootnotteleport, twostones remain, pileunchanged, castleansbackawe notterror. Stronggoldlight nofire/shockwave.",
-      "paragraphs": {
-        "en": [
-          "The ground gave a little rumble. A thick trunk rose from the roots."
-        ],
-        "ru": [
-          "Земля тихонько загудела. Из корней поднялся толстый ствол."
-        ],
-        "es": [
-          "El suelo retumbó suavemente. De las raíces se alzó un tronco grueso."
-        ]
-      },
-      "owner": "willow-gag-finish",
-      "image": null,
-      "day": 1,
-      "priorR22Number": null,
-      "production": {
-        "operation": "new",
-        "cameraAction": "Powerfulmagic expands actualsame rootedstool into uprighttrunk; base/rootnotteleport, twostones remain, pileunchanged, castleansbackawe notterror. Stronggoldlight nofire/shockwave.",
-        "owner": "willow-gag-finish",
-        "reviewStatus": "agent-reviewed proposal; user review pending",
-        "sourceFeedback": "User authorized15-scene willow harvesting gag including retained331"
-      },
-      "artChanged": false,
-      "retainArt": false,
-      "feedbackLabel": "New"
-    },
-    {
-      "id": "scene-349",
-      "number": 98,
-      "title": "Higher than the workbench",
-      "cameraAction": "Upwardtrackingwide, trunkextendsfaraboveworkbench/tractors, crownopens into sharedtreegeometry; oldmatureweepingwillowstillleft separate. Everyone followsup, shearsdown.",
-      "paragraphs": {
-        "en": [
-          "Higher than the bench. Higher than the tractors. Higher still!"
-        ],
-        "ru": [
-          "Выше верстака. Выше тракторов. Ещё выше!"
-        ],
-        "es": [
-          "Más alto que el banco. Más alto que los tractores. ¡Y todavía más!"
-        ]
-      },
-      "owner": "willow-gag-finish",
-      "image": null,
-      "day": 1,
-      "priorR22Number": null,
-      "production": {
-        "operation": "new",
-        "cameraAction": "Upwardtrackingwide, trunkextendsfaraboveworkbench/tractors, crownopens into sharedtreegeometry; oldmatureweepingwillowstillleft separate. Everyone followsup, shearsdown.",
-        "owner": "willow-gag-finish",
-        "reviewStatus": "agent-reviewed proposal; user review pending",
-        "sourceFeedback": "User authorized15-scene willow harvesting gag including retained331"
-      },
-      "artChanged": false,
-      "retainArt": false,
-      "feedbackLabel": "New"
-    },
-    {
-      "id": "scene-350",
-      "number": 99,
-      "title": "Everyone looks up",
-      "cameraAction": "Verylowgroundangle atnewtrunk base; wholecast9 positionedarc ampleair: Papa PinPin Elder Beaver Mama2kits Bear Scooby. AlllookUP, pawsgrounded, twokitsdistinct, no skylookingcamera.",
-      "paragraphs": {
-        "en": [
-          "Everyone tipped their noses up."
-        ],
-        "ru": [
-          "Все задрали носы вверх."
-        ],
-        "es": [
-          "Todos levantaron la nariz."
-        ]
-      },
-      "owner": "willow-gag-finish",
-      "image": null,
-      "day": 1,
-      "priorR22Number": null,
-      "production": {
-        "operation": "new",
-        "cameraAction": "Verylowgroundangle atnewtrunk base; wholecast9 positionedarc ampleair: Papa PinPin Elder Beaver Mama2kits Bear Scooby. AlllookUP, pawsgrounded, twokitsdistinct, no skylookingcamera.",
-        "owner": "willow-gag-finish",
-        "reviewStatus": "agent-reviewed proposal; user review pending",
-        "sourceFeedback": "User authorized15-scene willow harvesting gag including retained331"
-      },
-      "artChanged": false,
-      "retainArt": false,
-      "feedbackLabel": "New"
-    },
-    {
-      "id": "scene-351",
-      "number": 100,
-      "title": "All those leaves",
-      "cameraAction": "Trueworm-eye fromrootlookingstraightup pasthugetrunkfork togoldengreencrown, tiny leavesdancing. Partialcharacterheadsaroundframeoptional butnoduplicatefaces. Wholecrown matchesstudy.",
-      "paragraphs": {
-        "en": [
-          "Leaves rustled high, high above them."
-        ],
-        "ru": [
-          "Высоко-высоко над ними зашелестели листья."
-        ],
-        "es": [
-          "Las hojas susurraron muy, muy por encima de ellos."
-        ]
-      },
-      "owner": "willow-gag-finish",
-      "image": null,
-      "day": 1,
-      "priorR22Number": null,
-      "production": {
-        "operation": "new",
-        "cameraAction": "Trueworm-eye fromrootlookingstraightup pasthugetrunkfork togoldengreencrown, tiny leavesdancing. Partialcharacterheadsaroundframeoptional butnoduplicatefaces. Wholecrown matchesstudy.",
-        "owner": "willow-gag-finish",
-        "reviewStatus": "agent-reviewed proposal; user review pending",
-        "sourceFeedback": "User authorized15-scene willow harvesting gag including retained331"
-      },
-      "artChanged": false,
-      "retainArt": false,
-      "feedbackLabel": "New"
-    },
-    {
-      "id": "scene-352",
-      "number": 101,
-      "title": "Oh—a tree",
-      "cameraAction": "CloseBeaverhandsquietlyclosingandputtingshearsintoolpouch, facegazesupslowcomprehension, Elderedgecalmpleasedbutnotgloating. Trunk/matchingbark behind, pileleftunchanged.",
-      "paragraphs": {
-        "en": [
-          "Beaver put his shears away. ‘Oh. A tree.’"
-        ],
-        "ru": [
-          "Бобр убрал секатор. «А-а. Дерево»."
-        ],
-        "es": [
-          "Castor guardó las tijeras. «Ah. Un árbol»."
-        ]
-      },
-      "owner": "willow-gag-finish",
-      "image": null,
-      "day": 1,
-      "priorR22Number": null,
-      "production": {
-        "operation": "new",
-        "cameraAction": "CloseBeaverhandsquietlyclosingandputtingshearsintoolpouch, facegazesupslowcomprehension, Elderedgecalmpleasedbutnotgloating. Trunk/matchingbark behind, pileleftunchanged.",
-        "owner": "willow-gag-finish",
-        "reviewStatus": "agent-reviewed proposal; user review pending",
-        "sourceFeedback": "User authorized15-scene willow harvesting gag including retained331"
-      },
-      "artChanged": false,
-      "retainArt": false,
-      "feedbackLabel": "New"
-    },
-    {
-      "id": "scene-353",
-      "number": 102,
-      "title": "A very big one",
-      "cameraAction": "Lowwidewholecast9 admiringfullygrownnewtree toweringatnursery, originaloldwillowleftdistinct, pond/spillwayrightunchanged; gianttreepersistent. PinPin besidePapa pointsuptocrown, relaxedlaugh. Alladmirenotposedreader.",
-      "paragraphs": {
-        "en": [
-          "‘A very big one,’ said PinPin."
-        ],
-        "ru": [
-          "«Очень большое», — сказал Пин-Пин."
-        ],
-        "es": [
-          "«Uno muy grande», dijo PinPin."
-        ]
-      },
-      "owner": "willow-gag-finish",
-      "image": null,
-      "day": 1,
-      "priorR22Number": null,
-      "production": {
-        "operation": "new",
-        "cameraAction": "Lowwidewholecast9 admiringfullygrownnewtree toweringatnursery, originaloldwillowleftdistinct, pond/spillwayrightunchanged; gianttreepersistent. PinPin besidePapa pointsuptocrown, relaxedlaugh. Alladmirenotposedreader.",
-        "owner": "willow-gag-finish",
-        "reviewStatus": "agent-reviewed proposal; user review pending",
-        "sourceFeedback": "User authorized15-scene willow harvesting gag including retained331"
-      },
-      "artChanged": false,
-      "retainArt": false,
       "feedbackLabel": "New"
     },
     {
@@ -3759,14 +3237,13 @@
         "operation": "new",
         "cameraAction": "Papa and Bear carry fallen-timber brace to side repair; Beaver indicates notch. Gentle physical heft, not tired.",
         "owner": "beaver-dam-finish",
-        "reviewStatus": "retained R22 preview",
+        "reviewStatus": "agent-reviewed proposal; user review pending",
         "sourceFeedback": "User authorized20-image beaver dam expansion integrated into fullchapter"
       },
       "artChanged": false,
-      "retainArt": true,
-      "number": 103,
-      "feedbackLabel": "Retained R22",
-      "priorR22Number": 89
+      "retainArt": false,
+      "number": 89,
+      "feedbackLabel": "New"
     },
     {
       "id": "scene-333",
@@ -3789,14 +3266,13 @@
         "operation": "new",
         "cameraAction": "Close two paws weaving flexible shoots over-under around fixed side brace; Mama Beaver face focused, PinPin attentive. Water outlet elsewhere remains open.",
         "owner": "beaver-dam-finish",
-        "reviewStatus": "retained R22 preview",
+        "reviewStatus": "agent-reviewed proposal; user review pending",
         "sourceFeedback": "User authorized20-image beaver dam expansion integrated into fullchapter"
       },
       "artChanged": false,
-      "retainArt": true,
-      "number": 104,
-      "feedbackLabel": "Retained R22",
-      "priorR22Number": 90
+      "retainArt": false,
+      "number": 90,
+      "feedbackLabel": "New"
     },
     {
       "id": "scene-334",
@@ -3819,14 +3295,13 @@
         "operation": "new",
         "cameraAction": "PinPin and two kits make light twig relay on dry boardwalk; olderkit picks leafy branch, younger hands smallstick to PinPin.",
         "owner": "beaver-dam-finish",
-        "reviewStatus": "retained R22 preview",
+        "reviewStatus": "agent-reviewed proposal; user review pending",
         "sourceFeedback": "User authorized20-image beaver dam expansion integrated into fullchapter"
       },
       "artChanged": false,
-      "retainArt": true,
-      "number": 105,
-      "feedbackLabel": "Retained R22",
-      "priorR22Number": 91
+      "retainArt": false,
+      "number": 91,
+      "feedbackLabel": "New"
     },
     {
       "id": "scene-335",
@@ -3849,14 +3324,13 @@
         "operation": "new",
         "cameraAction": "Leafy bundle hides olderkit face, visible little feet; PinPin moves leaf aside to find eyes, youngerkit amused. No machinery nearby.",
         "owner": "beaver-dam-finish",
-        "reviewStatus": "retained R22 preview",
+        "reviewStatus": "agent-reviewed proposal; user review pending",
         "sourceFeedback": "User authorized20-image beaver dam expansion integrated into fullchapter"
       },
       "artChanged": false,
-      "retainArt": true,
-      "number": 106,
-      "feedbackLabel": "Retained R22",
-      "priorR22Number": 92
+      "retainArt": false,
+      "number": 92,
+      "feedbackLabel": "New"
     },
     {
       "id": "scene-336",
@@ -3879,14 +3353,13 @@
         "operation": "new",
         "cameraAction": "Kit passes twig to Mama who tucks finalweave; Beaver checks solidbrace withPapa. Actual completion onehandovershot.",
         "owner": "beaver-dam-finish",
-        "reviewStatus": "retained R22 preview",
+        "reviewStatus": "agent-reviewed proposal; user review pending",
         "sourceFeedback": "User authorized20-image beaver dam expansion integrated into fullchapter"
       },
       "artChanged": false,
-      "retainArt": true,
-      "number": 107,
-      "feedbackLabel": "Retained R22",
-      "priorR22Number": 93
+      "retainArt": false,
+      "number": 93,
+      "feedbackLabel": "New"
     },
     {
       "id": "scene-337",
@@ -3909,14 +3382,13 @@
         "operation": "new",
         "cameraAction": "Low spillway-level view clearwater descends through intentionallyopen notch to established stream; Mama flicks looseleaf off lip, allgazesfollowwater.",
         "owner": "beaver-dam-finish",
-        "reviewStatus": "retained R22 preview",
+        "reviewStatus": "agent-reviewed proposal; user review pending",
         "sourceFeedback": "User authorized20-image beaver dam expansion integrated into fullchapter"
       },
       "artChanged": false,
-      "retainArt": true,
-      "number": 108,
-      "feedbackLabel": "Retained R22",
-      "priorR22Number": 94
+      "retainArt": false,
+      "number": 94,
+      "feedbackLabel": "New"
     },
     {
       "id": "scene-338",
@@ -3939,14 +3411,13 @@
         "operation": "new",
         "cameraAction": "Close thoughtful child tracing directiondownwithfinger whileDad crouches followsgaze; stream foreground, repairedweavebackground.",
         "owner": "beaver-dam-finish",
-        "reviewStatus": "retained R22 preview",
+        "reviewStatus": "agent-reviewed proposal; user review pending",
         "sourceFeedback": "User authorized20-image beaver dam expansion integrated into fullchapter"
       },
       "artChanged": false,
-      "retainArt": true,
-      "number": 109,
-      "feedbackLabel": "Retained R22",
-      "priorR22Number": 95
+      "retainArt": false,
+      "number": 95,
+      "feedbackLabel": "New"
     },
     {
       "id": "scene-339",
@@ -3972,11 +3443,10 @@
         "reviewStatus": "agent-reviewed proposal; user review pending",
         "sourceFeedback": "User authorized20-image beaver dam expansion integrated into fullchapter"
       },
-      "artChanged": true,
+      "artChanged": false,
       "retainArt": false,
-      "number": 110,
-      "feedbackLabel": "Background continuity repair",
-      "priorR22Number": 96
+      "number": 96,
+      "feedbackLabel": "New"
     },
     {
       "id": "scene-32d",
@@ -4002,20 +3472,19 @@
       "priorR16Number": 53,
       "production": {
         "operation": "retain",
-        "reviewStatus": "agent-reviewed proposal; user review pending",
+        "reviewStatus": "retained R21 preview",
         "sourceImage": "baseline/scene-32d"
       },
-      "number": 111,
+      "number": 97,
       "day": 1,
-      "artChanged": true,
-      "retainArt": false,
-      "feedbackLabel": "Background continuity repair",
+      "artChanged": false,
+      "retainArt": true,
+      "feedbackLabel": "Retained R21",
       "priorR17Number": 76,
       "priorR18Number": 78,
       "priorR19Number": 83,
       "priorR20Number": 82,
-      "priorR21Number": 82,
-      "priorR22Number": 97
+      "priorR21Number": 82
     },
     {
       "id": "scene-32e",
@@ -4041,20 +3510,19 @@
       "priorR16Number": 54,
       "production": {
         "operation": "retain",
-        "reviewStatus": "retained R22 preview",
+        "reviewStatus": "retained R21 preview",
         "sourceImage": "baseline/scene-32e"
       },
-      "number": 112,
+      "number": 98,
       "day": 1,
       "artChanged": false,
       "retainArt": true,
-      "feedbackLabel": "Retained R22",
+      "feedbackLabel": "Retained R21",
       "priorR17Number": 77,
       "priorR18Number": 79,
       "priorR19Number": 84,
       "priorR20Number": 83,
-      "priorR21Number": 83,
-      "priorR22Number": 98
+      "priorR21Number": 83
     },
     {
       "id": "scene-32f",
@@ -4080,20 +3548,19 @@
       "priorR16Number": 55,
       "production": {
         "operation": "retain",
-        "reviewStatus": "retained R22 preview",
+        "reviewStatus": "retained R21 preview",
         "sourceImage": "baseline/scene-32f"
       },
-      "number": 113,
+      "number": 99,
       "day": 1,
       "artChanged": false,
       "retainArt": true,
-      "feedbackLabel": "Retained R22",
+      "feedbackLabel": "Retained R21",
       "priorR17Number": 78,
       "priorR18Number": 80,
       "priorR19Number": 85,
       "priorR20Number": 84,
-      "priorR21Number": 84,
-      "priorR22Number": 99
+      "priorR21Number": 84
     },
     {
       "id": "scene-32g",
@@ -4119,20 +3586,19 @@
       "priorR16Number": 56,
       "production": {
         "operation": "retain",
-        "reviewStatus": "retained R22 preview",
+        "reviewStatus": "retained R21 preview",
         "sourceImage": "baseline/scene-32g"
       },
-      "number": 114,
+      "number": 100,
       "day": 1,
       "artChanged": false,
       "retainArt": true,
-      "feedbackLabel": "Retained R22",
+      "feedbackLabel": "Retained R21",
       "priorR17Number": 79,
       "priorR18Number": 81,
       "priorR19Number": 86,
       "priorR20Number": 85,
-      "priorR21Number": 85,
-      "priorR22Number": 100
+      "priorR21Number": 85
     },
     {
       "id": "scene-32h",
@@ -4158,20 +3624,19 @@
       "priorR16Number": 57,
       "production": {
         "operation": "retain",
-        "reviewStatus": "retained R22 preview",
+        "reviewStatus": "retained R21 preview",
         "sourceImage": "baseline/scene-32h"
       },
-      "number": 115,
+      "number": 101,
       "day": 1,
       "artChanged": false,
       "retainArt": true,
-      "feedbackLabel": "Retained R22",
+      "feedbackLabel": "Retained R21",
       "priorR17Number": 80,
       "priorR18Number": 82,
       "priorR19Number": 87,
       "priorR20Number": 86,
-      "priorR21Number": 86,
-      "priorR22Number": 101
+      "priorR21Number": 86
     },
     {
       "id": "scene-32h1",
@@ -4190,23 +3655,22 @@
       "image": null,
       "production": {
         "operation": "new",
-        "reviewStatus": "retained R22 preview",
+        "reviewStatus": "retained R21 preview",
         "cameraAction": "Lateral medium-wide Bear carrying gutter sections with balancedtwohandgrip, Papa directs; no fatigue, no random giant timber beyonddogload.",
         "sourceFeedback": "R17 construction/return expansion",
         "sourceImage": "baseline/scene-32h1"
       },
       "priorR16Number": null,
-      "number": 116,
+      "number": 102,
       "day": 1,
       "artChanged": false,
       "retainArt": true,
-      "feedbackLabel": "Retained R22",
+      "feedbackLabel": "Retained R21",
       "priorR17Number": 81,
       "priorR18Number": 83,
       "priorR19Number": 88,
       "priorR20Number": 87,
-      "priorR21Number": 87,
-      "priorR22Number": 102
+      "priorR21Number": 87
     },
     {
       "id": "scene-32h2",
@@ -4225,23 +3689,22 @@
       "image": null,
       "production": {
         "operation": "new",
-        "reviewStatus": "retained R22 preview",
+        "reviewStatus": "retained R21 preview",
         "cameraAction": "Top-down35deg layout on dryground, action matching prepared prototypeparts; shouldersbodiesreadable; childactivelysortsnotposed.",
         "sourceFeedback": "R17 construction/return expansion",
         "sourceImage": "baseline/scene-32h2"
       },
       "priorR16Number": null,
-      "number": 117,
+      "number": 103,
       "day": 1,
       "artChanged": false,
       "retainArt": true,
-      "feedbackLabel": "Retained R22",
+      "feedbackLabel": "Retained R21",
       "priorR17Number": 82,
       "priorR18Number": 84,
       "priorR19Number": 89,
       "priorR20Number": 88,
-      "priorR21Number": 88,
-      "priorR22Number": 103
+      "priorR21Number": 88
     },
     {
       "id": "scene-32h3",
@@ -4260,23 +3723,22 @@
       "image": null,
       "production": {
         "operation": "new",
-        "reviewStatus": "retained R22 preview",
+        "reviewStatus": "retained R21 preview",
         "cameraAction": "Closeup craftsmanship + Beaverface/Papa listener, finalreadiness beat not repeatedlargeflowtest; parkedblue beyondsoftbackgroundonlywherevisible.",
         "sourceFeedback": "R17 construction/return expansion",
         "sourceImage": "baseline/scene-32h3"
       },
       "priorR16Number": null,
-      "number": 118,
+      "number": 104,
       "day": 1,
       "artChanged": false,
       "retainArt": true,
-      "feedbackLabel": "Retained R22",
+      "feedbackLabel": "Retained R21",
       "priorR17Number": 83,
       "priorR18Number": 85,
       "priorR19Number": 90,
       "priorR20Number": 89,
-      "priorR21Number": 89,
-      "priorR22Number": 104
+      "priorR21Number": 89
     },
     {
       "id": "scene-32i",
@@ -4302,20 +3764,19 @@
       "priorR16Number": 58,
       "production": {
         "operation": "retain",
-        "reviewStatus": "retained R22 preview",
+        "reviewStatus": "retained R21 preview",
         "sourceImage": "baseline/scene-32i"
       },
-      "number": 119,
+      "number": 105,
       "day": 1,
       "artChanged": false,
       "retainArt": true,
-      "feedbackLabel": "Retained R22",
+      "feedbackLabel": "Retained R21",
       "priorR17Number": 84,
       "priorR18Number": 86,
       "priorR19Number": 91,
       "priorR20Number": 90,
-      "priorR21Number": 90,
-      "priorR22Number": 105
+      "priorR21Number": 90
     },
     {
       "id": "scene-32i1",
@@ -4334,23 +3795,22 @@
       "image": null,
       "production": {
         "operation": "new",
-        "reviewStatus": "retained R22 preview",
+        "reviewStatus": "retained R21 preview",
         "cameraAction": "Full side Scoobymount scale with Papa/PinPin and smallbalancedbundles; childfeetnotfusedinto cargo, visible support contact, nooversizedload.",
         "sourceFeedback": "R17 construction/return expansion",
         "sourceImage": "baseline/scene-32i1"
       },
       "priorR16Number": null,
-      "number": 120,
+      "number": 106,
       "day": 1,
       "artChanged": false,
       "retainArt": true,
-      "feedbackLabel": "Retained R22",
+      "feedbackLabel": "Retained R21",
       "priorR17Number": 85,
       "priorR18Number": 87,
       "priorR19Number": 92,
       "priorR20Number": 91,
-      "priorR21Number": 91,
-      "priorR22Number": 106
+      "priorR21Number": 91
     },
     {
       "id": "scene-32i2",
@@ -4369,23 +3829,22 @@
       "image": null,
       "production": {
         "operation": "new",
-        "reviewStatus": "agent-reviewed proposal; user review pending",
+        "reviewStatus": "retained R21 preview",
         "cameraAction": "Reverse angle departing towardestablishedhome trail; toolnotweapon no sharpedge atchild; blue parkedtractor in samelocation, worksite behind.",
         "sourceFeedback": "R17 construction/return expansion",
         "sourceImage": "baseline/scene-32i2"
       },
       "priorR16Number": null,
-      "number": 121,
+      "number": 107,
       "day": 1,
-      "artChanged": true,
-      "retainArt": false,
-      "feedbackLabel": "Background continuity repair",
+      "artChanged": false,
+      "retainArt": true,
+      "feedbackLabel": "Retained R21",
       "priorR17Number": 86,
       "priorR18Number": 88,
       "priorR19Number": 93,
       "priorR20Number": 92,
-      "priorR21Number": 92,
-      "priorR22Number": 107
+      "priorR21Number": 92
     },
     {
       "id": "scene-32i3",
@@ -4404,23 +3863,22 @@
       "image": null,
       "production": {
         "operation": "new",
-        "reviewStatus": "retained R22 preview",
+        "reviewStatus": "retained R21 preview",
         "cameraAction": "Homewardride1wide rearthreequarter newreturndirection explicitreverse180establishedfarewell, mountedPapa+child+balancedwood unchanged.",
         "sourceFeedback": "R17 construction/return expansion",
         "sourceImage": "baseline/scene-32i3"
       },
       "priorR16Number": null,
-      "number": 122,
+      "number": 108,
       "day": 1,
       "artChanged": false,
       "retainArt": true,
-      "feedbackLabel": "Retained R22",
+      "feedbackLabel": "Retained R21",
       "priorR17Number": 87,
       "priorR18Number": 89,
       "priorR19Number": 94,
       "priorR20Number": 93,
-      "priorR21Number": 93,
-      "priorR22Number": 108
+      "priorR21Number": 93
     },
     {
       "id": "scene-32i4",
@@ -4439,23 +3897,22 @@
       "image": null,
       "production": {
         "operation": "new",
-        "reviewStatus": "retained R22 preview",
+        "reviewStatus": "retained R21 preview",
         "cameraAction": "Homewardride2medium side activecomic synchronizedduck, dogkeepsnormalwalk; branchclearsquills nofacescrushed, nofatigue.",
         "sourceFeedback": "R17 construction/return expansion",
         "sourceImage": "baseline/scene-32i4"
       },
       "priorR16Number": null,
-      "number": 123,
+      "number": 109,
       "day": 1,
       "artChanged": false,
       "retainArt": true,
-      "feedbackLabel": "Retained R22",
+      "feedbackLabel": "Retained R21",
       "priorR17Number": 88,
       "priorR18Number": 90,
       "priorR19Number": 95,
       "priorR20Number": 94,
-      "priorR21Number": 94,
-      "priorR22Number": 109
+      "priorR21Number": 94
     },
     {
       "id": "scene-32i5",
@@ -4474,23 +3931,22 @@
       "image": null,
       "production": {
         "operation": "new",
-        "reviewStatus": "retained R22 preview",
+        "reviewStatus": "retained R21 preview",
         "cameraAction": "Homewardride3close child/Papa actual gentlepawtapping, piecessecured notfalling, attentiveaffection earnedinteraction.",
         "sourceFeedback": "R17 construction/return expansion",
         "sourceImage": "baseline/scene-32i5"
       },
       "priorR16Number": null,
-      "number": 124,
+      "number": 110,
       "day": 1,
       "artChanged": false,
       "retainArt": true,
-      "feedbackLabel": "Retained R22",
+      "feedbackLabel": "Retained R21",
       "priorR17Number": 89,
       "priorR18Number": 91,
       "priorR19Number": 96,
       "priorR20Number": 95,
-      "priorR21Number": 95,
-      "priorR22Number": 110
+      "priorR21Number": 95
     },
     {
       "id": "scene-32i6",
@@ -4509,23 +3965,22 @@
       "image": null,
       "production": {
         "operation": "new",
-        "reviewStatus": "retained R22 preview",
+        "reviewStatus": "retained R21 preview",
         "cameraAction": "Homewardride4overridersshoulder canonicalhouse roof/tree orientation, doglooksdestination; housefronttwo roundwindowscentergreendoor.",
         "sourceFeedback": "R17 construction/return expansion",
         "sourceImage": "baseline/scene-32i6"
       },
       "priorR16Number": null,
-      "number": 125,
+      "number": 111,
       "day": 1,
       "artChanged": false,
       "retainArt": true,
-      "feedbackLabel": "Retained R22",
+      "feedbackLabel": "Retained R21",
       "priorR17Number": 90,
       "priorR18Number": 92,
       "priorR19Number": 97,
       "priorR20Number": 96,
-      "priorR21Number": 96,
-      "priorR22Number": 111
+      "priorR21Number": 96
     },
     {
       "id": "scene-32i7",
@@ -4544,23 +3999,22 @@
       "image": null,
       "production": {
         "operation": "new",
-        "reviewStatus": "retained R22 preview",
+        "reviewStatus": "retained R21 preview",
         "cameraAction": "Homewardride5thresholdarrivalfullcast scale Scoobyoutsidefullbody, Mama insideactualfrontdoor; water alreadyspilling/routedtemporarytowels originalcurrentbeforeaqueduct, notriver importedhome.",
         "sourceFeedback": "R17 construction/return expansion",
         "sourceImage": "baseline/scene-32i7"
       },
       "priorR16Number": null,
-      "number": 126,
+      "number": 112,
       "day": 1,
       "artChanged": false,
       "retainArt": true,
-      "feedbackLabel": "Retained R22",
+      "feedbackLabel": "Retained R21",
       "priorR17Number": 91,
       "priorR18Number": 93,
       "priorR19Number": 98,
       "priorR20Number": 97,
-      "priorR21Number": 97,
-      "priorR22Number": 112
+      "priorR21Number": 97
     },
     {
       "id": "scene-32j",
@@ -4586,20 +4040,19 @@
       "priorR16Number": 59,
       "production": {
         "operation": "retain",
-        "reviewStatus": "retained R22 preview",
+        "reviewStatus": "retained R21 preview",
         "sourceImage": "baseline/scene-32j"
       },
-      "number": 127,
+      "number": 113,
       "day": 1,
       "artChanged": false,
       "retainArt": true,
-      "feedbackLabel": "Retained R22",
+      "feedbackLabel": "Retained R21",
       "priorR17Number": 92,
       "priorR18Number": 94,
       "priorR19Number": 99,
       "priorR20Number": 98,
-      "priorR21Number": 98,
-      "priorR22Number": 113
+      "priorR21Number": 98
     },
     {
       "id": "scene-33",
@@ -4625,20 +4078,19 @@
       "priorR16Number": 60,
       "production": {
         "operation": "retain",
-        "reviewStatus": "retained R22 preview",
+        "reviewStatus": "retained R21 preview",
         "sourceImage": "baseline/scene-33"
       },
-      "number": 128,
+      "number": 114,
       "day": 1,
       "artChanged": false,
       "retainArt": true,
-      "feedbackLabel": "Retained R22",
+      "feedbackLabel": "Retained R21",
       "priorR17Number": 93,
       "priorR18Number": 95,
       "priorR19Number": 100,
       "priorR20Number": 99,
-      "priorR21Number": 99,
-      "priorR22Number": 114
+      "priorR21Number": 99
     },
     {
       "id": "scene-34",
@@ -4664,20 +4116,19 @@
       "priorR16Number": 61,
       "production": {
         "operation": "retain",
-        "reviewStatus": "retained R22 preview",
+        "reviewStatus": "retained R21 preview",
         "sourceImage": "baseline/scene-34"
       },
-      "number": 129,
+      "number": 115,
       "day": 1,
       "artChanged": false,
       "retainArt": true,
-      "feedbackLabel": "Retained R22",
+      "feedbackLabel": "Retained R21",
       "priorR17Number": 94,
       "priorR18Number": 96,
       "priorR19Number": 101,
       "priorR20Number": 100,
-      "priorR21Number": 100,
-      "priorR22Number": 115
+      "priorR21Number": 100
     },
     {
       "id": "scene-35",
@@ -4703,20 +4154,19 @@
       "priorR16Number": 62,
       "production": {
         "operation": "retain",
-        "reviewStatus": "retained R22 preview",
+        "reviewStatus": "retained R21 preview",
         "sourceImage": "baseline/scene-35"
       },
-      "number": 130,
+      "number": 116,
       "day": 1,
       "artChanged": false,
       "retainArt": true,
-      "feedbackLabel": "Retained R22",
+      "feedbackLabel": "Retained R21",
       "priorR17Number": 95,
       "priorR18Number": 97,
       "priorR19Number": 102,
       "priorR20Number": 101,
-      "priorR21Number": 101,
-      "priorR22Number": 116
+      "priorR21Number": 101
     },
     {
       "id": "scene-36",
@@ -4742,20 +4192,19 @@
       "priorR16Number": 63,
       "production": {
         "operation": "retain",
-        "reviewStatus": "retained R22 preview",
+        "reviewStatus": "retained R21 preview",
         "sourceImage": "baseline/scene-36"
       },
-      "number": 131,
+      "number": 117,
       "day": 1,
       "artChanged": false,
       "retainArt": true,
-      "feedbackLabel": "Retained R22",
+      "feedbackLabel": "Retained R21",
       "priorR17Number": 96,
       "priorR18Number": 98,
       "priorR19Number": 103,
       "priorR20Number": 102,
-      "priorR21Number": 102,
-      "priorR22Number": 117
+      "priorR21Number": 102
     },
     {
       "id": "scene-37",
@@ -4781,20 +4230,19 @@
       "priorR16Number": 64,
       "production": {
         "operation": "retain",
-        "reviewStatus": "retained R22 preview",
+        "reviewStatus": "retained R21 preview",
         "sourceImage": "baseline/scene-37"
       },
-      "number": 132,
+      "number": 118,
       "day": 1,
       "artChanged": false,
       "retainArt": true,
-      "feedbackLabel": "Retained R22",
+      "feedbackLabel": "Retained R21",
       "priorR17Number": 97,
       "priorR18Number": 99,
       "priorR19Number": 104,
       "priorR20Number": 103,
-      "priorR21Number": 103,
-      "priorR22Number": 118
+      "priorR21Number": 103
     },
     {
       "id": "scene-38",
@@ -4820,20 +4268,19 @@
       "priorR16Number": 65,
       "production": {
         "operation": "retain",
-        "reviewStatus": "retained R22 preview",
+        "reviewStatus": "retained R21 preview",
         "sourceImage": "baseline/scene-38"
       },
-      "number": 133,
+      "number": 119,
       "day": 1,
       "artChanged": false,
       "retainArt": true,
-      "feedbackLabel": "Retained R22",
+      "feedbackLabel": "Retained R21",
       "priorR17Number": 98,
       "priorR18Number": 100,
       "priorR19Number": 105,
       "priorR20Number": 104,
-      "priorR21Number": 104,
-      "priorR22Number": 119
+      "priorR21Number": 104
     },
     {
       "id": "scene-39",
@@ -4859,20 +4306,19 @@
       "priorR16Number": 66,
       "production": {
         "operation": "retain",
-        "reviewStatus": "retained R22 preview",
+        "reviewStatus": "retained R21 preview",
         "sourceImage": "baseline/scene-39"
       },
-      "number": 134,
+      "number": 120,
       "day": 1,
       "artChanged": false,
       "retainArt": true,
-      "feedbackLabel": "Retained R22",
+      "feedbackLabel": "Retained R21",
       "priorR17Number": 99,
       "priorR18Number": 101,
       "priorR19Number": 106,
       "priorR20Number": 105,
-      "priorR21Number": 105,
-      "priorR22Number": 120
+      "priorR21Number": 105
     },
     {
       "id": "scene-40",
@@ -4898,20 +4344,19 @@
       "priorR16Number": 67,
       "production": {
         "operation": "retain",
-        "reviewStatus": "retained R22 preview",
+        "reviewStatus": "retained R21 preview",
         "sourceImage": "baseline/scene-40"
       },
-      "number": 135,
+      "number": 121,
       "day": 1,
       "artChanged": false,
       "retainArt": true,
-      "feedbackLabel": "Retained R22",
+      "feedbackLabel": "Retained R21",
       "priorR17Number": 100,
       "priorR18Number": 102,
       "priorR19Number": 107,
       "priorR20Number": 106,
-      "priorR21Number": 106,
-      "priorR22Number": 121
+      "priorR21Number": 106
     },
     {
       "id": "scene-41",
@@ -4937,20 +4382,19 @@
       "priorR16Number": 68,
       "production": {
         "operation": "retain",
-        "reviewStatus": "retained R22 preview",
+        "reviewStatus": "retained R21 preview",
         "sourceImage": "baseline/scene-41"
       },
-      "number": 136,
+      "number": 122,
       "day": 2,
       "artChanged": false,
       "retainArt": true,
-      "feedbackLabel": "Retained R22",
+      "feedbackLabel": "Retained R21",
       "priorR17Number": 101,
       "priorR18Number": 103,
       "priorR19Number": 108,
       "priorR20Number": 107,
-      "priorR21Number": 107,
-      "priorR22Number": 122
+      "priorR21Number": 107
     },
     {
       "id": "scene-42",
@@ -4976,20 +4420,19 @@
       "priorR16Number": 69,
       "production": {
         "operation": "retain",
-        "reviewStatus": "retained R22 preview",
+        "reviewStatus": "retained R21 preview",
         "sourceImage": "baseline/scene-42"
       },
-      "number": 137,
+      "number": 123,
       "day": 2,
       "artChanged": false,
       "retainArt": true,
-      "feedbackLabel": "Retained R22",
+      "feedbackLabel": "Retained R21",
       "priorR17Number": 102,
       "priorR18Number": 104,
       "priorR19Number": 109,
       "priorR20Number": 108,
-      "priorR21Number": 108,
-      "priorR22Number": 123
+      "priorR21Number": 108
     },
     {
       "id": "scene-43",
@@ -5015,20 +4458,19 @@
       "priorR16Number": 70,
       "production": {
         "operation": "retain",
-        "reviewStatus": "retained R22 preview",
+        "reviewStatus": "retained R21 preview",
         "sourceImage": "baseline/scene-43"
       },
-      "number": 138,
+      "number": 124,
       "day": 2,
       "artChanged": false,
       "retainArt": true,
-      "feedbackLabel": "Retained R22",
+      "feedbackLabel": "Retained R21",
       "priorR17Number": 103,
       "priorR18Number": 105,
       "priorR19Number": 110,
       "priorR20Number": 109,
-      "priorR21Number": 109,
-      "priorR22Number": 124
+      "priorR21Number": 109
     },
     {
       "id": "scene-44",
@@ -5054,20 +4496,19 @@
       "priorR16Number": 71,
       "production": {
         "operation": "retain",
-        "reviewStatus": "retained R22 preview",
+        "reviewStatus": "retained R21 preview",
         "sourceImage": "baseline/scene-44"
       },
-      "number": 139,
+      "number": 125,
       "day": 2,
       "artChanged": false,
       "retainArt": true,
-      "feedbackLabel": "Retained R22",
+      "feedbackLabel": "Retained R21",
       "priorR17Number": 104,
       "priorR18Number": 106,
       "priorR19Number": 111,
       "priorR20Number": 110,
-      "priorR21Number": 110,
-      "priorR22Number": 125
+      "priorR21Number": 110
     },
     {
       "id": "scene-45",
@@ -5093,20 +4534,19 @@
       "priorR16Number": 72,
       "production": {
         "operation": "retain",
-        "reviewStatus": "retained R22 preview",
+        "reviewStatus": "retained R21 preview",
         "sourceImage": "baseline/scene-45"
       },
-      "number": 140,
+      "number": 126,
       "day": 2,
       "artChanged": false,
       "retainArt": true,
-      "feedbackLabel": "Retained R22",
+      "feedbackLabel": "Retained R21",
       "priorR17Number": 105,
       "priorR18Number": 107,
       "priorR19Number": 112,
       "priorR20Number": 111,
-      "priorR21Number": 111,
-      "priorR22Number": 126
+      "priorR21Number": 111
     },
     {
       "id": "scene-46",
@@ -5132,20 +4572,19 @@
       "priorR16Number": 73,
       "production": {
         "operation": "retain",
-        "reviewStatus": "retained R22 preview",
+        "reviewStatus": "retained R21 preview",
         "sourceImage": "baseline/scene-46"
       },
-      "number": 141,
+      "number": 127,
       "day": 2,
       "artChanged": false,
       "retainArt": true,
-      "feedbackLabel": "Retained R22",
+      "feedbackLabel": "Retained R21",
       "priorR17Number": 106,
       "priorR18Number": 108,
       "priorR19Number": 113,
       "priorR20Number": 112,
-      "priorR21Number": 112,
-      "priorR22Number": 127
+      "priorR21Number": 112
     },
     {
       "id": "scene-47",
@@ -5171,20 +4610,19 @@
       "priorR16Number": 74,
       "production": {
         "operation": "retain",
-        "reviewStatus": "retained R22 preview",
+        "reviewStatus": "retained R21 preview",
         "sourceImage": "baseline/scene-47"
       },
-      "number": 142,
+      "number": 128,
       "day": 2,
       "artChanged": false,
       "retainArt": true,
-      "feedbackLabel": "Retained R22",
+      "feedbackLabel": "Retained R21",
       "priorR17Number": 107,
       "priorR18Number": 109,
       "priorR19Number": 114,
       "priorR20Number": 113,
-      "priorR21Number": 113,
-      "priorR22Number": 128
+      "priorR21Number": 113
     },
     {
       "id": "scene-48",
@@ -5210,20 +4648,19 @@
       "priorR16Number": 75,
       "production": {
         "operation": "retain",
-        "reviewStatus": "retained R22 preview",
+        "reviewStatus": "retained R21 preview",
         "sourceImage": "baseline/scene-48"
       },
-      "number": 143,
+      "number": 129,
       "day": 2,
       "artChanged": false,
       "retainArt": true,
-      "feedbackLabel": "Retained R22",
+      "feedbackLabel": "Retained R21",
       "priorR17Number": 108,
       "priorR18Number": 110,
       "priorR19Number": 115,
       "priorR20Number": 114,
-      "priorR21Number": 114,
-      "priorR22Number": 129
+      "priorR21Number": 114
     },
     {
       "id": "scene-48a",
@@ -5249,20 +4686,19 @@
       "priorR16Number": 76,
       "production": {
         "operation": "retain",
-        "reviewStatus": "retained R22 preview",
+        "reviewStatus": "retained R21 preview",
         "sourceImage": "baseline/scene-48a"
       },
-      "number": 144,
+      "number": 130,
       "day": 2,
       "artChanged": false,
       "retainArt": true,
-      "feedbackLabel": "Retained R22",
+      "feedbackLabel": "Retained R21",
       "priorR17Number": 109,
       "priorR18Number": 111,
       "priorR19Number": 116,
       "priorR20Number": 115,
-      "priorR21Number": 115,
-      "priorR22Number": 130
+      "priorR21Number": 115
     },
     {
       "id": "scene-49",
@@ -5288,20 +4724,19 @@
       "priorR16Number": 77,
       "production": {
         "operation": "retain",
-        "reviewStatus": "retained R22 preview",
+        "reviewStatus": "retained R21 preview",
         "sourceImage": "baseline/scene-49"
       },
-      "number": 145,
+      "number": 131,
       "day": 2,
       "artChanged": false,
       "retainArt": true,
-      "feedbackLabel": "Retained R22",
+      "feedbackLabel": "Retained R21",
       "priorR17Number": 110,
       "priorR18Number": 112,
       "priorR19Number": 117,
       "priorR20Number": 116,
-      "priorR21Number": 116,
-      "priorR22Number": 131
+      "priorR21Number": 116
     },
     {
       "id": "scene-52",
@@ -5327,20 +4762,19 @@
       "priorR16Number": 78,
       "production": {
         "operation": "retain",
-        "reviewStatus": "retained R22 preview",
+        "reviewStatus": "retained R21 preview",
         "sourceImage": "baseline/scene-52"
       },
-      "number": 146,
+      "number": 132,
       "day": 2,
       "artChanged": false,
       "retainArt": true,
-      "feedbackLabel": "Retained R22",
+      "feedbackLabel": "Retained R21",
       "priorR17Number": 111,
       "priorR18Number": 113,
       "priorR19Number": 118,
       "priorR20Number": 117,
-      "priorR21Number": 117,
-      "priorR22Number": 132
+      "priorR21Number": 117
     },
     {
       "id": "scene-53",
@@ -5366,20 +4800,19 @@
       "priorR16Number": 79,
       "production": {
         "operation": "retain",
-        "reviewStatus": "retained R22 preview",
+        "reviewStatus": "retained R21 preview",
         "sourceImage": "baseline/scene-53"
       },
-      "number": 147,
+      "number": 133,
       "day": 2,
       "artChanged": false,
       "retainArt": true,
-      "feedbackLabel": "Retained R22",
+      "feedbackLabel": "Retained R21",
       "priorR17Number": 112,
       "priorR18Number": 114,
       "priorR19Number": 119,
       "priorR20Number": 118,
-      "priorR21Number": 118,
-      "priorR22Number": 133
+      "priorR21Number": 118
     },
     {
       "id": "scene-54",
@@ -5405,20 +4838,19 @@
       "priorR16Number": 80,
       "production": {
         "operation": "retain",
-        "reviewStatus": "retained R22 preview",
+        "reviewStatus": "retained R21 preview",
         "sourceImage": "baseline/scene-54"
       },
-      "number": 148,
+      "number": 134,
       "day": 2,
       "artChanged": false,
       "retainArt": true,
-      "feedbackLabel": "Retained R22",
+      "feedbackLabel": "Retained R21",
       "priorR17Number": 113,
       "priorR18Number": 115,
       "priorR19Number": 120,
       "priorR20Number": 119,
-      "priorR21Number": 119,
-      "priorR22Number": 134
+      "priorR21Number": 119
     },
     {
       "id": "scene-54a",
@@ -5444,20 +4876,19 @@
       "priorR16Number": 81,
       "production": {
         "operation": "retain",
-        "reviewStatus": "retained R22 preview",
+        "reviewStatus": "retained R21 preview",
         "sourceImage": "baseline/scene-54a"
       },
-      "number": 149,
+      "number": 135,
       "day": 3,
       "artChanged": false,
       "retainArt": true,
-      "feedbackLabel": "Retained R22",
+      "feedbackLabel": "Retained R21",
       "priorR17Number": 114,
       "priorR18Number": 116,
       "priorR19Number": 121,
       "priorR20Number": 120,
-      "priorR21Number": 120,
-      "priorR22Number": 135
+      "priorR21Number": 120
     },
     {
       "id": "scene-55",
@@ -5483,20 +4914,19 @@
       "priorR16Number": 82,
       "production": {
         "operation": "retain",
-        "reviewStatus": "retained R22 preview",
+        "reviewStatus": "retained R21 preview",
         "sourceImage": "baseline/scene-55"
       },
-      "number": 150,
+      "number": 136,
       "day": 3,
       "artChanged": false,
       "retainArt": true,
-      "feedbackLabel": "Retained R22",
+      "feedbackLabel": "Retained R21",
       "priorR17Number": 115,
       "priorR18Number": 117,
       "priorR19Number": 122,
       "priorR20Number": 121,
-      "priorR21Number": 121,
-      "priorR22Number": 136
+      "priorR21Number": 121
     },
     {
       "id": "scene-55a",
@@ -5522,20 +4952,19 @@
       "priorR16Number": 83,
       "production": {
         "operation": "retain",
-        "reviewStatus": "retained R22 preview",
+        "reviewStatus": "retained R21 preview",
         "sourceImage": "baseline/scene-55a"
       },
-      "number": 151,
+      "number": 137,
       "day": 3,
       "artChanged": false,
       "retainArt": true,
-      "feedbackLabel": "Retained R22",
+      "feedbackLabel": "Retained R21",
       "priorR17Number": 116,
       "priorR18Number": 118,
       "priorR19Number": 123,
       "priorR20Number": 122,
-      "priorR21Number": 122,
-      "priorR22Number": 137
+      "priorR21Number": 122
     },
     {
       "id": "scene-55b",
@@ -5561,20 +4990,19 @@
       "priorR16Number": 84,
       "production": {
         "operation": "retain",
-        "reviewStatus": "retained R22 preview",
+        "reviewStatus": "retained R21 preview",
         "sourceImage": "baseline/scene-55b"
       },
-      "number": 152,
+      "number": 138,
       "day": 3,
       "artChanged": false,
       "retainArt": true,
-      "feedbackLabel": "Retained R22",
+      "feedbackLabel": "Retained R21",
       "priorR17Number": 117,
       "priorR18Number": 119,
       "priorR19Number": 124,
       "priorR20Number": 123,
-      "priorR21Number": 123,
-      "priorR22Number": 138
+      "priorR21Number": 123
     },
     {
       "id": "scene-55c",
@@ -5600,20 +5028,19 @@
       "priorR16Number": 85,
       "production": {
         "operation": "retain",
-        "reviewStatus": "retained R22 preview",
+        "reviewStatus": "retained R21 preview",
         "sourceImage": "baseline/scene-55c"
       },
-      "number": 153,
+      "number": 139,
       "day": 3,
       "artChanged": false,
       "retainArt": true,
-      "feedbackLabel": "Retained R22",
+      "feedbackLabel": "Retained R21",
       "priorR17Number": 118,
       "priorR18Number": 120,
       "priorR19Number": 125,
       "priorR20Number": 124,
-      "priorR21Number": 124,
-      "priorR22Number": 139
+      "priorR21Number": 124
     },
     {
       "id": "scene-57",
@@ -5639,20 +5066,19 @@
       "priorR16Number": 86,
       "production": {
         "operation": "retain",
-        "reviewStatus": "retained R22 preview",
+        "reviewStatus": "retained R21 preview",
         "sourceImage": "baseline/scene-57"
       },
-      "number": 154,
+      "number": 140,
       "day": 3,
       "artChanged": false,
       "retainArt": true,
-      "feedbackLabel": "Retained R22",
+      "feedbackLabel": "Retained R21",
       "priorR17Number": 119,
       "priorR18Number": 121,
       "priorR19Number": 126,
       "priorR20Number": 125,
-      "priorR21Number": 125,
-      "priorR22Number": 140
+      "priorR21Number": 125
     },
     {
       "id": "scene-58",
@@ -5678,20 +5104,19 @@
       "priorR16Number": 87,
       "production": {
         "operation": "retain",
-        "reviewStatus": "retained R22 preview",
+        "reviewStatus": "retained R21 preview",
         "sourceImage": "baseline/scene-58"
       },
-      "number": 155,
+      "number": 141,
       "day": 3,
       "artChanged": false,
       "retainArt": true,
-      "feedbackLabel": "Retained R22",
+      "feedbackLabel": "Retained R21",
       "priorR17Number": 120,
       "priorR18Number": 122,
       "priorR19Number": 127,
       "priorR20Number": 126,
-      "priorR21Number": 126,
-      "priorR22Number": 141
+      "priorR21Number": 126
     },
     {
       "id": "scene-59",
@@ -5717,20 +5142,19 @@
       "priorR16Number": 88,
       "production": {
         "operation": "retain",
-        "reviewStatus": "retained R22 preview",
+        "reviewStatus": "retained R21 preview",
         "sourceImage": "baseline/scene-59"
       },
-      "number": 156,
+      "number": 142,
       "day": 3,
       "artChanged": false,
       "retainArt": true,
-      "feedbackLabel": "Retained R22",
+      "feedbackLabel": "Retained R21",
       "priorR17Number": 121,
       "priorR18Number": 123,
       "priorR19Number": 128,
       "priorR20Number": 127,
-      "priorR21Number": 127,
-      "priorR22Number": 142
+      "priorR21Number": 127
     },
     {
       "id": "scene-60",
@@ -5756,20 +5180,19 @@
       "priorR16Number": 89,
       "production": {
         "operation": "retain",
-        "reviewStatus": "retained R22 preview",
+        "reviewStatus": "retained R21 preview",
         "sourceImage": "baseline/scene-60"
       },
-      "number": 157,
+      "number": 143,
       "day": 3,
       "artChanged": false,
       "retainArt": true,
-      "feedbackLabel": "Retained R22",
+      "feedbackLabel": "Retained R21",
       "priorR17Number": 122,
       "priorR18Number": 124,
       "priorR19Number": 129,
       "priorR20Number": 128,
-      "priorR21Number": 128,
-      "priorR22Number": 143
+      "priorR21Number": 128
     },
     {
       "id": "scene-61",
@@ -5795,20 +5218,19 @@
       "priorR16Number": 90,
       "production": {
         "operation": "retain",
-        "reviewStatus": "retained R22 preview",
+        "reviewStatus": "retained R21 preview",
         "sourceImage": "baseline/scene-61"
       },
-      "number": 158,
+      "number": 144,
       "day": 3,
       "artChanged": false,
       "retainArt": true,
-      "feedbackLabel": "Retained R22",
+      "feedbackLabel": "Retained R21",
       "priorR17Number": 123,
       "priorR18Number": 125,
       "priorR19Number": 130,
       "priorR20Number": 129,
-      "priorR21Number": 129,
-      "priorR22Number": 144
+      "priorR21Number": 129
     },
     {
       "id": "scene-62",
@@ -5834,20 +5256,19 @@
       "priorR16Number": 91,
       "production": {
         "operation": "retain",
-        "reviewStatus": "retained R22 preview",
+        "reviewStatus": "retained R21 preview",
         "sourceImage": "baseline/scene-62"
       },
-      "number": 159,
+      "number": 145,
       "day": 3,
       "artChanged": false,
       "retainArt": true,
-      "feedbackLabel": "Retained R22",
+      "feedbackLabel": "Retained R21",
       "priorR17Number": 124,
       "priorR18Number": 126,
       "priorR19Number": 131,
       "priorR20Number": 130,
-      "priorR21Number": 130,
-      "priorR22Number": 145
+      "priorR21Number": 130
     },
     {
       "id": "scene-62a",
@@ -5873,20 +5294,19 @@
       "priorR16Number": 92,
       "production": {
         "operation": "retain",
-        "reviewStatus": "retained R22 preview",
+        "reviewStatus": "retained R21 preview",
         "sourceImage": "baseline/scene-62a"
       },
-      "number": 160,
+      "number": 146,
       "day": 3,
       "artChanged": false,
       "retainArt": true,
-      "feedbackLabel": "Retained R22",
+      "feedbackLabel": "Retained R21",
       "priorR17Number": 125,
       "priorR18Number": 127,
       "priorR19Number": 132,
       "priorR20Number": 131,
-      "priorR21Number": 131,
-      "priorR22Number": 146
+      "priorR21Number": 131
     },
     {
       "id": "scene-63",
@@ -5912,20 +5332,19 @@
       "priorR16Number": 94,
       "production": {
         "operation": "retain",
-        "reviewStatus": "retained R22 preview",
+        "reviewStatus": "retained R21 preview",
         "sourceImage": "baseline/scene-63"
       },
-      "number": 161,
+      "number": 147,
       "day": 3,
       "artChanged": false,
       "retainArt": true,
-      "feedbackLabel": "Retained R22",
+      "feedbackLabel": "Retained R21",
       "priorR17Number": 127,
       "priorR18Number": 128,
       "priorR19Number": 133,
       "priorR20Number": 132,
-      "priorR21Number": 132,
-      "priorR22Number": 147
+      "priorR21Number": 132
     },
     {
       "id": "scene-62c",
@@ -5951,20 +5370,19 @@
       "priorR16Number": 95,
       "production": {
         "operation": "retain",
-        "reviewStatus": "retained R22 preview",
+        "reviewStatus": "retained R21 preview",
         "sourceImage": "baseline/scene-62c"
       },
-      "number": 162,
+      "number": 148,
       "day": 3,
       "artChanged": false,
       "retainArt": true,
-      "feedbackLabel": "Retained R22",
+      "feedbackLabel": "Retained R21",
       "priorR17Number": 128,
       "priorR18Number": 129,
       "priorR19Number": 134,
       "priorR20Number": 133,
-      "priorR21Number": 133,
-      "priorR22Number": 148
+      "priorR21Number": 133
     },
     {
       "id": "scene-64",
@@ -5990,20 +5408,19 @@
       "priorR16Number": 96,
       "production": {
         "operation": "retain",
-        "reviewStatus": "retained R22 preview",
+        "reviewStatus": "retained R21 preview",
         "sourceImage": "baseline/scene-64"
       },
-      "number": 163,
+      "number": 149,
       "day": 3,
       "artChanged": false,
       "retainArt": true,
-      "feedbackLabel": "Retained R22",
+      "feedbackLabel": "Retained R21",
       "priorR17Number": 129,
       "priorR18Number": 130,
       "priorR19Number": 135,
       "priorR20Number": 134,
-      "priorR21Number": 134,
-      "priorR22Number": 149
+      "priorR21Number": 134
     },
     {
       "id": "scene-65",
@@ -6029,20 +5446,19 @@
       "priorR16Number": 97,
       "production": {
         "operation": "retain",
-        "reviewStatus": "retained R22 preview",
+        "reviewStatus": "retained R21 preview",
         "sourceImage": "baseline/scene-65"
       },
-      "number": 164,
+      "number": 150,
       "day": 3,
       "artChanged": false,
       "retainArt": true,
-      "feedbackLabel": "Retained R22",
+      "feedbackLabel": "Retained R21",
       "priorR17Number": 130,
       "priorR18Number": 131,
       "priorR19Number": 136,
       "priorR20Number": 135,
-      "priorR21Number": 135,
-      "priorR22Number": 150
+      "priorR21Number": 135
     },
     {
       "id": "scene-66",
@@ -6068,20 +5484,19 @@
       "priorR16Number": 98,
       "production": {
         "operation": "retain",
-        "reviewStatus": "retained R22 preview",
+        "reviewStatus": "retained R21 preview",
         "sourceImage": "baseline/scene-66"
       },
-      "number": 165,
+      "number": 151,
       "day": 3,
       "artChanged": false,
       "retainArt": true,
-      "feedbackLabel": "Retained R22",
+      "feedbackLabel": "Retained R21",
       "priorR17Number": 131,
       "priorR18Number": 132,
       "priorR19Number": 137,
       "priorR20Number": 136,
-      "priorR21Number": 136,
-      "priorR22Number": 151
+      "priorR21Number": 136
     },
     {
       "id": "scene-67",
@@ -6107,20 +5522,19 @@
       "priorR16Number": 99,
       "production": {
         "operation": "retain",
-        "reviewStatus": "retained R22 preview",
+        "reviewStatus": "retained R21 preview",
         "sourceImage": "baseline/scene-67"
       },
-      "number": 166,
+      "number": 152,
       "day": 3,
       "artChanged": false,
       "retainArt": true,
-      "feedbackLabel": "Retained R22",
+      "feedbackLabel": "Retained R21",
       "priorR17Number": 132,
       "priorR18Number": 133,
       "priorR19Number": 138,
       "priorR20Number": 137,
-      "priorR21Number": 137,
-      "priorR22Number": 152
+      "priorR21Number": 137
     },
     {
       "id": "scene-68",
@@ -6146,20 +5560,19 @@
       "priorR16Number": 100,
       "production": {
         "operation": "retain",
-        "reviewStatus": "retained R22 preview",
+        "reviewStatus": "retained R21 preview",
         "sourceImage": "baseline/scene-68"
       },
-      "number": 167,
+      "number": 153,
       "day": 3,
       "artChanged": false,
       "retainArt": true,
-      "feedbackLabel": "Retained R22",
+      "feedbackLabel": "Retained R21",
       "priorR17Number": 133,
       "priorR18Number": 134,
       "priorR19Number": 139,
       "priorR20Number": 138,
-      "priorR21Number": 138,
-      "priorR22Number": 153
+      "priorR21Number": 138
     },
     {
       "id": "scene-69",
@@ -6185,20 +5598,19 @@
       "priorR16Number": 101,
       "production": {
         "operation": "retain",
-        "reviewStatus": "retained R22 preview",
+        "reviewStatus": "retained R21 preview",
         "sourceImage": "baseline/scene-69"
       },
-      "number": 168,
+      "number": 154,
       "day": 3,
       "artChanged": false,
       "retainArt": true,
-      "feedbackLabel": "Retained R22",
+      "feedbackLabel": "Retained R21",
       "priorR17Number": 134,
       "priorR18Number": 135,
       "priorR19Number": 140,
       "priorR20Number": 139,
-      "priorR21Number": 139,
-      "priorR22Number": 154
+      "priorR21Number": 139
     },
     {
       "id": "scene-70",
@@ -6224,20 +5636,19 @@
       "priorR16Number": 102,
       "production": {
         "operation": "retain",
-        "reviewStatus": "retained R22 preview",
+        "reviewStatus": "retained R21 preview",
         "sourceImage": "baseline/scene-70"
       },
-      "number": 169,
+      "number": 155,
       "day": 3,
       "artChanged": false,
       "retainArt": true,
-      "feedbackLabel": "Retained R22",
+      "feedbackLabel": "Retained R21",
       "priorR17Number": 135,
       "priorR18Number": 136,
       "priorR19Number": 141,
       "priorR20Number": 140,
-      "priorR21Number": 140,
-      "priorR22Number": 155
+      "priorR21Number": 140
     },
     {
       "id": "scene-71",
@@ -6263,20 +5674,19 @@
       "priorR16Number": 103,
       "production": {
         "operation": "retain",
-        "reviewStatus": "retained R22 preview",
+        "reviewStatus": "retained R21 preview",
         "sourceImage": "baseline/scene-71"
       },
-      "number": 170,
+      "number": 156,
       "day": 4,
       "artChanged": false,
       "retainArt": true,
-      "feedbackLabel": "Retained R22",
+      "feedbackLabel": "Retained R21",
       "priorR17Number": 136,
       "priorR18Number": 137,
       "priorR19Number": 142,
       "priorR20Number": 141,
-      "priorR21Number": 141,
-      "priorR22Number": 156
+      "priorR21Number": 141
     },
     {
       "id": "scene-72",
@@ -6302,20 +5712,19 @@
       "priorR16Number": 104,
       "production": {
         "operation": "retain",
-        "reviewStatus": "retained R22 preview",
+        "reviewStatus": "retained R21 preview",
         "sourceImage": "baseline/scene-72"
       },
-      "number": 171,
+      "number": 157,
       "day": 4,
       "artChanged": false,
       "retainArt": true,
-      "feedbackLabel": "Retained R22",
+      "feedbackLabel": "Retained R21",
       "priorR17Number": 137,
       "priorR18Number": 138,
       "priorR19Number": 143,
       "priorR20Number": 142,
-      "priorR21Number": 142,
-      "priorR22Number": 157
+      "priorR21Number": 142
     },
     {
       "id": "scene-72a",
@@ -6341,20 +5750,19 @@
       "priorR16Number": 105,
       "production": {
         "operation": "retain",
-        "reviewStatus": "retained R22 preview",
+        "reviewStatus": "retained R21 preview",
         "sourceImage": "baseline/scene-72a"
       },
-      "number": 172,
+      "number": 158,
       "day": 4,
       "artChanged": false,
       "retainArt": true,
-      "feedbackLabel": "Retained R22",
+      "feedbackLabel": "Retained R21",
       "priorR17Number": 138,
       "priorR18Number": 139,
       "priorR19Number": 144,
       "priorR20Number": 143,
-      "priorR21Number": 143,
-      "priorR22Number": 158
+      "priorR21Number": 143
     },
     {
       "id": "scene-73",
@@ -6380,20 +5788,19 @@
       "priorR16Number": 106,
       "production": {
         "operation": "retain",
-        "reviewStatus": "retained R22 preview",
+        "reviewStatus": "retained R21 preview",
         "sourceImage": "baseline/scene-73"
       },
-      "number": 173,
+      "number": 159,
       "day": 4,
       "artChanged": false,
       "retainArt": true,
-      "feedbackLabel": "Retained R22",
+      "feedbackLabel": "Retained R21",
       "priorR17Number": 139,
       "priorR18Number": 140,
       "priorR19Number": 145,
       "priorR20Number": 144,
-      "priorR21Number": 144,
-      "priorR22Number": 159
+      "priorR21Number": 144
     },
     {
       "id": "scene-73d",
@@ -6419,20 +5826,19 @@
       "priorR16Number": 107,
       "production": {
         "operation": "retain",
-        "reviewStatus": "retained R22 preview",
+        "reviewStatus": "retained R21 preview",
         "sourceImage": "baseline/scene-73d"
       },
-      "number": 174,
+      "number": 160,
       "day": 4,
       "artChanged": false,
       "retainArt": true,
-      "feedbackLabel": "Retained R22",
+      "feedbackLabel": "Retained R21",
       "priorR17Number": 140,
       "priorR18Number": 141,
       "priorR19Number": 146,
       "priorR20Number": 145,
-      "priorR21Number": 145,
-      "priorR22Number": 160
+      "priorR21Number": 145
     },
     {
       "id": "scene-73a",
@@ -6458,20 +5864,19 @@
       "priorR16Number": 108,
       "production": {
         "operation": "retain",
-        "reviewStatus": "retained R22 preview",
+        "reviewStatus": "retained R21 preview",
         "sourceImage": "baseline/scene-73a"
       },
-      "number": 175,
+      "number": 161,
       "day": 4,
       "artChanged": false,
       "retainArt": true,
-      "feedbackLabel": "Retained R22",
+      "feedbackLabel": "Retained R21",
       "priorR17Number": 141,
       "priorR18Number": 142,
       "priorR19Number": 147,
       "priorR20Number": 146,
-      "priorR21Number": 146,
-      "priorR22Number": 161
+      "priorR21Number": 146
     },
     {
       "id": "scene-73b",
@@ -6497,20 +5902,19 @@
       "priorR16Number": 109,
       "production": {
         "operation": "retain",
-        "reviewStatus": "retained R22 preview",
+        "reviewStatus": "retained R21 preview",
         "sourceImage": "baseline/scene-73b"
       },
-      "number": 176,
+      "number": 162,
       "day": 4,
       "artChanged": false,
       "retainArt": true,
-      "feedbackLabel": "Retained R22",
+      "feedbackLabel": "Retained R21",
       "priorR17Number": 142,
       "priorR18Number": 143,
       "priorR19Number": 148,
       "priorR20Number": 147,
-      "priorR21Number": 147,
-      "priorR22Number": 162
+      "priorR21Number": 147
     },
     {
       "id": "scene-73c",
@@ -6536,20 +5940,19 @@
       "priorR16Number": 110,
       "production": {
         "operation": "retain",
-        "reviewStatus": "retained R22 preview",
+        "reviewStatus": "retained R21 preview",
         "sourceImage": "baseline/scene-73c"
       },
-      "number": 177,
+      "number": 163,
       "day": 4,
       "artChanged": false,
       "retainArt": true,
-      "feedbackLabel": "Retained R22",
+      "feedbackLabel": "Retained R21",
       "priorR17Number": 143,
       "priorR18Number": 144,
       "priorR19Number": 149,
       "priorR20Number": 148,
-      "priorR21Number": 148,
-      "priorR22Number": 163
+      "priorR21Number": 148
     },
     {
       "id": "scene-74",
@@ -6575,20 +5978,19 @@
       "priorR16Number": 111,
       "production": {
         "operation": "retain",
-        "reviewStatus": "retained R22 preview",
+        "reviewStatus": "retained R21 preview",
         "sourceImage": "baseline/scene-74"
       },
-      "number": 178,
+      "number": 164,
       "day": 4,
       "artChanged": false,
       "retainArt": true,
-      "feedbackLabel": "Retained R22",
+      "feedbackLabel": "Retained R21",
       "priorR17Number": 144,
       "priorR18Number": 145,
       "priorR19Number": 150,
       "priorR20Number": 149,
-      "priorR21Number": 149,
-      "priorR22Number": 164
+      "priorR21Number": 149
     },
     {
       "id": "scene-75",
@@ -6617,20 +6019,19 @@
       "priorR16Number": 112,
       "production": {
         "operation": "retain",
-        "reviewStatus": "retained R22 preview",
+        "reviewStatus": "retained R21 preview",
         "sourceImage": "baseline/scene-75"
       },
-      "number": 179,
+      "number": 165,
       "day": 4,
       "artChanged": false,
       "retainArt": true,
-      "feedbackLabel": "Retained R22",
+      "feedbackLabel": "Retained R21",
       "priorR17Number": 145,
       "priorR18Number": 146,
       "priorR19Number": 151,
       "priorR20Number": 150,
-      "priorR21Number": 150,
-      "priorR22Number": 165
+      "priorR21Number": 150
     },
     {
       "id": "scene-76",
@@ -6656,20 +6057,19 @@
       "priorR16Number": 113,
       "production": {
         "operation": "retain",
-        "reviewStatus": "retained R22 preview",
+        "reviewStatus": "retained R21 preview",
         "sourceImage": "baseline/scene-76"
       },
-      "number": 180,
+      "number": 166,
       "day": 4,
       "artChanged": false,
       "retainArt": true,
-      "feedbackLabel": "Retained R22",
+      "feedbackLabel": "Retained R21",
       "priorR17Number": 146,
       "priorR18Number": 147,
       "priorR19Number": 152,
       "priorR20Number": 151,
-      "priorR21Number": 151,
-      "priorR22Number": 166
+      "priorR21Number": 151
     },
     {
       "id": "scene-77",
@@ -6695,20 +6095,19 @@
       "priorR16Number": 114,
       "production": {
         "operation": "retain",
-        "reviewStatus": "retained R22 preview",
+        "reviewStatus": "retained R21 preview",
         "sourceImage": "baseline/scene-77"
       },
-      "number": 181,
+      "number": 167,
       "day": 4,
       "artChanged": false,
       "retainArt": true,
-      "feedbackLabel": "Retained R22",
+      "feedbackLabel": "Retained R21",
       "priorR17Number": 147,
       "priorR18Number": 148,
       "priorR19Number": 153,
       "priorR20Number": 152,
-      "priorR21Number": 152,
-      "priorR22Number": 167
+      "priorR21Number": 152
     },
     {
       "id": "scene-78",
@@ -6734,20 +6133,19 @@
       "priorR16Number": 115,
       "production": {
         "operation": "retain",
-        "reviewStatus": "retained R22 preview",
+        "reviewStatus": "retained R21 preview",
         "sourceImage": "baseline/scene-78"
       },
-      "number": 182,
+      "number": 168,
       "day": 4,
       "artChanged": false,
       "retainArt": true,
-      "feedbackLabel": "Retained R22",
+      "feedbackLabel": "Retained R21",
       "priorR17Number": 148,
       "priorR18Number": 149,
       "priorR19Number": 154,
       "priorR20Number": 153,
-      "priorR21Number": 153,
-      "priorR22Number": 168
+      "priorR21Number": 153
     },
     {
       "id": "scene-79",
@@ -6773,20 +6171,19 @@
       "priorR16Number": 116,
       "production": {
         "operation": "retain",
-        "reviewStatus": "retained R22 preview",
+        "reviewStatus": "retained R21 preview",
         "sourceImage": "baseline/scene-79"
       },
-      "number": 183,
+      "number": 169,
       "day": 4,
       "artChanged": false,
       "retainArt": true,
-      "feedbackLabel": "Retained R22",
+      "feedbackLabel": "Retained R21",
       "priorR17Number": 149,
       "priorR18Number": 150,
       "priorR19Number": 155,
       "priorR20Number": 154,
-      "priorR21Number": 154,
-      "priorR22Number": 169
+      "priorR21Number": 154
     },
     {
       "id": "scene-79a",
@@ -6812,20 +6209,19 @@
       "priorR16Number": 117,
       "production": {
         "operation": "retain",
-        "reviewStatus": "retained R22 preview",
+        "reviewStatus": "retained R21 preview",
         "sourceImage": "baseline/scene-79a"
       },
-      "number": 184,
+      "number": 170,
       "day": 4,
       "artChanged": false,
       "retainArt": true,
-      "feedbackLabel": "Retained R22",
+      "feedbackLabel": "Retained R21",
       "priorR17Number": 150,
       "priorR18Number": 151,
       "priorR19Number": 156,
       "priorR20Number": 155,
-      "priorR21Number": 155,
-      "priorR22Number": 170
+      "priorR21Number": 155
     },
     {
       "id": "scene-80",
@@ -6851,20 +6247,19 @@
       "priorR16Number": 118,
       "production": {
         "operation": "retain",
-        "reviewStatus": "retained R22 preview",
+        "reviewStatus": "retained R21 preview",
         "sourceImage": "baseline/scene-80"
       },
-      "number": 185,
+      "number": 171,
       "day": 4,
       "artChanged": false,
       "retainArt": true,
-      "feedbackLabel": "Retained R22",
+      "feedbackLabel": "Retained R21",
       "priorR17Number": 151,
       "priorR18Number": 152,
       "priorR19Number": 157,
       "priorR20Number": 156,
-      "priorR21Number": 156,
-      "priorR22Number": 171
+      "priorR21Number": 156
     },
     {
       "id": "scene-81",
@@ -6890,20 +6285,19 @@
       "priorR16Number": 119,
       "production": {
         "operation": "retain",
-        "reviewStatus": "retained R22 preview",
+        "reviewStatus": "retained R21 preview",
         "sourceImage": "baseline/scene-81"
       },
-      "number": 186,
+      "number": 172,
       "day": 4,
       "artChanged": false,
       "retainArt": true,
-      "feedbackLabel": "Retained R22",
+      "feedbackLabel": "Retained R21",
       "priorR17Number": 152,
       "priorR18Number": 153,
       "priorR19Number": 158,
       "priorR20Number": 157,
-      "priorR21Number": 157,
-      "priorR22Number": 172
+      "priorR21Number": 157
     },
     {
       "id": "scene-83",
@@ -6929,20 +6323,19 @@
       "priorR16Number": 120,
       "production": {
         "operation": "retain",
-        "reviewStatus": "retained R22 preview",
+        "reviewStatus": "retained R21 preview",
         "sourceImage": "baseline/scene-83"
       },
-      "number": 187,
+      "number": 173,
       "day": 4,
       "artChanged": false,
       "retainArt": true,
-      "feedbackLabel": "Retained R22",
+      "feedbackLabel": "Retained R21",
       "priorR17Number": 153,
       "priorR18Number": 154,
       "priorR19Number": 159,
       "priorR20Number": 158,
-      "priorR21Number": 158,
-      "priorR22Number": 173
+      "priorR21Number": 158
     },
     {
       "id": "scene-84",
@@ -6968,21 +6361,20 @@
       "priorR16Number": 121,
       "production": {
         "operation": "retain",
-        "reviewStatus": "retained R22 preview",
+        "reviewStatus": "retained R21 preview",
         "userReview": "Explicitly approved by user, scene84-v1, 2026-10-02",
         "sourceImage": "baseline/scene-84"
       },
-      "number": 188,
+      "number": 174,
       "day": 4,
       "artChanged": false,
       "retainArt": true,
-      "feedbackLabel": "Retained R22",
+      "feedbackLabel": "Retained R21",
       "priorR17Number": 154,
       "priorR18Number": 155,
       "priorR19Number": 160,
       "priorR20Number": 159,
-      "priorR21Number": 159,
-      "priorR22Number": 174
+      "priorR21Number": 159
     },
     {
       "id": "scene-85",
@@ -7008,20 +6400,19 @@
       "priorR16Number": 122,
       "production": {
         "operation": "retain",
-        "reviewStatus": "retained R22 preview",
+        "reviewStatus": "retained R21 preview",
         "sourceImage": "baseline/scene-85"
       },
-      "number": 189,
+      "number": 175,
       "day": 4,
       "artChanged": false,
       "retainArt": true,
-      "feedbackLabel": "Retained R22",
+      "feedbackLabel": "Retained R21",
       "priorR17Number": 155,
       "priorR18Number": 156,
       "priorR19Number": 161,
       "priorR20Number": 160,
-      "priorR21Number": 160,
-      "priorR22Number": 175
+      "priorR21Number": 160
     },
     {
       "id": "scene-86",
@@ -7047,20 +6438,19 @@
       "priorR16Number": 123,
       "production": {
         "operation": "retain",
-        "reviewStatus": "retained R22 preview",
+        "reviewStatus": "retained R21 preview",
         "sourceImage": "baseline/scene-86"
       },
-      "number": 190,
+      "number": 176,
       "day": 4,
       "artChanged": false,
       "retainArt": true,
-      "feedbackLabel": "Retained R22",
+      "feedbackLabel": "Retained R21",
       "priorR17Number": 156,
       "priorR18Number": 157,
       "priorR19Number": 162,
       "priorR20Number": 161,
-      "priorR21Number": 161,
-      "priorR22Number": 176
+      "priorR21Number": 161
     },
     {
       "id": "scene-87",
@@ -7086,20 +6476,19 @@
       "priorR16Number": 124,
       "production": {
         "operation": "retain",
-        "reviewStatus": "retained R22 preview",
+        "reviewStatus": "retained R21 preview",
         "sourceImage": "baseline/scene-87"
       },
-      "number": 191,
+      "number": 177,
       "day": 4,
       "artChanged": false,
       "retainArt": true,
-      "feedbackLabel": "Retained R22",
+      "feedbackLabel": "Retained R21",
       "priorR17Number": 157,
       "priorR18Number": 158,
       "priorR19Number": 163,
       "priorR20Number": 162,
-      "priorR21Number": 162,
-      "priorR22Number": 177
+      "priorR21Number": 162
     },
     {
       "id": "scene-114",
@@ -7125,20 +6514,19 @@
       "priorR16Number": 125,
       "production": {
         "operation": "retain",
-        "reviewStatus": "retained R22 preview",
+        "reviewStatus": "retained R21 preview",
         "sourceImage": "baseline/scene-114"
       },
-      "number": 192,
+      "number": 178,
       "day": 4,
       "artChanged": false,
       "retainArt": true,
-      "feedbackLabel": "Retained R22",
+      "feedbackLabel": "Retained R21",
       "priorR17Number": 158,
       "priorR18Number": 159,
       "priorR19Number": 164,
       "priorR20Number": 163,
-      "priorR21Number": 163,
-      "priorR22Number": 178
+      "priorR21Number": 163
     },
     {
       "id": "scene-115",
@@ -7164,20 +6552,19 @@
       "priorR16Number": 126,
       "production": {
         "operation": "retain",
-        "reviewStatus": "retained R22 preview",
+        "reviewStatus": "retained R21 preview",
         "sourceImage": "baseline/scene-115"
       },
-      "number": 193,
+      "number": 179,
       "day": 4,
       "artChanged": false,
       "retainArt": true,
-      "feedbackLabel": "Retained R22",
+      "feedbackLabel": "Retained R21",
       "priorR17Number": 159,
       "priorR18Number": 160,
       "priorR19Number": 165,
       "priorR20Number": 164,
-      "priorR21Number": 164,
-      "priorR22Number": 179
+      "priorR21Number": 164
     },
     {
       "id": "scene-116",
@@ -7203,20 +6590,19 @@
       "priorR16Number": 127,
       "production": {
         "operation": "retain",
-        "reviewStatus": "retained R22 preview",
+        "reviewStatus": "retained R21 preview",
         "sourceImage": "baseline/scene-116"
       },
-      "number": 194,
+      "number": 180,
       "day": 4,
       "artChanged": false,
       "retainArt": true,
-      "feedbackLabel": "Retained R22",
+      "feedbackLabel": "Retained R21",
       "priorR17Number": 160,
       "priorR18Number": 161,
       "priorR19Number": 166,
       "priorR20Number": 165,
-      "priorR21Number": 165,
-      "priorR22Number": 180
+      "priorR21Number": 165
     },
     {
       "id": "scene-117",
@@ -7242,20 +6628,19 @@
       "priorR16Number": 128,
       "production": {
         "operation": "retain",
-        "reviewStatus": "retained R22 preview",
+        "reviewStatus": "retained R21 preview",
         "sourceImage": "baseline/scene-117"
       },
-      "number": 195,
+      "number": 181,
       "day": 4,
       "artChanged": false,
       "retainArt": true,
-      "feedbackLabel": "Retained R22",
+      "feedbackLabel": "Retained R21",
       "priorR17Number": 161,
       "priorR18Number": 162,
       "priorR19Number": 167,
       "priorR20Number": 166,
-      "priorR21Number": 166,
-      "priorR22Number": 181
+      "priorR21Number": 166
     },
     {
       "id": "scene-118",
@@ -7281,20 +6666,19 @@
       "priorR16Number": 129,
       "production": {
         "operation": "retain",
-        "reviewStatus": "retained R22 preview",
+        "reviewStatus": "retained R21 preview",
         "sourceImage": "baseline/scene-118"
       },
-      "number": 196,
+      "number": 182,
       "day": 4,
       "artChanged": false,
       "retainArt": true,
-      "feedbackLabel": "Retained R22",
+      "feedbackLabel": "Retained R21",
       "priorR17Number": 162,
       "priorR18Number": 163,
       "priorR19Number": 168,
       "priorR20Number": 167,
-      "priorR21Number": 167,
-      "priorR22Number": 182
+      "priorR21Number": 167
     },
     {
       "id": "scene-119",
@@ -7320,20 +6704,19 @@
       "priorR16Number": 130,
       "production": {
         "operation": "retain",
-        "reviewStatus": "retained R22 preview",
+        "reviewStatus": "retained R21 preview",
         "sourceImage": "baseline/scene-119"
       },
-      "number": 197,
+      "number": 183,
       "day": 4,
       "artChanged": false,
       "retainArt": true,
-      "feedbackLabel": "Retained R22",
+      "feedbackLabel": "Retained R21",
       "priorR17Number": 163,
       "priorR18Number": 164,
       "priorR19Number": 169,
       "priorR20Number": 168,
-      "priorR21Number": 168,
-      "priorR22Number": 183
+      "priorR21Number": 168
     },
     {
       "id": "scene-120",
@@ -7359,20 +6742,19 @@
       "priorR16Number": 131,
       "production": {
         "operation": "retain",
-        "reviewStatus": "retained R22 preview",
+        "reviewStatus": "retained R21 preview",
         "sourceImage": "baseline/scene-120"
       },
-      "number": 198,
+      "number": 184,
       "day": 4,
       "artChanged": false,
       "retainArt": true,
-      "feedbackLabel": "Retained R22",
+      "feedbackLabel": "Retained R21",
       "priorR17Number": 164,
       "priorR18Number": 165,
       "priorR19Number": 170,
       "priorR20Number": 169,
-      "priorR21Number": 169,
-      "priorR22Number": 184
+      "priorR21Number": 169
     },
     {
       "id": "scene-121",
@@ -7398,20 +6780,19 @@
       "priorR16Number": 132,
       "production": {
         "operation": "retain",
-        "reviewStatus": "retained R22 preview",
+        "reviewStatus": "retained R21 preview",
         "sourceImage": "baseline/scene-121"
       },
-      "number": 199,
+      "number": 185,
       "day": 4,
       "artChanged": false,
       "retainArt": true,
-      "feedbackLabel": "Retained R22",
+      "feedbackLabel": "Retained R21",
       "priorR17Number": 165,
       "priorR18Number": 166,
       "priorR19Number": 171,
       "priorR20Number": 170,
-      "priorR21Number": 170,
-      "priorR22Number": 185
+      "priorR21Number": 170
     },
     {
       "id": "scene-122",
@@ -7437,20 +6818,19 @@
       "priorR16Number": 133,
       "production": {
         "operation": "retain",
-        "reviewStatus": "retained R22 preview",
+        "reviewStatus": "retained R21 preview",
         "sourceImage": "baseline/scene-122"
       },
-      "number": 200,
+      "number": 186,
       "day": 4,
       "artChanged": false,
       "retainArt": true,
-      "feedbackLabel": "Retained R22",
+      "feedbackLabel": "Retained R21",
       "priorR17Number": 166,
       "priorR18Number": 167,
       "priorR19Number": 172,
       "priorR20Number": 171,
-      "priorR21Number": 171,
-      "priorR22Number": 186
+      "priorR21Number": 171
     },
     {
       "id": "scene-123",
@@ -7476,20 +6856,19 @@
       "priorR16Number": 134,
       "production": {
         "operation": "retain",
-        "reviewStatus": "retained R22 preview",
+        "reviewStatus": "retained R21 preview",
         "sourceImage": "baseline/scene-123"
       },
-      "number": 201,
+      "number": 187,
       "day": 4,
       "artChanged": false,
       "retainArt": true,
-      "feedbackLabel": "Retained R22",
+      "feedbackLabel": "Retained R21",
       "priorR17Number": 167,
       "priorR18Number": 168,
       "priorR19Number": 173,
       "priorR20Number": 172,
-      "priorR21Number": 172,
-      "priorR22Number": 187
+      "priorR21Number": 172
     },
     {
       "id": "scene-124",
@@ -7515,20 +6894,19 @@
       "priorR16Number": 135,
       "production": {
         "operation": "retain",
-        "reviewStatus": "retained R22 preview",
+        "reviewStatus": "retained R21 preview",
         "sourceImage": "baseline/scene-124"
       },
-      "number": 202,
+      "number": 188,
       "day": 4,
       "artChanged": false,
       "retainArt": true,
-      "feedbackLabel": "Retained R22",
+      "feedbackLabel": "Retained R21",
       "priorR17Number": 168,
       "priorR18Number": 169,
       "priorR19Number": 174,
       "priorR20Number": 173,
-      "priorR21Number": 173,
-      "priorR22Number": 188
+      "priorR21Number": 173
     },
     {
       "id": "scene-124a",
@@ -7554,20 +6932,19 @@
       "priorR16Number": 136,
       "production": {
         "operation": "retain",
-        "reviewStatus": "retained R22 preview",
+        "reviewStatus": "retained R21 preview",
         "sourceImage": "baseline/scene-124a"
       },
-      "number": 203,
+      "number": 189,
       "day": 4,
       "artChanged": false,
       "retainArt": true,
-      "feedbackLabel": "Retained R22",
+      "feedbackLabel": "Retained R21",
       "priorR17Number": 169,
       "priorR18Number": 170,
       "priorR19Number": 175,
       "priorR20Number": 174,
-      "priorR21Number": 174,
-      "priorR22Number": 189
+      "priorR21Number": 174
     },
     {
       "id": "scene-125",
@@ -7593,20 +6970,19 @@
       "priorR16Number": 137,
       "production": {
         "operation": "retain",
-        "reviewStatus": "retained R22 preview",
+        "reviewStatus": "retained R21 preview",
         "sourceImage": "baseline/scene-125"
       },
-      "number": 204,
+      "number": 190,
       "day": 4,
       "artChanged": false,
       "retainArt": true,
-      "feedbackLabel": "Retained R22",
+      "feedbackLabel": "Retained R21",
       "priorR17Number": 170,
       "priorR18Number": 171,
       "priorR19Number": 176,
       "priorR20Number": 175,
-      "priorR21Number": 175,
-      "priorR22Number": 190
+      "priorR21Number": 175
     },
     {
       "id": "scene-126",
@@ -7632,20 +7008,19 @@
       "priorR16Number": 138,
       "production": {
         "operation": "retain",
-        "reviewStatus": "retained R22 preview",
+        "reviewStatus": "retained R21 preview",
         "sourceImage": "baseline/scene-126"
       },
-      "number": 205,
+      "number": 191,
       "day": 4,
       "artChanged": false,
       "retainArt": true,
-      "feedbackLabel": "Retained R22",
+      "feedbackLabel": "Retained R21",
       "priorR17Number": 171,
       "priorR18Number": 172,
       "priorR19Number": 177,
       "priorR20Number": 176,
-      "priorR21Number": 176,
-      "priorR22Number": 191
+      "priorR21Number": 176
     }
   ],
   "cover": {
@@ -7744,7 +7119,7 @@
       "es": "Una pausa deliberada, sin segundos fijados"
     }
   },
-  "retainedArtCount": 188,
-  "newArtRequiredCount": 17,
+  "retainedArtCount": 171,
+  "newArtRequiredCount": 20,
   "finalSelectionAuthority": "Two R22 art lane manifests; root visual review before completepreview, no individual userapproval inferred."
 }
