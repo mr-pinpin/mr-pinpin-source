@@ -1,0 +1,229 @@
+{
+  "status": "Coordinator approved three patches and preservation decisions",
+  "baseline": "R22",
+  "reviewedViews": 26,
+  "newNarrativeCount": 205,
+  "expectedReaderPages": 206,
+  "patchIds": [
+    "scene-339",
+    "scene-32d",
+    "scene-32i2"
+  ],
+  "geography": {
+    "authority": "scene-331 exact stump and adjacent bench; not a metric reconstruction",
+    "oldTree": "Existing broad leaning weeping willow stays unchanged.",
+    "newTree": "Same small cut-willow stump on dry bank immediately pondward/right of bench grows vertically; new trunk distinct from old willow. Keep the base narrow enough to preserve working/picnic paths; enormous height/crown above ground-level camera.",
+    "pile": "Three rounds of cut flexible shoots accumulate beside stump and workbench, never across stream spillway or walking route.",
+    "visibility": "Climax establishes height with up-angle/wide sky views. Later closeups need not show crown; selected wider anchors show persistent trunk/base and branch pile."
+  },
+  "views": [
+    {
+      "id": "scene-331",
+      "number": 88,
+      "source": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r22/art/beaver-dam-finish/web/scene-331-v1.webp",
+      "sha256": "0ddd34375a1181ecbc896f36fa872f04e1c782341152cb351c3220dbc361feba",
+      "decision": "preserve",
+      "reason": "Pre-growth authority. Keep original stump at workbench and original old weeping willow separate."
+    },
+    {
+      "id": "scene-332",
+      "number": 89,
+      "source": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r22/art/beaver-dam-finish/web/scene-332-v1.webp",
+      "sha256": "721580fa45c9435bb0ef26fb283ad6f9041a2a1f513d86e6142231531b7b4d1f",
+      "decision": "preserve",
+      "reason": "Dam/boardwalk camera: exact stump base is outside crop or occluded by cast, bench or existing willow. Existing loose cut branches can remain. Do not force giant crown into a ground-level closeup or replace old willow."
+    },
+    {
+      "id": "scene-333",
+      "number": 90,
+      "source": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r22/art/beaver-dam-finish/web/scene-333-v1.webp",
+      "sha256": "4cdd09189d14f7bc3ae62651d9ddc8632ea8ba1e815a4dccaaa3b31f50443158",
+      "decision": "preserve",
+      "reason": "Dam/boardwalk camera: exact stump base is outside crop or occluded by cast, bench or existing willow. Existing loose cut branches can remain. Do not force giant crown into a ground-level closeup or replace old willow."
+    },
+    {
+      "id": "scene-334",
+      "number": 91,
+      "source": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r22/art/beaver-dam-finish/web/scene-334-v2.webp",
+      "sha256": "62f6361148d66e0c3e6ea8e7c9a8157e4b9a0cd010f9adbd58c30e645ab3d6d7",
+      "decision": "preserve",
+      "reason": "Dam/boardwalk camera: exact stump base is outside crop or occluded by cast, bench or existing willow. Existing loose cut branches can remain. Do not force giant crown into a ground-level closeup or replace old willow."
+    },
+    {
+      "id": "scene-335",
+      "number": 92,
+      "source": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r22/art/beaver-dam-finish/web/scene-335-v2.webp",
+      "sha256": "1e63f570a591c09614c14c7026631de7048d51ba98e6cbced7627546f258a39b",
+      "decision": "preserve",
+      "reason": "Dam/boardwalk camera: exact stump base is outside crop or occluded by cast, bench or existing willow. Existing loose cut branches can remain. Do not force giant crown into a ground-level closeup or replace old willow."
+    },
+    {
+      "id": "scene-336",
+      "number": 93,
+      "source": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r22/art/beaver-dam-finish/web/scene-336-v2.webp",
+      "sha256": "d8630c8062ba97083a02ded57c0e34420123b7b68860633821566c16f587b20b",
+      "decision": "preserve",
+      "reason": "Dam/boardwalk camera: exact stump base is outside crop or occluded by cast, bench or existing willow. Existing loose cut branches can remain. Do not force giant crown into a ground-level closeup or replace old willow."
+    },
+    {
+      "id": "scene-337",
+      "number": 94,
+      "source": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r22/art/beaver-dam-finish/web/scene-337-v1.webp",
+      "sha256": "608dd5aa801b5a147b1b89b7dac70137491670e3a0507d86cce94d386ab74818",
+      "decision": "preserve",
+      "reason": "Dam/boardwalk camera: exact stump base is outside crop or occluded by cast, bench or existing willow. Existing loose cut branches can remain. Do not force giant crown into a ground-level closeup or replace old willow."
+    },
+    {
+      "id": "scene-338",
+      "number": 95,
+      "source": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r22/art/beaver-dam-finish/web/scene-338-v1.webp",
+      "sha256": "52ffbb853763c4d20095491f86a687e92830de60ce04e54e8b96a739f8cc9318",
+      "decision": "preserve",
+      "reason": "Dam/boardwalk camera: exact stump base is outside crop or occluded by cast, bench or existing willow. Existing loose cut branches can remain. Do not force giant crown into a ground-level closeup or replace old willow."
+    },
+    {
+      "id": "scene-339",
+      "number": 96,
+      "source": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r22/art/beaver-dam-finish/web/scene-339-v1.webp",
+      "sha256": "41b97b98485e3e2aafb2b46712e359621e548833086239bdc98e0a114ab91019",
+      "decision": "patch-background-anchor",
+      "reason": "Wide ground-level return to workbench/Elder after dam work. Add the persistent new trunk at established stump position and a visible edge of accumulated cut branches; preserve faces, fruit basket, dog and outlet."
+    },
+    {
+      "id": "scene-32d",
+      "number": 97,
+      "source": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r19/retained/scene-32d.webp",
+      "sha256": "55df79885d4605b21935fd73f9c30822195eb1e4d5b1c2d42a6e981cd696bfbf",
+      "decision": "patch-background-anchor",
+      "reason": "Immediate picnic continuation in same clearing. Match339 new-trunk position and branch pile in visible background only; preserve food, four characters and all foreground action."
+    },
+    {
+      "id": "scene-32e",
+      "number": 98,
+      "source": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r19/retained/scene-32e.webp",
+      "sha256": "7113adce5b475f5682746548774e7e15a4b99c7d12372b19bef05b4bee90db09",
+      "decision": "preserve",
+      "reason": "Design/build/load framing: bench, foreground cast and crop hide the fixed stump zone. Preserve geometry and approved actions; no independent evidence requires tree insertion."
+    },
+    {
+      "id": "scene-32f",
+      "number": 99,
+      "source": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r19/retained/scene-32f.webp",
+      "sha256": "06e412e782cadd2c2a2a80b45b93cd372161a1852d4366dd19c306756610ea2d",
+      "decision": "preserve",
+      "reason": "Design/build/load framing: bench, foreground cast and crop hide the fixed stump zone. Preserve geometry and approved actions; no independent evidence requires tree insertion."
+    },
+    {
+      "id": "scene-32g",
+      "number": 100,
+      "source": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r19/retained/scene-32g.webp",
+      "sha256": "bd7afde59142a3088ac3c1e8cb4dfcc1c137c396d59d5727d534baa985da815b",
+      "decision": "preserve",
+      "reason": "Design/build/load framing: bench, foreground cast and crop hide the fixed stump zone. Preserve geometry and approved actions; no independent evidence requires tree insertion."
+    },
+    {
+      "id": "scene-32h",
+      "number": 101,
+      "source": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r19/retained/scene-32h.webp",
+      "sha256": "7abb1583e33a7349da16ee35d840ac548f99db106a5d47a8f0c6a887db362d10",
+      "decision": "preserve",
+      "reason": "Design/build/load framing: bench, foreground cast and crop hide the fixed stump zone. Preserve geometry and approved actions; no independent evidence requires tree insertion."
+    },
+    {
+      "id": "scene-32h1",
+      "number": 102,
+      "source": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r19/retained/scene-32h1.webp",
+      "sha256": "11ece7369d84018a4bb307b14ccf90fd6eb195fbae57646e37de668f3a2e131a",
+      "decision": "preserve",
+      "reason": "Design/build/load framing: bench, foreground cast and crop hide the fixed stump zone. Preserve geometry and approved actions; no independent evidence requires tree insertion."
+    },
+    {
+      "id": "scene-32h2",
+      "number": 103,
+      "source": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r19/retained/scene-32h2.webp",
+      "sha256": "f573b80d8bc9ba1e6e588347be603647e4c00f55bd81e140574d7512b47c4054",
+      "decision": "preserve",
+      "reason": "Design/build/load framing: bench, foreground cast and crop hide the fixed stump zone. Preserve geometry and approved actions; no independent evidence requires tree insertion."
+    },
+    {
+      "id": "scene-32h3",
+      "number": 104,
+      "source": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r19/retained/scene-32h3.webp",
+      "sha256": "f9e85d3b80036c8121b86db74b958113ec864c231178fa00eb4d9b5f42fc198d",
+      "decision": "preserve",
+      "reason": "Design/build/load framing: bench, foreground cast and crop hide the fixed stump zone. Preserve geometry and approved actions; no independent evidence requires tree insertion."
+    },
+    {
+      "id": "scene-32i",
+      "number": 105,
+      "source": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r19/retained/scene-32i.webp",
+      "sha256": "0260ae0a413380feee54a3b69a7038ff0c39c2663594a52bfe1b7ccb81904942",
+      "decision": "preserve",
+      "reason": "Design/build/load framing: bench, foreground cast and crop hide the fixed stump zone. Preserve geometry and approved actions; no independent evidence requires tree insertion."
+    },
+    {
+      "id": "scene-32i1",
+      "number": 106,
+      "source": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r19/retained/scene-32i1.webp",
+      "sha256": "35d6627a3092e392fc711508c4141c7d782a5db04f77a2d32a19882bf8b4a5a5",
+      "decision": "preserve",
+      "reason": "Design/build/load framing: bench, foreground cast and crop hide the fixed stump zone. Preserve geometry and approved actions; no independent evidence requires tree insertion."
+    },
+    {
+      "id": "scene-32i2",
+      "number": 107,
+      "source": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r19/retained/scene-32i2.webp",
+      "sha256": "c5a8d8f54f80c78ff18b56fff30c8b04879aced35429fffd4a64e1685567234a",
+      "decision": "patch-background-anchor",
+      "reason": "Wide final departure establishes worksite landmark once more. Show consistent new trunk rising out of frame and remaining cut branches near workbench; preserve cargo, dog scale and waving cast."
+    },
+    {
+      "id": "scene-32i3",
+      "number": 108,
+      "source": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r19/retained/scene-32i3.webp",
+      "sha256": "d19b751e5cfef69e1da16ae3facd1b248ea3920494d8a1c24c7c84c5abdcc24e",
+      "decision": "preserve",
+      "reason": "Away from worksite or home. Giant-tree root is outside this camera environment; preserve all artwork."
+    },
+    {
+      "id": "scene-32i4",
+      "number": 109,
+      "source": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r19/retained/scene-32i4.webp",
+      "sha256": "61429b556130d9ccd8df80c8a0c849d658fab6a54034a04de53a24cbcc12b836",
+      "decision": "preserve",
+      "reason": "Away from worksite or home. Giant-tree root is outside this camera environment; preserve all artwork."
+    },
+    {
+      "id": "scene-32i5",
+      "number": 110,
+      "source": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r19/retained/scene-32i5.webp",
+      "sha256": "755c6cfaa5e1d4d0002db1c235c6fe261acc402f64fadf5f977f90e2b8a3c42a",
+      "decision": "preserve",
+      "reason": "Away from worksite or home. Giant-tree root is outside this camera environment; preserve all artwork."
+    },
+    {
+      "id": "scene-32i6",
+      "number": 111,
+      "source": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r19/retained/scene-32i6.webp",
+      "sha256": "8ee47791a124f184164ee57f509c27edcc43c4d04177e2da4ce4739393b2d9e6",
+      "decision": "preserve",
+      "reason": "Away from worksite or home. Giant-tree root is outside this camera environment; preserve all artwork."
+    },
+    {
+      "id": "scene-32i7",
+      "number": 112,
+      "source": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r19/retained/scene-32i7.webp",
+      "sha256": "31a2ad4295e75f8a1ba08ff12f5e757be19f03beb951766c1f97ce55cf6b72de",
+      "decision": "preserve",
+      "reason": "Away from worksite or home. Giant-tree root is outside this camera environment; preserve all artwork."
+    },
+    {
+      "id": "scene-32j",
+      "number": 113,
+      "source": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r19/retained/scene-32j.webp",
+      "sha256": "bd104aabb955169cc4c43f654c6b7e665ac07c32e3e2beaca0ab83c6b95636b4",
+      "decision": "preserve",
+      "reason": "Away from worksite or home. Giant-tree root is outside this camera environment; preserve all artwork."
+    }
+  ]
+}
