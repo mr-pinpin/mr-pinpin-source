@@ -1,0 +1,58 @@
+R14 OUTDOOR WATER TRIP — UNPUBLISHED REVIEW
+
+120 story scenes plus cover. Ten new illustrations replace original04 and05
+and add eight intermediate moments; no old scenes are deleted.
+Current reading numbers4–13 cover the complete new water-fetch excursion.
+Original R13 feedback numbers remain visible beside stable IDs.
+
+Sequence:
+04 Mama asks PinPin for bath water; restored proper green front door and stove.
+04a Child leaves the canonical two-window house carrying two EMPTY buckets.
+04b PinPin greets the Chapter1 rabbit on the morning path.
+04c He shows the empty bucket and explains; Rabbit joins him.
+04d They reach the outdoor spring and two natural birds.
+05 First bucket fills under the stream.
+05a A robin shakes wet feathers: one drop lands on PinPin's nose.
+05b Rabbit steadies the first FULL bucket while PinPin fills the second.
+05c PinPin says goodbye and walks back with two FULL buckets.
+05d Mama welcomes him through the same house threshold.
+Retained06 continues the indoor walk toward the bath.
+
+The child fetching water is PinPin. Infant PomPom remains home.
+The robin/bluebird are ordinary natural birds, not the later talking toy duck.
+Casts now match visible characters, including Mama in both threshold shots,
+Rabbit in the outdoor sequence, and specific birds where in frame.
+The04c caption says he SHOWS the empty bucket, matching its grounded pose.
+
+Approved Papa illustrations, canal fixes and all111 other selected image slots
+are byte-identical to R13. All other original captions and relative order remain.
+Selected image metadata now points to actual current derivative/master hashes
+instead of inherited stale image fields. Review status describes coordinator-
+inspected illustrations awaiting user feedback, never presumed user approval.
+
+Full reader:
+ http://127.0.0.1:18795/storyboard/review/bath-magic-r14-water-trip.html?lang=ru
+Before/after: add &view=changes
+Five-sheet storyboard: add &view=storyboard
+Russian, English and Spanish reading. Five compact boards per Russian/English.
+Review shows two exact R13 before/after comparisons plus eight inserted panels.
+
+QA AND PROVENANCE
+Root independently inspected all ten native outputs. root/REPORT.txt records
+house/front-door and empty/full bucket continuity; geometry/REPORT.txt records
+rabbit/spring/bird continuity. All use built-in image_gen__imagegen.
+Exact prompts, native outputs, input snapshots and hashes are retained.
+input-preservation.json verifies10 native generations and7 unique inputs.
+reader/selection-qa.json checks121 pointers, only04/05 replaced, eight inserted,
+remaining111 image slots unchanged, and all three translations complete.
+boards/qa.json verifies240 panels, exact captions, layout bounds and contained
+source pixels without artwork retouching.
+browser-check/results.json passes Chrome390/1440:120 decoded story images,
+ten comic boards,120 scene links, two comparisons/eight new-panel cards,
+three languages, zero browser errors or horizontal overflow.
+
+PRESERVATION
+Scoped R14 archive stores new art/reference inputs/boards; R13 and earlier packs
+remain immutable sources of upstream byte pointers. See RESTORE.txt.
+Only matching archive-receipt.json with verified fresh remote readback proves
+preservation. No official publication, source push or unrelated edits.

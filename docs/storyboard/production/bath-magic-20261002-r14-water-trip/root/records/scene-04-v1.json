@@ -1,0 +1,56 @@
+{
+  "tool": "image_gen__imagegen",
+  "generatedAt": "2026-10-02T03:06:41.128Z",
+  "sourceOutput": "/Users/miguel_lemos/.codex/generated_images/01a0fa05-e7a6-7a00-a6f0-fc3a9cc0cc09/exec-306e3bdb-89fe-410d-90ef-2273a645f83a.png",
+  "promptPath": "prompts/scene-04-v1.txt",
+  "references": [
+    "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r8-herculean/reused/web/scene-04.webp",
+    "/Volumes/TB4/mac-mini-storage/shared/pinpin-workspace/mr-pinpin-source/docs/storyboard/images/standalone/home-sweet-home/bedtime-01-v1.png"
+  ],
+  "visualReview": "Viewed native image: missing central front door restored as green rounded wooden door in existing timber frame. Original cast-iron stove, glowing firebox, stone chimney and copper cooking pot preserved at right; no water jar/tap substitution. Mama and child retain original faces/poses and child holds exactly2empty wood buckets. No magic/water canal.",
+  "promptSha256": "14019498ade0011411798dddb7d3173d49dd4e06f5a20ab07af29d0aea32fe19",
+  "master": {
+    "path": "masters/scene-04-v1.png",
+    "sha256": "89ba6b5457774d7001e2fdfc8c0d3167d85a5bf319a34dbd609548b82df19daa",
+    "bytes": 2359909
+  },
+  "referenceIdentities": [
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r8-herculean/reused/web/scene-04.webp",
+      "sha256": "ecff260ace6f0bb9f4afed2c156cbc87ba72753b3afedf4e6a23d059c0873112",
+      "bytes": 400848
+    },
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-workspace/mr-pinpin-source/docs/storyboard/images/standalone/home-sweet-home/bedtime-01-v1.png",
+      "sha256": "60a39cfa8b283d79ed23a28d5ca4744cfd8a58a0959ef40af0c35a8cc70723f8",
+      "bytes": 2777850
+    }
+  ],
+  "preservedReferences": [
+    {
+      "path": "references/inputs/ecff260ace6f/scene-04.webp",
+      "sha256": "ecff260ace6f0bb9f4afed2c156cbc87ba72753b3afedf4e6a23d059c0873112"
+    },
+    {
+      "path": "references/inputs/60a39cfa8b28/bedtime-01-v1.png",
+      "sha256": "60a39cfa8b283d79ed23a28d5ca4744cfd8a58a0959ef40af0c35a8cc70723f8"
+    }
+  ],
+  "reviewStatus": "illustration candidate; awaiting user feedback",
+  "web": {
+    "path": "web/scene-04.webp",
+    "sha256": "4faefd133c89261bb57edca2dcaec263b8f1cd27c2f23f9b67002d28df6bcb2c",
+    "bytes": 392224
+  },
+  "dimensions": [
+    1536,
+    1024
+  ],
+  "conversion": {
+    "format": "WebP",
+    "quality": 94,
+    "method": 6,
+    "resized": false,
+    "artEdited": false
+  }
+}

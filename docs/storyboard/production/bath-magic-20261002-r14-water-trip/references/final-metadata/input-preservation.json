@@ -1,0 +1,312 @@
+{
+  "status": "Exact originals, prompts and input bytes verified locally; remote proof in scoped archive receipt",
+  "generations": [
+    {
+      "record": "root/records/scene-04-v1.json",
+      "recordSha256": "480d8e3a32ffc56449e6a28fde2db4a20289bcc3b332a4054710ea0d1aca32b6",
+      "tool": "image_gen__imagegen",
+      "master": "root/masters/scene-04-v1.png",
+      "masterSha256": "89ba6b5457774d7001e2fdfc8c0d3167d85a5bf319a34dbd609548b82df19daa",
+      "nativeToolOutputMatched": true,
+      "prompt": "root/prompts/scene-04-v1.txt",
+      "promptSha256": "14019498ade0011411798dddb7d3173d49dd4e06f5a20ab07af29d0aea32fe19",
+      "inputs": [
+        {
+          "originalPath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r8-herculean/reused/web/scene-04.webp",
+          "sha256": "ecff260ace6f0bb9f4afed2c156cbc87ba72753b3afedf4e6a23d059c0873112",
+          "preservedPaths": [
+            "root/references/inputs/ecff260ace6f/scene-04.webp",
+            "geometry/references/inputs/ecff260ace6f/scene-04.webp"
+          ]
+        },
+        {
+          "originalPath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-workspace/mr-pinpin-source/docs/storyboard/images/standalone/home-sweet-home/bedtime-01-v1.png",
+          "sha256": "60a39cfa8b283d79ed23a28d5ca4744cfd8a58a0959ef40af0c35a8cc70723f8",
+          "preservedPaths": [
+            "root/references/inputs/60a39cfa8b28/bedtime-01-v1.png"
+          ]
+        }
+      ]
+    },
+    {
+      "record": "root/records/scene-04a-v1.json",
+      "recordSha256": "3a5b20f22af336427ed45ffe370e55d3be86e4e132bc681223f28bd8f819f7ff",
+      "tool": "image_gen__imagegen",
+      "master": "root/masters/scene-04a-v1.png",
+      "masterSha256": "9c8eb7b6c2b8b318394fe7744ab2f6a314db6f01800bbc6a2f6bc0ed5df57773",
+      "nativeToolOutputMatched": true,
+      "prompt": "root/prompts/scene-04a-v1.txt",
+      "promptSha256": "44c84c337ac8c3c1321372f1e6945975ec8a8627825cd035bff67df181139bd5",
+      "inputs": [
+        {
+          "originalPath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-workspace/mr-pinpin-source/docs/storyboard/images/standalone/home-sweet-home/bedtime-01-v1.png",
+          "sha256": "60a39cfa8b283d79ed23a28d5ca4744cfd8a58a0959ef40af0c35a8cc70723f8",
+          "preservedPaths": [
+            "root/references/inputs/60a39cfa8b28/bedtime-01-v1.png"
+          ]
+        },
+        {
+          "originalPath": "/Users/miguel_lemos/.codex/generated_images/01a0fa05-e7a6-7a00-a6f0-fc3a9cc0cc09/exec-306e3bdb-89fe-410d-90ef-2273a645f83a.png",
+          "sha256": "89ba6b5457774d7001e2fdfc8c0d3167d85a5bf319a34dbd609548b82df19daa",
+          "preservedPaths": [
+            "root/masters/scene-04-v1.png",
+            "root/references/inputs/89ba6b545777/exec-306e3bdb-89fe-410d-90ef-2273a645f83a.png"
+          ]
+        }
+      ]
+    },
+    {
+      "record": "root/records/scene-05d-v1.json",
+      "recordSha256": "70de28675a81d3a8c4458d26ca7935c2f2f4ca6ff3be10eb869d3365f60b98eb",
+      "tool": "image_gen__imagegen",
+      "master": "root/masters/scene-05d-v1.png",
+      "masterSha256": "7ba45a81a6a5cb42e7b9709f7be501f09ced2ce9910690ecf678edebfcbe7b3a",
+      "nativeToolOutputMatched": true,
+      "prompt": "root/prompts/scene-05d-v1.txt",
+      "promptSha256": "2aa0eba124c65899d9c0975dad58774dfd7820fd7ed06a04e29c845753bf0199",
+      "inputs": [
+        {
+          "originalPath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r14-water-trip/root/masters/scene-04a-v1.png",
+          "sha256": "9c8eb7b6c2b8b318394fe7744ab2f6a314db6f01800bbc6a2f6bc0ed5df57773",
+          "preservedPaths": [
+            "root/masters/scene-04a-v1.png",
+            "root/references/inputs/9c8eb7b6c2b8/scene-04a-v1.png"
+          ]
+        },
+        {
+          "originalPath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r8-herculean/reused/web/scene-04.webp",
+          "sha256": "ecff260ace6f0bb9f4afed2c156cbc87ba72753b3afedf4e6a23d059c0873112",
+          "preservedPaths": [
+            "root/references/inputs/ecff260ace6f/scene-04.webp",
+            "geometry/references/inputs/ecff260ace6f/scene-04.webp"
+          ]
+        }
+      ]
+    },
+    {
+      "record": "geometry/records/scene-04b-v1.json",
+      "recordSha256": "c9c8a774499ec3a1fef25a711aefd1cb7c94bd1f5d6a4bc08d2bee2fa907b800",
+      "tool": "image_gen__imagegen",
+      "master": "geometry/masters/scene-04b-v1.png",
+      "masterSha256": "22a81e0b3610e162dc226433e22bf2a18140485cb5a1d0ee9e39fd29b2339b13",
+      "nativeToolOutputMatched": true,
+      "prompt": "geometry/prompts/scene-04b-v1.txt",
+      "promptSha256": "2988c33d1018a40580a6dc8ae923fe1aef602028353087881527816bd6c8edbe",
+      "inputs": [
+        {
+          "originalPath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r8-herculean/reused/web/scene-04.webp",
+          "sha256": "ecff260ace6f0bb9f4afed2c156cbc87ba72753b3afedf4e6a23d059c0873112",
+          "preservedPaths": [
+            "root/references/inputs/ecff260ace6f/scene-04.webp",
+            "geometry/references/inputs/ecff260ace6f/scene-04.webp"
+          ]
+        },
+        {
+          "originalPath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-workspace/mr-pinpin-source/docs/storyboard/images/chapter-01-direct/08.png",
+          "sha256": "04fb1f25083db7f968fcf17087d2eed5d8b89f152c96bd412a07986553ca437e",
+          "preservedPaths": [
+            "geometry/references/inputs/04fb1f25083d/08.png"
+          ]
+        },
+        {
+          "originalPath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r14-water-trip/geometry/masters/scene-04d-v1.png",
+          "sha256": "b903b58e11a61b391d28715c00d798b31582955c55c1b4705a9a4e7455839e64",
+          "preservedPaths": [
+            "geometry/masters/scene-04d-v1.png",
+            "geometry/references/inputs/b903b58e11a6/scene-04d-v1.png"
+          ]
+        }
+      ]
+    },
+    {
+      "record": "geometry/records/scene-04c-v1.json",
+      "recordSha256": "b2fc7a28129d6775eace0666f648c9d4ee8d1fad5853ab0c130756b2ea7f06eb",
+      "tool": "image_gen__imagegen",
+      "master": "geometry/masters/scene-04c-v1.png",
+      "masterSha256": "342a982bf85921c10cd97f96f3dc80b39f585a3712dabd57968ce5cfc5071355",
+      "nativeToolOutputMatched": true,
+      "prompt": "geometry/prompts/scene-04c-v1.txt",
+      "promptSha256": "226a28712ed7ff3188ed40751487cb6900957c3f8c0c9f2184331779f1f0e103",
+      "inputs": [
+        {
+          "originalPath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r8-herculean/reused/web/scene-04.webp",
+          "sha256": "ecff260ace6f0bb9f4afed2c156cbc87ba72753b3afedf4e6a23d059c0873112",
+          "preservedPaths": [
+            "root/references/inputs/ecff260ace6f/scene-04.webp",
+            "geometry/references/inputs/ecff260ace6f/scene-04.webp"
+          ]
+        },
+        {
+          "originalPath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-workspace/mr-pinpin-source/docs/storyboard/images/chapter-01-direct/08.png",
+          "sha256": "04fb1f25083db7f968fcf17087d2eed5d8b89f152c96bd412a07986553ca437e",
+          "preservedPaths": [
+            "geometry/references/inputs/04fb1f25083d/08.png"
+          ]
+        },
+        {
+          "originalPath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r14-water-trip/geometry/masters/scene-04d-v1.png",
+          "sha256": "b903b58e11a61b391d28715c00d798b31582955c55c1b4705a9a4e7455839e64",
+          "preservedPaths": [
+            "geometry/masters/scene-04d-v1.png",
+            "geometry/references/inputs/b903b58e11a6/scene-04d-v1.png"
+          ]
+        }
+      ]
+    },
+    {
+      "record": "geometry/records/scene-04d-v1.json",
+      "recordSha256": "95d32dff435f9ec932b2d4da3c2b8d3f5bcf3fbf5ec38bd7db39bf839d9c225a",
+      "tool": "image_gen__imagegen",
+      "master": "geometry/masters/scene-04d-v1.png",
+      "masterSha256": "b903b58e11a61b391d28715c00d798b31582955c55c1b4705a9a4e7455839e64",
+      "nativeToolOutputMatched": true,
+      "prompt": "geometry/prompts/scene-04d-v1.txt",
+      "promptSha256": "b587c7472dee122c2bd37bdf51883b1594034c212a57f11e58855a1e06522be4",
+      "inputs": [
+        {
+          "originalPath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r8-herculean/reused/web/scene-04.webp",
+          "sha256": "ecff260ace6f0bb9f4afed2c156cbc87ba72753b3afedf4e6a23d059c0873112",
+          "preservedPaths": [
+            "root/references/inputs/ecff260ace6f/scene-04.webp",
+            "geometry/references/inputs/ecff260ace6f/scene-04.webp"
+          ]
+        },
+        {
+          "originalPath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-workspace/mr-pinpin-source/docs/storyboard/images/chapter-01-direct/08.png",
+          "sha256": "04fb1f25083db7f968fcf17087d2eed5d8b89f152c96bd412a07986553ca437e",
+          "preservedPaths": [
+            "geometry/references/inputs/04fb1f25083d/08.png"
+          ]
+        }
+      ]
+    },
+    {
+      "record": "geometry/records/scene-05-v1.json",
+      "recordSha256": "49aa375157509d341ebdc1a43ded8885f5daa63c781a39d77b923b9828f965e5",
+      "tool": "image_gen__imagegen",
+      "master": "geometry/masters/scene-05-v1.png",
+      "masterSha256": "a70fd008316bac3e249a8c906015e192335bfbebcd976104f39fc18a88457756",
+      "nativeToolOutputMatched": true,
+      "prompt": "geometry/prompts/scene-05-v1.txt",
+      "promptSha256": "f136d393941779d933a17f6623cc70a5ed78a8d84113b06e679678b93fef3ec1",
+      "inputs": [
+        {
+          "originalPath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r8-herculean/reused/web/scene-04.webp",
+          "sha256": "ecff260ace6f0bb9f4afed2c156cbc87ba72753b3afedf4e6a23d059c0873112",
+          "preservedPaths": [
+            "root/references/inputs/ecff260ace6f/scene-04.webp",
+            "geometry/references/inputs/ecff260ace6f/scene-04.webp"
+          ]
+        },
+        {
+          "originalPath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-workspace/mr-pinpin-source/docs/storyboard/images/chapter-01-direct/08.png",
+          "sha256": "04fb1f25083db7f968fcf17087d2eed5d8b89f152c96bd412a07986553ca437e",
+          "preservedPaths": [
+            "geometry/references/inputs/04fb1f25083d/08.png"
+          ]
+        },
+        {
+          "originalPath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r14-water-trip/geometry/masters/scene-04d-v1.png",
+          "sha256": "b903b58e11a61b391d28715c00d798b31582955c55c1b4705a9a4e7455839e64",
+          "preservedPaths": [
+            "geometry/masters/scene-04d-v1.png",
+            "geometry/references/inputs/b903b58e11a6/scene-04d-v1.png"
+          ]
+        }
+      ]
+    },
+    {
+      "record": "geometry/records/scene-05a-v1.json",
+      "recordSha256": "f00baf7786dd5e91bdcb05fe378114d176457a4a20766991bab02d238b32bfb6",
+      "tool": "image_gen__imagegen",
+      "master": "geometry/masters/scene-05a-v1.png",
+      "masterSha256": "7570bca98a050ba5ff1323fe70632a01a4dabeff2206c8e7e49d3a21b364dee7",
+      "nativeToolOutputMatched": true,
+      "prompt": "geometry/prompts/scene-05a-v1.txt",
+      "promptSha256": "b9b1d1be777ba34f377f0848957853ac8201f4d29be10e119991a3bf4de49dba",
+      "inputs": [
+        {
+          "originalPath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r14-water-trip/geometry/masters/scene-04d-v1.png",
+          "sha256": "b903b58e11a61b391d28715c00d798b31582955c55c1b4705a9a4e7455839e64",
+          "preservedPaths": [
+            "geometry/masters/scene-04d-v1.png",
+            "geometry/references/inputs/b903b58e11a6/scene-04d-v1.png"
+          ]
+        },
+        {
+          "originalPath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r14-water-trip/geometry/masters/scene-05-v1.png",
+          "sha256": "a70fd008316bac3e249a8c906015e192335bfbebcd976104f39fc18a88457756",
+          "preservedPaths": [
+            "geometry/masters/scene-05-v1.png",
+            "geometry/references/inputs/a70fd008316b/scene-05-v1.png"
+          ]
+        }
+      ]
+    },
+    {
+      "record": "geometry/records/scene-05b-v1.json",
+      "recordSha256": "f35ae9ef1486806464b15fdf019df3a3f466f3ed42a4f0aa74af5d5a2629d90e",
+      "tool": "image_gen__imagegen",
+      "master": "geometry/masters/scene-05b-v1.png",
+      "masterSha256": "3e85b3cd37b4d16c5fa4f37f0c37a2dcbb0eb007a137964e290a18753707901b",
+      "nativeToolOutputMatched": true,
+      "prompt": "geometry/prompts/scene-05b-v1.txt",
+      "promptSha256": "f1dca9303808c0104e563f6edd93def89a42a26b5f2ea7d4a999b38998785566",
+      "inputs": [
+        {
+          "originalPath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r14-water-trip/geometry/masters/scene-04d-v1.png",
+          "sha256": "b903b58e11a61b391d28715c00d798b31582955c55c1b4705a9a4e7455839e64",
+          "preservedPaths": [
+            "geometry/masters/scene-04d-v1.png",
+            "geometry/references/inputs/b903b58e11a6/scene-04d-v1.png"
+          ]
+        },
+        {
+          "originalPath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r14-water-trip/geometry/masters/scene-05-v1.png",
+          "sha256": "a70fd008316bac3e249a8c906015e192335bfbebcd976104f39fc18a88457756",
+          "preservedPaths": [
+            "geometry/masters/scene-05-v1.png",
+            "geometry/references/inputs/a70fd008316b/scene-05-v1.png"
+          ]
+        }
+      ]
+    },
+    {
+      "record": "geometry/records/scene-05c-v1.json",
+      "recordSha256": "cf5a2c083ab84e10755ba7b932ba9146dbc18df1071257edaf14821255ab044a",
+      "tool": "image_gen__imagegen",
+      "master": "geometry/masters/scene-05c-v1.png",
+      "masterSha256": "b67c5acb7d5052b2e2924823dc78a1bf4cce83e7704da55639d0b1f007604ee9",
+      "nativeToolOutputMatched": true,
+      "prompt": "geometry/prompts/scene-05c-v1.txt",
+      "promptSha256": "8c04dbf04779478abf7e1fdafb6df63a0fac97304170a8a8489d89e81dcb2096",
+      "inputs": [
+        {
+          "originalPath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r14-water-trip/geometry/masters/scene-04d-v1.png",
+          "sha256": "b903b58e11a61b391d28715c00d798b31582955c55c1b4705a9a4e7455839e64",
+          "preservedPaths": [
+            "geometry/masters/scene-04d-v1.png",
+            "geometry/references/inputs/b903b58e11a6/scene-04d-v1.png"
+          ]
+        },
+        {
+          "originalPath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r14-water-trip/geometry/masters/scene-05-v1.png",
+          "sha256": "a70fd008316bac3e249a8c906015e192335bfbebcd976104f39fc18a88457756",
+          "preservedPaths": [
+            "geometry/masters/scene-05-v1.png",
+            "geometry/references/inputs/a70fd008316b/scene-05-v1.png"
+          ]
+        }
+      ]
+    }
+  ],
+  "uniqueInputHashes": [
+    "04fb1f25083db7f968fcf17087d2eed5d8b89f152c96bd412a07986553ca437e",
+    "60a39cfa8b283d79ed23a28d5ca4744cfd8a58a0959ef40af0c35a8cc70723f8",
+    "89ba6b5457774d7001e2fdfc8c0d3167d85a5bf319a34dbd609548b82df19daa",
+    "9c8eb7b6c2b8b318394fe7744ab2f6a314db6f01800bbc6a2f6bc0ed5df57773",
+    "a70fd008316bac3e249a8c906015e192335bfbebcd976104f39fc18a88457756",
+    "b903b58e11a61b391d28715c00d798b31582955c55c1b4705a9a4e7455839e64",
+    "ecff260ace6f0bb9f4afed2c156cbc87ba72753b3afedf4e6a23d059c0873112"
+  ]
+}

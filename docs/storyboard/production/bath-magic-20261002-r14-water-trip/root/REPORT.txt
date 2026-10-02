@@ -1,0 +1,41 @@
+R14 home lane — front door and water-trip bookends
+Completed 2026-10-02T03:11:29.072Z
+
+Scope: three images, stable IDs04,04a,05d. No changes to old R13 files or other agents' outputs. Outdoor spring sequence owned by separate worker. No aqueduct or water magic at this early point.
+
+Preproduction:
+Inspected original R8 reused/web/scene-02..06.webp. Scene04 had correct stove/pot at right but missing front door in blank center wall. Scene05 showed green front door but wrongly substituted a jar/tap for the stove; this old05 is replaced by another lane's outside spring visit.
+Canonical exterior inspected:
+docs/storyboard/images/standalone/home-sweet-home/bedtime-01-v1.png (empty house)
+docs/storyboard/images/published/elder-cycle/elder-r6-family-001.webp (matching morning arrival)
+Selected empty house picture as architectural reference to avoid importing dog/Papa design. Cottage is stone under moss/earth roof, rounded central green wood door, TWO round spoke windows, timber entry frame, stone chimney and stepping-stone path.
+Original04 supplied Mama, PinPin and exactly2smallwooden buckets. Door design green to match book home.
+
+Selected assets:
+root/masters/scene-04-v1.png
+- Restores closed green front door in blank central wall, inside original curved timber frame.
+- Preserves original Mama/PinPin faces and poses, two EMPTY buckets, cast-iron stove/firebox, stone chimney, copper cooking pot, spoon, table and separate inner room doorway.
+- No tap/jar substitution or active water magic.
+
+root/masters/scene-04a-v1.png
+- Exterior departure, closer child-height three-quarter camera; TWO windows readable.
+- PinPin steps outward toward foreground-left carrying2EMPTY buckets with visible dark dry interiors, one in each paw.
+- Mama alone in doorway holding green door. Papa,baby and other animals offscreen.
+- Fresh golden morning, mossroof/stonefacade/ferns/daisies retained.
+- Shared selected master with outdoor lane to coordinate character, bucket and morning continuity.
+
+root/masters/scene-05d-v1.png
+- Same exact exterior camera/facade/door/path/light, now child returns in rear-three-quarter view toward Mama.
+- TWO FULL buckets with clear reflective water surfaces, connected paws/handles and small droplets.
+- Full rounded quill back and face turned toward Mama; energetic posture.
+- Mama holds door and welcomes him; no additional characters.
+
+Validation:
+All three native outputs visually inspected. Distinct empty departure/full return, correct count2buckets,4connected character arms total when visible, no baby fusion, no duplicate adults, no early aqueduct. These are image-led illustrations rather than Blender-measured geometry.
+
+Production:
+Built-in image_gen__imagegen only,3calls,3selected masters.
+Exact prompts: root/prompts/scene-{04,04a,05d}-v1.txt
+Exact records/input snapshots/hashes preserved through registrar in root/records and root/references/inputs.
+Quality94 WebP derivatives; no resize or postgeneration art editing.
+All3registered. Ready for coordinator visual review/finalization. No commit or publication by this lane.

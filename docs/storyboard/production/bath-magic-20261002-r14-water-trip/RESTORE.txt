@@ -1,0 +1,9 @@
+R14 RESTORATION
+
+Restore assets/bath-magic-20261002-r14-water-trip.json with its matching verified receipt using repository asset tools. Preserve native generations, exact prompts/input snapshots and final comic derivatives. Upstream byte pointers require sibling packs pinpin-bath-magic-20261001-r13-floor-canal, pinpin-bath-magic-20261001-r12-house-layout, pinpin-bath-magic-20261001-r11-continuity, pinpin-bath-magic-20261001-r10-story-repair and pinpin-bath-magic-20261001-r8-herculean, restored from their own verified manifests.
+
+R14 has120 story scenes plus cover: replaces04/05 and inserts04a/b/c/d then05a/b/c/d; no deletions. Stable IDs preserve provenance, r13Number retains old feedback numbers; reading number is newly sequential. sourceProduction names actual selected bytes, reusedFromProduction names immediate lineage.
+
+Use source-only recipes from the scoped commit. Pillow .venv runs refresh-media.py, verify-continuity-selection.py, finalize-selection.py, configure-storyboard.py, build-storyboard.py --languages ru,en --version NEW_INTEGER and verify-boards.py. Never overwrite immutable numbered masters or build inputs. Archive uses mini system python3 with existing HF package/authentication; matching fresh-readback receipt is proof.
+
+Serve R14 review and upstream production routes on mini18796, Air18795 tunnel. This review draft is not official publication.

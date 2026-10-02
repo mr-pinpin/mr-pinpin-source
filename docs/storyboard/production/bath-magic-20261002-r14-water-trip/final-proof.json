@@ -1,0 +1,51 @@
+{
+  "status": "Complete illustrated outdoor water-trip draft; awaiting user feedback; unpublished",
+  "scenes": 120,
+  "cover": 1,
+  "newSelectedIllustrations": 10,
+  "replacedScenes": [
+    "scene-04",
+    "scene-05"
+  ],
+  "insertedScenes": [
+    "scene-04a",
+    "scene-04b",
+    "scene-04c",
+    "scene-04d",
+    "scene-05a",
+    "scene-05b",
+    "scene-05c",
+    "scene-05d"
+  ],
+  "unchangedSelectedImages": 111,
+  "approvedPapaAndCanalByteIdentical": true,
+  "remainingCaptionsAndRelativeOrderUnchanged": true,
+  "generationTool": "image_gen__imagegen",
+  "qa": {
+    "reader/selection-qa.json": {
+      "sha256": "aae335ca67fa0722aaa4ef0ef007f61578da79393a9c54378b84d32a48fc66b3"
+    },
+    "boards/qa.json": {
+      "sha256": "bb98e6136b6e1959ddecc666ec17777e05206a7c66cc683d0ea0942a8560dbe0"
+    },
+    "browser-check/results.json": {
+      "sha256": "f91ce279e17ed187bddda2e6fd6618981f577503fe0ed3c09e7737f0b6f1106d"
+    },
+    "input-preservation.json": {
+      "sha256": "409d234e9dc4feb91c38d4f24527c28452db78b899b26fca0867923793c597c4"
+    },
+    "archive-manifest.json": {
+      "sha256": "fdd1c464aee2d03ad2342cf4f9f5bd84f1dfaf1f8816cb6b22dd6d28a04d3f73"
+    },
+    "archive-receipt.json": {
+      "sha256": "d9daba5fd6629c2d2abf4302786cb8e1a0308a920ec42bcf9ad3ab433dcf7164"
+    }
+  },
+  "archive": {
+    "verified": true,
+    "artifacts": 114,
+    "bytes": 233074824,
+    "freshRemoteReadback": true
+  },
+  "preview": "http://127.0.0.1:18795/storyboard/review/bath-magic-r14-water-trip.html?lang=ru"
+}

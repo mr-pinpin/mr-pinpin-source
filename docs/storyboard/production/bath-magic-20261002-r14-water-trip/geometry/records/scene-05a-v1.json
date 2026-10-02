@@ -1,0 +1,56 @@
+{
+  "tool": "image_gen__imagegen",
+  "generatedAt": "2026-10-02T03:13:26.273Z",
+  "sourceOutput": "/Users/miguel_lemos/.codex/generated_images/01a0fa0e-884b-7703-be8d-7ace86b986f9/exec-8d0c9ee4-03f0-47ab-a56a-afb2d86ed64e.png",
+  "promptPath": "prompts/scene-05a-v1.txt",
+  "references": [
+    "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r14-water-trip/geometry/masters/scene-04d-v1.png",
+    "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r14-water-trip/geometry/masters/scene-05-v1.png"
+  ],
+  "visualReview": "Viewed native. Closecamera shows robin shaking wetfeathers, clearwaterdropletsincludingoneonPinPinnose; childwinksandamusedsmallsmile, crouchesonDRYshelf bothhandsrestknees. Rabbitbackgroundleft; firstfullbucketleft, secondemptybehindchildright, exactly2. Rockspoutright. Closeupvariescamera clearly. Bluebirdcroppedout asallowed.",
+  "promptSha256": "b9b1d1be777ba34f377f0848957853ac8201f4d29be10e119991a3bf4de49dba",
+  "master": {
+    "path": "masters/scene-05a-v1.png",
+    "sha256": "7570bca98a050ba5ff1323fe70632a01a4dabeff2206c8e7e49d3a21b364dee7",
+    "bytes": 2843020
+  },
+  "referenceIdentities": [
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r14-water-trip/geometry/masters/scene-04d-v1.png",
+      "sha256": "b903b58e11a61b391d28715c00d798b31582955c55c1b4705a9a4e7455839e64",
+      "bytes": 3236267
+    },
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r14-water-trip/geometry/masters/scene-05-v1.png",
+      "sha256": "a70fd008316bac3e249a8c906015e192335bfbebcd976104f39fc18a88457756",
+      "bytes": 3276948
+    }
+  ],
+  "preservedReferences": [
+    {
+      "path": "references/inputs/b903b58e11a6/scene-04d-v1.png",
+      "sha256": "b903b58e11a61b391d28715c00d798b31582955c55c1b4705a9a4e7455839e64"
+    },
+    {
+      "path": "references/inputs/a70fd008316b/scene-05-v1.png",
+      "sha256": "a70fd008316bac3e249a8c906015e192335bfbebcd976104f39fc18a88457756"
+    }
+  ],
+  "reviewStatus": "illustration candidate; awaiting user feedback",
+  "web": {
+    "path": "web/scene-05a.webp",
+    "sha256": "8627017da4f9a4aae25d6430921efbd1881a9ec5e88f2c68ab53ef4a3d6afb02",
+    "bytes": 517826
+  },
+  "dimensions": [
+    1536,
+    1024
+  ],
+  "conversion": {
+    "format": "WebP",
+    "quality": 94,
+    "method": 6,
+    "resized": false,
+    "artEdited": false
+  }
+}

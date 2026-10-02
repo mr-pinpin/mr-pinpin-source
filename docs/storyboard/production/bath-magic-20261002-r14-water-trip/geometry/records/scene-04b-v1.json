@@ -1,0 +1,66 @@
+{
+  "tool": "image_gen__imagegen",
+  "generatedAt": "2026-10-02T03:10:10.336Z",
+  "sourceOutput": "/Users/miguel_lemos/.codex/generated_images/01a0fa0e-884b-7703-be8d-7ace86b986f9/exec-e6975677-1ad1-4778-9806-962c82553158.png",
+  "promptPath": "prompts/scene-04b-v1.txt",
+  "references": [
+    "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r8-herculean/reused/web/scene-04.webp",
+    "/Volumes/TB4/mac-mini-storage/shared/pinpin-workspace/mr-pinpin-source/docs/storyboard/images/chapter-01-direct/08.png",
+    "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r14-water-trip/geometry/masters/scene-04d-v1.png"
+  ],
+  "visualReview": "Viewed native. Child holds2emptybuckets facing grayrabbit who raises oneforepaw in greeting. Exactlyoneofeach; mutualeyecontact; naturalrabbit4limbs; warmdaisypath andfullchildquillmantle. Nohouse/water yet.",
+  "promptSha256": "2988c33d1018a40580a6dc8ae923fe1aef602028353087881527816bd6c8edbe",
+  "master": {
+    "path": "masters/scene-04b-v1.png",
+    "sha256": "22a81e0b3610e162dc226433e22bf2a18140485cb5a1d0ee9e39fd29b2339b13",
+    "bytes": 2937061
+  },
+  "referenceIdentities": [
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r8-herculean/reused/web/scene-04.webp",
+      "sha256": "ecff260ace6f0bb9f4afed2c156cbc87ba72753b3afedf4e6a23d059c0873112",
+      "bytes": 400848
+    },
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-workspace/mr-pinpin-source/docs/storyboard/images/chapter-01-direct/08.png",
+      "sha256": "04fb1f25083db7f968fcf17087d2eed5d8b89f152c96bd412a07986553ca437e",
+      "bytes": 2929021
+    },
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r14-water-trip/geometry/masters/scene-04d-v1.png",
+      "sha256": "b903b58e11a61b391d28715c00d798b31582955c55c1b4705a9a4e7455839e64",
+      "bytes": 3236267
+    }
+  ],
+  "preservedReferences": [
+    {
+      "path": "references/inputs/ecff260ace6f/scene-04.webp",
+      "sha256": "ecff260ace6f0bb9f4afed2c156cbc87ba72753b3afedf4e6a23d059c0873112"
+    },
+    {
+      "path": "references/inputs/04fb1f25083d/08.png",
+      "sha256": "04fb1f25083db7f968fcf17087d2eed5d8b89f152c96bd412a07986553ca437e"
+    },
+    {
+      "path": "references/inputs/b903b58e11a6/scene-04d-v1.png",
+      "sha256": "b903b58e11a61b391d28715c00d798b31582955c55c1b4705a9a4e7455839e64"
+    }
+  ],
+  "reviewStatus": "illustration candidate; awaiting user feedback",
+  "web": {
+    "path": "web/scene-04b.webp",
+    "sha256": "f945f4802de940f91dc6a78a2a5e7bc5d8e7b3239e3fdb3a883f56c73ebd7b3d",
+    "bytes": 533046
+  },
+  "dimensions": [
+    1536,
+    1024
+  ],
+  "conversion": {
+    "format": "WebP",
+    "quality": 94,
+    "method": 6,
+    "resized": false,
+    "artEdited": false
+  }
+}

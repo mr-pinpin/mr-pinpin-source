@@ -1,0 +1,45 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "width": 1440,
+      "defaultRussian": true,
+      "fullReaderScenes": 120,
+      "decodedSceneImages": 120,
+      "boardImagesDecoded": 10,
+      "panelLinks": 120,
+      "textComparison": true,
+      "languages": [
+        "ru",
+        "en",
+        "es"
+      ],
+      "noOverflow": true
+    },
+    {
+      "width": 390,
+      "defaultRussian": true,
+      "fullReaderScenes": 120,
+      "decodedSceneImages": 120,
+      "boardImagesDecoded": 10,
+      "panelLinks": 120,
+      "textComparison": true,
+      "languages": [
+        "ru",
+        "en",
+        "es"
+      ],
+      "noOverflow": true
+    }
+  ],
+  "errors": [],
+  "sourceHashes": {
+    "story-plan.json": "bc012c190345299f7c6d1bdb5b7b1a0f3a3a923d9fef25f214ed516a489f0625",
+    "causal-rhythm.json": "23a6d76eff5401eeeef6963bd4fd5f52f5ef8d1ebb7dd669851ea35e0ef2fd02",
+    "feedback-map.json": "2b401727fb3872aa096db2b354f62f8dffddf76cf1efc653ac631fc91a189cb3",
+    "boards/manifest.json": "3d61d73de36aa297dfe9725c1659d3781c3ce6c4421cdfa76690679d96f19470",
+    "docs/storyboard/review/bath-magic-r14-water-trip.html": "8bac676edf5f4e95a8fc6c3c56b1c80a56fae696dd5b96d529ba577988330ebd",
+    "docs/storyboard/review/bath-magic-r14-water-trip.css": "daf5187f487b23f7d6c7d91cc42873ef27c2c763b554c85612317839cfae3cb4",
+    "docs/storyboard/review/bath-magic-r14-water-trip.js": "da1b4ead8b639f3a72e9e396e156ccc0b18b4181daddb2db9212c3a206b0d9f8"
+  }
+}

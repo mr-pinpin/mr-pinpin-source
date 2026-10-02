@@ -1,0 +1,56 @@
+{
+  "tool": "image_gen__imagegen",
+  "generatedAt": "2026-10-02T03:08:02.050Z",
+  "sourceOutput": "/Users/miguel_lemos/.codex/generated_images/01a0fa05-e7a6-7a00-a6f0-fc3a9cc0cc09/exec-8077ccbd-7df4-4bff-8199-62f798858e27.png",
+  "promptPath": "prompts/scene-04a-v1.txt",
+  "references": [
+    "/Volumes/TB4/mac-mini-storage/shared/pinpin-workspace/mr-pinpin-source/docs/storyboard/images/standalone/home-sweet-home/bedtime-01-v1.png",
+    "/Users/miguel_lemos/.codex/generated_images/01a0fa05-e7a6-7a00-a6f0-fc3a9cc0cc09/exec-306e3bdb-89fe-410d-90ef-2273a645f83a.png"
+  ],
+  "visualReview": "Viewed native image: same stone/earth cottage facade with central green rounded door, TWO round spoke windows, moss roof, chimney, path and morning lighting. PinPin takes a lively outward step with exactly2empty wood buckets, one in each connected paw; dark dry interiors visible. Mama remains inside doorway watching him, two arms correct. No Papa,baby,extra animal,magic or aqueduct. Door shows open right side of entry for later matching.",
+  "promptSha256": "44c84c337ac8c3c1321372f1e6945975ec8a8627825cd035bff67df181139bd5",
+  "master": {
+    "path": "masters/scene-04a-v1.png",
+    "sha256": "9c8eb7b6c2b8b318394fe7744ab2f6a314db6f01800bbc6a2f6bc0ed5df57773",
+    "bytes": 3152695
+  },
+  "referenceIdentities": [
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-workspace/mr-pinpin-source/docs/storyboard/images/standalone/home-sweet-home/bedtime-01-v1.png",
+      "sha256": "60a39cfa8b283d79ed23a28d5ca4744cfd8a58a0959ef40af0c35a8cc70723f8",
+      "bytes": 2777850
+    },
+    {
+      "path": "/Users/miguel_lemos/.codex/generated_images/01a0fa05-e7a6-7a00-a6f0-fc3a9cc0cc09/exec-306e3bdb-89fe-410d-90ef-2273a645f83a.png",
+      "sha256": "89ba6b5457774d7001e2fdfc8c0d3167d85a5bf319a34dbd609548b82df19daa",
+      "bytes": 2359909
+    }
+  ],
+  "preservedReferences": [
+    {
+      "path": "references/inputs/60a39cfa8b28/bedtime-01-v1.png",
+      "sha256": "60a39cfa8b283d79ed23a28d5ca4744cfd8a58a0959ef40af0c35a8cc70723f8"
+    },
+    {
+      "path": "references/inputs/89ba6b545777/exec-306e3bdb-89fe-410d-90ef-2273a645f83a.png",
+      "sha256": "89ba6b5457774d7001e2fdfc8c0d3167d85a5bf319a34dbd609548b82df19daa"
+    }
+  ],
+  "reviewStatus": "illustration candidate; awaiting user feedback",
+  "web": {
+    "path": "web/scene-04a.webp",
+    "sha256": "d4aa875704392adaddfc11b63ebe53c94b0d8bc9f8f46e8ca01f67e0c0cec204",
+    "bytes": 661610
+  },
+  "dimensions": [
+    1536,
+    1024
+  ],
+  "conversion": {
+    "format": "WebP",
+    "quality": 94,
+    "method": 6,
+    "resized": false,
+    "artEdited": false
+  }
+}

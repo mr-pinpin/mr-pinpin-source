@@ -1,0 +1,60 @@
+{
+  "productionId": "bath-magic-20261002-r14-water-trip",
+  "sourceProduction": "bath-magic-20261001-r13-floor-canal",
+  "counts": {
+    "storyImages": 120,
+    "cover": 1,
+    "newArt": 10,
+    "unchangedArt": 111
+  },
+  "changes": [
+    {
+      "id": "scene-04",
+      "r13Number": 4,
+      "reason": "Restore the proper front-door departure and outdoor water source, with clear spatial continuity."
+    },
+    {
+      "id": "scene-05",
+      "r13Number": 5,
+      "reason": "Restore the proper front-door departure and outdoor water source, with clear spatial continuity."
+    }
+  ],
+  "insertedIds": [
+    "scene-04a",
+    "scene-04b",
+    "scene-04c",
+    "scene-04d",
+    "scene-05a",
+    "scene-05b",
+    "scene-05c",
+    "scene-05d"
+  ],
+  "removed": [],
+  "preserveExactly": [
+    "scene-06",
+    "scene-75",
+    "scene-123",
+    "scene-63",
+    "scene-45",
+    "scene-55",
+    "scene-55a",
+    "scene-55c"
+  ],
+  "narrativeOwner": "root",
+  "artOwnership": {
+    "root": [
+      "scene-04",
+      "scene-04a",
+      "scene-05d"
+    ],
+    "geometry": [
+      "scene-04b",
+      "scene-04c",
+      "scene-04d",
+      "scene-05",
+      "scene-05a",
+      "scene-05b",
+      "scene-05c"
+    ]
+  }
+}
