@@ -1,0 +1,62 @@
+{
+  "prompt": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r22/art/beaver-dam-finish/prompts/scene-339-v1.txt",
+  "exactPrompt": "Use case: illustration-story. One full-bleed 1536x1024 chapter image, a transition from work to the EXISTING picnic in Image1, not a duplicate picnic scene. Image1 is cast/prop authority: Papa is the LARGE round HEDGEHOG with full dark quill back and cream belly; PinPin is SMALL copper-quilled HEDGEHOG child; Mr Beaver has smooth chestnut fur, flat paddle tail, blue vest; Scooby is huge brown dog. Keep those four exact identities, no species mixing. Image2 retains Papa/PinPin faces and the completed dam/stream discovery. Image3 locks willow/workshop/picnic dry LEFT bank, calm pond/lodge RIGHT, single main spillway. Image4 ONLY gray spectacled Elder by rooted nursery.\nBeat: on dry grass beside the established willow workbench LEFT of pond, Papa kneels opening their wicker picnic basket lined with cream blue-striped cloth, revealing bread and apples. One paw lifts the cloth, the other holds basket rim. PinPin stands beside him and turns toward Mr Beaver, one paw points back toward the visible outgoing stream at right, the other open in an earnest question. PinPin looks directly into Beaver's face. Beaver pauses standing near the bench, leans slightly down to listen and follows PinPin's gesture with attention. This is the 'could we make a water-road at home?' moment. No text.\nScooby rests lying comfortably in shade beside the willow, large relative to Papa, attentive but relaxed, no saddle/cargo. In far soft background near the bench/nursery the Elder has returned to tend the same rooted low willow stool with a few shoots, gray quills and round glasses, only if readable without crowding. Mama and kits are offscreen back at worksite; do not add duplicates. Blanket can be folded by basket, not already full laid-out picnic like Image1.\nCamera medium-wide oblique across dry picnic bank, gives conversational triangle of Papa hands/basket, child turning, Beaver listening; plenty of their distinct anatomy visible. Keep pond/lodge behind right and repaired woven dam/sole outlet glimpsed at right. Not mirrored, no extra distant waterfall. Warm gentle morning cinematic illustrated lighting, full rounded faces and soft fur/quills, calm anticipation instead of forced grins. No floating tools, no extra limbs, no text, no new magic.",
+  "inputRoles": [
+    "exact Papa/PinPin/Beaver/Scooby identities and picnic props",
+    "PinPin discovery and outgoing stream continuity",
+    "fixed willow/workbench/picnic bank LEFT, calm pond RIGHT",
+    "Elder exact gray quills/spectacles and rooted nursery only"
+  ],
+  "toolArguments": {
+    "referenced_image_paths": [
+      "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r19/retained/scene-32d.webp",
+      "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r22/art/beaver-dam-finish/masters/scene-338-v1.png",
+      "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r22/art/beaver-dam/studies/location-study-v1.png",
+      "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r22/art/beaver-dam-finish/masters/scene-330-v1.png"
+    ],
+    "transparent_background": false
+  },
+  "schemaVersion": 1,
+  "id": "scene-339",
+  "version": "v1",
+  "tool": "image_gen__imagegen",
+  "native": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r22/art/beaver-dam-finish/masters/scene-339-v1.png",
+  "master": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r22/art/beaver-dam-finish/masters/scene-339-v1.png",
+  "web": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r22/art/beaver-dam-finish/web/scene-339-v1.webp",
+  "record": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r22/art/beaver-dam-finish/records/scene-339-v1.json",
+  "sourceOutputPath": "/Users/miguel_lemos/.codex/generated_images/01a0fa05-e7a6-7a00-a6f0-fc3a9cc0cc09/exec-6cb88c12-305e-4648-bb13-6314e2d49fca.png",
+  "sha256": "4603335ff959eb66275015abe0956bc7ec4d660bd9d232fd20ccd6d58567e701",
+  "webSha256": "41b97b98485e3e2aafb2b46712e359621e548833086239bdc98e0a114ab91019",
+  "artistReview": "pass",
+  "rootReview": "pass-for-preview",
+  "userReview": "pending",
+  "selected": true,
+  "width": 1536,
+  "height": 1024,
+  "inputs": [
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r19/retained/scene-32d.webp",
+      "sha256": "55df79885d4605b21935fd73f9c30822195eb1e4d5b1c2d42a6e981cd696bfbf",
+      "role": "exact Papa/PinPin/Beaver/Scooby identities and picnic props"
+    },
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r22/art/beaver-dam-finish/masters/scene-338-v1.png",
+      "sha256": "3b9be238c598bb68f55bd7ef6dab300ac4ca92b7c9672a105f8de2b75b742a15",
+      "role": "PinPin discovery and outgoing stream continuity"
+    },
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r22/art/beaver-dam/studies/location-study-v1.png",
+      "sha256": "aad512199ed77a236f03689db981e73e375174c6fee16553fc16bbed88ec2ea7",
+      "role": "fixed willow/workbench/picnic bank LEFT, calm pond RIGHT"
+    },
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r22/art/beaver-dam-finish/masters/scene-330-v1.png",
+      "sha256": "3bf3a4fdb0a6a42d0bd2e99b3f58313dbfa73b6153b26f6595e4c4827df5dc83",
+      "role": "Elder exact gray quills/spectacles and rooted nursery only"
+    }
+  ],
+  "visualReview": "Basket opening transitions to retained picnic; actual child/Beaver conversation; dog rests, Elder back near nursery.",
+  "selectionStatus": "coordinator-reviewed preview candidate; user approval pending",
+  "promptSha256": "30320f6bcce494b2999ffc5c2ddd8c852debc60ec1f7b8c65f65bbc35481c8c2",
+  "nativeBytes": 3197023
+}

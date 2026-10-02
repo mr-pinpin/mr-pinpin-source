@@ -1,0 +1,529 @@
+{
+  "schemaVersion": 1,
+  "status": "all10 coordinator-reviewed preview candidates; user approval pending",
+  "generationCount": 13,
+  "assets": [
+    {
+      "prompt": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r22/art/beaver-dam-finish/prompts/scene-330-v1.txt",
+      "exactPrompt": "Use case: illustration-story. Continue this exact illustration a few moments later, one full-bleed 1536x1024 chapter frame. Same low moss-edged willow stump firmly rooted between the same two gray stones, same characters and nursery layout. Those SAME five or six little shoots have now elongated into slender flexible upright willow rods with spaced narrow green leaves, taller than PinPin and up to the Elder's shoulder. They grow from the same cutstool; do not replace it with a potted sapling, giant tree or thick timber. Keep some tiny unopened buds low on the stump too.\nPinPin remains on the LEFT of the rootstock, now standing upright and tipping his round little face upward with nose following the tips. His actual eyes track the tallest shoot, expression absorbed and lightly amazed, not frightened. Elder remains on RIGHT, exact gray-white hedgehog, round gold spectacles, curled wood staff. One hand holds staff upright beside same rootstock; his free hand opens in a quiet measured gesture toward the new growth, gaze follows child's discovery. No new characters.\nCamera moves slightly lower and widens upward enough to show whole long shoots and both characters with feet/stump visible. Same big willow trunk left, workbench behind left and distant parked blue utility tractor behind right in this nursery view. Same beautiful golden daylight, dimensional soft-fur storybook rendering, not diagram. Tiny residual golden glimmer at root only; no magic blast, no symbols, no text. Exact character identity/body ratios, no extra hands or staff, no eyes looking at viewer.",
+      "inputRoles": [
+        "exact preceding scene: same rooted willow stump, Elder, PinPin, staff and nursery"
+      ],
+      "toolArguments": {
+        "referenced_image_paths": [
+          "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r22/art/beaver-dam/masters/scene-329-v1.png"
+        ],
+        "transparent_background": false
+      },
+      "schemaVersion": 1,
+      "id": "scene-330",
+      "version": "v1",
+      "tool": "image_gen__imagegen",
+      "native": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r22/art/beaver-dam-finish/masters/scene-330-v1.png",
+      "master": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r22/art/beaver-dam-finish/masters/scene-330-v1.png",
+      "web": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r22/art/beaver-dam-finish/web/scene-330-v1.webp",
+      "record": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r22/art/beaver-dam-finish/records/scene-330-v1.json",
+      "sourceOutputPath": "/Users/miguel_lemos/.codex/generated_images/01a0fa05-e7a6-7a00-a6f0-fc3a9cc0cc09/exec-e1fcb42a-925f-45cb-8cc6-d3634f93796c.png",
+      "sha256": "3bf3a4fdb0a6a42d0bd2e99b3f58313dbfa73b6153b26f6595e4c4827df5dc83",
+      "webSha256": "699277bca5b00ffa735e3b71b4459bb64122c588a632cf23d7a7d487f0756709",
+      "artistReview": "pass",
+      "rootReview": "pass-for-preview",
+      "userReview": "pending",
+      "selected": true,
+      "width": 1536,
+      "height": 1024,
+      "inputs": [
+        {
+          "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r22/art/beaver-dam/masters/scene-329-v1.png",
+          "sha256": "5c6595d459772719d33474b61cb9c13456c230ea73c7f9f78765e222f851fae0",
+          "role": "exact preceding scene: same rooted willow stump, Elder, PinPin, staff and nursery"
+        }
+      ],
+      "visualReview": "Same rooted stool329, grown flexible shoots, child upward eyeline; Elder consistent.",
+      "selectionStatus": "coordinator-reviewed preview candidate; user approval pending",
+      "promptSha256": "99d0a2f90910dc0f15c009e0d5e6b0327d224f198b1ec2e63a3ae141b28c8f1f",
+      "nativeBytes": 2990893
+    },
+    {
+      "prompt": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r22/art/beaver-dam-finish/prompts/scene-331-v1.txt",
+      "exactPrompt": "Use case: illustration-story. ONE full-bleed 1536x1024 frame directly after image1. Same rooted low mossy willow stump between gray stones, same slender grown shoots, same nursery by willow/bench. Input2 only Mr Beaver, the adult male in blue vest with flat paddle tail and two incisors; no other family from study.\nShow Mr Beaver screen LEFT crouched beside the stool cutting ONE selected thin side shoot with small simple handheld pruning shears; both tool handles are in his one paw, the other paw supports the selected stem well above the cut. Tool jaws surround that one shoot just above stump, hands clearly separate from blades. Elder remains screen RIGHT, same gray hedgehog/spectacles identity, gently collecting three already-cut long flexible willow rods into a bundle across his arms. His wooden curled staff leans visibly against the nearby bench, not floating or duplicated. This is adult tool handling; no child near blades. PinPin can be offscreen in this closer shot.\nCrucial plant continuity: same rooted stool remains alive in earth, with several UNCUT leafy shoots and tiny new buds still attached. No uprooting, no giant timber from these shoots, no magic lumber. Camera side close-medium with stump/shears in lower third and both adult faces looking attentively at the cut/bundle. Same nursery geography, pale blue tractor soft far background only if fits. Warm cinematic illustrated storybook lighting and tactile soft fur. Actual cooperative action, calm natural expressions, no exhaustion/manic brows, no labels/text, no additional characters.",
+      "inputRoles": [
+        "same willow stool, grown shoots, Elder and nursery",
+        "Mr Beaver blue vest exact identity only"
+      ],
+      "toolArguments": {
+        "referenced_image_paths": [
+          "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r22/art/beaver-dam-finish/masters/scene-330-v1.png",
+          "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r22/art/beaver-dam/studies/family-study-v1.png"
+        ],
+        "transparent_background": false
+      },
+      "schemaVersion": 1,
+      "id": "scene-331",
+      "version": "v1",
+      "tool": "image_gen__imagegen",
+      "native": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r22/art/beaver-dam-finish/masters/scene-331-v1.png",
+      "master": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r22/art/beaver-dam-finish/masters/scene-331-v1.png",
+      "web": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r22/art/beaver-dam-finish/web/scene-331-v1.webp",
+      "record": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r22/art/beaver-dam-finish/records/scene-331-v1.json",
+      "sourceOutputPath": "/Users/miguel_lemos/.codex/generated_images/01a0fa05-e7a6-7a00-a6f0-fc3a9cc0cc09/exec-ffff5c77-d144-460d-8125-53b27733b919.png",
+      "sha256": "c2e0c19c7347046a0865447e84c3615015318e59cbca5e9cc111d454c37c0414",
+      "webSha256": "0ddd34375a1181ecbc896f36fa872f04e1c782341152cb351c3220dbc361feba",
+      "artistReview": "pass",
+      "rootReview": "pass-for-preview",
+      "userReview": "pending",
+      "selected": true,
+      "width": 1536,
+      "height": 1024,
+      "inputs": [
+        {
+          "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r22/art/beaver-dam-finish/masters/scene-330-v1.png",
+          "sha256": "3bf3a4fdb0a6a42d0bd2e99b3f58313dbfa73b6153b26f6595e4c4827df5dc83",
+          "role": "same willow stool, grown shoots, Elder and nursery"
+        },
+        {
+          "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r22/art/beaver-dam/studies/family-study-v1.png",
+          "sha256": "ccfdcd8b6dd9adc6805ceaf6bd43a84ba79da2e0c9068a46e967154084c9f24f",
+          "role": "Mr Beaver blue vest exact identity only"
+        }
+      ],
+      "visualReview": "Adult shears cutting one shoot, bundle gathered, living stool and buds retained.",
+      "selectionStatus": "coordinator-reviewed preview candidate; user approval pending",
+      "promptSha256": "7c793d1cbb9498a75bb3661fb8b752b25db6baa51402c38d4e5a2dd2ec9d5290",
+      "nativeBytes": 2970289
+    },
+    {
+      "prompt": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r22/art/beaver-dam-finish/prompts/scene-332-v1.txt",
+      "exactPrompt": "Use case: illustration-story. Create ONE full-bleed 1536x1024 chapter frame, not a sheet. Input 1 locks this exact beaver pond worksite: willow/workbench dry left, repaired branch dam across pond near bank, lodge rear right, stone-lined OPEN spillway at far right flowing onward. Input 2 supplies Papa's approved round hedgehog face/body and Mr Beaver; input 3 is only Mr Bear in his olive work apron; input 4 only Mr Beaver's blue vest and paddle tail. Three characters only: Papa, Bear and Beaver.\nBeat: Papa and Mr Bear are lowering ONE sturdy fallen-timber brace into the loose LEFT side of the existing branch dam, away from the spillway. They support opposite ends of the same bark-covered log; Papa on left holds his end securely with both paws, tall Bear on right bends his elbows to guide the other end down between existing stout upright stakes. Mr Beaver beside the nearer stake points to the notch, looking at the log end: a useful real teamwork action, strong capable postures, not tired. The log is just above its resting notch so the contact is readable, hands do not intersect wood. This is a modest brace, not an enormous tree or plank.\nCamera: low three-quarter medium-wide from dry downstream bank, cropping closer than input 1; see all three faces, hands and feet, calm pond behind. Open flowing stone notch remains visible far right, never plug it. Background willow and workbench at left; distant parked tractors may be cropped rather than redesigned. Warm bright forest light, rounded dimensional cinematic children's-book rendering precisely matching refs, detailed fur/wood. Papa must remain hedgehog with short round muzzle and full cream belly, not wolf or beaver; Bear tallest and soft round; Beaver distinct flat tail/incisors/blue vest. Relaxed focused faces, no exaggerated brows or exhausted grins. No text or speech bubbles, no extra characters, no new machinery, no magic glow.",
+      "inputRoles": [
+        "fixed worksite layout and dam materials",
+        "Papa rounded hedgehog identity and relative adult scale",
+        "Mr Bear identity/olive apron only",
+        "Mr Beaver blue vest identity only"
+      ],
+      "toolArguments": {
+        "referenced_image_paths": [
+          "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r22/art/beaver-dam/studies/location-study-v1.png",
+          "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r17/art/beaver-return/masters/scene-32b2-v1.png",
+          "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r17/art/beaver-return/studies/bear-blue-tractor-study-v1.png",
+          "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r22/art/beaver-dam/studies/family-study-v1.png"
+        ],
+        "transparent_background": false
+      },
+      "schemaVersion": 1,
+      "id": "scene-332",
+      "version": "v1",
+      "tool": "image_gen__imagegen",
+      "native": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r22/art/beaver-dam-finish/masters/scene-332-v1.png",
+      "master": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r22/art/beaver-dam-finish/masters/scene-332-v1.png",
+      "web": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r22/art/beaver-dam-finish/web/scene-332-v1.webp",
+      "record": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r22/art/beaver-dam-finish/records/scene-332-v1.json",
+      "sourceOutputPath": "/Users/miguel_lemos/.codex/generated_images/01a0fa05-e7a6-7a00-a6f0-fc3a9cc0cc09/exec-eb339c3a-c1fa-4a51-b9ad-f0a37b8d6f58.png",
+      "sha256": "5c4545b914696ffc580b1e6bafc20e308177c83b8358a58adb61b1ef81b8ef39",
+      "webSha256": "721580fa45c9435bb0ef26fb283ad6f9041a2a1f513d86e6142231531b7b4d1f",
+      "artistReview": "pass",
+      "rootReview": "pass-for-preview",
+      "userReview": "pending",
+      "selected": true,
+      "width": 1536,
+      "height": 1024,
+      "inputs": [
+        {
+          "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r22/art/beaver-dam/studies/location-study-v1.png",
+          "sha256": "aad512199ed77a236f03689db981e73e375174c6fee16553fc16bbed88ec2ea7",
+          "role": "fixed worksite layout and dam materials"
+        },
+        {
+          "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r17/art/beaver-return/masters/scene-32b2-v1.png",
+          "sha256": "60fb218dcb0c1aaee4b3d367edcca4b2ee2444cdf51685ea1a710397c86771d0",
+          "role": "Papa rounded hedgehog identity and relative adult scale"
+        },
+        {
+          "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r17/art/beaver-return/studies/bear-blue-tractor-study-v1.png",
+          "sha256": "3b92d67454ebb1f3a0e51b67c581693bebb0e5115791ba4da3b75644123e0309",
+          "role": "Mr Bear identity/olive apron only"
+        },
+        {
+          "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r22/art/beaver-dam/studies/family-study-v1.png",
+          "sha256": "ccfdcd8b6dd9adc6805ceaf6bd43a84ba79da2e0c9068a46e967154084c9f24f",
+          "role": "Mr Beaver blue vest identity only"
+        }
+      ],
+      "visualReview": "Papa/Bear shared brace placement, Beaver directs, open spillway right.",
+      "selectionStatus": "coordinator-reviewed preview candidate; user approval pending",
+      "promptSha256": "6ce81039ac7996bb48758e3742618fad06640c44a2c59a46d7f9f5421c8eb918",
+      "nativeBytes": 3339855
+    },
+    {
+      "prompt": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r22/art/beaver-dam-finish/prompts/scene-333-v1.txt",
+      "exactPrompt": "Use case: illustration-story. Create one 1536x1024 full-bleed chapter image. Input1 establishes the dam LEFT-side repair site, its upright wooden stakes, bark-covered brace now seated securely, calm pond behind and open stone outlet at right. Input2 supplies ONLY Mama Beaver: golden chestnut fur, light cream cheeks, russet neck scarf, flat paddle tail, beaver muzzle/incisors, no quills. Input3 supplies ONLY PinPin child identity: copper hedgehog quills, rounded little face.\nBeat: close tactile view of Mama Beaver weaving a freshly cut flexible willow shoot over-under around the fixed uprights and the seated thick brace. Exactly two characters. Mama kneels securely on the dry bank screen right, holds the tip with one paw while her other paw guides the flexible middle through a gap; both paws anatomically clear. PinPin crouches beside her left, holding one spare slender shoot, intent eyes following the actual insertion point. Show a convincing bend and alternating weave; thin willow shoots are not straight lumber. A small bundle of leafy shoots rests on the dry bank, never blocks water.\nCamera at their hand level, intimate three-quarter close-medium, hands and wood prominent lower frame, both faces visible above; crop other workers out naturally. Preserve location/materials from Input1 but change camera nearer, not copy the whole wide scene. A glimpse of pond behind, outlet beyond right remains unobstructed if visible. Warm dimensional illustrated film lighting/soft tactile fur, calm concentration and shared attention, not manic grins. No extra adults/kits, no machinery close to children, no text, no magical sparkle. Mama has smooth fur and no hedgehog spines.",
+      "inputRoles": [
+        "same dam brace now seated and same sunny pond",
+        "Mama Beaver exact russet scarf/light cheeks",
+        "PinPin identity only"
+      ],
+      "toolArguments": {
+        "referenced_image_paths": [
+          "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r22/art/beaver-dam-finish/masters/scene-332-v1.png",
+          "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r22/art/beaver-dam/studies/family-study-v1.png",
+          "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r19/retained/scene-32c2.webp"
+        ],
+        "transparent_background": false
+      },
+      "schemaVersion": 1,
+      "id": "scene-333",
+      "version": "v1",
+      "tool": "image_gen__imagegen",
+      "native": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r22/art/beaver-dam-finish/masters/scene-333-v1.png",
+      "master": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r22/art/beaver-dam-finish/masters/scene-333-v1.png",
+      "web": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r22/art/beaver-dam-finish/web/scene-333-v1.webp",
+      "record": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r22/art/beaver-dam-finish/records/scene-333-v1.json",
+      "sourceOutputPath": "/Users/miguel_lemos/.codex/generated_images/01a0fa05-e7a6-7a00-a6f0-fc3a9cc0cc09/exec-58b873d0-590b-453f-9a97-ba4c3c643575.png",
+      "sha256": "a17c50bffd6cc1269891b846e0c7ac929e05bf151efba4fceab2871d8876ba09",
+      "webSha256": "4cdd09189d14f7bc3ae62651d9ddc8632ea8ba1e815a4dccaaa3b31f50443158",
+      "artistReview": "pass",
+      "rootReview": "pass-for-preview",
+      "userReview": "pending",
+      "selected": true,
+      "width": 1536,
+      "height": 1024,
+      "inputs": [
+        {
+          "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r22/art/beaver-dam-finish/masters/scene-332-v1.png",
+          "sha256": "5c4545b914696ffc580b1e6bafc20e308177c83b8358a58adb61b1ef81b8ef39",
+          "role": "same dam brace now seated and same sunny pond"
+        },
+        {
+          "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r22/art/beaver-dam/studies/family-study-v1.png",
+          "sha256": "ccfdcd8b6dd9adc6805ceaf6bd43a84ba79da2e0c9068a46e967154084c9f24f",
+          "role": "Mama Beaver exact russet scarf/light cheeks"
+        },
+        {
+          "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r19/retained/scene-32c2.webp",
+          "sha256": "10eadde7351bb1bca8ceedb5c471c72c4f7bdab5a2070f1eae88607ae4b07e00",
+          "role": "PinPin identity only"
+        }
+      ],
+      "visualReview": "Mama scarf/tail, two paws bend and weave flexible shoot; PinPin attentive.",
+      "selectionStatus": "coordinator-reviewed preview candidate; user approval pending",
+      "promptSha256": "7ed7a7ea002fdb4764b0a8521ebf92f3aa16af21db4169c79fa9ee17c518a91d",
+      "nativeBytes": 3108875
+    },
+    {
+      "prompt": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r22/art/beaver-dam-finish/prompts/scene-334-v2.txt",
+      "exactPrompt": "Use case: precise-object-edit. Image1 is the exact target. Correct ONLY its distant upper-right background beside/behind the beaver lodge: it accidentally contains an extra stepped white waterfall and rock-dam structure beyond the lodge, around x1330-1535,y180-380. Remove that stray distant waterfall/second dam and replace it with the calm low reed-lined pond bank, green foliage and natural gray stones matching Image2. The pond is calm behind the lodge. There is only ONE dam spillway in this location.\nDo NOT remove the correct nearer main outlet at middle-right/lower-right beside the woven dam: keep that foreground right waterfall and flowing stream intact. Preserve ALL three characters exactly: one hedgehog PinPin at center, younger kit left handing twig, older kit right picking willow branch; same faces, anatomy, eye contact, tails, paws, twig positions. Keep exact boardwalk, branch pile, workbench, willow, lodge itself, sunlight, camera and rendering. This is a tiny distant environmental repair only, no redesign, no text.",
+      "inputRoles": [
+        "exact edit target; preserve all children and twig action",
+        "authority for single spillway and calm bank beside far lodge"
+      ],
+      "toolArguments": {
+        "referenced_image_paths": [
+          "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r22/art/beaver-dam-finish/masters/scene-334-v1.png",
+          "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r22/art/beaver-dam/studies/location-study-v1.png"
+        ],
+        "transparent_background": false
+      },
+      "schemaVersion": 1,
+      "id": "scene-334",
+      "version": "v2",
+      "tool": "image_gen__imagegen",
+      "native": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r22/art/beaver-dam-finish/masters/scene-334-v2.png",
+      "master": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r22/art/beaver-dam-finish/masters/scene-334-v2.png",
+      "web": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r22/art/beaver-dam-finish/web/scene-334-v2.webp",
+      "record": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r22/art/beaver-dam-finish/records/scene-334-v2.json",
+      "sourceOutputPath": "/Users/miguel_lemos/.codex/generated_images/01a0fa05-e7a6-7a00-a6f0-fc3a9cc0cc09/exec-6ad3b6e0-438e-462b-9556-fb94de1420f0.png",
+      "sha256": "4cf2e3a29fd676511edf2326562c6ceaf9bc3b557eb091d857588c29a1ee2c3f",
+      "webSha256": "62f6361148d66e0c3e6ea8e7c9a8157e4b9a0cd010f9adbd58c30e645ab3d6d7",
+      "artistReview": "pass",
+      "rootReview": "pass-for-preview",
+      "userReview": "pending",
+      "selected": true,
+      "width": 1536,
+      "height": 1024,
+      "inputs": [
+        {
+          "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r22/art/beaver-dam-finish/masters/scene-334-v1.png",
+          "sha256": "620957650481296f06836ab4fde63890d1e963fa5d77a1ca4366922951289d2d",
+          "role": "exact edit target; preserve all children and twig action"
+        },
+        {
+          "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r22/art/beaver-dam/studies/location-study-v1.png",
+          "sha256": "aad512199ed77a236f03689db981e73e375174c6fee16553fc16bbed88ec2ea7",
+          "role": "authority for single spillway and calm bank beside far lodge"
+        }
+      ],
+      "visualReview": "Exactly two kits and hedgehog child handoff; distant extra waterfall removed in v2.",
+      "selectionStatus": "coordinator-reviewed preview candidate; user approval pending",
+      "promptSha256": "58829937fa91d17d6ccddf8ba11e42c7a837049678eabe7042acdd43136e41ce",
+      "nativeBytes": 2951863
+    },
+    {
+      "prompt": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r22/art/beaver-dam-finish/prompts/scene-335-v2.txt",
+      "exactPrompt": "Use case: precise-object-edit identity repair. Image1 is the exact target; image2 provides the correct PinPin, the CENTRAL small hedgehog child, as identity reference. In image1 the LEFT figure lifting a leaf was incorrectly turned into a beaver. Replace ONLY that left figure with the true PinPin from image2: small rounded cream face, copper-brown HEDGEHOG quill coat, tiny round ears, short dark nose, hedgehog paws, no beaver incisors and NO flat paddle tail. Match his child size to the two kits as in image2. Preserve his useful pose/action: his rightward raised paw gently parts ONE leaf to reveal the older kit's eye; other paw relaxed near belly; he leans inquisitively with eyes on revealed kit, plausible shoulder/elbow/wrist. Remove the incorrect left paddle tail fully; that's part of the character replacement.\nKeep center older beaver behind the same leafy willow bundle with visible paws/feet/one eye and its own paddle tail unchanged. Keep right younger cream-bib beaver unchanged. Thus exactly one hedgehog child and TWO beaver children, no extra animals. Preserve boardwalk, sunny pond, lodge, willow, branch shape and all framing/lighting. No redesign of remaining scene, no text, no magic face on plant. Keep lush dimensional cinematic children's-book style.",
+      "inputRoles": [
+        "edit target; retain leafy kit and younger kit exactly",
+        "PinPin identity authority, center hedgehog only"
+      ],
+      "toolArguments": {
+        "referenced_image_paths": [
+          "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r22/art/beaver-dam-finish/masters/scene-335-v1.png",
+          "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r22/art/beaver-dam-finish/masters/scene-334-v1.png"
+        ],
+        "transparent_background": false
+      },
+      "schemaVersion": 1,
+      "id": "scene-335",
+      "version": "v2",
+      "tool": "image_gen__imagegen",
+      "native": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r22/art/beaver-dam-finish/masters/scene-335-v2.png",
+      "master": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r22/art/beaver-dam-finish/masters/scene-335-v2.png",
+      "web": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r22/art/beaver-dam-finish/web/scene-335-v2.webp",
+      "record": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r22/art/beaver-dam-finish/records/scene-335-v2.json",
+      "sourceOutputPath": "/Users/miguel_lemos/.codex/generated_images/01a0fa05-e7a6-7a00-a6f0-fc3a9cc0cc09/exec-7ffcd1ea-23ff-46ab-9614-a7be47b36032.png",
+      "sha256": "0030cb23412d3383ae4953d85ea365b462e81b517185731f30ed81cda1f9c327",
+      "webSha256": "1e63f570a591c09614c14c7026631de7048d51ba98e6cbced7627546f258a39b",
+      "artistReview": "pass",
+      "rootReview": "pass-for-preview",
+      "userReview": "pending",
+      "selected": true,
+      "width": 1536,
+      "height": 1024,
+      "inputs": [
+        {
+          "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r22/art/beaver-dam-finish/masters/scene-335-v1.png",
+          "sha256": "8b4dcca989127a88946c1e027d7463a65334e8c7542cbc33ef545c5166bc0f47",
+          "role": "edit target; retain leafy kit and younger kit exactly"
+        },
+        {
+          "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r22/art/beaver-dam-finish/masters/scene-334-v1.png",
+          "sha256": "620957650481296f06836ab4fde63890d1e963fa5d77a1ca4366922951289d2d",
+          "role": "PinPin identity authority, center hedgehog only"
+        }
+      ],
+      "visualReview": "PinPin hedgehog parts leaves; older kit behind branch, younger cream-bib kit right; no talking plant.",
+      "selectionStatus": "coordinator-reviewed preview candidate; user approval pending",
+      "promptSha256": "38142775b5e6af3e291211d3850af939b83df124ef5662ef876af60b8fd5a60a",
+      "nativeBytes": 2733155
+    },
+    {
+      "prompt": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r22/art/beaver-dam-finish/prompts/scene-336-v2.txt",
+      "exactPrompt": "Use case: precise-object-edit. In Image1 replace ONLY the small background figure just RIGHT of the blue-vested Beaver, leaning over the horizontal log behind Mama. This figure was mistakenly rendered as another beaver. It must be PAPA the adult HEDGEHOG from Image2 (the large cream-bellied spiny character center-left, NOT the blue-vested beaver at right). Give that background figure Papa's exact round short-muzzled face, small round ears, dark nose, cream muzzle/chest, and full dark brown HEDGEHOG QUILLS surrounding the back of his head and back. NO beaver incisors, NO paddle tail, NO smooth beaver fur on his back. Keep his current position behind the horizontal brace, two paws pressing/stabilizing it; sized as adult Papa despite perspective. Visible upper torso/head sufficient, lower body naturally occluded by dam. He attentively looks at the same post/log joint as Beaver.\nALL other characters and pixels compositionally preserved: blue-vested Beaver on far left remains Beaver, foreground Mama with russet scarf remains Mama Beaver, younger pale-bib kit handing her the twig remains kit. Keep handoff, all their anatomy, poses and faces. Keep dam/brace/weave, single right spillway, pond/lodge/camera/lighting exactly unchanged. This repair affects ONLY misidentified background Papa. No extra figures or text.",
+      "inputRoles": [
+        "edit target with good foreground Mama/kit, incorrect background Papa",
+        "Papa identity: LARGE adult HEDGEHOG at center-left, not beaver on right"
+      ],
+      "toolArguments": {
+        "referenced_image_paths": [
+          "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r22/art/beaver-dam-finish/masters/scene-336-v1.png",
+          "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r19/retained/scene-32d.webp"
+        ],
+        "transparent_background": false
+      },
+      "schemaVersion": 1,
+      "id": "scene-336",
+      "version": "v2",
+      "tool": "image_gen__imagegen",
+      "native": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r22/art/beaver-dam-finish/masters/scene-336-v2.png",
+      "master": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r22/art/beaver-dam-finish/masters/scene-336-v2.png",
+      "web": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r22/art/beaver-dam-finish/web/scene-336-v2.webp",
+      "record": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r22/art/beaver-dam-finish/records/scene-336-v2.json",
+      "sourceOutputPath": "/Users/miguel_lemos/.codex/generated_images/01a0fa05-e7a6-7a00-a6f0-fc3a9cc0cc09/exec-1b118978-7e2a-4f7b-b05c-be35344b5b6f.png",
+      "sha256": "c9e5cc430ffd8e9c99f5df8d94ff490eb24fca38e9d9dbfd031e5788791384d1",
+      "webSha256": "d8630c8062ba97083a02ded57c0e34420123b7b68860633821566c16f587b20b",
+      "artistReview": "pass",
+      "rootReview": "pass-for-preview",
+      "userReview": "pending",
+      "selected": true,
+      "width": 1536,
+      "height": 1024,
+      "inputs": [
+        {
+          "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r22/art/beaver-dam-finish/masters/scene-336-v1.png",
+          "sha256": "322aa33a5b44a7c923e3a8175c4bf57548be321b71bc267be1b613791091ef36",
+          "role": "edit target with good foreground Mama/kit, incorrect background Papa"
+        },
+        {
+          "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r19/retained/scene-32d.webp",
+          "sha256": "55df79885d4605b21935fd73f9c30822195eb1e4d5b1c2d42a6e981cd696bfbf",
+          "role": "Papa identity: LARGE adult HEDGEHOG at center-left, not beaver on right"
+        }
+      ],
+      "visualReview": "Mama/younger kit handoff; background Papa restored as hedgehog; brace retained.",
+      "selectionStatus": "coordinator-reviewed preview candidate; user approval pending",
+      "promptSha256": "c36499d547d074278ad49c749142ad26212aaccc5135e54e566ce7a353e98897",
+      "nativeBytes": 3034205
+    },
+    {
+      "prompt": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r22/art/beaver-dam-finish/prompts/scene-337-v1.txt",
+      "exactPrompt": "Use case: illustration-story. One full-bleed 1536x1024 frame testing the SAME completed beaver dam. Input1 is exact geography: calm pond rear, lodge on far RIGHT bank, dry willow/workbench LEFT, branch dam with ONE stone-lined overflow notch at right that feeds one rocky stream toward foreground. Input2 fixes completed side brace and willow weave. Input3 ONLY Mama Beaver with russet scarf, light cheeks, flat tail.\nCamera changes to LOW stream-water height downstream of the existing RIGHT spillway, looking up at the lip: flowing water in foreground leads visibly from calm pond through the deliberately OPEN stone notch and downhill toward camera. Repaired woven bank lies to left of notch, strong log brace and interlaced shoots intact. Mama Beaver alone kneels on dry rock bank LEFT of the notch, one paw steadies on rock and other flicks a small loose yellow-green leaf off the lip to keep it clear. Her gaze follows that leaf and flowing water. Show no other figures. A satisfying quiet observation after work, natural focused face.\nMaintain same worksite rather than inventing a second dam. Exactly ONE visible flowing outlet, no waterfall beside/behind distant lodge. Water does not pour through newly repaired branch weave; only through clear notch. No blockage, flooding or magically stopped water. Foreground current clear and sparkling, pond serene, golden morning light, tactile illustrated cinematic rendering consistent with references. No text, diagram, arrows, inset or machinery foreground.",
+      "inputRoles": [
+        "single intended spillway, pond and banks",
+        "completed side weave and Mama identity",
+        "Mama Beaver scarf/cheeks/tail only"
+      ],
+      "toolArguments": {
+        "referenced_image_paths": [
+          "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r22/art/beaver-dam/studies/location-study-v1.png",
+          "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r22/art/beaver-dam-finish/masters/scene-333-v1.png",
+          "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r22/art/beaver-dam/studies/family-study-v1.png"
+        ],
+        "transparent_background": false
+      },
+      "schemaVersion": 1,
+      "id": "scene-337",
+      "version": "v1",
+      "tool": "image_gen__imagegen",
+      "native": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r22/art/beaver-dam-finish/masters/scene-337-v1.png",
+      "master": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r22/art/beaver-dam-finish/masters/scene-337-v1.png",
+      "web": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r22/art/beaver-dam-finish/web/scene-337-v1.webp",
+      "record": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r22/art/beaver-dam-finish/records/scene-337-v1.json",
+      "sourceOutputPath": "/Users/miguel_lemos/.codex/generated_images/01a0fa05-e7a6-7a00-a6f0-fc3a9cc0cc09/exec-e6400468-ef8e-4ed3-8a83-ad1018f9c479.png",
+      "sha256": "996a4db4f11936c26b1961099906e9f7cac8584b45854657757fd02a5584d287",
+      "webSha256": "608dd5aa801b5a147b1b89b7dac70137491670e3a0507d86cce94d386ab74818",
+      "artistReview": "pass",
+      "rootReview": "pass-for-preview",
+      "userReview": "pending",
+      "selected": true,
+      "width": 1536,
+      "height": 1024,
+      "inputs": [
+        {
+          "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r22/art/beaver-dam/studies/location-study-v1.png",
+          "sha256": "aad512199ed77a236f03689db981e73e375174c6fee16553fc16bbed88ec2ea7",
+          "role": "single intended spillway, pond and banks"
+        },
+        {
+          "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r22/art/beaver-dam-finish/masters/scene-333-v1.png",
+          "sha256": "a17c50bffd6cc1269891b846e0c7ac929e05bf151efba4fceab2871d8876ba09",
+          "role": "completed side weave and Mama identity"
+        },
+        {
+          "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r22/art/beaver-dam/studies/family-study-v1.png",
+          "sha256": "ccfdcd8b6dd9adc6805ceaf6bd43a84ba79da2e0c9068a46e967154084c9f24f",
+          "role": "Mama Beaver scarf/cheeks/tail only"
+        }
+      ],
+      "visualReview": "One open stone spillway, calm pond, Mama removes leaf from lip.",
+      "selectionStatus": "coordinator-reviewed preview candidate; user approval pending",
+      "promptSha256": "e934ab7358e9c7139f2c9beedc4410fddcc8cdf243c25b098107f55a7a2e6fdf",
+      "nativeBytes": 3092394
+    },
+    {
+      "prompt": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r22/art/beaver-dam-finish/prompts/scene-338-v1.txt",
+      "exactPrompt": "Use case: illustration-story. ONE full-bleed 1536x1024 image. Image1 is character authority: PinPin is the SMALL copper-quilled HEDGEHOG child in center; Papa is the LARGE round cream-bellied HEDGEHOG left-center. Use ONLY these two HEDGEHOGS from it, NOT the beaver or dog. Both must have full quill backs, round short muzzles, small ears; no beaver teeth, no paddle tails. Image2 locks Papa identity/dam brace; image3 same pond geography.\nBeat: PinPin crouches securely on the dry near bank of the little outgoing stream, traces its downhill direction with one outstretched index finger without touching water, and realizes that water has a road. Papa crouches at his shoulder behind/right, follows exactly the same finger and current with his eyes, attentive to PinPin's discovery. Show their three-quarter faces naturally, genuinely engaged with each other and the stream, no looking into camera. PinPin's other paw rests on his own bent knee; Papa's hands rest naturally on his knees. Exactly two characters.\nCamera close at child eye height, two-shot faces and pointing paw occupy left/center, shallow sparkling stream crosses foreground from right rear toward bottomleft. Same repaired weave/brace and sole right-side stone overflow softly behind them, calm pond farther back. No second far waterfall, no mirrored worksite, no flooding. Gentle thoughtful beat, relaxed brows with slight recognition, not blank flat face or manic joy. Warm dimensional cinematic children's-book fur/quills/lighting matching Image1, no text, speech bubbles, arrows, symbols or magic.",
+      "inputRoles": [
+        "PinPin small HEDGEHOG and Papa large HEDGEHOG identity only",
+        "same repaired brace, Papa face, pond and right outlet",
+        "fixed single-spillway geography"
+      ],
+      "toolArguments": {
+        "referenced_image_paths": [
+          "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r19/retained/scene-32d.webp",
+          "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r22/art/beaver-dam-finish/masters/scene-332-v1.png",
+          "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r22/art/beaver-dam/studies/location-study-v1.png"
+        ],
+        "transparent_background": false
+      },
+      "schemaVersion": 1,
+      "id": "scene-338",
+      "version": "v1",
+      "tool": "image_gen__imagegen",
+      "native": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r22/art/beaver-dam-finish/masters/scene-338-v1.png",
+      "master": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r22/art/beaver-dam-finish/masters/scene-338-v1.png",
+      "web": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r22/art/beaver-dam-finish/web/scene-338-v1.webp",
+      "record": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r22/art/beaver-dam-finish/records/scene-338-v1.json",
+      "sourceOutputPath": "/Users/miguel_lemos/.codex/generated_images/01a0fa05-e7a6-7a00-a6f0-fc3a9cc0cc09/exec-bffbb131-b918-4609-82ba-2abcc2ff866f.png",
+      "sha256": "3b9be238c598bb68f55bd7ef6dab300ac4ca92b7c9672a105f8de2b75b742a15",
+      "webSha256": "52ffbb853763c4d20095491f86a687e92830de60ce04e54e8b96a739f8cc9318",
+      "artistReview": "pass",
+      "rootReview": "pass-for-preview",
+      "userReview": "pending",
+      "selected": true,
+      "width": 1536,
+      "height": 1024,
+      "inputs": [
+        {
+          "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r19/retained/scene-32d.webp",
+          "sha256": "55df79885d4605b21935fd73f9c30822195eb1e4d5b1c2d42a6e981cd696bfbf",
+          "role": "PinPin small HEDGEHOG and Papa large HEDGEHOG identity only"
+        },
+        {
+          "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r22/art/beaver-dam-finish/masters/scene-332-v1.png",
+          "sha256": "5c4545b914696ffc580b1e6bafc20e308177c83b8358a58adb61b1ef81b8ef39",
+          "role": "same repaired brace, Papa face, pond and right outlet"
+        },
+        {
+          "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r22/art/beaver-dam/studies/location-study-v1.png",
+          "sha256": "aad512199ed77a236f03689db981e73e375174c6fee16553fc16bbed88ec2ea7",
+          "role": "fixed single-spillway geography"
+        }
+      ],
+      "visualReview": "Papa/PinPin both hedgehogs, eyes follow finger/current; single outlet behind.",
+      "selectionStatus": "coordinator-reviewed preview candidate; user approval pending",
+      "promptSha256": "e8a2cf88a33e2e244698f543f0aeb535ea82573c34ddec11658d2f06977c552e",
+      "nativeBytes": 3056706
+    },
+    {
+      "prompt": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r22/art/beaver-dam-finish/prompts/scene-339-v1.txt",
+      "exactPrompt": "Use case: illustration-story. One full-bleed 1536x1024 chapter image, a transition from work to the EXISTING picnic in Image1, not a duplicate picnic scene. Image1 is cast/prop authority: Papa is the LARGE round HEDGEHOG with full dark quill back and cream belly; PinPin is SMALL copper-quilled HEDGEHOG child; Mr Beaver has smooth chestnut fur, flat paddle tail, blue vest; Scooby is huge brown dog. Keep those four exact identities, no species mixing. Image2 retains Papa/PinPin faces and the completed dam/stream discovery. Image3 locks willow/workshop/picnic dry LEFT bank, calm pond/lodge RIGHT, single main spillway. Image4 ONLY gray spectacled Elder by rooted nursery.\nBeat: on dry grass beside the established willow workbench LEFT of pond, Papa kneels opening their wicker picnic basket lined with cream blue-striped cloth, revealing bread and apples. One paw lifts the cloth, the other holds basket rim. PinPin stands beside him and turns toward Mr Beaver, one paw points back toward the visible outgoing stream at right, the other open in an earnest question. PinPin looks directly into Beaver's face. Beaver pauses standing near the bench, leans slightly down to listen and follows PinPin's gesture with attention. This is the 'could we make a water-road at home?' moment. No text.\nScooby rests lying comfortably in shade beside the willow, large relative to Papa, attentive but relaxed, no saddle/cargo. In far soft background near the bench/nursery the Elder has returned to tend the same rooted low willow stool with a few shoots, gray quills and round glasses, only if readable without crowding. Mama and kits are offscreen back at worksite; do not add duplicates. Blanket can be folded by basket, not already full laid-out picnic like Image1.\nCamera medium-wide oblique across dry picnic bank, gives conversational triangle of Papa hands/basket, child turning, Beaver listening; plenty of their distinct anatomy visible. Keep pond/lodge behind right and repaired woven dam/sole outlet glimpsed at right. Not mirrored, no extra distant waterfall. Warm gentle morning cinematic illustrated lighting, full rounded faces and soft fur/quills, calm anticipation instead of forced grins. No floating tools, no extra limbs, no text, no new magic.",
+      "inputRoles": [
+        "exact Papa/PinPin/Beaver/Scooby identities and picnic props",
+        "PinPin discovery and outgoing stream continuity",
+        "fixed willow/workbench/picnic bank LEFT, calm pond RIGHT",
+        "Elder exact gray quills/spectacles and rooted nursery only"
+      ],
+      "toolArguments": {
+        "referenced_image_paths": [
+          "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r19/retained/scene-32d.webp",
+          "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r22/art/beaver-dam-finish/masters/scene-338-v1.png",
+          "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r22/art/beaver-dam/studies/location-study-v1.png",
+          "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r22/art/beaver-dam-finish/masters/scene-330-v1.png"
+        ],
+        "transparent_background": false
+      },
+      "schemaVersion": 1,
+      "id": "scene-339",
+      "version": "v1",
+      "tool": "image_gen__imagegen",
+      "native": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r22/art/beaver-dam-finish/masters/scene-339-v1.png",
+      "master": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r22/art/beaver-dam-finish/masters/scene-339-v1.png",
+      "web": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r22/art/beaver-dam-finish/web/scene-339-v1.webp",
+      "record": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r22/art/beaver-dam-finish/records/scene-339-v1.json",
+      "sourceOutputPath": "/Users/miguel_lemos/.codex/generated_images/01a0fa05-e7a6-7a00-a6f0-fc3a9cc0cc09/exec-6cb88c12-305e-4648-bb13-6314e2d49fca.png",
+      "sha256": "4603335ff959eb66275015abe0956bc7ec4d660bd9d232fd20ccd6d58567e701",
+      "webSha256": "41b97b98485e3e2aafb2b46712e359621e548833086239bdc98e0a114ab91019",
+      "artistReview": "pass",
+      "rootReview": "pass-for-preview",
+      "userReview": "pending",
+      "selected": true,
+      "width": 1536,
+      "height": 1024,
+      "inputs": [
+        {
+          "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r19/retained/scene-32d.webp",
+          "sha256": "55df79885d4605b21935fd73f9c30822195eb1e4d5b1c2d42a6e981cd696bfbf",
+          "role": "exact Papa/PinPin/Beaver/Scooby identities and picnic props"
+        },
+        {
+          "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r22/art/beaver-dam-finish/masters/scene-338-v1.png",
+          "sha256": "3b9be238c598bb68f55bd7ef6dab300ac4ca92b7c9672a105f8de2b75b742a15",
+          "role": "PinPin discovery and outgoing stream continuity"
+        },
+        {
+          "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r22/art/beaver-dam/studies/location-study-v1.png",
+          "sha256": "aad512199ed77a236f03689db981e73e375174c6fee16553fc16bbed88ec2ea7",
+          "role": "fixed willow/workbench/picnic bank LEFT, calm pond RIGHT"
+        },
+        {
+          "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r22/art/beaver-dam-finish/masters/scene-330-v1.png",
+          "sha256": "3bf3a4fdb0a6a42d0bd2e99b3f58313dbfa73b6153b26f6595e4c4827df5dc83",
+          "role": "Elder exact gray quills/spectacles and rooted nursery only"
+        }
+      ],
+      "visualReview": "Basket opening transitions to retained picnic; actual child/Beaver conversation; dog rests, Elder back near nursery.",
+      "selectionStatus": "coordinator-reviewed preview candidate; user approval pending",
+      "promptSha256": "30320f6bcce494b2999ffc5c2ddd8c852debc60ec1f7b8c65f65bbc35481c8c2",
+      "nativeBytes": 3197023
+    }
+  ]
+}

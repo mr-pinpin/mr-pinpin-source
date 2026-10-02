@@ -1,0 +1,48 @@
+{
+  "prompt": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r22/art/beaver-dam-finish/prompts/scene-331-v1.txt",
+  "exactPrompt": "Use case: illustration-story. ONE full-bleed 1536x1024 frame directly after image1. Same rooted low mossy willow stump between gray stones, same slender grown shoots, same nursery by willow/bench. Input2 only Mr Beaver, the adult male in blue vest with flat paddle tail and two incisors; no other family from study.\nShow Mr Beaver screen LEFT crouched beside the stool cutting ONE selected thin side shoot with small simple handheld pruning shears; both tool handles are in his one paw, the other paw supports the selected stem well above the cut. Tool jaws surround that one shoot just above stump, hands clearly separate from blades. Elder remains screen RIGHT, same gray hedgehog/spectacles identity, gently collecting three already-cut long flexible willow rods into a bundle across his arms. His wooden curled staff leans visibly against the nearby bench, not floating or duplicated. This is adult tool handling; no child near blades. PinPin can be offscreen in this closer shot.\nCrucial plant continuity: same rooted stool remains alive in earth, with several UNCUT leafy shoots and tiny new buds still attached. No uprooting, no giant timber from these shoots, no magic lumber. Camera side close-medium with stump/shears in lower third and both adult faces looking attentively at the cut/bundle. Same nursery geography, pale blue tractor soft far background only if fits. Warm cinematic illustrated storybook lighting and tactile soft fur. Actual cooperative action, calm natural expressions, no exhaustion/manic brows, no labels/text, no additional characters.",
+  "inputRoles": [
+    "same willow stool, grown shoots, Elder and nursery",
+    "Mr Beaver blue vest exact identity only"
+  ],
+  "toolArguments": {
+    "referenced_image_paths": [
+      "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r22/art/beaver-dam-finish/masters/scene-330-v1.png",
+      "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r22/art/beaver-dam/studies/family-study-v1.png"
+    ],
+    "transparent_background": false
+  },
+  "schemaVersion": 1,
+  "id": "scene-331",
+  "version": "v1",
+  "tool": "image_gen__imagegen",
+  "native": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r22/art/beaver-dam-finish/masters/scene-331-v1.png",
+  "master": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r22/art/beaver-dam-finish/masters/scene-331-v1.png",
+  "web": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r22/art/beaver-dam-finish/web/scene-331-v1.webp",
+  "record": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r22/art/beaver-dam-finish/records/scene-331-v1.json",
+  "sourceOutputPath": "/Users/miguel_lemos/.codex/generated_images/01a0fa05-e7a6-7a00-a6f0-fc3a9cc0cc09/exec-ffff5c77-d144-460d-8125-53b27733b919.png",
+  "sha256": "c2e0c19c7347046a0865447e84c3615015318e59cbca5e9cc111d454c37c0414",
+  "webSha256": "0ddd34375a1181ecbc896f36fa872f04e1c782341152cb351c3220dbc361feba",
+  "artistReview": "pass",
+  "rootReview": "pass-for-preview",
+  "userReview": "pending",
+  "selected": true,
+  "width": 1536,
+  "height": 1024,
+  "inputs": [
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r22/art/beaver-dam-finish/masters/scene-330-v1.png",
+      "sha256": "3bf3a4fdb0a6a42d0bd2e99b3f58313dbfa73b6153b26f6595e4c4827df5dc83",
+      "role": "same willow stool, grown shoots, Elder and nursery"
+    },
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r22/art/beaver-dam/studies/family-study-v1.png",
+      "sha256": "ccfdcd8b6dd9adc6805ceaf6bd43a84ba79da2e0c9068a46e967154084c9f24f",
+      "role": "Mr Beaver blue vest exact identity only"
+    }
+  ],
+  "visualReview": "Adult shears cutting one shoot, bundle gathered, living stool and buds retained.",
+  "selectionStatus": "coordinator-reviewed preview candidate; user approval pending",
+  "promptSha256": "7c793d1cbb9498a75bb3661fb8b752b25db6baa51402c38d4e5a2dd2ec9d5290",
+  "nativeBytes": 2970289
+}

@@ -1,0 +1,377 @@
+{
+  "schemaVersion": 1,
+  "status": "authorized production; coordinator review before selection",
+  "replace": [
+    "scene-32b2",
+    "scene-32c",
+    "scene-32c1",
+    "scene-32c2",
+    "scene-32c3"
+  ],
+  "retainAfter": "scene-32d and ALL later picnic/aqueduct/test/manufacture/load/homeward frames",
+  "netNew": 15,
+  "expectedNarrativeCount": 191,
+  "authority": "Original lake cause remains unknown. Family pond/dam and Elder growing willow are new story additions explicitly requested. No bath counterspell. No new magic laws. Structural logs are fallen timber, boards existing stock, magic willow supplies flexible repair shoots.",
+  "scenes": [
+    {
+      "id": "scene-320",
+      "sequence": 1,
+      "title": "The pond worksite",
+      "cameraAction": "Wide approach extending approved workshop: pond/dam beyond right, willow/bench left, both distinct tractors on dry left staging ground; Papa/PinPin mounted on Scooby entering rightward.",
+      "paragraphs": {
+        "en": [
+          "Beyond the trees, everyone was busy beside the beavers’ pond."
+        ],
+        "ru": [
+          "За деревьями, у бобрового пруда, работа шла вовсю."
+        ],
+        "es": [
+          "Tras los árboles, todos trabajaban junto al estanque de los castores."
+        ]
+      },
+      "owner": "beaver-dam"
+    },
+    {
+      "id": "scene-321",
+      "sequence": 2,
+      "title": "A family welcome",
+      "cameraAction": "Mama Beaver comes onto bank with two children dripping from swimming; Beaver greets dismounting visitors. Shared eye contact, no lineup.",
+      "paragraphs": {
+        "en": [
+          "‘Come and see!’ called Beaver. Mama Beaver and the little ones waved."
+        ],
+        "ru": [
+          "«Идите смотреть!» — позвал Бобр. Мама-бобриха и малыши помахали им."
+        ],
+        "es": [
+          "«¡Venid a ver!», llamó Castor. Mamá Castora y los pequeños saludaron."
+        ]
+      },
+      "owner": "beaver-dam"
+    },
+    {
+      "id": "scene-322",
+      "sequence": 3,
+      "title": "Two little divers",
+      "cameraAction": "At waterline near calm bank two kits push off and dive, Mama watches nearby; PinPin crouches on dry bank to see.",
+      "paragraphs": {
+        "en": [
+          "Plop! Plop! The little beavers slipped back into the water."
+        ],
+        "ru": [
+          "Плюх! Плюх! Бобрята снова скользнули в воду."
+        ],
+        "es": [
+          "¡Plop! ¡Plop! Los pequeños castores volvieron a meterse en el agua."
+        ]
+      },
+      "owner": "beaver-dam"
+    },
+    {
+      "id": "scene-323",
+      "sequence": 4,
+      "title": "Underwater friends",
+      "cameraAction": "Entire camera underwater in clear calm pond: exactly two beaver children paddle and bubbles trail, tails clear; no PinPin swimming.",
+      "paragraphs": {
+        "en": [
+          "Under the water, their little paws kept paddling."
+        ],
+        "ru": [
+          "Под водой маленькие лапки всё гребли и гребли."
+        ],
+        "es": [
+          "Bajo el agua, sus patitas seguían remando."
+        ]
+      },
+      "owner": "beaver-dam"
+    },
+    {
+      "id": "scene-324",
+      "sequence": 5,
+      "title": "Why a pond",
+      "cameraAction": "Over Mama shoulder show quiet pond and modest lodge; child on bank follows gesture; spillway visibly continues stream.",
+      "paragraphs": {
+        "en": [
+          "‘This is our pond,’ said Mama Beaver. ‘And the stream keeps going.’"
+        ],
+        "ru": [
+          "«Это наш пруд, — сказала мама-бобриха. — А ручей течёт дальше»."
+        ],
+        "es": [
+          "«Este es nuestro estanque —dijo Mamá Castora—. Y el arroyo sigue su camino»."
+        ]
+      },
+      "owner": "beaver-dam"
+    },
+    {
+      "id": "scene-325",
+      "sequence": 6,
+      "title": "A loose edge",
+      "cameraAction": "Close hands: Beaver lifts loose side weave at dam edge away from deliberately clear notch; Papa inspects brace while PinPin watches.",
+      "paragraphs": {
+        "en": [
+          "Beaver wiggled a loose branch. ‘This side needs new wood.’"
+        ],
+        "ru": [
+          "Бобр пошевелил расшатавшуюся ветку. «Сюда нужно новое дерево»."
+        ],
+        "es": [
+          "Castor movió una rama suelta. «Este lado necesita madera nueva»."
+        ]
+      },
+      "owner": "beaver-dam"
+    },
+    {
+      "id": "scene-326",
+      "sequence": 7,
+      "title": "The red tractor",
+      "cameraAction": "Corrected red logging tractor unloads fallen timber on dry left pad; yellow crane immediately behind cab before trailer, Beaver operating, other cast clear.",
+      "paragraphs": {
+        "en": [
+          "The red tractor’s yellow arm lowered a log. Clonk!"
+        ],
+        "ru": [
+          "Жёлтая стрела красного трактора опустила бревно. Тук!"
+        ],
+        "es": [
+          "El brazo amarillo del tractor rojo bajó un tronco. ¡Toc!"
+        ]
+      },
+      "owner": "beaver-dam"
+    },
+    {
+      "id": "scene-327",
+      "sequence": 8,
+      "title": "The blue tractor",
+      "cameraAction": "Bear in blue utility tractor pulls small low wooden flatbed with prepared short boards along dry service lane; tractor engine nose left, arrives in pad; no crane.",
+      "paragraphs": {
+        "en": [
+          "Mr. Bear brought the boards on his blue tractor."
+        ],
+        "ru": [
+          "Господин Медведь привёз доски на синем тракторе."
+        ],
+        "es": [
+          "El señor Oso trajo las tablas con su tractor azul."
+        ]
+      },
+      "owner": "beaver-dam"
+    },
+    {
+      "id": "scene-328",
+      "sequence": 9,
+      "title": "The Elder in the nursery",
+      "cameraAction": "Low child-height two-shot PinPin greeting gray spectacle Elder beside established willow nursery on dry left; Elder tends rooted willow stool.",
+      "paragraphs": {
+        "en": [
+          "‘Good morning, PinPin!’ The Elder was tending a little willow."
+        ],
+        "ru": [
+          "«Доброе утро, Пин-Пин!» Старейшина ухаживал за маленькой ивой."
+        ],
+        "es": [
+          "«¡Buenos días, PinPin!» El Anciano cuidaba un pequeño sauce."
+        ]
+      },
+      "owner": "beaver-dam"
+    },
+    {
+      "id": "scene-329",
+      "sequence": 10,
+      "title": "The first shoots",
+      "cameraAction": "Macro/close low plant growth starts: Elder staff lightly beside rootstock, tiny shoots and opening buds; PinPin face watches, no blast.",
+      "paragraphs": {
+        "en": [
+          "He touched the willow with his staff. Tiny shoots began to rise."
+        ],
+        "ru": [
+          "Он коснулся ивы посохом. Маленькие побеги потянулись вверх."
+        ],
+        "es": [
+          "Tocó el sauce con su bastón. Empezaron a brotar pequeños tallos."
+        ]
+      },
+      "owner": "beaver-dam"
+    },
+    {
+      "id": "scene-330",
+      "sequence": 11,
+      "title": "Up they grow",
+      "cameraAction": "Same willow rootstock/time progression medium low angle: several long straight flexible shoots grown above child, Elder calm handgesture, child tracks upward.",
+      "paragraphs": {
+        "en": [
+          "Up, up, up! PinPin tipped his nose higher and higher."
+        ],
+        "ru": [
+          "Выше, выше, выше! Пин-Пин всё выше задирал нос."
+        ],
+        "es": [
+          "¡Arriba, arriba, arriba! PinPin levantó cada vez más la nariz."
+        ]
+      },
+      "owner": "beaver-dam-finish"
+    },
+    {
+      "id": "scene-331",
+      "sequence": 12,
+      "title": "Gathering flexible wood",
+      "cameraAction": "Beaver cuts selected new side shoots, Elder holds bundle; rooted stump leaves and uncut buds visible. Adult tool handling clear.",
+      "paragraphs": {
+        "en": [
+          "‘These will bend nicely,’ said Beaver. New buds stayed on the willow."
+        ],
+        "ru": [
+          "«Эти хорошо гнутся», — сказал Бобр. На иве остались новые почки."
+        ],
+        "es": [
+          "«Estos se doblarán muy bien», dijo Castor. En el sauce quedaron brotes nuevos."
+        ]
+      },
+      "owner": "beaver-dam-finish"
+    },
+    {
+      "id": "scene-332",
+      "sequence": 13,
+      "title": "A strong brace",
+      "cameraAction": "Papa and Bear carry fallen-timber brace to side repair; Beaver indicates notch. Gentle physical heft, not tired.",
+      "paragraphs": {
+        "en": [
+          "‘A little this way… there!’ Papa and Mr. Bear set the wood in place."
+        ],
+        "ru": [
+          "«Чуть-чуть сюда… вот!» Папа и господин Медведь уложили бревно."
+        ],
+        "es": [
+          "«Un poquito hacia aquí… ¡ahí!» Papá y el señor Oso colocaron la madera."
+        ]
+      },
+      "owner": "beaver-dam-finish"
+    },
+    {
+      "id": "scene-333",
+      "sequence": 14,
+      "title": "Mama's weaving",
+      "cameraAction": "Close two paws weaving flexible shoots over-under around fixed side brace; Mama Beaver face focused, PinPin attentive. Water outlet elsewhere remains open.",
+      "paragraphs": {
+        "en": [
+          "Mama Beaver tucked thin branches between the thick ones."
+        ],
+        "ru": [
+          "Мама-бобриха вплетала тонкие ветки между толстыми."
+        ],
+        "es": [
+          "Mamá Castora metía las ramas finas entre las gruesas."
+        ]
+      },
+      "owner": "beaver-dam-finish"
+    },
+    {
+      "id": "scene-334",
+      "sequence": 15,
+      "title": "Small helpers",
+      "cameraAction": "PinPin and two kits make light twig relay on dry boardwalk; olderkit picks leafy branch, younger hands smallstick to PinPin.",
+      "paragraphs": {
+        "en": [
+          "PinPin and the little beavers carried the small branches."
+        ],
+        "ru": [
+          "Пин-Пин и бобрята носили маленькие веточки."
+        ],
+        "es": [
+          "PinPin y los pequeños castores llevaban las ramitas."
+        ]
+      },
+      "owner": "beaver-dam-finish"
+    },
+    {
+      "id": "scene-335",
+      "sequence": 16,
+      "title": "A branch with feet",
+      "cameraAction": "Leafy bundle hides olderkit face, visible little feet; PinPin moves leaf aside to find eyes, youngerkit amused. No machinery nearby.",
+      "paragraphs": {
+        "en": [
+          "‘Where did you go?’ asked PinPin. ‘Here!’ came a little voice from behind the leaves."
+        ],
+        "ru": [
+          "«Ты где?» — спросил Пин-Пин. «Здесь!» — раздался тоненький голосок из-за листьев."
+        ],
+        "es": [
+          "«¿Dónde estás?», preguntó PinPin. «¡Aquí!», respondió una vocecita detrás de las hojas."
+        ]
+      },
+      "owner": "beaver-dam-finish"
+    },
+    {
+      "id": "scene-336",
+      "sequence": 17,
+      "title": "The last tuck",
+      "cameraAction": "Kit passes twig to Mama who tucks finalweave; Beaver checks solidbrace withPapa. Actual completion onehandovershot.",
+      "paragraphs": {
+        "en": [
+          "One last twig. Mama Beaver pressed it snugly into place."
+        ],
+        "ru": [
+          "Последняя веточка. Мама-бобриха крепко вставила её на место."
+        ],
+        "es": [
+          "Una última ramita. Mamá Castora la encajó bien."
+        ]
+      },
+      "owner": "beaver-dam-finish"
+    },
+    {
+      "id": "scene-337",
+      "sequence": 18,
+      "title": "Water has a way",
+      "cameraAction": "Low spillway-level view clearwater descends through intentionallyopen notch to established stream; Mama flicks looseleaf off lip, allgazesfollowwater.",
+      "paragraphs": {
+        "en": [
+          "The pond stayed calm. The little stream hurried on."
+        ],
+        "ru": [
+          "В пруду было тихо. А ручей побежал дальше."
+        ],
+        "es": [
+          "El estanque quedó tranquilo. El arroyito siguió corriendo."
+        ]
+      },
+      "owner": "beaver-dam-finish"
+    },
+    {
+      "id": "scene-338",
+      "sequence": 19,
+      "title": "PinPin notices",
+      "cameraAction": "Close thoughtful child tracing directiondownwithfinger whileDad crouches followsgaze; stream foreground, repairedweavebackground.",
+      "paragraphs": {
+        "en": [
+          "PinPin followed the water with his finger. ‘It has a road!’"
+        ],
+        "ru": [
+          "Пин-Пин провёл пальцем вслед за водой. «У неё есть дорога!»"
+        ],
+        "es": [
+          "PinPin siguió el agua con el dedo. «¡Tiene un camino!»"
+        ]
+      },
+      "owner": "beaver-dam-finish"
+    },
+    {
+      "id": "scene-339",
+      "sequence": 20,
+      "title": "A question for Beaver",
+      "cameraAction": "Transition toward bench: Papa opens picnicbasket breadfruit, PinPin turns toBeaver pointingbackwater; notfullsamepicnicpose. Elder backnursery.",
+      "paragraphs": {
+        "en": [
+          "‘Could we make a water-road at home?’ PinPin asked Beaver."
+        ],
+        "ru": [
+          "«А можно сделать такую дорогу для воды у нас дома?» — спросил Пин-Пин у Бобра."
+        ],
+        "es": [
+          "«¿Podríamos hacer un camino para el agua en casa?», preguntó PinPin a Castor."
+        ]
+      },
+      "owner": "beaver-dam-finish"
+    }
+  ]
+}

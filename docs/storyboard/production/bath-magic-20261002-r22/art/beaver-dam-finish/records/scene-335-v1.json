@@ -1,0 +1,45 @@
+{
+  "prompt": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r22/art/beaver-dam-finish/prompts/scene-335-v1.txt",
+  "exactPrompt": "Use case: illustration-story. One full-bleed 1536x1024 story frame continuing Image1 EXACT characters at the same dry boardwalk, warm light and leafy willow branch. Image2 is only identity clarification: larger older chestnut kit; smaller younger cream-chin/bib kit; exactly two kits total.\nBeat: a physical peekaboo joke, NOT a magical talking plant. The older kit has lifted the light leafy branch bundle in front of its face. Its little feet, body lower part, paddle tail and paws holding twigs make it clear a child is behind the leaves. PinPin at screen left gently moves ONE leaf aside with one paw and leans sideways to discover the older kit's eye/nose peeking out. The younger kit at lower right is amused, watching the revealed face; no extra children. Leafy bundle should hide most of older kit's face but reveal one alert friendly eye through the gap PinPin creates. Keep distinct hands/branch stems so no fused anatomy. This is a small child-sized bundle, not a full tree.\nCamera closer and slightly lower than Input1: playful intimate close-medium with PinPin face, leafy screen and younger kit, visible feet on dry planks. Show enough boardwalk to establish continuity, soft pond/willow behind. Keep warm golden dimensional children's-book style and rounded hedgehog child face, no flat face. Mild natural humor, not exaggerated eyebrow expressions. No captions, speech bubbles or letters; plant itself has no face, no eyes, no mouth and no magic glow. Do not make the kit into a plant or transfer quills onto beavers.",
+  "inputRoles": [
+    "direct previous-frame cast, boardwalk and branch continuity",
+    "exact older and younger kit designs, no duplicated turnaround figures"
+  ],
+  "toolArguments": {
+    "referenced_image_paths": [
+      "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r22/art/beaver-dam-finish/masters/scene-334-v1.png",
+      "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r22/art/beaver-dam/studies/family-study-v1.png"
+    ],
+    "transparent_background": false
+  },
+  "schemaVersion": 1,
+  "id": "scene-335",
+  "version": "v1",
+  "tool": "image_gen__imagegen",
+  "native": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r22/art/beaver-dam-finish/masters/scene-335-v1.png",
+  "master": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r22/art/beaver-dam-finish/masters/scene-335-v1.png",
+  "web": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r22/art/beaver-dam-finish/web/scene-335-v1.webp",
+  "record": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r22/art/beaver-dam-finish/records/scene-335-v1.json",
+  "sourceOutputPath": "/Users/miguel_lemos/.codex/generated_images/01a0fa05-e7a6-7a00-a6f0-fc3a9cc0cc09/exec-632ca5b1-1b6a-4ce6-b6a8-8a6975f82a01.png",
+  "sha256": "8b4dcca989127a88946c1e027d7463a65334e8c7542cbc33ef545c5166bc0f47",
+  "webSha256": "ea02146a93e1d199ba02a5a096e82509a51e22ef9d585445dff5135cf7d7781d",
+  "artistReview": "rejected",
+  "rootReview": "pending",
+  "userReview": "pending",
+  "selected": false,
+  "width": 1536,
+  "height": 1024,
+  "inputs": [
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r22/art/beaver-dam-finish/masters/scene-334-v1.png",
+      "sha256": "620957650481296f06836ab4fde63890d1e963fa5d77a1ca4366922951289d2d",
+      "role": "direct previous-frame cast, boardwalk and branch continuity"
+    },
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r22/art/beaver-dam/studies/family-study-v1.png",
+      "sha256": "ccfdcd8b6dd9adc6805ceaf6bd43a84ba79da2e0c9068a46e967154084c9f24f",
+      "role": "exact older and younger kit designs, no duplicated turnaround figures"
+    }
+  ],
+  "rejectionReason": "PinPin became third beaver; wrong species/identity"
+}

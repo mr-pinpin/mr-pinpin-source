@@ -1,0 +1,52 @@
+{
+  "prompt": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r22/art/beaver-dam-finish/prompts/scene-336-v1.txt",
+  "exactPrompt": "Use case: illustration-story. One full-bleed 1536x1024 scene, same sunny pond and LEFT-side dam repair as Input1, toward end of work. Input2 supplies younger small cream-bib beaver kit, mother russet scarf and father blue vest; input3 Papa rounded hedgehog identity only.\nBeat: the younger kit has brought one last short twig; camera captures the actual handover into Mama Beaver's left paw while her right paw tucks the twig's far tip into the nearly completed willow weave. Mama kneels close on dry bank, warm attentive gaze meets kit for a moment, no extra hands. The kit has one paw still on the twig, distinct little body and pale chin/bib. Thick bark-covered brace from previous frame remains firmly seated behind the fine weave. Behind Mama a little farther left, Mr Beaver presses the brace to check steadiness while Papa supports the adjacent upright stake; their attention is on that actual joint, not staring elsewhere. Four characters visible total: Mama Beaver, younger kit, Mr Beaver, Papa. Older kit and PinPin outside framing, not extra duplicated beavers.\nCamera medium three-quarter side angle, foreground twig passing connects child to mother, adults in soft middle distance. Calm pond/lodge behind right; single open stone-lined main spillway at right remains unobstructed, no second distant waterfall. Dry bank supports all feet. Keep same warm dimensional children-book texture, round coherent faces, distinct flat beaver tails/hedgehog quills, calm pleased concentration, no fatigue. No captions/text, no new magic or machinery.",
+  "inputRoles": [
+    "exact repair site, brace and Mama weaving",
+    "younger cream-bib kit and adult Beaver identities",
+    "Papa short round hedgehog identity"
+  ],
+  "toolArguments": {
+    "referenced_image_paths": [
+      "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r22/art/beaver-dam-finish/masters/scene-333-v1.png",
+      "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r22/art/beaver-dam/studies/family-study-v1.png",
+      "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r17/art/beaver-return/masters/scene-32b2-v1.png"
+    ],
+    "transparent_background": false
+  },
+  "schemaVersion": 1,
+  "id": "scene-336",
+  "version": "v1",
+  "tool": "image_gen__imagegen",
+  "native": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r22/art/beaver-dam-finish/masters/scene-336-v1.png",
+  "master": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r22/art/beaver-dam-finish/masters/scene-336-v1.png",
+  "web": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r22/art/beaver-dam-finish/web/scene-336-v1.webp",
+  "record": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r22/art/beaver-dam-finish/records/scene-336-v1.json",
+  "sourceOutputPath": "/Users/miguel_lemos/.codex/generated_images/01a0fa05-e7a6-7a00-a6f0-fc3a9cc0cc09/exec-3cc0062c-75d3-454d-adfa-1b2720e65654.png",
+  "sha256": "322aa33a5b44a7c923e3a8175c4bf57548be321b71bc267be1b613791091ef36",
+  "webSha256": "34e90c154b8cbcebef375b8d1ae8ac991ab0157653765104338c549651ea0e1f",
+  "artistReview": "rejected",
+  "rootReview": "pending",
+  "userReview": "pending",
+  "selected": false,
+  "width": 1536,
+  "height": 1024,
+  "inputs": [
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r22/art/beaver-dam-finish/masters/scene-333-v1.png",
+      "sha256": "a17c50bffd6cc1269891b846e0c7ac929e05bf151efba4fceab2871d8876ba09",
+      "role": "exact repair site, brace and Mama weaving"
+    },
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r22/art/beaver-dam/studies/family-study-v1.png",
+      "sha256": "ccfdcd8b6dd9adc6805ceaf6bd43a84ba79da2e0c9068a46e967154084c9f24f",
+      "role": "younger cream-bib kit and adult Beaver identities"
+    },
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r17/art/beaver-return/masters/scene-32b2-v1.png",
+      "sha256": "60fb218dcb0c1aaee4b3d367edcca4b2ee2444cdf51685ea1a710397c86771d0",
+      "role": "Papa short round hedgehog identity"
+    }
+  ],
+  "rejectionReason": "Background Papa rendered as beaver; correct to canonical hedgehog"
+}

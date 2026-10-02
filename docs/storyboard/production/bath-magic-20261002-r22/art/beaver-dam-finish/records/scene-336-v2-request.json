@@ -1,0 +1,15 @@
+{
+  "prompt": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r22/art/beaver-dam-finish/prompts/scene-336-v2.txt",
+  "exactPrompt": "Use case: precise-object-edit. In Image1 replace ONLY the small background figure just RIGHT of the blue-vested Beaver, leaning over the horizontal log behind Mama. This figure was mistakenly rendered as another beaver. It must be PAPA the adult HEDGEHOG from Image2 (the large cream-bellied spiny character center-left, NOT the blue-vested beaver at right). Give that background figure Papa's exact round short-muzzled face, small round ears, dark nose, cream muzzle/chest, and full dark brown HEDGEHOG QUILLS surrounding the back of his head and back. NO beaver incisors, NO paddle tail, NO smooth beaver fur on his back. Keep his current position behind the horizontal brace, two paws pressing/stabilizing it; sized as adult Papa despite perspective. Visible upper torso/head sufficient, lower body naturally occluded by dam. He attentively looks at the same post/log joint as Beaver.\nALL other characters and pixels compositionally preserved: blue-vested Beaver on far left remains Beaver, foreground Mama with russet scarf remains Mama Beaver, younger pale-bib kit handing her the twig remains kit. Keep handoff, all their anatomy, poses and faces. Keep dam/brace/weave, single right spillway, pond/lodge/camera/lighting exactly unchanged. This repair affects ONLY misidentified background Papa. No extra figures or text.",
+  "inputRoles": [
+    "edit target with good foreground Mama/kit, incorrect background Papa",
+    "Papa identity: LARGE adult HEDGEHOG at center-left, not beaver on right"
+  ],
+  "toolArguments": {
+    "referenced_image_paths": [
+      "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r22/art/beaver-dam-finish/masters/scene-336-v1.png",
+      "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r19/retained/scene-32d.webp"
+    ],
+    "transparent_background": false
+  }
+}

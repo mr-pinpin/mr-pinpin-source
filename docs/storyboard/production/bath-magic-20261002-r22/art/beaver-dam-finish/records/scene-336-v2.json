@@ -1,0 +1,48 @@
+{
+  "prompt": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r22/art/beaver-dam-finish/prompts/scene-336-v2.txt",
+  "exactPrompt": "Use case: precise-object-edit. In Image1 replace ONLY the small background figure just RIGHT of the blue-vested Beaver, leaning over the horizontal log behind Mama. This figure was mistakenly rendered as another beaver. It must be PAPA the adult HEDGEHOG from Image2 (the large cream-bellied spiny character center-left, NOT the blue-vested beaver at right). Give that background figure Papa's exact round short-muzzled face, small round ears, dark nose, cream muzzle/chest, and full dark brown HEDGEHOG QUILLS surrounding the back of his head and back. NO beaver incisors, NO paddle tail, NO smooth beaver fur on his back. Keep his current position behind the horizontal brace, two paws pressing/stabilizing it; sized as adult Papa despite perspective. Visible upper torso/head sufficient, lower body naturally occluded by dam. He attentively looks at the same post/log joint as Beaver.\nALL other characters and pixels compositionally preserved: blue-vested Beaver on far left remains Beaver, foreground Mama with russet scarf remains Mama Beaver, younger pale-bib kit handing her the twig remains kit. Keep handoff, all their anatomy, poses and faces. Keep dam/brace/weave, single right spillway, pond/lodge/camera/lighting exactly unchanged. This repair affects ONLY misidentified background Papa. No extra figures or text.",
+  "inputRoles": [
+    "edit target with good foreground Mama/kit, incorrect background Papa",
+    "Papa identity: LARGE adult HEDGEHOG at center-left, not beaver on right"
+  ],
+  "toolArguments": {
+    "referenced_image_paths": [
+      "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r22/art/beaver-dam-finish/masters/scene-336-v1.png",
+      "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r19/retained/scene-32d.webp"
+    ],
+    "transparent_background": false
+  },
+  "schemaVersion": 1,
+  "id": "scene-336",
+  "version": "v2",
+  "tool": "image_gen__imagegen",
+  "native": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r22/art/beaver-dam-finish/masters/scene-336-v2.png",
+  "master": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r22/art/beaver-dam-finish/masters/scene-336-v2.png",
+  "web": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r22/art/beaver-dam-finish/web/scene-336-v2.webp",
+  "record": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r22/art/beaver-dam-finish/records/scene-336-v2.json",
+  "sourceOutputPath": "/Users/miguel_lemos/.codex/generated_images/01a0fa05-e7a6-7a00-a6f0-fc3a9cc0cc09/exec-1b118978-7e2a-4f7b-b05c-be35344b5b6f.png",
+  "sha256": "c9e5cc430ffd8e9c99f5df8d94ff490eb24fca38e9d9dbfd031e5788791384d1",
+  "webSha256": "d8630c8062ba97083a02ded57c0e34420123b7b68860633821566c16f587b20b",
+  "artistReview": "pass",
+  "rootReview": "pass-for-preview",
+  "userReview": "pending",
+  "selected": true,
+  "width": 1536,
+  "height": 1024,
+  "inputs": [
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r22/art/beaver-dam-finish/masters/scene-336-v1.png",
+      "sha256": "322aa33a5b44a7c923e3a8175c4bf57548be321b71bc267be1b613791091ef36",
+      "role": "edit target with good foreground Mama/kit, incorrect background Papa"
+    },
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r19/retained/scene-32d.webp",
+      "sha256": "55df79885d4605b21935fd73f9c30822195eb1e4d5b1c2d42a6e981cd696bfbf",
+      "role": "Papa identity: LARGE adult HEDGEHOG at center-left, not beaver on right"
+    }
+  ],
+  "visualReview": "Mama/younger kit handoff; background Papa restored as hedgehog; brace retained.",
+  "selectionStatus": "coordinator-reviewed preview candidate; user approval pending",
+  "promptSha256": "c36499d547d074278ad49c749142ad26212aaccc5135e54e566ce7a353e98897",
+  "nativeBytes": 3034205
+}

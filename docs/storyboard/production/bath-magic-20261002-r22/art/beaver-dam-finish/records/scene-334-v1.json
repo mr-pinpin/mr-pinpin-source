@@ -1,0 +1,51 @@
+{
+  "prompt": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r22/art/beaver-dam-finish/prompts/scene-334-v1.txt",
+  "exactPrompt": "Use case: illustration-story. ONE full-bleed landscape 1536x1024 cinematic children's-book scene. Input1 supplies exact pond worksite, dry wooden boardwalk on near left bank and willow/bench left, pond and dam behind, spillway far right. Input2 is a character study, NOT a lineup to copy: use exactly TWO beaver children, the older chestnut kit (larger, warm tan chin) and younger smaller kit with a noticeably pale cream chin/bib, separate flat paddle tails, no clothing; do not duplicate turnaround poses. Input3 supplies ONLY little PinPin's copper hedgehog quills, round child face and small body, not its other cast or camera.\nBeat: the three small helpers make a twig relay on the dry plank boardwalk. The youngest beaver on screen left hands ONE short twig directly into PinPin's receiving paws in the center; their shared attention and touching twig make the handoff unmistakable. Older beaver at screen right bends to pick up a light leafy willow branch from a small pile beside the boardwalk. Show all three with distinct bodies, plausible paws and feet, no tools. This is a practical playful small job, not a posed portrait. Older kit a little taller than PinPin, younger below his shoulder.\nCamera: child-height intimate medium-wide from the dry side of the boardwalk, diagonal planks lead back toward dam. Frame around the three children; no vehicles near them. Calm pond and completed thick brace/unfinished finer weave softly behind, far-right flowing outlet stays open if visible. Match warm soft cinematic rendering and tactile fur of references, natural friendly focused expressions, no forced oversized brows, no fatigue. No extra kids/adults, no hedgehog quills on beavers, no text, no dialogue bubbles, no magic.",
+  "inputRoles": [
+    "fixed pond/dry boardwalk geography",
+    "exact two beaver children character identities",
+    "PinPin child identity only"
+  ],
+  "toolArguments": {
+    "referenced_image_paths": [
+      "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r22/art/beaver-dam/studies/location-study-v1.png",
+      "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r22/art/beaver-dam/studies/family-study-v1.png",
+      "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r19/retained/scene-32c2.webp"
+    ],
+    "transparent_background": false
+  },
+  "schemaVersion": 1,
+  "id": "scene-334",
+  "version": "v1",
+  "tool": "image_gen__imagegen",
+  "native": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r22/art/beaver-dam-finish/masters/scene-334-v1.png",
+  "master": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r22/art/beaver-dam-finish/masters/scene-334-v1.png",
+  "web": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r22/art/beaver-dam-finish/web/scene-334-v1.webp",
+  "record": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r22/art/beaver-dam-finish/records/scene-334-v1.json",
+  "sourceOutputPath": "/Users/miguel_lemos/.codex/generated_images/01a0fa05-e7a6-7a00-a6f0-fc3a9cc0cc09/exec-3a937b8e-b881-41cd-aacc-cb073a12fe15.png",
+  "sha256": "620957650481296f06836ab4fde63890d1e963fa5d77a1ca4366922951289d2d",
+  "webSha256": "b0f1d6752adf44cf8e0fc0428ed164b0459a451886261a79341711618682575f",
+  "artistReview": "pass",
+  "rootReview": "provisional; second distant fall requires repair",
+  "userReview": "pending",
+  "selected": false,
+  "width": 1536,
+  "height": 1024,
+  "inputs": [
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r22/art/beaver-dam/studies/location-study-v1.png",
+      "sha256": "aad512199ed77a236f03689db981e73e375174c6fee16553fc16bbed88ec2ea7",
+      "role": "fixed pond/dry boardwalk geography"
+    },
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r22/art/beaver-dam/studies/family-study-v1.png",
+      "sha256": "ccfdcd8b6dd9adc6805ceaf6bd43a84ba79da2e0c9068a46e967154084c9f24f",
+      "role": "exact two beaver children character identities"
+    },
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r19/retained/scene-32c2.webp",
+      "sha256": "10eadde7351bb1bca8ceedb5c471c72c4f7bdab5a2070f1eae88607ae4b07e00",
+      "role": "PinPin child identity only"
+    }
+  ]
+}

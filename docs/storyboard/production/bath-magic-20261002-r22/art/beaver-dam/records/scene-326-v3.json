@@ -1,0 +1,41 @@
+{
+  "id": "scene-326",
+  "version": "v3",
+  "tool": "image_gen__imagegen",
+  "toolArguments": {
+    "prompt": "Use case: precise-object-edit. Reference1 edit target. Change ONLY THE CAB INTERIOR. The tractor ENGINE and FRONT HOOD are on LEFT ofimage, so the MAIN STEERING WHEEL must be at the FRONT-LEFT ofcab immediatelybehindfrontwindshield nexttohood. Remove the current rear/right steeringwheel completely. Put normal blacksteeringwheel/frontdashboard LEFT ofBeaver torso underwindshield. Beaver seatedbody/legs faceLEFT towardtractorfront, onepaw restsnearproperfrontwheel; he turns ONLYhishead backtoRIGHT towatchcranelog, otherpaw operates a small sidejoystick byseat forcrane. Onecab oneoperator onexistingdriverseat, no newoutsidechair. Reference2 provides approved bookcab detailing and conventional frontcontrols; doNOT copyitschild or secondseat. Keep ALL exterior anatomy/compositionunchanged: yellowcrane basebehindcab aheadlogs, grapple/logstack/tires/redhood/glazing/windowframes/forestpond/light, no newcharacters. ExactoneBeaver bluevest insidecab. No rear-facing steeringwheel. No text.",
+    "referenced_image_paths": [
+      "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r22/art/beaver-dam/masters/scene-326-v2.png",
+      "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-cover-fix-20261002/publication/site/storyboard/images/standalone/timber-tractor/scene-05-v4.png"
+    ],
+    "transparent_background": false
+  },
+  "master": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r22/art/beaver-dam/masters/scene-326-v3.png",
+  "native": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r22/art/beaver-dam/masters/scene-326-v3.png",
+  "sha256": "7665d74dd10bcbcba1dedc613d121acaaa46e8fc5ec99ad17735a07dd4cec4e0",
+  "nativeSha256": "7665d74dd10bcbcba1dedc613d121acaaa46e8fc5ec99ad17735a07dd4cec4e0",
+  "web": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r22/art/beaver-dam/web/scene-326-v3.webp",
+  "webSha256": "a0476bfdde618f28a63cf086aea626f5de89cb8a1dd800f44a81634c0a02277f",
+  "dimensions": [
+    1536,
+    1024
+  ],
+  "originalToolOutput": "/Volumes/TB4/mac-mini-storage/shared/air-space-recovery/codex-generated-images-elder-r6/01a0fa0e-884b-7703-be8d-7ace86b986f9/exec-6258715c-a784-4c9b-99fe-7dcef2f9fb33.png",
+  "originalToolSha256": "7665d74dd10bcbcba1dedc613d121acaaa46e8fc5ec99ad17735a07dd4cec4e0",
+  "prompt": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r22/art/beaver-dam/prompts/scene-326-v3.txt",
+  "promptSha256": "693dde6d8dd8115dd884b863f2ff3726a40453928464f3ffb92e5f939b6b6b10",
+  "references": [
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r22/art/beaver-dam/masters/scene-326-v2.png",
+      "sha256": "b25b6ff382ac56422ce8309d0fdd713315cbcb29b3cc87dadb0345173f3b02c1"
+    },
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-cover-fix-20261002/publication/site/storyboard/images/standalone/timber-tractor/scene-05-v4.png",
+      "sha256": "c82468829d505d5728ed8e006bd1f98f02581147cf3e74efe3b7962f7ec14b56"
+    }
+  ],
+  "rootReview": "pass",
+  "userReview": "pending",
+  "createdAt": "2026-10-02T22:52:52.596634+00:00",
+  "record": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r22/art/beaver-dam/records/scene-326-v3.json"
+}

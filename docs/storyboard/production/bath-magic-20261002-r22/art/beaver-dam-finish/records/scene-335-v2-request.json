@@ -1,0 +1,15 @@
+{
+  "prompt": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r22/art/beaver-dam-finish/prompts/scene-335-v2.txt",
+  "exactPrompt": "Use case: precise-object-edit identity repair. Image1 is the exact target; image2 provides the correct PinPin, the CENTRAL small hedgehog child, as identity reference. In image1 the LEFT figure lifting a leaf was incorrectly turned into a beaver. Replace ONLY that left figure with the true PinPin from image2: small rounded cream face, copper-brown HEDGEHOG quill coat, tiny round ears, short dark nose, hedgehog paws, no beaver incisors and NO flat paddle tail. Match his child size to the two kits as in image2. Preserve his useful pose/action: his rightward raised paw gently parts ONE leaf to reveal the older kit's eye; other paw relaxed near belly; he leans inquisitively with eyes on revealed kit, plausible shoulder/elbow/wrist. Remove the incorrect left paddle tail fully; that's part of the character replacement.\nKeep center older beaver behind the same leafy willow bundle with visible paws/feet/one eye and its own paddle tail unchanged. Keep right younger cream-bib beaver unchanged. Thus exactly one hedgehog child and TWO beaver children, no extra animals. Preserve boardwalk, sunny pond, lodge, willow, branch shape and all framing/lighting. No redesign of remaining scene, no text, no magic face on plant. Keep lush dimensional cinematic children's-book style.",
+  "inputRoles": [
+    "edit target; retain leafy kit and younger kit exactly",
+    "PinPin identity authority, center hedgehog only"
+  ],
+  "toolArguments": {
+    "referenced_image_paths": [
+      "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r22/art/beaver-dam-finish/masters/scene-335-v1.png",
+      "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r22/art/beaver-dam-finish/masters/scene-334-v1.png"
+    ],
+    "transparent_background": false
+  }
+}

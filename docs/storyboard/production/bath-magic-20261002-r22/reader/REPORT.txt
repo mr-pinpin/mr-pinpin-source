@@ -1,0 +1,21 @@
+R22 beaver dam chapter expansion — complete review candidate
+Status: all20 new illustrations have coordinator visual review; user review is pending. Official R18 reader and PDFs remain unchanged.
+
+191 narrative illustrations + one localized cover (192 reader pages).
+New dam block: scene-320 through scene-339, current positions77–96.
+Replaced only five former tour slots:32b2,32c,32c1,32c2,32c3.
+All171 retained scene captions and image SHA256 values match immutable R21. Picnic, aqueduct design, prototype, test, manufacturing, loading and homeward ride remain in order. R21 plant repair and earlier Rabbit/Papa/Scooby corrections are retained.
+Verified day starts:1,122,135,156.
+
+Full chapter: /storyboard/review/bath-magic-r22.html?lang=ru#scene-320
+Changes: /storyboard/review/bath-magic-r22.html?lang=ru&view=changes
+Boards: /storyboard/production/bath-magic-20261002-r22/dam-board/?lang=ru
+Four chronological five-frame strips, one20-frame overview, one24-frame transition board, each in RU/EN/ES. Context includes retained32b/32b1 before and32d/32e after.
+
+Focused validation: reader/preview-proof.json PASS.
+191 unique ordered scenes, correct20-slot insertion and five removals; exact captions in all three languages at desktop1440 and mobile390; all four day-link destinations; all20 new images HTTP/hash/Chrome decode; transition anchors decode; no script errors, pending artwork or horizontal overflow.
+Contact-sheet review: readable captions, arrival→pond introduction→underwater play→materials→willow growth/cutting→shared dam repair→flow observation→home water-road question→retained picnic and design. Geometry checks distinguished the continuous main outlet from the rejected second waterfall. Tractor326-v1 and334-v1 are explicitly excluded from selection. Final tractor326-v3 uses the approved inside-cab operator and front controls.
+Scene335 explicitly attributes the reply to a little child's voice behind the leaves; it does not introduce a talking-plant spell. All20 final captions are checked against the latest authoritative preproduction plan.
+Final native/artwork manifests belong to art/beaver-dam and art/beaver-dam-finish. Their exact prompts, reference hashes, candidate history and rejected attempts remain available. Coordinator visual passes are not presented as individual user approvals.
+
+Preservation: archive-manifest.json lists only this revision's new artifacts; restore-manifest.json includes immutable R21 dependencies. Existing chapter artwork is referenced, not recopied/reuploaded. Fresh remote readback results are recorded in archive-receipt.json. Source/provenance lives under docs/storyboard/production/bath-magic-20261002-r22 plus its three review files. No official selector, story JSON or PDF catalog changes.

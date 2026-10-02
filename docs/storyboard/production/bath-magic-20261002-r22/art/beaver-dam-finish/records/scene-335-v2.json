@@ -1,0 +1,48 @@
+{
+  "prompt": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r22/art/beaver-dam-finish/prompts/scene-335-v2.txt",
+  "exactPrompt": "Use case: precise-object-edit identity repair. Image1 is the exact target; image2 provides the correct PinPin, the CENTRAL small hedgehog child, as identity reference. In image1 the LEFT figure lifting a leaf was incorrectly turned into a beaver. Replace ONLY that left figure with the true PinPin from image2: small rounded cream face, copper-brown HEDGEHOG quill coat, tiny round ears, short dark nose, hedgehog paws, no beaver incisors and NO flat paddle tail. Match his child size to the two kits as in image2. Preserve his useful pose/action: his rightward raised paw gently parts ONE leaf to reveal the older kit's eye; other paw relaxed near belly; he leans inquisitively with eyes on revealed kit, plausible shoulder/elbow/wrist. Remove the incorrect left paddle tail fully; that's part of the character replacement.\nKeep center older beaver behind the same leafy willow bundle with visible paws/feet/one eye and its own paddle tail unchanged. Keep right younger cream-bib beaver unchanged. Thus exactly one hedgehog child and TWO beaver children, no extra animals. Preserve boardwalk, sunny pond, lodge, willow, branch shape and all framing/lighting. No redesign of remaining scene, no text, no magic face on plant. Keep lush dimensional cinematic children's-book style.",
+  "inputRoles": [
+    "edit target; retain leafy kit and younger kit exactly",
+    "PinPin identity authority, center hedgehog only"
+  ],
+  "toolArguments": {
+    "referenced_image_paths": [
+      "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r22/art/beaver-dam-finish/masters/scene-335-v1.png",
+      "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r22/art/beaver-dam-finish/masters/scene-334-v1.png"
+    ],
+    "transparent_background": false
+  },
+  "schemaVersion": 1,
+  "id": "scene-335",
+  "version": "v2",
+  "tool": "image_gen__imagegen",
+  "native": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r22/art/beaver-dam-finish/masters/scene-335-v2.png",
+  "master": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r22/art/beaver-dam-finish/masters/scene-335-v2.png",
+  "web": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r22/art/beaver-dam-finish/web/scene-335-v2.webp",
+  "record": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r22/art/beaver-dam-finish/records/scene-335-v2.json",
+  "sourceOutputPath": "/Users/miguel_lemos/.codex/generated_images/01a0fa05-e7a6-7a00-a6f0-fc3a9cc0cc09/exec-7ffcd1ea-23ff-46ab-9614-a7be47b36032.png",
+  "sha256": "0030cb23412d3383ae4953d85ea365b462e81b517185731f30ed81cda1f9c327",
+  "webSha256": "1e63f570a591c09614c14c7026631de7048d51ba98e6cbced7627546f258a39b",
+  "artistReview": "pass",
+  "rootReview": "pass-for-preview",
+  "userReview": "pending",
+  "selected": true,
+  "width": 1536,
+  "height": 1024,
+  "inputs": [
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r22/art/beaver-dam-finish/masters/scene-335-v1.png",
+      "sha256": "8b4dcca989127a88946c1e027d7463a65334e8c7542cbc33ef545c5166bc0f47",
+      "role": "edit target; retain leafy kit and younger kit exactly"
+    },
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r22/art/beaver-dam-finish/masters/scene-334-v1.png",
+      "sha256": "620957650481296f06836ab4fde63890d1e963fa5d77a1ca4366922951289d2d",
+      "role": "PinPin identity authority, center hedgehog only"
+    }
+  ],
+  "visualReview": "PinPin hedgehog parts leaves; older kit behind branch, younger cream-bib kit right; no talking plant.",
+  "selectionStatus": "coordinator-reviewed preview candidate; user approval pending",
+  "promptSha256": "38142775b5e6af3e291211d3850af939b83df124ef5662ef876af60b8fd5a60a",
+  "nativeBytes": 2733155
+}

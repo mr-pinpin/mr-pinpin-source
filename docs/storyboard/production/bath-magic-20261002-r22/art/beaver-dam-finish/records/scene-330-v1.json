@@ -1,0 +1,41 @@
+{
+  "prompt": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r22/art/beaver-dam-finish/prompts/scene-330-v1.txt",
+  "exactPrompt": "Use case: illustration-story. Continue this exact illustration a few moments later, one full-bleed 1536x1024 chapter frame. Same low moss-edged willow stump firmly rooted between the same two gray stones, same characters and nursery layout. Those SAME five or six little shoots have now elongated into slender flexible upright willow rods with spaced narrow green leaves, taller than PinPin and up to the Elder's shoulder. They grow from the same cutstool; do not replace it with a potted sapling, giant tree or thick timber. Keep some tiny unopened buds low on the stump too.\nPinPin remains on the LEFT of the rootstock, now standing upright and tipping his round little face upward with nose following the tips. His actual eyes track the tallest shoot, expression absorbed and lightly amazed, not frightened. Elder remains on RIGHT, exact gray-white hedgehog, round gold spectacles, curled wood staff. One hand holds staff upright beside same rootstock; his free hand opens in a quiet measured gesture toward the new growth, gaze follows child's discovery. No new characters.\nCamera moves slightly lower and widens upward enough to show whole long shoots and both characters with feet/stump visible. Same big willow trunk left, workbench behind left and distant parked blue utility tractor behind right in this nursery view. Same beautiful golden daylight, dimensional soft-fur storybook rendering, not diagram. Tiny residual golden glimmer at root only; no magic blast, no symbols, no text. Exact character identity/body ratios, no extra hands or staff, no eyes looking at viewer.",
+  "inputRoles": [
+    "exact preceding scene: same rooted willow stump, Elder, PinPin, staff and nursery"
+  ],
+  "toolArguments": {
+    "referenced_image_paths": [
+      "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r22/art/beaver-dam/masters/scene-329-v1.png"
+    ],
+    "transparent_background": false
+  },
+  "schemaVersion": 1,
+  "id": "scene-330",
+  "version": "v1",
+  "tool": "image_gen__imagegen",
+  "native": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r22/art/beaver-dam-finish/masters/scene-330-v1.png",
+  "master": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r22/art/beaver-dam-finish/masters/scene-330-v1.png",
+  "web": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r22/art/beaver-dam-finish/web/scene-330-v1.webp",
+  "record": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r22/art/beaver-dam-finish/records/scene-330-v1.json",
+  "sourceOutputPath": "/Users/miguel_lemos/.codex/generated_images/01a0fa05-e7a6-7a00-a6f0-fc3a9cc0cc09/exec-e1fcb42a-925f-45cb-8cc6-d3634f93796c.png",
+  "sha256": "3bf3a4fdb0a6a42d0bd2e99b3f58313dbfa73b6153b26f6595e4c4827df5dc83",
+  "webSha256": "699277bca5b00ffa735e3b71b4459bb64122c588a632cf23d7a7d487f0756709",
+  "artistReview": "pass",
+  "rootReview": "pass-for-preview",
+  "userReview": "pending",
+  "selected": true,
+  "width": 1536,
+  "height": 1024,
+  "inputs": [
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r22/art/beaver-dam/masters/scene-329-v1.png",
+      "sha256": "5c6595d459772719d33474b61cb9c13456c230ea73c7f9f78765e222f851fae0",
+      "role": "exact preceding scene: same rooted willow stump, Elder, PinPin, staff and nursery"
+    }
+  ],
+  "visualReview": "Same rooted stool329, grown flexible shoots, child upward eyeline; Elder consistent.",
+  "selectionStatus": "coordinator-reviewed preview candidate; user approval pending",
+  "promptSha256": "99d0a2f90910dc0f15c009e0d5e6b0327d224f198b1ec2e63a3ae141b28c8f1f",
+  "nativeBytes": 2990893
+}

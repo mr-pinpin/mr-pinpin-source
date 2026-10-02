@@ -1,0 +1,15 @@
+{
+  "prompt": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r22/art/beaver-dam-finish/prompts/scene-334-v2.txt",
+  "exactPrompt": "Use case: precise-object-edit. Image1 is the exact target. Correct ONLY its distant upper-right background beside/behind the beaver lodge: it accidentally contains an extra stepped white waterfall and rock-dam structure beyond the lodge, around x1330-1535,y180-380. Remove that stray distant waterfall/second dam and replace it with the calm low reed-lined pond bank, green foliage and natural gray stones matching Image2. The pond is calm behind the lodge. There is only ONE dam spillway in this location.\nDo NOT remove the correct nearer main outlet at middle-right/lower-right beside the woven dam: keep that foreground right waterfall and flowing stream intact. Preserve ALL three characters exactly: one hedgehog PinPin at center, younger kit left handing twig, older kit right picking willow branch; same faces, anatomy, eye contact, tails, paws, twig positions. Keep exact boardwalk, branch pile, workbench, willow, lodge itself, sunlight, camera and rendering. This is a tiny distant environmental repair only, no redesign, no text.",
+  "inputRoles": [
+    "exact edit target; preserve all children and twig action",
+    "authority for single spillway and calm bank beside far lodge"
+  ],
+  "toolArguments": {
+    "referenced_image_paths": [
+      "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r22/art/beaver-dam-finish/masters/scene-334-v1.png",
+      "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r22/art/beaver-dam/studies/location-study-v1.png"
+    ],
+    "transparent_background": false
+  }
+}

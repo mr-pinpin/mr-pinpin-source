@@ -1,0 +1,55 @@
+{
+  "prompt": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r22/art/beaver-dam-finish/prompts/scene-337-v1.txt",
+  "exactPrompt": "Use case: illustration-story. One full-bleed 1536x1024 frame testing the SAME completed beaver dam. Input1 is exact geography: calm pond rear, lodge on far RIGHT bank, dry willow/workbench LEFT, branch dam with ONE stone-lined overflow notch at right that feeds one rocky stream toward foreground. Input2 fixes completed side brace and willow weave. Input3 ONLY Mama Beaver with russet scarf, light cheeks, flat tail.\nCamera changes to LOW stream-water height downstream of the existing RIGHT spillway, looking up at the lip: flowing water in foreground leads visibly from calm pond through the deliberately OPEN stone notch and downhill toward camera. Repaired woven bank lies to left of notch, strong log brace and interlaced shoots intact. Mama Beaver alone kneels on dry rock bank LEFT of the notch, one paw steadies on rock and other flicks a small loose yellow-green leaf off the lip to keep it clear. Her gaze follows that leaf and flowing water. Show no other figures. A satisfying quiet observation after work, natural focused face.\nMaintain same worksite rather than inventing a second dam. Exactly ONE visible flowing outlet, no waterfall beside/behind distant lodge. Water does not pour through newly repaired branch weave; only through clear notch. No blockage, flooding or magically stopped water. Foreground current clear and sparkling, pond serene, golden morning light, tactile illustrated cinematic rendering consistent with references. No text, diagram, arrows, inset or machinery foreground.",
+  "inputRoles": [
+    "single intended spillway, pond and banks",
+    "completed side weave and Mama identity",
+    "Mama Beaver scarf/cheeks/tail only"
+  ],
+  "toolArguments": {
+    "referenced_image_paths": [
+      "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r22/art/beaver-dam/studies/location-study-v1.png",
+      "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r22/art/beaver-dam-finish/masters/scene-333-v1.png",
+      "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r22/art/beaver-dam/studies/family-study-v1.png"
+    ],
+    "transparent_background": false
+  },
+  "schemaVersion": 1,
+  "id": "scene-337",
+  "version": "v1",
+  "tool": "image_gen__imagegen",
+  "native": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r22/art/beaver-dam-finish/masters/scene-337-v1.png",
+  "master": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r22/art/beaver-dam-finish/masters/scene-337-v1.png",
+  "web": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r22/art/beaver-dam-finish/web/scene-337-v1.webp",
+  "record": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r22/art/beaver-dam-finish/records/scene-337-v1.json",
+  "sourceOutputPath": "/Users/miguel_lemos/.codex/generated_images/01a0fa05-e7a6-7a00-a6f0-fc3a9cc0cc09/exec-e6400468-ef8e-4ed3-8a83-ad1018f9c479.png",
+  "sha256": "996a4db4f11936c26b1961099906e9f7cac8584b45854657757fd02a5584d287",
+  "webSha256": "608dd5aa801b5a147b1b89b7dac70137491670e3a0507d86cce94d386ab74818",
+  "artistReview": "pass",
+  "rootReview": "pass-for-preview",
+  "userReview": "pending",
+  "selected": true,
+  "width": 1536,
+  "height": 1024,
+  "inputs": [
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r22/art/beaver-dam/studies/location-study-v1.png",
+      "sha256": "aad512199ed77a236f03689db981e73e375174c6fee16553fc16bbed88ec2ea7",
+      "role": "single intended spillway, pond and banks"
+    },
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r22/art/beaver-dam-finish/masters/scene-333-v1.png",
+      "sha256": "a17c50bffd6cc1269891b846e0c7ac929e05bf151efba4fceab2871d8876ba09",
+      "role": "completed side weave and Mama identity"
+    },
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r22/art/beaver-dam/studies/family-study-v1.png",
+      "sha256": "ccfdcd8b6dd9adc6805ceaf6bd43a84ba79da2e0c9068a46e967154084c9f24f",
+      "role": "Mama Beaver scarf/cheeks/tail only"
+    }
+  ],
+  "visualReview": "One open stone spillway, calm pond, Mama removes leaf from lip.",
+  "selectionStatus": "coordinator-reviewed preview candidate; user approval pending",
+  "promptSha256": "e934ab7358e9c7139f2c9beedc4410fddcc8cdf243c25b098107f55a7a2e6fdf",
+  "nativeBytes": 3092394
+}

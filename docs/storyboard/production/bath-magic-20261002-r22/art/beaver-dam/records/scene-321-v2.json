@@ -1,0 +1,41 @@
+{
+  "id": "scene-321",
+  "version": "v2",
+  "tool": "image_gen__imagegen",
+  "toolArguments": {
+    "prompt": "Use case: precise-object-edit. Edit reference1 with ONE narrow background correction. Preserve ALL foreground characters, scale, poses, faces, hands, dog, basket, plants, pondwater, camera and lighting exactly. In the distant TOP-RIGHT background there is an erroneous waterfall immediately below the beaver lodge, pouring INTO this pond. Remove ONLY that tiny distant waterfall and its elevated dam/wall; replace with a natural low reed-lined rocky far shore contiguous with the calm pond. Keep the domed stick lodge on its dryfarbank. Reference2 locks geography only: the REAL dam/outflow is towardthefront/right and OUTSIDE this croppedwelcomeview, so do notshowanywaterfall in this welcomeimage. Do not add anotheroutlet. No other edits, no text.",
+    "referenced_image_paths": [
+      "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r22/art/beaver-dam/masters/scene-321-v1.png",
+      "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r22/art/beaver-dam/studies/location-study-v1.png"
+    ],
+    "transparent_background": false
+  },
+  "master": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r22/art/beaver-dam/masters/scene-321-v2.png",
+  "native": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r22/art/beaver-dam/masters/scene-321-v2.png",
+  "sha256": "4de2e927109156923ab5a64077025f6d7bb53d5eb724f464dacfa9129643db23",
+  "nativeSha256": "4de2e927109156923ab5a64077025f6d7bb53d5eb724f464dacfa9129643db23",
+  "web": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r22/art/beaver-dam/web/scene-321-v2.webp",
+  "webSha256": "cdaa2972246ba0f2f8cc7acc14289d375dd5903c2c8bfb1473f968c33daeee82",
+  "dimensions": [
+    1536,
+    1024
+  ],
+  "originalToolOutput": "/Volumes/TB4/mac-mini-storage/shared/air-space-recovery/codex-generated-images-elder-r6/01a0fa0e-884b-7703-be8d-7ace86b986f9/exec-5b527ee0-e3d0-4b14-b812-8d4b5280a2dc.png",
+  "originalToolSha256": "4de2e927109156923ab5a64077025f6d7bb53d5eb724f464dacfa9129643db23",
+  "prompt": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r22/art/beaver-dam/prompts/scene-321-v2.txt",
+  "promptSha256": "e85837605f8ec889fe78fd62d9184cc1f64d73ae608b9f7d0bee118d4a1820ad",
+  "references": [
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r22/art/beaver-dam/masters/scene-321-v1.png",
+      "sha256": "76cee3bfaefd2abf8e1ef5a95597d08622945c489a238a083de3c2a0cb028a1a"
+    },
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r22/art/beaver-dam/studies/location-study-v1.png",
+      "sha256": "aad512199ed77a236f03689db981e73e375174c6fee16553fc16bbed88ec2ea7"
+    }
+  ],
+  "rootReview": "pass",
+  "userReview": "pending",
+  "createdAt": "2026-10-02T22:38:07.094620+00:00",
+  "record": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r22/art/beaver-dam/records/scene-321-v2.json"
+}

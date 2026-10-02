@@ -1,0 +1,41 @@
+{
+  "id": "scene-324",
+  "version": "v2",
+  "tool": "image_gen__imagegen",
+  "toolArguments": {
+    "prompt": "Use case: identity-preserve precise-object-edit. Edit reference1 only ONE child. On the dryLEFT bank beside the adult MamaBeaver in russetscarf, an incorrect small BEAVER with a flat paddle tail has appeared. Replace THAT ONE bank child with MrPinPin the hedgehog from reference2: copperbrown complete quill mantle, rounded creamface/littlebuttonnose, tinyhedgehogfeet, no flatbeavertail. Preserve childsize/posture/location, lookingtowardpondalongMamapoint; Mama'snearhandmayrestnaturallybesidehisquillsnotmergedbody. Reference2 is childidentity ONLY. Keep the TWO actual beaverchildren swimming in pond completelyunchanged. Keep Mamaface/scarf/pawgesture, exactdam/RIGHTnotchflow/pond/lodge/willow/bench/camera/lighting pixelcomposition. This leaves oneMamaBeaver, two swimmingbeaverchildren and oneHEDGEHOGPinPin onbank. Removebankbeavertailwithreplacement; nootheranimals or changes. No text.",
+    "referenced_image_paths": [
+      "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r22/art/beaver-dam/masters/scene-324-v1.png",
+      "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r22/art/beaver-dam/masters/scene-322-v1.png"
+    ],
+    "transparent_background": false
+  },
+  "master": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r22/art/beaver-dam/masters/scene-324-v2.png",
+  "native": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r22/art/beaver-dam/masters/scene-324-v2.png",
+  "sha256": "b577c51d301d333aeb303d5be9cfab5170924785925802e478c1f670c4105c5a",
+  "nativeSha256": "b577c51d301d333aeb303d5be9cfab5170924785925802e478c1f670c4105c5a",
+  "web": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r22/art/beaver-dam/web/scene-324-v2.webp",
+  "webSha256": "a69d3f72e4a1ca7053b7a5e67dca3e01788ab6f4a0ce30fb1ed8437e096f94aa",
+  "dimensions": [
+    1536,
+    1024
+  ],
+  "originalToolOutput": "/Volumes/TB4/mac-mini-storage/shared/air-space-recovery/codex-generated-images-elder-r6/01a0fa0e-884b-7703-be8d-7ace86b986f9/exec-11c49a6b-b0ed-4703-9a75-e25304f1e488.png",
+  "originalToolSha256": "b577c51d301d333aeb303d5be9cfab5170924785925802e478c1f670c4105c5a",
+  "prompt": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r22/art/beaver-dam/prompts/scene-324-v2.txt",
+  "promptSha256": "320c27f2ee3e0051c88fd2488db5c7db9659106709c1adaaa0b1431c4c9c02f7",
+  "references": [
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r22/art/beaver-dam/masters/scene-324-v1.png",
+      "sha256": "afe5dcd5211b23061a36d59bd06484f4c3c792ada81dd70a865777076a22ed40"
+    },
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r22/art/beaver-dam/masters/scene-322-v1.png",
+      "sha256": "1e029742bfc041b1bb4aa9a6bc23b64deddda644f4376e3e9e00560a9e84658b"
+    }
+  ],
+  "rootReview": "pass",
+  "userReview": "pending",
+  "createdAt": "2026-10-02T22:42:55.486276+00:00",
+  "record": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r22/art/beaver-dam/records/scene-324-v2.json"
+}
