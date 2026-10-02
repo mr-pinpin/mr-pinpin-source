@@ -27,8 +27,8 @@ titleStyle=ParagraphStyle('title',fontName='BookGeorgiaBold',fontSize=31,leading
 sha=lambda f:hashlib.sha256(Path(f).read_bytes()).hexdigest()
 report={'schemaVersion':1,'storyId':a.story,'storyPageCount':139,'coloringPageCount':3,'pageCount':142,
  'renderer':'ReportLab','verification':'PyMuPDF text/page/image checks','font':'Embedded Georgia/Georgia Bold with Cyrillic',
- 'layout':{'story':'A4 landscape','cover':'A4 portrait','coloring':'A4 portrait','marginMm':12,'prosePt':17,'leading':23.12},
- 'encoding':{'storyArt':'JPEG quality92 native dimensions; originals unchanged','cover':'approved art intact within typeset portrait page','coloring':'native PNG embedded'},
+ 'layout':{'story':'A4 landscape','cover':'Portrait at native cover aspect ratio','coloring':'A4 portrait','marginMm':12,'prosePt':17,'leading':23.12},
+ 'encoding':{'storyArt':'JPEG quality92 native dimensions; originals unchanged','cover':'registered illustrated title art fills page at native aspect ratio','coloring':'native PNG embedded'},
  'artwork':[],'covers':[],'pdfs':[]}
 artCache={}
 def art(src):
@@ -43,22 +43,16 @@ def art(src):
 def fitted(c,src,rect):
  im=Image.open(src);iw,ih=im.size;x,y,w,h=rect;s=min(w/iw,h/ih);c.drawImage(str(src),x+(w-iw*s)/2,y+(h-ih*s)/2,iw*s,ih*s,mask='auto')
 def cover(c,lang):
- w,h=A4;c.setPageSize(A4);c.setFillColorRGB(0.99,0.967,0.92);c.rect(0,0,w,h,fill=1,stroke=0)
- title=Paragraph(escape(model['title'][lang]),titleStyle);tw,th=title.wrap(w-28*mm,80*mm)
- assert th<80*mm;title.drawOn(c,14*mm,h-29*mm-th)
- # Intact landscape approved artwork: contain, no crop or AI edits.
- fitted(c,prefix/'approved-title-art.webp',(12*mm,70*mm,w-24*mm,135*mm))
- c.setStrokeColorRGB(.69,.48,.20);c.setLineWidth(.7);c.line(62*mm,55*mm,w-62*mm,55*mm)
- c.setFont('BookGeorgia',14);c.setFillColorRGB(.32,.20,.10);c.drawCentredString(w/2,41*mm,{'en':'Mr. PinPin','ru':'Мистер Пин-Пин','es':'El señor PinPin'}[lang])
+ # Registered cover already contains the approved lettering. Never recreate a title margin.
+ src=sb/model['cover'][lang];im=Image.open(src);iw,ih=im.size
+ w=A4[0];h=w*ih/iw;c.setPageSize((w,h))
+ c.drawImage(ImageReader(im),0,0,w,h,mask='auto')
+ # Invisible selectable title, preserving the illustrated cover visually.
+ t=c.beginText(12,h-20);t.setFont('BookGeorgia',8);t.setTextRenderMode(3);t.textLine(model['title'][lang]);c.drawText(t)
  c.showPage()
 for lang in ['en','ru','es']:
- cov=out/f'title-{lang}.pdf';cc=canvas.Canvas(str(cov),pagesize=A4,pageCompression=1);cover(cc,lang);cc.save()
- d=fitz.open(cov);pix=d[0].get_pixmap(matrix=fitz.Matrix(1024/A4[0],1536/A4[1]),alpha=False)
- # Page-card raster, not alteration of illustration: approved artwork remains intact within layout.
- png=pack/'web'/f'title-{lang}.png';pix.save(png)
- im=Image.open(png).convert('RGB');assert im.size==(1024,1536),im.size
- web=prefix/f'title-{lang}.webp';im.save(web,'WEBP',quality=94,method=6)
- report['covers'].append({'lang':lang,'path':str(web.relative_to(root)),'sha256':sha(web),'approvedArtSha256':sha(prefix/'approved-title-art.webp'),'derivation':'Localized vector typography and intact approved landscape artwork composed on portrait page; no artwork repaint/crop'})
+ web=sb/model['cover'][lang]
+ report['covers'].append({'lang':lang,'path':str(web.relative_to(root)),'sha256':sha(web),'derivation':'Registered full-bleed illustrated title cover, native aspect ratio; no added margins, title bar, crop or distortion'})
  file=out/f'{a.story}-{lang}.pdf';c=canvas.Canvas(str(file),pagesize=A4,pageCompression=1)
  c.setTitle(model['title'][lang]);c.setAuthor('Mr. PinPin');cover(c,lang)
  for scene in model['scenes'][1:]:

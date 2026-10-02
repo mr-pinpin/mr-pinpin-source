@@ -1,0 +1,262 @@
+{
+  "schemaVersion": 1,
+  "status": "Approved cover-only correction; deployment proof in external publication pack",
+  "scope": "Three localized full-bleed covers and PDF page1;138 story scenes,141 PDF interior pages,miniature and all other chapters unchanged",
+  "baselineRelease": "38ef61024468b138ae5a78a0317629ed947eac4d406942e3116f9cbcaf91a78a",
+  "coverLineage": [
+    {
+      "lang": "en",
+      "native": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-cover-fix-20261002/art/native/title-en-v1.png",
+      "nativeSha256": "9b8764a57d649ca4e7e7d3b80f94e44f076d7c454a44561d0a897e4ca820a2d5",
+      "published": "docs/storyboard/images/published/bath-magic/title-en-v2.webp",
+      "sha256": "c892a6eea0433ff88264f6d27d65bbe6eee33bb78a382740226ef723c639ff6e",
+      "bytes": 473146,
+      "derivative": "WebP quality94 method6; native dimensions; no crop, resize or added typography"
+    },
+    {
+      "lang": "ru",
+      "native": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-cover-fix-20261002/art/native/title-ru-v1.png",
+      "nativeSha256": "5e5c1148781b13aee1755287974f0d14a0bc70adf157efe0ab1487718fbea0c5",
+      "published": "docs/storyboard/images/published/bath-magic/title-ru-v2.webp",
+      "sha256": "318c2ba546d08a73d812600ec248e5c2d4e522e21cd9bf3ad1ca4e2314202195",
+      "bytes": 492018,
+      "derivative": "WebP quality94 method6; native dimensions; no crop, resize or added typography"
+    },
+    {
+      "lang": "es",
+      "native": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-cover-fix-20261002/art/native/title-es-v1.png",
+      "nativeSha256": "ef17c6ecf10e18373f36e33dfb2f510995e197dd24a2c237f7d45f267c988608",
+      "published": "docs/storyboard/images/published/bath-magic/title-es-v2.webp",
+      "sha256": "e6750b0e5b95d8bd41d46cc2fb3622c2666065e6c7c9cee03daa149397cad03a",
+      "bytes": 468724,
+      "derivative": "WebP quality94 method6; native dimensions; no crop, resize or added typography"
+    }
+  ],
+  "archives": [
+    {
+      "path": "docs/storyboard/production/bath-magic-cover-fix-20261002/art/references/bath-before.png",
+      "bytes": 1563507,
+      "sha256": "0fcc8ad32a0c27a52ca2f37eb7465d08f56e641e880b246e4886f8c698d9e660",
+      "object": "sha256/0f/0fcc8ad32a0c27a52ca2f37eb7465d08f56e641e880b246e4886f8c698d9e660/bath-before.png",
+      "verified": true,
+      "remote_verified": true
+    },
+    {
+      "path": "docs/storyboard/images/published/bath-magic/title-ru-v2.webp",
+      "bytes": 492018,
+      "sha256": "318c2ba546d08a73d812600ec248e5c2d4e522e21cd9bf3ad1ca4e2314202195",
+      "object": "sha256/31/318c2ba546d08a73d812600ec248e5c2d4e522e21cd9bf3ad1ca4e2314202195/title-ru-v2.webp",
+      "verified": true,
+      "remote_verified": true
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-cover-fix-20261002/art/prompts/title-en-v1.txt",
+      "bytes": 1152,
+      "sha256": "4a6aec092f5de4bd3cb6615b926ed1803e4e4fb440469885d2eb4561aa22eb1b",
+      "object": "sha256/4a/4a6aec092f5de4bd3cb6615b926ed1803e4e4fb440469885d2eb4561aa22eb1b/title-en-v1.txt",
+      "verified": true,
+      "remote_verified": true
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-cover-fix-20261002/art/native/title-ru-v1.png",
+      "bytes": 2570787,
+      "sha256": "5e5c1148781b13aee1755287974f0d14a0bc70adf157efe0ab1487718fbea0c5",
+      "object": "sha256/5e/5e5c1148781b13aee1755287974f0d14a0bc70adf157efe0ab1487718fbea0c5/title-ru-v1.png",
+      "verified": true,
+      "remote_verified": true
+    },
+    {
+      "path": "docs/storyboard/downloads/bath-magic-en.pdf",
+      "bytes": 112763643,
+      "sha256": "6b1466bf247b98ae282c1e15a38093f2242ad0d85b2e490c79d87a535c29f808",
+      "object": "sha256/6b/6b1466bf247b98ae282c1e15a38093f2242ad0d85b2e490c79d87a535c29f808/bath-magic-en.pdf",
+      "verified": true,
+      "remote_verified": true
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-cover-fix-20261002/art/references/papa-reference.webp",
+      "bytes": 385922,
+      "sha256": "761a879c3adae31b5e2abb85ec6d1941d4c284a68dd79604c1e95fd0c1ba4ad6",
+      "object": "sha256/76/761a879c3adae31b5e2abb85ec6d1941d4c284a68dd79604c1e95fd0c1ba4ad6/papa-reference.webp",
+      "verified": true,
+      "remote_verified": true
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-cover-fix-20261002/publication/cover-lineage.json",
+      "bytes": 1533,
+      "sha256": "77a573a6999d79390eaed29f38a7a1e5da4c6cf759f643c6a231ad5f3cf728b2",
+      "object": "sha256/77/77a573a6999d79390eaed29f38a7a1e5da4c6cf759f643c6a231ad5f3cf728b2/cover-lineage.json",
+      "verified": true,
+      "remote_verified": true
+    },
+    {
+      "path": "docs/storyboard/downloads/bath-magic-es.pdf",
+      "bytes": 112740096,
+      "sha256": "7c5b9c2750baf3a7c8e57f1077b0b4b7b954f0ba0c400020c3ff49fc5b4aaa68",
+      "object": "sha256/7c/7c5b9c2750baf3a7c8e57f1077b0b4b7b954f0ba0c400020c3ff49fc5b4aaa68/bath-magic-es.pdf",
+      "verified": true,
+      "remote_verified": true
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-cover-fix-20261002/publication/export-manifest.json",
+      "bytes": 94081,
+      "sha256": "86240a612989412c6745607070c930f5dc85fc5356b2f1f40c4b53dd96548c8d",
+      "object": "sha256/86/86240a612989412c6745607070c930f5dc85fc5356b2f1f40c4b53dd96548c8d/export-manifest.json",
+      "verified": true,
+      "remote_verified": true
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-cover-fix-20261002/publication/recipe/replace-story-pdf-cover.py",
+      "bytes": 3236,
+      "sha256": "963d03519dbcf859bbe23150f5564c9dd873b8e1fb180e5559ca431711e9b452",
+      "object": "sha256/96/963d03519dbcf859bbe23150f5564c9dd873b8e1fb180e5559ca431711e9b452/replace-story-pdf-cover.py",
+      "verified": true,
+      "remote_verified": true
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-cover-fix-20261002/art/native/title-en-v1.png",
+      "bytes": 2501223,
+      "sha256": "9b8764a57d649ca4e7e7d3b80f94e44f076d7c454a44561d0a897e4ca820a2d5",
+      "object": "sha256/9b/9b8764a57d649ca4e7e7d3b80f94e44f076d7c454a44561d0a897e4ca820a2d5/title-en-v1.png",
+      "verified": true,
+      "remote_verified": true
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-cover-fix-20261002/art/records/title-ru-v1.json",
+      "bytes": 4765,
+      "sha256": "9f94da695763c5e7f7eb6074ae444aff910e67f6299d3ccdedcd726119970c01",
+      "object": "sha256/9f/9f94da695763c5e7f7eb6074ae444aff910e67f6299d3ccdedcd726119970c01/title-ru-v1.json",
+      "verified": true,
+      "remote_verified": true
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-cover-fix-20261002/publication/recipe/requirements.txt",
+      "bytes": 71,
+      "sha256": "a0db92b43a39fbd27c55185d7fff4d3063c184f3143cfdcdedff474b1d40206a",
+      "object": "sha256/a0/a0db92b43a39fbd27c55185d7fff4d3063c184f3143cfdcdedff474b1d40206a/requirements.txt",
+      "verified": true,
+      "remote_verified": true
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-cover-fix-20261002/art/records/title-en-v1.json",
+      "bytes": 2789,
+      "sha256": "b251d239c27e55566f131fa9ea39deefc0bbda181335273b41ba6ebde8699dd1",
+      "object": "sha256/b2/b251d239c27e55566f131fa9ea39deefc0bbda181335273b41ba6ebde8699dd1/title-en-v1.json",
+      "verified": true,
+      "remote_verified": true
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-cover-fix-20261002/art/prompts/title-ru-v1.txt",
+      "bytes": 2762,
+      "sha256": "b4a8499f8850c9515b6564c28bd02b0bc3273ae2a87406f6d5cec1fa18bf3d68",
+      "object": "sha256/b4/b4a8499f8850c9515b6564c28bd02b0bc3273ae2a87406f6d5cec1fa18bf3d68/title-ru-v1.txt",
+      "verified": true,
+      "remote_verified": true
+    },
+    {
+      "path": "docs/storyboard/downloads/bath-magic-ru.pdf",
+      "bytes": 112801223,
+      "sha256": "b88884cb99e2f7922be305214e728d8e9b9d3db0b2ca561f41abc03e7ba2171f",
+      "object": "sha256/b8/b88884cb99e2f7922be305214e728d8e9b9d3db0b2ca561f41abc03e7ba2171f/bath-magic-ru.pdf",
+      "verified": true,
+      "remote_verified": true
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-cover-fix-20261002/art/prompts/title-es-v1.txt",
+      "bytes": 1187,
+      "sha256": "bcde8d234bcb45f22a9f6cdd071ff5e911467b0937e652b216fd861f8593668a",
+      "object": "sha256/bc/bcde8d234bcb45f22a9f6cdd071ff5e911467b0937e652b216fd861f8593668a/title-es-v1.txt",
+      "verified": true,
+      "remote_verified": true
+    },
+    {
+      "path": "docs/storyboard/images/published/bath-magic/title-en-v2.webp",
+      "bytes": 473146,
+      "sha256": "c892a6eea0433ff88264f6d27d65bbe6eee33bb78a382740226ef723c639ff6e",
+      "object": "sha256/c8/c892a6eea0433ff88264f6d27d65bbe6eee33bb78a382740226ef723c639ff6e/title-en-v2.webp",
+      "verified": true,
+      "remote_verified": true
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-cover-fix-20261002/art/REPORT.txt",
+      "bytes": 1068,
+      "sha256": "ca5ea2d9a1078a984a1fd18a6d33b8b6b36519b6547349a4268db790ca6dd0f8",
+      "object": "sha256/ca/ca5ea2d9a1078a984a1fd18a6d33b8b6b36519b6547349a4268db790ca6dd0f8/REPORT.txt",
+      "verified": true,
+      "remote_verified": true
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-cover-fix-20261002/publication/recipe/build-cover-release.py",
+      "bytes": 2478,
+      "sha256": "e96ec589d51f697ba7e6a71e1a59076bcc9f1f1180a113cf3ce3f20fc1603823",
+      "object": "sha256/e9/e96ec589d51f697ba7e6a71e1a59076bcc9f1f1180a113cf3ce3f20fc1603823/build-cover-release.py",
+      "verified": true,
+      "remote_verified": true
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-cover-fix-20261002/art/records/title-es-v1.json",
+      "bytes": 2818,
+      "sha256": "d532766ce34a700287add627643c18d9ebb91ed86face554811a163b5d693f94",
+      "object": "sha256/d5/d532766ce34a700287add627643c18d9ebb91ed86face554811a163b5d693f94/title-es-v1.json",
+      "verified": true,
+      "remote_verified": true
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-cover-fix-20261002/publication/recipe/export-story-pdf.py",
+      "bytes": 5610,
+      "sha256": "dea91c5a7668b3e18d9d7a16e6699cea1cce2a2c41345b862afcd75fe42ff01b",
+      "object": "sha256/de/dea91c5a7668b3e18d9d7a16e6699cea1cce2a2c41345b862afcd75fe42ff01b/export-story-pdf.py",
+      "verified": true,
+      "remote_verified": true
+    },
+    {
+      "path": "docs/storyboard/images/published/bath-magic/title-es-v2.webp",
+      "bytes": 468724,
+      "sha256": "e6750b0e5b95d8bd41d46cc2fb3622c2666065e6c7c9cee03daa149397cad03a",
+      "object": "sha256/e6/e6750b0e5b95d8bd41d46cc2fb3622c2666065e6c7c9cee03daa149397cad03a/title-es-v2.webp",
+      "verified": true,
+      "remote_verified": true
+    },
+    {
+      "path": "docs/storyboard/production/bath-magic-cover-fix-20261002/art/native/title-es-v1.png",
+      "bytes": 2504443,
+      "sha256": "ef17c6ecf10e18373f36e33dfb2f510995e197dd24a2c237f7d45f267c988608",
+      "object": "sha256/ef/ef17c6ecf10e18373f36e33dfb2f510995e197dd24a2c237f7d45f267c988608/title-es-v1.png",
+      "verified": true,
+      "remote_verified": true
+    }
+  ],
+  "pdfs": [
+    {
+      "lang": "en",
+      "filename": "bath-magic-en.pdf",
+      "bytes": 112763643,
+      "sha256": "6b1466bf247b98ae282c1e15a38093f2242ad0d85b2e490c79d87a535c29f808",
+      "pageCount": 142,
+      "baseSha256": "7f6c0ce2e00b91cb33139fbdd2f6d4a3876564d2e35a120caf3a85f8b6d17389",
+      "coverSha256": "c892a6eea0433ff88264f6d27d65bbe6eee33bb78a382740226ef723c639ff6e",
+      "interiorPagesIdentical": true
+    },
+    {
+      "lang": "ru",
+      "filename": "bath-magic-ru.pdf",
+      "bytes": 112801223,
+      "sha256": "b88884cb99e2f7922be305214e728d8e9b9d3db0b2ca561f41abc03e7ba2171f",
+      "pageCount": 142,
+      "baseSha256": "6c09e5efe0841f8b85f876624e4ab76cf7211d666a63f369bc37ccb6765d5d2b",
+      "coverSha256": "318c2ba546d08a73d812600ec248e5c2d4e522e21cd9bf3ad1ca4e2314202195",
+      "interiorPagesIdentical": true
+    },
+    {
+      "lang": "es",
+      "filename": "bath-magic-es.pdf",
+      "bytes": 112740096,
+      "sha256": "7c5b9c2750baf3a7c8e57f1077b0b4b7b954f0ba0c400020c3ff49fc5b4aaa68",
+      "pageCount": 142,
+      "baseSha256": "4cc76ec19cf60717732a8e532a1968146c4b35565331ff033629abaf661c6079",
+      "coverSha256": "e6750b0e5b95d8bd41d46cc2fb3622c2666065e6c7c9cee03daa149397cad03a",
+      "interiorPagesIdentical": true
+    }
+  ],
+  "recipe": "scripts/replace-story-pdf-cover.py --root SOURCE --base-pdfs PREVIOUS_EXPORTS --out NEW_EXPORTS; full regeneration scripts/export-story-pdf.py embeds registered full-bleed covers"
+}

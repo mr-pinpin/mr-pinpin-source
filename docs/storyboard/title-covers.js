@@ -8,7 +8,7 @@
     elderParts.find(part => id === 'elder-' + part);
   function assetMatches(id, cover, lang) {
     const part = elderPart(id);
-    if (id === 'bath-magic') return cover.assets[lang] === 'images/published/bath-magic/title-' + lang + '.webp';
+    if (id === 'bath-magic') return [1, 2].includes(cover.version) && cover.assets[lang] === 'images/published/bath-magic/title-' + lang + (cover.version === 1 ? '' : '-v2') + '.webp';
     if (part) return cover.assets[lang] === `images/published/elder-cycle/${part}-title-${lang}.webp`;
     return cover.assets[lang] === `images/covers/${id}/title/title-${lang}-v${cover.version}.png` ||
       cover.assets[lang] === `images/covers/${id}/title-${lang}-v${cover.version}.png`;

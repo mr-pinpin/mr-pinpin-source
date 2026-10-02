@@ -160,7 +160,7 @@
   function completeBath(story) {
     const prefix = 'images/published/bath-magic/';
     if (story?.id !== 'bath-magic' || story.editionVersion !== 1 || !localized(story.title) ||
-        !localized(story.cover) || !languages.every(lang => story.cover[lang] === prefix + 'title-' + lang + '.webp') ||
+        !localized(story.cover) || !languages.every(lang => [prefix + 'title-' + lang + '.webp', prefix + 'title-' + lang + '-v2.webp'].includes(story.cover[lang])) ||
         story.miniature !== prefix + 'miniature.webp' || story.scenes?.length !== 139 || story.spreads?.length !== 139) return false;
     const seen = new Set();
     return story.scenes.every((scene, index) => {
