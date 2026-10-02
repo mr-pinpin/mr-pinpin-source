@@ -24,6 +24,7 @@ Start with the [storyboard guide](docs/storyboard/README.md) for content and run
 | Authoring | [mr-pinpin-source](https://github.com/mr-pinpin/mr-pinpin-source) | Story text, translations, code, provenance, manifests, original history |
 | Reader releases | [mr-pinpin.github.io](https://github.com/mr-pinpin/mr-pinpin.github.io) | Small deployment scripts and immutable release records |
 | Public storage | [mr-pinpin-archive](https://huggingface.co/buckets/miguelemosreverte/mr-pinpin-archive) | Verified originals, experiments, preservation copies, release bundles |
+| Production sessions | [Private session and prompt archive](https://github.com/mr-pinpin/session-archive) | Sanitized conversation snapshots, exact image prompts, and provenance (authorized collaborators only) |
 
 The official workflow verifies a selected public HF bundle before deploying;
 readers receive the resulting files from Pages. See [PUBLISHING.md](PUBLISHING.md)
