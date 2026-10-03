@@ -92,11 +92,21 @@ def prepared_toolchain(store, state):
         return None
 
 
-def hydrate_character(store, state, entity, scenes, explicit_ids, index):
+def hydrate_character(store, state, entity, scenes, explicit_ids, index, workflow=None):
     """Return bounded data and auto-attachment IDs, using canonical bindings only."""
     if not entity or entity.get("kind") != "character":
         return None, []
     selected = entity["id"]
+    defaults = state["project"].get("book", {}).get("characterReferenceDefaults", {})
+    if not isinstance(defaults, dict):
+        defaults = {}
+    binding = defaults.get("characters", {}).get(selected, {}) if isinstance(defaults.get("characters"), dict) else {}
+    if not isinstance(binding, dict):
+        binding = {}
+    partners = binding.get("counterpartIds", [])
+    partners = [i for i in partners[:4] if isinstance(i, str)] if isinstance(partners, list) else []
+    sources = binding.get("sourceReferences", [])
+    sources = sources[:4] if isinstance(sources, list) else []
     ranks = {}
     def rank(identifiers, priority, reason):
         for identifier in identifiers:
@@ -106,6 +116,7 @@ def hydrate_character(store, state, entity, scenes, explicit_ids, index):
             if identifier not in ranks or priority < ranks[identifier][0]:
                 ranks[identifier] = (priority, reason)
     rank([i for scene in scenes for i in scene.get("castIds", [])], 0, "selected-scene")
+    rank(partners, 0, "saved-interaction-partner")
     rank([i for a in entity.get("referenceIds", []) for i in index.shared[a]], 1, "shared-reference")
     rank(index.cast[selected], 2, "story-co-occurrence")
     cast_ids = sorted(ranks, key=lambda i: (ranks[i][0], i))[:4]
@@ -118,7 +129,19 @@ def hydrate_character(store, state, entity, scenes, explicit_ids, index):
                 if role not in roles[identifier]:
                     roles[identifier].append(role)
     add(explicit_ids, "explicit-attachment")
+    # Only live reconciled stages may supply a working solo identity. Historical
+    # snapshots use their revision-local source bindings and never mutable receipts.
+    entry = (workflow or {}).get("selected", {})
+    solo = entry.get("stages", {}).get("solo", {}) if entry.get("id") == selected else {}
+    if not state.get("readOnly") and solo.get("assetId") in index.assets:
+        add([solo["assetId"]], "primary-working-identity:verified-solo")
     add(entity.get("referenceIds", []), "selected-character")
+    for source in sources:
+        if isinstance(source, dict) and isinstance(source.get("assetId"), str) and source["assetId"] in index.assets and index.assets[source["assetId"]].get("sha256") == source.get("sha256"):
+            add([source["assetId"]], "subject-source:" + str(source.get("role", "identity"))[:80])
+    layout = defaults.get("layoutReference", {})
+    if isinstance(layout, dict) and isinstance(layout.get("assetId"), str) and layout["assetId"] in index.assets and index.assets[layout["assetId"]].get("sha256") == layout.get("sha256"):
+        add([layout["assetId"]], "layout-direction-only:no-species-transfer")
     for identifier in cast_ids:
         add(index.entities[identifier].get("referenceIds", []), "cast:" + identifier)
     add(state["project"].get("book", {}).get("styleReferenceIds", []), "book-style")
@@ -143,6 +166,11 @@ def hydrate_character(store, state, entity, scenes, explicit_ids, index):
                          "source": "snapshot entity bindings and registered asset metadata; no live dossier loaded"},
             "selection": "Canonical references provide identity/relative-scale evidence; reviewStatus is unchanged."
             }
+    pack["referenceInstructions"] = {
+        "layout": "Use layout-direction-only reference for grid and opposed screen directions; never transfer species, anatomy or clothing. Spell all six BODY directions explicitly.",
+        "interactions": "Use primary-working-identity verified solo first for target identity, with subject source and counterpart references. Name each participant's species and role per panel.",
+        "designBasis": str(binding.get("designBasis", "established entity/source bindings"))[:800],
+        "speciesAndRole": str(binding.get("speciesAndRole", entity.get("identity", "")))[:800]}
     toolchain = prepared_toolchain(store, state)
     if toolchain is not None:
         pack["registrationToolchain"] = toolchain

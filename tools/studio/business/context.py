@@ -59,7 +59,7 @@ def selected_context(store, body):
     attached = list(dict.fromkeys(asset_ids))
     for identifier in attached:
         find(state["assets"], identifier, "asset")
-    character_context, automatic = hydrate_character(store, state, entity, scenes, attached, index)
+    character_context, automatic = hydrate_character(store, state, entity, scenes, attached, index, cast_workflow)
     attached = list(dict.fromkeys(attached + automatic))[:12]
     references = list(dict.fromkeys(attached + references))
     for identifier in references[:12]:
