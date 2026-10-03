@@ -70,7 +70,8 @@
     "checkpoint": "python -B tools/cast_ops.py industrial-checkpoint",
     "closeout": "python -B tools/cast_ops.py closeout <entity>",
     "enqueue": "python -B tools/cast_ops.py enqueue <assetId>",
-    "replicaPolicyPath": "workflows/replica-store.json"
+    "replicaPolicyPath": "workflows/replica-store.json",
+    "archiveExisting": "python -B tools/cast_ops.py archive-existing <entity>"
   },
   "characterPreparation": {
     "counterpartIds": [

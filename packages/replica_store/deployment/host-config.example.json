@@ -1,0 +1,12 @@
+{
+  "mountPoint": "/Volumes/TB4",
+  "volumeUUID": "REPLACE_WITH_EXTERNAL_VOLUME_UUID",
+  "configPath": "REPLACE_WITH_CONFIG_ON_TB4",
+  "librarySource": "REPLACE_WITH_REVIEWED_PACKAGE_SRC_ON_TB4",
+  "pythonPath": "/opt/homebrew/bin/python3",
+  "cacheRoot": "/Volumes/TB4/mac-mini-storage/shared/replica-store-host/transfer-cache",
+  "logPath": "/Volumes/TB4/mac-mini-storage/shared/replica-store-host/logs/worker.log",
+  "intervalSeconds": 15,
+  "workerTimeoutSeconds": 180,
+  "healthPath": "REPLACE_WITH_HOME/.config/replica-store/worker-health.json"
+}

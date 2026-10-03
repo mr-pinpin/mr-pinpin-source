@@ -1,0 +1,5 @@
+Run from repository root (fixtures are synthetic; no network or credentials):
+
+REPLICA_QA_CORE=packages/replica_store/src/replica_store/core.py python3 reports/verification/replica-storage-20261003/test_replica_contract.py
+
+Observed:18 tests PASS against core SHA256 c107b01a412627e304535fb373a6c0d6fdcebee6235cf7ff0150133db6d4758b. Set TMPDIR to external scratch when using a constrained internal disk. No obsolete subject snapshot required.

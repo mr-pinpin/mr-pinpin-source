@@ -96,6 +96,37 @@ def closeout(runtime,store,identifier,transfer=server_backup):
     target=DATA/'reports/character-packages'/(identifier+'-closeout.json');atomic_json(target,receipt)
     return receipt
 
+def archive_existing(runtime,store,identifier):
+    """Archive the durable selected final pair without creative finish/metrics writes."""
+    from model import valid_id
+    valid_id(identifier)
+    run=json.loads((DATA/'workflows/cast-run.json').read_text())
+    character=next((c for c in run['characters'] if c['id']==identifier),None)
+    if not character or character.get('status')!='produced':raise ValueError('Existing produced character required')
+    package=json.loads((DATA/'reports/character-packages'/(identifier+'.json')).read_text())
+    assets={a['id']:a for a in store.read()['assets']};selected=[]
+    for role in ('solo','interactions'):
+        stage=character['stages'][role];asset=assets[stage['assetId']]
+        candidates=package['stages'][role]['candidates']
+        if not any(c['assetId']==asset['id'] and c['sha256']==stage['sha256'] for c in candidates):raise ValueError('Selected stage lacks matching registration receipt')
+        if asset['sha256']!=stage['sha256'] or asset.get('provenance',{}).get('source')!='native-imagegen':raise ValueError('Selected stage is not matching registered native art')
+        path=store.asset_path(asset['id'])
+        if path.stat().st_size!=asset['bytes'] or hashlib.sha256(path.read_bytes()).hexdigest()!=asset['sha256']:raise ValueError('Selected final bytes failed verification')
+        selected.append(asset)
+    if len({a['id'] for a in selected})!=2:raise ValueError('Distinct solo and interaction pages required')
+    pages=[]
+    for asset in selected:
+        row={'assetId':asset['id'],'sha256':asset['sha256'],'bytes':asset['bytes'],'localVerified':True}
+        try:
+            _,result=runtime.invoke('route',store,'POST','/api/storage/enqueue',{}, {'assetId':asset['id']})
+            if any(result.get(k)!=row[k] for k in ('assetId','sha256','bytes')):raise ValueError('Shared receipt identity mismatch')
+            row.update(remoteBackupStatus=result['remoteBackupStatus'],outboxOwned=result['outboxOwned'],receiptPath='reports/storage/'+asset['id']+'-replica-outbox.json')
+        except Exception as exc:row.update(remoteBackupStatus='failed-or-pending',errorType=type(exc).__name__)
+        pages.append(row)
+    result={'schemaVersion':1,'entityId':identifier,'observedUTC':datetime.now(timezone.utc).isoformat(),'pages':pages,'allRemoteVerified':all(p['remoteBackupStatus']=='verified-download' for p in pages),'artworkChanged':False,'creativeRecordsChanged':False,'workflow':'archive-existing: selected registered final pair; no finish or historical metrics'}
+    atomic_json(DATA/'reports/character-packages'/(identifier+'-shared-storage.json'),result)
+    return result
+
 def closeout_checkpoint(receipt):
     """Export final authored bytes and read back once, without touching benchmark history."""
     mappings={'tools/cast_ops.py':'industrial-cast_ops.py',
@@ -367,6 +398,8 @@ def main():
         print(json.dumps(industrial_checkpoint(store)))
     elif command == 'closeout':
         print(json.dumps(closeout(runtime,store,args[0])))
+    elif command == 'archive-existing':
+        print(json.dumps(archive_existing(runtime,store,args[0])))
     elif command == 'closeout-dev-checkpoint':
         from model import valid_id
         identifier=valid_id(args[0],'character id')

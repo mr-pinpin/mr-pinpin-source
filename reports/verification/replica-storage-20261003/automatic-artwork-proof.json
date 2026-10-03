@@ -1,0 +1,53 @@
+{
+  "observedUTC": "2026-10-03T23:36:07.404474+00:00",
+  "automaticWorkerArchivedAllFour": true,
+  "totalBytes": 10222988,
+  "optionalReplicaVerifiedCount": 4,
+  "pages": [
+    {
+      "assetId": "asset-46b709495ac9b5f41c4cdd66",
+      "sha256": "46b709495ac9b5f41c4cdd66ec8d5868e1a3edc8b12b8693313a4e37f07ea0ab",
+      "bytes": 2353113,
+      "attempts": 0,
+      "remoteVerified": true,
+      "verifiedUTC": 1791070160.864598,
+      "object": "replica-store-v1/book-art/objects/46b709495ac9b5f41c4cdd66ec8d5868e1a3edc8b12b8693313a4e37f07ea0ab",
+      "manifest": "replica-store-v1/book-art/manifests/4/46b709495ac9b5f41c4cdd66ec8d5868e1a3edc8b12b8693313a4e37f07ea0ab.json",
+      "replicaVerified": true
+    },
+    {
+      "assetId": "asset-5d8fb34c342f1067ec3cd0e2",
+      "sha256": "5d8fb34c342f1067ec3cd0e2b53d3cbddea2987a3a8002cd0e30b82b0cbd8926",
+      "bytes": 2684206,
+      "attempts": 0,
+      "remoteVerified": true,
+      "verifiedUTC": 1791070170.867307,
+      "object": "replica-store-v1/book-art/objects/5d8fb34c342f1067ec3cd0e2b53d3cbddea2987a3a8002cd0e30b82b0cbd8926",
+      "manifest": "replica-store-v1/book-art/manifests/5/5d8fb34c342f1067ec3cd0e2b53d3cbddea2987a3a8002cd0e30b82b0cbd8926.json",
+      "replicaVerified": true
+    },
+    {
+      "assetId": "asset-3fd4a11eb22eeedca79b4f93",
+      "sha256": "3fd4a11eb22eeedca79b4f93e489ad002a299909787cd6334c7d4e2a1460d5ff",
+      "bytes": 2997605,
+      "attempts": 0,
+      "remoteVerified": true,
+      "verifiedUTC": 1791070181.002817,
+      "object": "replica-store-v1/book-art/objects/3fd4a11eb22eeedca79b4f93e489ad002a299909787cd6334c7d4e2a1460d5ff",
+      "manifest": "replica-store-v1/book-art/manifests/3/3fd4a11eb22eeedca79b4f93e489ad002a299909787cd6334c7d4e2a1460d5ff.json",
+      "replicaVerified": true
+    },
+    {
+      "assetId": "asset-20fcd5a0decd825609da61c8",
+      "sha256": "20fcd5a0decd825609da61c8a14af33d0577a60a4f95fc8de9fb291604bfb60e",
+      "bytes": 2188064,
+      "attempts": 0,
+      "remoteVerified": true,
+      "verifiedUTC": 1791070190.9757838,
+      "object": "replica-store-v1/book-art/objects/20fcd5a0decd825609da61c8a14af33d0577a60a4f95fc8de9fb291604bfb60e",
+      "manifest": "replica-store-v1/book-art/manifests/2/20fcd5a0decd825609da61c8a14af33d0577a60a4f95fc8de9fb291604bfb60e.json",
+      "replicaVerified": true
+    }
+  ],
+  "directBackupCallsByQA": 0
+}

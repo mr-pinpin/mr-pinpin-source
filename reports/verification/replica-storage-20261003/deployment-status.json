@@ -1,0 +1,19 @@
+{
+  "observedUTC": "2026-10-03T23:36:46.282337+00:00",
+  "runtime": "authorized Mini tmux",
+  "session": "replica-store-host",
+  "windows": [
+    "uploader",
+    "poller"
+  ],
+  "uploaderPID": 70445,
+  "pollerPID": 70447,
+  "bothLastHeartbeat": "worker-completed",
+  "remoteArtworkVerified": 4,
+  "optionalReplicaArtworkVerified": 4,
+  "automaticLoginRestartVerified": false,
+  "directLaunchAgentsActive": false,
+  "directLaunchAgentsDisabled": true,
+  "freshLaunchdTmuxCanary": "blocked on external public-fixture read",
+  "noTCCOrSSHKeyChanges": true
+}

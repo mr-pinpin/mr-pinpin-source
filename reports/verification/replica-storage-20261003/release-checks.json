@@ -1,0 +1,23 @@
+{
+  "status": "passed-final-reviewed-core",
+  "library": 16,
+  "independentContract": 18,
+  "studioIntegration": 10,
+  "studioSuite": 85,
+  "legacyHFBoundary": 9,
+  "assetsPassed": 50,
+  "assetsSkipped": 1,
+  "assetsFailed": 0,
+  "productionBuild": {
+    "files": 975,
+    "managedProduction": 835,
+    "bytes": 948137769,
+    "budget": 950000000,
+    "outputExternalTB4": true
+  },
+  "testedCoreSHA": "c107b01a412627e304535fb373a6c0d6fdcebee6235cf7ff0150133db6d4758b",
+  "unaffectedReleaseChecksMayStand": true,
+  "finalProofCoreRetestPending": false,
+  "productionWorkersConfirmedProcessing": true,
+  "optionalReplicaVerifiedCount": 4
+}

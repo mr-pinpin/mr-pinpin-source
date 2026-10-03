@@ -29,6 +29,14 @@ For the separate family page, submit entityId, stage: interactions and the exact
 
 After both pages pass recorded agent QA, run `python -B tools/cast_ops.py closeout <entity>`, then the existing batch checkpoint when an inventory checkpoint is needed. Local draft completion, verified archive status and human approval stay distinct. The frozen badger benchmark is preserved. No image speed or full-job speed improvement is claimed until a comparable ordinary request is measured.
 
-Storage remains the existing contract pending identification of Miguel's shared library. No new adapter, quota assumption, permission change or daemon is introduced. Notetaker unavailable; durable Markdown is the explicit fallback.
+Storage uses the implemented standalone packages/replica_store library: normal closeout enqueues owned verified native image bytes through the filesystem outbox, and the host worker uploads/download-verifies them. Existing-character storage uses archive-existing instead of rerunning creative finish metrics. See replica-storage.md. No quota assumption or permission change is implied. Notetaker remains unavailable; durable Markdown is the explicit fallback.
 
 Engineering exports are separate: `python -B tools/cast_ops.py closeout-dev-checkpoint <entity>` reads an existing closeout receipt and verifies authored/exported bytes. Ordinary `closeout` never calls this operation and does not require engineering source files, test proofs or export directories.
+
+## Current shared storage and measured timing
+
+The standalone `packages/replica_store` library and filesystem outbox are implemented. The native agent remains network-restricted; filesystem handoff to the host worker works. Badger, Otter and Beaver final pairs have matching verified remote receipts. New production uses `cast_ops.py closeout <entity>`; already produced characters use `cast_ops.py archive-existing <entity>` without historical metrics rewrites. See [replica-storage.md](replica-storage.md).
+
+Actual deployment runs through authorized Mini tmux with a TB4 mount/UUID guard and bounded caches/logs. Direct launchd external-volume access blocks reboot autostart; automatic reboot recovery is not established. No Studio daemon/kernel change is implied.
+
+Frozen ordinary character benchmarks remain Badger 658.651596s total / 87.371827s image / 571.279769s outside image; Otter 312.267804s total / 93.365586s image / 218.902218s outside image. These predate the combined shared-storage workflow; no new combined creation-plus-storage or full-chapter benchmark has been measured. Keep preparation, generation, visual QA, registration, metadata closeout and asynchronous transfer time distinct.

@@ -37,4 +37,12 @@ Native image inputs are capped at five using saved toolchain policy: current ver
 
 ## Verified character-job storage — 2026-10-03
 
-[Industrial storage and preparation](industrial-storage.md) documents ID resolution, bounded cache/disk preflight and actual job outcomes. Persist storage-policy.json, toolchain.json, character folders and reports/character-jobs plus reports/storage with the data layout. Fresh context hydrates the commands; no credentials or image binaries enter source exports. Standalone data-relative tests belong in the dated workflow example with their data layout, not unittest discovery. Remote quota is unknown; live remote proof remains blocked by this agent sandbox DNS.
+[Industrial storage and preparation](industrial-storage.md) documents ID resolution, bounded cache/disk preflight and actual job outcomes. Persist storage-policy.json, toolchain.json, character folders and reports/character-jobs plus reports/storage with the data layout. Fresh context hydrates the commands; no credentials or image binaries enter source exports. Standalone data-relative tests belong in the dated workflow example with their data layout, not unittest discovery. Remote quota is unknown.
+
+## Current shared storage and measured timing
+
+The standalone `packages/replica_store` library and filesystem outbox are implemented. The native agent remains network-restricted; filesystem handoff to the host worker works. Badger, Otter and Beaver final pairs have matching verified remote receipts. New production uses `cast_ops.py closeout <entity>`; already produced characters use `cast_ops.py archive-existing <entity>` without historical metrics rewrites. See [replica-storage.md](replica-storage.md).
+
+Actual deployment runs through authorized Mini tmux with a TB4 mount/UUID guard and bounded caches/logs. Direct launchd external-volume access blocks reboot autostart; automatic reboot recovery is not established. No Studio daemon/kernel change is implied.
+
+Frozen ordinary character benchmarks remain Badger 658.651596s total / 87.371827s image / 571.279769s outside image; Otter 312.267804s total / 93.365586s image / 218.902218s outside image. These predate the combined shared-storage workflow; no new combined creation-plus-storage or full-chapter benchmark has been measured. Keep preparation, generation, visual QA, registration, metadata closeout and asynchronous transfer time distinct.

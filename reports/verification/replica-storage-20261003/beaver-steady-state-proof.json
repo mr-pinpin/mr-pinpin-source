@@ -1,0 +1,37 @@
+{
+  "observedUTC": "2026-10-03T23:37:41.465987+00:00",
+  "pages": [
+    {
+      "assetId": "asset-c9839909f2fbd1f5b131eb17",
+      "sha256": "c9839909f2fbd1f5b131eb171987fe9c754f3e2c1757f77a92f888d4feb4aa11",
+      "bytes": 2281550,
+      "status": "verified",
+      "attempts": 0,
+      "remoteVerified": true,
+      "verifiedUTC": 1791070503.345829,
+      "manifest": "replica-store-v1/book-art/manifests/c/c9839909f2fbd1f5b131eb171987fe9c754f3e2c1757f77a92f888d4feb4aa11.json",
+      "object": "replica-store-v1/book-art/objects/c9839909f2fbd1f5b131eb171987fe9c754f3e2c1757f77a92f888d4feb4aa11"
+    },
+    {
+      "assetId": "asset-c088e8310e6c827e23e074f9",
+      "sha256": "c088e8310e6c827e23e074f96d9f648f71c722eeb948464378a512c69a4d3f5c",
+      "bytes": 2907195,
+      "status": "verified",
+      "attempts": 0,
+      "remoteVerified": true,
+      "verifiedUTC": 1791070493.512488,
+      "manifest": "replica-store-v1/book-art/manifests/c/c088e8310e6c827e23e074f96d9f648f71c722eeb948464378a512c69a4d3f5c.json",
+      "object": "replica-store-v1/book-art/objects/c088e8310e6c827e23e074f96d9f648f71c722eeb948464378a512c69a4d3f5c"
+    }
+  ],
+  "durationSeconds": 89.459977,
+  "imageGenerationCalls": 0,
+  "manualBackupCalls": 0,
+  "normalWorkflowCompleted": true,
+  "caveat": "Legacy closeout timing-format fallback observed; archive-existing helper addendum pending independent test.",
+  "archiveExistingAddendum": {
+    "independentChecksPassed": 6,
+    "exactCopiesVerified": 5,
+    "preservesFrozenGenerationMetrics": true
+  }
+}
