@@ -13,6 +13,8 @@ and [interactive atlas](https://mr-pinpin.github.io/storyboard/atlas-webgpu.html
 
 [Story Studio](tools/studio/README.md) is the local six-stage app for the book, references, chapters, tempo, storyboards and production. Its durable queue hands real generation work to an agent and keeps candidate feedback and approval history. Read the [workflow guide](docs/storyboard/production/STUDIO.md).
 
+[Shared Studio conversation CLI](tools/studio-client/README.md) lets humans and agents use the same saved conversation. See [creative workflows and examples](workflows/README.md).
+
 This repository is the source workspace, not the canonical reader website.
 
 Start with the [storyboard guide](docs/storyboard/README.md) for content and runtime,

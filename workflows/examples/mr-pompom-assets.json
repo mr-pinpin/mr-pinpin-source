@@ -1,0 +1,286 @@
+{
+  "schemaVersion": 1,
+  "workflow": "character-creation",
+  "entityId": "pompom",
+  "chapterId": "pompom-character-study",
+  "studioRevisionAtCapture": 789,
+  "studioDataRootExample": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data",
+  "status": "completed-accepted-for-reuse-under-delegated-review",
+  "decisions": [
+    {
+      "kind": "working-design-confirmation",
+      "reviewer": "codex-wap1",
+      "capacity": "Miguel explicitly authorized representative",
+      "sourceMessageId": "message-72bf29e48ff44b42a452",
+      "scope": "prototype accepted as working identity; remaining package requested",
+      "personallyReviewedByMiguel": false,
+      "changesHumanApprovalMetadata": false
+    },
+    {
+      "kind": "final-package-acceptance-for-reuse",
+      "reviewer": "codex-wap1",
+      "capacity": "Miguel explicitly authorized representative",
+      "sourceMessageId": "message-a418666a456249b48eb5",
+      "createdAt": "2026-10-03T09:12:46.960448+00:00",
+      "scope": "24-study composite and corrected source sheets accepted for reuse",
+      "personallyReviewedByMiguel": false,
+      "changesHumanApprovalMetadata": false,
+      "publication": false
+    }
+  ],
+  "assets": [
+    {
+      "role": "family-reference",
+      "id": "asset-88d74c56a468e3f250b12dbc",
+      "name": "reference-family",
+      "sha256": "88d74c56a468e3f250b12dbcb5ecdb7b07bd1d789197663d8948ac199acd133d",
+      "bytes": 452790,
+      "mime": "image/webp",
+      "width": 1536,
+      "height": 1024,
+      "storagePath": "assets/88d74c56a468e3f250b12dbcb5ecdb7b07bd1d789197663d8948ac199acd133d.webp",
+      "url": "/api/assets/asset-88d74c56a468e3f250b12dbc",
+      "reviewStatus": "user-approved",
+      "provenance": {
+        "catalogKey": "reference-family",
+        "catalogSha256": "88d74c56a468e3f250b12dbcb5ecdb7b07bd1d789197663d8948ac199acd133d",
+        "role": "family identity, warm dimensional style and relative scale",
+        "evidence": "Previously approved published reference; R17 uses exact copied source",
+        "sourceFile": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r17/art/opening/references/elder-r6-family-016.webp"
+      }
+    },
+    {
+      "role": "prototype",
+      "id": "asset-463aeb445b75c551fad7414b",
+      "name": "Mr. PomPom — prototype 1",
+      "sha256": "463aeb445b75c551fad7414bb9492fbae2353896e9da4a464b46ece808a5b6fe",
+      "bytes": 1927910,
+      "mime": "image/png",
+      "width": 1254,
+      "height": 1254,
+      "storagePath": "assets/463aeb445b75c551fad7414bb9492fbae2353896e9da4a464b46ece808a5b6fe.png",
+      "url": "/api/assets/asset-463aeb445b75c551fad7414b",
+      "reviewStatus": "unreviewed",
+      "provenance": {
+        "tool": "image_gen.imagegen",
+        "prompt": "One image of Mr. PomPom alone, the infant held by Mama on the left in registered family reference asset-88d74c56a468e3f250b12dbc. Preserve his round infant head, short rounded muzzle, glossy dark brown eyes, small dark nose, rounded ears, cream face and tummy, warm brown quills and tiny paws. Do not substitute older PinPin on the right. Full body seated securely in a shallow soft cream cushion nest; cushion supports back and hips without hiding two separate arms and two legs. Three-quarter view turned slightly screen-right, curious soft open-mouth smile, paws relaxed near tummy, feet visible. Plain warm ivory background, gentle warm dimensional storybook rendering, soft diffuse light and subtle contact shadow. No other characters, clothes, text, collage or alternate views. Output one square prototype candidate; keep existing originals. This is the first design review, not the final perspective sheet. Square image. Reference image is identity, scale and rendering style only, not the requested composition.",
+        "referenceBindings": [
+          {
+            "assetId": "asset-88d74c56a468e3f250b12dbc",
+            "sha256": "88d74c56a468e3f250b12dbcb5ecdb7b07bd1d789197663d8948ac199acd133d",
+            "role": "PomPom infant identity, relative scale and rendering style"
+          }
+        ],
+        "chapterId": "pompom-character-study",
+        "sceneId": "pompom-prototype-01",
+        "workflow": "workflows/character-creation.md",
+        "sourceFile": "generated/pompom-prototype-v1-01a0ff85.png",
+        "nativeOutputFilename": "exec-9c8e8769-122c-4e99-90a4-67935f593a92.png"
+      }
+    },
+    {
+      "role": "face-initial",
+      "id": "asset-dc2b8c16da4e6a0117680fa8",
+      "name": "PomPom face-v1",
+      "sha256": "dc2b8c16da4e6a0117680fa8c01da7dd9a811bf79b909cbfac9426c5507709ed",
+      "bytes": 2173822,
+      "mime": "image/png",
+      "width": 1536,
+      "height": 1024,
+      "storagePath": "assets/dc2b8c16da4e6a0117680fa8c01da7dd9a811bf79b909cbfac9426c5507709ed.png",
+      "url": "/api/assets/asset-dc2b8c16da4e6a0117680fa8",
+      "reviewStatus": "unreviewed",
+      "provenance": {
+        "tool": "image_gen.imagegen",
+        "prompt": "Create a production character reference source sheet of Mr. PomPom, EXACT SAME tiny infant hedgehog as reference 1, using reference 2 only for family scale and warm dimensional illustrated book style. Preserve identical round baby head, short muzzle, glossy dark brown eyes, round ears, black brown nose, warm brown quills, cream face and tummy, very short limbs. No clothes. No older PinPin, adult proportions or standing. Ivory background, consistent soft warm light, clean readable separated cells, restrained neutral brows except expression-specific movement, no forced smile. Landscape sheet, 2 rows of 6 equally sized close-up heads, consistent head size and camera height. Top row labeled FACE VIEWS: front neutral, left three-quarter neutral, left true profile neutral, right three-quarter neutral, right true profile neutral, rear head showing quill silhouette. Bottom row labeled EXPRESSIONS: calm neutral closed mouth, delighted gentle laugh, curious attentive closed mouth, surprised small O mouth, sleepy half-closed eyes, mild upset lower lip and sad eyes. Short legible labels under each cell; no cropping ears or quills. The six expressions use the same front three-quarter angle. All cells same infant identity, do not vary age or muzzle length.",
+        "referenceAssetIds": [
+          "asset-463aeb445b75c551fad7414b",
+          "asset-88d74c56a468e3f250b12dbc"
+        ],
+        "workflow": "workflows/character-creation.md",
+        "stage": "source sheets",
+        "correctionOfAssetId": null,
+        "sourceFile": "generated/pompom-face-v1.png",
+        "nativeOutputFilename": "exec-3077ecc6-8f69-44f6-acb6-9b345c9722d7.png"
+      }
+    },
+    {
+      "role": "body-initial",
+      "id": "asset-7dcf707dc1478230a7a5cc94",
+      "name": "PomPom body-v1",
+      "sha256": "7dcf707dc1478230a7a5cc94aa65fb56ee94f75644a12de32be07cb4953981d6",
+      "bytes": 2324199,
+      "mime": "image/png",
+      "width": 1536,
+      "height": 1024,
+      "storagePath": "assets/7dcf707dc1478230a7a5cc94aa65fb56ee94f75644a12de32be07cb4953981d6.png",
+      "url": "/api/assets/asset-7dcf707dc1478230a7a5cc94",
+      "reviewStatus": "unreviewed",
+      "provenance": {
+        "tool": "image_gen.imagegen",
+        "prompt": "Create a production character reference source sheet of Mr. PomPom, EXACT SAME tiny infant hedgehog as reference 1, using reference 2 only for family scale and warm dimensional illustrated book style. Preserve identical round baby head, short muzzle, glossy dark brown eyes, round ears, black brown nose, warm brown quills, cream face and tummy, very short limbs. No clothes. No older PinPin, adult proportions or standing. Ivory background, consistent soft warm light, clean readable separated cells, restrained neutral brows except expression-specific movement, no forced smile. Landscape sheet, 2 rows of 6 equally sized full-body cells. Top row labeled BODY VIEWS: front, left three-quarter, left true profile, right three-quarter, right true profile, back. In all top cells same relaxed supported sitting pose in shallow cream cushion with low rim exposing limbs, identical proportions and scale. Bottom row labeled GESTURES: supported reaching with one paw, supported small wave, clapping two paws touching, hugging one soft pale green ball, looking up calmly, reclining sleepily. Each body has exactly two arms and two short legs, paws and feet distinct and visible wherever physically possible, genuine support under hips/back. No walking, adult stance or extra limbs. Short legible cell labels, whole quills and feet uncropped. Gentle varied natural expressions. Keep pillows small enough to read silhouette.",
+        "referenceAssetIds": [
+          "asset-463aeb445b75c551fad7414b",
+          "asset-88d74c56a468e3f250b12dbc"
+        ],
+        "workflow": "workflows/character-creation.md",
+        "stage": "source sheets",
+        "correctionOfAssetId": null,
+        "sourceFile": "generated/pompom-body-v1.png",
+        "nativeOutputFilename": "exec-214428e2-2f69-46a6-9df9-d743e2f11579.png"
+      }
+    },
+    {
+      "role": "face-corrected",
+      "id": "asset-dd88542003c752494cb277f0",
+      "name": "PomPom faceFixed",
+      "sha256": "dd88542003c752494cb277f07e2e97fc84402b48018d5e36295f7d7fa59bb428",
+      "bytes": 2276474,
+      "mime": "image/png",
+      "width": 1536,
+      "height": 1024,
+      "storagePath": "assets/dd88542003c752494cb277f07e2e97fc84402b48018d5e36295f7d7fa59bb428.png",
+      "url": "/api/assets/asset-dd88542003c752494cb277f0",
+      "reviewStatus": "unreviewed",
+      "provenance": {
+        "tool": "image_gen.imagegen",
+        "prompt": "Edit this exact source sheet. Correct ONLY the top row second cell labeled Left 3/4: render the SAME infant head turned three-quarter toward screen LEFT, nose pointing LEFT, showing the opposite side from fourth cell Right 3/4. Keep cell labels and all other cells unchanged. Left Profile already points left; Left 3/4 must also point left but show both eyes. Preserve same head size, ear shape, muzzle, warm quills, brown eyes and infant identity. Do not mirror text. Retain entire sheet.",
+        "referenceAssetIds": [
+          "asset-dc2b8c16da4e6a0117680fa8"
+        ],
+        "workflow": "workflows/character-creation.md",
+        "stage": "source sheets",
+        "correctionOfAssetId": "asset-dc2b8c16da4e6a0117680fa8",
+        "sourceFile": "generated/pompom-faceFixed.png",
+        "nativeOutputFilename": "exec-e9592b17-dc45-43e7-bf6f-fe73779141aa.png"
+      }
+    },
+    {
+      "role": "body-corrected",
+      "id": "asset-4b5cccd08ae5bf379e3864a8",
+      "name": "PomPom bodyFixed",
+      "sha256": "4b5cccd08ae5bf379e3864a8bd8e10c2968edc5d311fe3541a98055a7010dcbb",
+      "bytes": 2269594,
+      "mime": "image/png",
+      "width": 1536,
+      "height": 1024,
+      "storagePath": "assets/4b5cccd08ae5bf379e3864a8bd8e10c2968edc5d311fe3541a98055a7010dcbb.png",
+      "url": "/api/assets/asset-4b5cccd08ae5bf379e3864a8",
+      "reviewStatus": "unreviewed",
+      "provenance": {
+        "tool": "image_gen.imagegen",
+        "prompt": "Edit this exact source sheet. Correct ONLY the top row fourth cell labeled RIGHT THREE-QUARTER: show same seated infant turned three-quarter toward SCREEN LEFT, opposite direction from top row second cell. The fifth RIGHT PROFILE points screen left so fourth must also point left, with both eyes visible. Keep same tiny supported seated proportions, cream cushion, two arms and feet, same infant face and quills. Keep all other cells and labels unchanged. No standing. Retain whole sheet.",
+        "referenceAssetIds": [
+          "asset-7dcf707dc1478230a7a5cc94"
+        ],
+        "workflow": "workflows/character-creation.md",
+        "stage": "source sheets",
+        "correctionOfAssetId": "asset-7dcf707dc1478230a7a5cc94",
+        "sourceFile": "generated/pompom-bodyFixed.png",
+        "nativeOutputFilename": "exec-55469fa8-3a52-43a8-adc7-5cb09261b6d8.png"
+      }
+    },
+    {
+      "role": "composite",
+      "id": "asset-483201f4d30299518e37b401",
+      "name": "Mr. PomPom — unified reference sheet",
+      "sha256": "483201f4d30299518e37b401259cdd365de5efcdfddf3624156c4c1f176b4f2a",
+      "bytes": 2271871,
+      "mime": "image/png",
+      "width": 1024,
+      "height": 1536,
+      "storagePath": "assets/483201f4d30299518e37b401259cdd365de5efcdfddf3624156c4c1f176b4f2a.png",
+      "url": "/api/assets/asset-483201f4d30299518e37b401",
+      "reviewStatus": "unreviewed",
+      "provenance": {
+        "tool": "image_gen.imagegen",
+        "prompt": "Create one unified Mr. PomPom production reference composite from these TWO corrected source sheets. Preserve the exact infant identity and all 24 studies, do not redesign or age him. Portrait high resolution clean ivory reference poster: FOUR rows of SIX clearly separated readable cells. Row1 FACE VIEWS from reference1 top row; row2 EXPRESSIONS from reference1 bottom row; row3 SUPPORTED BODY VIEWS from reference2 top row; row4 GESTURES from reference2 bottom row. Uniform size within each row, whole body quills and feet uncropped. Use minimal title Mr. PomPom and short labels. IMPORTANT label directions by SCREEN direction to remove ambiguity: face row Front, Facing left 3/4, Facing left profile, Facing right 3/4, Facing right profile, Rear. Body row Front, Facing right 3/4, Facing right profile, Facing left 3/4, Facing left profile, Back. Preserve both different three-quarter directions, no duplicates. Expression labels Calm, Delight, Curious, Surprise, Sleepy, Mild upset. Gestures Reach, Wave, Clap, Hug ball, Look up, Recline. Preserve supported sitting/reclining, cream cushions, exactly two arms and legs; no standing. Face remains round with short infant muzzle dark brown eyes and warm quills. Keep natural range of emotion no compulsory raised brows. Every cell from source sheets retained, no family scene, no extra art or invented traits. Readable generous spacing. A single actual composite IMAGE.",
+        "referenceAssetIds": [
+          "asset-dd88542003c752494cb277f0",
+          "asset-4b5cccd08ae5bf379e3864a8"
+        ],
+        "workflow": "workflows/character-creation.md",
+        "stage": "composite",
+        "designReview": {
+          "reviewer": "codex-wap1",
+          "capacity": "Miguel authorized representative as stated in conversation",
+          "decision": "prototype accepted as working identity; remaining package requested",
+          "personallyReviewedByMiguel": false
+        },
+        "sourceFile": "generated/pompom-unified-reference.png",
+        "nativeOutputFilename": "exec-851c8647-3d88-466a-b83c-a0ed6b8328b5.png"
+      }
+    }
+  ],
+  "evidenceFiles": [
+    {
+      "dataPath": "reports/pompom-prototype-registration.json",
+      "bytes": 2254,
+      "sha256": "05eaf57b1af91718e73cfa6a427590ceda0d65165d0d80a86754c23c00f784a7"
+    },
+    {
+      "dataPath": "reports/pompom-prototype-prompt.txt",
+      "bytes": 1019,
+      "sha256": "ccd962276e44af741402389cc0ba9b31b22de318ca1b440acccc481fc8a32f99"
+    },
+    {
+      "dataPath": "reports/pompom-source-package.json",
+      "bytes": 8054,
+      "sha256": "8eea9a5d0a01a6c91f6bb000801448965181c1269bf9d8a4e650b2af42ec10a3"
+    },
+    {
+      "dataPath": "reports/pompom-composite-registration.json",
+      "bytes": 2730,
+      "sha256": "67098c282fc18b5adf2cfa4fbaaa12e4ea1930a9d98f73b20a1474f791e2b4b8"
+    },
+    {
+      "dataPath": "reports/pompom-composite-prompt.txt",
+      "bytes": 1423,
+      "sha256": "cc4615e6851a8076b862c1d75b4f746db40e388033e9f9a24f5b3064c50ae12f"
+    },
+    {
+      "dataPath": "reports/pompom-workflow-completion.json",
+      "bytes": 2214,
+      "sha256": "397d14123ff9dd0a5df610be66163a6905349c024bdaf02c7b8470121698536e"
+    },
+    {
+      "dataPath": "workflows/character-creation.md",
+      "bytes": 9034,
+      "sha256": "8a73fe1a31b8d9e796ca345796dc9389fe287e98caae9d314667f361084e9577"
+    },
+    {
+      "dataPath": "workflows/mr-pompom.md",
+      "bytes": 5044,
+      "sha256": "6ee964ada120eb66674ae085531533dbc543aa1ff21df6ff630e73cb09f7f216"
+    },
+    {
+      "dataPath": "reports/workflow-card-viewer-validation.json",
+      "bytes": 716,
+      "sha256": "8512c58cda0ce7a66c489c983c48c808c1285e26404d479b82eb8c0ac67fb62e"
+    }
+  ],
+  "verification": {
+    "registeredAssetCount": 7,
+    "allRegisteredByteCountsAndSHA256Match": true,
+    "sourceCopiesSHA256Match": true
+  },
+  "limits": [
+    "Assets remain at their actual recorded reviewStatus; delivery does not approve or select them.",
+    "Artwork is a generated reference study, not a measured 3D turnaround.",
+    "Local API URLs require the matching Studio asset registry; no public download is implied."
+  ],
+  "presentation": {
+    "workspaceBuild": "e13edd4de644de7a2744d58f41472ca0062797589b9647d217f01d67f0df44db",
+    "fullSizeViewerImplemented": true,
+    "sourceMatchesReadyBuild": true,
+    "syntaxAndRendererChecks": "passed",
+    "independentBrowserInteraction": "passed",
+    "browserVerification": {
+      "checkedAt": "2026-10-03T09:22:47.605Z",
+      "checksPassed": 12,
+      "javascriptErrors": 0,
+      "evidenceReport": "pinpin-studio-proxy-20261003/viewer-proof.json",
+      "sha256": "eb33b72d47cb857af97c1797b9d8f90893e2596faa09920bd66b40dbdc148c4c"
+    }
+  }
+}

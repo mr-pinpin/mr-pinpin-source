@@ -1,4 +1,5 @@
 import {shouldReportFailure} from './error-policy.js';
+import {closeImageViewer} from './image-viewer.js';
 import {disposeImages,suspendImages,resumeImages} from './image-assets.js';
 import {accept,receiveResponse,send,close} from './bridge.js';
 import {studio,adopt,applyRoute,emitUI,snapshot} from './child-state.js';
@@ -12,7 +13,7 @@ async function render(){resumeImages();rendering=true;try{document.querySelector
 function bindWorkspace(){document.querySelector('#workspace-content').addEventListener('scroll',()=>{if(rendering||scrollFrame)return;scrollFrame=requestAnimationFrame(()=>{scrollFrame=0;studio.scroll=document.querySelector('#workspace-content').scrollTop;emitUI(true);});});document.querySelector('#return-live').onclick=()=>{studio.routeExtra.rev=null;emitUI(false);send('live');};}
 window.addEventListener('message',async event=>{if(!accept(event))return;const value=event.data;if(receiveResponse(value))return;try{
  if(value.type==='init'){if(initialized)return;initialized=true;studio.apiOrigin=value.apiOrigin||event.origin;studio.readOnly=Boolean(value.readOnly||value.state?.readOnly);adopt(value.state);applyRoute(value.ui,value.session);receiveChat(value,true);mountChat();bindWorkspace();await render();send('ready',{...snapshot(),capabilities:['conversation-ui']});}
- else if(value.type==='suspend'&&initialized){studio.mediaCleanup?.();studio.mediaCleanup=null;suspendImages();}
+ else if(value.type==='suspend'&&initialized){closeImageViewer();studio.mediaCleanup?.();studio.mediaCleanup=null;suspendImages();}
  else if(value.type==='route'&&initialized){studio.readOnly=Boolean(value.readOnly||value.state?.readOnly);if(value.state)adopt(value.state);applyRoute(value.ui,value.session);receiveChat(value);await render();showMobile(studio.mobile);}
  else if(value.type==='activate'&&initialized){receiveChat(value);renderChat();restoreComposerFocus();}
  else if(value.type==='conversation'&&initialized){const changed=receiveChat(value);renderChat();if(changed&&['board','references'].includes(studio.mode)&&!studio.planOpen)await renderWorkspace({preserveScroll:true});}
