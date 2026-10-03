@@ -98,7 +98,7 @@ def prepared_toolchain(store, state):
                 "storageWorkflow": {key: value for key, value in manifest.get("storageWorkflow", {}).items()
                                     if isinstance(value, str) and len(value) <= 500},
                 "castOperations": {key: value for key, value in manifest.get("castOperations", {}).items()
-                                   if key in ("toolPath", "finish", "checkpoint", "authority")
+                                   if key in ("toolPath", "finish", "checkpoint", "closeout", "prepareCharacter", "register", "authority")
                                    and isinstance(value, str) and len(value) <= 500}
                                    if isinstance(manifest.get("castOperations"), dict) else {},
                 "imageGeneration": {key: value for key, value in manifest.get("imageGeneration", {}).items()
@@ -195,3 +195,46 @@ def hydrate_character(store, state, entity, scenes, explicit_ids, index, workflo
     if toolchain is not None:
         pack["registrationToolchain"] = toolchain
     return pack, automatic
+
+
+def starter_pack(store, state, workflow, toolchain):
+    """Compact new-subject inputs from existing verified stages and saved book data."""
+    if state.get('readOnly') or not toolchain:
+        return None
+    assets={a['id']:a for a in state['assets']}
+    entities={e['id']:e for e in state['project']['entities']}
+    rows={r['id']:r for r in (workflow or {}).get('characters',[])}
+    refs=[];cast=[]
+    # Selection lives in authored toolchain data, not machine-specific ID constants.
+    manifest=asset_storage.bounded_json(store.root/'workflows/toolchain.json',16384)
+    config=manifest.get('characterPreparation',{})
+    if not isinstance(config,dict) or not config.get('counterpartIds'):
+        return None
+    full=asset_storage.bounded_json(store.root/'workflows/cast-run.json',262144)
+    for identifier in config.get('counterpartIds',[])[:4]:
+        entity=entities.get(identifier); row=rows.get(identifier,{})
+        if not entity: continue
+        # Compact queue omits stages: reconcile only the requested counterpart.
+        from .cast_workflow import reconcile_character
+        raw=next((r for r in full.get('characters',[]) if r['id']==identifier),None)
+        facts=raw or row
+        cast.append(dict(compact_entity(entity),exactAge=facts.get('exactAge','not stated'),
+            evidencedLifeStage=facts.get('evidencedLifeStage',entity.get('identity','')),
+            evidencePath=facts.get('evidencePath','workflows/characters/'+identifier+'/evidence.json')))
+        verified=reconcile_character(store,state,raw) if raw else {}
+        solo=verified.get('stages',{}).get('solo',{})
+        asset=assets.get(solo.get('assetId'))
+        if asset and asset.get('sha256')==solo.get('sha256'):
+            refs.append({'assetId':asset['id'],'sha256':asset['sha256'],
+                'role':'counterpart:'+identifier,'path':str(store.asset_path(asset['id'],state))})
+    book=state['project'].get('book',{})
+    layout=book.get('characterReferenceDefaults',{}).get('layoutReference',{})
+    for identifier,role in [(layout.get('assetId'),'layout-direction-only')]+[(i,'family-style-and-relative-scale') for i in book.get('styleReferenceIds',[])[:1]]:
+        asset=assets.get(identifier)
+        if asset and (role!='layout-direction-only' or asset.get('sha256')==layout.get('sha256')):
+            refs.append({'assetId':identifier,'sha256':asset['sha256'],'role':role,'path':str(store.asset_path(identifier,state))})
+    return {'schemaVersion':1,'projectRevision':state['revision'],'establishedCast':cast,'references':refs,
+        'toolchain':toolchain,'specFields':['entityId','name','request','identity','scale','geometry','lifeStage','proposed','stage','prompt'],
+        'requirements':['solo:24 readable views/expressions/body directions/ordinary poses','separate interactions:family scale and supported contact','inspect actual pages before closeout'],
+        'sourceDistinction':'These are counterpart/style/layout references, never the new subject identity. Exact age remains not stated unless sourced.',
+        'guidePath':'workflows/character-context-index.md','inputLimit':5}

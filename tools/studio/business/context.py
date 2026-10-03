@@ -1,7 +1,7 @@
 """Reloadable selection and native multimodal attachment business rules."""
 import json
 from .conversation_plan import plan_status
-from .character_context import ReferenceIndex, hydrate_character, prepared_toolchain, reference_path
+from .character_context import ReferenceIndex, hydrate_character, prepared_toolchain, reference_path, starter_pack
 from .cast_workflow import workflow_context
 from review_state import state_at_revision
 from model import StudioError, find, valid_id
@@ -131,6 +131,9 @@ def selected_context(store, body):
         toolchain = prepared_toolchain(store, state)
         if toolchain and toolchain.get('storageWorkflow'):
             context['storageWorkflow'] = toolchain['storageWorkflow']
+        if toolchain and (body.get('characterPreparation') is True or (not entity_id and any(word in text.lower() for word in ('character','visitor','персонаж')))):
+            pack=starter_pack(store,state,cast_workflow,toolchain)
+            if pack: context['characterPreparation']=pack
     # Long exact prompts remain immutable registered metadata, addressable by ID.
     # Preserve source/lineage fields and references instead of repeating prompts.
     for reference in context["references"]:

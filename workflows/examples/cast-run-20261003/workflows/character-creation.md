@@ -143,4 +143,4 @@ When the reconciled queue has no missing stages, the existing `tools/cast_ops.py
 
 Before native generation follow [industrial-storage.md](industrial-storage.md): stable registered IDs, actual byte/hash resolution, at most five ranked references, exact prompt and dossier/evidence validation, bounded cache/disk reservation, durable prepared attempt and real registered/failed/cancelled outcome. Use hydrated storageWorkflow prepare/resolve/backup/outcome commands; remote backup is unverified until fresh download/hash proof. No artwork deletion or new approval gate.
 
-After visual QA, use `python -B tools/cast_ops.py closeout <entity>` for finish verification and server HTTP backups. See industrial-storage.md; failed/pending backups preserve local drafts.
+New proposals use `cast_ops.py prepare-character <spec.json>`; see character-preparation.md. After QA use `cast_ops.py closeout <entity>` for final validation and server backups.

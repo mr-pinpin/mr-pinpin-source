@@ -1,0 +1,148 @@
+{
+  "sourceExportReceiptUTC": "2026-10-03T21:25:01.037732+00:00",
+  "exactAuthoredReceiptEntriesVerified": 23,
+  "sourceFiles": [
+    {
+      "path": "workflows/examples/cast-run-20261003/tools/cast_ops.py",
+      "sha256": "9f509c28741dba814b10a5fd1c7ea15aeea00f9f0fa37450fe84e9977c8cf9d5"
+    },
+    {
+      "path": "workflows/examples/cast-run-20261003/tools/test_character_preparation.py",
+      "sha256": "1daba878e93916c7483e46ca82f92c1748b7d865b635977cdd353201f6db2574"
+    },
+    {
+      "path": "workflows/examples/cast-run-20261003/tools/test_character_closeout.py",
+      "sha256": "7641169a6a06916121b3922b09acf828c341ab9144bc9bb7d41abc6ada653a2a"
+    },
+    {
+      "path": "workflows/examples/cast-run-20261003/tools/verify_character_preparation.py",
+      "sha256": "454805050fbeffdc601c851841e9ecba5be6a8bce0bf49547405f2ea9f785d92"
+    },
+    {
+      "path": "workflows/examples/cast-run-20261003/workflows/toolchain.json",
+      "sha256": "eeae36209dd2aced83811d01f8a452821c70add8879b71a52f293488397284f6"
+    },
+    {
+      "path": "workflows/examples/cast-run-20261003/workflows/character-context-index.md",
+      "sha256": "4e4df66f7c36211efc2e4ee6d46710c366fe20e175ab1ffff2a02933dda9269b"
+    },
+    {
+      "path": "workflows/examples/cast-run-20261003/workflows/character-creation.md",
+      "sha256": "fa4669a1f5a483cdfb79a98a821cad0194723dff79b1a3cca3288a90ebd528c5"
+    },
+    {
+      "path": "workflows/examples/cast-run-20261003/workflows/character-preparation.md",
+      "sha256": "a49f05b6affa82c7e911744ebefd9bc11f9a5d16fd02c7723ec2656df1c2e00b"
+    },
+    {
+      "path": "tools/studio/business/context.py",
+      "sha256": "974b7303fc5e2b3a93a16486250d7fe7e0aa9918c4592afc4f04884324b388d2"
+    },
+    {
+      "path": "tools/studio/business/character_context.py",
+      "sha256": "5838f7397f2488d53a03f60bb92bc5c09ec26892681b3dbffa23cb007ebe6e52"
+    }
+  ],
+  "tests": {
+    "preparation": 11,
+    "closeout": 15,
+    "studio": 85,
+    "assetsPassed": 50,
+    "assetsSkipped": 1,
+    "assetsFailed": 0
+  },
+  "build": {
+    "files": 975,
+    "managedProduction": 835,
+    "bytes": 948137769,
+    "budget": 950000000,
+    "externalTB4Output": true
+  },
+  "currentCounterpartHydration": {
+    "counterparts": [
+      {
+        "entityId": "pinpin",
+        "assetId": "asset-5d505b375eed339baa7f7650",
+        "sha256": "5d505b375eed339baa7f765028f4c61224a685dfcc4c01ee53c5f35fdb303700",
+        "matchesLatestSolo": true
+      },
+      {
+        "entityId": "papa",
+        "assetId": "asset-6d619138c33f8111b5b1ff68",
+        "sha256": "6d619138c33f8111b5b1ff6808d53923ac767e48f3e4a8e03601754a9eab5b87",
+        "matchesLatestSolo": true
+      },
+      {
+        "entityId": "mama",
+        "assetId": "asset-0409122a3c93ef73014f6338",
+        "sha256": "0409122a3c93ef73014f6338020ea942f47e5c0f4d0a59cf424508eb6ce37898",
+        "matchesLatestSolo": true
+      },
+      {
+        "entityId": "pompom",
+        "assetId": "asset-483201f4d30299518e37b401",
+        "sha256": "483201f4d30299518e37b401259cdd365de5efcdfddf3624156c4c1f176b4f2a",
+        "matchesLatestSolo": true
+      }
+    ],
+    "allReferenceBytesVerified": true,
+    "referenceCount": 6,
+    "inputLimit": 5,
+    "contextBytes": 17134,
+    "imageCalls": 0
+  },
+  "interactionRanking": {
+    "selected": [
+      {
+        "assetId": "asset-46b709495ac9b5f41c4cdd66",
+        "sha256": "46b709495ac9b5f41c4cdd66ec8d5868e1a3edc8b12b8693313a4e37f07ea0ab",
+        "role": "primary-working-identity:verified-solo"
+      },
+      {
+        "assetId": "asset-88d74c56a468e3f250b12dbc",
+        "sha256": "88d74c56a468e3f250b12dbcb5ecdb7b07bd1d789197663d8948ac199acd133d",
+        "role": "counterpart:mama;counterpart:papa;counterpart:pinpin;counterpart:pompom;book-style"
+      },
+      {
+        "assetId": "asset-5d505b375eed339baa7f7650",
+        "sha256": "5d505b375eed339baa7f765028f4c61224a685dfcc4c01ee53c5f35fdb303700",
+        "role": "counterpart:pinpin"
+      },
+      {
+        "assetId": "asset-6d619138c33f8111b5b1ff68",
+        "sha256": "6d619138c33f8111b5b1ff6808d53923ac767e48f3e4a8e03601754a9eab5b87",
+        "role": "counterpart:papa"
+      },
+      {
+        "assetId": "asset-0409122a3c93ef73014f6338",
+        "sha256": "0409122a3c93ef73014f6338020ea942f47e5c0f4d0a59cf424508eb6ce37898",
+        "role": "counterpart:mama"
+      }
+    ],
+    "omitted": [
+      {
+        "assetId": "asset-483201f4d30299518e37b401",
+        "sha256": "483201f4d30299518e37b401259cdd365de5efcdfddf3624156c4c1f176b4f2a",
+        "role": "counterpart:pompom"
+      }
+    ],
+    "primaryLatestSolo": true,
+    "capAndDedup": true,
+    "imageCalls": 0
+  },
+  "ordinaryCloseoutEngineeringDependencyRemoved": true,
+  "ordinaryCLIWithoutEngineeringFilesTested": true,
+  "explicitDeveloperCheckpointDispatchTested": true,
+  "imageCallsFromQA": 0,
+  "conversationReset": false,
+  "storageImplementationChanged": false,
+  "sharedLibraryPending": true,
+  "benchmarkSpeedupMeasured": false,
+  "limitations": [
+    "Actual model use of prepared helper awaits ordinary-request acceptance.",
+    "Existing sandbox-to-loopback archive automation boundary remains unresolved.",
+    "Native conversation retained; no claim context compaction eliminated.",
+    "Reference inventory has six entries; actual interaction selection is capped at five and explicitly omits PomPom solo while retaining family style/relative-scale reference.",
+    "Mini/LAN availability must not become acceptance prerequisite for eventual shared-library integration."
+  ]
+}

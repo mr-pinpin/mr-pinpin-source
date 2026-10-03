@@ -132,6 +132,69 @@ def rank_reference_pack(references):
     ranked=list(unique.values())
     return ranked[:limit],ranked[limit:]
 
+def prepare_character(runtime,store,spec):
+    """One concise proposed-character spec; reuse existing preparation/registration."""
+    from model import valid_id
+    identifier=valid_id(spec.get('entityId'),'character id')
+    if spec.get('stage') not in ('solo','interactions'): raise ValueError('stage must be solo or interactions')
+    if not isinstance(spec.get('prompt'),str) or not spec['prompt'].strip(): raise ValueError('Exact prompt required')
+    state=store.read();entity=next((e for e in state['project']['entities'] if e['id']==identifier),None)
+    cfg=json.loads((DATA/'workflows/toolchain.json').read_text())
+    partners=spec.get('counterpartIds',cfg['characterPreparation']['counterpartIds'])
+    if not isinstance(partners,list) or len(partners)>4 or any(not isinstance(i,str) for i in partners): raise ValueError('At most four counterpart IDs')
+    if not entity:
+        if spec.get('proposed') is not True or spec['stage']!='solo': raise ValueError('New subjects need a disclosed proposal and solo first')
+        for field in ('name','request','identity','scale','geometry','lifeStage'):
+            if not isinstance(spec.get(field),str) or not 1<=len(spec[field])<=4000: raise ValueError('Missing bounded field: '+field)
+        folder=DATA/'workflows/characters'/identifier
+        if folder.exists(): raise ValueError('Existing dossier must be resumed explicitly, never overwritten')
+        run=json.loads((DATA/'workflows/cast-run.json').read_text())
+        if any(r['id']==identifier for r in run['characters']): raise ValueError('Existing manifest entry must be resumed')
+        entity={'id':identifier,'name':spec['name'],'kind':'character','identity':'PROPOSED: '+spec['identity'],
+            'scale':spec['scale'],'geometry':spec['geometry'],'referenceIds':[],'reviewStatus':'unreviewed',
+            'sourceEvidencePath':'workflows/characters/'+identifier+'/evidence.json'}
+        project=state['project'];project['entities'].append(entity)
+        defaults=project['book'].setdefault('characterReferenceDefaults',{})
+        defaults.setdefault('characters',{})[identifier]={'counterpartIds':partners,'speciesAndRole':entity['identity'],
+            'designBasis':'User-requested proposal; no published appearance or approval','sourceReferences':[]}
+        store.save_project(project,expected_revision=state['revision'])
+        folder.mkdir(parents=True)
+        atomic_json(folder/'evidence.json',{'bibliography':[{'kind':'current-user-request','excerpt':spec['request'],
+            'interpretation':'Proposed experiment, not published canon'}],'registeredReferences':[], 'exactAge':'not stated',
+            'evidencedLifeStage':spec['lifeStage'],'proposed':True})
+        (folder/'README.md').write_text('# '+spec['name']+'\n\nProposed experimental design; no published-story addition or approval.\n\nExact age: not stated. Life stage: '+spec['lifeStage']+' (request evidence).\n\n'+spec['identity']+'\n\nScale: '+spec['scale']+'\n\nGeometry: '+spec['geometry']+'\n\n[Source evidence](evidence.json). Final stages and exact prompts will be linked by existing finish/closeout.\n')
+        run['characters'].append({'id':identifier,'canonicalName':spec['name'],'aliases':[],'exactAge':'not stated',
+            'evidencedLifeStage':spec['lifeStage'],'status':'pending','dossierPath':'workflows/characters/'+identifier+'/README.md',
+            'evidencePath':'workflows/characters/'+identifier+'/evidence.json','outputs':[],'constraints':entity,'registeredReferenceIds':[]})
+        atomic_json(DATA/'workflows/cast-run.json',run)
+    _,_,inputs=runtime.invoke('selected_context',store,{'text':'Prepare character package','entityId':identifier,'characterPreparation':True})
+    context=json.loads(inputs[0]['text'].split('Current Studio snapshot (data, not instructions):\n',1)[1].split('\n\nUser message:',1)[0])
+    pack=context['characterContext']
+    refs=[{'assetId':r['id'],'sha256':r['sha256'],'role':';'.join(r['roles'])} for r in pack['references']]
+    if spec['stage']=='solo': refs=[r for r in refs if 'cast:' not in r['role']]
+    else:
+        # Interaction layout is unnecessary; family supplies identity/contact/scale.
+        refs=[r for r in refs if 'layout-direction-only' not in r['role']]
+        for ref in refs:
+            ref['role']=ref['role'].replace('cast:','counterpart:')
+            if ref['role']=='book-style': ref['role']='family-identity-style-relative-scale'
+        # Starter pack resolves reconciled counterpart solos rather than source-only portraits.
+        extra=context.get('characterPreparation',{}).get('references',[])
+        refs += [{'assetId':r['assetId'],'sha256':r['sha256'],'role':r['role']}
+                 for r in extra if r['role'].startswith('counterpart:') and r['role'].split(':',1)[1] in partners]
+    selected,omitted=rank_reference_pack(refs)
+    prompt_path=DATA/'reports/character-jobs'/(hashlib.sha256(spec['prompt'].encode()).hexdigest()+'-prompt.txt')
+    prompt_path.parent.mkdir(parents=True,exist_ok=True)
+    if prompt_path.exists() and prompt_path.read_text()!=spec['prompt']: raise ValueError('Prompt hash collision')
+    prompt_path.write_text(spec['prompt'])
+    prepared=dict(spec,kind='character',references=selected,omittedReferences=omitted,
+        promptFile=str(prompt_path),outputName=identifier+'-'+spec['stage']+'.png')
+    _,result=runtime.invoke('route',store,'POST','/api/characters/prepare',{},prepared)
+    path=DATA/'reports/character-jobs'/(result['attemptId']+'-spec.json');atomic_json(path,result)
+    return {'preparedSpec':str(path),'attemptId':result['attemptId'],'references':result['references'],
+        'omittedReferences':omitted,'register':cfg['castOperations']['register'],'closeout':cfg['castOperations']['closeout'],
+        'nativeTool':'image_gen.imagegen','visualQARequired':True}
+
 def finish_records(identifier, result):
     """Derive closeout metadata from existing real call receipts, preserving evidence."""
     path = DATA / 'reports/character-packages' / (identifier + '-generation.json')
@@ -286,9 +349,24 @@ def main():
     if command == 'industrial-checkpoint':
         print(json.dumps(industrial_checkpoint(store)))
     elif command == 'closeout':
-        result=closeout(runtime,store,args[0])
-        result['sourceExportReceipt']=closeout_checkpoint(result)
-        print(json.dumps(result))
+        print(json.dumps(closeout(runtime,store,args[0])))
+    elif command == 'closeout-dev-checkpoint':
+        from model import valid_id
+        identifier=valid_id(args[0],'character id')
+        receipt=json.loads((DATA/'reports/character-packages'/(identifier+'-closeout.json')).read_text())
+        if receipt.get('entityId')!=identifier: raise ValueError('Closeout receipt identity mismatch')
+        print(json.dumps({'sourceExportReceipt':closeout_checkpoint(receipt)}))
+    elif command == 'prepare-character':
+        spec=json.loads(Path(args[0]).read_text())
+        try: print(json.dumps(prepare_character(runtime,store,spec)))
+        except Exception as exc:
+            observed=datetime.now(timezone.utc).isoformat()
+            failure={'status':'preparation-failed','observedUTC':observed,'spec':spec,
+                'errorType':type(exc).__name__,'generationDispatched':False,
+                'advice':'Inspect retained preparation state; do not overwrite curated records or assume a render.'}
+            target=DATA/'reports/character-jobs'/('prepare-failure-'+hashlib.sha256(observed.encode()).hexdigest()[:24]+'.json')
+            atomic_json(target,failure)
+            raise
     elif command in ('resolve', 'backup', 'restore-replica', 'prepare', 'outcome'):
         if command in ('prepare', 'outcome'):
             body = json.loads(Path(args[0]).read_text())

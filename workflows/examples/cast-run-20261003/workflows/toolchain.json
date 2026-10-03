@@ -41,7 +41,9 @@
     "finish": "python -B tools/cast_ops.py finish <entity>",
     "checkpoint": "python -B tools/cast_ops.py checkpoint <batch> <entity> ...",
     "authority": "Durable draft metadata; visual QA required, no approval or publication",
-    "closeout": "python -B tools/cast_ops.py closeout <entity>"
+    "closeout": "python -B tools/cast_ops.py closeout <entity>",
+    "prepareCharacter": "python -B tools/cast_ops.py prepare-character <spec.json>",
+    "register": "python -B tools/register_cast_spec.py <preparedSpec> <call.json>"
   },
   "imageGeneration": {
     "tool": "image_gen.imagegen",
@@ -67,5 +69,14 @@
     "outcome": "python -B tools/cast_ops.py outcome <outcome.json>",
     "checkpoint": "python -B tools/cast_ops.py industrial-checkpoint",
     "closeout": "python -B tools/cast_ops.py closeout <entity>"
+  },
+  "characterPreparation": {
+    "counterpartIds": [
+      "pinpin",
+      "papa",
+      "mama",
+      "pompom"
+    ],
+    "source": "Established family; no identity transfer to new proposed subject"
   }
 }

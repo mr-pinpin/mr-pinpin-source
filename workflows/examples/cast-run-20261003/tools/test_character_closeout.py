@@ -3,6 +3,7 @@ import copy
 import hashlib
 import json
 import tempfile
+import sys
 from pathlib import Path
 from unittest.mock import patch
 import cast_ops
@@ -53,6 +54,16 @@ with tempfile.TemporaryDirectory(dir=cast_ops.DATA/'reports') as tmp:
             (root/'reports/storage'/(a['id']+'-backup.json')).write_text(json.dumps(proof(a['id'])))
         result=cast_ops.closeout(Runtime(),Store(),'test-character',fail)
         check('Verified existing receipts reused without transfer',result['allRemoteVerified'])
+        # Exercise the CLI dispatch, not just closeout(). Fixture has no exports,
+        # helper source files or engineering focused-test proof.
+        with patch.object(cast_ops,'Store',return_value=Store()),patch.object(cast_ops,'BusinessRuntime') as factory,patch.object(sys,'argv',['cast_ops.py','closeout','test-character']),patch.object(cast_ops,'closeout_checkpoint',side_effect=AssertionError('Engineering work in ordinary closeout')):
+            factory.return_value=Runtime();factory.return_value.close=lambda:None
+            cast_ops.main()
+        check('Ordinary CLI works without engineering files',not (root/'exports').exists() and not (root/'reports/character-closeout-focused-proof.json').exists())
+        with patch.object(cast_ops,'Store',return_value=Store()),patch.object(cast_ops,'BusinessRuntime') as factory,patch.object(sys,'argv',['cast_ops.py','closeout-dev-checkpoint','test-character']),patch.object(cast_ops,'closeout_checkpoint',return_value='fixture-export-receipt') as checkpoint:
+            factory.return_value=Runtime();factory.return_value.close=lambda:None
+            cast_ops.main()
+            check('Developer checkpoint explicitly dispatches export verification',checkpoint.call_count==1)
         Store().asset_path(assets[0]['id']).write_bytes(b'corrupt')
         try: cast_ops.closeout(Runtime(),Store(),'test-character',fail)
         except ValueError: checks.append('Corrupt local final refused')
