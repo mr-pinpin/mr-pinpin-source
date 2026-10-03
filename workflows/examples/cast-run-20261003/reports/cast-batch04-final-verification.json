@@ -1,0 +1,123 @@
+{
+  "revision": 843,
+  "next": "oreshek",
+  "remaining": [
+    "oreshek",
+    "lilia",
+    "hedgehog-cousins",
+    "spring-birds",
+    "squirrel-community",
+    "migrating-bird-family",
+    "tarin"
+  ],
+  "nativeReferences": [
+    {
+      "id": "asset-5d505b375eed339baa7f7650",
+      "name": "pinpin-solo.png",
+      "sha256": "5d505b375eed339baa7f765028f4c61224a685dfcc4c01ee53c5f35fdb303700",
+      "width": 1222,
+      "height": 1287,
+      "reviewStatus": "unreviewed",
+      "roles": [
+        "layout-direction-only:no-species-transfer"
+      ],
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/assets/5d505b375eed339baa7f765028f4c61224a685dfcc4c01ee53c5f35fdb303700.png",
+      "stage": ""
+    },
+    {
+      "id": "asset-88d74c56a468e3f250b12dbc",
+      "name": "reference-family",
+      "sha256": "88d74c56a468e3f250b12dbcb5ecdb7b07bd1d789197663d8948ac199acd133d",
+      "width": 1536,
+      "height": 1024,
+      "reviewStatus": "user-approved",
+      "roles": [
+        "book-style"
+      ],
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/assets/88d74c56a468e3f250b12dbcb5ecdb7b07bd1d789197663d8948ac199acd133d.webp",
+      "stage": ""
+    }
+  ],
+  "guideOccurrences": 1,
+  "guideBytes": 21649,
+  "runtime": {
+    "active": "c7b7e8ca51695420b9c46735782c46b3f05a0938f10f190d6615b47ce338071b",
+    "previous": "14e78c80dee9cb1216f6d147cc2152bd4e2b7fc4282b0a10b38ef9ce98ab31d1",
+    "status": "ready",
+    "error": null
+  },
+  "legacyAndProducedPackages": [
+    {
+      "entityId": "pinpin",
+      "receiptPath": "reports/character-packages/pinpin.json",
+      "dossierPath": "workflows/characters/pinpin/README.md"
+    },
+    {
+      "entityId": "pompom",
+      "receiptPath": "reports/character-packages/pompom.json",
+      "dossierPath": "workflows/characters/pompom/README.md"
+    },
+    {
+      "entityId": "mama",
+      "receiptPath": "reports/character-packages/mama.json",
+      "dossierPath": "workflows/characters/mama/README.md"
+    },
+    {
+      "entityId": "papa",
+      "receiptPath": "reports/character-packages/papa.json",
+      "dossierPath": "workflows/characters/papa/README.md"
+    },
+    {
+      "entityId": "rabbit",
+      "receiptPath": "reports/character-packages/rabbit.json",
+      "dossierPath": "workflows/characters/rabbit/README.md"
+    },
+    {
+      "entityId": "elder",
+      "receiptPath": "reports/character-packages/elder.json",
+      "dossierPath": "workflows/characters/elder/README.md"
+    },
+    {
+      "entityId": "scooby",
+      "receiptPath": "reports/character-packages/scooby.json",
+      "dossierPath": "workflows/characters/scooby/README.md"
+    },
+    {
+      "entityId": "beaver",
+      "receiptPath": "reports/character-packages/beaver.json",
+      "dossierPath": "workflows/characters/beaver/README.md"
+    },
+    {
+      "entityId": "mama-beaver",
+      "receiptPath": "reports/character-packages/mama-beaver.json",
+      "dossierPath": "workflows/characters/mama-beaver/README.md"
+    },
+    {
+      "entityId": "beaver-kits",
+      "receiptPath": "reports/character-packages/beaver-kits.json",
+      "dossierPath": "workflows/characters/beaver-kits/README.md"
+    },
+    {
+      "entityId": "bear",
+      "receiptPath": "reports/character-packages/bear.json",
+      "dossierPath": "workflows/characters/bear/README.md"
+    },
+    {
+      "entityId": "talking-duck",
+      "receiptPath": "reports/character-packages/talking-duck.json",
+      "dossierPath": "workflows/characters/talking-duck/README.md"
+    },
+    {
+      "entityId": "tutu",
+      "receiptPath": "reports/character-packages/tutu.json",
+      "dossierPath": "workflows/characters/tutu/README.md"
+    },
+    {
+      "entityId": "pipilini",
+      "receiptPath": "reports/character-packages/pipilini.json",
+      "dossierPath": "workflows/characters/pipilini/README.md"
+    }
+  ],
+  "guideCountMethod": "Count exact JSON-serialized guide string, avoiding raw newline versus escaped newline mismatch",
+  "dossierOccurrences": 1
+}

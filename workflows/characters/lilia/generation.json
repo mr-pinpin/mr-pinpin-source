@@ -1,0 +1,169 @@
+{
+  "entityId": "lilia",
+  "calls": [
+    {
+      "nativePath": "/Users/miguel_lemos/.codex/generated_images/01a0ff85-92dc-7c40-9adb-ef240551a423/exec-732abee2-5f62-4612-bb1b-c8828a47991b.png",
+      "generationBeforeUTC": "2026-10-03 12:41:36 UTC",
+      "generationAfterUTC": "2026-10-03 12:45:51 UTC",
+      "repair": false,
+      "firstPassBodyWrongCells": [],
+      "qa": "Agent inspected all six face/body screen directions, separate limbs, complete tails/feet and coherent identity. All body nose/beak directions correct; profiles remain dimensional illustrations. Source/proposal distinction retained; no personal Miguel approval.",
+      "specPath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/workflows/characters/lilia/solo-spec.json",
+      "prompt": "Use case: illustration-story. Create a polished warm dimensional children book production reference titled \"Lilia — 24 studies\" on ivory, FOUR rows of SIX readable cells with generous margins. Subject: Elderly female squirrel forest wizard, HUGE round glass spectacles; original chapter30 blocks3–7 and chapter31 block2. Proposed warm adaptation: muted russet silver-tipped fur, cream face/belly, fluffy silver-gray curved tail. No wizard hat or human body. Source distinction: Original magical squirrel image provides scene context but lacks the text-required spectacles and does not prove a named portrait. Spectacles/elderly female squirrel are textual facts; adapted facial design proposed. Input1 subject source/context only; input2 PinPin sheet is LAYOUT/DIRECTION ONLY, never copy hedgehog species, anatomy or clothing; input3 family is lighting/render style only. One subject per cell. Row1 FACE VIEWS: Front: nose/beak centered toward viewer. Left 3/4: nose/beak points SCREEN LEFT, both eyes visible, torso turned LEFT. Left profile: true side, nose/beak points SCREEN LEFT, torso LEFT. Right 3/4: nose/beak points SCREEN RIGHT, both eyes visible, torso turned RIGHT. Right profile: true side, nose/beak points SCREEN RIGHT, torso RIGHT. Rear: back of head/body, face invisible. Row2 EXPRESSIONS: Calm, Curious, Happy, Surprised, Thoughtful, Mild upset, naturally varied eyebrows/mouths. Row3 WHOLE BODY VIEWS explicitly: Front: nose/beak centered toward viewer. Left 3/4: nose/beak points SCREEN LEFT, both eyes visible, torso turned LEFT. Left profile: true side, nose/beak points SCREEN LEFT, torso LEFT. Right 3/4: nose/beak points SCREEN RIGHT, both eyes visible, torso turned RIGHT. Right profile: true side, nose/beak points SCREEN RIGHT, torso RIGHT. Rear: back of head/body, face invisible. Whole tails/feet visible, grounded and consistently scaled within row. Row4 NORMAL POSES: Sit, Reach, Greet, Carry small nut, Share, Rest; birds instead Perch, Hop, Sing, Spread wings, Bathe, Rest, bird anatomy only. Clear concise labels and section divisions, complete bodies, distinct limbs and support; no fused paws, no cropped heads/tails. Keep readable friendly staging for four-year-olds. Do not print invented ages, heights or names. One unified actual image.",
+      "references": [
+        {
+          "assetId": "asset-544e23eb149d0e9be3e5a40b",
+          "sha256": "544e23eb149d0e9be3e5a40b6e737c003bf1c648c0e5c3d15f683639704ac20d",
+          "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/assets/544e23eb149d0e9be3e5a40b6e737c003bf1c648c0e5c3d15f683639704ac20d.png",
+          "role": "original-visual-context"
+        },
+        {
+          "assetId": "asset-5d505b375eed339baa7f7650",
+          "sha256": "5d505b375eed339baa7f765028f4c61224a685dfcc4c01ee53c5f35fdb303700",
+          "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/assets/5d505b375eed339baa7f765028f4c61224a685dfcc4c01ee53c5f35fdb303700.png",
+          "role": "layout-direction-only"
+        },
+        {
+          "assetId": "asset-88d74c56a468e3f250b12dbc",
+          "sha256": "88d74c56a468e3f250b12dbcb5ecdb7b07bd1d789197663d8948ac199acd133d",
+          "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/assets/88d74c56a468e3f250b12dbcb5ecdb7b07bd1d789197663d8948ac199acd133d.webp",
+          "role": "book-style"
+        }
+      ],
+      "receipt": {
+        "assetId": "asset-c4b458bf87cfeedf7d26e07f",
+        "sha256": "c4b458bf87cfeedf7d26e07f5ce0bc42eefdd3ab7aca3f3a44fe2b39c01e85b2",
+        "bytes": 2467379,
+        "reviewStatus": "unreviewed",
+        "nativePath": "/Users/miguel_lemos/.codex/generated_images/01a0ff85-92dc-7c40-9adb-ef240551a423/exec-732abee2-5f62-4612-bb1b-c8828a47991b.png",
+        "generatedPath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/generated/c4b458bf87cfeedf-lilia-solo.png",
+        "reused": false,
+        "kernelRelease": "c9be233f9e18f6d480c8a5b7d50dff6384c9df2766510b5ef006b21ccec40c75",
+        "workflowCard": {
+          "type": "WorkflowCard",
+          "title": "lilia-solo.png",
+          "text": "Unreviewed candidate. Original image available at full size.",
+          "assetIds": [
+            "asset-c4b458bf87cfeedf7d26e07f"
+          ],
+          "actions": []
+        },
+        "timing": {
+          "startedAt": "2026-10-03T12:47:35.960490+00:00",
+          "validatedAt": "2026-10-03T12:47:36.000957+00:00",
+          "copiedAt": "2026-10-03T12:47:36.002686+00:00",
+          "registeredAt": "2026-10-03T12:47:36.035909+00:00",
+          "registrationSeconds": 0.075431,
+          "dossierWrittenAt": "2026-10-03T12:47:36.036268+00:00",
+          "helperTotalSeconds": 0.075782
+        },
+        "dossierPath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/reports/character-packages/lilia.json",
+        "entityId": "lilia",
+        "stage": "solo"
+      },
+      "recordedAt": "2026-10-03T12:47:36.043404+00:00"
+    },
+    {
+      "nativePath": "/Users/miguel_lemos/.codex/generated_images/01a0ff85-92dc-7c40-9adb-ef240551a423/exec-eb4a0cec-4043-42fd-bba6-290b75fd6e3a.png",
+      "generationBeforeUTC": "2026-10-03 12:53:28 UTC",
+      "generationAfterUTC": "2026-10-03 12:56:00 UTC",
+      "repair": false,
+      "qa": "Inspected actual six panels: target squirrel identity retained, correct counterparts, engaged gaze, grounded or supported feet, separate arms and bodies during hug, plausible contact and size. Tail tips occasionally occluded by environment, no material identity/anatomy defect. Relative scale is proposed illustration, not measurements. Agent QA only.",
+      "specPath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/workflows/characters/lilia/interactions-spec.json",
+      "prompt": "Use case: illustration-story. ONE portrait separate CAST INTERACTION PAGE titled \"Lilia — Cast interactions\". SIX readable large panels, THREE rows of TWO, full bodies/tails/feet, generous margins and short action labels, ivory background, warm dimensional PinPin style. Input references in order: 1 PRIMARY-target-solo, 2 subject-source:original-visual-context, 3 counterpart:pinpin, 4 counterpart:tutu, 5 book-style-and-family-scale. FIRST image is PRIMARY working target identity; lock target species, facial design, colors, anatomy in EVERY panel. Counterpart sheets are identity only; do not copy their grid into panels. Family Mama copper-quilled adult left, Papa broader cooler-quilled adult center, PinPin older child right; infant excluded. Source/proposal distinction: Original magical squirrel image provides scene context but lacks the text-required spectacles and does not prove a named portrait. Spectacles/elderly female squirrel are textual facts; adapted facial design proposed.. Target facts: Elderly female squirrel forest wizard, HUGE round glass spectacles; original chapter30 blocks3–7 and chapter31 block2. Proposed warm adaptation: muted russet silver-tipped fur, cream face/belly, fluffy silver-gray curved tail. No wizard hat or human body.. Natural varied expressions, engaged shared gaze, consistent relative scale, distinct owned limbs, clear support/contact and plausible balance. No merged bodies, duplicate paws/wings, unsupported children or cropped tails. PANELS: 1 Shared ground: elderly spectacled female SQUIRREL LILIA and child HEDGEHOG PINPIN stand facing each other; Lilia adult squirrel somewhat taller than child, proposed relative scale. 2 Meditation: LILIA SQUIRREL sits comfortably cross-legged with full supported body and clear feet, PINPIN HEDGEHOG sits nearby listening. 3 Carrot wonder: spectacled LILIA SQUIRREL and PINPIN HEDGEHOG look at one floating carrot between them, not crossing their bodies. 4 Kind embrace: kneeling spectacled LILIA SQUIRREL embraces standing PINPIN HEDGEHOG, clear owned paws and two separate bodies. 5 Read together: LILIA SQUIRREL and russet young SQUIRREL TUTU sit on low stools attending one book on table, distinct older spectacled face and younger unspectacled squirrel. 6 Rest: LILIA SQUIRREL sits on grounded cushion beside PINPIN HEDGEHOG, quiet shared gaze and supported feet.. Subtitle \"Proposed book adaptation\". No invented ages/heights/names.",
+      "references": [
+        {
+          "assetId": "asset-c4b458bf87cfeedf7d26e07f",
+          "sha256": "c4b458bf87cfeedf7d26e07f5ce0bc42eefdd3ab7aca3f3a44fe2b39c01e85b2",
+          "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/assets/c4b458bf87cfeedf7d26e07f5ce0bc42eefdd3ab7aca3f3a44fe2b39c01e85b2.png",
+          "role": "PRIMARY-target-solo"
+        },
+        {
+          "assetId": "asset-544e23eb149d0e9be3e5a40b",
+          "sha256": "544e23eb149d0e9be3e5a40b6e737c003bf1c648c0e5c3d15f683639704ac20d",
+          "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/assets/544e23eb149d0e9be3e5a40b6e737c003bf1c648c0e5c3d15f683639704ac20d.png",
+          "role": "subject-source:original-visual-context"
+        },
+        {
+          "assetId": "asset-5d505b375eed339baa7f7650",
+          "sha256": "5d505b375eed339baa7f765028f4c61224a685dfcc4c01ee53c5f35fdb303700",
+          "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/assets/5d505b375eed339baa7f765028f4c61224a685dfcc4c01ee53c5f35fdb303700.png",
+          "role": "counterpart:pinpin"
+        },
+        {
+          "assetId": "asset-9d3476deaf77e000cf59d0d4",
+          "sha256": "9d3476deaf77e000cf59d0d410c9feb4205fa6bd5dd6955e5874adc5cda76a1d",
+          "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/assets/9d3476deaf77e000cf59d0d410c9feb4205fa6bd5dd6955e5874adc5cda76a1d.png",
+          "role": "counterpart:tutu"
+        },
+        {
+          "assetId": "asset-88d74c56a468e3f250b12dbc",
+          "sha256": "88d74c56a468e3f250b12dbcb5ecdb7b07bd1d789197663d8948ac199acd133d",
+          "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/assets/88d74c56a468e3f250b12dbcb5ecdb7b07bd1d789197663d8948ac199acd133d.webp",
+          "role": "book-style-and-family-scale"
+        }
+      ],
+      "receipt": {
+        "assetId": "asset-e83e3215fa5766b732c062bf",
+        "sha256": "e83e3215fa5766b732c062bfc02c6cd955187a50cbd26a75a66501e8837d49ad",
+        "bytes": 2994003,
+        "reviewStatus": "unreviewed",
+        "nativePath": "/Users/miguel_lemos/.codex/generated_images/01a0ff85-92dc-7c40-9adb-ef240551a423/exec-eb4a0cec-4043-42fd-bba6-290b75fd6e3a.png",
+        "generatedPath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/generated/e83e3215fa5766b7-lilia-interactions.png",
+        "reused": false,
+        "kernelRelease": "c9be233f9e18f6d480c8a5b7d50dff6384c9df2766510b5ef006b21ccec40c75",
+        "workflowCard": {
+          "type": "WorkflowCard",
+          "title": "lilia-interactions.png",
+          "text": "Unreviewed candidate. Original image available at full size.",
+          "assetIds": [
+            "asset-e83e3215fa5766b732c062bf"
+          ],
+          "actions": []
+        },
+        "timing": {
+          "startedAt": "2026-10-03T12:58:57.839565+00:00",
+          "validatedAt": "2026-10-03T12:58:57.880839+00:00",
+          "copiedAt": "2026-10-03T12:58:57.882902+00:00",
+          "registeredAt": "2026-10-03T12:58:57.917269+00:00",
+          "registrationSeconds": 0.077713,
+          "dossierWrittenAt": "2026-10-03T12:58:57.917702+00:00",
+          "helperTotalSeconds": 0.078142
+        },
+        "dossierPath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/reports/character-packages/lilia.json",
+        "entityId": "lilia",
+        "stage": "interactions"
+      },
+      "recordedAt": "2026-10-03T12:58:57.925794+00:00"
+    }
+  ],
+  "monetaryCost": null,
+  "deliveryBounds": null,
+  "firstReplyBounds": null,
+  "metrics": {
+    "imageCalls": 2,
+    "repairCalls": 0,
+    "summedImageCallWindowSeconds": 407.0,
+    "registrationSeconds": 0.153144,
+    "firstPassBodyDirectionErrors": [],
+    "endToEndSeconds": null,
+    "monetaryCost": null
+  },
+  "finalStages": {
+    "solo": {
+      "assetId": "asset-c4b458bf87cfeedf7d26e07f",
+      "sha256": "c4b458bf87cfeedf7d26e07f5ce0bc42eefdd3ab7aca3f3a44fe2b39c01e85b2",
+      "nativePath": "/Users/miguel_lemos/.codex/generated_images/01a0ff85-92dc-7c40-9adb-ef240551a423/exec-732abee2-5f62-4612-bb1b-c8828a47991b.png",
+      "generatedPath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/generated/c4b458bf87cfeedf-lilia-solo.png",
+      "receiptKind": null
+    },
+    "interactions": {
+      "assetId": "asset-e83e3215fa5766b732c062bf",
+      "sha256": "e83e3215fa5766b732c062bfc02c6cd955187a50cbd26a75a66501e8837d49ad",
+      "nativePath": "/Users/miguel_lemos/.codex/generated_images/01a0ff85-92dc-7c40-9adb-ef240551a423/exec-eb4a0cec-4043-42fd-bba6-290b75fd6e3a.png",
+      "generatedPath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/generated/e83e3215fa5766b7-lilia-interactions.png",
+      "receiptKind": null
+    }
+  },
+  "status": "produced"
+}

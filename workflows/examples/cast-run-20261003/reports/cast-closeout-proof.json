@@ -1,0 +1,54 @@
+{
+  "checks": [
+    {
+      "test": "curated dossier before and after generated result retained",
+      "passed": true
+    },
+    {
+      "test": "curated bibliography and visual QA preserved",
+      "passed": true
+    },
+    {
+      "test": "completion returns real receipt-derived stages and card",
+      "passed": true
+    },
+    {
+      "test": "next missing stage persisted",
+      "passed": true
+    },
+    {
+      "test": "agent-rejected render resumes missing interaction rather than completing",
+      "passed": true
+    },
+    {
+      "test": "repeat finish preserves curated section once",
+      "passed": true
+    },
+    {
+      "test": "missing real image still rejects completion",
+      "passed": true
+    },
+    {
+      "test": "finish coherently saves stage evidence and actual metrics",
+      "passed": true
+    },
+    {
+      "test": "full finish retry 1 is idempotent without later curated heading",
+      "passed": true
+    },
+    {
+      "test": "full finish retry 2 is idempotent without later curated heading",
+      "passed": true
+    },
+    {
+      "test": "single checkpoint queue summary export and archived narrative",
+      "passed": true
+    },
+    {
+      "test": "package self_test",
+      "passed": true
+    }
+  ],
+  "fixtureRoot": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/reports/cast-closeout-h1she8d2",
+  "scope": "Isolated registered deterministic pixels, no model thread or art calls"
+}

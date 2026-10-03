@@ -9,17 +9,66 @@
     ],
     "exactAge": "not stated",
     "evidencedLifeStage": "small birds in bath adaptation; incidental pair retained as supporting group",
-    "status": "pending",
+    "status": "produced",
     "dossierPath": "workflows/characters/spring-birds/README.md",
     "evidencePath": "workflows/characters/spring-birds/evidence.json",
     "evidenceCount": 14,
-    "registeredReferenceIds": [],
-    "outputs": [],
+    "registeredReferenceIds": [
+      "asset-57a66759e8f289ff642042a6"
+    ],
+    "outputs": [
+      {
+        "assetId": "asset-47eb9a5a3e90a6c2530edea2",
+        "sha256": "47eb9a5a3e90a6c2530edea2dd80df4f89833dba9c13a860fe99de657be5b47d"
+      },
+      {
+        "assetId": "asset-28eb3a3f86d98e2794ab5d80",
+        "sha256": "28eb3a3f86d98e2794ab5d80f71676eb7d9de5f24c355a2f045ffd71c85f420e"
+      }
+    ],
     "constraints": {
       "identity": "small birds in bath adaptation; incidental pair retained as supporting group",
       "scale": "Not measured; use original/published indexed visual evidence",
       "geometry": ""
-    }
+    },
+    "stages": {
+      "solo": {
+        "assetId": "asset-47eb9a5a3e90a6c2530edea2",
+        "sha256": "47eb9a5a3e90a6c2530edea2dd80df4f89833dba9c13a860fe99de657be5b47d",
+        "nativePath": "/Users/miguel_lemos/.codex/generated_images/01a0ff85-92dc-7c40-9adb-ef240551a423/exec-f4ec44f0-f748-4457-9f42-269063ba02ed.png",
+        "generatedPath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/generated/47eb9a5a3e90a6c2-spring-birds-solo.png",
+        "receiptKind": null
+      },
+      "interactions": {
+        "assetId": "asset-28eb3a3f86d98e2794ab5d80",
+        "sha256": "28eb3a3f86d98e2794ab5d80f71676eb7d9de5f24c355a2f045ffd71c85f420e",
+        "nativePath": "/Users/miguel_lemos/.codex/generated_images/01a0ff85-92dc-7c40-9adb-ef240551a423/exec-00f94eb1-b22d-41b4-a112-df35c8256635.png",
+        "generatedPath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/generated/28eb3a3f86d98e27-spring-birds-interactions.png",
+        "receiptKind": null
+      }
+    },
+    "missingStages": [],
+    "nextStage": null,
+    "complete": true,
+    "claimedStatus": "partial",
+    "referenceBindings": {
+      "speciesAndRole": "Exactly two small published spring birds: orange-breasted brown-backed robin-like bird and blue-capped blue-winged yellow-bellied tit-like bird with white cheeks/dark eye stripe. Preserve published colors, short beaks, two wings/two feet/tail each; no mammal arms. Species resemblance is visual inference, not taxonomic canon.",
+      "counterpartIds": [
+        "pinpin",
+        "rabbit"
+      ],
+      "designBasis": "Published scene04d explicitly names two little birds and pixels establish two distinct feather patterns and size relative to PinPin. Exact ages and names not stated.",
+      "sourceReferences": [
+        {
+          "assetId": "asset-57a66759e8f289ff642042a6",
+          "sha256": "57a66759e8f289ff642042a6f507a9f4781174cf079e95ea013fb2cdc82a88c7",
+          "role": "identity"
+        }
+      ]
+    },
+    "qaNote": "Inspected native pages: identity, directions, anatomy, scale/contact. Agent QA only; no personal Miguel approval.",
+    "timingPath": "reports/character-packages/spring-birds-generation.json",
+    "completedAt": "2026-10-03T13:00:08.282586+00:00"
   },
   "bibliography": [
     {
@@ -163,6 +212,169 @@
       "imageSha256": null
     }
   ],
-  "registeredReferences": [],
-  "existingOutputs": []
+  "registeredReferences": [
+    {
+      "id": "asset-57a66759e8f289ff642042a6",
+      "name": "r17-scene-04d",
+      "mime": "image/webp",
+      "sha256": "57a66759e8f289ff642042a6f507a9f4781174cf079e95ea013fb2cdc82a88c7",
+      "bytes": 552840,
+      "width": 1536,
+      "height": 1024,
+      "url": "/api/assets/asset-57a66759e8f289ff642042a6",
+      "storagePath": "assets/57a66759e8f289ff642042a6f507a9f4781174cf079e95ea013fb2cdc82a88c7.webp",
+      "createdAt": "2026-10-02T18:48:38.295195+00:00",
+      "reviewStatus": "agent-reviewed",
+      "provenance": {
+        "sourcePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r17/web/scene-04d-298eaf084667.webp",
+        "catalogKey": "r17-scene-04d",
+        "catalogSha256": "57a66759e8f289ff642042a6f507a9f4781174cf079e95ea013fb2cdc82a88c7",
+        "role": "current R17 story illustration",
+        "evidence": {
+          "stableId": "scene-04d",
+          "retainedApprovedR16": false,
+          "userReview": "pending"
+        }
+      }
+    }
+  ],
+  "existingOutputs": [
+    {
+      "id": "asset-47eb9a5a3e90a6c2530edea2",
+      "name": "spring-birds-solo.png",
+      "mime": "image/png",
+      "sha256": "47eb9a5a3e90a6c2530edea2dd80df4f89833dba9c13a860fe99de657be5b47d",
+      "bytes": 2122068,
+      "width": 1222,
+      "height": 1287,
+      "url": "/api/assets/asset-47eb9a5a3e90a6c2530edea2",
+      "storagePath": "assets/47eb9a5a3e90a6c2530edea2dd80df4f89833dba9c13a860fe99de657be5b47d.png",
+      "createdAt": "2026-10-03T12:47:36.612024+00:00",
+      "reviewStatus": "unreviewed",
+      "provenance": {
+        "sourcePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/generated/47eb9a5a3e90a6c2-spring-birds-solo.png",
+        "source": "native-imagegen",
+        "tool": "image_gen.imagegen",
+        "nativeOutputPath": "/Users/miguel_lemos/.codex/generated_images/01a0ff85-92dc-7c40-9adb-ef240551a423/exec-f4ec44f0-f748-4457-9f42-269063ba02ed.png",
+        "nativeSha256": "47eb9a5a3e90a6c2530edea2dd80df4f89833dba9c13a860fe99de657be5b47d",
+        "prompt": "Use case: illustration-story. Create a polished warm dimensional children book production reference titled \"Two spring birds — 24 studies\" on ivory, FOUR rows of SIX readable cells with generous margins. Subject: Exactly two small published spring birds: orange-breasted brown-backed robin-like bird and blue-capped blue-winged yellow-bellied tit-like bird with white cheeks/dark eye stripe. Preserve published colors, short beaks, two wings/two feet/tail each; no mammal arms. Species resemblance is visual inference, not taxonomic canon. Source distinction: Published scene04d explicitly names two little birds and pixels establish two distinct feather patterns and size relative to PinPin. Exact ages and names not stated. Input1 subject source/context only; input2 PinPin sheet is LAYOUT/DIRECTION ONLY, never copy hedgehog species, anatomy or clothing; input3 family is lighting/render style only. Each cell depicts the TWO representatives together, separately readable, with A and B identifiable throughout; keep all 48 figures comfortably inside cells. Row1 FACE VIEWS: Front: nose/beak centered toward viewer. Left 3/4: nose/beak points SCREEN LEFT, both eyes visible, torso turned LEFT. Left profile: true side, nose/beak points SCREEN LEFT, torso LEFT. Right 3/4: nose/beak points SCREEN RIGHT, both eyes visible, torso turned RIGHT. Right profile: true side, nose/beak points SCREEN RIGHT, torso RIGHT. Rear: back of head/body, face invisible. Row2 EXPRESSIONS: Calm, Curious, Happy, Surprised, Thoughtful, Mild upset, naturally varied eyebrows/mouths. Row3 WHOLE BODY VIEWS explicitly: Front: nose/beak centered toward viewer. Left 3/4: nose/beak points SCREEN LEFT, both eyes visible, torso turned LEFT. Left profile: true side, nose/beak points SCREEN LEFT, torso LEFT. Right 3/4: nose/beak points SCREEN RIGHT, both eyes visible, torso turned RIGHT. Right profile: true side, nose/beak points SCREEN RIGHT, torso RIGHT. Rear: back of head/body, face invisible. Whole tails/feet visible, grounded and consistently scaled within row. Row4 NORMAL POSES: Sit, Reach, Greet, Carry small nut, Share, Rest; birds instead Perch, Hop, Sing, Spread wings, Bathe, Rest, bird anatomy only. Clear concise labels and section divisions, complete bodies, distinct limbs and support; no fused paws, no cropped heads/tails. Keep readable friendly staging for four-year-olds. Do not print invented ages, heights or names. One unified actual image.",
+        "promptSha256": "f49094a2e54e42415428d87adf241ba312db46bf57f6c4b3d359acf00f090087",
+        "promptFile": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/workflows/characters/spring-birds/solo-prompt.txt",
+        "referenceIds": [
+          "asset-57a66759e8f289ff642042a6",
+          "asset-5d505b375eed339baa7f7650",
+          "asset-88d74c56a468e3f250b12dbc"
+        ],
+        "inputAssets": [
+          {
+            "assetId": "asset-57a66759e8f289ff642042a6",
+            "sha256": "57a66759e8f289ff642042a6f507a9f4781174cf079e95ea013fb2cdc82a88c7"
+          },
+          {
+            "assetId": "asset-5d505b375eed339baa7f7650",
+            "sha256": "5d505b375eed339baa7f765028f4c61224a685dfcc4c01ee53c5f35fdb303700"
+          },
+          {
+            "assetId": "asset-88d74c56a468e3f250b12dbc",
+            "sha256": "88d74c56a468e3f250b12dbcb5ecdb7b07bd1d789197663d8948ac199acd133d"
+          }
+        ],
+        "registeredBy": "studio-client/register-image.py"
+      }
+    },
+    {
+      "id": "asset-28eb3a3f86d98e2794ab5d80",
+      "name": "spring-birds-interactions.png",
+      "mime": "image/png",
+      "sha256": "28eb3a3f86d98e2794ab5d80f71676eb7d9de5f24c355a2f045ffd71c85f420e",
+      "bytes": 2792104,
+      "width": 1199,
+      "height": 1312,
+      "url": "/api/assets/asset-28eb3a3f86d98e2794ab5d80",
+      "storagePath": "assets/28eb3a3f86d98e2794ab5d80f71676eb7d9de5f24c355a2f045ffd71c85f420e.png",
+      "createdAt": "2026-10-03T13:00:07.999237+00:00",
+      "reviewStatus": "unreviewed",
+      "provenance": {
+        "sourcePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/generated/28eb3a3f86d98e27-spring-birds-interactions.png",
+        "source": "native-imagegen",
+        "tool": "image_gen.imagegen",
+        "nativeOutputPath": "/Users/miguel_lemos/.codex/generated_images/01a0ff85-92dc-7c40-9adb-ef240551a423/exec-00f94eb1-b22d-41b4-a112-df35c8256635.png",
+        "nativeSha256": "28eb3a3f86d98e2794ab5d80f71676eb7d9de5f24c355a2f045ffd71c85f420e",
+        "prompt": "Use case: illustration-story. ONE portrait separate CAST INTERACTION PAGE titled \"Two spring birds — Cast interactions\". SIX readable large panels, THREE rows of TWO, full bodies/tails/feet, generous margins and short action labels, ivory background, warm dimensional PinPin style. Input references in order: 1 PRIMARY-target-solo, 2 subject-source:identity, 3 counterpart:pinpin, 4 counterpart:rabbit, 5 book-style-and-family-scale. FIRST image is PRIMARY working target identity; lock target species, facial design, colors, anatomy in EVERY panel. Counterpart sheets are identity only; do not copy their grid into panels. Family Mama copper-quilled adult left, Papa broader cooler-quilled adult center, PinPin older child right; infant excluded. Source/proposal distinction: Published scene04d explicitly names two little birds and pixels establish two distinct feather patterns and size relative to PinPin. Exact ages and names not stated.. Target facts: Exactly two small published spring birds: orange-breasted brown-backed robin-like bird and blue-capped blue-winged yellow-bellied tit-like bird with white cheeks/dark eye stripe. Preserve published colors, short beaks, two wings/two feet/tail each; no mammal arms. Species resemblance is visual inference, not taxonomic canon.. Natural varied expressions, engaged shared gaze, consistent relative scale, distinct owned limbs, clear support/contact and plausible balance. No merged bodies, duplicate paws/wings, unsupported children or cropped tails. PANELS: Exactly TWO birds in every panel, one orange-breasted brown bird, one blue/yellow white-cheeked bird. Both much smaller than child PINPIN, match published spring image size. 1 Shared scale: child PINPIN HEDGEHOG kneels beside the TWO small BIRDS perched on low stone on shared ground. 2 Secure perch: seated PINPIN HEDGEHOG offers open flat paws, TWO BIRDS rest with separate feet clearly touching supported paws; no gripping wings or squeezed bodies. 3 Splash: TWO BIRDS bathe in shallow spring beside sitting PINPIN HEDGEHOG, natural two wings/two feet per bird, engaged action. 4 Listen: TWO BIRDS sing on low branch while long-eared RABBIT LULU listens seated on ground; rabbit grounded, not a squirrel. 5 Leaf boat: child PINPIN HEDGEHOG and RABBIT LULU watch TWO BIRDS beside one leaf boat in shallow water, birds stay tiny. 6 Rest: TWO BIRDS perch securely on branch beside seated PINPIN HEDGEHOG, no mammal arms or bird hands.. Preserve published bird identities; no invented names/ages.",
+        "promptSha256": "24b65df836302199e64900f7aa0839008511010c9eb0bcf96253222a5a924295",
+        "promptFile": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/workflows/characters/spring-birds/interactions-prompt.txt",
+        "referenceIds": [
+          "asset-47eb9a5a3e90a6c2530edea2",
+          "asset-57a66759e8f289ff642042a6",
+          "asset-5d505b375eed339baa7f7650",
+          "asset-e64154c3829a84e223c54626",
+          "asset-88d74c56a468e3f250b12dbc"
+        ],
+        "inputAssets": [
+          {
+            "assetId": "asset-47eb9a5a3e90a6c2530edea2",
+            "sha256": "47eb9a5a3e90a6c2530edea2dd80df4f89833dba9c13a860fe99de657be5b47d"
+          },
+          {
+            "assetId": "asset-57a66759e8f289ff642042a6",
+            "sha256": "57a66759e8f289ff642042a6f507a9f4781174cf079e95ea013fb2cdc82a88c7"
+          },
+          {
+            "assetId": "asset-5d505b375eed339baa7f7650",
+            "sha256": "5d505b375eed339baa7f765028f4c61224a685dfcc4c01ee53c5f35fdb303700"
+          },
+          {
+            "assetId": "asset-e64154c3829a84e223c54626",
+            "sha256": "e64154c3829a84e223c54626222d8b9b24a6e8cb4dd73e5ecb518dcf4ea37f6b"
+          },
+          {
+            "assetId": "asset-88d74c56a468e3f250b12dbc",
+            "sha256": "88d74c56a468e3f250b12dbcb5ecdb7b07bd1d789197663d8948ac199acd133d"
+          }
+        ],
+        "registeredBy": "studio-client/register-image.py"
+      }
+    }
+  ],
+  "referenceBindings": {
+    "speciesAndRole": "Exactly two small published spring birds: orange-breasted brown-backed robin-like bird and blue-capped blue-winged yellow-bellied tit-like bird with white cheeks/dark eye stripe. Preserve published colors, short beaks, two wings/two feet/tail each; no mammal arms. Species resemblance is visual inference, not taxonomic canon.",
+    "counterpartIds": [
+      "pinpin",
+      "rabbit"
+    ],
+    "designBasis": "Published scene04d explicitly names two little birds and pixels establish two distinct feather patterns and size relative to PinPin. Exact ages and names not stated.",
+    "sourceReferences": [
+      {
+        "assetId": "asset-57a66759e8f289ff642042a6",
+        "sha256": "57a66759e8f289ff642042a6f507a9f4781174cf079e95ea013fb2cdc82a88c7",
+        "role": "identity"
+      }
+    ]
+  },
+  "inspectedVisualEvidence": [
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/images/published/bath-magic/r17/scene-04d.webp",
+      "sha256": "57a66759e8f289ff642042a6f507a9f4781174cf079e95ea013fb2cdc82a88c7",
+      "chapterId": "bath-magic",
+      "blockIndexZeroBased": null,
+      "inspection": "Published scene04d explicitly names two little birds and pixels establish two distinct feather patterns and size relative to PinPin. Exact ages and names not stated."
+    }
+  ],
+  "finalStages": {
+    "solo": {
+      "assetId": "asset-47eb9a5a3e90a6c2530edea2",
+      "sha256": "47eb9a5a3e90a6c2530edea2dd80df4f89833dba9c13a860fe99de657be5b47d",
+      "nativePath": "/Users/miguel_lemos/.codex/generated_images/01a0ff85-92dc-7c40-9adb-ef240551a423/exec-f4ec44f0-f748-4457-9f42-269063ba02ed.png",
+      "generatedPath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/generated/47eb9a5a3e90a6c2-spring-birds-solo.png",
+      "receiptKind": null
+    },
+    "interactions": {
+      "assetId": "asset-28eb3a3f86d98e2794ab5d80",
+      "sha256": "28eb3a3f86d98e2794ab5d80f71676eb7d9de5f24c355a2f045ffd71c85f420e",
+      "nativePath": "/Users/miguel_lemos/.codex/generated_images/01a0ff85-92dc-7c40-9adb-ef240551a423/exec-00f94eb1-b22d-41b4-a112-df35c8256635.png",
+      "generatedPath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/generated/28eb3a3f86d98e27-spring-birds-interactions.png",
+      "receiptKind": null
+    }
+  },
+  "generationRecord": "generation.json"
 }

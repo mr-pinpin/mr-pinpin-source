@@ -9,25 +9,66 @@
     ],
     "exactAge": "not stated",
     "evidencedLifeStage": "elderly female squirrel wizard; chapter30 zero-based blocks2–6, chapter31 block1; exact age not stated",
-    "status": "pending",
+    "status": "produced",
     "dossierPath": "workflows/characters/lilia/README.md",
     "evidencePath": "workflows/characters/lilia/evidence.json",
     "evidenceCount": 17,
-    "registeredReferenceIds": [],
-    "outputs": [],
+    "registeredReferenceIds": [
+      "asset-544e23eb149d0e9be3e5a40b"
+    ],
+    "outputs": [
+      {
+        "assetId": "asset-c4b458bf87cfeedf7d26e07f",
+        "sha256": "c4b458bf87cfeedf7d26e07f5ce0bc42eefdd3ab7aca3f3a44fe2b39c01e85b2"
+      },
+      {
+        "assetId": "asset-e83e3215fa5766b732c062bf",
+        "sha256": "e83e3215fa5766b732c062bfc02c6cd955187a50cbd26a75a66501e8837d49ad"
+      }
+    ],
     "constraints": {
       "identity": "Old female squirrel with huge spectacles, forest sorceress; not young peer Tutu.",
       "scale": "Not measured; use original/published indexed visual evidence",
       "geometry": ""
     },
-    "stages": {},
-    "missingStages": [
-      "solo",
-      "interactions"
-    ],
-    "nextStage": "solo",
-    "complete": false,
-    "claimedStatus": "pending"
+    "stages": {
+      "solo": {
+        "assetId": "asset-c4b458bf87cfeedf7d26e07f",
+        "sha256": "c4b458bf87cfeedf7d26e07f5ce0bc42eefdd3ab7aca3f3a44fe2b39c01e85b2",
+        "nativePath": "/Users/miguel_lemos/.codex/generated_images/01a0ff85-92dc-7c40-9adb-ef240551a423/exec-732abee2-5f62-4612-bb1b-c8828a47991b.png",
+        "generatedPath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/generated/c4b458bf87cfeedf-lilia-solo.png",
+        "receiptKind": null
+      },
+      "interactions": {
+        "assetId": "asset-e83e3215fa5766b732c062bf",
+        "sha256": "e83e3215fa5766b732c062bfc02c6cd955187a50cbd26a75a66501e8837d49ad",
+        "nativePath": "/Users/miguel_lemos/.codex/generated_images/01a0ff85-92dc-7c40-9adb-ef240551a423/exec-eb4a0cec-4043-42fd-bba6-290b75fd6e3a.png",
+        "generatedPath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/generated/e83e3215fa5766b7-lilia-interactions.png",
+        "receiptKind": null
+      }
+    },
+    "missingStages": [],
+    "nextStage": null,
+    "complete": true,
+    "claimedStatus": "produced",
+    "referenceBindings": {
+      "speciesAndRole": "Elderly female squirrel forest wizard, HUGE round glass spectacles; original chapter30 blocks3–7 and chapter31 block2. Proposed warm adaptation: muted russet silver-tipped fur, cream face/belly, fluffy silver-gray curved tail. No wizard hat or human body.",
+      "counterpartIds": [
+        "pinpin",
+        "tutu"
+      ],
+      "designBasis": "Original magical squirrel image provides scene context but lacks the text-required spectacles and does not prove a named portrait. Spectacles/elderly female squirrel are textual facts; adapted facial design proposed.",
+      "sourceReferences": [
+        {
+          "assetId": "asset-544e23eb149d0e9be3e5a40b",
+          "sha256": "544e23eb149d0e9be3e5a40b6e737c003bf1c648c0e5c3d15f683639704ac20d",
+          "role": "original-visual-context"
+        }
+      ]
+    },
+    "qaNote": "Inspected native pages: identity, directions, anatomy, scale/contact. Agent QA only; no personal Miguel approval.",
+    "timingPath": "reports/character-packages/lilia-generation.json",
+    "completedAt": "2026-10-03T12:59:20.072797+00:00"
   },
   "bibliography": [
     {
@@ -201,8 +242,125 @@
       "imageSha256": null
     }
   ],
-  "registeredReferences": [],
-  "existingOutputs": [],
+  "registeredReferences": [
+    {
+      "id": "asset-544e23eb149d0e9be3e5a40b",
+      "name": "image91.png",
+      "mime": "image/png",
+      "sha256": "544e23eb149d0e9be3e5a40b6e737c003bf1c648c0e5c3d15f683639704ac20d",
+      "bytes": 2071250,
+      "width": 1024,
+      "height": 1024,
+      "url": "/api/assets/asset-544e23eb149d0e9be3e5a40b",
+      "storagePath": "assets/544e23eb149d0e9be3e5a40b6e737c003bf1c648c0e5c3d15f683639704ac20d.png",
+      "createdAt": "2026-10-03T12:41:23.619848+00:00",
+      "reviewStatus": "unreviewed",
+      "provenance": {
+        "sourcePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/images/image91.png",
+        "sourceSha256": "544e23eb149d0e9be3e5a40b6e737c003bf1c648c0e5c3d15f683639704ac20d",
+        "role": "original-visual-context",
+        "inspection": "Original magical squirrel image provides scene context but lacks the text-required spectacles and does not prove a named portrait. Spectacles/elderly female squirrel are textual facts; adapted facial design proposed."
+      }
+    }
+  ],
+  "existingOutputs": [
+    {
+      "id": "asset-c4b458bf87cfeedf7d26e07f",
+      "name": "lilia-solo.png",
+      "mime": "image/png",
+      "sha256": "c4b458bf87cfeedf7d26e07f5ce0bc42eefdd3ab7aca3f3a44fe2b39c01e85b2",
+      "bytes": 2467379,
+      "width": 1222,
+      "height": 1287,
+      "url": "/api/assets/asset-c4b458bf87cfeedf7d26e07f",
+      "storagePath": "assets/c4b458bf87cfeedf7d26e07f5ce0bc42eefdd3ab7aca3f3a44fe2b39c01e85b2.png",
+      "createdAt": "2026-10-03T12:47:36.005894+00:00",
+      "reviewStatus": "unreviewed",
+      "provenance": {
+        "sourcePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/generated/c4b458bf87cfeedf-lilia-solo.png",
+        "source": "native-imagegen",
+        "tool": "image_gen.imagegen",
+        "nativeOutputPath": "/Users/miguel_lemos/.codex/generated_images/01a0ff85-92dc-7c40-9adb-ef240551a423/exec-732abee2-5f62-4612-bb1b-c8828a47991b.png",
+        "nativeSha256": "c4b458bf87cfeedf7d26e07f5ce0bc42eefdd3ab7aca3f3a44fe2b39c01e85b2",
+        "prompt": "Use case: illustration-story. Create a polished warm dimensional children book production reference titled \"Lilia — 24 studies\" on ivory, FOUR rows of SIX readable cells with generous margins. Subject: Elderly female squirrel forest wizard, HUGE round glass spectacles; original chapter30 blocks3–7 and chapter31 block2. Proposed warm adaptation: muted russet silver-tipped fur, cream face/belly, fluffy silver-gray curved tail. No wizard hat or human body. Source distinction: Original magical squirrel image provides scene context but lacks the text-required spectacles and does not prove a named portrait. Spectacles/elderly female squirrel are textual facts; adapted facial design proposed. Input1 subject source/context only; input2 PinPin sheet is LAYOUT/DIRECTION ONLY, never copy hedgehog species, anatomy or clothing; input3 family is lighting/render style only. One subject per cell. Row1 FACE VIEWS: Front: nose/beak centered toward viewer. Left 3/4: nose/beak points SCREEN LEFT, both eyes visible, torso turned LEFT. Left profile: true side, nose/beak points SCREEN LEFT, torso LEFT. Right 3/4: nose/beak points SCREEN RIGHT, both eyes visible, torso turned RIGHT. Right profile: true side, nose/beak points SCREEN RIGHT, torso RIGHT. Rear: back of head/body, face invisible. Row2 EXPRESSIONS: Calm, Curious, Happy, Surprised, Thoughtful, Mild upset, naturally varied eyebrows/mouths. Row3 WHOLE BODY VIEWS explicitly: Front: nose/beak centered toward viewer. Left 3/4: nose/beak points SCREEN LEFT, both eyes visible, torso turned LEFT. Left profile: true side, nose/beak points SCREEN LEFT, torso LEFT. Right 3/4: nose/beak points SCREEN RIGHT, both eyes visible, torso turned RIGHT. Right profile: true side, nose/beak points SCREEN RIGHT, torso RIGHT. Rear: back of head/body, face invisible. Whole tails/feet visible, grounded and consistently scaled within row. Row4 NORMAL POSES: Sit, Reach, Greet, Carry small nut, Share, Rest; birds instead Perch, Hop, Sing, Spread wings, Bathe, Rest, bird anatomy only. Clear concise labels and section divisions, complete bodies, distinct limbs and support; no fused paws, no cropped heads/tails. Keep readable friendly staging for four-year-olds. Do not print invented ages, heights or names. One unified actual image.",
+        "promptSha256": "7e43e51f1f36811778a40dad09447035109cfacfb567a183c33fa52a40ceb0c7",
+        "promptFile": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/workflows/characters/lilia/solo-prompt.txt",
+        "referenceIds": [
+          "asset-544e23eb149d0e9be3e5a40b",
+          "asset-5d505b375eed339baa7f7650",
+          "asset-88d74c56a468e3f250b12dbc"
+        ],
+        "inputAssets": [
+          {
+            "assetId": "asset-544e23eb149d0e9be3e5a40b",
+            "sha256": "544e23eb149d0e9be3e5a40b6e737c003bf1c648c0e5c3d15f683639704ac20d"
+          },
+          {
+            "assetId": "asset-5d505b375eed339baa7f7650",
+            "sha256": "5d505b375eed339baa7f765028f4c61224a685dfcc4c01ee53c5f35fdb303700"
+          },
+          {
+            "assetId": "asset-88d74c56a468e3f250b12dbc",
+            "sha256": "88d74c56a468e3f250b12dbcb5ecdb7b07bd1d789197663d8948ac199acd133d"
+          }
+        ],
+        "registeredBy": "studio-client/register-image.py"
+      }
+    },
+    {
+      "id": "asset-e83e3215fa5766b732c062bf",
+      "name": "lilia-interactions.png",
+      "mime": "image/png",
+      "sha256": "e83e3215fa5766b732c062bfc02c6cd955187a50cbd26a75a66501e8837d49ad",
+      "bytes": 2994003,
+      "width": 1024,
+      "height": 1536,
+      "url": "/api/assets/asset-e83e3215fa5766b732c062bf",
+      "storagePath": "assets/e83e3215fa5766b732c062bfc02c6cd955187a50cbd26a75a66501e8837d49ad.png",
+      "createdAt": "2026-10-03T12:58:57.886852+00:00",
+      "reviewStatus": "unreviewed",
+      "provenance": {
+        "sourcePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/generated/e83e3215fa5766b7-lilia-interactions.png",
+        "source": "native-imagegen",
+        "tool": "image_gen.imagegen",
+        "nativeOutputPath": "/Users/miguel_lemos/.codex/generated_images/01a0ff85-92dc-7c40-9adb-ef240551a423/exec-eb4a0cec-4043-42fd-bba6-290b75fd6e3a.png",
+        "nativeSha256": "e83e3215fa5766b732c062bfc02c6cd955187a50cbd26a75a66501e8837d49ad",
+        "prompt": "Use case: illustration-story. ONE portrait separate CAST INTERACTION PAGE titled \"Lilia — Cast interactions\". SIX readable large panels, THREE rows of TWO, full bodies/tails/feet, generous margins and short action labels, ivory background, warm dimensional PinPin style. Input references in order: 1 PRIMARY-target-solo, 2 subject-source:original-visual-context, 3 counterpart:pinpin, 4 counterpart:tutu, 5 book-style-and-family-scale. FIRST image is PRIMARY working target identity; lock target species, facial design, colors, anatomy in EVERY panel. Counterpart sheets are identity only; do not copy their grid into panels. Family Mama copper-quilled adult left, Papa broader cooler-quilled adult center, PinPin older child right; infant excluded. Source/proposal distinction: Original magical squirrel image provides scene context but lacks the text-required spectacles and does not prove a named portrait. Spectacles/elderly female squirrel are textual facts; adapted facial design proposed.. Target facts: Elderly female squirrel forest wizard, HUGE round glass spectacles; original chapter30 blocks3–7 and chapter31 block2. Proposed warm adaptation: muted russet silver-tipped fur, cream face/belly, fluffy silver-gray curved tail. No wizard hat or human body.. Natural varied expressions, engaged shared gaze, consistent relative scale, distinct owned limbs, clear support/contact and plausible balance. No merged bodies, duplicate paws/wings, unsupported children or cropped tails. PANELS: 1 Shared ground: elderly spectacled female SQUIRREL LILIA and child HEDGEHOG PINPIN stand facing each other; Lilia adult squirrel somewhat taller than child, proposed relative scale. 2 Meditation: LILIA SQUIRREL sits comfortably cross-legged with full supported body and clear feet, PINPIN HEDGEHOG sits nearby listening. 3 Carrot wonder: spectacled LILIA SQUIRREL and PINPIN HEDGEHOG look at one floating carrot between them, not crossing their bodies. 4 Kind embrace: kneeling spectacled LILIA SQUIRREL embraces standing PINPIN HEDGEHOG, clear owned paws and two separate bodies. 5 Read together: LILIA SQUIRREL and russet young SQUIRREL TUTU sit on low stools attending one book on table, distinct older spectacled face and younger unspectacled squirrel. 6 Rest: LILIA SQUIRREL sits on grounded cushion beside PINPIN HEDGEHOG, quiet shared gaze and supported feet.. Subtitle \"Proposed book adaptation\". No invented ages/heights/names.",
+        "promptSha256": "618cbdb5bed8961b3f49f6bc1c41262aadb39389354c0cd73ff8eaeafafb621e",
+        "promptFile": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/workflows/characters/lilia/interactions-prompt.txt",
+        "referenceIds": [
+          "asset-c4b458bf87cfeedf7d26e07f",
+          "asset-544e23eb149d0e9be3e5a40b",
+          "asset-5d505b375eed339baa7f7650",
+          "asset-9d3476deaf77e000cf59d0d4",
+          "asset-88d74c56a468e3f250b12dbc"
+        ],
+        "inputAssets": [
+          {
+            "assetId": "asset-c4b458bf87cfeedf7d26e07f",
+            "sha256": "c4b458bf87cfeedf7d26e07f5ce0bc42eefdd3ab7aca3f3a44fe2b39c01e85b2"
+          },
+          {
+            "assetId": "asset-544e23eb149d0e9be3e5a40b",
+            "sha256": "544e23eb149d0e9be3e5a40b6e737c003bf1c648c0e5c3d15f683639704ac20d"
+          },
+          {
+            "assetId": "asset-5d505b375eed339baa7f7650",
+            "sha256": "5d505b375eed339baa7f765028f4c61224a685dfcc4c01ee53c5f35fdb303700"
+          },
+          {
+            "assetId": "asset-9d3476deaf77e000cf59d0d4",
+            "sha256": "9d3476deaf77e000cf59d0d410c9feb4205fa6bd5dd6955e5874adc5cda76a1d"
+          },
+          {
+            "assetId": "asset-88d74c56a468e3f250b12dbc",
+            "sha256": "88d74c56a468e3f250b12dbcb5ecdb7b07bd1d789197663d8948ac199acd133d"
+          }
+        ],
+        "registeredBy": "studio-client/register-image.py"
+      }
+    }
+  ],
   "canonicalTextEvidence": [
     {
       "sourcePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/book.json",
@@ -282,5 +440,46 @@
         }
       ]
     }
-  ]
+  ],
+  "referenceBindings": {
+    "speciesAndRole": "Elderly female squirrel forest wizard, HUGE round glass spectacles; original chapter30 blocks3–7 and chapter31 block2. Proposed warm adaptation: muted russet silver-tipped fur, cream face/belly, fluffy silver-gray curved tail. No wizard hat or human body.",
+    "counterpartIds": [
+      "pinpin",
+      "tutu"
+    ],
+    "designBasis": "Original magical squirrel image provides scene context but lacks the text-required spectacles and does not prove a named portrait. Spectacles/elderly female squirrel are textual facts; adapted facial design proposed.",
+    "sourceReferences": [
+      {
+        "assetId": "asset-544e23eb149d0e9be3e5a40b",
+        "sha256": "544e23eb149d0e9be3e5a40b6e737c003bf1c648c0e5c3d15f683639704ac20d",
+        "role": "original-visual-context"
+      }
+    ]
+  },
+  "inspectedVisualEvidence": [
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/images/image91.png",
+      "sha256": "544e23eb149d0e9be3e5a40b6e737c003bf1c648c0e5c3d15f683639704ac20d",
+      "chapterId": "chapter-30",
+      "blockIndexZeroBased": 8,
+      "inspection": "Original magical squirrel image provides scene context but lacks the text-required spectacles and does not prove a named portrait. Spectacles/elderly female squirrel are textual facts; adapted facial design proposed."
+    }
+  ],
+  "finalStages": {
+    "solo": {
+      "assetId": "asset-c4b458bf87cfeedf7d26e07f",
+      "sha256": "c4b458bf87cfeedf7d26e07f5ce0bc42eefdd3ab7aca3f3a44fe2b39c01e85b2",
+      "nativePath": "/Users/miguel_lemos/.codex/generated_images/01a0ff85-92dc-7c40-9adb-ef240551a423/exec-732abee2-5f62-4612-bb1b-c8828a47991b.png",
+      "generatedPath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/generated/c4b458bf87cfeedf-lilia-solo.png",
+      "receiptKind": null
+    },
+    "interactions": {
+      "assetId": "asset-e83e3215fa5766b732c062bf",
+      "sha256": "e83e3215fa5766b732c062bfc02c6cd955187a50cbd26a75a66501e8837d49ad",
+      "nativePath": "/Users/miguel_lemos/.codex/generated_images/01a0ff85-92dc-7c40-9adb-ef240551a423/exec-eb4a0cec-4043-42fd-bba6-290b75fd6e3a.png",
+      "generatedPath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/generated/e83e3215fa5766b7-lilia-interactions.png",
+      "receiptKind": null
+    }
+  },
+  "generationRecord": "generation.json"
 }

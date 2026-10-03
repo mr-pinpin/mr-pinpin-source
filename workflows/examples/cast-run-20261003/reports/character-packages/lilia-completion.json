@@ -1,0 +1,47 @@
+{
+  "entityId": "lilia",
+  "stages": {
+    "solo": {
+      "assetId": "asset-c4b458bf87cfeedf7d26e07f",
+      "sha256": "c4b458bf87cfeedf7d26e07f5ce0bc42eefdd3ab7aca3f3a44fe2b39c01e85b2",
+      "nativePath": "/Users/miguel_lemos/.codex/generated_images/01a0ff85-92dc-7c40-9adb-ef240551a423/exec-732abee2-5f62-4612-bb1b-c8828a47991b.png",
+      "generatedPath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/generated/c4b458bf87cfeedf-lilia-solo.png",
+      "receiptKind": null
+    },
+    "interactions": {
+      "assetId": "asset-e83e3215fa5766b732c062bf",
+      "sha256": "e83e3215fa5766b732c062bfc02c6cd955187a50cbd26a75a66501e8837d49ad",
+      "nativePath": "/Users/miguel_lemos/.codex/generated_images/01a0ff85-92dc-7c40-9adb-ef240551a423/exec-eb4a0cec-4043-42fd-bba6-290b75fd6e3a.png",
+      "generatedPath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/generated/e83e3215fa5766b7-lilia-interactions.png",
+      "receiptKind": null
+    }
+  },
+  "dossierPath": "workflows/characters/lilia/README.md",
+  "next": "hedgehog-cousins",
+  "remaining": [
+    "hedgehog-cousins",
+    "spring-birds",
+    "squirrel-community",
+    "migrating-bird-family",
+    "tarin"
+  ],
+  "workflowCard": {
+    "type": "WorkflowCard",
+    "title": "lilia — complete draft package",
+    "assetIds": [
+      "asset-c4b458bf87cfeedf7d26e07f",
+      "asset-e83e3215fa5766b732c062bf"
+    ],
+    "actions": []
+  },
+  "metrics": {
+    "imageCalls": 2,
+    "repairCalls": 0,
+    "summedImageCallWindowSeconds": 407.0,
+    "registrationSeconds": 0.153144,
+    "firstPassBodyDirectionErrors": [],
+    "endToEndSeconds": null,
+    "monetaryCost": null
+  },
+  "generationPath": "reports/character-packages/lilia-generation.json"
+}

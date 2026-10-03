@@ -1,0 +1,47 @@
+{
+  "entityId": "hedgehog-cousins",
+  "stages": {
+    "solo": {
+      "assetId": "asset-4356bac8f400157aff746041",
+      "sha256": "4356bac8f400157aff74604150a625d272a5606fee707cd5442091a696789136",
+      "nativePath": "/Users/miguel_lemos/.codex/generated_images/01a0ff85-92dc-7c40-9adb-ef240551a423/exec-c6f17649-d866-42f2-a995-1542b00c05ce.png",
+      "generatedPath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/generated/4356bac8f400157a-hedgehog-cousins-solo.png",
+      "receiptKind": null
+    },
+    "interactions": {
+      "assetId": "asset-b23b57f28c20a48e33b3f8e0",
+      "sha256": "b23b57f28c20a48e33b3f8e04b3ccc1ffb9ea7ca81cd0fe0600799a564d90ed9",
+      "nativePath": "/Users/miguel_lemos/.codex/generated_images/01a0ff85-92dc-7c40-9adb-ef240551a423/exec-72be20d9-9d88-483e-bbd0-7783ca9c943c.png",
+      "generatedPath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/generated/b23b57f28c20a48e-hedgehog-cousins-interactions-scale-repair2.png",
+      "receiptKind": null
+    }
+  },
+  "dossierPath": "workflows/characters/hedgehog-cousins/README.md",
+  "next": "squirrel-community",
+  "remaining": [
+    "squirrel-community",
+    "migrating-bird-family",
+    "tarin"
+  ],
+  "workflowCard": {
+    "type": "WorkflowCard",
+    "title": "hedgehog-cousins — complete draft package",
+    "assetIds": [
+      "asset-4356bac8f400157aff746041",
+      "asset-b23b57f28c20a48e33b3f8e0"
+    ],
+    "actions": []
+  },
+  "metrics": {
+    "imageCalls": 5,
+    "measuredImageCalls": 4,
+    "recoveredRendersWithoutMeasuredBounds": 1,
+    "repairCalls": 2,
+    "summedImageCallWindowSeconds": 680.0,
+    "registrationSeconds": 0.390563,
+    "firstPassBodyDirectionErrors": [],
+    "endToEndSeconds": null,
+    "monetaryCost": null
+  },
+  "generationPath": "reports/character-packages/hedgehog-cousins-generation.json"
+}

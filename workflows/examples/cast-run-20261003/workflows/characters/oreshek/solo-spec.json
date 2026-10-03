@@ -1,0 +1,27 @@
+{
+  "entityId": "oreshek",
+  "stage": "solo",
+  "prompt": "Use case: illustration-story. Create a polished warm dimensional children book production reference titled \"Elder Oreshek — 24 studies\" on ivory, FOUR rows of SIX readable cells with generous margins. Subject: Old male gray squirrel elder. Gray fur is explicit original chapter19 block4. Proposed warm adaptation: cream muzzle/belly, gently weathered brows, tufted ears and bushy gray curved tail, no clothing. NOT a hedgehog. Source distinction: Original group image shows gray squirrel among digging animals but does not label Oreshek; individual face and proportions are proposed. Input1 subject source/context only; input2 PinPin sheet is LAYOUT/DIRECTION ONLY, never copy hedgehog species, anatomy or clothing; input3 family is lighting/render style only. One subject per cell. Row1 FACE VIEWS: Front: nose/beak centered toward viewer. Left 3/4: nose/beak points SCREEN LEFT, both eyes visible, torso turned LEFT. Left profile: true side, nose/beak points SCREEN LEFT, torso LEFT. Right 3/4: nose/beak points SCREEN RIGHT, both eyes visible, torso turned RIGHT. Right profile: true side, nose/beak points SCREEN RIGHT, torso RIGHT. Rear: back of head/body, face invisible. Row2 EXPRESSIONS: Calm, Curious, Happy, Surprised, Thoughtful, Mild upset, naturally varied eyebrows/mouths. Row3 WHOLE BODY VIEWS explicitly: Front: nose/beak centered toward viewer. Left 3/4: nose/beak points SCREEN LEFT, both eyes visible, torso turned LEFT. Left profile: true side, nose/beak points SCREEN LEFT, torso LEFT. Right 3/4: nose/beak points SCREEN RIGHT, both eyes visible, torso turned RIGHT. Right profile: true side, nose/beak points SCREEN RIGHT, torso RIGHT. Rear: back of head/body, face invisible. Whole tails/feet visible, grounded and consistently scaled within row. Row4 NORMAL POSES: Sit, Reach, Greet, Carry small nut, Share, Rest; birds instead Perch, Hop, Sing, Spread wings, Bathe, Rest, bird anatomy only. Clear concise labels and section divisions, complete bodies, distinct limbs and support; no fused paws, no cropped heads/tails. Keep readable friendly staging for four-year-olds. Do not print invented ages, heights or names. One unified actual image.",
+  "promptFile": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/workflows/characters/oreshek/solo-prompt.txt",
+  "outputName": "oreshek-solo.png",
+  "references": [
+    {
+      "assetId": "asset-b23383162d8ee01f0dd6891e",
+      "sha256": "b23383162d8ee01f0dd6891e65ec6de756482aa6b27c1cdf968ea1be07b1d3d9",
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/assets/b23383162d8ee01f0dd6891e65ec6de756482aa6b27c1cdf968ea1be07b1d3d9.png",
+      "role": "original-visual-context"
+    },
+    {
+      "assetId": "asset-5d505b375eed339baa7f7650",
+      "sha256": "5d505b375eed339baa7f765028f4c61224a685dfcc4c01ee53c5f35fdb303700",
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/assets/5d505b375eed339baa7f765028f4c61224a685dfcc4c01ee53c5f35fdb303700.png",
+      "role": "layout-direction-only"
+    },
+    {
+      "assetId": "asset-88d74c56a468e3f250b12dbc",
+      "sha256": "88d74c56a468e3f250b12dbcb5ecdb7b07bd1d789197663d8948ac199acd133d",
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/assets/88d74c56a468e3f250b12dbcb5ecdb7b07bd1d789197663d8948ac199acd133d.webp",
+      "role": "book-style"
+    }
+  ]
+}

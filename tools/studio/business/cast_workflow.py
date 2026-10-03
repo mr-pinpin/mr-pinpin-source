@@ -80,6 +80,8 @@ def reconcile_character(store, state, row):
         for candidate in reversed(candidates[-40:]):
             if not isinstance(candidate, dict):
                 continue
+            if candidate.get("qaDisposition") == "needs-repair":
+                continue
             if candidate.get("receiptKind") != "legacy-catalog-provenance" and (candidate.get("entityId") != row["id"] or candidate.get("stage") != role):
                 continue
             if verified_asset(store, state, candidate):
@@ -140,14 +142,18 @@ def self_test():
     assert SAFE_ID.fullmatch("rabbit") and not SAFE_ID.fullmatch("../rabbit")
     return True
 
-def save_progress(store):
+def save_progress(store, verified=None):
     """Reconcile and durably save stage evidence, without touching review authority."""
     from store import atomic_json
     run = load_run(store)
     if not run:
         raise ValueError("Cannot save malformed cast manifest")
     state = store.read()
-    updates = {c["id"]: reconcile_character(store, state, c) for c in run["characters"]}
+    # Internal finish callers may reuse evidence checked during this invocation.
+    # Routes never accept this map from a request body.
+    verified = verified or {}
+    updates = {c["id"]: verified[c["id"]] if c["id"] in verified else reconcile_character(store, state, c)
+               for c in run["characters"]}
     with store.lock():
         current = load_run(store)
         if not current:

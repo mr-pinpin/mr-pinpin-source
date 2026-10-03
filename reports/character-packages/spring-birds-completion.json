@@ -1,0 +1,45 @@
+{
+  "entityId": "spring-birds",
+  "stages": {
+    "solo": {
+      "assetId": "asset-47eb9a5a3e90a6c2530edea2",
+      "sha256": "47eb9a5a3e90a6c2530edea2dd80df4f89833dba9c13a860fe99de657be5b47d",
+      "nativePath": "/Users/miguel_lemos/.codex/generated_images/01a0ff85-92dc-7c40-9adb-ef240551a423/exec-f4ec44f0-f748-4457-9f42-269063ba02ed.png",
+      "generatedPath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/generated/47eb9a5a3e90a6c2-spring-birds-solo.png",
+      "receiptKind": null
+    },
+    "interactions": {
+      "assetId": "asset-28eb3a3f86d98e2794ab5d80",
+      "sha256": "28eb3a3f86d98e2794ab5d80f71676eb7d9de5f24c355a2f045ffd71c85f420e",
+      "nativePath": "/Users/miguel_lemos/.codex/generated_images/01a0ff85-92dc-7c40-9adb-ef240551a423/exec-00f94eb1-b22d-41b4-a112-df35c8256635.png",
+      "generatedPath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/generated/28eb3a3f86d98e27-spring-birds-interactions.png",
+      "receiptKind": null
+    }
+  },
+  "dossierPath": "workflows/characters/spring-birds/README.md",
+  "next": "squirrel-community",
+  "remaining": [
+    "squirrel-community",
+    "migrating-bird-family",
+    "tarin"
+  ],
+  "workflowCard": {
+    "type": "WorkflowCard",
+    "title": "spring-birds — complete draft package",
+    "assetIds": [
+      "asset-47eb9a5a3e90a6c2530edea2",
+      "asset-28eb3a3f86d98e2794ab5d80"
+    ],
+    "actions": []
+  },
+  "metrics": {
+    "imageCalls": 2,
+    "repairCalls": 0,
+    "summedImageCallWindowSeconds": 558.0,
+    "registrationSeconds": 0.15235300000000002,
+    "firstPassBodyDirectionErrors": [],
+    "endToEndSeconds": null,
+    "monetaryCost": null
+  },
+  "generationPath": "reports/character-packages/spring-birds-generation.json"
+}

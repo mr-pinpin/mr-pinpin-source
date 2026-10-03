@@ -1,0 +1,39 @@
+{
+  "entityId": "lilia",
+  "stage": "interactions",
+  "prompt": "Use case: illustration-story. ONE portrait separate CAST INTERACTION PAGE titled \"Lilia — Cast interactions\". SIX readable large panels, THREE rows of TWO, full bodies/tails/feet, generous margins and short action labels, ivory background, warm dimensional PinPin style. Input references in order: 1 PRIMARY-target-solo, 2 subject-source:original-visual-context, 3 counterpart:pinpin, 4 counterpart:tutu, 5 book-style-and-family-scale. FIRST image is PRIMARY working target identity; lock target species, facial design, colors, anatomy in EVERY panel. Counterpart sheets are identity only; do not copy their grid into panels. Family Mama copper-quilled adult left, Papa broader cooler-quilled adult center, PinPin older child right; infant excluded. Source/proposal distinction: Original magical squirrel image provides scene context but lacks the text-required spectacles and does not prove a named portrait. Spectacles/elderly female squirrel are textual facts; adapted facial design proposed.. Target facts: Elderly female squirrel forest wizard, HUGE round glass spectacles; original chapter30 blocks3–7 and chapter31 block2. Proposed warm adaptation: muted russet silver-tipped fur, cream face/belly, fluffy silver-gray curved tail. No wizard hat or human body.. Natural varied expressions, engaged shared gaze, consistent relative scale, distinct owned limbs, clear support/contact and plausible balance. No merged bodies, duplicate paws/wings, unsupported children or cropped tails. PANELS: 1 Shared ground: elderly spectacled female SQUIRREL LILIA and child HEDGEHOG PINPIN stand facing each other; Lilia adult squirrel somewhat taller than child, proposed relative scale. 2 Meditation: LILIA SQUIRREL sits comfortably cross-legged with full supported body and clear feet, PINPIN HEDGEHOG sits nearby listening. 3 Carrot wonder: spectacled LILIA SQUIRREL and PINPIN HEDGEHOG look at one floating carrot between them, not crossing their bodies. 4 Kind embrace: kneeling spectacled LILIA SQUIRREL embraces standing PINPIN HEDGEHOG, clear owned paws and two separate bodies. 5 Read together: LILIA SQUIRREL and russet young SQUIRREL TUTU sit on low stools attending one book on table, distinct older spectacled face and younger unspectacled squirrel. 6 Rest: LILIA SQUIRREL sits on grounded cushion beside PINPIN HEDGEHOG, quiet shared gaze and supported feet.. Subtitle \"Proposed book adaptation\". No invented ages/heights/names.",
+  "promptFile": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/workflows/characters/lilia/interactions-prompt.txt",
+  "references": [
+    {
+      "assetId": "asset-c4b458bf87cfeedf7d26e07f",
+      "sha256": "c4b458bf87cfeedf7d26e07f5ce0bc42eefdd3ab7aca3f3a44fe2b39c01e85b2",
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/assets/c4b458bf87cfeedf7d26e07f5ce0bc42eefdd3ab7aca3f3a44fe2b39c01e85b2.png",
+      "role": "PRIMARY-target-solo"
+    },
+    {
+      "assetId": "asset-544e23eb149d0e9be3e5a40b",
+      "sha256": "544e23eb149d0e9be3e5a40b6e737c003bf1c648c0e5c3d15f683639704ac20d",
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/assets/544e23eb149d0e9be3e5a40b6e737c003bf1c648c0e5c3d15f683639704ac20d.png",
+      "role": "subject-source:original-visual-context"
+    },
+    {
+      "assetId": "asset-5d505b375eed339baa7f7650",
+      "sha256": "5d505b375eed339baa7f765028f4c61224a685dfcc4c01ee53c5f35fdb303700",
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/assets/5d505b375eed339baa7f765028f4c61224a685dfcc4c01ee53c5f35fdb303700.png",
+      "role": "counterpart:pinpin"
+    },
+    {
+      "assetId": "asset-9d3476deaf77e000cf59d0d4",
+      "sha256": "9d3476deaf77e000cf59d0d410c9feb4205fa6bd5dd6955e5874adc5cda76a1d",
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/assets/9d3476deaf77e000cf59d0d410c9feb4205fa6bd5dd6955e5874adc5cda76a1d.png",
+      "role": "counterpart:tutu"
+    },
+    {
+      "assetId": "asset-88d74c56a468e3f250b12dbc",
+      "sha256": "88d74c56a468e3f250b12dbcb5ecdb7b07bd1d789197663d8948ac199acd133d",
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/assets/88d74c56a468e3f250b12dbcb5ecdb7b07bd1d789197663d8948ac199acd133d.webp",
+      "role": "book-style-and-family-scale"
+    }
+  ],
+  "outputName": "lilia-interactions.png"
+}

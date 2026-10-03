@@ -86,6 +86,10 @@ def prepared_toolchain(store, state):
                 "helperSha256": manifest["helperSha256"], "parameters": parameters,
                 "inputContract": "Exact native bytes, UTF-8 exact submitted prompt and registered reference IDs; --entity and --stage are paired.",
                 "outputContract": output,
+                "castOperations": {key: value for key, value in manifest.get("castOperations", {}).items()
+                                   if key in ("toolPath", "finish", "checkpoint", "authority")
+                                   and isinstance(value, str) and len(value) <= 500}
+                                   if isinstance(manifest.get("castOperations"), dict) else {},
                 "authority": "Local tool configuration only; registration keeps candidates unreviewed and grants no selection, publication or approval.",
                 "receipt": "With --entity/--stage the helper saves the actual receipt and provenance automatically; a custom dossier-writing script is unnecessary."}
     except (OSError, ValueError, TypeError, KeyError, AttributeError):

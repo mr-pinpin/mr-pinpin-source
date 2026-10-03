@@ -1,0 +1,47 @@
+{
+  "entityId": "oreshek",
+  "stages": {
+    "solo": {
+      "assetId": "asset-ca1c6d51206492397ca1197b",
+      "sha256": "ca1c6d51206492397ca1197b5bad20d20c2a8bc530bdce5608234fa94b94cb68",
+      "nativePath": "/Users/miguel_lemos/.codex/generated_images/01a0ff85-92dc-7c40-9adb-ef240551a423/exec-12b8d1c5-1c69-4269-80a6-4b3ddbe830c8.png",
+      "generatedPath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/generated/ca1c6d5120649239-oreshek-solo.png",
+      "receiptKind": null
+    },
+    "interactions": {
+      "assetId": "asset-27489537f942178d4d769b97",
+      "sha256": "27489537f942178d4d769b972c6f15379392e3c85e72761c45ce2e3385deaf98",
+      "nativePath": "/Users/miguel_lemos/.codex/generated_images/01a0ff85-92dc-7c40-9adb-ef240551a423/exec-aa6a082d-046d-4f35-accc-b047faa068db.png",
+      "generatedPath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/generated/27489537f942178d-oreshek-interactions.png",
+      "receiptKind": null
+    }
+  },
+  "dossierPath": "workflows/characters/oreshek/README.md",
+  "next": "hedgehog-cousins",
+  "remaining": [
+    "hedgehog-cousins",
+    "spring-birds",
+    "squirrel-community",
+    "migrating-bird-family",
+    "tarin"
+  ],
+  "workflowCard": {
+    "type": "WorkflowCard",
+    "title": "oreshek — complete draft package",
+    "assetIds": [
+      "asset-ca1c6d51206492397ca1197b",
+      "asset-27489537f942178d4d769b97"
+    ],
+    "actions": []
+  },
+  "metrics": {
+    "imageCalls": 2,
+    "repairCalls": 0,
+    "summedImageCallWindowSeconds": 504.0,
+    "registrationSeconds": 0.167018,
+    "firstPassBodyDirectionErrors": [],
+    "endToEndSeconds": null,
+    "monetaryCost": null
+  },
+  "generationPath": "reports/character-packages/oreshek-generation.json"
+}

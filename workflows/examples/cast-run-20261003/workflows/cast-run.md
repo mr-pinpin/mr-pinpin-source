@@ -1,16 +1,14 @@
 # Durable cast run
 
-## Current checkpoint: Bear, Duck, Tutu, Pipilini
+## Current checkpoint: batch05
 
-14 complete draft packages; 7 remain. Next: oreshek. Remaining in order: oreshek, lilia, hedgehog-cousins, spring-birds, squirrel-community, migrating-bird-family, tarin. All four current packages have verified solo and separate interactions. Completed Beaver-family, Rabbit/Elder/Scooby and legacy family pages preserved. Mama/PomPom standard legacy receipts now exist with exact registered provenance, report links and existing measurements; no regenerated art or invented helper timings.
+18 complete draft packages; 3 remain. Next: squirrel-community. Remaining in order: squirrel-community, migrating-bird-family, tarin.
 
-11 native calls, 3 repairs; summed submitted image windows 1014s, union 485s, first-to-last image span 1230s. These are not full-turn latency or parallel-compute claims; unknown delivery/first-reply/billing bounds remain unknown. Per-character exact prompts, reference roles, hashes, stage lineage and times are in character generation.json and reports/character-packages/*.json. Summary: [batch04](../reports/cast-batch04-summary.json).
+11 retained native renders (10 measured, 1 recovered without call bounds); 2 repairs; summed measured image windows 2149s, union 727s, image span 1643s. Limits: Submission/return windows, not compute or full-turn latency. Billing and unobserved delivery bounds unknown.
 
-Saved book characterReferenceDefaults contains the verified PinPin 24-study layout-only template and subject/counterpart roles, not hard-coded Python IDs. Fresh native packs include current verified target solo as PRIMARY working identity for interactions. Mama Beaver/kits now bind actual published subject sources; Tutu/Pipilini receive original visual-context evidence and disclosed proposed designs. Seven isolated hydration tests and the 20 persistence tests pass; actual active-context reference proof is reports/cast-batch04-hydration-proof.json. No kernel/UI release changes.
+Finished: oreshek, lilia, hedgehog-cousins, spring-birds. Exact prompts, source/proposal distinctions, visual QA, stages and timings remain in character folders and standard receipts. Existing artwork preserved. [Batch summary](../reports/cast-batch05-summary.json). [Prior checkpoint](../reports/cast-before-batch05-checkpoint.md). Notetaker unavailable; durable Markdown fallback.
 
-Direction observation: 3/4 initial solo pages had all six correct BODY screen directions (23/24 cells), versus 0/3 prior batch pages. Bear face/body left-three-quarter needed one repair. Its interaction scale repair unintentionally shrank Papa; a further actual edit restored adult counterpart identity from Papa solo. Small non-controlled sample, no causal guarantee. Three other interactions retained target species/contact on first pass. Source-established facts remain separate from proposals; no exact ages invented. Notetaker unavailable; durable Markdown remains labeled fallback.
-
-Earlier Beaver checkpoint retained at [batch03](../reports/cast-batch03-checkpoint.md).
+Use `python -B tools/cast_ops.py finish <entity>` after real visual QA, then `python -B tools/cast_ops.py checkpoint <batch> <entity> ...` once per batch. Receipt IDs/hashes are read programmatically; curated evidence is retained.
 
 ## Verified batch: Rabbit, Elder, Scooby — 2026-10-03
 

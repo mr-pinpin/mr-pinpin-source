@@ -1,0 +1,39 @@
+{
+  "entityId": "hedgehog-cousins",
+  "stage": "interactions",
+  "prompt": "Use case: precise-object-edit. Edit ONLY PANEL1 Shared ground of FIRST image. It currently has Mama adult far left and THREE children to her right: tawny cousin A, cool-brown cousin B, older child PinPin at far right. KEEP MAMA'S CURRENT SIZE, adult copper-quilled face/body identity and feet ground line. REDUCE ALL THREE CHILDREN in this one panel so OLDER CHILD PINPIN is about HALF MAMA'S STANDING HEIGHT (including quill tops); cousin A and B each a little shorter than PinPin. Children MUST be substantially smaller than in the first image, roughly three quarters of their current rendered size or less until Mama is visibly twice PinPin height. Maintain each child's exact head/body proportions, colors, complete limbs, poses, relative spacing, ground contact and readable young faces. Do not turn cousins into infants. Second image Mama identity; third family reference establishes ADULTS about twice older child's standing height, not an invented measurement. Fourth PinPin and fifth cousin solo lock child identities. KEEP PANEL2,3,4,5,6 entirely unchanged, including contact, limbs, text, layout, colors, page size. Do not alter Mama in seated panels4/6. Whole corrected page, no cropping or added figures. No panel enlargement needed; shrinking children creates the required scale within the existing panel.",
+  "promptFile": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/workflows/characters/hedgehog-cousins/interactions-repair2-prompt.txt",
+  "outputName": "hedgehog-cousins-interactions-scale-repair2.png",
+  "references": [
+    {
+      "assetId": "asset-09fadf8ca0556010f2635850",
+      "sha256": "09fadf8ca0556010f2635850a174336c8a769a7282171009fecd05d838b686a4",
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/generated/09fadf8ca0556010-hedgehog-cousins-interactions-scale-repair.png",
+      "role": "EDIT-target"
+    },
+    {
+      "assetId": "asset-0409122a3c93ef73014f6338",
+      "sha256": "0409122a3c93ef73014f6338020ea942f47e5c0f4d0a59cf424508eb6ce37898",
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/assets/0409122a3c93ef73014f6338020ea942f47e5c0f4d0a59cf424508eb6ce37898.png",
+      "role": "counterpart:mama"
+    },
+    {
+      "assetId": "asset-88d74c56a468e3f250b12dbc",
+      "sha256": "88d74c56a468e3f250b12dbcb5ecdb7b07bd1d789197663d8948ac199acd133d",
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/assets/88d74c56a468e3f250b12dbcb5ecdb7b07bd1d789197663d8948ac199acd133d.webp",
+      "role": "book-style-and-family-scale"
+    },
+    {
+      "assetId": "asset-5d505b375eed339baa7f7650",
+      "sha256": "5d505b375eed339baa7f765028f4c61224a685dfcc4c01ee53c5f35fdb303700",
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/assets/5d505b375eed339baa7f765028f4c61224a685dfcc4c01ee53c5f35fdb303700.png",
+      "role": "counterpart:pinpin"
+    },
+    {
+      "assetId": "asset-4356bac8f400157aff746041",
+      "sha256": "4356bac8f400157aff74604150a625d272a5606fee707cd5442091a696789136",
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/generated/4356bac8f400157a-hedgehog-cousins-solo.png",
+      "role": "cousin-identity"
+    }
+  ]
+}

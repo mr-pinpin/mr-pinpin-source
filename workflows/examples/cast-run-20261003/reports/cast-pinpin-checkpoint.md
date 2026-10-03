@@ -1,0 +1,9 @@
+## Recorded batch: PinPin, 2026-10-03
+
+20 individual/recurring-group entries indexed across all 38 original chapters and available published stories. Four packages produced: retained PomPom, Mama, Papa plus new PinPin. Next: Rabbit/Lulu; 16 remain in cast-run.json. Alias mappings and unnamed-group dispositions are provisional evidence interpretations, not invented names or ages.
+
+PinPin: solo asset-5d505b375eed339baa7f7650; final interactions asset-5a4957a23785aa71b8b20485. One material scale repair, source asset-e4330679e5a41614ca0ad6b1 retained. Three actual image calls: UTC windows 10:22:15–10:23:00, 10:24:50–10:25:35 and 10:28:44–10:29:24 (one-second clock resolution). Image-active windows sum to 130 seconds; monetary cost unavailable. Registration receipts measure registration separately. First reply/total delivery timing was not captured and remains unknown. Full exact submitted strings and lineage are in reports/pinpin-generation-timing.json; helper receipts/native hashes in reports/character-packages/pinpin.json.
+
+Operational correction: the first record-package save nested Store.read inside Store.lock and stalled; it was interrupted before writing. The reusable business function now reads state before locking the manifest. Successful save, next-item hydration and native-byte checks passed. Package self_test, focused context/insights checks, JS syntax and runtime source matching passed. Browser visual verification of this new insights panel was not performed here. The existing full-size viewer is retained.
+
+Delegation: codex-wap1 authorized production on Miguel's behalf. Its earlier PomPom solo-package acceptance remains delegated; PinPin visual inspection here is agent QA, not personal Miguel approval or a fabricated representative review. No publication or reference selection performed.

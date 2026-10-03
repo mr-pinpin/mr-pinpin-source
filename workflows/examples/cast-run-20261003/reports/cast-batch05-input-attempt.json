@@ -1,0 +1,12 @@
+{
+  "error": "referenced_image_paths must contain at most 5 paths",
+  "affectedCall": "oreshek interactions",
+  "renderedOutputsFromRejectedOrchestration": "unknown; no success or measured generation claimed",
+  "correction": "Oreshek drops original contextual group from interaction call; primary verified solo and all counterparts plus family scale/style retained",
+  "recoveredNativeAsset": {
+    "assetId": "asset-792e614da42a69c1ca416e38",
+    "sha256": "792e614da42a69c1ca416e38a341b93c3077f924a19c9b0df1d1776aa806c2c4",
+    "generationBounds": null
+  },
+  "outcomes": "One rejected Oreshek input; one cousin native render recovered; other two concurrently issued outcomes unknown. Subsequent successful calls are separately recorded."
+}

@@ -1,0 +1,39 @@
+{
+  "entityId": "oreshek",
+  "stage": "interactions",
+  "prompt": "Use case: illustration-story. ONE portrait separate CAST INTERACTION PAGE titled \"Elder Oreshek \u2014 Cast interactions\". SIX readable large panels, THREE rows of TWO, full bodies/tails/feet, generous margins and short action labels, ivory background, warm dimensional PinPin style. Input references in order: 1 PRIMARY-target-solo, 2 counterpart:papa, 3 counterpart:pinpin, 4 counterpart:tutu, 5 book-style-and-family-scale. FIRST image is PRIMARY working target identity; lock target species, facial design, colors, anatomy in EVERY panel. Counterpart sheets are identity only; do not copy their grid into panels. Family Mama copper-quilled adult left, Papa broader cooler-quilled adult center, PinPin older child right; infant excluded. Source/proposal distinction: Original group image shows gray squirrel among digging animals but does not label Oreshek; individual face and proportions are proposed.. Target facts: Old male gray squirrel elder. Gray fur is explicit original chapter19 block4. Proposed warm adaptation: cream muzzle/belly, gently weathered brows, tufted ears and bushy gray curved tail, no clothing. NOT a hedgehog.. Natural varied expressions, engaged shared gaze, consistent relative scale, distinct owned limbs, clear support/contact and plausible balance. No merged bodies, duplicate paws/wings, unsupported children or cropped tails. PANELS: 1 Shared ground: old gray SQUIRREL ORESHEK and adult HEDGEHOG PAPA discuss a rolled plan, child HEDGEHOG PINPIN listens; Oreshek adult squirrel somewhat shorter than Papa, taller than PinPin, proposed relative scale. 2 Plan together: seated ORESHEK SQUIRREL and seated PAPA HEDGEHOG point with distinct paws to one plan resting on a low table. 3 Share nut: ORESHEK SQUIRREL offers small acorn to child PINPIN HEDGEHOG, palm-to-palm. 4 Kind embrace: kneeling ORESHEK SQUIRREL gently embraces standing PINPIN HEDGEHOG, clearly separate two bodies, owned paws, grounded child feet. 5 Gather: ORESHEK SQUIRREL and female russet SQUIRREL TUTU place separate twigs into a shared ground basket. 6 Quiet rest: ORESHEK SQUIRREL and PINPIN HEDGEHOG sit together on low log with full feet/tail supported.. Subtitle \"Proposed book adaptation\". No invented ages/heights/names.",
+  "promptFile": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/workflows/characters/oreshek/interactions-prompt.txt",
+  "references": [
+    {
+      "assetId": "asset-ca1c6d51206492397ca1197b",
+      "sha256": "ca1c6d51206492397ca1197b5bad20d20c2a8bc530bdce5608234fa94b94cb68",
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/assets/ca1c6d51206492397ca1197b5bad20d20c2a8bc530bdce5608234fa94b94cb68.png",
+      "role": "PRIMARY-target-solo"
+    },
+    {
+      "assetId": "asset-6d619138c33f8111b5b1ff68",
+      "sha256": "6d619138c33f8111b5b1ff6808d53923ac767e48f3e4a8e03601754a9eab5b87",
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/assets/6d619138c33f8111b5b1ff6808d53923ac767e48f3e4a8e03601754a9eab5b87.png",
+      "role": "counterpart:papa"
+    },
+    {
+      "assetId": "asset-5d505b375eed339baa7f7650",
+      "sha256": "5d505b375eed339baa7f765028f4c61224a685dfcc4c01ee53c5f35fdb303700",
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/assets/5d505b375eed339baa7f765028f4c61224a685dfcc4c01ee53c5f35fdb303700.png",
+      "role": "counterpart:pinpin"
+    },
+    {
+      "assetId": "asset-9d3476deaf77e000cf59d0d4",
+      "sha256": "9d3476deaf77e000cf59d0d410c9feb4205fa6bd5dd6955e5874adc5cda76a1d",
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/assets/9d3476deaf77e000cf59d0d410c9feb4205fa6bd5dd6955e5874adc5cda76a1d.png",
+      "role": "counterpart:tutu"
+    },
+    {
+      "assetId": "asset-88d74c56a468e3f250b12dbc",
+      "sha256": "88d74c56a468e3f250b12dbcb5ecdb7b07bd1d789197663d8948ac199acd133d",
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/assets/88d74c56a468e3f250b12dbcb5ecdb7b07bd1d789197663d8948ac199acd133d.webp",
+      "role": "book-style-and-family-scale"
+    }
+  ],
+  "outputName": "oreshek-interactions.png"
+}

@@ -1,0 +1,39 @@
+{
+  "entityId": "spring-birds",
+  "stage": "interactions",
+  "prompt": "Use case: illustration-story. ONE portrait separate CAST INTERACTION PAGE titled \"Two spring birds — Cast interactions\". SIX readable large panels, THREE rows of TWO, full bodies/tails/feet, generous margins and short action labels, ivory background, warm dimensional PinPin style. Input references in order: 1 PRIMARY-target-solo, 2 subject-source:identity, 3 counterpart:pinpin, 4 counterpart:rabbit, 5 book-style-and-family-scale. FIRST image is PRIMARY working target identity; lock target species, facial design, colors, anatomy in EVERY panel. Counterpart sheets are identity only; do not copy their grid into panels. Family Mama copper-quilled adult left, Papa broader cooler-quilled adult center, PinPin older child right; infant excluded. Source/proposal distinction: Published scene04d explicitly names two little birds and pixels establish two distinct feather patterns and size relative to PinPin. Exact ages and names not stated.. Target facts: Exactly two small published spring birds: orange-breasted brown-backed robin-like bird and blue-capped blue-winged yellow-bellied tit-like bird with white cheeks/dark eye stripe. Preserve published colors, short beaks, two wings/two feet/tail each; no mammal arms. Species resemblance is visual inference, not taxonomic canon.. Natural varied expressions, engaged shared gaze, consistent relative scale, distinct owned limbs, clear support/contact and plausible balance. No merged bodies, duplicate paws/wings, unsupported children or cropped tails. PANELS: Exactly TWO birds in every panel, one orange-breasted brown bird, one blue/yellow white-cheeked bird. Both much smaller than child PINPIN, match published spring image size. 1 Shared scale: child PINPIN HEDGEHOG kneels beside the TWO small BIRDS perched on low stone on shared ground. 2 Secure perch: seated PINPIN HEDGEHOG offers open flat paws, TWO BIRDS rest with separate feet clearly touching supported paws; no gripping wings or squeezed bodies. 3 Splash: TWO BIRDS bathe in shallow spring beside sitting PINPIN HEDGEHOG, natural two wings/two feet per bird, engaged action. 4 Listen: TWO BIRDS sing on low branch while long-eared RABBIT LULU listens seated on ground; rabbit grounded, not a squirrel. 5 Leaf boat: child PINPIN HEDGEHOG and RABBIT LULU watch TWO BIRDS beside one leaf boat in shallow water, birds stay tiny. 6 Rest: TWO BIRDS perch securely on branch beside seated PINPIN HEDGEHOG, no mammal arms or bird hands.. Preserve published bird identities; no invented names/ages.",
+  "promptFile": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/workflows/characters/spring-birds/interactions-prompt.txt",
+  "references": [
+    {
+      "assetId": "asset-47eb9a5a3e90a6c2530edea2",
+      "sha256": "47eb9a5a3e90a6c2530edea2dd80df4f89833dba9c13a860fe99de657be5b47d",
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/assets/47eb9a5a3e90a6c2530edea2dd80df4f89833dba9c13a860fe99de657be5b47d.png",
+      "role": "PRIMARY-target-solo"
+    },
+    {
+      "assetId": "asset-57a66759e8f289ff642042a6",
+      "sha256": "57a66759e8f289ff642042a6f507a9f4781174cf079e95ea013fb2cdc82a88c7",
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/assets/57a66759e8f289ff642042a6f507a9f4781174cf079e95ea013fb2cdc82a88c7.webp",
+      "role": "subject-source:identity"
+    },
+    {
+      "assetId": "asset-5d505b375eed339baa7f7650",
+      "sha256": "5d505b375eed339baa7f765028f4c61224a685dfcc4c01ee53c5f35fdb303700",
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/assets/5d505b375eed339baa7f765028f4c61224a685dfcc4c01ee53c5f35fdb303700.png",
+      "role": "counterpart:pinpin"
+    },
+    {
+      "assetId": "asset-e64154c3829a84e223c54626",
+      "sha256": "e64154c3829a84e223c54626222d8b9b24a6e8cb4dd73e5ecb518dcf4ea37f6b",
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/assets/e64154c3829a84e223c54626222d8b9b24a6e8cb4dd73e5ecb518dcf4ea37f6b.png",
+      "role": "counterpart:rabbit"
+    },
+    {
+      "assetId": "asset-88d74c56a468e3f250b12dbc",
+      "sha256": "88d74c56a468e3f250b12dbcb5ecdb7b07bd1d789197663d8948ac199acd133d",
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/assets/88d74c56a468e3f250b12dbcb5ecdb7b07bd1d789197663d8948ac199acd133d.webp",
+      "role": "book-style-and-family-scale"
+    }
+  ],
+  "outputName": "spring-birds-interactions.png"
+}

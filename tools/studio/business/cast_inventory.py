@@ -147,13 +147,26 @@ def record_package(store, identifier, asset_ids, qa_note, timing_path=None):
         evidence["existingOutputs"] = [assets[a] for a in asset_ids]
         atomic_json(evidence_path, evidence)
         doc = folder / "README.md"
-        text = doc.read_text().split("\n## Current package result\n")[0]
-        text += "\n## Current package result\n\nStatus: **produced**, registered unreviewed drafts.\n\n"
+        text = doc.read_text().replace("Status: pending. Existing output IDs: .", "Initial inventory: pending; current verified package stages are recorded below.")
+        marker = "\n## Current package result\n"
+        before, found, after = text.partition(marker)
+        # Replace only this generated section, retaining later curated sections.
+        following = ""
+        if found:
+            # A helper-owned metrics block starts with a comment BEFORE its
+            # heading. Preserve the complete block so helper retries can replace it.
+            boundaries = [after.find(prefix) for prefix in ("\n## ", "\n<!-- cast-ops metrics begin -->")]
+            boundaries = [offset for offset in boundaries if offset >= 0]
+            if boundaries:
+                following = after[min(boundaries):]
+        text = before + marker + "\nStatus: **produced**, registered unreviewed drafts.\n\n"
         for stage, asset_id in zip(("Solo studies", "Interactions"), asset_ids):
             asset = assets[asset_id]
             text += "- " + stage + ": `" + asset_id + "`, SHA-256 `" + asset["sha256"] + "`.\n"
         text += "\nQA: " + qa_note + "\n\nExact prompts, native paths/hashes and registration receipts: ../../../reports/character-packages/" + identifier + ".json. Generation timings: " + str(timing_path) + ". No personal Miguel acceptance or publication inferred.\n"
-        doc.write_text(text)
+        doc.write_text(text + following)
     from .cast_workflow import save_progress
-    run = save_progress(store)
-    return {"next": run["nextEntityId"], "remaining": [c["id"] for c in run["characters"] if not c.get("complete")]}
+    run = save_progress(store, verified={identifier: resolved})
+    return {"entityId": identifier, "stages": resolved["stages"], "dossierPath": str(doc.relative_to(store.root)),
+            "next": run["nextEntityId"], "remaining": [c["id"] for c in run["characters"] if not c.get("complete")],
+            "workflowCard": {"type": "WorkflowCard", "title": identifier + " — complete draft package", "assetIds": asset_ids, "actions": []}}
