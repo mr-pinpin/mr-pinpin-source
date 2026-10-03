@@ -68,7 +68,9 @@
     "restore": "python -B tools/cast_ops.py restore-replica <assetId>",
     "outcome": "python -B tools/cast_ops.py outcome <outcome.json>",
     "checkpoint": "python -B tools/cast_ops.py industrial-checkpoint",
-    "closeout": "python -B tools/cast_ops.py closeout <entity>"
+    "closeout": "python -B tools/cast_ops.py closeout <entity>",
+    "enqueue": "python -B tools/cast_ops.py enqueue <assetId>",
+    "replicaPolicyPath": "workflows/replica-store.json"
   },
   "characterPreparation": {
     "counterpartIds": [

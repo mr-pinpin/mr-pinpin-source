@@ -14,12 +14,47 @@ import tempfile
 from datetime import datetime, timezone
 from contextlib import contextmanager
 import fcntl
+import importlib.util
+import sys
 from model import StudioError, find, valid_id
 from store import atomic_json
 
 
 def stamp():
     return datetime.now(timezone.utc).isoformat()
+
+def replica_repository(store):
+    """Configured reusable library; no network or host-read job paths here."""
+    cfg=bounded_json(inside(store,'workflows/replica-store.json'))
+    if cfg.get('bucket')!='miguelemosreverte/mr-pinpin-archive' or cfg.get('namespace')!='replica-store-v1/book-art':
+        raise StudioError('Replica deployment differs from approved artwork namespace')
+    library=inside(store,cfg['libraryPath'])/'replica_store'
+    if library.is_symlink():raise StudioError('Replica library directory must not be a symlink')
+    expected=cfg.get('libraryFiles',{})
+    required={'__init__.py','core.py','hf.py','cli.py','__main__.py'}
+    if set(expected)!=required:raise StudioError('Replica library needs exact source receipt')
+    for name in required:
+        path=library/name
+        if path.is_symlink() or path.stat().st_size>262144 or hashlib.sha256(path.read_bytes()).hexdigest()!=expected[name]:
+            raise StudioError('Replica library source differs from configured receipt')
+    root=Path(cfg['root'])
+    if not root.is_absolute() or not root.resolve().is_relative_to(store.root.resolve()):raise StudioError('Studio outbox must remain inside its data root')
+    namespace='_studio_replica_'+hashlib.sha256(json.dumps(expected,sort_keys=True).encode()).hexdigest()
+    module=sys.modules.get(namespace)
+    if module is None:
+        spec=importlib.util.spec_from_file_location(namespace,library/'__init__.py',submodule_search_locations=[str(library)])
+        module=importlib.util.module_from_spec(spec);sys.modules[namespace]=module;spec.loader.exec_module(module)
+    return module.Repository(cfg)
+
+def enqueue_replica(store,asset_id):
+    state=store.read();asset=find(state['assets'],asset_id,'asset')
+    if asset.get('provenance',{}).get('source')!='native-imagegen':raise StudioError('Replica outbox accepts registered generated book images only')
+    path=store.asset_path(asset_id,state);identity(path,asset['bytes'],asset['sha256'])
+    repository=replica_repository(store)
+    result=repository.enqueue(asset_id,path,asset['sha256'],asset['bytes'])
+    result.update(outboxOwned=True,remoteBackupStatus='verified-download' if result['status']=='verified' else 'pending')
+    atomic_json(inside(store,'reports/storage/'+asset_id+'-replica-outbox.json'),result)
+    return result
 
 
 @contextmanager
@@ -219,6 +254,10 @@ def resolve(store, asset_id, restore_replica=False):
         proof = bounded_json(proof_path, 65536) if proof_path.exists() else {}
         verified = (proof.get('sha256') == entry['sha256'] and proof.get('bytes') == entry['bytes']
                     and proof.get('remoteBackupStatus') == 'verified-download')
+        if inside(store,'workflows/replica-store.json').exists():
+            shared=replica_repository(store).status(asset_id,entry['sha256'])
+            if shared['status']=='verified':
+                return {'assetId':asset_id,'sha256':entry['sha256'],'bytes':entry['bytes'],'nativePath':str(canonical),'assetURL':asset['url'],'source':'verified-local','remoteBackupStatus':'verified-download','sharedReceipt':shared['receipt']}
         return {'assetId': asset_id, 'sha256': entry['sha256'], 'bytes': entry['bytes'],
                 'nativePath': str(canonical), 'assetURL': asset['url'], 'source': 'verified-local',
                 'remoteBackupStatus': 'verified-download' if verified else 'unverified',
@@ -228,6 +267,36 @@ def resolve(store, asset_id, restore_replica=False):
                 'backupReceiptPath': str(receipt_path(store, asset_id, 'backup').relative_to(store.root))}
     proof_path = receipt_path(store, asset_id, 'backup')
     proof = bounded_json(proof_path, 65536) if proof_path.exists() else None
+    # Shared namespace first; legacy archive remains a fallback. No original eviction.
+    if inside(store,'workflows/replica-store.json').exists():
+        try:
+            repository=replica_repository(store)
+            try:owned=repository.resolve(entry['sha256'],entry['bytes'])
+            except FileNotFoundError:
+                environment=os.environ.copy()
+                environment['PYTHONPATH']=str(inside(store,repository.config['libraryPath']))
+                process=subprocess.run([cfg['pythonPath'],'-B','-m','replica_store','--config',str(inside(store,'workflows/replica-store.json')),'get',entry['sha256'],str(entry['bytes'])],env=environment,capture_output=True,timeout=180)
+                if process.returncode or len(process.stdout)>16384:raise StudioError('Shared remote restoration unavailable')
+                response=json.loads(process.stdout)
+                if response.get('status')!='verified-local':raise StudioError('Shared remote restoration pending')
+                owned=repository.resolve(entry['sha256'],entry['bytes'])
+            destination=inside(store,cfg['cachePath']+'/shared/'+entry['sha256']) if restore_replica else canonical
+            destination.parent.mkdir(parents=True,exist_ok=True)
+            preflight(store,cfg,entry['bytes']*2,entry['bytes'])
+            fd,name=tempfile.mkstemp(prefix='.shared-restore-',dir=destination.parent)
+            os.close(fd)
+            try:
+                shutil.copyfile(owned,name);identity(Path(name),entry['bytes'],entry['sha256'])
+                with open(name,'rb') as stream:os.fsync(stream.fileno())
+                try:os.link(name,destination,follow_symlinks=False)
+                except FileExistsError:identity(destination,entry['bytes'],entry['sha256'])
+            finally:os.unlink(name)
+            shared=repository.status(asset_id,entry['sha256'])
+            result={'assetId':asset_id,'sha256':entry['sha256'],'bytes':entry['bytes'],'nativePath':str(destination),'assetURL':asset['url'],'source':'shared-verified-bytes','remoteBackupStatus':'verified-download' if shared['status']=='verified' else 'unverified'}
+            atomic_json(receipt_path(store,asset_id,'shared-restore'),result)
+            return result
+        except (ValueError,OSError,StudioError,subprocess.TimeoutExpired):
+            if not proof:raise StudioError('Verified shared reference unavailable; retry host get or restore legacy archive')
     if not proof or proof.get('sha256') != entry['sha256'] or proof.get('bytes') != entry['bytes'] or proof.get('remoteBackupStatus') != 'verified-download':
         raise StudioError('No verified remote-backup receipt for this asset')
     # Replica restoration demonstrates a cold cache without deleting canonical artwork.

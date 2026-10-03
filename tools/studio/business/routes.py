@@ -38,11 +38,13 @@ def route(store, method, path, query, body):
         if path == "/api/media":
             return 200, media_library(store)
     elif method == "POST":
-        if path in ('/api/storage/resolve', '/api/storage/backup', '/api/characters/prepare', '/api/characters/outcome', '/api/characters/registration-preflight'):
+        if path in ('/api/storage/resolve', '/api/storage/backup', '/api/storage/enqueue', '/api/characters/prepare', '/api/characters/outcome', '/api/characters/registration-preflight'):
             try:
                 with asset_storage.operation(store):
                     if path == '/api/storage/resolve':
                         result = asset_storage.resolve(store, valid_id(body.get('assetId')), body.get('restoreReplica') is True)
+                    elif path == '/api/storage/enqueue':
+                        result = asset_storage.enqueue_replica(store, body.get('assetId'))
                     elif path == '/api/storage/backup':
                         result = asset_storage.backup(store, valid_id(body.get('assetId')))
                     elif path == '/api/characters/prepare':

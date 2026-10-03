@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "libraryPath": "exports/packages/replica_store/src",
+  "root": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/replica-outbox",
+  "bucket": "miguelemosreverte/mr-pinpin-archive",
+  "namespace": "replica-store-v1/book-art",
+  "maxObjectBytes": 41943040,
+  "maxLocalBytes": 1073741824,
+  "minFreeBytes": 2147483648,
+  "batchSize": 4,
+  "maxRemoteScan": 10000,
+  "pollReplica": false,
+  "pollIntervalSeconds": 15,
+  "libraryFiles": {
+    "__init__.py": "a5a7c9dc141bcd6b365bb6b9d5287b5a2f5b9f9dedf70a66a8a39ef4c40d327d",
+    "core.py": "c107b01a412627e304535fb373a6c0d6fdcebee6235cf7ff0150133db6d4758b",
+    "cli.py": "7441f0acedfbb15164076e606b1e75f9973c48e80b57b0412d7429c8c80b9ec1",
+    "__main__.py": "cf7390a2508a0fcad4777a4a629fc5212ab655cb45845975995f835676a834e3",
+    "hf.py": "d01b3efc124ce0d106fc3402f9b5db60d48e4052edb0b6df52d5a61057220729"
+  }
+}

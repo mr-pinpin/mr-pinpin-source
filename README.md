@@ -15,6 +15,8 @@ and [interactive atlas](https://mr-pinpin.github.io/storyboard/atlas-webgpu.html
 
 [Shared Studio conversation CLI](tools/studio-client/README.md) lets humans and agents use the same saved conversation. See [creative workflows and examples](workflows/README.md).
 
+[Replica Store](packages/replica_store/README.md) provides verified HF storage and optional replica polling. See the [Studio outbox workflow](workflows/replica-storage.md).
+
 This repository is the source workspace, not the canonical reader website.
 
 Start with the [storyboard guide](docs/storyboard/README.md) for content and runtime,

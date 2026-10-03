@@ -72,11 +72,17 @@ def closeout(runtime,store,identifier,transfer=server_backup):
         existing=json.loads(receipt_path.read_text()) if receipt_path.exists() else None
         row={'assetId':asset_id,'sha256':asset['sha256'],'bytes':asset['bytes'],'localVerified':True}
         try:
-            reused=verified_backup(existing,asset)
-            remote=existing if reused else transfer(asset_id)
-            if not verified_backup(remote,asset): raise ValueError('Remote proof did not match final asset')
-            row.update(remoteBackupStatus='verified-download',receiptPath=str(receipt_path.relative_to(DATA)),
-                verificationSource='existing-server-receipt' if reused else 'this-command-server-response')
+            if (DATA/'workflows/replica-store.json').is_file():
+                _,remote=runtime.invoke('route',store,'POST','/api/storage/enqueue',{}, {'assetId':asset_id})
+                if remote.get('sha256')!=asset['sha256'] or remote.get('bytes')!=asset['bytes']:raise ValueError('Outbox identity mismatch')
+                row.update(remoteBackupStatus=remote['remoteBackupStatus'],outboxOwned=remote['outboxOwned'],
+                    receiptPath='reports/storage/'+asset_id+'-replica-outbox.json',verificationSource='shared-library-outbox')
+            else:
+                reused=verified_backup(existing,asset)
+                remote=existing if reused else transfer(asset_id)
+                if not verified_backup(remote,asset): raise ValueError('Remote proof did not match final asset')
+                row.update(remoteBackupStatus='verified-download',receiptPath=str(receipt_path.relative_to(DATA)),
+                    verificationSource='existing-server-receipt' if reused else 'this-command-server-response')
         except Exception as exc:
             row.update(remoteBackupStatus='failed-or-pending',errorType=type(exc).__name__,
                 transportErrno=getattr(getattr(exc,'reason',None),'errno',None),
@@ -85,7 +91,7 @@ def closeout(runtime,store,identifier,transfer=server_backup):
     receipt={'schemaVersion':1,'entityId':identifier,'observedUTC':datetime.now(timezone.utc).isoformat(),
         'localDraftComplete':True,'pages':backups,'allRemoteVerified':all(r['remoteBackupStatus']=='verified-download' for r in backups),
         'closeoutSeconds':time.monotonic()-started,'benchmarkHistoryChanged':False,
-        'transferBoundary':'Existing loopback Studio HTTP business route /api/storage/backup; server-owned HF adapter credentials',
+        'transferBoundary':'Owned filesystem outbox consumed by generic host worker; HF-only remote, optional polling replica' if (DATA/'workflows/replica-store.json').is_file() else 'Existing loopback Studio HTTP business route /api/storage/backup; server-owned HF adapter credentials',
         'workflowCard':result.get('workflowCard'),'approval':'Agent QA only; no human approval, selection or publication'}
     target=DATA/'reports/character-packages'/(identifier+'-closeout.json');atomic_json(target,receipt)
     return receipt
@@ -378,6 +384,9 @@ def main():
             target=DATA/'reports/character-jobs'/('prepare-failure-'+hashlib.sha256(observed.encode()).hexdigest()[:24]+'.json')
             atomic_json(target,failure)
             raise
+    elif command == 'enqueue':
+        _, result = runtime.invoke('route', store, 'POST', '/api/storage/enqueue', {}, {'assetId':args[0]})
+        print(json.dumps(result))
     elif command in ('resolve', 'backup', 'restore-replica', 'prepare', 'outcome'):
         if command in ('prepare', 'outcome'):
             body = json.loads(Path(args[0]).read_text())

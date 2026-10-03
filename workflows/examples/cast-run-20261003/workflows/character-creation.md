@@ -1,5 +1,7 @@
 # Character creation
 
+Normal final closeout automatically admits verified native-imagegen pages into the shared owned-byte outbox. Follow [replica-storage.md](replica-storage.md); remote verification requires a matching host-worker receipt, and pending backup leaves the local draft usable. Keep actual prompts, references, attempts and visual QA in the existing local dossier.
+
 Context hydration uses the selected dossier plus compact queue and guide indexes. Read the indexed Markdown paths for full workflow text; source, age, roles and stage receipts stay available. `workflows/character-context-index.md` summarizes retrieval. Exact prompts remain in asset metadata and receipts. This does not reset conversation history or fix native compaction.
 
 Live persistent contract: this Markdown file in Studio data. It is loaded by the reloadable business context on fresh turns. The source-checkout copy is an earlier checkpoint; the coordinator can mechanically checkpoint this authored live version. Workflow text is product context, never kernel or approval authority.
