@@ -1,0 +1,44 @@
+{
+  "classification": "Operator-assisted outside agent loopback/network sandbox; not autonomous application success",
+  "operatorObservedUTC": "2026-10-03T20:57:27.862611+00:00",
+  "operatorSeconds": 15.657148250000319,
+  "pages": [
+    {
+      "assetId": "asset-46b709495ac9b5f41c4cdd66",
+      "sha256": "46b709495ac9b5f41c4cdd66ec8d5868e1a3edc8b12b8693313a4e37f07ea0ab",
+      "bytes": 2353113,
+      "remoteVerified": true,
+      "canonicalBytesUnchanged": true
+    },
+    {
+      "assetId": "asset-3fd4a11eb22eeedca79b4f93",
+      "sha256": "3fd4a11eb22eeedca79b4f93e489ad002a299909787cd6334c7d4e2a1460d5ff",
+      "bytes": 2997605,
+      "remoteVerified": true,
+      "canonicalBytesUnchanged": true
+    }
+  ],
+  "authoredAppExportReceiptMatched": true,
+  "newImages": 0,
+  "agentAutomationStillBlocked": true,
+  "appAuthoredExactCommand": "python -B tools/cast_ops.py closeout badger-visitor",
+  "focusedTestsPassed": 12,
+  "exportReceiptFilesMatched": 14,
+  "baselineAcceptanceUnchanged": true,
+  "agentAttempt": {
+    "remoteSuccess": false,
+    "failure": "Agent loopback/network boundary denied both HTTP requests; observed by root before operator execution",
+    "automaticReplicationEstablished": false
+  },
+  "operatorAttempt": {
+    "remoteSuccess": true,
+    "boundary": "Existing running Studio HTTP business route; server-owned HF SDK authentication",
+    "classification": "Operator-assisted from normal Mini QA shell"
+  },
+  "secondBenchmarkPerformed": false,
+  "kernelOrPermissionsChanged": false,
+  "generationTimeImprovementClaimed": false,
+  "latestAirAvailableGiBReportedByRoot": 8.3,
+  "latestAirApproxAvailableGB": 8.9,
+  "previous10GBValue": "Historical checkpoint, not current free space"
+}

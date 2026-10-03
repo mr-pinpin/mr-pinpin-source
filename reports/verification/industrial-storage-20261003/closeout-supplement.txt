@@ -1,0 +1,9 @@
+Post-benchmark closeout supplement — 2026-10-03.
+
+App-authored closeout reuses finish/local-byte validation and sends bounded, non-retried HTTP backup requests through the existing Studio server. Both app-attempt requests failed at the agent loopback boundary; local drafts remained usable. This automation limit is preserved.
+
+Root authorized the identical command from a regular Mini QA shell: python -B tools/cast_ops.py closeout badger-visitor. It completed20:57:27.862611UTC in15.657148s. Both image-only HF receipts independently match assetID/SHA/size/content-object/remote_verified; canonical bytes unchanged. This is OPERATOR-ASSISTED proof, not successful autonomous app replication. Existing server HF auth stayed private; no code/permission/kernel patch or new images.
+
+Unmodified exported focused test12PASS outside production; export receipt14/14 SHA/size match. Exact authored exports copied and explicitly staged. Baseline acceptance report/metrics remain unchanged. No second benchmark or generation-time improvement claim. Separate closeout conversation compaction168.184060s remains a measured engineering-turn delay.
+
+Latest root Air check:8.3GiB available (approximately8.9GB). Earlier10GB value remains a historical checkpoint.

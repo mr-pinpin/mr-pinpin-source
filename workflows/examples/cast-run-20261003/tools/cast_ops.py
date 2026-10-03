@@ -14,6 +14,106 @@ sys.path.insert(0, str(RUNTIME / 'stable-releases' / deployment['stableRelease']
 from store import Store, atomic_json
 from business_runtime import BusinessRuntime
 
+def server_backup(asset_id):
+    """Use existing Studio client's URL/transport, with its loopback guard intact."""
+    import importlib.util
+    import os
+    client_dir=Path('/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/tools/studio-client')
+    sys.path.insert(0,str(client_dir))
+    spec=importlib.util.spec_from_file_location('studio_chat_client',client_dir/'chat.py')
+    module=importlib.util.module_from_spec(spec); spec.loader.exec_module(module)
+    client=module.Client(os.environ.get('PINPIN_STUDIO_URL','http://127.0.0.1:18826'))
+    parsed=module.urllib.parse.urlsplit(client.url)
+    if parsed.scheme!='http' or parsed.hostname not in ('127.0.0.1','localhost','::1') or parsed.path:
+        raise ValueError('Closeout requires the existing loopback Studio HTTP server')
+    request=module.urllib.request.Request(client.url+'/api/storage/backup',
+        data=json.dumps({'assetId':asset_id}).encode(),
+        headers={'Content-Type':'application/json','Accept':'application/json'})
+    # No automatic POST retries: the server may finish after a lost response.
+    with module.urllib.request.urlopen(request,timeout=200) as response:
+        raw=response.read(1024*1024+1)
+    if len(raw)>1024*1024: raise ValueError('Oversized storage response')
+    return json.loads(raw)
+
+def verified_backup(result, asset):
+    if not isinstance(result,dict): return False
+    if any(result.get(k)!=asset.get(v) for k,v in (('assetId','id'),('sha256','sha256'),('bytes','bytes'))): return False
+    proof=result.get('adapterReceipt',{})
+    entries=proof.get('entries',[])
+    expected_bucket=json.loads((DATA/'workflows/storage-policy.json').read_text())['bucket']
+    return (result.get('remoteBackupStatus')=='verified-download' and proof.get('verified') is True
+        and proof.get('bucket')==expected_bucket and proof.get('dry_run') is not True
+        and len(entries)==1 and entries[0].get('remote_verified') is True
+        and entries[0].get('verified') is True and entries[0].get('sha256')==asset['sha256']
+        and entries[0].get('bytes')==asset['bytes'])
+
+def closeout(runtime,store,identifier,transfer=server_backup):
+    """Existing finish validation plus bounded server-side final-page backups."""
+    from model import valid_id
+    valid_id(identifier)
+    started=time.monotonic()
+    package=json.loads((DATA/'reports/character-packages'/(identifier+'.json')).read_text())
+    ids=[package['stages'][role]['candidates'][-1]['assetId'] for role in ('solo','interactions')]
+    completion_path=DATA/'reports/character-packages'/(identifier+'-completion.json')
+    old=json.loads(completion_path.read_text()) if completion_path.exists() else None
+    _,result=runtime.invoke('route',store,'POST','/api/cast/finish',{},
+        {'entityId':identifier,'assetIds':ids,'qaNote':'Retained recorded visual QA; closeout validates registered final bytes, not human approval.',
+         'timingPath':'reports/character-packages/'+identifier+'-generation.json'})
+    # Completed benchmark records stay byte-for-byte intact; new jobs reuse normal finish.
+    if not old or old.get('stages')!=result['stages']: finish_records(identifier,result)
+    assets={a['id']:a for a in store.read()['assets']}
+    backups=[]
+    for asset_id in ids:
+        asset=assets[asset_id]
+        path=store.asset_path(asset_id)
+        if path.stat().st_size!=asset['bytes'] or hashlib.sha256(path.read_bytes()).hexdigest()!=asset['sha256']:
+            raise ValueError('Final registered bytes failed verification')
+        receipt_path=DATA/'reports/storage'/(asset_id+'-backup.json')
+        existing=json.loads(receipt_path.read_text()) if receipt_path.exists() else None
+        row={'assetId':asset_id,'sha256':asset['sha256'],'bytes':asset['bytes'],'localVerified':True}
+        try:
+            reused=verified_backup(existing,asset)
+            remote=existing if reused else transfer(asset_id)
+            if not verified_backup(remote,asset): raise ValueError('Remote proof did not match final asset')
+            row.update(remoteBackupStatus='verified-download',receiptPath=str(receipt_path.relative_to(DATA)),
+                verificationSource='existing-server-receipt' if reused else 'this-command-server-response')
+        except Exception as exc:
+            row.update(remoteBackupStatus='failed-or-pending',errorType=type(exc).__name__,
+                transportErrno=getattr(getattr(exc,'reason',None),'errno',None),
+                advice='Local draft retained. Inspect server backup receipt before a manual retry; no POST retry performed.')
+        backups.append(row)
+    receipt={'schemaVersion':1,'entityId':identifier,'observedUTC':datetime.now(timezone.utc).isoformat(),
+        'localDraftComplete':True,'pages':backups,'allRemoteVerified':all(r['remoteBackupStatus']=='verified-download' for r in backups),
+        'closeoutSeconds':time.monotonic()-started,'benchmarkHistoryChanged':False,
+        'transferBoundary':'Existing loopback Studio HTTP business route /api/storage/backup; server-owned HF adapter credentials',
+        'workflowCard':result.get('workflowCard'),'approval':'Agent QA only; no human approval, selection or publication'}
+    target=DATA/'reports/character-packages'/(identifier+'-closeout.json');atomic_json(target,receipt)
+    return receipt
+
+def closeout_checkpoint(receipt):
+    """Export final authored bytes and read back once, without touching benchmark history."""
+    mappings={'tools/cast_ops.py':'industrial-cast_ops.py',
+        'tools/test_character_closeout.py':'test_character_closeout.py',
+        'workflows/toolchain.json':'industrial-toolchain.json',
+        'workflows/character-creation.md':'industrial-character-creation.md',
+        'workflows/character-context-index.md':'industrial-character-context-index.md',
+        'workflows/industrial-storage.md':'industrial-storage.md'}
+    files=[]
+    for source,target in mappings.items():
+        src=DATA/source; dst=DATA/'exports'/target;dst.write_bytes(src.read_bytes())
+        for path in (src,dst):
+            files.append({'path':str(path.relative_to(DATA)),'sha256':hashlib.sha256(path.read_bytes()).hexdigest(),'bytes':path.stat().st_size})
+    for name in ('reports/character-closeout-focused-proof.json','reports/character-packages/'+receipt['entityId']+'-closeout.json'):
+        path=DATA/name;files.append({'path':name,'sha256':hashlib.sha256(path.read_bytes()).hexdigest(),'bytes':path.stat().st_size})
+    target=DATA/'exports/character-closeout-source-receipt.json'
+    atomic_json(target,{'observedUTC':datetime.now(timezone.utc).isoformat(),'files':files,
+        'localDraftComplete':receipt['localDraftComplete'],'allRemoteVerified':receipt['allRemoteVerified'],
+        'focusedProof':'reports/character-closeout-focused-proof.json','credentialsIncluded':False,
+        'benchmarkHistoryChanged':False,'generationTimeImprovementClaimed':False,'secondBenchmarkPerformed':False})
+    for row in files:
+        path=DATA/row['path'];assert path.stat().st_size==row['bytes'] and hashlib.sha256(path.read_bytes()).hexdigest()==row['sha256']
+    return str(target)
+
 def rank_reference_pack(references):
     """Rank/cap native image inputs using saved tool policy; retain all omissions."""
     policy=json.loads((DATA/'workflows/toolchain.json').read_text()).get('imageGeneration',{})
@@ -153,7 +253,7 @@ def checkpoint(runtime, store, batch, identifiers):
     new+=f'Finished: '+', '.join(identifiers)+f'. Exact prompts, source/proposal distinctions, visual QA, stages and timings remain in character folders and standard receipts. Existing artwork preserved. [Batch summary](../reports/cast-{batch}-summary.json). [Prior checkpoint](../reports/cast-before-{batch}-checkpoint.md). Notetaker unavailable; durable Markdown fallback.\n\nUse `python -B tools/cast_ops.py finish <entity>` after real visual QA, then `python -B tools/cast_ops.py checkpoint <batch> <entity> ...` once per batch. Receipt IDs/hashes are read programmatically; curated evidence is retained.\n\n'+retained
     inventory_paths = complete_inventory(store, run) if not remaining else []
     if inventory_paths:
-        new += '\n[Complete 21-entry final-stage inventory](../reports/cast-complete-inventory.md). [Full source, prompt, reference, attempt and timing receipt inventory](../reports/cast-complete-inventory.json).\n'
+        new += '\n[Complete '+str(result['producedCount'])+'-entry draft-stage inventory](../reports/cast-complete-inventory.md). [Full source, prompt, reference, attempt and timing receipt inventory](../reports/cast-complete-inventory.json).\n'
     if len(new.encode())>10000:raise ValueError('Contract exceeds bounded context limit')
     contract.write_text(new)
     defaults=DATA/'exports/cast-reference-defaults.json'
@@ -185,6 +285,10 @@ def main():
     command, *args = sys.argv[1:]
     if command == 'industrial-checkpoint':
         print(json.dumps(industrial_checkpoint(store)))
+    elif command == 'closeout':
+        result=closeout(runtime,store,args[0])
+        result['sourceExportReceipt']=closeout_checkpoint(result)
+        print(json.dumps(result))
     elif command in ('resolve', 'backup', 'restore-replica', 'prepare', 'outcome'):
         if command in ('prepare', 'outcome'):
             body = json.loads(Path(args[0]).read_text())

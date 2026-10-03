@@ -1,0 +1,82 @@
+{
+  "observedUTC": "2026-10-03T20:57:47.263247+00:00",
+  "files": [
+    {
+      "path": "tools/cast_ops.py",
+      "sha256": "f02f2b10ae61da53cce9404f22941b4a4d8c360aa206061f14e70a70228b2f45",
+      "bytes": 33182
+    },
+    {
+      "path": "exports/industrial-cast_ops.py",
+      "sha256": "f02f2b10ae61da53cce9404f22941b4a4d8c360aa206061f14e70a70228b2f45",
+      "bytes": 33182
+    },
+    {
+      "path": "tools/test_character_closeout.py",
+      "sha256": "7b1e3ae9a1e171027d77b186b6fdf1b9686e541e33db6a3dec96d0d3aa493de2",
+      "bytes": 3874
+    },
+    {
+      "path": "exports/test_character_closeout.py",
+      "sha256": "7b1e3ae9a1e171027d77b186b6fdf1b9686e541e33db6a3dec96d0d3aa493de2",
+      "bytes": 3874
+    },
+    {
+      "path": "workflows/toolchain.json",
+      "sha256": "f336ab6f67e95821067c15297f6ee7bcc5ff4f10e6467b528e1e15edde811334",
+      "bytes": 2541
+    },
+    {
+      "path": "exports/industrial-toolchain.json",
+      "sha256": "f336ab6f67e95821067c15297f6ee7bcc5ff4f10e6467b528e1e15edde811334",
+      "bytes": 2541
+    },
+    {
+      "path": "workflows/character-creation.md",
+      "sha256": "34ec7d07e36dd5cfdce96f0c02c4471a63e22ab9ff599f9b05e061b1f9c80fd2",
+      "bytes": 21960
+    },
+    {
+      "path": "exports/industrial-character-creation.md",
+      "sha256": "34ec7d07e36dd5cfdce96f0c02c4471a63e22ab9ff599f9b05e061b1f9c80fd2",
+      "bytes": 21960
+    },
+    {
+      "path": "workflows/character-context-index.md",
+      "sha256": "7661aa295d72e0d0e1313f52bac1be5a960a7fb2ae254ed8147d1d4230eb6830",
+      "bytes": 2959
+    },
+    {
+      "path": "exports/industrial-character-context-index.md",
+      "sha256": "7661aa295d72e0d0e1313f52bac1be5a960a7fb2ae254ed8147d1d4230eb6830",
+      "bytes": 2959
+    },
+    {
+      "path": "workflows/industrial-storage.md",
+      "sha256": "1b60c461a28ad3cb306f1108520b7115dd1a5a03e103fe24139a00c560ed8148",
+      "bytes": 8683
+    },
+    {
+      "path": "exports/industrial-storage.md",
+      "sha256": "1b60c461a28ad3cb306f1108520b7115dd1a5a03e103fe24139a00c560ed8148",
+      "bytes": 8683
+    },
+    {
+      "path": "reports/character-closeout-focused-proof.json",
+      "sha256": "bd1968572afde16e98c5b5c1569a15bd961510f7b5349e64a4b6ec5219a39ba9",
+      "bytes": 602
+    },
+    {
+      "path": "reports/character-packages/badger-visitor-closeout.json",
+      "sha256": "a4737b36692750d69ae332b851ef8df741caaf11520cbe38b80a95e178d99fcb",
+      "bytes": 1474
+    }
+  ],
+  "localDraftComplete": true,
+  "allRemoteVerified": true,
+  "focusedProof": "reports/character-closeout-focused-proof.json",
+  "credentialsIncluded": false,
+  "benchmarkHistoryChanged": false,
+  "generationTimeImprovementClaimed": false,
+  "secondBenchmarkPerformed": false
+}

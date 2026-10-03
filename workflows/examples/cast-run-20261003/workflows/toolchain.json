@@ -40,7 +40,8 @@
     "toolPath": "tools/cast_ops.py",
     "finish": "python -B tools/cast_ops.py finish <entity>",
     "checkpoint": "python -B tools/cast_ops.py checkpoint <batch> <entity> ...",
-    "authority": "Durable draft metadata; visual QA required, no approval or publication"
+    "authority": "Durable draft metadata; visual QA required, no approval or publication",
+    "closeout": "python -B tools/cast_ops.py closeout <entity>"
   },
   "imageGeneration": {
     "tool": "image_gen.imagegen",
@@ -64,6 +65,7 @@
     "backup": "python -B tools/cast_ops.py backup <assetId>",
     "restore": "python -B tools/cast_ops.py restore-replica <assetId>",
     "outcome": "python -B tools/cast_ops.py outcome <outcome.json>",
-    "checkpoint": "python -B tools/cast_ops.py industrial-checkpoint"
+    "checkpoint": "python -B tools/cast_ops.py industrial-checkpoint",
+    "closeout": "python -B tools/cast_ops.py closeout <entity>"
   }
 }
