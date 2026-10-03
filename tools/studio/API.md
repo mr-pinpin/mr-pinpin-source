@@ -95,10 +95,30 @@ See [STABLE-RUNTIME.md](STABLE-RUNTIME.md) for release creation, immutable build
 
 `GET /api/state?revision=N` returns the closest project snapshot at or before N, replacing `project` and `revision` and adding `readOnly:true,review:{requestedRevision,snapshotRevision,liveRevision,liveCollections:["assets","jobs","storyboards","events"]}`. Those listed collections remain live. Out-of-range revisions fail. Clients must disable mutations when pinned; normal live state remains unchanged.
 
-Conversation messages additionally accept optional numeric `projectRevision`. Context comes from the same historical snapshot selection and records `context.reviewSnapshot/context.review`. Such turns use a read-only sandbox and cannot change project/UI files. Live turns allow user-requested UI work only inside the configured `--workspace-source` directory, alongside the existing external data root. Instructions and sandbox scope are refreshed every turn; comic approval gates do not apply to UI improvements.
+Conversation messages additionally accept optional numeric `projectRevision`. Context comes from the same historical snapshot selection and records `context.reviewSnapshot/context.review`. Such turns use a read-only sandbox and cannot change project/UI/business files. Live turns allow user-requested UI work inside `--workspace-source` and business Python changes inside `--business-source`, alongside the existing external data root. Instructions and sandbox scope are refreshed every turn; comic approval gates do not apply to UI improvements.
 
 Pinned approval review: `GET /api/plan?chapterId=ID&revision=N` computes approval against the same historical project snapshot and adds readOnly/review markers. Without revision it reads the live project.
 
 Conversation scope migration: Studio appends its trusted developer policy through thread/inject_items before turn/start when the policy hash or thread changes. It preserves the saved thread/transcript. Internal instructionPolicy metadata is not exposed in GET /api/conversation; a failed injection returns an asynchronous conversation error with code policy_update_failed and starts no model turn.
 
-Policy version3 / full UI source: the configured workspace source contains normal chat presentation, chat-composer.js keyboard behavior and visual workspace modules. The existing writable roots and typed API boundary are unchanged. Only actual transport/recovery/iframe kernel, backend and immutable artifacts remain protected. The trusted policy explicitly supersedes older saved-thread claims that all composer/conversation controls were stable core. No keyboard behavior change is implied by this policy update.
+Policy version4 / reloadable business source: the configured UI source contains normal chat presentation, composer keyboard behavior and visual workspace modules. The separate configured business source contains normal Python context, attachment, plan, media and job rules. Only these explicit source roots are writable, alongside external data. Transport/thread protocol, durable transcript machinery, Store persistence primitives, origin/authority checks and immutable kernel artifacts remain protected. The trusted policy supersedes older saved-thread blanket backend prohibitions without resetting history. This policy update implements no requested attachment or keyboard behavior itself.
+
+Conversation context assembly calls `BusinessRuntime.invoke("selected_context", store, body)` for each send. The invocation keeps its module version until it finishes; no mutable global business module is retained by Conversation. The active module may change on subsequent requests without restarting the server or Codex thread. Failed invocations are not replayed. Kernel releases exclude editable business source and must configure the runtime explicitly; direct development imports remain compatible with the source package.
+
+The kernel derives historical-review authority from validated `projectRevision`, never from a
+business-returned flag. It validates conversation input shape and bounds, permits only text plus
+at most12 registered native images, and verifies each image path against Store. Invalid business
+output rolls back inside the module lease; its native inputs never reach Codex. The kernel then
+uses minimal recovery context to keep the conversation available, without replaying the business call.
+Business policy cannot grant a historical review writable sandbox access.
+
+When invoked from a frozen kernel, the agent CLI receives both `--business-source SOURCE` and
+`--runtime-dir RUNTIME`. It reads the active verified business build without writing runtime
+artifacts or relying on excluded top-level business imports.
+
+If context assembly reports `business_unavailable`, `business_call` or `invalid_business_context`,
+the kernel sends minimal recovery context containing the validated user message, selected IDs,
+requested review revision and only explicitly registered attachments. It omits automatic product
+context and records a bounded `message.context.contextDiagnostic` so the agent can repair business
+source. Expected input errors still return400/404; no business mutation is retried. Transport,
+thread history, interrupt and read-only review remain available even with no working business build.

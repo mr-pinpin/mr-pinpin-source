@@ -6,15 +6,16 @@ import threading
 from pathlib import Path
 from model import StudioError, now, new_id
 from store import atomic_json
-from conversation_context import POLICY_VERSION, selected_context, instructions
+from conversation_context import POLICY_VERSION, selected_context, instructions, validate_context, state_at_revision, recovery_context
 from conversation_transport import AppServer, AgentUnavailable
 
 ACTIVE = {"connecting", "running", "interrupting"}
 
 
 class Conversation:
-    def __init__(self, store, transport_factory=AppServer, workspace_source=None):
+    def __init__(self, store, transport_factory=AppServer, workspace_source=None, business_runtime=None):
         self.store = store
+        self.business_runtime = business_runtime
         self.workspace_source = Path(workspace_source).resolve() if workspace_source else None
         self.path = store.root / "conversation.json"
         self.lock = threading.RLock()
@@ -52,7 +53,20 @@ class Conversation:
                 "cursor": cursor}
 
     def send(self, body):
-        text, scope, inputs = selected_context(self.store, body)
+        authoritative_state = state_at_revision(self.store, body.get("projectRevision"))
+        check = lambda result: validate_context(self.store, body, result, authoritative_state)
+        try:
+            text, scope, inputs = (self.business_runtime.invoke("selected_context", self.store, body, validate=check)
+                                   if self.business_runtime else check(selected_context(self.store, body)))
+        except StudioError as exc:
+            if not self.business_runtime or exc.code not in {
+                    "business_unavailable", "business_call", "invalid_business_context"}:
+                raise
+            text, scope, inputs = check(recovery_context(self.store, body, authoritative_state, exc.code))
+        scope = dict(scope)
+        scope.update(projectRevision=authoritative_state["revision"],
+                     reviewSnapshot=bool(authoritative_state.get("readOnly")),
+                     review=authoritative_state.get("review"))
         with self.lock:
             if self.closed:
                 raise StudioError("Studio is shutting down", "unavailable", 503)
@@ -73,7 +87,9 @@ class Conversation:
         try:
             if self.transport is None or self.transport.process.poll() is not None:
                 self.transport = self.transport_factory(self.notify, self.store.root)
-            policy = instructions(self.store, self.workspace_source, review)
+            policy = instructions(self.store, self.workspace_source, review,
+                                  self.business_runtime.source if self.business_runtime else None,
+                                  getattr(self.business_runtime, "root", None))
             params = {"cwd": str(self.store.root), "approvalPolicy": "never",
                       "sandbox": "read-only" if review else "workspace-write",
                       "developerInstructions": policy}
@@ -116,6 +132,8 @@ class Conversation:
             writable = [str(self.store.root)]
             if self.workspace_source:
                 writable.append(str(self.workspace_source))
+            if self.business_runtime:
+                writable.append(str(Path(self.business_runtime.source).resolve()))
             sandbox = {"type": "readOnly", "networkAccess": False} if review else {
                 "type": "workspaceWrite", "writableRoots": writable,
                 "networkAccess": False, "excludeSlashTmp": True, "excludeTmpdirEnvVar": True}

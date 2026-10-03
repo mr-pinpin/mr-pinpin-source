@@ -74,3 +74,26 @@ lane. Browser checks must exercise actual panorama/cube pixels, video seeking,
 mobile layout and cleanup; a syntactic check alone is insufficient.
 
 Verified on Mini sidecar http://127.0.0.1:18826 (Air tunnel http://127.0.0.1:18825): eight focused tests, actual Chrome panorama/cube rotation, video seeking with206 byte ranges, correct image attachment and390px mobile layout. Six-direction cube-to-sphere screenshot differences averaged0.587–1.178 RGB levels out of255, confirming declared projection mapping. This checks the renderer, not new visual approval of archived art. Evidence is retained in the external pinpin-studio-conversation-20261002 report directory.
+
+## Editable business logic and durable conversation
+
+The configured business package owns normal context/attachment selection and exported application
+rules. The immutable conversation kernel calls `BusinessRuntime.invoke("selected_context", store,
+body)` for each send, holding that invocation's version while it assembles context. Valid source
+changes activate within the same server process; syntax, API or self-test failures keep the previous
+working package. An invocation failure rolls back without replaying side effects.
+
+Agent policy v4 explicitly supersedes historic blanket backend bans for the configured business
+source. Its exact directory joins the data and UI writable roots. Transport/thread protocol, durable
+transcript machinery, Store persistence, origin/authority checks and immutable builds remain
+protected. Historical project review stays read-only across every root. Trusted policy injection
+migrates the existing thread; it never fabricates a user message or resets the transcript.
+
+This is capability plumbing only. Normal attachment selection and keyboard behavior are preserved;
+the agent implements later user-requested rules through the editable source and reports the actual
+active hash. Comic preproduction approval does not gate business development.
+
+If no valid business package remains, minimal kernel context keeps chat usable for repair. It
+contains the validated raw request, selection identifiers, authoritative revision/review state and
+explicit registered attachments only, with a clear recovery diagnostic. Automatic business context
+is omitted. Failed business calls are never replayed, and normal invalid-request errors are retained.

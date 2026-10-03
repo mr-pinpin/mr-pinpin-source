@@ -3,15 +3,20 @@
 import argparse
 import json
 import sys
+# Frozen CLI reads immutable bundles without attempting bytecode writes.
+sys.dont_write_bytecode = True
 from pathlib import Path
 from model import StudioError
 from store import Store, atomic_json
-from jobs import claim_job, complete_job, fail_job, reply, inbox
+from business_runtime import BusinessRuntime
+from release import stable_release
 
 
 def main(argv=None):
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--data-dir", required=True)
+    parser.add_argument("--business-source", help="Editable business package; required with frozen CLI")
+    parser.add_argument("--runtime-dir", help="Shared immutable runtime artifact directory")
     parser.add_argument("--media-root", action="append", default=[])
     sub = parser.add_subparsers(dest="command", required=True)
     sub.add_parser("jobs")
@@ -48,11 +53,30 @@ def main(argv=None):
             command.add_argument("--feedback-id")
     args = parser.parse_args(argv)
     store = Store(args.data_dir, args.media_root)
+    runtime = None
     try:
+        frozen = stable_release(Path(__file__).parent) != "development"
+        if frozen and not args.business_source:
+            raise StudioError("Frozen CLI requires --business-source and --runtime-dir")
+        source = Path(args.business_source or Path(__file__).parent / "business").expanduser().resolve()
+        if args.runtime_dir:
+            directory = Path(args.runtime_dir).expanduser().resolve()
+            if any(directory.is_relative_to(root) or root.is_relative_to(directory) for root in (source, store.root)):
+                raise StudioError("Runtime artifacts must be outside writable roots")
+            # Only the server may build/activate business revisions. The agent CLI
+            # reads its verified active bundle without touching runtime state.
+            runtime = BusinessRuntime(None, directory, watch=False, read_only=True)
+            invoke = runtime.invoke
+        elif frozen or args.business_source:
+            raise StudioError("Configured business CLI requires --runtime-dir")
+        else:
+            # Unfrozen development CLI compatibility; no artifact directory writes.
+            import business
+            invoke = lambda name, *values: getattr(business, name)(*values)
         if args.command == "jobs":
             result = {"jobs": store.read()["jobs"]}
         elif args.command == "inbox":
-            result = inbox(store)
+            result = invoke("inbox", store)
         elif args.command == "history":
             result = {"revisions": store.project_history()}
         elif args.command == "export-project":
@@ -62,16 +86,16 @@ def main(argv=None):
         elif args.command == "import-asset":
             result = {"asset": store.import_asset(args.path, args.name, review_status=args.review_status)}
         elif args.command == "claim":
-            result = {"job": claim_job(store, args.id, args.agent)[0]}
+            result = {"job": invoke("claim_job", store, args.id, args.agent)[0]}
         elif args.command == "fail":
-            result = {"job": fail_job(store, args.id, args.agent, args.reason)[0]}
+            result = {"job": invoke("fail_job", store, args.id, args.agent, args.reason)[0]}
         elif args.command == "reply":
-            result = {"target": reply(store, args.id, args.agent, args.text, args.feedback_id)[0]}
+            result = {"target": invoke("reply", store, args.id, args.agent, args.text, args.feedback_id)[0]}
         else:
             text = Path(args.text_file).read_text() if args.text_file else None
             prompt = Path(args.prompt_file).read_text() if args.prompt_file else None
             references = json.loads(Path(args.references_file).read_text()) if args.references_file else None
-            result = {"job": complete_job(store, args.id, args.agent, args.image, text, args.scene_id,
+            result = {"job": invoke("complete_job", store, args.id, args.agent, args.image, text, args.scene_id,
                 prompt, references, args.used_job_prompt, args.used_job_references, args.tool, args.visual_pass)[0]}
         print(json.dumps(result, ensure_ascii=False, indent=2))
         return 0
@@ -79,6 +103,9 @@ def main(argv=None):
         error = exc.payload() if isinstance(exc, StudioError) else {"error": {"code": "cli_input", "message": str(exc)}}
         print(json.dumps(error), file=sys.stderr)
         return 1
+    finally:
+        if runtime:
+            runtime.close()
 
 
 if __name__ == "__main__":

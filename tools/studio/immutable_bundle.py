@@ -18,19 +18,24 @@ class BundleError(ValueError):
     pass
 
 
-def capture(source, extensions=None):
+def capture(source, extensions=None, exclude=()):
     source = Path(source).resolve()
     if not source.is_dir():
         raise BundleError("Workspace source directory is unavailable")
     files = {}
     total = 0
+    def excluded(path):
+        relative = path.relative_to(source).as_posix()
+        return any(relative == item or relative.startswith(item + "/") for item in exclude)
+
     for directory, dirs, names in os.walk(source, followlinks=False):
-        dirs[:] = sorted(d for d in dirs if d not in IGNORED and not d.startswith("."))
+        dirs[:] = sorted(d for d in dirs if d not in IGNORED and not d.startswith(".")
+                         and not excluded(Path(directory) / d))
         for name in dirs:
             if (Path(directory) / name).is_symlink():
                 raise BundleError("Symlinks are not allowed in source bundles")
         for name in sorted(names):
-            if name in IGNORED or name.startswith(".") or name.endswith((".pyc", ".pyo")):
+            if name in IGNORED or name.startswith(".") or name.endswith((".pyc", ".pyo")) or excluded(Path(directory) / name):
                 continue
             path = Path(directory) / name
             relative = path.relative_to(source).as_posix()

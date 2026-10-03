@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Freeze or verify complete Studio runtimes as immutable content-addressed releases."""
+"""Freeze or verify the Studio transport/persistence/loader kernel as immutable content-addressed releases."""
 import argparse
 import json
 from pathlib import Path
@@ -12,7 +12,8 @@ def freeze(source, runtime_dir):
     runtime_dir = Path(runtime_dir).expanduser().resolve()
     if runtime_dir.is_relative_to(source) or source.is_relative_to(runtime_dir):
         raise BundleError("Runtime artifacts must be separate from Studio source")
-    files = capture(source)
+    # Editable product trees are independently versioned and are never traversed.
+    files = capture(source, exclude=("business", "workspace-dev", "web/workspace-dev", "tests", "web/tests"))
     for required in ("server.py", "conversation.py", "web/index.html"):
         if required not in files:
             raise BundleError("Incomplete stable source: " + required)
@@ -20,7 +21,7 @@ def freeze(source, runtime_dir):
     path = runtime_dir / "stable-releases" / manifest["hash"]
     return {"stableRelease": manifest["hash"], "path": str(path), "server": str(path / "server.py"),
             "files": manifest["fileCount"], "bytes": manifest["bytes"],
-            "note": "Launch server.py from this immutable path, passing --workspace-source, --runtime-dir and --data-dir."}
+            "note": "Launch server.py from this immutable path, passing --business-source, --workspace-source, --runtime-dir and --data-dir."}
 
 
 def stable_release(source):
