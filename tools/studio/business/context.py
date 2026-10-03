@@ -55,11 +55,20 @@ def selected_context(store, body):
     approval = plan_status(project, chapter) if chapter else None
     chapter_context = None
     if chapter:
-        chapter_context = {key: chapter.get(key) for key in ("id", "title", "synopsis", "continuity")}
-        chapter_context["script"] = (chapter.get("script", "")[:24000] if not scenes else "Read from Store if needed")
-        chapter_context["sceneIndex"] = [{"id": scene["id"], "title": scene.get("title", ""),
-                                           "action": scene.get("action", "")[:160]}
-                                          for scene in chapter.get("scenes", [])]
+        # Selection, not message wording, determines detail. Full scripts/indexes
+        # remain in Store instead of accumulating again in every conversational turn.
+        chapter_context = {key: chapter.get(key) for key in ("id", "title")}
+        for key in ("synopsis", "continuity"):
+            value = chapter.get(key)
+            chapter_context[key] = value[:1200] if isinstance(value, str) else value
+        chapter_context["sceneCount"] = len(chapter.get("scenes", []))
+        chapter_context["sceneIndexPreview"] = [
+            {"id": scene["id"], "title": scene.get("title", ""), "action": scene.get("action", "")[:160]}
+            for scene in chapter.get("scenes", [])[:5]]
+        chapter_context["details"] = (
+            "This is a bounded preview, not the full chapter. Read the full script and scene index "
+            "from Store on demand. For this exact project revision use "
+            "state_at_revision(store, projectRevision)['project']['chapters'] and select this chapter id.")
         neighbors = []
         for index, scene in enumerate(chapter.get("scenes", [])):
             if scene["id"] in scene_ids:
