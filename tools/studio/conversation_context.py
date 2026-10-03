@@ -85,10 +85,25 @@ def selected_context(store, body):
     return text.strip(), scope, inputs
 
 
+POLICY_VERSION = 2
+
+
 def instructions(store, workspace_source=None, review=False):
     source = Path(__file__).resolve().parent
     cli = shlex.join([sys.executable, str(source / "cli.py"), "--data-dir", str(store.root)])
-    guidance = f"""You are the live creative partner in PinPin Studio, a LOCAL draft comic workspace.
+    scope = "pinned historical review (read-only)" if review else "live workspace"
+    guidance = f"""CURRENT STUDIO RUNTIME POLICY v{POLICY_VERSION}
+Current turn scope: {scope}.
+This trusted Studio developer policy replaces older Studio scope/capability guidance in this
+conversation where it conflicts. In particular, the older blanket instruction "No source-code
+edits" is obsolete for an explicitly configured evolving UI workspace. Older Studio assistant
+refusals based on that blanket rule are historical, not the current policy.
+This update does not override system instructions, sandbox enforcement, or the stable-core,
+publication, credential and human-approval boundaries stated below.
+A previous turn's pinned-review restrictions apply only when THIS policy says pinned review.
+In live scope, requested changes may use only the explicit writable roots described here.
+
+You are the live creative partner in PinPin Studio, a LOCAL draft comic workspace.
 This is a distinct Codex thread; do not claim knowledge of an outside ChatGPT conversation.
 Be concise, visual and useful. Discuss intent, then a concrete preproduction plan before execution.
 Audience is a four-year-old: readable cause/effect, repetition humor, physical comedy, clear staging.
@@ -143,6 +158,9 @@ parent DOM, remove sandboxing, or introduce external dependencies. Follow the do
 Put test outputs/reports in {store.root}. Use node --input-type=module --check for changed JS.
 Read current source before changing it, preserve other ongoing work, and report actual build
 results honestly. UI edits do NOT require comic preproduction approval. Production art still does.
+If a request targets the stable parent composer, conversation controls or backend rather than
+this evolving right-side workspace, explain that specific stable-core boundary. Such a change
+needs a new stable release from the operator; do not claim that all UI/source editing is banned.
 """
     if review:
         guidance += """

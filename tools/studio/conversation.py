@@ -1,11 +1,12 @@
 """Durable local conversation with one persistent Codex app-server thread."""
 import copy
+import hashlib
 import json
 import threading
 from pathlib import Path
 from model import StudioError, now, new_id
 from store import atomic_json
-from conversation_context import selected_context, instructions
+from conversation_context import POLICY_VERSION, selected_context, instructions
 from conversation_transport import AppServer, AgentUnavailable
 
 ACTIVE = {"connecting", "running", "interrupting"}
@@ -46,6 +47,7 @@ class Conversation:
             state = copy.deepcopy(self.state)
         events = state.pop("events")
         cursor = state.pop("cursor")
+        state.pop("instructionPolicy", None)
         return {"conversation": state, "events": [e for e in events if e["seq"] > after],
                 "cursor": cursor}
 
@@ -67,17 +69,20 @@ class Conversation:
             return self.snapshot()
 
     def _start(self, inputs, message_id, review=False):
+        phase = "connect"
         try:
             if self.transport is None or self.transport.process.poll() is not None:
                 self.transport = self.transport_factory(self.notify, self.store.root)
+            policy = instructions(self.store, self.workspace_source, review)
             params = {"cwd": str(self.store.root), "approvalPolicy": "never",
                       "sandbox": "read-only" if review else "workspace-write",
-                      "developerInstructions": instructions(self.store, self.workspace_source, review)}
+                      "developerInstructions": policy}
             with self.lock:
                 thread_id = self.state["threadId"]
             if thread_id:
                 params["threadId"] = thread_id
-            # Resume on every turn so changed UI capabilities/review scope cannot go stale.
+            # Resume can rejoin an already loaded thread without replacing its history.
+            # A durable developer policy item below updates model-visible scope explicitly.
             response = self.transport.request("thread/resume" if thread_id else "thread/start", params)
             with self.lock:
                 self.state["threadId"] = response["thread"]["id"]
@@ -88,6 +93,26 @@ class Conversation:
                     self._finish("interrupted")
                     return
                 thread_id = self.state["threadId"]
+            phase = "policy"
+            policy_hash = hashlib.sha256(policy.encode()).hexdigest()
+            with self.lock:
+                applied = self.state.get("instructionPolicy") or {}
+                needs_policy = applied.get("threadId") != thread_id or applied.get("sha256") != policy_hash
+            if needs_policy:
+                self.transport.request("thread/inject_items", {
+                    "threadId": thread_id,
+                    "items": [{"type": "message", "role": "developer",
+                               "content": [{"type": "input_text", "text": policy}]}]})
+                # Persist only after upstream confirms the trusted item was appended.
+                with self.lock:
+                    self.state["instructionPolicy"] = {"threadId": thread_id, "sha256": policy_hash,
+                        "version": POLICY_VERSION, "scope": "review" if review else "live", "updatedAt": now()}
+                    self._save()
+            with self.lock:
+                if self.cancelled or self.closed:
+                    self._finish("interrupted")
+                    return
+            phase = "turn"
             writable = [str(self.store.root)]
             if self.workspace_source:
                 writable.append(str(self.workspace_source))
@@ -111,11 +136,15 @@ class Conversation:
                 self.transport.request("turn/interrupt", {"threadId": thread_id, "turnId": turn_id})
         except Exception:
             with self.lock:
-                self._finish("error", {"code": "agent_unavailable",
-                    "message": "Local Codex is unavailable. Check the Mac mini Codex login/model, then send again."})
-            if self.transport:
-                self.transport.close()
+                error = {"code": "policy_update_failed",
+                         "message": "Studio could not refresh this conversation's permissions. No turn was started; try again."} if phase == "policy" else {
+                         "code": "agent_unavailable",
+                         "message": "Local Codex is unavailable. Check the Mac mini Codex login/model, then send again."}
+                failed_transport = self.transport
                 self.transport = None
+                self._finish("error", error)
+            if failed_transport:
+                failed_transport.close()
 
     def _assistant(self, identifier, turn_id):
         for message in self.state["messages"]:
