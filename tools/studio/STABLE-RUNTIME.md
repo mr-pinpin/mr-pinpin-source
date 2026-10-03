@@ -105,17 +105,45 @@ Read [FRAME-PROTOCOL.md](web/FRAME-PROTOCOL.md) for typed RPC details.
 Private APIs/assets have no wildcard CORS; only immutable UI static files do.
 Child images/video/WebGL use parent-authorized binary blobs.
 
+## Reloadable trusted creative policy
+
+The business package may export pure creative_policy(), returning a nonempty
+string of at most 16,000 characters. The loader validates the optional export
+before activation and on invocation. The conversation kernel appends its result
+as trusted developer instructions, separate from user/project context data.
+
+Creative workflow is product code: ordinary local draft generation follows the
+original action request without a second confirmation or mandatory approval
+button. The business policy owns the exact workflow wording, including any
+user-chosen review checkpoint after a generated draft. Kernel instructions do
+not freeze the old preproduction button gate. Existing plan approval records
+remain data; they are not silently fabricated or broadened into publication.
+
+Each turn reads the active export, computes the complete developer-policy hash,
+and injects changed policy into the same resumed thread before turn/start.
+A failed pure policy read may read the newly rolled-back active package once;
+no mutable product operation is replayed. Missing/unavailable policy uses
+conservative recovery guidance: discussion and requested repair remain possible,
+while production waits for a usable workflow policy. Invalid candidates keep the
+last valid policy. No business policy can grant extra filesystem, network,
+publication or pinned-review authority.
+
+Tests verify same-thread policy replacement, unchanged-kernel hash after policy
+source edits, no trust elevation from user text, valid rollback, conservative
+missing-export recovery and preserved review sandbox restrictions.
+
 ## Agent scope and saved reviews
 
 The agent may edit exactly the configured data/UI/business writable roots.
 Immutable kernel and runtime artifacts stay outside those roots. User-requested
-UI/product-code work needs no creative production-plan approval. Publishing and
-creative approval gates remain unchanged.
+UI/product-code work stays within those roots. Publication, credential and pinned-review
+authority remain kernel-owned. Product creative workflow lives in reloadable business policy.
 
 Current policy is reapplied on each resumed turn using thread/inject_items
-before turn/start, superseding obsolete same-thread bans. Policy version 4
-removes the blanket business-backend prohibition while preserving kernel
-authority. Permission follows actual source boundaries. Injection failure
+before turn/start, superseding obsolete same-thread bans. Policy version 5
+composes kernel authority with the active trusted business creative policy.
+Its content hash changes when the business policy changes, so the next turn of
+the same thread receives the update without a kernel release or conversation reset. Permission follows actual source boundaries. Injection failure
 starts no turn; saved thread/transcript/context are preserved.
 
 GET /api/state?revision=N returns the closest saved project snapshot at or before

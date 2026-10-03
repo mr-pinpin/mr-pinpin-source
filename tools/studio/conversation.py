@@ -6,7 +6,7 @@ import threading
 from pathlib import Path
 from model import StudioError, now, new_id
 from store import atomic_json
-from conversation_context import POLICY_VERSION, selected_context, instructions, validate_context, state_at_revision, recovery_context
+from conversation_context import POLICY_VERSION, selected_context, instructions, validate_context, state_at_revision, recovery_context, validate_creative_policy
 from conversation_transport import AppServer, AgentUnavailable
 
 ACTIVE = {"connecting", "running", "interrupting"}
@@ -82,6 +82,27 @@ class Conversation:
             threading.Thread(target=self._start, args=(inputs, message["id"], bool(scope.get("reviewSnapshot"))), daemon=True).start()
             return self.snapshot()
 
+    def _creative_policy(self):
+        """Read trusted workflow policy; recovery must survive a broken export."""
+        if self.business_runtime is None:
+            try:
+                from business import creative_policy
+                return validate_creative_policy(creative_policy())
+            except (Exception, SystemExit):
+                return None
+        runtime = self.business_runtime
+        for attempt in range(2):
+            before = runtime.snapshot().get("active") if hasattr(runtime, "snapshot") else None
+            try:
+                return runtime.invoke("creative_policy", validate=validate_creative_policy)
+            except (Exception, SystemExit):
+                after = runtime.snapshot().get("active") if hasattr(runtime, "snapshot") else None
+                # Only a pure policy read may be retried after an actual rollback.
+                # Product context/routes and their mutations are never replayed.
+                if attempt == 0 and after and after != before:
+                    continue
+                return None
+
     def _start(self, inputs, message_id, review=False):
         phase = "connect"
         try:
@@ -89,7 +110,8 @@ class Conversation:
                 self.transport = self.transport_factory(self.notify, self.store.root)
             policy = instructions(self.store, self.workspace_source, review,
                                   self.business_runtime.source if self.business_runtime else None,
-                                  getattr(self.business_runtime, "root", None))
+                                  getattr(self.business_runtime, "root", None),
+                                  creative_policy=self._creative_policy())
             params = {"cwd": str(self.store.root), "approvalPolicy": "never",
                       "sandbox": "read-only" if review else "workspace-write",
                       "developerInstructions": policy}

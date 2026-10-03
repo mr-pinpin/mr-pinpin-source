@@ -53,8 +53,16 @@ class ConversationTests(unittest.TestCase):
         text, scope, inputs = selected_context(self.store, {
             "text": "Review framing", "chapterId": "bath", "sceneIds": ["one"]})
         self.assertEqual(scope["projectRevision"], self.store.read()["revision"])
-        self.assertEqual(scope["assetIds"][0], self.first["id"])
-        self.assertEqual(inputs[1]["type"], "localImage")
+        # Preserve the user's explicit-attachment-only context behavior.
+        self.assertEqual(scope["assetIds"], [])
+        self.assertEqual(len(inputs), 1)
+        self.assertIn(self.first["id"], inputs[0]["text"])
+        _, explicit_scope, explicit_inputs = selected_context(self.store, {
+            "text": "Review attached framing", "chapterId": "bath", "sceneIds": ["one"],
+            "assetIds": [self.first["id"]]})
+        self.assertEqual(explicit_scope["assetIds"], [self.first["id"]])
+        self.assertEqual(explicit_inputs[1], {"type": "localImage",
+            "path": str(self.store.asset_path(self.first["id"], self.store.read()))})
         self.assertNotIn("The original manuscript", inputs[0]["text"])
         self.assertNotIn('"scenes": [{"id": "one"', inputs[0]["text"].split('"chapter": ')[1].split('"scenes":')[0])
         for bad in ({"sceneIds": ["missing"], "chapterId": "bath"},
@@ -62,6 +70,15 @@ class ConversationTests(unittest.TestCase):
                     {"sceneIds": "one"}, {"text": ""}):
             with self.assertRaises(StudioError):
                 selected_context(self.store, {"text": "test", **bad})
+
+    def test_native_images_include_only_explicit_registered_attachments(self):
+        text, scope, inputs = selected_context(self.store, {
+            "text": "Review this attachment", "chapterId": "bath", "sceneIds": ["one"],
+            "assetIds": [self.second["id"], self.second["id"]]})
+        self.assertEqual(scope["assetIds"], [self.second["id"]])
+        self.assertEqual(inputs[1:], [{"type": "localImage", "path": str(self.store.asset_path(self.second["id"]))}])
+        context = json.loads(inputs[0]["text"].split("\n", 1)[1].split("\n\nUser message:", 1)[0])
+        self.assertIn(self.first["id"], [asset["id"] for asset in context["references"]])
 
     def test_full_plan_approval_invalidated_by_geometry_not_output(self):
         state = self.store.read()

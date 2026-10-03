@@ -112,7 +112,7 @@ class ConversationPolicyTests(unittest.TestCase):
 
     def test_guidance_allows_normal_composer_but_protects_actual_kernel(self):
         policy = instructions(self.store, self.source)
-        self.assertEqual(POLICY_VERSION, 4)
+        self.assertEqual(POLICY_VERSION, 5)
         self.assertIn("chat-composer.js and its keyboard handlers are ordinary editable UI source", policy)
         self.assertIn("Permission follows the actual source path", policy)
         self.assertIn("Older Studio statements that the normal chat composer", policy)
@@ -129,6 +129,8 @@ class ConversationPolicyTests(unittest.TestCase):
         class Runtime:
             def invoke(runtime, name, *args, validate=None):
                 calls.append(name)
+                if name == "creative_policy":
+                    return "Test product policy."
                 return validate(selected_context(*args))
         runtime = Runtime()
         runtime.source = source
@@ -139,7 +141,7 @@ class ConversationPolicyTests(unittest.TestCase):
         self.c.state["messages"].append(old)
         self.c.state["instructionPolicy"] = {"threadId": "fixture-thread", "sha256": "v3", "version": 3}
         self.send("Change a backend business rule")
-        self.assertEqual(calls, ["selected_context"])
+        self.assertEqual(calls, ["selected_context", "creative_policy"])
         self.assertEqual(self.c.state["messages"][0], old)
         policy = self.injections()[0]["items"][0]["content"][0]["text"]
         self.assertIn("supersedes earlier Studio bans on all backend edits", policy)
@@ -266,7 +268,7 @@ class ConversationPolicyTests(unittest.TestCase):
         self.c.state["messages"].append(old)
         self.send("Change the keyboard shortcut in the normal composer")
         self.assertEqual(len(self.injections()), 1)
-        self.assertEqual(self.c.state["instructionPolicy"]["version"], 4)
+        self.assertEqual(self.c.state["instructionPolicy"]["version"], 5)
         self.assertEqual(self.c.state["messages"][0], old)
         params = [params for method, params in self.c.transport.requests if method == "turn/start"][-1]
         self.assertEqual(params["sandboxPolicy"]["writableRoots"],

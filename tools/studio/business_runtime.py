@@ -118,6 +118,12 @@ class BusinessRuntime:
                 raise BundleError("Business package must export API_VERSION=1, selected_context, route and self_test")
             for export, count in (("selected_context", 2), ("route", 5), ("self_test", 0)):
                 inspect.signature(getattr(module, export)).bind(*([None] * count))
+            # Optional for compatibility with retained packages predating creative policy.
+            if hasattr(module, "creative_policy"):
+                if not callable(module.creative_policy):
+                    raise BundleError("Business creative_policy must be callable")
+                inspect.signature(module.creative_policy).bind()
+                self._validate_creative_policy(module.creative_policy())
             if module.self_test() is False:
                 raise BundleError("Business self_test failed")
         except BaseException:
@@ -182,8 +188,13 @@ class BusinessRuntime:
         finally:
             self.build_lock.release()
 
+    @staticmethod
+    def _validate_creative_policy(value):
+        if not isinstance(value, str) or not value.strip() or len(value) > 16000:
+            raise BundleError("Business creative policy must contain 1–16000 characters")
+
     def invoke(self, name, *args, validate=None):
-        if name not in ("selected_context", "route", "claim_job", "complete_job", "fail_job", "reply", "inbox"):
+        if name not in ("selected_context", "route", "claim_job", "complete_job", "fail_job", "reply", "inbox", "creative_policy"):
             raise StudioError("Unknown business operation", "invalid_request", 400)
         with self.lock:
             handle = self.active
@@ -195,6 +206,8 @@ class BusinessRuntime:
             handle.leases += 1
         try:
             value = getattr(handle.module, name)(*args)
+            if name == "creative_policy":
+                self._validate_creative_policy(value)
             if name == "route" and value is not None and (
                     not isinstance(value, tuple) or len(value) != 2 or
                     type(value[0]) is not int or not 100 <= value[0] <= 599):
