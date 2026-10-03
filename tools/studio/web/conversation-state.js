@@ -9,4 +9,4 @@ export const asset=id=>studio.state?.assets.find(a=>a.id===id);
 export const caption=scene=>title(scene.captions,studio.lang)||scene.action||scene.title||'A moment waiting for words.';
 export const active=()=>['connecting','running','interrupting'].includes(studio.conversation?.status);
 export function notify(message){const n=document.querySelector('#notification');n.textContent=message;n.classList.add('visible');clearTimeout(notify.timer);notify.timer=setTimeout(()=>n.classList.remove('visible'),6500)}
-export async function refresh(){studio.state=await request('/api/state');if(!chapter())studio.chapterId=studio.state.project.activeChapterId||studio.state.project.chapters.find(c=>c.scenes?.length)?.id||studio.state.project.chapters[0]?.id;return studio.state}
+export async function refresh(){studio.state=await request('/api/state'+(studio.route?.rev!==undefined?'?revision='+studio.route.rev:''));if(!chapter())studio.chapterId=studio.state.project.activeChapterId||studio.state.project.chapters.find(c=>c.scenes?.length)?.id||studio.state.project.chapters[0]?.id;return studio.state}

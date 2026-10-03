@@ -84,3 +84,17 @@ New revision jobs can supply `retryOf: previousJob.id`. The parent must exist; a
 `orbit-video` creates a queued handoff for the documented source-still/video workflow, with immutable references and prompt. It does not invoke a paid video service. The worker completes with a text manifest retaining native video identity and review evidence; a reviewer must register new media before it is served. `cubemap` retains its separate successful panorama and location-identity reference requirement.
 
 `POST /api/media/import` accepts `{id}` for a fixed allowlisted archive image. It verifies the pinned hash and registers immutable image bytes, returning `{asset,revision}`. Repeated imports reuse the same asset and revision. Video IDs and filesystem paths are rejected. Spaces uses this action before attaching an archived image to conversation; videos are selected as metadata for explicit frame-based inspection.
+
+## Stable runtime, evolving workspace, and pinned review
+
+See [STABLE-RUNTIME.md](STABLE-RUNTIME.md) for release creation, immutable build semantics, sandbox boundaries and operational commands.
+
+`GET /api/runtime` returns `{stableRelease,workspace:{latest,previous,status,error,url},pollIntervalMs:1000}`. Build hashes are exactly64 lowercase SHA256 hex characters. `latest` and `url` retain the last valid build if new source fails validation. Status is idle/building/ready/error; error is null or `{code,message}`.
+`GET /api/runtime/releases/list` returns `{releases:[{hash,url,createdAt,fileCount,bytes}]}`.
+`GET /workspace-builds/<hash>/<file>` serves only manifest-registered static files with immutable caching and wildcard CORS for sandbox module imports. API/private-asset responses do not gain wildcard CORS.
+
+`GET /api/state?revision=N` returns the closest project snapshot at or before N, replacing `project` and `revision` and adding `readOnly:true,review:{requestedRevision,snapshotRevision,liveRevision,liveCollections:["assets","jobs","storyboards","events"]}`. Those listed collections remain live. Out-of-range revisions fail. Clients must disable mutations when pinned; normal live state remains unchanged.
+
+Conversation messages additionally accept optional numeric `projectRevision`. Context comes from the same historical snapshot selection and records `context.reviewSnapshot/context.review`. Such turns use a read-only sandbox and cannot change project/UI files. Live turns allow user-requested UI work only inside the configured `--workspace-source` directory, alongside the existing external data root. Instructions and sandbox scope are refreshed every turn; comic approval gates do not apply to UI improvements.
+
+Pinned approval review: `GET /api/plan?chapterId=ID&revision=N` computes approval against the same historical project snapshot and adds readOnly/review markers. Without revision it reads the live project.

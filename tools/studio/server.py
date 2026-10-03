@@ -11,19 +11,46 @@ from store import Store, MAX_UPLOAD
 from jobs import create_job, review_job, inbox
 from boards import create_storyboard, review_storyboard
 from conversation import Conversation
+from review_state import state_at_revision
+from workspace_runtime import WorkspaceRuntime
+from release import stable_release
 
 
 class StudioServer(ThreadingHTTPServer):
     daemon_threads = True
 
-    def __init__(self, address, store, web_root=None):
+    def __init__(self, address, store, web_root=None, workspace_source=None, runtime_dir=None):
         self.store = store
-        self.conversation = Conversation(store)
         self.web_root = Path(web_root or Path(__file__).parent / "web").resolve()
-        super().__init__(address, Handler)
+        self.stable_release = stable_release(Path(__file__).parent)
+        self.runtime = None
+        if workspace_source and not runtime_dir:
+            raise ValueError("--runtime-dir is required with --workspace-source")
+        if runtime_dir:
+            artifacts = Path(runtime_dir).expanduser().resolve()
+            writable = [store.root]
+            if workspace_source:
+                writable.append(Path(workspace_source).expanduser().resolve())
+            stable = Path(__file__).resolve().parent
+            for root in writable:
+                if artifacts.is_relative_to(root) or root.is_relative_to(artifacts):
+                    raise ValueError("Runtime artifacts must be outside agent-writable roots")
+                if stable.is_relative_to(root):
+                    raise ValueError("Stable runtime must be outside agent-writable roots")
+            self.runtime = WorkspaceRuntime(workspace_source, artifacts, self.stable_release)
+        self.conversation = Conversation(store, workspace_source=workspace_source)
+        try:
+            super().__init__(address, Handler)
+        except Exception:
+            self.conversation.close()
+            if self.runtime:
+                self.runtime.close()
+            raise
 
     def server_close(self):
         self.conversation.close()
+        if self.runtime:
+            self.runtime.close()
         super().server_close()
 
 
@@ -55,12 +82,18 @@ class Handler(BaseHTTPRequestHandler):
         if self.command != "HEAD":
             self.wfile.write(raw)
 
-    def _file(self, path, mime, etag=None):
+    def _file(self, path, mime, etag=None, workspace=False):
         if etag and self.headers.get("If-None-Match") == '"' + etag + '"':
             self.send_response(304)
+            if workspace:
+                self.send_header("Access-Control-Allow-Origin", "*")
             self.end_headers()
             return
         self.send_response(200)
+        if workspace:
+            # Only immutable UI modules; protected JSON APIs never receive wildcard CORS.
+            self.send_header("Access-Control-Allow-Origin", "*")
+            self.send_header("Cross-Origin-Resource-Policy", "cross-origin")
         self.send_header("Content-Type", mime)
         self.send_header("Accept-Ranges", "bytes")
         self.send_header("Content-Length", str(path.stat().st_size))
@@ -144,12 +177,33 @@ class Handler(BaseHTTPRequestHandler):
             raise StudioError("Invalid path", "path_forbidden", 403)
         store = self.server.store
         if method == "GET":
+            if path == "/api/runtime":
+                result = self.server.runtime.snapshot() if self.server.runtime else {
+                    "stableRelease": self.server.stable_release,
+                    "workspace": {"latest": None, "previous": None, "status": "idle", "error": None, "url": None},
+                    "pollIntervalMs": 1000}
+                return self._json(200, result)
+            if path in ("/api/runtime/releases", "/api/runtime/releases/list"):
+                return self._json(200, self.server.runtime.releases() if self.server.runtime else {"releases": []})
+            if path.startswith("/workspace-builds/"):
+                parts = path.split("/", 3)
+                if len(parts) != 4 or not self.server.runtime:
+                    raise StudioError("Workspace build not found", "not_found", 404)
+                file, mime, sha = self.server.runtime.file(parts[2], parts[3])
+                return self._file(file, mime, sha, workspace=True)
             if path == "/api/plan":
                 from conversation_plan import plan_status
                 chapter_id = parse_qs(urlsplit(self.path).query).get("chapterId", [None])[0]
-                project = store.read()["project"]
+                revision = parse_qs(urlsplit(self.path).query).get("revision", [None])[0]
+                if revision is not None and not revision.isdigit():
+                    raise StudioError("revision must be a nonnegative integer")
+                state = state_at_revision(store, int(revision) if revision is not None else None)
+                project = state["project"]
                 chapter = find(project["chapters"], valid_id(chapter_id), "chapter")
-                return self._json(200, plan_status(project, chapter))
+                result = plan_status(project, chapter)
+                if state.get("readOnly"):
+                    result.update(readOnly=True, review=state["review"])
+                return self._json(200, result)
             if path == "/api/conversation":
                 after = parse_qs(urlsplit(self.path).query).get("after", ["0"])[0]
                 if not after.isdigit():
@@ -166,7 +220,10 @@ class Handler(BaseHTTPRequestHandler):
                 file, mime, sha = media_file(path.removeprefix("/api/media/files/"))
                 return self._media_file(file, mime, sha)
             if path == "/api/state":
-                return self._json(200, store.read())
+                revision = parse_qs(urlsplit(self.path).query).get("revision", [None])[0]
+                if revision is not None and not revision.isdigit():
+                    raise StudioError("revision must be a nonnegative integer")
+                return self._json(200, state_at_revision(store, int(revision) if revision is not None else None))
             if path == "/api/jobs":
                 state = store.read()
                 return self._json(200, {"jobs": state["jobs"], "revision": state["revision"]})
@@ -258,9 +315,11 @@ def main():
     parser.add_argument("--data-dir", required=True)
     parser.add_argument("--media-root", action="append", default=[])
     parser.add_argument("--port", type=int, default=18806)
+    parser.add_argument("--workspace-source", help="Only agent-editable UI source directory")
+    parser.add_argument("--runtime-dir", help="External immutable stable releases and workspace builds")
     args = parser.parse_args()
     store = Store(args.data_dir, args.media_root)
-    server = StudioServer(("127.0.0.1", args.port), store)
+    server = StudioServer(("127.0.0.1", args.port), store, workspace_source=args.workspace_source, runtime_dir=args.runtime_dir)
     print("Studio listening on http://127.0.0.1:" + str(args.port), flush=True)
     try:
         server.serve_forever()

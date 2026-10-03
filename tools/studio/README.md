@@ -76,3 +76,5 @@ An agent starts with `cli.py --data-dir DATA inbox`, then claims a job with `cla
 Project-only snapshots are preserved in `history/` with hashes. `GET /api/history` lists revisions; `GET /api/history/N` retrieves one. The CLI supports `history` and `export-project --output FILE --revision N`. Restore deliberately by saving the recovered project with the current expected revision; do not overwrite runtime state files.
 
 Run isolated backend tests with `python -m unittest discover -s tools/studio/tests -v`. Test data must be separate from the live external data directory.
+
+For the immutable conversation shell, hot-loaded workspace, release freezing, restoration and stable-core migrations, read [STABLE-RUNTIME.md](STABLE-RUNTIME.md). The evolving workspace is the only UI source directory made writable to the live agent; it does not require restarting the stable service.

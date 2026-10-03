@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "runtime": {
+    "stableRelease": "64 lowercase SHA256 hex or development",
+    "workspace": {
+      "latest": "64 lowercase SHA256 hex or null",
+      "previous": "prior successful SHA256 or null",
+      "status": "idle|building|ready|error",
+      "error": null,
+      "url": "/workspace-builds/<hash>/index.html or null"
+    },
+    "pollIntervalMs": 1000
+  },
+  "releases": {
+    "route": "GET /api/runtime/releases/list",
+    "response": {
+      "releases": [
+        {
+          "hash": "sha256",
+          "url": "entry URL",
+          "createdAt": "ISO",
+          "fileCount": 1,
+          "bytes": 1
+        }
+      ]
+    }
+  },
+  "review": {
+    "route": "GET /api/state?revision=N",
+    "responseExtra": {
+      "revision": "closest project snapshot revision <= requested N",
+      "readOnly": true,
+      "review": {
+        "requestedRevision": "N",
+        "snapshotRevision": "actual snapshot revision",
+        "liveRevision": "current store revision",
+        "liveCollections": [
+          "assets",
+          "jobs",
+          "storyboards",
+          "events"
+        ]
+      }
+    }
+  },
+  "notes": [
+    "Workspace build hash is exact SHA256 canonical file manifest; immutable versions retained forever until explicit operator cleanup.",
+    "CORS Access-Control-Allow-Origin:* is limited to immutable workspace files for opaque-origin sandbox ES imports. APIs never allow wildcard CORS.",
+    "Watcher polls each second, requires 400ms stable source, checks JS syntax with node --check, never executes source build scripts.",
+    "Broken source leaves last valid latest/url with status:error. Parent keeps old iframe until new candidate ready.",
+    "Parent shell owns APIs, credentials, chat, URLs and mutation authorization. Opaque iframe uses nonce-bound parent RPC.",
+    "Runtime and stable releases must be outside agent-writable data and workspace source roots."
+  ]
+}

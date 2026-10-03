@@ -12,8 +12,9 @@ ACTIVE = {"connecting", "running", "interrupting"}
 
 
 class Conversation:
-    def __init__(self, store, transport_factory=AppServer):
+    def __init__(self, store, transport_factory=AppServer, workspace_source=None):
         self.store = store
+        self.workspace_source = Path(workspace_source).resolve() if workspace_source else None
         self.path = store.root / "conversation.json"
         self.lock = threading.RLock()
         self.transport_factory = transport_factory
@@ -62,34 +63,40 @@ class Conversation:
             self.state["messages"].append(message)
             self.state.update(status="connecting", error=None, plan=[], activeTurnId=None)
             self._event("message", messageId=message["id"])
-            threading.Thread(target=self._start, args=(inputs, message["id"]), daemon=True).start()
+            threading.Thread(target=self._start, args=(inputs, message["id"], bool(scope.get("reviewSnapshot"))), daemon=True).start()
             return self.snapshot()
 
-    def _start(self, inputs, message_id):
+    def _start(self, inputs, message_id, review=False):
         try:
             if self.transport is None or self.transport.process.poll() is not None:
                 self.transport = self.transport_factory(self.notify, self.store.root)
-                params = {"cwd": str(self.store.root), "approvalPolicy": "never",
-                          "sandbox": "workspace-write", "developerInstructions": instructions(self.store)}
-                with self.lock:
-                    thread_id = self.state["threadId"]
-                if thread_id:
-                    params["threadId"] = thread_id
-                response = self.transport.request("thread/resume" if thread_id else "thread/start", params)
-                with self.lock:
-                    self.state["threadId"] = response["thread"]["id"]
-                    self.state["model"] = response.get("model")
-                    self._event("status", status="connecting")
+            params = {"cwd": str(self.store.root), "approvalPolicy": "never",
+                      "sandbox": "read-only" if review else "workspace-write",
+                      "developerInstructions": instructions(self.store, self.workspace_source, review)}
+            with self.lock:
+                thread_id = self.state["threadId"]
+            if thread_id:
+                params["threadId"] = thread_id
+            # Resume on every turn so changed UI capabilities/review scope cannot go stale.
+            response = self.transport.request("thread/resume" if thread_id else "thread/start", params)
+            with self.lock:
+                self.state["threadId"] = response["thread"]["id"]
+                self.state["model"] = response.get("model")
+                self._event("status", status="connecting")
             with self.lock:
                 if self.cancelled or self.closed:
                     self._finish("interrupted")
                     return
                 thread_id = self.state["threadId"]
+            writable = [str(self.store.root)]
+            if self.workspace_source:
+                writable.append(str(self.workspace_source))
+            sandbox = {"type": "readOnly", "networkAccess": False} if review else {
+                "type": "workspaceWrite", "writableRoots": writable,
+                "networkAccess": False, "excludeSlashTmp": True, "excludeTmpdirEnvVar": True}
             response = self.transport.request("turn/start", {
                 "threadId": thread_id, "input": inputs, "cwd": str(self.store.root),
-                "approvalPolicy": "never", "sandboxPolicy": {
-                    "type": "workspaceWrite", "writableRoots": [str(self.store.root)],
-                    "networkAccess": False, "excludeSlashTmp": True, "excludeTmpdirEnvVar": True}})
+                "approvalPolicy": "never", "sandboxPolicy": sandbox})
             with self.lock:
                 turn_id = response["turn"]["id"]
                 for message in self.state["messages"]:

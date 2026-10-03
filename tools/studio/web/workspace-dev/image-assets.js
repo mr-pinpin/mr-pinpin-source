@@ -1,0 +1,13 @@
+import {readAsset,studio} from './child-state.js';
+const observed=new Map(),cache=new Map();let inFlight=0,paused=false;const queue=[];
+function release(record){record.token++;if(record.key){const entry=cache.get(record.key);if(entry&&!--entry.users){if(entry.url)URL.revokeObjectURL(entry.url);cache.delete(record.key);}record.key=null;}record.node.removeAttribute('src');}
+async function acquire(key){let entry=cache.get(key);if(!entry){entry={users:0,url:null};entry.promise=readAsset(key).then(url=>{entry.url=url;if(!entry.users)URL.revokeObjectURL(url);return url;}).catch(error=>{cache.delete(key);throw error;});cache.set(key,entry);}entry.users++;return entry.promise;}
+async function load(record){if(paused||!observed.has(record.node)||!record.visible||!record.node.isConnected||record.key)return;const token=++record.token;record.key=record.node.dataset.assetSrc;try{const url=await acquire(record.key);if(record.token===token&&record.visible&&record.node.isConnected)record.node.src=url;}catch(error){if(record.token===token){record.node.alt='Image unavailable: '+error.message;release(record);}}}
+function pump(){while(inFlight<4&&queue.length){const record=queue.shift();inFlight++;load(record).finally(()=>{inFlight--;pump();});}}
+const observer=new IntersectionObserver(entries=>{for(const entry of entries){const record=observed.get(entry.target);if(!record)continue;record.visible=entry.isIntersecting;if(record.visible){queue.push(record);pump();}else release(record);}},{rootMargin:'350px'});
+export function hydrateImages(){if(paused)return;for(const [node,record]of observed){if(!node.isConnected){observer.unobserve(node);release(record);observed.delete(node);}}for(const node of document.querySelectorAll('img[data-asset-src]')){if(observed.has(node))continue;const asset=studio.state?.assets.find(a=>a.url===node.dataset.assetSrc);if(asset?.width&&asset?.height&&node.closest('.reading-image')){node.width=asset.width;node.height=asset.height;}const record={node,visible:false,key:null,token:0};observed.set(node,record);observer.observe(node);}}
+const mutations=new MutationObserver(hydrateImages);mutations.observe(document.documentElement,{subtree:true,childList:true});
+export function disposeImages(){mutations.disconnect();observer.disconnect();for(const record of observed.values())release(record);observed.clear();for(const entry of cache.values())if(entry.url)URL.revokeObjectURL(entry.url);cache.clear();}
+
+export function suspendImages(){paused=true;observer.disconnect();queue.length=0;for(const record of observed.values())release(record);observed.clear();}
+export function resumeImages(){paused=false;hydrateImages();}
