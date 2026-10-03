@@ -1,0 +1,78 @@
+Batch03 closing-phase audit — 2026-10-03
+Read only. Public activity timeline + bounded native TOOL call metadata only.
+No hidden reasoning/private analysis, raw commands/prompts, credentials or giant
+logs exported. Sanitized metadata: batch-03-closing-tool-metadata.json.
+No production/source/app-message changes.
+
+Observed window:
+Last image activity completed11:46:04.716914UTC.
+Turn completed11:52:33.571476UTC:388.854562s (6m28.855s).
+13 public commandExecution starts and13 completions;1imageView;1fileChange.
+Native trace groups these into7 exec calls plus1 short wait.
+All exposed command exit codes are0; no closing-phase retry/failure or compaction
+is evidenced. Tool response brackets across these8calls sum2.450s.
+This bracket observation does not assign intervening time to model/backend work;
+it only establishes that shell/tool response latency alone is not389seconds.
+
+Closing timeline:
+11:46:27 wait collects generation result.
+11:46:45 single native image view for final Mama Beaver repair QA.
+11:47:24 three commands persist exact final prompt/generation data and register
+through cast_ops. Actual final registration receipt ends11:47:24.662249.
+11:47:38–42 assistant presents final Mama Beaver candidate card.
+11:48:37–38 commands update generation reports, cast-run/evidence and README,
+then cast_ops completion operations.
+11:49:17–20 commentary says all3packages saved; receipt IDs used; queue updated.
+11:49:46 file patch prepares verify-cast-active.py; commands concern tests,
+checkpoint/export artifacts and workflow README.
+11:50:28 documentation readback (cast-run.md,character-creation.md).
+11:51:00 another documentation/checkpoint update + verify-cast-active.py.
+11:51:55 final test/export/checkpoint-receipt/generation-report update.
+11:52:18–33 final answer streams.
+
+Material interpretation:
+The user received the last candidate card by11:47:42.241874,97.525s after the
+last image and291.330s before final turn completion. Thus usable artwork delivery
+preceded administrative finalization; a single final-turn metric hides this.
+Visual inspection and registration are necessary. Test/docs exports were also
+explicitly requested for this batch, so their presence is not needless scope.
+However, documents/checkpoint/export material is revisited across at least4
+separate exec rounds after the principal package completion. That is a concrete
+consolidation opportunity, not evidence that every check should be removed.
+Filename occurrences alone do not prove identical tests were rerun; no such claim.
+
+Output volume:
+Total recorded tool-output serialization3,802,706bytes.
+Single required view_image payload3,795,840bytes.
+All nonimage tool outputs together6,866bytes; largest2,048bytes.
+No large textual output hotspot here. Removing native visual QA to save its
+image payload would weaken the required review and is not recommended.
+
+Actionable persistent workflow adjustment, for Studio app to implement:
+1. Extend/reuse existing cast_ops finish/checkpoint path to write dossier,
+generation summary, queue, evidence index and exports together from known
+receipts. It already supports receipt-derived IDs; no new harness needed.
+2. Collect requested tests/docs changes first, then execute one bounded relevant
+validation plus one compact readback receipt. On failure or fresh mutation,
+rerun only the affected checks.
+3. Return one receipt with final asset IDs, package paths, next entity, tests and
+timing. Build final response from it; avoid another discovery/readback/rewrite
+cycle after declaring packages saved.
+4. Keep per-candidate native QA and creative repairs; do not infer backend
+generation savings from this closeout evidence.
+
+No exact time saving promised: inter-call gaps include undisclosed processing,
+composition and scheduling. This audit measures observable round trips and
+output sizes, not hidden reasoning or upstream latency.
+Batch04 read-only capture continues independently.
+
+Timing-link audit at2026-10-03T12:02:51.246032+00:00:
+Elder README links../../../reports/cast-batch-timing.json and states317s.
+Canonical current Mini file still lists elder/rabbit/scooby,9calls and Elder317s.
+Beaver batch uses reports/beaver-batch3-generation.json.
+Therefore a current wrong-run overwrite is NOT confirmed by this observation.
+Exact hash/path evidence: batch-timing-binding-audit.json.
+Current timing links are correct. No timing-path repair or migration recommended.
+The existing separate Beaver record already preserves the intended batch binding.
+Only the observed closing-roundtrip consolidation belongs in the future app
+handoff. No implementation or production changes by this audit lane.

@@ -1,0 +1,28 @@
+Cast workflow measured latency — 2026-10-03 (UTC)
+
+Seven completed turns: 3h 34m 08s active turn time; observed image activity 50m 44s; compaction 20m 53s; mixed remaining work 2h 22m 32s.
+End-to-end window: 3h 52m 47s, including 18m 38s between turns. All seven captures report complete event coverage.
+
+Turn | Total | Image activity union | Compaction | Detail
+--- | ---: | ---: | ---: | ---
+batch-01 | 27m 46s | 2m 09s | 3m 02s | [batch-01-latency-audit.txt](batch-01-latency-audit.txt); [batch-01-metrics.json](batch-01-metrics.json)
+batch-02 | 34m 45s | 7m 04s | 4m 15s | [batch-02-latency-audit.txt](batch-02-latency-audit.txt); [batch-02-metrics.json](batch-02-metrics.json)
+batch-03 | 22m 05s | 9m 41s | 0m 00s | [batch-03-latency-audit.txt](batch-03-latency-audit.txt); [batch-03-metrics.json](batch-03-metrics.json)
+batch-04 | 39m 28s | 8m 03s | 3m 20s | [batch-04-latency-audit.txt](batch-04-latency-audit.txt); [batch-04-metrics.json](batch-04-metrics.json)
+batch-05 | 40m 24s | 13m 06s | 4m 39s | [batch-05-latency-audit.txt](batch-05-latency-audit.txt); [batch-05-metrics.json](batch-05-metrics.json)
+batch-06 | 35m 14s | 9m 19s | 5m 37s | [batch-06-latency-audit.txt](batch-06-latency-audit.txt); [batch-06-metrics.json](batch-06-metrics.json)
+final-review | 14m 26s | 1m 22s | 0m 00s | [final-review-latency-audit.txt](final-review-latency-audit.txt); [final-review-metrics.json](final-review-metrics.json)
+
+Scope and useful conclusions:
+- The final collection has 21 two-page packages/42 pages: three earlier packages were reused; these six batches produced 18 more packages, with repairs. Final review repaired a known bird-cell defect and trimmed business context. Coordinator reports all42 visual checks and85 focused tests passed; timings are not an independent art-quality certification.
+- Batches include substantial app-authored engineering: persistent workflow, reference hydration, retry handling, receipt backfill, exports and closeout. They are not a per-character generation benchmark.
+- Earlier Papa two-page run took233.315517s (3m53s), including82.785920s image activity; that narrower run is not directly comparable. No SLA is inferred.
+- Compaction consumed20m53s across five batches. Batch01 remained observable on Mini through the Air access outage; recovered connectivity was not image-generation time.
+- Last-image-to-completion closeout was389s in batch03,539s in batch04,266s in batch05 and453s in batch06. Consolidation was introduced during batch05, but these different tasks do not establish a consistent speedup. See [closing audit](batch-03-closing-audit.txt).
+- Batch05: a six-reference validation rejection is distinct from two visual repair calls. The recovered output has verified bytes but inferred prompt/reference association and missing call boundaries; two concurrent attempt outcomes remain unknown.
+- API image activity unions avoid overlap inflation. App whole-second before/after windows are a different measurement; neither is upstream backend compute time. No call IDs means concurrent per-image timings cannot be reliably assigned.
+- Remaining elapsed time includes necessary QA, engineering, tool interactions and delivery; it is not all avoidable orchestration. Native-image responses dominate the inspected closeout output bytes, not large text dumps.
+- Existing per-character timing links were verified correct; no timing-path repair or migration is warranted.
+- Metadata-only export-receipt refresh after final review is separate and excluded. Coordinator reports cursor13960 completed and12 receipt hashes corrected; no independently measured duration is claimed.
+
+Definitions and exact values: [metrics-index.json](metrics-index.json). Public metrics retain IDs/timestamps only; raw captures and private conversation are not required for the Git archive.
