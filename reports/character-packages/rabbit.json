@@ -1,0 +1,128 @@
+{
+  "schemaVersion": 1,
+  "entityId": "rabbit",
+  "stages": {
+    "solo": {
+      "candidates": [
+        {
+          "assetId": "asset-e64154c3829a84e223c54626",
+          "sha256": "e64154c3829a84e223c54626222d8b9b24a6e8cb4dd73e5ecb518dcf4ea37f6b",
+          "bytes": 2033731,
+          "reviewStatus": "unreviewed",
+          "nativePath": "/Users/miguel_lemos/.codex/generated_images/01a0ff85-92dc-7c40-9adb-ef240551a423/exec-0fa24a90-424e-43fc-a29d-140383a1d970.png",
+          "generatedPath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/generated/e64154c3829a84e2-rabbit-solo.png",
+          "reused": false,
+          "kernelRelease": "c9be233f9e18f6d480c8a5b7d50dff6384c9df2766510b5ef006b21ccec40c75",
+          "workflowCard": {
+            "type": "WorkflowCard",
+            "title": "rabbit-solo.png",
+            "text": "Unreviewed candidate. Original image available at full size.",
+            "assetIds": [
+              "asset-e64154c3829a84e223c54626"
+            ],
+            "actions": []
+          },
+          "timing": {
+            "startedAt": "2026-10-03T11:08:16.384106+00:00",
+            "validatedAt": "2026-10-03T11:08:16.430103+00:00",
+            "copiedAt": "2026-10-03T11:08:16.431831+00:00",
+            "registeredAt": "2026-10-03T11:08:16.463412+00:00",
+            "registrationSeconds": 0.079313
+          },
+          "dossierPath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/reports/character-packages/rabbit.json",
+          "entityId": "rabbit",
+          "stage": "solo",
+          "provenance": {
+            "sourcePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/generated/e64154c3829a84e2-rabbit-solo.png",
+            "source": "native-imagegen",
+            "tool": "image_gen.imagegen",
+            "nativeOutputPath": "/Users/miguel_lemos/.codex/generated_images/01a0ff85-92dc-7c40-9adb-ef240551a423/exec-0fa24a90-424e-43fc-a29d-140383a1d970.png",
+            "nativeSha256": "e64154c3829a84e223c54626222d8b9b24a6e8cb4dd73e5ecb518dcf4ea37f6b",
+            "prompt": "One polished portrait production reference image on warm ivory, title and FOUR rows of SIX readable studies, consistent size within each row. Row1 FACE VIEWS: Front; Facing left 3/4 nose SCREEN LEFT both eyes; Facing left profile nose LEFT true side; Facing right 3/4 nose SCREEN RIGHT both eyes; Facing right profile nose RIGHT true side; Rear. Row2 EXPRESSIONS: Calm, Curious, Delight, Surprise, Thoughtful, Mild upset. Relaxed brows and natural closed mouths in calm/thoughtful; no constant grin. Row3 FULL BODY VIEWS same six directions, whole ears/tail/quills/feet with margin and contact shadows. Row4 NORMAL POSES as specified. Concise correct labels; no directional headings for expressions. Book warm dimensional illustrated style; preserve exact identity from references; no duplicate limbs or cropped extremities. No extra characters on solo sheet, no invented clothes or aging. This is an established-design reference study, not a redesign. Title Rabbit. Use published Rabbit in reference1 RIGHT, NOT PinPin on left. Gray/tan soft fur, cream muzzle/chest, very long upright ears pink inside, small warm brown/orange rabbit nose, rounded cheeks and large expressive brown irises. Match ear lengths, muzzle, hind feet and compact body. Rabbit is PinPin's peer companion; exact age NOT STATED. Reference2 family is style only. Row4: Sit, Reach, Wave, Carry two leaves, Lean toward leaf boat, Rest. Quadruped rabbit anatomy with anthropomorphic forepaws as original: two forelimbs two hindlimbs, short fluffy tail. No new character accessories. Solo image only.",
+            "promptSha256": "a2d52a93146c2ff3fd712cfe6dae3ee16efd0fb5aff20c938ce83ce51c02895d",
+            "promptFile": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/reports/rabbit-solo-prompt.txt",
+            "referenceIds": [
+              "asset-f945f4802de940f91dc6a78a",
+              "asset-88d74c56a468e3f250b12dbc"
+            ],
+            "inputAssets": [
+              {
+                "assetId": "asset-f945f4802de940f91dc6a78a",
+                "sha256": "f945f4802de940f91dc6a78a2a5e7bc5d8e7b3239e3fdb3a883f56c73ebd7b3d"
+              },
+              {
+                "assetId": "asset-88d74c56a468e3f250b12dbc",
+                "sha256": "88d74c56a468e3f250b12dbcb5ecdb7b07bd1d789197663d8948ac199acd133d"
+              }
+            ],
+            "registeredBy": "studio-client/register-image.py"
+          }
+        }
+      ]
+    },
+    "interactions": {
+      "candidates": [
+        {
+          "assetId": "asset-c55a562de31d68a4d2428d52",
+          "sha256": "c55a562de31d68a4d2428d529e0d5fe11108a2aff4d5221611e9901eec2cec2b",
+          "bytes": 2963998,
+          "reviewStatus": "unreviewed",
+          "nativePath": "/Users/miguel_lemos/.codex/generated_images/01a0ff85-92dc-7c40-9adb-ef240551a423/exec-40ecaaed-fd24-4b3c-aee7-cf499439f9bf.png",
+          "generatedPath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/generated/c55a562de31d68a4-rabbit-interactions.png",
+          "reused": false,
+          "kernelRelease": "c9be233f9e18f6d480c8a5b7d50dff6384c9df2766510b5ef006b21ccec40c75",
+          "workflowCard": {
+            "type": "WorkflowCard",
+            "title": "rabbit-interactions.png",
+            "text": "Unreviewed candidate. Original image available at full size.",
+            "assetIds": [
+              "asset-c55a562de31d68a4d2428d52"
+            ],
+            "actions": []
+          },
+          "timing": {
+            "startedAt": "2026-10-03T11:15:43.354576+00:00",
+            "validatedAt": "2026-10-03T11:15:43.402299+00:00",
+            "copiedAt": "2026-10-03T11:15:43.404316+00:00",
+            "registeredAt": "2026-10-03T11:15:43.437120+00:00",
+            "registrationSeconds": 0.082552
+          },
+          "dossierPath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/reports/character-packages/rabbit.json",
+          "entityId": "rabbit",
+          "stage": "interactions",
+          "provenance": {
+            "sourcePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/generated/c55a562de31d68a4-rabbit-interactions.png",
+            "source": "native-imagegen",
+            "tool": "image_gen.imagegen",
+            "nativeOutputPath": "/Users/miguel_lemos/.codex/generated_images/01a0ff85-92dc-7c40-9adb-ef240551a423/exec-40ecaaed-fd24-4b3c-aee7-cf499439f9bf.png",
+            "nativeSha256": "c55a562de31d68a4d2428d529e0d5fe11108a2aff4d5221611e9901eec2cec2b",
+            "prompt": "Make ONE separate polished portrait relational reference page, SIX large readable panels in 3 rows x 2 columns, clear short labels, warm ivory margins. Keep warm dimensional book illustration, full separate bodies including ears/quills/tails/feet, believable hands/paws contact and weight/support, natural gaze and expressions, no constant exaggerated smiles. No duplicated limbs, merged bodies, wolf faces or new clothing. Use all supplied references directly for identity and relative scale. These are reusable relationship studies, not an unrelated chapter. Title Rabbit — Family & friends. Reference1 published Rabbit RIGHT, child PinPin LEFT; reference2 family gives Mama left holding tiny PomPom, Papa center and older PinPin right. Reference3 Rabbit solo locks exact design. Six studies: 1 'Relative size' SAME GROUND lineup standing Papa, older PinPin at about HALF Papa height, Rabbit alongside PinPin with comparable body mass but long ears extending higher; don't shrink Rabbit ears or enlarge child. 2 'Leaf boats' Rabbit and PinPin sit beside shallow stream floating TWO leaf boats, ONE bucket stable nearby. 3 'Mama welcomes Rabbit' adult Mama kneels comfortably to greet Rabbit, one paw-to-paw greeting, full separate bodies. 4 'A gentle friend hug' child Rabbit and PinPin seated beside one another, reciprocal gentle embrace, forepaw/arm ownership clear and big rabbit hindfeet grounded; no mother replacing child. 5 'Papa passes a leaf' standing adult Papa hands small leaf to Rabbit, actual handoff and shared eye line, whole bodies. 6 'Bread with PinPin' two friends seated at low mat sharing small piece of bread, both whole bodies including Rabbit tail. Preserve gray/tan Rabbit, cream muzzle/chest, tiny warm-orange rabbit nose, long pink-inner ears. No numeric age labels. Reference2 is family identity, not composition.",
+            "promptSha256": "bf1aeac02d24af232d4f0e25706707736b21f0adfa48aa98468d31bab412f573",
+            "promptFile": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/reports/rabbit-interactions-prompt.txt",
+            "referenceIds": [
+              "asset-f945f4802de940f91dc6a78a",
+              "asset-88d74c56a468e3f250b12dbc",
+              "asset-e64154c3829a84e223c54626"
+            ],
+            "inputAssets": [
+              {
+                "assetId": "asset-f945f4802de940f91dc6a78a",
+                "sha256": "f945f4802de940f91dc6a78a2a5e7bc5d8e7b3239e3fdb3a883f56c73ebd7b3d"
+              },
+              {
+                "assetId": "asset-88d74c56a468e3f250b12dbc",
+                "sha256": "88d74c56a468e3f250b12dbcb5ecdb7b07bd1d789197663d8948ac199acd133d"
+              },
+              {
+                "assetId": "asset-e64154c3829a84e223c54626",
+                "sha256": "e64154c3829a84e223c54626222d8b9b24a6e8cb4dd73e5ecb518dcf4ea37f6b"
+              }
+            ],
+            "registeredBy": "studio-client/register-image.py"
+          }
+        }
+      ]
+    }
+  },
+  "updatedAt": "2026-10-03T11:15:43.437221+00:00"
+}

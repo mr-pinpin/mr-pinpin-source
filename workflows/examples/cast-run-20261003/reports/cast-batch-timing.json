@@ -1,0 +1,185 @@
+{
+  "schema": 1,
+  "clockResolution": "one second UTC",
+  "firstReply": null,
+  "actualVisibleDelivery": null,
+  "totalTurnSeconds": null,
+  "monetaryCost": "unknown",
+  "generationCalls": [
+    {
+      "entityId": "rabbit",
+      "stage": "solo-initial",
+      "before": {
+        "current_time": "2026-10-03 11:05:42 UTC"
+      },
+      "after": {
+        "current_time": "2026-10-03 11:07:29 UTC"
+      },
+      "promptFile": "reports/rabbit-solo-prompt.txt",
+      "seconds": 107.0,
+      "promptSha256": "a2d52a93146c2ff3fd712cfe6dae3ee16efd0fb5aff20c938ce83ce51c02895d"
+    },
+    {
+      "entityId": "rabbit",
+      "stage": "interactions-initial",
+      "before": {
+        "current_time": "2026-10-03 11:11:10 UTC"
+      },
+      "after": {
+        "current_time": "2026-10-03 11:11:50 UTC"
+      },
+      "promptFile": "reports/rabbit-interactions-prompt.txt",
+      "seconds": 40.0,
+      "promptSha256": "bf1aeac02d24af232d4f0e25706707736b21f0adfa48aa98468d31bab412f573"
+    },
+    {
+      "entityId": "elder",
+      "stage": "solo-initial",
+      "before": {
+        "current_time": "2026-10-03 11:05:42 UTC"
+      },
+      "after": {
+        "current_time": "2026-10-03 11:06:52 UTC"
+      },
+      "promptFile": "reports/elder-solo-prompt.txt",
+      "seconds": 70.0,
+      "promptSha256": "d25377715c0cce65e2b3f3ea1314b58532d0065b3084a6ab985a0d45cd5529f4"
+    },
+    {
+      "entityId": "elder",
+      "stage": "interactions-initial",
+      "before": {
+        "current_time": "2026-10-03 11:11:10 UTC"
+      },
+      "after": {
+        "current_time": "2026-10-03 11:13:21 UTC"
+      },
+      "promptFile": "reports/elder-interactions-prompt.txt",
+      "seconds": 131.0,
+      "promptSha256": "b276b95e911ccd90c3d897b74681f5e3936bdb04120a959d578e7e11731785c5"
+    },
+    {
+      "entityId": "elder",
+      "stage": "interactions-repair",
+      "before": {
+        "current_time": "2026-10-03 11:20:50 UTC"
+      },
+      "after": {
+        "current_time": "2026-10-03 11:22:46 UTC"
+      },
+      "promptFile": "reports/elder-interactions-repair-prompt.txt",
+      "seconds": 116.0,
+      "promptSha256": "f69f80d7b3146238b24119451fafd7b2ffdbe80c5c42e5bb86135fc139602686"
+    },
+    {
+      "entityId": "scooby",
+      "stage": "solo-initial",
+      "before": {
+        "current_time": "2026-10-03 11:05:42 UTC"
+      },
+      "after": {
+        "current_time": "2026-10-03 11:07:29 UTC"
+      },
+      "promptFile": "reports/scooby-solo-prompt.txt",
+      "seconds": 107.0,
+      "promptSha256": "8b032851ba1d5c9216e49913161cbad209f3f7c665ead9e31df25f61ec105e26"
+    },
+    {
+      "entityId": "scooby",
+      "stage": "interactions-initial",
+      "before": {
+        "current_time": "2026-10-03 11:11:10 UTC"
+      },
+      "after": {
+        "current_time": "2026-10-03 11:14:00 UTC"
+      },
+      "promptFile": "reports/scooby-interactions-prompt.txt",
+      "seconds": 170.0,
+      "promptSha256": "fd190e29f7c01d7503f4d4139dac1b73be64b2a02a071e240e206bc0b3ba28cc"
+    },
+    {
+      "entityId": "scooby",
+      "stage": "solo-repair",
+      "before": {
+        "current_time": "2026-10-03 11:08:51 UTC"
+      },
+      "after": {
+        "current_time": "2026-10-03 11:09:23 UTC"
+      },
+      "promptFile": "reports/scooby-solo-repair-prompt.txt",
+      "seconds": 32.0,
+      "promptSha256": "908572d6bd19933e3815120556fc7ced68d5a29783a039fb2d09c263592eb27f"
+    },
+    {
+      "entityId": "scooby",
+      "stage": "interactions-repair",
+      "before": {
+        "current_time": "2026-10-03 11:20:50 UTC"
+      },
+      "after": {
+        "current_time": "2026-10-03 11:21:28 UTC"
+      },
+      "promptFile": "reports/scooby-interactions-repair-prompt.txt",
+      "seconds": 38.0,
+      "promptSha256": "a1c4b559f54d27bc7bd85184261d24aa0f1706baedd3bac8007c54ed8648e28a"
+    }
+  ],
+  "repairs": [
+    {
+      "entityId": "scooby",
+      "stage": "solo",
+      "reason": "Face-left three-quarter duplicated right-facing direction",
+      "priorAssetId": "asset-af23a133db38eeca67e2a6bd",
+      "outputAssetId": "asset-4336524cb9db0e329aacc58f"
+    },
+    {
+      "entityId": "elder",
+      "stage": "interactions",
+      "reason": "Hug adult was Papa instead of Elder",
+      "priorAssetId": "asset-d913f445754887cb55849cc5",
+      "outputAssetId": "asset-ba2002ca5110c1a61b6782a9"
+    },
+    {
+      "entityId": "scooby",
+      "stage": "interactions",
+      "reason": "Family panel cropped rear/tail",
+      "priorAssetId": "asset-6b550b753c46fb9733b8862a",
+      "outputAssetId": "asset-a3e1d5b048327b08f32de036"
+    }
+  ],
+  "deliveryPreparedAt": {
+    "current_time": "2026-10-03 11:23:58 UTC"
+  },
+  "notes": [
+    "Concurrent submitted calls do not prove concurrent image execution.",
+    "Actual first reply and end-to-end turn bounds were not captured.",
+    "Registration boundaries/seconds are independently recorded in reports/character-packages/<id>.json.",
+    "Agent visual QA; production delegated by codex-wap1, no personal Miguel review or publication."
+  ],
+  "proof": "reports/cast-isolated-persistence-proof.json",
+  "summedCallWindowSeconds": 811.0,
+  "unionCallWindowSeconds": 425.0,
+  "measuredProductionSpanSeconds": 1024.0,
+  "generationCallCount": 9,
+  "repairCount": 3,
+  "perCharacter": {
+    "rabbit": {
+      "calls": 2,
+      "repairs": 0,
+      "summedCallWindowSeconds": 147.0,
+      "registrationSeconds": 0.16186499999999998
+    },
+    "elder": {
+      "calls": 3,
+      "repairs": 1,
+      "summedCallWindowSeconds": 317.0,
+      "registrationSeconds": 0.228591
+    },
+    "scooby": {
+      "calls": 4,
+      "repairs": 2,
+      "summedCallWindowSeconds": 347.0,
+      "registrationSeconds": 0.30699699999999996
+    }
+  }
+}

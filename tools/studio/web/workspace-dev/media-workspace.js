@@ -60,6 +60,16 @@ export function renderInsights(container,options={}){
   if(!data.hotspots.length)body.append(el('p','No recorded failures, rejected artifacts or explicitly linked retries. This is not evidence of zero historical attempts.'));
   else{const table=el('table',null,'insight-table'),head=el('tr');for(const x of ['Target / kind','Jobs','Failed','Rejected','Retries'])head.append(el('th',x));const thead=el('thead');thead.append(head);table.append(thead);const tbody=el('tbody');for(const r of data.hotspots){const tr=el('tr');for(const v of [`${r.targetId} / ${r.kind}`,r.jobs,r.failures,r.rejections,r.retries])tr.append(el('td',String(v)));tbody.append(tr);}table.append(tbody);body.append(table);}
   for(const note of data.notes)body.append(el('p',note,'media-description'));
+  const run=data.castWorkflow;
+  if(run){
+   body.append(el('h3','Character reference run'),el('p',run.error||`Next: ${run.nextEntityId||'Complete'}${run.selected?.nextStage?` / ${run.selected.nextStage}`:''} · ${run.remaining.length} packages remaining. Completion is verified against distinct registered solo and interaction pages.`));
+   const table=el('table',null,'insight-table');
+   for(const c of run.characters||[]){const row=el('tr');row.append(el('td',c.canonicalName||c.id),el('td',c.status),el('td',c.nextStage||'Both stages verified'),el('td',c.evidencePath));table.append(row);}
+   body.append(table);
+   for(const [title,doc]of [['Workflow',run.guide],['Run contract',run.runContract],['Next character dossier',run.dossier]]){if(doc){const d=el('details');d.append(el('summary',`${title} · ${doc.path}`),el('pre',doc.text));body.append(d);}}
+   if(run.evidence){const d=el('details');d.append(el('summary','Indexed source evidence for next character'),el('pre',JSON.stringify(run.evidence,null,2)));body.append(d);}
+   body.append(el('p',run.notetaker?.fallback||'Durable Markdown notes', 'media-description'));
+  }
  }).catch(error=>{if(alive)body.replaceChildren(el('p',error.message,'media-error'));});
  return()=>{alive=false;container.classList.remove('media-workspace');};
 }

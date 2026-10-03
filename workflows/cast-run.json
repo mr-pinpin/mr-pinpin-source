@@ -1,0 +1,865 @@
+{
+  "schemaVersion": 1,
+  "updatedAt": "2026-10-03T11:23:58.979506+00:00",
+  "characters": [
+    {
+      "id": "pinpin",
+      "canonicalName": "Mr. PinPin",
+      "aliases": [
+        "Пин-Пин",
+        "ПинПин",
+        "PinPin",
+        "ШипШип",
+        "ФырФыркин",
+        "ЁжЁжик",
+        "Колючий Шарик",
+        "Пиковый Мистер",
+        "ЁжЁженька"
+      ],
+      "exactAge": "not stated",
+      "evidencedLifeStage": "child in published family; original exact age not stated",
+      "status": "produced",
+      "dossierPath": "workflows/characters/pinpin/README.md",
+      "evidencePath": "workflows/characters/pinpin/evidence.json",
+      "evidenceCount": 632,
+      "registeredReferenceIds": [
+        "asset-88d74c56a468e3f250b12dbc"
+      ],
+      "outputs": [
+        {
+          "assetId": "asset-5d505b375eed339baa7f7650",
+          "sha256": "5d505b375eed339baa7f765028f4c61224a685dfcc4c01ee53c5f35fdb303700"
+        },
+        {
+          "assetId": "asset-5a4957a23785aa71b8b20485",
+          "sha256": "5a4957a23785aa71b8b20485688ccb87512ba2b951bcb5082623dba84c0fb1e7"
+        }
+      ],
+      "constraints": {
+        "identity": "Child hedgehog; rounded dimensional face, visible eye irises, golden quill. Not the infant.",
+        "scale": "About half Papa standing height",
+        "geometry": ""
+      },
+      "qaNote": "Visual QA passed after one targeted scale repair; initial interactions asset-e4330679e5a41614ca0ad6b1 retained. No personal human review or delegated acceptance inferred.",
+      "timingPath": "reports/pinpin-generation-timing.json",
+      "completedAt": "2026-10-03T10:34:35.756853+00:00",
+      "stages": {
+        "solo": {
+          "assetId": "asset-5d505b375eed339baa7f7650",
+          "sha256": "5d505b375eed339baa7f765028f4c61224a685dfcc4c01ee53c5f35fdb303700",
+          "nativePath": "/Users/miguel_lemos/.codex/generated_images/01a0ff85-92dc-7c40-9adb-ef240551a423/exec-7ac57cc8-008b-420d-8888-2d2ba22eb139.png",
+          "generatedPath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/generated/5d505b375eed339b-pinpin-solo.png",
+          "receiptKind": null
+        },
+        "interactions": {
+          "assetId": "asset-5a4957a23785aa71b8b20485",
+          "sha256": "5a4957a23785aa71b8b20485688ccb87512ba2b951bcb5082623dba84c0fb1e7",
+          "nativePath": "/Users/miguel_lemos/.codex/generated_images/01a0ff85-92dc-7c40-9adb-ef240551a423/exec-faf3d32b-ce9d-4411-8d2b-486bcc453695.png",
+          "generatedPath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/generated/5a4957a23785aa71-pinpin-interactions.png",
+          "receiptKind": null
+        }
+      },
+      "missingStages": [],
+      "nextStage": null,
+      "complete": true,
+      "claimedStatus": "produced"
+    },
+    {
+      "id": "pompom",
+      "canonicalName": "Mr. PomPom",
+      "aliases": [
+        "PomPom",
+        "ПомПом"
+      ],
+      "exactAge": "not stated",
+      "evidencedLifeStage": "infant in published family",
+      "status": "produced",
+      "dossierPath": "workflows/characters/pompom/README.md",
+      "evidencePath": "workflows/characters/pompom/evidence.json",
+      "evidenceCount": 90,
+      "registeredReferenceIds": [
+        "asset-88d74c56a468e3f250b12dbc"
+      ],
+      "outputs": [
+        {
+          "assetId": "asset-483201f4d30299518e37b401",
+          "sha256": "483201f4d30299518e37b401259cdd365de5efcdfddf3624156c4c1f176b4f2a"
+        },
+        {
+          "assetId": "asset-56362912ae9b6173ac8464de",
+          "sha256": "56362912ae9b6173ac8464de4499f12fcb195ee52fc01b2f6ba15d15c25d7711"
+        }
+      ],
+      "constraints": {
+        "identity": "Infant; whole separate supported body, two clear arms and legs.",
+        "scale": "Small enough for Mama to carry",
+        "geometry": ""
+      },
+      "stageReceipts": {
+        "solo": {
+          "assetId": "asset-483201f4d30299518e37b401",
+          "sha256": "483201f4d30299518e37b401259cdd365de5efcdfddf3624156c4c1f176b4f2a",
+          "receiptKind": "legacy-catalog-provenance",
+          "reason": "Explicit role migration of retained pre-helper package; catalog provenance preserved."
+        },
+        "interactions": {
+          "assetId": "asset-56362912ae9b6173ac8464de",
+          "sha256": "56362912ae9b6173ac8464de4499f12fcb195ee52fc01b2f6ba15d15c25d7711",
+          "receiptKind": "legacy-catalog-provenance",
+          "reason": "Explicit role migration of retained pre-helper package; catalog provenance preserved."
+        }
+      },
+      "stages": {
+        "solo": {
+          "assetId": "asset-483201f4d30299518e37b401",
+          "sha256": "483201f4d30299518e37b401259cdd365de5efcdfddf3624156c4c1f176b4f2a",
+          "nativePath": null,
+          "generatedPath": null,
+          "receiptKind": "legacy-catalog-provenance"
+        },
+        "interactions": {
+          "assetId": "asset-56362912ae9b6173ac8464de",
+          "sha256": "56362912ae9b6173ac8464de4499f12fcb195ee52fc01b2f6ba15d15c25d7711",
+          "nativePath": null,
+          "generatedPath": null,
+          "receiptKind": "legacy-catalog-provenance"
+        }
+      },
+      "missingStages": [],
+      "nextStage": null,
+      "complete": true,
+      "claimedStatus": "produced"
+    },
+    {
+      "id": "mama",
+      "canonicalName": "Mama",
+      "aliases": [
+        "Mama",
+        "мама",
+        "Мама",
+        "мать"
+      ],
+      "exactAge": "not stated",
+      "evidencedLifeStage": "adult parent",
+      "status": "produced",
+      "dossierPath": "workflows/characters/mama/README.md",
+      "evidencePath": "workflows/characters/mama/evidence.json",
+      "evidenceCount": 185,
+      "registeredReferenceIds": [
+        "asset-88d74c56a468e3f250b12dbc"
+      ],
+      "outputs": [
+        {
+          "assetId": "asset-0409122a3c93ef73014f6338",
+          "sha256": "0409122a3c93ef73014f6338020ea942f47e5c0f4d0a59cf424508eb6ce37898"
+        },
+        {
+          "assetId": "asset-4a23599bb5c8411f29297d55",
+          "sha256": "4a23599bb5c8411f29297d55d7fc1b969efd763650965c288b4f4287f77f84d1"
+        }
+      ],
+      "constraints": {
+        "identity": "Mother hedgehog; engaged gaze and distinct adult body.",
+        "scale": "Adult family scale",
+        "geometry": ""
+      },
+      "stageReceipts": {
+        "solo": {
+          "assetId": "asset-0409122a3c93ef73014f6338",
+          "sha256": "0409122a3c93ef73014f6338020ea942f47e5c0f4d0a59cf424508eb6ce37898",
+          "receiptKind": "legacy-catalog-provenance",
+          "reason": "Explicit role migration of retained pre-helper package; catalog provenance preserved."
+        },
+        "interactions": {
+          "assetId": "asset-4a23599bb5c8411f29297d55",
+          "sha256": "4a23599bb5c8411f29297d55d7fc1b969efd763650965c288b4f4287f77f84d1",
+          "receiptKind": "legacy-catalog-provenance",
+          "reason": "Explicit role migration of retained pre-helper package; catalog provenance preserved."
+        }
+      },
+      "stages": {
+        "solo": {
+          "assetId": "asset-0409122a3c93ef73014f6338",
+          "sha256": "0409122a3c93ef73014f6338020ea942f47e5c0f4d0a59cf424508eb6ce37898",
+          "nativePath": null,
+          "generatedPath": null,
+          "receiptKind": "legacy-catalog-provenance"
+        },
+        "interactions": {
+          "assetId": "asset-4a23599bb5c8411f29297d55",
+          "sha256": "4a23599bb5c8411f29297d55d7fc1b969efd763650965c288b4f4287f77f84d1",
+          "nativePath": null,
+          "generatedPath": null,
+          "receiptKind": "legacy-catalog-provenance"
+        }
+      },
+      "missingStages": [],
+      "nextStage": null,
+      "complete": true,
+      "claimedStatus": "produced"
+    },
+    {
+      "id": "papa",
+      "canonicalName": "Papa",
+      "aliases": [
+        "Papa",
+        "папа",
+        "Папа",
+        "отец"
+      ],
+      "exactAge": "not stated",
+      "evidencedLifeStage": "adult parent",
+      "status": "produced",
+      "dossierPath": "workflows/characters/papa/README.md",
+      "evidencePath": "workflows/characters/papa/evidence.json",
+      "evidenceCount": 277,
+      "registeredReferenceIds": [
+        "asset-88d74c56a468e3f250b12dbc"
+      ],
+      "outputs": [
+        {
+          "assetId": "asset-6d619138c33f8111b5b1ff68",
+          "sha256": "6d619138c33f8111b5b1ff6808d53923ac767e48f3e4a8e03601754a9eab5b87"
+        },
+        {
+          "assetId": "asset-1733f4d737f28fd9a90a2a05",
+          "sha256": "1733f4d737f28fd9a90a2a05700b0abab0ea1e01ad2dc0308fac07a07db507ce"
+        }
+      ],
+      "constraints": {
+        "identity": "Adult broad shoulders, short rounded muzzle and button nose, cool quills; no wolf snout.",
+        "scale": "Clearly larger than PinPin",
+        "geometry": ""
+      },
+      "stages": {
+        "solo": {
+          "assetId": "asset-6d619138c33f8111b5b1ff68",
+          "sha256": "6d619138c33f8111b5b1ff6808d53923ac767e48f3e4a8e03601754a9eab5b87",
+          "nativePath": "/Users/miguel_lemos/.codex/generated_images/01a0ff85-92dc-7c40-9adb-ef240551a423/exec-258c6740-ccf2-43a6-8a28-11210a1c4561.png",
+          "generatedPath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/generated/6d619138c33f8111-papa-solo.png",
+          "receiptKind": null
+        },
+        "interactions": {
+          "assetId": "asset-1733f4d737f28fd9a90a2a05",
+          "sha256": "1733f4d737f28fd9a90a2a05700b0abab0ea1e01ad2dc0308fac07a07db507ce",
+          "nativePath": "/Users/miguel_lemos/.codex/generated_images/01a0ff85-92dc-7c40-9adb-ef240551a423/exec-cf6e5f2a-694b-461c-aa79-753a5e640d9f.png",
+          "generatedPath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/generated/1733f4d737f28fd9-papa-interactions.png",
+          "receiptKind": null
+        }
+      },
+      "missingStages": [],
+      "nextStage": null,
+      "complete": true,
+      "claimedStatus": "produced"
+    },
+    {
+      "id": "rabbit",
+      "canonicalName": "Rabbit / Lulu",
+      "aliases": [
+        "Rabbit",
+        "rabbit",
+        "Лулу",
+        "ЛуЛу",
+        "Lulu"
+      ],
+      "exactAge": "not stated",
+      "evidencedLifeStage": "peer companion; exact age not stated",
+      "status": "produced",
+      "dossierPath": "workflows/characters/rabbit/README.md",
+      "evidencePath": "workflows/characters/rabbit/evidence.json",
+      "evidenceCount": 21,
+      "registeredReferenceIds": [
+        "asset-f945f4802de940f91dc6a78a"
+      ],
+      "outputs": [
+        {
+          "assetId": "asset-e64154c3829a84e223c54626",
+          "sha256": "e64154c3829a84e223c54626222d8b9b24a6e8cb4dd73e5ecb518dcf4ea37f6b"
+        },
+        {
+          "assetId": "asset-c55a562de31d68a4d2428d52",
+          "sha256": "c55a562de31d68a4d2428d529e0d5fe11108a2aff4d5221611e9901eec2cec2b"
+        }
+      ],
+      "constraints": {
+        "identity": "Use published Rabbit identity; simple concrete dialogue for four-year-olds.",
+        "scale": "",
+        "geometry": ""
+      },
+      "stages": {
+        "solo": {
+          "assetId": "asset-e64154c3829a84e223c54626",
+          "sha256": "e64154c3829a84e223c54626222d8b9b24a6e8cb4dd73e5ecb518dcf4ea37f6b",
+          "nativePath": "/Users/miguel_lemos/.codex/generated_images/01a0ff85-92dc-7c40-9adb-ef240551a423/exec-0fa24a90-424e-43fc-a29d-140383a1d970.png",
+          "generatedPath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/generated/e64154c3829a84e2-rabbit-solo.png",
+          "receiptKind": null
+        },
+        "interactions": {
+          "assetId": "asset-c55a562de31d68a4d2428d52",
+          "sha256": "c55a562de31d68a4d2428d529e0d5fe11108a2aff4d5221611e9901eec2cec2b",
+          "nativePath": "/Users/miguel_lemos/.codex/generated_images/01a0ff85-92dc-7c40-9adb-ef240551a423/exec-40ecaaed-fd24-4b3c-aee7-cf499439f9bf.png",
+          "generatedPath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/generated/c55a562de31d68a4-rabbit-interactions.png",
+          "receiptKind": null
+        }
+      },
+      "missingStages": [],
+      "nextStage": null,
+      "complete": true,
+      "claimedStatus": "produced",
+      "qaNote": "Inspected native pages: identity, directions, anatomy, scale/contact. Agent QA only; no personal Miguel approval.",
+      "timingPath": "reports/cast-batch-timing.json",
+      "completedAt": "2026-10-03T11:23:20.734444+00:00"
+    },
+    {
+      "id": "elder",
+      "canonicalName": "The Elder",
+      "aliases": [
+        "Старейшина",
+        "Шипостав",
+        "Шипокол",
+        "Шипастойпалки",
+        "Спайкстейв",
+        "Elder"
+      ],
+      "exactAge": "not stated",
+      "evidencedLifeStage": "elderly hedgehog mentor; published design established, not a novel character",
+      "status": "produced",
+      "dossierPath": "workflows/characters/elder/README.md",
+      "evidencePath": "workflows/characters/elder/evidence.json",
+      "evidenceCount": 185,
+      "registeredReferenceIds": [],
+      "outputs": [
+        {
+          "assetId": "asset-cd76572711835f22310bd2e6",
+          "sha256": "cd76572711835f22310bd2e66749b1df7dce16918a23cda5542a104b8ec86dfc"
+        },
+        {
+          "assetId": "asset-ba2002ca5110c1a61b6782a9",
+          "sha256": "ba2002ca5110c1a61b6782a93318f5d5c425f2aefaa3c3021300b6f24b8b706a"
+        }
+      ],
+      "constraints": {
+        "identity": "Established published elderly hedgehog mentor: round gold spectacles, pale cream muzzle/chest, cool gray-brown quills, short rounded muzzle and button nose.",
+        "scale": "Compact elder shorter than Papa, larger than PinPin; measured numeric height and age not stated.",
+        "geometry": "Two arms/two legs, distinct body, staff where appropriate, glasses retained in contact poses."
+      },
+      "stages": {
+        "solo": {
+          "assetId": "asset-cd76572711835f22310bd2e6",
+          "sha256": "cd76572711835f22310bd2e66749b1df7dce16918a23cda5542a104b8ec86dfc",
+          "nativePath": "/Users/miguel_lemos/.codex/generated_images/01a0ff85-92dc-7c40-9adb-ef240551a423/exec-f2a85201-a228-40b1-9fcd-b9dd06743968.png",
+          "generatedPath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/generated/cd76572711835f22-elder-solo.png",
+          "receiptKind": null
+        },
+        "interactions": {
+          "assetId": "asset-ba2002ca5110c1a61b6782a9",
+          "sha256": "ba2002ca5110c1a61b6782a93318f5d5c425f2aefaa3c3021300b6f24b8b706a",
+          "nativePath": "/Users/miguel_lemos/.codex/generated_images/01a0ff85-92dc-7c40-9adb-ef240551a423/exec-515af00f-7c34-44f8-a7f8-60be47a47119.png",
+          "generatedPath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/generated/ba2002ca5110c1a6-elder-interactions-repaired.png",
+          "receiptKind": null
+        }
+      },
+      "missingStages": [],
+      "nextStage": null,
+      "complete": true,
+      "claimedStatus": "produced",
+      "qaNote": "Inspected native pages: identity, directions, anatomy, scale/contact. Agent QA only; no personal Miguel approval.",
+      "timingPath": "reports/cast-batch-timing.json",
+      "completedAt": "2026-10-03T11:23:58.818411+00:00"
+    },
+    {
+      "id": "scooby",
+      "canonicalName": "Scooby",
+      "aliases": [
+        "Scooby",
+        "Скуби"
+      ],
+      "exactAge": "not stated",
+      "evidencedLifeStage": "large dog; age not stated",
+      "status": "produced",
+      "dossierPath": "workflows/characters/scooby/README.md",
+      "evidencePath": "workflows/characters/scooby/evidence.json",
+      "evidenceCount": 104,
+      "registeredReferenceIds": [
+        "asset-496b4f5dd35b520c54fce130"
+      ],
+      "outputs": [
+        {
+          "assetId": "asset-4336524cb9db0e329aacc58f",
+          "sha256": "4336524cb9db0e329aacc58f68841a53fedc85352fc9a262e85ababf75ee7aa6"
+        },
+        {
+          "assetId": "asset-a3e1d5b048327b08f32de036",
+          "sha256": "a3e1d5b048327b08f32de03645799c2f47fd7e3fedf2310610c15d9b27a9487e"
+        }
+      ],
+      "constraints": {
+        "identity": "Brown short coat, curled tail, somewhat long ears, attentive book-style eyes.",
+        "scale": "Withers near standing Papa head; broad enough for Papa and PinPin to ride.",
+        "geometry": ""
+      },
+      "stages": {
+        "solo": {
+          "assetId": "asset-4336524cb9db0e329aacc58f",
+          "sha256": "4336524cb9db0e329aacc58f68841a53fedc85352fc9a262e85ababf75ee7aa6",
+          "nativePath": "/Users/miguel_lemos/.codex/generated_images/01a0ff85-92dc-7c40-9adb-ef240551a423/exec-81380d67-0602-417c-b088-5213ae2ba47d.png",
+          "generatedPath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/generated/4336524cb9db0e32-scooby-solo.png",
+          "receiptKind": null
+        },
+        "interactions": {
+          "assetId": "asset-a3e1d5b048327b08f32de036",
+          "sha256": "a3e1d5b048327b08f32de03645799c2f47fd7e3fedf2310610c15d9b27a9487e",
+          "nativePath": "/Users/miguel_lemos/.codex/generated_images/01a0ff85-92dc-7c40-9adb-ef240551a423/exec-a9ea4f2c-32fa-4dc7-ab72-7195e7348e88.png",
+          "generatedPath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/generated/a3e1d5b048327b08-scooby-interactions-repaired.png",
+          "receiptKind": null
+        }
+      },
+      "missingStages": [],
+      "nextStage": null,
+      "complete": true,
+      "claimedStatus": "produced",
+      "qaNote": "Inspected native pages: identity, directions, anatomy, scale/contact. Agent QA only; no personal Miguel approval.",
+      "timingPath": "reports/cast-batch-timing.json",
+      "completedAt": "2026-10-03T11:23:58.979446+00:00"
+    },
+    {
+      "id": "beaver",
+      "canonicalName": "Beaver",
+      "aliases": [
+        "Beaver",
+        "Бобр",
+        "бобр"
+      ],
+      "exactAge": "not stated",
+      "evidencedLifeStage": "adult builder in adaptation",
+      "status": "pending",
+      "dossierPath": "workflows/characters/beaver/README.md",
+      "evidencePath": "workflows/characters/beaver/evidence.json",
+      "evidenceCount": 44,
+      "registeredReferenceIds": [
+        "asset-cd6fc9a3e01decb743ce5c99"
+      ],
+      "outputs": [],
+      "constraints": {
+        "identity": "Chestnut fur, blue work vest, broad paddle tail; capable collaborating builder.",
+        "scale": "",
+        "geometry": ""
+      },
+      "stages": {},
+      "missingStages": [
+        "solo",
+        "interactions"
+      ],
+      "nextStage": "solo",
+      "complete": false,
+      "claimedStatus": "pending"
+    },
+    {
+      "id": "mama-beaver",
+      "canonicalName": "Mama Beaver",
+      "aliases": [
+        "Mama Beaver",
+        "Мама Бобриха",
+        "бобриха"
+      ],
+      "exactAge": "not stated",
+      "evidencedLifeStage": "adult parent in adaptation",
+      "status": "pending",
+      "dossierPath": "workflows/characters/mama-beaver/README.md",
+      "evidencePath": "workflows/characters/mama-beaver/evidence.json",
+      "evidenceCount": 4,
+      "registeredReferenceIds": [],
+      "outputs": [],
+      "constraints": {
+        "identity": "adult parent in adaptation",
+        "scale": "Not measured; use original/published indexed visual evidence",
+        "geometry": ""
+      },
+      "stages": {},
+      "missingStages": [
+        "solo",
+        "interactions"
+      ],
+      "nextStage": "solo",
+      "complete": false,
+      "claimedStatus": "pending"
+    },
+    {
+      "id": "beaver-kits",
+      "canonicalName": "Two little beavers",
+      "aliases": [
+        "little beavers",
+        "kits",
+        "бобрята"
+      ],
+      "exactAge": "not stated",
+      "evidencedLifeStage": "young sibling pair; separate reusable group package",
+      "status": "pending",
+      "dossierPath": "workflows/characters/beaver-kits/README.md",
+      "evidencePath": "workflows/characters/beaver-kits/evidence.json",
+      "evidenceCount": 2,
+      "registeredReferenceIds": [],
+      "outputs": [],
+      "constraints": {
+        "identity": "young sibling pair; separate reusable group package",
+        "scale": "Not measured; use original/published indexed visual evidence",
+        "geometry": ""
+      },
+      "stages": {},
+      "missingStages": [
+        "solo",
+        "interactions"
+      ],
+      "nextStage": "solo",
+      "complete": false,
+      "claimedStatus": "pending"
+    },
+    {
+      "id": "bear",
+      "canonicalName": "Mr. Bear",
+      "aliases": [
+        "Mr. Bear",
+        "Bear",
+        "Медведь",
+        "медвед"
+      ],
+      "exactAge": "not stated",
+      "evidencedLifeStage": "adult supporting builder; adaptation design",
+      "status": "pending",
+      "dossierPath": "workflows/characters/bear/README.md",
+      "evidencePath": "workflows/characters/bear/evidence.json",
+      "evidenceCount": 4,
+      "registeredReferenceIds": [
+        "asset-3b92d67454ebb1f3a0e51b67"
+      ],
+      "outputs": [],
+      "constraints": {
+        "identity": "NEW supporting builder introduced in R17; do not claim old-book canonical appearance.",
+        "scale": "Study proposes 1.35 Papa height.",
+        "geometry": ""
+      },
+      "stages": {},
+      "missingStages": [
+        "solo",
+        "interactions"
+      ],
+      "nextStage": "solo",
+      "complete": false,
+      "claimedStatus": "pending"
+    },
+    {
+      "id": "talking-duck",
+      "canonicalName": "Talking bath Duck",
+      "aliases": [
+        "duck",
+        "Duck",
+        "утк",
+        "Утк"
+      ],
+      "exactAge": "not stated",
+      "evidencedLifeStage": "magically sentient duck, separate from ordinary toy prop",
+      "status": "pending",
+      "dossierPath": "workflows/characters/talking-duck/README.md",
+      "evidencePath": "workflows/characters/talking-duck/evidence.json",
+      "evidenceCount": 18,
+      "registeredReferenceIds": [],
+      "outputs": [],
+      "constraints": {
+        "identity": "magically sentient duck, separate from ordinary toy prop",
+        "scale": "Not measured; use original/published indexed visual evidence",
+        "geometry": ""
+      },
+      "stages": {},
+      "missingStages": [
+        "solo",
+        "interactions"
+      ],
+      "nextStage": "solo",
+      "complete": false,
+      "claimedStatus": "pending"
+    },
+    {
+      "id": "tutu",
+      "canonicalName": "Tutu",
+      "aliases": [
+        "Туту",
+        "ТуТу",
+        "Tutu"
+      ],
+      "exactAge": "not stated",
+      "evidencedLifeStage": "squirrel friend (chapter 9); exact age not stated",
+      "status": "pending",
+      "dossierPath": "workflows/characters/tutu/README.md",
+      "evidencePath": "workflows/characters/tutu/evidence.json",
+      "evidenceCount": 8,
+      "registeredReferenceIds": [],
+      "outputs": [],
+      "constraints": {
+        "identity": "squirrel friend (chapter 9); exact age not stated",
+        "scale": "Not measured; use original/published indexed visual evidence",
+        "geometry": ""
+      },
+      "stages": {},
+      "missingStages": [
+        "solo",
+        "interactions"
+      ],
+      "nextStage": "solo",
+      "complete": false,
+      "claimedStatus": "pending"
+    },
+    {
+      "id": "pipilini",
+      "canonicalName": "Mr. Pipilini",
+      "aliases": [
+        "Пипилини",
+        "Пипилино",
+        "Pipilini",
+        "Pipilino"
+      ],
+      "exactAge": "not stated",
+      "evidencedLifeStage": "older migrating bird with weak wings; spelling variants in continuous story",
+      "status": "pending",
+      "dossierPath": "workflows/characters/pipilini/README.md",
+      "evidencePath": "workflows/characters/pipilini/evidence.json",
+      "evidenceCount": 35,
+      "registeredReferenceIds": [],
+      "outputs": [],
+      "constraints": {
+        "identity": "older migrating bird with weak wings; spelling variants in continuous story",
+        "scale": "Not measured; use original/published indexed visual evidence",
+        "geometry": ""
+      },
+      "stages": {},
+      "missingStages": [
+        "solo",
+        "interactions"
+      ],
+      "nextStage": "solo",
+      "complete": false,
+      "claimedStatus": "pending"
+    },
+    {
+      "id": "oreshek",
+      "canonicalName": "Elder Oreshek",
+      "aliases": [
+        "Орешек",
+        "Oreshek"
+      ],
+      "exactAge": "not stated",
+      "evidencedLifeStage": "squirrel elder; distinct from hedgehog Elder",
+      "status": "pending",
+      "dossierPath": "workflows/characters/oreshek/README.md",
+      "evidencePath": "workflows/characters/oreshek/evidence.json",
+      "evidenceCount": 21,
+      "registeredReferenceIds": [],
+      "outputs": [],
+      "constraints": {
+        "identity": "squirrel elder; distinct from hedgehog Elder",
+        "scale": "Not measured; use original/published indexed visual evidence",
+        "geometry": ""
+      },
+      "stages": {},
+      "missingStages": [
+        "solo",
+        "interactions"
+      ],
+      "nextStage": "solo",
+      "complete": false,
+      "claimedStatus": "pending"
+    },
+    {
+      "id": "lilia",
+      "canonicalName": "Lilia",
+      "aliases": [
+        "Лилия",
+        "Лили",
+        "Lilia"
+      ],
+      "exactAge": "not stated",
+      "evidencedLifeStage": "elderly female squirrel wizard; chapter30 zero-based blocks2–6, chapter31 block1; exact age not stated",
+      "status": "pending",
+      "dossierPath": "workflows/characters/lilia/README.md",
+      "evidencePath": "workflows/characters/lilia/evidence.json",
+      "evidenceCount": 17,
+      "registeredReferenceIds": [],
+      "outputs": [],
+      "constraints": {
+        "identity": "Old female squirrel with huge spectacles, forest sorceress; not young peer Tutu.",
+        "scale": "Not measured; use original/published indexed visual evidence",
+        "geometry": ""
+      },
+      "stages": {},
+      "missingStages": [
+        "solo",
+        "interactions"
+      ],
+      "nextStage": "solo",
+      "complete": false,
+      "claimedStatus": "pending"
+    },
+    {
+      "id": "hedgehog-cousins",
+      "canonicalName": "Young hedgehog cousins",
+      "aliases": [
+        "кузен",
+        "cousin"
+      ],
+      "exactAge": "not stated",
+      "evidencedLifeStage": "younger hedgehog relatives in chapter 38; unnamed recurring group",
+      "status": "pending",
+      "dossierPath": "workflows/characters/hedgehog-cousins/README.md",
+      "evidencePath": "workflows/characters/hedgehog-cousins/evidence.json",
+      "evidenceCount": 10,
+      "registeredReferenceIds": [],
+      "outputs": [],
+      "constraints": {
+        "identity": "younger hedgehog relatives in chapter 38; unnamed recurring group",
+        "scale": "Not measured; use original/published indexed visual evidence",
+        "geometry": ""
+      },
+      "stages": {},
+      "missingStages": [
+        "solo",
+        "interactions"
+      ],
+      "nextStage": "solo",
+      "complete": false,
+      "claimedStatus": "pending"
+    },
+    {
+      "id": "spring-birds",
+      "canonicalName": "Two spring birds",
+      "aliases": [
+        "birds",
+        "птич",
+        "птиц"
+      ],
+      "exactAge": "not stated",
+      "evidencedLifeStage": "small birds in bath adaptation; incidental pair retained as supporting group",
+      "status": "pending",
+      "dossierPath": "workflows/characters/spring-birds/README.md",
+      "evidencePath": "workflows/characters/spring-birds/evidence.json",
+      "evidenceCount": 14,
+      "registeredReferenceIds": [],
+      "outputs": [],
+      "constraints": {
+        "identity": "small birds in bath adaptation; incidental pair retained as supporting group",
+        "scale": "Not measured; use original/published indexed visual evidence",
+        "geometry": ""
+      },
+      "stages": {},
+      "missingStages": [
+        "solo",
+        "interactions"
+      ],
+      "nextStage": "solo",
+      "complete": false,
+      "claimedStatus": "pending"
+    },
+    {
+      "id": "squirrel-community",
+      "canonicalName": "Forest squirrel community",
+      "aliases": [
+        "белк",
+        "Белк",
+        "squirrels"
+      ],
+      "exactAge": "not stated",
+      "evidencedLifeStage": "recurring mixed squirrel community; unnamed cast group, not named invented individuals",
+      "status": "pending",
+      "dossierPath": "workflows/characters/squirrel-community/README.md",
+      "evidencePath": "workflows/characters/squirrel-community/evidence.json",
+      "evidenceCount": 18,
+      "registeredReferenceIds": [],
+      "outputs": [],
+      "constraints": {
+        "identity": "recurring mixed squirrel community; unnamed cast group, not named invented individuals",
+        "scale": "Not measured; use original/published indexed visual evidence",
+        "geometry": ""
+      },
+      "stages": {},
+      "missingStages": [
+        "solo",
+        "interactions"
+      ],
+      "nextStage": "solo",
+      "complete": false,
+      "claimedStatus": "pending"
+    },
+    {
+      "id": "migrating-bird-family",
+      "canonicalName": "Pipilini's migrating family",
+      "aliases": [
+        "семейств",
+        "Пипилини",
+        "Пипилино"
+      ],
+      "exactAge": "not stated",
+      "evidencedLifeStage": "recurring bird family from chapter 8; broad family matches require contextual review",
+      "status": "pending",
+      "dossierPath": "workflows/characters/migrating-bird-family/README.md",
+      "evidencePath": "workflows/characters/migrating-bird-family/evidence.json",
+      "evidenceCount": 35,
+      "registeredReferenceIds": [],
+      "outputs": [],
+      "constraints": {
+        "identity": "recurring bird family from chapter 8; broad family matches require contextual review",
+        "scale": "Not measured; use original/published indexed visual evidence",
+        "geometry": ""
+      },
+      "stages": {},
+      "missingStages": [
+        "solo",
+        "interactions"
+      ],
+      "nextStage": "solo",
+      "complete": false,
+      "claimedStatus": "pending"
+    },
+    {
+      "id": "tarin",
+      "canonicalName": "Tarin",
+      "aliases": [
+        "Тарин"
+      ],
+      "exactAge": "not stated",
+      "evidencedLifeStage": "old hedgehog; explicit tall HUMAN wizard transformation and sunset hedgehog reversion",
+      "status": "pending",
+      "outputs": [],
+      "dossierPath": "workflows/characters/tarin/README.md",
+      "evidencePath": "workflows/characters/tarin/evidence.json",
+      "requiredForms": [
+        "hedgehog",
+        "human wizard in robe"
+      ],
+      "aliasDecision": "Relationship to published Elder remains unresolved; preserve a distinct form requirement.",
+      "constraints": {
+        "identity": "Both explicit forms required; do not merge away human form",
+        "scale": "human form tall per original; exact height not stated"
+      },
+      "stages": {},
+      "missingStages": [
+        "solo",
+        "interactions"
+      ],
+      "nextStage": "solo",
+      "complete": false,
+      "claimedStatus": "pending"
+    }
+  ],
+  "nextEntityId": "beaver",
+  "notetaker": {
+    "available": false,
+    "evidence": "Coordinator reports bounded connected-tool/plugin/repo discovery found no configured Notetaker integration.",
+    "fallback": "Durable Markdown notes, explicitly not Notetaker."
+  },
+  "audit": {
+    "originalChaptersIndexed": 38,
+    "originalSource": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/book.json",
+    "sourceSha256": "b1499e503613e526ba679ba6c82c59feb1b3319584e3403b0e1abf32659391af",
+    "scope": "Named individuals and recurring adaptation groups; lexical bibliography requires contextual reading.",
+    "dispositions": "Unnamed butterfly/rabbit crowds, raccoon honey anecdote and general forest populations remain incidental groups, not invented named characters. Ordinary bath toy remains prop; sentient Duck has a separate package. Mentor name variants are provisional aliases; Oreshek is a distinct squirrel elder.",
+    "agePolicy": "No exact numeric age found in indexed cast evidence; descriptive old/young/infant are life stages, not dates."
+  }
+}

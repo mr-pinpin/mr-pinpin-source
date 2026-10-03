@@ -1,0 +1,265 @@
+{
+  "fixtureRoot": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/reports/cast-isolated-zkmm_tj9",
+  "tests": [
+    {
+      "test": "status alone cannot complete; solo-only resumes interactions",
+      "passed": true
+    },
+    {
+      "test": "genuine distinct two-stage package skipped",
+      "passed": true
+    },
+    {
+      "test": "independent fresh process without conversation/thread sees exact missing stage",
+      "passed": true
+    },
+    {
+      "test": "changed Markdown loaded in second independent process",
+      "passed": true
+    },
+    {
+      "test": "guide/dossier serialized once",
+      "passed": true
+    },
+    {
+      "test": "aggregate bounded context",
+      "passed": true
+    },
+    {
+      "test": "receipt for a different entity cannot complete a stage",
+      "passed": true
+    },
+    {
+      "test": "receipt role must match required stage",
+      "passed": true
+    },
+    {
+      "test": "registered metadata without actual image bytes cannot complete",
+      "passed": true
+    },
+    {
+      "test": "same asset cannot serve both required pages",
+      "passed": true
+    },
+    {
+      "test": "unknown or mismatched-hash stage incomplete",
+      "passed": true
+    },
+    {
+      "test": "unknown or mismatched-hash stage incomplete",
+      "passed": true
+    },
+    {
+      "test": "duplicate package write rejected",
+      "passed": true
+    },
+    {
+      "test": "malformed manifest graceful",
+      "passed": true
+    },
+    {
+      "test": "malformed manifest graceful",
+      "passed": true
+    },
+    {
+      "test": "malformed manifest graceful",
+      "passed": true
+    },
+    {
+      "test": "malformed manifest graceful",
+      "passed": true
+    },
+    {
+      "test": "bounded read before allocation; no false full-file hash",
+      "passed": true
+    },
+    {
+      "test": "historical context never reads live mutable workflow or advances",
+      "passed": true
+    },
+    {
+      "test": "no conversation copied; fixture does not share live Store",
+      "passed": true
+    }
+  ],
+  "freshProcessOne": {
+    "entity": "partial",
+    "workflow": {
+      "manifestPath": "workflows/cast-run.json",
+      "nextEntityId": "partial",
+      "remaining": [
+        "partial"
+      ],
+      "selected": {
+        "id": "partial",
+        "canonicalName": "partial",
+        "status": "partial",
+        "outputs": [],
+        "exactAge": "not stated",
+        "evidencedLifeStage": "fixture",
+        "aliases": [],
+        "dossierPath": "workflows/characters/partial/README.md",
+        "evidencePath": "workflows/characters/partial/evidence.json",
+        "stages": {
+          "solo": {
+            "assetId": "asset-77845f63cbd1ecb93e10fbaf",
+            "sha256": "77845f63cbd1ecb93e10fbaff7e657044d25d59f0586905c9bdbddeb2c477309",
+            "nativePath": null,
+            "generatedPath": null,
+            "receiptKind": null
+          }
+        },
+        "missingStages": [
+          "interactions"
+        ],
+        "nextStage": "interactions",
+        "complete": false,
+        "claimedStatus": "completed"
+      },
+      "characters": [
+        {
+          "id": "partial",
+          "canonicalName": "partial",
+          "status": "partial",
+          "dossierPath": "workflows/characters/partial/README.md",
+          "evidencePath": "workflows/characters/partial/evidence.json",
+          "outputs": [],
+          "nextStage": "interactions",
+          "missingStages": [
+            "interactions"
+          ]
+        },
+        {
+          "id": "complete",
+          "canonicalName": "complete",
+          "status": "completed",
+          "dossierPath": "workflows/characters/complete/README.md",
+          "evidencePath": "workflows/characters/complete/evidence.json",
+          "outputs": [],
+          "nextStage": null,
+          "missingStages": []
+        }
+      ],
+      "notetaker": null,
+      "authority": "Persistent product data; no approval/publication authority.",
+      "guide": {
+        "path": "workflows/character-creation.md",
+        "sha256": "38ff187faa857241d1f697cc4752cd172e1d75c1dac2eb01ac9be138e6a3cca0",
+        "text": "FIXTURE_GUIDE_V1: complete solo and interactions"
+      },
+      "runContract": {
+        "path": "workflows/cast-run.md",
+        "sha256": "4c1293aa67467eb4d575167159f99855078f3a24afdf330a913efd6b004c1e2a",
+        "text": "Resume durable stage receipts"
+      },
+      "dossier": {
+        "path": "workflows/characters/partial/README.md",
+        "sha256": "f226896a14d806c1dfde80b35ff7a51fa73e8375bcbcfb5169de13331299fd24",
+        "text": "FIXTURE_DOSSIER: source-established fixture, no generation"
+      },
+      "packageReceipts": {
+        "solo": {
+          "assetId": "asset-77845f63cbd1ecb93e10fbaf",
+          "sha256": "77845f63cbd1ecb93e10fbaff7e657044d25d59f0586905c9bdbddeb2c477309",
+          "nativePath": null,
+          "generatedPath": null,
+          "receiptKind": null
+        }
+      }
+    },
+    "contextBytes": 3570,
+    "guideOccurrences": 1,
+    "dossierOccurrences": 1
+  },
+  "freshProcessTwo": {
+    "entity": "partial",
+    "workflow": {
+      "manifestPath": "workflows/cast-run.json",
+      "nextEntityId": "partial",
+      "remaining": [
+        "partial"
+      ],
+      "selected": {
+        "id": "partial",
+        "canonicalName": "partial",
+        "status": "partial",
+        "outputs": [],
+        "exactAge": "not stated",
+        "evidencedLifeStage": "fixture",
+        "aliases": [],
+        "dossierPath": "workflows/characters/partial/README.md",
+        "evidencePath": "workflows/characters/partial/evidence.json",
+        "stages": {
+          "solo": {
+            "assetId": "asset-77845f63cbd1ecb93e10fbaf",
+            "sha256": "77845f63cbd1ecb93e10fbaff7e657044d25d59f0586905c9bdbddeb2c477309",
+            "nativePath": null,
+            "generatedPath": null,
+            "receiptKind": null
+          }
+        },
+        "missingStages": [
+          "interactions"
+        ],
+        "nextStage": "interactions",
+        "complete": false,
+        "claimedStatus": "completed"
+      },
+      "characters": [
+        {
+          "id": "partial",
+          "canonicalName": "partial",
+          "status": "partial",
+          "dossierPath": "workflows/characters/partial/README.md",
+          "evidencePath": "workflows/characters/partial/evidence.json",
+          "outputs": [],
+          "nextStage": "interactions",
+          "missingStages": [
+            "interactions"
+          ]
+        },
+        {
+          "id": "complete",
+          "canonicalName": "complete",
+          "status": "completed",
+          "dossierPath": "workflows/characters/complete/README.md",
+          "evidencePath": "workflows/characters/complete/evidence.json",
+          "outputs": [],
+          "nextStage": null,
+          "missingStages": []
+        }
+      ],
+      "notetaker": null,
+      "authority": "Persistent product data; no approval/publication authority.",
+      "guide": {
+        "path": "workflows/character-creation.md",
+        "sha256": "b0aa0012f4ef440fb4851494fc06974d483ec50ba8343ab0d48be93f78f2274e",
+        "text": "FIXTURE_GUIDE_V2: changed Markdown, no Python policy edits"
+      },
+      "runContract": {
+        "path": "workflows/cast-run.md",
+        "sha256": "4c1293aa67467eb4d575167159f99855078f3a24afdf330a913efd6b004c1e2a",
+        "text": "Resume durable stage receipts"
+      },
+      "dossier": {
+        "path": "workflows/characters/partial/README.md",
+        "sha256": "f226896a14d806c1dfde80b35ff7a51fa73e8375bcbcfb5169de13331299fd24",
+        "text": "FIXTURE_DOSSIER: source-established fixture, no generation"
+      },
+      "packageReceipts": {
+        "solo": {
+          "assetId": "asset-77845f63cbd1ecb93e10fbaf",
+          "sha256": "77845f63cbd1ecb93e10fbaff7e657044d25d59f0586905c9bdbddeb2c477309",
+          "nativePath": null,
+          "generatedPath": null,
+          "receiptKind": null
+        }
+      }
+    },
+    "contextBytes": 3580,
+    "guideOccurrences": 1,
+    "dossierOccurrences": 1
+  },
+  "actualModelThreadStarted": false,
+  "proofScope": "Isolated real Store and registered deterministic image fixtures, two independent processes with no conversation/thread. No actual new Codex agent thread capability used; this is reproducible application persistence proof, not a claim of a new model session."
+}

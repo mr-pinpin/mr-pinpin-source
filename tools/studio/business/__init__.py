@@ -5,6 +5,8 @@ from .creative_policy import creative_policy
 from .jobs import claim_job, complete_job, fail_job, reply, inbox
 from .conversation_plan import plan_hash
 from .insights import elapsed
+from .cast_workflow import save_progress as reconcile_cast
+from .cast_inventory import record_package as finish_cast_package
 
 API_VERSION = 1
 
@@ -12,6 +14,8 @@ API_VERSION = 1
 def self_test():
     """Pure candidate contract checks: no live Store, network or filesystem writes."""
     assert callable(route) and callable(selected_context)
+    from .cast_workflow import self_test as cast_self_test
+    assert cast_self_test()
     policy = creative_policy()
     assert isinstance(policy, str) and 0 < len(policy.strip()) <= 16000
     assert elapsed("2026-01-01T00:00:00Z", "2026-01-01T00:00:03Z") == 3

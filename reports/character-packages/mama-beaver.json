@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "entityId": "mama-beaver",
+  "stages": {
+    "solo-first": {
+      "candidates": [
+        {
+          "assetId": "asset-77cc0eb6c0787b639492341e",
+          "sha256": "77cc0eb6c0787b639492341ec03725b328cf36bb6103ac9fe7d4c2d9334dcb80",
+          "bytes": 2481959,
+          "reviewStatus": "unreviewed",
+          "nativePath": "/Users/miguel_lemos/.codex/generated_images/01a0ff85-92dc-7c40-9adb-ef240551a423/exec-6a619ab1-c137-4db2-b42e-efeaff163c40.png",
+          "generatedPath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/generated/77cc0eb6c0787b63-mama-beaver-solo-first.png",
+          "reused": false,
+          "kernelRelease": "c9be233f9e18f6d480c8a5b7d50dff6384c9df2766510b5ef006b21ccec40c75",
+          "workflowCard": {
+            "type": "WorkflowCard",
+            "title": "mama-beaver-solo-first.png",
+            "text": "Unreviewed candidate. Original image available at full size.",
+            "assetIds": [
+              "asset-77cc0eb6c0787b639492341e"
+            ],
+            "actions": []
+          },
+          "timing": {
+            "startedAt": "2026-10-03T11:35:26.688234+00:00",
+            "validatedAt": "2026-10-03T11:35:26.728565+00:00",
+            "copiedAt": "2026-10-03T11:35:26.730294+00:00",
+            "registeredAt": "2026-10-03T11:35:26.762606+00:00",
+            "registrationSeconds": 0.074378
+          },
+          "dossierPath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/reports/character-packages/mama-beaver.json",
+          "entityId": "mama-beaver",
+          "stage": "solo-first",
+          "provenance": {
+            "sourcePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/generated/77cc0eb6c0787b63-mama-beaver-solo-first.png",
+            "source": "native-imagegen",
+            "tool": "image_gen.imagegen",
+            "nativeOutputPath": "/Users/miguel_lemos/.codex/generated_images/01a0ff85-92dc-7c40-9adb-ef240551a423/exec-6a619ab1-c137-4db2-b42e-efeaff163c40.png",
+            "nativeSha256": "77cc0eb6c0787b639492341ec03725b328cf36bb6103ac9fe7d4c2d9334dcb80",
+            "prompt": "Use case: illustration-story. One polished portrait production reference page in warm ivory, FOUR rows SIX clearly readable cells. Warm dimensional illustrated book rendering, soft light. Row1 Face views: Front; Facing left 3/4 (nose SCREEN LEFT, both eyes visible); Facing left profile (nose LEFT); Facing right 3/4 (nose SCREEN RIGHT, both eyes); Facing right profile (nose RIGHT); Rear. Row2 Expressions: Calm, Curious, Delight, Surprise, Thoughtful, Mild upset. Natural brows/mouths, not always smiling. Row3 Whole-body views same six screen directions; entire tails, feet, ears with margins. Row4 Normal poses specified below. Correct short labels, uniform scale within row, distinct left/right views. Exactly two arms and two legs per beaver, believable paws. No new clothes/accessories or ages. Preserve established design, not a redesign. Title Mama Beaver. Use reference1 Mama Beaver at RIGHT behind two kits: established adult mother, chestnut fur, cream muzzle/chest, rounded ears, dark nose, two incisors, broad paddle tail, RED neck scarf knotted at front. Reference2 family is rendering style only; do NOT turn her into hedgehog Mama. Solo Mama Beaver ONLY, no blue vest. Row4: Sit, Wave, Reach, Weave thin branch, Kneel helping, Rest. Preserve natural adult size and capable warm parent without invented numeric age.",
+            "promptSha256": "2c541eaca9c137e92331a4d931a88198065cd2929faa5967877a20cd25852fab",
+            "promptFile": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/reports/mama-beaver-batch3-solo-prompt.txt",
+            "referenceIds": [
+              "asset-cdaa2972246ba0f2f8cc7acc",
+              "asset-88d74c56a468e3f250b12dbc"
+            ],
+            "inputAssets": [
+              {
+                "assetId": "asset-cdaa2972246ba0f2f8cc7acc",
+                "sha256": "cdaa2972246ba0f2f8cc7acc14289d375dd5903c2c8bfb1473f968c33daeee82"
+              },
+              {
+                "assetId": "asset-88d74c56a468e3f250b12dbc",
+                "sha256": "88d74c56a468e3f250b12dbcb5ecdb7b07bd1d789197663d8948ac199acd133d"
+              }
+            ],
+            "registeredBy": "studio-client/register-image.py"
+          }
+        }
+      ]
+    }
+  },
+  "updatedAt": "2026-10-03T11:35:26.762664+00:00"
+}

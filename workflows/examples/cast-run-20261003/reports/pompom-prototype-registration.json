@@ -1,0 +1,29 @@
+{
+  "id": "asset-463aeb445b75c551fad7414b",
+  "name": "Mr. PomPom — prototype 1",
+  "mime": "image/png",
+  "sha256": "463aeb445b75c551fad7414bb9492fbae2353896e9da4a464b46ece808a5b6fe",
+  "bytes": 1927910,
+  "width": 1254,
+  "height": 1254,
+  "url": "/api/assets/asset-463aeb445b75c551fad7414b",
+  "storagePath": "assets/463aeb445b75c551fad7414bb9492fbae2353896e9da4a464b46ece808a5b6fe.png",
+  "createdAt": "2026-10-03T08:54:30.794746+00:00",
+  "reviewStatus": "unreviewed",
+  "provenance": {
+    "sourcePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/generated/pompom-prototype-v1-01a0ff85.png",
+    "tool": "image_gen.imagegen",
+    "prompt": "One image of Mr. PomPom alone, the infant held by Mama on the left in registered family reference asset-88d74c56a468e3f250b12dbc. Preserve his round infant head, short rounded muzzle, glossy dark brown eyes, small dark nose, rounded ears, cream face and tummy, warm brown quills and tiny paws. Do not substitute older PinPin on the right. Full body seated securely in a shallow soft cream cushion nest; cushion supports back and hips without hiding two separate arms and two legs. Three-quarter view turned slightly screen-right, curious soft open-mouth smile, paws relaxed near tummy, feet visible. Plain warm ivory background, gentle warm dimensional storybook rendering, soft diffuse light and subtle contact shadow. No other characters, clothes, text, collage or alternate views. Output one square prototype candidate; keep existing originals. This is the first design review, not the final perspective sheet. Square image. Reference image is identity, scale and rendering style only, not the requested composition.",
+    "referenceBindings": [
+      {
+        "assetId": "asset-88d74c56a468e3f250b12dbc",
+        "sha256": "88d74c56a468e3f250b12dbcb5ecdb7b07bd1d789197663d8948ac199acd133d",
+        "role": "PomPom infant identity, relative scale and rendering style"
+      }
+    ],
+    "nativeSourcePath": "/Users/miguel_lemos/.codex/generated_images/01a0ff85-92dc-7c40-9adb-ef240551a423/exec-9c8e8769-122c-4e99-90a4-67935f593a92.png",
+    "chapterId": "pompom-character-study",
+    "sceneId": "pompom-prototype-01",
+    "workflow": "workflows/character-creation.md"
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "entityId": "beaver-kits",
+  "stages": {
+    "solo-first": {
+      "candidates": [
+        {
+          "assetId": "asset-dda910b75ff185286b0aaa13",
+          "sha256": "dda910b75ff185286b0aaa138b8c9ee670d7ab1cf1a220263f27f490f0c77e60",
+          "bytes": 2708543,
+          "reviewStatus": "unreviewed",
+          "nativePath": "/Users/miguel_lemos/.codex/generated_images/01a0ff85-92dc-7c40-9adb-ef240551a423/exec-59f87f63-741e-435b-9c59-c864dc9eca90.png",
+          "generatedPath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/generated/dda910b75ff18528-beaver-kits-solo-first.png",
+          "reused": false,
+          "kernelRelease": "c9be233f9e18f6d480c8a5b7d50dff6384c9df2766510b5ef006b21ccec40c75",
+          "workflowCard": {
+            "type": "WorkflowCard",
+            "title": "beaver-kits-solo-first.png",
+            "text": "Unreviewed candidate. Original image available at full size.",
+            "assetIds": [
+              "asset-dda910b75ff185286b0aaa13"
+            ],
+            "actions": []
+          },
+          "timing": {
+            "startedAt": "2026-10-03T11:35:26.995833+00:00",
+            "validatedAt": "2026-10-03T11:35:27.036316+00:00",
+            "copiedAt": "2026-10-03T11:35:27.038167+00:00",
+            "registeredAt": "2026-10-03T11:35:27.070879+00:00",
+            "registrationSeconds": 0.075055
+          },
+          "dossierPath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/reports/character-packages/beaver-kits.json",
+          "entityId": "beaver-kits",
+          "stage": "solo-first",
+          "provenance": {
+            "sourcePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/generated/dda910b75ff18528-beaver-kits-solo-first.png",
+            "source": "native-imagegen",
+            "tool": "image_gen.imagegen",
+            "nativeOutputPath": "/Users/miguel_lemos/.codex/generated_images/01a0ff85-92dc-7c40-9adb-ef240551a423/exec-59f87f63-741e-435b-9c59-c864dc9eca90.png",
+            "nativeSha256": "dda910b75ff185286b0aaa138b8c9ee670d7ab1cf1a220263f27f490f0c77e60",
+            "prompt": "Use case: illustration-story. One polished portrait production reference page in warm ivory, FOUR rows SIX clearly readable cells. Warm dimensional illustrated book rendering, soft light. Row1 Face views: Front; Facing left 3/4 (nose SCREEN LEFT, both eyes visible); Facing left profile (nose LEFT); Facing right 3/4 (nose SCREEN RIGHT, both eyes); Facing right profile (nose RIGHT); Rear. Row2 Expressions: Calm, Curious, Delight, Surprise, Thoughtful, Mild upset. Natural brows/mouths, not always smiling. Row3 Whole-body views same six screen directions; entire tails, feet, ears with margins. Row4 Normal poses specified below. Correct short labels, uniform scale within row, distinct left/right views. Exactly two arms and two legs per beaver, believable paws. No new clothes/accessories or ages. Preserve established design, not a redesign. Title Two little beavers. Reference1 the TWO little beavers in water, reference2 both kits beside child PinPin. Make each cell show BOTH established kits, separated clearly, not fused, same slightly differing apparent size/cream chest patches consistently across cells. They are two young beavers, NO invented names/sex/numeric ages. Chestnut soft fur, cream muzzle/chest, small round ears, little incisors and flat textured paddle tails; no clothes or parent scarf/vest. Smaller than adult beavers, active capable young swimmers. Solo group studies ONLY, no other cast. Keep faces enlarged enough to read; wide cells accommodate two heads/full bodies. Row4 paired actions: Sit together, Wave, Carry little twigs, Paddle, Clap paws, Rest side by side. Exactly two distinct bodies and tails per cell, four limbs per kit, no merged tails.",
+            "promptSha256": "9b025d7849d79e684e2dde1caafdba7d5fea86a60be6a8063c06d24a6e644165",
+            "promptFile": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/reports/beaver-kits-batch3-solo-prompt.txt",
+            "referenceIds": [
+              "asset-cdaa2972246ba0f2f8cc7acc",
+              "asset-62f6361148d66e0c3e6ea8e7"
+            ],
+            "inputAssets": [
+              {
+                "assetId": "asset-cdaa2972246ba0f2f8cc7acc",
+                "sha256": "cdaa2972246ba0f2f8cc7acc14289d375dd5903c2c8bfb1473f968c33daeee82"
+              },
+              {
+                "assetId": "asset-62f6361148d66e0c3e6ea8e7",
+                "sha256": "62f6361148d66e0c3e6ea8e7c9a8157e4b9a0cd010f9adbd58c30e645ab3d6d7"
+              }
+            ],
+            "registeredBy": "studio-client/register-image.py"
+          }
+        }
+      ]
+    }
+  },
+  "updatedAt": "2026-10-03T11:35:27.070950+00:00"
+}

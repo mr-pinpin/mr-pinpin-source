@@ -1,0 +1,1349 @@
+{
+  "character": {
+    "id": "scooby",
+    "canonicalName": "Scooby",
+    "aliases": [
+      "Scooby",
+      "Скуби"
+    ],
+    "exactAge": "not stated",
+    "evidencedLifeStage": "large dog; age not stated",
+    "status": "produced",
+    "dossierPath": "workflows/characters/scooby/README.md",
+    "evidencePath": "workflows/characters/scooby/evidence.json",
+    "evidenceCount": 104,
+    "registeredReferenceIds": [
+      "asset-496b4f5dd35b520c54fce130"
+    ],
+    "outputs": [
+      {
+        "assetId": "asset-4336524cb9db0e329aacc58f",
+        "sha256": "4336524cb9db0e329aacc58f68841a53fedc85352fc9a262e85ababf75ee7aa6"
+      },
+      {
+        "assetId": "asset-a3e1d5b048327b08f32de036",
+        "sha256": "a3e1d5b048327b08f32de03645799c2f47fd7e3fedf2310610c15d9b27a9487e"
+      }
+    ],
+    "constraints": {
+      "identity": "Brown short coat, curled tail, somewhat long ears, attentive book-style eyes.",
+      "scale": "Withers near standing Papa head; broad enough for Papa and PinPin to ride.",
+      "geometry": ""
+    },
+    "stages": {
+      "solo": {
+        "assetId": "asset-4336524cb9db0e329aacc58f",
+        "sha256": "4336524cb9db0e329aacc58f68841a53fedc85352fc9a262e85ababf75ee7aa6",
+        "nativePath": "/Users/miguel_lemos/.codex/generated_images/01a0ff85-92dc-7c40-9adb-ef240551a423/exec-81380d67-0602-417c-b088-5213ae2ba47d.png",
+        "generatedPath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/generated/4336524cb9db0e32-scooby-solo.png",
+        "receiptKind": null
+      },
+      "interactions": {
+        "assetId": "asset-a3e1d5b048327b08f32de036",
+        "sha256": "a3e1d5b048327b08f32de03645799c2f47fd7e3fedf2310610c15d9b27a9487e",
+        "nativePath": "/Users/miguel_lemos/.codex/generated_images/01a0ff85-92dc-7c40-9adb-ef240551a423/exec-a9ea4f2c-32fa-4dc7-ab72-7195e7348e88.png",
+        "generatedPath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/generated/a3e1d5b048327b08-scooby-interactions-repaired.png",
+        "receiptKind": null
+      }
+    },
+    "missingStages": [],
+    "nextStage": null,
+    "complete": true,
+    "claimedStatus": "produced",
+    "qaNote": "Inspected native pages: identity, directions, anatomy, scale/contact. Agent QA only; no personal Miguel approval.",
+    "timingPath": "reports/cast-batch-timing.json",
+    "completedAt": "2026-10-03T11:23:58.979446+00:00"
+  },
+  "bibliography": [
+    {
+      "kind": "published",
+      "sourcePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/stories/bath-magic.json",
+      "sourceSha256": "e46b4a9227a70f32e2aabc74ea5858d838a1d04c5b5b71070c7d8ea089082b04",
+      "chapterId": "bath-magic",
+      "sceneId": "scene-03g",
+      "excerpt": "{\"paragraphs\": {\"en\": [\"“Scooby and I are going for a little walk,” said Papa. “He has some practising to do.”\"], \"ru\": [\"— Мы со Скуби немного погуляем, — сказал Папа. — Ему ещё надо потренироваться.\"], \"es\": [\"—Scooby y yo vamos a dar un paseo —dijo Papá—. Tenemos un poco que practicar.\"]}, \"alt\": {\"en\": \"“Scooby and I are going for a little walk,” said Papa. “He has some practising to do.”\", \"ru\": \"— Мы со Скуби немного погуляем, — сказал Папа. — Ему ещё надо потренироваться.\", \"es\": \"—Scooby y yo vamos a dar un paseo —dijo Papá—. Tenemos un poco que practicar.\"}, \"caption\": null, \"captions\": null}",
+      "imagePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/images/published/bath-magic/r18/scene-03g.webp",
+      "imageSha256": "29d71ab01bce26977821f692ed578d7ef74fc148df6e64cdbeafd14fc5133be4",
+      "portraitIdentityStatus": "Discovery citation only unless also listed in inspectedVisualEvidence."
+    },
+    {
+      "kind": "published",
+      "sourcePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/stories/bath-magic.json",
+      "sourceSha256": "e46b4a9227a70f32e2aabc74ea5858d838a1d04c5b5b71070c7d8ea089082b04",
+      "chapterId": "bath-magic",
+      "sceneId": "scene-03h",
+      "excerpt": "{\"paragraphs\": {\"en\": [\"Outside, Scooby lowered his big nose to Papa. His tail was already going round.\"], \"ru\": [\"Снаружи Скуби опустил к Папе большой нос. Хвост уже ходил ходуном.\"], \"es\": [\"Fuera, Scooby bajó su gran hocico hacia Papá. La cola ya se le movía sin parar.\"]}, \"alt\": {\"en\": \"Outside, Scooby lowered his big nose to Papa. His tail was already going round.\", \"ru\": \"Снаружи Скуби опустил к Папе большой нос. Хвост уже ходил ходуном.\", \"es\": \"Fuera, Scooby bajó su gran hocico hacia Papá. La cola ya se le movía sin parar.\"}, \"caption\": null, \"captions\": null}",
+      "imagePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/images/published/bath-magic/r17/scene-03h.webp",
+      "imageSha256": "e394bec3bf4a7cbae83714906c5d8d286886cea3751eec6cfd572449b201d54e",
+      "portraitIdentityStatus": "Discovery citation only unless also listed in inspectedVisualEvidence."
+    },
+    {
+      "kind": "published",
+      "sourcePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/stories/bath-magic.json",
+      "sourceSha256": "e46b4a9227a70f32e2aabc74ea5858d838a1d04c5b5b71070c7d8ea089082b04",
+      "chapterId": "bath-magic",
+      "sceneId": "scene-03i",
+      "excerpt": "{\"paragraphs\": {\"en\": [\"“Sit, Scooby.” Down he sat. Then his ears sprang up again.\"], \"ru\": [\"— Сидеть, Скуби. — Он сел. И тут же снова навострил уши.\"], \"es\": [\"—Siéntate, Scooby. —Scooby se sentó. Y enseguida volvió a levantar las orejas.\"]}, \"alt\": {\"en\": \"“Sit, Scooby.” Down he sat. Then his ears sprang up again.\", \"ru\": \"— Сидеть, Скуби. — Он сел. И тут же снова навострил уши.\", \"es\": \"—Siéntate, Scooby. —Scooby se sentó. Y enseguida volvió a levantar las orejas.\"}, \"caption\": null, \"captions\": null}",
+      "imagePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/images/published/bath-magic/r17/scene-03i.webp",
+      "imageSha256": "d4196a146376951d4b9555290458cbb7df30567185c99877014f34ac17198d41",
+      "portraitIdentityStatus": "Discovery citation only unless also listed in inspectedVisualEvidence."
+    },
+    {
+      "kind": "published",
+      "sourcePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/stories/bath-magic.json",
+      "sourceSha256": "e46b4a9227a70f32e2aabc74ea5858d838a1d04c5b5b71070c7d8ea089082b04",
+      "chapterId": "bath-magic",
+      "sceneId": "scene-04a1",
+      "excerpt": "{\"paragraphs\": {\"en\": [\"“Scooby is strong,” said Papa. “He can help us carry things after our practice.”\"], \"ru\": [\"— Скуби сильный, — сказал Папа. — После тренировки он поможет нам нести вещи.\"], \"es\": [\"—Scooby es fuerte —dijo Papá—. Después de practicar puede ayudarnos a llevar cosas.\"]}, \"alt\": {\"en\": \"“Scooby is strong,” said Papa. “He can help us carry things after our practice.”\", \"ru\": \"— Скуби сильный, — сказал Папа. — После тренировки он поможет нам нести вещи.\", \"es\": \"—Scooby es fuerte —dijo Papá—. Después de practicar puede ayudarnos a llevar cosas.\"}, \"caption\": null, \"captions\": null}",
+      "imagePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/images/published/bath-magic/r17/scene-04a1.webp",
+      "imageSha256": "2265919ee66ea1ded0a94e8ada203b374d2c212f8a9dc562a279b9122ed29a3e",
+      "portraitIdentityStatus": "Discovery citation only unless also listed in inspectedVisualEvidence."
+    },
+    {
+      "kind": "published",
+      "sourcePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/stories/bath-magic.json",
+      "sourceSha256": "e46b4a9227a70f32e2aabc74ea5858d838a1d04c5b5b71070c7d8ea089082b04",
+      "chapterId": "bath-magic",
+      "sceneId": "scene-04a2",
+      "excerpt": "{\"paragraphs\": {\"en\": [\"Scooby's nose pointed the other way. “Our walk is over here, then!” said Papa.\"], \"ru\": [\"Нос Скуби повернулся в другую сторону. — Значит, нам сюда! — сказал Папа.\"], \"es\": [\"El hocico de Scooby apuntó hacia el otro lado. —¡Pues nuestro paseo es por aquí! —dijo Papá.\"]}, \"alt\": {\"en\": \"Scooby's nose pointed the other way. “Our walk is over here, then!” said Papa.\", \"ru\": \"Нос Скуби повернулся в другую сторону. — Значит, нам сюда! — сказал Папа.\", \"es\": \"El hocico de Scooby apuntó hacia el otro lado. —¡Pues nuestro paseo es por aquí! —dijo Papá.\"}, \"caption\": null, \"captions\": null}",
+      "imagePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/images/published/bath-magic/r17/scene-04a2.webp",
+      "imageSha256": "55fe669d63e5016ceef76fb690adabc564004170258dc9e190e116c18d6bb64c",
+      "portraitIdentityStatus": "Discovery citation only unless also listed in inspectedVisualEvidence."
+    },
+    {
+      "kind": "published",
+      "sourcePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/stories/bath-magic.json",
+      "sourceSha256": "e46b4a9227a70f32e2aabc74ea5858d838a1d04c5b5b71070c7d8ea089082b04",
+      "chapterId": "bath-magic",
+      "sceneId": "scene-05e",
+      "excerpt": "{\"paragraphs\": {\"en\": [\"Meanwhile, Scooby found something to dig. Papa rescued a little plant.\"], \"ru\": [\"А Скуби тем временем нашёл, что покопать. Папа спас маленький росток.\"], \"es\": [\"Mientras tanto, Scooby encontró dónde cavar. Papá rescató una plantita.\"]}, \"alt\": {\"en\": \"Scooby dug a hole beside the path. Papa rescued a little plant.\", \"ru\": \"Скуби выкопал ямку у дорожки. Папа спас маленькое растение.\", \"es\": \"Scooby cavó un hoyo junto al camino. Papá rescató una pequeña planta.\"}, \"caption\": null, \"captions\": null}",
+      "imagePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/images/published/bath-magic/r17/scene-05e.webp",
+      "imageSha256": "6bba7204c8dd77e89341b113a8774ef27977e41ce425efb17ed29e2981aaa44c",
+      "portraitIdentityStatus": "Discovery citation only unless also listed in inspectedVisualEvidence."
+    },
+    {
+      "kind": "published",
+      "sourcePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/stories/bath-magic.json",
+      "sourceSha256": "e46b4a9227a70f32e2aabc74ea5858d838a1d04c5b5b71070c7d8ea089082b04",
+      "chapterId": "bath-magic",
+      "sceneId": "scene-05f",
+      "excerpt": "{\"paragraphs\": {\"en\": [\"“This way, Scooby!” said Papa. “Let's go home.”\"], \"ru\": [\"— Сюда, Скуби! — сказал Папа. — Пойдём домой.\"], \"es\": [\"—¡Por aquí, Scooby! —dijo Papá—. Volvamos a casa.\"]}, \"alt\": {\"en\": \"“This way, Scooby!” said Papa. Off they went, side by side.\", \"ru\": \"«Сюда, Скуби!» — сказал Папа. И они пошли рядом друг с другом.\", \"es\": \"«¡Por aquí, Scooby!», dijo Papá. Y se fueron caminando uno al lado del otro.\"}, \"caption\": null, \"captions\": null}",
+      "imagePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/images/published/bath-magic/r18/scene-05f.webp",
+      "imageSha256": "603a07035283420b070c7099009df6d8fd985ca32b70511c72408bc229ffb1db",
+      "portraitIdentityStatus": "Discovery citation only unless also listed in inspectedVisualEvidence."
+    },
+    {
+      "kind": "published",
+      "sourcePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/stories/bath-magic.json",
+      "sourceSha256": "e46b4a9227a70f32e2aabc74ea5858d838a1d04c5b5b71070c7d8ea089082b04",
+      "chapterId": "bath-magic",
+      "sceneId": "scene-05f1",
+      "excerpt": "{\"paragraphs\": {\"en\": [\"Scooby came home with Papa. Rabbit lifted the leaf boats. “Hello, Scooby!”\"], \"ru\": [\"Скуби вернулся с Папой. Зайка подняла кораблики из листьев. «Привет, Скуби!»\"], \"es\": [\"Scooby volvió con Papá. Conejo levantó los barquitos de hojas. «¡Hola, Scooby!»\"]}, \"alt\": {\"en\": \"Scooby came home with Papa. Rabbit lifted the leaf boats. “Hello, Scooby!”\", \"ru\": \"Скуби вернулся с Папой. Зайка подняла кораблики из листьев. «Привет, Скуби!»\", \"es\": \"Scooby volvió con Papá. Conejo levantó los barquitos de hojas. «¡Hola, Scooby!»\"}, \"caption\": null, \"captions\": null}",
+      "imagePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/images/published/bath-magic/r18/scene-05f1.webp",
+      "imageSha256": "46dac3b911796465f77e98b23af05a8fb2cb40c3fbc4b43e022e3c2d8706e3c9",
+      "portraitIdentityStatus": "Discovery citation only unless also listed in inspectedVisualEvidence."
+    },
+    {
+      "kind": "published",
+      "sourcePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/stories/bath-magic.json",
+      "sourceSha256": "e46b4a9227a70f32e2aabc74ea5858d838a1d04c5b5b71070c7d8ea089082b04",
+      "chapterId": "bath-magic",
+      "sceneId": "scene-05f2",
+      "excerpt": "{\"paragraphs\": {\"en\": [\"“I’ll take them back to the stream,” said Rabbit. PinPin waved goodbye. Scooby gave one friendly woof.\"], \"ru\": [\"«Я отнесу их обратно к ручью», — сказала Зайка. Пин-Пин помахал на прощание. Скуби дружелюбно гавкнул.\"], \"es\": [\"«Los llevaré de vuelta al arroyo», dijo Conejo. PinPin se despidió con la mano. Scooby dio un ladrido amistoso.\"]}, \"alt\": {\"en\": \"“I’ll take them back to the stream,” said Rabbit. PinPin waved goodbye. Scooby gave one friendly woof.\", \"ru\": \"«Я отнесу их обратно к ручью», — сказала Зайка. Пин-Пин помахал на прощание. Скуби дружелюбно гавкнул.\", \"es\": \"«Los llevaré de vuelta al arroyo», dijo Conejo. PinPin se despidió con la mano. Scooby dio un ladrido amistoso.\"}, \"caption\": null, \"captions\": null}",
+      "imagePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/images/published/bath-magic/r18/scene-05f2.webp",
+      "imageSha256": "4e3617d9f310f994188df952dd2d43c7b860124e37bc216cd0dcfe544caaa019",
+      "portraitIdentityStatus": "Discovery citation only unless also listed in inspectedVisualEvidence."
+    },
+    {
+      "kind": "published",
+      "sourcePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/stories/bath-magic.json",
+      "sourceSha256": "e46b4a9227a70f32e2aabc74ea5858d838a1d04c5b5b71070c7d8ea089082b04",
+      "chapterId": "bath-magic",
+      "sceneId": "scene-05g",
+      "excerpt": "{\"paragraphs\": {\"en\": [\"Papa held the door for Scooby. “Come in!”\"], \"ru\": [\"Папа придержал дверь для Скуби. «Заходи!»\"], \"es\": [\"Papá sostuvo la puerta para Scooby. «¡Pasa!»\"]}, \"alt\": {\"en\": \"Papa pushed open the green door and looked back. “Come on, Scooby!”\", \"ru\": \"Папа открыл зелёную дверь и оглянулся. «Заходи, Скуби!»\", \"es\": \"Papá abrió la puerta verde y miró atrás. «¡Entra, Scooby!»\"}, \"caption\": null, \"captions\": null}",
+      "imagePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/images/published/bath-magic/r24/scene-05g.webp",
+      "imageSha256": "0f3ca853ba89c28516fc4010c66a7f8ec567755bea3c092291858b98d5fa45bf",
+      "portraitIdentityStatus": "Discovery citation only unless also listed in inspectedVisualEvidence."
+    },
+    {
+      "kind": "published",
+      "sourcePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/stories/bath-magic.json",
+      "sourceSha256": "e46b4a9227a70f32e2aabc74ea5858d838a1d04c5b5b71070c7d8ea089082b04",
+      "chapterId": "bath-magic",
+      "sceneId": "scene-05g1",
+      "excerpt": "{\"paragraphs\": {\"en\": [\"“Head down, Scooby.” First came his nose. Then his ears. Then rather a lot of dog.\"], \"ru\": [\"— Пригни голову, Скуби. — Сначала появился нос. Потом уши. А потом — очень много собаки.\"], \"es\": [\"—Agacha la cabeza, Scooby. —Primero entró el hocico. Luego las orejas. Y después… un montón de perro.\"]}, \"alt\": {\"en\": \"“Head down, Scooby.” First came his nose. Then his ears. Then rather a lot of dog.\", \"ru\": \"— Пригни голову, Скуби. — Сначала появился нос. Потом уши. А потом — очень много собаки.\", \"es\": \"—Agacha la cabeza, Scooby. —Primero entró el hocico. Luego las orejas. Y después… un montón de perro.\"}, \"caption\": null, \"captions\": null}",
+      "imagePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/images/published/bath-magic/r18/scene-05g1.webp",
+      "imageSha256": "59e38ca6bdfb3161b227be1763d62ecb25a2993c633365d447a09be85c1c6a60",
+      "portraitIdentityStatus": "Discovery citation only unless also listed in inspectedVisualEvidence."
+    },
+    {
+      "kind": "published",
+      "sourcePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/stories/bath-magic.json",
+      "sourceSha256": "e46b4a9227a70f32e2aabc74ea5858d838a1d04c5b5b71070c7d8ea089082b04",
+      "chapterId": "bath-magic",
+      "sceneId": "scene-05g2",
+      "excerpt": "{\"paragraphs\": {\"en\": [\"Scooby sat down. The kitchen suddenly had very little floor left! Papa put a few blueberries in his bowl.\"], \"ru\": [\"Скуби сел. Свободного пола на кухне сразу стало совсем мало! Папа положил в его миску несколько ягод голубики.\"], \"es\": [\"Scooby se sentó. ¡De pronto quedaba muy poco suelo libre en la cocina! Papá puso unos arándanos en su cuenco.\"]}, \"alt\": {\"en\": \"Scooby sat down. The kitchen suddenly had very little floor left! Papa put a few blueberries in his bowl.\", \"ru\": \"Скуби сел. Свободного пола на кухне сразу стало совсем мало! Папа положил в его миску несколько ягод голубики.\", \"es\": \"Scooby se sentó. ¡De pronto quedaba muy poco suelo libre en la cocina! Papá puso unos arándanos en su cuenco.\"}, \"caption\": null, \"captions\": null}",
+      "imagePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/images/published/bath-magic/r24/scene-05g2.webp",
+      "imageSha256": "8ad699a25f9f7f7c419a9d06e3ed11a2f2631fab22da4cb0cb1b7cdef8f56c4c",
+      "portraitIdentityStatus": "Discovery citation only unless also listed in inspectedVisualEvidence."
+    },
+    {
+      "kind": "published",
+      "sourcePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/stories/bath-magic.json",
+      "sourceSha256": "e46b4a9227a70f32e2aabc74ea5858d838a1d04c5b5b71070c7d8ea089082b04",
+      "chapterId": "bath-magic",
+      "sceneId": "scene-05g3",
+      "excerpt": "{\"paragraphs\": {\"en\": [\"“And now, the sunny step.” Papa led Scooby outside again. PinPin squeezed past with his bucket.\"], \"ru\": [\"— А теперь — на солнышко. — Папа вывел Скуби на крылечко. Пин-Пин осторожно прошёл мимо с ведёрком.\"], \"es\": [\"—Y ahora, al escalón soleado. —Papá volvió a sacar a Scooby. PinPin pasó con cuidado, llevando su cubo.\"]}, \"alt\": {\"en\": \"“And now, the sunny step.” Papa led Scooby outside again. PinPin squeezed past with his bucket.\", \"ru\": \"— А теперь — на солнышко. — Папа вывел Скуби на крылечко. Пин-Пин осторожно прошёл мимо с ведёрком.\", \"es\": \"—Y ahora, al escalón soleado. —Papá volvió a sacar a Scooby. PinPin pasó con cuidado, llevando su cubo.\"}, \"caption\": null, \"captions\": null}",
+      "imagePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/images/published/bath-magic/r24/scene-05g3.webp",
+      "imageSha256": "35bac793b9a939e7bd651697e848e218a4f2b531b697278860cea8d3a990e070",
+      "portraitIdentityStatus": "Discovery citation only unless also listed in inspectedVisualEvidence."
+    },
+    {
+      "kind": "published",
+      "sourcePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/stories/bath-magic.json",
+      "sourceSha256": "e46b4a9227a70f32e2aabc74ea5858d838a1d04c5b5b71070c7d8ea089082b04",
+      "chapterId": "bath-magic",
+      "sceneId": "scene-32a",
+      "excerpt": "{\"paragraphs\": {\"en\": [\"Papa packed bread and fruit. “Up you come!” He helped PinPin onto Scooby.\"], \"ru\": [\"Папа взял хлеб и фрукты. «Залезай!» Он помог Пин-Пину забраться на Скуби.\"], \"es\": [\"Papá guardó pan y fruta. «¡Arriba!» Ayudó a PinPin a subir a Scooby.\"]}, \"alt\": {\"en\": \"Papa packed bread and fruit. “Up you come!” He helped PinPin onto Scooby.\", \"ru\": \"Папа взял хлеб и фрукты. «Залезай!» Он помог Пин-Пину забраться на Скуби.\", \"es\": \"Papá guardó pan y fruta. «¡Arriba!» Ayudó a PinPin a subir a Scooby.\"}, \"caption\": null, \"captions\": null}",
+      "imagePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/images/published/bath-magic/r17/scene-32a.webp",
+      "imageSha256": "32e78ba098b2863be190520ed73c5e62c5a13229bb8203ab04176ae6b9cce604",
+      "portraitIdentityStatus": "Discovery citation only unless also listed in inspectedVisualEvidence."
+    },
+    {
+      "kind": "published",
+      "sourcePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/stories/bath-magic.json",
+      "sourceSha256": "e46b4a9227a70f32e2aabc74ea5858d838a1d04c5b5b71070c7d8ea089082b04",
+      "chapterId": "bath-magic",
+      "sceneId": "scene-32b",
+      "excerpt": "{\"paragraphs\": {\"en\": [\"Scooby trotted between the trees. PinPin watched the sun hop from leaf to leaf.\"], \"ru\": [\"Скуби бежал между деревьями. Пин-Пин смотрел, как солнечные зайчики прыгают с листочка на листочек.\"], \"es\": [\"Scooby trotó entre los árboles. PinPin miraba cómo el sol saltaba de hoja en hoja.\"]}, \"alt\": {\"en\": \"Scooby trotted between the trees. PinPin watched the sun hop from leaf to leaf.\", \"ru\": \"Скуби бежал между деревьями. Пин-Пин смотрел, как солнечные зайчики прыгают с листочка на листочек.\", \"es\": \"Scooby trotó entre los árboles. PinPin miraba cómo el sol saltaba de hoja en hoja.\"}, \"caption\": null, \"captions\": null}",
+      "imagePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/images/published/bath-magic/scene-32b.webp",
+      "imageSha256": "0ca6f054f3aabddf0dad48cbdfcb90cf9fb1ac085206900b2b9a6278d6ac2703",
+      "portraitIdentityStatus": "Discovery citation only unless also listed in inspectedVisualEvidence."
+    },
+    {
+      "kind": "published",
+      "sourcePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/stories/bath-magic.json",
+      "sourceSha256": "e46b4a9227a70f32e2aabc74ea5858d838a1d04c5b5b71070c7d8ea089082b04",
+      "chapterId": "bath-magic",
+      "sceneId": "scene-32i",
+      "excerpt": "{\"paragraphs\": {\"en\": [\"They tied the light bundles on Scooby’s sides. He stood very still until the last knot was done.\"], \"ru\": [\"Лёгкие связки закрепили по бокам у Скуби. Он стоял совсем неподвижно, пока не завязали последний узел.\"], \"es\": [\"Ataron los ligeros paquetes a los lados de Scooby. Él se quedó muy quieto hasta que terminaron el último nudo.\"]}, \"alt\": {\"en\": \"They tied the light bundles on Scooby’s sides. He stood very still until the last knot was done.\", \"ru\": \"Лёгкие связки закрепили по бокам у Скуби. Он стоял совсем неподвижно, пока не завязали последний узел.\", \"es\": \"Ataron los ligeros paquetes a los lados de Scooby. Él se quedó muy quieto hasta que terminaron el último nudo.\"}, \"caption\": null, \"captions\": null}",
+      "imagePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/images/published/bath-magic/r17/scene-32i.webp",
+      "imageSha256": "0260ae0a413380feee54a3b69a7038ff0c39c2663594a52bfe1b7ccb81904942",
+      "portraitIdentityStatus": "Discovery citation only unless also listed in inspectedVisualEvidence."
+    },
+    {
+      "kind": "published",
+      "sourcePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/stories/bath-magic.json",
+      "sourceSha256": "e46b4a9227a70f32e2aabc74ea5858d838a1d04c5b5b71070c7d8ea089082b04",
+      "chapterId": "bath-magic",
+      "sceneId": "scene-32i1",
+      "excerpt": "{\"paragraphs\": {\"en\": [\"“Wait.” Scooby waited. Papa checked both bundles. PinPin checked that his toes had room.\"], \"ru\": [\"— Стой. — Скуби стоял спокойно. Папа проверил обе связки. Пин-Пин посмотрел, свободно ли его лапкам.\"], \"es\": [\"—Quieto. —Scooby no se movió. Papá revisó los dos haces. PinPin comprobó que sus patitas tenían sitio.\"]}, \"alt\": {\"en\": \"“Wait.” Scooby waited. Papa checked both bundles. PinPin checked that his toes had room.\", \"ru\": \"— Стой. — Скуби стоял спокойно. Папа проверил обе связки. Пин-Пин посмотрел, свободно ли его лапкам.\", \"es\": \"—Quieto. —Scooby no se movió. Papá revisó los dos haces. PinPin comprobó que sus patitas tenían sitio.\"}, \"caption\": null, \"captions\": null}",
+      "imagePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/images/published/bath-magic/r17/scene-32i1.webp",
+      "imageSha256": "35d6627a3092e392fc711508c4141c7d782a5db04f77a2d32a19882bf8b4a5a5",
+      "portraitIdentityStatus": "Discovery citation only unless also listed in inspectedVisualEvidence."
+    },
+    {
+      "kind": "published",
+      "sourcePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/stories/bath-magic.json",
+      "sourceSha256": "e46b4a9227a70f32e2aabc74ea5858d838a1d04c5b5b71070c7d8ea089082b04",
+      "chapterId": "bath-magic",
+      "sceneId": "scene-32i3",
+      "excerpt": "{\"paragraphs\": {\"en\": [\"The leaves brushed softly above them. Scooby carried his passengers and the little wooden road.\"], \"ru\": [\"Над ними тихо шелестели листья. Скуби нёс пассажиров и маленькую деревянную дорогу.\"], \"es\": [\"Las hojas susurraban sobre ellos. Scooby llevaba a sus pasajeros y el pequeño camino de madera.\"]}, \"alt\": {\"en\": \"The leaves brushed softly above them. Scooby carried his passengers and the little wooden road.\", \"ru\": \"Над ними тихо шелестели листья. Скуби нёс пассажиров и маленькую деревянную дорогу.\", \"es\": \"Las hojas susurraban sobre ellos. Scooby llevaba a sus pasajeros y el pequeño camino de madera.\"}, \"caption\": null, \"captions\": null}",
+      "imagePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/images/published/bath-magic/r17/scene-32i3.webp",
+      "imageSha256": "d19b751e5cfef69e1da16ae3facd1b248ea3920494d8a1c24c7c84c5abdcc24e",
+      "portraitIdentityStatus": "Discovery citation only unless also listed in inspectedVisualEvidence."
+    },
+    {
+      "kind": "published",
+      "sourcePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/stories/bath-magic.json",
+      "sourceSha256": "e46b4a9227a70f32e2aabc74ea5858d838a1d04c5b5b71070c7d8ea089082b04",
+      "chapterId": "bath-magic",
+      "sceneId": "scene-32i6",
+      "excerpt": "{\"paragraphs\": {\"en\": [\"“There's our roof!” PinPin pointed between the trees. Scooby's ears turned forward.\"], \"ru\": [\"— Вон наша крыша! — Пин-Пин показал между деревьями. Скуби повернул уши вперёд.\"], \"es\": [\"—¡Ahí está nuestro tejado! —PinPin señaló entre los árboles. Scooby orientó las orejas hacia delante.\"]}, \"alt\": {\"en\": \"“There's our roof!” PinPin pointed between the trees. Scooby's ears turned forward.\", \"ru\": \"— Вон наша крыша! — Пин-Пин показал между деревьями. Скуби повернул уши вперёд.\", \"es\": \"—¡Ahí está nuestro tejado! —PinPin señaló entre los árboles. Scooby orientó las orejas hacia delante.\"}, \"caption\": null, \"captions\": null}",
+      "imagePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/images/published/bath-magic/r17/scene-32i6.webp",
+      "imageSha256": "8ee47791a124f184164ee57f509c27edcc43c4d04177e2da4ce4739393b2d9e6",
+      "portraitIdentityStatus": "Discovery citation only unless also listed in inspectedVisualEvidence."
+    },
+    {
+      "kind": "published",
+      "sourcePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/stories/bath-magic.json",
+      "sourceSha256": "e46b4a9227a70f32e2aabc74ea5858d838a1d04c5b5b71070c7d8ea089082b04",
+      "chapterId": "bath-magic",
+      "sceneId": "scene-32i7",
+      "excerpt": "{\"paragraphs\": {\"en\": [\"Mama heard Scooby on the path. She opened the door before PinPin could knock.\"], \"ru\": [\"Мама услышала Скуби на дорожке. Она открыла дверь раньше, чем Пин-Пин успел постучать.\"], \"es\": [\"Mamá oyó a Scooby en el sendero. Abrió la puerta antes de que PinPin pudiera llamar.\"]}, \"alt\": {\"en\": \"Mama heard Scooby on the path. She opened the door before PinPin could knock.\", \"ru\": \"Мама услышала Скуби на дорожке. Она открыла дверь раньше, чем Пин-Пин успел постучать.\", \"es\": \"Mamá oyó a Scooby en el sendero. Abrió la puerta antes de que PinPin pudiera llamar.\"}, \"caption\": null, \"captions\": null}",
+      "imagePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/images/published/bath-magic/r17/scene-32i7.webp",
+      "imageSha256": "31a2ad4295e75f8a1ba08ff12f5e757be19f03beb951766c1f97ce55cf6b72de",
+      "portraitIdentityStatus": "Discovery citation only unless also listed in inspectedVisualEvidence."
+    },
+    {
+      "kind": "published",
+      "sourcePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/stories/elder-beneath-roots.json",
+      "sourceSha256": "1038aed71d77803ebf004a33d1393105db9d7a9e2574b54510ba66e9a170e239",
+      "chapterId": "elder-beneath-roots",
+      "sceneId": "elder-r6-mentor-090",
+      "excerpt": "{\"paragraphs\": {\"en\": [\"Outside, Papa was awake. Scooby lifted his head when PinPin came through the doorway.\"], \"ru\": [\"На улице Папа уже проснулся. Когда Пин-Пин вышел из дверей, Скуби поднял голову.\"], \"es\": [\"Fuera, Papá ya estaba despierto. Scooby levantó la cabeza cuando PinPin salió por la puerta.\"]}, \"alt\": {\"en\": \"PinPin emerges with the Elder; Papa and Scooby watch him from their sunny rest spot.\", \"ru\": \"ПинПин выходит со Старейшиной; Папа и Скуби смотрят на него со своего солнечного места отдыха.\", \"es\": \"PinPin sale con el Anciano; Papá y Scooby lo miran desde su soleado lugar de descanso.\"}, \"caption\": null, \"captions\": null}",
+      "imagePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/images/published/elder-cycle/elder-r6-mentor-090.webp",
+      "imageSha256": "6d83bbf1b856ad213e10fe8e400631fa4c670d421c95a82bdb9d33ba6eefcddb",
+      "portraitIdentityStatus": "Discovery citation only unless also listed in inspectedVisualEvidence."
+    },
+    {
+      "kind": "published",
+      "sourcePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/stories/elder-beneath-roots.json",
+      "sourceSha256": "1038aed71d77803ebf004a33d1393105db9d7a9e2574b54510ba66e9a170e239",
+      "chapterId": "elder-beneath-roots",
+      "sceneId": "elder-r6-mentor-091",
+      "excerpt": "{\"paragraphs\": {\"en\": [\"PinPin ran into Papa’s arms. “I found pictures under the ground! And the Elder is going to help me read!”\"], \"ru\": [\"Пин-Пин бросился к Папе в объятия. «Я нашёл картинки под землёй! А Старейшина будет учить меня читать!»\"], \"es\": [\"PinPin corrió a los brazos de Papá. «¡Encontré pinturas bajo tierra! ¡Y el anciano me va a ayudar a leer!»\"]}, \"alt\": {\"en\": \"PinPin hugs Papa and looks up into his eyes, while Scooby watches warmly.\", \"ru\": \"ПинПин обнимает Папу и смотрит ему в глаза, а Скуби ласково наблюдает.\", \"es\": \"PinPin abraza a Papá y lo mira a los ojos mientras Scooby observa con cariño.\"}, \"caption\": null, \"captions\": null}",
+      "imagePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/images/published/elder-cycle/elder-r6-mentor-091.webp",
+      "imageSha256": "ce34cde380bc7bef666f9be8d318e66258899f1666b89db821b330431a8b58c6",
+      "portraitIdentityStatus": "Discovery citation only unless also listed in inspectedVisualEvidence."
+    },
+    {
+      "kind": "published",
+      "sourcePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/stories/elder-beneath-roots.json",
+      "sourceSha256": "1038aed71d77803ebf004a33d1393105db9d7a9e2574b54510ba66e9a170e239",
+      "chapterId": "elder-beneath-roots",
+      "sceneId": "elder-r6-mentor-094",
+      "excerpt": "{\"paragraphs\": {\"en\": [\"Scooby crouched beside the flat stone. Papa helped PinPin climb up again.\"], \"ru\": [\"Скуби пригнулся возле плоского камня. Папа снова помог Пин-Пину забраться наверх.\"], \"es\": [\"Scooby se agachó junto a la piedra plana. Papá ayudó a PinPin a subir otra vez.\"]}, \"alt\": {\"en\": \"Papa steadies PinPin as he climbs from the stone onto the attentive Scooby; the Elder watches from his root doorway.\", \"ru\": \"Папа поддерживает ПинПина, когда тот перебирается с камня на спину внимательного Скуби; Старейшина наблюдает у входа между корнями.\", \"es\": \"Papá sostiene a PinPin al subir de la piedra al lomo del atento Scooby; el Anciano observa desde su entrada entre raíces.\"}, \"caption\": null, \"captions\": null}",
+      "imagePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/images/published/elder-cycle/elder-r6-mentor-094.webp",
+      "imageSha256": "7c6fc6d45cad4ee6d990609bfcb48a5472620b88cf9ac4f2962b737d55de2a85",
+      "portraitIdentityStatus": "Discovery citation only unless also listed in inspectedVisualEvidence."
+    },
+    {
+      "kind": "published",
+      "sourcePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/stories/elder-beneath-roots.json",
+      "sourceSha256": "1038aed71d77803ebf004a33d1393105db9d7a9e2574b54510ba66e9a170e239",
+      "chapterId": "elder-beneath-roots",
+      "sceneId": "elder-r6-mentor-095",
+      "excerpt": "{\"paragraphs\": {\"en\": [\"Papa settled behind him. Scooby rose slowly, and PinPin gave the Elder a little wave.\"], \"ru\": [\"Папа устроился позади него. Скуби медленно поднялся, и Пин-Пин помахал Старейшине.\"], \"es\": [\"Papá se acomodó detrás. Scooby se levantó despacio y PinPin saludó al anciano con una patita.\"]}, \"alt\": {\"en\": \"Seen from behind Scooby, PinPin waves goodbye to the Elder while Papa supports him.\", \"ru\": \"Вид со спины Скуби: ПинПин машет Старейшине на прощание, а Папа поддерживает его.\", \"es\": \"Visto desde detrás de Scooby, PinPin se despide del Anciano con la pata mientras Papá lo sostiene.\"}, \"caption\": null, \"captions\": null}",
+      "imagePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/images/published/elder-cycle/elder-r6-mentor-095.webp",
+      "imageSha256": "1aa05f416c23789e8ed3fd8181bd1ea01f57659aa78d37bba913c558d9cbfd80",
+      "portraitIdentityStatus": "Discovery citation only unless also listed in inspectedVisualEvidence."
+    },
+    {
+      "kind": "published",
+      "sourcePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/stories/elder-beneath-roots.json",
+      "sourceSha256": "1038aed71d77803ebf004a33d1393105db9d7a9e2574b54510ba66e9a170e239",
+      "chapterId": "elder-beneath-roots",
+      "sceneId": "elder-r6-mentor-096",
+      "excerpt": "{\"paragraphs\": {\"en\": [\"They walked home through the bright woods. PinPin leaned against Papa and watched the leaves go by.\"], \"ru\": [\"Они ехали домой через светлый лес. Пин-Пин прижался к Папе и смотрел на проплывающие мимо листья.\"], \"es\": [\"Volvieron a casa por el bosque luminoso. PinPin se apoyó en Papá y miró las hojas que pasaban.\"]}, \"alt\": {\"en\": \"Seen from behind, Scooby carries Papa and PinPin down a sunny forest path while PinPin watches the leaves.\", \"ru\": \"Скуби несёт Папу и ПинПина по солнечной лесной тропинке; вид со спины, ПинПин разглядывает листья.\", \"es\": \"Visto desde atrás, Scooby lleva a Papá y PinPin por un sendero soleado mientras PinPin mira las hojas.\"}, \"caption\": null, \"captions\": null}",
+      "imagePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/images/published/elder-cycle/elder-r6-mentor-096.webp",
+      "imageSha256": "7024e88ac77e7b2f496661b6aa0a9e67459af77e9d842414684955f46c360a1e",
+      "portraitIdentityStatus": "Discovery citation only unless also listed in inspectedVisualEvidence."
+    },
+    {
+      "kind": "published",
+      "sourcePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/stories/elder-beneath-roots.json",
+      "sourceSha256": "1038aed71d77803ebf004a33d1393105db9d7a9e2574b54510ba66e9a170e239",
+      "chapterId": "elder-beneath-roots",
+      "sceneId": "elder-r6-mentor-097",
+      "excerpt": "{\"paragraphs\": {\"en\": [\"Soon the green door of home came into view. Scooby knew just where to stop.\"], \"ru\": [\"Вскоре показалась зелёная дверь дома. Скуби знал, где остановиться.\"], \"es\": [\"Pronto apareció la puerta verde de casa. Scooby sabía muy bien dónde detenerse.\"]}, \"alt\": {\"en\": \"Papa and PinPin arrive on Scooby at the familiar green door, passing the mounting stone and water bowl.\", \"ru\": \"Папа и ПинПин подъезжают на Скуби к знакомой зелёной двери, мимо камня и миски с водой.\", \"es\": \"Papá y PinPin llegan sobre Scooby a la conocida puerta verde, junto a la piedra y el cuenco de agua.\"}, \"caption\": null, \"captions\": null}",
+      "imagePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/images/published/elder-cycle/elder-r6-mentor-097.webp",
+      "imageSha256": "938800ebb6c2ebe126b0b6affc09d4d890a818f1d11155a8b617e6b50c2a007b",
+      "portraitIdentityStatus": "Discovery citation only unless also listed in inspectedVisualEvidence."
+    },
+    {
+      "kind": "published",
+      "sourcePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/stories/elder-beneath-roots.json",
+      "sourceSha256": "1038aed71d77803ebf004a33d1393105db9d7a9e2574b54510ba66e9a170e239",
+      "chapterId": "elder-beneath-roots",
+      "sceneId": "elder-r6-mentor-098",
+      "excerpt": "{\"paragraphs\": {\"en\": [\"Scooby crouched. Papa stepped onto the stone, keeping a paw close to PinPin.\"], \"ru\": [\"Скуби пригнулся. Папа спустился на камень, держа лапу рядом с Пин-Пином.\"], \"es\": [\"Scooby se agachó. Papá bajó a la piedra, manteniendo una pata cerca de PinPin.\"]}, \"alt\": {\"en\": \"Papa stands on the stone beside Scooby, keeping a paw near PinPin as the child waits on the dog's back.\", \"ru\": \"Папа стоит на камне рядом со Скуби и держит лапу возле ПинПина, который ждёт на спине собаки.\", \"es\": \"Papá está sobre la piedra junto a Scooby, con una pata cerca de PinPin, que espera en el lomo del perro.\"}, \"caption\": null, \"captions\": null}",
+      "imagePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/images/published/elder-cycle/elder-r6-mentor-098.webp",
+      "imageSha256": "366ea570064f9d83bd899678d9d3720b8fae86ca8bfd2e92c30733b22e3c676c",
+      "portraitIdentityStatus": "Discovery citation only unless also listed in inspectedVisualEvidence."
+    },
+    {
+      "kind": "published",
+      "sourcePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/stories/elder-beneath-roots.json",
+      "sourceSha256": "1038aed71d77803ebf004a33d1393105db9d7a9e2574b54510ba66e9a170e239",
+      "chapterId": "elder-beneath-roots",
+      "sceneId": "elder-r6-mentor-100",
+      "excerpt": "{\"paragraphs\": {\"en\": [\"Papa filled Scooby’s water bowl. PinPin gave the little dog a gentle pat. “Thank you for the ride.”\"], \"ru\": [\"Папа наполнил миску Скуби водой. Пин-Пин ласково погладил пса. «Спасибо, что нас покатал».\"], \"es\": [\"Papá llenó de agua el cuenco de Scooby. PinPin acarició suavemente al perrito. «Gracias por llevarnos».\"]}, \"alt\": {\"en\": \"PinPin thanks Scooby with a gentle pat and shared look while Papa fills the dog's bowl.\", \"ru\": \"ПинПин благодарит Скуби, ласково гладит его и смотрит ему в глаза, пока Папа наполняет миску.\", \"es\": \"PinPin agradece a Scooby con una caricia y una mirada compartida mientras Papá llena su cuenco.\"}, \"caption\": null, \"captions\": null}",
+      "imagePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/images/published/elder-cycle/elder-r6-mentor-100.webp",
+      "imageSha256": "9e1b6cf1cc92b5bdf08da9c06f775aa9ed163131cefc237fe33b3cb176df8d59",
+      "portraitIdentityStatus": "Discovery citation only unless also listed in inspectedVisualEvidence."
+    },
+    {
+      "kind": "published",
+      "sourcePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/stories/elder-elder-house.json",
+      "sourceSha256": "b6fbaf4311a41491a570e009caacfa20ae2775a958fa2e374bb136b2466e6dda",
+      "chapterId": "elder-elder-house",
+      "sceneId": "elder-r6-mentor-001",
+      "excerpt": "{\"paragraphs\": {\"en\": [\"Scooby stopped beside a flat stone near the Elder’s house and crouched again.\"], \"ru\": [\"Скуби остановился у плоского камня возле дома Старейшины и снова пригнулся.\"], \"es\": [\"Scooby se detuvo junto a una piedra plana cerca de la casa del anciano y volvió a agacharse.\"]}, \"alt\": {\"en\": \"Scooby crouches beside the arrival stone and looks back attentively as Papa steadies PinPin, who turns up toward his father.\", \"ru\": \"Скуби пригибается у камня и внимательно оглядывается, пока Папа поддерживает Пин-Пина, поднявшего взгляд к отцу.\", \"es\": \"Scooby se agacha junto a la piedra y mira hacia atrás con atención mientras Papá sostiene a PinPin, que alza la mirada hacia su padre.\"}, \"caption\": null, \"captions\": null}",
+      "imagePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/images/published/elder-cycle/elder-r6-mentor-001.webp",
+      "imageSha256": "0158473467dfdefdc0d4b986762c810805e906886825544020ab8a51d44167f2",
+      "portraitIdentityStatus": "Discovery citation only unless also listed in inspectedVisualEvidence."
+    },
+    {
+      "kind": "published",
+      "sourcePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/stories/elder-elder-house.json",
+      "sourceSha256": "b6fbaf4311a41491a570e009caacfa20ae2775a958fa2e374bb136b2466e6dda",
+      "chapterId": "elder-elder-house",
+      "sceneId": "elder-r6-mentor-002",
+      "excerpt": "{\"paragraphs\": {\"en\": [\"Papa stepped down onto the stone first. Scooby stayed perfectly still.\"], \"ru\": [\"Папа первым спустился на камень. Скуби оставался совершенно неподвижным.\"], \"es\": [\"Papá bajó primero a la piedra. Scooby se quedó completamente quieto.\"]}, \"alt\": {\"en\": \"Papa stands with both feet on the stone and steadies PinPin, who still waits on crouching Scooby; the dog watches Papa closely.\", \"ru\": \"Папа стоит обеими лапами на камне и поддерживает Пин-Пина, который ещё ждёт на спине пригнувшегося Скуби; собака внимательно смотрит на Папу.\", \"es\": \"Papá está con ambos pies sobre la piedra y sostiene a PinPin, que aún espera sobre Scooby agachado; el perro observa atentamente a Papá.\"}, \"caption\": null, \"captions\": null}",
+      "imagePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/images/published/elder-cycle/elder-r6-mentor-002.webp",
+      "imageSha256": "c746f0a3b02a824cfcbafc671a97aa1a53d47e0f6592afac1e21065740c8e111",
+      "portraitIdentityStatus": "Discovery citation only unless also listed in inspectedVisualEvidence."
+    },
+    {
+      "kind": "published",
+      "sourcePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/stories/elder-elder-house.json",
+      "sourceSha256": "b6fbaf4311a41491a570e009caacfa20ae2775a958fa2e374bb136b2466e6dda",
+      "chapterId": "elder-elder-house",
+      "sceneId": "elder-r6-mentor-003",
+      "excerpt": "{\"paragraphs\": {\"en\": [\"Then Papa helped PinPin down. His little feet found the stone, and then the path.\"], \"ru\": [\"Потом Папа помог спуститься Пин-Пину. Маленькие лапки коснулись камня, а затем дорожки.\"], \"es\": [\"Después Papá ayudó a bajar a PinPin. Sus patitas tocaron la piedra y luego el sendero.\"]}, \"alt\": {\"en\": \"Papa stands on the path and gently holds PinPin, whose two little feet have reached the stone; Scooby watches their faces from beside them.\", \"ru\": \"Папа стоит на тропинке и бережно держит Пин-Пина, чьи маленькие лапки уже коснулись камня; Скуби рядом следит за их лицами.\", \"es\": \"Papá está en el sendero y sostiene con cariño a PinPin, cuyas patitas ya han llegado a la piedra; Scooby observa sus rostros desde un lado.\"}, \"caption\": null, \"captions\": null}",
+      "imagePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/images/published/elder-cycle/elder-r6-mentor-003.webp",
+      "imageSha256": "15a4a7ea805a8a45bb4f9b26f7c3b6e4fa2abe0696b3c5f3dfb14495a815497d",
+      "portraitIdentityStatus": "Discovery citation only unless also listed in inspectedVisualEvidence."
+    },
+    {
+      "kind": "published",
+      "sourcePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/stories/elder-elder-house.json",
+      "sourceSha256": "b6fbaf4311a41491a570e009caacfa20ae2775a958fa2e374bb136b2466e6dda",
+      "chapterId": "elder-elder-house",
+      "sceneId": "elder-r6-mentor-006",
+      "excerpt": "{\"paragraphs\": {\"en\": [\"Papa lowered the little satchel beside the mossy rock. “That was a good lunch,” he said. Scooby settled beside him.\"], \"ru\": [\"Папа поставил маленькую сумку у замшелого камня. «Хорошо мы пообедали», — сказал он. Скуби устроился рядом.\"], \"es\": [\"Papá dejó la pequeña bolsa junto a la roca cubierta de musgo. «Qué rico almuerzo», dijo. Scooby se acomodó a su lado.\"]}, \"alt\": {\"en\": \"Papa lowered the little satchel beside the mossy rock. “That was a good lunch,” he said. Scooby settled beside him.\", \"ru\": \"Папа поставил маленькую сумку у замшелого камня. «Хорошо мы пообедали», — сказал он. Скуби устроился рядом.\", \"es\": \"Papá dejó la pequeña bolsa junto a la roca cubierta de musgo. «Qué rico almuerzo», dijo. Scooby se acomodó a su lado.\"}, \"caption\": null, \"captions\": null}",
+      "imagePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/images/published/elder-cycle/elder-r6-mentor-006.webp",
+      "imageSha256": "81d28e04277a8433d32aa6c4a0cf6931815372fd624ef7e41d6480a82466b155",
+      "portraitIdentityStatus": "Discovery citation only unless also listed in inspectedVisualEvidence."
+    },
+    {
+      "kind": "published",
+      "sourcePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/stories/elder-elder-house.json",
+      "sourceSha256": "b6fbaf4311a41491a570e009caacfa20ae2775a958fa2e374bb136b2466e6dda",
+      "chapterId": "elder-elder-house",
+      "sceneId": "elder-r6-mentor-007",
+      "excerpt": "{\"paragraphs\": {\"en\": [\"A warm patch of sunshine lay beside the roots. Scooby curled up there, and Papa sat down beside him.\"], \"ru\": [\"У корней лежало тёплое солнечное пятнышко. Скуби свернулся там клубочком, а Папа сел рядом.\"], \"es\": [\"Junto a las raíces había un rincón calentito de sol. Scooby se acurrucó allí, y Papá se sentó a su lado.\"]}, \"alt\": {\"en\": \"A wide view shows the Elder waiting at his doorway while PinPin faces Papa and curled-up Scooby in the sunny resting place beyond the fern.\", \"ru\": \"На общем плане Старейшина ждёт у входа, а Пин-Пин смотрит на Папу и свернувшегося Скуби на солнечном месте за папоротником.\", \"es\": \"Una vista amplia muestra al Anciano esperando en la entrada mientras PinPin mira a Papá y a Scooby acurrucado en el rincón soleado más allá del helecho.\"}, \"caption\": null, \"captions\": null}",
+      "imagePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/images/published/elder-cycle/elder-r6-mentor-007.webp",
+      "imageSha256": "f2d92b66200392183f81f67db1213d01d89531419dd49ab082ef7a7169281665",
+      "portraitIdentityStatus": "Discovery citation only unless also listed in inspectedVisualEvidence."
+    },
+    {
+      "kind": "published",
+      "sourcePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/stories/elder-elder-house.json",
+      "sourceSha256": "b6fbaf4311a41491a570e009caacfa20ae2775a958fa2e374bb136b2466e6dda",
+      "chapterId": "elder-elder-house",
+      "sceneId": "elder-r6-mentor-008",
+      "excerpt": "{\"paragraphs\": {\"en\": [\"“I’ll be right here,” Papa told PinPin. “Enjoy your visit.” Scooby gave a long, sleepy sigh.\"], \"ru\": [\"«Я буду здесь, — сказал Папа Пин-Пину. — Хорошо вам побеседовать». Скуби протяжно и сонно вздохнул.\"], \"es\": [\"«Estaré aquí mismo», le dijo Papá a PinPin. «Que disfrutes la visita». Scooby soltó un largo suspiro de sueño.\"]}, \"alt\": {\"en\": \"Beside resting Scooby, seated Papa meets PinPin’s eyes and opens a paw reassuringly: he will be right here.\", \"ru\": \"Рядом с отдыхающим Скуби сидящий Папа встречает взгляд Пин-Пина и успокаивающе раскрывает лапу: он будет здесь.\", \"es\": \"Junto a Scooby descansando, Papá sentado encuentra la mirada de PinPin y abre una pata para tranquilizarlo: estará allí mismo.\"}, \"caption\": null, \"captions\": null}",
+      "imagePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/images/published/elder-cycle/elder-r6-mentor-008.webp",
+      "imageSha256": "45878f261e3341e0f46c2444e72ea075454005b2ed1c08cb34c14e96d31f3773",
+      "portraitIdentityStatus": "Discovery citation only unless also listed in inspectedVisualEvidence."
+    },
+    {
+      "kind": "published",
+      "sourcePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/stories/elder-elder-house.json",
+      "sourceSha256": "b6fbaf4311a41491a570e009caacfa20ae2775a958fa2e374bb136b2466e6dda",
+      "chapterId": "elder-elder-house",
+      "sceneId": "elder-r6-mentor-009",
+      "excerpt": "{\"paragraphs\": {\"en\": [\"By the time PinPin turned toward the door, Papa’s eyes were closing too.\"], \"ru\": [\"Когда Пин-Пин повернулся к двери, Папины глаза тоже уже закрывались.\"], \"es\": [\"Cuando PinPin se volvió hacia la puerta, a Papá también se le cerraban los ojos.\"]}, \"alt\": {\"en\": \"Papa and Scooby sleep side by side against a mossy rock, their faces relaxed in the dappled morning sunshine.\", \"ru\": \"Папа и Скуби спят рядом у мшистого камня, расслабив лица в пятнистом утреннем солнечном свете.\", \"es\": \"Papá y Scooby duermen juntos junto a una roca musgosa, con los rostros relajados bajo la luz moteada de la mañana.\"}, \"caption\": null, \"captions\": null}",
+      "imagePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/images/published/elder-cycle/elder-r6-mentor-009.webp",
+      "imageSha256": "e7f3e9be9a4e35ad47a0439390eff399742881de7583ff61840f95dd7f10e6a8",
+      "portraitIdentityStatus": "Discovery citation only unless also listed in inspectedVisualEvidence."
+    },
+    {
+      "kind": "published",
+      "sourcePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/stories/elder-family-morning.json",
+      "sourceSha256": "b5e43d9a8d9603ac83a066db4b961c5e1c8e3c196a72d2f4c56d36af05949c42",
+      "chapterId": "elder-family-morning",
+      "sceneId": "elder-r6-family-031",
+      "excerpt": "{\"paragraphs\": {\"en\": [\"Outside, Scooby drank a little water. Papa and PinPin waited at the garden stone.\"], \"ru\": [\"На улице Скуби попил воды. Папа и Пин-Пин ждали у садового камня.\"], \"es\": [\"Fuera, Scooby bebió un poco de agua. Papá y PinPin esperaban junto a la piedra del jardín.\"]}, \"alt\": {\"en\": \"Scooby laps water from his outdoor bowl, making little rings on the surface.\", \"ru\": \"Скуби лакает воду из миски у дома, и по поверхности расходятся маленькие круги.\", \"es\": \"Scooby bebe de su cuenco fuera de casa y forma pequeños círculos en el agua.\"}, \"caption\": null, \"captions\": null}",
+      "imagePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/images/published/elder-cycle/elder-r6-family-031.webp",
+      "imageSha256": "84116ddc2a2768dce46a023e3e7a95781908ccaac4c5f232b5811981c4c424f1",
+      "portraitIdentityStatus": "Discovery citation only unless also listed in inspectedVisualEvidence."
+    },
+    {
+      "kind": "published",
+      "sourcePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/stories/elder-family-morning.json",
+      "sourceSha256": "b5e43d9a8d9603ac83a066db4b961c5e1c8e3c196a72d2f4c56d36af05949c42",
+      "chapterId": "elder-family-morning",
+      "sceneId": "elder-r6-family-032",
+      "excerpt": "{\"paragraphs\": {\"en\": [\"Scooby crouched beside the stone. Papa stepped down to help PinPin.\"], \"ru\": [\"Скуби пригнулся рядом с камнем. Папа спустился на землю, чтобы помочь Пин-Пину.\"], \"es\": [\"Scooby se agachó junto a la piedra. Papá bajó al suelo para ayudar a PinPin.\"]}, \"alt\": {\"en\": \"Papa helps PinPin beside crouching Scooby with the picnic bag across his shoulder.\", \"ru\": \"Папа с сумкой через плечо помогает Пин-Пину возле присевшего Скуби.\", \"es\": \"Papá ayuda a PinPin junto a Scooby agachado, con la bolsa cruzada al hombro.\"}, \"caption\": null, \"captions\": null}",
+      "imagePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/images/published/elder-cycle/elder-r6-family-032.webp",
+      "imageSha256": "33ad5f708dd9392d5269738d80044ab44198eb21432b0e824fadb82278cbdfe4",
+      "portraitIdentityStatus": "Discovery citation only unless also listed in inspectedVisualEvidence."
+    },
+    {
+      "kind": "published",
+      "sourcePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/stories/elder-family-morning.json",
+      "sourceSha256": "b5e43d9a8d9603ac83a066db4b961c5e1c8e3c196a72d2f4c56d36af05949c42",
+      "chapterId": "elder-family-morning",
+      "sceneId": "elder-r6-family-033",
+      "excerpt": "{\"paragraphs\": {\"en\": [\"From there, PinPin climbed onto Scooby’s back. Papa kept a steady paw beside him.\"], \"ru\": [\"Оттуда Пин-Пин перелез на спину Скуби. Папа придерживал его лапой.\"], \"es\": [\"Desde allí, PinPin subió al lomo de Scooby. Papá lo sostenía con una pata firme.\"]}, \"alt\": {\"en\": \"PinPin climbs onto Scooby while Papa supports him, his bag resting at his hip.\", \"ru\": \"Пин-Пин садится на Скуби, а Папа поддерживает его; сумка висит у Папы на боку.\", \"es\": \"PinPin sube a Scooby mientras Papá lo sostiene con la bolsa en la cadera.\"}, \"caption\": null, \"captions\": null}",
+      "imagePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/images/published/elder-cycle/elder-r6-family-033.webp",
+      "imageSha256": "2d9bded7e46cda7012a393e01127d87f727f12a617da599e42422c8c21b125fe",
+      "portraitIdentityStatus": "Discovery citation only unless also listed in inspectedVisualEvidence."
+    },
+    {
+      "kind": "published",
+      "sourcePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/stories/elder-family-morning.json",
+      "sourceSha256": "b5e43d9a8d9603ac83a066db4b961c5e1c8e3c196a72d2f4c56d36af05949c42",
+      "chapterId": "elder-family-morning",
+      "sceneId": "elder-r6-family-034",
+      "excerpt": "{\"paragraphs\": {\"en\": [\"“Comfortable?” asked Papa. “Very!” said PinPin. Scooby listened, ready to go.\"], \"ru\": [\"— Удобно? — спросил Папа. — Очень! — ответил Пин-Пин. Скуби прислушивался, готовый отправиться в путь.\"], \"es\": [\"—¿Cómodo? —preguntó Papá. —¡Mucho! —dijo PinPin. Scooby escuchaba, listo para partir.\"]}, \"alt\": {\"en\": \"Scooby tilts his head and looks up attentively toward Papa, with both front paws resting on the garden path.\", \"ru\": \"Скуби наклоняет голову и внимательно смотрит вверх на Папу, положив обе передние лапы на садовую дорожку.\", \"es\": \"Scooby ladea la cabeza y mira atento hacia Papá, con las dos patas delanteras apoyadas en el sendero.\"}, \"caption\": null, \"captions\": null}",
+      "imagePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/images/published/elder-cycle/elder-r6-family-034.webp",
+      "imageSha256": "78720144c4e6e1d13b4a2f4279f158468bb410b2ead62f3e935171dae5689e2b",
+      "portraitIdentityStatus": "Discovery citation only unless also listed in inspectedVisualEvidence."
+    },
+    {
+      "kind": "published",
+      "sourcePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/stories/elder-family-morning.json",
+      "sourceSha256": "b5e43d9a8d9603ac83a066db4b961c5e1c8e3c196a72d2f4c56d36af05949c42",
+      "chapterId": "elder-family-morning",
+      "sceneId": "elder-r6-family-035",
+      "excerpt": "{\"paragraphs\": {\"en\": [\"Scooby stood up slowly. Mama waved from the door, holding PomPom.\"], \"ru\": [\"Скуби медленно встал. Мама помахала им от двери, держа Пом-Пома на руках.\"], \"es\": [\"Scooby se levantó despacio. Mamá los saludó desde la puerta, con PomPom en brazos.\"]}, \"alt\": {\"en\": \"Papa and PinPin ride away on Scooby as Mama and PomPom see them off.\", \"ru\": \"Папа и Пин-Пин уезжают на Скуби, а Мама и Пом-Пом провожают их.\", \"es\": \"Papá y PinPin salen montados en Scooby mientras Mamá y PomPom se despiden.\"}, \"caption\": null, \"captions\": null}",
+      "imagePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/images/published/elder-cycle/elder-r6-family-035.webp",
+      "imageSha256": "0a2396a9c2ef776930b92b593f2e57a36f767c79031dcfffd48fc0e8d072fdc5",
+      "portraitIdentityStatus": "Discovery citation only unless also listed in inspectedVisualEvidence."
+    },
+    {
+      "kind": "published",
+      "sourcePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/stories/elder-forest-path.json",
+      "sourceSha256": "b7cbb02fc4e039a57d76c28480a044834f2ca76ae21434dde76f37138cff53d9",
+      "chapterId": "elder-forest-path",
+      "sceneId": "elder-r6-forest-001",
+      "excerpt": "{\"paragraphs\": {\"en\": [\"They travelled between the tall trees. Scooby’s ears bobbed gently ahead.\"], \"ru\": [\"Они ехали между высокими деревьями. Впереди тихонько покачивались уши Скуби.\"], \"es\": [\"Avanzaban entre los árboles altos. Delante, las orejas de Scooby se balanceaban suavemente.\"]}, \"alt\": {\"en\": \"From just behind PinPin, Scooby’s ears frame a sunlit forest path and distant mist; Papa’s arm supports the child as he holds the dog’s back.\", \"ru\": \"Из-за плеча Пин-Пина между ушами Скуби видны солнечная лесная тропинка и далёкий туман; Папина лапа поддерживает малыша, который держится за спину собаки.\", \"es\": \"Desde detrás de PinPin, las orejas de Scooby enmarcan un sendero soleado y la niebla distante; el brazo de Papá sostiene al pequeño mientras se apoya en el lomo del perro.\"}, \"caption\": null, \"captions\": null}",
+      "imagePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/images/published/elder-cycle/elder-r6-forest-001.webp",
+      "imageSha256": "5049deed3f4673920ec53ac0290266df2a9208f5cdcd668339acd8da3149428c",
+      "portraitIdentityStatus": "Discovery citation only unless also listed in inspectedVisualEvidence."
+    },
+    {
+      "kind": "published",
+      "sourcePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/stories/elder-forest-path.json",
+      "sourceSha256": "b7cbb02fc4e039a57d76c28480a044834f2ca76ae21434dde76f37138cff53d9",
+      "chapterId": "elder-forest-path",
+      "sceneId": "elder-r6-forest-002",
+      "excerpt": "{\"paragraphs\": {\"en\": [\"“Can we walk here?” asked PinPin. Papa found a broad stone, and Scooby crouched beside it.\"], \"ru\": [\"— А здесь можно пешком? — спросил Пин-Пин. Папа нашёл широкий камень, и Скуби пригнулся рядом.\"], \"es\": [\"—¿Podemos caminar aquí? —preguntó PinPin. Papá encontró una piedra ancha y Scooby se agachó a su lado.\"]}, \"alt\": {\"en\": \"Papa supports PinPin on crouching Scooby beside a low mossy stone.\", \"ru\": \"Папа поддерживает Пин-Пина на спине пригнувшегося Скуби рядом с низким мшистым камнем.\", \"es\": \"Papá sostiene a PinPin sobre Scooby agachado junto a una piedra baja cubierta de musgo.\"}, \"caption\": null, \"captions\": null}",
+      "imagePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/images/published/elder-cycle/elder-r6-forest-002.webp",
+      "imageSha256": "a61e84707a9fdd714fb6dcab872879a6808f220108bc020783967b2f75d298a8",
+      "portraitIdentityStatus": "Discovery citation only unless also listed in inspectedVisualEvidence."
+    },
+    {
+      "kind": "published",
+      "sourcePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/stories/elder-forest-path.json",
+      "sourceSha256": "b7cbb02fc4e039a57d76c28480a044834f2ca76ae21434dde76f37138cff53d9",
+      "chapterId": "elder-forest-path",
+      "sceneId": "elder-r6-forest-003",
+      "excerpt": "{\"paragraphs\": {\"en\": [\"Papa stepped onto the stone. “I’ve got you.”\"], \"ru\": [\"Папа встал на камень. — Я тебя держу.\"], \"es\": [\"Papá se puso de pie sobre la piedra. —Te tengo.\"]}, \"alt\": {\"en\": \"Papa stands on the stone and steadies PinPin, still astride Scooby.\", \"ru\": \"Папа стоит на камне и придерживает Пин-Пина, который ещё сидит на Скуби.\", \"es\": \"Papá está de pie sobre la piedra y sostiene a PinPin, que aún monta a Scooby.\"}, \"caption\": null, \"captions\": null}",
+      "imagePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/images/published/elder-cycle/elder-r6-forest-003.webp",
+      "imageSha256": "a37e543595b418cf3b28dc0785514872e9f3c5095462ff711a93f320fa8de8ba",
+      "portraitIdentityStatus": "Discovery citation only unless also listed in inspectedVisualEvidence."
+    },
+    {
+      "kind": "published",
+      "sourcePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/stories/elder-forest-path.json",
+      "sourceSha256": "b7cbb02fc4e039a57d76c28480a044834f2ca76ae21434dde76f37138cff53d9",
+      "chapterId": "elder-forest-path",
+      "sceneId": "elder-r6-forest-004",
+      "excerpt": "{\"paragraphs\": {\"en\": [\"PinPin slid into Papa’s arms. Soon his feet were on the stone too.\"], \"ru\": [\"Пин-Пин скользнул в Папины лапы. Скоро и его ножки стояли на камне.\"], \"es\": [\"PinPin se deslizó entre los brazos de Papá. Pronto sus pies también estaban sobre la piedra.\"]}, \"alt\": {\"en\": \"PinPin lands with both feet on the stone while Papa supports him and Scooby watches.\", \"ru\": \"Пин-Пин стоит обеими ножками на камне; Папа поддерживает его, а Скуби смотрит на них.\", \"es\": \"PinPin apoya los dos pies en la piedra mientras Papá lo sostiene y Scooby observa.\"}, \"caption\": null, \"captions\": null}",
+      "imagePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/images/published/elder-cycle/elder-r6-forest-004.webp",
+      "imageSha256": "2083dfd4f828b09c6071a4dde4d1e31977d82787972306b589ed2ae24fde8ad8",
+      "portraitIdentityStatus": "Discovery citation only unless also listed in inspectedVisualEvidence."
+    },
+    {
+      "kind": "published",
+      "sourcePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/stories/elder-forest-path.json",
+      "sourceSha256": "b7cbb02fc4e039a57d76c28480a044834f2ca76ae21434dde76f37138cff53d9",
+      "chapterId": "elder-forest-path",
+      "sceneId": "elder-r6-forest-005",
+      "excerpt": "{\"paragraphs\": {\"en\": [\"Papa took PinPin’s paw. Scooby padded alongside them.\"], \"ru\": [\"Папа взял Пин-Пина за лапку. Скуби мягко шагал рядом.\"], \"es\": [\"Papá tomó la patita de PinPin. Scooby caminaba a su lado.\"]}, \"alt\": {\"en\": \"Papa and PinPin walk holding paws, with attentive Scooby beside them.\", \"ru\": \"Папа и Пин-Пин идут, держась за лапы; внимательный Скуби шагает рядом.\", \"es\": \"Papá y PinPin caminan de la pata, con Scooby atento a su lado.\"}, \"caption\": null, \"captions\": null}",
+      "imagePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/images/published/elder-cycle/elder-r6-forest-005.webp",
+      "imageSha256": "76818bceb7b4fd16f65fe6d7e42e255d1f74f3c7afbf3c11adfb4a235d194a35",
+      "portraitIdentityStatus": "Discovery citation only unless also listed in inspectedVisualEvidence."
+    },
+    {
+      "kind": "published",
+      "sourcePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/stories/elder-forest-path.json",
+      "sourceSha256": "b7cbb02fc4e039a57d76c28480a044834f2ca76ae21434dde76f37138cff53d9",
+      "chapterId": "elder-forest-path",
+      "sceneId": "elder-r6-forest-008",
+      "excerpt": "{\"paragraphs\": {\"en\": [\"A root crossed the path. Papa offered his paw, and PinPin stepped over.\"], \"ru\": [\"Поперёк тропинки лежал корень. Папа подал лапу, и Пин-Пин перешагнул через него.\"], \"es\": [\"Una raíz cruzaba el sendero. Papá le ofreció la pata y PinPin pasó por encima.\"]}, \"alt\": {\"en\": \"Papa holds PinPin’s paw as he steps over a low root; Scooby waits nearby.\", \"ru\": \"Папа держит Пин-Пина за лапку, пока тот перешагивает низкий корень; Скуби ждёт рядом.\", \"es\": \"Papá sostiene la patita de PinPin al pasar sobre una raíz baja; Scooby espera cerca.\"}, \"caption\": null, \"captions\": null}",
+      "imagePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/images/published/elder-cycle/elder-r6-forest-008.webp",
+      "imageSha256": "af8b5df48d4a2736d21017ec9fcd90a1d6a3daa14eb5e1033c2bdb4c5d3083aa",
+      "portraitIdentityStatus": "Discovery citation only unless also listed in inspectedVisualEvidence."
+    },
+    {
+      "kind": "published",
+      "sourcePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/stories/elder-forest-path.json",
+      "sourceSha256": "b7cbb02fc4e039a57d76c28480a044834f2ca76ae21434dde76f37138cff53d9",
+      "chapterId": "elder-forest-path",
+      "sceneId": "elder-r6-forest-009",
+      "excerpt": "{\"paragraphs\": {\"en\": [\"“Now you, Papa!” PinPin held a low leafy twig aside while Papa ducked under it.\"], \"ru\": [\"— Теперь ты, Папа! Пин-Пин отвёл в сторону тонкую веточку, а Папа пригнулся под ней.\"], \"es\": [\"—¡Ahora tú, Papá! PinPin apartó una ramita con hojas mientras Papá se agachaba para pasar.\"]}, \"alt\": {\"en\": \"PinPin holds a leafy twig aside while Papa bends beneath it, with Scooby watching.\", \"ru\": \"Пин-Пин отводит веточку с листьями, пока Папа пригибается под ней; Скуби наблюдает.\", \"es\": \"PinPin aparta una ramita con hojas mientras Papá se agacha para pasar y Scooby observa.\"}, \"caption\": null, \"captions\": null}",
+      "imagePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/images/published/elder-cycle/elder-r6-forest-009.webp",
+      "imageSha256": "81f2b30b605f05c946a40f142448d749a9e52399c6327740b40e2ba0ddb76d1d",
+      "portraitIdentityStatus": "Discovery citation only unless also listed in inspectedVisualEvidence."
+    },
+    {
+      "kind": "published",
+      "sourcePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/stories/elder-forest-path.json",
+      "sourceSha256": "b7cbb02fc4e039a57d76c28480a044834f2ca76ae21434dde76f37138cff53d9",
+      "chapterId": "elder-forest-path",
+      "sceneId": "elder-r6-forest-011",
+      "excerpt": "{\"paragraphs\": {\"en\": [\"Papa opened the bag. PinPin caught the other corner of Mama’s cloth, and together they spread it on the grass.\"], \"ru\": [\"Папа открыл сумку. Пин-Пин взял другой уголок Маминой салфетки, и они вместе расстелили её на траве.\"], \"es\": [\"Papá abrió la bolsa. PinPin tomó la otra punta del paño de Mamá y juntos lo extendieron sobre la hierba.\"]}, \"alt\": {\"en\": \"Papa and PinPin spread a cream cloth beside their open picnic bag while Scooby rests nearby.\", \"ru\": \"Папа и Пин-Пин расстилают светлую салфетку рядом с открытой сумкой для обеда; Скуби отдыхает поблизости.\", \"es\": \"Papá y PinPin extienden un paño claro junto a la bolsa abierta del almuerzo mientras Scooby descansa cerca.\"}, \"caption\": null, \"captions\": null}",
+      "imagePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/images/published/elder-cycle/elder-r6-forest-011.webp",
+      "imageSha256": "0f02fcc9670594b0d51bf94192fc1c0ae8fbb62ec105929432828e32a926fd62",
+      "portraitIdentityStatus": "Discovery citation only unless also listed in inspectedVisualEvidence."
+    },
+    {
+      "kind": "published",
+      "sourcePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/stories/elder-forest-path.json",
+      "sourceSha256": "b7cbb02fc4e039a57d76c28480a044834f2ca76ae21434dde76f37138cff53d9",
+      "chapterId": "elder-forest-path",
+      "sceneId": "elder-r6-forest-013",
+      "excerpt": "{\"paragraphs\": {\"en\": [\"PinPin put a little apple into Papa’s paw. “This one is for you.”\"], \"ru\": [\"Пин-Пин положил маленькое яблоко в Папину лапу. — Это тебе.\"], \"es\": [\"PinPin puso una manzanita en la pata de Papá. —Esta es para ti.\"]}, \"alt\": {\"en\": \"PinPin hands Papa a whole apple while Scooby watches their picnic.\", \"ru\": \"Пин-Пин передаёт Папе целое яблоко, а Скуби наблюдает за их обедом.\", \"es\": \"PinPin le entrega una manzana entera a Papá mientras Scooby observa el almuerzo.\"}, \"caption\": null, \"captions\": null}",
+      "imagePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/images/published/elder-cycle/elder-r6-forest-013.webp",
+      "imageSha256": "61c03509495fc25db2ee1a39e42bc7cd3219e27dd61e2bf085bd6c92a41933d7",
+      "portraitIdentityStatus": "Discovery citation only unless also listed in inspectedVisualEvidence."
+    },
+    {
+      "kind": "published",
+      "sourcePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/stories/elder-forest-path.json",
+      "sourceSha256": "b7cbb02fc4e039a57d76c28480a044834f2ca76ae21434dde76f37138cff53d9",
+      "chapterId": "elder-forest-path",
+      "sceneId": "elder-r6-forest-015",
+      "excerpt": "{\"paragraphs\": {\"en\": [\"Scooby had his own bowl. PinPin set it on the grass, and Scooby lowered his nose to drink.\"], \"ru\": [\"У Скуби была своя миска. Пин-Пин поставил её на траву, и Скуби опустил морду к воде.\"], \"es\": [\"Scooby tenía su propio cuenco. PinPin lo dejó sobre la hierba y Scooby bajó el hocico para beber.\"]}, \"alt\": {\"en\": \"PinPin steadies a water bowl on the grass while Scooby drinks and Papa watches.\", \"ru\": \"Пин-Пин придерживает миску с водой на траве, пока Скуби пьёт, а Папа наблюдает.\", \"es\": \"PinPin sujeta un cuenco de agua sobre la hierba mientras Scooby bebe y Papá observa.\"}, \"caption\": null, \"captions\": null}",
+      "imagePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/images/published/elder-cycle/elder-r6-forest-015.webp",
+      "imageSha256": "adc9e84d1788f545057945adcef1409eee2ae031b46211a47baee520fac604ea",
+      "portraitIdentityStatus": "Discovery citation only unless also listed in inspectedVisualEvidence."
+    },
+    {
+      "kind": "published",
+      "sourcePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/stories/elder-forest-path.json",
+      "sourceSha256": "b7cbb02fc4e039a57d76c28480a044834f2ca76ae21434dde76f37138cff53d9",
+      "chapterId": "elder-forest-path",
+      "sceneId": "elder-r6-forest-016",
+      "excerpt": "{\"paragraphs\": {\"en\": [\"With lunch finished, PinPin leaned against Papa. Leaves whispered above them.\"], \"ru\": [\"После обеда Пин-Пин прислонился к Папе. Над ними шелестели листья.\"], \"es\": [\"Después de comer, PinPin se apoyó en Papá. Las hojas susurraban sobre ellos.\"]}, \"alt\": {\"en\": \"PinPin nestles against Papa beside the log while Scooby sleeps; lunch remnants remain on the cloth.\", \"ru\": \"Пин-Пин прижимается к Папе рядом с бревном, а Скуби спит; на салфетке остались крошки и надкушенные яблоки.\", \"es\": \"PinPin se acurruca contra Papá junto al tronco mientras Scooby duerme; quedan restos del almuerzo sobre el paño.\"}, \"caption\": null, \"captions\": null}",
+      "imagePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/images/published/elder-cycle/elder-r6-forest-016.webp",
+      "imageSha256": "0ddcc7eed8d541af20c74ef295825b570043432273be0698ae51778ef657739c",
+      "portraitIdentityStatus": "Discovery citation only unless also listed in inspectedVisualEvidence."
+    },
+    {
+      "kind": "published",
+      "sourcePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/stories/elder-forest-path.json",
+      "sourceSha256": "b7cbb02fc4e039a57d76c28480a044834f2ca76ae21434dde76f37138cff53d9",
+      "chapterId": "elder-forest-path",
+      "sceneId": "elder-r6-forest-017",
+      "excerpt": "{\"paragraphs\": {\"en\": [\"Papa put the cup and bowl away. Then they folded the cloth together, leaving the grass clean.\"], \"ru\": [\"Папа убрал чашку и миску. Потом они вместе сложили салфетку, оставив траву чистой.\"], \"es\": [\"Papá guardó la taza y el cuenco. Después doblaron el paño juntos y dejaron limpia la hierba.\"]}, \"alt\": {\"en\": \"Papa and PinPin fold the cream cloth together; their utensils are packed and Scooby waits.\", \"ru\": \"Папа и Пин-Пин вместе складывают светлую салфетку; посуда убрана в сумку, а Скуби ждёт.\", \"es\": \"Papá y PinPin doblan juntos el paño claro; los utensilios están guardados y Scooby espera.\"}, \"caption\": null, \"captions\": null}",
+      "imagePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/images/published/elder-cycle/elder-r6-forest-017.webp",
+      "imageSha256": "ec82e4c927b15f1e0b1c19ca786f5f88ddc3af1f6a1ee57c1b2f37ab10f81a1e",
+      "portraitIdentityStatus": "Discovery citation only unless also listed in inspectedVisualEvidence."
+    },
+    {
+      "kind": "published",
+      "sourcePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/stories/elder-forest-path.json",
+      "sourceSha256": "b7cbb02fc4e039a57d76c28480a044834f2ca76ae21434dde76f37138cff53d9",
+      "chapterId": "elder-forest-path",
+      "sceneId": "elder-r6-forest-019",
+      "excerpt": "{\"paragraphs\": {\"en\": [\"After a while, PinPin’s steps grew smaller. They stopped together on another broad, low stone.\"], \"ru\": [\"Через некоторое время шажки Пин-Пина стали короче. Они вместе остановились на другом широком низком камне.\"], \"es\": [\"Al cabo de un rato, los pasos de PinPin se hicieron más cortitos. Se detuvieron juntos sobre otra piedra ancha y baja.\"]}, \"alt\": {\"en\": \"Papa and PinPin stand holding paws on a second broad stone with Scooby crouched beside them.\", \"ru\": \"Папа и Пин-Пин стоят, держась за лапы, на другом широком камне; Скуби пригнулся рядом с ними.\", \"es\": \"Papá y PinPin están de la pata sobre otra piedra ancha, con Scooby agachado junto a ellos.\"}, \"caption\": null, \"captions\": null}",
+      "imagePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/images/published/elder-cycle/elder-r6-forest-019.webp",
+      "imageSha256": "f422a5ba6a438276920dab5f0776ca4891bb619513349dc4c046cbdd5a93c993",
+      "portraitIdentityStatus": "Discovery citation only unless also listed in inspectedVisualEvidence."
+    },
+    {
+      "kind": "published",
+      "sourcePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/stories/elder-forest-path.json",
+      "sourceSha256": "b7cbb02fc4e039a57d76c28480a044834f2ca76ae21434dde76f37138cff53d9",
+      "chapterId": "elder-forest-path",
+      "sceneId": "elder-r6-forest-020",
+      "excerpt": "{\"paragraphs\": {\"en\": [\"Scooby turned and stayed low. Papa helped PinPin onto his warm back and kept one paw around him.\"], \"ru\": [\"Скуби повернулся и остался лежать. Папа помог Пин-Пину сесть на тёплую спину и придержал его лапой.\"], \"es\": [\"Scooby se giró y se quedó agachado. Papá ayudó a PinPin a sentarse sobre su lomo calentito y lo sostuvo con una pata.\"]}, \"alt\": {\"en\": \"Papa stands firmly on the stone and supports PinPin astride Scooby’s crouched back.\", \"ru\": \"Папа твёрдо стоит на камне и придерживает Пин-Пина, сидящего на спине пригнувшегося Скуби.\", \"es\": \"Papá está firme sobre la piedra y sostiene a PinPin sentado sobre el lomo de Scooby agachado.\"}, \"caption\": null, \"captions\": null}",
+      "imagePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/images/published/elder-cycle/elder-r6-forest-020.webp",
+      "imageSha256": "6199f8952c177efcd91f8329f6b04aa57f229f73aa9d609616c77e102f8b9979",
+      "portraitIdentityStatus": "Discovery citation only unless also listed in inspectedVisualEvidence."
+    },
+    {
+      "kind": "published",
+      "sourcePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/stories/elder-forest-path.json",
+      "sourceSha256": "b7cbb02fc4e039a57d76c28480a044834f2ca76ae21434dde76f37138cff53d9",
+      "chapterId": "elder-forest-path",
+      "sceneId": "elder-r6-forest-021",
+      "excerpt": "{\"paragraphs\": {\"en\": [\"Papa settled behind him. “Comfortable?” “Yes!” Scooby stood up slowly.\"], \"ru\": [\"Папа устроился сзади. — Удобно? — Да! Скуби медленно поднялся.\"], \"es\": [\"Papá se acomodó detrás. —¿Estás cómodo? —¡Sí! Scooby se levantó despacito.\"]}, \"alt\": {\"en\": \"Scooby stands on the broad stone with PinPin in front and Papa supporting him from behind.\", \"ru\": \"Скуби стоит на широком камне; Пин-Пин сидит впереди, а Папа поддерживает его сзади.\", \"es\": \"Scooby está de pie sobre la piedra ancha, con PinPin delante y Papá sosteniéndolo desde atrás.\"}, \"caption\": null, \"captions\": null}",
+      "imagePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/images/published/elder-cycle/elder-r6-forest-021.webp",
+      "imageSha256": "496b4f5dd35b520c54fce130c4ace6758fc48b1efbabf1b1a06f5cd84aeedbe5",
+      "portraitIdentityStatus": "Discovery citation only unless also listed in inspectedVisualEvidence."
+    },
+    {
+      "kind": "published",
+      "sourcePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/stories/elder-forest-path.json",
+      "sourceSha256": "b7cbb02fc4e039a57d76c28480a044834f2ca76ae21434dde76f37138cff53d9",
+      "chapterId": "elder-forest-path",
+      "sceneId": "elder-r6-forest-022",
+      "excerpt": "{\"paragraphs\": {\"en\": [\"Then the trees opened. On Burrow Hill stood a great old tree, with a little doorway among its roots.\"], \"ru\": [\"И вот деревья расступились. На Холме Нор стояло огромное старое дерево с маленьким входом между корнями.\"], \"es\": [\"Entonces los árboles se abrieron. En la Colina de las Madrigueras se alzaba un árbol enorme y antiguo, con una puertecita entre sus raíces.\"]}, \"alt\": {\"en\": \"Papa and PinPin arrive on Scooby at the huge tree with a doorway among roots; Papa carries the ochre bag.\", \"ru\": \"Папа и Пин-Пин приезжают на Скуби к огромному дереву со входом между корнями; на Папе охристая сумка.\", \"es\": \"Papá y PinPin llegan sobre Scooby al enorme árbol con una entrada entre las raíces; Papá lleva la bolsa ocre.\"}, \"caption\": null, \"captions\": null}",
+      "imagePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/images/published/elder-cycle/elder-r6-forest-022.webp",
+      "imageSha256": "f68b2da6f296b2fe2d3424f17faa41f15d6f597899892ec88c8bb546bd0017bb",
+      "portraitIdentityStatus": "Discovery citation only unless also listed in inspectedVisualEvidence."
+    },
+    {
+      "kind": "published",
+      "sourcePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/stories/elder-papa-home.json",
+      "sourceSha256": "2bf259ba9dfe61c3a33d8e6aac76e7c333bc512ba97daa7ccfd8bd126ff67b23",
+      "chapterId": "elder-papa-home",
+      "sceneId": "elder-r6-family-001",
+      "excerpt": "{\"paragraphs\": {\"en\": [\"The morning after PinPin helped the lake, mist lay low over the garden. Someone was coming along the path.\"], \"ru\": [\"Наутро после того, как Пин-Пин помог озеру, над садом стелился туман. По дорожке кто-то приближался.\"], \"es\": [\"A la mañana siguiente de ayudar al lago, una neblina cubría el jardín. Alguien venía por el sendero.\"]}, \"alt\": {\"en\": \"Seen from behind through misty trees, Papa and Scooby follow the garden path toward the little green-doored cottage.\", \"ru\": \"Сквозь туманные деревья видно со спины, как Папа и Скуби идут по садовой дорожке к домику с зелёной дверью.\", \"es\": \"Vistos de espaldas entre los árboles con niebla, Papá y Scooby siguen el sendero hacia la casita de puerta verde.\"}, \"caption\": null, \"captions\": null}",
+      "imagePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/images/published/elder-cycle/elder-r6-family-001.webp",
+      "imageSha256": "91ef3d7fe69f13fe5379c0abd941c63409d70b437ec8f851a5225b568f5e392d",
+      "portraitIdentityStatus": "Discovery citation only unless also listed in inspectedVisualEvidence."
+    },
+    {
+      "kind": "published",
+      "sourcePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/stories/elder-papa-home.json",
+      "sourceSha256": "2bf259ba9dfe61c3a33d8e6aac76e7c333bc512ba97daa7ccfd8bd126ff67b23",
+      "chapterId": "elder-papa-home",
+      "sceneId": "arrival-03",
+      "excerpt": "{\"paragraphs\": {\"en\": [\"Papa waved back. Scooby looked up too.\"], \"ru\": [\"Папа помахал в ответ. Скуби тоже посмотрел на окошко.\"], \"es\": [\"Papá saludó con la pata. Scooby también miró hacia la ventana.\"]}, \"alt\": {\"en\": \"Papa answers the wave\", \"ru\": \"Папа машет в ответ\", \"es\": \"Papá responde\"}, \"caption\": null, \"captions\": null}",
+      "imagePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/images/published/elder-cycle/papa-arrival-20260922-arrival-03-v5.webp",
+      "imageSha256": "74d950a027c944f00ad0c0cbee5126dfb521bf80d3ae0f9706a188ebbbe6db00",
+      "portraitIdentityStatus": "Discovery citation only unless also listed in inspectedVisualEvidence."
+    },
+    {
+      "kind": "published",
+      "sourcePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/stories/elder-papa-home.json",
+      "sourceSha256": "2bf259ba9dfe61c3a33d8e6aac76e7c333bc512ba97daa7ccfd8bd126ff67b23",
+      "chapterId": "elder-papa-home",
+      "sceneId": "elder-r6-family-003",
+      "excerpt": "{\"paragraphs\": {\"en\": [\"Scooby stood still beside the broad garden stone. Papa gave him a gentle pat.\"], \"ru\": [\"Скуби стоял у широкого камня. Папа ласково погладил его.\"], \"es\": [\"Scooby se quedó junto a la piedra ancha. Papá le dio una caricia.\"]}, \"alt\": {\"en\": \"Papa sits securely on Scooby beside the garden stone; they share an attentive glance.\", \"ru\": \"Папа сидит на спине Скуби у садового камня; они внимательно смотрят друг на друга.\", \"es\": \"Papá está sentado sobre Scooby junto a la piedra del jardín; se miran con atención.\"}, \"caption\": null, \"captions\": null}",
+      "imagePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/images/published/elder-cycle/elder-r6-family-003.webp",
+      "imageSha256": "a4b83c98d3f6488c653f80c5669b4907c99dafb93985cf782071c23f9860d6f1",
+      "portraitIdentityStatus": "Discovery citation only unless also listed in inspectedVisualEvidence."
+    },
+    {
+      "kind": "published",
+      "sourcePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/stories/elder-papa-home.json",
+      "sourceSha256": "2bf259ba9dfe61c3a33d8e6aac76e7c333bc512ba97daa7ccfd8bd126ff67b23",
+      "chapterId": "elder-papa-home",
+      "sceneId": "elder-r6-family-004",
+      "excerpt": "{\"paragraphs\": {\"en\": [\"Scooby crouched. Papa stepped onto the stone, then down onto the ground.\"], \"ru\": [\"Скуби пригнулся. Папа спустился на камень, а потом на землю.\"], \"es\": [\"Scooby se agachó. Papá bajó a la piedra y después al suelo.\"]}, \"alt\": {\"en\": \"Papa stands with both feet on the garden stone, resting one paw on crouching Scooby as they look at each other.\", \"ru\": \"Папа стоит обеими лапами на садовом камне и опирается на пригнувшегося Скуби; они смотрят друг на друга.\", \"es\": \"Papá apoya ambos pies en la piedra del jardín y una pata en Scooby agachado, mientras se miran.\"}, \"caption\": null, \"captions\": null}",
+      "imagePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/images/published/elder-cycle/elder-r6-family-004.webp",
+      "imageSha256": "9b5c0802c0e0b82dc5f355cadeceaf0375c7037acec71d62e82c805e196e81fd",
+      "portraitIdentityStatus": "Discovery citation only unless also listed in inspectedVisualEvidence."
+    },
+    {
+      "kind": "published",
+      "sourcePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/stories/elder-papa-home.json",
+      "sourceSha256": "2bf259ba9dfe61c3a33d8e6aac76e7c333bc512ba97daa7ccfd8bd126ff67b23",
+      "chapterId": "elder-papa-home",
+      "sceneId": "arrival-09",
+      "excerpt": "{\"paragraphs\": {\"en\": [\"Papa waited by the door. Scooby waited beside him.\"], \"ru\": [\"Папа ждал у двери. Скуби ждал рядом.\"], \"es\": [\"Papá esperaba junto a la puerta. Scooby esperaba a su lado.\"]}, \"alt\": {\"en\": \"Papa waits at the doorstep\", \"ru\": \"Папа ждёт у двери\", \"es\": \"Papá espera\"}, \"caption\": null, \"captions\": null}",
+      "imagePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/images/published/elder-cycle/papa-arrival-20260922-arrival-09-v2.webp",
+      "imageSha256": "fd994b602031e2db2d2b66dfd60bd0923b1a6854ef68ca9b7909418236801096",
+      "portraitIdentityStatus": "Discovery citation only unless also listed in inspectedVisualEvidence."
+    },
+    {
+      "kind": "published",
+      "sourcePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/stories/elder-papa-home.json",
+      "sourceSha256": "2bf259ba9dfe61c3a33d8e6aac76e7c333bc512ba97daa7ccfd8bd126ff67b23",
+      "chapterId": "elder-papa-home",
+      "sceneId": "elder-r6-family-005",
+      "excerpt": "{\"paragraphs\": {\"en\": [\"PinPin nestled into Papa’s hug. Mama and PomPom watched, and Scooby’s tail curled up.\"], \"ru\": [\"Пин-Пин крепко обнял Папу. Мама и Пом-Пом смотрели на них, а хвост Скуби загнулся колечком.\"], \"es\": [\"PinPin se acurrucó en el abrazo de Papá. Mamá y PomPom los miraban, y Scooby curvó la cola.\"]}, \"alt\": {\"en\": \"Papa crouches to hug PinPin at the doorstep while Scooby watches and Mama holds PomPom in the open doorway.\", \"ru\": \"Папа приседает, чтобы обнять Пин-Пина у порога; Скуби смотрит на них, а Мама держит Пом-Пома в открытых дверях.\", \"es\": \"Papá se agacha para abrazar a PinPin junto a la puerta; Scooby los observa y Mamá sostiene a PomPom en la entrada.\"}, \"caption\": null, \"captions\": null}",
+      "imagePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/images/published/elder-cycle/elder-r6-family-005.webp",
+      "imageSha256": "832602fe1b6a489e09b3ee52499c813d0fa606a6b8854ee8e765cd9fa17fcd39",
+      "portraitIdentityStatus": "Discovery citation only unless also listed in inspectedVisualEvidence."
+    },
+    {
+      "kind": "published",
+      "sourcePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/stories/one-day-in-the-forest.json",
+      "sourceSha256": "80c4ce2d6ebb59f6ad7c33155339f113ab4096c9ebcdcd3b4570cea900a6ea5f",
+      "chapterId": "one-day-in-the-forest",
+      "sceneId": "elder-r6-family-001",
+      "excerpt": "{\"paragraphs\": {\"en\": [\"The morning after PinPin helped the lake, mist lay low over the garden. Someone was coming along the path.\"], \"ru\": [\"Наутро после того, как Пин-Пин помог озеру, над садом стелился туман. По дорожке кто-то приближался.\"], \"es\": [\"A la mañana siguiente de ayudar al lago, una neblina cubría el jardín. Alguien venía por el sendero.\"]}, \"alt\": {\"en\": \"Seen from behind through misty trees, Papa and Scooby follow the garden path toward the little green-doored cottage.\", \"ru\": \"Сквозь туманные деревья видно со спины, как Папа и Скуби идут по садовой дорожке к домику с зелёной дверью.\", \"es\": \"Vistos de espaldas entre los árboles con niebla, Papá y Scooby siguen el sendero hacia la casita de puerta verde.\"}, \"caption\": null, \"captions\": null}",
+      "imagePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/images/published/elder-cycle/elder-r6-family-001.webp",
+      "imageSha256": "91ef3d7fe69f13fe5379c0abd941c63409d70b437ec8f851a5225b568f5e392d",
+      "portraitIdentityStatus": "Discovery citation only unless also listed in inspectedVisualEvidence."
+    },
+    {
+      "kind": "published",
+      "sourcePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/stories/one-day-in-the-forest.json",
+      "sourceSha256": "80c4ce2d6ebb59f6ad7c33155339f113ab4096c9ebcdcd3b4570cea900a6ea5f",
+      "chapterId": "one-day-in-the-forest",
+      "sceneId": "arrival-03",
+      "excerpt": "{\"paragraphs\": {\"en\": [\"Papa waved back. Scooby looked up too.\"], \"ru\": [\"Папа помахал в ответ. Скуби тоже посмотрел на окошко.\"], \"es\": [\"Papá saludó con la pata. Scooby también miró hacia la ventana.\"]}, \"alt\": {\"en\": \"Papa answers the wave\", \"ru\": \"Папа машет в ответ\", \"es\": \"Papá responde\"}, \"caption\": null, \"captions\": null}",
+      "imagePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/images/published/elder-cycle/papa-arrival-20260922-arrival-03-v5.webp",
+      "imageSha256": "74d950a027c944f00ad0c0cbee5126dfb521bf80d3ae0f9706a188ebbbe6db00",
+      "portraitIdentityStatus": "Discovery citation only unless also listed in inspectedVisualEvidence."
+    },
+    {
+      "kind": "published",
+      "sourcePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/stories/one-day-in-the-forest.json",
+      "sourceSha256": "80c4ce2d6ebb59f6ad7c33155339f113ab4096c9ebcdcd3b4570cea900a6ea5f",
+      "chapterId": "one-day-in-the-forest",
+      "sceneId": "elder-r6-family-003",
+      "excerpt": "{\"paragraphs\": {\"en\": [\"Scooby stood still beside the broad garden stone. Papa gave him a gentle pat.\"], \"ru\": [\"Скуби стоял у широкого камня. Папа ласково погладил его.\"], \"es\": [\"Scooby se quedó junto a la piedra ancha. Papá le dio una caricia.\"]}, \"alt\": {\"en\": \"Papa sits securely on Scooby beside the garden stone; they share an attentive glance.\", \"ru\": \"Папа сидит на спине Скуби у садового камня; они внимательно смотрят друг на друга.\", \"es\": \"Papá está sentado sobre Scooby junto a la piedra del jardín; se miran con atención.\"}, \"caption\": null, \"captions\": null}",
+      "imagePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/images/published/elder-cycle/elder-r6-family-003.webp",
+      "imageSha256": "a4b83c98d3f6488c653f80c5669b4907c99dafb93985cf782071c23f9860d6f1",
+      "portraitIdentityStatus": "Discovery citation only unless also listed in inspectedVisualEvidence."
+    },
+    {
+      "kind": "published",
+      "sourcePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/stories/one-day-in-the-forest.json",
+      "sourceSha256": "80c4ce2d6ebb59f6ad7c33155339f113ab4096c9ebcdcd3b4570cea900a6ea5f",
+      "chapterId": "one-day-in-the-forest",
+      "sceneId": "elder-r6-family-004",
+      "excerpt": "{\"paragraphs\": {\"en\": [\"Scooby crouched. Papa stepped onto the stone, then down onto the ground.\"], \"ru\": [\"Скуби пригнулся. Папа спустился на камень, а потом на землю.\"], \"es\": [\"Scooby se agachó. Papá bajó a la piedra y después al suelo.\"]}, \"alt\": {\"en\": \"Papa stands with both feet on the garden stone, resting one paw on crouching Scooby as they look at each other.\", \"ru\": \"Папа стоит обеими лапами на садовом камне и опирается на пригнувшегося Скуби; они смотрят друг на друга.\", \"es\": \"Papá apoya ambos pies en la piedra del jardín y una pata en Scooby agachado, mientras se miran.\"}, \"caption\": null, \"captions\": null}",
+      "imagePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/images/published/elder-cycle/elder-r6-family-004.webp",
+      "imageSha256": "9b5c0802c0e0b82dc5f355cadeceaf0375c7037acec71d62e82c805e196e81fd",
+      "portraitIdentityStatus": "Discovery citation only unless also listed in inspectedVisualEvidence."
+    },
+    {
+      "kind": "published",
+      "sourcePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/stories/one-day-in-the-forest.json",
+      "sourceSha256": "80c4ce2d6ebb59f6ad7c33155339f113ab4096c9ebcdcd3b4570cea900a6ea5f",
+      "chapterId": "one-day-in-the-forest",
+      "sceneId": "arrival-09",
+      "excerpt": "{\"paragraphs\": {\"en\": [\"Papa waited by the door. Scooby waited beside him.\"], \"ru\": [\"Папа ждал у двери. Скуби ждал рядом.\"], \"es\": [\"Papá esperaba junto a la puerta. Scooby esperaba a su lado.\"]}, \"alt\": {\"en\": \"Papa waits at the doorstep\", \"ru\": \"Папа ждёт у двери\", \"es\": \"Papá espera\"}, \"caption\": null, \"captions\": null}",
+      "imagePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/images/published/elder-cycle/papa-arrival-20260922-arrival-09-v2.webp",
+      "imageSha256": "fd994b602031e2db2d2b66dfd60bd0923b1a6854ef68ca9b7909418236801096",
+      "portraitIdentityStatus": "Discovery citation only unless also listed in inspectedVisualEvidence."
+    },
+    {
+      "kind": "published",
+      "sourcePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/stories/one-day-in-the-forest.json",
+      "sourceSha256": "80c4ce2d6ebb59f6ad7c33155339f113ab4096c9ebcdcd3b4570cea900a6ea5f",
+      "chapterId": "one-day-in-the-forest",
+      "sceneId": "elder-r6-family-005",
+      "excerpt": "{\"paragraphs\": {\"en\": [\"PinPin nestled into Papa’s hug. Mama and PomPom watched, and Scooby’s tail curled up.\"], \"ru\": [\"Пин-Пин крепко обнял Папу. Мама и Пом-Пом смотрели на них, а хвост Скуби загнулся колечком.\"], \"es\": [\"PinPin se acurrucó en el abrazo de Papá. Mamá y PomPom los miraban, y Scooby curvó la cola.\"]}, \"alt\": {\"en\": \"Papa crouches to hug PinPin at the doorstep while Scooby watches and Mama holds PomPom in the open doorway.\", \"ru\": \"Папа приседает, чтобы обнять Пин-Пина у порога; Скуби смотрит на них, а Мама держит Пом-Пома в открытых дверях.\", \"es\": \"Papá se agacha para abrazar a PinPin junto a la puerta; Scooby los observa y Mamá sostiene a PomPom en la entrada.\"}, \"caption\": null, \"captions\": null}",
+      "imagePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/images/published/elder-cycle/elder-r6-family-005.webp",
+      "imageSha256": "832602fe1b6a489e09b3ee52499c813d0fa606a6b8854ee8e765cd9fa17fcd39",
+      "portraitIdentityStatus": "Discovery citation only unless also listed in inspectedVisualEvidence."
+    },
+    {
+      "kind": "published",
+      "sourcePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/stories/one-day-in-the-forest.json",
+      "sourceSha256": "80c4ce2d6ebb59f6ad7c33155339f113ab4096c9ebcdcd3b4570cea900a6ea5f",
+      "chapterId": "one-day-in-the-forest",
+      "sceneId": "elder-r6-family-031",
+      "excerpt": "{\"paragraphs\": {\"en\": [\"Outside, Scooby drank a little water. Papa and PinPin waited at the garden stone.\"], \"ru\": [\"На улице Скуби попил воды. Папа и Пин-Пин ждали у садового камня.\"], \"es\": [\"Fuera, Scooby bebió un poco de agua. Papá y PinPin esperaban junto a la piedra del jardín.\"]}, \"alt\": {\"en\": \"Scooby laps water from his outdoor bowl, making little rings on the surface.\", \"ru\": \"Скуби лакает воду из миски у дома, и по поверхности расходятся маленькие круги.\", \"es\": \"Scooby bebe de su cuenco fuera de casa y forma pequeños círculos en el agua.\"}, \"caption\": null, \"captions\": null}",
+      "imagePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/images/published/elder-cycle/elder-r6-family-031.webp",
+      "imageSha256": "84116ddc2a2768dce46a023e3e7a95781908ccaac4c5f232b5811981c4c424f1",
+      "portraitIdentityStatus": "Discovery citation only unless also listed in inspectedVisualEvidence."
+    },
+    {
+      "kind": "published",
+      "sourcePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/stories/one-day-in-the-forest.json",
+      "sourceSha256": "80c4ce2d6ebb59f6ad7c33155339f113ab4096c9ebcdcd3b4570cea900a6ea5f",
+      "chapterId": "one-day-in-the-forest",
+      "sceneId": "elder-r6-family-032",
+      "excerpt": "{\"paragraphs\": {\"en\": [\"Scooby crouched beside the stone. Papa stepped down to help PinPin.\"], \"ru\": [\"Скуби пригнулся рядом с камнем. Папа спустился на землю, чтобы помочь Пин-Пину.\"], \"es\": [\"Scooby se agachó junto a la piedra. Papá bajó al suelo para ayudar a PinPin.\"]}, \"alt\": {\"en\": \"Papa helps PinPin beside crouching Scooby with the picnic bag across his shoulder.\", \"ru\": \"Папа с сумкой через плечо помогает Пин-Пину возле присевшего Скуби.\", \"es\": \"Papá ayuda a PinPin junto a Scooby agachado, con la bolsa cruzada al hombro.\"}, \"caption\": null, \"captions\": null}",
+      "imagePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/images/published/elder-cycle/elder-r6-family-032.webp",
+      "imageSha256": "33ad5f708dd9392d5269738d80044ab44198eb21432b0e824fadb82278cbdfe4",
+      "portraitIdentityStatus": "Discovery citation only unless also listed in inspectedVisualEvidence."
+    },
+    {
+      "kind": "published",
+      "sourcePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/stories/one-day-in-the-forest.json",
+      "sourceSha256": "80c4ce2d6ebb59f6ad7c33155339f113ab4096c9ebcdcd3b4570cea900a6ea5f",
+      "chapterId": "one-day-in-the-forest",
+      "sceneId": "elder-r6-family-033",
+      "excerpt": "{\"paragraphs\": {\"en\": [\"From there, PinPin climbed onto Scooby’s back. Papa kept a steady paw beside him.\"], \"ru\": [\"Оттуда Пин-Пин перелез на спину Скуби. Папа придерживал его лапой.\"], \"es\": [\"Desde allí, PinPin subió al lomo de Scooby. Papá lo sostenía con una pata firme.\"]}, \"alt\": {\"en\": \"PinPin climbs onto Scooby while Papa supports him, his bag resting at his hip.\", \"ru\": \"Пин-Пин садится на Скуби, а Папа поддерживает его; сумка висит у Папы на боку.\", \"es\": \"PinPin sube a Scooby mientras Papá lo sostiene con la bolsa en la cadera.\"}, \"caption\": null, \"captions\": null}",
+      "imagePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/images/published/elder-cycle/elder-r6-family-033.webp",
+      "imageSha256": "2d9bded7e46cda7012a393e01127d87f727f12a617da599e42422c8c21b125fe",
+      "portraitIdentityStatus": "Discovery citation only unless also listed in inspectedVisualEvidence."
+    },
+    {
+      "kind": "published",
+      "sourcePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/stories/one-day-in-the-forest.json",
+      "sourceSha256": "80c4ce2d6ebb59f6ad7c33155339f113ab4096c9ebcdcd3b4570cea900a6ea5f",
+      "chapterId": "one-day-in-the-forest",
+      "sceneId": "elder-r6-family-034",
+      "excerpt": "{\"paragraphs\": {\"en\": [\"“Comfortable?” asked Papa. “Very!” said PinPin. Scooby listened, ready to go.\"], \"ru\": [\"— Удобно? — спросил Папа. — Очень! — ответил Пин-Пин. Скуби прислушивался, готовый отправиться в путь.\"], \"es\": [\"—¿Cómodo? —preguntó Papá. —¡Mucho! —dijo PinPin. Scooby escuchaba, listo para partir.\"]}, \"alt\": {\"en\": \"Scooby tilts his head and looks up attentively toward Papa, with both front paws resting on the garden path.\", \"ru\": \"Скуби наклоняет голову и внимательно смотрит вверх на Папу, положив обе передние лапы на садовую дорожку.\", \"es\": \"Scooby ladea la cabeza y mira atento hacia Papá, con las dos patas delanteras apoyadas en el sendero.\"}, \"caption\": null, \"captions\": null}",
+      "imagePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/images/published/elder-cycle/elder-r6-family-034.webp",
+      "imageSha256": "78720144c4e6e1d13b4a2f4279f158468bb410b2ead62f3e935171dae5689e2b",
+      "portraitIdentityStatus": "Discovery citation only unless also listed in inspectedVisualEvidence."
+    },
+    {
+      "kind": "published",
+      "sourcePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/stories/one-day-in-the-forest.json",
+      "sourceSha256": "80c4ce2d6ebb59f6ad7c33155339f113ab4096c9ebcdcd3b4570cea900a6ea5f",
+      "chapterId": "one-day-in-the-forest",
+      "sceneId": "elder-r6-family-035",
+      "excerpt": "{\"paragraphs\": {\"en\": [\"Scooby stood up slowly. Mama waved from the door, holding PomPom.\"], \"ru\": [\"Скуби медленно встал. Мама помахала им от двери, держа Пом-Пома на руках.\"], \"es\": [\"Scooby se levantó despacio. Mamá los saludó desde la puerta, con PomPom en brazos.\"]}, \"alt\": {\"en\": \"Papa and PinPin ride away on Scooby as Mama and PomPom see them off.\", \"ru\": \"Папа и Пин-Пин уезжают на Скуби, а Мама и Пом-Пом провожают их.\", \"es\": \"Papá y PinPin salen montados en Scooby mientras Mamá y PomPom se despiden.\"}, \"caption\": null, \"captions\": null}",
+      "imagePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/images/published/elder-cycle/elder-r6-family-035.webp",
+      "imageSha256": "0a2396a9c2ef776930b92b593f2e57a36f767c79031dcfffd48fc0e8d072fdc5",
+      "portraitIdentityStatus": "Discovery citation only unless also listed in inspectedVisualEvidence."
+    },
+    {
+      "kind": "published",
+      "sourcePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/stories/one-day-in-the-forest.json",
+      "sourceSha256": "80c4ce2d6ebb59f6ad7c33155339f113ab4096c9ebcdcd3b4570cea900a6ea5f",
+      "chapterId": "one-day-in-the-forest",
+      "sceneId": "elder-r6-forest-001",
+      "excerpt": "{\"paragraphs\": {\"en\": [\"They travelled between the tall trees. Scooby’s ears bobbed gently ahead.\"], \"ru\": [\"Они ехали между высокими деревьями. Впереди тихонько покачивались уши Скуби.\"], \"es\": [\"Avanzaban entre los árboles altos. Delante, las orejas de Scooby se balanceaban suavemente.\"]}, \"alt\": {\"en\": \"From just behind PinPin, Scooby’s ears frame a sunlit forest path and distant mist; Papa’s arm supports the child as he holds the dog’s back.\", \"ru\": \"Из-за плеча Пин-Пина между ушами Скуби видны солнечная лесная тропинка и далёкий туман; Папина лапа поддерживает малыша, который держится за спину собаки.\", \"es\": \"Desde detrás de PinPin, las orejas de Scooby enmarcan un sendero soleado y la niebla distante; el brazo de Papá sostiene al pequeño mientras se apoya en el lomo del perro.\"}, \"caption\": null, \"captions\": null}",
+      "imagePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/images/published/elder-cycle/elder-r6-forest-001.webp",
+      "imageSha256": "5049deed3f4673920ec53ac0290266df2a9208f5cdcd668339acd8da3149428c",
+      "portraitIdentityStatus": "Discovery citation only unless also listed in inspectedVisualEvidence."
+    },
+    {
+      "kind": "published",
+      "sourcePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/stories/one-day-in-the-forest.json",
+      "sourceSha256": "80c4ce2d6ebb59f6ad7c33155339f113ab4096c9ebcdcd3b4570cea900a6ea5f",
+      "chapterId": "one-day-in-the-forest",
+      "sceneId": "elder-r6-forest-002",
+      "excerpt": "{\"paragraphs\": {\"en\": [\"“Can we walk here?” asked PinPin. Papa found a broad stone, and Scooby crouched beside it.\"], \"ru\": [\"— А здесь можно пешком? — спросил Пин-Пин. Папа нашёл широкий камень, и Скуби пригнулся рядом.\"], \"es\": [\"—¿Podemos caminar aquí? —preguntó PinPin. Papá encontró una piedra ancha y Scooby se agachó a su lado.\"]}, \"alt\": {\"en\": \"Papa supports PinPin on crouching Scooby beside a low mossy stone.\", \"ru\": \"Папа поддерживает Пин-Пина на спине пригнувшегося Скуби рядом с низким мшистым камнем.\", \"es\": \"Papá sostiene a PinPin sobre Scooby agachado junto a una piedra baja cubierta de musgo.\"}, \"caption\": null, \"captions\": null}",
+      "imagePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/images/published/elder-cycle/elder-r6-forest-002.webp",
+      "imageSha256": "a61e84707a9fdd714fb6dcab872879a6808f220108bc020783967b2f75d298a8",
+      "portraitIdentityStatus": "Discovery citation only unless also listed in inspectedVisualEvidence."
+    },
+    {
+      "kind": "published",
+      "sourcePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/stories/one-day-in-the-forest.json",
+      "sourceSha256": "80c4ce2d6ebb59f6ad7c33155339f113ab4096c9ebcdcd3b4570cea900a6ea5f",
+      "chapterId": "one-day-in-the-forest",
+      "sceneId": "elder-r6-forest-003",
+      "excerpt": "{\"paragraphs\": {\"en\": [\"Papa stepped onto the stone. “I’ve got you.”\"], \"ru\": [\"Папа встал на камень. — Я тебя держу.\"], \"es\": [\"Papá se puso de pie sobre la piedra. —Te tengo.\"]}, \"alt\": {\"en\": \"Papa stands on the stone and steadies PinPin, still astride Scooby.\", \"ru\": \"Папа стоит на камне и придерживает Пин-Пина, который ещё сидит на Скуби.\", \"es\": \"Papá está de pie sobre la piedra y sostiene a PinPin, que aún monta a Scooby.\"}, \"caption\": null, \"captions\": null}",
+      "imagePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/images/published/elder-cycle/elder-r6-forest-003.webp",
+      "imageSha256": "a37e543595b418cf3b28dc0785514872e9f3c5095462ff711a93f320fa8de8ba",
+      "portraitIdentityStatus": "Discovery citation only unless also listed in inspectedVisualEvidence."
+    },
+    {
+      "kind": "published",
+      "sourcePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/stories/one-day-in-the-forest.json",
+      "sourceSha256": "80c4ce2d6ebb59f6ad7c33155339f113ab4096c9ebcdcd3b4570cea900a6ea5f",
+      "chapterId": "one-day-in-the-forest",
+      "sceneId": "elder-r6-forest-004",
+      "excerpt": "{\"paragraphs\": {\"en\": [\"PinPin slid into Papa’s arms. Soon his feet were on the stone too.\"], \"ru\": [\"Пин-Пин скользнул в Папины лапы. Скоро и его ножки стояли на камне.\"], \"es\": [\"PinPin se deslizó entre los brazos de Papá. Pronto sus pies también estaban sobre la piedra.\"]}, \"alt\": {\"en\": \"PinPin lands with both feet on the stone while Papa supports him and Scooby watches.\", \"ru\": \"Пин-Пин стоит обеими ножками на камне; Папа поддерживает его, а Скуби смотрит на них.\", \"es\": \"PinPin apoya los dos pies en la piedra mientras Papá lo sostiene y Scooby observa.\"}, \"caption\": null, \"captions\": null}",
+      "imagePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/images/published/elder-cycle/elder-r6-forest-004.webp",
+      "imageSha256": "2083dfd4f828b09c6071a4dde4d1e31977d82787972306b589ed2ae24fde8ad8",
+      "portraitIdentityStatus": "Discovery citation only unless also listed in inspectedVisualEvidence."
+    },
+    {
+      "kind": "published",
+      "sourcePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/stories/one-day-in-the-forest.json",
+      "sourceSha256": "80c4ce2d6ebb59f6ad7c33155339f113ab4096c9ebcdcd3b4570cea900a6ea5f",
+      "chapterId": "one-day-in-the-forest",
+      "sceneId": "elder-r6-forest-005",
+      "excerpt": "{\"paragraphs\": {\"en\": [\"Papa took PinPin’s paw. Scooby padded alongside them.\"], \"ru\": [\"Папа взял Пин-Пина за лапку. Скуби мягко шагал рядом.\"], \"es\": [\"Papá tomó la patita de PinPin. Scooby caminaba a su lado.\"]}, \"alt\": {\"en\": \"Papa and PinPin walk holding paws, with attentive Scooby beside them.\", \"ru\": \"Папа и Пин-Пин идут, держась за лапы; внимательный Скуби шагает рядом.\", \"es\": \"Papá y PinPin caminan de la pata, con Scooby atento a su lado.\"}, \"caption\": null, \"captions\": null}",
+      "imagePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/images/published/elder-cycle/elder-r6-forest-005.webp",
+      "imageSha256": "76818bceb7b4fd16f65fe6d7e42e255d1f74f3c7afbf3c11adfb4a235d194a35",
+      "portraitIdentityStatus": "Discovery citation only unless also listed in inspectedVisualEvidence."
+    },
+    {
+      "kind": "published",
+      "sourcePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/stories/one-day-in-the-forest.json",
+      "sourceSha256": "80c4ce2d6ebb59f6ad7c33155339f113ab4096c9ebcdcd3b4570cea900a6ea5f",
+      "chapterId": "one-day-in-the-forest",
+      "sceneId": "elder-r6-forest-008",
+      "excerpt": "{\"paragraphs\": {\"en\": [\"A root crossed the path. Papa offered his paw, and PinPin stepped over.\"], \"ru\": [\"Поперёк тропинки лежал корень. Папа подал лапу, и Пин-Пин перешагнул через него.\"], \"es\": [\"Una raíz cruzaba el sendero. Papá le ofreció la pata y PinPin pasó por encima.\"]}, \"alt\": {\"en\": \"Papa holds PinPin’s paw as he steps over a low root; Scooby waits nearby.\", \"ru\": \"Папа держит Пин-Пина за лапку, пока тот перешагивает низкий корень; Скуби ждёт рядом.\", \"es\": \"Papá sostiene la patita de PinPin al pasar sobre una raíz baja; Scooby espera cerca.\"}, \"caption\": null, \"captions\": null}",
+      "imagePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/images/published/elder-cycle/elder-r6-forest-008.webp",
+      "imageSha256": "af8b5df48d4a2736d21017ec9fcd90a1d6a3daa14eb5e1033c2bdb4c5d3083aa",
+      "portraitIdentityStatus": "Discovery citation only unless also listed in inspectedVisualEvidence."
+    },
+    {
+      "kind": "published",
+      "sourcePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/stories/one-day-in-the-forest.json",
+      "sourceSha256": "80c4ce2d6ebb59f6ad7c33155339f113ab4096c9ebcdcd3b4570cea900a6ea5f",
+      "chapterId": "one-day-in-the-forest",
+      "sceneId": "elder-r6-forest-009",
+      "excerpt": "{\"paragraphs\": {\"en\": [\"“Now you, Papa!” PinPin held a low leafy twig aside while Papa ducked under it.\"], \"ru\": [\"— Теперь ты, Папа! Пин-Пин отвёл в сторону тонкую веточку, а Папа пригнулся под ней.\"], \"es\": [\"—¡Ahora tú, Papá! PinPin apartó una ramita con hojas mientras Papá se agachaba para pasar.\"]}, \"alt\": {\"en\": \"PinPin holds a leafy twig aside while Papa bends beneath it, with Scooby watching.\", \"ru\": \"Пин-Пин отводит веточку с листьями, пока Папа пригибается под ней; Скуби наблюдает.\", \"es\": \"PinPin aparta una ramita con hojas mientras Papá se agacha para pasar y Scooby observa.\"}, \"caption\": null, \"captions\": null}",
+      "imagePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/images/published/elder-cycle/elder-r6-forest-009.webp",
+      "imageSha256": "81f2b30b605f05c946a40f142448d749a9e52399c6327740b40e2ba0ddb76d1d",
+      "portraitIdentityStatus": "Discovery citation only unless also listed in inspectedVisualEvidence."
+    },
+    {
+      "kind": "published",
+      "sourcePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/stories/one-day-in-the-forest.json",
+      "sourceSha256": "80c4ce2d6ebb59f6ad7c33155339f113ab4096c9ebcdcd3b4570cea900a6ea5f",
+      "chapterId": "one-day-in-the-forest",
+      "sceneId": "elder-r6-forest-011",
+      "excerpt": "{\"paragraphs\": {\"en\": [\"Papa opened the bag. PinPin caught the other corner of Mama’s cloth, and together they spread it on the grass.\"], \"ru\": [\"Папа открыл сумку. Пин-Пин взял другой уголок Маминой салфетки, и они вместе расстелили её на траве.\"], \"es\": [\"Papá abrió la bolsa. PinPin tomó la otra punta del paño de Mamá y juntos lo extendieron sobre la hierba.\"]}, \"alt\": {\"en\": \"Papa and PinPin spread a cream cloth beside their open picnic bag while Scooby rests nearby.\", \"ru\": \"Папа и Пин-Пин расстилают светлую салфетку рядом с открытой сумкой для обеда; Скуби отдыхает поблизости.\", \"es\": \"Papá y PinPin extienden un paño claro junto a la bolsa abierta del almuerzo mientras Scooby descansa cerca.\"}, \"caption\": null, \"captions\": null}",
+      "imagePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/images/published/elder-cycle/elder-r6-forest-011.webp",
+      "imageSha256": "0f02fcc9670594b0d51bf94192fc1c0ae8fbb62ec105929432828e32a926fd62",
+      "portraitIdentityStatus": "Discovery citation only unless also listed in inspectedVisualEvidence."
+    },
+    {
+      "kind": "published",
+      "sourcePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/stories/one-day-in-the-forest.json",
+      "sourceSha256": "80c4ce2d6ebb59f6ad7c33155339f113ab4096c9ebcdcd3b4570cea900a6ea5f",
+      "chapterId": "one-day-in-the-forest",
+      "sceneId": "elder-r6-forest-013",
+      "excerpt": "{\"paragraphs\": {\"en\": [\"PinPin put a little apple into Papa’s paw. “This one is for you.”\"], \"ru\": [\"Пин-Пин положил маленькое яблоко в Папину лапу. — Это тебе.\"], \"es\": [\"PinPin puso una manzanita en la pata de Papá. —Esta es para ti.\"]}, \"alt\": {\"en\": \"PinPin hands Papa a whole apple while Scooby watches their picnic.\", \"ru\": \"Пин-Пин передаёт Папе целое яблоко, а Скуби наблюдает за их обедом.\", \"es\": \"PinPin le entrega una manzana entera a Papá mientras Scooby observa el almuerzo.\"}, \"caption\": null, \"captions\": null}",
+      "imagePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/images/published/elder-cycle/elder-r6-forest-013.webp",
+      "imageSha256": "61c03509495fc25db2ee1a39e42bc7cd3219e27dd61e2bf085bd6c92a41933d7",
+      "portraitIdentityStatus": "Discovery citation only unless also listed in inspectedVisualEvidence."
+    },
+    {
+      "kind": "published",
+      "sourcePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/stories/one-day-in-the-forest.json",
+      "sourceSha256": "80c4ce2d6ebb59f6ad7c33155339f113ab4096c9ebcdcd3b4570cea900a6ea5f",
+      "chapterId": "one-day-in-the-forest",
+      "sceneId": "elder-r6-forest-015",
+      "excerpt": "{\"paragraphs\": {\"en\": [\"Scooby had his own bowl. PinPin set it on the grass, and Scooby lowered his nose to drink.\"], \"ru\": [\"У Скуби была своя миска. Пин-Пин поставил её на траву, и Скуби опустил морду к воде.\"], \"es\": [\"Scooby tenía su propio cuenco. PinPin lo dejó sobre la hierba y Scooby bajó el hocico para beber.\"]}, \"alt\": {\"en\": \"PinPin steadies a water bowl on the grass while Scooby drinks and Papa watches.\", \"ru\": \"Пин-Пин придерживает миску с водой на траве, пока Скуби пьёт, а Папа наблюдает.\", \"es\": \"PinPin sujeta un cuenco de agua sobre la hierba mientras Scooby bebe y Papá observa.\"}, \"caption\": null, \"captions\": null}",
+      "imagePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/images/published/elder-cycle/elder-r6-forest-015.webp",
+      "imageSha256": "adc9e84d1788f545057945adcef1409eee2ae031b46211a47baee520fac604ea",
+      "portraitIdentityStatus": "Discovery citation only unless also listed in inspectedVisualEvidence."
+    },
+    {
+      "kind": "published",
+      "sourcePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/stories/one-day-in-the-forest.json",
+      "sourceSha256": "80c4ce2d6ebb59f6ad7c33155339f113ab4096c9ebcdcd3b4570cea900a6ea5f",
+      "chapterId": "one-day-in-the-forest",
+      "sceneId": "elder-r6-forest-016",
+      "excerpt": "{\"paragraphs\": {\"en\": [\"With lunch finished, PinPin leaned against Papa. Leaves whispered above them.\"], \"ru\": [\"После обеда Пин-Пин прислонился к Папе. Над ними шелестели листья.\"], \"es\": [\"Después de comer, PinPin se apoyó en Papá. Las hojas susurraban sobre ellos.\"]}, \"alt\": {\"en\": \"PinPin nestles against Papa beside the log while Scooby sleeps; lunch remnants remain on the cloth.\", \"ru\": \"Пин-Пин прижимается к Папе рядом с бревном, а Скуби спит; на салфетке остались крошки и надкушенные яблоки.\", \"es\": \"PinPin se acurruca contra Papá junto al tronco mientras Scooby duerme; quedan restos del almuerzo sobre el paño.\"}, \"caption\": null, \"captions\": null}",
+      "imagePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/images/published/elder-cycle/elder-r6-forest-016.webp",
+      "imageSha256": "0ddcc7eed8d541af20c74ef295825b570043432273be0698ae51778ef657739c",
+      "portraitIdentityStatus": "Discovery citation only unless also listed in inspectedVisualEvidence."
+    },
+    {
+      "kind": "published",
+      "sourcePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/stories/one-day-in-the-forest.json",
+      "sourceSha256": "80c4ce2d6ebb59f6ad7c33155339f113ab4096c9ebcdcd3b4570cea900a6ea5f",
+      "chapterId": "one-day-in-the-forest",
+      "sceneId": "elder-r6-forest-017",
+      "excerpt": "{\"paragraphs\": {\"en\": [\"Papa put the cup and bowl away. Then they folded the cloth together, leaving the grass clean.\"], \"ru\": [\"Папа убрал чашку и миску. Потом они вместе сложили салфетку, оставив траву чистой.\"], \"es\": [\"Papá guardó la taza y el cuenco. Después doblaron el paño juntos y dejaron limpia la hierba.\"]}, \"alt\": {\"en\": \"Papa and PinPin fold the cream cloth together; their utensils are packed and Scooby waits.\", \"ru\": \"Папа и Пин-Пин вместе складывают светлую салфетку; посуда убрана в сумку, а Скуби ждёт.\", \"es\": \"Papá y PinPin doblan juntos el paño claro; los utensilios están guardados y Scooby espera.\"}, \"caption\": null, \"captions\": null}",
+      "imagePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/images/published/elder-cycle/elder-r6-forest-017.webp",
+      "imageSha256": "ec82e4c927b15f1e0b1c19ca786f5f88ddc3af1f6a1ee57c1b2f37ab10f81a1e",
+      "portraitIdentityStatus": "Discovery citation only unless also listed in inspectedVisualEvidence."
+    },
+    {
+      "kind": "published",
+      "sourcePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/stories/one-day-in-the-forest.json",
+      "sourceSha256": "80c4ce2d6ebb59f6ad7c33155339f113ab4096c9ebcdcd3b4570cea900a6ea5f",
+      "chapterId": "one-day-in-the-forest",
+      "sceneId": "elder-r6-forest-019",
+      "excerpt": "{\"paragraphs\": {\"en\": [\"After a while, PinPin’s steps grew smaller. They stopped together on another broad, low stone.\"], \"ru\": [\"Через некоторое время шажки Пин-Пина стали короче. Они вместе остановились на другом широком низком камне.\"], \"es\": [\"Al cabo de un rato, los pasos de PinPin se hicieron más cortitos. Se detuvieron juntos sobre otra piedra ancha y baja.\"]}, \"alt\": {\"en\": \"Papa and PinPin stand holding paws on a second broad stone with Scooby crouched beside them.\", \"ru\": \"Папа и Пин-Пин стоят, держась за лапы, на другом широком камне; Скуби пригнулся рядом с ними.\", \"es\": \"Papá y PinPin están de la pata sobre otra piedra ancha, con Scooby agachado junto a ellos.\"}, \"caption\": null, \"captions\": null}",
+      "imagePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/images/published/elder-cycle/elder-r6-forest-019.webp",
+      "imageSha256": "f422a5ba6a438276920dab5f0776ca4891bb619513349dc4c046cbdd5a93c993",
+      "portraitIdentityStatus": "Discovery citation only unless also listed in inspectedVisualEvidence."
+    },
+    {
+      "kind": "published",
+      "sourcePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/stories/one-day-in-the-forest.json",
+      "sourceSha256": "80c4ce2d6ebb59f6ad7c33155339f113ab4096c9ebcdcd3b4570cea900a6ea5f",
+      "chapterId": "one-day-in-the-forest",
+      "sceneId": "elder-r6-forest-020",
+      "excerpt": "{\"paragraphs\": {\"en\": [\"Scooby turned and stayed low. Papa helped PinPin onto his warm back and kept one paw around him.\"], \"ru\": [\"Скуби повернулся и остался лежать. Папа помог Пин-Пину сесть на тёплую спину и придержал его лапой.\"], \"es\": [\"Scooby se giró y se quedó agachado. Papá ayudó a PinPin a sentarse sobre su lomo calentito y lo sostuvo con una pata.\"]}, \"alt\": {\"en\": \"Papa stands firmly on the stone and supports PinPin astride Scooby’s crouched back.\", \"ru\": \"Папа твёрдо стоит на камне и придерживает Пин-Пина, сидящего на спине пригнувшегося Скуби.\", \"es\": \"Papá está firme sobre la piedra y sostiene a PinPin sentado sobre el lomo de Scooby agachado.\"}, \"caption\": null, \"captions\": null}",
+      "imagePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/images/published/elder-cycle/elder-r6-forest-020.webp",
+      "imageSha256": "6199f8952c177efcd91f8329f6b04aa57f229f73aa9d609616c77e102f8b9979",
+      "portraitIdentityStatus": "Discovery citation only unless also listed in inspectedVisualEvidence."
+    },
+    {
+      "kind": "published",
+      "sourcePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/stories/one-day-in-the-forest.json",
+      "sourceSha256": "80c4ce2d6ebb59f6ad7c33155339f113ab4096c9ebcdcd3b4570cea900a6ea5f",
+      "chapterId": "one-day-in-the-forest",
+      "sceneId": "elder-r6-forest-021",
+      "excerpt": "{\"paragraphs\": {\"en\": [\"Papa settled behind him. “Comfortable?” “Yes!” Scooby stood up slowly.\"], \"ru\": [\"Папа устроился сзади. — Удобно? — Да! Скуби медленно поднялся.\"], \"es\": [\"Papá se acomodó detrás. —¿Estás cómodo? —¡Sí! Scooby se levantó despacito.\"]}, \"alt\": {\"en\": \"Scooby stands on the broad stone with PinPin in front and Papa supporting him from behind.\", \"ru\": \"Скуби стоит на широком камне; Пин-Пин сидит впереди, а Папа поддерживает его сзади.\", \"es\": \"Scooby está de pie sobre la piedra ancha, con PinPin delante y Papá sosteniéndolo desde atrás.\"}, \"caption\": null, \"captions\": null}",
+      "imagePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/images/published/elder-cycle/elder-r6-forest-021.webp",
+      "imageSha256": "496b4f5dd35b520c54fce130c4ace6758fc48b1efbabf1b1a06f5cd84aeedbe5",
+      "portraitIdentityStatus": "Discovery citation only unless also listed in inspectedVisualEvidence."
+    },
+    {
+      "kind": "published",
+      "sourcePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/stories/one-day-in-the-forest.json",
+      "sourceSha256": "80c4ce2d6ebb59f6ad7c33155339f113ab4096c9ebcdcd3b4570cea900a6ea5f",
+      "chapterId": "one-day-in-the-forest",
+      "sceneId": "elder-r6-forest-022",
+      "excerpt": "{\"paragraphs\": {\"en\": [\"Then the trees opened. On Burrow Hill stood a great old tree, with a little doorway among its roots.\"], \"ru\": [\"И вот деревья расступились. На Холме Нор стояло огромное старое дерево с маленьким входом между корнями.\"], \"es\": [\"Entonces los árboles se abrieron. En la Colina de las Madrigueras se alzaba un árbol enorme y antiguo, con una puertecita entre sus raíces.\"]}, \"alt\": {\"en\": \"Papa and PinPin arrive on Scooby at the huge tree with a doorway among roots; Papa carries the ochre bag.\", \"ru\": \"Папа и Пин-Пин приезжают на Скуби к огромному дереву со входом между корнями; на Папе охристая сумка.\", \"es\": \"Papá y PinPin llegan sobre Scooby al enorme árbol con una entrada entre las raíces; Papá lleva la bolsa ocre.\"}, \"caption\": null, \"captions\": null}",
+      "imagePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/images/published/elder-cycle/elder-r6-forest-022.webp",
+      "imageSha256": "f68b2da6f296b2fe2d3424f17faa41f15d6f597899892ec88c8bb546bd0017bb",
+      "portraitIdentityStatus": "Discovery citation only unless also listed in inspectedVisualEvidence."
+    },
+    {
+      "kind": "published",
+      "sourcePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/stories/one-day-in-the-forest.json",
+      "sourceSha256": "80c4ce2d6ebb59f6ad7c33155339f113ab4096c9ebcdcd3b4570cea900a6ea5f",
+      "chapterId": "one-day-in-the-forest",
+      "sceneId": "elder-r6-mentor-001",
+      "excerpt": "{\"paragraphs\": {\"en\": [\"Scooby stopped beside a flat stone near the Elder’s house and crouched again.\"], \"ru\": [\"Скуби остановился у плоского камня возле дома Старейшины и снова пригнулся.\"], \"es\": [\"Scooby se detuvo junto a una piedra plana cerca de la casa del anciano y volvió a agacharse.\"]}, \"alt\": {\"en\": \"Scooby crouches beside the arrival stone and looks back attentively as Papa steadies PinPin, who turns up toward his father.\", \"ru\": \"Скуби пригибается у камня и внимательно оглядывается, пока Папа поддерживает Пин-Пина, поднявшего взгляд к отцу.\", \"es\": \"Scooby se agacha junto a la piedra y mira hacia atrás con atención mientras Papá sostiene a PinPin, que alza la mirada hacia su padre.\"}, \"caption\": null, \"captions\": null}",
+      "imagePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/images/published/elder-cycle/elder-r6-mentor-001.webp",
+      "imageSha256": "0158473467dfdefdc0d4b986762c810805e906886825544020ab8a51d44167f2",
+      "portraitIdentityStatus": "Discovery citation only unless also listed in inspectedVisualEvidence."
+    },
+    {
+      "kind": "published",
+      "sourcePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/stories/one-day-in-the-forest.json",
+      "sourceSha256": "80c4ce2d6ebb59f6ad7c33155339f113ab4096c9ebcdcd3b4570cea900a6ea5f",
+      "chapterId": "one-day-in-the-forest",
+      "sceneId": "elder-r6-mentor-002",
+      "excerpt": "{\"paragraphs\": {\"en\": [\"Papa stepped down onto the stone first. Scooby stayed perfectly still.\"], \"ru\": [\"Папа первым спустился на камень. Скуби оставался совершенно неподвижным.\"], \"es\": [\"Papá bajó primero a la piedra. Scooby se quedó completamente quieto.\"]}, \"alt\": {\"en\": \"Papa stands with both feet on the stone and steadies PinPin, who still waits on crouching Scooby; the dog watches Papa closely.\", \"ru\": \"Папа стоит обеими лапами на камне и поддерживает Пин-Пина, который ещё ждёт на спине пригнувшегося Скуби; собака внимательно смотрит на Папу.\", \"es\": \"Papá está con ambos pies sobre la piedra y sostiene a PinPin, que aún espera sobre Scooby agachado; el perro observa atentamente a Papá.\"}, \"caption\": null, \"captions\": null}",
+      "imagePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/images/published/elder-cycle/elder-r6-mentor-002.webp",
+      "imageSha256": "c746f0a3b02a824cfcbafc671a97aa1a53d47e0f6592afac1e21065740c8e111",
+      "portraitIdentityStatus": "Discovery citation only unless also listed in inspectedVisualEvidence."
+    },
+    {
+      "kind": "published",
+      "sourcePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/stories/one-day-in-the-forest.json",
+      "sourceSha256": "80c4ce2d6ebb59f6ad7c33155339f113ab4096c9ebcdcd3b4570cea900a6ea5f",
+      "chapterId": "one-day-in-the-forest",
+      "sceneId": "elder-r6-mentor-003",
+      "excerpt": "{\"paragraphs\": {\"en\": [\"Then Papa helped PinPin down. His little feet found the stone, and then the path.\"], \"ru\": [\"Потом Папа помог спуститься Пин-Пину. Маленькие лапки коснулись камня, а затем дорожки.\"], \"es\": [\"Después Papá ayudó a bajar a PinPin. Sus patitas tocaron la piedra y luego el sendero.\"]}, \"alt\": {\"en\": \"Papa stands on the path and gently holds PinPin, whose two little feet have reached the stone; Scooby watches their faces from beside them.\", \"ru\": \"Папа стоит на тропинке и бережно держит Пин-Пина, чьи маленькие лапки уже коснулись камня; Скуби рядом следит за их лицами.\", \"es\": \"Papá está en el sendero y sostiene con cariño a PinPin, cuyas patitas ya han llegado a la piedra; Scooby observa sus rostros desde un lado.\"}, \"caption\": null, \"captions\": null}",
+      "imagePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/images/published/elder-cycle/elder-r6-mentor-003.webp",
+      "imageSha256": "15a4a7ea805a8a45bb4f9b26f7c3b6e4fa2abe0696b3c5f3dfb14495a815497d",
+      "portraitIdentityStatus": "Discovery citation only unless also listed in inspectedVisualEvidence."
+    },
+    {
+      "kind": "published",
+      "sourcePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/stories/one-day-in-the-forest.json",
+      "sourceSha256": "80c4ce2d6ebb59f6ad7c33155339f113ab4096c9ebcdcd3b4570cea900a6ea5f",
+      "chapterId": "one-day-in-the-forest",
+      "sceneId": "elder-r6-mentor-006",
+      "excerpt": "{\"paragraphs\": {\"en\": [\"Papa lowered the little satchel beside the mossy rock. “That was a good lunch,” he said. Scooby settled beside him.\"], \"ru\": [\"Папа поставил маленькую сумку у замшелого камня. «Хорошо мы пообедали», — сказал он. Скуби устроился рядом.\"], \"es\": [\"Papá dejó la pequeña bolsa junto a la roca cubierta de musgo. «Qué rico almuerzo», dijo. Scooby se acomodó a su lado.\"]}, \"alt\": {\"en\": \"Papa lowered the little satchel beside the mossy rock. “That was a good lunch,” he said. Scooby settled beside him.\", \"ru\": \"Папа поставил маленькую сумку у замшелого камня. «Хорошо мы пообедали», — сказал он. Скуби устроился рядом.\", \"es\": \"Papá dejó la pequeña bolsa junto a la roca cubierta de musgo. «Qué rico almuerzo», dijo. Scooby se acomodó a su lado.\"}, \"caption\": null, \"captions\": null}",
+      "imagePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/images/published/elder-cycle/elder-r6-mentor-006.webp",
+      "imageSha256": "81d28e04277a8433d32aa6c4a0cf6931815372fd624ef7e41d6480a82466b155",
+      "portraitIdentityStatus": "Discovery citation only unless also listed in inspectedVisualEvidence."
+    },
+    {
+      "kind": "published",
+      "sourcePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/stories/one-day-in-the-forest.json",
+      "sourceSha256": "80c4ce2d6ebb59f6ad7c33155339f113ab4096c9ebcdcd3b4570cea900a6ea5f",
+      "chapterId": "one-day-in-the-forest",
+      "sceneId": "elder-r6-mentor-007",
+      "excerpt": "{\"paragraphs\": {\"en\": [\"A warm patch of sunshine lay beside the roots. Scooby curled up there, and Papa sat down beside him.\"], \"ru\": [\"У корней лежало тёплое солнечное пятнышко. Скуби свернулся там клубочком, а Папа сел рядом.\"], \"es\": [\"Junto a las raíces había un rincón calentito de sol. Scooby se acurrucó allí, y Papá se sentó a su lado.\"]}, \"alt\": {\"en\": \"A wide view shows the Elder waiting at his doorway while PinPin faces Papa and curled-up Scooby in the sunny resting place beyond the fern.\", \"ru\": \"На общем плане Старейшина ждёт у входа, а Пин-Пин смотрит на Папу и свернувшегося Скуби на солнечном месте за папоротником.\", \"es\": \"Una vista amplia muestra al Anciano esperando en la entrada mientras PinPin mira a Papá y a Scooby acurrucado en el rincón soleado más allá del helecho.\"}, \"caption\": null, \"captions\": null}",
+      "imagePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/images/published/elder-cycle/elder-r6-mentor-007.webp",
+      "imageSha256": "f2d92b66200392183f81f67db1213d01d89531419dd49ab082ef7a7169281665",
+      "portraitIdentityStatus": "Discovery citation only unless also listed in inspectedVisualEvidence."
+    },
+    {
+      "kind": "published",
+      "sourcePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/stories/one-day-in-the-forest.json",
+      "sourceSha256": "80c4ce2d6ebb59f6ad7c33155339f113ab4096c9ebcdcd3b4570cea900a6ea5f",
+      "chapterId": "one-day-in-the-forest",
+      "sceneId": "elder-r6-mentor-008",
+      "excerpt": "{\"paragraphs\": {\"en\": [\"“I’ll be right here,” Papa told PinPin. “Enjoy your visit.” Scooby gave a long, sleepy sigh.\"], \"ru\": [\"«Я буду здесь, — сказал Папа Пин-Пину. — Хорошо вам побеседовать». Скуби протяжно и сонно вздохнул.\"], \"es\": [\"«Estaré aquí mismo», le dijo Papá a PinPin. «Que disfrutes la visita». Scooby soltó un largo suspiro de sueño.\"]}, \"alt\": {\"en\": \"Beside resting Scooby, seated Papa meets PinPin’s eyes and opens a paw reassuringly: he will be right here.\", \"ru\": \"Рядом с отдыхающим Скуби сидящий Папа встречает взгляд Пин-Пина и успокаивающе раскрывает лапу: он будет здесь.\", \"es\": \"Junto a Scooby descansando, Papá sentado encuentra la mirada de PinPin y abre una pata para tranquilizarlo: estará allí mismo.\"}, \"caption\": null, \"captions\": null}",
+      "imagePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/images/published/elder-cycle/elder-r6-mentor-008.webp",
+      "imageSha256": "45878f261e3341e0f46c2444e72ea075454005b2ed1c08cb34c14e96d31f3773",
+      "portraitIdentityStatus": "Discovery citation only unless also listed in inspectedVisualEvidence."
+    },
+    {
+      "kind": "published",
+      "sourcePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/stories/one-day-in-the-forest.json",
+      "sourceSha256": "80c4ce2d6ebb59f6ad7c33155339f113ab4096c9ebcdcd3b4570cea900a6ea5f",
+      "chapterId": "one-day-in-the-forest",
+      "sceneId": "elder-r6-mentor-009",
+      "excerpt": "{\"paragraphs\": {\"en\": [\"By the time PinPin turned toward the door, Papa’s eyes were closing too.\"], \"ru\": [\"Когда Пин-Пин повернулся к двери, Папины глаза тоже уже закрывались.\"], \"es\": [\"Cuando PinPin se volvió hacia la puerta, a Papá también se le cerraban los ojos.\"]}, \"alt\": {\"en\": \"Papa and Scooby sleep side by side against a mossy rock, their faces relaxed in the dappled morning sunshine.\", \"ru\": \"Папа и Скуби спят рядом у мшистого камня, расслабив лица в пятнистом утреннем солнечном свете.\", \"es\": \"Papá y Scooby duermen juntos junto a una roca musgosa, con los rostros relajados bajo la luz moteada de la mañana.\"}, \"caption\": null, \"captions\": null}",
+      "imagePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/images/published/elder-cycle/elder-r6-mentor-009.webp",
+      "imageSha256": "e7f3e9be9a4e35ad47a0439390eff399742881de7583ff61840f95dd7f10e6a8",
+      "portraitIdentityStatus": "Discovery citation only unless also listed in inspectedVisualEvidence."
+    },
+    {
+      "kind": "published",
+      "sourcePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/stories/one-day-in-the-forest.json",
+      "sourceSha256": "80c4ce2d6ebb59f6ad7c33155339f113ab4096c9ebcdcd3b4570cea900a6ea5f",
+      "chapterId": "one-day-in-the-forest",
+      "sceneId": "elder-r6-mentor-090",
+      "excerpt": "{\"paragraphs\": {\"en\": [\"Outside, Papa was awake. Scooby lifted his head when PinPin came through the doorway.\"], \"ru\": [\"На улице Папа уже проснулся. Когда Пин-Пин вышел из дверей, Скуби поднял голову.\"], \"es\": [\"Fuera, Papá ya estaba despierto. Scooby levantó la cabeza cuando PinPin salió por la puerta.\"]}, \"alt\": {\"en\": \"PinPin emerges with the Elder; Papa and Scooby watch him from their sunny rest spot.\", \"ru\": \"ПинПин выходит со Старейшиной; Папа и Скуби смотрят на него со своего солнечного места отдыха.\", \"es\": \"PinPin sale con el Anciano; Papá y Scooby lo miran desde su soleado lugar de descanso.\"}, \"caption\": null, \"captions\": null}",
+      "imagePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/images/published/elder-cycle/elder-r6-mentor-090.webp",
+      "imageSha256": "6d83bbf1b856ad213e10fe8e400631fa4c670d421c95a82bdb9d33ba6eefcddb",
+      "portraitIdentityStatus": "Discovery citation only unless also listed in inspectedVisualEvidence."
+    },
+    {
+      "kind": "published",
+      "sourcePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/stories/one-day-in-the-forest.json",
+      "sourceSha256": "80c4ce2d6ebb59f6ad7c33155339f113ab4096c9ebcdcd3b4570cea900a6ea5f",
+      "chapterId": "one-day-in-the-forest",
+      "sceneId": "elder-r6-mentor-091",
+      "excerpt": "{\"paragraphs\": {\"en\": [\"PinPin ran into Papa’s arms. “I found pictures under the ground! And the Elder is going to help me read!”\"], \"ru\": [\"Пин-Пин бросился к Папе в объятия. «Я нашёл картинки под землёй! А Старейшина будет учить меня читать!»\"], \"es\": [\"PinPin corrió a los brazos de Papá. «¡Encontré pinturas bajo tierra! ¡Y el anciano me va a ayudar a leer!»\"]}, \"alt\": {\"en\": \"PinPin hugs Papa and looks up into his eyes, while Scooby watches warmly.\", \"ru\": \"ПинПин обнимает Папу и смотрит ему в глаза, а Скуби ласково наблюдает.\", \"es\": \"PinPin abraza a Papá y lo mira a los ojos mientras Scooby observa con cariño.\"}, \"caption\": null, \"captions\": null}",
+      "imagePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/images/published/elder-cycle/elder-r6-mentor-091.webp",
+      "imageSha256": "ce34cde380bc7bef666f9be8d318e66258899f1666b89db821b330431a8b58c6",
+      "portraitIdentityStatus": "Discovery citation only unless also listed in inspectedVisualEvidence."
+    },
+    {
+      "kind": "published",
+      "sourcePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/stories/one-day-in-the-forest.json",
+      "sourceSha256": "80c4ce2d6ebb59f6ad7c33155339f113ab4096c9ebcdcd3b4570cea900a6ea5f",
+      "chapterId": "one-day-in-the-forest",
+      "sceneId": "elder-r6-mentor-094",
+      "excerpt": "{\"paragraphs\": {\"en\": [\"Scooby crouched beside the flat stone. Papa helped PinPin climb up again.\"], \"ru\": [\"Скуби пригнулся возле плоского камня. Папа снова помог Пин-Пину забраться наверх.\"], \"es\": [\"Scooby se agachó junto a la piedra plana. Papá ayudó a PinPin a subir otra vez.\"]}, \"alt\": {\"en\": \"Papa steadies PinPin as he climbs from the stone onto the attentive Scooby; the Elder watches from his root doorway.\", \"ru\": \"Папа поддерживает ПинПина, когда тот перебирается с камня на спину внимательного Скуби; Старейшина наблюдает у входа между корнями.\", \"es\": \"Papá sostiene a PinPin al subir de la piedra al lomo del atento Scooby; el Anciano observa desde su entrada entre raíces.\"}, \"caption\": null, \"captions\": null}",
+      "imagePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/images/published/elder-cycle/elder-r6-mentor-094.webp",
+      "imageSha256": "7c6fc6d45cad4ee6d990609bfcb48a5472620b88cf9ac4f2962b737d55de2a85",
+      "portraitIdentityStatus": "Discovery citation only unless also listed in inspectedVisualEvidence."
+    },
+    {
+      "kind": "published",
+      "sourcePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/stories/one-day-in-the-forest.json",
+      "sourceSha256": "80c4ce2d6ebb59f6ad7c33155339f113ab4096c9ebcdcd3b4570cea900a6ea5f",
+      "chapterId": "one-day-in-the-forest",
+      "sceneId": "elder-r6-mentor-095",
+      "excerpt": "{\"paragraphs\": {\"en\": [\"Papa settled behind him. Scooby rose slowly, and PinPin gave the Elder a little wave.\"], \"ru\": [\"Папа устроился позади него. Скуби медленно поднялся, и Пин-Пин помахал Старейшине.\"], \"es\": [\"Papá se acomodó detrás. Scooby se levantó despacio y PinPin saludó al anciano con una patita.\"]}, \"alt\": {\"en\": \"Seen from behind Scooby, PinPin waves goodbye to the Elder while Papa supports him.\", \"ru\": \"Вид со спины Скуби: ПинПин машет Старейшине на прощание, а Папа поддерживает его.\", \"es\": \"Visto desde detrás de Scooby, PinPin se despide del Anciano con la pata mientras Papá lo sostiene.\"}, \"caption\": null, \"captions\": null}",
+      "imagePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/images/published/elder-cycle/elder-r6-mentor-095.webp",
+      "imageSha256": "1aa05f416c23789e8ed3fd8181bd1ea01f57659aa78d37bba913c558d9cbfd80",
+      "portraitIdentityStatus": "Discovery citation only unless also listed in inspectedVisualEvidence."
+    },
+    {
+      "kind": "published",
+      "sourcePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/stories/one-day-in-the-forest.json",
+      "sourceSha256": "80c4ce2d6ebb59f6ad7c33155339f113ab4096c9ebcdcd3b4570cea900a6ea5f",
+      "chapterId": "one-day-in-the-forest",
+      "sceneId": "elder-r6-mentor-096",
+      "excerpt": "{\"paragraphs\": {\"en\": [\"They walked home through the bright woods. PinPin leaned against Papa and watched the leaves go by.\"], \"ru\": [\"Они ехали домой через светлый лес. Пин-Пин прижался к Папе и смотрел на проплывающие мимо листья.\"], \"es\": [\"Volvieron a casa por el bosque luminoso. PinPin se apoyó en Papá y miró las hojas que pasaban.\"]}, \"alt\": {\"en\": \"Seen from behind, Scooby carries Papa and PinPin down a sunny forest path while PinPin watches the leaves.\", \"ru\": \"Скуби несёт Папу и ПинПина по солнечной лесной тропинке; вид со спины, ПинПин разглядывает листья.\", \"es\": \"Visto desde atrás, Scooby lleva a Papá y PinPin por un sendero soleado mientras PinPin mira las hojas.\"}, \"caption\": null, \"captions\": null}",
+      "imagePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/images/published/elder-cycle/elder-r6-mentor-096.webp",
+      "imageSha256": "7024e88ac77e7b2f496661b6aa0a9e67459af77e9d842414684955f46c360a1e",
+      "portraitIdentityStatus": "Discovery citation only unless also listed in inspectedVisualEvidence."
+    },
+    {
+      "kind": "published",
+      "sourcePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/stories/one-day-in-the-forest.json",
+      "sourceSha256": "80c4ce2d6ebb59f6ad7c33155339f113ab4096c9ebcdcd3b4570cea900a6ea5f",
+      "chapterId": "one-day-in-the-forest",
+      "sceneId": "elder-r6-mentor-097",
+      "excerpt": "{\"paragraphs\": {\"en\": [\"Soon the green door of home came into view. Scooby knew just where to stop.\"], \"ru\": [\"Вскоре показалась зелёная дверь дома. Скуби знал, где остановиться.\"], \"es\": [\"Pronto apareció la puerta verde de casa. Scooby sabía muy bien dónde detenerse.\"]}, \"alt\": {\"en\": \"Papa and PinPin arrive on Scooby at the familiar green door, passing the mounting stone and water bowl.\", \"ru\": \"Папа и ПинПин подъезжают на Скуби к знакомой зелёной двери, мимо камня и миски с водой.\", \"es\": \"Papá y PinPin llegan sobre Scooby a la conocida puerta verde, junto a la piedra y el cuenco de agua.\"}, \"caption\": null, \"captions\": null}",
+      "imagePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/images/published/elder-cycle/elder-r6-mentor-097.webp",
+      "imageSha256": "938800ebb6c2ebe126b0b6affc09d4d890a818f1d11155a8b617e6b50c2a007b",
+      "portraitIdentityStatus": "Discovery citation only unless also listed in inspectedVisualEvidence."
+    },
+    {
+      "kind": "published",
+      "sourcePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/stories/one-day-in-the-forest.json",
+      "sourceSha256": "80c4ce2d6ebb59f6ad7c33155339f113ab4096c9ebcdcd3b4570cea900a6ea5f",
+      "chapterId": "one-day-in-the-forest",
+      "sceneId": "elder-r6-mentor-098",
+      "excerpt": "{\"paragraphs\": {\"en\": [\"Scooby crouched. Papa stepped onto the stone, keeping a paw close to PinPin.\"], \"ru\": [\"Скуби пригнулся. Папа спустился на камень, держа лапу рядом с Пин-Пином.\"], \"es\": [\"Scooby se agachó. Papá bajó a la piedra, manteniendo una pata cerca de PinPin.\"]}, \"alt\": {\"en\": \"Papa stands on the stone beside Scooby, keeping a paw near PinPin as the child waits on the dog's back.\", \"ru\": \"Папа стоит на камне рядом со Скуби и держит лапу возле ПинПина, который ждёт на спине собаки.\", \"es\": \"Papá está sobre la piedra junto a Scooby, con una pata cerca de PinPin, que espera en el lomo del perro.\"}, \"caption\": null, \"captions\": null}",
+      "imagePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/images/published/elder-cycle/elder-r6-mentor-098.webp",
+      "imageSha256": "366ea570064f9d83bd899678d9d3720b8fae86ca8bfd2e92c30733b22e3c676c",
+      "portraitIdentityStatus": "Discovery citation only unless also listed in inspectedVisualEvidence."
+    },
+    {
+      "kind": "published",
+      "sourcePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/stories/one-day-in-the-forest.json",
+      "sourceSha256": "80c4ce2d6ebb59f6ad7c33155339f113ab4096c9ebcdcd3b4570cea900a6ea5f",
+      "chapterId": "one-day-in-the-forest",
+      "sceneId": "elder-r6-mentor-100",
+      "excerpt": "{\"paragraphs\": {\"en\": [\"Papa filled Scooby’s water bowl. PinPin gave the little dog a gentle pat. “Thank you for the ride.”\"], \"ru\": [\"Папа наполнил миску Скуби водой. Пин-Пин ласково погладил пса. «Спасибо, что нас покатал».\"], \"es\": [\"Papá llenó de agua el cuenco de Scooby. PinPin acarició suavemente al perrito. «Gracias por llevarnos».\"]}, \"alt\": {\"en\": \"PinPin thanks Scooby with a gentle pat and shared look while Papa fills the dog's bowl.\", \"ru\": \"ПинПин благодарит Скуби, ласково гладит его и смотрит ему в глаза, пока Папа наполняет миску.\", \"es\": \"PinPin agradece a Scooby con una caricia y una mirada compartida mientras Papá llena su cuenco.\"}, \"caption\": null, \"captions\": null}",
+      "imagePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/images/published/elder-cycle/elder-r6-mentor-100.webp",
+      "imageSha256": "9e1b6cf1cc92b5bdf08da9c06f775aa9ed163131cefc237fe33b3cb176df8d59",
+      "portraitIdentityStatus": "Discovery citation only unless also listed in inspectedVisualEvidence."
+    }
+  ],
+  "registeredReferences": [
+    {
+      "id": "asset-496b4f5dd35b520c54fce130",
+      "name": "reference-scooby",
+      "mime": "image/webp",
+      "sha256": "496b4f5dd35b520c54fce130c4ace6758fc48b1efbabf1b1a06f5cd84aeedbe5",
+      "bytes": 505342,
+      "width": 1536,
+      "height": 1024,
+      "url": "/api/assets/asset-496b4f5dd35b520c54fce130",
+      "storagePath": "assets/496b4f5dd35b520c54fce130c4ace6758fc48b1efbabf1b1a06f5cd84aeedbe5.webp",
+      "createdAt": "2026-10-02T18:48:38.228370+00:00",
+      "reviewStatus": "user-approved",
+      "provenance": {
+        "sourcePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r17/art/opening/references/elder-r6-forest-021.webp",
+        "catalogKey": "reference-scooby",
+        "catalogSha256": "496b4f5dd35b520c54fce130c4ace6758fc48b1efbabf1b1a06f5cd84aeedbe5",
+        "role": "approved mounted dog scale, not architecture",
+        "evidence": "Previously approved published reference; R17 uses exact copied source"
+      }
+    }
+  ],
+  "existingOutputs": [
+    {
+      "id": "asset-4336524cb9db0e329aacc58f",
+      "name": "scooby-solo.png",
+      "mime": "image/png",
+      "sha256": "4336524cb9db0e329aacc58f68841a53fedc85352fc9a262e85ababf75ee7aa6",
+      "bytes": 2165248,
+      "width": 1536,
+      "height": 1024,
+      "url": "/api/assets/asset-4336524cb9db0e329aacc58f",
+      "storagePath": "assets/4336524cb9db0e329aacc58f68841a53fedc85352fc9a262e85ababf75ee7aa6.png",
+      "createdAt": "2026-10-03T11:14:12.065924+00:00",
+      "reviewStatus": "unreviewed",
+      "provenance": {
+        "sourcePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/generated/4336524cb9db0e32-scooby-solo.png",
+        "source": "native-imagegen",
+        "tool": "image_gen.imagegen",
+        "nativeOutputPath": "/Users/miguel_lemos/.codex/generated_images/01a0ff85-92dc-7c40-9adb-ef240551a423/exec-81380d67-0602-417c-b088-5213ae2ba47d.png",
+        "nativeSha256": "4336524cb9db0e329aacc58f68841a53fedc85352fc9a262e85ababf75ee7aa6",
+        "prompt": "Targeted edit of Scooby production sheet reference1: change ONLY top row FACE VIEWS cell2 labeled Facing left 3/4. It currently duplicates right-facing cell4. Render exact same dog's head in three-quarter view with nose pointing toward SCREEN LEFT, both eyes visible, same floppy ears/cream muzzle/brown eyes and fur. Keep label Facing left 3/4 unchanged and all other 23 studies/labels/layout pixel composition as closely as possible. Reference2 published dog confirms identity. No new studies, no cropping or body changes. One corrected image.",
+        "promptSha256": "908572d6bd19933e3815120556fc7ced68d5a29783a039fb2d09c263592eb27f",
+        "promptFile": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/reports/scooby-solo-repair-prompt.txt",
+        "referenceIds": [
+          "asset-af23a133db38eeca67e2a6bd",
+          "asset-496b4f5dd35b520c54fce130"
+        ],
+        "inputAssets": [
+          {
+            "assetId": "asset-af23a133db38eeca67e2a6bd",
+            "sha256": "af23a133db38eeca67e2a6bd19650eb3628ca381c5ffe30d9eae7ed20dedb022"
+          },
+          {
+            "assetId": "asset-496b4f5dd35b520c54fce130",
+            "sha256": "496b4f5dd35b520c54fce130c4ace6758fc48b1efbabf1b1a06f5cd84aeedbe5"
+          }
+        ],
+        "registeredBy": "studio-client/register-image.py"
+      }
+    },
+    {
+      "id": "asset-a3e1d5b048327b08f32de036",
+      "name": "scooby-interactions-repaired.png",
+      "mime": "image/png",
+      "sha256": "a3e1d5b048327b08f32de03645799c2f47fd7e3fedf2310610c15d9b27a9487e",
+      "bytes": 2896744,
+      "width": 1024,
+      "height": 1536,
+      "url": "/api/assets/asset-a3e1d5b048327b08f32de036",
+      "storagePath": "assets/a3e1d5b048327b08f32de03645799c2f47fd7e3fedf2310610c15d9b27a9487e.png",
+      "createdAt": "2026-10-03T11:23:20.559127+00:00",
+      "reviewStatus": "unreviewed",
+      "provenance": {
+        "sourcePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/generated/a3e1d5b048327b08-scooby-interactions-repaired.png",
+        "source": "native-imagegen",
+        "tool": "image_gen.imagegen",
+        "nativeOutputPath": "/Users/miguel_lemos/.codex/generated_images/01a0ff85-92dc-7c40-9adb-ef240551a423/exec-a9ea4f2c-32fa-4dc7-ab72-7195e7348e88.png",
+        "nativeSha256": "a3e1d5b048327b08f32de03645799c2f47fd7e3fedf2310610c15d9b27a9487e",
+        "prompt": "Targeted correction of Scooby interaction reference page. Preserve first five panels exactly, all labels and warm dimensional illustrated rendering. ONLY panel 6 Family hello: reframe the group wider within this cell so Scooby's ENTIRE body, all four paws and curled tail fit with clear margins. Keep canonical large mount-sized brown dog from reference 2, withers near standing Papa head, floppy longer ears, cream chest; do not shrink him into a lap dog. Arrange full dog diagonally at left with curled tail inside panel, family beside him, generous shared ground. Keep Mama supporting tiny separate infant PomPom securely under hips/back, Papa distinct larger adult, older PinPin child distinct; use reference 3 family identities. Natural attentive faces and contact/eye lines, no extra limbs, no merged bodies. Full page retained, only sixth panel repaired.",
+        "promptSha256": "a1c4b559f54d27bc7bd85184261d24aa0f1706baedd3bac8007c54ed8648e28a",
+        "promptFile": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/reports/scooby-interactions-repair-prompt.txt",
+        "referenceIds": [
+          "asset-6b550b753c46fb9733b8862a",
+          "asset-496b4f5dd35b520c54fce130",
+          "asset-88d74c56a468e3f250b12dbc"
+        ],
+        "inputAssets": [
+          {
+            "assetId": "asset-6b550b753c46fb9733b8862a",
+            "sha256": "6b550b753c46fb9733b8862aa0a5247789b249d6f901120a625cae77d39cc7dd"
+          },
+          {
+            "assetId": "asset-496b4f5dd35b520c54fce130",
+            "sha256": "496b4f5dd35b520c54fce130c4ace6758fc48b1efbabf1b1a06f5cd84aeedbe5"
+          },
+          {
+            "assetId": "asset-88d74c56a468e3f250b12dbc",
+            "sha256": "88d74c56a468e3f250b12dbcb5ecdb7b07bd1d789197663d8948ac199acd133d"
+          }
+        ],
+        "registeredBy": "studio-client/register-image.py"
+      }
+    }
+  ],
+  "producedPackage": {
+    "solo": "asset-4336524cb9db0e329aacc58f",
+    "interactions": "asset-a3e1d5b048327b08f32de036",
+    "receipts": "reports/character-packages/scooby.json",
+    "timings": "reports/cast-batch-timing.json",
+    "review": "Agent QA; requested by codex-wap1 under Miguel delegation; no new delegated acceptance or personal Miguel review inferred."
+  },
+  "actualGenerationReferences": [
+    {
+      "assetId": "asset-496b4f5dd35b520c54fce130",
+      "sha256": "496b4f5dd35b520c54fce130c4ace6758fc48b1efbabf1b1a06f5cd84aeedbe5",
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/assets/496b4f5dd35b520c54fce130c4ace6758fc48b1efbabf1b1a06f5cd84aeedbe5.webp",
+      "purpose": "Actual submitted image reference; original/candidate status retained."
+    },
+    {
+      "assetId": "asset-88d74c56a468e3f250b12dbc",
+      "sha256": "88d74c56a468e3f250b12dbcb5ecdb7b07bd1d789197663d8948ac199acd133d",
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/assets/88d74c56a468e3f250b12dbcb5ecdb7b07bd1d789197663d8948ac199acd133d.webp",
+      "purpose": "Actual submitted image reference; original/candidate status retained."
+    },
+    {
+      "assetId": "asset-af23a133db38eeca67e2a6bd",
+      "sha256": "af23a133db38eeca67e2a6bd19650eb3628ca381c5ffe30d9eae7ed20dedb022",
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/assets/af23a133db38eeca67e2a6bd19650eb3628ca381c5ffe30d9eae7ed20dedb022.png",
+      "purpose": "Actual submitted image reference; original/candidate status retained."
+    },
+    {
+      "assetId": "asset-6b550b753c46fb9733b8862a",
+      "sha256": "6b550b753c46fb9733b8862aa0a5247789b249d6f901120a625cae77d39cc7dd",
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/assets/6b550b753c46fb9733b8862aa0a5247789b249d6f901120a625cae77d39cc7dd.png",
+      "purpose": "Actual submitted image reference; original/candidate status retained."
+    }
+  ],
+  "inspectedVisualEvidence": [
+    {
+      "assetId": "asset-496b4f5dd35b520c54fce130",
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/assets/496b4f5dd35b520c54fce130c4ace6758fc48b1efbabf1b1a06f5cd84aeedbe5.webp",
+      "sha256": "496b4f5dd35b520c54fce130c4ace6758fc48b1efbabf1b1a06f5cd84aeedbe5",
+      "inspection": "Published mounted dog supports Papa and PinPin: brown coat, cream chest, floppy longer ears, curled tail, attentive eyes."
+    }
+  ]
+}

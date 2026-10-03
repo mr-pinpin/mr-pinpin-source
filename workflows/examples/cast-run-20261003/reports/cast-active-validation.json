@@ -1,0 +1,43 @@
+{
+  "business": {
+    "active": "945dd2a08a855cb104ac849198fbf76928abd54e8f11ddfa942c0509ae0ac482",
+    "previous": "19c1aed43417245b98a801a47a4a74474ca02f474dabbe494a56a37a71d206eb",
+    "status": "ready",
+    "error": null
+  },
+  "workspace": {
+    "latest": "8a1c37f718a273e1a68310bc6b1f25c1de1c192de18be7f43476414c827aff50",
+    "previous": "60ff9e40292bbfe6769570e71023a3d0a6a3d8cfe28c8104071850a079bdb5ca",
+    "status": "ready",
+    "error": null,
+    "url": "/workspace-builds/8a1c37f718a273e1a68310bc6b1f25c1de1c192de18be7f43476414c827aff50/index.html"
+  },
+  "sourceMatches": {
+    "cast_workflow.py": true,
+    "context.py": true,
+    "routes.py": true,
+    "cast_inventory.py": true,
+    "__init__.py": true,
+    "media-workspace.js": true
+  },
+  "liveFreshContextEntity": "beaver",
+  "workflowSha256": "3fffcf8ac087b4441aac20750ccbfd5772e45d58b092b8274109e3328010dd80",
+  "remaining": [
+    "beaver",
+    "mama-beaver",
+    "beaver-kits",
+    "bear",
+    "talking-duck",
+    "tutu",
+    "pipilini",
+    "oreshek",
+    "lilia",
+    "hedgehog-cousins",
+    "spring-birds",
+    "squirrel-community",
+    "migrating-bird-family",
+    "tarin"
+  ],
+  "guideLoaded": true,
+  "note": "Fresh local application-context invocation without prior message state; not a claim of a new model thread. New browser verification not performed."
+}

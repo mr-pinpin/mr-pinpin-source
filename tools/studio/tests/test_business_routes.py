@@ -1,3 +1,4 @@
+import hashlib
 import json
 import shutil
 import subprocess
@@ -85,8 +86,16 @@ class BusinessRouteTests(unittest.TestCase):
         runtime = self.server.business_runtime
         original = runtime.snapshot()['active']
         routes = self.source / 'routes.py'
-        routes.write_text(routes.read_text().replace('return 200, insights(store)',
-                                                   'return 200, {"bad": object()}'))
+        before = routes.read_bytes()
+        injection = '\n\n_original_route_for_fixture = route\n' + \
+                    'def route(store, method, path, query, body):\n' + \
+                    '    if method == "GET" and path == "/api/insights":\n' + \
+                    '        return 200, {"bad": object()}\n' + \
+                    '    return _original_route_for_fixture(store, method, path, query, body)\n'
+        routes.write_bytes(before + injection.encode('utf-8'))
+        self.assertNotEqual(routes.read_bytes(), before)
+        self.assertNotEqual(hashlib.sha256(routes.read_bytes()).digest(),
+                            hashlib.sha256(before).digest())
         self.wait(lambda: runtime.snapshot()['active'] != original)
         with self.assertRaises(HTTPError) as error:
             self.request('/api/insights')

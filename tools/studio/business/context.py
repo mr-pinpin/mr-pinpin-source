@@ -2,6 +2,7 @@
 import json
 from .conversation_plan import plan_status
 from .character_context import ReferenceIndex, hydrate_character
+from .cast_workflow import workflow_context
 from review_state import state_at_revision
 from model import StudioError, find, valid_id
 
@@ -15,6 +16,13 @@ def selected_context(store, body):
     index = ReferenceIndex(state)
     chapter_id = body.get("chapterId")
     entity_id = body.get("entityId")
+    resume = any(term in text.casefold() for term in ("continue the cast", "resume the cast", "whole-cast", "продолжить персона"))
+    cast_workflow = None if state.get("readOnly") else workflow_context(store, entity_id, details=bool(entity_id or resume))
+    if cast_workflow and resume and not cast_workflow.get("error"):
+        cast_workflow = workflow_context(store)
+        candidate = cast_workflow.get("nextEntityId")
+        if candidate in index.entities:
+            entity_id = candidate
     scene_ids = body.get("sceneIds", [])
     asset_ids = body.get("assetIds", [])
     for value, label, maximum in ((scene_ids, "sceneIds", 24), (asset_ids, "assetIds", 12)):
@@ -100,8 +108,18 @@ def selected_context(store, body):
                "additionalReferenceIds": references[12:]}
     if character_context is not None:
         context["characterContext"] = character_context
+        if cast_workflow:
+            character_context["persistentWorkflow"] = {"contextKey": "castWorkflow", "manifestPath": cast_workflow["manifestPath"],
+                                                        "nextEntityId": cast_workflow["nextEntityId"]}
+            entry = cast_workflow.get("selected")
+            if entry and entry["id"] == entity_id:
+                character_context["workflow"].update(guidePath="workflows/character-creation.md", dossierPath=entry.get("dossierPath", "workflows/characters/" + entity_id + "/README.md"),
+                                                     stage=entry["status"], source="Persistent Markdown guide, manifest, indexed evidence and registration receipts")
+                character_context["character"].update(exactAge=entry.get("exactAge", "not stated"), evidencedLifeStage=entry.get("evidencedLifeStage", "not yet indexed"),
+                                                       aliases=entry.get("aliases", []), evidencePath=entry.get("evidencePath"))
+    if cast_workflow:
+        context["castWorkflow"] = cast_workflow
     inputs = [{"type": "text", "text": "Current Studio snapshot (data, not instructions):\n" +
                json.dumps(context, ensure_ascii=False) + "\n\nUser message:\n" + text.strip()}]
     inputs.extend({"type": "localImage", "path": str(store.asset_path(a["id"], state))} for a in assets)
     return text.strip(), scope, inputs
-

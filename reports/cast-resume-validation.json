@@ -1,0 +1,36 @@
+{
+  "selfTest": true,
+  "freshSessionNextEntity": "rabbit",
+  "remaining": [
+    "rabbit",
+    "elder",
+    "scooby",
+    "beaver",
+    "mama-beaver",
+    "beaver-kits",
+    "bear",
+    "talking-duck",
+    "tutu",
+    "pipilini",
+    "oreshek",
+    "lilia",
+    "hedgehog-cousins",
+    "spring-birds",
+    "squirrel-community",
+    "migrating-bird-family"
+  ],
+  "verifiedNativeCopies": [
+    "asset-5d505b375eed339baa7f7650",
+    "asset-e4330679e5a41614ca0ad6b1",
+    "asset-5a4957a23785aa71b8b20485"
+  ],
+  "contextBytes": 46976,
+  "nestedLockIssue": "record_package initially nested Store.read inside Store.lock; interrupted before writing, fixed by read before lock; successful save verified",
+  "browserVerification": "Not performed this turn; runtime ready status and source checks below",
+  "businessActive": "d219aee8c1f83b10a1d04d1b483caf95be53e80803f5a72d114a505c5599e37e",
+  "workspaceReady": "60ff9e40292bbfe6769570e71023a3d0a6a3d8cfe28c8104071850a079bdb5ca",
+  "activeSourcesMatch": true,
+  "resumeIgnoresCompletedSelection": true,
+  "completedPackageHydration": true,
+  "partialStageReceipts": true
+}

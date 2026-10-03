@@ -1,0 +1,428 @@
+{
+  "character": {
+    "id": "rabbit",
+    "canonicalName": "Rabbit / Lulu",
+    "aliases": [
+      "Rabbit",
+      "rabbit",
+      "Лулу",
+      "ЛуЛу",
+      "Lulu"
+    ],
+    "exactAge": "not stated",
+    "evidencedLifeStage": "peer companion; exact age not stated",
+    "status": "produced",
+    "dossierPath": "workflows/characters/rabbit/README.md",
+    "evidencePath": "workflows/characters/rabbit/evidence.json",
+    "evidenceCount": 21,
+    "registeredReferenceIds": [
+      "asset-f945f4802de940f91dc6a78a"
+    ],
+    "outputs": [
+      {
+        "assetId": "asset-e64154c3829a84e223c54626",
+        "sha256": "e64154c3829a84e223c54626222d8b9b24a6e8cb4dd73e5ecb518dcf4ea37f6b"
+      },
+      {
+        "assetId": "asset-c55a562de31d68a4d2428d52",
+        "sha256": "c55a562de31d68a4d2428d529e0d5fe11108a2aff4d5221611e9901eec2cec2b"
+      }
+    ],
+    "constraints": {
+      "identity": "Use published Rabbit identity; simple concrete dialogue for four-year-olds.",
+      "scale": "",
+      "geometry": ""
+    },
+    "stages": {
+      "solo": {
+        "assetId": "asset-e64154c3829a84e223c54626",
+        "sha256": "e64154c3829a84e223c54626222d8b9b24a6e8cb4dd73e5ecb518dcf4ea37f6b",
+        "nativePath": "/Users/miguel_lemos/.codex/generated_images/01a0ff85-92dc-7c40-9adb-ef240551a423/exec-0fa24a90-424e-43fc-a29d-140383a1d970.png",
+        "generatedPath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/generated/e64154c3829a84e2-rabbit-solo.png",
+        "receiptKind": null
+      },
+      "interactions": {
+        "assetId": "asset-c55a562de31d68a4d2428d52",
+        "sha256": "c55a562de31d68a4d2428d529e0d5fe11108a2aff4d5221611e9901eec2cec2b",
+        "nativePath": "/Users/miguel_lemos/.codex/generated_images/01a0ff85-92dc-7c40-9adb-ef240551a423/exec-40ecaaed-fd24-4b3c-aee7-cf499439f9bf.png",
+        "generatedPath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/generated/c55a562de31d68a4-rabbit-interactions.png",
+        "receiptKind": null
+      }
+    },
+    "missingStages": [],
+    "nextStage": null,
+    "complete": true,
+    "claimedStatus": "produced",
+    "qaNote": "Inspected native pages: identity, directions, anatomy, scale/contact. Agent QA only; no personal Miguel approval.",
+    "timingPath": "reports/cast-batch-timing.json",
+    "completedAt": "2026-10-03T11:23:20.734444+00:00"
+  },
+  "bibliography": [
+    {
+      "kind": "original",
+      "sourcePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/book.json",
+      "sourceSha256": "b1499e503613e526ba679ba6c82c59feb1b3319584e3403b0e1abf32659391af",
+      "chapterId": "chapter-01",
+      "chapterTitle": "Глава 1: Мистер Пин-Пин и его загадочный лес",
+      "blockIndexZeroBased": 4,
+      "excerpt": "\"Наше Кристальное озеро высохло!\" - сказала обеспокоенная зайка Лулу.",
+      "images": []
+    },
+    {
+      "kind": "original",
+      "sourcePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/book.json",
+      "sourceSha256": "b1499e503613e526ba679ba6c82c59feb1b3319584e3403b0e1abf32659391af",
+      "chapterId": "chapter-04",
+      "chapterTitle": "Глава 4: Академия Леса",
+      "blockIndexZeroBased": 1,
+      "excerpt": "Когда день в академии подошёл к концу, мистер ПинПин, ЛуЛу и Туту нашли укромное местечко под высокой старой дубовой корой. Древние корни дерева образовали удобные углубления для сидения, и они расслабились в тени его широких ветвей.",
+      "images": []
+    },
+    {
+      "kind": "original",
+      "sourcePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/book.json",
+      "sourceSha256": "b1499e503613e526ba679ba6c82c59feb1b3319584e3403b0e1abf32659391af",
+      "chapterId": "chapter-04",
+      "chapterTitle": "Глава 4: Академия Леса",
+      "blockIndexZeroBased": 3,
+      "excerpt": "ЛуЛу, всегда такая задумчивая, сорвала маргаритку и начала медленно плести из неё маленькое венчик. \"Знаешь,\" начала она, \"иногда я просто закрываю глаза и слушаю. Лес... он говорит. Не словами, а чувствами. Это как... как тихий шепот, который говорит тебе, что ты именно там, где тебе и место.\"",
+      "images": []
+    },
+    {
+      "kind": "original",
+      "sourcePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/book.json",
+      "sourceSha256": "b1499e503613e526ba679ba6c82c59feb1b3319584e3403b0e1abf32659391af",
+      "chapterId": "chapter-04",
+      "chapterTitle": "Глава 4: Академия Леса",
+      "blockIndexZeroBased": 8,
+      "excerpt": "По мере того как день в академии подходил к концу, мистер ПинПин, ЛуЛу и Туту нашли укромное местечко под высоким старым дубом. Корни этого древнего дуба предоставили уютные уголки для сидения, и они расслабились в тени его широких ветвей.",
+      "images": []
+    },
+    {
+      "kind": "original",
+      "sourcePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/book.json",
+      "sourceSha256": "b1499e503613e526ba679ba6c82c59feb1b3319584e3403b0e1abf32659391af",
+      "chapterId": "chapter-04",
+      "chapterTitle": "Глава 4: Академия Леса",
+      "blockIndexZeroBased": 10,
+      "excerpt": "ЛуЛу, всегда задумчивая, сорвала маргаритку и начала машинально вплетать ее в маленькую корону. \"Знаешь,\" начала она, \"иногда я просто закрываю глаза и слушаю. Лес... он говорит. Не словами, а чувствами. Это как... как тихий шепот, говорящий, что ты точно там, где тебе и полагается быть.\"",
+      "images": []
+    },
+    {
+      "kind": "published",
+      "sourcePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/stories/bath-magic.json",
+      "sourceSha256": "e46b4a9227a70f32e2aabc74ea5858d838a1d04c5b5b71070c7d8ea089082b04",
+      "chapterId": "bath-magic",
+      "sceneId": "scene-03k",
+      "excerpt": "{\"paragraphs\": {\"en\": [\"Mama opened the door. Rabbit was waiting on the step.\"], \"ru\": [\"Мама открыла дверь. На ступеньке ждала Зайка.\"], \"es\": [\"Mamá abrió la puerta. Conejo esperaba en el escalón.\"]}, \"alt\": {\"en\": \"Mama opened the door. Rabbit was waiting on the step.\", \"ru\": \"Мама открыла дверь. На ступеньке ждала Зайка.\", \"es\": \"Mamá abrió la puerta. Conejo esperaba en el escalón.\"}, \"caption\": null, \"captions\": null}",
+      "imagePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/images/published/bath-magic/r17/scene-03k.webp",
+      "imageSha256": "5e73e13aa43d426114906917a5051601423ce0bd6104cac05d1ca8d57ded1bf0",
+      "portraitIdentityStatus": "Discovery citation only unless also listed in inspectedVisualEvidence."
+    },
+    {
+      "kind": "published",
+      "sourcePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/stories/bath-magic.json",
+      "sourceSha256": "e46b4a9227a70f32e2aabc74ea5858d838a1d04c5b5b71070c7d8ea089082b04",
+      "chapterId": "bath-magic",
+      "sceneId": "scene-03l",
+      "excerpt": "{\"paragraphs\": {\"en\": [\"“Come and play, PinPin!” Rabbit had found two leaves for boats.\"], \"ru\": [\"— Пойдём играть, Пин-Пин! — Зайка нашла два листочка для корабликов.\"], \"es\": [\"—¡Ven a jugar, PinPin! —Conejo había encontrado dos hojas para hacer barquitos.\"]}, \"alt\": {\"en\": \"“Come and play, PinPin!” Rabbit had found two leaves for boats.\", \"ru\": \"— Пойдём играть, Пин-Пин! — Зайка нашла два листочка для корабликов.\", \"es\": \"—¡Ven a jugar, PinPin! —Conejo había encontrado dos hojas para hacer barquitos.\"}, \"caption\": null, \"captions\": null}",
+      "imagePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/images/published/bath-magic/r17/scene-03l.webp",
+      "imageSha256": "b40ac36e16a2f183f826d340f8be4c2ad85c30fa0a3e660c0dd0958cdb5da81b",
+      "portraitIdentityStatus": "Discovery citation only unless also listed in inspectedVisualEvidence."
+    },
+    {
+      "kind": "published",
+      "sourcePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/stories/bath-magic.json",
+      "sourceSha256": "e46b4a9227a70f32e2aabc74ea5858d838a1d04c5b5b71070c7d8ea089082b04",
+      "chapterId": "bath-magic",
+      "sceneId": "scene-04a",
+      "excerpt": "{\"paragraphs\": {\"en\": [\"Out through the front door went PinPin and Rabbit. The empty bucket bumped gently against his knee.\"], \"ru\": [\"Пин-Пин и Зайка вышли через входную дверь. Пустое ведёрко тихонько стукнулось о его коленку.\"], \"es\": [\"PinPin y Conejo salieron por la puerta. El cubo vacío rozó suavemente su rodilla.\"]}, \"alt\": {\"en\": \"Out through the front door he went. The empty buckets swung beside his knees.\", \"ru\": \"Он вышел через входную дверь. Пустые ведёрки покачивались у его коленок.\", \"es\": \"Salió por la puerta de casa. Los cubos vacíos se balanceaban junto a sus rodillas.\"}, \"caption\": null, \"captions\": null}",
+      "imagePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/images/published/bath-magic/r17/scene-04a.webp",
+      "imageSha256": "76eb7f11e4777aad672f1f88e0c4d0d0913b1c96fee2569a37bc7b0fac00b04b",
+      "portraitIdentityStatus": "Discovery citation only unless also listed in inspectedVisualEvidence."
+    },
+    {
+      "kind": "published",
+      "sourcePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/stories/bath-magic.json",
+      "sourceSha256": "e46b4a9227a70f32e2aabc74ea5858d838a1d04c5b5b71070c7d8ea089082b04",
+      "chapterId": "bath-magic",
+      "sceneId": "scene-04b",
+      "excerpt": "{\"paragraphs\": {\"en\": [\"“The spring is this way,” said Rabbit. PinPin followed with his bucket.\"], \"ru\": [\"— Родник вон там, — сказала Зайка. Пин-Пин пошёл следом с ведёрком.\"], \"es\": [\"—El manantial está por aquí —dijo Conejo. PinPin lo siguió con su cubo.\"]}, \"alt\": {\"en\": \"“Good morning, PinPin!” called his rabbit friend. “Where are you going?”\", \"ru\": \"«Доброе утро, Пин-Пин! — позвал его друг Кролик. — Ты куда?»\", \"es\": \"«¡Buenos días, PinPin!», lo llamó su amigo Conejo. «¿Adónde vas?»\"}, \"caption\": null, \"captions\": null}",
+      "imagePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/images/published/bath-magic/r17/scene-04b.webp",
+      "imageSha256": "e987d4ff6856f59b065c05cff7dd9345f5fed19417f7d32a070e5ecdd1737dbd",
+      "portraitIdentityStatus": "Discovery citation only unless also listed in inspectedVisualEvidence."
+    },
+    {
+      "kind": "published",
+      "sourcePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/stories/bath-magic.json",
+      "sourceSha256": "e46b4a9227a70f32e2aabc74ea5858d838a1d04c5b5b71070c7d8ea089082b04",
+      "chapterId": "bath-magic",
+      "sceneId": "scene-04c",
+      "excerpt": "{\"paragraphs\": {\"en\": [\"“Water first, then our boats,” said PinPin. Rabbit held up the two leaves.\"], \"ru\": [\"— Сначала вода, потом кораблики, — сказал Пин-Пин. Зайка показала два листочка.\"], \"es\": [\"—Primero el agua; luego los barquitos —dijo PinPin. Conejo levantó las dos hojas.\"]}, \"alt\": {\"en\": \"“To fetch water for our bath.” PinPin showed his empty bucket. “I’ll come with you,” said Rabbit.\", \"ru\": \"«За водой для нашей ванны». Пин-Пин показал пустое ведёрко. «Я с тобой», — сказал Кролик.\", \"es\": \"«A buscar agua para nuestro baño». PinPin mostró su cubo vacío. «Voy contigo», dijo Conejo.\"}, \"caption\": null, \"captions\": null}",
+      "imagePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/images/published/bath-magic/r17/scene-04c.webp",
+      "imageSha256": "5b5c0e2eef562551022ba3c3ea913b1a761db4facbc5e7ea4c4d4f9341e32653",
+      "portraitIdentityStatus": "Discovery citation only unless also listed in inspectedVisualEvidence."
+    },
+    {
+      "kind": "published",
+      "sourcePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/stories/bath-magic.json",
+      "sourceSha256": "e46b4a9227a70f32e2aabc74ea5858d838a1d04c5b5b71070c7d8ea089082b04",
+      "chapterId": "bath-magic",
+      "sceneId": "scene-05b",
+      "excerpt": "{\"paragraphs\": {\"en\": [\"Rabbit set their leaf boats afloat. One went straight; the other went round and round!\"], \"ru\": [\"Зайка пустила кораблики из листьев по воде. Один поплыл прямо, а другой закружился на месте!\"], \"es\": [\"Conejo puso sus barquitos de hojas en el agua. ¡Uno siguió recto y el otro empezó a dar vueltas!\"]}, \"alt\": {\"en\": \"Rabbit and PinPin watch two leaf boats at the spring; one full wooden bucket rests nearby.\", \"ru\": \"Зайка и Пин-Пин смотрят на два кораблика у ручья. Рядом стоит одно полное деревянное ведёрко.\", \"es\": \"Conejo y PinPin miran dos barquitos en el manantial; cerca hay un solo cubo de madera lleno.\"}, \"caption\": null, \"captions\": null}",
+      "imagePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/images/published/bath-magic/r17/scene-05b.webp",
+      "imageSha256": "a86e6b63684679b92b1211b97b3cf41926613a3894dabaaef5c4a8d08c996c49",
+      "portraitIdentityStatus": "Discovery citation only unless also listed in inspectedVisualEvidence."
+    },
+    {
+      "kind": "published",
+      "sourcePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/stories/bath-magic.json",
+      "sourceSha256": "e46b4a9227a70f32e2aabc74ea5858d838a1d04c5b5b71070c7d8ea089082b04",
+      "chapterId": "bath-magic",
+      "sceneId": "scene-05c",
+      "excerpt": "{\"paragraphs\": {\"en\": [\"“Coming with me?” asked PinPin. “I’ll get our boats!” said Rabbit.\"], \"ru\": [\"«Пойдём вместе?» — спросил Пин-Пин. «Сейчас возьму кораблики!» — ответила Зайка.\"], \"es\": [\"«¿Vienes conmigo?», preguntó PinPin. «¡Voy a coger nuestros barquitos!», respondió Conejo.\"]}, \"alt\": {\"en\": \"PinPin carries one full bucket while Rabbit gathers their leaf boats.\", \"ru\": \"Пин-Пин держит одно полное ведёрко, пока Зайка собирает их кораблики.\", \"es\": \"PinPin lleva un solo cubo lleno mientras Conejo recoge sus barquitos.\"}, \"caption\": null, \"captions\": null}",
+      "imagePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/images/published/bath-magic/r17/scene-05c.webp",
+      "imageSha256": "2aa6fe2d58e1179b8b7c389cfe1722bc19f09a57940323d11e1c358b90b81ceb",
+      "portraitIdentityStatus": "Discovery citation only unless also listed in inspectedVisualEvidence."
+    },
+    {
+      "kind": "published",
+      "sourcePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/stories/bath-magic.json",
+      "sourceSha256": "e46b4a9227a70f32e2aabc74ea5858d838a1d04c5b5b71070c7d8ea089082b04",
+      "chapterId": "bath-magic",
+      "sceneId": "scene-05c2",
+      "excerpt": "{\"paragraphs\": {\"en\": [\"“Why did the lake dry up that day?” asked Rabbit.\"], \"ru\": [\"«А почему озеро тогда высохло?» — спросила Зайка.\"], \"es\": [\"«¿Por qué se secó el lago aquel día?», preguntó Conejo.\"]}, \"alt\": {\"en\": \"“Why did the lake dry up that day?” asked Rabbit.\", \"ru\": \"«А почему озеро тогда высохло?» — спросила Зайка.\", \"es\": \"«¿Por qué se secó el lago aquel día?», preguntó Conejo.\"}, \"caption\": null, \"captions\": null}",
+      "imagePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/images/published/bath-magic/r24/scene-05c2.webp",
+      "imageSha256": "9d2f86a2e0282004c497e03a1a6da86d144c2dc104546c609887f22c8b53db45",
+      "portraitIdentityStatus": "Discovery citation only unless also listed in inspectedVisualEvidence."
+    },
+    {
+      "kind": "published",
+      "sourcePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/stories/bath-magic.json",
+      "sourceSha256": "e46b4a9227a70f32e2aabc74ea5858d838a1d04c5b5b71070c7d8ea089082b04",
+      "chapterId": "bath-magic",
+      "sceneId": "scene-05c4",
+      "excerpt": "{\"paragraphs\": {\"en\": [\"“That’s strange,” said Rabbit. They walked quietly for a little while.\"], \"ru\": [\"«Странно», — сказала Зайка. Они ещё немного прошли молча.\"], \"es\": [\"«Qué extraño», dijo Conejo. Caminaron un ratito en silencio.\"]}, \"alt\": {\"en\": \"“That’s strange,” said Rabbit. They walked quietly for a little while.\", \"ru\": \"«Странно», — сказала Зайка. Они ещё немного прошли молча.\", \"es\": \"«Qué extraño», dijo Conejo. Caminaron un ratito en silencio.\"}, \"caption\": null, \"captions\": null}",
+      "imagePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/images/published/bath-magic/r24/scene-05c4.webp",
+      "imageSha256": "aa834a07d5d0daca4459e2709fe59146b834e5a044cb8c50c123e371bdd0d521",
+      "portraitIdentityStatus": "Discovery citation only unless also listed in inspectedVisualEvidence."
+    },
+    {
+      "kind": "published",
+      "sourcePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/stories/bath-magic.json",
+      "sourceSha256": "e46b4a9227a70f32e2aabc74ea5858d838a1d04c5b5b71070c7d8ea089082b04",
+      "chapterId": "bath-magic",
+      "sceneId": "scene-05c5",
+      "excerpt": "{\"paragraphs\": {\"en\": [\"“There’s our water!” said Mama. “Thank you, both of you.” Rabbit waited by the step.\"], \"ru\": [\"«А вот и вода! Спасибо вам обоим», — сказала Мама. Зайка осталась у крылечка.\"], \"es\": [\"«¡Aquí está el agua! Gracias a los dos», dijo Mamá. Conejo esperó junto al escalón.\"]}, \"alt\": {\"en\": \"“There’s our water!” said Mama. “Thank you, both of you.” Rabbit waited by the step.\", \"ru\": \"«А вот и вода! Спасибо вам обоим», — сказала Мама. Зайка осталась у крылечка.\", \"es\": \"«¡Aquí está el agua! Gracias a los dos», dijo Mamá. Conejo esperó junto al escalón.\"}, \"caption\": null, \"captions\": null}",
+      "imagePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/images/published/bath-magic/r24/scene-05c5.webp",
+      "imageSha256": "22527c09ba2cdb0503cfbe9c66d7de240404fcc6dbe74107acf1044b3b2f5387",
+      "portraitIdentityStatus": "Discovery citation only unless also listed in inspectedVisualEvidence."
+    },
+    {
+      "kind": "published",
+      "sourcePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/stories/bath-magic.json",
+      "sourceSha256": "e46b4a9227a70f32e2aabc74ea5858d838a1d04c5b5b71070c7d8ea089082b04",
+      "chapterId": "bath-magic",
+      "sceneId": "scene-05f1",
+      "excerpt": "{\"paragraphs\": {\"en\": [\"Scooby came home with Papa. Rabbit lifted the leaf boats. “Hello, Scooby!”\"], \"ru\": [\"Скуби вернулся с Папой. Зайка подняла кораблики из листьев. «Привет, Скуби!»\"], \"es\": [\"Scooby volvió con Papá. Conejo levantó los barquitos de hojas. «¡Hola, Scooby!»\"]}, \"alt\": {\"en\": \"Scooby came home with Papa. Rabbit lifted the leaf boats. “Hello, Scooby!”\", \"ru\": \"Скуби вернулся с Папой. Зайка подняла кораблики из листьев. «Привет, Скуби!»\", \"es\": \"Scooby volvió con Papá. Conejo levantó los barquitos de hojas. «¡Hola, Scooby!»\"}, \"caption\": null, \"captions\": null}",
+      "imagePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/images/published/bath-magic/r18/scene-05f1.webp",
+      "imageSha256": "46dac3b911796465f77e98b23af05a8fb2cb40c3fbc4b43e022e3c2d8706e3c9",
+      "portraitIdentityStatus": "Discovery citation only unless also listed in inspectedVisualEvidence."
+    },
+    {
+      "kind": "published",
+      "sourcePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/stories/bath-magic.json",
+      "sourceSha256": "e46b4a9227a70f32e2aabc74ea5858d838a1d04c5b5b71070c7d8ea089082b04",
+      "chapterId": "bath-magic",
+      "sceneId": "scene-05f2",
+      "excerpt": "{\"paragraphs\": {\"en\": [\"“I’ll take them back to the stream,” said Rabbit. PinPin waved goodbye. Scooby gave one friendly woof.\"], \"ru\": [\"«Я отнесу их обратно к ручью», — сказала Зайка. Пин-Пин помахал на прощание. Скуби дружелюбно гавкнул.\"], \"es\": [\"«Los llevaré de vuelta al arroyo», dijo Conejo. PinPin se despidió con la mano. Scooby dio un ladrido amistoso.\"]}, \"alt\": {\"en\": \"“I’ll take them back to the stream,” said Rabbit. PinPin waved goodbye. Scooby gave one friendly woof.\", \"ru\": \"«Я отнесу их обратно к ручью», — сказала Зайка. Пин-Пин помахал на прощание. Скуби дружелюбно гавкнул.\", \"es\": \"«Los llevaré de vuelta al arroyo», dijo Conejo. PinPin se despidió con la mano. Scooby dio un ladrido amistoso.\"}, \"caption\": null, \"captions\": null}",
+      "imagePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/images/published/bath-magic/r18/scene-05f2.webp",
+      "imageSha256": "4e3617d9f310f994188df952dd2d43c7b860124e37bc216cd0dcfe544caaa019",
+      "portraitIdentityStatus": "Discovery citation only unless also listed in inspectedVisualEvidence."
+    },
+    {
+      "kind": "published",
+      "sourcePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/stories/elder-elder-house.json",
+      "sourceSha256": "b6fbaf4311a41491a570e009caacfa20ae2775a958fa2e374bb136b2466e6dda",
+      "chapterId": "elder-elder-house",
+      "sceneId": "elder-r6-mentor-016",
+      "excerpt": "{\"paragraphs\": {\"en\": [\"“Lulu told us the lake was dry,” PinPin began. “There was no water at all.” The Elder listened without interrupting.\"], \"ru\": [\"«Лулу сказала, что озеро высохло, — начал Пин-Пин. — Воды совсем не было». Старейшина слушал, не перебивая.\"], \"es\": [\"«Lulu nos dijo que el lago estaba seco», empezó PinPin. «No quedaba nada de agua». El Anciano escuchó sin interrumpir.\"]}, \"alt\": {\"en\": \"PinPin tells the listening Elder that Lulu found the lake completely dry.\", \"ru\": \"ПинПин рассказывает слушающему Старейшине, что Лулу увидела совсем высохшее озеро.\", \"es\": \"PinPin cuenta al Anciano, que escucha, que Lulu encontró el lago completamente seco.\"}, \"caption\": null, \"captions\": null}",
+      "imagePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/images/published/elder-cycle/elder-r6-mentor-016.webp",
+      "imageSha256": "25cdedec5397b8a695bdbb8dc38668dfc2b0c2c2b59df4ce6acd76eb7e493522",
+      "portraitIdentityStatus": "Discovery citation only unless also listed in inspectedVisualEvidence."
+    },
+    {
+      "kind": "published",
+      "sourcePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/stories/elder-family-morning.json",
+      "sourceSha256": "b5e43d9a8d9603ac83a066db4b961c5e1c8e3c196a72d2f4c56d36af05949c42",
+      "chapterId": "elder-family-morning",
+      "sceneId": "elder-r6-family-016",
+      "excerpt": "{\"paragraphs\": {\"en\": [\"“Lulu told me the lake was dry,” PinPin began. Papa paused with the teapot in his paw. Mama turned to listen too.\"], \"ru\": [\"— Лулу сказала, что озеро высохло, — начал Пин-Пин. Папа замер с чайником в лапе. Мама тоже повернулась к нему.\"], \"es\": [\"—Lulu me dijo que el lago estaba seco —empezó PinPin. Papá se detuvo con la tetera en la pata. Mamá también se volvió para escucharlo.\"]}, \"alt\": {\"en\": \"All four family members sit at breakfast as PinPin begins telling about the lake.\", \"ru\": \"Вся семья завтракает, а Пин-Пин начинает рассказывать об озере.\", \"es\": \"Los cuatro desayunan mientras PinPin empieza a contar lo del lago.\"}, \"caption\": null, \"captions\": null}",
+      "imagePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/images/published/elder-cycle/elder-r6-family-016.webp",
+      "imageSha256": "88d74c56a468e3f250b12dbcb5ecdb7b07bd1d789197663d8948ac199acd133d",
+      "portraitIdentityStatus": "Discovery citation only unless also listed in inspectedVisualEvidence."
+    },
+    {
+      "kind": "published",
+      "sourcePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/stories/one-day-in-the-forest.json",
+      "sourceSha256": "80c4ce2d6ebb59f6ad7c33155339f113ab4096c9ebcdcd3b4570cea900a6ea5f",
+      "chapterId": "one-day-in-the-forest",
+      "sceneId": "elder-r6-family-016",
+      "excerpt": "{\"paragraphs\": {\"en\": [\"“Lulu told me the lake was dry,” PinPin began. Papa paused with the teapot in his paw. Mama turned to listen too.\"], \"ru\": [\"— Лулу сказала, что озеро высохло, — начал Пин-Пин. Папа замер с чайником в лапе. Мама тоже повернулась к нему.\"], \"es\": [\"—Lulu me dijo que el lago estaba seco —empezó PinPin. Papá se detuvo con la tetera en la pata. Mamá también se volvió para escucharlo.\"]}, \"alt\": {\"en\": \"All four family members sit at breakfast as PinPin begins telling about the lake.\", \"ru\": \"Вся семья завтракает, а Пин-Пин начинает рассказывать об озере.\", \"es\": \"Los cuatro desayunan mientras PinPin empieza a contar lo del lago.\"}, \"caption\": null, \"captions\": null}",
+      "imagePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/images/published/elder-cycle/elder-r6-family-016.webp",
+      "imageSha256": "88d74c56a468e3f250b12dbcb5ecdb7b07bd1d789197663d8948ac199acd133d",
+      "portraitIdentityStatus": "Discovery citation only unless also listed in inspectedVisualEvidence."
+    },
+    {
+      "kind": "published",
+      "sourcePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/stories/one-day-in-the-forest.json",
+      "sourceSha256": "80c4ce2d6ebb59f6ad7c33155339f113ab4096c9ebcdcd3b4570cea900a6ea5f",
+      "chapterId": "one-day-in-the-forest",
+      "sceneId": "elder-r6-mentor-016",
+      "excerpt": "{\"paragraphs\": {\"en\": [\"“Lulu told us the lake was dry,” PinPin began. “There was no water at all.” The Elder listened without interrupting.\"], \"ru\": [\"«Лулу сказала, что озеро высохло, — начал Пин-Пин. — Воды совсем не было». Старейшина слушал, не перебивая.\"], \"es\": [\"«Lulu nos dijo que el lago estaba seco», empezó PinPin. «No quedaba nada de agua». El Anciano escuchó sin interrumpir.\"]}, \"alt\": {\"en\": \"PinPin tells the listening Elder that Lulu found the lake completely dry.\", \"ru\": \"ПинПин рассказывает слушающему Старейшине, что Лулу увидела совсем высохшее озеро.\", \"es\": \"PinPin cuenta al Anciano, que escucha, que Lulu encontró el lago completamente seco.\"}, \"caption\": null, \"captions\": null}",
+      "imagePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/images/published/elder-cycle/elder-r6-mentor-016.webp",
+      "imageSha256": "25cdedec5397b8a695bdbb8dc38668dfc2b0c2c2b59df4ce6acd76eb7e493522",
+      "portraitIdentityStatus": "Discovery citation only unless also listed in inspectedVisualEvidence."
+    }
+  ],
+  "registeredReferences": [
+    {
+      "id": "asset-f945f4802de940f91dc6a78a",
+      "name": "reference-rabbit",
+      "mime": "image/webp",
+      "sha256": "f945f4802de940f91dc6a78a2a5e7bc5d8e7b3239e3fdb3a883f56c73ebd7b3d",
+      "bytes": 533046,
+      "width": 1536,
+      "height": 1024,
+      "url": "/api/assets/asset-f945f4802de940f91dc6a78a",
+      "storagePath": "assets/f945f4802de940f91dc6a78a2a5e7bc5d8e7b3239e3fdb3a883f56c73ebd7b3d.webp",
+      "createdAt": "2026-10-02T18:48:38.230267+00:00",
+      "reviewStatus": "user-approved",
+      "provenance": {
+        "sourcePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r17/art/opening/references/scene-04b.webp",
+        "catalogKey": "reference-rabbit",
+        "catalogSha256": "f945f4802de940f91dc6a78a2a5e7bc5d8e7b3239e3fdb3a883f56c73ebd7b3d",
+        "role": "Rabbit identity",
+        "evidence": "Previously approved published reference; R17 uses exact copied source"
+      }
+    }
+  ],
+  "existingOutputs": [
+    {
+      "id": "asset-e64154c3829a84e223c54626",
+      "name": "rabbit-solo.png",
+      "mime": "image/png",
+      "sha256": "e64154c3829a84e223c54626222d8b9b24a6e8cb4dd73e5ecb518dcf4ea37f6b",
+      "bytes": 2033731,
+      "width": 1312,
+      "height": 1199,
+      "url": "/api/assets/asset-e64154c3829a84e223c54626",
+      "storagePath": "assets/e64154c3829a84e223c54626222d8b9b24a6e8cb4dd73e5ecb518dcf4ea37f6b.png",
+      "createdAt": "2026-10-03T11:08:16.434741+00:00",
+      "reviewStatus": "unreviewed",
+      "provenance": {
+        "sourcePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/generated/e64154c3829a84e2-rabbit-solo.png",
+        "source": "native-imagegen",
+        "tool": "image_gen.imagegen",
+        "nativeOutputPath": "/Users/miguel_lemos/.codex/generated_images/01a0ff85-92dc-7c40-9adb-ef240551a423/exec-0fa24a90-424e-43fc-a29d-140383a1d970.png",
+        "nativeSha256": "e64154c3829a84e223c54626222d8b9b24a6e8cb4dd73e5ecb518dcf4ea37f6b",
+        "prompt": "One polished portrait production reference image on warm ivory, title and FOUR rows of SIX readable studies, consistent size within each row. Row1 FACE VIEWS: Front; Facing left 3/4 nose SCREEN LEFT both eyes; Facing left profile nose LEFT true side; Facing right 3/4 nose SCREEN RIGHT both eyes; Facing right profile nose RIGHT true side; Rear. Row2 EXPRESSIONS: Calm, Curious, Delight, Surprise, Thoughtful, Mild upset. Relaxed brows and natural closed mouths in calm/thoughtful; no constant grin. Row3 FULL BODY VIEWS same six directions, whole ears/tail/quills/feet with margin and contact shadows. Row4 NORMAL POSES as specified. Concise correct labels; no directional headings for expressions. Book warm dimensional illustrated style; preserve exact identity from references; no duplicate limbs or cropped extremities. No extra characters on solo sheet, no invented clothes or aging. This is an established-design reference study, not a redesign. Title Rabbit. Use published Rabbit in reference1 RIGHT, NOT PinPin on left. Gray/tan soft fur, cream muzzle/chest, very long upright ears pink inside, small warm brown/orange rabbit nose, rounded cheeks and large expressive brown irises. Match ear lengths, muzzle, hind feet and compact body. Rabbit is PinPin's peer companion; exact age NOT STATED. Reference2 family is style only. Row4: Sit, Reach, Wave, Carry two leaves, Lean toward leaf boat, Rest. Quadruped rabbit anatomy with anthropomorphic forepaws as original: two forelimbs two hindlimbs, short fluffy tail. No new character accessories. Solo image only.",
+        "promptSha256": "a2d52a93146c2ff3fd712cfe6dae3ee16efd0fb5aff20c938ce83ce51c02895d",
+        "promptFile": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/reports/rabbit-solo-prompt.txt",
+        "referenceIds": [
+          "asset-f945f4802de940f91dc6a78a",
+          "asset-88d74c56a468e3f250b12dbc"
+        ],
+        "inputAssets": [
+          {
+            "assetId": "asset-f945f4802de940f91dc6a78a",
+            "sha256": "f945f4802de940f91dc6a78a2a5e7bc5d8e7b3239e3fdb3a883f56c73ebd7b3d"
+          },
+          {
+            "assetId": "asset-88d74c56a468e3f250b12dbc",
+            "sha256": "88d74c56a468e3f250b12dbcb5ecdb7b07bd1d789197663d8948ac199acd133d"
+          }
+        ],
+        "registeredBy": "studio-client/register-image.py"
+      }
+    },
+    {
+      "id": "asset-c55a562de31d68a4d2428d52",
+      "name": "rabbit-interactions.png",
+      "mime": "image/png",
+      "sha256": "c55a562de31d68a4d2428d529e0d5fe11108a2aff4d5221611e9901eec2cec2b",
+      "bytes": 2963998,
+      "width": 1024,
+      "height": 1536,
+      "url": "/api/assets/asset-c55a562de31d68a4d2428d52",
+      "storagePath": "assets/c55a562de31d68a4d2428d529e0d5fe11108a2aff4d5221611e9901eec2cec2b.png",
+      "createdAt": "2026-10-03T11:15:43.408093+00:00",
+      "reviewStatus": "unreviewed",
+      "provenance": {
+        "sourcePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/generated/c55a562de31d68a4-rabbit-interactions.png",
+        "source": "native-imagegen",
+        "tool": "image_gen.imagegen",
+        "nativeOutputPath": "/Users/miguel_lemos/.codex/generated_images/01a0ff85-92dc-7c40-9adb-ef240551a423/exec-40ecaaed-fd24-4b3c-aee7-cf499439f9bf.png",
+        "nativeSha256": "c55a562de31d68a4d2428d529e0d5fe11108a2aff4d5221611e9901eec2cec2b",
+        "prompt": "Make ONE separate polished portrait relational reference page, SIX large readable panels in 3 rows x 2 columns, clear short labels, warm ivory margins. Keep warm dimensional book illustration, full separate bodies including ears/quills/tails/feet, believable hands/paws contact and weight/support, natural gaze and expressions, no constant exaggerated smiles. No duplicated limbs, merged bodies, wolf faces or new clothing. Use all supplied references directly for identity and relative scale. These are reusable relationship studies, not an unrelated chapter. Title Rabbit — Family & friends. Reference1 published Rabbit RIGHT, child PinPin LEFT; reference2 family gives Mama left holding tiny PomPom, Papa center and older PinPin right. Reference3 Rabbit solo locks exact design. Six studies: 1 'Relative size' SAME GROUND lineup standing Papa, older PinPin at about HALF Papa height, Rabbit alongside PinPin with comparable body mass but long ears extending higher; don't shrink Rabbit ears or enlarge child. 2 'Leaf boats' Rabbit and PinPin sit beside shallow stream floating TWO leaf boats, ONE bucket stable nearby. 3 'Mama welcomes Rabbit' adult Mama kneels comfortably to greet Rabbit, one paw-to-paw greeting, full separate bodies. 4 'A gentle friend hug' child Rabbit and PinPin seated beside one another, reciprocal gentle embrace, forepaw/arm ownership clear and big rabbit hindfeet grounded; no mother replacing child. 5 'Papa passes a leaf' standing adult Papa hands small leaf to Rabbit, actual handoff and shared eye line, whole bodies. 6 'Bread with PinPin' two friends seated at low mat sharing small piece of bread, both whole bodies including Rabbit tail. Preserve gray/tan Rabbit, cream muzzle/chest, tiny warm-orange rabbit nose, long pink-inner ears. No numeric age labels. Reference2 is family identity, not composition.",
+        "promptSha256": "bf1aeac02d24af232d4f0e25706707736b21f0adfa48aa98468d31bab412f573",
+        "promptFile": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/reports/rabbit-interactions-prompt.txt",
+        "referenceIds": [
+          "asset-f945f4802de940f91dc6a78a",
+          "asset-88d74c56a468e3f250b12dbc",
+          "asset-e64154c3829a84e223c54626"
+        ],
+        "inputAssets": [
+          {
+            "assetId": "asset-f945f4802de940f91dc6a78a",
+            "sha256": "f945f4802de940f91dc6a78a2a5e7bc5d8e7b3239e3fdb3a883f56c73ebd7b3d"
+          },
+          {
+            "assetId": "asset-88d74c56a468e3f250b12dbc",
+            "sha256": "88d74c56a468e3f250b12dbcb5ecdb7b07bd1d789197663d8948ac199acd133d"
+          },
+          {
+            "assetId": "asset-e64154c3829a84e223c54626",
+            "sha256": "e64154c3829a84e223c54626222d8b9b24a6e8cb4dd73e5ecb518dcf4ea37f6b"
+          }
+        ],
+        "registeredBy": "studio-client/register-image.py"
+      }
+    }
+  ],
+  "producedPackage": {
+    "solo": "asset-e64154c3829a84e223c54626",
+    "interactions": "asset-c55a562de31d68a4d2428d52",
+    "receipts": "reports/character-packages/rabbit.json",
+    "timings": "reports/cast-batch-timing.json",
+    "review": "Agent QA; requested by codex-wap1 under Miguel delegation; no new delegated acceptance or personal Miguel review inferred."
+  },
+  "actualGenerationReferences": [
+    {
+      "assetId": "asset-f945f4802de940f91dc6a78a",
+      "sha256": "f945f4802de940f91dc6a78a2a5e7bc5d8e7b3239e3fdb3a883f56c73ebd7b3d",
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/assets/f945f4802de940f91dc6a78a2a5e7bc5d8e7b3239e3fdb3a883f56c73ebd7b3d.webp",
+      "purpose": "Actual submitted image reference; original/candidate status retained."
+    },
+    {
+      "assetId": "asset-88d74c56a468e3f250b12dbc",
+      "sha256": "88d74c56a468e3f250b12dbcb5ecdb7b07bd1d789197663d8948ac199acd133d",
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/assets/88d74c56a468e3f250b12dbcb5ecdb7b07bd1d789197663d8948ac199acd133d.webp",
+      "purpose": "Actual submitted image reference; original/candidate status retained."
+    },
+    {
+      "assetId": "asset-e64154c3829a84e223c54626",
+      "sha256": "e64154c3829a84e223c54626222d8b9b24a6e8cb4dd73e5ecb518dcf4ea37f6b",
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/assets/e64154c3829a84e223c54626222d8b9b24a6e8cb4dd73e5ecb518dcf4ea37f6b.png",
+      "purpose": "Actual submitted image reference; original/candidate status retained."
+    }
+  ],
+  "inspectedVisualEvidence": [
+    {
+      "assetId": "asset-f945f4802de940f91dc6a78a",
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/assets/f945f4802de940f91dc6a78a2a5e7bc5d8e7b3239e3fdb3a883f56c73ebd7b3d.webp",
+      "sha256": "f945f4802de940f91dc6a78a2a5e7bc5d8e7b3239e3fdb3a883f56c73ebd7b3d",
+      "inspection": "Published Rabbit at right, PinPin at left: long pink-inner ears, gray/tan fur, cream muzzle/chest, warm brown-orange nose and large hindfeet."
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "character": {
+    "id": "beaver-kits",
+    "canonicalName": "Two little beavers",
+    "aliases": [
+      "little beavers",
+      "kits",
+      "бобрята"
+    ],
+    "exactAge": "not stated",
+    "evidencedLifeStage": "young sibling pair; separate reusable group package",
+    "status": "pending",
+    "dossierPath": "workflows/characters/beaver-kits/README.md",
+    "evidencePath": "workflows/characters/beaver-kits/evidence.json",
+    "evidenceCount": 2,
+    "registeredReferenceIds": [],
+    "outputs": [],
+    "constraints": {
+      "identity": "young sibling pair; separate reusable group package",
+      "scale": "Not measured; use original/published indexed visual evidence",
+      "geometry": ""
+    }
+  },
+  "bibliography": [
+    {
+      "kind": "published",
+      "sourcePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/stories/bath-magic.json",
+      "sourceSha256": "e46b4a9227a70f32e2aabc74ea5858d838a1d04c5b5b71070c7d8ea089082b04",
+      "chapterId": "bath-magic",
+      "sceneId": "scene-322",
+      "excerpt": "{\"paragraphs\": {\"en\": [\"Plop! Plop! The little beavers slipped back into the water.\"], \"ru\": [\"Плюх! Плюх! Бобрята снова скользнули в воду.\"], \"es\": [\"¡Plop! ¡Plop! Los pequeños castores volvieron a meterse en el agua.\"]}, \"alt\": {\"en\": \"Plop! Plop! The little beavers slipped back into the water.\", \"ru\": \"Плюх! Плюх! Бобрята снова скользнули в воду.\", \"es\": \"¡Plop! ¡Plop! Los pequeños castores volvieron a meterse en el agua.\"}, \"caption\": null, \"captions\": null}",
+      "imagePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/images/published/bath-magic/r24/scene-322.webp",
+      "imageSha256": "b59d39d8ec4781d4545267fbaf39bf8fa5775984eb51357c2433591bf9355728"
+    },
+    {
+      "kind": "published",
+      "sourcePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/stories/bath-magic.json",
+      "sourceSha256": "e46b4a9227a70f32e2aabc74ea5858d838a1d04c5b5b71070c7d8ea089082b04",
+      "chapterId": "bath-magic",
+      "sceneId": "scene-334",
+      "excerpt": "{\"paragraphs\": {\"en\": [\"PinPin and the little beavers carried the small branches.\"], \"ru\": [\"Пин-Пин и бобрята носили маленькие веточки.\"], \"es\": [\"PinPin y los pequeños castores llevaban las ramitas.\"]}, \"alt\": {\"en\": \"PinPin and the little beavers carried the small branches.\", \"ru\": \"Пин-Пин и бобрята носили маленькие веточки.\", \"es\": \"PinPin y los pequeños castores llevaban las ramitas.\"}, \"caption\": null, \"captions\": null}",
+      "imagePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/images/published/bath-magic/r24/scene-334.webp",
+      "imageSha256": "62f6361148d66e0c3e6ea8e7c9a8157e4b9a0cd010f9adbd58c30e645ab3d6d7"
+    }
+  ],
+  "registeredReferences": [],
+  "existingOutputs": [],
+  "inspectedVisualEvidence": [
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/images/published/bath-magic/r24/scene-321.webp",
+      "sha256": "cdaa2972246ba0f2f8cc7acc14289d375dd5903c2c8bfb1473f968c33daeee82",
+      "inspection": "Actual pixels inspected: adult Beaver blue vest, Mama Beaver red scarf, two smaller kits with flat textured tails and cream muzzles; relational poses and scale established. Scene334 kits have different apparent sizes; no invented names/sex/ages."
+    },
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/images/published/bath-magic/r24/scene-322.webp",
+      "sha256": "b59d39d8ec4781d4545267fbaf39bf8fa5775984eb51357c2433591bf9355728",
+      "inspection": "Actual pixels inspected: adult Beaver blue vest, Mama Beaver red scarf, two smaller kits with flat textured tails and cream muzzles; relational poses and scale established. Scene334 kits have different apparent sizes; no invented names/sex/ages."
+    },
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/images/published/bath-magic/r24/scene-334.webp",
+      "sha256": "62f6361148d66e0c3e6ea8e7c9a8157e4b9a0cd010f9adbd58c30e645ab3d6d7",
+      "inspection": "Actual pixels inspected: adult Beaver blue vest, Mama Beaver red scarf, two smaller kits with flat textured tails and cream muzzles; relational poses and scale established. Scene334 kits have different apparent sizes; no invented names/sex/ages."
+    }
+  ]
+}

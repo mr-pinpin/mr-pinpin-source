@@ -1,0 +1,181 @@
+{
+  "schemaVersion": 1,
+  "entityId": "pinpin",
+  "stages": {
+    "solo": {
+      "candidates": [
+        {
+          "assetId": "asset-5d505b375eed339baa7f7650",
+          "sha256": "5d505b375eed339baa7f765028f4c61224a685dfcc4c01ee53c5f35fdb303700",
+          "bytes": 2404738,
+          "reviewStatus": "unreviewed",
+          "nativePath": "/Users/miguel_lemos/.codex/generated_images/01a0ff85-92dc-7c40-9adb-ef240551a423/exec-7ac57cc8-008b-420d-8888-2d2ba22eb139.png",
+          "generatedPath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/generated/5d505b375eed339b-pinpin-solo.png",
+          "reused": false,
+          "kernelRelease": "c9be233f9e18f6d480c8a5b7d50dff6384c9df2766510b5ef006b21ccec40c75",
+          "workflowCard": {
+            "type": "WorkflowCard",
+            "title": "pinpin-solo.png",
+            "text": "Unreviewed candidate. Original image available at full size.",
+            "assetIds": [
+              "asset-5d505b375eed339baa7f7650"
+            ],
+            "actions": []
+          },
+          "timing": {
+            "startedAt": "2026-10-03T10:24:05.768682+00:00",
+            "validatedAt": "2026-10-03T10:24:05.818860+00:00",
+            "copiedAt": "2026-10-03T10:24:05.820618+00:00",
+            "registeredAt": "2026-10-03T10:24:05.853551+00:00",
+            "registrationSeconds": 0.084877
+          },
+          "dossierPath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/reports/character-packages/pinpin.json",
+          "entityId": "pinpin",
+          "stage": "solo",
+          "provenance": {
+            "sourcePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/generated/5d505b375eed339b-pinpin-solo.png",
+            "source": "native-imagegen",
+            "tool": "image_gen.imagegen",
+            "nativeOutputPath": "/Users/miguel_lemos/.codex/generated_images/01a0ff85-92dc-7c40-9adb-ef240551a423/exec-7ac57cc8-008b-420d-8888-2d2ba22eb139.png",
+            "nativeSha256": "5d505b375eed339baa7f765028f4c61224a685dfcc4c01ee53c5f35fdb303700",
+            "prompt": "Create a polished portrait production reference page titled Mr. PinPin, 24 readable studies in FOUR rows of SIX on warm ivory. Use attached published family breakfast as authoritative identity: PinPin is the OLDER CHILD at RIGHT, not infant in mother's arms and not adults. Preserve his round dimensional hedgehog face, short rounded muzzle, small dark button nose, glossy brown irises, rounded ears, warm copper/golden quills, cream face chest tummy, short child limbs, compact child body. No clothing. Book warm dimensional illustrated style. Row1 FACE VIEWS: Front; Facing left 3/4 (nose to screen LEFT both eyes visible); Facing left profile (true side nose LEFT); Facing right 3/4 (nose RIGHT both eyes visible); Facing right profile (nose RIGHT true side); Rear. Row2 EXPRESSIONS: Calm, Curious, Delight, Surprise, Thoughtful, Mild upset. Natural relaxed eyebrows and closed mouths where appropriate, no constant grin. Row3 WHOLE BODY VIEWS same six directions as face row, grounded ordinary child standing, whole quills feet separate arms visible, no adult proportions. Row4 NORMAL POSES: Sit, Reach, Wave, Carry one bucket, Roll ball, Rest. Readable full bodies with margins and consistent size within row. Precisely two arms and two legs each, gentle contact shadows, no fused paws. Small concise labels, clear divisions, no extra characters. The original chapter1 establishes one special golden quill on his back: render a single subtly distinct gold quill in rear views without inventing equipment or glowing magical effects. Preserve established published design, not a redesign or aged-up adult. One actual unified image.\n",
+            "promptSha256": "c86a8c6059bc54a87efe9106601cb6694413bfe567e48130bd97ad38fc2acbcd",
+            "promptFile": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/reports/pinpin-solo-prompt.txt",
+            "referenceIds": [
+              "asset-88d74c56a468e3f250b12dbc"
+            ],
+            "inputAssets": [
+              {
+                "assetId": "asset-88d74c56a468e3f250b12dbc",
+                "sha256": "88d74c56a468e3f250b12dbcb5ecdb7b07bd1d789197663d8948ac199acd133d"
+              }
+            ],
+            "registeredBy": "studio-client/register-image.py"
+          }
+        }
+      ]
+    },
+    "interactions-first": {
+      "candidates": [
+        {
+          "assetId": "asset-e4330679e5a41614ca0ad6b1",
+          "sha256": "e4330679e5a41614ca0ad6b12f0f7065917a234240844f123efbc134c176914b",
+          "bytes": 2908997,
+          "reviewStatus": "unreviewed",
+          "nativePath": "/Users/miguel_lemos/.codex/generated_images/01a0ff85-92dc-7c40-9adb-ef240551a423/exec-7f187943-95ac-40f7-8761-fa27f056ede4.png",
+          "generatedPath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/generated/e4330679e5a41614-pinpin-interactions-first.png",
+          "reused": false,
+          "kernelRelease": "c9be233f9e18f6d480c8a5b7d50dff6384c9df2766510b5ef006b21ccec40c75",
+          "workflowCard": {
+            "type": "WorkflowCard",
+            "title": "pinpin-interactions-first.png",
+            "text": "Unreviewed candidate. Original image available at full size.",
+            "assetIds": [
+              "asset-e4330679e5a41614ca0ad6b1"
+            ],
+            "actions": []
+          },
+          "timing": {
+            "startedAt": "2026-10-03T10:28:44.500614+00:00",
+            "validatedAt": "2026-10-03T10:28:44.550044+00:00",
+            "copiedAt": "2026-10-03T10:28:44.552215+00:00",
+            "registeredAt": "2026-10-03T10:28:44.585331+00:00",
+            "registrationSeconds": 0.084725
+          },
+          "dossierPath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/reports/character-packages/pinpin.json",
+          "entityId": "pinpin",
+          "stage": "interactions-first",
+          "provenance": {
+            "sourcePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/generated/e4330679e5a41614-pinpin-interactions-first.png",
+            "source": "native-imagegen",
+            "tool": "image_gen.imagegen",
+            "nativeOutputPath": "/Users/miguel_lemos/.codex/generated_images/01a0ff85-92dc-7c40-9adb-ef240551a423/exec-7f187943-95ac-40f7-8761-fa27f056ede4.png",
+            "nativeSha256": "e4330679e5a41614ca0ad6b12f0f7065917a234240844f123efbc134c176914b",
+            "prompt": "Create a separate polished portrait page titled Mr. PinPin — Family & friends, SIX large readable relational studies in 3 rows x 2 columns on warm ivory. Use reference1 published family breakfast for authoritative Mama LEFT copper warm quills, Papa CENTER broad adult cooler brown quills, older child PinPin RIGHT, tiny PomPom in Mama arms. Use reference2 published gray/tan Rabbit for Rabbit identity (original Lulu, alias inference only). Reference3 PinPin solo sheet locks his child design; do not substitute infant. Warm dimensional illustrated book rendering. Full separate bodies in each cell, clear feet/arms/paw ownership, believable contact and engaged eye lines, minimal backgrounds, natural expressions not constant grins. No wolf muzzles, no clothes, no duplicated limbs. Size: standing PinPin roughly half Papa height; Mama adult similar scale; PomPom tiny infant easily cradled in adult arms. SIX studies: 1 'Mama hugs PinPin' adult Mama kneels beside standing child, gentle reciprocal embrace, paws anatomically owned and clear whole bodies. 2 'Papa lends a paw' Papa standing helps child step across low wooden block, actual paw-to-paw contact and child grounded balanced. 3 'Family scale' shared ground-plane lineup Papa and Mama standing, Mama securely cradles tiny separate PomPom with support under back and hips, PinPin standing beside Papa half height. No independent infant standing. 4 'Gentle sibling hug' PinPin sits on mat beside tiny PomPom securely sitting in cream cushion nest, gentle one-arm sibling embrace, baby's two arms and feet separate, supported not squeezed. 5 'Leaf boats with Rabbit' older child PinPin and published Rabbit sit or kneel beside shallow stream, two actual leaf boats, ONE small bucket sits stable beside PinPin; both look at shared action. Rabbit a comparable child companion, long ears visible. 6 'Bread together' Papa seated on simple low bench, PinPin standing beside knee receives small bread piece paw-to-paw; warm attentive quiet expressions. Whole quills and feet framed with margins, no unrelated scene narrative, reference sheet reusable for scale/posture/contact. Labels below each study, consistent relative size across panels. Preserve all established identities and round short hedgehog muzzles. Exactly one page, no solo portrait row.\n",
+            "promptSha256": "2e2a3b8053e8f6a1e9e149aa1e7c1622b406418a16e00916609adfb14edb65a8",
+            "promptFile": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/reports/pinpin-interactions-prompt.txt",
+            "referenceIds": [
+              "asset-88d74c56a468e3f250b12dbc",
+              "asset-f945f4802de940f91dc6a78a",
+              "asset-5d505b375eed339baa7f7650"
+            ],
+            "inputAssets": [
+              {
+                "assetId": "asset-88d74c56a468e3f250b12dbc",
+                "sha256": "88d74c56a468e3f250b12dbcb5ecdb7b07bd1d789197663d8948ac199acd133d"
+              },
+              {
+                "assetId": "asset-f945f4802de940f91dc6a78a",
+                "sha256": "f945f4802de940f91dc6a78a2a5e7bc5d8e7b3239e3fdb3a883f56c73ebd7b3d"
+              },
+              {
+                "assetId": "asset-5d505b375eed339baa7f7650",
+                "sha256": "5d505b375eed339baa7f765028f4c61224a685dfcc4c01ee53c5f35fdb303700"
+              }
+            ],
+            "registeredBy": "studio-client/register-image.py"
+          }
+        }
+      ]
+    },
+    "interactions": {
+      "candidates": [
+        {
+          "assetId": "asset-5a4957a23785aa71b8b20485",
+          "sha256": "5a4957a23785aa71b8b20485688ccb87512ba2b951bcb5082623dba84c0fb1e7",
+          "bytes": 2783114,
+          "reviewStatus": "unreviewed",
+          "nativePath": "/Users/miguel_lemos/.codex/generated_images/01a0ff85-92dc-7c40-9adb-ef240551a423/exec-faf3d32b-ce9d-4411-8d2b-486bcc453695.png",
+          "generatedPath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/generated/5a4957a23785aa71-pinpin-interactions.png",
+          "reused": false,
+          "kernelRelease": "c9be233f9e18f6d480c8a5b7d50dff6384c9df2766510b5ef006b21ccec40c75",
+          "workflowCard": {
+            "type": "WorkflowCard",
+            "title": "pinpin-interactions.png",
+            "text": "Unreviewed candidate. Original image available at full size.",
+            "assetIds": [
+              "asset-5a4957a23785aa71b8b20485"
+            ],
+            "actions": []
+          },
+          "timing": {
+            "startedAt": "2026-10-03T10:31:50.939375+00:00",
+            "validatedAt": "2026-10-03T10:31:50.991090+00:00",
+            "copiedAt": "2026-10-03T10:31:50.993397+00:00",
+            "registeredAt": "2026-10-03T10:31:51.027327+00:00",
+            "registrationSeconds": 0.087958
+          },
+          "dossierPath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/reports/character-packages/pinpin.json",
+          "entityId": "pinpin",
+          "stage": "interactions",
+          "provenance": {
+            "sourcePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/generated/5a4957a23785aa71-pinpin-interactions.png",
+            "source": "native-imagegen",
+            "tool": "image_gen.imagegen",
+            "nativeOutputPath": "/Users/miguel_lemos/.codex/generated_images/01a0ff85-92dc-7c40-9adb-ef240551a423/exec-faf3d32b-ce9d-4411-8d2b-486bcc453695.png",
+            "nativeSha256": "5a4957a23785aa71b8b20485688ccb87512ba2b951bcb5082623dba84c0fb1e7",
+            "prompt": "Targeted repair to reference1 Mr.PinPin Family & friends six-panel page. Preserve panels1,2,5,6, all layout/text/art style and identities. ONLY correct relative scale in panels3 and4 using reference2 published family proportions. Panel3 Family scale: Papa and Mama remain adult full bodies same ground; reduce older PinPin at right to approximately HALF standing Papa height, retain his existing child face/quills/whole body, feet on same ground, head now near Papa waist. Mama holds tiny infant PomPom unchanged. Panel4 Gentle sibling hug: left character is older CHILD PinPin, not Mama. Keep his round child face and short limbs, seated on mat. Reduce PomPom inside cushion to tiny infant roughly one-third seated PinPin height, his whole separate supported infant body with two arms/two short legs and feet visible. Adjust cream cushion to infant size; PinPin gently wraps one arm round cushion/baby back without obscuring support or squeezing; clear paw ownership and mutual eyelines. Both characters whole bodies, no merged or extra limbs. Do not change other four panels or add anything. Preserve original warm dimensional illustrated style and readable labels. Exactly one repaired page.\n",
+            "promptSha256": "7262a90d2e14cf2c648931c0fd4e31d4f632382176e0ded97b403e4766ac2370",
+            "promptFile": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/reports/pinpin-interactions-repair-prompt.txt",
+            "referenceIds": [
+              "asset-e4330679e5a41614ca0ad6b1",
+              "asset-88d74c56a468e3f250b12dbc"
+            ],
+            "inputAssets": [
+              {
+                "assetId": "asset-e4330679e5a41614ca0ad6b1",
+                "sha256": "e4330679e5a41614ca0ad6b12f0f7065917a234240844f123efbc134c176914b"
+              },
+              {
+                "assetId": "asset-88d74c56a468e3f250b12dbc",
+                "sha256": "88d74c56a468e3f250b12dbcb5ecdb7b07bd1d789197663d8948ac199acd133d"
+              }
+            ],
+            "registeredBy": "studio-client/register-image.py"
+          }
+        }
+      ]
+    }
+  },
+  "updatedAt": "2026-10-03T10:31:51.027478+00:00"
+}

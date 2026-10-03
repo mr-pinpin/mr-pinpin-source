@@ -1,0 +1,196 @@
+{
+  "schemaVersion": 1,
+  "entityId": "elder",
+  "stages": {
+    "solo": {
+      "candidates": [
+        {
+          "assetId": "asset-cd76572711835f22310bd2e6",
+          "sha256": "cd76572711835f22310bd2e66749b1df7dce16918a23cda5542a104b8ec86dfc",
+          "bytes": 2443456,
+          "reviewStatus": "unreviewed",
+          "nativePath": "/Users/miguel_lemos/.codex/generated_images/01a0ff85-92dc-7c40-9adb-ef240551a423/exec-f2a85201-a228-40b1-9fcd-b9dd06743968.png",
+          "generatedPath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/generated/cd76572711835f22-elder-solo.png",
+          "reused": false,
+          "kernelRelease": "c9be233f9e18f6d480c8a5b7d50dff6384c9df2766510b5ef006b21ccec40c75",
+          "workflowCard": {
+            "type": "WorkflowCard",
+            "title": "elder-solo.png",
+            "text": "Unreviewed candidate. Original image available at full size.",
+            "assetIds": [
+              "asset-cd76572711835f22310bd2e6"
+            ],
+            "actions": []
+          },
+          "timing": {
+            "startedAt": "2026-10-03T11:08:16.624021+00:00",
+            "validatedAt": "2026-10-03T11:08:16.664598+00:00",
+            "copiedAt": "2026-10-03T11:08:16.666313+00:00",
+            "registeredAt": "2026-10-03T11:08:16.698749+00:00",
+            "registrationSeconds": 0.074737
+          },
+          "dossierPath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/reports/character-packages/elder.json",
+          "entityId": "elder",
+          "stage": "solo",
+          "provenance": {
+            "sourcePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/generated/cd76572711835f22-elder-solo.png",
+            "source": "native-imagegen",
+            "tool": "image_gen.imagegen",
+            "nativeOutputPath": "/Users/miguel_lemos/.codex/generated_images/01a0ff85-92dc-7c40-9adb-ef240551a423/exec-f2a85201-a228-40b1-9fcd-b9dd06743968.png",
+            "nativeSha256": "cd76572711835f22310bd2e66749b1df7dce16918a23cda5542a104b8ec86dfc",
+            "prompt": "One polished portrait production reference image on warm ivory, title and FOUR rows of SIX readable studies, consistent size within each row. Row1 FACE VIEWS: Front; Facing left 3/4 nose SCREEN LEFT both eyes; Facing left profile nose LEFT true side; Facing right 3/4 nose SCREEN RIGHT both eyes; Facing right profile nose RIGHT true side; Rear. Row2 EXPRESSIONS: Calm, Curious, Delight, Surprise, Thoughtful, Mild upset. Relaxed brows and natural closed mouths in calm/thoughtful; no constant grin. Row3 FULL BODY VIEWS same six directions, whole ears/tail/quills/feet with margin and contact shadows. Row4 NORMAL POSES as specified. Concise correct labels; no directional headings for expressions. Book warm dimensional illustrated style; preserve exact identity from references; no duplicate limbs or cropped extremities. No extra characters on solo sheet, no invented clothes or aging. This is an established-design reference study, not a redesign. Title The Elder. Reference1 Elder is RIGHT beside taller Papa LEFT; reference2 Elder sits writing, reference3 Elder stands with curled wooden staff. Use THIS already-established elderly hedgehog identity: round thin gold spectacles, pale cream fluffy cheeks/chest/tummy, cool gray-brown quills with pale tips, round ears, short rounded muzzle, small dark button nose, gentle brown irises, broad compact older body shorter than Papa. Retain spectacles in all applicable views, no long beard/clothes or wolf snout. Exact age NOT STATED; elderly is canonical. This sheet is the published HEDGEHOG Elder, not Tarin's separate original HUMAN wizard form (documented elsewhere). Row4: Stand with curled staff, Sit reading, Write with quill, Offer paw, Tend little plant, Rest. Full bodies; staff visible and correctly held only relevant pose. Calm humorous/attentive face range, not exaggerated frailty. No extra family characters.",
+            "promptSha256": "d25377715c0cce65e2b3f3ea1314b58532d0065b3084a6ab985a0d45cd5529f4",
+            "promptFile": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/reports/elder-solo-prompt.txt",
+            "referenceIds": [
+              "asset-d2e31bcadea2f57cc60e3759",
+              "asset-251f8d98b9978bfec60526df",
+              "asset-cd50848dac73d59085198fc0"
+            ],
+            "inputAssets": [
+              {
+                "assetId": "asset-d2e31bcadea2f57cc60e3759",
+                "sha256": "d2e31bcadea2f57cc60e375921475ea85df8892656609f0caa6d9ffdbe87c200"
+              },
+              {
+                "assetId": "asset-251f8d98b9978bfec60526df",
+                "sha256": "251f8d98b9978bfec60526df49519fd5cedb5c9f6125bbc2d677e1af2696dc2c"
+              },
+              {
+                "assetId": "asset-cd50848dac73d59085198fc0",
+                "sha256": "cd50848dac73d59085198fc0546416f9d11894b9c552dd40679810f58b095159"
+              }
+            ],
+            "registeredBy": "studio-client/register-image.py"
+          }
+        }
+      ]
+    },
+    "interactions-first": {
+      "candidates": [
+        {
+          "assetId": "asset-d913f445754887cb55849cc5",
+          "sha256": "d913f445754887cb55849cc55aae41d55640438719f0ecdd428a9b87b76a1e63",
+          "bytes": 3054053,
+          "reviewStatus": "unreviewed",
+          "nativePath": "/Users/miguel_lemos/.codex/generated_images/01a0ff85-92dc-7c40-9adb-ef240551a423/exec-6d714ed5-bf5f-4867-9fa8-55f2e8329c2e.png",
+          "generatedPath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/generated/d913f445754887cb-elder-interactions-first.png",
+          "reused": false,
+          "kernelRelease": "c9be233f9e18f6d480c8a5b7d50dff6384c9df2766510b5ef006b21ccec40c75",
+          "workflowCard": {
+            "type": "WorkflowCard",
+            "title": "elder-interactions-first.png",
+            "text": "Unreviewed candidate. Original image available at full size.",
+            "assetIds": [
+              "asset-d913f445754887cb55849cc5"
+            ],
+            "actions": []
+          },
+          "timing": {
+            "startedAt": "2026-10-03T11:15:43.612780+00:00",
+            "validatedAt": "2026-10-03T11:15:43.655605+00:00",
+            "copiedAt": "2026-10-03T11:15:43.657715+00:00",
+            "registeredAt": "2026-10-03T11:15:43.690353+00:00",
+            "registrationSeconds": 0.077591
+          },
+          "dossierPath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/reports/character-packages/elder.json",
+          "entityId": "elder",
+          "stage": "interactions-first",
+          "provenance": {
+            "sourcePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/generated/d913f445754887cb-elder-interactions-first.png",
+            "source": "native-imagegen",
+            "tool": "image_gen.imagegen",
+            "nativeOutputPath": "/Users/miguel_lemos/.codex/generated_images/01a0ff85-92dc-7c40-9adb-ef240551a423/exec-6d714ed5-bf5f-4867-9fa8-55f2e8329c2e.png",
+            "nativeSha256": "d913f445754887cb55849cc55aae41d55640438719f0ecdd428a9b87b76a1e63",
+            "prompt": "Make ONE separate polished portrait relational reference page, SIX large readable panels in 3 rows x 2 columns, clear short labels, warm ivory margins. Keep warm dimensional book illustration, full separate bodies including ears/quills/tails/feet, believable hands/paws contact and weight/support, natural gaze and expressions, no constant exaggerated smiles. No duplicated limbs, merged bodies, wolf faces or new clothing. Use all supplied references directly for identity and relative scale. These are reusable relationship studies, not an unrelated chapter. Title The Elder — Family & friends. Reference1 mentor004: Elder RIGHT smaller elderly hedgehog with gold spectacles, Papa LEFT taller broad adult; reference2 Elder writing with child; reference3 published family; reference4 solo Elder. Elder stays same old hedgehog, pale muzzle, cool gray-brown quills, gold round spectacles, short round nose. Not Tarin's human form. PinPin child is about half Papa standing height, Elder about85percent Papa height as published paired reference, not giant; Mama adult, PomPom TINY infant. Six studies: 1 'Old friends greet' standing Papa and Elder same ground, actual paw-to-paw friendly greeting with both whole bodies. 2 'Reading together' Elder sits low with open book, child PinPin seated beside him at clearly smaller scale, both follow same page. 3 'A gentle mentor hug' Elder kneels beside standing child PinPin, gentle arm around child's shoulders, two separate full bodies and clear paws, no merged quills. 4 'Watching the willow' Elder holds curled wooden staff in one paw and shows tiny willow shoot to child; shared eye lines, full grounded bodies, no magic effects. 5 'Mama and baby visit' standing Mama securely cradles tiny PomPom under back/hips, Elder gently offers a small flower for baby to look at; visible infant separate arms/feet, no independent infant standing or unsupported suspension. 6 'Working with Papa' Elder and Papa carry a short light wooden board together, both clearly holding their end, entire bodies grounded and reasonable small load, staff set safely beside them. Labels below panels. No invented exact heights/ages printed.",
+            "promptSha256": "b276b95e911ccd90c3d897b74681f5e3936bdb04120a959d578e7e11731785c5",
+            "promptFile": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/reports/elder-interactions-prompt.txt",
+            "referenceIds": [
+              "asset-d2e31bcadea2f57cc60e3759",
+              "asset-251f8d98b9978bfec60526df",
+              "asset-88d74c56a468e3f250b12dbc",
+              "asset-cd76572711835f22310bd2e6"
+            ],
+            "inputAssets": [
+              {
+                "assetId": "asset-d2e31bcadea2f57cc60e3759",
+                "sha256": "d2e31bcadea2f57cc60e375921475ea85df8892656609f0caa6d9ffdbe87c200"
+              },
+              {
+                "assetId": "asset-251f8d98b9978bfec60526df",
+                "sha256": "251f8d98b9978bfec60526df49519fd5cedb5c9f6125bbc2d677e1af2696dc2c"
+              },
+              {
+                "assetId": "asset-88d74c56a468e3f250b12dbc",
+                "sha256": "88d74c56a468e3f250b12dbcb5ecdb7b07bd1d789197663d8948ac199acd133d"
+              },
+              {
+                "assetId": "asset-cd76572711835f22310bd2e6",
+                "sha256": "cd76572711835f22310bd2e66749b1df7dce16918a23cda5542a104b8ec86dfc"
+              }
+            ],
+            "registeredBy": "studio-client/register-image.py"
+          }
+        }
+      ]
+    },
+    "interactions": {
+      "candidates": [
+        {
+          "assetId": "asset-ba2002ca5110c1a61b6782a9",
+          "sha256": "ba2002ca5110c1a61b6782a93318f5d5c425f2aefaa3c3021300b6f24b8b706a",
+          "bytes": 2913560,
+          "reviewStatus": "unreviewed",
+          "nativePath": "/Users/miguel_lemos/.codex/generated_images/01a0ff85-92dc-7c40-9adb-ef240551a423/exec-515af00f-7c34-44f8-a7f8-60be47a47119.png",
+          "generatedPath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/generated/ba2002ca5110c1a6-elder-interactions-repaired.png",
+          "reused": false,
+          "kernelRelease": "c9be233f9e18f6d480c8a5b7d50dff6384c9df2766510b5ef006b21ccec40c75",
+          "workflowCard": {
+            "type": "WorkflowCard",
+            "title": "elder-interactions-repaired.png",
+            "text": "Unreviewed candidate. Original image available at full size.",
+            "assetIds": [
+              "asset-ba2002ca5110c1a61b6782a9"
+            ],
+            "actions": []
+          },
+          "timing": {
+            "startedAt": "2026-10-03T11:23:20.205769+00:00",
+            "validatedAt": "2026-10-03T11:23:20.246982+00:00",
+            "copiedAt": "2026-10-03T11:23:20.249008+00:00",
+            "registeredAt": "2026-10-03T11:23:20.282023+00:00",
+            "registrationSeconds": 0.076263
+          },
+          "dossierPath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/reports/character-packages/elder.json",
+          "entityId": "elder",
+          "stage": "interactions",
+          "provenance": {
+            "sourcePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/generated/ba2002ca5110c1a6-elder-interactions-repaired.png",
+            "source": "native-imagegen",
+            "tool": "image_gen.imagegen",
+            "nativeOutputPath": "/Users/miguel_lemos/.codex/generated_images/01a0ff85-92dc-7c40-9adb-ef240551a423/exec-515af00f-7c34-44f8-a7f8-60be47a47119.png",
+            "nativeSha256": "ba2002ca5110c1a61b6782a93318f5d5c425f2aefaa3c3021300b6f24b8b706a",
+            "prompt": "Targeted correction of this Elder interaction reference page. Preserve all six panels, labels, warm dimensional book rendering and every successful detail. ONLY in panel 3 (gentle child hug), replace the adult who looks like Papa with the established Elder from reference 2: short compact elderly hedgehog, pale cream face, cool gray-brown quills, GOLD ROUND SPECTACLES clearly visible, short rounded muzzle and small button nose. No Papa shoulder satchel. Preserve PinPin's child identity, smaller size, gentle hug, separate bodies and believable paw ownership/contact. Elder kneels naturally to meet the child; two arms and legs, no duplicates. Other five panels unchanged. Return the complete readable reference page.",
+            "promptSha256": "f69f80d7b3146238b24119451fafd7b2ffdbe80c5c42e5bb86135fc139602686",
+            "promptFile": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/reports/elder-interactions-repair-prompt.txt",
+            "referenceIds": [
+              "asset-d913f445754887cb55849cc5",
+              "asset-d2e31bcadea2f57cc60e3759"
+            ],
+            "inputAssets": [
+              {
+                "assetId": "asset-d913f445754887cb55849cc5",
+                "sha256": "d913f445754887cb55849cc55aae41d55640438719f0ecdd428a9b87b76a1e63"
+              },
+              {
+                "assetId": "asset-d2e31bcadea2f57cc60e3759",
+                "sha256": "d2e31bcadea2f57cc60e375921475ea85df8892656609f0caa6d9ffdbe87c200"
+              }
+            ],
+            "registeredBy": "studio-client/register-image.py"
+          }
+        }
+      ]
+    }
+  },
+  "updatedAt": "2026-10-03T11:23:20.282239+00:00"
+}

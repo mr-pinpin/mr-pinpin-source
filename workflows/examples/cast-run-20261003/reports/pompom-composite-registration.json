@@ -1,0 +1,31 @@
+{
+  "id": "asset-483201f4d30299518e37b401",
+  "name": "Mr. PomPom — unified reference sheet",
+  "mime": "image/png",
+  "sha256": "483201f4d30299518e37b401259cdd365de5efcdfddf3624156c4c1f176b4f2a",
+  "bytes": 2271871,
+  "width": 1024,
+  "height": 1536,
+  "url": "/api/assets/asset-483201f4d30299518e37b401",
+  "storagePath": "assets/483201f4d30299518e37b401259cdd365de5efcdfddf3624156c4c1f176b4f2a.png",
+  "createdAt": "2026-10-03T09:09:50.079203+00:00",
+  "reviewStatus": "unreviewed",
+  "provenance": {
+    "sourcePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/generated/pompom-unified-reference.png",
+    "tool": "image_gen.imagegen",
+    "prompt": "Create one unified Mr. PomPom production reference composite from these TWO corrected source sheets. Preserve the exact infant identity and all 24 studies, do not redesign or age him. Portrait high resolution clean ivory reference poster: FOUR rows of SIX clearly separated readable cells. Row1 FACE VIEWS from reference1 top row; row2 EXPRESSIONS from reference1 bottom row; row3 SUPPORTED BODY VIEWS from reference2 top row; row4 GESTURES from reference2 bottom row. Uniform size within each row, whole body quills and feet uncropped. Use minimal title Mr. PomPom and short labels. IMPORTANT label directions by SCREEN direction to remove ambiguity: face row Front, Facing left 3/4, Facing left profile, Facing right 3/4, Facing right profile, Rear. Body row Front, Facing right 3/4, Facing right profile, Facing left 3/4, Facing left profile, Back. Preserve both different three-quarter directions, no duplicates. Expression labels Calm, Delight, Curious, Surprise, Sleepy, Mild upset. Gestures Reach, Wave, Clap, Hug ball, Look up, Recline. Preserve supported sitting/reclining, cream cushions, exactly two arms and legs; no standing. Face remains round with short infant muzzle dark brown eyes and warm quills. Keep natural range of emotion no compulsory raised brows. Every cell from source sheets retained, no family scene, no extra art or invented traits. Readable generous spacing. A single actual composite IMAGE.",
+    "referenceAssetIds": [
+      "asset-dd88542003c752494cb277f0",
+      "asset-4b5cccd08ae5bf379e3864a8"
+    ],
+    "nativeSourcePath": "/Users/miguel_lemos/.codex/generated_images/01a0ff85-92dc-7c40-9adb-ef240551a423/exec-851c8647-3d88-466a-b83c-a0ed6b8328b5.png",
+    "workflow": "workflows/character-creation.md",
+    "stage": "composite",
+    "designReview": {
+      "reviewer": "codex-wap1",
+      "capacity": "Miguel authorized representative as stated in conversation",
+      "decision": "prototype accepted as working identity; remaining package requested",
+      "personallyReviewedByMiguel": false
+    }
+  }
+}

@@ -1,0 +1,503 @@
+{
+  "character": {
+    "id": "beaver",
+    "canonicalName": "Beaver",
+    "aliases": [
+      "Beaver",
+      "Бобр",
+      "бобр"
+    ],
+    "exactAge": "not stated",
+    "evidencedLifeStage": "adult builder in adaptation",
+    "status": "pending",
+    "dossierPath": "workflows/characters/beaver/README.md",
+    "evidencePath": "workflows/characters/beaver/evidence.json",
+    "evidenceCount": 44,
+    "registeredReferenceIds": [
+      "asset-cd6fc9a3e01decb743ce5c99"
+    ],
+    "outputs": [],
+    "constraints": {
+      "identity": "Chestnut fur, blue work vest, broad paddle tail; capable collaborating builder.",
+      "scale": "",
+      "geometry": ""
+    }
+  },
+  "bibliography": [
+    {
+      "kind": "published",
+      "sourcePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/stories/bath-magic.json",
+      "sourceSha256": "e46b4a9227a70f32e2aabc74ea5858d838a1d04c5b5b71070c7d8ea089082b04",
+      "chapterId": "bath-magic",
+      "sceneId": "scene-30d",
+      "excerpt": "{\"paragraphs\": {\"en\": [\"“Beaver and I could build a wooden channel,” said Papa. “All the way to the garden.”\"], \"ru\": [\"«Мы с Бобром можем построить деревянный желоб, — сказал Папа. — До самого сада».\"], \"es\": [\"«Castor y yo podríamos construir un canal de madera», dijo Papá. «Hasta el jardín».\"]}, \"alt\": {\"en\": \"“Beaver and I could build a wooden channel,” said Papa. “All the way to the garden.”\", \"ru\": \"«Мы с Бобром можем построить деревянный желоб, — сказал Папа. — До самого сада».\", \"es\": \"«Castor y yo podríamos construir un canal de madera», dijo Papá. «Hasta el jardín».\"}, \"caption\": null, \"captions\": null}",
+      "imagePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/images/published/bath-magic/scene-30d.webp",
+      "imageSha256": "6037c605a14318d4f36528a29db26dd9de709c111bc8db0d491fcbabbf34945d"
+    },
+    {
+      "kind": "published",
+      "sourcePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/stories/bath-magic.json",
+      "sourceSha256": "e46b4a9227a70f32e2aabc74ea5858d838a1d04c5b5b71070c7d8ea089082b04",
+      "chapterId": "bath-magic",
+      "sceneId": "scene-320",
+      "excerpt": "{\"paragraphs\": {\"en\": [\"Beyond the trees, everyone was busy beside the beavers’ pond.\"], \"ru\": [\"За деревьями, у бобрового пруда, работа шла вовсю.\"], \"es\": [\"Tras los árboles, todos trabajaban junto al estanque de los castores.\"]}, \"alt\": {\"en\": \"Beyond the trees, everyone was busy beside the beavers’ pond.\", \"ru\": \"За деревьями, у бобрового пруда, работа шла вовсю.\", \"es\": \"Tras los árboles, todos trabajaban junto al estanque de los castores.\"}, \"caption\": null, \"captions\": null}",
+      "imagePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/images/published/bath-magic/r24/scene-320.webp",
+      "imageSha256": "1fdfa64911d086e217617b9b8603d74753f2035de076f2a7cea8ba41ffddfbc5"
+    },
+    {
+      "kind": "published",
+      "sourcePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/stories/bath-magic.json",
+      "sourceSha256": "e46b4a9227a70f32e2aabc74ea5858d838a1d04c5b5b71070c7d8ea089082b04",
+      "chapterId": "bath-magic",
+      "sceneId": "scene-321",
+      "excerpt": "{\"paragraphs\": {\"en\": [\"‘Come and see!’ called Beaver. Mama Beaver and the little ones waved.\"], \"ru\": [\"«Идите смотреть!» — позвал Бобр. Мама-бобриха и малыши помахали им.\"], \"es\": [\"«¡Venid a ver!», llamó Castor. Mamá Castora y los pequeños saludaron.\"]}, \"alt\": {\"en\": \"‘Come and see!’ called Beaver. Mama Beaver and the little ones waved.\", \"ru\": \"«Идите смотреть!» — позвал Бобр. Мама-бобриха и малыши помахали им.\", \"es\": \"«¡Venid a ver!», llamó Castor. Mamá Castora y los pequeños saludaron.\"}, \"caption\": null, \"captions\": null}",
+      "imagePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/images/published/bath-magic/r24/scene-321.webp",
+      "imageSha256": "cdaa2972246ba0f2f8cc7acc14289d375dd5903c2c8bfb1473f968c33daeee82"
+    },
+    {
+      "kind": "published",
+      "sourcePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/stories/bath-magic.json",
+      "sourceSha256": "e46b4a9227a70f32e2aabc74ea5858d838a1d04c5b5b71070c7d8ea089082b04",
+      "chapterId": "bath-magic",
+      "sceneId": "scene-322",
+      "excerpt": "{\"paragraphs\": {\"en\": [\"Plop! Plop! The little beavers slipped back into the water.\"], \"ru\": [\"Плюх! Плюх! Бобрята снова скользнули в воду.\"], \"es\": [\"¡Plop! ¡Plop! Los pequeños castores volvieron a meterse en el agua.\"]}, \"alt\": {\"en\": \"Plop! Plop! The little beavers slipped back into the water.\", \"ru\": \"Плюх! Плюх! Бобрята снова скользнули в воду.\", \"es\": \"¡Plop! ¡Plop! Los pequeños castores volvieron a meterse en el agua.\"}, \"caption\": null, \"captions\": null}",
+      "imagePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/images/published/bath-magic/r24/scene-322.webp",
+      "imageSha256": "b59d39d8ec4781d4545267fbaf39bf8fa5775984eb51357c2433591bf9355728"
+    },
+    {
+      "kind": "published",
+      "sourcePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/stories/bath-magic.json",
+      "sourceSha256": "e46b4a9227a70f32e2aabc74ea5858d838a1d04c5b5b71070c7d8ea089082b04",
+      "chapterId": "bath-magic",
+      "sceneId": "scene-324",
+      "excerpt": "{\"paragraphs\": {\"en\": [\"‘This is our pond,’ said Mama Beaver. ‘And the stream keeps going.’\"], \"ru\": [\"«Это наш пруд, — сказала мама-бобриха. — А ручей течёт дальше».\"], \"es\": [\"«Este es nuestro estanque —dijo Mamá Castora—. Y el arroyo sigue su camino».\"]}, \"alt\": {\"en\": \"‘This is our pond,’ said Mama Beaver. ‘And the stream keeps going.’\", \"ru\": \"«Это наш пруд, — сказала мама-бобриха. — А ручей течёт дальше».\", \"es\": \"«Este es nuestro estanque —dijo Mamá Castora—. Y el arroyo sigue su camino».\"}, \"caption\": null, \"captions\": null}",
+      "imagePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/images/published/bath-magic/r24/scene-324.webp",
+      "imageSha256": "a69d3f72e4a1ca7053b7a5e67dca3e01788ab6f4a0ce30fb1ed8437e096f94aa"
+    },
+    {
+      "kind": "published",
+      "sourcePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/stories/bath-magic.json",
+      "sourceSha256": "e46b4a9227a70f32e2aabc74ea5858d838a1d04c5b5b71070c7d8ea089082b04",
+      "chapterId": "bath-magic",
+      "sceneId": "scene-325",
+      "excerpt": "{\"paragraphs\": {\"en\": [\"Beaver wiggled a loose branch. ‘This side needs new wood.’\"], \"ru\": [\"Бобр пошевелил расшатавшуюся ветку. «Сюда нужно новое дерево».\"], \"es\": [\"Castor movió una rama suelta. «Este lado necesita madera nueva».\"]}, \"alt\": {\"en\": \"Beaver wiggled a loose branch. ‘This side needs new wood.’\", \"ru\": \"Бобр пошевелил расшатавшуюся ветку. «Сюда нужно новое дерево».\", \"es\": \"Castor movió una rama suelta. «Este lado necesita madera nueva».\"}, \"caption\": null, \"captions\": null}",
+      "imagePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/images/published/bath-magic/r24/scene-325.webp",
+      "imageSha256": "055176c4c2d74a6446c5ace50db0944b4db5914abc8b0bebd8fa0a75f33b1cfe"
+    },
+    {
+      "kind": "published",
+      "sourcePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/stories/bath-magic.json",
+      "sourceSha256": "e46b4a9227a70f32e2aabc74ea5858d838a1d04c5b5b71070c7d8ea089082b04",
+      "chapterId": "bath-magic",
+      "sceneId": "scene-331",
+      "excerpt": "{\"paragraphs\": {\"en\": [\"‘These will bend nicely,’ said Beaver. New buds stayed on the willow.\"], \"ru\": [\"«Эти хорошо гнутся», — сказал Бобр. На иве остались новые почки.\"], \"es\": [\"«Estos se doblarán muy bien», dijo Castor. En el sauce quedaron brotes nuevos.\"]}, \"alt\": {\"en\": \"‘These will bend nicely,’ said Beaver. New buds stayed on the willow.\", \"ru\": \"«Эти хорошо гнутся», — сказал Бобр. На иве остались новые почки.\", \"es\": \"«Estos se doblarán muy bien», dijo Castor. En el sauce quedaron brotes nuevos.\"}, \"caption\": null, \"captions\": null}",
+      "imagePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/images/published/bath-magic/r24/scene-331.webp",
+      "imageSha256": "0ddd34375a1181ecbc896f36fa872f04e1c782341152cb351c3220dbc361feba"
+    },
+    {
+      "kind": "published",
+      "sourcePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/stories/bath-magic.json",
+      "sourceSha256": "e46b4a9227a70f32e2aabc74ea5858d838a1d04c5b5b71070c7d8ea089082b04",
+      "chapterId": "bath-magic",
+      "sceneId": "scene-356",
+      "excerpt": "{\"paragraphs\": {\"en\": [\"‘Oh, thank you!’ said Beaver.\"], \"ru\": [\"«О, спасибо!» — сказал Бобр.\"], \"es\": [\"«¡Oh, gracias!», dijo Castor.\"]}, \"alt\": {\"en\": \"‘Oh, thank you!’ said Beaver.\", \"ru\": \"«О, спасибо!» — сказал Бобр.\", \"es\": \"«¡Oh, gracias!», dijo Castor.\"}, \"caption\": null, \"captions\": null}",
+      "imagePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/images/published/bath-magic/r24/scene-356.webp",
+      "imageSha256": "84843233638ea2b9ca4592ecc11b48310188459eb83ea131d71ea691d48d7ed0"
+    },
+    {
+      "kind": "published",
+      "sourcePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/stories/bath-magic.json",
+      "sourceSha256": "e46b4a9227a70f32e2aabc74ea5858d838a1d04c5b5b71070c7d8ea089082b04",
+      "chapterId": "bath-magic",
+      "sceneId": "scene-359",
+      "excerpt": "{\"paragraphs\": {\"en\": [\"‘Oh, thank you!’ said Beaver again.\"], \"ru\": [\"«О, спасибо!» — снова сказал Бобр.\"], \"es\": [\"«¡Oh, gracias!», repitió Castor.\"]}, \"alt\": {\"en\": \"‘Oh, thank you!’ said Beaver again.\", \"ru\": \"«О, спасибо!» — снова сказал Бобр.\", \"es\": \"«¡Oh, gracias!», repitió Castor.\"}, \"caption\": null, \"captions\": null}",
+      "imagePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/images/published/bath-magic/r24/scene-359.webp",
+      "imageSha256": "79213ac337e412fbf7b804abb9804c0c1a4e038ba3cf6d2622c56cb7c12496be"
+    },
+    {
+      "kind": "published",
+      "sourcePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/stories/bath-magic.json",
+      "sourceSha256": "e46b4a9227a70f32e2aabc74ea5858d838a1d04c5b5b71070c7d8ea089082b04",
+      "chapterId": "bath-magic",
+      "sceneId": "scene-361",
+      "excerpt": "{\"paragraphs\": {\"en\": [\"The Elder raised one finger. Beaver was already turning away.\"], \"ru\": [\"Старейшина поднял один палец. А Бобр уже отвернулся.\"], \"es\": [\"El Anciano levantó un dedo. Castor ya se estaba dando la vuelta.\"]}, \"alt\": {\"en\": \"The Elder raised one finger. Beaver was already turning away.\", \"ru\": \"Старейшина поднял один палец. А Бобр уже отвернулся.\", \"es\": \"El Anciano levantó un dedo. Castor ya se estaba dando la vuelta.\"}, \"caption\": null, \"captions\": null}",
+      "imagePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/images/published/bath-magic/r24/scene-361.webp",
+      "imageSha256": "7a1c420a5c7302bee826ea9a45293824cb8aed76a4e7ebe4f09c1a1cdc95adf0"
+    },
+    {
+      "kind": "published",
+      "sourcePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/stories/bath-magic.json",
+      "sourceSha256": "e46b4a9227a70f32e2aabc74ea5858d838a1d04c5b5b71070c7d8ea089082b04",
+      "chapterId": "bath-magic",
+      "sceneId": "scene-346",
+      "excerpt": "{\"paragraphs\": {\"en\": [\"Beaver added another armful. The Elder looked at the pile. Then at the stump.\"], \"ru\": [\"Бобр добавил ещё охапку. Старейшина посмотрел на кучу. Потом — на пенёк.\"], \"es\": [\"Castor añadió otro brazado. El Anciano miró el montón. Después, el tocón.\"]}, \"alt\": {\"en\": \"Beaver added another armful. The Elder looked at the pile. Then at the stump.\", \"ru\": \"Бобр добавил ещё охапку. Старейшина посмотрел на кучу. Потом — на пенёк.\", \"es\": \"Castor añadió otro brazado. El Anciano miró el montón. Después, el tocón.\"}, \"caption\": null, \"captions\": null}",
+      "imagePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/images/published/bath-magic/r24/scene-346.webp",
+      "imageSha256": "85b43be2df263aa927e9430c2e6c6563c6b1bbf399aced3a2baabef59b71a5ed"
+    },
+    {
+      "kind": "published",
+      "sourcePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/stories/bath-magic.json",
+      "sourceSha256": "e46b4a9227a70f32e2aabc74ea5858d838a1d04c5b5b71070c7d8ea089082b04",
+      "chapterId": "bath-magic",
+      "sceneId": "scene-352",
+      "excerpt": "{\"paragraphs\": {\"en\": [\"Beaver put his shears away. ‘Oh. A tree.’\"], \"ru\": [\"Бобр убрал секатор. «А-а. Дерево».\"], \"es\": [\"Castor guardó las tijeras. «Ah. Un árbol».\"]}, \"alt\": {\"en\": \"Beaver put his shears away. ‘Oh. A tree.’\", \"ru\": \"Бобр убрал секатор. «А-а. Дерево».\", \"es\": \"Castor guardó las tijeras. «Ah. Un árbol».\"}, \"caption\": null, \"captions\": null}",
+      "imagePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/images/published/bath-magic/r24/scene-352.webp",
+      "imageSha256": "c077a268c6a0ba1160536636f6165c1cd9d3491a2fdbb03aff8b630a8fe85c78"
+    },
+    {
+      "kind": "published",
+      "sourcePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/stories/bath-magic.json",
+      "sourceSha256": "e46b4a9227a70f32e2aabc74ea5858d838a1d04c5b5b71070c7d8ea089082b04",
+      "chapterId": "bath-magic",
+      "sceneId": "scene-333",
+      "excerpt": "{\"paragraphs\": {\"en\": [\"Mama Beaver tucked thin branches between the thick ones.\"], \"ru\": [\"Мама-бобриха вплетала тонкие ветки между толстыми.\"], \"es\": [\"Mamá Castora metía las ramas finas entre las gruesas.\"]}, \"alt\": {\"en\": \"Mama Beaver tucked thin branches between the thick ones.\", \"ru\": \"Мама-бобриха вплетала тонкие ветки между толстыми.\", \"es\": \"Mamá Castora metía las ramas finas entre las gruesas.\"}, \"caption\": null, \"captions\": null}",
+      "imagePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/images/published/bath-magic/r24/scene-333.webp",
+      "imageSha256": "4cdd09189d14f7bc3ae62651d9ddc8632ea8ba1e815a4dccaaa3b31f50443158"
+    },
+    {
+      "kind": "published",
+      "sourcePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/stories/bath-magic.json",
+      "sourceSha256": "e46b4a9227a70f32e2aabc74ea5858d838a1d04c5b5b71070c7d8ea089082b04",
+      "chapterId": "bath-magic",
+      "sceneId": "scene-334",
+      "excerpt": "{\"paragraphs\": {\"en\": [\"PinPin and the little beavers carried the small branches.\"], \"ru\": [\"Пин-Пин и бобрята носили маленькие веточки.\"], \"es\": [\"PinPin y los pequeños castores llevaban las ramitas.\"]}, \"alt\": {\"en\": \"PinPin and the little beavers carried the small branches.\", \"ru\": \"Пин-Пин и бобрята носили маленькие веточки.\", \"es\": \"PinPin y los pequeños castores llevaban las ramitas.\"}, \"caption\": null, \"captions\": null}",
+      "imagePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/images/published/bath-magic/r24/scene-334.webp",
+      "imageSha256": "62f6361148d66e0c3e6ea8e7c9a8157e4b9a0cd010f9adbd58c30e645ab3d6d7"
+    },
+    {
+      "kind": "published",
+      "sourcePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/stories/bath-magic.json",
+      "sourceSha256": "e46b4a9227a70f32e2aabc74ea5858d838a1d04c5b5b71070c7d8ea089082b04",
+      "chapterId": "bath-magic",
+      "sceneId": "scene-336",
+      "excerpt": "{\"paragraphs\": {\"en\": [\"One last twig. Mama Beaver pressed it snugly into place.\"], \"ru\": [\"Последняя веточка. Мама-бобриха крепко вставила её на место.\"], \"es\": [\"Una última ramita. Mamá Castora la encajó bien.\"]}, \"alt\": {\"en\": \"One last twig. Mama Beaver pressed it snugly into place.\", \"ru\": \"Последняя веточка. Мама-бобриха крепко вставила её на место.\", \"es\": \"Una última ramita. Mamá Castora la encajó bien.\"}, \"caption\": null, \"captions\": null}",
+      "imagePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/images/published/bath-magic/r24/scene-336.webp",
+      "imageSha256": "d8630c8062ba97083a02ded57c0e34420123b7b68860633821566c16f587b20b"
+    },
+    {
+      "kind": "published",
+      "sourcePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/stories/bath-magic.json",
+      "sourceSha256": "e46b4a9227a70f32e2aabc74ea5858d838a1d04c5b5b71070c7d8ea089082b04",
+      "chapterId": "bath-magic",
+      "sceneId": "scene-339",
+      "excerpt": "{\"paragraphs\": {\"en\": [\"‘Could we make a water-road at home?’ PinPin asked Beaver.\"], \"ru\": [\"«А можно сделать такую дорогу для воды у нас дома?» — спросил Пин-Пин у Бобра.\"], \"es\": [\"«¿Podríamos hacer un camino para el agua en casa?», preguntó PinPin a Castor.\"]}, \"alt\": {\"en\": \"‘Could we make a water-road at home?’ PinPin asked Beaver.\", \"ru\": \"«А можно сделать такую дорогу для воды у нас дома?» — спросил Пин-Пин у Бобра.\", \"es\": \"«¿Podríamos hacer un camino para el agua en casa?», preguntó PinPin a Castor.\"}, \"caption\": null, \"captions\": null}",
+      "imagePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/images/published/bath-magic/r24/scene-339.webp",
+      "imageSha256": "8f423a3be284f906a0a01825b2e8bc79ff724002a38262c53ba21b2d6d078c8a"
+    },
+    {
+      "kind": "published",
+      "sourcePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/stories/bath-magic.json",
+      "sourceSha256": "e46b4a9227a70f32e2aabc74ea5858d838a1d04c5b5b71070c7d8ea089082b04",
+      "chapterId": "bath-magic",
+      "sceneId": "scene-32d",
+      "excerpt": "{\"paragraphs\": {\"en\": [\"Over bread and fruit, PinPin told Beaver about the bath. “It keeps filling, even when nobody is splashing!”\"], \"ru\": [\"Они ели хлеб и фрукты, а Пин-Пин рассказывал Бобру про ванну. «Она всё наполняется, даже когда никто не плещется!»\"], \"es\": [\"Mientras compartían pan y fruta, PinPin le habló a Castor de la bañera. «¡Sigue llenándose aunque nadie chapotee!»\"]}, \"alt\": {\"en\": \"Over bread and fruit, PinPin told Beaver about the bath. “It keeps filling, even when nobody is splashing!”\", \"ru\": \"Они ели хлеб и фрукты, а Пин-Пин рассказывал Бобру про ванну. «Она всё наполняется, даже когда никто не плещется!»\", \"es\": \"Mientras compartían pan y fruta, PinPin le habló a Castor de la bañera. «¡Sigue llenándose aunque nadie chapotee!»\"}, \"caption\": null, \"captions\": null}",
+      "imagePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/images/published/bath-magic/r24/scene-32d.webp",
+      "imageSha256": "6444489887a19fe185d7d1bfd05b4cc668b7e14f7d661f1b49b9ef3eb3db63f1"
+    },
+    {
+      "kind": "published",
+      "sourcePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/stories/bath-magic.json",
+      "sourceSha256": "e46b4a9227a70f32e2aabc74ea5858d838a1d04c5b5b71070c7d8ea089082b04",
+      "chapterId": "bath-magic",
+      "sceneId": "scene-32e",
+      "excerpt": "{\"paragraphs\": {\"en\": [\"Beaver drew a little path in the earth. “We’ll give the water a road of its own.”\"], \"ru\": [\"Бобр начертил на земле дорожку. «Сделаем для воды её собственную дорогу».\"], \"es\": [\"Castor dibujó un caminito en la tierra. «Le haremos al agua su propio camino».\"]}, \"alt\": {\"en\": \"Beaver drew a little path in the earth. “We’ll give the water a road of its own.”\", \"ru\": \"Бобр начертил на земле дорожку. «Сделаем для воды её собственную дорогу».\", \"es\": \"Castor dibujó un caminito en la tierra. «Le haremos al agua su propio camino».\"}, \"caption\": null, \"captions\": null}",
+      "imagePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/images/published/bath-magic/scene-32e.webp",
+      "imageSha256": "7113adce5b475f5682746548774e7e15a4b99c7d12372b19bef05b4bee90db09"
+    },
+    {
+      "kind": "published",
+      "sourcePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/stories/bath-magic.json",
+      "sourceSha256": "e46b4a9227a70f32e2aabc74ea5858d838a1d04c5b5b71070c7d8ea089082b04",
+      "chapterId": "bath-magic",
+      "sceneId": "scene-32h",
+      "excerpt": "{\"paragraphs\": {\"en\": [\"Beaver shaped the wood. Papa checked the edges, and PinPin stacked the little supports.\"], \"ru\": [\"Бобр придавал дереву нужную форму. Папа проверял края, а Пин-Пин складывал маленькие подпорки.\"], \"es\": [\"Castor dio forma a la madera. Papá revisó los bordes y PinPin apiló los pequeños soportes.\"]}, \"alt\": {\"en\": \"Beaver shaped the wood. Papa checked the edges, and PinPin stacked the little supports.\", \"ru\": \"Бобр придавал дереву нужную форму. Папа проверял края, а Пин-Пин складывал маленькие подпорки.\", \"es\": \"Castor dio forma a la madera. Papá revisó los bordes y PinPin apiló los pequeños soportes.\"}, \"caption\": null, \"captions\": null}",
+      "imagePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/images/published/bath-magic/scene-32h.webp",
+      "imageSha256": "7abb1583e33a7349da16ee35d840ac548f99db106a5d47a8f0c6a887db362d10"
+    },
+    {
+      "kind": "published",
+      "sourcePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/stories/bath-magic.json",
+      "sourceSha256": "e46b4a9227a70f32e2aabc74ea5858d838a1d04c5b5b71070c7d8ea089082b04",
+      "chapterId": "bath-magic",
+      "sceneId": "scene-32h3",
+      "excerpt": "{\"paragraphs\": {\"en\": [\"Beaver ran a paw along the last smooth edge. “There. Ready to make your water-road.”\"], \"ru\": [\"Бобр провёл лапой по последнему гладкому краю. — Готово. Можно строить дорогу для воды.\"], \"es\": [\"Castor pasó una pata por el último borde liso. —Ya está. Podéis hacer vuestro camino para el agua.\"]}, \"alt\": {\"en\": \"Beaver ran a paw along the last smooth edge. “There. Ready to make your water-road.”\", \"ru\": \"Бобр провёл лапой по последнему гладкому краю. — Готово. Можно строить дорогу для воды.\", \"es\": \"Castor pasó una pata por el último borde liso. —Ya está. Podéis hacer vuestro camino para el agua.\"}, \"caption\": null, \"captions\": null}",
+      "imagePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/images/published/bath-magic/r17/scene-32h3.webp",
+      "imageSha256": "f9e85d3b80036c8121b86db74b958113ec864c231178fa00eb4d9b5f42fc198d"
+    },
+    {
+      "kind": "published",
+      "sourcePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/stories/bath-magic.json",
+      "sourceSha256": "e46b4a9227a70f32e2aabc74ea5858d838a1d04c5b5b71070c7d8ea089082b04",
+      "chapterId": "bath-magic",
+      "sceneId": "scene-32i2",
+      "excerpt": "{\"paragraphs\": {\"en\": [\"“Thank you!” called PinPin. Mr. Bear lifted a paw, and Beaver waved his little plane.\"], \"ru\": [\"— Спасибо! — крикнул Пин-Пин. Господин Медведь поднял лапу, а Бобр помахал рубанком.\"], \"es\": [\"—¡Gracias! —gritó PinPin. El señor Oso levantó una pata y Castor saludó con su cepillo de carpintero.\"]}, \"alt\": {\"en\": \"“Thank you!” called PinPin. Mr. Bear lifted a paw, and Beaver waved his little plane.\", \"ru\": \"— Спасибо! — крикнул Пин-Пин. Господин Медведь поднял лапу, а Бобр помахал рубанком.\", \"es\": \"—¡Gracias! —gritó PinPin. El señor Oso levantó una pata y Castor saludó con su cepillo de carpintero.\"}, \"caption\": null, \"captions\": null}",
+      "imagePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/images/published/bath-magic/r24/scene-32i2.webp",
+      "imageSha256": "9c0024ca35541c2f6fac396f16d01beddf873ffb396f4b27e48e8f2ab6adf301"
+    },
+    {
+      "kind": "published",
+      "sourcePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/stories/timber-tractor-chapter-02.json",
+      "sourceSha256": "264922ba0956969aeb975a2cba594affcc496366444d271f5ecfb8cdfef10440",
+      "chapterId": "timber-tractor",
+      "sceneId": "scene-01",
+      "excerpt": "{\"paragraphs\": {\"en\": [\"The picnic was over. Beaver and Mama folded the red-and-white cloth while Mr. PinPin waited by the basket. His baby brother, Mr. PomPom, stayed close to Mama. Behind them, the little bridge was still quite uneaten.\"], \"es\": [\"El pícnic había terminado. Castor y Mamá doblaron el mantel rojo y blanco. El señor PinPin esperaba junto a la cesta; su hermanito bebé, el señor PomPom, seguía cerca de Mamá. ¡El puente todavía estaba entero!\"], \"ru\": [\"Пикник закончился. Бобр и Мама складывали красно-белую скатерть, а мистер Пин-Пин ждал возле корзинки. Его младший братик, малыш мистер Пом-Пом, оставался рядом с Мамой. Позади них стоял мостик. Никто его так и не съел!\"]}, \"alt\": {\"en\": \"Beaver in his blue vest and adult Mama hold opposite edges of the red-and-white picnic cloth to fold it. PinPin waits behind the basket; baby PomPom stays near Mama. The intact bridge and parked tractor with empty trailer remain behind them.\", \"es\": \"Castor, con su chaleco azul, y Mamá adulta sujetan los bordes opuestos del mantel rojo y blanco para doblarlo. PinPin espera detrás de la cesta; el bebé PomPom, cerca de Mamá. Al fondo siguen el puente intacto y el tractor estacionado con el remolque vacío.\", \"ru\": \"Бобр в синем жилете и взрослая Мама держат противоположные края красно-белой скатерти, чтобы её сложить. Пин-Пин ждёт за корзинкой, малыш Пом-Пом возле Мамы. Позади видны целый мостик и стоящий трактор с пустым прицепом.\"}, \"caption\": null, \"captions\": null}",
+      "imagePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/images/standalone/timber-tractor/chapter-02/scene-01.png",
+      "imageSha256": "2ddc688505374f005f32a85e03c1d8ce21af871b4ea5fd65765232ebe23b1e83"
+    },
+    {
+      "kind": "published",
+      "sourcePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/stories/timber-tractor-chapter-02.json",
+      "sourceSha256": "264922ba0956969aeb975a2cba594affcc496366444d271f5ecfb8cdfef10440",
+      "chapterId": "timber-tractor",
+      "sceneId": "scene-02",
+      "excerpt": "{\"paragraphs\": {\"en\": [\"\\\"Goodbye, Beaver! Thank you for today,\\\" said PinPin. Beaver waved beside the parked tractor. Mama took the basket, and the family started along the forest path. The tractor stayed with Beaver; their way home was on little paws.\"], \"es\": [\"\\\"¡Adiós, Castor! Gracias por este día\\\", dijo PinPin. Castor los despidió junto al tractor estacionado. Mamá tomó la cesta y los tres siguieron el sendero. El tractor se quedó con Castor; ellos volverían a casa sobre sus patitas.\"], \"ru\": [\"\\\"До свидания, Бобр! Спасибо за чудесный день,\\\" сказал Пин-Пин. Бобр махал им возле стоящего трактора. Мама взяла корзинку. Они отправились по лесной тропинке. Трактор остался с Бобром, а домой их понесли маленькие лапки.\"]}, \"alt\": {\"en\": \"Mama, PinPin and baby PomPom leave the clearing toward the right foreground along the forest path. Mama carries a small wicker basket by its handle in her mouth. Beaver in his blue vest stays in the left background, waving beside the parked tractor and empty trailer.\", \"es\": \"Mamá, PinPin y el bebé PomPom dejan el claro y avanzan hacia el primer plano a la derecha por el sendero. Mamá lleva una cestita de mimbre con el asa en la boca. Castor, con chaleco azul, se queda al fondo a la izquierda, despidiéndolos junto al tractor estacionado y el remolque vacío.\", \"ru\": \"Мама, Пин-Пин и малыш Пом-Пом уходят с полянки по тропинке вправо на передний план. Мама несёт маленькую плетёную корзинку, держа ручку во рту. Бобр в синем жилете остаётся слева вдали у стоящего трактора с пустым прицепом и машет им вслед.\"}, \"caption\": null, \"captions\": null}",
+      "imagePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/images/standalone/timber-tractor/chapter-02/scene-02.png",
+      "imageSha256": "8f7b9f98a337bc2d442590db2fb7077535876a8784ef0e8cfa7b84d975576e75"
+    },
+    {
+      "kind": "published",
+      "sourcePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/stories/timber-tractor.json",
+      "sourceSha256": "e8a6f35d74dce7202751b35978cac1270befe2be8fe5aaadec3fc296c7d5067b",
+      "chapterId": "timber-tractor",
+      "sceneId": "scene-03",
+      "excerpt": "{\"paragraphs\": {\"en\": [\"Around the bend stood a red tractor with an empty trailer. Its engine fell quiet. A beaver in a blue vest greeted him beside it.\", \"\\\"Good morning! I'm Beaver. I have a bridge to mend.\\\"\"], \"es\": [\"Tras la curva había un tractor rojo con el remolque vacío. El motor se quedó en silencio. A su lado, un castor con chaleco azul lo saludó.\", \"\\\"¡Buenos días! Soy Castor. Tengo un puente que reparar.\\\"\"], \"ru\": [\"За поворотом стоял красный трактор с пустым прицепом. Мотор затих. Рядом его приветствовал бобр в синем жилете.\", \"\\\"Доброе утро! Я Бобр. Мне нужно починить мостик.\\\"\"]}, \"alt\": {\"en\": \"Small Mr. PinPin meets a chestnut beaver in a blue work vest beside a stationary red tractor with an empty trailer.\", \"es\": \"El pequeño señor PinPin conoce a un castor castaño con chaleco azul junto a un tractor rojo parado con el remolque vacío.\", \"ru\": \"Маленький мистер Пин-Пин знакомится с каштановым бобром в синем рабочем жилете у стоящего красного трактора с пустым прицепом.\"}, \"caption\": null, \"captions\": null}",
+      "imagePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/images/standalone/timber-tractor/scene-03.png",
+      "imageSha256": "cd6fc9a3e01decb743ce5c999fb4eca7ccfccd568115695c492ac9e9cacdaba4"
+    },
+    {
+      "kind": "published",
+      "sourcePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/stories/timber-tractor.json",
+      "sourceSha256": "e8a6f35d74dce7202751b35978cac1270befe2be8fe5aaadec3fc296c7d5067b",
+      "chapterId": "timber-tractor",
+      "sceneId": "scene-04",
+      "excerpt": "{\"paragraphs\": {\"en\": [\"\\\"The wind brought this tree down,\\\" Beaver explained. \\\"We'll use the fallen wood. Farther along the stream, our little footbridge needs new wood. This tree can help everyone cross again.\\\"\"], \"es\": [\"\\\"El viento derribó este árbol\\\", explicó Castor. \\\"Usaremos la madera del árbol caído. Más adelante, junto al arroyo, nuestro puentecito necesita madera nueva. Este árbol puede ayudarnos a cruzar de nuevo.\\\"\"], \"ru\": [\"\\\"Это дерево повалил ветер,\\\" объяснил Бобр. \\\"Мы возьмём древесину упавшего дерева. Дальше по ручью есть маленький пешеходный мостик. Ему нужна новая древесина. Это дерево поможет всем снова перейти ручей.\\\"\"]}, \"alt\": {\"en\": \"A windfallen tree rests beside a stream, surrounded by standing woodland trees; no animals are in view.\", \"es\": \"Un árbol derribado por el viento yace junto a un arroyo, rodeado de árboles en pie; no se ven animales.\", \"ru\": \"У ручья лежит поваленное ветром дерево, окружённое растущими деревьями; животных в кадре нет.\"}, \"caption\": null, \"captions\": null}",
+      "imagePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/images/standalone/timber-tractor/scene-04.png",
+      "imageSha256": "264af70e3a8b5b7dcff141722a2a1e7396dc217cce7daab4e644480bd162688a"
+    },
+    {
+      "kind": "published",
+      "sourcePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/stories/timber-tractor.json",
+      "sourceSha256": "e8a6f35d74dce7202751b35978cac1270befe2be8fe5aaadec3fc296c7d5067b",
+      "chapterId": "timber-tractor",
+      "sceneId": "scene-05",
+      "excerpt": "{\"paragraphs\": {\"en\": [\"\\\"May I come?\\\" asked PinPin.\", \"Beaver helped him into a snug passenger seat and fastened his belt. \\\"You can be my lookout.\\\" The engine hummed awake, and away they went to collect the logs.\"], \"es\": [\"\\\"¿Puedo ir contigo?\\\", preguntó PinPin.\", \"Castor lo ayudó a subir a un asiento a su medida y le abrochó el cinturón. \\\"Puedes ayudarme a mirar el camino.\\\" El motor despertó con un ronroneo y partieron a recoger los troncos.\"], \"ru\": [\"\\\"Можно с тобой?\\\" спросил Пин-Пин.\", \"Бобр помог ему устроиться в маленьком пассажирском кресле и пристегнул ремень. \\\"Будешь смотреть вперёд.\\\" Мотор загудел, и они отправились за брёвнами.\"]}, \"alt\": {\"en\": \"PinPin sits in a fitted passenger seat beside Beaver at the tractor's controls as they set off.\", \"es\": \"PinPin ocupa un asiento de pasajero a su medida junto a Castor, que conduce el tractor al partir.\", \"ru\": \"Пин-Пин сидит в подходящем ему пассажирском кресле рядом с Бобром за рулём; трактор трогается.\"}, \"caption\": null, \"captions\": null}",
+      "imagePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/images/standalone/timber-tractor/scene-05-v4.png",
+      "imageSha256": "c82468829d505d5728ed8e006bd1f98f02581147cf3e74efe3b7962f7ec14b56"
+    },
+    {
+      "kind": "published",
+      "sourcePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/stories/timber-tractor.json",
+      "sourceSha256": "e8a6f35d74dce7202751b35978cac1270befe2be8fe5aaadec3fc296c7d5067b",
+      "chapterId": "timber-tractor",
+      "sceneId": "scene-06",
+      "excerpt": "{\"paragraphs\": {\"en\": [\"Once the logs were cut, Beaver parked beside them and worked the yellow crane's controls. Its dark grabber opened, closed, and lifted. PinPin watched from his seat inside the cab. \\\"What a useful hand!\\\"\"], \"es\": [\"Una vez cortados los troncos, Castor estacionó junto a ellos y accionó los mandos de la grúa amarilla. Su pinza oscura se abrió, se cerró y levantó un tronco. PinPin miraba desde su asiento en la cabina. \\\"¡Qué mano tan útil!\\\"\"], \"ru\": [\"Когда ствол был распилен на брёвна, Бобр остановился рядом и взялся за рычаги жёлтого крана. Его тёмный захват раскрылся, сомкнулся и поднял бревно. Пин-Пин наблюдал из своего кресла в кабине. \\\"Какая полезная рука!\\\"\"]}, \"alt\": {\"en\": \"A close view of a dark metal grapple on the yellow crane lifting a log; far behind, Beaver operates it from the cab while PinPin stays in his passenger seat.\", \"es\": \"En primer plano, una pinza de metal oscuro en la grúa amarilla levanta un tronco; al fondo, Castor la maneja desde la cabina y PinPin sigue en su asiento.\", \"ru\": \"Крупным планом: тёмный металлический захват жёлтого крана поднимает бревно; вдали Бобр управляет им из кабины, а Пин-Пин остаётся в пассажирском кресле.\"}, \"caption\": null, \"captions\": null}",
+      "imagePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/images/standalone/timber-tractor/scene-06-v2.png",
+      "imageSha256": "6fa560eed0544f10150de9b99e2f667dc794b54ec43ed8e084d5c19084bea81b"
+    },
+    {
+      "kind": "published",
+      "sourcePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/stories/timber-tractor.json",
+      "sourceSha256": "e8a6f35d74dce7202751b35978cac1270befe2be8fe5aaadec3fc296c7d5067b",
+      "chapterId": "timber-tractor",
+      "sceneId": "scene-07",
+      "excerpt": "{\"paragraphs\": {\"en\": [\"One log settled into the trailer with a hollow clonk. Another nestled beside it. Beaver moved each one slowly. PinPin counted along, although the thickest log seemed big enough to count twice.\"], \"es\": [\"Un tronco cayó suavemente en el remolque con un golpe hueco. Otro quedó a su lado. Castor los movía despacio. PinPin llevaba la cuenta, aunque el más grueso parecía tan grande que podía contar por dos.\"], \"ru\": [\"Одно бревно легло в прицеп с глухим стуком. Рядом устроилось другое. Бобр двигал их не спеша. Пин-Пин считал брёвна, хотя самое толстое хотелось посчитать за два.\"]}, \"alt\": {\"en\": \"A rear view of the trailer as the crane loads a log; PinPin sits on the left and Beaver operates the crane on the right inside the cab.\", \"es\": \"Vista trasera del remolque mientras la grúa carga un tronco; PinPin está sentado a la izquierda y Castor maneja la grúa a la derecha dentro de la cabina.\", \"ru\": \"Вид на прицеп сзади: кран укладывает бревно; Пин-Пин сидит слева, а Бобр управляет краном справа в кабине.\"}, \"caption\": null, \"captions\": null}",
+      "imagePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/images/standalone/timber-tractor/scene-07-v4.png",
+      "imageSha256": "5f14370771d4986a89d2ae8aea91f97362678e6debe84b5adfc085ae0a4899e4"
+    },
+    {
+      "kind": "published",
+      "sourcePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/stories/timber-tractor.json",
+      "sourceSha256": "e8a6f35d74dce7202751b35978cac1270befe2be8fe5aaadec3fc296c7d5067b",
+      "chapterId": "timber-tractor",
+      "sceneId": "scene-08",
+      "excerpt": "{\"paragraphs\": {\"en\": [\"The crane folded away. Beaver checked the straps that held the logs snugly between the trailer's posts. Nothing could roll about. Now their wooden passengers were ready for the journey, too.\"], \"es\": [\"La grúa quedó plegada. Castor revisó las correas que sujetaban los troncos entre los postes del remolque. Ninguno podía rodar de un lado a otro. Sus pasajeros de madera también estaban listos para el viaje.\"], \"ru\": [\"Кран сложился. Бобр проверил ремни, крепко удерживавшие брёвна между стойками прицепа. Теперь они не могли перекатываться. Деревянные пассажиры тоже были готовы к дороге.\"]}, \"alt\": {\"en\": \"Close view of the log load held between trailer stakes with tightened straps; no animals are visible.\", \"es\": \"Primer plano de los troncos sujetos entre los postes del remolque con correas tensas; no se ven animales.\", \"ru\": \"Крупным планом: брёвна между стойками прицепа закреплены туго натянутыми ремнями; животных не видно.\"}, \"caption\": null, \"captions\": null}",
+      "imagePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/images/standalone/timber-tractor/scene-08-v2.png",
+      "imageSha256": "716ac1c3e43c6dabd18fb0a7c7af9e680e83642c8ef2cb8c1c0a8a267d8dc0cc"
+    },
+    {
+      "kind": "published",
+      "sourcePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/stories/timber-tractor.json",
+      "sourceSha256": "e8a6f35d74dce7202751b35978cac1270befe2be8fe5aaadec3fc296c7d5067b",
+      "chapterId": "timber-tractor",
+      "sceneId": "scene-09",
+      "excerpt": "{\"paragraphs\": {\"en\": [\"The tractor rumbled along the forest track. Sunlight flickered across the red bonnet. PinPin could see over ferns that usually tickled his nose. \\\"The woods have grown shorter!\\\" he said. Beaver chuckled.\"], \"es\": [\"El tractor avanzó por el camino del bosque. La luz bailaba sobre el capó rojo. PinPin veía por encima de los helechos que solían hacerle cosquillas en la nariz. \\\"¡El bosque se ha encogido!\\\", dijo. Castor soltó una risita.\"], \"ru\": [\"Трактор урчал на лесной дороге. Солнечные пятна мелькали на красном капоте. Пин-Пин смотрел поверх папоротников, которые обычно щекотали ему нос. \\\"Лес стал ниже!\\\" сказал он. Бобр засмеялся.\"]}, \"alt\": {\"en\": \"The red tractor pulls its secured load along the forest track, with Beaver driving and PinPin seated beside him.\", \"es\": \"El tractor rojo lleva la carga bien sujeta por el camino del bosque; Castor conduce y PinPin va sentado a su lado.\", \"ru\": \"Красный трактор везёт закреплённые брёвна по лесной дороге; Бобр за рулём, Пин-Пин сидит рядом.\"}, \"caption\": null, \"captions\": null}",
+      "imagePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/images/standalone/timber-tractor/scene-09-v4.png",
+      "imageSha256": "04b62cb8ced82d42fb14aae72b4c4d08a5fece00435d6310dd9ae729846b441b"
+    },
+    {
+      "kind": "published",
+      "sourcePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/stories/timber-tractor.json",
+      "sourceSha256": "e8a6f35d74dce7202751b35978cac1270befe2be8fe5aaadec3fc296c7d5067b",
+      "chapterId": "timber-tractor",
+      "sceneId": "scene-10",
+      "excerpt": "{\"paragraphs\": {\"en\": [\"Through the windscreen, PinPin spotted the stream. Beyond the bank stood the little broken bridge. \\\"There it is!\\\" he called. Beaver slowed down. \\\"A bridge for paws,\\\" he said. \\\"Our wheels will stay here.\\\"\"], \"es\": [\"Por el parabrisas, PinPin divisó el arroyo. Junto a la orilla estaba el pequeño puente roto. \\\"¡Allí está!\\\", avisó. Castor redujo la marcha. \\\"Es un puente para patas\\\", dijo. \\\"Nuestras ruedas se quedan aquí.\\\"\"], \"ru\": [\"Через лобовое стекло Пин-Пин увидел ручей. У берега стоял маленький сломанный мостик. \\\"Вот он!\\\" позвал ёжик. Бобр сбавил ход. \\\"Это мостик для лап,\\\" сказал он. \\\"Наши колёса останутся здесь.\\\"\"]}, \"alt\": {\"en\": \"View from the cab toward a stream and a small broken footbridge, with space to park on the near bank.\", \"es\": \"Desde la cabina se ven el arroyo, un pequeño puente roto y espacio para estacionar en la orilla cercana.\", \"ru\": \"Из кабины видны ручей, маленький сломанный пешеходный мостик и место для стоянки на ближнем берегу.\"}, \"caption\": null, \"captions\": null}",
+      "imagePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/images/standalone/timber-tractor/scene-10-v3.png",
+      "imageSha256": "a081167d830721304e2d1fc74c9aa88a645bb083e762e3f386cd4805d877ae1f"
+    },
+    {
+      "kind": "published",
+      "sourcePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/stories/timber-tractor.json",
+      "sourceSha256": "e8a6f35d74dce7202751b35978cac1270befe2be8fe5aaadec3fc296c7d5067b",
+      "chapterId": "timber-tractor",
+      "sceneId": "scene-11",
+      "excerpt": "{\"paragraphs\": {\"en\": [\"Beaver parked on firm ground. PinPin stayed in the cab while the crane set the timber on the bank. Soon the trailer was empty, and a neat pile of wood waited beside the bridge.\"], \"es\": [\"Castor estacionó sobre suelo firme. PinPin esperó en la cabina mientras la grúa dejaba la madera en la orilla. Pronto el remolque quedó vacío y una pila ordenada de troncos esperaba junto al puente.\"], \"ru\": [\"Бобр остановился на твёрдой земле. Пин-Пин ждал в кабине, пока кран укладывал древесину на берег. Вскоре прицеп опустел, а рядом с мостиком выросла аккуратная стопка брёвен.\"]}, \"alt\": {\"en\": \"The tractor is parked beside the broken footbridge, its trailer emptied and the unloaded timber on the bank; PinPin stays in the cab.\", \"es\": \"El tractor está estacionado junto al puente roto, con el remolque vacío y la madera descargada en la orilla; PinPin sigue en la cabina.\", \"ru\": \"Трактор стоит у сломанного мостика; прицеп пуст, выгруженная древесина лежит на берегу, Пин-Пин остаётся в кабине.\"}, \"caption\": null, \"captions\": null}",
+      "imagePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/images/standalone/timber-tractor/scene-11-v3.png",
+      "imageSha256": "71e90389e3eef15f84f51656da5732f8c45d62588c4d1285d85b587c52330856"
+    },
+    {
+      "kind": "published",
+      "sourcePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/stories/timber-tractor.json",
+      "sourceSha256": "e8a6f35d74dce7202751b35978cac1270befe2be8fe5aaadec3fc296c7d5067b",
+      "chapterId": "timber-tractor",
+      "sceneId": "scene-12",
+      "excerpt": "{\"paragraphs\": {\"en\": [\"With the crane put away, Beaver sawed and fitted the new wood. At last, he called PinPin over. The bridge looked splendid. But near the path, PinPin noticed one narrow gap. \\\"My little paw could slip there.\\\"\"], \"es\": [\"Con la grúa recogida, Castor serró y colocó la madera nueva. Por fin llamó a PinPin. El puente había quedado precioso. Pero, junto al sendero, PinPin descubrió un hueco estrecho. \\\"Mi patita podría colarse ahí.\\\"\"], \"ru\": [\"Убрав кран, Бобр принялся пилить и подгонять новую древесину. Наконец он позвал Пин-Пина. Мостик выглядел чудесно. Но у тропинки Пин-Пин заметил узкую щель. \\\"Моя маленькая лапка может туда провалиться.\\\"\"]}, \"alt\": {\"en\": \"PinPin notices a final narrow gap between the path and the nearly repaired footbridge.\", \"es\": \"PinPin descubre un último hueco estrecho entre el sendero y el puente casi reparado.\", \"ru\": \"Пин-Пин замечает последнюю узкую щель между тропинкой и почти готовым мостиком.\"}, \"caption\": null, \"captions\": null}",
+      "imagePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/images/standalone/timber-tractor/scene-12.png",
+      "imageSha256": "4dc43a8a1c31de0337c24011f6795927a02dcf7187048e3ce5cf5487641119f7"
+    },
+    {
+      "kind": "published",
+      "sourcePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/stories/timber-tractor.json",
+      "sourceSha256": "e8a6f35d74dce7202751b35978cac1270befe2be8fe5aaadec3fc296c7d5067b",
+      "chapterId": "timber-tractor",
+      "sceneId": "scene-13",
+      "excerpt": "{\"paragraphs\": {\"en\": [\"\\\"Good spotting, little lookout.\\\" Beaver chose a short plank. PinPin waited well back while he fitted it firmly into place. Beaver checked the bridge from end to end. \\\"Now it's ready for small paws, too.\\\"\"], \"es\": [\"\\\"Bien visto, pequeño ayudante.\\\" Castor eligió una tabla corta. PinPin esperó bien apartado mientras la fijaba en su sitio. Castor revisó el puente de un extremo al otro. \\\"Ahora también está listo para las patas pequeñas.\\\"\"], \"ru\": [\"\\\"Хорошо заметил, мой зоркий помощник.\\\" Бобр выбрал короткую дощечку. Пин-Пин ждал в стороне, пока он прочно закреплял её. Бобр проверил весь мостик. \\\"Теперь и маленьким лапкам будет удобно.\\\"\"]}, \"alt\": {\"en\": \"Beaver fits a short plank over the last gap at the bridge approach while PinPin waits clear of the work.\", \"es\": \"Castor coloca una tabla corta sobre el último hueco de la entrada del puente mientras PinPin espera apartado.\", \"ru\": \"Бобр укладывает короткую дощечку над последней щелью у входа на мостик; Пин-Пин ждёт в стороне.\"}, \"caption\": null, \"captions\": null}",
+      "imagePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/images/standalone/timber-tractor/scene-13.png",
+      "imageSha256": "41a1857ff7fa48046e1dccd317a729ff8d2ac2b3d92fc6087d508e932a85ad3a"
+    },
+    {
+      "kind": "published",
+      "sourcePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/stories/timber-tractor.json",
+      "sourceSha256": "e8a6f35d74dce7202751b35978cac1270befe2be8fe5aaadec3fc296c7d5067b",
+      "chapterId": "timber-tractor",
+      "sceneId": "scene-19",
+      "excerpt": "{\"paragraphs\": {\"en\": [\"“Mama! PomPom!” called PinPin as Mama arrived with his tiny, round little brother. Across the stream, Beaver smiled beside his tractor. “Come and see Beaver’s tractor!” said PinPin.\"], \"es\": [\"«¡Mamá! ¡PomPom!», llamó PinPin cuando Mamá llegó con su hermanito pequeño y redondito. Al otro lado del arroyo, Castor sonreía junto a su tractor. «¡Vengan a ver el tractor de Castor!», dijo PinPin.\"], \"ru\": [\"«Мама! Пом-Пом!» — позвал Пин-Пин, когда Мама подошла с его крошечным кругленьким братиком. С другого берега Бобр улыбался им возле своего трактора. «Пойдёмте посмотрим на трактор Бобра!» — сказал Пин-Пин.\"]}, \"alt\": {\"en\": \"PinPin greets Mama and tiny PomPom beside the picnic basket while Beaver waits across the stream by the tractor.\", \"es\": \"PinPin saluda a Mamá y al pequeño PomPom junto a la cesta del pícnic, mientras Castor espera junto al tractor al otro lado del arroyo.\", \"ru\": \"Пин-Пин встречает Маму и крошечного Пом-Пома возле корзинки для пикника, а Бобр ждёт у трактора на другом берегу ручья.\"}, \"caption\": null, \"captions\": null}",
+      "imagePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/images/standalone/timber-tractor/scene-19-v2.png",
+      "imageSha256": "fdf6ff363728df2aab9944b75a0927d0a23af43a68523edfa17f4e1ecad172d5"
+    },
+    {
+      "kind": "published",
+      "sourcePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/stories/timber-tractor.json",
+      "sourceSha256": "e8a6f35d74dce7202751b35978cac1270befe2be8fe5aaadec3fc296c7d5067b",
+      "chapterId": "timber-tractor",
+      "sceneId": "scene-21",
+      "excerpt": "{\"paragraphs\": {\"en\": [\"PinPin led the way over the little bridge. Mama and PomPom followed, taking their time. Beaver waited at the far end, beside his tractor.\"], \"es\": [\"PinPin fue delante por el puentecito. Mamá y PomPom lo siguieron sin prisa. Castor los esperaba al otro lado, junto a su tractor.\"], \"ru\": [\"Пин-Пин пошёл первым по мостику. Мама и Пом-Пом неспешно последовали за ним. На другом конце их ждал Бобр возле своего трактора.\"]}, \"alt\": {\"en\": \"PinPin leads Mama and tiny PomPom over the repaired bridge toward Beaver and the parked tractor, leaving the picnic basket behind.\", \"es\": \"PinPin guía a Mamá y al pequeño PomPom por el puente reparado hacia Castor y el tractor estacionado; la cesta del pícnic queda atrás.\", \"ru\": \"Пин-Пин ведёт Маму и крошечного Пом-Пома по починенному мостику к Бобру и стоящему трактору; корзинка для пикника остаётся позади.\"}, \"caption\": null, \"captions\": null}",
+      "imagePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/images/standalone/timber-tractor/scene-21-v1.png",
+      "imageSha256": "ac70c8270a1e606980554a272696f63760c8a22d466063a1756d72520c74873c"
+    },
+    {
+      "kind": "published",
+      "sourcePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/stories/timber-tractor.json",
+      "sourceSha256": "e8a6f35d74dce7202751b35978cac1270befe2be8fe5aaadec3fc296c7d5067b",
+      "chapterId": "timber-tractor",
+      "sceneId": "scene-22",
+      "excerpt": "{\"paragraphs\": {\"en\": [\"“Look, Mama—this is where I sat!” With Beaver’s steady paw to help, PinPin climbed the steps. Mama and PomPom looked up from the grass.\"], \"es\": [\"«¡Mira, Mamá, aquí me senté!» Con la ayuda de la firme pata de Castor, PinPin subió los escalones. Mamá y PomPom alzaron la mirada desde la hierba.\"], \"ru\": [\"«Смотри, Мама, вот здесь я сидел!» Опираясь на крепкую лапу Бобра, Пин-Пин поднялся по ступенькам. Мама и Пом-Пом смотрели на него снизу, с травы.\"]}, \"alt\": {\"en\": \"PinPin climbs the parked tractor steps with Beaver’s helping paw while Mama and tiny PomPom watch from the grass.\", \"es\": \"PinPin sube los escalones del tractor estacionado con la ayuda de Castor, mientras Mamá y el pequeño PomPom miran desde la hierba.\", \"ru\": \"Пин-Пин поднимается по ступенькам стоящего трактора с помощью Бобра, а Мама и крошечный Пом-Пом смотрят с травы.\"}, \"caption\": null, \"captions\": null}",
+      "imagePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/images/standalone/timber-tractor/scene-22-v1.png",
+      "imageSha256": "9ef3a0bdbd0f1e5f1379855164e0086c1ce763109d5e38cd3d96a7e3f623bf34"
+    },
+    {
+      "kind": "published",
+      "sourcePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/stories/timber-tractor.json",
+      "sourceSha256": "e8a6f35d74dce7202751b35978cac1270befe2be8fe5aaadec3fc296c7d5067b",
+      "chapterId": "timber-tractor",
+      "sceneId": "scene-20",
+      "excerpt": "{\"paragraphs\": {\"en\": [\"\\\"May I try the steering wheel?\\\" asked PinPin. The tractor was parked, its engine off. Beaver stayed right beside him as he turned the big wheel. Mama clapped from the grass, with little PomPom at her side. PinPin's smile was almost as wide as the wheel.\"], \"es\": [\"\\\"¿Puedo probar el volante?\\\", preguntó PinPin. El tractor estaba estacionado, con el motor apagado. Castor se quedó a su lado mientras giraba el gran volante. Mamá aplaudió desde el césped, con el pequeño PomPom junto a ella. La sonrisa de PinPin era casi tan ancha como el volante.\"], \"ru\": [\"\\\"Можно покрутить руль?\\\" спросил Пин-Пин. Трактор стоял на месте, мотор был выключен. Бобр оставался рядом, пока ёжик поворачивал большой руль. Мама хлопала в ладоши на траве, а возле неё сидел маленький Пом-Пом. Улыбка Пин-Пина была почти такой же широкой, как руль.\"]}, \"alt\": {\"en\": \"PinPin tries the steering wheel of the parked tractor with its engine off and Beaver supervising right beside him; Mama applauds on the grass with tiny baby PomPom at her side.\", \"es\": \"PinPin prueba el volante del tractor estacionado y con el motor apagado; Castor lo supervisa a su lado, mientras Mamá aplaude desde el césped con el diminuto bebé PomPom junto a ella.\", \"ru\": \"Пин-Пин пробует поворачивать руль стоящего трактора с выключенным мотором; Бобр присматривает за ним рядом, а Мама хлопает в ладоши на траве, с крошечным Пом-Помом возле неё.\"}, \"caption\": null, \"captions\": null}",
+      "imagePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/images/standalone/timber-tractor/scene-20-v2.png",
+      "imageSha256": "d2bcc1ed0eb74c209c9cce3418154f88a23e6eaa0090ad1d8038a7187f51bc50"
+    },
+    {
+      "kind": "published",
+      "sourcePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/stories/timber-tractor.json",
+      "sourceSha256": "e8a6f35d74dce7202751b35978cac1270befe2be8fe5aaadec3fc296c7d5067b",
+      "chapterId": "timber-tractor",
+      "sceneId": "scene-23",
+      "excerpt": "{\"paragraphs\": {\"en\": [\"When it was time to climb down, Beaver offered his paw again. PinPin took one careful step, then another. Mama and PomPom waited below.\"], \"es\": [\"Cuando llegó la hora de bajar, Castor volvió a ofrecerle la pata. PinPin bajó un escalón con cuidado, y luego otro. Mamá y PomPom lo esperaban abajo.\"], \"ru\": [\"Когда пора было спускаться, Бобр снова подал Пин-Пину лапу. Ёжик осторожно ступил на одну ступеньку, потом на другую. Мама и Пом-Пом ждали внизу.\"]}, \"alt\": {\"en\": \"PinPin steps down from the parked tractor as Beaver helps from the ground and Mama and tiny PomPom wait nearby.\", \"es\": \"PinPin baja del tractor estacionado con la ayuda de Castor desde el suelo, mientras Mamá y el pequeño PomPom esperan cerca.\", \"ru\": \"Пин-Пин спускается из стоящего трактора, Бобр помогает ему с земли, а Мама и крошечный Пом-Пом ждут рядом.\"}, \"caption\": null, \"captions\": null}",
+      "imagePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/images/standalone/timber-tractor/scene-23-v5.png",
+      "imageSha256": "a98a8ae75e1654191dabab4a0c41d49a9c1f1f99e5754b0b39819063aba02c20"
+    },
+    {
+      "kind": "published",
+      "sourcePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/stories/timber-tractor.json",
+      "sourceSha256": "e8a6f35d74dce7202751b35978cac1270befe2be8fe5aaadec3fc296c7d5067b",
+      "chapterId": "timber-tractor",
+      "sceneId": "scene-24",
+      "excerpt": "{\"paragraphs\": {\"en\": [\"Then all four wandered back over the bridge. Ahead, their picnic basket was waiting in the grass.\"], \"es\": [\"Después, los cuatro volvieron juntos por el puente. Más adelante, la cesta del pícnic los esperaba en la hierba.\"], \"ru\": [\"Потом все четверо пошли обратно через мостик. Впереди, на траве, их ждала корзинка для пикника.\"]}, \"alt\": {\"en\": \"PinPin, Mama, tiny PomPom and Beaver walk back across the bridge toward the picnic basket, leaving the tractor on the far bank.\", \"es\": \"PinPin, Mamá, el pequeño PomPom y Castor regresan por el puente hacia la cesta del pícnic, dejando el tractor en la otra orilla.\", \"ru\": \"Пин-Пин, Мама, крошечный Пом-Пом и Бобр идут обратно по мостику к корзинке для пикника; трактор остаётся на другом берегу.\"}, \"caption\": null, \"captions\": null}",
+      "imagePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/images/standalone/timber-tractor/scene-24-v1.png",
+      "imageSha256": "5f23c12886b6a0771496136cd5c5989f0a2ec7c07fe6d74468cda2822b60e123"
+    },
+    {
+      "kind": "published",
+      "sourcePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/stories/timber-tractor.json",
+      "sourceSha256": "e8a6f35d74dce7202751b35978cac1270befe2be8fe5aaadec3fc296c7d5067b",
+      "chapterId": "timber-tractor",
+      "sceneId": "scene-15",
+      "excerpt": "{\"paragraphs\": {\"en\": [\"Back beside the basket, they settled down for their picnic. Across the stream, the tractor rested with its empty trailer. PinPin stretched his little paws. “Even watching all that work makes me hungry,” he said.\"], \"es\": [\"De vuelta junto a la cesta, se acomodaron para el pícnic. Al otro lado del arroyo, el tractor descansaba con su remolque vacío. PinPin estiró las patitas. «Hasta mirar tanto trabajo me da hambre», dijo.\"], \"ru\": [\"Вернувшись к корзинке, все устроились на пикник. На другом берегу отдыхал трактор с пустым прицепом. Пин-Пин вытянул маленькие лапки. «Даже когда только смотришь на такую работу, хочется есть», — сказал он.\"]}, \"alt\": {\"en\": \"PinPin, Beaver, Mama and tiny baby PomPom share a picnic beside the stream; the parked tractor and empty trailer stand in the distance.\", \"es\": \"PinPin, Castor, Mamá y el diminuto bebé PomPom comparten un pícnic junto al arroyo; a lo lejos están el tractor estacionado y el remolque vacío.\", \"ru\": \"Пин-Пин, Бобр, Мама и крошечный Пом-Пом устроили пикник у ручья; вдали стоят трактор и пустой прицеп.\"}, \"caption\": null, \"captions\": null}",
+      "imagePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/images/standalone/timber-tractor/scene-15-v2.png",
+      "imageSha256": "6aae27bc0d7907250962bf12d16227af6a797349e4c66e360d704e3e67f58539"
+    },
+    {
+      "kind": "published",
+      "sourcePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/stories/timber-tractor.json",
+      "sourceSha256": "e8a6f35d74dce7202751b35978cac1270befe2be8fe5aaadec3fc296c7d5067b",
+      "chapterId": "timber-tractor",
+      "sceneId": "scene-16",
+      "excerpt": "{\"paragraphs\": {\"en\": [\"Beside him, Beaver began to munch. Something went crunch, crunch, CRUNCH. PinPin stopped chewing. That was a remarkably woody sort of noise.\"], \"es\": [\"A su lado, Castor empezó a masticar. Algo crujió, volvió a crujir y CRUJIÓ aún más. PinPin dejó de masticar. Aquello sonaba muchísimo a madera.\"], \"ru\": [\"Рядом Бобр принялся жевать. Что-то хрустнуло, хрустнуло ещё раз, а потом ХРУСТНУЛО громче. Пин-Пин перестал жевать. Уж очень этот звук напоминал хруст дерева.\"]}, \"alt\": {\"en\": \"Close view of Beaver chewing contentedly; what he is eating is hidden below the lower edge of the picture.\", \"es\": \"Primer plano de Castor masticando contento; lo que come queda oculto bajo el borde inferior de la imagen.\", \"ru\": \"Крупным планом: Бобр довольно жуёт; его еда скрыта за нижним краем картинки.\"}, \"caption\": null, \"captions\": null}",
+      "imagePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/images/standalone/timber-tractor/scene-16.png",
+      "imageSha256": "fba4c9a4a96613912eded4c4a8298c53680c58bef726b6968191b0f14cdbe543"
+    },
+    {
+      "kind": "published",
+      "sourcePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/stories/timber-tractor.json",
+      "sourceSha256": "e8a6f35d74dce7202751b35978cac1270befe2be8fe5aaadec3fc296c7d5067b",
+      "chapterId": "timber-tractor",
+      "sceneId": "scene-17",
+      "excerpt": "{\"paragraphs\": {\"en\": [\"PinPin tipped his head. \\\"Is that our picnic... or the bridge?\\\"\"], \"es\": [\"PinPin ladeó la cabeza. \\\"¿Eso es nuestro pícnic... o el puente?\\\"\"], \"ru\": [\"Пин-Пин наклонил голову. \\\"Ты ешь наш обед... или мостик?\\\"\"]}, \"alt\": {\"en\": \"Reverse view of curious PinPin looking toward Beaver outside the picture; Beaver's food remains unseen.\", \"es\": \"Contraplano de PinPin mirando con curiosidad hacia Castor, fuera de la imagen; la comida de Castor sigue sin verse.\", \"ru\": \"Обратный ракурс: любопытный Пин-Пин смотрит на Бобра за кадром; еда Бобра по-прежнему не видна.\"}, \"caption\": null, \"captions\": null}",
+      "imagePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/images/standalone/timber-tractor/scene-17.png",
+      "imageSha256": "936784e4124c850eea6a8a927805edb499b5a6be0c1d79b6da545c7934eae003"
+    },
+    {
+      "kind": "published",
+      "sourcePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/stories/timber-tractor.json",
+      "sourceSha256": "e8a6f35d74dce7202751b35978cac1270befe2be8fe5aaadec3fc296c7d5067b",
+      "chapterId": "timber-tractor",
+      "sceneId": "scene-18",
+      "excerpt": "{\"paragraphs\": {\"en\": [\"Beaver held up a willow twig. \\\"My own lunch! I brought it with me.\\\" Behind him, the bridge stood safe and whole. Mama smiled, and little PomPom gave a happy squeak.\", \"PinPin laughed. \\\"Good. A bridge is much more useful when you haven't eaten it!\\\"\"], \"es\": [\"Castor levantó una ramita de sauce. \\\"¡Es mi almuerzo! Lo traje conmigo.\\\" Detrás de él, el puente seguía firme y entero. Mamá sonrió y el pequeño PomPom soltó un gritito de alegría.\", \"PinPin se rio. \\\"Menos mal. ¡Un puente sirve mucho más cuando no te lo has comido!\\\"\"], \"ru\": [\"Бобр поднял ивовую веточку. \\\"Это мой обед! Я принёс его с собой.\\\" За его спиной мостик стоял целый и невредимый. Мама улыбнулась, а маленький Пом-Пом радостно пискнул.\", \"Пин-Пин рассмеялся. \\\"Вот и хорошо. От мостика гораздо больше пользы, пока ты его не съел!\\\"\"]}, \"alt\": {\"en\": \"Beaver shows PinPin his own willow twig with a gentle smile; Mama and tiny baby PomPom sit nearby, and the completed bridge is intact in the background.\", \"es\": \"Castor enseña a PinPin su propia ramita de sauce con una sonrisa; Mamá y el diminuto bebé PomPom están sentados cerca, y al fondo el puente terminado sigue intacto.\", \"ru\": \"Бобр с улыбкой показывает Пин-Пину свою ивовую веточку; рядом сидят Мама и крошечный Пом-Пом, а готовый мостик на заднем плане цел.\"}, \"caption\": null, \"captions\": null}",
+      "imagePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/images/standalone/timber-tractor/scene-18-v3.png",
+      "imageSha256": "e09d535c6fee130b5ac5764ef6ec25230c73aa56d72e75bdb2a9485623e9f8f7"
+    }
+  ],
+  "registeredReferences": [
+    {
+      "id": "asset-cd6fc9a3e01decb743ce5c99",
+      "name": "reference-beaver",
+      "mime": "image/png",
+      "sha256": "cd6fc9a3e01decb743ce5c999fb4eca7ccfccd568115695c492ac9e9cacdaba4",
+      "bytes": 3523708,
+      "width": 1536,
+      "height": 1024,
+      "url": "/api/assets/asset-cd6fc9a3e01decb743ce5c99",
+      "storagePath": "assets/cd6fc9a3e01decb743ce5c999fb4eca7ccfccd568115695c492ac9e9cacdaba4.png",
+      "createdAt": "2026-10-02T18:48:38.234879+00:00",
+      "reviewStatus": "user-approved",
+      "provenance": {
+        "sourcePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-cover-fix-20261002/publication/site/storyboard/images/standalone/timber-tractor/scene-03.png",
+        "catalogKey": "reference-beaver",
+        "catalogSha256": "cd6fc9a3e01decb743ce5c999fb4eca7ccfccd568115695c492ac9e9cacdaba4",
+        "role": "Beaver identity; chestnut fur and blue work vest",
+        "evidence": "Published timber-tractor scene03"
+      }
+    }
+  ],
+  "existingOutputs": [],
+  "inspectedVisualEvidence": [
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/images/published/bath-magic/r24/scene-321.webp",
+      "sha256": "cdaa2972246ba0f2f8cc7acc14289d375dd5903c2c8bfb1473f968c33daeee82",
+      "inspection": "Actual pixels inspected: adult Beaver blue vest, Mama Beaver red scarf, two smaller kits with flat textured tails and cream muzzles; relational poses and scale established. Scene334 kits have different apparent sizes; no invented names/sex/ages."
+    },
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/images/published/bath-magic/r24/scene-336.webp",
+      "sha256": "d8630c8062ba97083a02ded57c0e34420123b7b68860633821566c16f587b20b",
+      "inspection": "Actual pixels inspected: adult Beaver blue vest, Mama Beaver red scarf, two smaller kits with flat textured tails and cream muzzles; relational poses and scale established. Scene334 kits have different apparent sizes; no invented names/sex/ages."
+    }
+  ]
+}

@@ -6,6 +6,8 @@ from .jobs import create_job, review_job, inbox
 from .boards import create_storyboard, review_storyboard
 from .insights import insights
 from .media_library import media_library, import_media
+from .cast_workflow import workflow_context, save_progress
+from .cast_inventory import record_package
 
 
 def route(store, method, path, query, body):
@@ -28,10 +30,20 @@ def route(store, method, path, query, body):
         if path == "/api/inbox":
             return 200, inbox(store)
         if path == "/api/insights":
-            return 200, insights(store)
+            result = insights(store)
+            result["castWorkflow"] = workflow_context(store)
+            return 200, result
         if path == "/api/media":
             return 200, media_library(store)
     elif method == "POST":
+        if path == "/api/cast/reconcile":
+            return 200, save_progress(store)
+        if path == "/api/cast/finish":
+            try:
+                return 200, record_package(store, valid_id(body.get("entityId")), body.get("assetIds", []),
+                                           body.get("qaNote", "Agent QA; no human review inferred"), body.get("timingPath"))
+            except ValueError as exc:
+                raise StudioError(str(exc)) from exc
         if path == "/api/plan/approve":
             return 200, approve_plan(store, body)
         if path == "/api/media/import":
