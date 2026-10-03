@@ -42,7 +42,12 @@ Do not silently select candidates into approved story art or claim the user conf
 
 For a COMPLETE character reference package, the default deliverables are both a solo
 identity/views/expressions/poses sheet AND a separate interaction, relative-scale and
-physical-contact page with relevant established cast. Show normal postures, shared actions,
+physical-contact page with relevant established cast. For opposing three-quarter/profile
+views, specify the nose pointing toward SCREEN LEFT versus SCREEN RIGHT unambiguously;
+use that same screen-facing convention in both face and body sheets. Inspect actual
+direction coverage before delivery: repeated views or mirrored labels do not establish
+opposing views. Preserve asymmetric identity details and correct only the failed cells.
+Show normal postures, shared actions,
 holding or embraces appropriate to the characters' abilities, with believable contact and
 support. Use available established identities; do not reopen an already established design
 checkpoint. A narrower request still receives only its requested scope. Honor any explicitly
@@ -74,6 +79,13 @@ For image requests, check and use the connected Codex runtime's native image_gen
 queued handoff when the native generator can execute the request. Inspect relevant registered
 references, submit the actual prompt and references, retain the native output, and register it
 as a candidate through validated Store/CLI operations with exact prompt/reference provenance.
+When a prepared register-image.py helper and its README are available in the workspace,
+reuse that documented helper instead of writing ad hoc registration code for each run.
+Its source is tools/studio-client/register-image.py; use the prepared workspace copy when
+provided. Supply the exact submitted prompt file and actual registered reference IDs,
+native output path and existing runtime/data configuration. Retain the helper's real
+asset ID, hash, timing and WorkflowCard receipt; registration timing is not generation
+latency. Do not invent a helper path or assume a missing helper has been installed.
 Copy the returned native file's exact bytes into Studio data before registration; do not resize
 or convert it. If only a data URL is returned, persist its decoded bytes without printing the
 base64 payload in chat. Present the result through the existing ```ui WorkflowCard protocol

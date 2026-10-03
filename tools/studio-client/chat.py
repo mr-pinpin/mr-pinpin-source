@@ -1,6 +1,8 @@
 #!/usr/bin/env python3
 """Shared client for Studio's existing persisted conversation (stdlib only)."""
 import argparse
+from datetime import datetime, timezone
+from timings import measure
 import json
 import math
 import os
@@ -146,12 +148,20 @@ def parser():
     for command in (send, commands.add_parser("wait", parents=[common])):
         command.add_argument("--timeout", type=positive, default=300, help="Total wait seconds.")
         command.add_argument("--poll", type=positive, default=1, help="Polling seconds, minimum 0.25.")
+    measurement = commands.add_parser("measure", parents=[common])
+    measurement.add_argument("--message-id", required=True)
+    measurement.add_argument("--capture-file", help="Persist compact timestamp events for resumable measurement.")
+    measurement.add_argument("--once", action="store_true", help="Report current measurements without waiting.")
+    measurement.add_argument("--timeout", type=positive, default=300)
+    measurement.add_argument("--poll", type=positive, default=1)
     commands.choices["wait"].add_argument("--message-id", help="Wait for a saved send receipt; otherwise observe current turn.")
     return root
 
 
 def run(args):
     client = Client(args.url, args.request_timeout)
+    if args.command == "measure":
+        return measure(client, args, ClientError)
     if args.command == "status":
         return summary(client.get())
     if args.command == "read":
@@ -176,12 +186,15 @@ def run(args):
     for key, value in (("chapterId", args.chapter), ("entityId", args.entity), ("projectRevision", args.revision)):
         if value is not None:
             body[key] = value
+    request_started_at = datetime.now(timezone.utc).isoformat()
+    request_started = time.monotonic()
     snapshot = client.request("/api/conversation/messages", body)
+    accept_seconds = time.monotonic() - request_started
     users = [item for item in snapshot["conversation"].get("messages", []) if item.get("role") == "user"]
     if not users or (users[-1].get("text") or "").strip() != text:
         raise ClientError("receipt_missing", "Send returned no matching saved message; inspect history before retrying.", outcomeUnknown=True)
     message = users[-1]
-    receipt = summary(snapshot) | {"messageId": message["id"], "turnId": message.get("turnId"), "actor": args.actor, "onBehalfOf": args.on_behalf_of, "accepted": True}
+    receipt = summary(snapshot) | {"messageId": message["id"], "turnId": message.get("turnId"), "actor": args.actor, "onBehalfOf": args.on_behalf_of, "accepted": True, "acceptedAt": message.get("createdAt"), "requestStartedAt": request_started_at, "httpAcceptSeconds": round(accept_seconds, 6)}
     if args.wait:
         try:
             return receipt | {"completion": wait(client, args.timeout, max(.25, args.poll), message["id"], snapshot)}
@@ -199,6 +212,8 @@ def main(argv=None):
         result, code = exc.payload, exc.exit_code
     if args.json:
         print(json.dumps(result, ensure_ascii=False))
+    elif args.command == "measure" and "error" not in result:
+        print(json.dumps(result, ensure_ascii=False, indent=2))
     elif "error" in result and result["error"]:
         print(result["error"]["code"] + ": " + result["error"]["message"], file=sys.stderr)
         if result.get("sendReceipt") or result.get("receipt"):

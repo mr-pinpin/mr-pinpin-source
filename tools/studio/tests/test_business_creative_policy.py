@@ -33,6 +33,15 @@ class CreativePolicyTests(unittest.TestCase):
                        "Publication requires its own explicit authorization"):
             self.assertIn(clause, value)
 
+    def test_views_and_existing_registration_helper_are_explicit(self):
+        value = creative_policy()
+        for clause in ("SCREEN LEFT versus SCREEN RIGHT", "both face and body sheets",
+                       "Inspect actual", "direction coverage before delivery",
+                       "register-image.py helper and its README",
+                       "exact submitted prompt file and actual registered reference IDs",
+                       "Do not invent a helper path"):
+            self.assertIn(clause, value)
+
     def setUp(self):
         self.temp = tempfile.TemporaryDirectory(prefix="studio-creative-policy-")
         self.root = Path(self.temp.name)

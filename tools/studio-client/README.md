@@ -4,7 +4,7 @@ Humans, Claude and Codex can use the same saved Studio conversation from their
 existing terminal. The browser sees the same messages and responses. This client
 does not launch an agent, open another thread, or run a server.
 
-Python 3.9+; standard library only. Run from the source checkout on the Mini:
+The chat client requires Python 3.9+ and uses only the standard library. Run from the source checkout on the Mini:
 
     python3 tools/studio-client/chat.py status --json
     python3 tools/studio-client/chat.py read --limit 3
@@ -74,3 +74,63 @@ Tests use only an isolated local HTTP fixture:
     python3 -m unittest discover -s tools/studio-client/tests -v
 
 Creative workflow definitions and examples: [workflows](../../workflows/README.md).
+
+## Measure a turn without sending it again
+
+    python3 tools/studio-client/chat.py measure --message-id SAVED_MESSAGE_ID --capture-file /path/turn-timing.json --timeout 900 --json
+    python3 tools/studio-client/chat.py measure --message-id SAVED_MESSAGE_ID --capture-file /path/turn-timing.json --once --json
+
+Start capture promptly: Studio retains only the last 1000 events. A capture file
+stores compact timestamps and message identifiers, not prompts or transcript text.
+Resume with the same URL, message ID and file. Do not run two writers against one
+capture file. --once reports immediately; timeout returns the saved measurement
+and can be resumed. These commands only GET the existing conversation.
+
+Measures API acceptance timestamp, first visible running/tool/text event, first
+assistant text, final-message delivery and completion. These are server observations,
+not browser paint timestamps. Future send receipts also include actual
+httpAcceptSeconds and requestStartedAt; HTTP latency cannot be reconstructed for
+older sends. Client observation time is reported separately.
+
+Image-generation activity is measured only when matching events are exposed.
+Sequential pairs have timestamped spans; overlapping events without call IDs have
+no fabricated per-image duration. With complete coverage and balanced events,
+activeWallSeconds reports the union of concurrent image-tool intervals.
+otherElapsedSeconds is total time minus that union: it includes reasoning,
+other tools, registration and delivery, so it is not pure orchestration overhead.
+Missing events and incomplete intervals remain partial/null rather than estimates.
+Measurement success is distinct from turn success; inspect outcome.
+
+## Register a native image in one command
+
+This helper requires Studio's Python environment (Pillow), unlike the stdlib chat
+client. It uses a verified frozen Store implementation, not a new service:
+
+    /Volumes/TB4/mac-mini-storage/shared/pinpin-studio-venv/bin/python -B tools/studio-client/register-image.py --runtime-dir /Volumes/TB4/mac-mini-storage/shared/pinpin-studio-runtime --native-path /absolute/native-image.png --prompt-file /absolute/exact-prompt.txt --reference REGISTERED_ASSET_ID --output-name character-solo.png
+
+Repeat --reference for each actual input image (maximum12). The caller must supply
+the exact generation prompt and real references; --tool defaults to the caller's
+assertion image_gen.imagegen. The helper does not infer provenance from pixels.
+
+--runtime-dir reads current-deployment.json for the frozen kernel and data path.
+--data-dir can override the data destination explicitly. Alternatively use
+--kernel-root /path/to/frozen-release with --data-dir /path/to/existing-data.
+No immutable release or runtime manifest is modified.
+
+Before copying, the helper validates the frozen bundle, registered references,
+prompt and native image. It copies exact bytes into data/generated using a hash
+prefix, verifies the copy, and calls Store.import_asset with prompt, hashes,
+native source path, tool and reference provenance. It never resizes, approves,
+selects, publishes, or edits the project. Identical bytes with matching unreviewed
+provenance reuse the candidate; conflicting provenance/review status or output
+bytes fail without overwriting them.
+
+The JSON receipt contains assetId, sha256, candidate review status, copy path,
+actual registration timing and a ready WorkflowCard with actions:[].
+Place workflowCard JSON inside an assistant ui fence to display the finished
+candidate. This is presentation, not an extra approval checkpoint.
+Generation timing belongs to the turn measurement, not this registration receipt.
+
+Run all tests (including real frozen Store fixtures) with the Studio environment:
+
+    /Volumes/TB4/mac-mini-storage/shared/pinpin-studio-venv/bin/python -B -m unittest discover -s tools/studio-client/tests -v

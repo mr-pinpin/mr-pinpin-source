@@ -92,6 +92,8 @@ class ClientTest(unittest.TestCase):
         self.assertEqual(code, 0)
         self.assertEqual(receipt["messageId"], "user-1")
         self.assertTrue(receipt["accepted"])
+        self.assertGreaterEqual(receipt["httpAcceptSeconds"], 0)
+        self.assertIn("T", receipt["requestStartedAt"])
         body = self.server.posts[0]
         self.assertEqual(body["text"], "[fleet-msg from codex-wap1]\n[Actor: codex-wap1; on behalf of: Miguel]\n\nKeep this exact.\nСпасибо.")
         self.assertEqual(body["projectRevision"], 3)
@@ -139,6 +141,26 @@ class ClientTest(unittest.TestCase):
         code, result = self.call("wait", "--message-id", "user-1")
         self.assertEqual(code, 0)
         self.assertEqual(result["outcome"], "completed")
+
+    def test_measure_command_capture_and_resume_are_read_only(self):
+        value = snapshot()
+        value["conversation"]["messages"][0]["createdAt"] = "2026-10-03T09:30:00+00:00"
+        value["conversation"]["messages"][1]["createdAt"] = "2026-10-03T09:30:02+00:00"
+        value["events"] = [{"seq":1,"type":"message","messageId":"user-1","createdAt":"2026-10-03T09:30:00+00:00"},
+                           {"seq":2,"type":"message","messageId":"answer-1","createdAt":"2026-10-03T09:30:03+00:00"},
+                           {"seq":3,"type":"status","status":"completed","createdAt":"2026-10-03T09:30:04+00:00"}]
+        self.server.snapshots = [value]
+        with tempfile.TemporaryDirectory() as folder:
+            path = str(Path(folder)/"capture.json")
+            code,result = self.call("measure","--message-id","user-1","--capture-file",path)
+            self.assertEqual(code,0,result)
+            self.assertEqual(result["totalSeconds"],4)
+            self.assertEqual(result["finalMessageIds"],["answer-1"])
+            code,resumed = self.call("measure","--message-id","user-1","--capture-file",path,"--once")
+            self.assertEqual(code,0,resumed)
+            self.assertEqual(resumed["totalSeconds"],4)
+            self.assertNotIn('"text"',Path(path).read_text())
+        self.assertEqual(self.server.posts, [])
 
     def test_send_wait_timeout_keeps_send_receipt(self):
         self.server.snapshots = [snapshot("running")]
