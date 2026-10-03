@@ -1,0 +1,15 @@
+{
+  "prompt": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r24/art/willow-finish/prompts/scene-346-v2.txt",
+  "exactPrompt": "Use case: precise-object-edit. Edit image1 ONLY the small PinPin HEDGEHOG at far rear RIGHT: make him comfortably SEATED on exactly the small flat gray stone shown in image2, same rear-right physical location beyond Elder, full quill back, small cheerful amused smile and bright attentive gaze watching the adults. Hands rest relaxed in lap, feet relaxed forward, no concern, no frightened brows. Match his individual face and seated proportions from image2. Preserve all other content of image1 unchanged: adult Beaver LEFT and Elder RIGHT with exact existing faces, gestures, staff and pruning shears state; cut central stump, exact large harvested horizontal pile LEFT, bench/tractor/background/camera/light. Do not copy intact shoots or remove pile from image2. No other characters or text. Same 1536x1024 landscape dimensional book art.",
+  "inputRoles": [
+    "precise edit target",
+    "approved seated PinPin pose, identity and stone"
+  ],
+  "toolArguments": {
+    "referenced_image_paths": [
+      "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r23/art/willow-gag/masters/scene-346-v1.png",
+      "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r24/art/willow-finish/masters/scene-354-v1.png"
+    ],
+    "transparent_background": false
+  }
+}

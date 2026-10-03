@@ -1,0 +1,46 @@
+{
+  "prompt": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r24/art/willow-finish/prompts/scene-354-v1.txt",
+  "exactPrompt": "Use case: illustration-story. Create one beautiful 1536x1024 landscape book illustration, no text. Image1 supplies the exact nursery mossy willow stool between two gray stones with intact tall slender leafy shoots, and exact HEDGEHOG PinPin and Elder identities. Image2 supplies blue-vest smooth-furred BEAVER and the established wide camera geography: Beaver LEFT, stool CENTER, Elder RIGHT, PinPin rear RIGHT beyond Elder. This scene occurs BEFORE the first harvest: absolutely no cut woodpile or harvested bundles. Show a comfortable pause: small PinPin the HEDGEHOG with full quill back sits happily on a small flat gray stone in rear-right, both feet relaxed near the ground, hands resting in lap, cheerful curious smile and attentive gaze toward both adults. He is visibly seated, not standing, not worried. Elder stands right holding his curved staff calmly, looks toward child with fond smile. Beaver left holds CLOSED red-handled pruning shears safely lowered beside his body, free paw relaxed, no cutting yet. Keep the slender green shoots intact rising from actual central rooted stool; no giant tree yet. Same bench rear-left, old willow left, blue utility tractor rear-right, warm forest clearing and lovely dappled sunlight. Match reference soft dimensional animated storybook faces/materials exactly, natural relaxed brows, no extra cast or duplicated children. Wide enough to clearly establish the child seat and all three characters, balanced cinematic composition.",
+  "inputRoles": [
+    "grown willow and individual PinPin/Elder identity",
+    "Beaver identity and rear-right child location; exclude cut state and pile"
+  ],
+  "toolArguments": {
+    "referenced_image_paths": [
+      "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r22/art/beaver-dam-finish/masters/scene-330-v1.png",
+      "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r23/art/willow-gag/masters/scene-346-v1.png"
+    ],
+    "transparent_background": false
+  },
+  "schemaVersion": 1,
+  "id": "scene-354",
+  "version": "v1",
+  "tool": "image_gen__imagegen",
+  "native": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r24/art/willow-finish/masters/scene-354-v1.png",
+  "master": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r24/art/willow-finish/masters/scene-354-v1.png",
+  "web": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r24/art/willow-finish/web/scene-354-v1.webp",
+  "record": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r24/art/willow-finish/records/scene-354-v1.json",
+  "sourceOutputPath": "/Users/miguel_lemos/.codex/generated_images/01a0fa05-e7a6-7a00-a6f0-fc3a9cc0cc09/exec-76c7aa4d-4b25-443b-806b-5e432eb49c3a.png",
+  "sha256": "0904b2bfd8822bbb27d38d9ee5e0b61cf921800f6eb8c6fe049ec4b842e55b23",
+  "webSha256": "5ae14a962776a0671b49a4e1bff6e6c40c2b3bfc56710f480497364571ea51d2",
+  "artistReview": "pass",
+  "rootReview": "pass-for-preview",
+  "userReview": "pending",
+  "selected": true,
+  "width": 1536,
+  "height": 1024,
+  "inputs": [
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r22/art/beaver-dam-finish/masters/scene-330-v1.png",
+      "sha256": "3bf3a4fdb0a6a42d0bd2e99b3f58313dbfa73b6153b26f6595e4c4827df5dc83",
+      "role": "grown willow and individual PinPin/Elder identity"
+    },
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r23/art/willow-gag/masters/scene-346-v1.png",
+      "sha256": "5e0ce508a5182e0743c8b2fb1fdac86c7860e3efcfd1c567d0839a08466341f9",
+      "role": "Beaver identity and rear-right child location; exclude cut state and pile"
+    }
+  ],
+  "promptSha256": "c415e8c69c4daf8e8f1261bbd89f90b28245fbdd101ff05184f0dfd4bba18945",
+  "nativeBytes": 3042027
+}

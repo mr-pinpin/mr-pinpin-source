@@ -1,0 +1,17 @@
+{
+  "prompt": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r24/art/willow-finish/prompts/scene-350-v3.txt",
+  "exactPrompt": "Use case: identity-preserve. Precisely edit ONLY Scooby the large brown dog's HEAD and NECK in image1. Images2 and3 show the SAME approved dog and are the exact identity authorities. Transfer that individual head structure into the UPWARD LOOKING pose of image1: tapered but rounded cream muzzle, defined separate folded triangular ears (not long rounded retriever flaps), warm darker brow and eye framing, modest skull, softly layered cheek/neck ruff blending into a broad soft cream throat and chest bib. His current image1 broad generic puppy face and bare long slim neck must match the reference's structured ruff and face instead. Eyes naturally aligned looking UP into the crown, with plausible far-eye occlusion in perspective, never cross-eyed. Preserve his existing large body, leg positions, scale, curled rear tail and upward head angle; do not enlarge the skull or thicken body, no mane, no collar/tag. Preserve every other pixel compositionally: all other eight characters exactly unchanged with their approved faces and actions, two distinct beaver kits, camera, light, tree geometry, existing ground bundles, clothing, shears state and background. Do not import the house or family from references2/3. Keep image1 size/framing and polished warm dimensional book style. No text.",
+  "inputRoles": [
+    "edit target; preserve whole scene except dog's head and neck identity",
+    "primary approved Scooby identity authority",
+    "supporting approved Scooby identity"
+  ],
+  "toolArguments": {
+    "referenced_image_paths": [
+      "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r23/art/willow-finish/masters/scene-350-v2.png",
+      "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r18/art/opening/masters/scene-05g1-v2.png",
+      "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r17/art/opening-edits/native/scene-05g-v1.png"
+    ],
+    "transparent_background": false
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "prompt": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r24/art/willow-finish/prompts/scene-359-v1.txt",
+  "exactPrompt": "Use case: illustration-story. Make the NEXT distinct story beat after image1, not a cutting beat. Image1 defines exact intact leafy willow shoots rooted in central mossy stool, two previously harvested horizontal leafy rod bundles beside bench LEFT, and exact Beaver and Elder faces. Image2 defines seated happy PinPin HEDGEHOG rearRIGHT on small flat gray stone. A warm grateful pause: Beaver in blue vest LEFT turns his face to make real eye contact with Elder RIGHT, gives a little grateful nod, free paw lightly at chest. His red-handled shears are CLOSED and pointed DOWN beside thigh, completely idle, not cutting or poised to snip. Elder holds curved staff quietly and receives thanks; soft patient expression, no pointing or active magic gesture. PinPin if visible remains seated at same rear-right stone watching happily; never standing/worried. Keep all shoots fully intact, no falling branches, no regrowth sparks or motion. Camera closer eye-level two-shot emphasizing their reciprocal gaze, varying camera but same world positions and sunny old willow nursery. Do not mirror the worksite, do not reset pile. All HEDGEHOG quills and smooth-furred BEAVER species remain distinct. Beautiful warm dimensional storybook rendering identical references. No text, 1536x1024 landscape.",
+  "inputRoles": [
+    "intact regrown shoots and correct accumulated pile/world state",
+    "seated amused PinPin and cast identity"
+  ],
+  "toolArguments": {
+    "referenced_image_paths": [
+      "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r23/art/willow-gag/masters/scene-342-v1.png",
+      "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r24/art/willow-finish/masters/scene-354-v1.png"
+    ],
+    "transparent_background": false
+  },
+  "schemaVersion": 1,
+  "id": "scene-359",
+  "version": "v1",
+  "tool": "image_gen__imagegen",
+  "native": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r24/art/willow-finish/masters/scene-359-v1.png",
+  "master": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r24/art/willow-finish/masters/scene-359-v1.png",
+  "web": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r24/art/willow-finish/web/scene-359-v1.webp",
+  "record": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r24/art/willow-finish/records/scene-359-v1.json",
+  "sourceOutputPath": "/Users/miguel_lemos/.codex/generated_images/01a0fa05-e7a6-7a00-a6f0-fc3a9cc0cc09/exec-264404e7-13d7-480c-bf68-a79e56d3ab4c.png",
+  "sha256": "3efc906cef8c44feac1d16e1ba1ff35060019f767d34021c8a2d911091b1eddb",
+  "webSha256": "79213ac337e412fbf7b804abb9804c0c1a4e038ba3cf6d2622c56cb7c12496be",
+  "artistReview": "pass",
+  "rootReview": "pass-for-preview",
+  "userReview": "pending",
+  "selected": true,
+  "width": 1536,
+  "height": 1024,
+  "inputs": [
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r23/art/willow-gag/masters/scene-342-v1.png",
+      "sha256": "1ecf5dce1c55735cbde042884c500014bb05011f33c1ccdd899183d26b737664",
+      "role": "intact regrown shoots and correct accumulated pile/world state"
+    },
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r24/art/willow-finish/masters/scene-354-v1.png",
+      "sha256": "0904b2bfd8822bbb27d38d9ee5e0b61cf921800f6eb8c6fe049ec4b842e55b23",
+      "role": "seated amused PinPin and cast identity"
+    }
+  ],
+  "promptSha256": "cd1fa75e1b929832d4eef4cead8fd54a249c03693aae64b9133e892fcc773472",
+  "nativeBytes": 2871987
+}

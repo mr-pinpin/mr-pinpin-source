@@ -1,0 +1,36 @@
+{
+  "id": "scene-358",
+  "version": "v2",
+  "tool": "image_gen__imagegen",
+  "toolArguments": {
+    "prompt": "Narrow continuity repair to this exact image. Remove ONLY the extra second wooden walking staff leaning diagonally in the farLEFT background against the workbench. There must be exactly ONE staff, already correctly held in Elder's hand on RIGHT. Inpaint the removed leaning stick area naturally with the existing bench/green ground behind it. Preserve absolutely everything else: Elder face/glasses/expression/heldstaff/hand, stump, pile of two green bundles, composition, warm light, style. No other changes, no text.",
+    "referenced_image_paths": [
+      "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r24/art/willow-cycles/masters/scene-358-v1.png"
+    ],
+    "transparent_background": false
+  },
+  "master": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r24/art/willow-cycles/masters/scene-358-v2.png",
+  "native": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r24/art/willow-cycles/masters/scene-358-v2.png",
+  "sha256": "9c2682e484903abbe0a6a98b0d9de7b8b4b4b78e4d13e2734665d2c243718175",
+  "nativeSha256": "9c2682e484903abbe0a6a98b0d9de7b8b4b4b78e4d13e2734665d2c243718175",
+  "web": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r24/art/willow-cycles/web/scene-358-v2.webp",
+  "webSha256": "547bfaeb1ed030233a3cde0703d5268f79d3ae04c8ed08be77f5a072eca6b767",
+  "dimensions": [
+    1536,
+    1024
+  ],
+  "originalToolOutput": "/Volumes/TB4/mac-mini-storage/shared/air-space-recovery/codex-generated-images-elder-r6/01a0fa0e-884b-7703-be8d-7ace86b986f9/exec-9ca22f27-fb67-45f3-b37e-61c170c9f96d.png",
+  "originalToolSha256": "9c2682e484903abbe0a6a98b0d9de7b8b4b4b78e4d13e2734665d2c243718175",
+  "prompt": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r24/art/willow-cycles/prompts/scene-358-v2.txt",
+  "promptSha256": "43a6d9db60013acbfed35b3cd296c0e6eee8de4943a5353f93e65ddecb1bf5bb",
+  "references": [
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r24/art/willow-cycles/masters/scene-358-v1.png",
+      "sha256": "7a52485a123c046fc8b1aa9d264e82237c40665d4be35e93bc1da47650c77a3b"
+    }
+  ],
+  "rootReview": "pass",
+  "userReview": "pending",
+  "createdAt": "2026-10-03T00:10:50.212263+00:00",
+  "record": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r24/art/willow-cycles/records/scene-358-v2.json"
+}

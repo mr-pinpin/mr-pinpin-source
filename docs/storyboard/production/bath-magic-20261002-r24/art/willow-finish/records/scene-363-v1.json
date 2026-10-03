@@ -1,0 +1,46 @@
+{
+  "prompt": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r24/art/willow-finish/prompts/scene-363-v1.txt",
+  "exactPrompt": "Use case: illustration-story. Create a NEW cinematic witness reaction shot in the same nursery, 1536x1024 landscape, no text. Image1 is exact small HEDGEHOG PinPin with full quill back, creamy dimensional muzzle, amber eyes, seated relaxed on flat gray stone at rearRIGHT beyond Elder. Retain this identity and seat, not a new location. Image2 supplies same clearing AFTER cutting, central mossy stool now short cut stubs and four-volume large harvested horizontal thin leafy rod bundles left beside bench. Never copy the intact shoots from image1. Camera: medium cinematic child reaction with adult Elder softly visible left midground considering the cut stool and Beaver beside accumulated pile farther left; no spell or regrowth yet. Acting: PinPin presses smiling lips together trying not to giggle, cheeks slightly lifted, paws clasped comfortably on his lap. Eyes attentive toward Elder considering what to do next; curious gleeful anticipation, never nervous. He is clearly comfortably SEATED, feet relaxed at stone edge, full hedgehog anatomy, no beaver teeth or tail. Adults retain world positions to his LEFT: nearer Elder right of central stool; farther blue-vest Beaver left of stool. If cropped they remain offscreen, do not add duplicate adults; no actual work is performed in this reaction beat. Shears are on the workbench, Elder holds staff quietly. Same golden forest light, nursery grass/daisies and blue utility tractor in background only if camera naturally includes it. Low expressive camera, real visual attention to adults, restrained funny delight, readable dimensional face, soft depth of field. Do not force whole worksite into closeup; crop rather than relocating the stone. No new tree, magic sparks, extra cast or text.",
+  "inputRoles": [
+    "exact seated PinPin individual identity, stone and rear-right world position",
+    "cut stool and accumulated pile geometry; adapt pile only to stated point in sequence"
+  ],
+  "toolArguments": {
+    "referenced_image_paths": [
+      "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r24/art/willow-finish/masters/scene-354-v1.png",
+      "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r24/art/willow-finish/masters/scene-346-v2.png"
+    ],
+    "transparent_background": false
+  },
+  "schemaVersion": 1,
+  "id": "scene-363",
+  "version": "v1",
+  "tool": "image_gen__imagegen",
+  "native": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r24/art/willow-finish/masters/scene-363-v1.png",
+  "master": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r24/art/willow-finish/masters/scene-363-v1.png",
+  "web": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r24/art/willow-finish/web/scene-363-v1.webp",
+  "record": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r24/art/willow-finish/records/scene-363-v1.json",
+  "sourceOutputPath": "/Users/miguel_lemos/.codex/generated_images/01a0fa05-e7a6-7a00-a6f0-fc3a9cc0cc09/exec-6c9d5f94-0839-4fe1-afc6-297834e36e51.png",
+  "sha256": "374cded86e8d2bfa29a238a5c78e333b405175b0a76073b341ea40cc643a543b",
+  "webSha256": "fd81df61273df9b19138e7fa2c4f85fefb074dd4da02d06f1b3958a5804e9159",
+  "artistReview": "pass",
+  "rootReview": "pass-for-preview",
+  "userReview": "pending",
+  "selected": true,
+  "width": 1536,
+  "height": 1024,
+  "inputs": [
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r24/art/willow-finish/masters/scene-354-v1.png",
+      "sha256": "0904b2bfd8822bbb27d38d9ee5e0b61cf921800f6eb8c6fe049ec4b842e55b23",
+      "role": "exact seated PinPin individual identity, stone and rear-right world position"
+    },
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r24/art/willow-finish/masters/scene-346-v2.png",
+      "sha256": "7abe58b0929e3677682bc752c51c50ca603ec9b4811be5f012dcacde94bb5f97",
+      "role": "cut stool and accumulated pile geometry; adapt pile only to stated point in sequence"
+    }
+  ],
+  "promptSha256": "f8a0a240e4819d8a2836bf54c1a57910d8025a013cb5f482dbc90f46fb54b993",
+  "nativeBytes": 2725823
+}

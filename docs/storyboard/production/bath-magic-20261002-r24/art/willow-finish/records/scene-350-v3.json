@@ -1,0 +1,53 @@
+{
+  "prompt": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r24/art/willow-finish/prompts/scene-350-v3.txt",
+  "exactPrompt": "Use case: identity-preserve. Precisely edit ONLY Scooby the large brown dog's HEAD and NECK in image1. Images2 and3 show the SAME approved dog and are the exact identity authorities. Transfer that individual head structure into the UPWARD LOOKING pose of image1: tapered but rounded cream muzzle, defined separate folded triangular ears (not long rounded retriever flaps), warm darker brow and eye framing, modest skull, softly layered cheek/neck ruff blending into a broad soft cream throat and chest bib. His current image1 broad generic puppy face and bare long slim neck must match the reference's structured ruff and face instead. Eyes naturally aligned looking UP into the crown, with plausible far-eye occlusion in perspective, never cross-eyed. Preserve his existing large body, leg positions, scale, curled rear tail and upward head angle; do not enlarge the skull or thicken body, no mane, no collar/tag. Preserve every other pixel compositionally: all other eight characters exactly unchanged with their approved faces and actions, two distinct beaver kits, camera, light, tree geometry, existing ground bundles, clothing, shears state and background. Do not import the house or family from references2/3. Keep image1 size/framing and polished warm dimensional book style. No text.",
+  "inputRoles": [
+    "edit target; preserve whole scene except dog's head and neck identity",
+    "primary approved Scooby identity authority",
+    "supporting approved Scooby identity"
+  ],
+  "toolArguments": {
+    "referenced_image_paths": [
+      "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r23/art/willow-finish/masters/scene-350-v2.png",
+      "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r18/art/opening/masters/scene-05g1-v2.png",
+      "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r17/art/opening-edits/native/scene-05g-v1.png"
+    ],
+    "transparent_background": false
+  },
+  "schemaVersion": 1,
+  "id": "scene-350",
+  "version": "v3",
+  "tool": "image_gen__imagegen",
+  "native": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r24/art/willow-finish/masters/scene-350-v3.png",
+  "master": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r24/art/willow-finish/masters/scene-350-v3.png",
+  "web": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r24/art/willow-finish/web/scene-350-v3.webp",
+  "record": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r24/art/willow-finish/records/scene-350-v3.json",
+  "sourceOutputPath": "/Users/miguel_lemos/.codex/generated_images/01a0fa05-e7a6-7a00-a6f0-fc3a9cc0cc09/exec-fbc90665-894e-40c3-8f15-c8359ea965a2.png",
+  "sha256": "167e8367589def783277888243773d55e2864bb7e769315ba4140c103624bda8",
+  "webSha256": "f647c4a3df9dae4fcfb06e92f8b680e0da0c0cc22ffa499c849cdfcc6da87d70",
+  "artistReview": "pass",
+  "rootReview": "pass-for-preview",
+  "userReview": "pending",
+  "selected": true,
+  "width": 1536,
+  "height": 1024,
+  "inputs": [
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r23/art/willow-finish/masters/scene-350-v2.png",
+      "sha256": "4ecca493301dc479dcbbf35f9121c2d17135c5cc39c2fb7a87abdcd41f0d78ec",
+      "role": "edit target; preserve whole scene except dog's head and neck identity"
+    },
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r18/art/opening/masters/scene-05g1-v2.png",
+      "sha256": "209cf0dfb8f34942cbee5e0163532318d1ba218f7a15266c673420bf81a2837b",
+      "role": "primary approved Scooby identity authority"
+    },
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r17/art/opening-edits/native/scene-05g-v1.png",
+      "sha256": "b8b914ed98fe298c8c064bc20c8401759ddca9bcd603a8642c4be4ac4341aebd",
+      "role": "supporting approved Scooby identity"
+    }
+  ],
+  "promptSha256": "93b09ca0a39932ed0609de31fb05508bc8ae96ea4294c36f8f32a4872cc5216e",
+  "nativeBytes": 3052563
+}

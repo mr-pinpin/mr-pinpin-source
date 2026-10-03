@@ -1,0 +1,46 @@
+{
+  "prompt": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r24/art/willow-finish/prompts/scene-360-v1.txt",
+  "exactPrompt": "Use case: illustration-story. Create a NEW cinematic witness reaction shot in the same nursery, 1536x1024 landscape, no text. Image1 is exact small HEDGEHOG PinPin with full quill back, creamy dimensional muzzle, amber eyes, seated relaxed on flat gray stone at rearRIGHT beyond Elder. Retain this identity and seat, not a new location. Image2 supplies same clearing AFTER cutting, central mossy stool now short cut stubs and three harvested horizontal thin leafy rod bundles left beside bench. Never copy the intact shoots from image1. Camera: closer three-quarter reaction portrait from slightly farther left, child's seated body and stone still visible, softly blurred edge of Elder's quills at left. Acting: PinPin lightly covers a delighted smile with one paw, his other paw rests in his lap. Eyes glance toward the nearer Elder, enjoying their misunderstanding; no sadness, worry, fear or tears. He is clearly comfortably SEATED, feet relaxed at stone edge, full hedgehog anatomy, no beaver teeth or tail. Adults retain world positions to his LEFT: nearer Elder right of central stool; farther blue-vest Beaver left of stool. If cropped they remain offscreen, do not add duplicate adults; no actual work is performed in this reaction beat. Any pruning shears stay safely offscreen. Same golden forest light, nursery grass/daisies and blue utility tractor in background only if camera naturally includes it. Low expressive camera, real visual attention to adults, restrained funny delight, readable dimensional face, soft depth of field. Do not force whole worksite into closeup; crop rather than relocating the stone. No new tree, magic sparks, extra cast or text.",
+  "inputRoles": [
+    "exact seated PinPin individual identity, stone and rear-right world position",
+    "cut stool and accumulated pile geometry; adapt pile only to stated point in sequence"
+  ],
+  "toolArguments": {
+    "referenced_image_paths": [
+      "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r24/art/willow-finish/masters/scene-354-v1.png",
+      "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r24/art/willow-finish/masters/scene-346-v2.png"
+    ],
+    "transparent_background": false
+  },
+  "schemaVersion": 1,
+  "id": "scene-360",
+  "version": "v1",
+  "tool": "image_gen__imagegen",
+  "native": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r24/art/willow-finish/masters/scene-360-v1.png",
+  "master": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r24/art/willow-finish/masters/scene-360-v1.png",
+  "web": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r24/art/willow-finish/web/scene-360-v1.webp",
+  "record": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r24/art/willow-finish/records/scene-360-v1.json",
+  "sourceOutputPath": "/Users/miguel_lemos/.codex/generated_images/01a0fa05-e7a6-7a00-a6f0-fc3a9cc0cc09/exec-fde7fc6a-89d1-434b-8c0c-eef98ac92d80.png",
+  "sha256": "311e2b90f13324c6bb382712f57d0ae4cd3fbf5651a6f03c3a1fbcbae8d95ede",
+  "webSha256": "9b4d824471311266ea8cd08e2b9ae552e0c86fb1c0be121c717b2f0611405d61",
+  "artistReview": "pass",
+  "rootReview": "pass-for-preview",
+  "userReview": "pending",
+  "selected": true,
+  "width": 1536,
+  "height": 1024,
+  "inputs": [
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r24/art/willow-finish/masters/scene-354-v1.png",
+      "sha256": "0904b2bfd8822bbb27d38d9ee5e0b61cf921800f6eb8c6fe049ec4b842e55b23",
+      "role": "exact seated PinPin individual identity, stone and rear-right world position"
+    },
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r24/art/willow-finish/masters/scene-346-v2.png",
+      "sha256": "7abe58b0929e3677682bc752c51c50ca603ec9b4811be5f012dcacde94bb5f97",
+      "role": "cut stool and accumulated pile geometry; adapt pile only to stated point in sequence"
+    }
+  ],
+  "promptSha256": "e79e920e760355b795e1852bb9eaaa34fce69e02131250b3d4630342fad7e08d",
+  "nativeBytes": 2417947
+}
