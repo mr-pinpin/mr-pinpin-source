@@ -10,17 +10,67 @@
     ],
     "exactAge": "not stated",
     "evidencedLifeStage": "magically sentient duck, separate from ordinary toy prop",
-    "status": "pending",
+    "status": "produced",
     "dossierPath": "workflows/characters/talking-duck/README.md",
     "evidencePath": "workflows/characters/talking-duck/evidence.json",
     "evidenceCount": 18,
-    "registeredReferenceIds": [],
-    "outputs": [],
+    "registeredReferenceIds": [
+      "asset-d20b81ce414b1ab2c5c4e470"
+    ],
+    "outputs": [
+      {
+        "assetId": "asset-bcfceea74b594d0a3e18d233",
+        "sha256": "bcfceea74b594d0a3e18d2331af67c9e70659a2b6a276f23c8ec7020b6b0dcf4"
+      },
+      {
+        "assetId": "asset-ce6202e185e38c16597c57bd",
+        "sha256": "ce6202e185e38c16597c57bde417208c3cfdf176b9122e1da26930fb6f478507"
+      }
+    ],
     "constraints": {
       "identity": "magically sentient duck, separate from ordinary toy prop",
       "scale": "Not measured; use original/published indexed visual evidence",
       "geometry": ""
-    }
+    },
+    "stages": {
+      "solo": {
+        "assetId": "asset-bcfceea74b594d0a3e18d233",
+        "sha256": "bcfceea74b594d0a3e18d2331af67c9e70659a2b6a276f23c8ec7020b6b0dcf4",
+        "nativePath": "/Users/miguel_lemos/.codex/generated_images/01a0ff85-92dc-7c40-9adb-ef240551a423/exec-16598e5d-57dc-4868-9e72-96ec37eca0aa.png",
+        "generatedPath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/generated/bcfceea74b594d0a-talking-duck-solo.png",
+        "receiptKind": null
+      },
+      "interactions": {
+        "assetId": "asset-ce6202e185e38c16597c57bd",
+        "sha256": "ce6202e185e38c16597c57bde417208c3cfdf176b9122e1da26930fb6f478507",
+        "nativePath": "/Users/miguel_lemos/.codex/generated_images/01a0ff85-92dc-7c40-9adb-ef240551a423/exec-3db0ecdf-2299-43a7-846b-708714a60b49.png",
+        "generatedPath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/generated/ce6202e185e38c16-talking-duck-interactions.png",
+        "receiptKind": null
+      }
+    },
+    "missingStages": [],
+    "nextStage": null,
+    "complete": true,
+    "claimedStatus": "partial",
+    "referenceBindings": {
+      "speciesAndRole": "Magically sentient small yellow rubber bath duck with orange bill and molded wings; PinPin child hedgehog, Papa/Mama adult hedgehogs.",
+      "counterpartIds": [
+        "pinpin",
+        "papa",
+        "mama"
+      ],
+      "designBasis": "Published talking duck appearance; distinct sentient individual, not generic incidental ducks.",
+      "sourceReferences": [
+        {
+          "assetId": "asset-d20b81ce414b1ab2c5c4e470",
+          "sha256": "d20b81ce414b1ab2c5c4e4705b1259d856928a1c70c356b443b57421b63060a0",
+          "role": "identity"
+        }
+      ]
+    },
+    "qaNote": "Inspected native pages: identity, directions, anatomy, scale/contact. Agent QA only; no personal Miguel approval.",
+    "timingPath": "reports/character-packages/talking-duck-generation.json",
+    "completedAt": "2026-10-03T12:15:52.444243+00:00"
   },
   "bibliography": [
     {
@@ -31,7 +81,8 @@
       "chapterTitle": "Глава: Пульсирующий кошмар",
       "blockIndexZeroBased": 4,
       "excerpt": "Поле вокруг него стояло жутко тихо, и растущий холод, казалось, связывал его, закрепляя в самом сне. Наблюдая за неумолимым танцем света и тьмы, слабый луч света пытался пробиться сквозь всепроникающую мглу.",
-      "images": []
+      "images": [],
+      "evidenceDisposition": "Lexical discovery false positive, not Duck identity evidence; talking Duck is established by published adaptation scenes"
     },
     {
       "kind": "original",
@@ -41,7 +92,8 @@
       "chapterTitle": "Глава: Первое снежное путешествие и тёплый приём дома",
       "blockIndexZeroBased": 1,
       "excerpt": "Каждое дерево, камень и листик сверкали тонким слоем инея, отражая бледные солнечные лучи. Г-н Пипилино, с его чуткими лапками, колебался и слегка дрожал. \"Я никогда не видел столько... белизны,\" - заметил он, его голос дрожал от холода и восхищения. Одинокая снежинка медленно опустилась, тая, как только коснулась его клюва. \"Ты думаешь, это безопасно?\" - прошептал он г-ну ПинПину, огромный снежный мир казался одновременно очаровательным и слегка пугающим.",
-      "images": []
+      "images": [],
+      "evidenceDisposition": "Lexical discovery false positive, not Duck identity evidence; talking Duck is established by published adaptation scenes"
     },
     {
       "kind": "published",
@@ -50,8 +102,8 @@
       "chapterId": "bath-magic",
       "sceneId": "scene-60",
       "excerpt": "{\"paragraphs\": {\"en\": [\"“Mama… did you hear?” Mama looked at the duck.\"], \"ru\": [\"«Мама… ты слышала?» Мама посмотрела на уточку.\"], \"es\": [\"«Mamá… ¿lo has oído?» Mamá miró al patito.\"]}, \"alt\": {\"en\": \"“Mama… did you hear?” Mama looked at the duck.\", \"ru\": \"«Мама… ты слышала?» Мама посмотрела на уточку.\", \"es\": \"«Mamá… ¿lo has oído?» Mamá miró al patito.\"}, \"caption\": null, \"captions\": null}",
-      "imagePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/images/published/bath-magic/scene-60.webp",
-      "imageSha256": null
+      "imagePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/images/published/bath-magic/scene-60.webp",
+      "imageSha256": "e92c8cfda7c297c0c172e971328c98c920e6c0dbef1536b886f01a575a9fe465"
     },
     {
       "kind": "published",
@@ -60,8 +112,8 @@
       "chapterId": "bath-magic",
       "sceneId": "scene-61",
       "excerpt": "{\"paragraphs\": {\"en\": [\"“More!” said the duck. Papa raised one eyebrow.\"], \"ru\": [\"«Ещё!» — сказала уточка. Папа приподнял бровь.\"], \"es\": [\"«¡Más!», dijo el patito. Papá levantó una ceja.\"]}, \"alt\": {\"en\": \"“More!” said the duck. Papa raised one eyebrow.\", \"ru\": \"«Ещё!» — сказала уточка. Папа приподнял бровь.\", \"es\": \"«¡Más!», dijo el patito. Papá levantó una ceja.\"}, \"caption\": null, \"captions\": null}",
-      "imagePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/images/published/bath-magic/scene-61.webp",
-      "imageSha256": null
+      "imagePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/images/published/bath-magic/scene-61.webp",
+      "imageSha256": "d20b81ce414b1ab2c5c4e4705b1259d856928a1c70c356b443b57421b63060a0"
     },
     {
       "kind": "published",
@@ -70,8 +122,8 @@
       "chapterId": "bath-magic",
       "sceneId": "scene-62",
       "excerpt": "{\"paragraphs\": {\"en\": [\"The duck turned with the current. “Wheee!” Down the wooden path it went.\"], \"ru\": [\"Уточка повернулась по течению. «Уи-и-и!» — и поплыла по деревянной дорожке.\"], \"es\": [\"El patito se puso de cara a la corriente. «¡Yuju!», y siguió el camino de madera.\"]}, \"alt\": {\"en\": \"The duck turned with the current. “Wheee!” Down the wooden path it went.\", \"ru\": \"Уточка повернулась по течению. «Уи-и-и!» — и поплыла по деревянной дорожке.\", \"es\": \"El patito se puso de cara a la corriente. «¡Yuju!», y siguió el camino de madera.\"}, \"caption\": null, \"captions\": null}",
-      "imagePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/images/published/bath-magic/scene-62.webp",
-      "imageSha256": null
+      "imagePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/images/published/bath-magic/scene-62.webp",
+      "imageSha256": "6037974706fffe5c179d41fdd6519141e50a9511e3159e2b8a758a684ad281d8"
     },
     {
       "kind": "published",
@@ -80,8 +132,8 @@
       "chapterId": "bath-magic",
       "sceneId": "scene-62a",
       "excerpt": "{\"paragraphs\": {\"en\": [\"Over one join, then the next. The duck bobbed along, beak first.\"], \"ru\": [\"Через один стык, потом через другой. Уточка покачивалась и плыла клювом вперёд.\"], \"es\": [\"Pasó una unión y luego otra. El patito avanzaba balanceándose, con el pico por delante.\"]}, \"alt\": {\"en\": \"Over one join, then the next. The duck bobbed along, beak first.\", \"ru\": \"Через один стык, потом через другой. Уточка покачивалась и плыла клювом вперёд.\", \"es\": \"Pasó una unión y luego otra. El patito avanzaba balanceándose, con el pico por delante.\"}, \"caption\": null, \"captions\": null}",
-      "imagePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/images/published/bath-magic/scene-62a.webp",
-      "imageSha256": null
+      "imagePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/images/published/bath-magic/scene-62a.webp",
+      "imageSha256": "8c73d68428cfe2a55bf188b535609cca50dfc39421a71e871327c8c318d981a6"
     },
     {
       "kind": "published",
@@ -90,8 +142,8 @@
       "chapterId": "bath-magic",
       "sceneId": "scene-63",
       "excerpt": "{\"paragraphs\": {\"en\": [\"It sailed past the table. PinPin trotted alongside. “Quack!” said PomPom. The duck answered, “Quack!”\"], \"ru\": [\"Уточка проплыла мимо стола. Пин-Пин побежал рядом. «Кря!» — сказал Пом-Пом. Уточка ответила: «Кря!»\"], \"es\": [\"Pasó navegando junto a la mesa. PinPin trotó a su lado. «¡Cuac!», dijo PomPom. El patito contestó: «¡Cuac!»\"]}, \"alt\": {\"en\": \"“Quack!” said PomPom. The duck answered, “Quack!”\", \"ru\": \"«Кря!» — сказал Пом-Пом. Уточка ответила: «Кря!»\", \"es\": \"«¡Cuac!», dijo PomPom. El patito contestó: «¡Cuac!»\"}, \"caption\": null, \"captions\": null}",
-      "imagePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/images/published/bath-magic/r18/scene-63.webp",
-      "imageSha256": null
+      "imagePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/images/published/bath-magic/r18/scene-63.webp",
+      "imageSha256": "51db3099328d779e809f3e0b908d6cab2a38f27f3c3c75153a73441b8bf8bfe2"
     },
     {
       "kind": "published",
@@ -100,8 +152,8 @@
       "chapterId": "bath-magic",
       "sceneId": "scene-64",
       "excerpt": "{\"paragraphs\": {\"en\": [\"Papa caught it at the end. “Again!” said the duck.\"], \"ru\": [\"Папа поймал её в конце желоба. «Ещё раз!» — сказала уточка.\"], \"es\": [\"Papá lo atrapó al final. «¡Otra vez!», dijo el patito.\"]}, \"alt\": {\"en\": \"Papa caught it at the end. “Again!” said the duck.\", \"ru\": \"Папа поймал её в конце желоба. «Ещё раз!» — сказала уточка.\", \"es\": \"Papá lo atrapó al final. «¡Otra vez!», dijo el patito.\"}, \"caption\": null, \"captions\": null}",
-      "imagePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/images/published/bath-magic/scene-64.webp",
-      "imageSha256": null
+      "imagePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/images/published/bath-magic/scene-64.webp",
+      "imageSha256": "7c30e9aa595e3d205cad1e5fd6155d247a0f6389a420843671760a9bee8b6549"
     },
     {
       "kind": "published",
@@ -110,8 +162,8 @@
       "chapterId": "bath-magic",
       "sceneId": "scene-65",
       "excerpt": "{\"paragraphs\": {\"en\": [\"“Round and round… just so! A quiet duck, please.”\"], \"ru\": [\"«Круг за кругом… вот так! Пусть уточка помолчит».\"], \"es\": [\"«Vuelta y vuelta… ¡así! Un patito calladito, por favor».\"]}, \"alt\": {\"en\": \"“Round and round… just so! A quiet duck, please.”\", \"ru\": \"«Круг за кругом… вот так! Пусть уточка помолчит».\", \"es\": \"«Vuelta y vuelta… ¡así! Un patito calladito, por favor».\"}, \"caption\": null, \"captions\": null}",
-      "imagePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/images/published/bath-magic/scene-65.webp",
-      "imageSha256": null
+      "imagePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/images/published/bath-magic/scene-65.webp",
+      "imageSha256": "87559bd94fc21df2324055720fb5840e15d31f8e31d992a005a287e5fe598036"
     },
     {
       "kind": "published",
@@ -120,8 +172,8 @@
       "chapterId": "bath-magic",
       "sceneId": "scene-69",
       "excerpt": "{\"paragraphs\": {\"en\": [\"They gave the ducks a wide little pool. But flowers kept catching their tails.\"], \"ru\": [\"Уточкам дали широкий маленький бассейн. Но цветы всё цеплялись за хвостики.\"], \"es\": [\"Les dieron una piscina bajita y ancha. Pero las flores se enganchaban en sus colitas.\"]}, \"alt\": {\"en\": \"They gave the ducks a wide little pool. But flowers kept catching their tails.\", \"ru\": \"Уточкам дали широкий маленький бассейн. Но цветы всё цеплялись за хвостики.\", \"es\": \"Les dieron una piscina bajita y ancha. Pero las flores se enganchaban en sus colitas.\"}, \"caption\": null, \"captions\": null}",
-      "imagePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/images/published/bath-magic/scene-69.webp",
-      "imageSha256": null
+      "imagePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/images/published/bath-magic/scene-69.webp",
+      "imageSha256": "874f5623acd949731f2032bb14f9f7d065c86ae9fe9406115079ef0c70657148"
     },
     {
       "kind": "published",
@@ -130,8 +182,8 @@
       "chapterId": "bath-magic",
       "sceneId": "scene-71",
       "excerpt": "{\"paragraphs\": {\"en\": [\"PinPin potted one flower. “Round and round… just so! Smaller, please—room for the ducks!”\"], \"ru\": [\"Пин-Пин посадил один цветок в горшок. «Круг за кругом… вот так! Стань поменьше — уткам нужно место!»\"], \"es\": [\"PinPin puso una flor en una maceta. «Vuelta y vuelta… ¡así! Más pequeña, por favor… ¡sitio para los patos!»\"]}, \"alt\": {\"en\": \"PinPin potted one flower. “Round and round… just so! Smaller, please—room for the ducks!”\", \"ru\": \"Пин-Пин посадил один цветок в горшок. «Круг за кругом… вот так! Стань поменьше — уткам нужно место!»\", \"es\": \"PinPin puso una flor en una maceta. «Vuelta y vuelta… ¡así! Más pequeña, por favor… ¡sitio para los patos!»\"}, \"caption\": null, \"captions\": null}",
-      "imagePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/images/published/bath-magic/scene-71.webp",
-      "imageSha256": null
+      "imagePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/images/published/bath-magic/scene-71.webp",
+      "imageSha256": "2bc1844ea3c2f32d46f642bed9557fca8ea605753e78979bcfefe6fa7247fab0"
     },
     {
       "kind": "published",
@@ -140,8 +192,8 @@
       "chapterId": "bath-magic",
       "sceneId": "scene-124",
       "excerpt": "{\"paragraphs\": {\"en\": [\"“A real lake!” said PinPin. They carried the ducks along the forest path.\"], \"ru\": [\"«Настоящее озеро!» — сказал Пин-Пин. Они понесли уточек по лесной тропинке.\"], \"es\": [\"«¡Un lago de verdad!», dijo PinPin. Llevaron los patitos por el sendero del bosque.\"]}, \"alt\": {\"en\": \"“A real lake!” said PinPin. They carried the ducks along the forest path.\", \"ru\": \"«Настоящее озеро!» — сказал Пин-Пин. Они понесли уточек по лесной тропинке.\", \"es\": \"«¡Un lago de verdad!», dijo PinPin. Llevaron los patitos por el sendero del bosque.\"}, \"caption\": null, \"captions\": null}",
-      "imagePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/images/published/bath-magic/scene-124.webp",
-      "imageSha256": null
+      "imagePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/images/published/bath-magic/scene-124.webp",
+      "imageSha256": "5357172bbacf2303ef185bbc3c432beaf4c118847c4f594c46bc981c452bc4aa"
     },
     {
       "kind": "published",
@@ -150,8 +202,8 @@
       "chapterId": "bath-magic",
       "sceneId": "scene-125",
       "excerpt": "{\"paragraphs\": {\"en\": [\"Papa lowered the basin. PinPin helped the ducks into the lake, one by one.\"], \"ru\": [\"Папа опустил таз. Пин-Пин помог уточкам спуститься в озеро, одной за другой.\"], \"es\": [\"Papá bajó la palangana. PinPin ayudó a los patitos a entrar en el lago, uno a uno.\"]}, \"alt\": {\"en\": \"Papa lowered the basin. PinPin helped the ducks into the lake, one by one.\", \"ru\": \"Папа опустил таз. Пин-Пин помог уточкам спуститься в озеро, одной за другой.\", \"es\": \"Papá bajó la palangana. PinPin ayudó a los patitos a entrar en el lago, uno a uno.\"}, \"caption\": null, \"captions\": null}",
-      "imagePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/images/published/bath-magic/scene-125.webp",
-      "imageSha256": null
+      "imagePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/images/published/bath-magic/scene-125.webp",
+      "imageSha256": "0aa240713b699253d73666d071d4ffbcf16f204b11e605be4add1d4d21dbf973"
     },
     {
       "kind": "published",
@@ -160,8 +212,8 @@
       "chapterId": "bath-magic",
       "sceneId": "scene-126",
       "excerpt": "{\"paragraphs\": {\"en\": [\"Twelve ducks bobbed on the lake. “More room!” they quacked.\"], \"ru\": [\"Двенадцать уточек покачивались на озере. «Вот это простор!» — закрякали они.\"], \"es\": [\"Doce patitos flotaban en el lago. «¡Más sitio!», hicieron cuac.\"]}, \"alt\": {\"en\": \"Twelve ducks bobbed on the lake. “More room!” they quacked.\", \"ru\": \"Двенадцать уточек покачивались на озере. «Вот это простор!» — закрякали они.\", \"es\": \"Doce patitos flotaban en el lago. «¡Más sitio!», hicieron cuac.\"}, \"caption\": null, \"captions\": null}",
-      "imagePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/images/published/bath-magic/scene-126.webp",
-      "imageSha256": null
+      "imagePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/images/published/bath-magic/scene-126.webp",
+      "imageSha256": "2a069c25eb95f937cd444fe358ab15479d4a91b4a81e4bac524f75fadd3b48d2"
     },
     {
       "kind": "published",
@@ -170,8 +222,8 @@
       "chapterId": "elder-beneath-roots",
       "sceneId": "elder-r6-mentor-078",
       "excerpt": "{\"paragraphs\": {\"en\": [\"PinPin ducked into the low passage. The Elder bent down to follow.\"], \"ru\": [\"Пин-Пин пригнулся и нырнул в низкий проход. Старейшина наклонился и пошёл следом.\"], \"es\": [\"PinPin se agachó para entrar en el pasadizo bajo. El anciano se inclinó para seguirlo.\"]}, \"alt\": {\"en\": \"PinPin enters the low passage with the Elder following.\", \"ru\": \"Пин-Пин входит в низкий проход, Старейшина следует за ним.\", \"es\": \"PinPin entra en el pasadizo bajo y el anciano lo sigue.\"}, \"caption\": null, \"captions\": null}",
-      "imagePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/images/published/elder-cycle/elder-r6-mentor-078.webp",
-      "imageSha256": null
+      "imagePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/images/published/elder-cycle/elder-r6-mentor-078.webp",
+      "imageSha256": "e6814e16acfc0b0aff4a9fe48a69fd662f9fedf5f9f554eb7b1faa8df1de4e74"
     },
     {
       "kind": "published",
@@ -180,8 +232,8 @@
       "chapterId": "elder-forest-path",
       "sceneId": "elder-r6-forest-009",
       "excerpt": "{\"paragraphs\": {\"en\": [\"“Now you, Papa!” PinPin held a low leafy twig aside while Papa ducked under it.\"], \"ru\": [\"— Теперь ты, Папа! Пин-Пин отвёл в сторону тонкую веточку, а Папа пригнулся под ней.\"], \"es\": [\"—¡Ahora tú, Papá! PinPin apartó una ramita con hojas mientras Papá se agachaba para pasar.\"]}, \"alt\": {\"en\": \"PinPin holds a leafy twig aside while Papa bends beneath it, with Scooby watching.\", \"ru\": \"Пин-Пин отводит веточку с листьями, пока Папа пригибается под ней; Скуби наблюдает.\", \"es\": \"PinPin aparta una ramita con hojas mientras Papá se agacha para pasar y Scooby observa.\"}, \"caption\": null, \"captions\": null}",
-      "imagePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/images/published/elder-cycle/elder-r6-forest-009.webp",
-      "imageSha256": null
+      "imagePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/images/published/elder-cycle/elder-r6-forest-009.webp",
+      "imageSha256": "81f2b30b605f05c946a40f142448d749a9e52399c6327740b40e2ba0ddb76d1d"
     },
     {
       "kind": "published",
@@ -190,8 +242,8 @@
       "chapterId": "one-day-in-the-forest",
       "sceneId": "elder-r6-forest-009",
       "excerpt": "{\"paragraphs\": {\"en\": [\"“Now you, Papa!” PinPin held a low leafy twig aside while Papa ducked under it.\"], \"ru\": [\"— Теперь ты, Папа! Пин-Пин отвёл в сторону тонкую веточку, а Папа пригнулся под ней.\"], \"es\": [\"—¡Ahora tú, Papá! PinPin apartó una ramita con hojas mientras Papá se agachaba para pasar.\"]}, \"alt\": {\"en\": \"PinPin holds a leafy twig aside while Papa bends beneath it, with Scooby watching.\", \"ru\": \"Пин-Пин отводит веточку с листьями, пока Папа пригибается под ней; Скуби наблюдает.\", \"es\": \"PinPin aparta una ramita con hojas mientras Papá se agacha para pasar y Scooby observa.\"}, \"caption\": null, \"captions\": null}",
-      "imagePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/images/published/elder-cycle/elder-r6-forest-009.webp",
-      "imageSha256": null
+      "imagePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/images/published/elder-cycle/elder-r6-forest-009.webp",
+      "imageSha256": "81f2b30b605f05c946a40f142448d749a9e52399c6327740b40e2ba0ddb76d1d"
     },
     {
       "kind": "published",
@@ -200,10 +252,163 @@
       "chapterId": "one-day-in-the-forest",
       "sceneId": "elder-r6-mentor-078",
       "excerpt": "{\"paragraphs\": {\"en\": [\"PinPin ducked into the low passage. The Elder bent down to follow.\"], \"ru\": [\"Пин-Пин пригнулся и нырнул в низкий проход. Старейшина наклонился и пошёл следом.\"], \"es\": [\"PinPin se agachó para entrar en el pasadizo bajo. El anciano se inclinó para seguirlo.\"]}, \"alt\": {\"en\": \"PinPin enters the low passage with the Elder following.\", \"ru\": \"Пин-Пин входит в низкий проход, Старейшина следует за ним.\", \"es\": \"PinPin entra en el pasadizo bajo y el anciano lo sigue.\"}, \"caption\": null, \"captions\": null}",
-      "imagePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/images/published/elder-cycle/elder-r6-mentor-078.webp",
-      "imageSha256": null
+      "imagePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/images/published/elder-cycle/elder-r6-mentor-078.webp",
+      "imageSha256": "e6814e16acfc0b0aff4a9fe48a69fd662f9fedf5f9f554eb7b1faa8df1de4e74"
     }
   ],
-  "registeredReferences": [],
-  "existingOutputs": []
+  "registeredReferences": [
+    {
+      "id": "asset-d20b81ce414b1ab2c5c4e470",
+      "name": "r17-scene-61",
+      "mime": "image/webp",
+      "sha256": "d20b81ce414b1ab2c5c4e4705b1259d856928a1c70c356b443b57421b63060a0",
+      "bytes": 383562,
+      "width": 1536,
+      "height": 1024,
+      "url": "/api/assets/asset-d20b81ce414b1ab2c5c4e470",
+      "storagePath": "assets/d20b81ce414b1ab2c5c4e4705b1259d856928a1c70c356b443b57421b63060a0.webp",
+      "createdAt": "2026-10-02T18:48:38.469817+00:00",
+      "reviewStatus": "user-approved",
+      "provenance": {
+        "sourcePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261001-r10-story-repair/root/web/scene-61.webp",
+        "catalogKey": "r17-scene-61",
+        "catalogSha256": "d20b81ce414b1ab2c5c4e4705b1259d856928a1c70c356b443b57421b63060a0",
+        "role": "current R17 story illustration",
+        "evidence": {
+          "stableId": "scene-61",
+          "retainedApprovedR16": true,
+          "userReview": "approved previous art"
+        }
+      }
+    }
+  ],
+  "existingOutputs": [
+    {
+      "id": "asset-bcfceea74b594d0a3e18d233",
+      "name": "talking-duck-solo.png",
+      "mime": "image/png",
+      "sha256": "bcfceea74b594d0a3e18d2331af67c9e70659a2b6a276f23c8ec7020b6b0dcf4",
+      "bytes": 1697121,
+      "width": 1222,
+      "height": 1287,
+      "url": "/api/assets/asset-bcfceea74b594d0a3e18d233",
+      "storagePath": "assets/bcfceea74b594d0a3e18d2331af67c9e70659a2b6a276f23c8ec7020b6b0dcf4.png",
+      "createdAt": "2026-10-03T12:07:56.174737+00:00",
+      "reviewStatus": "unreviewed",
+      "provenance": {
+        "sourcePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/generated/bcfceea74b594d0a-talking-duck-solo.png",
+        "source": "native-imagegen",
+        "tool": "image_gen.imagegen",
+        "nativeOutputPath": "/Users/miguel_lemos/.codex/generated_images/01a0ff85-92dc-7c40-9adb-ef240551a423/exec-16598e5d-57dc-4868-9e72-96ec37eca0aa.png",
+        "nativeSha256": "bcfceea74b594d0a3e18d2331af67c9e70659a2b6a276f23c8ec7020b6b0dcf4",
+        "prompt": "Use case: illustration-story. Create ONE polished portrait reference page titled \"Talking bath Duck\" with EXACTLY 24 readable studies in FOUR rows of SIX, ivory background, concise cell labels. Subject: Small glossy YELLOW RUBBER BATH DUCK, round head, white eyes with dark pupils, orange broad bill, molded shallow wing ridges, upturned short tail, buoyant rounded base. No human arms, feet, feathers, hat or clothing. Magically sentient expressions retain physical rubber duck design. Input roles: first 1 image(s) subject SOURCE evidence; next image PinPin 24-study is LAYOUT/DIRECTION ONLY, never species/anatomy/clothing; last family image is warm dimensional BOOK STYLE only. Keep target species in EVERY cell. Match the template grid and opposing left/right poses, NOT its hedgehog appearance. Row1 FACE VIEWS in order: Front: nose/beak centered toward viewer. Left 3/4: nose/beak points to SCREEN LEFT, both eyes visible. Left profile: true side, nose/beak points SCREEN LEFT. Right 3/4: nose/beak points SCREEN RIGHT, both eyes visible. Right profile: true side, nose/beak points SCREEN RIGHT. Rear: back, face invisible. Row2 Expressions: Calm, Curious, Happy, Surprised, Sleepy, Mild upset; natural variation no constant grin. Row3 WHOLE BODY VIEWS in order: Front: nose/beak centered toward viewer. Left 3/4: nose/beak points to SCREEN LEFT, both eyes visible. Left profile: true side, nose/beak points SCREEN LEFT. Right 3/4: nose/beak points SCREEN RIGHT, both eyes visible. Right profile: true side, nose/beak points SCREEN RIGHT. Rear: back, face invisible. Body must rotate as a whole, including torso and tail; LEFT three-quarter and LEFT profile must face LEFT; RIGHT three-quarter and RIGHT profile must face RIGHT, not duplicate left-facing bodies under right labels. Row4 Normal poses: Float, Bob, Turn, Speak, Listen, Rest. All full bodies framed with margin, same size within each row, clear separate appropriate limbs, no crops or fused anatomy. Preserve target identity and materials. No extra characters, no numeric age or measured height. Retain established adaptation design.",
+        "promptSha256": "b7f4e80f1537cae46dd036d6834d0fae260da1858917ac64ecd9f36fef47e6a0",
+        "promptFile": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/workflows/characters/talking-duck/solo-prompt.txt",
+        "referenceIds": [
+          "asset-d20b81ce414b1ab2c5c4e470",
+          "asset-5d505b375eed339baa7f7650",
+          "asset-88d74c56a468e3f250b12dbc"
+        ],
+        "inputAssets": [
+          {
+            "assetId": "asset-d20b81ce414b1ab2c5c4e470",
+            "sha256": "d20b81ce414b1ab2c5c4e4705b1259d856928a1c70c356b443b57421b63060a0"
+          },
+          {
+            "assetId": "asset-5d505b375eed339baa7f7650",
+            "sha256": "5d505b375eed339baa7f765028f4c61224a685dfcc4c01ee53c5f35fdb303700"
+          },
+          {
+            "assetId": "asset-88d74c56a468e3f250b12dbc",
+            "sha256": "88d74c56a468e3f250b12dbcb5ecdb7b07bd1d789197663d8948ac199acd133d"
+          }
+        ],
+        "registeredBy": "studio-client/register-image.py"
+      }
+    },
+    {
+      "id": "asset-ce6202e185e38c16597c57bd",
+      "name": "talking-duck-interactions.png",
+      "mime": "image/png",
+      "sha256": "ce6202e185e38c16597c57bde417208c3cfdf176b9122e1da26930fb6f478507",
+      "bytes": 2550315,
+      "width": 1024,
+      "height": 1536,
+      "url": "/api/assets/asset-ce6202e185e38c16597c57bd",
+      "storagePath": "assets/ce6202e185e38c16597c57bde417208c3cfdf176b9122e1da26930fb6f478507.png",
+      "createdAt": "2026-10-03T12:15:52.173475+00:00",
+      "reviewStatus": "unreviewed",
+      "provenance": {
+        "sourcePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/generated/ce6202e185e38c16-talking-duck-interactions.png",
+        "source": "native-imagegen",
+        "tool": "image_gen.imagegen",
+        "nativeOutputPath": "/Users/miguel_lemos/.codex/generated_images/01a0ff85-92dc-7c40-9adb-ef240551a423/exec-3db0ecdf-2299-43a7-846b-708714a60b49.png",
+        "nativeSha256": "ce6202e185e38c16597c57bde417208c3cfdf176b9122e1da26930fb6f478507",
+        "prompt": "Use case: illustration-story. Create ONE separate portrait CAST INTERACTION reference page titled \"Talking bath Duck — Cast interactions\" with SIX large readable panels in THREE rows of TWO, ivory backdrop, short labels, full bodies and generous margins. FIRST IMAGE is PRIMARY TARGET IDENTITY: current verified target solo sheet. Lock its species, face, body, materials, limbs and clothing in EVERY panel. Other images are target source, actual counterpart identity and published book style; never substitute hedgehogs for target. Target/source basis: Published talking duck appearance; distinct sentient individual, not generic incidental ducks. Explicit participant assignments: Magically sentient small yellow rubber bath duck with orange bill and molded wings; PinPin child hedgehog, Papa/Mama adult hedgehogs. Family reference: Mama is copper-quilled adult LEFT, Papa broad cooler-quilled adult CENTER, PinPin older child RIGHT, infant excluded. Maintain natural book dimensional rendering, engaged shared gaze, consistent relative size across panels, clear owned paws/wings, grounded feet and support/contact, no merged bodies, extra limbs or cropped tails. PANELS: 1 Shared scale: child hedgehog PINPIN kneels beside basin containing one small yellow RUBBER DUCK, duck about a palm-sized toy, not child-sized bird. 2 Supported holding: hedgehog PINPIN holds RUBBER DUCK safely with two paws supporting rounded base, close engaged gaze and full child body. 3 Listen: adult hedgehog PAPA sits beside basin, RUBBER DUCK floats with open orange bill speaking, Papa attentive. 4 Gentle touch: adult hedgehog MAMA kneels by basin and lightly touches rounded yellow RUBBER DUCK back, duck floating balanced. 5 Shared play: child hedgehog PINPIN guides one leaf boat beside RUBBER DUCK in shallow basin, both attend shared action. 6 Quiet rest: child hedgehog PINPIN sits on mat, RUBBER DUCK rests on folded towel next to him, relaxed expression. No live bird feet or human arms added to duck; no infant or twelve ducks. Labels describe actual shared actions. No solo portrait row or decorative unrelated characters. Preserve established adaptation identity.",
+        "promptSha256": "199cbc40676494f9a30d74f54e7ab8b83f5492759a3245162fd590072ae1cc01",
+        "promptFile": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/workflows/characters/talking-duck/interactions-prompt.txt",
+        "referenceIds": [
+          "asset-bcfceea74b594d0a3e18d233",
+          "asset-d20b81ce414b1ab2c5c4e470",
+          "asset-88d74c56a468e3f250b12dbc"
+        ],
+        "inputAssets": [
+          {
+            "assetId": "asset-bcfceea74b594d0a3e18d233",
+            "sha256": "bcfceea74b594d0a3e18d2331af67c9e70659a2b6a276f23c8ec7020b6b0dcf4"
+          },
+          {
+            "assetId": "asset-d20b81ce414b1ab2c5c4e470",
+            "sha256": "d20b81ce414b1ab2c5c4e4705b1259d856928a1c70c356b443b57421b63060a0"
+          },
+          {
+            "assetId": "asset-88d74c56a468e3f250b12dbc",
+            "sha256": "88d74c56a468e3f250b12dbcb5ecdb7b07bd1d789197663d8948ac199acd133d"
+          }
+        ],
+        "registeredBy": "studio-client/register-image.py"
+      }
+    }
+  ],
+  "inspectedVisualEvidence": [
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/images/published/bath-magic/scene-61.webp",
+      "sha256": "d20b81ce414b1ab2c5c4e4705b1259d856928a1c70c356b443b57421b63060a0",
+      "assetId": "asset-d20b81ce414b1ab2c5c4e470",
+      "inspection": "Inspected pixels: small glossy yellow rubber duck, orange open bill, white eyes/dark pupils, molded wings, no legs; Papa looks at it in bath. Text explicitly says Duck speaks."
+    }
+  ],
+  "finalStages": {
+    "solo": {
+      "assetId": "asset-bcfceea74b594d0a3e18d233",
+      "sha256": "bcfceea74b594d0a3e18d2331af67c9e70659a2b6a276f23c8ec7020b6b0dcf4",
+      "nativePath": "/Users/miguel_lemos/.codex/generated_images/01a0ff85-92dc-7c40-9adb-ef240551a423/exec-16598e5d-57dc-4868-9e72-96ec37eca0aa.png",
+      "generatedPath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/generated/bcfceea74b594d0a-talking-duck-solo.png",
+      "receiptKind": null
+    },
+    "interactions": {
+      "assetId": "asset-ce6202e185e38c16597c57bd",
+      "sha256": "ce6202e185e38c16597c57bde417208c3cfdf176b9122e1da26930fb6f478507",
+      "nativePath": "/Users/miguel_lemos/.codex/generated_images/01a0ff85-92dc-7c40-9adb-ef240551a423/exec-3db0ecdf-2299-43a7-846b-708714a60b49.png",
+      "generatedPath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/generated/ce6202e185e38c16-talking-duck-interactions.png",
+      "receiptKind": null
+    }
+  },
+  "generationRecord": "generation.json",
+  "referenceBindings": {
+    "speciesAndRole": "Magically sentient small yellow rubber bath duck with orange bill and molded wings; PinPin child hedgehog, Papa/Mama adult hedgehogs.",
+    "counterpartIds": [
+      "pinpin",
+      "papa",
+      "mama"
+    ],
+    "designBasis": "Published talking duck appearance; distinct sentient individual, not generic incidental ducks.",
+    "sourceReferences": [
+      {
+        "assetId": "asset-d20b81ce414b1ab2c5c4e470",
+        "sha256": "d20b81ce414b1ab2c5c4e4705b1259d856928a1c70c356b443b57421b63060a0",
+        "role": "identity"
+      }
+    ]
+  }
 }

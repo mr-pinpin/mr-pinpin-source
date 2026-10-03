@@ -1,0 +1,322 @@
+{
+  "schemaVersion": 1,
+  "entityId": "bear",
+  "stages": {
+    "solo-first": {
+      "candidates": [
+        {
+          "assetId": "asset-4fbae3e9ef8c6a9122cd8080",
+          "sha256": "4fbae3e9ef8c6a9122cd8080abe7989951dc50f17ea4fc2d3156e4d34aeb4f38",
+          "bytes": 2253963,
+          "reviewStatus": "unreviewed",
+          "nativePath": "/Users/miguel_lemos/.codex/generated_images/01a0ff85-92dc-7c40-9adb-ef240551a423/exec-aa25714f-052c-4178-b574-84dbd7506147.png",
+          "generatedPath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/generated/4fbae3e9ef8c6a91-bear-solo-first.png",
+          "reused": false,
+          "kernelRelease": "c9be233f9e18f6d480c8a5b7d50dff6384c9df2766510b5ef006b21ccec40c75",
+          "workflowCard": {
+            "type": "WorkflowCard",
+            "title": "bear-solo-first.png",
+            "text": "Unreviewed candidate. Original image available at full size.",
+            "assetIds": [
+              "asset-4fbae3e9ef8c6a9122cd8080"
+            ],
+            "actions": []
+          },
+          "timing": {
+            "startedAt": "2026-10-03T12:07:55.759177+00:00",
+            "validatedAt": "2026-10-03T12:07:55.805930+00:00",
+            "copiedAt": "2026-10-03T12:07:55.807555+00:00",
+            "registeredAt": "2026-10-03T12:07:55.840484+00:00",
+            "registrationSeconds": 0.081318
+          },
+          "dossierPath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/reports/character-packages/bear.json",
+          "entityId": "bear",
+          "stage": "solo-first",
+          "provenance": {
+            "sourcePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/generated/4fbae3e9ef8c6a91-bear-solo-first.png",
+            "source": "native-imagegen",
+            "tool": "image_gen.imagegen",
+            "nativeOutputPath": "/Users/miguel_lemos/.codex/generated_images/01a0ff85-92dc-7c40-9adb-ef240551a423/exec-aa25714f-052c-4178-b574-84dbd7506147.png",
+            "nativeSha256": "4fbae3e9ef8c6a9122cd8080abe7989951dc50f17ea4fc2d3156e4d34aeb4f38",
+            "prompt": "Use case: illustration-story. Create ONE polished portrait reference page titled \"Mr. Bear\" with EXACTLY 24 readable studies in FOUR rows of SIX, ivory background, concise cell labels. Subject: Adult broad brown BEAR, round ears, cream short rounded muzzle and chest, brown irises, dark nose, olive canvas work apron with two brass buttons. Retain published source and study identity. Not hedgehog, no quills. Input roles: first 2 image(s) subject SOURCE evidence; next image PinPin 24-study is LAYOUT/DIRECTION ONLY, never species/anatomy/clothing; last family image is warm dimensional BOOK STYLE only. Keep target species in EVERY cell. Match the template grid and opposing left/right poses, NOT its hedgehog appearance. Row1 FACE VIEWS in order: Front: nose/beak centered toward viewer. Left 3/4: nose/beak points to SCREEN LEFT, both eyes visible. Left profile: true side, nose/beak points SCREEN LEFT. Right 3/4: nose/beak points SCREEN RIGHT, both eyes visible. Right profile: true side, nose/beak points SCREEN RIGHT. Rear: back, face invisible. Row2 Expressions: Calm, Curious, Happy, Surprised, Sleepy, Mild upset; natural variation no constant grin. Row3 WHOLE BODY VIEWS in order: Front: nose/beak centered toward viewer. Left 3/4: nose/beak points to SCREEN LEFT, both eyes visible. Left profile: true side, nose/beak points SCREEN LEFT. Right 3/4: nose/beak points SCREEN RIGHT, both eyes visible. Right profile: true side, nose/beak points SCREEN RIGHT. Rear: back, face invisible. Body must rotate as a whole, including torso and tail; LEFT three-quarter and LEFT profile must face LEFT; RIGHT three-quarter and RIGHT profile must face RIGHT, not duplicate left-facing bodies under right labels. Row4 Normal poses: Sit, Wave, Carry board, Kneel, Reach, Rest. All full bodies framed with margin, same size within each row, clear separate appropriate limbs, no crops or fused anatomy. Preserve target identity and materials. No extra characters, no numeric age or measured height. Retain established adaptation design.",
+            "promptSha256": "b4791d60c813e9d5c75320afa644acc459c575a3cdf7d10b070e4f9161082753",
+            "promptFile": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/workflows/characters/bear/solo-prompt.txt",
+            "referenceIds": [
+              "asset-3b92d67454ebb1f3a0e51b67",
+              "asset-721580fa45c9435bb0ef26fb",
+              "asset-5d505b375eed339baa7f7650",
+              "asset-88d74c56a468e3f250b12dbc"
+            ],
+            "inputAssets": [
+              {
+                "assetId": "asset-3b92d67454ebb1f3a0e51b67",
+                "sha256": "3b92d67454ebb1f3a0e51b67c581693bebb0e5115791ba4da3b75644123e0309"
+              },
+              {
+                "assetId": "asset-721580fa45c9435bb0ef26fb",
+                "sha256": "721580fa45c9435bb0ef26fb283ad6f9041a2a1f513d86e6142231531b7b4d1f"
+              },
+              {
+                "assetId": "asset-5d505b375eed339baa7f7650",
+                "sha256": "5d505b375eed339baa7f765028f4c61224a685dfcc4c01ee53c5f35fdb303700"
+              },
+              {
+                "assetId": "asset-88d74c56a468e3f250b12dbc",
+                "sha256": "88d74c56a468e3f250b12dbcb5ecdb7b07bd1d789197663d8948ac199acd133d"
+              }
+            ],
+            "registeredBy": "studio-client/register-image.py"
+          }
+        }
+      ]
+    },
+    "solo": {
+      "candidates": [
+        {
+          "assetId": "asset-8795b77759f3526d40c372eb",
+          "sha256": "8795b77759f3526d40c372eb21892738da3adb7a57c0ab442e180c74d0024f33",
+          "bytes": 2161032,
+          "reviewStatus": "unreviewed",
+          "nativePath": "/Users/miguel_lemos/.codex/generated_images/01a0ff85-92dc-7c40-9adb-ef240551a423/exec-752d0909-b606-4015-88cb-307c11196421.png",
+          "generatedPath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/generated/8795b77759f3526d-bear-solo.png",
+          "reused": false,
+          "kernelRelease": "c9be233f9e18f6d480c8a5b7d50dff6384c9df2766510b5ef006b21ccec40c75",
+          "workflowCard": {
+            "type": "WorkflowCard",
+            "title": "bear-solo.png",
+            "text": "Unreviewed candidate. Original image available at full size.",
+            "assetIds": [
+              "asset-8795b77759f3526d40c372eb"
+            ],
+            "actions": []
+          },
+          "timing": {
+            "startedAt": "2026-10-03T12:12:33.779855+00:00",
+            "validatedAt": "2026-10-03T12:12:33.827301+00:00",
+            "copiedAt": "2026-10-03T12:12:33.828853+00:00",
+            "registeredAt": "2026-10-03T12:12:33.862575+00:00",
+            "registrationSeconds": 0.082731
+          },
+          "dossierPath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/reports/character-packages/bear.json",
+          "entityId": "bear",
+          "stage": "solo",
+          "provenance": {
+            "sourcePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/generated/8795b77759f3526d-bear-solo.png",
+            "source": "native-imagegen",
+            "tool": "image_gen.imagegen",
+            "nativeOutputPath": "/Users/miguel_lemos/.codex/generated_images/01a0ff85-92dc-7c40-9adb-ef240551a423/exec-752d0909-b606-4015-88cb-307c11196421.png",
+            "nativeSha256": "8795b77759f3526d40c372eb21892738da3adb7a57c0ab442e180c74d0024f33",
+            "prompt": "Targeted repair of reference1 Mr. Bear 24-study sheet. Change ONLY row1 FACE VIEWS cell2 labeled Left 3/4 and row3 WHOLE BODY VIEWS cell2 labeled Left 3/4. Both currently face screen RIGHT incorrectly. Rotate each entire bear head/body to face SCREEN LEFT, nose near LEFT edge of its own cell, both eyes visible in true left three-quarter; body torso/apron/feet rotate coherently LEFT. Match reference2 template left-three-quarter direction ONLY, never its hedgehog species/anatomy. Preserve exact brown bear identity, round ears, olive apron, brass buttons, proportions and gentle book style. Keep labels unchanged; preserve every other one of 22 cells, all typography, grid, expressions, colors, margins and poses. Do not mirror full sheet or other cells. One repaired page.",
+            "promptSha256": "6253b29e0fdfe97ce92749ed778a6b6e2a2a002b4a4810e79997b003cfe5c92b",
+            "promptFile": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/workflows/characters/bear/solo-repair-prompt.txt",
+            "referenceIds": [
+              "asset-4fbae3e9ef8c6a9122cd8080",
+              "asset-5d505b375eed339baa7f7650"
+            ],
+            "inputAssets": [
+              {
+                "assetId": "asset-4fbae3e9ef8c6a9122cd8080",
+                "sha256": "4fbae3e9ef8c6a9122cd8080abe7989951dc50f17ea4fc2d3156e4d34aeb4f38"
+              },
+              {
+                "assetId": "asset-5d505b375eed339baa7f7650",
+                "sha256": "5d505b375eed339baa7f765028f4c61224a685dfcc4c01ee53c5f35fdb303700"
+              }
+            ],
+            "registeredBy": "studio-client/register-image.py"
+          }
+        }
+      ]
+    },
+    "interactions-first": {
+      "candidates": [
+        {
+          "assetId": "asset-9746c470d14f019b3e6772e0",
+          "sha256": "9746c470d14f019b3e6772e06d9a34be1a58a25924f4da85b698e36963160081",
+          "bytes": 2169990,
+          "reviewStatus": "unreviewed",
+          "nativePath": "/Users/miguel_lemos/.codex/generated_images/01a0ff85-92dc-7c40-9adb-ef240551a423/exec-f571e79e-6522-430e-a32a-4187266a0ae0.png",
+          "generatedPath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/generated/9746c470d14f019b-bear-interactions-first.png",
+          "reused": false,
+          "kernelRelease": "c9be233f9e18f6d480c8a5b7d50dff6384c9df2766510b5ef006b21ccec40c75",
+          "workflowCard": {
+            "type": "WorkflowCard",
+            "title": "bear-interactions-first.png",
+            "text": "Unreviewed candidate. Original image available at full size.",
+            "assetIds": [
+              "asset-9746c470d14f019b3e6772e0"
+            ],
+            "actions": []
+          },
+          "timing": {
+            "startedAt": "2026-10-03T12:17:21.211565+00:00",
+            "validatedAt": "2026-10-03T12:17:21.253135+00:00",
+            "copiedAt": "2026-10-03T12:17:21.254715+00:00",
+            "registeredAt": "2026-10-03T12:17:21.288259+00:00",
+            "registrationSeconds": 0.076706
+          },
+          "dossierPath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/reports/character-packages/bear.json",
+          "entityId": "bear",
+          "stage": "interactions-first",
+          "provenance": {
+            "sourcePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/generated/9746c470d14f019b-bear-interactions-first.png",
+            "source": "native-imagegen",
+            "tool": "image_gen.imagegen",
+            "nativeOutputPath": "/Users/miguel_lemos/.codex/generated_images/01a0ff85-92dc-7c40-9adb-ef240551a423/exec-f571e79e-6522-430e-a32a-4187266a0ae0.png",
+            "nativeSha256": "9746c470d14f019b3e6772e06d9a34be1a58a25924f4da85b698e36963160081",
+            "prompt": "Use case: illustration-story. Create ONE separate portrait CAST INTERACTION reference page titled \"Mr. Bear — Cast interactions\" with SIX large readable panels in THREE rows of TWO, ivory backdrop, short labels, full bodies and generous margins. FIRST IMAGE is PRIMARY TARGET IDENTITY: current verified target solo sheet. Lock its species, face, body, materials, limbs and clothing in EVERY panel. Other images are target source, actual counterpart identity and published book style; never substitute hedgehogs for target. Target/source basis: Established R17 adaptation study and published art; 1.35 Papa height is a study proposal, not original fact. Explicit participant assignments: Adult brown bear builder, olive canvas apron; Papa adult hedgehog; Beaver adult blue-vest beaver. Family reference: Mama is copper-quilled adult LEFT, Papa broad cooler-quilled adult CENTER, PinPin older child RIGHT, infant excluded. Maintain natural book dimensional rendering, engaged shared gaze, consistent relative size across panels, clear owned paws/wings, grounded feet and support/contact, no merged bodies, extra limbs or cropped tails. PANELS: 1 Shared ground scale: adult apron BEAR, adult hedgehog PAPA, blue-vest BEAVER and child hedgehog PINPIN stand aligned, Bear moderately taller than Papa matching published log source, PinPin half Papa. 2 Carry board: BEAR and hedgehog PAPA share one plank with clearly owned paws at opposite ends. 3 Builder collaboration: BEAR holds board while blue-vest BEAVER points at joint with his own paw, smooth beaver fur/paddle tail, no quills. 4 Gentle hug: kneeling BEAR and standing child hedgehog PINPIN embrace, clear two bodies, child grounded. 5 Pass cup: seated BEAR receives cup from standing hedgehog PAPA paw-to-paw. 6 Wave goodbye: BEAR and child hedgehog PINPIN wave toward one another, full bodies. Labels describe actual shared actions. No solo portrait row or decorative unrelated characters. Preserve established adaptation identity.",
+            "promptSha256": "4a2e3c3a74b9b4c81cd112412c1d97d76e426bacf112b39994c924fc30dedda9",
+            "promptFile": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/workflows/characters/bear/interactions-prompt.txt",
+            "referenceIds": [
+              "asset-8795b77759f3526d40c372eb",
+              "asset-721580fa45c9435bb0ef26fb",
+              "asset-cd6fc9a3e01decb743ce5c99",
+              "asset-88d74c56a468e3f250b12dbc"
+            ],
+            "inputAssets": [
+              {
+                "assetId": "asset-8795b77759f3526d40c372eb",
+                "sha256": "8795b77759f3526d40c372eb21892738da3adb7a57c0ab442e180c74d0024f33"
+              },
+              {
+                "assetId": "asset-721580fa45c9435bb0ef26fb",
+                "sha256": "721580fa45c9435bb0ef26fb283ad6f9041a2a1f513d86e6142231531b7b4d1f"
+              },
+              {
+                "assetId": "asset-cd6fc9a3e01decb743ce5c99",
+                "sha256": "cd6fc9a3e01decb743ce5c999fb4eca7ccfccd568115695c492ac9e9cacdaba4"
+              },
+              {
+                "assetId": "asset-88d74c56a468e3f250b12dbc",
+                "sha256": "88d74c56a468e3f250b12dbcb5ecdb7b07bd1d789197663d8948ac199acd133d"
+              }
+            ],
+            "registeredBy": "studio-client/register-image.py"
+          }
+        }
+      ]
+    },
+    "interactions-repair1": {
+      "candidates": [
+        {
+          "assetId": "asset-aeac242e721024f446dcc587",
+          "sha256": "aeac242e721024f446dcc587bd1e49cc6beaeea85f91a5c2c9cde3c5888ed829",
+          "bytes": 2089296,
+          "reviewStatus": "unreviewed",
+          "nativePath": "/Users/miguel_lemos/.codex/generated_images/01a0ff85-92dc-7c40-9adb-ef240551a423/exec-cc1d8668-7ef6-4528-8102-416dafdeef16.png",
+          "generatedPath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/generated/aeac242e721024f4-bear-interactions-repair1.png",
+          "reused": false,
+          "kernelRelease": "c9be233f9e18f6d480c8a5b7d50dff6384c9df2766510b5ef006b21ccec40c75",
+          "workflowCard": {
+            "type": "WorkflowCard",
+            "title": "bear-interactions-repair1.png",
+            "text": "Unreviewed candidate. Original image available at full size.",
+            "assetIds": [
+              "asset-aeac242e721024f446dcc587"
+            ],
+            "actions": []
+          },
+          "timing": {
+            "startedAt": "2026-10-03T12:22:50.633517+00:00",
+            "validatedAt": "2026-10-03T12:22:50.686375+00:00",
+            "copiedAt": "2026-10-03T12:22:50.687899+00:00",
+            "registeredAt": "2026-10-03T12:22:50.720921+00:00",
+            "registrationSeconds": 0.087414
+          },
+          "dossierPath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/reports/character-packages/bear.json",
+          "entityId": "bear",
+          "stage": "interactions-repair1",
+          "provenance": {
+            "sourcePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/generated/aeac242e721024f4-bear-interactions-repair1.png",
+            "source": "native-imagegen",
+            "tool": "image_gen.imagegen",
+            "nativeOutputPath": "/Users/miguel_lemos/.codex/generated_images/01a0ff85-92dc-7c40-9adb-ef240551a423/exec-cc1d8668-7ef6-4528-8102-416dafdeef16.png",
+            "nativeSha256": "aeac242e721024f446dcc587bd1e49cc6beaeea85f91a5c2c9cde3c5888ed829",
+            "prompt": "Targeted SCALE repair to reference1 six-panel Mr. Bear cast interaction page. Preserve panels1,2,3,5 completely, including identities, board actions, typography and grid. Correct ONLY panels4 Gentle hug and6 Wave goodbye: PinPin is the SMALL CHILD hedgehog, roughly HALF Papa standing height in reference2 published family. Bear is adult moderately taller than Papa, so standing child PinPin must be about 35–40% standing Bear height, never adult-sized. Panel6 keep Bear unchanged and REDUCE whole child PinPin at right to about 60% his current rendered size, feet still on same ground plane as Bear; retain child identity and wave, whole quills/paws/feet framed. Panel4 reduce PinPin to similarly small child body, about two-thirds his current size, feet grounded beside kneeling Bear. Adjust ONLY Bear's embrace arms/forward lean to meet small child with gentle owned paws, one supporting child upper back, other around shoulder; separate bodies, no extra limbs or quill penetration. Bear remains kneeling and recognizable olive-apron bear; no lifting or floating child. Reference3 PinPin solo locks CHILD identity, not an adult or infant. Do not change or shrink adult Papa/Beaver elsewhere. Exactly one repaired complete six-panel page.",
+            "promptSha256": "dcf4013e4109160a5f45a1e566d08001d6eff2ee0797368604daf32f21b6d686",
+            "promptFile": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/workflows/characters/bear/interactions-repair-prompt.txt",
+            "referenceIds": [
+              "asset-9746c470d14f019b3e6772e0",
+              "asset-88d74c56a468e3f250b12dbc",
+              "asset-5d505b375eed339baa7f7650"
+            ],
+            "inputAssets": [
+              {
+                "assetId": "asset-9746c470d14f019b3e6772e0",
+                "sha256": "9746c470d14f019b3e6772e06d9a34be1a58a25924f4da85b698e36963160081"
+              },
+              {
+                "assetId": "asset-88d74c56a468e3f250b12dbc",
+                "sha256": "88d74c56a468e3f250b12dbcb5ecdb7b07bd1d789197663d8948ac199acd133d"
+              },
+              {
+                "assetId": "asset-5d505b375eed339baa7f7650",
+                "sha256": "5d505b375eed339baa7f765028f4c61224a685dfcc4c01ee53c5f35fdb303700"
+              }
+            ],
+            "registeredBy": "studio-client/register-image.py"
+          }
+        }
+      ]
+    },
+    "interactions": {
+      "candidates": [
+        {
+          "assetId": "asset-4459ac0e4e5a5deba4e42f84",
+          "sha256": "4459ac0e4e5a5deba4e42f8408e4f0b45ffb03749b110ea9c8db172dc6b43209",
+          "bytes": 2068608,
+          "reviewStatus": "unreviewed",
+          "nativePath": "/Users/miguel_lemos/.codex/generated_images/01a0ff85-92dc-7c40-9adb-ef240551a423/exec-d150ef67-5756-4628-85d6-4101aa939d95.png",
+          "generatedPath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/generated/4459ac0e4e5a5deb-bear-interactions.png",
+          "reused": false,
+          "kernelRelease": "c9be233f9e18f6d480c8a5b7d50dff6384c9df2766510b5ef006b21ccec40c75",
+          "workflowCard": {
+            "type": "WorkflowCard",
+            "title": "bear-interactions.png",
+            "text": "Unreviewed candidate. Original image available at full size.",
+            "assetIds": [
+              "asset-4459ac0e4e5a5deba4e42f84"
+            ],
+            "actions": []
+          },
+          "timing": {
+            "startedAt": "2026-10-03T12:26:48.241148+00:00",
+            "validatedAt": "2026-10-03T12:26:48.282227+00:00",
+            "copiedAt": "2026-10-03T12:26:48.283742+00:00",
+            "registeredAt": "2026-10-03T12:26:48.317180+00:00",
+            "registrationSeconds": 0.076038
+          },
+          "dossierPath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/reports/character-packages/bear.json",
+          "entityId": "bear",
+          "stage": "interactions",
+          "provenance": {
+            "sourcePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/generated/4459ac0e4e5a5deb-bear-interactions.png",
+            "source": "native-imagegen",
+            "tool": "image_gen.imagegen",
+            "nativeOutputPath": "/Users/miguel_lemos/.codex/generated_images/01a0ff85-92dc-7c40-9adb-ef240551a423/exec-d150ef67-5756-4628-85d6-4101aa939d95.png",
+            "nativeSha256": "4459ac0e4e5a5deba4e42f8408e4f0b45ffb03749b110ea9c8db172dc6b43209",
+            "prompt": "Targeted identity/scale repair of reference1 Mr. Bear six-panel cast sheet. Reference2 is authoritative adult PAPA hedgehog 24-study identity, broad adult torso and cooler brown quills, short rounded muzzle; never child PinPin. Fix ONLY PAPA in panels2 Carry board and5 Pass cup: restore the adult Papa identity from reference2, notably broad adult body, adult hands and rounded face. In panel2 adult standing Papa must be about three-quarters of standing Bear height like Papa in panel1, not tiny child. Keep board contact, supporting paws owned, opposite ends. In panel5 standing adult Papa must be similarly adult scaled beside seated Bear, paws meet existing cup naturally. Keep Bear and board/cup actions and posture unchanged. Panel6 additionally reduce the CHILD PINPIN whole body at right by another quarter, retaining wave and floor baseline, child clearly less than half Bear standing height. Preserve panels1,3,4 COMPLETELY including successful hug; no global resizing or character substitution. All margins, title, labels and grid identical. Exactly one corrected complete page.",
+            "promptSha256": "36f3481e007209d7e1e5e687e127c721e40de6b536e3eebf72185d00048e7b97",
+            "promptFile": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/workflows/characters/bear/interactions-final-prompt.txt",
+            "referenceIds": [
+              "asset-aeac242e721024f446dcc587",
+              "asset-6d619138c33f8111b5b1ff68"
+            ],
+            "inputAssets": [
+              {
+                "assetId": "asset-aeac242e721024f446dcc587",
+                "sha256": "aeac242e721024f446dcc587bd1e49cc6beaeea85f91a5c2c9cde3c5888ed829"
+              },
+              {
+                "assetId": "asset-6d619138c33f8111b5b1ff68",
+                "sha256": "6d619138c33f8111b5b1ff6808d53923ac767e48f3e4a8e03601754a9eab5b87"
+              }
+            ],
+            "registeredBy": "studio-client/register-image.py"
+          }
+        }
+      ]
+    }
+  },
+  "updatedAt": "2026-10-03T12:26:48.317321+00:00"
+}

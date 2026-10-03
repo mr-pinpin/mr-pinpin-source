@@ -95,7 +95,28 @@
       "imageSha256": "d8630c8062ba97083a02ded57c0e34420123b7b68860633821566c16f587b20b"
     }
   ],
-  "registeredReferences": [],
+  "registeredReferences": [
+    {
+      "id": "asset-cdaa2972246ba0f2f8cc7acc",
+      "name": "scene-321.webp",
+      "mime": "image/webp",
+      "sha256": "cdaa2972246ba0f2f8cc7acc14289d375dd5903c2c8bfb1473f968c33daeee82",
+      "bytes": 558026,
+      "width": 1536,
+      "height": 1024,
+      "url": "/api/assets/asset-cdaa2972246ba0f2f8cc7acc",
+      "storagePath": "assets/cdaa2972246ba0f2f8cc7acc14289d375dd5903c2c8bfb1473f968c33daeee82.webp",
+      "createdAt": "2026-10-03T01:56:24.771821+00:00",
+      "reviewStatus": "reference",
+      "provenance": {
+        "sourcePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-bath-magic-20261002-r22/art/beaver-dam/web/scene-321-v2.webp",
+        "production": "bath-magic-20261002-r22",
+        "sourceSceneId": "scene-321",
+        "importedFrom": "R24 selected preview",
+        "originalSha256": "cdaa2972246ba0f2f8cc7acc14289d375dd5903c2c8bfb1473f968c33daeee82"
+      }
+    }
+  ],
   "existingOutputs": [
     {
       "id": "asset-2a871ba140b794319abca46a",
@@ -194,6 +215,12 @@
       "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/images/published/bath-magic/r24/scene-336.webp",
       "sha256": "d8630c8062ba97083a02ded57c0e34420123b7b68860633821566c16f587b20b",
       "inspection": "Actual pixels inspected: adult Beaver blue vest, Mama Beaver red scarf, two smaller kits with flat textured tails and cream muzzles; relational poses and scale established. Scene334 kits have different apparent sizes; no invented names/sex/ages."
+    },
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/images/published/bath-magic/r24/scene-321.webp",
+      "sha256": "cdaa2972246ba0f2f8cc7acc14289d375dd5903c2c8bfb1473f968c33daeee82",
+      "assetId": "asset-cdaa2972246ba0f2f8cc7acc",
+      "inspection": "Inspected published family: adult blue-vest Beaver, red-scarf Mama Beaver and two smaller kits; no hedgehog quills on beavers."
     }
   ],
   "sourceInterpretation": {

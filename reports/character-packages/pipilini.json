@@ -1,0 +1,133 @@
+{
+  "schemaVersion": 1,
+  "entityId": "pipilini",
+  "stages": {
+    "solo": {
+      "candidates": [
+        {
+          "assetId": "asset-713cae3785e80f243216dcdc",
+          "sha256": "713cae3785e80f243216dcdc74955eaa37501071661eb403d433f7edcae7c9b6",
+          "bytes": 1962072,
+          "reviewStatus": "unreviewed",
+          "nativePath": "/Users/miguel_lemos/.codex/generated_images/01a0ff85-92dc-7c40-9adb-ef240551a423/exec-03eee455-7411-4540-b753-87b98b881951.png",
+          "generatedPath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/generated/713cae3785e80f24-pipilini-solo.png",
+          "reused": false,
+          "kernelRelease": "c9be233f9e18f6d480c8a5b7d50dff6384c9df2766510b5ef006b21ccec40c75",
+          "workflowCard": {
+            "type": "WorkflowCard",
+            "title": "pipilini-solo.png",
+            "text": "Unreviewed candidate. Original image available at full size.",
+            "assetIds": [
+              "asset-713cae3785e80f243216dcdc"
+            ],
+            "actions": []
+          },
+          "timing": {
+            "startedAt": "2026-10-03T12:07:56.816257+00:00",
+            "validatedAt": "2026-10-03T12:07:56.856521+00:00",
+            "copiedAt": "2026-10-03T12:07:56.857951+00:00",
+            "registeredAt": "2026-10-03T12:07:56.890383+00:00",
+            "registrationSeconds": 0.074139
+          },
+          "dossierPath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/reports/character-packages/pipilini.json",
+          "entityId": "pipilini",
+          "stage": "solo",
+          "provenance": {
+            "sourcePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/generated/713cae3785e80f24-pipilini-solo.png",
+            "source": "native-imagegen",
+            "tool": "image_gen.imagegen",
+            "nativeOutputPath": "/Users/miguel_lemos/.codex/generated_images/01a0ff85-92dc-7c40-9adb-ef240551a423/exec-03eee455-7411-4540-b753-87b98b881951.png",
+            "nativeSha256": "713cae3785e80f243216dcdc74955eaa37501071661eb403d433f7edcae7c9b6",
+            "prompt": "Use case: illustration-story. Create ONE polished portrait reference page titled \"Mr. Pipilini\" with EXACTLY 24 readable studies in FOUR rows of SIX, ivory background, concise cell labels. Subject: OLDER MIGRATING BIRD with weak wings, proposed current book adaptation of pale rose/cream long-tailed bird from original chapter8 image: pale dusty rose body, cream breast, muted rosy orange narrow bird beak, brown irises, two folded feathered wings, two small bird feet and long narrow feather tail. No human arms, no quills, no clothing or invented species name. Kindly older bearing without numeric age. No vigorous flight. Input roles: first 1 image(s) subject SOURCE evidence; next image PinPin 24-study is LAYOUT/DIRECTION ONLY, never species/anatomy/clothing; last family image is warm dimensional BOOK STYLE only. Keep target species in EVERY cell. Match the template grid and opposing left/right poses, NOT its hedgehog appearance. Row1 FACE VIEWS in order: Front: nose/beak centered toward viewer. Left 3/4: nose/beak points to SCREEN LEFT, both eyes visible. Left profile: true side, nose/beak points SCREEN LEFT. Right 3/4: nose/beak points SCREEN RIGHT, both eyes visible. Right profile: true side, nose/beak points SCREEN RIGHT. Rear: back, face invisible. Row2 Expressions: Calm, Curious, Happy, Surprised, Sleepy, Mild upset; natural variation no constant grin. Row3 WHOLE BODY VIEWS in order: Front: nose/beak centered toward viewer. Left 3/4: nose/beak points to SCREEN LEFT, both eyes visible. Left profile: true side, nose/beak points SCREEN LEFT. Right 3/4: nose/beak points SCREEN RIGHT, both eyes visible. Right profile: true side, nose/beak points SCREEN RIGHT. Rear: back, face invisible. Body must rotate as a whole, including torso and tail; LEFT three-quarter and LEFT profile must face LEFT; RIGHT three-quarter and RIGHT profile must face RIGHT, not duplicate left-facing bodies under right labels. Row4 Normal poses: Perch, Listen, Hold cup with wings, Fold wings, Gentle reach, Rest. All full bodies framed with margin, same size within each row, clear separate appropriate limbs, no crops or fused anatomy. Preserve target identity and materials. No extra characters, no numeric age or measured height. Label subtitle \"Proposed book adaptation\".",
+            "promptSha256": "a850a34cc6619d66190f851eb214e2671de309b359e89379cd4e541383b0c331",
+            "promptFile": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/workflows/characters/pipilini/solo-prompt.txt",
+            "referenceIds": [
+              "asset-3da638615ab0e52d60c8ea61",
+              "asset-5d505b375eed339baa7f7650",
+              "asset-88d74c56a468e3f250b12dbc"
+            ],
+            "inputAssets": [
+              {
+                "assetId": "asset-3da638615ab0e52d60c8ea61",
+                "sha256": "3da638615ab0e52d60c8ea6130b0a1b103845a4e6f7b40de9a9bff6dbcf534ea"
+              },
+              {
+                "assetId": "asset-5d505b375eed339baa7f7650",
+                "sha256": "5d505b375eed339baa7f765028f4c61224a685dfcc4c01ee53c5f35fdb303700"
+              },
+              {
+                "assetId": "asset-88d74c56a468e3f250b12dbc",
+                "sha256": "88d74c56a468e3f250b12dbcb5ecdb7b07bd1d789197663d8948ac199acd133d"
+              }
+            ],
+            "registeredBy": "studio-client/register-image.py"
+          }
+        }
+      ]
+    },
+    "interactions": {
+      "candidates": [
+        {
+          "assetId": "asset-391e0726b95525a0598c6842",
+          "sha256": "391e0726b95525a0598c6842aa61de915434c415958b32441239acf2313059c7",
+          "bytes": 2589976,
+          "reviewStatus": "unreviewed",
+          "nativePath": "/Users/miguel_lemos/.codex/generated_images/01a0ff85-92dc-7c40-9adb-ef240551a423/exec-ac2e9ab5-c209-42b5-b16b-392267561627.png",
+          "generatedPath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/generated/391e0726b95525a0-pipilini-interactions.png",
+          "reused": false,
+          "kernelRelease": "c9be233f9e18f6d480c8a5b7d50dff6384c9df2766510b5ef006b21ccec40c75",
+          "workflowCard": {
+            "type": "WorkflowCard",
+            "title": "pipilini-interactions.png",
+            "text": "Unreviewed candidate. Original image available at full size.",
+            "assetIds": [
+              "asset-391e0726b95525a0598c6842"
+            ],
+            "actions": []
+          },
+          "timing": {
+            "startedAt": "2026-10-03T12:15:53.157611+00:00",
+            "validatedAt": "2026-10-03T12:15:53.198783+00:00",
+            "copiedAt": "2026-10-03T12:15:53.200689+00:00",
+            "registeredAt": "2026-10-03T12:15:53.234267+00:00",
+            "registrationSeconds": 0.076664
+          },
+          "dossierPath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/reports/character-packages/pipilini.json",
+          "entityId": "pipilini",
+          "stage": "interactions",
+          "provenance": {
+            "sourcePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/generated/391e0726b95525a0-pipilini-interactions.png",
+            "source": "native-imagegen",
+            "tool": "image_gen.imagegen",
+            "nativeOutputPath": "/Users/miguel_lemos/.codex/generated_images/01a0ff85-92dc-7c40-9adb-ef240551a423/exec-ac2e9ab5-c209-42b5-b16b-392267561627.png",
+            "nativeSha256": "391e0726b95525a0598c6842aa61de915434c415958b32441239acf2313059c7",
+            "prompt": "Use case: illustration-story. Create ONE separate portrait CAST INTERACTION reference page titled \"Mr. Pipilini — Cast interactions\" with SIX large readable panels in THREE rows of TWO, ivory backdrop, short labels, full bodies and generous margins. FIRST IMAGE is PRIMARY TARGET IDENTITY: current verified target solo sheet. Lock its species, face, body, materials, limbs and clothing in EVERY panel. Other images are target source, actual counterpart identity and published book style; never substitute hedgehogs for target. Target/source basis: Original chapter8 old migrating bird, weak wings, invited winter guest. Original image49 contains a pale rose long-tailed bird with reddish bill but does not uniquely label it. Rose/cream bird adaptation is an explicitly proposed visual interpretation; species and exact age not stated. Explicit participant assignments: Older male migrating bird Pipilini/Pipilino with weak wings; PinPin child hedgehog, Mama/Papa adult hedgehogs. Family reference: Mama is copper-quilled adult LEFT, Papa broad cooler-quilled adult CENTER, PinPin older child RIGHT, infant excluded. Maintain natural book dimensional rendering, engaged shared gaze, consistent relative size across panels, clear owned paws/wings, grounded feet and support/contact, no merged bodies, extra limbs or cropped tails. PANELS: 1 Shared ground scale: older pale rose BIRD PIPILINI and child HEDGEHOG PINPIN stand aligned, small bird body about half standing child height excluding narrow tail, proposed scale, no measurements. 2 Supported comfort: seated child HEDGEHOG PINPIN gently supports tired BIRD PIPILINI at back and underneath body with two paws, bird feet relaxed resting on child lap, separate wings not human arms, kind mutual gaze; no squeezing or dangling bird. 3 Warm drink: adult HEDGEHOG MAMA offers tiny cup to older BIRD PIPILINI seated securely on low cushioned stool, folded wings steady cup. 4 Winter guest: adult HEDGEHOG PAPA drapes small cloth around resting BIRD PIPILINI on cushion, wings remain folded, separate paws and feather body. 5 Nut exchange: HEDGEHOG PINPIN offers one small nut to BIRD PIPILINI, bird uses beak, wings folded, no vigorous flight. 6 Rest together: HEDGEHOG PINPIN sits beside BIRD PIPILINI resting on low perch with both bird feet supported, gentle companionship. Labels describe actual shared actions. No solo portrait row or decorative unrelated characters. Subtitle \"Proposed book adaptation\"; do not pretend new colors/scale are original measured facts.",
+            "promptSha256": "9c93c5523ca5844b55922a34829f1a6393b0a40835fd96fea3c5e1a21370af3d",
+            "promptFile": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/workflows/characters/pipilini/interactions-prompt.txt",
+            "referenceIds": [
+              "asset-713cae3785e80f243216dcdc",
+              "asset-3da638615ab0e52d60c8ea61",
+              "asset-88d74c56a468e3f250b12dbc"
+            ],
+            "inputAssets": [
+              {
+                "assetId": "asset-713cae3785e80f243216dcdc",
+                "sha256": "713cae3785e80f243216dcdc74955eaa37501071661eb403d433f7edcae7c9b6"
+              },
+              {
+                "assetId": "asset-3da638615ab0e52d60c8ea61",
+                "sha256": "3da638615ab0e52d60c8ea6130b0a1b103845a4e6f7b40de9a9bff6dbcf534ea"
+              },
+              {
+                "assetId": "asset-88d74c56a468e3f250b12dbc",
+                "sha256": "88d74c56a468e3f250b12dbcb5ecdb7b07bd1d789197663d8948ac199acd133d"
+              }
+            ],
+            "registeredBy": "studio-client/register-image.py"
+          }
+        }
+      ]
+    }
+  },
+  "updatedAt": "2026-10-03T12:15:53.234366+00:00"
+}

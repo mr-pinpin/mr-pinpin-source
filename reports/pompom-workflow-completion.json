@@ -1,0 +1,69 @@
+{
+  "workflow": "character-creation",
+  "entityId": "pompom",
+  "status": "completed",
+  "acceptedForReuse": true,
+  "reviewer": "codex-wap1",
+  "authority": "Miguel delegation stated in conversation",
+  "personalMiguelReview": false,
+  "publication": false,
+  "recordedAt": "2026-10-03T09:14:13.194127+00:00",
+  "compositeAssetId": "asset-483201f4d30299518e37b401",
+  "correctedSourceAssetIds": [
+    "asset-dd88542003c752494cb277f0",
+    "asset-4b5cccd08ae5bf379e3864a8"
+  ],
+  "sequence": [
+    {
+      "stage": "original request",
+      "evidence": "Miguel requested discoverable Markdown workflows, one PomPom prototype and iterative review before full reference expansion",
+      "eventTime": null
+    },
+    {
+      "stage": "prototype",
+      "assetId": "asset-463aeb445b75c551fad7414b",
+      "registeredAt": "2026-10-03T08:54:30.794746+00:00"
+    },
+    {
+      "stage": "delegated design review",
+      "actor": "codex-wap1",
+      "decision": "prototype accepted as working identity; remaining package authorized",
+      "eventTime": null
+    },
+    {
+      "stage": "expanded studies",
+      "assetIds": [
+        "asset-dc2b8c16da4e6a0117680fa8",
+        "asset-7dcf707dc1478230a7a5cc94"
+      ],
+      "registeredAt": [
+        "2026-10-03T09:08:56.638807+00:00",
+        "2026-10-03T09:08:56.670397+00:00"
+      ]
+    },
+    {
+      "stage": "correction",
+      "reason": "duplicate three-quarter directions",
+      "assetIds": [
+        "asset-dd88542003c752494cb277f0",
+        "asset-4b5cccd08ae5bf379e3864a8"
+      ],
+      "registeredAt": [
+        "2026-10-03T09:08:56.702552+00:00",
+        "2026-10-03T09:08:56.733661+00:00"
+      ]
+    },
+    {
+      "stage": "final package",
+      "assetId": "asset-483201f4d30299518e37b401",
+      "registeredAt": "2026-10-03T09:09:50.079203+00:00"
+    },
+    {
+      "stage": "delegated final acceptance",
+      "actor": "codex-wap1",
+      "decision": "inspected composite against sources and prototype; accepted for reuse",
+      "eventTime": null
+    }
+  ],
+  "timingNote": "Registration timestamps are exact catalog evidence, not generation timestamps. Message event times are unavailable in the supplied conversation; no total latency inferred."
+}

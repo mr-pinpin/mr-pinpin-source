@@ -1,0 +1,501 @@
+{
+  "business": {
+    "active": "c7b7e8ca51695420b9c46735782c46b3f05a0938f10f190d6615b47ce338071b",
+    "previous": "14e78c80dee9cb1216f6d147cc2152bd4e2b7fc4282b0a10b38ef9ce98ab31d1",
+    "status": "ready",
+    "error": null
+  },
+  "rows": [
+    {
+      "entityId": "bear",
+      "nativeAssetIds": [
+        "asset-8795b77759f3526d40c372eb",
+        "asset-3b92d67454ebb1f3a0e51b67",
+        "asset-721580fa45c9435bb0ef26fb",
+        "asset-5d505b375eed339baa7f7650",
+        "asset-cd6fc9a3e01decb743ce5c99",
+        "asset-88d74c56a468e3f250b12dbc"
+      ],
+      "references": [
+        {
+          "id": "asset-8795b77759f3526d40c372eb",
+          "name": "bear-solo.png",
+          "sha256": "8795b77759f3526d40c372eb21892738da3adb7a57c0ab442e180c74d0024f33",
+          "width": 1222,
+          "height": 1287,
+          "reviewStatus": "unreviewed",
+          "roles": [
+            "primary-working-identity:verified-solo"
+          ],
+          "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/assets/8795b77759f3526d40c372eb21892738da3adb7a57c0ab442e180c74d0024f33.png",
+          "stage": ""
+        },
+        {
+          "id": "asset-3b92d67454ebb1f3a0e51b67",
+          "name": "reference-bear-tractor-study",
+          "sha256": "3b92d67454ebb1f3a0e51b67c581693bebb0e5115791ba4da3b75644123e0309",
+          "width": 1536,
+          "height": 1024,
+          "reviewStatus": "agent-reviewed",
+          "roles": [
+            "selected-character"
+          ],
+          "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/assets/3b92d67454ebb1f3a0e51b67c581693bebb0e5115791ba4da3b75644123e0309.png",
+          "stage": ""
+        },
+        {
+          "id": "asset-721580fa45c9435bb0ef26fb",
+          "name": "scene-332.webp",
+          "sha256": "721580fa45c9435bb0ef26fb283ad6f9041a2a1f513d86e6142231531b7b4d1f",
+          "width": 1536,
+          "height": 1024,
+          "reviewStatus": "reference",
+          "roles": [
+            "subject-source:identity"
+          ],
+          "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/assets/721580fa45c9435bb0ef26fb283ad6f9041a2a1f513d86e6142231531b7b4d1f.webp",
+          "stage": ""
+        },
+        {
+          "id": "asset-5d505b375eed339baa7f7650",
+          "name": "pinpin-solo.png",
+          "sha256": "5d505b375eed339baa7f765028f4c61224a685dfcc4c01ee53c5f35fdb303700",
+          "width": 1222,
+          "height": 1287,
+          "reviewStatus": "unreviewed",
+          "roles": [
+            "layout-direction-only:no-species-transfer"
+          ],
+          "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/assets/5d505b375eed339baa7f765028f4c61224a685dfcc4c01ee53c5f35fdb303700.png",
+          "stage": ""
+        },
+        {
+          "id": "asset-cd6fc9a3e01decb743ce5c99",
+          "name": "reference-beaver",
+          "sha256": "cd6fc9a3e01decb743ce5c999fb4eca7ccfccd568115695c492ac9e9cacdaba4",
+          "width": 1536,
+          "height": 1024,
+          "reviewStatus": "user-approved",
+          "roles": [
+            "cast:beaver"
+          ],
+          "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/assets/cd6fc9a3e01decb743ce5c999fb4eca7ccfccd568115695c492ac9e9cacdaba4.png",
+          "stage": ""
+        },
+        {
+          "id": "asset-88d74c56a468e3f250b12dbc",
+          "name": "reference-family",
+          "sha256": "88d74c56a468e3f250b12dbcb5ecdb7b07bd1d789197663d8948ac199acd133d",
+          "width": 1536,
+          "height": 1024,
+          "reviewStatus": "user-approved",
+          "roles": [
+            "cast:papa",
+            "cast:pinpin",
+            "book-style"
+          ],
+          "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/assets/88d74c56a468e3f250b12dbcb5ecdb7b07bd1d789197663d8948ac199acd133d.webp",
+          "stage": ""
+        }
+      ],
+      "designBasis": "Established R17 adaptation study and published art; 1.35 Papa height is a study proposal, not original fact.",
+      "missingStages": [
+        "interactions"
+      ],
+      "contextBytes": 65379,
+      "guideOccurrences": 0
+    },
+    {
+      "entityId": "talking-duck",
+      "nativeAssetIds": [
+        "asset-bcfceea74b594d0a3e18d233",
+        "asset-d20b81ce414b1ab2c5c4e470",
+        "asset-5d505b375eed339baa7f7650",
+        "asset-88d74c56a468e3f250b12dbc"
+      ],
+      "references": [
+        {
+          "id": "asset-bcfceea74b594d0a3e18d233",
+          "name": "talking-duck-solo.png",
+          "sha256": "bcfceea74b594d0a3e18d2331af67c9e70659a2b6a276f23c8ec7020b6b0dcf4",
+          "width": 1222,
+          "height": 1287,
+          "reviewStatus": "unreviewed",
+          "roles": [
+            "primary-working-identity:verified-solo"
+          ],
+          "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/assets/bcfceea74b594d0a3e18d2331af67c9e70659a2b6a276f23c8ec7020b6b0dcf4.png",
+          "stage": ""
+        },
+        {
+          "id": "asset-d20b81ce414b1ab2c5c4e470",
+          "name": "r17-scene-61",
+          "sha256": "d20b81ce414b1ab2c5c4e4705b1259d856928a1c70c356b443b57421b63060a0",
+          "width": 1536,
+          "height": 1024,
+          "reviewStatus": "user-approved",
+          "roles": [
+            "selected-character",
+            "subject-source:identity"
+          ],
+          "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/assets/d20b81ce414b1ab2c5c4e4705b1259d856928a1c70c356b443b57421b63060a0.webp",
+          "stage": ""
+        },
+        {
+          "id": "asset-5d505b375eed339baa7f7650",
+          "name": "pinpin-solo.png",
+          "sha256": "5d505b375eed339baa7f765028f4c61224a685dfcc4c01ee53c5f35fdb303700",
+          "width": 1222,
+          "height": 1287,
+          "reviewStatus": "unreviewed",
+          "roles": [
+            "layout-direction-only:no-species-transfer"
+          ],
+          "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/assets/5d505b375eed339baa7f765028f4c61224a685dfcc4c01ee53c5f35fdb303700.png",
+          "stage": ""
+        },
+        {
+          "id": "asset-88d74c56a468e3f250b12dbc",
+          "name": "reference-family",
+          "sha256": "88d74c56a468e3f250b12dbcb5ecdb7b07bd1d789197663d8948ac199acd133d",
+          "width": 1536,
+          "height": 1024,
+          "reviewStatus": "user-approved",
+          "roles": [
+            "cast:mama",
+            "cast:papa",
+            "cast:pinpin",
+            "book-style"
+          ],
+          "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/assets/88d74c56a468e3f250b12dbcb5ecdb7b07bd1d789197663d8948ac199acd133d.webp",
+          "stage": ""
+        }
+      ],
+      "designBasis": "Published talking duck appearance; distinct sentient individual, not generic incidental ducks.",
+      "missingStages": [],
+      "contextBytes": 67539,
+      "guideOccurrences": 0
+    },
+    {
+      "entityId": "tutu",
+      "nativeAssetIds": [
+        "asset-9d3476deaf77e000cf59d0d4",
+        "asset-3c10d6163e64a81b9209691f",
+        "asset-5d505b375eed339baa7f7650",
+        "asset-88d74c56a468e3f250b12dbc",
+        "asset-f945f4802de940f91dc6a78a"
+      ],
+      "references": [
+        {
+          "id": "asset-9d3476deaf77e000cf59d0d4",
+          "name": "tutu-solo.png",
+          "sha256": "9d3476deaf77e000cf59d0d410c9feb4205fa6bd5dd6955e5874adc5cda76a1d",
+          "width": 1222,
+          "height": 1287,
+          "reviewStatus": "unreviewed",
+          "roles": [
+            "primary-working-identity:verified-solo"
+          ],
+          "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/assets/9d3476deaf77e000cf59d0d410c9feb4205fa6bd5dd6955e5874adc5cda76a1d.png",
+          "stage": ""
+        },
+        {
+          "id": "asset-3c10d6163e64a81b9209691f",
+          "name": "Original chapter4 squirrel group",
+          "sha256": "3c10d6163e64a81b9209691f15054e73d8f1c438ebc6da7bb9d578fe23e6abfb",
+          "width": 1024,
+          "height": 1024,
+          "reviewStatus": "unreviewed",
+          "roles": [
+            "subject-source:original-visual-context"
+          ],
+          "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/assets/3c10d6163e64a81b9209691f15054e73d8f1c438ebc6da7bb9d578fe23e6abfb.png",
+          "stage": ""
+        },
+        {
+          "id": "asset-5d505b375eed339baa7f7650",
+          "name": "pinpin-solo.png",
+          "sha256": "5d505b375eed339baa7f765028f4c61224a685dfcc4c01ee53c5f35fdb303700",
+          "width": 1222,
+          "height": 1287,
+          "reviewStatus": "unreviewed",
+          "roles": [
+            "layout-direction-only:no-species-transfer"
+          ],
+          "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/assets/5d505b375eed339baa7f765028f4c61224a685dfcc4c01ee53c5f35fdb303700.png",
+          "stage": ""
+        },
+        {
+          "id": "asset-88d74c56a468e3f250b12dbc",
+          "name": "reference-family",
+          "sha256": "88d74c56a468e3f250b12dbcb5ecdb7b07bd1d789197663d8948ac199acd133d",
+          "width": 1536,
+          "height": 1024,
+          "reviewStatus": "user-approved",
+          "roles": [
+            "cast:pinpin",
+            "book-style"
+          ],
+          "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/assets/88d74c56a468e3f250b12dbcb5ecdb7b07bd1d789197663d8948ac199acd133d.webp",
+          "stage": ""
+        },
+        {
+          "id": "asset-f945f4802de940f91dc6a78a",
+          "name": "reference-rabbit",
+          "sha256": "f945f4802de940f91dc6a78a2a5e7bc5d8e7b3239e3fdb3a883f56c73ebd7b3d",
+          "width": 1536,
+          "height": 1024,
+          "reviewStatus": "user-approved",
+          "roles": [
+            "cast:rabbit"
+          ],
+          "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/assets/f945f4802de940f91dc6a78a2a5e7bc5d8e7b3239e3fdb3a883f56c73ebd7b3d.webp",
+          "stage": ""
+        }
+      ],
+      "designBasis": "Original chapter9 establishes female squirrel friend with nut basket. Original chapter4 group image supplies squirrel silhouettes but no identified Tutu portrait. Russet fur, cream belly, tufted ears and fluffy curved tail are proposed current adaptation details.",
+      "missingStages": [],
+      "contextBytes": 68194,
+      "guideOccurrences": 0
+    },
+    {
+      "entityId": "pipilini",
+      "nativeAssetIds": [
+        "asset-713cae3785e80f243216dcdc",
+        "asset-3da638615ab0e52d60c8ea61",
+        "asset-5d505b375eed339baa7f7650",
+        "asset-88d74c56a468e3f250b12dbc"
+      ],
+      "references": [
+        {
+          "id": "asset-713cae3785e80f243216dcdc",
+          "name": "pipilini-solo.png",
+          "sha256": "713cae3785e80f243216dcdc74955eaa37501071661eb403d433f7edcae7c9b6",
+          "width": 1222,
+          "height": 1287,
+          "reviewStatus": "unreviewed",
+          "roles": [
+            "primary-working-identity:verified-solo"
+          ],
+          "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/assets/713cae3785e80f243216dcdc74955eaa37501071661eb403d433f7edcae7c9b6.png",
+          "stage": ""
+        },
+        {
+          "id": "asset-3da638615ab0e52d60c8ea61",
+          "name": "Original chapter8 bird context",
+          "sha256": "3da638615ab0e52d60c8ea6130b0a1b103845a4e6f7b40de9a9bff6dbcf534ea",
+          "width": 1024,
+          "height": 1024,
+          "reviewStatus": "unreviewed",
+          "roles": [
+            "subject-source:original-visual-context"
+          ],
+          "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/assets/3da638615ab0e52d60c8ea6130b0a1b103845a4e6f7b40de9a9bff6dbcf534ea.png",
+          "stage": ""
+        },
+        {
+          "id": "asset-5d505b375eed339baa7f7650",
+          "name": "pinpin-solo.png",
+          "sha256": "5d505b375eed339baa7f765028f4c61224a685dfcc4c01ee53c5f35fdb303700",
+          "width": 1222,
+          "height": 1287,
+          "reviewStatus": "unreviewed",
+          "roles": [
+            "layout-direction-only:no-species-transfer"
+          ],
+          "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/assets/5d505b375eed339baa7f765028f4c61224a685dfcc4c01ee53c5f35fdb303700.png",
+          "stage": ""
+        },
+        {
+          "id": "asset-88d74c56a468e3f250b12dbc",
+          "name": "reference-family",
+          "sha256": "88d74c56a468e3f250b12dbcb5ecdb7b07bd1d789197663d8948ac199acd133d",
+          "width": 1536,
+          "height": 1024,
+          "reviewStatus": "user-approved",
+          "roles": [
+            "cast:mama",
+            "cast:papa",
+            "cast:pinpin",
+            "book-style"
+          ],
+          "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/assets/88d74c56a468e3f250b12dbcb5ecdb7b07bd1d789197663d8948ac199acd133d.webp",
+          "stage": ""
+        }
+      ],
+      "designBasis": "Original chapter8 old migrating bird, weak wings, invited winter guest. Original image49 contains a pale rose long-tailed bird with reddish bill but does not uniquely label it. Rose/cream bird adaptation is an explicitly proposed visual interpretation; species and exact age not stated.",
+      "missingStages": [],
+      "contextBytes": 68200,
+      "guideOccurrences": 0
+    },
+    {
+      "entityId": "mama-beaver",
+      "nativeAssetIds": [
+        "asset-2a871ba140b794319abca46a",
+        "asset-cdaa2972246ba0f2f8cc7acc",
+        "asset-5d505b375eed339baa7f7650",
+        "asset-cd6fc9a3e01decb743ce5c99",
+        "asset-88d74c56a468e3f250b12dbc"
+      ],
+      "references": [
+        {
+          "id": "asset-2a871ba140b794319abca46a",
+          "name": "mama-beaver-solo-repaired.png",
+          "sha256": "2a871ba140b794319abca46aafcdf9cceab65c50c523e3056c235dd34332b8b8",
+          "width": 1536,
+          "height": 1024,
+          "reviewStatus": "unreviewed",
+          "roles": [
+            "primary-working-identity:verified-solo"
+          ],
+          "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/assets/2a871ba140b794319abca46aafcdf9cceab65c50c523e3056c235dd34332b8b8.png",
+          "stage": ""
+        },
+        {
+          "id": "asset-cdaa2972246ba0f2f8cc7acc",
+          "name": "scene-321.webp",
+          "sha256": "cdaa2972246ba0f2f8cc7acc14289d375dd5903c2c8bfb1473f968c33daeee82",
+          "width": 1536,
+          "height": 1024,
+          "reviewStatus": "reference",
+          "roles": [
+            "selected-character",
+            "subject-source:identity",
+            "cast:beaver-kits"
+          ],
+          "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/assets/cdaa2972246ba0f2f8cc7acc14289d375dd5903c2c8bfb1473f968c33daeee82.webp",
+          "stage": ""
+        },
+        {
+          "id": "asset-5d505b375eed339baa7f7650",
+          "name": "pinpin-solo.png",
+          "sha256": "5d505b375eed339baa7f765028f4c61224a685dfcc4c01ee53c5f35fdb303700",
+          "width": 1222,
+          "height": 1287,
+          "reviewStatus": "unreviewed",
+          "roles": [
+            "layout-direction-only:no-species-transfer"
+          ],
+          "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/assets/5d505b375eed339baa7f765028f4c61224a685dfcc4c01ee53c5f35fdb303700.png",
+          "stage": ""
+        },
+        {
+          "id": "asset-cd6fc9a3e01decb743ce5c99",
+          "name": "reference-beaver",
+          "sha256": "cd6fc9a3e01decb743ce5c999fb4eca7ccfccd568115695c492ac9e9cacdaba4",
+          "width": 1536,
+          "height": 1024,
+          "reviewStatus": "user-approved",
+          "roles": [
+            "cast:beaver"
+          ],
+          "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/assets/cd6fc9a3e01decb743ce5c999fb4eca7ccfccd568115695c492ac9e9cacdaba4.png",
+          "stage": ""
+        },
+        {
+          "id": "asset-88d74c56a468e3f250b12dbc",
+          "name": "reference-family",
+          "sha256": "88d74c56a468e3f250b12dbcb5ecdb7b07bd1d789197663d8948ac199acd133d",
+          "width": 1536,
+          "height": 1024,
+          "reviewStatus": "user-approved",
+          "roles": [
+            "cast:pinpin",
+            "book-style"
+          ],
+          "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/assets/88d74c56a468e3f250b12dbcb5ecdb7b07bd1d789197663d8948ac199acd133d.webp",
+          "stage": ""
+        }
+      ],
+      "designBasis": "Published Beaver family scenes321/334; preserve finished corrected art.",
+      "missingStages": [],
+      "contextBytes": 66372,
+      "guideOccurrences": 0
+    },
+    {
+      "entityId": "beaver-kits",
+      "nativeAssetIds": [
+        "asset-3c000d97be4fd3a4a43bf055",
+        "asset-cdaa2972246ba0f2f8cc7acc",
+        "asset-5d505b375eed339baa7f7650",
+        "asset-cd6fc9a3e01decb743ce5c99",
+        "asset-88d74c56a468e3f250b12dbc"
+      ],
+      "references": [
+        {
+          "id": "asset-3c000d97be4fd3a4a43bf055",
+          "name": "beaver-kits-solo-repaired.png",
+          "sha256": "3c000d97be4fd3a4a43bf0557b88386b4c7cc710b0516622c933468f379f4b4f",
+          "width": 1536,
+          "height": 1024,
+          "reviewStatus": "unreviewed",
+          "roles": [
+            "primary-working-identity:verified-solo"
+          ],
+          "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/assets/3c000d97be4fd3a4a43bf0557b88386b4c7cc710b0516622c933468f379f4b4f.png",
+          "stage": ""
+        },
+        {
+          "id": "asset-cdaa2972246ba0f2f8cc7acc",
+          "name": "scene-321.webp",
+          "sha256": "cdaa2972246ba0f2f8cc7acc14289d375dd5903c2c8bfb1473f968c33daeee82",
+          "width": 1536,
+          "height": 1024,
+          "reviewStatus": "reference",
+          "roles": [
+            "selected-character",
+            "subject-source:identity",
+            "cast:mama-beaver"
+          ],
+          "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/assets/cdaa2972246ba0f2f8cc7acc14289d375dd5903c2c8bfb1473f968c33daeee82.webp",
+          "stage": ""
+        },
+        {
+          "id": "asset-5d505b375eed339baa7f7650",
+          "name": "pinpin-solo.png",
+          "sha256": "5d505b375eed339baa7f765028f4c61224a685dfcc4c01ee53c5f35fdb303700",
+          "width": 1222,
+          "height": 1287,
+          "reviewStatus": "unreviewed",
+          "roles": [
+            "layout-direction-only:no-species-transfer"
+          ],
+          "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/assets/5d505b375eed339baa7f765028f4c61224a685dfcc4c01ee53c5f35fdb303700.png",
+          "stage": ""
+        },
+        {
+          "id": "asset-cd6fc9a3e01decb743ce5c99",
+          "name": "reference-beaver",
+          "sha256": "cd6fc9a3e01decb743ce5c999fb4eca7ccfccd568115695c492ac9e9cacdaba4",
+          "width": 1536,
+          "height": 1024,
+          "reviewStatus": "user-approved",
+          "roles": [
+            "cast:beaver"
+          ],
+          "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/assets/cd6fc9a3e01decb743ce5c999fb4eca7ccfccd568115695c492ac9e9cacdaba4.png",
+          "stage": ""
+        },
+        {
+          "id": "asset-88d74c56a468e3f250b12dbc",
+          "name": "reference-family",
+          "sha256": "88d74c56a468e3f250b12dbcb5ecdb7b07bd1d789197663d8948ac199acd133d",
+          "width": 1536,
+          "height": 1024,
+          "reviewStatus": "user-approved",
+          "roles": [
+            "cast:pinpin",
+            "book-style"
+          ],
+          "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/assets/88d74c56a468e3f250b12dbcb5ecdb7b07bd1d789197663d8948ac199acd133d.webp",
+          "stage": ""
+        }
+      ],
+      "designBasis": "Published Beaver family scenes321/334; preserve finished corrected art.",
+      "missingStages": [],
+      "contextBytes": 66465,
+      "guideOccurrences": 0
+    }
+  ],
+  "scope": "Fresh local application invocations, no new model thread claimed"
+}

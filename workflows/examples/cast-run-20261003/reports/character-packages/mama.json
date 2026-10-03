@@ -1,0 +1,115 @@
+{
+  "schemaVersion": 1,
+  "entityId": "mama",
+  "migration": "Attributed legacy catalog provenance; no helper timing invented",
+  "stages": {
+    "solo": {
+      "candidates": [
+        {
+          "entityId": "mama",
+          "stage": "solo",
+          "receiptKind": "legacy-catalog-provenance",
+          "assetId": "asset-0409122a3c93ef73014f6338",
+          "sha256": "0409122a3c93ef73014f6338020ea942f47e5c0f4d0a59cf424508eb6ce37898",
+          "bytes": 2350296,
+          "nativePath": "/Users/miguel_lemos/.codex/generated_images/01a0ff85-92dc-7c40-9adb-ef240551a423/exec-0c37257d-d2ca-4f8b-9059-f4e51e91e512.png",
+          "generatedPath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/generated/mama-solo-final.png",
+          "provenance": {
+            "sourcePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/generated/mama-solo-final.png",
+            "tool": "image_gen.imagegen",
+            "prompt": "Edit exact sheet with minimal changes. In row 2 EXPRESSIONS, ONLY second cell Small Smile: turn Mama's head toward SCREEN RIGHT at same three-quarter angle as Neutral and Curious, retaining gentle small closed-mouth smile, identical adult identity. Change row 2 header to '2. EXPRESSIONS' removing parenthetical direction text. Do NOT alter top face views or body row: their left-facing second cells are now correct and must remain LEFT facing. All other cells unchanged, complete page.",
+            "referenceAssetIds": [
+              "asset-688898b097d377eee0e60cd6"
+            ],
+            "nativeSourcePath": "/Users/miguel_lemos/.codex/generated_images/01a0ff85-92dc-7c40-9adb-ef240551a423/exec-0c37257d-d2ca-4f8b-9059-f4e51e91e512.png",
+            "workflow": "workflows/character-creation.md",
+            "entityId": "mama",
+            "stage": "solo-final",
+            "correctionOfAssetId": "asset-688898b097d377eee0e60cd6",
+            "requestedBy": "codex-wap1 on behalf of Miguel"
+          },
+          "timing": {
+            "registeredAt": "2026-10-03T09:38:59.200019+00:00",
+            "registrationSeconds": null,
+            "generationWindow": "See retained original timing reports; missing bounds remain unknown"
+          },
+          "reviewStatus": "unreviewed",
+          "observedLegacyTimingAndPrompt": {
+            "stage": "solo-final",
+            "generationBeforeUTC": "2026-10-03 09:37:20 UTC",
+            "generationAfterUTC": "2026-10-03 09:38:03 UTC",
+            "registrationBeforeUTC": "2026-10-03T09:38:59.197038+00:00",
+            "registrationAfterUTC": "2026-10-03T09:38:59.226599+00:00",
+            "assetId": "asset-0409122a3c93ef73014f6338",
+            "prompt": "Edit exact sheet with minimal changes. In row 2 EXPRESSIONS, ONLY second cell Small Smile: turn Mama's head toward SCREEN RIGHT at same three-quarter angle as Neutral and Curious, retaining gentle small closed-mouth smile, identical adult identity. Change row 2 header to '2. EXPRESSIONS' removing parenthetical direction text. Do NOT alter top face views or body row: their left-facing second cells are now correct and must remain LEFT facing. All other cells unchanged, complete page.",
+            "inputAssetIds": [
+              "asset-688898b097d377eee0e60cd6"
+            ],
+            "nativeSourcePath": "/Users/miguel_lemos/.codex/generated_images/01a0ff85-92dc-7c40-9adb-ef240551a423/exec-0c37257d-d2ca-4f8b-9059-f4e51e91e512.png"
+          },
+          "sourceReportPaths": [
+            "reports/mama-reference-package.json"
+          ],
+          "sourceReportHashes": {
+            "reports/mama-reference-package.json": "6da6b84d736153f1487f88236fe99bb5afd52605e19913877f31c4a24513efd4"
+          }
+        }
+      ]
+    },
+    "interactions": {
+      "candidates": [
+        {
+          "entityId": "mama",
+          "stage": "interactions",
+          "receiptKind": "legacy-catalog-provenance",
+          "assetId": "asset-4a23599bb5c8411f29297d55",
+          "sha256": "4a23599bb5c8411f29297d55d7fc1b969efd763650965c288b4f4287f77f84d1",
+          "bytes": 2400176,
+          "nativePath": "/Users/miguel_lemos/.codex/generated_images/01a0ff85-92dc-7c40-9adb-ef240551a423/exec-8adcac7a-e957-46c0-9721-ad8547f23ea5.png",
+          "generatedPath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/generated/mama-interactions-v1.png",
+          "provenance": {
+            "sourcePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/generated/mama-interactions-v1.png",
+            "tool": "image_gen.imagegen",
+            "prompt": "Polished reusable character model reference in the warm dimensional illustrated style of the supplied published book images, ivory background, clean spacious grid, readable labels, natural varied expressions, anatomically clear whole bodies with two arms/two legs, no clothes or invented accessories. Mama is EXACT adult mother hedgehog on LEFT in breakfast reference, NOT Papa center or older child right: warm orange-brown swept quills, cream face/chest/tummy, round ears, short rounded muzzle and small dark button nose, brown irises, distinct adult rounded body and engaged gaze. Preserve her established proportions and identity, no wolf/canine face, no mandatory raised eyebrows or grin. One SEPARATE portrait interaction and scale page, TWO columns by THREE rows, six whole-body relational studies. Family breakfast reference supplies Mama left, Papa center darker cooler quills broad adult shoulders, older PinPin right half Papa standing height, tiny infant PomPom held by Mama left. Second reference establishes HUGE mount-sized Scooby brown dog with somewhat long ears and curled tail, withers near standing Papa head, not miniature dog; dog shape belongs ONLY to dog, never hedgehogs. Cells labeled: 1 CRADLING POMPOM: seated Mama supports tiny reclining infant back/head and hips with two arms, infant own separate limbs. 2 LISTENING TO PINPIN: Mama kneels facing older child standing, mutual attentive gaze, one gentle paw on child's shoulder. 3 FAMILY SCALE: Mama Papa older PinPin standing on same ground and infant in low cream cushion, clear adults > half-height older child > tiny supported infant. 4 FAMILY EMBRACE: seated Mama and Papa with older child leaning against Mama and tiny infant supported securely in Papa arms, four distinct bodies. 5 SHARED HANDOFF: whole kneeling parents facing each other passing infant, four adult arms only, plausible back/hip support, infant never floating. 6 SCOOBY GREETING: standing Mama beside enormous full-body grounded Scooby, his nose lowers to her offered paw, dog withers near adult head; preserve canonical dog scale. Clear contacts, eye lines, support, no duplicate limbs, no infant standing, no giant older child, no excessive smiles. Readable reusable relationship studies, no scenery needed.",
+            "referenceAssetIds": [
+              "asset-88d74c56a468e3f250b12dbc",
+              "asset-496b4f5dd35b520c54fce130"
+            ],
+            "nativeSourcePath": "/Users/miguel_lemos/.codex/generated_images/01a0ff85-92dc-7c40-9adb-ef240551a423/exec-8adcac7a-e957-46c0-9721-ad8547f23ea5.png",
+            "workflow": "workflows/character-creation.md",
+            "entityId": "mama",
+            "stage": "interactions-v1",
+            "correctionOfAssetId": null,
+            "requestedBy": "codex-wap1 on behalf of Miguel"
+          },
+          "timing": {
+            "registeredAt": "2026-10-03T09:38:59.133334+00:00",
+            "registrationSeconds": null,
+            "generationWindow": "See retained original timing reports; missing bounds remain unknown"
+          },
+          "reviewStatus": "unreviewed",
+          "observedLegacyTimingAndPrompt": {
+            "stage": "interactions-v1",
+            "generationBeforeUTC": "2026-10-03 09:34:15 UTC",
+            "generationAfterUTC": "2026-10-03 09:35:01 UTC",
+            "registrationBeforeUTC": "2026-10-03T09:38:59.130052+00:00",
+            "registrationAfterUTC": "2026-10-03T09:38:59.161903+00:00",
+            "assetId": "asset-4a23599bb5c8411f29297d55",
+            "prompt": "Polished reusable character model reference in the warm dimensional illustrated style of the supplied published book images, ivory background, clean spacious grid, readable labels, natural varied expressions, anatomically clear whole bodies with two arms/two legs, no clothes or invented accessories. Mama is EXACT adult mother hedgehog on LEFT in breakfast reference, NOT Papa center or older child right: warm orange-brown swept quills, cream face/chest/tummy, round ears, short rounded muzzle and small dark button nose, brown irises, distinct adult rounded body and engaged gaze. Preserve her established proportions and identity, no wolf/canine face, no mandatory raised eyebrows or grin. One SEPARATE portrait interaction and scale page, TWO columns by THREE rows, six whole-body relational studies. Family breakfast reference supplies Mama left, Papa center darker cooler quills broad adult shoulders, older PinPin right half Papa standing height, tiny infant PomPom held by Mama left. Second reference establishes HUGE mount-sized Scooby brown dog with somewhat long ears and curled tail, withers near standing Papa head, not miniature dog; dog shape belongs ONLY to dog, never hedgehogs. Cells labeled: 1 CRADLING POMPOM: seated Mama supports tiny reclining infant back/head and hips with two arms, infant own separate limbs. 2 LISTENING TO PINPIN: Mama kneels facing older child standing, mutual attentive gaze, one gentle paw on child's shoulder. 3 FAMILY SCALE: Mama Papa older PinPin standing on same ground and infant in low cream cushion, clear adults > half-height older child > tiny supported infant. 4 FAMILY EMBRACE: seated Mama and Papa with older child leaning against Mama and tiny infant supported securely in Papa arms, four distinct bodies. 5 SHARED HANDOFF: whole kneeling parents facing each other passing infant, four adult arms only, plausible back/hip support, infant never floating. 6 SCOOBY GREETING: standing Mama beside enormous full-body grounded Scooby, his nose lowers to her offered paw, dog withers near adult head; preserve canonical dog scale. Clear contacts, eye lines, support, no duplicate limbs, no infant standing, no giant older child, no excessive smiles. Readable reusable relationship studies, no scenery needed.",
+            "inputAssetIds": [
+              "asset-88d74c56a468e3f250b12dbc",
+              "asset-496b4f5dd35b520c54fce130"
+            ],
+            "nativeSourcePath": "/Users/miguel_lemos/.codex/generated_images/01a0ff85-92dc-7c40-9adb-ef240551a423/exec-8adcac7a-e957-46c0-9721-ad8547f23ea5.png"
+          },
+          "sourceReportPaths": [
+            "reports/mama-reference-package.json"
+          ],
+          "sourceReportHashes": {
+            "reports/mama-reference-package.json": "6da6b84d736153f1487f88236fe99bb5afd52605e19913877f31c4a24513efd4"
+          }
+        }
+      ]
+    }
+  }
+}

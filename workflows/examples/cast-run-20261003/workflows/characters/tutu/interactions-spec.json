@@ -1,0 +1,33 @@
+{
+  "entityId": "tutu",
+  "stage": "interactions",
+  "prompt": "Use case: illustration-story. Create ONE separate portrait CAST INTERACTION reference page titled \"Tutu — Cast interactions\" with SIX large readable panels in THREE rows of TWO, ivory backdrop, short labels, full bodies and generous margins. FIRST IMAGE is PRIMARY TARGET IDENTITY: current verified target solo sheet. Lock its species, face, body, materials, limbs and clothing in EVERY panel. Other images are target source, actual counterpart identity and published book style; never substitute hedgehogs for target. Target/source basis: Original chapter9 establishes female squirrel friend with nut basket. Original chapter4 group image supplies squirrel silhouettes but no identified Tutu portrait. Russet fur, cream belly, tufted ears and fluffy curved tail are proposed current adaptation details. Explicit participant assignments: Female squirrel friend Tutu; PinPin child hedgehog, Rabbit/Lulu rabbit peer. Family reference: Mama is copper-quilled adult LEFT, Papa broad cooler-quilled adult CENTER, PinPin older child RIGHT, infant excluded. Maintain natural book dimensional rendering, engaged shared gaze, consistent relative size across panels, clear owned paws/wings, grounded feet and support/contact, no merged bodies, extra limbs or cropped tails. PANELS: 1 Shared ground peer scale: female russet SQUIRREL TUTU, child golden-quilled HEDGEHOG PINPIN, gray/tan long-eared RABBIT LULU stand on same plane. Squirrel body roughly child companion scale; proposed relative size, no measurements. 2 Nut exchange: SQUIRREL TUTU passes acorn to child HEDGEHOG PINPIN paw-to-paw; separate limbs, fluffy squirrel tail not quills. 3 Gentle hug: SQUIRREL TUTU and child HEDGEHOG PINPIN hug with clear separate whole bodies and owned paws. 4 Carry basket together: SQUIRREL TUTU and RABBIT LULU hold opposite handles of one small nut basket on ground, rabbit long ears not squirrel ears. 5 Quiet story: SQUIRREL TUTU sits on low stump telling story to seated HEDGEHOG PINPIN and RABBIT LULU, attentive gazes. 6 Gather nuts: SQUIRREL TUTU and HEDGEHOG PINPIN crouch and place separate acorns into one stable basket, whole tails/quills/feet visible. Labels describe actual shared actions. No solo portrait row or decorative unrelated characters. Subtitle \"Proposed book adaptation\"; do not pretend new colors/scale are original measured facts.",
+  "promptFile": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/workflows/characters/tutu/interactions-prompt.txt",
+  "references": [
+    {
+      "assetId": "asset-9d3476deaf77e000cf59d0d4",
+      "sha256": "9d3476deaf77e000cf59d0d410c9feb4205fa6bd5dd6955e5874adc5cda76a1d",
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/assets/9d3476deaf77e000cf59d0d410c9feb4205fa6bd5dd6955e5874adc5cda76a1d.png",
+      "role": "PRIMARY-target-solo"
+    },
+    {
+      "assetId": "asset-3c10d6163e64a81b9209691f",
+      "sha256": "3c10d6163e64a81b9209691f15054e73d8f1c438ebc6da7bb9d578fe23e6abfb",
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/assets/3c10d6163e64a81b9209691f15054e73d8f1c438ebc6da7bb9d578fe23e6abfb.png",
+      "role": "subject-source"
+    },
+    {
+      "assetId": "asset-f945f4802de940f91dc6a78a",
+      "sha256": "f945f4802de940f91dc6a78a2a5e7bc5d8e7b3239e3fdb3a883f56c73ebd7b3d",
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/assets/f945f4802de940f91dc6a78a2a5e7bc5d8e7b3239e3fdb3a883f56c73ebd7b3d.webp",
+      "role": "counterpart-identity-and-style"
+    },
+    {
+      "assetId": "asset-88d74c56a468e3f250b12dbc",
+      "sha256": "88d74c56a468e3f250b12dbcb5ecdb7b07bd1d789197663d8948ac199acd133d",
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/assets/88d74c56a468e3f250b12dbcb5ecdb7b07bd1d789197663d8948ac199acd133d.webp",
+      "role": "counterpart-identity-and-style"
+    }
+  ],
+  "outputName": "tutu-interactions.png"
+}

@@ -1,14 +1,16 @@
 # Durable cast run
 
-## Current checkpoint: Beaver family — 2026-10-03
+## Current checkpoint: Bear, Duck, Tutu, Pipilini
 
-Ten packages produced; eleven remain. Next: Bear. Beaver, Mama Beaver and the two kits each have registered solo and separate interaction pages. See their character folders and reports/character-packages/<entity>-generation.json for exact prompts, input identities/hashes, native outputs, timings and repair lineage. Twelve actual native calls, including six repairs; summed image-call windows 1,248 seconds, not end-to-end latency or evidence of parallel compute. First reply/actual delivery bounds unavailable; monetary costs unknown. Published Beaver-family designs retained, exact ages not stated. Original manuscript lexical search found no бобр text, so published adaptation evidence is not misrepresented as original-book portrait evidence.
+14 complete draft packages; 7 remain. Next: oreshek. Remaining in order: oreshek, lilia, hedgehog-cousins, spring-birds, squirrel-community, migrating-bird-family, tarin. All four current packages have verified solo and separate interactions. Completed Beaver-family, Rabbit/Elder/Scooby and legacy family pages preserved. Mama/PomPom standard legacy receipts now exist with exact registered provenance, report links and existing measurements; no regenerated art or invented helper timings.
 
-Never manually retype opaque asset IDs/hashes: read selected stage receipts and pass exact fields programmatically. tools/cast_ops.py finish <entity> now does this and records the per-character timing path. All successful stages/native versions are durable; no repeated solo generation on resumption.
+11 native calls, 3 repairs; summed submitted image windows 1014s, union 485s, first-to-last image span 1230s. These are not full-turn latency or parallel-compute claims; unknown delivery/first-reply/billing bounds remain unknown. Per-character exact prompts, reference roles, hashes, stage lineage and times are in character generation.json and reports/character-packages/*.json. Summary: [batch04](../reports/cast-batch04-summary.json).
 
-Prior Rabbit/Elder/Scooby packages passed working-reference review reported by codex-wap1 under Miguel delegation. Scooby’s approximately85–90% illustrative ratio was accepted as reasonably near Papa head, not a new exact numeric scale rule. No personal Miguel review/click, publication or registry selection inferred.
+Saved book characterReferenceDefaults contains the verified PinPin 24-study layout-only template and subject/counterpart roles, not hard-coded Python IDs. Fresh native packs include current verified target solo as PRIMARY working identity for interactions. Mama Beaver/kits now bind actual published subject sources; Tutu/Pipilini receive original visual-context evidence and disclosed proposed designs. Seven isolated hydration tests and the 20 persistence tests pass; actual active-context reference proof is reports/cast-batch04-hydration-proof.json. No kernel/UI release changes.
 
-Source-checkpoint exports: exports/test_business_routes.py retains the full original test file and assertions, replacing obsolete string injection with a GET insights wrapper and source/hash-change assertions. Syntax valid. Local integration test setup cannot bind localhost in this sandbox; coordinator must rerun exact bytes. exports/workflows-README.md retains source content and adds manifest/character-folder persistence links. SHA-256 export receipt at exports/checkpoint-receipt.json. Production behavior not weakened; no kernel edits.
+Direction observation: 3/4 initial solo pages had all six correct BODY screen directions (23/24 cells), versus 0/3 prior batch pages. Bear face/body left-three-quarter needed one repair. Its interaction scale repair unintentionally shrank Papa; a further actual edit restored adult counterpart identity from Papa solo. Small non-controlled sample, no causal guarantee. Three other interactions retained target species/contact on first pass. Source-established facts remain separate from proposals; no exact ages invented. Notetaker unavailable; durable Markdown remains labeled fallback.
+
+Earlier Beaver checkpoint retained at [batch03](../reports/cast-batch03-checkpoint.md).
 
 ## Verified batch: Rabbit, Elder, Scooby — 2026-10-03
 

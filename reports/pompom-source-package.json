@@ -1,0 +1,104 @@
+{
+  "face-v1": {
+    "id": "asset-dc2b8c16da4e6a0117680fa8",
+    "name": "PomPom face-v1",
+    "mime": "image/png",
+    "sha256": "dc2b8c16da4e6a0117680fa8c01da7dd9a811bf79b909cbfac9426c5507709ed",
+    "bytes": 2173822,
+    "width": 1536,
+    "height": 1024,
+    "url": "/api/assets/asset-dc2b8c16da4e6a0117680fa8",
+    "storagePath": "assets/dc2b8c16da4e6a0117680fa8c01da7dd9a811bf79b909cbfac9426c5507709ed.png",
+    "createdAt": "2026-10-03T09:08:56.638807+00:00",
+    "reviewStatus": "unreviewed",
+    "provenance": {
+      "sourcePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/generated/pompom-face-v1.png",
+      "tool": "image_gen.imagegen",
+      "prompt": "Create a production character reference source sheet of Mr. PomPom, EXACT SAME tiny infant hedgehog as reference 1, using reference 2 only for family scale and warm dimensional illustrated book style. Preserve identical round baby head, short muzzle, glossy dark brown eyes, round ears, black brown nose, warm brown quills, cream face and tummy, very short limbs. No clothes. No older PinPin, adult proportions or standing. Ivory background, consistent soft warm light, clean readable separated cells, restrained neutral brows except expression-specific movement, no forced smile. Landscape sheet, 2 rows of 6 equally sized close-up heads, consistent head size and camera height. Top row labeled FACE VIEWS: front neutral, left three-quarter neutral, left true profile neutral, right three-quarter neutral, right true profile neutral, rear head showing quill silhouette. Bottom row labeled EXPRESSIONS: calm neutral closed mouth, delighted gentle laugh, curious attentive closed mouth, surprised small O mouth, sleepy half-closed eyes, mild upset lower lip and sad eyes. Short legible labels under each cell; no cropping ears or quills. The six expressions use the same front three-quarter angle. All cells same infant identity, do not vary age or muzzle length.",
+      "referenceAssetIds": [
+        "asset-463aeb445b75c551fad7414b",
+        "asset-88d74c56a468e3f250b12dbc"
+      ],
+      "nativeSourcePath": "/Users/miguel_lemos/.codex/generated_images/01a0ff85-92dc-7c40-9adb-ef240551a423/exec-3077ecc6-8f69-44f6-acb6-9b345c9722d7.png",
+      "workflow": "workflows/character-creation.md",
+      "stage": "source sheets",
+      "correctionOfAssetId": null
+    }
+  },
+  "body-v1": {
+    "id": "asset-7dcf707dc1478230a7a5cc94",
+    "name": "PomPom body-v1",
+    "mime": "image/png",
+    "sha256": "7dcf707dc1478230a7a5cc94aa65fb56ee94f75644a12de32be07cb4953981d6",
+    "bytes": 2324199,
+    "width": 1536,
+    "height": 1024,
+    "url": "/api/assets/asset-7dcf707dc1478230a7a5cc94",
+    "storagePath": "assets/7dcf707dc1478230a7a5cc94aa65fb56ee94f75644a12de32be07cb4953981d6.png",
+    "createdAt": "2026-10-03T09:08:56.670397+00:00",
+    "reviewStatus": "unreviewed",
+    "provenance": {
+      "sourcePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/generated/pompom-body-v1.png",
+      "tool": "image_gen.imagegen",
+      "prompt": "Create a production character reference source sheet of Mr. PomPom, EXACT SAME tiny infant hedgehog as reference 1, using reference 2 only for family scale and warm dimensional illustrated book style. Preserve identical round baby head, short muzzle, glossy dark brown eyes, round ears, black brown nose, warm brown quills, cream face and tummy, very short limbs. No clothes. No older PinPin, adult proportions or standing. Ivory background, consistent soft warm light, clean readable separated cells, restrained neutral brows except expression-specific movement, no forced smile. Landscape sheet, 2 rows of 6 equally sized full-body cells. Top row labeled BODY VIEWS: front, left three-quarter, left true profile, right three-quarter, right true profile, back. In all top cells same relaxed supported sitting pose in shallow cream cushion with low rim exposing limbs, identical proportions and scale. Bottom row labeled GESTURES: supported reaching with one paw, supported small wave, clapping two paws touching, hugging one soft pale green ball, looking up calmly, reclining sleepily. Each body has exactly two arms and two short legs, paws and feet distinct and visible wherever physically possible, genuine support under hips/back. No walking, adult stance or extra limbs. Short legible cell labels, whole quills and feet uncropped. Gentle varied natural expressions. Keep pillows small enough to read silhouette.",
+      "referenceAssetIds": [
+        "asset-463aeb445b75c551fad7414b",
+        "asset-88d74c56a468e3f250b12dbc"
+      ],
+      "nativeSourcePath": "/Users/miguel_lemos/.codex/generated_images/01a0ff85-92dc-7c40-9adb-ef240551a423/exec-214428e2-2f69-46a6-9df9-d743e2f11579.png",
+      "workflow": "workflows/character-creation.md",
+      "stage": "source sheets",
+      "correctionOfAssetId": null
+    }
+  },
+  "faceFixed": {
+    "id": "asset-dd88542003c752494cb277f0",
+    "name": "PomPom faceFixed",
+    "mime": "image/png",
+    "sha256": "dd88542003c752494cb277f07e2e97fc84402b48018d5e36295f7d7fa59bb428",
+    "bytes": 2276474,
+    "width": 1536,
+    "height": 1024,
+    "url": "/api/assets/asset-dd88542003c752494cb277f0",
+    "storagePath": "assets/dd88542003c752494cb277f07e2e97fc84402b48018d5e36295f7d7fa59bb428.png",
+    "createdAt": "2026-10-03T09:08:56.702552+00:00",
+    "reviewStatus": "unreviewed",
+    "provenance": {
+      "sourcePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/generated/pompom-faceFixed.png",
+      "tool": "image_gen.imagegen",
+      "prompt": "Edit this exact source sheet. Correct ONLY the top row second cell labeled Left 3/4: render the SAME infant head turned three-quarter toward screen LEFT, nose pointing LEFT, showing the opposite side from fourth cell Right 3/4. Keep cell labels and all other cells unchanged. Left Profile already points left; Left 3/4 must also point left but show both eyes. Preserve same head size, ear shape, muzzle, warm quills, brown eyes and infant identity. Do not mirror text. Retain entire sheet.",
+      "referenceAssetIds": [
+        "asset-dc2b8c16da4e6a0117680fa8"
+      ],
+      "nativeSourcePath": "/Users/miguel_lemos/.codex/generated_images/01a0ff85-92dc-7c40-9adb-ef240551a423/exec-e9592b17-dc45-43e7-bf6f-fe73779141aa.png",
+      "workflow": "workflows/character-creation.md",
+      "stage": "source sheets",
+      "correctionOfAssetId": "asset-dc2b8c16da4e6a0117680fa8"
+    }
+  },
+  "bodyFixed": {
+    "id": "asset-4b5cccd08ae5bf379e3864a8",
+    "name": "PomPom bodyFixed",
+    "mime": "image/png",
+    "sha256": "4b5cccd08ae5bf379e3864a8bd8e10c2968edc5d311fe3541a98055a7010dcbb",
+    "bytes": 2269594,
+    "width": 1536,
+    "height": 1024,
+    "url": "/api/assets/asset-4b5cccd08ae5bf379e3864a8",
+    "storagePath": "assets/4b5cccd08ae5bf379e3864a8bd8e10c2968edc5d311fe3541a98055a7010dcbb.png",
+    "createdAt": "2026-10-03T09:08:56.733661+00:00",
+    "reviewStatus": "unreviewed",
+    "provenance": {
+      "sourcePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/generated/pompom-bodyFixed.png",
+      "tool": "image_gen.imagegen",
+      "prompt": "Edit this exact source sheet. Correct ONLY the top row fourth cell labeled RIGHT THREE-QUARTER: show same seated infant turned three-quarter toward SCREEN LEFT, opposite direction from top row second cell. The fifth RIGHT PROFILE points screen left so fourth must also point left, with both eyes visible. Keep same tiny supported seated proportions, cream cushion, two arms and feet, same infant face and quills. Keep all other cells and labels unchanged. No standing. Retain whole sheet.",
+      "referenceAssetIds": [
+        "asset-7dcf707dc1478230a7a5cc94"
+      ],
+      "nativeSourcePath": "/Users/miguel_lemos/.codex/generated_images/01a0ff85-92dc-7c40-9adb-ef240551a423/exec-55469fa8-3a52-43a8-adc7-5cb09261b6d8.png",
+      "workflow": "workflows/character-creation.md",
+      "stage": "source sheets",
+      "correctionOfAssetId": "asset-7dcf707dc1478230a7a5cc94"
+    }
+  }
+}

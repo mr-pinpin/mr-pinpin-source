@@ -1,0 +1,133 @@
+{
+  "schemaVersion": 1,
+  "entityId": "talking-duck",
+  "stages": {
+    "solo": {
+      "candidates": [
+        {
+          "assetId": "asset-bcfceea74b594d0a3e18d233",
+          "sha256": "bcfceea74b594d0a3e18d2331af67c9e70659a2b6a276f23c8ec7020b6b0dcf4",
+          "bytes": 1697121,
+          "reviewStatus": "unreviewed",
+          "nativePath": "/Users/miguel_lemos/.codex/generated_images/01a0ff85-92dc-7c40-9adb-ef240551a423/exec-16598e5d-57dc-4868-9e72-96ec37eca0aa.png",
+          "generatedPath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/generated/bcfceea74b594d0a-talking-duck-solo.png",
+          "reused": false,
+          "kernelRelease": "c9be233f9e18f6d480c8a5b7d50dff6384c9df2766510b5ef006b21ccec40c75",
+          "workflowCard": {
+            "type": "WorkflowCard",
+            "title": "talking-duck-solo.png",
+            "text": "Unreviewed candidate. Original image available at full size.",
+            "assetIds": [
+              "asset-bcfceea74b594d0a3e18d233"
+            ],
+            "actions": []
+          },
+          "timing": {
+            "startedAt": "2026-10-03T12:07:56.130433+00:00",
+            "validatedAt": "2026-10-03T12:07:56.170941+00:00",
+            "copiedAt": "2026-10-03T12:07:56.172214+00:00",
+            "registeredAt": "2026-10-03T12:07:56.204716+00:00",
+            "registrationSeconds": 0.074296
+          },
+          "dossierPath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/reports/character-packages/talking-duck.json",
+          "entityId": "talking-duck",
+          "stage": "solo",
+          "provenance": {
+            "sourcePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/generated/bcfceea74b594d0a-talking-duck-solo.png",
+            "source": "native-imagegen",
+            "tool": "image_gen.imagegen",
+            "nativeOutputPath": "/Users/miguel_lemos/.codex/generated_images/01a0ff85-92dc-7c40-9adb-ef240551a423/exec-16598e5d-57dc-4868-9e72-96ec37eca0aa.png",
+            "nativeSha256": "bcfceea74b594d0a3e18d2331af67c9e70659a2b6a276f23c8ec7020b6b0dcf4",
+            "prompt": "Use case: illustration-story. Create ONE polished portrait reference page titled \"Talking bath Duck\" with EXACTLY 24 readable studies in FOUR rows of SIX, ivory background, concise cell labels. Subject: Small glossy YELLOW RUBBER BATH DUCK, round head, white eyes with dark pupils, orange broad bill, molded shallow wing ridges, upturned short tail, buoyant rounded base. No human arms, feet, feathers, hat or clothing. Magically sentient expressions retain physical rubber duck design. Input roles: first 1 image(s) subject SOURCE evidence; next image PinPin 24-study is LAYOUT/DIRECTION ONLY, never species/anatomy/clothing; last family image is warm dimensional BOOK STYLE only. Keep target species in EVERY cell. Match the template grid and opposing left/right poses, NOT its hedgehog appearance. Row1 FACE VIEWS in order: Front: nose/beak centered toward viewer. Left 3/4: nose/beak points to SCREEN LEFT, both eyes visible. Left profile: true side, nose/beak points SCREEN LEFT. Right 3/4: nose/beak points SCREEN RIGHT, both eyes visible. Right profile: true side, nose/beak points SCREEN RIGHT. Rear: back, face invisible. Row2 Expressions: Calm, Curious, Happy, Surprised, Sleepy, Mild upset; natural variation no constant grin. Row3 WHOLE BODY VIEWS in order: Front: nose/beak centered toward viewer. Left 3/4: nose/beak points to SCREEN LEFT, both eyes visible. Left profile: true side, nose/beak points SCREEN LEFT. Right 3/4: nose/beak points SCREEN RIGHT, both eyes visible. Right profile: true side, nose/beak points SCREEN RIGHT. Rear: back, face invisible. Body must rotate as a whole, including torso and tail; LEFT three-quarter and LEFT profile must face LEFT; RIGHT three-quarter and RIGHT profile must face RIGHT, not duplicate left-facing bodies under right labels. Row4 Normal poses: Float, Bob, Turn, Speak, Listen, Rest. All full bodies framed with margin, same size within each row, clear separate appropriate limbs, no crops or fused anatomy. Preserve target identity and materials. No extra characters, no numeric age or measured height. Retain established adaptation design.",
+            "promptSha256": "b7f4e80f1537cae46dd036d6834d0fae260da1858917ac64ecd9f36fef47e6a0",
+            "promptFile": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/workflows/characters/talking-duck/solo-prompt.txt",
+            "referenceIds": [
+              "asset-d20b81ce414b1ab2c5c4e470",
+              "asset-5d505b375eed339baa7f7650",
+              "asset-88d74c56a468e3f250b12dbc"
+            ],
+            "inputAssets": [
+              {
+                "assetId": "asset-d20b81ce414b1ab2c5c4e470",
+                "sha256": "d20b81ce414b1ab2c5c4e4705b1259d856928a1c70c356b443b57421b63060a0"
+              },
+              {
+                "assetId": "asset-5d505b375eed339baa7f7650",
+                "sha256": "5d505b375eed339baa7f765028f4c61224a685dfcc4c01ee53c5f35fdb303700"
+              },
+              {
+                "assetId": "asset-88d74c56a468e3f250b12dbc",
+                "sha256": "88d74c56a468e3f250b12dbcb5ecdb7b07bd1d789197663d8948ac199acd133d"
+              }
+            ],
+            "registeredBy": "studio-client/register-image.py"
+          }
+        }
+      ]
+    },
+    "interactions": {
+      "candidates": [
+        {
+          "assetId": "asset-ce6202e185e38c16597c57bd",
+          "sha256": "ce6202e185e38c16597c57bde417208c3cfdf176b9122e1da26930fb6f478507",
+          "bytes": 2550315,
+          "reviewStatus": "unreviewed",
+          "nativePath": "/Users/miguel_lemos/.codex/generated_images/01a0ff85-92dc-7c40-9adb-ef240551a423/exec-3db0ecdf-2299-43a7-846b-708714a60b49.png",
+          "generatedPath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/generated/ce6202e185e38c16-talking-duck-interactions.png",
+          "reused": false,
+          "kernelRelease": "c9be233f9e18f6d480c8a5b7d50dff6384c9df2766510b5ef006b21ccec40c75",
+          "workflowCard": {
+            "type": "WorkflowCard",
+            "title": "talking-duck-interactions.png",
+            "text": "Unreviewed candidate. Original image available at full size.",
+            "assetIds": [
+              "asset-ce6202e185e38c16597c57bd"
+            ],
+            "actions": []
+          },
+          "timing": {
+            "startedAt": "2026-10-03T12:15:52.125736+00:00",
+            "validatedAt": "2026-10-03T12:15:52.167690+00:00",
+            "copiedAt": "2026-10-03T12:15:52.169630+00:00",
+            "registeredAt": "2026-10-03T12:15:52.203814+00:00",
+            "registrationSeconds": 0.078088
+          },
+          "dossierPath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/reports/character-packages/talking-duck.json",
+          "entityId": "talking-duck",
+          "stage": "interactions",
+          "provenance": {
+            "sourcePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/generated/ce6202e185e38c16-talking-duck-interactions.png",
+            "source": "native-imagegen",
+            "tool": "image_gen.imagegen",
+            "nativeOutputPath": "/Users/miguel_lemos/.codex/generated_images/01a0ff85-92dc-7c40-9adb-ef240551a423/exec-3db0ecdf-2299-43a7-846b-708714a60b49.png",
+            "nativeSha256": "ce6202e185e38c16597c57bde417208c3cfdf176b9122e1da26930fb6f478507",
+            "prompt": "Use case: illustration-story. Create ONE separate portrait CAST INTERACTION reference page titled \"Talking bath Duck — Cast interactions\" with SIX large readable panels in THREE rows of TWO, ivory backdrop, short labels, full bodies and generous margins. FIRST IMAGE is PRIMARY TARGET IDENTITY: current verified target solo sheet. Lock its species, face, body, materials, limbs and clothing in EVERY panel. Other images are target source, actual counterpart identity and published book style; never substitute hedgehogs for target. Target/source basis: Published talking duck appearance; distinct sentient individual, not generic incidental ducks. Explicit participant assignments: Magically sentient small yellow rubber bath duck with orange bill and molded wings; PinPin child hedgehog, Papa/Mama adult hedgehogs. Family reference: Mama is copper-quilled adult LEFT, Papa broad cooler-quilled adult CENTER, PinPin older child RIGHT, infant excluded. Maintain natural book dimensional rendering, engaged shared gaze, consistent relative size across panels, clear owned paws/wings, grounded feet and support/contact, no merged bodies, extra limbs or cropped tails. PANELS: 1 Shared scale: child hedgehog PINPIN kneels beside basin containing one small yellow RUBBER DUCK, duck about a palm-sized toy, not child-sized bird. 2 Supported holding: hedgehog PINPIN holds RUBBER DUCK safely with two paws supporting rounded base, close engaged gaze and full child body. 3 Listen: adult hedgehog PAPA sits beside basin, RUBBER DUCK floats with open orange bill speaking, Papa attentive. 4 Gentle touch: adult hedgehog MAMA kneels by basin and lightly touches rounded yellow RUBBER DUCK back, duck floating balanced. 5 Shared play: child hedgehog PINPIN guides one leaf boat beside RUBBER DUCK in shallow basin, both attend shared action. 6 Quiet rest: child hedgehog PINPIN sits on mat, RUBBER DUCK rests on folded towel next to him, relaxed expression. No live bird feet or human arms added to duck; no infant or twelve ducks. Labels describe actual shared actions. No solo portrait row or decorative unrelated characters. Preserve established adaptation identity.",
+            "promptSha256": "199cbc40676494f9a30d74f54e7ab8b83f5492759a3245162fd590072ae1cc01",
+            "promptFile": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/workflows/characters/talking-duck/interactions-prompt.txt",
+            "referenceIds": [
+              "asset-bcfceea74b594d0a3e18d233",
+              "asset-d20b81ce414b1ab2c5c4e470",
+              "asset-88d74c56a468e3f250b12dbc"
+            ],
+            "inputAssets": [
+              {
+                "assetId": "asset-bcfceea74b594d0a3e18d233",
+                "sha256": "bcfceea74b594d0a3e18d2331af67c9e70659a2b6a276f23c8ec7020b6b0dcf4"
+              },
+              {
+                "assetId": "asset-d20b81ce414b1ab2c5c4e470",
+                "sha256": "d20b81ce414b1ab2c5c4e4705b1259d856928a1c70c356b443b57421b63060a0"
+              },
+              {
+                "assetId": "asset-88d74c56a468e3f250b12dbc",
+                "sha256": "88d74c56a468e3f250b12dbcb5ecdb7b07bd1d789197663d8948ac199acd133d"
+              }
+            ],
+            "registeredBy": "studio-client/register-image.py"
+          }
+        }
+      ]
+    }
+  },
+  "updatedAt": "2026-10-03T12:15:52.203930+00:00"
+}

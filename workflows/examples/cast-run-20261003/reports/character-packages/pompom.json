@@ -1,0 +1,143 @@
+{
+  "schemaVersion": 1,
+  "entityId": "pompom",
+  "migration": "Attributed legacy catalog provenance; no helper timing invented",
+  "stages": {
+    "solo": {
+      "candidates": [
+        {
+          "entityId": "pompom",
+          "stage": "solo",
+          "receiptKind": "legacy-catalog-provenance",
+          "assetId": "asset-483201f4d30299518e37b401",
+          "sha256": "483201f4d30299518e37b401259cdd365de5efcdfddf3624156c4c1f176b4f2a",
+          "bytes": 2271871,
+          "nativePath": "/Users/miguel_lemos/.codex/generated_images/01a0ff85-92dc-7c40-9adb-ef240551a423/exec-851c8647-3d88-466a-b83c-a0ed6b8328b5.png",
+          "generatedPath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/generated/pompom-unified-reference.png",
+          "provenance": {
+            "sourcePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/generated/pompom-unified-reference.png",
+            "tool": "image_gen.imagegen",
+            "prompt": "Create one unified Mr. PomPom production reference composite from these TWO corrected source sheets. Preserve the exact infant identity and all 24 studies, do not redesign or age him. Portrait high resolution clean ivory reference poster: FOUR rows of SIX clearly separated readable cells. Row1 FACE VIEWS from reference1 top row; row2 EXPRESSIONS from reference1 bottom row; row3 SUPPORTED BODY VIEWS from reference2 top row; row4 GESTURES from reference2 bottom row. Uniform size within each row, whole body quills and feet uncropped. Use minimal title Mr. PomPom and short labels. IMPORTANT label directions by SCREEN direction to remove ambiguity: face row Front, Facing left 3/4, Facing left profile, Facing right 3/4, Facing right profile, Rear. Body row Front, Facing right 3/4, Facing right profile, Facing left 3/4, Facing left profile, Back. Preserve both different three-quarter directions, no duplicates. Expression labels Calm, Delight, Curious, Surprise, Sleepy, Mild upset. Gestures Reach, Wave, Clap, Hug ball, Look up, Recline. Preserve supported sitting/reclining, cream cushions, exactly two arms and legs; no standing. Face remains round with short infant muzzle dark brown eyes and warm quills. Keep natural range of emotion no compulsory raised brows. Every cell from source sheets retained, no family scene, no extra art or invented traits. Readable generous spacing. A single actual composite IMAGE.",
+            "referenceAssetIds": [
+              "asset-dd88542003c752494cb277f0",
+              "asset-4b5cccd08ae5bf379e3864a8"
+            ],
+            "nativeSourcePath": "/Users/miguel_lemos/.codex/generated_images/01a0ff85-92dc-7c40-9adb-ef240551a423/exec-851c8647-3d88-466a-b83c-a0ed6b8328b5.png",
+            "workflow": "workflows/character-creation.md",
+            "stage": "composite",
+            "designReview": {
+              "reviewer": "codex-wap1",
+              "capacity": "Miguel authorized representative as stated in conversation",
+              "decision": "prototype accepted as working identity; remaining package requested",
+              "personallyReviewedByMiguel": false
+            }
+          },
+          "timing": {
+            "registeredAt": "2026-10-03T09:09:50.079203+00:00",
+            "registrationSeconds": null,
+            "generationWindow": "See retained original timing reports; missing bounds remain unknown"
+          },
+          "reviewStatus": "unreviewed",
+          "sourceReportPaths": [
+            "reports/pompom-composite-registration.json",
+            "reports/pompom-composite-prompt.txt",
+            "reports/pompom-source-package.json",
+            "reports/pompom-workflow-completion.json"
+          ],
+          "generationTimingNote": "Composite/source-study history retained; no new native generation window attributed to assembly",
+          "sourceReportHashes": {
+            "reports/pompom-composite-registration.json": "67098c282fc18b5adf2cfa4fbaaa12e4ea1930a9d98f73b20a1474f791e2b4b8",
+            "reports/pompom-composite-prompt.txt": "cc4615e6851a8076b862c1d75b4f746db40e388033e9f9a24f5b3064c50ae12f",
+            "reports/pompom-source-package.json": "8eea9a5d0a01a6c91f6bb000801448965181c1269bf9d8a4e650b2af42ec10a3",
+            "reports/pompom-workflow-completion.json": "397d14123ff9dd0a5df610be66163a6905349c024bdaf02c7b8470121698536e"
+          }
+        }
+      ]
+    },
+    "interactions": {
+      "candidates": [
+        {
+          "entityId": "pompom",
+          "stage": "interactions",
+          "receiptKind": "legacy-catalog-provenance",
+          "assetId": "asset-56362912ae9b6173ac8464de",
+          "sha256": "56362912ae9b6173ac8464de4499f12fcb195ee52fc01b2f6ba15d15c25d7711",
+          "bytes": 2470018,
+          "nativePath": "/Users/miguel_lemos/.codex/generated_images/01a0ff85-92dc-7c40-9adb-ef240551a423/exec-67f39253-191f-4071-aead-6694e2663be8.png",
+          "generatedPath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/generated/pompom-interactions.png",
+          "provenance": {
+            "sourcePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/generated/pompom-interactions.png",
+            "tool": "image_gen.imagegen",
+            "prompt": "Create ONE polished reusable Mr. PomPom FAMILY INTERACTION reference page, portrait, six large readable relational studies in a 2-column by 3-row grid on warm ivory background, short labels, generous spacing, whole bodies uncropped. Use BOTH attached references directly: reference 1 authoritative tiny infant PomPom identity (round infant head, short rounded muzzle, dark brown eyes, small nose, round ears, warm quills, cream tummy, short limbs); reference 2 authoritative family identities and relative scale: Mama is adult orange-brown hedgehog on LEFT holding tiny infant; Papa is larger adult darker brown hedgehog center; older PinPin on RIGHT is bigger than infant but much smaller than parents. Preserve their distinct established faces, quill colors, natural dimensional illustrated book style. These are HEDGEHOGS, no canine/wolf muzzle. Keep PomPom truly tiny enough to fit securely in adult forearms, not older PinPin sized. No clothes. Six cells: 1 MAMA CRADLES: seated Mama full body, tiny infant reclined across two forearms, one supports head/back, other hips, baby's own two arms and two legs separate. 2 PAPA HOLDS: seated Papa full body, infant upright nestled against chest, one paw supports hips other upper back, relaxed attentive eye contact. 3 FAMILY SCALE: all four whole separate bodies on same ground plane, Papa and Mama side by side, older PinPin beside them, PomPom seated in low cream supportive nest on floor, clear adult > older child > tiny infant proportion. 4 SITTING TOGETHER: older PinPin seated beside infant's supporting cushion, PinPin slightly leans to show small leaf, mutual gaze; scale difference clear. 5 SIBLING HUG: older PinPin seated beside cushion gently embraces tiny PomPom across shoulders, infant hips/back supported by cushion, both bodies clearly distinct, no squeezing, adult Mama paw may steady cushion only if needed but prefer no extra hand. 6 CAREFUL HANDOFF: Mama and Papa full bodies kneeling facing each other, tiny reclining infant BETWEEN them, receiving Papa's two paws under baby's back and hips while Mama's forearms still support infant; clear four adult arms total, no duplicated paws, believable overlaps and eye lines. Natural varied calm tenderness, some closed mouths, no exaggerated eyebrow raise or excessive smiles. Each character exactly two arms and two legs; show contact and secure support; no independent infant standing or walking, no floating infant, no merged bodies. This is relational model reference, not breakfast scene, not solo portrait sheet. Label each study clearly.",
+            "referenceAssetIds": [
+              "asset-483201f4d30299518e37b401",
+              "asset-88d74c56a468e3f250b12dbc"
+            ],
+            "referenceBindings": [
+              {
+                "assetId": "asset-483201f4d30299518e37b401",
+                "role": "accepted infant identity"
+              },
+              {
+                "assetId": "asset-88d74c56a468e3f250b12dbc",
+                "role": "published Mama, Papa, older PinPin identities, relative family scale and illustrated style"
+              }
+            ],
+            "nativeSourcePath": "/Users/miguel_lemos/.codex/generated_images/01a0ff85-92dc-7c40-9adb-ef240551a423/exec-67f39253-191f-4071-aead-6694e2663be8.png",
+            "stage": "interaction reference",
+            "delegatedRequestBy": "codex-wap1",
+            "inspection": {
+              "result": "Six relational studies checked for relative scale, separate bodies, support, contact and identity; no material defect requiring repair identified.",
+              "repairs": []
+            }
+          },
+          "timing": {
+            "registeredAt": "2026-10-03T09:32:24.191237+00:00",
+            "registrationSeconds": null,
+            "generationWindow": "See retained original timing reports; missing bounds remain unknown"
+          },
+          "reviewStatus": "unreviewed",
+          "observedLegacyTimingAndPrompt": {
+            "prompt": "Create ONE polished reusable Mr. PomPom FAMILY INTERACTION reference page, portrait, six large readable relational studies in a 2-column by 3-row grid on warm ivory background, short labels, generous spacing, whole bodies uncropped. Use BOTH attached references directly: reference 1 authoritative tiny infant PomPom identity (round infant head, short rounded muzzle, dark brown eyes, small nose, round ears, warm quills, cream tummy, short limbs); reference 2 authoritative family identities and relative scale: Mama is adult orange-brown hedgehog on LEFT holding tiny infant; Papa is larger adult darker brown hedgehog center; older PinPin on RIGHT is bigger than infant but much smaller than parents. Preserve their distinct established faces, quill colors, natural dimensional illustrated book style. These are HEDGEHOGS, no canine/wolf muzzle. Keep PomPom truly tiny enough to fit securely in adult forearms, not older PinPin sized. No clothes. Six cells: 1 MAMA CRADLES: seated Mama full body, tiny infant reclined across two forearms, one supports head/back, other hips, baby's own two arms and two legs separate. 2 PAPA HOLDS: seated Papa full body, infant upright nestled against chest, one paw supports hips other upper back, relaxed attentive eye contact. 3 FAMILY SCALE: all four whole separate bodies on same ground plane, Papa and Mama side by side, older PinPin beside them, PomPom seated in low cream supportive nest on floor, clear adult > older child > tiny infant proportion. 4 SITTING TOGETHER: older PinPin seated beside infant's supporting cushion, PinPin slightly leans to show small leaf, mutual gaze; scale difference clear. 5 SIBLING HUG: older PinPin seated beside cushion gently embraces tiny PomPom across shoulders, infant hips/back supported by cushion, both bodies clearly distinct, no squeezing, adult Mama paw may steady cushion only if needed but prefer no extra hand. 6 CAREFUL HANDOFF: Mama and Papa full bodies kneeling facing each other, tiny reclining infant BETWEEN them, receiving Papa's two paws under baby's back and hips while Mama's forearms still support infant; clear four adult arms total, no duplicated paws, believable overlaps and eye lines. Natural varied calm tenderness, some closed mouths, no exaggerated eyebrow raise or excessive smiles. Each character exactly two arms and two legs; show contact and secure support; no independent infant standing or walking, no floating infant, no merged bodies. This is relational model reference, not breakfast scene, not solo portrait sheet. Label each study clearly.",
+            "imageTool": {
+              "beforeUTC": "2026-10-03 09:30:07 UTC",
+              "afterUTC": "2026-10-03 09:31:33 UTC",
+              "elapsedSeconds": 86
+            },
+            "inputAssetIds": [
+              "asset-483201f4d30299518e37b401",
+              "asset-88d74c56a468e3f250b12dbc"
+            ],
+            "nativeSourcePath": "/Users/miguel_lemos/.codex/generated_images/01a0ff85-92dc-7c40-9adb-ef240551a423/exec-67f39253-191f-4071-aead-6694e2663be8.png",
+            "inspection": {
+              "result": "Six relational studies checked for relative scale, separate bodies, support, contact and identity; no material defect requiring repair identified.",
+              "repairs": []
+            },
+            "projectRevisionBeforeRegistration": 789,
+            "registration": {
+              "beforeUTC": "2026-10-03T09:32:24.178658+00:00",
+              "afterUTC": "2026-10-03T09:32:24.218296+00:00"
+            },
+            "output": {
+              "assetId": "asset-56362912ae9b6173ac8464de",
+              "sha256": "56362912ae9b6173ac8464de4499f12fcb195ee52fc01b2f6ba15d15c25d7711",
+              "nativeCopy": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/generated/pompom-interactions.png",
+              "width": 1024,
+              "height": 1536,
+              "reviewStatus": "unreviewed"
+            },
+            "review": "New interaction page delivered as unreviewed candidate; earlier 24-study package delegated acceptance stands. No personal Miguel review or publication recorded."
+          },
+          "sourceReportPaths": [
+            "reports/pompom-interactions-timing.json",
+            "reports/pompom-interactions-registration.json"
+          ],
+          "sourceReportHashes": {
+            "reports/pompom-interactions-timing.json": "8a6eb7d7a8375f3e219b4e46de9f4001a87cf3319fa80578db68b06041cc3b51",
+            "reports/pompom-interactions-registration.json": "289f9fb280cb5af09d34b9ca851dded407bfe9c4a7ecbecfe4bd91af34486b9c"
+          }
+        }
+      ]
+    }
+  }
+}

@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-03T11:48:38.154286+00:00",
+  "updatedAt": "2026-10-03T12:26:48.556774+00:00",
   "characters": [
     {
       "id": "pinpin",
@@ -492,7 +492,9 @@
       "dossierPath": "workflows/characters/mama-beaver/README.md",
       "evidencePath": "workflows/characters/mama-beaver/evidence.json",
       "evidenceCount": 4,
-      "registeredReferenceIds": [],
+      "registeredReferenceIds": [
+        "asset-cdaa2972246ba0f2f8cc7acc"
+      ],
       "outputs": [
         {
           "assetId": "asset-2a871ba140b794319abca46a",
@@ -530,7 +532,22 @@
       "claimedStatus": "produced",
       "qaNote": "Inspected native pages: identity, directions, anatomy, scale/contact. Agent QA only; no personal Miguel approval.",
       "timingPath": "reports/character-packages/mama-beaver-generation.json",
-      "completedAt": "2026-10-03T11:48:37.982680+00:00"
+      "completedAt": "2026-10-03T11:48:37.982680+00:00",
+      "referenceBindings": {
+        "speciesAndRole": "Adult female beaver mother, red scarf, smooth fur and paddle tail",
+        "counterpartIds": [
+          "beaver",
+          "pinpin"
+        ],
+        "designBasis": "Published Beaver family scenes321/334; preserve finished corrected art.",
+        "sourceReferences": [
+          {
+            "assetId": "asset-cdaa2972246ba0f2f8cc7acc",
+            "sha256": "cdaa2972246ba0f2f8cc7acc14289d375dd5903c2c8bfb1473f968c33daeee82",
+            "role": "identity"
+          }
+        ]
+      }
     },
     {
       "id": "beaver-kits",
@@ -546,7 +563,9 @@
       "dossierPath": "workflows/characters/beaver-kits/README.md",
       "evidencePath": "workflows/characters/beaver-kits/evidence.json",
       "evidenceCount": 2,
-      "registeredReferenceIds": [],
+      "registeredReferenceIds": [
+        "asset-cdaa2972246ba0f2f8cc7acc"
+      ],
       "outputs": [
         {
           "assetId": "asset-3c000d97be4fd3a4a43bf055",
@@ -584,7 +603,22 @@
       "claimedStatus": "produced",
       "qaNote": "Inspected native pages: identity, directions, anatomy, scale/contact. Agent QA only; no personal Miguel approval.",
       "timingPath": "reports/character-packages/beaver-kits-generation.json",
-      "completedAt": "2026-10-03T11:48:38.154227+00:00"
+      "completedAt": "2026-10-03T11:48:38.154227+00:00",
+      "referenceBindings": {
+        "speciesAndRole": "Two young beaver kits, separate bodies, paddle tails; names/sex/exact ages not stated",
+        "counterpartIds": [
+          "beaver",
+          "pinpin"
+        ],
+        "designBasis": "Published Beaver family scenes321/334; preserve finished corrected art.",
+        "sourceReferences": [
+          {
+            "assetId": "asset-cdaa2972246ba0f2f8cc7acc",
+            "sha256": "cdaa2972246ba0f2f8cc7acc14289d375dd5903c2c8bfb1473f968c33daeee82",
+            "role": "identity"
+          }
+        ]
+      }
     },
     {
       "id": "bear",
@@ -597,27 +631,67 @@
       ],
       "exactAge": "not stated",
       "evidencedLifeStage": "adult supporting builder; adaptation design",
-      "status": "pending",
+      "status": "produced",
       "dossierPath": "workflows/characters/bear/README.md",
       "evidencePath": "workflows/characters/bear/evidence.json",
       "evidenceCount": 4,
       "registeredReferenceIds": [
         "asset-3b92d67454ebb1f3a0e51b67"
       ],
-      "outputs": [],
+      "outputs": [
+        {
+          "assetId": "asset-8795b77759f3526d40c372eb",
+          "sha256": "8795b77759f3526d40c372eb21892738da3adb7a57c0ab442e180c74d0024f33"
+        },
+        {
+          "assetId": "asset-4459ac0e4e5a5deba4e42f84",
+          "sha256": "4459ac0e4e5a5deba4e42f8408e4f0b45ffb03749b110ea9c8db172dc6b43209"
+        }
+      ],
       "constraints": {
         "identity": "NEW supporting builder introduced in R17; do not claim old-book canonical appearance.",
         "scale": "Study proposes 1.35 Papa height.",
         "geometry": ""
       },
-      "stages": {},
-      "missingStages": [
-        "solo",
-        "interactions"
-      ],
-      "nextStage": "solo",
-      "complete": false,
-      "claimedStatus": "pending"
+      "stages": {
+        "solo": {
+          "assetId": "asset-8795b77759f3526d40c372eb",
+          "sha256": "8795b77759f3526d40c372eb21892738da3adb7a57c0ab442e180c74d0024f33",
+          "nativePath": "/Users/miguel_lemos/.codex/generated_images/01a0ff85-92dc-7c40-9adb-ef240551a423/exec-752d0909-b606-4015-88cb-307c11196421.png",
+          "generatedPath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/generated/8795b77759f3526d-bear-solo.png",
+          "receiptKind": null
+        },
+        "interactions": {
+          "assetId": "asset-4459ac0e4e5a5deba4e42f84",
+          "sha256": "4459ac0e4e5a5deba4e42f8408e4f0b45ffb03749b110ea9c8db172dc6b43209",
+          "nativePath": "/Users/miguel_lemos/.codex/generated_images/01a0ff85-92dc-7c40-9adb-ef240551a423/exec-d150ef67-5756-4628-85d6-4101aa939d95.png",
+          "generatedPath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/generated/4459ac0e4e5a5deb-bear-interactions.png",
+          "receiptKind": null
+        }
+      },
+      "missingStages": [],
+      "nextStage": null,
+      "complete": true,
+      "claimedStatus": "produced",
+      "referenceBindings": {
+        "speciesAndRole": "Adult brown bear builder, olive canvas apron; Papa adult hedgehog; Beaver adult blue-vest beaver.",
+        "counterpartIds": [
+          "papa",
+          "beaver",
+          "pinpin"
+        ],
+        "designBasis": "Established R17 adaptation study and published art; 1.35 Papa height is a study proposal, not original fact.",
+        "sourceReferences": [
+          {
+            "assetId": "asset-721580fa45c9435bb0ef26fb",
+            "sha256": "721580fa45c9435bb0ef26fb283ad6f9041a2a1f513d86e6142231531b7b4d1f",
+            "role": "identity"
+          }
+        ]
+      },
+      "qaNote": "Inspected native pages: identity, directions, anatomy, scale/contact. Agent QA only; no personal Miguel approval.",
+      "timingPath": "reports/character-packages/bear-generation.json",
+      "completedAt": "2026-10-03T12:26:48.556714+00:00"
     },
     {
       "id": "talking-duck",
@@ -630,25 +704,67 @@
       ],
       "exactAge": "not stated",
       "evidencedLifeStage": "magically sentient duck, separate from ordinary toy prop",
-      "status": "pending",
+      "status": "produced",
       "dossierPath": "workflows/characters/talking-duck/README.md",
       "evidencePath": "workflows/characters/talking-duck/evidence.json",
       "evidenceCount": 18,
-      "registeredReferenceIds": [],
-      "outputs": [],
-      "constraints": {
-        "identity": "magically sentient duck, separate from ordinary toy prop",
-        "scale": "Not measured; use original/published indexed visual evidence",
-        "geometry": ""
-      },
-      "stages": {},
-      "missingStages": [
-        "solo",
-        "interactions"
+      "registeredReferenceIds": [
+        "asset-d20b81ce414b1ab2c5c4e470"
       ],
-      "nextStage": "solo",
-      "complete": false,
-      "claimedStatus": "pending"
+      "outputs": [
+        {
+          "assetId": "asset-bcfceea74b594d0a3e18d233",
+          "sha256": "bcfceea74b594d0a3e18d2331af67c9e70659a2b6a276f23c8ec7020b6b0dcf4"
+        },
+        {
+          "assetId": "asset-ce6202e185e38c16597c57bd",
+          "sha256": "ce6202e185e38c16597c57bde417208c3cfdf176b9122e1da26930fb6f478507"
+        }
+      ],
+      "constraints": {
+        "identity": "Magically sentient yellow rubber bath Duck; orange bill, white eyes/dark pupils, molded wings, rounded floating base; published scene61 design",
+        "scale": "Small toy relative to hedgehog family; no measured height; held safely with two child paws",
+        "geometry": "No independently standing feet, human arms or added feather anatomy"
+      },
+      "stages": {
+        "solo": {
+          "assetId": "asset-bcfceea74b594d0a3e18d233",
+          "sha256": "bcfceea74b594d0a3e18d2331af67c9e70659a2b6a276f23c8ec7020b6b0dcf4",
+          "nativePath": "/Users/miguel_lemos/.codex/generated_images/01a0ff85-92dc-7c40-9adb-ef240551a423/exec-16598e5d-57dc-4868-9e72-96ec37eca0aa.png",
+          "generatedPath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/generated/bcfceea74b594d0a-talking-duck-solo.png",
+          "receiptKind": null
+        },
+        "interactions": {
+          "assetId": "asset-ce6202e185e38c16597c57bd",
+          "sha256": "ce6202e185e38c16597c57bde417208c3cfdf176b9122e1da26930fb6f478507",
+          "nativePath": "/Users/miguel_lemos/.codex/generated_images/01a0ff85-92dc-7c40-9adb-ef240551a423/exec-3db0ecdf-2299-43a7-846b-708714a60b49.png",
+          "generatedPath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/generated/ce6202e185e38c16-talking-duck-interactions.png",
+          "receiptKind": null
+        }
+      },
+      "missingStages": [],
+      "nextStage": null,
+      "complete": true,
+      "claimedStatus": "produced",
+      "referenceBindings": {
+        "speciesAndRole": "Magically sentient small yellow rubber bath duck with orange bill and molded wings; PinPin child hedgehog, Papa/Mama adult hedgehogs.",
+        "counterpartIds": [
+          "pinpin",
+          "papa",
+          "mama"
+        ],
+        "designBasis": "Published talking duck appearance; distinct sentient individual, not generic incidental ducks.",
+        "sourceReferences": [
+          {
+            "assetId": "asset-d20b81ce414b1ab2c5c4e470",
+            "sha256": "d20b81ce414b1ab2c5c4e4705b1259d856928a1c70c356b443b57421b63060a0",
+            "role": "identity"
+          }
+        ]
+      },
+      "qaNote": "Inspected native pages: identity, directions, anatomy, scale/contact. Agent QA only; no personal Miguel approval.",
+      "timingPath": "reports/character-packages/talking-duck-generation.json",
+      "completedAt": "2026-10-03T12:15:52.444243+00:00"
     },
     {
       "id": "tutu",
@@ -660,25 +776,64 @@
       ],
       "exactAge": "not stated",
       "evidencedLifeStage": "squirrel friend (chapter 9); exact age not stated",
-      "status": "pending",
+      "status": "produced",
       "dossierPath": "workflows/characters/tutu/README.md",
       "evidencePath": "workflows/characters/tutu/evidence.json",
       "evidenceCount": 8,
       "registeredReferenceIds": [],
-      "outputs": [],
+      "outputs": [
+        {
+          "assetId": "asset-9d3476deaf77e000cf59d0d4",
+          "sha256": "9d3476deaf77e000cf59d0d410c9feb4205fa6bd5dd6955e5874adc5cda76a1d"
+        },
+        {
+          "assetId": "asset-d6ac1095cb13938a55335e21",
+          "sha256": "d6ac1095cb13938a55335e21203091151f11dad6cc9c1d35cd33142245070841"
+        }
+      ],
       "constraints": {
         "identity": "squirrel friend (chapter 9); exact age not stated",
         "scale": "Not measured; use original/published indexed visual evidence",
         "geometry": ""
       },
-      "stages": {},
-      "missingStages": [
-        "solo",
-        "interactions"
-      ],
-      "nextStage": "solo",
-      "complete": false,
-      "claimedStatus": "pending"
+      "stages": {
+        "solo": {
+          "assetId": "asset-9d3476deaf77e000cf59d0d4",
+          "sha256": "9d3476deaf77e000cf59d0d410c9feb4205fa6bd5dd6955e5874adc5cda76a1d",
+          "nativePath": "/Users/miguel_lemos/.codex/generated_images/01a0ff85-92dc-7c40-9adb-ef240551a423/exec-eb601728-3597-46fb-8937-0dc2ca69daa1.png",
+          "generatedPath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/generated/9d3476deaf77e000-tutu-solo.png",
+          "receiptKind": null
+        },
+        "interactions": {
+          "assetId": "asset-d6ac1095cb13938a55335e21",
+          "sha256": "d6ac1095cb13938a55335e21203091151f11dad6cc9c1d35cd33142245070841",
+          "nativePath": "/Users/miguel_lemos/.codex/generated_images/01a0ff85-92dc-7c40-9adb-ef240551a423/exec-17f759d3-0ba8-436d-bbc8-bc171f5790e5.png",
+          "generatedPath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/generated/d6ac1095cb13938a-tutu-interactions.png",
+          "receiptKind": null
+        }
+      },
+      "missingStages": [],
+      "nextStage": null,
+      "complete": true,
+      "claimedStatus": "produced",
+      "referenceBindings": {
+        "speciesAndRole": "Female squirrel friend Tutu; PinPin child hedgehog, Rabbit/Lulu rabbit peer.",
+        "counterpartIds": [
+          "pinpin",
+          "rabbit"
+        ],
+        "designBasis": "Original chapter9 establishes female squirrel friend with nut basket. Original chapter4 group image supplies squirrel silhouettes but no identified Tutu portrait. Russet fur, cream belly, tufted ears and fluffy curved tail are proposed current adaptation details.",
+        "sourceReferences": [
+          {
+            "assetId": "asset-3c10d6163e64a81b9209691f",
+            "sha256": "3c10d6163e64a81b9209691f15054e73d8f1c438ebc6da7bb9d578fe23e6abfb",
+            "role": "original-visual-context"
+          }
+        ]
+      },
+      "qaNote": "Inspected native pages: identity, directions, anatomy, scale/contact. Agent QA only; no personal Miguel approval.",
+      "timingPath": "reports/character-packages/tutu-generation.json",
+      "completedAt": "2026-10-03T12:15:52.970595+00:00"
     },
     {
       "id": "pipilini",
@@ -691,25 +846,65 @@
       ],
       "exactAge": "not stated",
       "evidencedLifeStage": "older migrating bird with weak wings; spelling variants in continuous story",
-      "status": "pending",
+      "status": "produced",
       "dossierPath": "workflows/characters/pipilini/README.md",
       "evidencePath": "workflows/characters/pipilini/evidence.json",
       "evidenceCount": 35,
       "registeredReferenceIds": [],
-      "outputs": [],
+      "outputs": [
+        {
+          "assetId": "asset-713cae3785e80f243216dcdc",
+          "sha256": "713cae3785e80f243216dcdc74955eaa37501071661eb403d433f7edcae7c9b6"
+        },
+        {
+          "assetId": "asset-391e0726b95525a0598c6842",
+          "sha256": "391e0726b95525a0598c6842aa61de915434c415958b32441239acf2313059c7"
+        }
+      ],
       "constraints": {
         "identity": "older migrating bird with weak wings; spelling variants in continuous story",
         "scale": "Not measured; use original/published indexed visual evidence",
         "geometry": ""
       },
-      "stages": {},
-      "missingStages": [
-        "solo",
-        "interactions"
-      ],
-      "nextStage": "solo",
-      "complete": false,
-      "claimedStatus": "pending"
+      "stages": {
+        "solo": {
+          "assetId": "asset-713cae3785e80f243216dcdc",
+          "sha256": "713cae3785e80f243216dcdc74955eaa37501071661eb403d433f7edcae7c9b6",
+          "nativePath": "/Users/miguel_lemos/.codex/generated_images/01a0ff85-92dc-7c40-9adb-ef240551a423/exec-03eee455-7411-4540-b753-87b98b881951.png",
+          "generatedPath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/generated/713cae3785e80f24-pipilini-solo.png",
+          "receiptKind": null
+        },
+        "interactions": {
+          "assetId": "asset-391e0726b95525a0598c6842",
+          "sha256": "391e0726b95525a0598c6842aa61de915434c415958b32441239acf2313059c7",
+          "nativePath": "/Users/miguel_lemos/.codex/generated_images/01a0ff85-92dc-7c40-9adb-ef240551a423/exec-ac2e9ab5-c209-42b5-b16b-392267561627.png",
+          "generatedPath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/generated/391e0726b95525a0-pipilini-interactions.png",
+          "receiptKind": null
+        }
+      },
+      "missingStages": [],
+      "nextStage": null,
+      "complete": true,
+      "claimedStatus": "produced",
+      "referenceBindings": {
+        "speciesAndRole": "Older male migrating bird Pipilini/Pipilino with weak wings; PinPin child hedgehog, Mama/Papa adult hedgehogs.",
+        "counterpartIds": [
+          "pinpin",
+          "mama",
+          "papa"
+        ],
+        "designBasis": "Original chapter8 old migrating bird, weak wings, invited winter guest. Original image49 contains a pale rose long-tailed bird with reddish bill but does not uniquely label it. Rose/cream bird adaptation is an explicitly proposed visual interpretation; species and exact age not stated.",
+        "sourceReferences": [
+          {
+            "assetId": "asset-3da638615ab0e52d60c8ea61",
+            "sha256": "3da638615ab0e52d60c8ea6130b0a1b103845a4e6f7b40de9a9bff6dbcf534ea",
+            "role": "original-visual-context"
+          }
+        ]
+      },
+      "qaNote": "Inspected native pages: identity, directions, anatomy, scale/contact. Agent QA only; no personal Miguel approval.",
+      "timingPath": "reports/character-packages/pipilini-generation.json",
+      "completedAt": "2026-10-03T12:15:53.471836+00:00"
     },
     {
       "id": "oreshek",
@@ -920,7 +1115,7 @@
       "claimedStatus": "pending"
     }
   ],
-  "nextEntityId": "bear",
+  "nextEntityId": "oreshek",
   "notetaker": {
     "available": false,
     "evidence": "Coordinator reports bounded connected-tool/plugin/repo discovery found no configured Notetaker integration.",
