@@ -9,17 +9,49 @@
     ],
     "exactAge": "not stated",
     "evidencedLifeStage": "adult parent in adaptation",
-    "status": "pending",
+    "status": "produced",
     "dossierPath": "workflows/characters/mama-beaver/README.md",
     "evidencePath": "workflows/characters/mama-beaver/evidence.json",
     "evidenceCount": 4,
     "registeredReferenceIds": [],
-    "outputs": [],
+    "outputs": [
+      {
+        "assetId": "asset-2a871ba140b794319abca46a",
+        "sha256": "2a871ba140b794319abca46aafcdf9cceab65c50c523e3056c235dd34332b8b8"
+      },
+      {
+        "assetId": "asset-6f9af7a36059b6943f2ade3e",
+        "sha256": "6f9af7a36059b6943f2ade3ec91ced31876aeb0dc8cfae4b27f1218aa9d4a6b7"
+      }
+    ],
     "constraints": {
-      "identity": "adult parent in adaptation",
-      "scale": "Not measured; use original/published indexed visual evidence",
-      "geometry": ""
-    }
+      "identity": "Adult published mother: chestnut soft fur, red neck scarf, cream muzzle/chest, paired incisors, rounded ears and flat paddle tail. No hedgehog quills, no blue vest. Larger than two kits.",
+      "scale": "Relative scale from published bath321/334; no numeric heights or ages.",
+      "geometry": "Four separate limbs per beaver, distinct tails, grounded/support/contact ownership."
+    },
+    "stages": {
+      "solo": {
+        "assetId": "asset-2a871ba140b794319abca46a",
+        "sha256": "2a871ba140b794319abca46aafcdf9cceab65c50c523e3056c235dd34332b8b8",
+        "nativePath": "/Users/miguel_lemos/.codex/generated_images/01a0ff85-92dc-7c40-9adb-ef240551a423/exec-7e037780-cc2e-4a4f-839a-3d3fd53e1e45.png",
+        "generatedPath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/generated/2a871ba140b79431-mama-beaver-solo-repaired.png",
+        "receiptKind": null
+      },
+      "interactions": {
+        "assetId": "asset-6f9af7a36059b6943f2ade3e",
+        "sha256": "6f9af7a36059b6943f2ade3ec91ced31876aeb0dc8cfae4b27f1218aa9d4a6b7",
+        "nativePath": "/Users/miguel_lemos/.codex/generated_images/01a0ff85-92dc-7c40-9adb-ef240551a423/exec-e71af188-aa10-450d-be30-58d869a267cf.png",
+        "generatedPath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/generated/6f9af7a36059b694-mama-beaver-interactions-final.png",
+        "receiptKind": null
+      }
+    },
+    "missingStages": [],
+    "nextStage": null,
+    "complete": true,
+    "claimedStatus": "produced",
+    "qaNote": "Inspected native pages: identity, directions, anatomy, scale/contact. Agent QA only; no personal Miguel approval.",
+    "timingPath": "reports/character-packages/mama-beaver-generation.json",
+    "completedAt": "2026-10-03T11:48:37.982680+00:00"
   },
   "bibliography": [
     {
@@ -64,7 +96,84 @@
     }
   ],
   "registeredReferences": [],
-  "existingOutputs": [],
+  "existingOutputs": [
+    {
+      "id": "asset-2a871ba140b794319abca46a",
+      "name": "mama-beaver-solo-repaired.png",
+      "mime": "image/png",
+      "sha256": "2a871ba140b794319abca46aafcdf9cceab65c50c523e3056c235dd34332b8b8",
+      "bytes": 2316683,
+      "width": 1536,
+      "height": 1024,
+      "url": "/api/assets/asset-2a871ba140b794319abca46a",
+      "storagePath": "assets/2a871ba140b794319abca46aafcdf9cceab65c50c523e3056c235dd34332b8b8.png",
+      "createdAt": "2026-10-03T11:38:54.240140+00:00",
+      "reviewStatus": "unreviewed",
+      "provenance": {
+        "sourcePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/generated/2a871ba140b79431-mama-beaver-solo-repaired.png",
+        "source": "native-imagegen",
+        "tool": "image_gen.imagegen",
+        "nativeOutputPath": "/Users/miguel_lemos/.codex/generated_images/01a0ff85-92dc-7c40-9adb-ef240551a423/exec-7e037780-cc2e-4a4f-839a-3d3fd53e1e45.png",
+        "nativeSha256": "2a871ba140b794319abca46aafcdf9cceab65c50c523e3056c235dd34332b8b8",
+        "prompt": "Targeted correction of this reference sheet. Preserve all successful cells, anatomy, proportions, clothes, expressions, labels and rendering. ONLY repair row3 Whole-body views cell5 Right profile: turn Mama Beaver to true profile with nose pointing SCREEN RIGHT. It currently points left. Do not mirror text. Full readable sheet retained; all other cells unchanged.",
+        "promptSha256": "87733df02b1992eab51fc96dc9e9acbabab42417ed82435577e7bad8d2f05cd0",
+        "promptFile": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/reports/mama-beaver-batch3-solo-repair-prompt.txt",
+        "referenceIds": [
+          "asset-77cc0eb6c0787b639492341e",
+          "asset-cdaa2972246ba0f2f8cc7acc"
+        ],
+        "inputAssets": [
+          {
+            "assetId": "asset-77cc0eb6c0787b639492341e",
+            "sha256": "77cc0eb6c0787b639492341ec03725b328cf36bb6103ac9fe7d4c2d9334dcb80"
+          },
+          {
+            "assetId": "asset-cdaa2972246ba0f2f8cc7acc",
+            "sha256": "cdaa2972246ba0f2f8cc7acc14289d375dd5903c2c8bfb1473f968c33daeee82"
+          }
+        ],
+        "registeredBy": "studio-client/register-image.py"
+      }
+    },
+    {
+      "id": "asset-6f9af7a36059b6943f2ade3e",
+      "name": "mama-beaver-interactions-final.png",
+      "mime": "image/png",
+      "sha256": "6f9af7a36059b6943f2ade3ec91ced31876aeb0dc8cfae4b27f1218aa9d4a6b7",
+      "bytes": 2846752,
+      "width": 1024,
+      "height": 1536,
+      "url": "/api/assets/asset-6f9af7a36059b6943f2ade3e",
+      "storagePath": "assets/6f9af7a36059b6943f2ade3ec91ced31876aeb0dc8cfae4b27f1218aa9d4a6b7.png",
+      "createdAt": "2026-10-03T11:47:24.633280+00:00",
+      "reviewStatus": "unreviewed",
+      "provenance": {
+        "sourcePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/generated/6f9af7a36059b694-mama-beaver-interactions-final.png",
+        "source": "native-imagegen",
+        "tool": "image_gen.imagegen",
+        "nativeOutputPath": "/Users/miguel_lemos/.codex/generated_images/01a0ff85-92dc-7c40-9adb-ef240551a423/exec-e71af188-aa10-450d-be30-58d869a267cf.png",
+        "nativeSha256": "6f9af7a36059b6943f2ade3ec91ced31876aeb0dc8cfae4b27f1218aa9d4a6b7",
+        "prompt": "Repair only residual species details in this Mama Beaver six-panel page. Published family reference2 is authoritative: ALL BEAVERS HAVE SOFT CHESTNUT FUR, NEVER HEDGEHOG QUILLS. In panel2 Gentle hug, the LEFT kit currently has long golden hedgehog spines on back: replace those spines with soft chestnut fur matching right kit. Keep its cream chest, arms, feet and flat paddle tail. In panel3 Helping PinPin, LEFT adult Mama Beaver has pointed quills on crown/back: remove all quills and give her soft beaver fur, round ears, paired incisors, red scarf and paddle tail matching reference2. RIGHT child PinPin IS a hedgehog and MUST RETAIN quills. In panel6 Safe pond edge, adult Mama Beaver currently has quills on head/back: change to soft chestnut beaver fur, preserve red scarf and mother-body pose with both kits. Other panels and every label unchanged. Exactly two kits where shown, full distinct bodies, no new limbs. Return complete page, do not change framing or identities elsewhere.",
+        "promptSha256": "d3598dd39762122c5a4da30cb9ece49931efabc72dfd2d31ce99035276864fc2",
+        "promptFile": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/reports/mama-beaver-batch3-interactions-final-repair-prompt.txt",
+        "referenceIds": [
+          "asset-acd31411e239767c723beef0",
+          "asset-cdaa2972246ba0f2f8cc7acc"
+        ],
+        "inputAssets": [
+          {
+            "assetId": "asset-acd31411e239767c723beef0",
+            "sha256": "acd31411e239767c723beef0f3f33aa53dc0e1bb1dee8cb7ea62f29a77443809"
+          },
+          {
+            "assetId": "asset-cdaa2972246ba0f2f8cc7acc",
+            "sha256": "cdaa2972246ba0f2f8cc7acc14289d375dd5903c2c8bfb1473f968c33daeee82"
+          }
+        ],
+        "registeredBy": "studio-client/register-image.py"
+      }
+    }
+  ],
   "inspectedVisualEvidence": [
     {
       "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/images/published/bath-magic/r24/scene-321.webp",
@@ -86,5 +195,148 @@
       "sha256": "d8630c8062ba97083a02ded57c0e34420123b7b68860633821566c16f587b20b",
       "inspection": "Actual pixels inspected: adult Beaver blue vest, Mama Beaver red scarf, two smaller kits with flat textured tails and cream muzzles; relational poses and scale established. Scene334 kits have different apparent sizes; no invented names/sex/ages."
     }
-  ]
+  ],
+  "sourceInterpretation": {
+    "canonical": "Published adaptation establishes this cast and relational roles; original-book lexical scan for бобр returned no entries, so no original-manuscript identity is claimed.",
+    "visualInference": "Adult published mother: chestnut soft fur, red neck scarf, cream muzzle/chest, paired incisors, rounded ears and flat paddle tail. No hedgehog quills, no blue vest. Larger than two kits.",
+    "proposed": "Reference layouts, expressions and shared actions are newly authored studies of established design, not historical chapter scenes."
+  },
+  "actualInputBindings": [
+    {
+      "assetId": "asset-cdaa2972246ba0f2f8cc7acc",
+      "sha256": "cdaa2972246ba0f2f8cc7acc14289d375dd5903c2c8bfb1473f968c33daeee82"
+    },
+    {
+      "assetId": "asset-88d74c56a468e3f250b12dbc",
+      "sha256": "88d74c56a468e3f250b12dbcb5ecdb7b07bd1d789197663d8948ac199acd133d"
+    },
+    {
+      "assetId": "asset-77cc0eb6c0787b639492341e",
+      "sha256": "77cc0eb6c0787b639492341ec03725b328cf36bb6103ac9fe7d4c2d9334dcb80"
+    },
+    {
+      "assetId": "asset-ef70ed3e51e109c570b7323b",
+      "sha256": "ef70ed3e51e109c570b7323bfa8998fc57f17a704a1fc091b3882f8b4900b6b5"
+    },
+    {
+      "assetId": "asset-acd31411e239767c723beef0",
+      "sha256": "acd31411e239767c723beef0f3f33aa53dc0e1bb1dee8cb7ea62f29a77443809"
+    }
+  ],
+  "outputs": [
+    {
+      "assetId": "asset-2a871ba140b794319abca46a",
+      "sha256": "2a871ba140b794319abca46aafcdf9cceab65c50c523e3056c235dd34332b8b8",
+      "bytes": 2316683,
+      "reviewStatus": "unreviewed",
+      "nativePath": "/Users/miguel_lemos/.codex/generated_images/01a0ff85-92dc-7c40-9adb-ef240551a423/exec-7e037780-cc2e-4a4f-839a-3d3fd53e1e45.png",
+      "generatedPath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/generated/2a871ba140b79431-mama-beaver-solo-repaired.png",
+      "reused": false,
+      "kernelRelease": "c9be233f9e18f6d480c8a5b7d50dff6384c9df2766510b5ef006b21ccec40c75",
+      "workflowCard": {
+        "type": "WorkflowCard",
+        "title": "mama-beaver-solo-repaired.png",
+        "text": "Unreviewed candidate. Original image available at full size.",
+        "assetIds": [
+          "asset-2a871ba140b794319abca46a"
+        ],
+        "actions": []
+      },
+      "timing": {
+        "startedAt": "2026-10-03T11:38:54.194850+00:00",
+        "validatedAt": "2026-10-03T11:38:54.235005+00:00",
+        "copiedAt": "2026-10-03T11:38:54.236624+00:00",
+        "registeredAt": "2026-10-03T11:38:54.269180+00:00",
+        "registrationSeconds": 0.074337
+      },
+      "dossierPath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/reports/character-packages/mama-beaver.json",
+      "entityId": "mama-beaver",
+      "stage": "solo",
+      "provenance": {
+        "sourcePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/generated/2a871ba140b79431-mama-beaver-solo-repaired.png",
+        "source": "native-imagegen",
+        "tool": "image_gen.imagegen",
+        "nativeOutputPath": "/Users/miguel_lemos/.codex/generated_images/01a0ff85-92dc-7c40-9adb-ef240551a423/exec-7e037780-cc2e-4a4f-839a-3d3fd53e1e45.png",
+        "nativeSha256": "2a871ba140b794319abca46aafcdf9cceab65c50c523e3056c235dd34332b8b8",
+        "prompt": "Targeted correction of this reference sheet. Preserve all successful cells, anatomy, proportions, clothes, expressions, labels and rendering. ONLY repair row3 Whole-body views cell5 Right profile: turn Mama Beaver to true profile with nose pointing SCREEN RIGHT. It currently points left. Do not mirror text. Full readable sheet retained; all other cells unchanged.",
+        "promptSha256": "87733df02b1992eab51fc96dc9e9acbabab42417ed82435577e7bad8d2f05cd0",
+        "promptFile": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/reports/mama-beaver-batch3-solo-repair-prompt.txt",
+        "referenceIds": [
+          "asset-77cc0eb6c0787b639492341e",
+          "asset-cdaa2972246ba0f2f8cc7acc"
+        ],
+        "inputAssets": [
+          {
+            "assetId": "asset-77cc0eb6c0787b639492341e",
+            "sha256": "77cc0eb6c0787b639492341ec03725b328cf36bb6103ac9fe7d4c2d9334dcb80"
+          },
+          {
+            "assetId": "asset-cdaa2972246ba0f2f8cc7acc",
+            "sha256": "cdaa2972246ba0f2f8cc7acc14289d375dd5903c2c8bfb1473f968c33daeee82"
+          }
+        ],
+        "registeredBy": "studio-client/register-image.py"
+      }
+    },
+    {
+      "assetId": "asset-6f9af7a36059b6943f2ade3e",
+      "sha256": "6f9af7a36059b6943f2ade3ec91ced31876aeb0dc8cfae4b27f1218aa9d4a6b7",
+      "bytes": 2846752,
+      "reviewStatus": "unreviewed",
+      "nativePath": "/Users/miguel_lemos/.codex/generated_images/01a0ff85-92dc-7c40-9adb-ef240551a423/exec-e71af188-aa10-450d-be30-58d869a267cf.png",
+      "generatedPath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/generated/6f9af7a36059b694-mama-beaver-interactions-final.png",
+      "reused": false,
+      "kernelRelease": "c9be233f9e18f6d480c8a5b7d50dff6384c9df2766510b5ef006b21ccec40c75",
+      "workflowCard": {
+        "type": "WorkflowCard",
+        "title": "mama-beaver-interactions-final.png",
+        "text": "Unreviewed candidate. Original image available at full size.",
+        "assetIds": [
+          "asset-6f9af7a36059b6943f2ade3e"
+        ],
+        "actions": []
+      },
+      "timing": {
+        "startedAt": "2026-10-03T11:47:24.579519+00:00",
+        "validatedAt": "2026-10-03T11:47:24.627522+00:00",
+        "copiedAt": "2026-10-03T11:47:24.629475+00:00",
+        "registeredAt": "2026-10-03T11:47:24.662249+00:00",
+        "registrationSeconds": 0.082737
+      },
+      "dossierPath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/reports/character-packages/mama-beaver.json",
+      "entityId": "mama-beaver",
+      "stage": "interactions",
+      "provenance": {
+        "sourcePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/generated/6f9af7a36059b694-mama-beaver-interactions-final.png",
+        "source": "native-imagegen",
+        "tool": "image_gen.imagegen",
+        "nativeOutputPath": "/Users/miguel_lemos/.codex/generated_images/01a0ff85-92dc-7c40-9adb-ef240551a423/exec-e71af188-aa10-450d-be30-58d869a267cf.png",
+        "nativeSha256": "6f9af7a36059b6943f2ade3ec91ced31876aeb0dc8cfae4b27f1218aa9d4a6b7",
+        "prompt": "Repair only residual species details in this Mama Beaver six-panel page. Published family reference2 is authoritative: ALL BEAVERS HAVE SOFT CHESTNUT FUR, NEVER HEDGEHOG QUILLS. In panel2 Gentle hug, the LEFT kit currently has long golden hedgehog spines on back: replace those spines with soft chestnut fur matching right kit. Keep its cream chest, arms, feet and flat paddle tail. In panel3 Helping PinPin, LEFT adult Mama Beaver has pointed quills on crown/back: remove all quills and give her soft beaver fur, round ears, paired incisors, red scarf and paddle tail matching reference2. RIGHT child PinPin IS a hedgehog and MUST RETAIN quills. In panel6 Safe pond edge, adult Mama Beaver currently has quills on head/back: change to soft chestnut beaver fur, preserve red scarf and mother-body pose with both kits. Other panels and every label unchanged. Exactly two kits where shown, full distinct bodies, no new limbs. Return complete page, do not change framing or identities elsewhere.",
+        "promptSha256": "d3598dd39762122c5a4da30cb9ece49931efabc72dfd2d31ce99035276864fc2",
+        "promptFile": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/reports/mama-beaver-batch3-interactions-final-repair-prompt.txt",
+        "referenceIds": [
+          "asset-acd31411e239767c723beef0",
+          "asset-cdaa2972246ba0f2f8cc7acc"
+        ],
+        "inputAssets": [
+          {
+            "assetId": "asset-acd31411e239767c723beef0",
+            "sha256": "acd31411e239767c723beef0f3f33aa53dc0e1bb1dee8cb7ea62f29a77443809"
+          },
+          {
+            "assetId": "asset-cdaa2972246ba0f2f8cc7acc",
+            "sha256": "cdaa2972246ba0f2f8cc7acc14289d375dd5903c2c8bfb1473f968c33daeee82"
+          }
+        ],
+        "registeredBy": "studio-client/register-image.py"
+      }
+    }
+  ],
+  "decisions": {
+    "reviewer": "agent QA",
+    "authorization": "codex-wap1 on Miguel behalf",
+    "personallyReviewedByMiguel": false,
+    "publication": false
+  }
 }

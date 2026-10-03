@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-03T11:23:58.979506+00:00",
+  "updatedAt": "2026-10-03T11:48:38.154286+00:00",
   "characters": [
     {
       "id": "pinpin",
@@ -432,27 +432,51 @@
       ],
       "exactAge": "not stated",
       "evidencedLifeStage": "adult builder in adaptation",
-      "status": "pending",
+      "status": "produced",
       "dossierPath": "workflows/characters/beaver/README.md",
       "evidencePath": "workflows/characters/beaver/evidence.json",
       "evidenceCount": 44,
       "registeredReferenceIds": [
         "asset-cd6fc9a3e01decb743ce5c99"
       ],
-      "outputs": [],
-      "constraints": {
-        "identity": "Chestnut fur, blue work vest, broad paddle tail; capable collaborating builder.",
-        "scale": "",
-        "geometry": ""
-      },
-      "stages": {},
-      "missingStages": [
-        "solo",
-        "interactions"
+      "outputs": [
+        {
+          "assetId": "asset-c9839909f2fbd1f5b131eb17",
+          "sha256": "c9839909f2fbd1f5b131eb171987fe9c754f3e2c1757f77a92f888d4feb4aa11"
+        },
+        {
+          "assetId": "asset-c088e8310e6c827e23e074f9",
+          "sha256": "c088e8310e6c827e23e074f96d9f648f71c722eeb948464378a512c69a4d3f5c"
+        }
       ],
-      "nextStage": "solo",
-      "complete": false,
-      "claimedStatus": "pending"
+      "constraints": {
+        "identity": "Adult published builder: chestnut fur, blue work vest, cream muzzle/chest, paired incisors, rounded ears and flat broad textured paddle tail. Adult scale comparable to Papa in shared-ground studies; exact measured height not stated.",
+        "scale": "Relative scale from published bath321/334; no numeric heights or ages.",
+        "geometry": "Four separate limbs per beaver, distinct tails, grounded/support/contact ownership."
+      },
+      "stages": {
+        "solo": {
+          "assetId": "asset-c9839909f2fbd1f5b131eb17",
+          "sha256": "c9839909f2fbd1f5b131eb171987fe9c754f3e2c1757f77a92f888d4feb4aa11",
+          "nativePath": "/Users/miguel_lemos/.codex/generated_images/01a0ff85-92dc-7c40-9adb-ef240551a423/exec-1fcf1be3-5064-4c9f-8b11-c634b7643950.png",
+          "generatedPath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/generated/c9839909f2fbd1f5-beaver-solo-repaired.png",
+          "receiptKind": null
+        },
+        "interactions": {
+          "assetId": "asset-c088e8310e6c827e23e074f9",
+          "sha256": "c088e8310e6c827e23e074f96d9f648f71c722eeb948464378a512c69a4d3f5c",
+          "nativePath": "/Users/miguel_lemos/.codex/generated_images/01a0ff85-92dc-7c40-9adb-ef240551a423/exec-c327bdc8-2624-4fdd-abae-a0587734ca36.png",
+          "generatedPath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/generated/c088e8310e6c827e-beaver-interactions-repair.png",
+          "receiptKind": null
+        }
+      },
+      "missingStages": [],
+      "nextStage": null,
+      "complete": true,
+      "claimedStatus": "produced",
+      "qaNote": "Inspected native pages: identity, directions, anatomy, scale/contact. Agent QA only; no personal Miguel approval.",
+      "timingPath": "reports/character-packages/beaver-generation.json",
+      "completedAt": "2026-10-03T11:48:37.812561+00:00"
     },
     {
       "id": "mama-beaver",
@@ -464,25 +488,49 @@
       ],
       "exactAge": "not stated",
       "evidencedLifeStage": "adult parent in adaptation",
-      "status": "pending",
+      "status": "produced",
       "dossierPath": "workflows/characters/mama-beaver/README.md",
       "evidencePath": "workflows/characters/mama-beaver/evidence.json",
       "evidenceCount": 4,
       "registeredReferenceIds": [],
-      "outputs": [],
-      "constraints": {
-        "identity": "adult parent in adaptation",
-        "scale": "Not measured; use original/published indexed visual evidence",
-        "geometry": ""
-      },
-      "stages": {},
-      "missingStages": [
-        "solo",
-        "interactions"
+      "outputs": [
+        {
+          "assetId": "asset-2a871ba140b794319abca46a",
+          "sha256": "2a871ba140b794319abca46aafcdf9cceab65c50c523e3056c235dd34332b8b8"
+        },
+        {
+          "assetId": "asset-6f9af7a36059b6943f2ade3e",
+          "sha256": "6f9af7a36059b6943f2ade3ec91ced31876aeb0dc8cfae4b27f1218aa9d4a6b7"
+        }
       ],
-      "nextStage": "solo",
-      "complete": false,
-      "claimedStatus": "pending"
+      "constraints": {
+        "identity": "Adult published mother: chestnut soft fur, red neck scarf, cream muzzle/chest, paired incisors, rounded ears and flat paddle tail. No hedgehog quills, no blue vest. Larger than two kits.",
+        "scale": "Relative scale from published bath321/334; no numeric heights or ages.",
+        "geometry": "Four separate limbs per beaver, distinct tails, grounded/support/contact ownership."
+      },
+      "stages": {
+        "solo": {
+          "assetId": "asset-2a871ba140b794319abca46a",
+          "sha256": "2a871ba140b794319abca46aafcdf9cceab65c50c523e3056c235dd34332b8b8",
+          "nativePath": "/Users/miguel_lemos/.codex/generated_images/01a0ff85-92dc-7c40-9adb-ef240551a423/exec-7e037780-cc2e-4a4f-839a-3d3fd53e1e45.png",
+          "generatedPath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/generated/2a871ba140b79431-mama-beaver-solo-repaired.png",
+          "receiptKind": null
+        },
+        "interactions": {
+          "assetId": "asset-6f9af7a36059b6943f2ade3e",
+          "sha256": "6f9af7a36059b6943f2ade3ec91ced31876aeb0dc8cfae4b27f1218aa9d4a6b7",
+          "nativePath": "/Users/miguel_lemos/.codex/generated_images/01a0ff85-92dc-7c40-9adb-ef240551a423/exec-e71af188-aa10-450d-be30-58d869a267cf.png",
+          "generatedPath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/generated/6f9af7a36059b694-mama-beaver-interactions-final.png",
+          "receiptKind": null
+        }
+      },
+      "missingStages": [],
+      "nextStage": null,
+      "complete": true,
+      "claimedStatus": "produced",
+      "qaNote": "Inspected native pages: identity, directions, anatomy, scale/contact. Agent QA only; no personal Miguel approval.",
+      "timingPath": "reports/character-packages/mama-beaver-generation.json",
+      "completedAt": "2026-10-03T11:48:37.982680+00:00"
     },
     {
       "id": "beaver-kits",
@@ -494,25 +542,49 @@
       ],
       "exactAge": "not stated",
       "evidencedLifeStage": "young sibling pair; separate reusable group package",
-      "status": "pending",
+      "status": "produced",
       "dossierPath": "workflows/characters/beaver-kits/README.md",
       "evidencePath": "workflows/characters/beaver-kits/evidence.json",
       "evidenceCount": 2,
       "registeredReferenceIds": [],
-      "outputs": [],
-      "constraints": {
-        "identity": "young sibling pair; separate reusable group package",
-        "scale": "Not measured; use original/published indexed visual evidence",
-        "geometry": ""
-      },
-      "stages": {},
-      "missingStages": [
-        "solo",
-        "interactions"
+      "outputs": [
+        {
+          "assetId": "asset-3c000d97be4fd3a4a43bf055",
+          "sha256": "3c000d97be4fd3a4a43bf0557b88386b4c7cc710b0516622c933468f379f4b4f"
+        },
+        {
+          "assetId": "asset-077859e5bfa029dc22cefd18",
+          "sha256": "077859e5bfa029dc22cefd185078f4ac17527bf5e80c95221d7bdc543fedd5ac"
+        }
       ],
-      "nextStage": "solo",
-      "complete": false,
-      "claimedStatus": "pending"
+      "constraints": {
+        "identity": "Exactly two published young beavers, cream muzzles/chests, soft chestnut fur, round ears, paired incisors, flat textured paddle tails. No names, sex or exact ages stated. Slight size difference is visual inference, not an age assignment.",
+        "scale": "Relative scale from published bath321/334; no numeric heights or ages.",
+        "geometry": "Four separate limbs per beaver, distinct tails, grounded/support/contact ownership."
+      },
+      "stages": {
+        "solo": {
+          "assetId": "asset-3c000d97be4fd3a4a43bf055",
+          "sha256": "3c000d97be4fd3a4a43bf0557b88386b4c7cc710b0516622c933468f379f4b4f",
+          "nativePath": "/Users/miguel_lemos/.codex/generated_images/01a0ff85-92dc-7c40-9adb-ef240551a423/exec-7a459a50-1120-4b2c-851e-3f0b761a6a92.png",
+          "generatedPath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/generated/3c000d97be4fd3a4-beaver-kits-solo-repaired.png",
+          "receiptKind": null
+        },
+        "interactions": {
+          "assetId": "asset-077859e5bfa029dc22cefd18",
+          "sha256": "077859e5bfa029dc22cefd185078f4ac17527bf5e80c95221d7bdc543fedd5ac",
+          "nativePath": "/Users/miguel_lemos/.codex/generated_images/01a0ff85-92dc-7c40-9adb-ef240551a423/exec-9a5d902e-2924-4dd7-9458-215ca212d440.png",
+          "generatedPath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/generated/077859e5bfa029dc-beaver-kits-interactions.png",
+          "receiptKind": null
+        }
+      },
+      "missingStages": [],
+      "nextStage": null,
+      "complete": true,
+      "claimedStatus": "produced",
+      "qaNote": "Inspected native pages: identity, directions, anatomy, scale/contact. Agent QA only; no personal Miguel approval.",
+      "timingPath": "reports/character-packages/beaver-kits-generation.json",
+      "completedAt": "2026-10-03T11:48:38.154227+00:00"
     },
     {
       "id": "bear",
@@ -848,7 +920,7 @@
       "claimedStatus": "pending"
     }
   ],
-  "nextEntityId": "beaver",
+  "nextEntityId": "bear",
   "notetaker": {
     "available": false,
     "evidence": "Coordinator reports bounded connected-tool/plugin/repo discovery found no configured Notetaker integration.",

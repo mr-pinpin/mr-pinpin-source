@@ -59,7 +59,191 @@
           }
         }
       ]
+    },
+    "solo": {
+      "candidates": [
+        {
+          "assetId": "asset-c9839909f2fbd1f5b131eb17",
+          "sha256": "c9839909f2fbd1f5b131eb171987fe9c754f3e2c1757f77a92f888d4feb4aa11",
+          "bytes": 2281550,
+          "reviewStatus": "unreviewed",
+          "nativePath": "/Users/miguel_lemos/.codex/generated_images/01a0ff85-92dc-7c40-9adb-ef240551a423/exec-1fcf1be3-5064-4c9f-8b11-c634b7643950.png",
+          "generatedPath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/generated/c9839909f2fbd1f5-beaver-solo-repaired.png",
+          "reused": false,
+          "kernelRelease": "c9be233f9e18f6d480c8a5b7d50dff6384c9df2766510b5ef006b21ccec40c75",
+          "workflowCard": {
+            "type": "WorkflowCard",
+            "title": "beaver-solo-repaired.png",
+            "text": "Unreviewed candidate. Original image available at full size.",
+            "assetIds": [
+              "asset-c9839909f2fbd1f5b131eb17"
+            ],
+            "actions": []
+          },
+          "timing": {
+            "startedAt": "2026-10-03T11:38:53.884101+00:00",
+            "validatedAt": "2026-10-03T11:38:53.925127+00:00",
+            "copiedAt": "2026-10-03T11:38:53.926890+00:00",
+            "registeredAt": "2026-10-03T11:38:53.959163+00:00",
+            "registrationSeconds": 0.075069
+          },
+          "dossierPath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/reports/character-packages/beaver.json",
+          "entityId": "beaver",
+          "stage": "solo",
+          "provenance": {
+            "sourcePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/generated/c9839909f2fbd1f5-beaver-solo-repaired.png",
+            "source": "native-imagegen",
+            "tool": "image_gen.imagegen",
+            "nativeOutputPath": "/Users/miguel_lemos/.codex/generated_images/01a0ff85-92dc-7c40-9adb-ef240551a423/exec-1fcf1be3-5064-4c9f-8b11-c634b7643950.png",
+            "nativeSha256": "c9839909f2fbd1f5b131eb171987fe9c754f3e2c1757f77a92f888d4feb4aa11",
+            "prompt": "Targeted correction of this reference sheet. Preserve all successful cells, anatomy, proportions, clothes, expressions, labels and rendering. ONLY repair row3 Whole-body views cell2 Left 3/4: nose must point SCREEN LEFT with both eyes visible. It currently duplicates right-facing view. Do not mirror text. Full readable sheet retained; all other cells unchanged.",
+            "promptSha256": "3ef2b6b1a47e750208bd3c756981475f8ec6cf3d4949996145b58198d83feef1",
+            "promptFile": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/reports/beaver-batch3-solo-repair-prompt.txt",
+            "referenceIds": [
+              "asset-8444988cc8ff0642353db6ef",
+              "asset-cd6fc9a3e01decb743ce5c99"
+            ],
+            "inputAssets": [
+              {
+                "assetId": "asset-8444988cc8ff0642353db6ef",
+                "sha256": "8444988cc8ff0642353db6efc24bb2d463f9f54fd6f89ffb155afaf5cc0feebc"
+              },
+              {
+                "assetId": "asset-cd6fc9a3e01decb743ce5c99",
+                "sha256": "cd6fc9a3e01decb743ce5c999fb4eca7ccfccd568115695c492ac9e9cacdaba4"
+              }
+            ],
+            "registeredBy": "studio-client/register-image.py"
+          }
+        }
+      ]
+    },
+    "interactions-first": {
+      "candidates": [
+        {
+          "assetId": "asset-77f25029c96b2461b2e35662",
+          "sha256": "77f25029c96b2461b2e35662d7c31c8e7f176d72649a12f4e8047f6f9254928d",
+          "bytes": 3085982,
+          "reviewStatus": "unreviewed",
+          "nativePath": "/Users/miguel_lemos/.codex/generated_images/01a0ff85-92dc-7c40-9adb-ef240551a423/exec-11cfb23e-2ebf-47de-92b1-dafab43f70e7.png",
+          "generatedPath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/generated/77f25029c96b2461-beaver-interactions-first.png",
+          "reused": false,
+          "kernelRelease": "c9be233f9e18f6d480c8a5b7d50dff6384c9df2766510b5ef006b21ccec40c75",
+          "workflowCard": {
+            "type": "WorkflowCard",
+            "title": "beaver-interactions-first.png",
+            "text": "Unreviewed candidate. Original image available at full size.",
+            "assetIds": [
+              "asset-77f25029c96b2461b2e35662"
+            ],
+            "actions": []
+          },
+          "timing": {
+            "startedAt": "2026-10-03T11:41:24.219667+00:00",
+            "validatedAt": "2026-10-03T11:41:24.266870+00:00",
+            "copiedAt": "2026-10-03T11:41:24.268990+00:00",
+            "registeredAt": "2026-10-03T11:41:24.302062+00:00",
+            "registrationSeconds": 0.082402
+          },
+          "dossierPath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/reports/character-packages/beaver.json",
+          "entityId": "beaver",
+          "stage": "interactions-first",
+          "provenance": {
+            "sourcePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/generated/77f25029c96b2461-beaver-interactions-first.png",
+            "source": "native-imagegen",
+            "tool": "image_gen.imagegen",
+            "nativeOutputPath": "/Users/miguel_lemos/.codex/generated_images/01a0ff85-92dc-7c40-9adb-ef240551a423/exec-11cfb23e-2ebf-47de-92b1-dafab43f70e7.png",
+            "nativeSha256": "77f25029c96b2461b2e35662d7c31c8e7f176d72649a12f4e8047f6f9254928d",
+            "prompt": "Use case: illustration-story. One separate polished portrait interaction reference page SIX generous panels (3 rows x2), short correct labels and warm ivory margins. Warm dimensional book rendering. All bodies whole with clear margins, paddle tails/feet/ears visible. Shared ground plane for size, clear support/contact, separate bodies and limb ownership. Exactly two arms/two legs per beaver. Natural attentive expressions, no constant grin. No invented names/ages/clothes. Reference1 published Beaver family: blue-vest Beaver, red-scarf Mama Beaver, exactly two smaller kits. Reference2 hedgehog family: Papa center larger, older PinPin right child about half adult height, Mama left supports tiny infant. Use actual identities, not floating portraits. Title Beaver — Family & friends. Six panels: 1 Shared scale: Beaver, Papa and PinPin stand on same ground, adult Beaver comparable adult scale, child distinctly smaller. 2 Build together: Papa and Beaver securely carry a short smooth gutter between them, clear hand ownership. 3 PinPin helps: child passes small wooden support block to Beaver kneeling, actual handoff. 4 Family hug: Beaver kneels embracing the two little beavers, two separate child bodies/arms/tails, no additional kit. 5 Partners: Beaver and red-scarf Mama Beaver weave thin branches together, tools grounded. 6 Water road: Beaver with both kits points at small wooden gutter flowing water, secure bank and relaxed poses. Preserve blue vest throughout, broad textured paddle tail, chestnut fur, cream muzzle and two incisors.",
+            "promptSha256": "f760935335a79ae02fbd979dae35a9fdcefe0216fa0e36c9f4c90e1c2981798f",
+            "promptFile": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/reports/beaver-batch3-interactions-prompt.txt",
+            "referenceIds": [
+              "asset-cdaa2972246ba0f2f8cc7acc",
+              "asset-88d74c56a468e3f250b12dbc",
+              "asset-cd6fc9a3e01decb743ce5c99"
+            ],
+            "inputAssets": [
+              {
+                "assetId": "asset-cdaa2972246ba0f2f8cc7acc",
+                "sha256": "cdaa2972246ba0f2f8cc7acc14289d375dd5903c2c8bfb1473f968c33daeee82"
+              },
+              {
+                "assetId": "asset-88d74c56a468e3f250b12dbc",
+                "sha256": "88d74c56a468e3f250b12dbcb5ecdb7b07bd1d789197663d8948ac199acd133d"
+              },
+              {
+                "assetId": "asset-cd6fc9a3e01decb743ce5c99",
+                "sha256": "cd6fc9a3e01decb743ce5c999fb4eca7ccfccd568115695c492ac9e9cacdaba4"
+              }
+            ],
+            "registeredBy": "studio-client/register-image.py"
+          }
+        }
+      ]
+    },
+    "interactions": {
+      "candidates": [
+        {
+          "assetId": "asset-c088e8310e6c827e23e074f9",
+          "sha256": "c088e8310e6c827e23e074f96d9f648f71c722eeb948464378a512c69a4d3f5c",
+          "bytes": 2907195,
+          "reviewStatus": "unreviewed",
+          "nativePath": "/Users/miguel_lemos/.codex/generated_images/01a0ff85-92dc-7c40-9adb-ef240551a423/exec-c327bdc8-2624-4fdd-abae-a0587734ca36.png",
+          "generatedPath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/generated/c088e8310e6c827e-beaver-interactions-repair.png",
+          "reused": false,
+          "kernelRelease": "c9be233f9e18f6d480c8a5b7d50dff6384c9df2766510b5ef006b21ccec40c75",
+          "workflowCard": {
+            "type": "WorkflowCard",
+            "title": "beaver-interactions-repair.png",
+            "text": "Unreviewed candidate. Original image available at full size.",
+            "assetIds": [
+              "asset-c088e8310e6c827e23e074f9"
+            ],
+            "actions": []
+          },
+          "timing": {
+            "startedAt": "2026-10-03T11:45:25.470698+00:00",
+            "validatedAt": "2026-10-03T11:45:25.512324+00:00",
+            "copiedAt": "2026-10-03T11:45:25.514306+00:00",
+            "registeredAt": "2026-10-03T11:45:25.549370+00:00",
+            "registrationSeconds": 0.07868
+          },
+          "dossierPath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/reports/character-packages/beaver.json",
+          "entityId": "beaver",
+          "stage": "interactions",
+          "provenance": {
+            "sourcePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/generated/c088e8310e6c827e-beaver-interactions-repair.png",
+            "source": "native-imagegen",
+            "tool": "image_gen.imagegen",
+            "nativeOutputPath": "/Users/miguel_lemos/.codex/generated_images/01a0ff85-92dc-7c40-9adb-ef240551a423/exec-c327bdc8-2624-4fdd-abae-a0587734ca36.png",
+            "nativeSha256": "c088e8310e6c827e23e074f96d9f648f71c722eeb948464378a512c69a4d3f5c",
+            "prompt": "Targeted identity repair of this complete six-panel interaction sheet. Preserve the layout, labels, lighting and all successful panels. ONLY panels5 Partners and6 Water road: replace the hedgehog wearing blue vest with the actual Beaver from reference2: chestnut furry BEAVER, no quills, rounded ears, cream muzzle, paired incisors, dark round nose, broad flat paddle tail, blue work vest. Panel5 Beaver weaves with red-scarf Mama Beaver; panel6 Beaver points beside two kits. Whole distinct bodies/paws/tails; no hedgehog in either panel. Keep untouched panels exactly; return full readable sheet.",
+            "promptSha256": "a8775ab18a3b1b03cdd18755914849ce88bd9db66a7cc4f45e200ebc9dd43655",
+            "promptFile": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/reports/beaver-batch3-interactions-repair-prompt.txt",
+            "referenceIds": [
+              "asset-77f25029c96b2461b2e35662",
+              "asset-cdaa2972246ba0f2f8cc7acc",
+              "asset-88d74c56a468e3f250b12dbc"
+            ],
+            "inputAssets": [
+              {
+                "assetId": "asset-77f25029c96b2461b2e35662",
+                "sha256": "77f25029c96b2461b2e35662d7c31c8e7f176d72649a12f4e8047f6f9254928d"
+              },
+              {
+                "assetId": "asset-cdaa2972246ba0f2f8cc7acc",
+                "sha256": "cdaa2972246ba0f2f8cc7acc14289d375dd5903c2c8bfb1473f968c33daeee82"
+              },
+              {
+                "assetId": "asset-88d74c56a468e3f250b12dbc",
+                "sha256": "88d74c56a468e3f250b12dbcb5ecdb7b07bd1d789197663d8948ac199acd133d"
+              }
+            ],
+            "registeredBy": "studio-client/register-image.py"
+          }
+        }
+      ]
     }
   },
-  "updatedAt": "2026-10-03T11:35:26.455397+00:00"
+  "updatedAt": "2026-10-03T11:45:25.549492+00:00"
 }

@@ -31,3 +31,7 @@ Execution authorized by codex-wap1 on Miguel’s behalf. Agent inspected final p
 - Retained `asset-6b550b753c46fb9733b8862a`; repaired to `asset-a3e1d5b048327b08f32de036` because: Family panel cropped rear/tail.
 
 Notetaker unavailable; this durable Markdown is the explicitly labeled fallback.
+
+## Delegated working-reference review
+
+codex-wap1, acting under Miguel’s stated delegation, reported this final package passed working-reference review. No personal Miguel review/click, publication, or silent registry selection is inferred. Minor illustrative scale note: independent review judged approximately 85–90% withers-to-Papa-head height reasonably consistent with near-head wording and broad enough for both riders; no exact 1.0 threshold adopted.

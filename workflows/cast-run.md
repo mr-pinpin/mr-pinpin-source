@@ -1,5 +1,15 @@
 # Durable cast run
 
+## Current checkpoint: Beaver family — 2026-10-03
+
+Ten packages produced; eleven remain. Next: Bear. Beaver, Mama Beaver and the two kits each have registered solo and separate interaction pages. See their character folders and reports/character-packages/<entity>-generation.json for exact prompts, input identities/hashes, native outputs, timings and repair lineage. Twelve actual native calls, including six repairs; summed image-call windows 1,248 seconds, not end-to-end latency or evidence of parallel compute. First reply/actual delivery bounds unavailable; monetary costs unknown. Published Beaver-family designs retained, exact ages not stated. Original manuscript lexical search found no бобр text, so published adaptation evidence is not misrepresented as original-book portrait evidence.
+
+Never manually retype opaque asset IDs/hashes: read selected stage receipts and pass exact fields programmatically. tools/cast_ops.py finish <entity> now does this and records the per-character timing path. All successful stages/native versions are durable; no repeated solo generation on resumption.
+
+Prior Rabbit/Elder/Scooby packages passed working-reference review reported by codex-wap1 under Miguel delegation. Scooby’s approximately85–90% illustrative ratio was accepted as reasonably near Papa head, not a new exact numeric scale rule. No personal Miguel review/click, publication or registry selection inferred.
+
+Source-checkpoint exports: exports/test_business_routes.py retains the full original test file and assertions, replacing obsolete string injection with a GET insights wrapper and source/hash-change assertions. Syntax valid. Local integration test setup cannot bind localhost in this sandbox; coordinator must rerun exact bytes. exports/workflows-README.md retains source content and adds manifest/character-folder persistence links. SHA-256 export receipt at exports/checkpoint-receipt.json. Production behavior not weakened; no kernel edits.
+
 ## Verified batch: Rabbit, Elder, Scooby — 2026-10-03
 
 Seven complete draft packages now have verified solo and separate interaction assets; 14 entries remain. Next: Beaver. The original 20-entry inventory now includes a distinct Tarin requirement (21 total), preserving the explicit human wizard transformation rather than merging it into Elder.
@@ -30,12 +40,6 @@ Audit notes: original text uses several old-mentor names; group them provisional
 
 On an interrupted partial package, inspect the hydrated `packageReceipts` stage summary before generating. Reuse a successfully registered solo page and make only the missing interaction/repair stage; inspect a candidate before promoting its draft stage to produced. Never infer a failed call rendered art. Native originals, receipts and exact prompts remain on TB4.
 
-## Recorded batch: PinPin, 2026-10-03
+## Earlier checkpoint
 
-20 individual/recurring-group entries indexed across all 38 original chapters and available published stories. Four packages produced: retained PomPom, Mama, Papa plus new PinPin. Next: Rabbit/Lulu; 16 remain in cast-run.json. Alias mappings and unnamed-group dispositions are provisional evidence interpretations, not invented names or ages.
-
-PinPin: solo asset-5d505b375eed339baa7f7650; final interactions asset-5a4957a23785aa71b8b20485. One material scale repair, source asset-e4330679e5a41614ca0ad6b1 retained. Three actual image calls: UTC windows 10:22:15–10:23:00, 10:24:50–10:25:35 and 10:28:44–10:29:24 (one-second clock resolution). Image-active windows sum to 130 seconds; monetary cost unavailable. Registration receipts measure registration separately. First reply/total delivery timing was not captured and remains unknown. Full exact submitted strings and lineage are in reports/pinpin-generation-timing.json; helper receipts/native hashes in reports/character-packages/pinpin.json.
-
-Operational correction: the first record-package save nested Store.read inside Store.lock and stalled; it was interrupted before writing. The reusable business function now reads state before locking the manifest. Successful save, next-item hydration and native-byte checks passed. Package self_test, focused context/insights checks, JS syntax and runtime source matching passed. Browser visual verification of this new insights panel was not performed here. The existing full-size viewer is retained.
-
-Delegation: codex-wap1 authorized production on Miguel's behalf. Its earlier PomPom solo-package acceptance remains delegated; PinPin visual inspection here is agent QA, not personal Miguel approval or a fabricated representative review. No publication or reference selection performed.
+The full PinPin batch history, timings and operational corrections are retained at [reports/cast-pinpin-checkpoint.md](../reports/cast-pinpin-checkpoint.md). Keep the live contract bounded; append detailed future history to reports rather than exceeding its 10,000-byte context read limit.

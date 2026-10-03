@@ -1,19 +1,41 @@
 # Two little beavers
 
+Aliases: little beavers, kits, бобрята.
 Exact age: **not stated**. Life stage: young sibling pair; separate reusable group package.
 
-Aliases/source variants: little beavers, kits, бобрята. Alias grouping for the hedgehog mentor and Rabbit/Lulu is a narrative inference, not an invented canonical fact.
+## Source evidence and design
 
-Canonical evidence and bibliography: [evidence.json](evidence.json), with original chapter/block indices, published scenes, paths and full hashes. Broad lexical matches are discovery evidence; inspect the cited block before treating it as a fact.
+Exactly two published young beavers, cream muzzles/chests, soft chestnut fur, round ears, paired incisors, flat textured paddle tails. No names, sex or exact ages stated. Slight size difference is visual inference, not an age assignment.
 
-Identity/scale constraints: {"identity": "not yet designed; use indexed original evidence and approved book style", "scale": "not yet designed; use indexed original evidence and approved book style", "geometry": "not yet designed; use indexed original evidence and approved book style"}.
+Published bibliography, exact paths/full hashes and inspected visual citations: [evidence.json](evidence.json). Original-book search found no бобр text entries; these identities are established in the published adaptation, not claimed as manuscript portraits. Existing original/published sources remain intact.
 
-Status: pending. Existing output IDs: .
+New expressions/poses/interactions are proposed study staging of established designs. Lexical discovery is not portrait proof.
 
-Exact prompts, native files, hashes, reference bindings and timings: existing asset provenance in evidence.json and automatic registration receipts at ../../../reports/character-packages/beaver-kits.json. Earlier family records remain in workflows/ and reports/. Unknown historical timings remain unknown. New source interpretations or unsourced designs must be labeled proposals. No personal Miguel review or publication is inferred.
+## Produced draft package
 
-## Audit correction
+Solo: `asset-3c000d97be4fd3a4a43bf055`; SHA-256 `3c000d97be4fd3a4a43bf0557b88386b4c7cc710b0516622c933468f379f4b4f`.
+Interactions: `asset-077859e5bfa029dc22cefd18`; SHA-256 `077859e5bfa029dc22cefd185078f4ac17527bf5e80c95221d7bdc543fedd5ac`.
 
-Established published children in bath321,322,334. Names, sex, numeric ages not stated; use actual selected pictures for count/identity, not lexical proof.
+Exact submitted prompts/reference IDs/native paths and hashes plus helper registration timings: [receipts](../../../reports/character-packages/beaver-kits.json). Actual generation boundaries/decisions: [generation.json](generation.json).
 
-Published pixels inspected in this batch: bath scene-321, bath scene-322, bath scene-334. Exact paths/hashes and observations are in inspectedVisualEvidence. Existing design must be reused.
+3 native calls; 1 repairs. First reply and actual chat delivery timestamps unobserved; monetary cost unknown. All native originals and earlier versions retained.
+
+Agent inspected directions, identity, anatomy, scale/contact. Production authorized by codex-wap1 under Miguel delegation; no personal Miguel review, new delegated acceptance, reference selection or publication inferred.
+
+## Repair decisions
+
+First solo sheet had a duplicated/mislabeled body direction; targeted edit corrected it while preserving other cells.
+Interaction page passed first inspection, including two distinct kits, child scale and grounded/support contact.
+
+Notetaker unavailable: durable Markdown notes are the explicitly labeled fallback.
+
+## Current package result
+
+Status: **produced**, registered unreviewed drafts.
+
+- Solo studies: `asset-3c000d97be4fd3a4a43bf055`, SHA-256 `3c000d97be4fd3a4a43bf0557b88386b4c7cc710b0516622c933468f379f4b4f`.
+- Interactions: `asset-077859e5bfa029dc22cefd18`, SHA-256 `077859e5bfa029dc22cefd185078f4ac17527bf5e80c95221d7bdc543fedd5ac`.
+
+QA: Inspected native pages: identity, directions, anatomy, scale/contact. Agent QA only; no personal Miguel approval.
+
+Exact prompts, native paths/hashes and registration receipts: ../../../reports/character-packages/beaver-kits.json. Generation timings: reports/character-packages/beaver-kits-generation.json. No personal Miguel acceptance or publication inferred.

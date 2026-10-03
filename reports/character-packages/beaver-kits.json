@@ -59,7 +59,128 @@
           }
         }
       ]
+    },
+    "solo": {
+      "candidates": [
+        {
+          "assetId": "asset-3c000d97be4fd3a4a43bf055",
+          "sha256": "3c000d97be4fd3a4a43bf0557b88386b4c7cc710b0516622c933468f379f4b4f",
+          "bytes": 2517980,
+          "reviewStatus": "unreviewed",
+          "nativePath": "/Users/miguel_lemos/.codex/generated_images/01a0ff85-92dc-7c40-9adb-ef240551a423/exec-7a459a50-1120-4b2c-851e-3f0b761a6a92.png",
+          "generatedPath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/generated/3c000d97be4fd3a4-beaver-kits-solo-repaired.png",
+          "reused": false,
+          "kernelRelease": "c9be233f9e18f6d480c8a5b7d50dff6384c9df2766510b5ef006b21ccec40c75",
+          "workflowCard": {
+            "type": "WorkflowCard",
+            "title": "beaver-kits-solo-repaired.png",
+            "text": "Unreviewed candidate. Original image available at full size.",
+            "assetIds": [
+              "asset-3c000d97be4fd3a4a43bf055"
+            ],
+            "actions": []
+          },
+          "timing": {
+            "startedAt": "2026-10-03T11:38:54.502445+00:00",
+            "validatedAt": "2026-10-03T11:38:54.543249+00:00",
+            "copiedAt": "2026-10-03T11:38:54.544994+00:00",
+            "registeredAt": "2026-10-03T11:38:54.577992+00:00",
+            "registrationSeconds": 0.075555
+          },
+          "dossierPath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/reports/character-packages/beaver-kits.json",
+          "entityId": "beaver-kits",
+          "stage": "solo",
+          "provenance": {
+            "sourcePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/generated/3c000d97be4fd3a4-beaver-kits-solo-repaired.png",
+            "source": "native-imagegen",
+            "tool": "image_gen.imagegen",
+            "nativeOutputPath": "/Users/miguel_lemos/.codex/generated_images/01a0ff85-92dc-7c40-9adb-ef240551a423/exec-7a459a50-1120-4b2c-851e-3f0b761a6a92.png",
+            "nativeSha256": "3c000d97be4fd3a4a43bf0557b88386b4c7cc710b0516622c933468f379f4b4f",
+            "prompt": "Targeted correction of this reference sheet. Preserve all successful cells, anatomy, proportions, clothes, expressions, labels and rendering. ONLY repair row3 Whole-body views cell5 Right profile: turn BOTH kits to true profile with nose pointing SCREEN RIGHT. It currently points left. Do not mirror text. Full readable sheet retained; all other cells unchanged.",
+            "promptSha256": "b6b12097bfb4bea1b15a8efe89592723e58fd2ae5dd8316a216be9ba607f5845",
+            "promptFile": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/reports/beaver-kits-batch3-solo-repair-prompt.txt",
+            "referenceIds": [
+              "asset-dda910b75ff185286b0aaa13",
+              "asset-cdaa2972246ba0f2f8cc7acc"
+            ],
+            "inputAssets": [
+              {
+                "assetId": "asset-dda910b75ff185286b0aaa13",
+                "sha256": "dda910b75ff185286b0aaa138b8c9ee670d7ab1cf1a220263f27f490f0c77e60"
+              },
+              {
+                "assetId": "asset-cdaa2972246ba0f2f8cc7acc",
+                "sha256": "cdaa2972246ba0f2f8cc7acc14289d375dd5903c2c8bfb1473f968c33daeee82"
+              }
+            ],
+            "registeredBy": "studio-client/register-image.py"
+          }
+        }
+      ]
+    },
+    "interactions": {
+      "candidates": [
+        {
+          "assetId": "asset-077859e5bfa029dc22cefd18",
+          "sha256": "077859e5bfa029dc22cefd185078f4ac17527bf5e80c95221d7bdc543fedd5ac",
+          "bytes": 3291195,
+          "reviewStatus": "unreviewed",
+          "nativePath": "/Users/miguel_lemos/.codex/generated_images/01a0ff85-92dc-7c40-9adb-ef240551a423/exec-9a5d902e-2924-4dd7-9458-215ca212d440.png",
+          "generatedPath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/generated/077859e5bfa029dc-beaver-kits-interactions.png",
+          "reused": false,
+          "kernelRelease": "c9be233f9e18f6d480c8a5b7d50dff6384c9df2766510b5ef006b21ccec40c75",
+          "workflowCard": {
+            "type": "WorkflowCard",
+            "title": "beaver-kits-interactions.png",
+            "text": "Unreviewed candidate. Original image available at full size.",
+            "assetIds": [
+              "asset-077859e5bfa029dc22cefd18"
+            ],
+            "actions": []
+          },
+          "timing": {
+            "startedAt": "2026-10-03T11:41:24.872903+00:00",
+            "validatedAt": "2026-10-03T11:41:24.914238+00:00",
+            "copiedAt": "2026-10-03T11:41:24.916548+00:00",
+            "registeredAt": "2026-10-03T11:41:24.950573+00:00",
+            "registrationSeconds": 0.077679
+          },
+          "dossierPath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/reports/character-packages/beaver-kits.json",
+          "entityId": "beaver-kits",
+          "stage": "interactions",
+          "provenance": {
+            "sourcePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/generated/077859e5bfa029dc-beaver-kits-interactions.png",
+            "source": "native-imagegen",
+            "tool": "image_gen.imagegen",
+            "nativeOutputPath": "/Users/miguel_lemos/.codex/generated_images/01a0ff85-92dc-7c40-9adb-ef240551a423/exec-9a5d902e-2924-4dd7-9458-215ca212d440.png",
+            "nativeSha256": "077859e5bfa029dc22cefd185078f4ac17527bf5e80c95221d7bdc543fedd5ac",
+            "prompt": "Use case: illustration-story. One separate polished portrait interaction reference page SIX generous panels (3 rows x2), short correct labels and warm ivory margins. Warm dimensional book rendering. All bodies whole with clear margins, paddle tails/feet/ears visible. Shared ground plane for size, clear support/contact, separate bodies and limb ownership. Exactly two arms/two legs per beaver. Natural attentive expressions, no constant grin. No invented names/ages/clothes. Reference1 published Beaver family: blue-vest Beaver, red-scarf Mama Beaver, exactly two smaller kits. Reference2 hedgehog family: Papa center larger, older PinPin right child about half adult height, Mama left supports tiny infant. Use actual identities, not floating portraits. Title Two little beavers — Family & friends. Exactly TWO kits in every panel, no names or sex invented. Six panels: 1 Family scale: blue-vest Beaver, red-scarf Mama Beaver and two much smaller kits stand same ground. 2 Mama hug: seated mother gently hugs both kits with grounded bodies, separate arms/tails. 3 Papa helps: blue-vest Beaver kneels while each kit hands him one small twig; no extra child. 4 With PinPin: both kits and older hedgehog child PinPin carry one little branch together, believable paw ownership, kits peer/child size rather than adults. 5 Paddle together: two kits swim side by side in shallow clear pond, Mama Beaver watches from bank, clear bodies under water and distinct tails. 6 Rest by Mama: two kits cuddle beside seated mother on dry bank, distinct grounded bodies/limbs. Preserve slight published kit size difference consistently; no parent scarf/vest on kits. Reference3 shows both kits with PinPin for child-scale evidence.",
+            "promptSha256": "9e31144537972e611b5cb8bcccb9710a0dbc94d2a0ee920e77753b58b7d619d0",
+            "promptFile": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/reports/beaver-kits-batch3-interactions-prompt.txt",
+            "referenceIds": [
+              "asset-cdaa2972246ba0f2f8cc7acc",
+              "asset-88d74c56a468e3f250b12dbc",
+              "asset-62f6361148d66e0c3e6ea8e7"
+            ],
+            "inputAssets": [
+              {
+                "assetId": "asset-cdaa2972246ba0f2f8cc7acc",
+                "sha256": "cdaa2972246ba0f2f8cc7acc14289d375dd5903c2c8bfb1473f968c33daeee82"
+              },
+              {
+                "assetId": "asset-88d74c56a468e3f250b12dbc",
+                "sha256": "88d74c56a468e3f250b12dbcb5ecdb7b07bd1d789197663d8948ac199acd133d"
+              },
+              {
+                "assetId": "asset-62f6361148d66e0c3e6ea8e7",
+                "sha256": "62f6361148d66e0c3e6ea8e7c9a8157e4b9a0cd010f9adbd58c30e645ab3d6d7"
+              }
+            ],
+            "registeredBy": "studio-client/register-image.py"
+          }
+        }
+      ]
     }
   },
-  "updatedAt": "2026-10-03T11:35:27.070950+00:00"
+  "updatedAt": "2026-10-03T11:41:24.950816+00:00"
 }

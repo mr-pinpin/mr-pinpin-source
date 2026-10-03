@@ -1,0 +1,114 @@
+{
+  "entityId": "beaver",
+  "calls": [
+    {
+      "entityId": "beaver",
+      "stage": "solo-first",
+      "before": {
+        "current_time": "2026-10-03 11:32:32 UTC"
+      },
+      "after": {
+        "current_time": "2026-10-03 11:33:15 UTC"
+      },
+      "prompt": "Use case: illustration-story. One polished portrait production reference page in warm ivory, FOUR rows SIX clearly readable cells. Warm dimensional illustrated book rendering, soft light. Row1 Face views: Front; Facing left 3/4 (nose SCREEN LEFT, both eyes visible); Facing left profile (nose LEFT); Facing right 3/4 (nose SCREEN RIGHT, both eyes); Facing right profile (nose RIGHT); Rear. Row2 Expressions: Calm, Curious, Delight, Surprise, Thoughtful, Mild upset. Natural brows/mouths, not always smiling. Row3 Whole-body views same six screen directions; entire tails, feet, ears with margins. Row4 Normal poses specified below. Correct short labels, uniform scale within row, distinct left/right views. Exactly two arms and two legs per beaver, believable paws. No new clothes/accessories or ages. Preserve established design, not a redesign. Title Beaver. Reference1 established chestnut adult builder in BLUE work vest, cream muzzle/chest, round ears, two incisors, dark button nose, broad flat textured paddle tail. Reference2 published family confirms identity and adult scale. Solo Beaver ONLY. Row4: Sit, Wave, Carry small board, Smooth wood with hand plane, Kneel checking gutter, Rest. Tools safely away from body, normal capable builder. No Mama's red scarf.",
+      "referenceIds": [
+        "asset-cd6fc9a3e01decb743ce5c99",
+        "asset-cdaa2972246ba0f2f8cc7acc"
+      ],
+      "referencePaths": [
+        "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/assets/cd6fc9a3e01decb743ce5c999fb4eca7ccfccd568115695c492ac9e9cacdaba4.png",
+        "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/assets/cdaa2972246ba0f2f8cc7acc14289d375dd5903c2c8bfb1473f968c33daeee82.webp"
+      ],
+      "nativePath": "/Users/miguel_lemos/.codex/generated_images/01a0ff85-92dc-7c40-9adb-ef240551a423/exec-7e2040af-76e4-4644-ace6-7736b0509810.png",
+      "promptFile": "reports/beaver-batch3-solo-prompt.txt",
+      "seconds": 43.0,
+      "promptSha256": "32377b2ba27e557431a2a261afd19e42a8f6117992120561a5e3f00eaa9161fc"
+    },
+    {
+      "entityId": "beaver",
+      "stage": "solo",
+      "before": {
+        "current_time": "2026-10-03 11:35:27 UTC"
+      },
+      "after": {
+        "current_time": "2026-10-03 11:36:10 UTC"
+      },
+      "prompt": "Targeted correction of this reference sheet. Preserve all successful cells, anatomy, proportions, clothes, expressions, labels and rendering. ONLY repair row3 Whole-body views cell2 Left 3/4: nose must point SCREEN LEFT with both eyes visible. It currently duplicates right-facing view. Do not mirror text. Full readable sheet retained; all other cells unchanged.",
+      "referenceIds": [
+        "asset-8444988cc8ff0642353db6ef",
+        "asset-cd6fc9a3e01decb743ce5c99"
+      ],
+      "referencePaths": [
+        "/Users/miguel_lemos/.codex/generated_images/01a0ff85-92dc-7c40-9adb-ef240551a423/exec-7e2040af-76e4-4644-ace6-7736b0509810.png",
+        "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/assets/cd6fc9a3e01decb743ce5c999fb4eca7ccfccd568115695c492ac9e9cacdaba4.png"
+      ],
+      "nativePath": "/Users/miguel_lemos/.codex/generated_images/01a0ff85-92dc-7c40-9adb-ef240551a423/exec-1fcf1be3-5064-4c9f-8b11-c634b7643950.png",
+      "promptFile": "reports/beaver-batch3-solo-repair-prompt.txt",
+      "seconds": 43.0,
+      "promptSha256": "3ef2b6b1a47e750208bd3c756981475f8ec6cf3d4949996145b58198d83feef1"
+    },
+    {
+      "entityId": "beaver",
+      "stage": "interactions-first",
+      "before": {
+        "current_time": "2026-10-03 11:36:57 UTC"
+      },
+      "after": {
+        "current_time": "2026-10-03 11:37:46 UTC"
+      },
+      "prompt": "Use case: illustration-story. One separate polished portrait interaction reference page SIX generous panels (3 rows x2), short correct labels and warm ivory margins. Warm dimensional book rendering. All bodies whole with clear margins, paddle tails/feet/ears visible. Shared ground plane for size, clear support/contact, separate bodies and limb ownership. Exactly two arms/two legs per beaver. Natural attentive expressions, no constant grin. No invented names/ages/clothes. Reference1 published Beaver family: blue-vest Beaver, red-scarf Mama Beaver, exactly two smaller kits. Reference2 hedgehog family: Papa center larger, older PinPin right child about half adult height, Mama left supports tiny infant. Use actual identities, not floating portraits. Title Beaver — Family & friends. Six panels: 1 Shared scale: Beaver, Papa and PinPin stand on same ground, adult Beaver comparable adult scale, child distinctly smaller. 2 Build together: Papa and Beaver securely carry a short smooth gutter between them, clear hand ownership. 3 PinPin helps: child passes small wooden support block to Beaver kneeling, actual handoff. 4 Family hug: Beaver kneels embracing the two little beavers, two separate child bodies/arms/tails, no additional kit. 5 Partners: Beaver and red-scarf Mama Beaver weave thin branches together, tools grounded. 6 Water road: Beaver with both kits points at small wooden gutter flowing water, secure bank and relaxed poses. Preserve blue vest throughout, broad textured paddle tail, chestnut fur, cream muzzle and two incisors.",
+      "referenceIds": [
+        "asset-cdaa2972246ba0f2f8cc7acc",
+        "asset-88d74c56a468e3f250b12dbc",
+        "asset-cd6fc9a3e01decb743ce5c99"
+      ],
+      "referencePaths": [
+        "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/assets/cdaa2972246ba0f2f8cc7acc14289d375dd5903c2c8bfb1473f968c33daeee82.webp",
+        "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/assets/88d74c56a468e3f250b12dbcb5ecdb7b07bd1d789197663d8948ac199acd133d.webp",
+        "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/assets/cd6fc9a3e01decb743ce5c999fb4eca7ccfccd568115695c492ac9e9cacdaba4.png"
+      ],
+      "nativePath": "/Users/miguel_lemos/.codex/generated_images/01a0ff85-92dc-7c40-9adb-ef240551a423/exec-11cfb23e-2ebf-47de-92b1-dafab43f70e7.png",
+      "promptFile": "reports/beaver-batch3-interactions-prompt.txt",
+      "seconds": 49.0,
+      "promptSha256": "f760935335a79ae02fbd979dae35a9fdcefe0216fa0e36c9f4c90e1c2981798f"
+    },
+    {
+      "entityId": "beaver",
+      "stage": "interactions-repair",
+      "before": {
+        "current_time": "2026-10-03 11:41:24 UTC"
+      },
+      "after": {
+        "current_time": "2026-10-03 11:43:06 UTC"
+      },
+      "prompt": "Targeted identity repair of this complete six-panel interaction sheet. Preserve the layout, labels, lighting and all successful panels. ONLY panels5 Partners and6 Water road: replace the hedgehog wearing blue vest with the actual Beaver from reference2: chestnut furry BEAVER, no quills, rounded ears, cream muzzle, paired incisors, dark round nose, broad flat paddle tail, blue work vest. Panel5 Beaver weaves with red-scarf Mama Beaver; panel6 Beaver points beside two kits. Whole distinct bodies/paws/tails; no hedgehog in either panel. Keep untouched panels exactly; return full readable sheet.",
+      "referenceIds": [
+        "asset-77f25029c96b2461b2e35662",
+        "asset-cdaa2972246ba0f2f8cc7acc",
+        "asset-88d74c56a468e3f250b12dbc"
+      ],
+      "referencePaths": [
+        "/Users/miguel_lemos/.codex/generated_images/01a0ff85-92dc-7c40-9adb-ef240551a423/exec-11cfb23e-2ebf-47de-92b1-dafab43f70e7.png",
+        "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/assets/cdaa2972246ba0f2f8cc7acc14289d375dd5903c2c8bfb1473f968c33daeee82.webp",
+        "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/assets/88d74c56a468e3f250b12dbcb5ecdb7b07bd1d789197663d8948ac199acd133d.webp"
+      ],
+      "nativePath": "/Users/miguel_lemos/.codex/generated_images/01a0ff85-92dc-7c40-9adb-ef240551a423/exec-c327bdc8-2624-4fdd-abae-a0587734ca36.png",
+      "promptFile": "reports/beaver-batch3-interactions-repair-prompt.txt",
+      "seconds": 102.0,
+      "promptSha256": "a8775ab18a3b1b03cdd18755914849ce88bd9db66a7cc4f45e200ebc9dd43655"
+    }
+  ],
+  "callCount": 4,
+  "repairCount": 2,
+  "summedCallSeconds": 237.0,
+  "firstReply": null,
+  "actualDeliveryTimestamp": null,
+  "monetaryCost": "unknown",
+  "registrationReceipts": "reports/character-packages/beaver.json",
+  "decisions": {
+    "reviewer": "agent QA",
+    "authorization": "codex-wap1 on Miguel behalf",
+    "personallyReviewedByMiguel": false,
+    "publication": false
+  }
+}

@@ -1,0 +1,135 @@
+{
+  "entityId": "mama-beaver",
+  "calls": [
+    {
+      "entityId": "mama-beaver",
+      "stage": "solo-first",
+      "before": {
+        "current_time": "2026-10-03 11:32:32 UTC"
+      },
+      "after": {
+        "current_time": "2026-10-03 11:34:31 UTC"
+      },
+      "prompt": "Use case: illustration-story. One polished portrait production reference page in warm ivory, FOUR rows SIX clearly readable cells. Warm dimensional illustrated book rendering, soft light. Row1 Face views: Front; Facing left 3/4 (nose SCREEN LEFT, both eyes visible); Facing left profile (nose LEFT); Facing right 3/4 (nose SCREEN RIGHT, both eyes); Facing right profile (nose RIGHT); Rear. Row2 Expressions: Calm, Curious, Delight, Surprise, Thoughtful, Mild upset. Natural brows/mouths, not always smiling. Row3 Whole-body views same six screen directions; entire tails, feet, ears with margins. Row4 Normal poses specified below. Correct short labels, uniform scale within row, distinct left/right views. Exactly two arms and two legs per beaver, believable paws. No new clothes/accessories or ages. Preserve established design, not a redesign. Title Mama Beaver. Use reference1 Mama Beaver at RIGHT behind two kits: established adult mother, chestnut fur, cream muzzle/chest, rounded ears, dark nose, two incisors, broad paddle tail, RED neck scarf knotted at front. Reference2 family is rendering style only; do NOT turn her into hedgehog Mama. Solo Mama Beaver ONLY, no blue vest. Row4: Sit, Wave, Reach, Weave thin branch, Kneel helping, Rest. Preserve natural adult size and capable warm parent without invented numeric age.",
+      "referenceIds": [
+        "asset-cdaa2972246ba0f2f8cc7acc",
+        "asset-88d74c56a468e3f250b12dbc"
+      ],
+      "referencePaths": [
+        "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/assets/cdaa2972246ba0f2f8cc7acc14289d375dd5903c2c8bfb1473f968c33daeee82.webp",
+        "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/assets/88d74c56a468e3f250b12dbcb5ecdb7b07bd1d789197663d8948ac199acd133d.webp"
+      ],
+      "nativePath": "/Users/miguel_lemos/.codex/generated_images/01a0ff85-92dc-7c40-9adb-ef240551a423/exec-6a619ab1-c137-4db2-b42e-efeaff163c40.png",
+      "promptFile": "reports/mama-beaver-batch3-solo-prompt.txt",
+      "seconds": 119.0,
+      "promptSha256": "2c541eaca9c137e92331a4d931a88198065cd2929faa5967877a20cd25852fab"
+    },
+    {
+      "entityId": "mama-beaver",
+      "stage": "solo",
+      "before": {
+        "current_time": "2026-10-03 11:35:27 UTC"
+      },
+      "after": {
+        "current_time": "2026-10-03 11:37:34 UTC"
+      },
+      "prompt": "Targeted correction of this reference sheet. Preserve all successful cells, anatomy, proportions, clothes, expressions, labels and rendering. ONLY repair row3 Whole-body views cell5 Right profile: turn Mama Beaver to true profile with nose pointing SCREEN RIGHT. It currently points left. Do not mirror text. Full readable sheet retained; all other cells unchanged.",
+      "referenceIds": [
+        "asset-77cc0eb6c0787b639492341e",
+        "asset-cdaa2972246ba0f2f8cc7acc"
+      ],
+      "referencePaths": [
+        "/Users/miguel_lemos/.codex/generated_images/01a0ff85-92dc-7c40-9adb-ef240551a423/exec-6a619ab1-c137-4db2-b42e-efeaff163c40.png",
+        "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/assets/cdaa2972246ba0f2f8cc7acc14289d375dd5903c2c8bfb1473f968c33daeee82.webp"
+      ],
+      "nativePath": "/Users/miguel_lemos/.codex/generated_images/01a0ff85-92dc-7c40-9adb-ef240551a423/exec-7e037780-cc2e-4a4f-839a-3d3fd53e1e45.png",
+      "promptFile": "reports/mama-beaver-batch3-solo-repair-prompt.txt",
+      "seconds": 127.0,
+      "promptSha256": "87733df02b1992eab51fc96dc9e9acbabab42417ed82435577e7bad8d2f05cd0"
+    },
+    {
+      "entityId": "mama-beaver",
+      "stage": "interactions-first",
+      "before": {
+        "current_time": "2026-10-03 11:36:57 UTC"
+      },
+      "after": {
+        "current_time": "2026-10-03 11:39:24 UTC"
+      },
+      "prompt": "Use case: illustration-story. One separate polished portrait interaction reference page SIX generous panels (3 rows x2), short correct labels and warm ivory margins. Warm dimensional book rendering. All bodies whole with clear margins, paddle tails/feet/ears visible. Shared ground plane for size, clear support/contact, separate bodies and limb ownership. Exactly two arms/two legs per beaver. Natural attentive expressions, no constant grin. No invented names/ages/clothes. Reference1 published Beaver family: blue-vest Beaver, red-scarf Mama Beaver, exactly two smaller kits. Reference2 hedgehog family: Papa center larger, older PinPin right child about half adult height, Mama left supports tiny infant. Use actual identities, not floating portraits. Title Mama Beaver — Family & friends. Six panels: 1 Family size: red-scarf Mama Beaver and blue-vest Beaver stand with exactly TWO smaller kits, same ground. 2 Gentle hug: Mama Beaver seated embraces both kits separately, visible grounded hips/feet/tails. 3 Helping PinPin: Mama Beaver kneels showing older child PinPin how to tuck a thin twig into a small brace, clear contact. 4 With Mama: hedgehog Mama holding tiny infant securely talks warmly with Mama Beaver, no baby-sized kit confusion. 5 Shared work: Mama Beaver and adult Beaver weave thin branches together. 6 Safe pond edge: Mama Beaver crouches beside two kits on dry bank looking at water, exactly two young kits, tail margins. Red scarf stays knotted at front, no blue vest on her; cream muzzle/chest and paddle tail.",
+      "referenceIds": [
+        "asset-cdaa2972246ba0f2f8cc7acc",
+        "asset-88d74c56a468e3f250b12dbc"
+      ],
+      "referencePaths": [
+        "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/assets/cdaa2972246ba0f2f8cc7acc14289d375dd5903c2c8bfb1473f968c33daeee82.webp",
+        "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/assets/88d74c56a468e3f250b12dbcb5ecdb7b07bd1d789197663d8948ac199acd133d.webp"
+      ],
+      "nativePath": "/Users/miguel_lemos/.codex/generated_images/01a0ff85-92dc-7c40-9adb-ef240551a423/exec-e3f7fdf4-6b64-45f1-a639-c70318fc8777.png",
+      "promptFile": "reports/mama-beaver-batch3-interactions-prompt.txt",
+      "seconds": 147.0,
+      "promptSha256": "6119d91f1c48b0126cde86702a2745320bc7f2edf0d57ca57a7cd520ba39fca2"
+    },
+    {
+      "entityId": "mama-beaver",
+      "stage": "interactions-repair",
+      "before": {
+        "current_time": "2026-10-03 11:41:24 UTC"
+      },
+      "after": {
+        "current_time": "2026-10-03 11:43:44 UTC"
+      },
+      "prompt": "Targeted identity repair of this complete six-panel interaction sheet. Preserve the layout, labels, lighting and all successful panels. ONLY panel3 Helping PinPin: currently species are swapped. Adult on LEFT must be Mama Beaver from reference2, chestnut furry BEAVER with RED scarf, cream muzzle, two incisors, round ears and flat paddle tail; NO quills. Child on RIGHT must be older PinPin from reference3 RIGHT: small HEDGEHOG with warm quills, cream face/tummy, short rounded muzzle, no scarf, no paddle tail. Mama Beaver shows child how to tuck thin twig in brace, clear paws and contact. Adult larger, child smaller. No other changes. Keep untouched panels exactly; return full readable sheet.",
+      "referenceIds": [
+        "asset-ef70ed3e51e109c570b7323b",
+        "asset-cdaa2972246ba0f2f8cc7acc",
+        "asset-88d74c56a468e3f250b12dbc"
+      ],
+      "referencePaths": [
+        "/Users/miguel_lemos/.codex/generated_images/01a0ff85-92dc-7c40-9adb-ef240551a423/exec-e3f7fdf4-6b64-45f1-a639-c70318fc8777.png",
+        "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/assets/cdaa2972246ba0f2f8cc7acc14289d375dd5903c2c8bfb1473f968c33daeee82.webp",
+        "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/assets/88d74c56a468e3f250b12dbcb5ecdb7b07bd1d789197663d8948ac199acd133d.webp"
+      ],
+      "nativePath": "/Users/miguel_lemos/.codex/generated_images/01a0ff85-92dc-7c40-9adb-ef240551a423/exec-134d11a3-2002-4034-9876-d011b8394d03.png",
+      "promptFile": "reports/mama-beaver-batch3-interactions-repair-prompt.txt",
+      "seconds": 140.0,
+      "promptSha256": "e4f34f10af94cd74b84a452f5d9cc8d3096450094530db3898b7e6f37b12ac9b"
+    },
+    {
+      "entityId": "mama-beaver",
+      "stage": "interactions-final-repair",
+      "before": {
+        "current_time": "2026-10-03 11:45:25 UTC"
+      },
+      "after": {
+        "current_time": "2026-10-03 11:46:04 UTC"
+      },
+      "prompt": "Repair only residual species details in this Mama Beaver six-panel page. Published family reference2 is authoritative: ALL BEAVERS HAVE SOFT CHESTNUT FUR, NEVER HEDGEHOG QUILLS. In panel2 Gentle hug, the LEFT kit currently has long golden hedgehog spines on back: replace those spines with soft chestnut fur matching right kit. Keep its cream chest, arms, feet and flat paddle tail. In panel3 Helping PinPin, LEFT adult Mama Beaver has pointed quills on crown/back: remove all quills and give her soft beaver fur, round ears, paired incisors, red scarf and paddle tail matching reference2. RIGHT child PinPin IS a hedgehog and MUST RETAIN quills. In panel6 Safe pond edge, adult Mama Beaver currently has quills on head/back: change to soft chestnut beaver fur, preserve red scarf and mother-body pose with both kits. Other panels and every label unchanged. Exactly two kits where shown, full distinct bodies, no new limbs. Return complete page, do not change framing or identities elsewhere.",
+      "referenceIds": [
+        "asset-acd31411e239767c723beef0",
+        "asset-cdaa2972246ba0f2f8cc7acc"
+      ],
+      "referencePaths": [
+        "/Users/miguel_lemos/.codex/generated_images/01a0ff85-92dc-7c40-9adb-ef240551a423/exec-134d11a3-2002-4034-9876-d011b8394d03.png",
+        "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/assets/cdaa2972246ba0f2f8cc7acc14289d375dd5903c2c8bfb1473f968c33daeee82.webp"
+      ],
+      "nativePath": "/Users/miguel_lemos/.codex/generated_images/01a0ff85-92dc-7c40-9adb-ef240551a423/exec-e71af188-aa10-450d-be30-58d869a267cf.png",
+      "promptFile": "reports/mama-beaver-batch3-interactions-final-repair-prompt.txt",
+      "seconds": 39.0,
+      "promptSha256": "d3598dd39762122c5a4da30cb9ece49931efabc72dfd2d31ce99035276864fc2"
+    }
+  ],
+  "callCount": 5,
+  "repairCount": 3,
+  "summedCallSeconds": 572.0,
+  "firstReply": null,
+  "actualDeliveryTimestamp": null,
+  "monetaryCost": "unknown",
+  "registrationReceipts": "reports/character-packages/mama-beaver.json",
+  "decisions": {
+    "reviewer": "agent QA",
+    "authorization": "codex-wap1 on Miguel behalf",
+    "personallyReviewedByMiguel": false,
+    "publication": false
+  }
+}

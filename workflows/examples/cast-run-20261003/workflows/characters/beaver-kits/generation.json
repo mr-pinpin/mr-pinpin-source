@@ -1,0 +1,89 @@
+{
+  "entityId": "beaver-kits",
+  "calls": [
+    {
+      "entityId": "beaver-kits",
+      "stage": "solo-first",
+      "before": {
+        "current_time": "2026-10-03 11:32:32 UTC"
+      },
+      "after": {
+        "current_time": "2026-10-03 11:33:54 UTC"
+      },
+      "prompt": "Use case: illustration-story. One polished portrait production reference page in warm ivory, FOUR rows SIX clearly readable cells. Warm dimensional illustrated book rendering, soft light. Row1 Face views: Front; Facing left 3/4 (nose SCREEN LEFT, both eyes visible); Facing left profile (nose LEFT); Facing right 3/4 (nose SCREEN RIGHT, both eyes); Facing right profile (nose RIGHT); Rear. Row2 Expressions: Calm, Curious, Delight, Surprise, Thoughtful, Mild upset. Natural brows/mouths, not always smiling. Row3 Whole-body views same six screen directions; entire tails, feet, ears with margins. Row4 Normal poses specified below. Correct short labels, uniform scale within row, distinct left/right views. Exactly two arms and two legs per beaver, believable paws. No new clothes/accessories or ages. Preserve established design, not a redesign. Title Two little beavers. Reference1 the TWO little beavers in water, reference2 both kits beside child PinPin. Make each cell show BOTH established kits, separated clearly, not fused, same slightly differing apparent size/cream chest patches consistently across cells. They are two young beavers, NO invented names/sex/numeric ages. Chestnut soft fur, cream muzzle/chest, small round ears, little incisors and flat textured paddle tails; no clothes or parent scarf/vest. Smaller than adult beavers, active capable young swimmers. Solo group studies ONLY, no other cast. Keep faces enlarged enough to read; wide cells accommodate two heads/full bodies. Row4 paired actions: Sit together, Wave, Carry little twigs, Paddle, Clap paws, Rest side by side. Exactly two distinct bodies and tails per cell, four limbs per kit, no merged tails.",
+      "referenceIds": [
+        "asset-cdaa2972246ba0f2f8cc7acc",
+        "asset-62f6361148d66e0c3e6ea8e7"
+      ],
+      "referencePaths": [
+        "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/assets/cdaa2972246ba0f2f8cc7acc14289d375dd5903c2c8bfb1473f968c33daeee82.webp",
+        "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/assets/62f6361148d66e0c3e6ea8e7c9a8157e4b9a0cd010f9adbd58c30e645ab3d6d7.webp"
+      ],
+      "nativePath": "/Users/miguel_lemos/.codex/generated_images/01a0ff85-92dc-7c40-9adb-ef240551a423/exec-59f87f63-741e-435b-9c59-c864dc9eca90.png",
+      "promptFile": "reports/beaver-kits-batch3-solo-prompt.txt",
+      "seconds": 82.0,
+      "promptSha256": "9b025d7849d79e684e2dde1caafdba7d5fea86a60be6a8063c06d24a6e644165"
+    },
+    {
+      "entityId": "beaver-kits",
+      "stage": "solo",
+      "before": {
+        "current_time": "2026-10-03 11:35:27 UTC"
+      },
+      "after": {
+        "current_time": "2026-10-03 11:38:11 UTC"
+      },
+      "prompt": "Targeted correction of this reference sheet. Preserve all successful cells, anatomy, proportions, clothes, expressions, labels and rendering. ONLY repair row3 Whole-body views cell5 Right profile: turn BOTH kits to true profile with nose pointing SCREEN RIGHT. It currently points left. Do not mirror text. Full readable sheet retained; all other cells unchanged.",
+      "referenceIds": [
+        "asset-dda910b75ff185286b0aaa13",
+        "asset-cdaa2972246ba0f2f8cc7acc"
+      ],
+      "referencePaths": [
+        "/Users/miguel_lemos/.codex/generated_images/01a0ff85-92dc-7c40-9adb-ef240551a423/exec-59f87f63-741e-435b-9c59-c864dc9eca90.png",
+        "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/assets/cdaa2972246ba0f2f8cc7acc14289d375dd5903c2c8bfb1473f968c33daeee82.webp"
+      ],
+      "nativePath": "/Users/miguel_lemos/.codex/generated_images/01a0ff85-92dc-7c40-9adb-ef240551a423/exec-7a459a50-1120-4b2c-851e-3f0b761a6a92.png",
+      "promptFile": "reports/beaver-kits-batch3-solo-repair-prompt.txt",
+      "seconds": 164.0,
+      "promptSha256": "b6b12097bfb4bea1b15a8efe89592723e58fd2ae5dd8316a216be9ba607f5845"
+    },
+    {
+      "entityId": "beaver-kits",
+      "stage": "interactions-first",
+      "before": {
+        "current_time": "2026-10-03 11:36:57 UTC"
+      },
+      "after": {
+        "current_time": "2026-10-03 11:40:10 UTC"
+      },
+      "prompt": "Use case: illustration-story. One separate polished portrait interaction reference page SIX generous panels (3 rows x2), short correct labels and warm ivory margins. Warm dimensional book rendering. All bodies whole with clear margins, paddle tails/feet/ears visible. Shared ground plane for size, clear support/contact, separate bodies and limb ownership. Exactly two arms/two legs per beaver. Natural attentive expressions, no constant grin. No invented names/ages/clothes. Reference1 published Beaver family: blue-vest Beaver, red-scarf Mama Beaver, exactly two smaller kits. Reference2 hedgehog family: Papa center larger, older PinPin right child about half adult height, Mama left supports tiny infant. Use actual identities, not floating portraits. Title Two little beavers — Family & friends. Exactly TWO kits in every panel, no names or sex invented. Six panels: 1 Family scale: blue-vest Beaver, red-scarf Mama Beaver and two much smaller kits stand same ground. 2 Mama hug: seated mother gently hugs both kits with grounded bodies, separate arms/tails. 3 Papa helps: blue-vest Beaver kneels while each kit hands him one small twig; no extra child. 4 With PinPin: both kits and older hedgehog child PinPin carry one little branch together, believable paw ownership, kits peer/child size rather than adults. 5 Paddle together: two kits swim side by side in shallow clear pond, Mama Beaver watches from bank, clear bodies under water and distinct tails. 6 Rest by Mama: two kits cuddle beside seated mother on dry bank, distinct grounded bodies/limbs. Preserve slight published kit size difference consistently; no parent scarf/vest on kits. Reference3 shows both kits with PinPin for child-scale evidence.",
+      "referenceIds": [
+        "asset-cdaa2972246ba0f2f8cc7acc",
+        "asset-88d74c56a468e3f250b12dbc",
+        "asset-62f6361148d66e0c3e6ea8e7"
+      ],
+      "referencePaths": [
+        "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/assets/cdaa2972246ba0f2f8cc7acc14289d375dd5903c2c8bfb1473f968c33daeee82.webp",
+        "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/assets/88d74c56a468e3f250b12dbcb5ecdb7b07bd1d789197663d8948ac199acd133d.webp",
+        "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/assets/62f6361148d66e0c3e6ea8e7c9a8157e4b9a0cd010f9adbd58c30e645ab3d6d7.webp"
+      ],
+      "nativePath": "/Users/miguel_lemos/.codex/generated_images/01a0ff85-92dc-7c40-9adb-ef240551a423/exec-9a5d902e-2924-4dd7-9458-215ca212d440.png",
+      "promptFile": "reports/beaver-kits-batch3-interactions-prompt.txt",
+      "seconds": 193.0,
+      "promptSha256": "9e31144537972e611b5cb8bcccb9710a0dbc94d2a0ee920e77753b58b7d619d0"
+    }
+  ],
+  "callCount": 3,
+  "repairCount": 1,
+  "summedCallSeconds": 439.0,
+  "firstReply": null,
+  "actualDeliveryTimestamp": null,
+  "monetaryCost": "unknown",
+  "registrationReceipts": "reports/character-packages/beaver-kits.json",
+  "decisions": {
+    "reviewer": "agent QA",
+    "authorization": "codex-wap1 on Miguel behalf",
+    "personallyReviewedByMiguel": false,
+    "publication": false
+  }
+}
