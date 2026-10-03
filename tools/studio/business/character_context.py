@@ -5,6 +5,15 @@ import json
 import os
 from pathlib import Path
 import re
+from . import asset_storage
+
+
+def reference_path(store, state, asset_id):
+    """Live native preparation resolves logical IDs; historical reads never restore."""
+    if not state.get('readOnly') and (store.root / 'workflows/storage-policy.json').is_file():
+        with asset_storage.operation(store):
+            asset_storage.resolve(store, asset_id)
+    return store.asset_path(asset_id, state)
 
 
 class ReferenceIndex:
@@ -86,6 +95,8 @@ def prepared_toolchain(store, state):
                 "helperSha256": manifest["helperSha256"], "parameters": parameters,
                 "inputContract": "Exact native bytes, UTF-8 exact submitted prompt and registered reference IDs; --entity and --stage are paired.",
                 "outputContract": output,
+                "storageWorkflow": {key: value for key, value in manifest.get("storageWorkflow", {}).items()
+                                    if isinstance(value, str) and len(value) <= 500},
                 "castOperations": {key: value for key, value in manifest.get("castOperations", {}).items()
                                    if key in ("toolPath", "finish", "checkpoint", "authority")
                                    and isinstance(value, str) and len(value) <= 500}
@@ -164,7 +175,7 @@ def hydrate_character(store, state, entity, scenes, explicit_ids, index, workflo
         refs.append({"id": identifier, "name": str(asset.get("name", ""))[:200],
                      "sha256": asset.get("sha256"), "width": asset.get("width"),
                      "height": asset.get("height"), "reviewStatus": asset.get("reviewStatus"),
-                     "roles": roles[identifier], "path": str(store.asset_path(identifier, state)),
+                     "roles": roles[identifier], "path": str(reference_path(store, state, identifier)),
                      "stage": str(provenance.get("stage", ""))[:120] if isinstance(provenance, dict) else ""})
     pack = {"projectRevision": state["revision"], "character": compact_entity(entity),
             "establishedCast": cast, "references": refs,

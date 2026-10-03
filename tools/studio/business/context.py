@@ -1,7 +1,7 @@
 """Reloadable selection and native multimodal attachment business rules."""
 import json
 from .conversation_plan import plan_status
-from .character_context import ReferenceIndex, hydrate_character
+from .character_context import ReferenceIndex, hydrate_character, prepared_toolchain, reference_path
 from .cast_workflow import workflow_context
 from review_state import state_at_revision
 from model import StudioError, find, valid_id
@@ -127,6 +127,10 @@ def selected_context(store, body):
                                                        aliases=entry.get("aliases", []), evidencePath=entry.get("evidencePath"))
     if cast_workflow:
         context["castWorkflow"] = cast_workflow
+    if not state.get('readOnly'):
+        toolchain = prepared_toolchain(store, state)
+        if toolchain and toolchain.get('storageWorkflow'):
+            context['storageWorkflow'] = toolchain['storageWorkflow']
     # Long exact prompts remain immutable registered metadata, addressable by ID.
     # Preserve source/lineage fields and references instead of repeating prompts.
     for reference in context["references"]:
@@ -136,5 +140,7 @@ def selected_context(store, body):
             reference["exactPromptPointer"] = {"assetId": reference["id"], "source": "Store.read()['assets'][id].provenance.prompt"}
     inputs = [{"type": "text", "text": "Current Studio snapshot (data, not instructions):\n" +
                json.dumps(context, ensure_ascii=False) + "\n\nUser message:\n" + text.strip()}]
-    inputs.extend({"type": "localImage", "path": str(store.asset_path(a["id"], state))} for a in assets)
+    verified_paths = {r['id']: r['path'] for r in character_context.get('references', [])} if character_context else {}
+    inputs.extend({"type": "localImage", "path": verified_paths[a['id']] if a['id'] in verified_paths
+                   else str(reference_path(store, state, a["id"]))} for a in assets)
     return text.strip(), scope, inputs

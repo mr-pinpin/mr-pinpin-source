@@ -1,0 +1,149 @@
+{
+  "schemaVersion": 1,
+  "observedUTC": "2026-10-03T20:35:22.098127+00:00",
+  "files": [
+    {
+      "path": "workflows/industrial-storage.md",
+      "sha256": "beba1a38dfd55da0d98d915101a8504cc598ed1227d9a3f904d21d6523487cd4",
+      "bytes": 7958
+    },
+    {
+      "path": "workflows/character-context-index.md",
+      "sha256": "652e843b73297e2b72b0407c230f9329af01dc080b4c52d7fde41c7f0e0d1b7d",
+      "bytes": 2234
+    },
+    {
+      "path": "workflows/character-creation.md",
+      "sha256": "8d8437ba37ee45c6db92ccd6277809a20d96e0fba94bb6296bcca333d322b56d",
+      "bytes": 21768
+    },
+    {
+      "path": "workflows/storage-policy.json",
+      "sha256": "6333b2eefed9e3d1f6eacdf47ffbbf66587f9bc5eafe80cffc51dae8a8f651b9",
+      "bytes": 704
+    },
+    {
+      "path": "workflows/toolchain.json",
+      "sha256": "d5c6b2ff5a33b2de53d9af03587007bee3a1c7025501c9b857eab1aff6b8a9cf",
+      "bytes": 2411
+    },
+    {
+      "path": "tools/test_industrial_storage.py",
+      "sha256": "759b11f7b25082c7102fb1752221d00ad07d0ac717d7ce51107cd953d9e2f237",
+      "bytes": 9638
+    },
+    {
+      "path": "tools/verify_industrial_storage.py",
+      "sha256": "d9dce4ffd01d9ef2d2de4bea21b86a1114692e224cd4131db350ba8120f5948b",
+      "bytes": 2155
+    },
+    {
+      "path": "tools/cast_ops.py",
+      "sha256": "52e3e942fae2fd30efc1f0825fcd97362bcdd930a3aa9fa380232ddafd806648",
+      "bytes": 25857
+    },
+    {
+      "path": "tools/register_cast_spec.py",
+      "sha256": "e6f551931d85c82070ce830ea0f51b92518fda472b95560a9b1dd4f54c873e58",
+      "bytes": 3233
+    },
+    {
+      "path": "exports/industrial-storage.md",
+      "sha256": "beba1a38dfd55da0d98d915101a8504cc598ed1227d9a3f904d21d6523487cd4",
+      "bytes": 7958
+    },
+    {
+      "path": "exports/industrial-character-context-index.md",
+      "sha256": "652e843b73297e2b72b0407c230f9329af01dc080b4c52d7fde41c7f0e0d1b7d",
+      "bytes": 2234
+    },
+    {
+      "path": "exports/industrial-character-creation.md",
+      "sha256": "8d8437ba37ee45c6db92ccd6277809a20d96e0fba94bb6296bcca333d322b56d",
+      "bytes": 21768
+    },
+    {
+      "path": "exports/industrial-storage-policy.json",
+      "sha256": "6333b2eefed9e3d1f6eacdf47ffbbf66587f9bc5eafe80cffc51dae8a8f651b9",
+      "bytes": 704
+    },
+    {
+      "path": "exports/industrial-toolchain.json",
+      "sha256": "d5c6b2ff5a33b2de53d9af03587007bee3a1c7025501c9b857eab1aff6b8a9cf",
+      "bytes": 2411
+    },
+    {
+      "path": "exports/test_industrial_storage.py",
+      "sha256": "759b11f7b25082c7102fb1752221d00ad07d0ac717d7ce51107cd953d9e2f237",
+      "bytes": 9638
+    },
+    {
+      "path": "exports/verify_industrial_storage.py",
+      "sha256": "d9dce4ffd01d9ef2d2de4bea21b86a1114692e224cd4131db350ba8120f5948b",
+      "bytes": 2155
+    },
+    {
+      "path": "exports/industrial-cast_ops.py",
+      "sha256": "52e3e942fae2fd30efc1f0825fcd97362bcdd930a3aa9fa380232ddafd806648",
+      "bytes": 25857
+    },
+    {
+      "path": "exports/industrial-register_cast_spec.py",
+      "sha256": "e6f551931d85c82070ce830ea0f51b92518fda472b95560a9b1dd4f54c873e58",
+      "bytes": 3233
+    },
+    {
+      "path": "exports/workflows-README.md",
+      "sha256": "d590917bb68ad0ab51600e6befb2575b72c845b9361968133a777e4623814db4",
+      "bytes": 5556
+    },
+    {
+      "path": "reports/industrial-storage-20261003.json",
+      "sha256": "3ffa7b37c9fd1a0478a1a68f69fb1dec9533f6f10c7a54af205934bca81096fc",
+      "bytes": 4009
+    },
+    {
+      "path": "reports/industrial-storage-focused-proof.json",
+      "sha256": "88f80140e4b7bdcbf72b7c677638318c706c9bd43e0bfd09432b220b46301ebc",
+      "bytes": 2713
+    },
+    {
+      "path": "reports/industrial-storage-fresh-context.json",
+      "sha256": "ab8d7a63a4647f33ed8bc7c2dc9f014b39c1c3e1435e2e356ca66fec954eeebc",
+      "bytes": 1899
+    },
+    {
+      "path": "reports/storage/storage-live-cli-backup.json",
+      "sha256": "37b6798777aaa784f50f15b9bb1f2d797cd3c83ce0695fcf82cf4266de5c6f28",
+      "bytes": 1189
+    },
+    {
+      "path": "reports/storage/storage-live-cli-restore.json",
+      "sha256": "7bbda66f959daeb8aaed36607e566aea55dda926f948025fd1ff7c74f5161375",
+      "bytes": 1260
+    },
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/tools/studio/business/asset_storage.py",
+      "sha256": "7fb05ea72da72119277e3590406ee6954e686c9019c6ad8c4c098faa9651f777",
+      "bytes": 20332
+    },
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/tools/studio/business/routes.py",
+      "sha256": "0711ec55175a0ec6fdd72980ad0bbf71eb1d685a391299c635374a3b7f435dcf",
+      "bytes": 4648
+    },
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/tools/studio/business/context.py",
+      "sha256": "e1c7a137dc79f0f10d9b7fa79c518647490c97cfbe64f5ba9b6a4b2e9c426170",
+      "bytes": 9832
+    },
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/tools/studio/business/character_context.py",
+      "sha256": "bf684115f03f23bc41f055be61d3a3316584443f42d524937df4999ac8c323b6",
+      "bytes": 12240
+    }
+  ],
+  "imageBinariesIncluded": false,
+  "credentialsIncluded": false,
+  "approvalInvented": false
+}

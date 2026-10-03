@@ -34,3 +34,7 @@ Native image inputs are capped at five using saved toolchain policy: current ver
 ## Compact selected-task context
 
 [Character context index](character-context-index.md) directs retrieval of the full guide, selected dossier/evidence and canonical stage receipts. Queue and guide indexes replace long repeated prose; unrelated character bindings are omitted from the turn while preserved in revision-local book data and character folders. Exact prompts remain registered metadata, retrievable by asset ID. Fresh-process selected/resume and historical-isolation tests and UTF-8 byte measurements are recorded in reports/cast-context-compact-proof.json. This is a business-layer text reduction, not a native-thread reset or compaction fix.
+
+## Verified character-job storage — 2026-10-03
+
+[Industrial storage and preparation](industrial-storage.md) documents ID resolution, bounded cache/disk preflight and actual job outcomes. Persist storage-policy.json, toolchain.json, character folders and reports/character-jobs plus reports/storage with the data layout. Fresh context hydrates the commands; no credentials or image binaries enter source exports. Standalone data-relative tests belong in the dated workflow example with their data layout, not unittest discovery. Remote quota is unknown; live remote proof remains blocked by this agent sandbox DNS.

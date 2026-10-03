@@ -1,4 +1,5 @@
 """Product JSON routes; HTTP framing, uploads and binary delivery stay in kernel."""
+import subprocess
 from model import StudioError, find, valid_id
 from review_state import state_at_revision
 from .conversation_plan import plan_status, approve_plan
@@ -8,6 +9,7 @@ from .insights import insights
 from .media_library import media_library, import_media
 from .cast_workflow import workflow_context, save_progress
 from .cast_inventory import record_package
+from . import asset_storage
 
 
 def route(store, method, path, query, body):
@@ -36,6 +38,22 @@ def route(store, method, path, query, body):
         if path == "/api/media":
             return 200, media_library(store)
     elif method == "POST":
+        if path in ('/api/storage/resolve', '/api/storage/backup', '/api/characters/prepare', '/api/characters/outcome', '/api/characters/registration-preflight'):
+            try:
+                with asset_storage.operation(store):
+                    if path == '/api/storage/resolve':
+                        result = asset_storage.resolve(store, valid_id(body.get('assetId')), body.get('restoreReplica') is True)
+                    elif path == '/api/storage/backup':
+                        result = asset_storage.backup(store, valid_id(body.get('assetId')))
+                    elif path == '/api/characters/prepare':
+                        result = asset_storage.prepare(store, body)
+                    elif path == '/api/characters/registration-preflight':
+                        result = asset_storage.registration_preflight(store, body)
+                    else:
+                        result = asset_storage.outcome(store, body)
+                return 200, result
+            except (OSError, ValueError, TypeError, KeyError, subprocess.TimeoutExpired) as exc:
+                raise StudioError('Storage/job preparation failed validation or transfer; no approval inferred') from None
         if path == "/api/cast/reconcile":
             return 200, save_progress(store)
         if path == "/api/cast/finish":

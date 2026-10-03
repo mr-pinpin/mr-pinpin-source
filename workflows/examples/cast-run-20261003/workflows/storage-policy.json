@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "bucket": "miguelemosreverte/mr-pinpin-archive",
+  "adapterPath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/tools/assets/hf_store.py",
+  "adapterSha256": "078313a4f089d1d27c7a35c0ee2a5eb5552050432da2536bd5fd1dbc2c18afcd",
+  "pythonPath": "/opt/homebrew/bin/python3",
+  "cachePath": "storage/cache",
+  "maxCacheBytes": 1073741824,
+  "minFreeBytes": 2147483648,
+  "generationReserveBytes": 167772160,
+  "maxAssetBytes": 41943040,
+  "eviction": "Admission refuses a full cache; no automatic deletion of canonical or generated artwork",
+  "quota": "unknown",
+  "remoteBackup": "Only registered native-imagegen book images; fresh download/hash proof required"
+}

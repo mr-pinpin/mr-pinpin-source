@@ -183,7 +183,20 @@ def main():
     runtime = BusinessRuntime(None, RUNTIME, watch=False, read_only=True)
     store = Store(DATA)
     command, *args = sys.argv[1:]
-    if command == 'register':
+    if command == 'industrial-checkpoint':
+        print(json.dumps(industrial_checkpoint(store)))
+    elif command in ('resolve', 'backup', 'restore-replica', 'prepare', 'outcome'):
+        if command in ('prepare', 'outcome'):
+            body = json.loads(Path(args[0]).read_text())
+            endpoint = '/api/characters/' + command
+        else:
+            body = {'assetId': args[0], 'restoreReplica': command == 'restore-replica'}
+            endpoint = '/api/storage/' + ('backup' if command == 'backup' else 'resolve')
+        _, result = runtime.invoke('route', store, 'POST', endpoint, {}, body)
+        if command == 'prepare':
+            atomic_json(Path(args[0]).with_suffix('.prepared.json'), result)
+        print(json.dumps(result))
+    elif command == 'register':
         cfg = json.loads((DATA / 'workflows/toolchain.json').read_text())
         receipt = json.loads(subprocess.check_output(cfg['argvPrefix'] + args, text=True))
         _, run = runtime.invoke('route', store, 'POST', '/api/cast/reconcile', {}, {})
@@ -205,6 +218,95 @@ def main():
     elif command == 'checkpoint':
         print(json.dumps(checkpoint(runtime, store, args[0], args[1:])))
     runtime.close()
+
+def industrial_checkpoint(store):
+    """One source/export receipt update and readback for the scoped storage sprint."""
+    source = Path('/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/tools/studio/business')
+    proof = json.loads((DATA/'reports/industrial-storage-focused-proof.json').read_text())
+    fresh = json.loads((DATA/'reports/industrial-storage-fresh-context.json').read_text())
+    policy = json.loads((DATA/'workflows/storage-policy.json').read_text())
+    package = json.loads((DATA/'reports/character-packages/pinpin.json').read_text())
+    qa_root=Path('/Volumes/TB4/mac-mini-storage/shared/pinpin-industrial-20261003')
+    live_backup=json.loads((qa_root/'storage-live-cli-backup.json').read_text())
+    live_restore=json.loads((qa_root/'storage-live-cli-restore.json').read_text())
+    identifier = live_backup['assetId']
+    asset = next(a for a in store.read()['assets'] if a['id']==identifier)
+    canonical = store.asset_path(identifier)
+    canonical_ok = canonical.stat().st_size == asset['bytes'] and hashlib.sha256(canonical.read_bytes()).hexdigest()==asset['sha256']
+    assert canonical_ok
+    assert live_restore['assetId']==identifier and live_restore['source']=='downloaded'
+    for item in (live_backup,live_restore):
+        entry=item['adapterReceipt']['entries'][0]
+        assert item['sha256']==asset['sha256'] and item['bytes']==asset['bytes']
+        assert item['adapterReceipt']['verified'] and entry['remote_verified'] and entry['verified']
+    restored=Path(live_restore['nativePath'])
+    assert restored.resolve().is_relative_to(DATA.resolve())
+    assert restored.stat().st_size==asset['bytes'] and hashlib.sha256(restored.read_bytes()).hexdigest()==asset['sha256']
+    qa_paths=[]
+    for name in ('storage-live-cli-backup.json','storage-live-cli-restore.json'):
+        target=DATA/'reports/storage'/name;target.write_bytes((qa_root/name).read_bytes());qa_paths.append(target)
+    mappings = {
+      'workflows/industrial-storage.md':'industrial-storage.md',
+      'workflows/character-context-index.md':'industrial-character-context-index.md',
+      'workflows/character-creation.md':'industrial-character-creation.md',
+      'workflows/storage-policy.json':'industrial-storage-policy.json',
+      'workflows/toolchain.json':'industrial-toolchain.json',
+      'tools/test_industrial_storage.py':'test_industrial_storage.py',
+      'tools/verify_industrial_storage.py':'verify_industrial_storage.py',
+      'tools/cast_ops.py':'industrial-cast_ops.py',
+      'tools/register_cast_spec.py':'industrial-register_cast_spec.py'}
+    for src, target in mappings.items():
+        (DATA/'exports'/target).write_bytes((DATA/src).read_bytes())
+    readme = DATA/'exports/workflows-README.md'
+    text = readme.read_text()
+    heading = '## Verified character-job storage — 2026-10-03'
+    if heading not in text:
+        readme.write_text(text.rstrip()+'\n\n'+heading+'\n\n[Industrial storage and preparation](industrial-storage.md) documents ID resolution, bounded cache/disk preflight and actual job outcomes. Persist storage-policy.json, toolchain.json, character folders and reports/character-jobs plus reports/storage with the data layout. Fresh context hydrates the commands; no credentials or image binaries enter source exports. Standalone data-relative tests belong in the dated workflow example with their data layout, not unittest discovery. Remote quota is unknown; live remote proof remains blocked by this agent sandbox DNS.\n')
+    report_path = DATA/'reports/industrial-storage-20261003.json'
+    backup_path = DATA/'reports/storage'/(identifier+'-backup.json')
+    backup = json.loads(backup_path.read_text()) if backup_path.exists() else None
+    report = {'schemaVersion':1,'observedUTC':datetime.now(timezone.utc).isoformat(),
+      'scope':'Small ID storage abstraction and ordinary character preparation; no image generation this turn',
+      'implementation':{'businessHash':fresh['activeBusinessHash'],'kernelReleaseUnchanged':fresh['kernelReleaseUnchanged'],
+        'registry':'Existing Store assets only; per-ID verification receipts are not a second catalog',
+        'module':'tools/studio/business/asset_storage.py','workflowDoc':'workflows/industrial-storage.md',
+        'commands':json.loads((DATA/'workflows/toolchain.json').read_text())['storageWorkflow']},
+      'checks':{'focusedPassed':len(proof['checks']),'focusedProof':'reports/industrial-storage-focused-proof.json',
+        'freshContextProof':'reports/industrial-storage-fresh-context.json','historicalIsolation':True,
+        'packageSelfTest':True,'activeBusinessSourceMatch':fresh['activeSourceMatch'],
+        'broadArtEngineeringSuitesRerun':False},
+      'storagePolicy':{k:policy[k] for k in ('bucket','cachePath','maxCacheBytes','minFreeBytes','generationReserveBytes','maxAssetBytes','eviction','quota')},
+      'demonstration':{'assetId':identifier,'sha256':asset['sha256'],'bytes':asset['bytes'],'assetURL':asset['url'],
+        'canonicalBytesUnchanged':canonical_ok,'localVerifiedResolution':True,
+        'liveRemoteBackupStatus':backup.get('remoteBackupStatus') if backup else 'unverified',
+        'liveRemoteRoundTripVerified':True,
+        'liveProofActor':'Independent QA outside agent sandbox, exact authored CLI; sandbox did not gain DNS',
+        'liveBackupProof':'reports/storage/storage-live-cli-backup.json',
+        'liveColdRestoreProof':'reports/storage/storage-live-cli-restore.json',
+        'networkObservation':'huggingface.co DNS lookup failed with gaierror errno 8; SDK metadata lookup failed',
+        'isolatedColdCacheRestoration':'Real existing hf_store adapter with fake remote bytes, including fresh-process incoming reference restoration; not live HF proof',
+        'nextNetworkCapableCommands':['python -B tools/cast_ops.py backup '+identifier,'python -B tools/cast_ops.py restore-replica '+identifier]},
+      'limitations':['No transparent missing-asset restoration on a naked immutable browser asset GET; live hydration/preparation restore canonical bytes first',
+        'New business routes are CLI-accessible but absent from immutable browser RPC allowlist; no bypass or kernel edits',
+        'HF live quota unknown; no 40 TB claim','Full historical migration out of scope'],
+      'decisions':['No canonical/generated artwork eviction or untracking','Only image bytes/size/hash/object projection may leave app',
+        'Do not inspect credentials or upload prompt/state/conversation records','Prepared jobs retain attempts, retry lineage, unknown timings and actual outcomes'],
+      'notetaker':'Unavailable; durable Markdown fallback', 'approval':'Draft/agent QA only, no selection or publication inferred',
+      'sourceReceiptPath':'exports/industrial-storage-source-receipt.json'}
+    atomic_json(report_path,report)
+    paths = [DATA/src for src in mappings] + [DATA/'exports'/target for target in mappings.values()] + [readme,report_path,
+      DATA/'reports/industrial-storage-focused-proof.json',DATA/'reports/industrial-storage-fresh-context.json'] + qa_paths
+    paths += [source/name for name in ('asset_storage.py','routes.py','context.py','character_context.py')]
+    files=[{'path':str(path.relative_to(DATA)) if path.is_relative_to(DATA) else str(path),
+            'sha256':hashlib.sha256(path.read_bytes()).hexdigest(),'bytes':path.stat().st_size} for path in paths]
+    receipt=DATA/'exports/industrial-storage-source-receipt.json'
+    atomic_json(receipt,{'schemaVersion':1,'observedUTC':report['observedUTC'],'files':files,
+                        'imageBinariesIncluded':False,'credentialsIncluded':False,'approvalInvented':False})
+    for row in files:
+        path=Path(row['path']) if Path(row['path']).is_absolute() else DATA/row['path']
+        assert path.stat().st_size==row['bytes'] and hashlib.sha256(path.read_bytes()).hexdigest()==row['sha256']
+    return {'report':str(report_path),'receipt':str(receipt),'readbackFiles':len(files),'focusedPassed':len(proof['checks']),
+            'remoteBackupStatus':report['demonstration']['liveRemoteBackupStatus']}
 
 if __name__ == '__main__':
     main()

@@ -20,7 +20,7 @@ Load the current dossier and registered metadata once for the requested characte
 
 Use validated current registry/context data, not a growing dump of the entire book. Reuse an already inspected pack within the task; refresh the relevant entries when an asset or selection changes. Keep original references and new candidates distinct. If the supplied pack lacks a necessary cast member or usable image, retrieve that specific existing reference before generating rather than inventing the missing identity. Record which references actually went into each call. This describes the required preparation; it does not claim a particular hydration cache or API has been implemented.
 
-When configured live context supplies `characterContext.registrationToolchain`, use its validated `argvPrefix` array and append actual `--native-path`, `--prompt-file`, `--output-name` and repeated `--reference` values; do not rediscover or rebuild that command. Paired `--entity` and `--stage` options retain package receipts/provenance automatically and return a JSON `dossierPath` under `reports/character-packages/<entity>.json`. The field is omitted for historical review or missing/invalid configuration; this newer hydrated contract and the wait-policy update were not measured by the [three recorded trials](/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/workflows/examples/character-latency-20261003.md).
+When configured live context supplies `characterContext.registrationToolchain`, use its validated `argvPrefix` array and append actual `--native-path`, `--prompt-file`, `--output-name` and repeated `--reference` values; do not rediscover or rebuild that command. Paired `--entity` and `--stage` options retain package receipts/provenance automatically and return a JSON `dossierPath` under `reports/character-packages/<entity>.json`. Historical review never hydrates mutable toolchain or storage settings.
 
 ## Make and show the prototype
 
@@ -132,8 +132,13 @@ Native imagegen accepts at most FIVE referenced image paths per call. Prepare th
 
 If agent visual QA rejects a registered candidate, retain it with `qaDisposition: needs-repair` and its reason in that stage receipt. Reconciliation excludes that candidate until a corrected real render is registered; this is agent draft QA, not human artifact acceptance.
 
-Preparation uses saved toolchain.imageGeneration and tools.cast_ops.rank_reference_pack: maximum FIVE inputs, ranked target solo/identity first, needed counterpart identities, then layout/style/context as appropriate. Save omittedReferences in spec and stage receipt preparation, retaining the full source bibliography; omissions are not actual image inputs. Full finish→finish regression now covers a final generated result section with no later curated heading; preserve metrics BEGIN and END together.
+Full finish→finish regression now covers a final generated result section with no later curated heading; preserve metrics BEGIN and END together.
 
 ## Complete-cast checkpoint
 
 When the reconciled queue has no missing stages, the existing `tools/cast_ops.py checkpoint <batch> <entity> ...` also writes `reports/cast-complete-inventory.md` and `.json`: all final IDs/native links, sourced age/life stage, curated dossiers/bibliography, standard receipts including retained attempts, exact prompts/reference roles and available timing reports. Unknown legacy or delivery/billing measurements stay unknown. Production and agent QA do not grant human approval or publication. The active finish CLI is tested twice on the end-of-dossier fixture, preserving one complete metrics marker block and curated prose; see tools/test_cast_closeout.py and reports/cast-closeout-proof.json.
+
+
+## Verified storage and job prerequisites
+
+Before native generation follow [industrial-storage.md](industrial-storage.md): stable registered IDs, actual byte/hash resolution, at most five ranked references, exact prompt and dossier/evidence validation, bounded cache/disk reservation, durable prepared attempt and real registered/failed/cancelled outcome. Use hydrated storageWorkflow prepare/resolve/backup/outcome commands; remote backup is unverified until fresh download/hash proof. No artwork deletion or new approval gate.

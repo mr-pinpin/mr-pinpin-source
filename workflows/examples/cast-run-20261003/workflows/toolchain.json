@@ -1,0 +1,69 @@
+{
+  "schemaVersion": 1,
+  "toolName": "studio-register-image",
+  "argvPrefix": [
+    "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-venv/bin/python",
+    "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/tools/studio-client/register-image.py",
+    "--runtime-dir",
+    "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-runtime"
+  ],
+  "helperSha256": "13499e857ccebcbb9956e1d01e3d91b63af6e1882c968ea6ab91804164e4a03f",
+  "parameters": {
+    "required": [
+      "--native-path",
+      "--prompt-file",
+      "--output-name"
+    ],
+    "repeatable": [
+      "--reference"
+    ],
+    "optional": [
+      "--entity",
+      "--stage"
+    ]
+  },
+  "inputContract": "Exact native image bytes, UTF-8 exact prompt, registered reference IDs; entity/stage must be paired.",
+  "outputContract": {
+    "format": "json",
+    "fields": [
+      "assetId",
+      "sha256",
+      "reviewStatus",
+      "workflowCard",
+      "timing",
+      "dossierPath"
+    ],
+    "dossierPath": "reports/character-packages/<entity>.json"
+  },
+  "help": "Register unreviewed candidate and optional dossier in one call; no selection or approval.",
+  "castOperations": {
+    "toolPath": "tools/cast_ops.py",
+    "finish": "python -B tools/cast_ops.py finish <entity>",
+    "checkpoint": "python -B tools/cast_ops.py checkpoint <batch> <entity> ...",
+    "authority": "Durable draft metadata; visual QA required, no approval or publication"
+  },
+  "imageGeneration": {
+    "tool": "image_gen.imagegen",
+    "maxInputReferences": 5,
+    "rolePriority": [
+      "PRIMARY",
+      "identity",
+      "counterpart",
+      "layout",
+      "style",
+      "context"
+    ],
+    "preparationInvocation": "tools.cast_ops.rank_reference_pack(references)",
+    "omissionContract": "Omitted references remain in dossier bibliography, spec and stage receipt preparation; never claimed as actual inputs."
+  },
+  "storageWorkflow": {
+    "policyPath": "workflows/storage-policy.json",
+    "guidePath": "workflows/industrial-storage.md",
+    "prepare": "python -B tools/cast_ops.py prepare <spec.json>",
+    "resolve": "python -B tools/cast_ops.py resolve <assetId>",
+    "backup": "python -B tools/cast_ops.py backup <assetId>",
+    "restore": "python -B tools/cast_ops.py restore-replica <assetId>",
+    "outcome": "python -B tools/cast_ops.py outcome <outcome.json>",
+    "checkpoint": "python -B tools/cast_ops.py industrial-checkpoint"
+  }
+}
