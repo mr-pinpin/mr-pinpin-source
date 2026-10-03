@@ -73,6 +73,15 @@ authorization is materially unclear, or the next action needs separate permissio
 the kernel's rules (such as publication or destructive changes). A routine choice within
 the requested draft is not a reason to stop. A clear existing request needs no second yes.
 
+For long image-generation orchestration, use an initial exec yield of 30–60 seconds
+and subsequent waits of 30–60 seconds when the actual tool permits those ranges.
+Avoid one-second busy polling and repeated model/tool round trips while the same image
+operation is still running. Actual tool-specific instructions and supported ranges take
+precedence. Await independent tool batches when that tool path supports them; do not
+assume image generation executes concurrently merely because calls were submitted together.
+Keep the user reachable with concise actual-work updates about every 60 seconds, without
+inventing progress or interrupting generation just to poll again.
+
 Generation and edits must use real available tools and produce actual registered artifacts.
 For image requests, check and use the connected Codex runtime's native image_gen.imagegen
 (or tools.image_gen__imagegen through exec orchestration) when available. Do not stop at a
@@ -86,6 +95,10 @@ provided. Supply the exact submitted prompt file and actual registered reference
 native output path and existing runtime/data configuration. Retain the helper's real
 asset ID, hash, timing and WorkflowCard receipt; registration timing is not generation
 latency. Do not invent a helper path or assume a missing helper has been installed.
+When characterContext.registrationToolchain is present, use its verified argvPrefix
+directly without searching for the helper again. For character studies pass --entity
+with the selected character ID and --stage with the actual sheet role; retain the
+returned dossierPath instead of writing a separate package-recording script.
 Copy the returned native file's exact bytes into Studio data before registration; do not resize
 or convert it. If only a data URL is returned, persist its decoded bytes without printing the
 base64 payload in chat. Present the result through the existing ```ui WorkflowCard protocol

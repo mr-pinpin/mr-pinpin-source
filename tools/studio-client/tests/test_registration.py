@@ -49,11 +49,11 @@ class RegistrationTest(unittest.TestCase):
     def tearDown(self):
         self.case.cleanup()
 
-    def call(self, reference=None):
+    def call(self, reference=None, extra=()):
         result = subprocess.run([sys.executable, str(ROOT / "studio-client/register-image.py"),
                                  "--kernel-root", self.kernel, "--data-dir", str(self.store.root),
                                  "--native-path", str(self.original), "--prompt-file", str(self.prompt),
-                                 "--reference", reference or self.reference, "--output-name", "study.png"],
+                                 "--reference", reference or self.reference, "--output-name", "study.png", *extra],
                                 capture_output=True,text=True,timeout=20)
         return result.returncode,json.loads(result.stdout)
 
@@ -103,3 +103,52 @@ class RegistrationTest(unittest.TestCase):
         self.assertIn("different bytes",result["error"]["message"])
         self.assertEqual(destination.read_bytes(),b"existing other bytes")
         self.assertEqual(len(self.store.read()["assets"]),before)
+
+    def test_dossier_preserves_prior_stages_candidates_and_project(self):
+        self.store.mutate(lambda state:state["project"]["entities"].append({"id":"papa","name":"Papa"}))
+        path=self.store.root/"reports/character-packages/papa.json"
+        path.parent.mkdir(parents=True)
+        prior={"schemaVersion":1,"entityId":"papa","note":"keep me","stages":{"earlier":{"candidates":[{"assetId":"prior","note":"retain"}]}}}
+        path.write_text(json.dumps(prior))
+        before=self.store.read()["project"]
+        code,result=self.call(extra=("--entity","papa","--stage","solo"))
+        self.assertEqual(code,0,result)
+        value=json.loads(path.read_text())
+        self.assertEqual(value["stages"]["earlier"],prior["stages"]["earlier"])
+        self.assertEqual(value["note"],"keep me")
+        receipt=value["stages"]["solo"]["candidates"][0]
+        self.assertEqual(receipt["assetId"],result["assetId"])
+        self.assertEqual(receipt["provenance"]["referenceIds"],[self.reference])
+        self.assertGreaterEqual(receipt["timing"]["registrationSeconds"],0)
+        self.assertEqual(result["dossierPath"],str(path))
+        self.assertEqual(self.store.read()["project"],before)
+        code,_=self.call(extra=("--entity","papa","--stage","solo"))
+        self.assertEqual(code,0)
+        self.assertEqual(len(json.loads(path.read_text())["stages"]["solo"]["candidates"]),1)
+
+    def test_setup_manifest_exact_argv_and_helper_hash(self):
+        import hashlib
+        runtime=self.root/"runtime"
+        (runtime/"current-deployment.json").write_text(json.dumps({"stableRelease":Path(self.kernel).name,"dataDirectory":str(self.store.root)}))
+        helper=ROOT/"studio-client/register-image.py"
+        before=self.store.read()
+        result=subprocess.run([sys.executable,str(helper),"--runtime-dir",str(runtime),"--setup-toolchain"],capture_output=True,text=True,timeout=20)
+        self.assertEqual(result.returncode,0,result.stdout+result.stderr)
+        manifest=json.loads((self.store.root/"workflows/toolchain.json").read_text())
+        self.assertEqual(manifest["argvPrefix"],[str(Path(sys.executable).absolute()),str(helper.resolve()),"--runtime-dir",str(runtime.resolve())])
+        self.assertEqual(manifest["helperSha256"],hashlib.sha256(helper.read_bytes()).hexdigest())
+        self.assertEqual(manifest["parameters"]["optional"],["--entity","--stage"])
+        self.assertEqual(self.store.read(),before)
+
+    def test_invalid_dossier_or_entity_fails_before_copy(self):
+        code,result=self.call(extra=("--entity","../escape","--stage","solo"))
+        self.assertEqual(code,1)
+        self.assertFalse((self.store.root/"generated").exists())
+        self.store.mutate(lambda state:state["project"]["entities"].append({"id":"papa"}))
+        path=self.store.root/"reports/character-packages/papa.json"
+        path.parent.mkdir(parents=True)
+        path.write_text('{"keep":"unsupported dossier"}')
+        code,_=self.call(extra=("--entity","papa","--stage","solo"))
+        self.assertEqual(code,1)
+        self.assertEqual(path.read_text(),'{"keep":"unsupported dossier"}')
+        self.assertFalse((self.store.root/"generated").exists())

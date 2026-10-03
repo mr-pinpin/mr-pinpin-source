@@ -42,6 +42,16 @@ class CreativePolicyTests(unittest.TestCase):
                        "Do not invent a helper path"):
             self.assertIn(clause, value)
 
+    def test_generation_waits_are_bounded_without_busy_polling(self):
+        value = creative_policy()
+        for clause in ("initial exec yield of 30–60 seconds",
+                       "subsequent waits of 30–60 seconds",
+                       "Avoid one-second busy polling",
+                       "tool-specific instructions and supported ranges take",
+                       "updates about every 60 seconds",
+                       "do not\nassume image generation executes concurrently"):
+            self.assertIn(clause, value)
+
     def setUp(self):
         self.temp = tempfile.TemporaryDirectory(prefix="studio-creative-policy-")
         self.root = Path(self.temp.name)

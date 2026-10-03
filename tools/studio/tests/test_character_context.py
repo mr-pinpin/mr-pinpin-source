@@ -100,6 +100,65 @@ class CharacterContextTests(unittest.TestCase):
         self.assertIn("do not reopen an already established design", policy)
         self.assertIn("characterContext", policy)
 
+    def toolchain(self):
+        import hashlib
+        helper = self.root / "register-image.py"
+        helper.write_text("# fixture never executed\n")
+        runtime = self.root / "runtime"
+        (runtime / "stable-releases" / ("a" * 64)).mkdir(parents=True)
+        (runtime / "current-deployment.json").write_text(json.dumps({
+            "dataDirectory": str(self.store.root), "stableRelease": "a" * 64}))
+        manifest = {"schemaVersion": 1, "toolName": "studio-register-image",
+                    "argvPrefix": [sys.executable, str(helper), "--runtime-dir", str(runtime)],
+                    "helperSha256": hashlib.sha256(helper.read_bytes()).hexdigest(),
+                    "parameters": {"required": ["--native-path", "--prompt-file", "--output-name"],
+                                   "repeatable": ["--reference"], "optional": ["--entity", "--stage"]},
+                    "outputContract": {"format": "json",
+                        "fields": ["assetId", "sha256", "reviewStatus", "workflowCard", "timing", "dossierPath"],
+                        "dossierPath": "reports/character-packages/<entity>.json"},
+                    "help": "UNTRUSTED TEXT MUST NOT BE COPIED"}
+        path = self.store.root / "workflows" / "toolchain.json"
+        path.parent.mkdir(exist_ok=True)
+        path.write_text(json.dumps(manifest))
+        return path, manifest
+
+    def test_prepared_toolchain_exact_argv_receipt_and_no_prose_injection(self):
+        from business.character_context import prepared_toolchain
+        path, manifest = self.toolchain()
+        result = prepared_toolchain(self.store, self.store.read())
+        self.assertEqual(result["argvPrefix"], manifest["argvPrefix"])
+        self.assertEqual(result["parameters"]["optional"], ["--entity", "--stage"])
+        self.assertEqual(result["outputContract"]["dossierPath"], "reports/character-packages/<entity>.json")
+        self.assertNotIn("UNTRUSTED", json.dumps(result))
+        _, _, inputs = selected_context(self.store, {"text":"Papa package", "entityId":"papa"})
+        self.assertEqual(payload(inputs)["characterContext"]["registrationToolchain"], result)
+
+    def test_toolchain_missing_historical_and_oversized_are_graceful(self):
+        from business.character_context import prepared_toolchain
+        state = self.store.read()
+        self.assertIsNone(prepared_toolchain(self.store, state))
+        path, _ = self.toolchain()
+        self.assertIsNone(prepared_toolchain(self.store, dict(state, readOnly=True)))
+        path.write_text(" " * 16385)
+        self.assertIsNone(prepared_toolchain(self.store, state))
+
+    def test_toolchain_rejects_changed_helper_wrong_data_and_unbounded_argv(self):
+        from business.character_context import prepared_toolchain
+        path, manifest = self.toolchain()
+        for key, bad in [("helperSha256", "0"*64),
+                         ("argvPrefix", manifest["argvPrefix"] + ["--data-dir", "/other"]),
+                         ("argvPrefix", [manifest["argvPrefix"][0], "relative.py", "--runtime-dir", "/tmp"]),
+                         ("outputContract", {"format":"shell", "fields":[]})]:
+            with self.subTest(key=key, bad=bad):
+                changed = dict(manifest, **{key:bad})
+                path.write_text(json.dumps(changed))
+                self.assertIsNone(prepared_toolchain(self.store, self.store.read()))
+        path.write_text(json.dumps(manifest))
+        runtime = Path(manifest["argvPrefix"][3])
+        (runtime / "current-deployment.json").write_text(json.dumps({
+            "dataDirectory": "/other", "stableRelease":"a"*64}))
+        self.assertIsNone(prepared_toolchain(self.store, self.store.read()))
+
 
 if __name__ == "__main__":
     unittest.main()

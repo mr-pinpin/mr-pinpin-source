@@ -1,0 +1,433 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-10-03T09:48:44.230838+00:00",
+  "purpose": "Observed character-workflow runs; no controlled same-scope before/after claim",
+  "clock": "Studio server/API observations in UTC; not browser paint or model-internal compute",
+  "studioThreadId": "01a0ff85-92dc-7c40-9adb-ef240551a423",
+  "conversationModel": "gpt-6.1-sol",
+  "imageTool": "image_gen.imagegen",
+  "imageModelVersion": "not explicitly pinned in recorded tool calls",
+  "runs": [
+    {
+      "messageId": "message-b9398f2d0a6d4ffdb24c",
+      "turnId": "01a10118-e85b-71a1-a709-439a0a36c547",
+      "acceptedAt": "2026-10-03T09:29:31.910789+00:00",
+      "firstAssistantTextAt": "2026-10-03T09:29:37.604526+00:00",
+      "firstAssistantTextSeconds": 5.693737,
+      "finalDeliveredAt": "2026-10-03T09:32:34.587729+00:00",
+      "finalDeliveredSeconds": 182.67694,
+      "completedAt": "2026-10-03T09:32:34.655880+00:00",
+      "totalSeconds": 182.745091,
+      "otherElapsedSeconds": 97.170573,
+      "eventCoverage": "complete",
+      "character": "pompom",
+      "scope": "One separate six-study interaction page",
+      "userPrompt": "[fleet-msg from codex-wap1]\n[Actor: codex-wap1; on behalf of: Miguel]\n\nMiguel has clarified a missing default part of the character workflow: a SEPARATE interaction reference page showing relative size, natural postures and how established characters hold, embrace and interact with this character. Please execute it now for PomPom; the existing 24-study sheet stays.\n\nUse the attached completed PomPom sheet for infant identity and attached published family breakfast for Mama, Papa, older PinPin and their relative scale. These are the two authoritative visual inputs for this task; inspect them and use both directly in image generation. Do not rediscover the book or generate another solo sheet. Create one polished readable composite page of approximately six relational studies: Mama cradling him, Papa securely holding him, a supported family scale lineup, older PinPin sitting beside him, a gentle sibling hug with support, and Mama/Papa passing the supported infant between them. Show whole separate bodies, believable hands and support, contact/eye lines, age-appropriate movement; no duplicated limbs, independent infant standing, wolf faces or excessive smiles. Labels are useful. Keep warm dimensional illustrated style.\n\nMake the actual page now with the native image tool, inspect once and repair only visible material errors, copy native bytes/register it and deliver an inline WorkflowCard with Open full-size. Use your existing working import/registration path; do not invent a new service or approval step. Record exact prompt, both input IDs and output, plus real UTC timestamps immediately before/after image tool call and registration so we can separate generation time from surrounding work. Write this small timing/provenance record under data/reports/pompom-interactions-timing.json. Do not fabricate timings for steps already completed.\n\nThe coordinator has separate lanes updating source workflow docs and context hydration, so do not edit source code/docs this turn. You own this artwork, live dossier update and delivery. Interaction pages should be reusable references, not unrelated chapter scenes. Continue to a visible result without asking Miguel to reconfirm.",
+      "finalAssetIds": [
+        "asset-56362912ae9b6173ac8464de"
+      ],
+      "repairCalls": 0,
+      "imageCalls": 1,
+      "imageToolActiveSeconds": 85.574518,
+      "imageToolSumSeconds": 85.574518,
+      "imageEventsAmbiguous": false,
+      "imageSpans": [
+        {
+          "startedAt": "2026-10-03T09:30:07.768857+00:00",
+          "endedAt": "2026-10-03T09:31:33.343375+00:00",
+          "seconds": 85.574518,
+          "status": "completed",
+          "startEvent": 3547,
+          "endEvent": 3559
+        }
+      ],
+      "status": "completed"
+    },
+    {
+      "messageId": "message-ec11bd1423fb4977954f",
+      "turnId": "01a1011c-8833-7cc2-87cb-556dee3957f4",
+      "acceptedAt": "2026-10-03T09:33:29.425294+00:00",
+      "firstAssistantTextAt": "2026-10-03T09:33:33.334479+00:00",
+      "firstAssistantTextSeconds": 3.909185,
+      "finalDeliveredAt": "2026-10-03T09:39:11.902706+00:00",
+      "finalDeliveredSeconds": 342.477412,
+      "completedAt": "2026-10-03T09:39:11.979127+00:00",
+      "totalSeconds": 342.553833,
+      "otherElapsedSeconds": 170.528951,
+      "eventCoverage": "complete",
+      "character": "mama",
+      "scope": "Two pages:24-study solo plus separate six-study cast interaction",
+      "userPrompt": "[fleet-msg from codex-wap1]\n[Actor: codex-wap1; on behalf of: Miguel]\n\nMake Mama’s complete character reference package using her established book design. Use the workflow and the references supplied by Studio. Show the finished pages here.",
+      "finalAssetIds": [
+        "asset-0409122a3c93ef73014f6338",
+        "asset-4a23599bb5c8411f29297d55"
+      ],
+      "repairCalls": 2,
+      "imageCalls": 4,
+      "imageToolActiveSeconds": 172.024882,
+      "imageToolSumSeconds": 172.024882,
+      "imageEventsAmbiguous": false,
+      "imageSpans": [
+        {
+          "startedAt": "2026-10-03T09:34:15.812138+00:00",
+          "endedAt": "2026-10-03T09:35:01.831646+00:00",
+          "seconds": 46.019508,
+          "status": "completed",
+          "startEvent": 3832,
+          "endEvent": 3836
+        },
+        {
+          "startedAt": "2026-10-03T09:35:01.833848+00:00",
+          "endedAt": "2026-10-03T09:35:43.229108+00:00",
+          "seconds": 41.39526,
+          "status": "completed",
+          "startEvent": 3837,
+          "endEvent": 3890
+        },
+        {
+          "startedAt": "2026-10-03T09:36:08.406688+00:00",
+          "endedAt": "2026-10-03T09:36:50.918539+00:00",
+          "seconds": 42.511851,
+          "status": "completed",
+          "startEvent": 3930,
+          "endEvent": 3933
+        },
+        {
+          "startedAt": "2026-10-03T09:37:21.003574+00:00",
+          "endedAt": "2026-10-03T09:38:03.101837+00:00",
+          "seconds": 42.098263,
+          "status": "completed",
+          "startEvent": 3938,
+          "endEvent": 3941
+        }
+      ],
+      "status": "completed"
+    },
+    {
+      "messageId": "message-0e4d76b1062c483db7d7",
+      "turnId": "01a10122-86f9-7642-a202-a21848bf92f6",
+      "acceptedAt": "2026-10-03T09:40:02.283860+00:00",
+      "firstAssistantTextAt": "2026-10-03T09:40:06.020103+00:00",
+      "firstAssistantTextSeconds": 3.736243,
+      "finalDeliveredAt": "2026-10-03T09:43:55.485407+00:00",
+      "finalDeliveredSeconds": 233.201547,
+      "completedAt": "2026-10-03T09:43:55.599377+00:00",
+      "totalSeconds": 233.315517,
+      "otherElapsedSeconds": 150.529597,
+      "eventCoverage": "complete",
+      "character": "papa",
+      "scope": "Two pages:24-study solo plus separate six-study cast interaction",
+      "userPrompt": "[fleet-msg from codex-wap1]\n[Actor: codex-wap1; on behalf of: Miguel]\n\nNow make Papa’s complete character reference package using his established book design and the standard workflow. Use the prepared registration helper and show the finished pages here.",
+      "finalAssetIds": [
+        "asset-6d619138c33f8111b5b1ff68",
+        "asset-1733f4d737f28fd9a90a2a05"
+      ],
+      "repairCalls": 0,
+      "imageCalls": 2,
+      "imageToolActiveSeconds": 82.78592,
+      "imageToolSumSeconds": 82.78592,
+      "imageEventsAmbiguous": false,
+      "imageSpans": [
+        {
+          "startedAt": "2026-10-03T09:41:14.160313+00:00",
+          "endedAt": "2026-10-03T09:41:52.911610+00:00",
+          "seconds": 38.751297,
+          "status": "completed",
+          "startEvent": 4253,
+          "endEvent": 4256
+        },
+        {
+          "startedAt": "2026-10-03T09:41:52.913807+00:00",
+          "endedAt": "2026-10-03T09:42:36.948430+00:00",
+          "seconds": 44.034623,
+          "status": "completed",
+          "startEvent": 4257,
+          "endEvent": 4276
+        }
+      ],
+      "status": "completed",
+      "preparedRegistrationCombinedSeconds": 0.165059,
+      "imageEventInterpretation": "API active event window only; native calls started concurrently; spans cannot be assigned as per-sheet durations."
+    }
+  ],
+  "assets": [
+    {
+      "id": "asset-88d74c56a468e3f250b12dbc",
+      "name": "reference-family",
+      "sha256": "88d74c56a468e3f250b12dbcb5ecdb7b07bd1d789197663d8948ac199acd133d",
+      "bytes": 452790,
+      "mime": "image/webp",
+      "width": 1536,
+      "height": 1024,
+      "storagePath": "assets/88d74c56a468e3f250b12dbcb5ecdb7b07bd1d789197663d8948ac199acd133d.webp",
+      "reviewStatus": "user-approved",
+      "provenance": {
+        "catalogKey": "reference-family",
+        "inputAssets": [],
+        "dataSourceFile": "elder-r6-family-016.webp"
+      }
+    },
+    {
+      "id": "asset-496b4f5dd35b520c54fce130",
+      "name": "reference-scooby",
+      "sha256": "496b4f5dd35b520c54fce130c4ace6758fc48b1efbabf1b1a06f5cd84aeedbe5",
+      "bytes": 505342,
+      "mime": "image/webp",
+      "width": 1536,
+      "height": 1024,
+      "storagePath": "assets/496b4f5dd35b520c54fce130c4ace6758fc48b1efbabf1b1a06f5cd84aeedbe5.webp",
+      "reviewStatus": "user-approved",
+      "provenance": {
+        "catalogKey": "reference-scooby",
+        "inputAssets": [],
+        "dataSourceFile": "elder-r6-forest-021.webp"
+      }
+    },
+    {
+      "id": "asset-f945f4802de940f91dc6a78a",
+      "name": "reference-rabbit",
+      "sha256": "f945f4802de940f91dc6a78a2a5e7bc5d8e7b3239e3fdb3a883f56c73ebd7b3d",
+      "bytes": 533046,
+      "mime": "image/webp",
+      "width": 1536,
+      "height": 1024,
+      "storagePath": "assets/f945f4802de940f91dc6a78a2a5e7bc5d8e7b3239e3fdb3a883f56c73ebd7b3d.webp",
+      "reviewStatus": "user-approved",
+      "provenance": {
+        "catalogKey": "reference-rabbit",
+        "inputAssets": [],
+        "dataSourceFile": "scene-04b.webp"
+      }
+    },
+    {
+      "id": "asset-197cadb33a082f19258eb956",
+      "name": "Mama — solo-v1",
+      "sha256": "197cadb33a082f19258eb956af98d527ef5b56e66c937ebaef26e4977dc74b93",
+      "bytes": 2513599,
+      "mime": "image/png",
+      "width": 1199,
+      "height": 1312,
+      "storagePath": "assets/197cadb33a082f19258eb956af98d527ef5b56e66c937ebaef26e4977dc74b93.png",
+      "reviewStatus": "unreviewed",
+      "provenance": {
+        "tool": "image_gen.imagegen",
+        "prompt": "Polished reusable character model reference in the warm dimensional illustrated style of the supplied published book images, ivory background, clean spacious grid, readable labels, natural varied expressions, anatomically clear whole bodies with two arms/two legs, no clothes or invented accessories. Mama is EXACT adult mother hedgehog on LEFT in breakfast reference, NOT Papa center or older child right: warm orange-brown swept quills, cream face/chest/tummy, round ears, short rounded muzzle and small dark button nose, brown irises, distinct adult rounded body and engaged gaze. Preserve her established proportions and identity, no wolf/canine face, no mandatory raised eyebrows or grin. One portrait unified solo reference page titled MAMA, four rows of SIX cells, 24 studies. Row1 FACE VIEWS: front, facing screen LEFT three-quarter, facing LEFT true profile, facing RIGHT three-quarter, facing RIGHT true profile, rear quills. Both sides different, correct labels. Row2 EXPRESSIONS same three-quarter angle: calm neutral closed mouth, warm small smile, attentive curiosity, mild surprise, thoughtful concern, sleepy soft eyes. Row3 BODY VIEWS whole standing grounded adult: front, facing LEFT three-quarter, facing LEFT profile, facing RIGHT three-quarter, facing RIGHT profile, back; neutral relaxed arms, same scale within row. Row4 POSTURES whole body: relaxed seated, kneeling, reaching one paw, small wave, bending to child height, carrying ONE bowl with two paws. Clear paws and feet, no body crop, distinct natural postures. Adult Mama not infant or child. Minimal title/labels no unrelated extra art.",
+        "stage": "solo-v1",
+        "entityId": "mama",
+        "correctionOfAssetId": null,
+        "promptSha256": "6ad8981e1f2e854c72d36b0ccaede1fe789f0ac18c616b44ab75b388e40a4568",
+        "inputAssets": [
+          {
+            "assetId": "asset-88d74c56a468e3f250b12dbc",
+            "sha256": "88d74c56a468e3f250b12dbcb5ecdb7b07bd1d789197663d8948ac199acd133d"
+          }
+        ],
+        "dataSourceFile": "generated/mama-solo-v1.png",
+        "nativeOutputFilename": "exec-0e098649-0c65-474e-9eff-ac7af281b7c5.png"
+      },
+      "nativeBytesVerified": true
+    },
+    {
+      "id": "asset-4a23599bb5c8411f29297d55",
+      "name": "Mama — interactions-v1",
+      "sha256": "4a23599bb5c8411f29297d55d7fc1b969efd763650965c288b4f4287f77f84d1",
+      "bytes": 2400176,
+      "mime": "image/png",
+      "width": 1199,
+      "height": 1312,
+      "storagePath": "assets/4a23599bb5c8411f29297d55d7fc1b969efd763650965c288b4f4287f77f84d1.png",
+      "reviewStatus": "unreviewed",
+      "provenance": {
+        "tool": "image_gen.imagegen",
+        "prompt": "Polished reusable character model reference in the warm dimensional illustrated style of the supplied published book images, ivory background, clean spacious grid, readable labels, natural varied expressions, anatomically clear whole bodies with two arms/two legs, no clothes or invented accessories. Mama is EXACT adult mother hedgehog on LEFT in breakfast reference, NOT Papa center or older child right: warm orange-brown swept quills, cream face/chest/tummy, round ears, short rounded muzzle and small dark button nose, brown irises, distinct adult rounded body and engaged gaze. Preserve her established proportions and identity, no wolf/canine face, no mandatory raised eyebrows or grin. One SEPARATE portrait interaction and scale page, TWO columns by THREE rows, six whole-body relational studies. Family breakfast reference supplies Mama left, Papa center darker cooler quills broad adult shoulders, older PinPin right half Papa standing height, tiny infant PomPom held by Mama left. Second reference establishes HUGE mount-sized Scooby brown dog with somewhat long ears and curled tail, withers near standing Papa head, not miniature dog; dog shape belongs ONLY to dog, never hedgehogs. Cells labeled: 1 CRADLING POMPOM: seated Mama supports tiny reclining infant back/head and hips with two arms, infant own separate limbs. 2 LISTENING TO PINPIN: Mama kneels facing older child standing, mutual attentive gaze, one gentle paw on child's shoulder. 3 FAMILY SCALE: Mama Papa older PinPin standing on same ground and infant in low cream cushion, clear adults > half-height older child > tiny supported infant. 4 FAMILY EMBRACE: seated Mama and Papa with older child leaning against Mama and tiny infant supported securely in Papa arms, four distinct bodies. 5 SHARED HANDOFF: whole kneeling parents facing each other passing infant, four adult arms only, plausible back/hip support, infant never floating. 6 SCOOBY GREETING: standing Mama beside enormous full-body grounded Scooby, his nose lowers to her offered paw, dog withers near adult head; preserve canonical dog scale. Clear contacts, eye lines, support, no duplicate limbs, no infant standing, no giant older child, no excessive smiles. Readable reusable relationship studies, no scenery needed.",
+        "stage": "interactions-v1",
+        "entityId": "mama",
+        "correctionOfAssetId": null,
+        "promptSha256": "b9a3a9079d183840d22088f12c3dea83c149f83854e5e969f5e47e5201e85924",
+        "inputAssets": [
+          {
+            "assetId": "asset-88d74c56a468e3f250b12dbc",
+            "sha256": "88d74c56a468e3f250b12dbcb5ecdb7b07bd1d789197663d8948ac199acd133d"
+          },
+          {
+            "assetId": "asset-496b4f5dd35b520c54fce130",
+            "sha256": "496b4f5dd35b520c54fce130c4ace6758fc48b1efbabf1b1a06f5cd84aeedbe5"
+          }
+        ],
+        "dataSourceFile": "generated/mama-interactions-v1.png",
+        "nativeOutputFilename": "exec-8adcac7a-e957-46c0-9721-ad8547f23ea5.png"
+      },
+      "nativeBytesVerified": true
+    },
+    {
+      "id": "asset-688898b097d377eee0e60cd6",
+      "name": "Mama — solo-v2",
+      "sha256": "688898b097d377eee0e60cd67a2c7a2ad695443dc1f0e8a930f9129969cef17d",
+      "bytes": 2441848,
+      "mime": "image/png",
+      "width": 1199,
+      "height": 1312,
+      "storagePath": "assets/688898b097d377eee0e60cd67a2c7a2ad695443dc1f0e8a930f9129969cef17d.png",
+      "reviewStatus": "unreviewed",
+      "provenance": {
+        "tool": "image_gen.imagegen",
+        "prompt": "Edit this exact Mama solo reference sheet, preserve everything except TWO cells. Top FACE VIEWS row SECOND cell labeled Left Three-Quarter must turn toward SCREEN LEFT with nose pointing LEFT while BOTH eyes remain visible, opposite from fourth cell Right Three-Quarter. BODY VIEWS row SECOND cell labeled Left Three-Quarter must also turn whole standing adult Mama toward SCREEN LEFT showing both eyes, opposite from fourth cell. Keep all labels readable unchanged, no mirroring text. The LEFT PROFILE cells already point left and are correct. Retain identical Mama identity, adult proportions, orange quills, short rounded muzzle and two arms/legs. Keep all expressions and postures and all other cells exactly as reference, entire page.",
+        "stage": "solo-v2",
+        "entityId": "mama",
+        "correctionOfAssetId": "asset-197cadb33a082f19258eb956",
+        "promptSha256": "218680b0ebf140c809936c10a676e74cbd47737eea8dab8740cc66a51c407837",
+        "inputAssets": [
+          {
+            "assetId": "asset-197cadb33a082f19258eb956",
+            "sha256": "197cadb33a082f19258eb956af98d527ef5b56e66c937ebaef26e4977dc74b93"
+          }
+        ],
+        "dataSourceFile": "generated/mama-solo-v2.png",
+        "nativeOutputFilename": "exec-c6050a10-203b-49f6-93dd-4f3f9f36cd63.png"
+      },
+      "nativeBytesVerified": true
+    },
+    {
+      "id": "asset-0409122a3c93ef73014f6338",
+      "name": "Mama — solo-final",
+      "sha256": "0409122a3c93ef73014f6338020ea942f47e5c0f4d0a59cf424508eb6ce37898",
+      "bytes": 2350296,
+      "mime": "image/png",
+      "width": 1199,
+      "height": 1312,
+      "storagePath": "assets/0409122a3c93ef73014f6338020ea942f47e5c0f4d0a59cf424508eb6ce37898.png",
+      "reviewStatus": "unreviewed",
+      "provenance": {
+        "tool": "image_gen.imagegen",
+        "prompt": "Edit exact sheet with minimal changes. In row 2 EXPRESSIONS, ONLY second cell Small Smile: turn Mama's head toward SCREEN RIGHT at same three-quarter angle as Neutral and Curious, retaining gentle small closed-mouth smile, identical adult identity. Change row 2 header to '2. EXPRESSIONS' removing parenthetical direction text. Do NOT alter top face views or body row: their left-facing second cells are now correct and must remain LEFT facing. All other cells unchanged, complete page.",
+        "stage": "solo-final",
+        "entityId": "mama",
+        "correctionOfAssetId": "asset-688898b097d377eee0e60cd6",
+        "promptSha256": "bde2484a51318406d2bf2788ac1ed955c21e4618ce3f77b9acfd98f1d611fbe6",
+        "inputAssets": [
+          {
+            "assetId": "asset-688898b097d377eee0e60cd6",
+            "sha256": "688898b097d377eee0e60cd67a2c7a2ad695443dc1f0e8a930f9129969cef17d"
+          }
+        ],
+        "dataSourceFile": "generated/mama-solo-final.png",
+        "nativeOutputFilename": "exec-0c37257d-d2ca-4f8b-9059-f4e51e91e512.png"
+      },
+      "nativeBytesVerified": true
+    },
+    {
+      "id": "asset-6d619138c33f8111b5b1ff68",
+      "name": "papa-solo.png",
+      "sha256": "6d619138c33f8111b5b1ff6808d53923ac767e48f3e4a8e03601754a9eab5b87",
+      "bytes": 2620724,
+      "mime": "image/png",
+      "width": 1222,
+      "height": 1287,
+      "storagePath": "assets/6d619138c33f8111b5b1ff6808d53923ac767e48f3e4a8e03601754a9eab5b87.png",
+      "reviewStatus": "unreviewed",
+      "provenance": {
+        "tool": "image_gen.imagegen",
+        "prompt": "Papa character reference, EXACT established adult father hedgehog at center of family breakfast input, NOT orange Mama left or small PinPin right. Broad adult shoulders, substantial rounded torso, cooler dark brown quills with pale tips, cream face and belly, round ears, brown irises, very SHORT rounded muzzle, dark button nose. No wolf snout, no clothes. Preserve warm dimensional illustrated book style. Ivory background clean spacious readable cells, natural varied expression with restrained brows, clear paws and feet, exactly two arms and two legs per hedgehog, no crops. One polished portrait unified solo sheet titled PAPA, FOUR rows of SIX cells. Row1 face views: Front, Screen-left 3/4 (NOSE POINTS SCREEN LEFT, both eyes visible), Screen-left profile (NOSE LEFT), Screen-right 3/4 (NOSE SCREEN RIGHT, both eyes visible), Screen-right profile (NOSE RIGHT), Back. Row2 same screen-right three-quarter angle expressions: Neutral, Gentle smile, Curious, Surprised, Concerned, Sleepy. Row3 whole-body grounded adult views: Front, Screen-left 3/4 (NOSE AND BODY LEFT), Screen-left profile, Screen-right 3/4 (NOSE AND BODY RIGHT), Screen-right profile, Back. Check opposing directions actual nose LEFT versus RIGHT, don't repeat same angle. Row4 whole-body postures: seated relaxed, kneeling, reaching one paw, waving, bending to child height, carrying one wooden gutter with both paws. Uniform scale within each row, full quills/feet uncropped. Adult broad Papa proportions throughout. Minimal labels, no decorative extra art.",
+        "registeredBy": "studio-client/register-image.py",
+        "promptSha256": "d7b48d4413fffe720ec10d784d349a4c13b7ec2e412d61fc681cd3b462527206",
+        "inputAssets": [
+          {
+            "assetId": "asset-88d74c56a468e3f250b12dbc",
+            "sha256": "88d74c56a468e3f250b12dbcb5ecdb7b07bd1d789197663d8948ac199acd133d"
+          }
+        ],
+        "dataSourceFile": "generated/6d619138c33f8111-papa-solo.png",
+        "dataPromptFile": "reports/papa-solo-prompt.txt",
+        "nativeOutputFilename": "exec-258c6740-ccf2-43a6-8a28-11210a1c4561.png"
+      },
+      "nativeBytesVerified": true
+    },
+    {
+      "id": "asset-1733f4d737f28fd9a90a2a05",
+      "name": "papa-interactions.png",
+      "sha256": "1733f4d737f28fd9a90a2a05700b0abab0ea1e01ad2dc0308fac07a07db507ce",
+      "bytes": 2692584,
+      "mime": "image/png",
+      "width": 1024,
+      "height": 1536,
+      "storagePath": "assets/1733f4d737f28fd9a90a2a05700b0abab0ea1e01ad2dc0308fac07a07db507ce.png",
+      "reviewStatus": "unreviewed",
+      "provenance": {
+        "tool": "image_gen.imagegen",
+        "prompt": "Papa character reference, EXACT established adult father hedgehog at center of family breakfast input, NOT orange Mama left or small PinPin right. Broad adult shoulders, substantial rounded torso, cooler dark brown quills with pale tips, cream face and belly, round ears, brown irises, very SHORT rounded muzzle, dark button nose. No wolf snout, no clothes. Preserve warm dimensional illustrated book style. Ivory background clean spacious readable cells, natural varied expression with restrained brows, clear paws and feet, exactly two arms and two legs per hedgehog, no crops. One separate portrait interaction reference page titled PAPA — INTERACTIONS AND SCALE, six large cells TWO columns THREE rows. First input family identity/scale: orange Mama left adult slightly smaller Papa, PinPin right older child about half Papa standing height, PomPom tiny infant Mama holds. Second input supplies Rabbit gray-tan long ears cream muzzle, child-peer size not adult Papa sized; ignore buckets/background in that reference. Six relational studies: 1 HOLDING POMPOM: seated Papa securely holds tiny infant with support beneath back/head and hips, two own baby arms and legs distinct, mutual gaze. 2 LISTENING TO PINPIN: kneeling Papa at older child's eye level, PinPin standing, Papa one gentle paw on shoulder. 3 FAMILY SCALE: all four whole separate bodies same ground plane, adult Papa and Mama standing, half-height PinPin, tiny infant in low supportive cream nest, labels. 4 PARENTAL HANDOFF: whole kneeling Mama and Papa pass tiny infant, four adult arms total, receiving paws under back/hips while giver still supports, no floating or fused bodies. 5 FAMILY HUG: seated Papa and Mama with PinPin leaning into Papa and tiny infant supported in Mama lap, four separate bodies clear, mild tenderness no universal grin. 6 RABBIT GREETING: Papa crouches greeting established Rabbit beside standing PinPin, attentive eye contact, Rabbit same child peer size with long ears, all separate bodies. Whole quills/feet uncropped, believable contact/support, no independent infant stance, no duplicated limbs, no canine hedgehog faces. Minimal background no unrelated scene.",
+        "registeredBy": "studio-client/register-image.py",
+        "promptSha256": "658ac9a29ae62d3367bad663f7e1f3c6916fd5201488c61af7337f3f8bfde856",
+        "inputAssets": [
+          {
+            "assetId": "asset-88d74c56a468e3f250b12dbc",
+            "sha256": "88d74c56a468e3f250b12dbcb5ecdb7b07bd1d789197663d8948ac199acd133d"
+          },
+          {
+            "assetId": "asset-f945f4802de940f91dc6a78a",
+            "sha256": "f945f4802de940f91dc6a78a2a5e7bc5d8e7b3239e3fdb3a883f56c73ebd7b3d"
+          }
+        ],
+        "dataSourceFile": "generated/1733f4d737f28fd9-papa-interactions.png",
+        "dataPromptFile": "reports/papa-interactions-prompt.txt",
+        "nativeOutputFilename": "exec-cf6e5f2a-694b-461c-aa79-753a5e640d9f.png"
+      },
+      "nativeBytesVerified": true
+    }
+  ],
+  "evidence": [
+    {
+      "reportFile": "pompom-cli-metrics.json",
+      "sha256": "b9207d123ad207d72a7e4e12b5afaf8557aa29fe595c47212dd40b710dc2a6b9"
+    },
+    {
+      "reportFile": "mama-cli-metrics.json",
+      "sha256": "f838391433e3d9f562d326879c51047b1cbac374c31935969a184cfb40f198c4"
+    },
+    {
+      "reportFile": "papa-cli-metrics.json",
+      "sha256": "b91ba7d67972d427a93520b96b379eaa9356b4338a7c908a5c33594fd198afb2"
+    }
+  ],
+  "engineeringWindow": {
+    "startedAt": "2026-10-03T09:28:04Z",
+    "lastMeasuredTurnCompletedAt": "2026-10-03T09:43:55.599377+00:00",
+    "secondsThroughLastTurn": 951.599377,
+    "reportCapturedAt": "2026-10-03T09:48:44.230838+00:00",
+    "secondsThroughReportCapture": 1240.230838,
+    "scope": "Includes engineering/preparation and gaps between the measured turns. Report capture also includes independent browser QA/documentation. Excludes subsequent commit/deployment; not one user-request latency."
+  },
+  "comparabilityLimits": [
+    "Three sequential requests in one long-lived thread, not cold independent trials.",
+    "PomPom requested one page; Mama/Papa each requested two.",
+    "Mama incurred two image repairs; Papa none. Different character/reference inputs, instructions and registration helper state.",
+    "Observed image spans include tool/service time; other elapsed includes reasoning, tools, inspection, registration and delivery, not pure orchestration.",
+    "Final delivery is the API final-message event, not initial streamed-final text creation or browser paint.",
+    "No valid controlled same-scope before/after baseline and no universal turnaround promise.",
+    "API image intervals are not per-sheet durations or proof of sequential generation; Papa native calls began concurrently while API activity appeared as adjacent intervals."
+  ],
+  "relatedManifest": "mr-pompom-assets.json",
+  "reviewAuthority": "Independent visual QA; registry statuses preserved. Only separately attributed delegated decisions authorize reuse; no publication or personal Miguel approval inferred.",
+  "postTrialChanges": {
+    "registrationToolchain": "characterContext.registrationToolchain with argvPrefix and parameter/output contract",
+    "automaticPackageReceipt": "paired --entity/--stage returns dossierPath and preserves package provenance",
+    "waitPolicy": "updated after measured trials",
+    "benchmarkedInTheseRuns": false,
+    "registrationOnlyLiveVerification": {
+      "evidenceFile": "prepared-toolchain-live-proof.json",
+      "reusedExistingImages": true,
+      "entity": "papa",
+      "stages": [
+        "solo",
+        "interactions"
+      ],
+      "seconds": [
+        0.043359,
+        0.041178
+      ],
+      "automaticPackageRecord": true,
+      "projectRevisionRegistryAssetBytesUnchanged": true,
+      "newImageGenerationBenchmark": false,
+      "evidenceSha256": "58c82c99789f3704d78d1669440c6b383a547bcc955adacb4538fb5243747f4e"
+    }
+  }
+}

@@ -134,3 +134,32 @@ Generation timing belongs to the turn measurement, not this registration receipt
 Run all tests (including real frozen Store fixtures) with the Studio environment:
 
     /Volumes/TB4/mac-mini-storage/shared/pinpin-studio-venv/bin/python -B -m unittest discover -s tools/studio-client/tests -v
+
+## Prepare once; register and record the package together
+
+The coordinator prepares an exact command manifest once (and refreshes it whenever
+the helper changes):
+
+    /Volumes/TB4/mac-mini-storage/shared/pinpin-studio-venv/bin/python -B tools/studio-client/register-image.py --runtime-dir /Volumes/TB4/mac-mini-storage/shared/pinpin-studio-runtime --setup-toolchain
+
+This writes data/workflows/toolchain.json atomically with schemaVersion:1,
+toolName:studio-register-image, helperSha256, parameter/input/output contracts and
+argvPrefix containing the absolute Studio interpreter, helper and runtime paths.
+The interpreter path preserves its virtual-environment identity. There are no
+credentials or shell strings. Studio can hydrate this validated metadata before
+generation; use the argv array without repeated path discovery.
+
+Add --entity papa --stage solo (or --stage interactions) to the normal registration
+command to also persist its actual receipt/provenance in
+data/reports/character-packages/papa.json. Both options must be supplied together.
+The entity must already exist in Studio; identifiers must be safe filenames.
+
+The schema is {schemaVersion:1, entityId, updatedAt, stages:{STAGE:{candidates:[]}}}.
+Each candidate records the registration receipt, WorkflowCard and exact asset
+provenance. Writes use the Store lock and atomic JSON replacement. Prior stages,
+candidates and extra metadata are preserved; repeating the same asset/stage does
+not duplicate it. An incompatible existing dossier is preserved and rejected
+before image copying. No project, approval or selected-reference changes occur.
+
+Setup changes only tooling metadata; it does not generate or register artwork.
+Registration without --entity/--stage keeps the original single-candidate behavior.

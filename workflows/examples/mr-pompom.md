@@ -90,3 +90,13 @@ This completion card uses the real schema and no follow-up actions, so it has no
 Generate a first reviewable candidate promptly, retain its identity as the reference, and expand into a few coordinated multi-view sheets. Inspect direction coverage before composing the final sheet. Make targeted corrections, preserve successful material and exact prompts, and finish the requested package without redundant permission loops.
 
 The sequence and timestamps are provenance, not a measured latency benchmark: registration times do not establish generation start/end or total turnaround. Avoid claiming generation speed from those intervals.
+
+## Required interaction-page extension
+
+The reusable workflow now requires a separate cast-interaction page by default. The earlier accepted 24-study package covers individual identity, views and gestures; it does not establish PomPom's relative scale or physical contact with other characters. Preserve that accepted work and add the separate page using the original family reference and working PomPom identity. The Studio agent delivered the separate six-study page on 2026-10-03. Independent visual QA passed; codex-wap1 accepted it for reuse under Miguel’s delegation, contingent on that QA. Registry status remains unreviewed; no personal Miguel approval or publication is implied.
+
+Review infant-to-parent and infant-to-PinPin size, normal supported postures, embracing/holding, natural shared action and gaze, distinct limbs and convincing contact. Reference preparation should use a compact validated pack of the involved cast, existing family-scale image and actual native images. Brief feedback should lead directly to authorized generation. Speed improvements remain unclaimed until the separate benchmark records actual comparable timing.
+
+The interaction page is `asset-56362912ae9b6173ac8464de` (1024 × 1536), SHA-256 `56362912ae9b6173ac8464de4499f12fcb195ee52fc01b2f6ba15d15c25d7711`. It uses the accepted PomPom composite and original family image as actual tool references. Native bytes are preserved in `generated/pompom-interactions.png` and the registered copy.
+
+Its six scenes cover Mama cradling, Papa holding, the four family members at shared-ground scale, seated interaction with PinPin, a supported sibling hug, and a careful parent-to-parent handoff. QA found coherent infant/adult/older-child scale, distinct established cast identities, believable supported postures and contact, and no obvious duplicate limbs or merged bodies. Exact prompt and timing records are retained under `reports/pompom-interactions-*`; the independent benchmark reports timings separately and no speed improvement is claimed here.

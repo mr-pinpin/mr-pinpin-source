@@ -3,7 +3,7 @@
   "workflow": "character-creation",
   "entityId": "pompom",
   "chapterId": "pompom-character-study",
-  "studioRevisionAtCapture": 789,
+  "studioRevisionAtCapture": 790,
   "studioDataRootExample": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data",
   "status": "completed-accepted-for-reuse-under-delegated-review",
   "decisions": [
@@ -23,6 +23,16 @@
       "sourceMessageId": "message-a418666a456249b48eb5",
       "createdAt": "2026-10-03T09:12:46.960448+00:00",
       "scope": "24-study composite and corrected source sheets accepted for reuse",
+      "personallyReviewedByMiguel": false,
+      "changesHumanApprovalMetadata": false,
+      "publication": false
+    },
+    {
+      "kind": "interaction-page-acceptance-for-reuse",
+      "reviewer": "codex-wap1",
+      "capacity": "Miguel explicitly authorized representative",
+      "scope": "separate six-study PomPom cast-interaction page; acceptance contingent on independent QA, which passed",
+      "evidence": "root instruction to visual-QA lane on 2026-10-03 after delivery",
       "personallyReviewedByMiguel": false,
       "changesHumanApprovalMetadata": false,
       "publication": false
@@ -210,6 +220,45 @@
         "sourceFile": "generated/pompom-unified-reference.png",
         "nativeOutputFilename": "exec-851c8647-3d88-466a-b83c-a0ed6b8328b5.png"
       }
+    },
+    {
+      "role": "cast-interaction-page",
+      "id": "asset-56362912ae9b6173ac8464de",
+      "name": "Mr. PomPom — family interaction reference",
+      "mime": "image/png",
+      "sha256": "56362912ae9b6173ac8464de4499f12fcb195ee52fc01b2f6ba15d15c25d7711",
+      "bytes": 2470018,
+      "width": 1024,
+      "height": 1536,
+      "url": "/api/assets/asset-56362912ae9b6173ac8464de",
+      "storagePath": "assets/56362912ae9b6173ac8464de4499f12fcb195ee52fc01b2f6ba15d15c25d7711.png",
+      "reviewStatus": "unreviewed",
+      "provenance": {
+        "tool": "image_gen.imagegen",
+        "prompt": "Create ONE polished reusable Mr. PomPom FAMILY INTERACTION reference page, portrait, six large readable relational studies in a 2-column by 3-row grid on warm ivory background, short labels, generous spacing, whole bodies uncropped. Use BOTH attached references directly: reference 1 authoritative tiny infant PomPom identity (round infant head, short rounded muzzle, dark brown eyes, small nose, round ears, warm quills, cream tummy, short limbs); reference 2 authoritative family identities and relative scale: Mama is adult orange-brown hedgehog on LEFT holding tiny infant; Papa is larger adult darker brown hedgehog center; older PinPin on RIGHT is bigger than infant but much smaller than parents. Preserve their distinct established faces, quill colors, natural dimensional illustrated book style. These are HEDGEHOGS, no canine/wolf muzzle. Keep PomPom truly tiny enough to fit securely in adult forearms, not older PinPin sized. No clothes. Six cells: 1 MAMA CRADLES: seated Mama full body, tiny infant reclined across two forearms, one supports head/back, other hips, baby's own two arms and two legs separate. 2 PAPA HOLDS: seated Papa full body, infant upright nestled against chest, one paw supports hips other upper back, relaxed attentive eye contact. 3 FAMILY SCALE: all four whole separate bodies on same ground plane, Papa and Mama side by side, older PinPin beside them, PomPom seated in low cream supportive nest on floor, clear adult > older child > tiny infant proportion. 4 SITTING TOGETHER: older PinPin seated beside infant's supporting cushion, PinPin slightly leans to show small leaf, mutual gaze; scale difference clear. 5 SIBLING HUG: older PinPin seated beside cushion gently embraces tiny PomPom across shoulders, infant hips/back supported by cushion, both bodies clearly distinct, no squeezing, adult Mama paw may steady cushion only if needed but prefer no extra hand. 6 CAREFUL HANDOFF: Mama and Papa full bodies kneeling facing each other, tiny reclining infant BETWEEN them, receiving Papa's two paws under baby's back and hips while Mama's forearms still support infant; clear four adult arms total, no duplicated paws, believable overlaps and eye lines. Natural varied calm tenderness, some closed mouths, no exaggerated eyebrow raise or excessive smiles. Each character exactly two arms and two legs; show contact and secure support; no independent infant standing or walking, no floating infant, no merged bodies. This is relational model reference, not breakfast scene, not solo portrait sheet. Label each study clearly.",
+        "referenceAssetIds": [
+          "asset-483201f4d30299518e37b401",
+          "asset-88d74c56a468e3f250b12dbc"
+        ],
+        "referenceBindings": [
+          {
+            "assetId": "asset-483201f4d30299518e37b401",
+            "role": "accepted infant identity"
+          },
+          {
+            "assetId": "asset-88d74c56a468e3f250b12dbc",
+            "role": "published Mama, Papa, older PinPin identities, relative family scale and illustrated style"
+          }
+        ],
+        "stage": "interaction reference",
+        "delegatedRequestBy": "codex-wap1",
+        "inspection": {
+          "result": "Six relational studies checked for relative scale, separate bodies, support, contact and identity; no material defect requiring repair identified.",
+          "repairs": []
+        },
+        "sourceFile": "generated/pompom-interactions.png",
+        "nativeOutputFilename": "exec-67f39253-191f-4071-aead-6694e2663be8.png"
+      }
     }
   ],
   "evidenceFiles": [
@@ -245,22 +294,37 @@
     },
     {
       "dataPath": "workflows/character-creation.md",
-      "bytes": 9034,
-      "sha256": "8a73fe1a31b8d9e796ca345796dc9389fe287e98caae9d314667f361084e9577"
+      "bytes": 15485,
+      "sha256": "88eab69e02ccca522b8240f21813bb3f0ece0a7ff5d7a3589feffd4f4905d95d"
     },
     {
       "dataPath": "workflows/mr-pompom.md",
-      "bytes": 5044,
-      "sha256": "6ee964ada120eb66674ae085531533dbc543aa1ff21df6ff630e73cb09f7f216"
+      "bytes": 6285,
+      "sha256": "7a557d4894966871fbdf60c60b6f12a916e28eaf26647a4d125554bd02bbc490"
     },
     {
       "dataPath": "reports/workflow-card-viewer-validation.json",
       "bytes": 716,
       "sha256": "8512c58cda0ce7a66c489c983c48c808c1285e26404d479b82eb8c0ac67fb62e"
+    },
+    {
+      "dataPath": "reports/pompom-interactions-timing.json",
+      "bytes": 3868,
+      "sha256": "8a6eb7d7a8375f3e219b4e46de9f4001a87cf3319fa80578db68b06041cc3b51"
+    },
+    {
+      "dataPath": "reports/pompom-interactions-registration.json",
+      "bytes": 4137,
+      "sha256": "289f9fb280cb5af09d34b9ca851dded407bfe9c4a7ecbecfe4bd91af34486b9c"
+    },
+    {
+      "dataPath": "reports/pompom-interactions-prompt.txt",
+      "bytes": 2563,
+      "sha256": "a66056bbb2fddde9a58c7a33bad1f9a1254cd43f5f435f397f8777575d0c5e71"
     }
   ],
   "verification": {
-    "registeredAssetCount": 7,
+    "registeredAssetCount": 8,
     "allRegisteredByteCountsAndSHA256Match": true,
     "sourceCopiesSHA256Match": true
   },
@@ -281,6 +345,29 @@
       "javascriptErrors": 0,
       "evidenceReport": "pinpin-studio-proxy-20261003/viewer-proof.json",
       "sha256": "eb33b72d47cb857af97c1797b9d8f90893e2596faa09920bd66b40dbdc148c4c"
+    }
+  },
+  "requiredExtension": {
+    "kind": "separate-cast-interaction-page",
+    "status": "delivered-visual-qa-passed",
+    "requiredByDefault": true,
+    "coverage": [
+      "relative size with existing cast",
+      "normal supported postures",
+      "embracing and holding",
+      "age-appropriate shared interaction"
+    ],
+    "referenceAssetIds": [
+      "asset-483201f4d30299518e37b401",
+      "asset-88d74c56a468e3f250b12dbc"
+    ],
+    "latencyClaim": "not measured; no speed improvement claimed",
+    "assetId": "asset-56362912ae9b6173ac8464de",
+    "visualQA": {
+      "reviewer": "studio_media",
+      "result": "six relational studies visually pass; no artwork correction recommended",
+      "scope": "identity, relative size, natural postures, support and contact",
+      "changesRegistryApproval": false
     }
   }
 }

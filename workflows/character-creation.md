@@ -1,14 +1,22 @@
 # Character creation
 
-Deliver a coherent character reference package through the conversation: one prototype, a useful review loop, coordinated studies, and a unified sheet. Keep the result visible in chat rather than requiring an unrelated chapter or administrative screen.
+Deliver a coherent character reference package through the conversation: one prototype, a useful review loop, coordinated studies, a unified sheet, and a separate page showing the character with the existing cast. Keep the result visible in chat rather than requiring an unrelated chapter or administrative screen.
 
 ## Start from the request
 
 Read the character dossier, current entity and registered references. Inspect the actual reference images. Separate established identity and scale from proposed details: age, face, silhouette, proportions, colors, asymmetry, clothing and movement abilities.
 
-Discuss only the missing choices needed for a useful first draft. An ordinary request to make a character authorizes its first exploratory prototype; it does not need a second “go ahead,” a complete chapter plan, or an approval button. Make routine framing and presentation choices within the request. Keep original art intact.
+Give brief, natural feedback on the request or the latest visible candidate, then perform the next authorized generation. Do not replace execution with a plan recital or repeatedly ask for permission. Discuss only the missing choices needed for a useful first draft. An ordinary request to make a character authorizes its first exploratory prototype; it does not need a second “go ahead,” a complete chapter plan, or an approval button. Make routine framing and presentation choices within the request. Keep original art intact.
 
 For PinPin, retain the warm dimensional book style and readable staging for a four-year-old. An infant needs plausible support, distinct limbs and age-appropriate actions; do not invent independent standing or walking from a seated reference.
+
+## Prepare a compact, usable reference pack
+
+Load the current dossier and registered metadata once for the requested character and the cast involved. The pack should identify the working character/prototype, relevant family or pair images, each interaction partner, and the established book style. Give every reference a purpose (identity, relative size, contact/posture, or style), registered asset ID, full hash and available native image path. An ID or caption alone is not a visual reference: inspect the actual selected images and pass the relevant images to the generation tool.
+
+Use validated current registry/context data, not a growing dump of the entire book. Reuse an already inspected pack within the task; refresh the relevant entries when an asset or selection changes. Keep original references and new candidates distinct. If the supplied pack lacks a necessary cast member or usable image, retrieve that specific existing reference before generating rather than inventing the missing identity. Record which references actually went into each call. This describes the required preparation; it does not claim a particular hydration cache or API has been implemented.
+
+When configured live context supplies `characterContext.registrationToolchain`, use its validated `argvPrefix` array and append actual `--native-path`, `--prompt-file`, `--output-name` and repeated `--reference` values; do not rediscover or rebuild that command. Paired `--entity` and `--stage` options retain package receipts/provenance automatically and return a JSON `dossierPath` under `reports/character-packages/<entity>.json`. The field is omitted for historical review or missing/invalid configuration; this newer hydrated contract and the wait-policy update were not measured by the [three recorded trials](examples/character-latency-20261003.md).
 
 ## Make and show the prototype
 
@@ -36,16 +44,33 @@ Use a small number of coordinated multi-view sheets when that reduces turnaround
 | Expressions | Neutral, curious, happy, surprised, sleepy, mild upset |
 | Body views | Front, distinct three-quarter directions, side, back |
 | Gestures | Age-appropriate reaching, clapping, waving, holding or resting |
+| Separate cast-interaction page | Relative size, ordinary postures, embracing, holding and interacting with established characters |
+
+Use one direction convention in every face/body row: **screen-facing direction**, not anatomical left/right or the visible side of the character. Lock it in the generation prompt before the first call. A reusable specification is:
+
+> Front: nose centered toward viewer. Facing left 3/4: nose points to the LEFT edge of the image, both eyes visible. Facing left profile: nose points LEFT, true side view. Facing right 3/4: nose points to the RIGHT edge, both eyes visible. Facing right profile: nose points RIGHT, true side view. Rear: back of head/body with face not visible. Left and right three-quarter cells must depict opposite directions, never duplicate poses under different labels. Use these same labels and directions in face and body rows; do not mirror text or asymmetric identity details.
+
+Use the neutral heading **Expressions** by default; varied face angles are legitimate. Label gesture rows by their content. Put directional labels on individual view cells only when they describe the actual angle; do not give a whole expression row a directional heading. Following a targeted repair, check the repaired views and the untouched cells for unintended changes. Repeated direction mistakes count as repair calls in timing records, not as successful first-pass coverage.
 
 Keep identity, eye/muzzle/ear shapes, quill or hair treatment, relative scale, lighting and style consistent. Vary expression naturally; a forced smile or raised eyebrows in every cell is not an expression range. Do not silently mirror asymmetric details or mislabel duplicate orientations as different views.
 
 Inspect the source sheets before composing the final reference. Check anatomy, separate limbs, support, full-body framing, readable actions and identity drift. Correct meaningful defects with targeted edits. Retain rejected or superseded versions and record why a replacement was selected; do not repeatedly regenerate successful material merely to make progress appear visible.
 
+## Make the separate cast-interaction page
+
+The default character workflow **must include a separate image page** showing the character alongside existing cast members. It is a required deliverable, not an optional future suggestion or a row squeezed into the individual-view composite. Only an explicit user scope change removes it.
+
+Use a small, readable set of scenes to establish relative size and ordinary postures, including believable embracing, holding and interaction where appropriate for the character. Reference the existing family or pair artwork for proportions; individual portraits alone cannot establish cross-character scale. Include enough shared-ground or supported-body context to judge size without deceptive perspective. Do not invent measured heights when the references only establish relative size.
+
+For PomPom, preserve the tiny infant relative to Mama, Papa and older PinPin. Show secure support under hips/back while held or seated, clear arm ownership and contact during hugs, and gentle age-appropriate interaction with the older sibling. Do not enlarge the infant to the older child's size, make him stand independently, or make the cast pose as unrelated floating portraits.
+
+Before delivery inspect identity for every participant, relative scale across panels, gaze and shared action, plausible balance, hand/paw ownership, limb count, contact/occlusion and support. Avoid merged bodies, duplicated limbs, hands passing through quills or a baby apparently suspended without support. Use natural expression variation. Give brief concrete feedback, correct meaningful defects with the actual image tool, and preserve successful panels and prior outputs. Register this page separately with its real prompt and cast-reference lineage, and show it in chat at full size alongside the individual reference package.
+
 ## Deliver the composite and records
 
 Assemble a real readable image with labeled face, expression, body and gesture sections. Keep consistent scale within each group and enough space to distinguish views. Preserve the source sheets. Register the composite separately and show it prominently in chat alongside the source sheets.
 
-The package is concrete when the requested studies and composite exist, are registered and viewable, and their provenance and review decisions are recorded. Do not require a further administrative click to call the requested draft package delivered. If the user requested a final review, honor it at that point.
+The default package is complete when the requested individual studies, unified composite and separate cast-interaction page all exist, are registered and viewable, and their provenance and review decisions are recorded. A completed individual-study sheet does not stand in for the interaction page. Do not require a further administrative click to call the requested draft package delivered. If the user requested a final review, honor it at that point.
 
 Keep distinct:
 
@@ -88,5 +113,7 @@ Earlier sketches such as `CharacterReview { ... }`, typed workflow objects or de
 ## Evidence and latency
 
 Keep the dossier, exact prompts, registered input/output IDs, full hashes, native file locations, actual tool names, targeted revision lineage and attributed review notes together. Use local registered metadata and existing references; avoid repeated context scans, oversized duplicated attachments and unnecessary generation calls. Parallelize independent face/body studies only when the available tool path supports it, then review the combined result for consistency.
+
+Measure any latency claim from actual request, preparation, image-call, registration and visible-delivery timestamps. Separate generation time from setup/context time and distinguish a cold reference load from reuse; report retries and comparability limits. Do not call the workflow faster solely because the instructions are shorter, calls overlap, or a later request feels quicker.
 
 Report actual stage and results briefly. If generation is unavailable, identify the missing capability honestly and complete independent authorized work; do not disguise tool unavailability as an approval requirement.

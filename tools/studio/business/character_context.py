@@ -1,5 +1,10 @@
 """Bounded, revision-local character/reference indexes; all output is untrusted data."""
 from collections import defaultdict
+import hashlib
+import json
+import os
+from pathlib import Path
+import re
 
 
 class ReferenceIndex:
@@ -27,6 +32,64 @@ def compact_entity(entity):
               if isinstance(entity.get(key, ""), str)}
     result["referenceIds"] = list(entity.get("referenceIds", []))[:8]
     return result
+
+
+def prepared_toolchain(store, state):
+    """Read a bounded local machine configuration, never execute it or grant authority."""
+    if state.get("readOnly"):
+        return None
+    try:
+        path = store.root / "workflows" / "toolchain.json"
+        if not path.resolve().is_relative_to(store.root.resolve()):
+            return None
+        with path.open("rb") as stream:
+            raw = stream.read(16385)
+        if len(raw) > 16384:
+            return None
+        manifest = json.loads(raw)
+        if manifest.get("schemaVersion") != 1 or manifest.get("toolName") != "studio-register-image":
+            return None
+        argv = manifest.get("argvPrefix")
+        if (not isinstance(argv, list) or len(argv) != 4 or argv[2] != "--runtime-dir"
+                or any(not isinstance(x, str) or len(x) > 2048 or any(ord(c) < 32 for c in x) for x in argv)):
+            return None
+        python, helper, runtime = (Path(argv[i]) for i in (0, 1, 3))
+        if not all(p.is_absolute() for p in (python, helper, runtime)):
+            return None
+        if not python.is_file() or not os.access(python, os.X_OK) or not helper.is_file() or helper.name != "register-image.py":
+            return None
+        with helper.open("rb") as stream:
+            code = stream.read(262145)
+        if len(code) > 262144 or hashlib.sha256(code).hexdigest() != manifest.get("helperSha256"):
+            return None
+        with (runtime / "current-deployment.json").open("rb") as stream:
+            deployment_raw = stream.read(16385)
+        if len(deployment_raw) > 16384:
+            return None
+        deployment = json.loads(deployment_raw)
+        if Path(deployment["dataDirectory"]).resolve() != store.root.resolve():
+            return None
+        release = deployment.get("stableRelease", "")
+        if not isinstance(release, str) or not re.fullmatch("[a-f0-9]{64}", release):
+            return None
+        if not (runtime / "stable-releases" / release).is_dir():
+            return None
+        parameters = {"required": ["--native-path", "--prompt-file", "--output-name"],
+                      "repeatable": ["--reference"], "optional": ["--entity", "--stage"]}
+        output = {"format": "json", "fields": ["assetId", "sha256", "reviewStatus", "workflowCard",
+                  "timing", "dossierPath"], "dossierPath": "reports/character-packages/<entity>.json"}
+        if manifest.get("parameters") != parameters or manifest.get("outputContract") != output:
+            return None
+        # Keep verified argv bytes (including venv interpreter symlinks) unchanged.
+        # Descriptive text is fixed here rather than copied from arbitrary local prose.
+        return {"schemaVersion": 1, "toolName": "studio-register-image", "argvPrefix": argv,
+                "helperSha256": manifest["helperSha256"], "parameters": parameters,
+                "inputContract": "Exact native bytes, UTF-8 exact submitted prompt and registered reference IDs; --entity and --stage are paired.",
+                "outputContract": output,
+                "authority": "Local tool configuration only; registration keeps candidates unreviewed and grants no selection, publication or approval.",
+                "receipt": "With --entity/--stage the helper saves the actual receipt and provenance automatically; a custom dossier-writing script is unnecessary."}
+    except (OSError, ValueError, TypeError, KeyError, AttributeError):
+        return None
 
 
 def hydrate_character(store, state, entity, scenes, explicit_ids, index):
@@ -71,7 +134,7 @@ def hydrate_character(store, state, entity, scenes, explicit_ids, index):
                      "height": asset.get("height"), "reviewStatus": asset.get("reviewStatus"),
                      "roles": roles[identifier], "path": str(store.asset_path(identifier, state)),
                      "stage": str(provenance.get("stage", ""))[:120] if isinstance(provenance, dict) else ""})
-    return {"projectRevision": state["revision"], "character": compact_entity(entity),
+    pack = {"projectRevision": state["revision"], "character": compact_entity(entity),
             "establishedCast": cast, "references": refs,
             "omittedReferenceIds": [i for i in roles if i not in delivered][:24],
             "workflow": {"name": "character-creation",
@@ -79,4 +142,8 @@ def hydrate_character(store, state, entity, scenes, explicit_ids, index):
                          "stage": "unspecified; inspect recorded stage on attached references when present",
                          "source": "snapshot entity bindings and registered asset metadata; no live dossier loaded"},
             "selection": "Canonical references provide identity/relative-scale evidence; reviewStatus is unchanged."
-            }, automatic
+            }
+    toolchain = prepared_toolchain(store, state)
+    if toolchain is not None:
+        pack["registrationToolchain"] = toolchain
+    return pack, automatic

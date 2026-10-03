@@ -17,8 +17,7 @@ def now():
     return datetime.now(timezone.utc).isoformat()
 
 
-def register(args):
-    started, started_at = time.monotonic(), now()
+def load_store(args):
     if args.runtime_dir:
         runtime = Path(args.runtime_dir).expanduser().resolve()
         deployment = json.loads((runtime / "current-deployment.json").read_text())
@@ -38,10 +37,65 @@ def register(args):
     manifest = verify_bundle(kernel)
     if manifest.get("kind") != "stable-runtime":
         raise ValueError("Selected kernel is not a frozen stable-runtime release")
-    from store import Store, MAX_UPLOAD
-    from PIL import Image
+    from store import Store
     if not (data / "state.json").is_file():
         raise ValueError("Existing Studio data directory required")
+    return Store(data), manifest, data
+
+
+def safe_report(data, relative):
+    path = data / relative
+    if not path.resolve().is_relative_to(data) or path.is_symlink():
+        raise ValueError("Report path escapes data or is a symlink")
+    path.parent.mkdir(parents=True, exist_ok=True)
+    return path
+
+
+def dossier(path, entity):
+    value = json.loads(path.read_text()) if path.exists() else {"schemaVersion": 1, "entityId": entity, "stages": {}}
+    if value.get("schemaVersion") != 1 or value.get("entityId") != entity or not isinstance(value.get("stages"), dict):
+        raise ValueError("Existing dossier has an incompatible schema; preserved unchanged")
+    for stage in value["stages"].values():
+        if not isinstance(stage, dict) or not isinstance(stage.get("candidates"), list):
+            raise ValueError("Existing dossier candidates are invalid; preserved unchanged")
+    return value
+
+
+def setup_toolchain(args):
+    if not args.runtime_dir or args.data_dir:
+        raise ValueError("Setup requires --runtime-dir without a data override")
+    store, _, data = load_store(args)
+    from store import atomic_json
+    helper = Path(__file__).resolve()
+    value = {"schemaVersion": 1, "toolName": "studio-register-image",
+             "argvPrefix": [str(Path(sys.executable).absolute()), str(helper), "--runtime-dir", str(Path(args.runtime_dir).expanduser().resolve())],
+             "helperSha256": hashlib.sha256(helper.read_bytes()).hexdigest(),
+             "parameters": {"required": ["--native-path", "--prompt-file", "--output-name"], "repeatable": ["--reference"], "optional": ["--entity", "--stage"]},
+             "inputContract": "Exact native image bytes, UTF-8 exact prompt, registered reference IDs; entity/stage must be paired.",
+             "outputContract": {"format": "json", "fields": ["assetId", "sha256", "reviewStatus", "workflowCard", "timing", "dossierPath"], "dossierPath": "reports/character-packages/<entity>.json"},
+             "help": "Register unreviewed candidate and optional dossier in one call; no selection or approval."}
+    path = safe_report(data, "workflows/toolchain.json")
+    with store.lock():
+        atomic_json(path, value)
+    return {"toolchainPath": str(path), **value}
+
+
+def register(args):
+    started, started_at = time.monotonic(), now()
+    store, manifest, data = load_store(args)
+    from store import MAX_UPLOAD, atomic_json
+    from PIL import Image
+    state = store.read()
+    dossier_path = None
+    if bool(args.entity) != bool(args.stage):
+        raise ValueError("--entity and --stage must be supplied together")
+    if args.entity:
+        if not all(re.fullmatch("[A-Za-z0-9][A-Za-z0-9_-]{0,79}", item) for item in (args.entity, args.stage)):
+            raise ValueError("Entity and stage require safe identifiers")
+        if not any(entity["id"] == args.entity for entity in state["project"]["entities"]):
+            raise ValueError("Unknown entity: " + args.entity)
+        dossier_path = safe_report(data, "reports/character-packages/" + args.entity + ".json")
+        dossier(dossier_path, args.entity)
     if len(args.reference) > 12 or len(set(args.reference)) != len(args.reference):
         raise ValueError("Use at most12 unique registered references")
     source = Path(args.native_path).expanduser().resolve(strict=True)
@@ -57,8 +111,6 @@ def register(args):
     name = args.output_name
     if not name or len(name) > 160 or name in (".", "..") or Path(name).name != name or "\\" in name or any(ord(c) < 32 for c in name):
         raise ValueError("Output name must be a plain filename, maximum160 characters")
-    store = Store(data)
-    state = store.read()
     refs = []
     for identifier in args.reference:
         item = next((a for a in state["assets"] if a["id"] == identifier), None)
@@ -101,11 +153,26 @@ def register(args):
     completed_at = now()
     card = {"type": "WorkflowCard", "title": name, "text": "Unreviewed candidate. Original image available at full size.",
             "assetIds": [asset["id"]], "actions": []}
-    return {"assetId": asset["id"], "sha256": asset["sha256"], "bytes": asset["bytes"],
+    result = {"assetId": asset["id"], "sha256": asset["sha256"], "bytes": asset["bytes"],
             "reviewStatus": asset["reviewStatus"], "nativePath": str(source), "generatedPath": str(destination),
             "reused": bool(existing), "kernelRelease": manifest["hash"], "workflowCard": card,
             "timing": {"startedAt": started_at, "validatedAt": validated_at, "copiedAt": copied_at,
                        "registeredAt": completed_at, "registrationSeconds": round(time.monotonic() - started, 6)}}
+    if dossier_path:
+        result["dossierPath"] = str(dossier_path)
+        result["entityId"], result["stage"] = args.entity, args.stage
+        with store.lock():
+            value = dossier(dossier_path, args.entity)
+            stage = value["stages"].setdefault(args.stage, {"candidates": []})
+            receipt = {**result, "provenance": asset.get("provenance", {})}
+            previous = next((candidate for candidate in stage["candidates"] if candidate.get("assetId") == asset["id"]), None)
+            if previous is None:
+                stage["candidates"].append(receipt)
+            value["updatedAt"] = now()
+            atomic_json(dossier_path, value)
+        result["timing"]["dossierWrittenAt"] = now()
+        result["timing"]["helperTotalSeconds"] = round(time.monotonic() - started, 6)
+    return result
 
 
 def main():
@@ -114,14 +181,19 @@ def main():
     runtime.add_argument("--runtime-dir")
     runtime.add_argument("--kernel-root", help="Explicit verified frozen stable release directory")
     parser.add_argument("--data-dir", help="Existing data directory; defaults to runtime deployment manifest")
-    parser.add_argument("--native-path", required=True)
-    parser.add_argument("--prompt-file", required=True)
+    parser.add_argument("--setup-toolchain", action="store_true")
+    parser.add_argument("--entity")
+    parser.add_argument("--stage")
+    parser.add_argument("--native-path")
+    parser.add_argument("--prompt-file")
     parser.add_argument("--reference", action="append", default=[])
-    parser.add_argument("--output-name", required=True)
+    parser.add_argument("--output-name")
     parser.add_argument("--tool", default="image_gen.imagegen", choices=["image_gen.imagegen"], help="Actual source tool asserted by caller; not inferred from image pixels")
     args = parser.parse_args()
     try:
-        result = register(args)
+        if not args.setup_toolchain and not all((args.native_path, args.prompt_file, args.output_name)):
+            raise ValueError("--native-path, --prompt-file and --output-name are required")
+        result = setup_toolchain(args) if args.setup_toolchain else register(args)
     except Exception as exc:
         print(json.dumps({"error": {"code": "registration_failed", "message": str(exc)},
                           "advice": "Inspect existing assets before retrying; no approval or selection was performed."}))

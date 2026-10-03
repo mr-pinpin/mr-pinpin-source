@@ -2,8 +2,10 @@
 
 Reusable working methods for carrying a creative request through to a visible result.
 
-- [Character creation](character-creation.md): first prototype, inline review, coordinated views and a composite reference sheet.
+- [Character creation](character-creation.md): first prototype, inline review, coordinated views, a composite reference sheet and a required separate cast-interaction page.
 - [Mr. PomPom example](examples/mr-pompom.md): an actual Studio run, its registered outputs, reference lineage and review attribution.
+
+- [Character timing observations](examples/character-latency-20261003.md): measured PomPom, Mama and Papa runs with scope and comparison limits.
 
 These are operating guides, not extra approval gates. The original request authorizes ordinary reversible draft work. Ask only about a decision that genuinely blocks progress; honor review checkpoints the user explicitly requested. A recorded plan review, design confirmation, artifact selection and publication authorization are different decisions.
 
