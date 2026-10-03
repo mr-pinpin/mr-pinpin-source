@@ -1,7 +1,7 @@
 const test=require('node:test'),assert=require('node:assert/strict'),fs=require('node:fs'),path=require('node:path'),vm=require('node:vm');
 const root=path.join(__dirname,'../docs/storyboard'),story=JSON.parse(fs.readFileSync(path.join(root,'stories/bath-magic.json')));
 function api(){const c=vm.createContext({window:{},fetch:async()=>({ok:true,json:async()=>structuredClone(story)})});vm.runInContext(fs.readFileSync(path.join(root,'standalone-stories.js'),'utf8'),c);return c.window.standaloneStories;}
-test('approved bath is one continuous localized 173-image edition',async()=>{const a=api();assert(a.complete(story));assert.equal((await a.load('bath-magic')).scenes.length,173);for(const l of ['en','ru','es']){const e=a.edition(story,l);assert.equal(e.images[0].src,story.cover[l]);assert.equal(e.scenes.length,173);}assert.deepEqual(story.sectionNav.map(s=>s.startScene),[1,103,116,137]);});
+test('approved bath is one continuous localized 216-image edition',async()=>{const a=api();assert(a.complete(story));assert.equal((await a.load('bath-magic')).scenes.length,216);for(const l of ['en','ru','es']){const e=a.edition(story,l);assert.equal(e.images[0].src,story.cover[l]);assert.equal(e.scenes.length,216);}assert.deepEqual(story.sectionNav.map(s=>s.startScene),[1,146,159,180]);});
 test('bath rejects incomplete captions, duplicate scenes and misplaced spreads',()=>{for(const mutate of [s=>s.scenes.pop(),s=>s.scenes[2].id=s.scenes[1].id,s=>s.scenes[4].paragraphs.ru=[],s=>s.spreads[50].scenes=[0]]){const s=structuredClone(story);mutate(s);assert.equal(api().complete(s),false);}});
 
 test('home atlas keeps bedtime primary and exposes bath in the selected language',async()=>{
@@ -10,4 +10,12 @@ test('home atlas keeps bedtime primary and exposes bath in the selected language
  const a=c.window.AtlasStories;assert.equal(Object.keys(a.entries).length,4);
  for(const lang of ['en','ru','es']){assert.equal(a.href('home',lang),'index.html?story=home-sweet-home&lang='+lang);const items=await a.related('home',lang);assert.equal(items.length,1);assert.equal(items[0].href,'index.html?story=bath-magic&lang='+lang);assert.equal(items[0].title,story.title[lang]);}
  assert.equal((await a.related('lake','ru')).length,0);
+});
+
+// Editorial bytes/order are the reviewed R24 source, not a reconstructed summary.
+test('published bath preserves all R24 localized paragraphs and stable order',()=>{
+ const plan=JSON.parse(fs.readFileSync(path.join(root,'production/bath-magic-20261002-r24/story-plan.json')));
+ assert.deepEqual(story.scenes.slice(1).map(s=>s.id),plan.scenes.map(s=>s.id));
+ for(let i=0;i<plan.scenes.length;i++)assert.deepEqual(story.scenes[i+1].paragraphs,plan.scenes[i].paragraphs);
+ assert.equal(story.editionVersion,3);
 });

@@ -6,12 +6,12 @@ try{
 for(const width of [1440,390]){const page=await browser.newPage({viewport:{width,height:950}});page.on('pageerror',e=>result.errors.push(e.message));
 for(const lang of ['ru','en','es']){
 await page.goto(new URL('storyboard/?story=bath-magic&lang='+lang,base).href);await page.waitForSelector('article[data-story="bath-magic"] .scene');
-assert.equal(await page.locator('article[data-story="bath-magic"] .scene').count(),139);assert.equal(await page.locator('.story-section-nav a').count(),4);
-const imgs=await page.locator('article[data-story="bath-magic"] .scene-art img').evaluateAll(a=>Promise.all(a.map(async i=>{i.loading='eager';await i.decode();return i.naturalWidth;})));assert.equal(imgs.length,139);assert(imgs.every(Boolean));
+assert.equal(await page.locator('article[data-story="bath-magic"] .scene').count(),216);assert.equal(await page.locator('.story-section-nav a').count(),4);
+const imgs=await page.locator('article[data-story="bath-magic"] .scene-art img').evaluateAll(a=>Promise.all(a.map(async i=>{i.loading='eager';await i.decode();return i.naturalWidth;})));assert.equal(imgs.length,216);assert(imgs.every(Boolean));
 assert.equal(await page.locator('html').getAttribute('lang'),lang);assert(!(await page.evaluate(()=>document.documentElement.scrollWidth>innerWidth)));
 for(const n of [1,2,3,4]){const a=page.locator('.story-section-nav a').nth(n-1);const href=await a.getAttribute('href');await a.click();await page.waitForFunction(selector=>{const top=document.querySelector(selector).getBoundingClientRect().top;return top>=-1&&top<innerHeight;},href,{timeout:5000});}
 if(lang==='ru'){await page.evaluate(()=>scrollTo(0,0));await page.screenshot({path:path.join(out,'reader-'+width+'.png')});}
-result.readers.push({width,lang,images:139,dayLinks:4,noOverflow:true});
+result.readers.push({width,lang,images:216,dayLinks:4,noOverflow:true});
 }
 await page.goto(new URL('storyboard/?story=home-sweet-home&lang=ru',base).href);await page.waitForSelector('article[data-story="home-sweet-home"]');assert.equal(await page.locator('.story-section-nav').count(),0);
 await page.goto(new URL('storyboard/library.html?lang=ru',base).href);await page.waitForSelector('[data-download="bath-magic"]');assert(!(await page.locator('[data-download="bath-magic"]').isDisabled()));await page.locator('[data-story="bath-magic"] img').evaluate(i=>{i.loading='eager';return i.decode()});await page.screenshot({path:path.join(out,'library-'+width+'.png')});
