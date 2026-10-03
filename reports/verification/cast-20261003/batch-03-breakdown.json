@@ -1,0 +1,328 @@
+{
+  "messageId": "message-691a51149f744ea6945c",
+  "turnId": "01a10187-a1d8-7dc0-be21-b3638791e9da",
+  "eventCoverage": "complete",
+  "totalSeconds": 1325.420563,
+  "imageActivityUnionSeconds": 580.570209,
+  "otherElapsedSeconds": 744.850354,
+  "contextCompactionEvents": [],
+  "generationCallCount": 12,
+  "creativeRepairCount": 6,
+  "finalPages": 6,
+  "appCallWindowUnionSeconds": 581.0,
+  "appCallWindowSumSeconds": 1248.0,
+  "registrationReceiptSeconds": 0.927317,
+  "perCharacter": [
+    {
+      "entityId": "beaver",
+      "callCount": 4,
+      "repairCount": 2,
+      "summedCallSeconds": 237.0
+    },
+    {
+      "entityId": "mama-beaver",
+      "callCount": 5,
+      "repairCount": 3,
+      "summedCallSeconds": 572.0
+    },
+    {
+      "entityId": "beaver-kits",
+      "callCount": 3,
+      "repairCount": 1,
+      "summedCallSeconds": 439.0
+    }
+  ],
+  "calls": [
+    {
+      "entityId": "beaver",
+      "stage": "solo-first",
+      "before": {
+        "current_time": "2026-10-03 11:32:32 UTC"
+      },
+      "after": {
+        "current_time": "2026-10-03 11:33:15 UTC"
+      },
+      "seconds": 43.0,
+      "promptSha256": "32377b2ba27e557431a2a261afd19e42a8f6117992120561a5e3f00eaa9161fc"
+    },
+    {
+      "entityId": "beaver",
+      "stage": "solo",
+      "before": {
+        "current_time": "2026-10-03 11:35:27 UTC"
+      },
+      "after": {
+        "current_time": "2026-10-03 11:36:10 UTC"
+      },
+      "seconds": 43.0,
+      "promptSha256": "3ef2b6b1a47e750208bd3c756981475f8ec6cf3d4949996145b58198d83feef1"
+    },
+    {
+      "entityId": "beaver",
+      "stage": "interactions-first",
+      "before": {
+        "current_time": "2026-10-03 11:36:57 UTC"
+      },
+      "after": {
+        "current_time": "2026-10-03 11:37:46 UTC"
+      },
+      "seconds": 49.0,
+      "promptSha256": "f760935335a79ae02fbd979dae35a9fdcefe0216fa0e36c9f4c90e1c2981798f"
+    },
+    {
+      "entityId": "beaver",
+      "stage": "interactions-repair",
+      "before": {
+        "current_time": "2026-10-03 11:41:24 UTC"
+      },
+      "after": {
+        "current_time": "2026-10-03 11:43:06 UTC"
+      },
+      "seconds": 102.0,
+      "promptSha256": "a8775ab18a3b1b03cdd18755914849ce88bd9db66a7cc4f45e200ebc9dd43655"
+    },
+    {
+      "entityId": "mama-beaver",
+      "stage": "solo-first",
+      "before": {
+        "current_time": "2026-10-03 11:32:32 UTC"
+      },
+      "after": {
+        "current_time": "2026-10-03 11:34:31 UTC"
+      },
+      "seconds": 119.0,
+      "promptSha256": "2c541eaca9c137e92331a4d931a88198065cd2929faa5967877a20cd25852fab"
+    },
+    {
+      "entityId": "mama-beaver",
+      "stage": "solo",
+      "before": {
+        "current_time": "2026-10-03 11:35:27 UTC"
+      },
+      "after": {
+        "current_time": "2026-10-03 11:37:34 UTC"
+      },
+      "seconds": 127.0,
+      "promptSha256": "87733df02b1992eab51fc96dc9e9acbabab42417ed82435577e7bad8d2f05cd0"
+    },
+    {
+      "entityId": "mama-beaver",
+      "stage": "interactions-first",
+      "before": {
+        "current_time": "2026-10-03 11:36:57 UTC"
+      },
+      "after": {
+        "current_time": "2026-10-03 11:39:24 UTC"
+      },
+      "seconds": 147.0,
+      "promptSha256": "6119d91f1c48b0126cde86702a2745320bc7f2edf0d57ca57a7cd520ba39fca2"
+    },
+    {
+      "entityId": "mama-beaver",
+      "stage": "interactions-repair",
+      "before": {
+        "current_time": "2026-10-03 11:41:24 UTC"
+      },
+      "after": {
+        "current_time": "2026-10-03 11:43:44 UTC"
+      },
+      "seconds": 140.0,
+      "promptSha256": "e4f34f10af94cd74b84a452f5d9cc8d3096450094530db3898b7e6f37b12ac9b"
+    },
+    {
+      "entityId": "mama-beaver",
+      "stage": "interactions-final-repair",
+      "before": {
+        "current_time": "2026-10-03 11:45:25 UTC"
+      },
+      "after": {
+        "current_time": "2026-10-03 11:46:04 UTC"
+      },
+      "seconds": 39.0,
+      "promptSha256": "d3598dd39762122c5a4da30cb9ece49931efabc72dfd2d31ce99035276864fc2"
+    },
+    {
+      "entityId": "beaver-kits",
+      "stage": "solo-first",
+      "before": {
+        "current_time": "2026-10-03 11:32:32 UTC"
+      },
+      "after": {
+        "current_time": "2026-10-03 11:33:54 UTC"
+      },
+      "seconds": 82.0,
+      "promptSha256": "9b025d7849d79e684e2dde1caafdba7d5fea86a60be6a8063c06d24a6e644165"
+    },
+    {
+      "entityId": "beaver-kits",
+      "stage": "solo",
+      "before": {
+        "current_time": "2026-10-03 11:35:27 UTC"
+      },
+      "after": {
+        "current_time": "2026-10-03 11:38:11 UTC"
+      },
+      "seconds": 164.0,
+      "promptSha256": "b6b12097bfb4bea1b15a8efe89592723e58fd2ae5dd8316a216be9ba607f5845"
+    },
+    {
+      "entityId": "beaver-kits",
+      "stage": "interactions-first",
+      "before": {
+        "current_time": "2026-10-03 11:36:57 UTC"
+      },
+      "after": {
+        "current_time": "2026-10-03 11:40:10 UTC"
+      },
+      "seconds": 193.0,
+      "promptSha256": "9e31144537972e611b5cb8bcccb9710a0dbc94d2a0ee920e77753b58b7d619d0"
+    }
+  ],
+  "registrationReceipts": [
+    {
+      "entityId": "beaver",
+      "stage": "solo-first",
+      "assetId": "asset-8444988cc8ff0642353db6ef",
+      "timing": {
+        "startedAt": "2026-10-03T11:35:26.377214+00:00",
+        "validatedAt": "2026-10-03T11:35:26.421953+00:00",
+        "copiedAt": "2026-10-03T11:35:26.423615+00:00",
+        "registeredAt": "2026-10-03T11:35:26.455333+00:00",
+        "registrationSeconds": 0.078127
+      }
+    },
+    {
+      "entityId": "beaver",
+      "stage": "solo",
+      "assetId": "asset-c9839909f2fbd1f5b131eb17",
+      "timing": {
+        "startedAt": "2026-10-03T11:38:53.884101+00:00",
+        "validatedAt": "2026-10-03T11:38:53.925127+00:00",
+        "copiedAt": "2026-10-03T11:38:53.926890+00:00",
+        "registeredAt": "2026-10-03T11:38:53.959163+00:00",
+        "registrationSeconds": 0.075069
+      }
+    },
+    {
+      "entityId": "beaver",
+      "stage": "interactions-first",
+      "assetId": "asset-77f25029c96b2461b2e35662",
+      "timing": {
+        "startedAt": "2026-10-03T11:41:24.219667+00:00",
+        "validatedAt": "2026-10-03T11:41:24.266870+00:00",
+        "copiedAt": "2026-10-03T11:41:24.268990+00:00",
+        "registeredAt": "2026-10-03T11:41:24.302062+00:00",
+        "registrationSeconds": 0.082402
+      }
+    },
+    {
+      "entityId": "beaver",
+      "stage": "interactions",
+      "assetId": "asset-c088e8310e6c827e23e074f9",
+      "timing": {
+        "startedAt": "2026-10-03T11:45:25.470698+00:00",
+        "validatedAt": "2026-10-03T11:45:25.512324+00:00",
+        "copiedAt": "2026-10-03T11:45:25.514306+00:00",
+        "registeredAt": "2026-10-03T11:45:25.549370+00:00",
+        "registrationSeconds": 0.07868
+      }
+    },
+    {
+      "entityId": "mama-beaver",
+      "stage": "solo-first",
+      "assetId": "asset-77cc0eb6c0787b639492341e",
+      "timing": {
+        "startedAt": "2026-10-03T11:35:26.688234+00:00",
+        "validatedAt": "2026-10-03T11:35:26.728565+00:00",
+        "copiedAt": "2026-10-03T11:35:26.730294+00:00",
+        "registeredAt": "2026-10-03T11:35:26.762606+00:00",
+        "registrationSeconds": 0.074378
+      }
+    },
+    {
+      "entityId": "mama-beaver",
+      "stage": "solo",
+      "assetId": "asset-2a871ba140b794319abca46a",
+      "timing": {
+        "startedAt": "2026-10-03T11:38:54.194850+00:00",
+        "validatedAt": "2026-10-03T11:38:54.235005+00:00",
+        "copiedAt": "2026-10-03T11:38:54.236624+00:00",
+        "registeredAt": "2026-10-03T11:38:54.269180+00:00",
+        "registrationSeconds": 0.074337
+      }
+    },
+    {
+      "entityId": "mama-beaver",
+      "stage": "interactions-first",
+      "assetId": "asset-ef70ed3e51e109c570b7323b",
+      "timing": {
+        "startedAt": "2026-10-03T11:41:24.560404+00:00",
+        "validatedAt": "2026-10-03T11:41:24.601289+00:00",
+        "copiedAt": "2026-10-03T11:41:24.603471+00:00",
+        "registeredAt": "2026-10-03T11:41:24.637439+00:00",
+        "registrationSeconds": 0.077044
+      }
+    },
+    {
+      "entityId": "mama-beaver",
+      "stage": "interactions-repair-first",
+      "assetId": "asset-acd31411e239767c723beef0",
+      "timing": {
+        "startedAt": "2026-10-03T11:45:25.787583+00:00",
+        "validatedAt": "2026-10-03T11:45:25.828488+00:00",
+        "copiedAt": "2026-10-03T11:45:25.830536+00:00",
+        "registeredAt": "2026-10-03T11:45:25.863829+00:00",
+        "registrationSeconds": 0.076254
+      }
+    },
+    {
+      "entityId": "mama-beaver",
+      "stage": "interactions",
+      "assetId": "asset-6f9af7a36059b6943f2ade3e",
+      "timing": {
+        "startedAt": "2026-10-03T11:47:24.579519+00:00",
+        "validatedAt": "2026-10-03T11:47:24.627522+00:00",
+        "copiedAt": "2026-10-03T11:47:24.629475+00:00",
+        "registeredAt": "2026-10-03T11:47:24.662249+00:00",
+        "registrationSeconds": 0.082737
+      }
+    },
+    {
+      "entityId": "beaver-kits",
+      "stage": "solo-first",
+      "assetId": "asset-dda910b75ff185286b0aaa13",
+      "timing": {
+        "startedAt": "2026-10-03T11:35:26.995833+00:00",
+        "validatedAt": "2026-10-03T11:35:27.036316+00:00",
+        "copiedAt": "2026-10-03T11:35:27.038167+00:00",
+        "registeredAt": "2026-10-03T11:35:27.070879+00:00",
+        "registrationSeconds": 0.075055
+      }
+    },
+    {
+      "entityId": "beaver-kits",
+      "stage": "solo",
+      "assetId": "asset-3c000d97be4fd3a4a43bf055",
+      "timing": {
+        "startedAt": "2026-10-03T11:38:54.502445+00:00",
+        "validatedAt": "2026-10-03T11:38:54.543249+00:00",
+        "copiedAt": "2026-10-03T11:38:54.544994+00:00",
+        "registeredAt": "2026-10-03T11:38:54.577992+00:00",
+        "registrationSeconds": 0.075555
+      }
+    },
+    {
+      "entityId": "beaver-kits",
+      "stage": "interactions",
+      "assetId": "asset-077859e5bfa029dc22cefd18",
+      "timing": {
+        "startedAt": "2026-10-03T11:41:24.872903+00:00",
+        "validatedAt": "2026-10-03T11:41:24.914238+00:00",
+        "copiedAt": "2026-10-03T11:41:24.916548+00:00",
+        "registeredAt": "2026-10-03T11:41:24.950573+00:00",
+        "registrationSeconds": 0.077679
+      }
+    }
+  ],
+  "definitions": "App calls use whole-second clock. API callbacks have no call IDs and overlap, so no per-call backend duration assigned. Other elapsed includes review/tools/tests/docs/verification/delivery, not pure overhead."
+}

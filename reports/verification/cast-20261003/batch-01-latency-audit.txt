@@ -1,0 +1,52 @@
+Cast batch measurement audit — 2026-10-03
+READ ONLY. No app messages, source edits or production changes.
+
+Batch02 capture RUNNING independently, timeout3600s:
+message-59544b6c746b4ff19f70; accepted10:55:22.814466UTC;
+HTTP acceptance0.067474s was for batch01; batch02 HTTP latency not supplied.
+Files batch-02-capture.json, batch-02-metrics.json. Persistent session32591.
+
+Batch01 completeness:
+message-39d1c289dc504feb85ac
+accepted2026-10-03T10:11:26.054917+00:00
+final text START10:39:05.461537UTC
+final API message2026-10-03T10:39:11.913714+00:00
+turn complete2026-10-03T10:39:11.942226+00:00
+Mini collector observed2026-10-03T10:39:12.854088+00:00
+cursor5468; complete eventcoverage; no capture eventGap.
+Final message IDmsg_0c7e807191abf74f016ac0db46e00c87d2b5c5fb205b5d1254.
+Total1665.887309s (27m45.887s).
+First visible running0.169129s; first assistant text58.655107s.
+Three image activity intervals128.609903s total (2m8.610s).
+Otherelapsed1537.277406s; NOT all orchestration or connectivity wait.
+
+Phase evidence from saved assistant messages:
+10:12:24: resumable workflow, original/published cast audit and first missing
+package announced.
+10:19:17: workflow loads through app context; cast records/queue being finished.
+10:24:14: PinPin solo generated and registered.
+10:28:21: two interaction panels require scale repair.
+10:30:41: fresh-session resume and hot UI/queue/notes checks reported passing.
+10:35:43: corrected package/native verification done; final resume/build checks.
+10:39:05–10:39:11: final response streamed and completed.
+
+Observed boundaries (not exclusive accounting of engineering versus art):
+Acceptance→first image activity: 649.581345s.
+First image start→last image finish: 428.875063s,
+including generation gaps/review/repair; active image tool windows128.609903s.
+Last image finish→turn complete: 587.430901s,
+with app integration, package/resume verification and final delivery.
+This first batch built persistent workflow/queue/context/UI AND produced/repaired
+PinPin. It is not a clean per-character generation benchmark.
+
+Connectivity distinction:
+Parent reported Air access outage approximately10:36–10:55.
+The remote Mini collector kept running and captured server completion10:39:11.
+Thus no evidence that this entire outage was Studio backend waiting. Approximately
+15m48 after completion elapsed before reported10:55 access restoration; this was
+external observation/access delay, not image generation latency.
+Batch01complete→batch02accepted is970.872240s
+(16m10.872s), encompassing access recovery and coordinator turnaround.
+No timestamp fabricated for restoration, browser paint or internal model timing.
+
+Compaction category addendum: persisted events4714/4716 show context compaction10:15:45.753533–10:18:47.266310UTC, 181.512777s. This lies inside the early setup phase; separate it from engineering in the aggregate index. Prior total and image times remain unchanged.

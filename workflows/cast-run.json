@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-03T13:11:55.030524+00:00",
+  "updatedAt": "2026-10-03T13:59:32.999949+00:00",
   "characters": [
     {
       "id": "pinpin",
@@ -1199,25 +1199,67 @@
       ],
       "exactAge": "not stated",
       "evidencedLifeStage": "recurring mixed squirrel community; unnamed cast group, not named invented individuals",
-      "status": "pending",
+      "status": "produced",
       "dossierPath": "workflows/characters/squirrel-community/README.md",
       "evidencePath": "workflows/characters/squirrel-community/evidence.json",
       "evidenceCount": 18,
-      "registeredReferenceIds": [],
-      "outputs": [],
+      "registeredReferenceIds": [
+        "asset-12eb0a8dc54eaf3a566ecdaf"
+      ],
+      "outputs": [
+        {
+          "assetId": "asset-bfab0ba001b2c59549c1f99e",
+          "sha256": "bfab0ba001b2c59549c1f99e6e24775d9d8c8400adb57302bcbd941c8bb006d7"
+        },
+        {
+          "assetId": "asset-c7aabf49510719900e41e7fb",
+          "sha256": "c7aabf49510719900e41e7fb740c7d7f7b5ea394bc9134ff25f69f1e86313eeb"
+        }
+      ],
       "constraints": {
         "identity": "recurring mixed squirrel community; unnamed cast group, not named invented individuals",
         "scale": "Not measured; use original/published indexed visual evidence",
         "geometry": ""
       },
-      "stages": {},
-      "missingStages": [
-        "solo",
-        "interactions"
-      ],
-      "nextStage": "solo",
-      "complete": false,
-      "claimedStatus": "pending"
+      "stages": {
+        "solo": {
+          "assetId": "asset-bfab0ba001b2c59549c1f99e",
+          "sha256": "bfab0ba001b2c59549c1f99e6e24775d9d8c8400adb57302bcbd941c8bb006d7",
+          "nativePath": "/Users/miguel_lemos/.codex/generated_images/01a0ff85-92dc-7c40-9adb-ef240551a423/exec-2f37d767-8266-4697-8a60-ba50f0b990f3.png",
+          "generatedPath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/generated/bfab0ba001b2c595-squirrel-community-solo.png",
+          "receiptKind": null
+        },
+        "interactions": {
+          "assetId": "asset-c7aabf49510719900e41e7fb",
+          "sha256": "c7aabf49510719900e41e7fb740c7d7f7b5ea394bc9134ff25f69f1e86313eeb",
+          "nativePath": "/Users/miguel_lemos/.codex/generated_images/01a0ff85-92dc-7c40-9adb-ef240551a423/exec-dcd51a43-7a46-4441-ae86-191bf53968e9.png",
+          "generatedPath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/generated/c7aabf4951071990-squirrel-community-interactions.png",
+          "receiptKind": null
+        }
+      },
+      "missingStages": [],
+      "nextStage": null,
+      "complete": true,
+      "claimedStatus": "produced",
+      "referenceBindings": {
+        "speciesAndRole": "Recurring unnamed squirrel community: experienced adult advisers/builders and their young are sourced. Show TWO representative proposed designs, not canonical total: one older gray-brown adviser with cream muzzle and one smaller russet youngster with cream belly; tufted ears, bushy tails, squirrel paws, no hedgehog quills. No personal names or precise ages, no inferred sex. Adults capable of planning/building; young age-appropriate play.",
+        "counterpartIds": [
+          "papa",
+          "pinpin",
+          "oreshek"
+        ],
+        "designBasis": "Original chapters19–25 establish advisers, builders and young, with actual image73 showing varied squirrels working with hedgehogs. Group visuals establish diversity, not named individual portraits. Two representative faces/colors/relative sizes are proposed book adaptations.",
+        "sourceReferences": [
+          {
+            "assetId": "asset-12eb0a8dc54eaf3a566ecdaf",
+            "sha256": "12eb0a8dc54eaf3a566ecdaf672672e08c22e163019d212de00f126e2e45d931",
+            "role": "original-visual-context"
+          }
+        ]
+      },
+      "qaNote": "Inspected native pages: identity, directions, anatomy, scale/contact. Agent QA only; no personal Miguel approval.",
+      "timingPath": "reports/character-packages/squirrel-community-generation.json",
+      "completedAt": "2026-10-03T13:37:36.767666+00:00"
     },
     {
       "id": "migrating-bird-family",
@@ -1229,25 +1271,66 @@
       ],
       "exactAge": "not stated",
       "evidencedLifeStage": "recurring bird family from chapter 8; broad family matches require contextual review",
-      "status": "pending",
+      "status": "produced",
       "dossierPath": "workflows/characters/migrating-bird-family/README.md",
       "evidencePath": "workflows/characters/migrating-bird-family/evidence.json",
       "evidenceCount": 35,
-      "registeredReferenceIds": [],
-      "outputs": [],
+      "registeredReferenceIds": [
+        "asset-3da638615ab0e52d60c8ea61"
+      ],
+      "outputs": [
+        {
+          "assetId": "asset-5deafc271a86abb0291f896c",
+          "sha256": "5deafc271a86abb0291f896c7e9f1d178ac3592b2753964ea9823b4af2c937d2"
+        },
+        {
+          "assetId": "asset-724018170df3f256abb11760",
+          "sha256": "724018170df3f256abb117600e91decc3709ab94dc439a9d4f2fb0b8043fb2e2"
+        }
+      ],
       "constraints": {
         "identity": "recurring bird family from chapter 8; broad family matches require contextual review",
         "scale": "Not measured; use original/published indexed visual evidence",
         "geometry": ""
       },
-      "stages": {},
-      "missingStages": [
-        "solo",
-        "interactions"
-      ],
-      "nextStage": "solo",
-      "complete": false,
-      "claimedStatus": "pending"
+      "stages": {
+        "solo": {
+          "assetId": "asset-5deafc271a86abb0291f896c",
+          "sha256": "5deafc271a86abb0291f896c7e9f1d178ac3592b2753964ea9823b4af2c937d2",
+          "nativePath": "/Users/miguel_lemos/.codex/generated_images/01a0ff85-92dc-7c40-9adb-ef240551a423/exec-a9efb0f6-aadd-4aec-b128-a9ad518c9d6d.png",
+          "generatedPath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/generated/5deafc271a86abb0-migrating-bird-family-solo-cell-repaired.png",
+          "receiptKind": null
+        },
+        "interactions": {
+          "assetId": "asset-724018170df3f256abb11760",
+          "sha256": "724018170df3f256abb117600e91decc3709ab94dc439a9d4f2fb0b8043fb2e2",
+          "nativePath": "/Users/miguel_lemos/.codex/generated_images/01a0ff85-92dc-7c40-9adb-ef240551a423/exec-ea315ad4-fbc8-4790-8348-2d2872e6a307.png",
+          "generatedPath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/generated/724018170df3f256-migrating-bird-family-interactions-repaired.png",
+          "receiptKind": null
+        }
+      },
+      "missingStages": [],
+      "nextStage": null,
+      "complete": true,
+      "claimedStatus": "produced",
+      "referenceBindings": {
+        "speciesAndRole": "Recurring unnamed bird family migrates south to Africa each year; old Pipilini used to lead the flock but cannot travel that far now (original chapter8). Show TWO representative capable flying birds, mature-looking larger and smaller companion, not canonical count, sex or asserted parent/chick relationship. Proposed pale rose/cream feather design related to working Pipilini with reddish small beaks, folded feather wings, thin supported feet, long light rose tails. No mammal arms. Pipilini is the separate older weak-winged character, not one of these active flying representatives.",
+        "counterpartIds": [
+          "pipilini",
+          "pinpin"
+        ],
+        "designBasis": "Original chapter8 block3 establishes family and migration; relative ages within the family, number, species and individual appearance are not specified. Image49 has one unlabeled pale rose bird, not a family portrait. Proposed representative size/role differentiation remains explicitly unsourced; established older Pipilini identity is retained only as counterpart.",
+        "sourceReferences": [
+          {
+            "assetId": "asset-3da638615ab0e52d60c8ea61",
+            "sha256": "3da638615ab0e52d60c8ea6130b0a1b103845a4e6f7b40de9a9bff6dbcf534ea",
+            "role": "original-visual-context"
+          }
+        ]
+      },
+      "qaNote": "Inspected native pages: identity, directions, anatomy, scale/contact. Agent QA only; no personal Miguel approval.",
+      "timingPath": "reports/character-packages/migrating-bird-family-generation.json",
+      "completedAt": "2026-10-03T13:59:32.999885+00:00"
     },
     {
       "id": "tarin",
@@ -1257,8 +1340,17 @@
       ],
       "exactAge": "not stated",
       "evidencedLifeStage": "old hedgehog; explicit tall HUMAN wizard transformation and sunset hedgehog reversion",
-      "status": "pending",
-      "outputs": [],
+      "status": "produced",
+      "outputs": [
+        {
+          "assetId": "asset-53a1259d91e1c489a9796f62",
+          "sha256": "53a1259d91e1c489a9796f62b38c048615567c4f980442707ff0d42825802d86"
+        },
+        {
+          "assetId": "asset-f9965f1ec6a470c0f6b7cac8",
+          "sha256": "f9965f1ec6a470c0f6b7cac87c36f66a7e8104e7093bec86d9448f796d98afee"
+        }
+      ],
       "dossierPath": "workflows/characters/tarin/README.md",
       "evidencePath": "workflows/characters/tarin/evidence.json",
       "requiredForms": [
@@ -1270,17 +1362,56 @@
         "identity": "Both explicit forms required; do not merge away human form",
         "scale": "human form tall per original; exact height not stated"
       },
-      "stages": {},
-      "missingStages": [
-        "solo",
-        "interactions"
+      "stages": {
+        "solo": {
+          "assetId": "asset-53a1259d91e1c489a9796f62",
+          "sha256": "53a1259d91e1c489a9796f62b38c048615567c4f980442707ff0d42825802d86",
+          "nativePath": "/Users/miguel_lemos/.codex/generated_images/01a0ff85-92dc-7c40-9adb-ef240551a423/exec-c2f7da6c-7e82-4be1-8468-6cb66a77efde.png",
+          "generatedPath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/generated/53a1259d91e1c489-tarin-solo-directions.png",
+          "receiptKind": null
+        },
+        "interactions": {
+          "assetId": "asset-f9965f1ec6a470c0f6b7cac8",
+          "sha256": "f9965f1ec6a470c0f6b7cac87c36f66a7e8104e7093bec86d9448f796d98afee",
+          "nativePath": "/Users/miguel_lemos/.codex/generated_images/01a0ff85-92dc-7c40-9adb-ef240551a423/exec-66b28c3c-e929-46e9-982b-45fb4cd7678b.png",
+          "generatedPath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/generated/f9965f1ec6a470c0-tarin-interactions.png",
+          "receiptKind": null
+        }
+      },
+      "missingStages": [],
+      "nextStage": null,
+      "complete": true,
+      "claimedStatus": "produced",
+      "referenceBindings": {
+        "speciesAndRole": "Tarin is a HUMAN WIZARD who deliberately took hedgehog form, returns to tall human form after enchanted coffee, then becomes hedgehog again at sunset (original chapter13 blocks6–10,12). HUMAN: old-looking male wizard, white wavy shoulder-length hair, long white beard and bushy brows, rounded pink nose, small round spectacles, rich gold robe with subtle embroidered trim and brown shoes, actual original image77 identity. HEDGEHOG: proposed elderly salt-and-pepper/gray-brown quills, cream face/chest, white eyebrows and warm brown eyes echoing human form, rounded ears/muzzle, natural two paws/two feet, no human beard or robe. Both depictions are ONE person in alternative forms, never two independent cast members.",
+        "counterpartIds": [
+          "pinpin",
+          "pipilini"
+        ],
+        "designBasis": "Human/hedgehog transformation is explicit source text. Actual original images77/71 show human wizard in gold robe with white beard/hair; glasses appear in77, not71. These control proposed dimensional human adaptation. No verified Tarin hedgehog portrait: hedgehog pictured beside wizard is a companion, not assumed Tarin. Tarin’s relationship to published hedgehog Elder is unresolved; keep this distinct requirement, do not copy or silently alias published Elder. The final human study retains a generated carved walking staff as a proposed prop, absent from inspected original portraits; it is not asserted as manuscript canon.",
+        "sourceReferences": [
+          {
+            "assetId": "asset-cdeee8375b17db34dfd4c717",
+            "sha256": "cdeee8375b17db34dfd4c7172201a8f49069e2b57a72e28a76f5e74463404511",
+            "role": "identity-human-form"
+          },
+          {
+            "assetId": "asset-142c73e7c61651a59e322f0c",
+            "sha256": "142c73e7c61651a59e322f0cc2d81b0443a96cbe560accf3840e82445f7a2359",
+            "role": "identity-human-form"
+          }
+        ]
+      },
+      "registeredReferenceIds": [
+        "asset-cdeee8375b17db34dfd4c717",
+        "asset-142c73e7c61651a59e322f0c"
       ],
-      "nextStage": "solo",
-      "complete": false,
-      "claimedStatus": "pending"
+      "qaNote": "Inspected native pages: identity, directions, anatomy, scale/contact. Agent QA only; no personal Miguel approval.",
+      "timingPath": "reports/character-packages/tarin-generation.json",
+      "completedAt": "2026-10-03T13:45:51.570250+00:00"
     }
   ],
-  "nextEntityId": "squirrel-community",
+  "nextEntityId": null,
   "notetaker": {
     "available": false,
     "evidence": "Coordinator reports bounded connected-tool/plugin/repo discovery found no configured Notetaker integration.",

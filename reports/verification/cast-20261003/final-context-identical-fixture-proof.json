@@ -1,0 +1,90 @@
+{
+  "fixture": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-cast-20261003/final-context-matrix-ugnvsaoi/data",
+  "beforeBusiness": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-runtime/business-builds/d3512c2c4940dfc69c7701dd31c7fe69e8bac429792cf92cb5f9a8af63089534",
+  "afterBusiness": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-runtime/business-builds/a62a8fbdada5baadd1f418ef88a2126c5494a96831ad8e737fda7ddc697da590",
+  "checks": [
+    {
+      "case": "selected exact selection/native IDs preserved",
+      "passed": true
+    },
+    {
+      "case": "selected reference roles/paths/hashes preserved",
+      "passed": true
+    },
+    {
+      "case": "selected selected pending dossier retained",
+      "passed": true
+    },
+    {
+      "case": "selected unrelated dossiers/bindings omitted",
+      "passed": true
+    },
+    {
+      "case": "selected full guide retrievable by unchanged path/hash",
+      "passed": true
+    },
+    {
+      "case": "selected compact21queue remains",
+      "passed": true
+    },
+    {
+      "case": "resume exact selection/native IDs preserved",
+      "passed": true
+    },
+    {
+      "case": "resume reference roles/paths/hashes preserved",
+      "passed": true
+    },
+    {
+      "case": "resume selected pending dossier retained",
+      "passed": true
+    },
+    {
+      "case": "resume unrelated dossiers/bindings omitted",
+      "passed": true
+    },
+    {
+      "case": "resume full guide retrievable by unchanged path/hash",
+      "passed": true
+    },
+    {
+      "case": "resume compact21queue remains",
+      "passed": true
+    },
+    {
+      "case": "historical never invokes mutable workflow/toolchain",
+      "passed": true
+    },
+    {
+      "case": "no conversation file needed",
+      "passed": true
+    }
+  ],
+  "measurements": {
+    "selected": {
+      "beforeBytes": 75647,
+      "afterBytes": 16507,
+      "reductionPercent": 78.18
+    },
+    "resume": {
+      "beforeBytes": 75642,
+      "afterBytes": 16502,
+      "reductionPercent": 78.18
+    }
+  },
+  "sourceHashes": {
+    "character_context.py": "ee5d020cc5667214cbc7460bcc336804ec9b3d267e671097868aff2cc8cac198",
+    "cast_workflow.py": "562c71daabad3ee3ee6d32e46f79b787e377796cbe0636de5443a65b64dfe4da",
+    "__init__.py": "9a542f8b4e9cd84c7b2b740375eb3e7a8077d5c84d318c50659925df9ac4b799",
+    "creative_policy.py": "460da08659a51fde2e48c5e4477a1e3a80f7f7790fd4ff6e232085f7ef37e5b5",
+    "jobs.py": "fd012e3f84e1b4c3ea30716c1355bf29dea459acbe1de674bfc8eab6248fd7a1",
+    "context.py": "aa236e60724faffd681b46ef77e1b0df160c4857278681e120ccbb63b19d66d0",
+    "conversation_plan.py": "b6461491e0e5fda5e15cb8f990215335421810dda5189676c47437ff599ff13f",
+    "cast_inventory.py": "6a09ed3a6bc6896acce8308df7e24e607ae0e325689608acc5a7842fb185b2c7",
+    "insights.py": "85d93b424d0e99bf2c388d3398d871bdd01bb5c96e679ee00ceb285cbe585ccd",
+    "boards.py": "bac288faa56e74dcaf6314a2be5f1f475a0c58d856a5d4ac55fa47b49b923726",
+    "media_library.py": "8a982fb92382ba1195510031101933152eb0d8e8b3149bbfa34f795ccb649c16",
+    "routes.py": "d8885fa343e8f244722708361c60da2b295feb135c76ff05169dc6e9e68a87fe"
+  },
+  "scope": "Fresh process per business version, identical isolated data; no model turn/reset or art generation."
+}

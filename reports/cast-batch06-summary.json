@@ -1,0 +1,155 @@
+{
+  "batch": "batch06",
+  "characters": [
+    {
+      "entityId": "squirrel-community",
+      "stages": {
+        "solo": {
+          "assetId": "asset-bfab0ba001b2c59549c1f99e",
+          "sha256": "bfab0ba001b2c59549c1f99e6e24775d9d8c8400adb57302bcbd941c8bb006d7",
+          "nativePath": "/Users/miguel_lemos/.codex/generated_images/01a0ff85-92dc-7c40-9adb-ef240551a423/exec-2f37d767-8266-4697-8a60-ba50f0b990f3.png",
+          "generatedPath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/generated/bfab0ba001b2c595-squirrel-community-solo.png",
+          "receiptKind": null
+        },
+        "interactions": {
+          "assetId": "asset-c7aabf49510719900e41e7fb",
+          "sha256": "c7aabf49510719900e41e7fb740c7d7f7b5ea394bc9134ff25f69f1e86313eeb",
+          "nativePath": "/Users/miguel_lemos/.codex/generated_images/01a0ff85-92dc-7c40-9adb-ef240551a423/exec-dcd51a43-7a46-4441-ae86-191bf53968e9.png",
+          "generatedPath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/generated/c7aabf4951071990-squirrel-community-interactions.png",
+          "receiptKind": null
+        }
+      },
+      "dossierPath": "workflows/characters/squirrel-community/README.md",
+      "next": "migrating-bird-family",
+      "remaining": [
+        "migrating-bird-family",
+        "tarin"
+      ],
+      "workflowCard": {
+        "type": "WorkflowCard",
+        "title": "squirrel-community — complete draft package",
+        "assetIds": [
+          "asset-bfab0ba001b2c59549c1f99e",
+          "asset-c7aabf49510719900e41e7fb"
+        ],
+        "actions": []
+      },
+      "metrics": {
+        "imageCalls": 2,
+        "measuredImageCalls": 2,
+        "recoveredRendersWithoutMeasuredBounds": 0,
+        "repairCalls": 0,
+        "summedImageCallWindowSeconds": 181.0,
+        "registrationSeconds": 0.15756,
+        "firstPassBodyDirectionErrors": [],
+        "endToEndSeconds": null,
+        "monetaryCost": null
+      },
+      "generationPath": "reports/character-packages/squirrel-community-generation.json"
+    },
+    {
+      "entityId": "migrating-bird-family",
+      "stages": {
+        "solo": {
+          "assetId": "asset-2ad1b7e0271532c30b082a9a",
+          "sha256": "2ad1b7e0271532c30b082a9aa74baa792025974b342b668caf4507d7a66139b8",
+          "nativePath": "/Users/miguel_lemos/.codex/generated_images/01a0ff85-92dc-7c40-9adb-ef240551a423/exec-60dcb3ed-6a60-4450-80f8-566b2d6e1e8c.png",
+          "generatedPath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/generated/2ad1b7e0271532c3-migrating-bird-family-solo.png",
+          "receiptKind": null
+        },
+        "interactions": {
+          "assetId": "asset-724018170df3f256abb11760",
+          "sha256": "724018170df3f256abb117600e91decc3709ab94dc439a9d4f2fb0b8043fb2e2",
+          "nativePath": "/Users/miguel_lemos/.codex/generated_images/01a0ff85-92dc-7c40-9adb-ef240551a423/exec-ea315ad4-fbc8-4790-8348-2d2872e6a307.png",
+          "generatedPath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/generated/724018170df3f256-migrating-bird-family-interactions-repaired.png",
+          "receiptKind": null
+        }
+      },
+      "dossierPath": "workflows/characters/migrating-bird-family/README.md",
+      "next": "tarin",
+      "remaining": [
+        "tarin"
+      ],
+      "workflowCard": {
+        "type": "WorkflowCard",
+        "title": "migrating-bird-family — complete draft package",
+        "assetIds": [
+          "asset-2ad1b7e0271532c30b082a9a",
+          "asset-724018170df3f256abb11760"
+        ],
+        "actions": []
+      },
+      "metrics": {
+        "imageCalls": 3,
+        "measuredImageCalls": 3,
+        "recoveredRendersWithoutMeasuredBounds": 0,
+        "repairCalls": 1,
+        "summedImageCallWindowSeconds": 166.0,
+        "registrationSeconds": 0.251045,
+        "firstPassBodyDirectionErrors": [],
+        "endToEndSeconds": null,
+        "monetaryCost": null
+      },
+      "generationPath": "reports/character-packages/migrating-bird-family-generation.json"
+    },
+    {
+      "entityId": "tarin",
+      "stages": {
+        "solo": {
+          "assetId": "asset-53a1259d91e1c489a9796f62",
+          "sha256": "53a1259d91e1c489a9796f62b38c048615567c4f980442707ff0d42825802d86",
+          "nativePath": "/Users/miguel_lemos/.codex/generated_images/01a0ff85-92dc-7c40-9adb-ef240551a423/exec-c2f7da6c-7e82-4be1-8468-6cb66a77efde.png",
+          "generatedPath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/generated/53a1259d91e1c489-tarin-solo-directions.png",
+          "receiptKind": null
+        },
+        "interactions": {
+          "assetId": "asset-f9965f1ec6a470c0f6b7cac8",
+          "sha256": "f9965f1ec6a470c0f6b7cac87c36f66a7e8104e7093bec86d9448f796d98afee",
+          "nativePath": "/Users/miguel_lemos/.codex/generated_images/01a0ff85-92dc-7c40-9adb-ef240551a423/exec-66b28c3c-e929-46e9-982b-45fb4cd7678b.png",
+          "generatedPath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/generated/f9965f1ec6a470c0-tarin-interactions.png",
+          "receiptKind": null
+        }
+      },
+      "dossierPath": "workflows/characters/tarin/README.md",
+      "next": null,
+      "remaining": [],
+      "workflowCard": {
+        "type": "WorkflowCard",
+        "title": "tarin — complete draft package",
+        "assetIds": [
+          "asset-53a1259d91e1c489a9796f62",
+          "asset-f9965f1ec6a470c0f6b7cac8"
+        ],
+        "actions": []
+      },
+      "metrics": {
+        "imageCalls": 4,
+        "measuredImageCalls": 4,
+        "recoveredRendersWithoutMeasuredBounds": 0,
+        "repairCalls": 2,
+        "summedImageCallWindowSeconds": 382.0,
+        "registrationSeconds": 0.340223,
+        "firstPassBodyDirectionErrors": [
+          "Hedgehog body Left 3/4 faces RIGHT",
+          "Hedgehog body Right Profile faces LEFT"
+        ],
+        "endToEndSeconds": null,
+        "monetaryCost": null
+      },
+      "generationPath": "reports/character-packages/tarin-generation.json"
+    }
+  ],
+  "remaining": [],
+  "nextEntityId": null,
+  "producedCount": 21,
+  "imageCalls": 9,
+  "repairCalls": 3,
+  "measuredImageCalls": 9,
+  "recoveredRendersWithoutMeasuredBounds": 0,
+  "sumImageWindowsSeconds": 729.0,
+  "unionSubmittedWindowsSeconds": 560.0,
+  "firstToLastImageSpanSeconds": 912.0,
+  "limits": "Submission/return windows, not compute or full-turn latency. Billing and unobserved delivery bounds unknown.",
+  "checkpointSeconds": 0.4442005419987254,
+  "checkpointObservedUTC": "2026-10-03T13:46:51.387090+00:00"
+}

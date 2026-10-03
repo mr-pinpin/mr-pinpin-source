@@ -9,17 +9,67 @@
     ],
     "exactAge": "not stated",
     "evidencedLifeStage": "recurring mixed squirrel community; unnamed cast group, not named invented individuals",
-    "status": "pending",
+    "status": "produced",
     "dossierPath": "workflows/characters/squirrel-community/README.md",
     "evidencePath": "workflows/characters/squirrel-community/evidence.json",
     "evidenceCount": 18,
-    "registeredReferenceIds": [],
-    "outputs": [],
+    "registeredReferenceIds": [
+      "asset-12eb0a8dc54eaf3a566ecdaf"
+    ],
+    "outputs": [
+      {
+        "assetId": "asset-bfab0ba001b2c59549c1f99e",
+        "sha256": "bfab0ba001b2c59549c1f99e6e24775d9d8c8400adb57302bcbd941c8bb006d7"
+      },
+      {
+        "assetId": "asset-c7aabf49510719900e41e7fb",
+        "sha256": "c7aabf49510719900e41e7fb740c7d7f7b5ea394bc9134ff25f69f1e86313eeb"
+      }
+    ],
     "constraints": {
       "identity": "recurring mixed squirrel community; unnamed cast group, not named invented individuals",
       "scale": "Not measured; use original/published indexed visual evidence",
       "geometry": ""
-    }
+    },
+    "stages": {
+      "solo": {
+        "assetId": "asset-bfab0ba001b2c59549c1f99e",
+        "sha256": "bfab0ba001b2c59549c1f99e6e24775d9d8c8400adb57302bcbd941c8bb006d7",
+        "nativePath": "/Users/miguel_lemos/.codex/generated_images/01a0ff85-92dc-7c40-9adb-ef240551a423/exec-2f37d767-8266-4697-8a60-ba50f0b990f3.png",
+        "generatedPath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/generated/bfab0ba001b2c595-squirrel-community-solo.png",
+        "receiptKind": null
+      },
+      "interactions": {
+        "assetId": "asset-c7aabf49510719900e41e7fb",
+        "sha256": "c7aabf49510719900e41e7fb740c7d7f7b5ea394bc9134ff25f69f1e86313eeb",
+        "nativePath": "/Users/miguel_lemos/.codex/generated_images/01a0ff85-92dc-7c40-9adb-ef240551a423/exec-dcd51a43-7a46-4441-ae86-191bf53968e9.png",
+        "generatedPath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/generated/c7aabf4951071990-squirrel-community-interactions.png",
+        "receiptKind": null
+      }
+    },
+    "missingStages": [],
+    "nextStage": null,
+    "complete": true,
+    "claimedStatus": "partial",
+    "referenceBindings": {
+      "speciesAndRole": "Recurring unnamed squirrel community: experienced adult advisers/builders and their young are sourced. Show TWO representative proposed designs, not canonical total: one older gray-brown adviser with cream muzzle and one smaller russet youngster with cream belly; tufted ears, bushy tails, squirrel paws, no hedgehog quills. No personal names or precise ages, no inferred sex. Adults capable of planning/building; young age-appropriate play.",
+      "counterpartIds": [
+        "papa",
+        "pinpin",
+        "oreshek"
+      ],
+      "designBasis": "Original chapters19–25 establish advisers, builders and young, with actual image73 showing varied squirrels working with hedgehogs. Group visuals establish diversity, not named individual portraits. Two representative faces/colors/relative sizes are proposed book adaptations.",
+      "sourceReferences": [
+        {
+          "assetId": "asset-12eb0a8dc54eaf3a566ecdaf",
+          "sha256": "12eb0a8dc54eaf3a566ecdaf672672e08c22e163019d212de00f126e2e45d931",
+          "role": "original-visual-context"
+        }
+      ]
+    },
+    "qaNote": "Inspected native pages: identity, directions, anatomy, scale/contact. Agent QA only; no personal Miguel approval.",
+    "timingPath": "reports/character-packages/squirrel-community-generation.json",
+    "completedAt": "2026-10-03T13:37:36.767666+00:00"
   },
   "bibliography": [
     {
@@ -203,6 +253,165 @@
       "images": []
     }
   ],
-  "registeredReferences": [],
-  "existingOutputs": []
+  "registeredReferences": [
+    {
+      "id": "asset-12eb0a8dc54eaf3a566ecdaf",
+      "name": "image73.png",
+      "mime": "image/png",
+      "sha256": "12eb0a8dc54eaf3a566ecdaf672672e08c22e163019d212de00f126e2e45d931",
+      "bytes": 2116223,
+      "width": 1024,
+      "height": 1024,
+      "url": "/api/assets/asset-12eb0a8dc54eaf3a566ecdaf",
+      "storagePath": "assets/12eb0a8dc54eaf3a566ecdaf672672e08c22e163019d212de00f126e2e45d931.png",
+      "createdAt": "2026-10-03T13:19:44.426896+00:00",
+      "reviewStatus": "unreviewed",
+      "provenance": {
+        "sourcePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/images/image73.png",
+        "sourceSha256": "12eb0a8dc54eaf3a566ecdaf672672e08c22e163019d212de00f126e2e45d931",
+        "role": "original-visual-context",
+        "inspection": "Original chapters19–25 establish advisers, builders and young, with actual image73 showing varied squirrels working with hedgehogs. Group visuals establish diversity, not named individual portraits. Two representative faces/colors/relative sizes are proposed book adaptations."
+      }
+    }
+  ],
+  "existingOutputs": [
+    {
+      "id": "asset-bfab0ba001b2c59549c1f99e",
+      "name": "squirrel-community-solo.png",
+      "mime": "image/png",
+      "sha256": "bfab0ba001b2c59549c1f99e6e24775d9d8c8400adb57302bcbd941c8bb006d7",
+      "bytes": 2472206,
+      "width": 1092,
+      "height": 1440,
+      "url": "/api/assets/asset-bfab0ba001b2c59549c1f99e",
+      "storagePath": "assets/bfab0ba001b2c59549c1f99e6e24775d9d8c8400adb57302bcbd941c8bb006d7.png",
+      "createdAt": "2026-10-03T13:28:28.737813+00:00",
+      "reviewStatus": "unreviewed",
+      "provenance": {
+        "sourcePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/generated/bfab0ba001b2c595-squirrel-community-solo.png",
+        "source": "native-imagegen",
+        "tool": "image_gen.imagegen",
+        "nativeOutputPath": "/Users/miguel_lemos/.codex/generated_images/01a0ff85-92dc-7c40-9adb-ef240551a423/exec-2f37d767-8266-4697-8a60-ba50f0b990f3.png",
+        "nativeSha256": "bfab0ba001b2c59549c1f99e6e24775d9d8c8400adb57302bcbd941c8bb006d7",
+        "prompt": "Use case: illustration-story. Production reference titled \"Forest squirrel community\" with subtitle \"Proposed book adaptation\", warm dimensional PinPin book style on ivory. Portrait page, FOUR rows of SIX readable cells, TWO representative subjects separately distinguishable in EVERY cell. Larger adult/companion and smaller young/companion sizes consistent. No canonical total claimed. Subject/source requirements: Recurring unnamed squirrel community: experienced adult advisers/builders and their young are sourced. Show TWO representative proposed designs, not canonical total: one older gray-brown adviser with cream muzzle and one smaller russet youngster with cream belly; tufted ears, bushy tails, squirrel paws, no hedgehog quills. No personal names or precise ages, no inferred sex. Adults capable of planning/building; young age-appropriate play. Source distinction: Original chapters19–25 establish advisers, builders and young, with actual image73 showing varied squirrels working with hedgehogs. Group visuals establish diversity, not named individual portraits. Two representative faces/colors/relative sizes are proposed book adaptations. Actual inputs ordered: 1: layout-direction-only, 2: book-style, 3: subject-source:original-visual-context. Layout sheet controls grid/opposed directions ONLY; never copy its species/clothing/anatomy. Row1 FACE VIEWS for each subject/form explicitly: Front: nose/beak centered toward viewer. Left 3/4: nose/beak SCREEN LEFT, both eyes visible if anatomy permits, torso LEFT. Left profile: true side, nose/beak SCREEN LEFT, torso LEFT. Right 3/4: nose/beak SCREEN RIGHT, both eyes visible if anatomy permits, torso RIGHT. Right profile: true side, nose/beak SCREEN RIGHT, torso RIGHT. Rear: back, face invisible. Row2 EXPRESSIONS: Calm, Curious, Happy, Surprised, Thoughtful, Mild upset, naturally varied. Row3 FULL BODY VIEWS explicitly: Front: nose/beak centered toward viewer. Left 3/4: nose/beak SCREEN LEFT, both eyes visible if anatomy permits, torso LEFT. Left profile: true side, nose/beak SCREEN LEFT, torso LEFT. Right 3/4: nose/beak SCREEN RIGHT, both eyes visible if anatomy permits, torso RIGHT. Right profile: true side, nose/beak SCREEN RIGHT, torso RIGHT. Rear: back, face invisible. Row4 NORMAL POSES: Sit, Reach, Greet, Carry cup or small nut, Share, Rest. Birds instead Perch, Hop, Sing, Spread wings, Fly gently, Rest. No human hands/arms on birds. Distinct two arms/two legs on human and hedgehog/squirrel, two wings/two feet on birds, clear supported feet/perches. Human full beard/robe hem/shoes visible; hedgehog whole quills/feet visible. Generous margins, no fused limbs, no clipped tails. Concise labels only, no invented ages/heights/names. One real unified image.",
+        "promptSha256": "a5afbcd0f67c5739ee2d513cac6c1c808cbb1a14775657ca9a404ad37d031808",
+        "promptFile": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/workflows/characters/squirrel-community/solo-prompt.txt",
+        "referenceIds": [
+          "asset-5d505b375eed339baa7f7650",
+          "asset-88d74c56a468e3f250b12dbc",
+          "asset-12eb0a8dc54eaf3a566ecdaf"
+        ],
+        "inputAssets": [
+          {
+            "assetId": "asset-5d505b375eed339baa7f7650",
+            "sha256": "5d505b375eed339baa7f765028f4c61224a685dfcc4c01ee53c5f35fdb303700"
+          },
+          {
+            "assetId": "asset-88d74c56a468e3f250b12dbc",
+            "sha256": "88d74c56a468e3f250b12dbcb5ecdb7b07bd1d789197663d8948ac199acd133d"
+          },
+          {
+            "assetId": "asset-12eb0a8dc54eaf3a566ecdaf",
+            "sha256": "12eb0a8dc54eaf3a566ecdaf672672e08c22e163019d212de00f126e2e45d931"
+          }
+        ],
+        "registeredBy": "studio-client/register-image.py"
+      }
+    },
+    {
+      "id": "asset-c7aabf49510719900e41e7fb",
+      "name": "squirrel-community-interactions.png",
+      "mime": "image/png",
+      "sha256": "c7aabf49510719900e41e7fb740c7d7f7b5ea394bc9134ff25f69f1e86313eeb",
+      "bytes": 2981928,
+      "width": 1024,
+      "height": 1536,
+      "url": "/api/assets/asset-c7aabf49510719900e41e7fb",
+      "storagePath": "assets/c7aabf49510719900e41e7fb740c7d7f7b5ea394bc9134ff25f69f1e86313eeb.png",
+      "createdAt": "2026-10-03T13:37:36.479970+00:00",
+      "reviewStatus": "unreviewed",
+      "provenance": {
+        "sourcePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/generated/c7aabf4951071990-squirrel-community-interactions.png",
+        "source": "native-imagegen",
+        "tool": "image_gen.imagegen",
+        "nativeOutputPath": "/Users/miguel_lemos/.codex/generated_images/01a0ff85-92dc-7c40-9adb-ef240551a423/exec-dcd51a43-7a46-4441-ae86-191bf53968e9.png",
+        "nativeSha256": "c7aabf49510719900e41e7fb740c7d7f7b5ea394bc9134ff25f69f1e86313eeb",
+        "prompt": "Use case: illustration-story. Create a separate readable whole-body cast interaction and scale page titled squirrel-community, subtitle Proposed book adaptation. Warm dimensional PinPin book style on ivory, natural expression variation, generous full-body margins and neutral shared-ground/perch contact shadows. ACTUAL INPUTS in order: 1: PRIMARY-working-identity:verified-solo, 2: counterpart-identity:papa, 3: counterpart-identity:pinpin, 4: counterpart-identity:oreshek, 5: book-style:family-relative-scale. Primary target solo sheet controls TARGET identity, not just style. Every pictured counterpart has its own reference. Family image only supplies book style and relative adult/child scale. Species, age stage and role cannot transfer across characters. SIX panels, two columns by three rows. In EVERY panel the two COMMUNITY SQUIRRELS are the larger gray-brown experienced adviser and smaller russet youngster from primary sheet, not hedgehogs. Panel1 Shared ground: both community squirrels, Papa ADULT broad dark-quilled HEDGEHOG, PinPin CHILD copper-quilled HEDGEHOG. Papa roughly adviser adult scale; PinPin and young squirrel peer scale, separate grounded bodies. Panel2 Planning: community adviser SQUIRREL and Elder Oreshek OLD GRAY SQUIRREL (white brows, source sheet), two DIFFERENT identifiable squirrels inspecting a leaf-map while russet youngster listens, no Papa substitution. Panel3 Play: community russet youngster SQUIRREL and PinPin CHILD HEDGEHOG roll a small nut to each other with clearly separate paws. Panel4 Help: Papa ADULT HEDGEHOG and community gray-brown adviser SQUIRREL carry a light branch together, all four paws and shared branch ownership clear; young squirrel watches. Panel5 Welcome: community adviser SQUIRREL kneels and gently side-hugs its young russet SQUIRREL neighbor; young paws visible, grounded feet, no asserted parent/child relationship. PinPin CHILD HEDGEHOG stands nearby smiling. Panel6 Gather: the two community squirrels and distinct Oreshek OLD GRAY SQUIRREL sit together with a basket of nuts, distinct tails and bodies, no invented additional characters. Source/proposal distinction: Original chapters19–25 establish advisers, builders and young, with actual image73 showing varied squirrels working with hedgehogs. Group visuals establish diversity, not named individual portraits. Two representative faces/colors/relative sizes are proposed book adaptations. No invented precise ages, canonical group totals or names, no merged tails/bodies, no extra limbs, no floating support, no cropped feet/tails/robe. A grounded full-page draft.",
+        "promptSha256": "8ef712d0640d53ea20ddad51f78008b1299b2509f2125058e16fb3ec7f3d1fc5",
+        "promptFile": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/workflows/characters/squirrel-community/interactions-prompt.txt",
+        "referenceIds": [
+          "asset-bfab0ba001b2c59549c1f99e",
+          "asset-6d619138c33f8111b5b1ff68",
+          "asset-5d505b375eed339baa7f7650",
+          "asset-ca1c6d51206492397ca1197b",
+          "asset-88d74c56a468e3f250b12dbc"
+        ],
+        "inputAssets": [
+          {
+            "assetId": "asset-bfab0ba001b2c59549c1f99e",
+            "sha256": "bfab0ba001b2c59549c1f99e6e24775d9d8c8400adb57302bcbd941c8bb006d7"
+          },
+          {
+            "assetId": "asset-6d619138c33f8111b5b1ff68",
+            "sha256": "6d619138c33f8111b5b1ff6808d53923ac767e48f3e4a8e03601754a9eab5b87"
+          },
+          {
+            "assetId": "asset-5d505b375eed339baa7f7650",
+            "sha256": "5d505b375eed339baa7f765028f4c61224a685dfcc4c01ee53c5f35fdb303700"
+          },
+          {
+            "assetId": "asset-ca1c6d51206492397ca1197b",
+            "sha256": "ca1c6d51206492397ca1197b5bad20d20c2a8bc530bdce5608234fa94b94cb68"
+          },
+          {
+            "assetId": "asset-88d74c56a468e3f250b12dbc",
+            "sha256": "88d74c56a468e3f250b12dbcb5ecdb7b07bd1d789197663d8948ac199acd133d"
+          }
+        ],
+        "registeredBy": "studio-client/register-image.py"
+      }
+    }
+  ],
+  "referenceBindings": {
+    "speciesAndRole": "Recurring unnamed squirrel community: experienced adult advisers/builders and their young are sourced. Show TWO representative proposed designs, not canonical total: one older gray-brown adviser with cream muzzle and one smaller russet youngster with cream belly; tufted ears, bushy tails, squirrel paws, no hedgehog quills. No personal names or precise ages, no inferred sex. Adults capable of planning/building; young age-appropriate play.",
+    "counterpartIds": [
+      "papa",
+      "pinpin",
+      "oreshek"
+    ],
+    "designBasis": "Original chapters19–25 establish advisers, builders and young, with actual image73 showing varied squirrels working with hedgehogs. Group visuals establish diversity, not named individual portraits. Two representative faces/colors/relative sizes are proposed book adaptations.",
+    "sourceReferences": [
+      {
+        "assetId": "asset-12eb0a8dc54eaf3a566ecdaf",
+        "sha256": "12eb0a8dc54eaf3a566ecdaf672672e08c22e163019d212de00f126e2e45d931",
+        "role": "original-visual-context"
+      }
+    ]
+  },
+  "inspectedVisualEvidence": [
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/images/image73.png",
+      "sha256": "12eb0a8dc54eaf3a566ecdaf672672e08c22e163019d212de00f126e2e45d931",
+      "chapterId": "chapter-19",
+      "blockIndexZeroBased": 13,
+      "inspection": "Original chapters19–25 establish advisers, builders and young, with actual image73 showing varied squirrels working with hedgehogs. Group visuals establish diversity, not named individual portraits. Two representative faces/colors/relative sizes are proposed book adaptations."
+    }
+  ],
+  "finalStages": {
+    "solo": {
+      "assetId": "asset-bfab0ba001b2c59549c1f99e",
+      "sha256": "bfab0ba001b2c59549c1f99e6e24775d9d8c8400adb57302bcbd941c8bb006d7",
+      "nativePath": "/Users/miguel_lemos/.codex/generated_images/01a0ff85-92dc-7c40-9adb-ef240551a423/exec-2f37d767-8266-4697-8a60-ba50f0b990f3.png",
+      "generatedPath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/generated/bfab0ba001b2c595-squirrel-community-solo.png",
+      "receiptKind": null
+    },
+    "interactions": {
+      "assetId": "asset-c7aabf49510719900e41e7fb",
+      "sha256": "c7aabf49510719900e41e7fb740c7d7f7b5ea394bc9134ff25f69f1e86313eeb",
+      "nativePath": "/Users/miguel_lemos/.codex/generated_images/01a0ff85-92dc-7c40-9adb-ef240551a423/exec-dcd51a43-7a46-4441-ae86-191bf53968e9.png",
+      "generatedPath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/generated/c7aabf4951071990-squirrel-community-interactions.png",
+      "receiptKind": null
+    }
+  },
+  "generationRecord": "generation.json"
 }

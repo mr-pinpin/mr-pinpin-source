@@ -1,0 +1,33 @@
+Batch03 final read-only timing — 2026-10-03
+Messagemessage-691a51149f744ea6945c; turn01a10187-a1d8-7dc0-be21-b3638791e9da.
+Completecoverage throughcursor8650. No contextCompaction activity in this turn.
+Accepted2026-10-03T11:30:28.150913+00:00; firsttext10.799579s.
+Final API2026-10-03T11:52:33.392680+00:00; complete2026-10-03T11:52:33.571476+00:00.
+Total1325.420563s =22m5.421s.
+Image activewall union580.570209s =9m40.570s.
+Remaining744.850354s =12m24.850s (review,tools,tests/docs,validation,delivery).
+
+12 image-generation calls produced6 final pages across3 Beaver-family packages.
+Six creative correction calls: Beaver2,Mama Beaver3,kits1. Initial candidates and
+repair history are retained. These are not12finalpages or6provider retries.
+24 API activity events include overlapping calls; per-call API duration is null/
+ambiguous. Unionactive time is valid with completecoverage and balanced events.
+App measured whole-second per-call window SUM1248s; merged UNION581s.
+581s appwindow union agrees with580.570209s activity union within clock boundaries.
+Do not sum concurrent calls as elapsed time or claim precise backend per-image time.
+
+12 actual registration receipts sum0.927317s (some occur while other imagework
+runs; do not subtract them again from union without interval accounting).
+Verified receipts and per-character call clocks preserved without prompt content
+in batch-03-breakdown.json.
+Acceptance→firstimage124.354325s; lastimage→turncomplete388.854562s.
+This is a cleaner production comparison than batch02 (no4m15compaction), but the
+request also included app-authored tests/docs exports. Remaining time cannot all
+be classified as engineering or avoidable orchestration from exposed evidence.
+
+Batch04 capture running independently timeout5400:
+message-a3a4e170e1d243778ab6 accepted11:53:05.392240UTC,HTTP0.14668s(rootreceipt).
+Filesbatch-04-capture.json/batch-04-metrics.json.
+Batch04 includes new identity/layout reference hydration,4packages and legacy
+receipt backfill; classify as engineering+production, not pure generation benchmark.
+No app messages, source edits or production mutations by this lane.

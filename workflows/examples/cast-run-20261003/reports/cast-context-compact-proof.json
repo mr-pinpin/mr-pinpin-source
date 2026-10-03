@@ -1,0 +1,112 @@
+{
+  "checks": [
+    {
+      "test": "selected exact same selection and native refs",
+      "passed": true
+    },
+    {
+      "test": "selected source age identity and partial stage retained",
+      "passed": true
+    },
+    {
+      "test": "selected unrelated dossiers and bindings omitted",
+      "passed": true
+    },
+    {
+      "test": "selected guide hash/pointer and exact reference roles retained",
+      "passed": true
+    },
+    {
+      "test": "selected concise queue still resumes exact missing stage",
+      "passed": true
+    },
+    {
+      "test": "selected text bytes decreased",
+      "passed": true
+    },
+    {
+      "test": "resume exact same selection and native refs",
+      "passed": true
+    },
+    {
+      "test": "resume source age identity and partial stage retained",
+      "passed": true
+    },
+    {
+      "test": "resume unrelated dossiers and bindings omitted",
+      "passed": true
+    },
+    {
+      "test": "resume guide hash/pointer and exact reference roles retained",
+      "passed": true
+    },
+    {
+      "test": "resume concise queue still resumes exact missing stage",
+      "passed": true
+    },
+    {
+      "test": "resume text bytes decreased",
+      "passed": true
+    },
+    {
+      "test": "historical explicit selection never imports mutable cast/toolchain",
+      "passed": true
+    },
+    {
+      "test": "package self_test",
+      "passed": true
+    },
+    {
+      "test": "live selected scope and role-labelled references unchanged",
+      "passed": true
+    },
+    {
+      "test": "live resume scope and role-labelled references unchanged",
+      "passed": true
+    },
+    {
+      "test": "live repaired bird solo is current primary",
+      "passed": true
+    },
+    {
+      "test": "live complete queue remains empty",
+      "passed": true
+    }
+  ],
+  "measurements": {
+    "selected": {
+      "beforeTextBytes": 75644,
+      "afterTextBytes": 16504,
+      "beforeCastBytes": 38103,
+      "afterCastBytes": 8674,
+      "savedBytes": 59140
+    },
+    "resume": {
+      "beforeTextBytes": 75639,
+      "afterTextBytes": 16499,
+      "beforeCastBytes": 38103,
+      "afterCastBytes": 8674,
+      "savedBytes": 59140
+    }
+  },
+  "liveEquivalentRequests": {
+    "selected": {
+      "beforeTextBytes": 70574,
+      "afterTextBytes": 37604,
+      "savedBytes": 32970,
+      "selectedEntity": "migrating-bird-family"
+    },
+    "resume": {
+      "beforeTextBytes": 55097,
+      "afterTextBytes": 12280,
+      "savedBytes": 42817,
+      "selectedEntity": null
+    }
+  },
+  "fixture": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/reports/cast-compact-ehxwj6ae",
+  "beforeBusiness": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-runtime/business-builds/d3512c2c4940dfc69c7701dd31c7fe69e8bac429792cf92cb5f9a8af63089534",
+  "afterBusiness": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-runtime/business-builds/a62a8fbdada5baadd1f418ef88a2126c5494a96831ad8e737fda7ddc697da590",
+  "freshProcesses": true,
+  "modelThreadReset": false,
+  "limit": "UTF-8 text bytes, not token counts, compute savings or a native compaction fix"
+}

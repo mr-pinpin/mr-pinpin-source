@@ -1,0 +1,349 @@
+{
+  "entityId": "migrating-bird-family",
+  "calls": [
+    {
+      "nativePath": "/Users/miguel_lemos/.codex/generated_images/01a0ff85-92dc-7c40-9adb-ef240551a423/exec-60dcb3ed-6a60-4450-80f8-566b2d6e1e8c.png",
+      "generationBeforeUTC": "2026-10-03 13:26:14 UTC",
+      "generationAfterUTC": "2026-10-03 13:27:38 UTC",
+      "repair": false,
+      "firstPassBodyWrongCells": [],
+      "visualQA": "Inspected pixels: two distinguishable rose/cream representative birds, six opposed head/body directions, feather wings and two feet, full tails, supported perching and natural flight. Smaller companion is a proposed size distinction, not sourced chick/parent or age. Old Pipilini remains a separate counterpart.",
+      "specPath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/workflows/characters/migrating-bird-family/solo-spec.json",
+      "prompt": "Use case: illustration-story. Production reference titled \"Pipilini’s migrating family\" with subtitle \"Proposed book adaptation\", warm dimensional PinPin book style on ivory. Portrait page, FOUR rows of SIX readable cells, TWO representative subjects separately distinguishable in EVERY cell. Larger adult/companion and smaller young/companion sizes consistent. No canonical total claimed. Subject/source requirements: Recurring unnamed bird family migrates south to Africa each year; old Pipilini used to lead the flock but cannot travel that far now (original chapter8). Show TWO representative capable flying birds, mature-looking larger and smaller companion, not canonical count, sex or asserted parent/chick relationship. Proposed pale rose/cream feather design related to working Pipilini with reddish small beaks, folded feather wings, thin supported feet, long light rose tails. No mammal arms. Pipilini is the separate older weak-winged character, not one of these active flying representatives. Source distinction: Original chapter8 block3 establishes family and migration; relative ages within the family, number, species and individual appearance are not specified. Image49 has one unlabeled pale rose bird, not a family portrait. Proposed representative size/role differentiation remains explicitly unsourced; established older Pipilini identity is retained only as counterpart. Actual inputs ordered: 1: PRIMARY-working-family-visual-lineage, 2: layout-direction-only, 3: book-style, 4: subject-source:original-visual-context. Layout sheet controls grid/opposed directions ONLY; never copy its species/clothing/anatomy. Row1 FACE VIEWS for each subject/form explicitly: Front: nose/beak centered toward viewer. Left 3/4: nose/beak SCREEN LEFT, both eyes visible if anatomy permits, torso LEFT. Left profile: true side, nose/beak SCREEN LEFT, torso LEFT. Right 3/4: nose/beak SCREEN RIGHT, both eyes visible if anatomy permits, torso RIGHT. Right profile: true side, nose/beak SCREEN RIGHT, torso RIGHT. Rear: back, face invisible. Row2 EXPRESSIONS: Calm, Curious, Happy, Surprised, Thoughtful, Mild upset, naturally varied. Row3 FULL BODY VIEWS explicitly: Front: nose/beak centered toward viewer. Left 3/4: nose/beak SCREEN LEFT, both eyes visible if anatomy permits, torso LEFT. Left profile: true side, nose/beak SCREEN LEFT, torso LEFT. Right 3/4: nose/beak SCREEN RIGHT, both eyes visible if anatomy permits, torso RIGHT. Right profile: true side, nose/beak SCREEN RIGHT, torso RIGHT. Rear: back, face invisible. Row4 NORMAL POSES: Sit, Reach, Greet, Carry cup or small nut, Share, Rest. Birds instead Perch, Hop, Sing, Spread wings, Fly gently, Rest. No human hands/arms on birds. Distinct two arms/two legs on human and hedgehog/squirrel, two wings/two feet on birds, clear supported feet/perches. Human full beard/robe hem/shoes visible; hedgehog whole quills/feet visible. Generous margins, no fused limbs, no clipped tails. Concise labels only, no invented ages/heights/names. One real unified image.",
+      "references": [
+        {
+          "assetId": "asset-713cae3785e80f243216dcdc",
+          "sha256": "713cae3785e80f243216dcdc74955eaa37501071661eb403d433f7edcae7c9b6",
+          "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/assets/713cae3785e80f243216dcdc74955eaa37501071661eb403d433f7edcae7c9b6.png",
+          "role": "PRIMARY-working-family-visual-lineage"
+        },
+        {
+          "assetId": "asset-5d505b375eed339baa7f7650",
+          "sha256": "5d505b375eed339baa7f765028f4c61224a685dfcc4c01ee53c5f35fdb303700",
+          "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/assets/5d505b375eed339baa7f765028f4c61224a685dfcc4c01ee53c5f35fdb303700.png",
+          "role": "layout-direction-only"
+        },
+        {
+          "assetId": "asset-88d74c56a468e3f250b12dbc",
+          "sha256": "88d74c56a468e3f250b12dbcb5ecdb7b07bd1d789197663d8948ac199acd133d",
+          "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/assets/88d74c56a468e3f250b12dbcb5ecdb7b07bd1d789197663d8948ac199acd133d.webp",
+          "role": "book-style"
+        },
+        {
+          "assetId": "asset-3da638615ab0e52d60c8ea61",
+          "sha256": "3da638615ab0e52d60c8ea6130b0a1b103845a4e6f7b40de9a9bff6dbcf534ea",
+          "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/assets/3da638615ab0e52d60c8ea6130b0a1b103845a4e6f7b40de9a9bff6dbcf534ea.png",
+          "role": "subject-source:original-visual-context"
+        }
+      ],
+      "omittedReferences": [],
+      "receipt": {
+        "assetId": "asset-2ad1b7e0271532c30b082a9a",
+        "sha256": "2ad1b7e0271532c30b082a9aa74baa792025974b342b668caf4507d7a66139b8",
+        "bytes": 2481365,
+        "reviewStatus": "unreviewed",
+        "nativePath": "/Users/miguel_lemos/.codex/generated_images/01a0ff85-92dc-7c40-9adb-ef240551a423/exec-60dcb3ed-6a60-4450-80f8-566b2d6e1e8c.png",
+        "generatedPath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/generated/2ad1b7e0271532c3-migrating-bird-family-solo.png",
+        "reused": false,
+        "kernelRelease": "c9be233f9e18f6d480c8a5b7d50dff6384c9df2766510b5ef006b21ccec40c75",
+        "workflowCard": {
+          "type": "WorkflowCard",
+          "title": "migrating-bird-family-solo.png",
+          "text": "Unreviewed candidate. Original image available at full size.",
+          "assetIds": [
+            "asset-2ad1b7e0271532c30b082a9a"
+          ],
+          "actions": []
+        },
+        "timing": {
+          "startedAt": "2026-10-03T13:28:29.006127+00:00",
+          "validatedAt": "2026-10-03T13:28:29.048045+00:00",
+          "copiedAt": "2026-10-03T13:28:29.049806+00:00",
+          "registeredAt": "2026-10-03T13:28:29.083882+00:00",
+          "registrationSeconds": 0.077766,
+          "dossierWrittenAt": "2026-10-03T13:28:29.084217+00:00",
+          "helperTotalSeconds": 0.078094
+        },
+        "dossierPath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/reports/character-packages/migrating-bird-family.json",
+        "entityId": "migrating-bird-family",
+        "stage": "solo"
+      },
+      "recordedAt": "2026-10-03T13:28:29.091546+00:00"
+    },
+    {
+      "nativePath": "/Users/miguel_lemos/.codex/generated_images/01a0ff85-92dc-7c40-9adb-ef240551a423/exec-0a813061-78e8-4cc1-86d1-b14cd2877165.png",
+      "generationBeforeUTC": "2026-10-03 13:33:49 UTC",
+      "generationAfterUTC": "2026-10-03 13:34:31 UTC",
+      "repair": false,
+      "visualQA": "Needs framing repair: panel2 crops PinPin lower body and Pipilini tail; panel3 companion tail reaches/crops right border; panel4 Pipilini long tail cropped below border. Three birds distinguishable, elder remains perched while two representatives fly; feathers not mammal arms, gentle wing contact and other scale/support readable.",
+      "specPath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/workflows/characters/migrating-bird-family/interactions-spec.json",
+      "prompt": "Use case: illustration-story. Create a separate readable whole-body cast interaction and scale page titled migrating-bird-family, subtitle Proposed book adaptation. Warm dimensional PinPin book style on ivory, natural expression variation, generous full-body margins and neutral shared-ground/perch contact shadows. ACTUAL INPUTS in order: 1: PRIMARY-working-identity:verified-solo, 2: counterpart-identity:pipilini, 3: counterpart-identity:pinpin, 4: book-style:family-relative-scale, 5: source-bibliography-context. Primary target solo sheet controls TARGET identity, not just style. Every pictured counterpart has its own reference. Family image only supplies book style and relative adult/child scale. Species, age stage and role cannot transfer across characters. SIX panels two columns by three rows. PRIMARY sheet's TWO active FAMILY BIRDS: larger rose/cream representative and smaller rose/cream companion, capable flying, no asserted parent/chick or exact age. Pipilini from counterpart sheet is the SEPARATE OLDER pale-rose long-tailed BIRD, gently weathered brows and weak wings, never one of those two active birds. PinPin is CHILD copper-quilled HEDGEHOG. Panel1 Common ground: the two active FAMILY BIRDS perched on a low branch beside standing PinPin CHILD HEDGEHOG; all tails and feet visible, bird bodies small beside child. Panel2 Greeting: three distinct BIRDS, the two active representatives and older Pipilini, on a broad low perch, bills facing each other. PinPin CHILD HEDGEHOG listens on ground. Panel3 Food: PinPin CHILD HEDGEHOG offers seeds in a cupped paw resting close to ground; larger FAMILY BIRD takes one seed with its bill, smaller FAMILY BIRD stands nearby; no wings becoming human arms. Panel4 Gentle contact: larger FAMILY BIRD rests one folded feather wing gently against older Pipilini BIRD on stable branch; smaller FAMILY BIRD observes. Three distinct supported bird bodies, six bird feet, ordinary supported wing touch, not interpenetrating torsos. Panel5 Departure: TWO active FAMILY BIRDS fly together low above ground with anatomical two feather wings each; older Pipilini BIRD stays perched beside PinPin CHILD HEDGEHOG, clearly no strenuous flight for weak-winged elder. Panel6 Quiet company: older Pipilini BIRD rests beside seated PinPin CHILD HEDGEHOG, two active FAMILY BIRDS perch nearby; distinct long rose tails, feet gripping perch, no floating bodies. Source/proposal distinction: Original chapter8 block3 establishes family and migration; relative ages within the family, number, species and individual appearance are not specified. Image49 has one unlabeled pale rose bird, not a family portrait. Proposed representative size/role differentiation remains explicitly unsourced; established older Pipilini identity is retained only as counterpart. No invented precise ages, canonical group totals or names, no merged tails/bodies, no extra limbs, no floating support, no cropped feet/tails/robe. A grounded full-page draft.",
+      "references": [
+        {
+          "assetId": "asset-2ad1b7e0271532c30b082a9a",
+          "sha256": "2ad1b7e0271532c30b082a9aa74baa792025974b342b668caf4507d7a66139b8",
+          "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/assets/2ad1b7e0271532c30b082a9aa74baa792025974b342b668caf4507d7a66139b8.png",
+          "role": "PRIMARY-working-identity:verified-solo"
+        },
+        {
+          "assetId": "asset-713cae3785e80f243216dcdc",
+          "sha256": "713cae3785e80f243216dcdc74955eaa37501071661eb403d433f7edcae7c9b6",
+          "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/assets/713cae3785e80f243216dcdc74955eaa37501071661eb403d433f7edcae7c9b6.png",
+          "role": "counterpart-identity:pipilini"
+        },
+        {
+          "assetId": "asset-5d505b375eed339baa7f7650",
+          "sha256": "5d505b375eed339baa7f765028f4c61224a685dfcc4c01ee53c5f35fdb303700",
+          "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/assets/5d505b375eed339baa7f765028f4c61224a685dfcc4c01ee53c5f35fdb303700.png",
+          "role": "counterpart-identity:pinpin"
+        },
+        {
+          "assetId": "asset-88d74c56a468e3f250b12dbc",
+          "sha256": "88d74c56a468e3f250b12dbcb5ecdb7b07bd1d789197663d8948ac199acd133d",
+          "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/assets/88d74c56a468e3f250b12dbcb5ecdb7b07bd1d789197663d8948ac199acd133d.webp",
+          "role": "book-style:family-relative-scale"
+        },
+        {
+          "assetId": "asset-3da638615ab0e52d60c8ea61",
+          "sha256": "3da638615ab0e52d60c8ea6130b0a1b103845a4e6f7b40de9a9bff6dbcf534ea",
+          "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/assets/3da638615ab0e52d60c8ea6130b0a1b103845a4e6f7b40de9a9bff6dbcf534ea.png",
+          "role": "source-bibliography-context"
+        }
+      ],
+      "omittedReferences": [],
+      "receipt": {
+        "assetId": "asset-cf543d68ca63977670f9fcb9",
+        "sha256": "cf543d68ca63977670f9fcb9224cfaf42c429efc17b1ac5f103072baa3fced95",
+        "bytes": 2884939,
+        "reviewStatus": "unreviewed",
+        "nativePath": "/Users/miguel_lemos/.codex/generated_images/01a0ff85-92dc-7c40-9adb-ef240551a423/exec-0a813061-78e8-4cc1-86d1-b14cd2877165.png",
+        "generatedPath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/generated/cf543d68ca639776-migrating-bird-family-interactions.png",
+        "reused": false,
+        "kernelRelease": "c9be233f9e18f6d480c8a5b7d50dff6384c9df2766510b5ef006b21ccec40c75",
+        "workflowCard": {
+          "type": "WorkflowCard",
+          "title": "migrating-bird-family-interactions.png",
+          "text": "Unreviewed candidate. Original image available at full size.",
+          "assetIds": [
+            "asset-cf543d68ca63977670f9fcb9"
+          ],
+          "actions": []
+        },
+        "timing": {
+          "startedAt": "2026-10-03T13:37:36.926217+00:00",
+          "validatedAt": "2026-10-03T13:37:36.968518+00:00",
+          "copiedAt": "2026-10-03T13:37:36.970525+00:00",
+          "registeredAt": "2026-10-03T13:37:37.005277+00:00",
+          "registrationSeconds": 0.07907,
+          "dossierWrittenAt": "2026-10-03T13:37:37.005737+00:00",
+          "helperTotalSeconds": 0.079524
+        },
+        "dossierPath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/reports/character-packages/migrating-bird-family.json",
+        "entityId": "migrating-bird-family",
+        "stage": "interactions"
+      },
+      "recordedAt": "2026-10-03T13:37:37.013817+00:00"
+    },
+    {
+      "nativePath": "/Users/miguel_lemos/.codex/generated_images/01a0ff85-92dc-7c40-9adb-ef240551a423/exec-ea315ad4-fbc8-4790-8348-2d2872e6a307.png",
+      "generationBeforeUTC": "2026-10-03 13:38:36 UTC",
+      "generationAfterUTC": "2026-10-03 13:39:16 UTC",
+      "repair": true,
+      "repairOfAssetId": "asset-cf543d68ca63977670f9fcb9",
+      "reason": "Widen panels2/3/4 to repair cropped tails and PinPin feet.",
+      "visualQA": "Inspected full page: panel2 PinPin grounded feet and Pipilini tail now visible; panel4 entire elder long tail and six supported bird feet clear; panel3 better tail space, outer companion tail approaches right frame but no material identity/action ambiguity. Two active birds retain flight; older Pipilini stays supported/perched, three identifiable bird roles and gentle feather-wing contact, no mammal limbs. Successful panels1/5/6 retain identity and supported contact.",
+      "specPath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/workflows/characters/migrating-bird-family/interactions-repair-spec.json",
+      "prompt": "Edit this complete Migrating-Bird-Family interaction page with minimal local framing corrections. Preserve all SIX panels, identities, feather colors, story actions, text, warm book style and successful panels1/5/6. Two active rose/cream representative BIRDS (larger and smaller) and distinct OLDER Pipilini rose long-tailed BIRD remain consistent; PinPin CHILD HEDGEHOG remains copper-quilled. Fix panel2 top-right: zoom out/reframe its contents inside SAME panel to show PinPin entire grounded body and both feet, and ALL THREE BIRDS' entire bodies, supported two feet each and full long tails inside borders with visible blank margin. Don't crop Pipilini tail downward or PinPin legs. Fix panel3 middle-left: slightly zoom out/recenter the two feeding BIRDS and PinPin so both birds' complete long tails and feet fit comfortably INSIDE borders; retain seeds in cupped hedgehog paw and larger bird bill taking seed. Fix panel4 middle-right: zoom out/reposition the gentle wing-contact scene to show ALL THREE BIRDS' entire long tails and six supported feet on branch inside borders, especially elder Pipilini tail currently cut at bottom; keep anatomical single folded feather wing of active bird touching elder shoulder, no fused torsos, no human hands. No new birds or substituted species. These are TWO proposed active family representatives plus separate older Pipilini, not a claimed canonical flock count or parent/chick relation. Preserve distinct faces, natural size relationships and previous successful panels. Complete whole-page output with margins.\n",
+      "references": [
+        {
+          "assetId": "asset-cf543d68ca63977670f9fcb9",
+          "sha256": "cf543d68ca63977670f9fcb9224cfaf42c429efc17b1ac5f103072baa3fced95",
+          "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/generated/cf543d68ca639776-migrating-bird-family-interactions.png",
+          "role": "PRIMARY-edit-target"
+        },
+        {
+          "assetId": "asset-2ad1b7e0271532c30b082a9a",
+          "sha256": "2ad1b7e0271532c30b082a9aa74baa792025974b342b668caf4507d7a66139b8",
+          "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/assets/2ad1b7e0271532c30b082a9aa74baa792025974b342b668caf4507d7a66139b8.png",
+          "role": "PRIMARY-working-identity:verified-solo"
+        },
+        {
+          "assetId": "asset-713cae3785e80f243216dcdc",
+          "sha256": "713cae3785e80f243216dcdc74955eaa37501071661eb403d433f7edcae7c9b6",
+          "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/assets/713cae3785e80f243216dcdc74955eaa37501071661eb403d433f7edcae7c9b6.png",
+          "role": "counterpart-identity:pipilini"
+        },
+        {
+          "assetId": "asset-5d505b375eed339baa7f7650",
+          "sha256": "5d505b375eed339baa7f765028f4c61224a685dfcc4c01ee53c5f35fdb303700",
+          "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/assets/5d505b375eed339baa7f765028f4c61224a685dfcc4c01ee53c5f35fdb303700.png",
+          "role": "counterpart-identity:pinpin"
+        }
+      ],
+      "omittedReferences": [
+        {
+          "assetId": "asset-88d74c56a468e3f250b12dbc",
+          "sha256": "88d74c56a468e3f250b12dbcb5ecdb7b07bd1d789197663d8948ac199acd133d",
+          "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/assets/88d74c56a468e3f250b12dbcb5ecdb7b07bd1d789197663d8948ac199acd133d.webp",
+          "role": "book-style:family-relative-scale"
+        },
+        {
+          "assetId": "asset-3da638615ab0e52d60c8ea61",
+          "sha256": "3da638615ab0e52d60c8ea6130b0a1b103845a4e6f7b40de9a9bff6dbcf534ea",
+          "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/assets/3da638615ab0e52d60c8ea6130b0a1b103845a4e6f7b40de9a9bff6dbcf534ea.png",
+          "role": "source-bibliography-context"
+        }
+      ],
+      "receipt": {
+        "assetId": "asset-724018170df3f256abb11760",
+        "sha256": "724018170df3f256abb117600e91decc3709ab94dc439a9d4f2fb0b8043fb2e2",
+        "bytes": 2828249,
+        "reviewStatus": "unreviewed",
+        "nativePath": "/Users/miguel_lemos/.codex/generated_images/01a0ff85-92dc-7c40-9adb-ef240551a423/exec-ea315ad4-fbc8-4790-8348-2d2872e6a307.png",
+        "generatedPath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/generated/724018170df3f256-migrating-bird-family-interactions-repaired.png",
+        "reused": false,
+        "kernelRelease": "c9be233f9e18f6d480c8a5b7d50dff6384c9df2766510b5ef006b21ccec40c75",
+        "workflowCard": {
+          "type": "WorkflowCard",
+          "title": "migrating-bird-family-interactions-repaired.png",
+          "text": "Unreviewed candidate. Original image available at full size.",
+          "assetIds": [
+            "asset-724018170df3f256abb11760"
+          ],
+          "actions": []
+        },
+        "timing": {
+          "startedAt": "2026-10-03T13:42:35.590964+00:00",
+          "validatedAt": "2026-10-03T13:42:35.647581+00:00",
+          "copiedAt": "2026-10-03T13:42:35.649583+00:00",
+          "registeredAt": "2026-10-03T13:42:35.685161+00:00",
+          "registrationSeconds": 0.094209,
+          "dossierWrittenAt": "2026-10-03T13:42:35.685714+00:00",
+          "helperTotalSeconds": 0.094756
+        },
+        "dossierPath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/reports/character-packages/migrating-bird-family.json",
+        "entityId": "migrating-bird-family",
+        "stage": "interactions"
+      },
+      "recordedAt": "2026-10-03T13:42:35.694256+00:00"
+    },
+    {
+      "nativePath": "/Users/miguel_lemos/.codex/generated_images/01a0ff85-92dc-7c40-9adb-ef240551a423/exec-a9efb0f6-aadd-4aec-b128-a9ad518c9d6d.png",
+      "generationBeforeUTC": "2026-10-03 13:51:34 UTC",
+      "generationAfterUTC": "2026-10-03 13:52:56 UTC",
+      "repair": true,
+      "repairOfAssetId": "asset-2ad1b7e0271532c30b082a9a",
+      "reason": "Independent final QA found missing smaller representative in row3 column3 full-body Left Profile.",
+      "visualQA": "Inspected all24 cells at original size: two distinct representatives in each, repaired row3col3 both left profiles with beaks LEFT, full rose tails, folded feather wings and separate supported feet. Other opposed directions, identities, expression/pose rows, labels and framing preserved. Existing interaction image is visually compatible; original actual input references will stay unchanged.",
+      "specPath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/workflows/characters/migrating-bird-family/solo-cell-repair-spec.json",
+      "prompt": "Edit the attached COMPLETE Pipilini's Migrating Family 24-cell study sheet. Change ONLY row3 FULL BODY VIEWS, column3 labeled Left Profile. That cell currently contains only the larger bird. Add the MISSING SMALLER rose-and-cream representative bird beside it, matching exactly the smaller companion's identity, feather colors, proportions, red-orange beak, long pink tail and feet from adjacent row3 column2/4/5. BOTH birds in this cell must be true LEFT PROFILES: beaks point SCREEN LEFT, entire bodies face LEFT, two natural feet per bird, folded feather wings, full tails visible within cell margins. Keep the larger bird identity unchanged; if necessary reposition the pair locally to fit both without cropping or overlap. Larger remains larger, smaller remains smaller. Do not invent chick/parent names or precise ages. Preserve every other cell, all face views/expressions, all other body directions, poses, labels, header, footer landscape, warm dimensional style and original page dimensions. Output the complete full sheet with only this cell corrected. Count exactly TWO identifiable birds in EACH of all24 study cells, including repaired row3col3.\n",
+      "references": [
+        {
+          "assetId": "asset-2ad1b7e0271532c30b082a9a",
+          "sha256": "2ad1b7e0271532c30b082a9aa74baa792025974b342b668caf4507d7a66139b8",
+          "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/generated/2ad1b7e0271532c3-migrating-bird-family-solo.png",
+          "role": "PRIMARY-edit-target"
+        }
+      ],
+      "omittedReferences": [
+        {
+          "assetId": "asset-713cae3785e80f243216dcdc",
+          "sha256": "713cae3785e80f243216dcdc74955eaa37501071661eb403d433f7edcae7c9b6",
+          "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/assets/713cae3785e80f243216dcdc74955eaa37501071661eb403d433f7edcae7c9b6.png",
+          "role": "PRIMARY-working-family-visual-lineage"
+        },
+        {
+          "assetId": "asset-5d505b375eed339baa7f7650",
+          "sha256": "5d505b375eed339baa7f765028f4c61224a685dfcc4c01ee53c5f35fdb303700",
+          "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/assets/5d505b375eed339baa7f765028f4c61224a685dfcc4c01ee53c5f35fdb303700.png",
+          "role": "layout-direction-only"
+        },
+        {
+          "assetId": "asset-88d74c56a468e3f250b12dbc",
+          "sha256": "88d74c56a468e3f250b12dbcb5ecdb7b07bd1d789197663d8948ac199acd133d",
+          "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/assets/88d74c56a468e3f250b12dbcb5ecdb7b07bd1d789197663d8948ac199acd133d.webp",
+          "role": "book-style"
+        },
+        {
+          "assetId": "asset-3da638615ab0e52d60c8ea61",
+          "sha256": "3da638615ab0e52d60c8ea6130b0a1b103845a4e6f7b40de9a9bff6dbcf534ea",
+          "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/assets/3da638615ab0e52d60c8ea6130b0a1b103845a4e6f7b40de9a9bff6dbcf534ea.png",
+          "role": "subject-source:original-visual-context"
+        }
+      ],
+      "receipt": {
+        "assetId": "asset-5deafc271a86abb0291f896c",
+        "sha256": "5deafc271a86abb0291f896c7e9f1d178ac3592b2753964ea9823b4af2c937d2",
+        "bytes": 2333020,
+        "reviewStatus": "unreviewed",
+        "nativePath": "/Users/miguel_lemos/.codex/generated_images/01a0ff85-92dc-7c40-9adb-ef240551a423/exec-a9efb0f6-aadd-4aec-b128-a9ad518c9d6d.png",
+        "generatedPath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/generated/5deafc271a86abb0-migrating-bird-family-solo-cell-repaired.png",
+        "reused": false,
+        "kernelRelease": "c9be233f9e18f6d480c8a5b7d50dff6384c9df2766510b5ef006b21ccec40c75",
+        "workflowCard": {
+          "type": "WorkflowCard",
+          "title": "migrating-bird-family-solo-cell-repaired.png",
+          "text": "Unreviewed candidate. Original image available at full size.",
+          "assetIds": [
+            "asset-5deafc271a86abb0291f896c"
+          ],
+          "actions": []
+        },
+        "timing": {
+          "startedAt": "2026-10-03T13:58:14.496326+00:00",
+          "validatedAt": "2026-10-03T13:58:14.538839+00:00",
+          "copiedAt": "2026-10-03T13:58:14.540657+00:00",
+          "registeredAt": "2026-10-03T13:58:14.575606+00:00",
+          "registrationSeconds": 0.079289,
+          "dossierWrittenAt": "2026-10-03T13:58:14.576384+00:00",
+          "helperTotalSeconds": 0.080063
+        },
+        "dossierPath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/reports/character-packages/migrating-bird-family.json",
+        "entityId": "migrating-bird-family",
+        "stage": "solo"
+      },
+      "recordedAt": "2026-10-03T13:58:14.583694+00:00"
+    }
+  ],
+  "monetaryCost": null,
+  "deliveryBounds": null,
+  "firstReplyBounds": null,
+  "metrics": {
+    "imageCalls": 4,
+    "measuredImageCalls": 4,
+    "recoveredRendersWithoutMeasuredBounds": 0,
+    "repairCalls": 2,
+    "summedImageCallWindowSeconds": 248.0,
+    "registrationSeconds": 0.330334,
+    "firstPassBodyDirectionErrors": [],
+    "endToEndSeconds": null,
+    "monetaryCost": null
+  },
+  "finalStages": {
+    "solo": {
+      "assetId": "asset-5deafc271a86abb0291f896c",
+      "sha256": "5deafc271a86abb0291f896c7e9f1d178ac3592b2753964ea9823b4af2c937d2",
+      "nativePath": "/Users/miguel_lemos/.codex/generated_images/01a0ff85-92dc-7c40-9adb-ef240551a423/exec-a9efb0f6-aadd-4aec-b128-a9ad518c9d6d.png",
+      "generatedPath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/generated/5deafc271a86abb0-migrating-bird-family-solo-cell-repaired.png",
+      "receiptKind": null
+    },
+    "interactions": {
+      "assetId": "asset-724018170df3f256abb11760",
+      "sha256": "724018170df3f256abb117600e91decc3709ab94dc439a9d4f2fb0b8043fb2e2",
+      "nativePath": "/Users/miguel_lemos/.codex/generated_images/01a0ff85-92dc-7c40-9adb-ef240551a423/exec-ea315ad4-fbc8-4790-8348-2d2872e6a307.png",
+      "generatedPath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/generated/724018170df3f256-migrating-bird-family-interactions-repaired.png",
+      "receiptKind": null
+    }
+  },
+  "status": "produced",
+  "retainedInteractionReviews": [
+    {
+      "currentSoloAssetId": "asset-5deafc271a86abb0291f896c",
+      "currentSoloSha256": "5deafc271a86abb0291f896c7e9f1d178ac3592b2753964ea9823b4af2c937d2",
+      "retainedInteractionAssetId": "asset-724018170df3f256abb11760",
+      "decision": "Agent visual QA: existing final interaction remains compatible with same identities; no render required for added missing solo direction cell.",
+      "provenance": "Compatibility review only. Original actual input asset IDs, hashes and prompts remain unchanged; new solo was NOT used in the retained interaction generation.",
+      "authority": "Agent QA, not personal Miguel acceptance or publication"
+    }
+  ]
+}

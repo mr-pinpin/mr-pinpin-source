@@ -1,12 +1,12 @@
 # Durable cast run
 
-## Current checkpoint: batch05
+## Current checkpoint: batch06-qa-correction
 
-18 complete draft packages; 3 remain. Next: squirrel-community. Remaining in order: squirrel-community, migrating-bird-family, tarin.
+21 complete draft packages; 0 remain. Next: None. Remaining in order: .
 
-11 retained native renders (10 measured, 1 recovered without call bounds); 2 repairs; summed measured image windows 2149s, union 727s, image span 1643s. Limits: Submission/return windows, not compute or full-turn latency. Billing and unobserved delivery bounds unknown.
+4 retained native renders (4 measured, 0 recovered without call bounds); 2 repairs; summed measured image windows 248s, union 248s, image span 1602s. Limits: Submission/return windows, not compute or full-turn latency. Billing and unobserved delivery bounds unknown.
 
-Finished: oreshek, lilia, hedgehog-cousins, spring-birds. Exact prompts, source/proposal distinctions, visual QA, stages and timings remain in character folders and standard receipts. Existing artwork preserved. [Batch summary](../reports/cast-batch05-summary.json). [Prior checkpoint](../reports/cast-before-batch05-checkpoint.md). Notetaker unavailable; durable Markdown fallback.
+Finished: migrating-bird-family. Exact prompts, source/proposal distinctions, visual QA, stages and timings remain in character folders and standard receipts. Existing artwork preserved. [Batch summary](../reports/cast-batch06-qa-correction-summary.json). [Prior checkpoint](../reports/cast-before-batch06-qa-correction-checkpoint.md). Notetaker unavailable; durable Markdown fallback.
 
 Use `python -B tools/cast_ops.py finish <entity>` after real visual QA, then `python -B tools/cast_ops.py checkpoint <batch> <entity> ...` once per batch. Receipt IDs/hashes are read programmatically; curated evidence is retained.
 
@@ -43,3 +43,7 @@ On an interrupted partial package, inspect the hydrated `packageReceipts` stage 
 ## Earlier checkpoint
 
 The full PinPin batch history, timings and operational corrections are retained at [reports/cast-pinpin-checkpoint.md](../reports/cast-pinpin-checkpoint.md). Keep the live contract bounded; append detailed future history to reports rather than exceeding its 10,000-byte context read limit.
+
+[Complete 21-entry final-stage inventory](../reports/cast-complete-inventory.md). [Full source, prompt, reference, attempt and timing receipt inventory](../reports/cast-complete-inventory.json).
+
+[Complete 21-entry final-stage inventory](../reports/cast-complete-inventory.md). [Full source, prompt, reference, attempt and timing receipt inventory](../reports/cast-complete-inventory.json).

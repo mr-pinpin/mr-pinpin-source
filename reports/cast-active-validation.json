@@ -1,7 +1,7 @@
 {
   "business": {
-    "active": "8116f98cc89ec4b88bce1558a4dfd5854da38b9e1894912377eb5da9194dbf84",
-    "previous": "e9acd55f317660d92a59678e2dd1e6462b1638329c87b68e984eb333bf415944",
+    "active": "a62a8fbdada5baadd1f418ef88a2126c5494a96831ad8e737fda7ddc697da590",
+    "previous": "567f8b5139139c1ed8bcef18d9fea35a64577a4228ef2cbbb6bdbda09a32c5a9",
     "status": "ready",
     "error": null
   },
@@ -18,15 +18,36 @@
     "routes.py": true,
     "cast_inventory.py": true,
     "__init__.py": true,
+    "character_context.py": true,
     "media-workspace.js": true
   },
-  "liveFreshContextEntity": "squirrel-community",
-  "workflowSha256": "d0996743cc83d717095b8ad6856135c3b8f0dd8e22f6eb2d96a00a997d4df6c7",
-  "remaining": [
-    "squirrel-community",
-    "migrating-bird-family",
-    "tarin"
-  ],
+  "liveFreshContextEntity": null,
+  "workflowSha256": "2a64a5d6c8bc8ee35ca815fb27d337db8fcbecfceadaae7cc1f5d726a9975a2a",
+  "remaining": [],
   "guideLoaded": true,
-  "note": "Fresh local application-context invocation without prior message state; not a claim of a new model thread. New browser verification not performed."
+  "note": "Fresh local application-context invocation without prior message state; not a claim of a new model thread. New browser verification not performed.",
+  "explicitFreshTarinInputs": {
+    "primarySoloId": "asset-53a1259d91e1c489a9796f62",
+    "maxInputReferences": 5,
+    "roles": [
+      [
+        "primary-working-identity:verified-solo"
+      ],
+      [
+        "selected-character",
+        "subject-source:identity-human-form"
+      ],
+      [
+        "selected-character",
+        "subject-source:identity-human-form"
+      ],
+      [
+        "layout-direction-only:no-species-transfer"
+      ],
+      [
+        "cast:pinpin",
+        "book-style"
+      ]
+    ]
+  }
 }

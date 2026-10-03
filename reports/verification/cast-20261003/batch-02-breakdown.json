@@ -1,0 +1,125 @@
+{
+  "messageId": "message-59544b6c746b4ff19f70",
+  "turnId": "01a10167-817e-7c90-b1ac-838f861cd746",
+  "totalSeconds": 2085.350827,
+  "imageActivityWallSeconds": 423.963261,
+  "compactionSeconds": 254.751728,
+  "remainingIncludingRegistrationSeconds": 1406.635838,
+  "registrationReceiptSeconds": 0.697453,
+  "appCallWindowUnionSeconds": 425.0,
+  "appCallWindowSumSeconds": 811.0,
+  "generationCallCount": 9,
+  "repairCount": 3,
+  "eventCoverage": "complete",
+  "registrations": [
+    {
+      "entityId": "rabbit",
+      "stage": "solo",
+      "assetId": "asset-e64154c3829a84e223c54626",
+      "timing": {
+        "startedAt": "2026-10-03T11:08:16.384106+00:00",
+        "validatedAt": "2026-10-03T11:08:16.430103+00:00",
+        "copiedAt": "2026-10-03T11:08:16.431831+00:00",
+        "registeredAt": "2026-10-03T11:08:16.463412+00:00",
+        "registrationSeconds": 0.079313
+      }
+    },
+    {
+      "entityId": "rabbit",
+      "stage": "interactions",
+      "assetId": "asset-c55a562de31d68a4d2428d52",
+      "timing": {
+        "startedAt": "2026-10-03T11:15:43.354576+00:00",
+        "validatedAt": "2026-10-03T11:15:43.402299+00:00",
+        "copiedAt": "2026-10-03T11:15:43.404316+00:00",
+        "registeredAt": "2026-10-03T11:15:43.437120+00:00",
+        "registrationSeconds": 0.082552
+      }
+    },
+    {
+      "entityId": "elder",
+      "stage": "solo",
+      "assetId": "asset-cd76572711835f22310bd2e6",
+      "timing": {
+        "startedAt": "2026-10-03T11:08:16.624021+00:00",
+        "validatedAt": "2026-10-03T11:08:16.664598+00:00",
+        "copiedAt": "2026-10-03T11:08:16.666313+00:00",
+        "registeredAt": "2026-10-03T11:08:16.698749+00:00",
+        "registrationSeconds": 0.074737
+      }
+    },
+    {
+      "entityId": "elder",
+      "stage": "interactions-first",
+      "assetId": "asset-d913f445754887cb55849cc5",
+      "timing": {
+        "startedAt": "2026-10-03T11:15:43.612780+00:00",
+        "validatedAt": "2026-10-03T11:15:43.655605+00:00",
+        "copiedAt": "2026-10-03T11:15:43.657715+00:00",
+        "registeredAt": "2026-10-03T11:15:43.690353+00:00",
+        "registrationSeconds": 0.077591
+      }
+    },
+    {
+      "entityId": "elder",
+      "stage": "interactions",
+      "assetId": "asset-ba2002ca5110c1a61b6782a9",
+      "timing": {
+        "startedAt": "2026-10-03T11:23:20.205769+00:00",
+        "validatedAt": "2026-10-03T11:23:20.246982+00:00",
+        "copiedAt": "2026-10-03T11:23:20.249008+00:00",
+        "registeredAt": "2026-10-03T11:23:20.282023+00:00",
+        "registrationSeconds": 0.076263
+      }
+    },
+    {
+      "entityId": "scooby",
+      "stage": "solo-first",
+      "assetId": "asset-af23a133db38eeca67e2a6bd",
+      "timing": {
+        "startedAt": "2026-10-03T11:08:16.861513+00:00",
+        "validatedAt": "2026-10-03T11:08:16.902000+00:00",
+        "copiedAt": "2026-10-03T11:08:16.903579+00:00",
+        "registeredAt": "2026-10-03T11:08:16.935801+00:00",
+        "registrationSeconds": 0.074297
+      }
+    },
+    {
+      "entityId": "scooby",
+      "stage": "solo",
+      "assetId": "asset-4336524cb9db0e329aacc58f",
+      "timing": {
+        "startedAt": "2026-10-03T11:14:12.015010+00:00",
+        "validatedAt": "2026-10-03T11:14:12.061069+00:00",
+        "copiedAt": "2026-10-03T11:14:12.062681+00:00",
+        "registeredAt": "2026-10-03T11:14:12.095037+00:00",
+        "registrationSeconds": 0.080038
+      }
+    },
+    {
+      "entityId": "scooby",
+      "stage": "interactions-first",
+      "assetId": "asset-6b550b753c46fb9733b8862a",
+      "timing": {
+        "startedAt": "2026-10-03T11:15:43.854667+00:00",
+        "validatedAt": "2026-10-03T11:15:43.897174+00:00",
+        "copiedAt": "2026-10-03T11:15:43.899332+00:00",
+        "registeredAt": "2026-10-03T11:15:43.931904+00:00",
+        "registrationSeconds": 0.077245
+      }
+    },
+    {
+      "entityId": "scooby",
+      "stage": "interactions",
+      "assetId": "asset-a3e1d5b048327b08f32de036",
+      "timing": {
+        "startedAt": "2026-10-03T11:23:20.512621+00:00",
+        "validatedAt": "2026-10-03T11:23:20.553182+00:00",
+        "copiedAt": "2026-10-03T11:23:20.555168+00:00",
+        "registeredAt": "2026-10-03T11:23:20.588030+00:00",
+        "registrationSeconds": 0.075417
+      }
+    }
+  ],
+  "warning": "Image server events are not per-image backend duration. App windows use second-resolution clock and overlap; do not sum811s as wall time. Remaining includes engineering, review, tools and delivery."
+}

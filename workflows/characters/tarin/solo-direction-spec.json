@@ -1,0 +1,41 @@
+{
+  "entityId": "tarin",
+  "stage": "solo",
+  "prompt": "Edit the attached Tarin double-sheet. Preserve every successful cell, HUMAN LEFT half, hedgehog gray quills/white eyebrows, all labels and CORRECT footer HEDGEHOG \u2192 Enchanted coffee \u2192 HUMAN \u2192 Sunset \u2192 HEDGEHOG. Make exactly THREE orientation corrections in the RIGHT HALF HEDGEHOG ONLY. (A) FACE VIEWS row1, FIFTH cell labeled Right Profile: currently nose points LEFT. REPLACE with a true profile nose pointing to RIGHT image edge, ear behind eye, gray quills behind head extending LEFT, no visible second eye. (B) WHOLE BODY VIEWS row3, SECOND cell labeled Left 3/4: currently nose points RIGHT. REPLACE with whole elderly hedgehog turned three-quarter toward LEFT edge, nose points LEFT, both eyes visible, cream belly toward LEFT-front, gray quill mass at RIGHT/back, two grounded feet, separate paws. (C) WHOLE BODY VIEWS row3, FIFTH cell Right Profile: currently nose points LEFT. REPLACE with entire elderly hedgehog true side facing RIGHT edge, nose points RIGHT, gray quill mass at LEFT/back, white brows, cream muzzle toward RIGHT, grounded two feet. These are genuinely opposed orientations, don't just change text. DO NOT alter RIGHT HALF row3 cell4 which correctly faces RIGHT, or cell3 which correctly faces LEFT. Keep full page size, 48 studies, all human poses and footer unchanged. Inspect A B C: nose A RIGHT, B LEFT, C RIGHT.\n",
+  "promptFile": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/workflows/characters/tarin/solo-direction-prompt.txt",
+  "outputName": "tarin-solo-directions.png",
+  "references": [
+    {
+      "assetId": "asset-16a9d052eadc0bbce07ab1c4",
+      "sha256": "16a9d052eadc0bbce07ab1c43adfa401b4cae63f305101f2e9650a6ff4e7dc2e",
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/generated/16a9d052eadc0bbc-tarin-solo-repaired.png",
+      "role": "PRIMARY-edit-target"
+    },
+    {
+      "assetId": "asset-5d505b375eed339baa7f7650",
+      "sha256": "5d505b375eed339baa7f765028f4c61224a685dfcc4c01ee53c5f35fdb303700",
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/assets/5d505b375eed339baa7f765028f4c61224a685dfcc4c01ee53c5f35fdb303700.png",
+      "role": "layout-direction-only"
+    }
+  ],
+  "omittedReferences": [
+    {
+      "assetId": "asset-cdeee8375b17db34dfd4c717",
+      "sha256": "cdeee8375b17db34dfd4c7172201a8f49069e2b57a72e28a76f5e74463404511",
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/assets/cdeee8375b17db34dfd4c7172201a8f49069e2b57a72e28a76f5e74463404511.png",
+      "role": "subject-source:identity-human-form"
+    },
+    {
+      "assetId": "asset-142c73e7c61651a59e322f0c",
+      "sha256": "142c73e7c61651a59e322f0cc2d81b0443a96cbe560accf3840e82445f7a2359",
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/assets/142c73e7c61651a59e322f0cc2d81b0443a96cbe560accf3840e82445f7a2359.png",
+      "role": "subject-source:identity-human-form"
+    },
+    {
+      "assetId": "asset-88d74c56a468e3f250b12dbc",
+      "sha256": "88d74c56a468e3f250b12dbcb5ecdb7b07bd1d789197663d8948ac199acd133d",
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/assets/88d74c56a468e3f250b12dbcb5ecdb7b07bd1d789197663d8948ac199acd133d.webp",
+      "role": "book-style"
+    }
+  ]
+}

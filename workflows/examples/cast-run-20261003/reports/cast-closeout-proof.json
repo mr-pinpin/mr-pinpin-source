@@ -41,7 +41,23 @@
       "passed": true
     },
     {
+      "test": "saved policy caps five and preserves primary identity and counterpart priority",
+      "passed": true
+    },
+    {
+      "test": "actual active CLI finish retry 1 retains one complete metrics block",
+      "passed": true
+    },
+    {
+      "test": "actual active CLI finish retry 2 retains one complete metrics block",
+      "passed": true
+    },
+    {
       "test": "single checkpoint queue summary export and archived narrative",
+      "passed": true
+    },
+    {
+      "test": "complete inventory retains exact final IDs, source dossier and receipts",
       "passed": true
     },
     {
@@ -49,6 +65,6 @@
       "passed": true
     }
   ],
-  "fixtureRoot": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/reports/cast-closeout-h1she8d2",
+  "fixtureRoot": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/reports/cast-closeout-4i3xph5l",
   "scope": "Isolated registered deterministic pixels, no model thread or art calls"
 }

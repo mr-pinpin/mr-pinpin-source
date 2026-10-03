@@ -27,6 +27,15 @@ def read_json(root, relative, maximum):
     except (ValueError, TypeError):
         return None
 
+def document_index(root, relative, maximum):
+    """Hash/section pointers for long guides; short fixture docs remain inline."""
+    document = read_document(root, relative, maximum)
+    if document and len(document.get("text", "").encode()) > 1800:
+        text = document.pop("text")
+        document["sections"] = [line.lstrip("# ")[:120] for line in text.splitlines() if line.startswith("#")][:40]
+        document["retrieval"] = "Read this persistent Markdown path for full instructions; omitted prose is not missing evidence."
+    return document
+
 def load_run(store):
     value = read_json(store.root, "workflows/cast-run.json", 160000)
     if not isinstance(value, dict) or value.get("schemaVersion") != 1:
@@ -109,14 +118,16 @@ def workflow_context(store, entity_id=None, details=True):
     selected = entity_id or next_id
     entry = next((c for c in rows if c["id"] == selected), None)
     result = {"manifestPath": "workflows/cast-run.json", "nextEntityId": next_id,
-              "remaining": [c["id"] for c in rows if not c["complete"]], "selected": entry,
-              "characters": [{k: c.get(k) for k in ("id", "canonicalName", "status", "dossierPath", "evidencePath", "outputs", "nextStage", "missingStages")} for c in rows],
+              "remaining": [c["id"] for c in rows if not c["complete"]],
+              "selected": {k: entry.get(k) for k in ("id", "canonicalName", "aliases", "exactAge", "evidencedLifeStage", "constraints", "registeredReferenceIds", "status", "dossierPath", "evidencePath", "stages", "nextStage", "missingStages", "complete")} if entry else None,
+              "characters": [{k: c.get(k) for k in ("id", "canonicalName", "status", "dossierPath", "evidencePath", "nextStage")} for c in rows],
               "notetaker": run.get("notetaker"), "authority": "Persistent product data; no approval/publication authority."}
     if not details:
         result["selected"] = None
         return result
-    result.update(guide=read_document(store.root, "workflows/character-creation.md", 22000),
-                  runContract=read_document(store.root, "workflows/cast-run.md", 10000),
+    result.update(guide=document_index(store.root, "workflows/character-creation.md", 22000),
+                  runContract=document_index(store.root, "workflows/cast-run.md", 10000),
+                  workflowIndex=read_document(store.root, "workflows/character-context-index.md", 3000),
                   dossier=read_document(store.root, "workflows/characters/" + selected + "/README.md", 8000) if selected else None,
                   packageReceipts=entry.get("stages") if entry else None)
     if entry:

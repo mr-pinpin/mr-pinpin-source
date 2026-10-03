@@ -1,0 +1,37 @@
+Batch02 final read-only latency audit — 2026-10-03
+Complete persisted eventcoverage; cursor7137, collector observed11:30:08.275188UTC.
+messagemessage-59544b6c746b4ff19f70; turn01a10167-817e-7c90-b1ac-838f861cd746.
+Accepted2026-10-03T10:55:22.814466+00:00; first visibleprogress0.199767s; firsttext6.606644s.
+FinalAPI2026-10-03T11:30:08.138987+00:00; turncompleted2026-10-03T11:30:08.165293+00:00.
+Total2085.350827s =34m45.351s.
+
+Measured categories:
+Image activity union423.963261s (9eventpairs); NOT per-image backend duration.
+Context compaction254.751728s, events6089–6091,11:15:44.110570–11:19:58.862298.
+These image/compaction intervals do not overlap.
+Remaining1406.635838s includes engineering, reference preparation, review, tools,
+registration, validation and finaldelivery; not pure coordination overhead.
+Nine actual helper registration receipts sum0.697453s (subcomponent of remainder).
+Receipts verified in reports/character-packages/rabbit.json,elder.json,scooby.json;
+sanitized exact receipt timing/asset IDs in batch-02-breakdown.json.
+
+App report reconciliation:
+reports/cast-batch-timing.json records9generationcalls,3artworkrepairs.
+Its clock resolution is one second. Call-window SUM811s double-counts concurrent
+submitted calls. UNION425s is the relevant aggregate window.
+API activity callbacks union423.963261s,1.036739s lower due different boundaries/
+precision. Keep both definitions; neither establishes precise per-image backend
+execution time. App itself says concurrent submission does not prove concurrent
+execution. Repairs are creative output corrections, not demonstrated transport/
+provider retries. No fabricated provider-retry latency.
+
+Turn also included app engineering/validation, so it is not a clean three-character
+generation-only benchmark. Acceptance→first image activity619.934293s.
+Last image completion→turncompletion441.909503s. Those phase windows include mixed
+work. App deliveryPreparedAt11:23:58 is not final delivery; final API11:30:08.138987
+is the timestamped completed message. Browser-paint time is not exposed.
+
+Batch03 now running independently:
+message-691a51149f744ea6945c; accepted11:30:28.150913UTC,HTTP0.126279s(rootreceipt).
+Capture timeout3600, filesbatch-03-capture.json/batch-03-metrics.json.
+No app messages, source edits, generation or production mutations by this lane.

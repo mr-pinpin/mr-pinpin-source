@@ -1,0 +1,28 @@
+{
+  "entityId": "squirrel-community",
+  "stage": "solo",
+  "prompt": "Use case: illustration-story. Production reference titled \"Forest squirrel community\" with subtitle \"Proposed book adaptation\", warm dimensional PinPin book style on ivory. Portrait page, FOUR rows of SIX readable cells, TWO representative subjects separately distinguishable in EVERY cell. Larger adult/companion and smaller young/companion sizes consistent. No canonical total claimed. Subject/source requirements: Recurring unnamed squirrel community: experienced adult advisers/builders and their young are sourced. Show TWO representative proposed designs, not canonical total: one older gray-brown adviser with cream muzzle and one smaller russet youngster with cream belly; tufted ears, bushy tails, squirrel paws, no hedgehog quills. No personal names or precise ages, no inferred sex. Adults capable of planning/building; young age-appropriate play. Source distinction: Original chapters19–25 establish advisers, builders and young, with actual image73 showing varied squirrels working with hedgehogs. Group visuals establish diversity, not named individual portraits. Two representative faces/colors/relative sizes are proposed book adaptations. Actual inputs ordered: 1: layout-direction-only, 2: book-style, 3: subject-source:original-visual-context. Layout sheet controls grid/opposed directions ONLY; never copy its species/clothing/anatomy. Row1 FACE VIEWS for each subject/form explicitly: Front: nose/beak centered toward viewer. Left 3/4: nose/beak SCREEN LEFT, both eyes visible if anatomy permits, torso LEFT. Left profile: true side, nose/beak SCREEN LEFT, torso LEFT. Right 3/4: nose/beak SCREEN RIGHT, both eyes visible if anatomy permits, torso RIGHT. Right profile: true side, nose/beak SCREEN RIGHT, torso RIGHT. Rear: back, face invisible. Row2 EXPRESSIONS: Calm, Curious, Happy, Surprised, Thoughtful, Mild upset, naturally varied. Row3 FULL BODY VIEWS explicitly: Front: nose/beak centered toward viewer. Left 3/4: nose/beak SCREEN LEFT, both eyes visible if anatomy permits, torso LEFT. Left profile: true side, nose/beak SCREEN LEFT, torso LEFT. Right 3/4: nose/beak SCREEN RIGHT, both eyes visible if anatomy permits, torso RIGHT. Right profile: true side, nose/beak SCREEN RIGHT, torso RIGHT. Rear: back, face invisible. Row4 NORMAL POSES: Sit, Reach, Greet, Carry cup or small nut, Share, Rest. Birds instead Perch, Hop, Sing, Spread wings, Fly gently, Rest. No human hands/arms on birds. Distinct two arms/two legs on human and hedgehog/squirrel, two wings/two feet on birds, clear supported feet/perches. Human full beard/robe hem/shoes visible; hedgehog whole quills/feet visible. Generous margins, no fused limbs, no clipped tails. Concise labels only, no invented ages/heights/names. One real unified image.",
+  "promptFile": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/workflows/characters/squirrel-community/solo-prompt.txt",
+  "outputName": "squirrel-community-solo.png",
+  "references": [
+    {
+      "assetId": "asset-5d505b375eed339baa7f7650",
+      "sha256": "5d505b375eed339baa7f765028f4c61224a685dfcc4c01ee53c5f35fdb303700",
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/assets/5d505b375eed339baa7f765028f4c61224a685dfcc4c01ee53c5f35fdb303700.png",
+      "role": "layout-direction-only"
+    },
+    {
+      "assetId": "asset-88d74c56a468e3f250b12dbc",
+      "sha256": "88d74c56a468e3f250b12dbcb5ecdb7b07bd1d789197663d8948ac199acd133d",
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/assets/88d74c56a468e3f250b12dbcb5ecdb7b07bd1d789197663d8948ac199acd133d.webp",
+      "role": "book-style"
+    },
+    {
+      "assetId": "asset-12eb0a8dc54eaf3a566ecdaf",
+      "sha256": "12eb0a8dc54eaf3a566ecdaf672672e08c22e163019d212de00f126e2e45d931",
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/assets/12eb0a8dc54eaf3a566ecdaf672672e08c22e163019d212de00f126e2e45d931.png",
+      "role": "subject-source:original-visual-context"
+    }
+  ],
+  "omittedReferences": []
+}

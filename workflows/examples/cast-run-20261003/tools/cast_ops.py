@@ -62,6 +62,57 @@ def finish_records(identifier, result):
     atomic_json(DATA / 'reports/character-packages' / (identifier + '-completion.json'), result)
     return result
 
+def complete_inventory(store, run):
+    """Export the reconciled complete queue, preserving source and legacy receipts."""
+    state = store.read()
+    assets = {a['id']: a for a in state.get('assets', [])}
+    bindings = state['project']['book'].get('characterReferenceDefaults', {}).get('characters', {})
+    entries = []
+    lines = ['# Complete cast draft inventory', '',
+        'All final stages below were reconciled against real registered assets, SHA-256 hashes and image bytes. Produced drafts and agent QA remain separate from human acceptance, story-reference selection and publication.', '',
+        'Notetaker is unavailable. Character Markdown dossiers, source bibliography and retained receipts are the durable fallback. Missing historical generation, delivery or billing measurements remain unknown.', '',
+        '| Character | Final solo | Final interactions | Age / life stage | Records |',
+        '| --- | --- | --- | --- | --- |']
+    for row in run['characters']:
+        identifier = row['id']
+        if not row['complete']: raise ValueError('Complete inventory requires every real stage')
+        folder = DATA/'workflows/characters'/identifier
+        doc = folder/'README.md'; evidence = folder/'evidence.json'
+        package = DATA/'reports/character-packages'/(identifier+'.json')
+        if not all(p.is_file() for p in (doc, evidence, package)): raise ValueError('Missing dossier/receipt: '+identifier)
+        source = json.loads(evidence.read_text())
+        receipt = json.loads(package.read_text())
+        finals = {}
+        for stage, verified in row['stages'].items():
+            candidate = next(c for c in receipt['stages'][stage]['candidates'] if c['assetId']==verified['assetId'] and c['sha256']==verified['sha256'])
+            asset = assets.get(verified['assetId'])
+            if asset is None: raise ValueError('Verified asset missing from current registry: '+identifier)
+            finals[stage] = dict(verified, registeredPath=str(store.asset_path(verified['assetId'])),
+                provenance=asset.get('provenance', {}), candidateReceipt=candidate,
+                retainedAttemptCount=len(receipt['stages'][stage]['candidates']))
+        generation = folder/'generation.json'
+        entry = {'id': identifier, 'canonicalName': row.get('canonicalName', identifier),
+            'exactAge': row.get('exactAge', 'not stated'), 'evidencedLifeStage': row.get('evidencedLifeStage', 'See sourced dossier'),
+            'status': 'produced', 'finalStages': finals,
+            'dossierPath': str(doc.relative_to(DATA)), 'dossierText': doc.read_text(),
+            'evidencePath': str(evidence.relative_to(DATA)), 'sourceBibliography': source.get('bibliography', []),
+            'inspectedVisualEvidence': source.get('inspectedVisualEvidence', []),
+            'designBasis': bindings.get(identifier, {}).get('designBasis', 'See preserved source/proposal distinctions in dossier and indexed evidence'),
+            'sourceAndRoleBinding': bindings.get(identifier, {}), 'receiptPath': str(package.relative_to(DATA)),
+            'stageReceipts': receipt,
+            'generationPath': str(generation.relative_to(DATA)) if generation.is_file() else None,
+            'generationRecord': json.loads(generation.read_text()) if generation.is_file() else None,
+            'legacyTimingAndPromptReports': sorted({p for role in receipt['stages'].values() for c in role['candidates'] for p in c.get('sourceReportPaths', [])}),
+            'authority': 'Agent QA / draft production only; no invented personal Miguel approval or publication'}
+        entries.append(entry)
+        stage_link = lambda role: '['+finals[role]['assetId']+']('+finals[role]['registeredPath']+')'
+        lines.append('| '+entry['canonicalName']+' | '+stage_link('solo')+' | '+stage_link('interactions')+' | '+entry['exactAge']+'; '+entry['evidencedLifeStage'].replace('|','/')+' | [Dossier](../'+entry['dossierPath']+') · [Evidence](../'+entry['evidencePath']+') · [Receipts](../'+entry['receiptPath']+') |')
+    payload = {'schemaVersion': 1, 'producedCount': len(entries), 'remaining': [], 'characters': entries,
+        'notetaker': 'Unavailable; truthful durable Markdown fallback', 'timingLimits': 'Per-attempt generation and registration receipts; unknown historical, delivery and billing values remain unknown.'}
+    paths = [DATA/'reports/cast-complete-inventory.json', DATA/'reports/cast-complete-inventory.md']
+    atomic_json(paths[0], payload); paths[1].write_text('\n'.join(lines)+'\n')
+    return paths
+
 def checkpoint(runtime, store, batch, identifiers):
     began = time.monotonic()
     _, run = runtime.invoke('route', store, 'POST', '/api/cast/reconcile', {}, {})
@@ -100,16 +151,24 @@ def checkpoint(runtime, store, batch, identifiers):
     new=f'# Durable cast run\n\n## Current checkpoint: {batch}\n\n{result["producedCount"]} complete draft packages; {len(remaining)} remain. Next: {run["nextEntityId"]}. Remaining in order: '+', '.join(remaining)+'.\n\n'
     new+=f'{result["imageCalls"]} retained native renders ({result["measuredImageCalls"]} measured, {result["recoveredRendersWithoutMeasuredBounds"]} recovered without call bounds); {result["repairCalls"]} repairs; summed measured image windows {result["sumImageWindowsSeconds"]:.0f}s, union {result["unionSubmittedWindowsSeconds"]:.0f}s, image span {result["firstToLastImageSpanSeconds"]:.0f}s. Limits: '+result['limits']+'\n\n'
     new+=f'Finished: '+', '.join(identifiers)+f'. Exact prompts, source/proposal distinctions, visual QA, stages and timings remain in character folders and standard receipts. Existing artwork preserved. [Batch summary](../reports/cast-{batch}-summary.json). [Prior checkpoint](../reports/cast-before-{batch}-checkpoint.md). Notetaker unavailable; durable Markdown fallback.\n\nUse `python -B tools/cast_ops.py finish <entity>` after real visual QA, then `python -B tools/cast_ops.py checkpoint <batch> <entity> ...` once per batch. Receipt IDs/hashes are read programmatically; curated evidence is retained.\n\n'+retained
+    inventory_paths = complete_inventory(store, run) if not remaining else []
+    if inventory_paths:
+        new += '\n[Complete 21-entry final-stage inventory](../reports/cast-complete-inventory.md). [Full source, prompt, reference, attempt and timing receipt inventory](../reports/cast-complete-inventory.json).\n'
     if len(new.encode())>10000:raise ValueError('Contract exceeds bounded context limit')
     contract.write_text(new)
     defaults=DATA/'exports/cast-reference-defaults.json'
     atomic_json(defaults,store.read()['project']['book'].get('characterReferenceDefaults',{}))
-    paths=[contract,DATA/'workflows/cast-run.json',DATA/'workflows/character-creation.md',DATA/'workflows/toolchain.json',Path(__file__),defaults]
+    paths=[contract,DATA/'workflows/cast-run.json',DATA/'workflows/character-creation.md',DATA/'workflows/toolchain.json',Path(__file__),defaults]+inventory_paths
     for identifier in identifiers:
         folder=DATA/'workflows/characters'/identifier
         paths.extend(p for p in sorted(folder.iterdir()) if p.is_file() and p.suffix in ('.md','.json','.txt'))
         paths.extend(DATA/'reports/character-packages'/(identifier+suffix) for suffix in ('.json','-generation.json','-completion.json'))
     paths.extend(p for p in (DATA/'reports/cast-closeout-proof.json',DATA/'reports/cast-batch05-input-attempt.json') if p.is_file())
+    if inventory_paths:
+        paths.extend(p for p in (DATA/'exports/workflows-README.md', DATA/'exports/test_business_routes.py',
+            DATA/'exports/test_cast_closeout.py', DATA/'exports/final-cast-source-receipt.json',
+            DATA/'tools/test_cast_closeout.py', DATA/'tools/register_cast_spec.py',
+            DATA/'tools/verify-cast-active.py') if p.is_file())
     metadata=[{'path':str(p.relative_to(DATA)),'sha256':hashlib.sha256(p.read_bytes()).hexdigest(),'bytes':p.stat().st_size} for p in paths]
     atomic_json(DATA/'exports'/('cast-'+batch+'-checkpoint-receipt.json'),{'files':metadata,'imageBinariesIncluded':False,'approvalInvented':False})
     # One bounded readback of the prepared files; no broad engineering suite.

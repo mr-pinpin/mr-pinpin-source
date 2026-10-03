@@ -1,0 +1,337 @@
+{
+  "messageId": "message-a3a4e170e1d243778ab6",
+  "eventCoverage": "complete",
+  "totalSeconds": 2368.007459,
+  "imageActivityUnionSeconds": 483.247663,
+  "compactionSeconds": 199.758116,
+  "otherExcludingCompactionSeconds": 1685.00168,
+  "setupToFirstImageSeconds": 599.60865,
+  "setupExcludingCompactionSeconds": 399.850534,
+  "lastImageToCompletionSeconds": 538.900625,
+  "newCandidateRegistrationSeconds": 0.860059,
+  "imageCalls": 11,
+  "creativeRepairCalls": 3,
+  "finalPages": 8,
+  "firstPassPages": {
+    "current": 6,
+    "currentDenominator": 8,
+    "prior": 1,
+    "priorDenominator": 6,
+    "basis": "app QA and per-page repair history; non-controlled different cast"
+  },
+  "firstPassBodyDirection": {
+    "currentCorrectPages": 3,
+    "currentPages": 4,
+    "currentCorrectBodyDirectionCells": 23,
+    "currentBodyDirectionCells": 24,
+    "priorBatchCorrectPages": 0,
+    "priorBatchPages": 3,
+    "interpretation": "Observed small non-controlled sample; no causal speed/quality guarantee. Nose/beak screen direction checked; profile nuances noted as illustration."
+  },
+  "appCallWindowUnionSeconds": 485.0,
+  "appSummedWindowSeconds": 1014.0,
+  "calls": [
+    {
+      "entityId": "bear",
+      "repair": false,
+      "reason": null,
+      "generationBeforeUTC": "2026-10-03 12:03:04 UTC",
+      "generationAfterUTC": "2026-10-03 12:03:53 UTC",
+      "stage": "solo-first",
+      "assetId": "asset-4fbae3e9ef8c6a9122cd8080",
+      "firstPassBodyWrongCells": [
+        "Left 3/4"
+      ]
+    },
+    {
+      "entityId": "bear",
+      "repair": true,
+      "reason": "Face/body Left 3/4 cells faced right; rotate these cells only",
+      "generationBeforeUTC": "2026-10-03 12:08:31 UTC",
+      "generationAfterUTC": "2026-10-03 12:09:13 UTC",
+      "stage": "solo",
+      "assetId": "asset-8795b77759f3526d40c372eb",
+      "firstPassBodyWrongCells": null
+    },
+    {
+      "entityId": "bear",
+      "repair": false,
+      "reason": null,
+      "generationBeforeUTC": "2026-10-03 12:12:52 UTC",
+      "generationAfterUTC": "2026-10-03 12:13:42 UTC",
+      "stage": "interactions-first",
+      "assetId": "asset-9746c470d14f019b3e6772e0",
+      "firstPassBodyWrongCells": null
+    },
+    {
+      "entityId": "bear",
+      "repair": true,
+      "reason": "PinPin too large in hug/farewell",
+      "generationBeforeUTC": "2026-10-03 12:17:58 UTC",
+      "generationAfterUTC": "2026-10-03 12:18:43 UTC",
+      "stage": "interactions-repair1",
+      "assetId": "asset-aeac242e721024f446dcc587",
+      "firstPassBodyWrongCells": null
+    },
+    {
+      "entityId": "bear",
+      "repair": true,
+      "reason": "Restore adult Papa in panels2/5 after unintended shrink; further reduce farewell child",
+      "generationBeforeUTC": "2026-10-03 12:22:50 UTC",
+      "generationAfterUTC": "2026-10-03 12:23:34 UTC",
+      "stage": "interactions",
+      "assetId": "asset-4459ac0e4e5a5deba4e42f84",
+      "firstPassBodyWrongCells": null
+    },
+    {
+      "entityId": "talking-duck",
+      "repair": false,
+      "reason": null,
+      "generationBeforeUTC": "2026-10-03 12:03:04 UTC",
+      "generationAfterUTC": "2026-10-03 12:05:25 UTC",
+      "stage": "solo",
+      "assetId": "asset-bcfceea74b594d0a3e18d233",
+      "firstPassBodyWrongCells": []
+    },
+    {
+      "entityId": "talking-duck",
+      "repair": false,
+      "reason": null,
+      "generationBeforeUTC": "2026-10-03 12:11:08 UTC",
+      "generationAfterUTC": "2026-10-03 12:11:47 UTC",
+      "stage": "interactions",
+      "assetId": "asset-ce6202e185e38c16597c57bd",
+      "firstPassBodyWrongCells": null
+    },
+    {
+      "entityId": "tutu",
+      "repair": false,
+      "reason": null,
+      "generationBeforeUTC": "2026-10-03 12:03:04 UTC",
+      "generationAfterUTC": "2026-10-03 12:04:40 UTC",
+      "stage": "solo",
+      "assetId": "asset-9d3476deaf77e000cf59d0d4",
+      "firstPassBodyWrongCells": []
+    },
+    {
+      "entityId": "tutu",
+      "repair": false,
+      "reason": null,
+      "generationBeforeUTC": "2026-10-03 12:11:08 UTC",
+      "generationAfterUTC": "2026-10-03 12:13:42 UTC",
+      "stage": "interactions",
+      "assetId": "asset-d6ac1095cb13938a55335e21",
+      "firstPassBodyWrongCells": null
+    },
+    {
+      "entityId": "pipilini",
+      "repair": false,
+      "reason": null,
+      "generationBeforeUTC": "2026-10-03 12:03:04 UTC",
+      "generationAfterUTC": "2026-10-03 12:06:10 UTC",
+      "stage": "solo",
+      "assetId": "asset-713cae3785e80f243216dcdc",
+      "firstPassBodyWrongCells": []
+    },
+    {
+      "entityId": "pipilini",
+      "repair": false,
+      "reason": null,
+      "generationBeforeUTC": "2026-10-03 12:11:08 UTC",
+      "generationAfterUTC": "2026-10-03 12:13:56 UTC",
+      "stage": "interactions",
+      "assetId": "asset-391e0726b95525a0598c6842",
+      "firstPassBodyWrongCells": null
+    }
+  ],
+  "registrationReceipts": [
+    {
+      "entityId": "bear",
+      "assetId": "asset-4fbae3e9ef8c6a9122cd8080",
+      "stage": "solo-first",
+      "timing": {
+        "startedAt": "2026-10-03T12:07:55.759177+00:00",
+        "validatedAt": "2026-10-03T12:07:55.805930+00:00",
+        "copiedAt": "2026-10-03T12:07:55.807555+00:00",
+        "registeredAt": "2026-10-03T12:07:55.840484+00:00",
+        "registrationSeconds": 0.081318,
+        "dossierWrittenAt": "2026-10-03T12:07:55.840794+00:00",
+        "helperTotalSeconds": 0.081625
+      }
+    },
+    {
+      "entityId": "bear",
+      "assetId": "asset-8795b77759f3526d40c372eb",
+      "stage": "solo",
+      "timing": {
+        "startedAt": "2026-10-03T12:12:33.779855+00:00",
+        "validatedAt": "2026-10-03T12:12:33.827301+00:00",
+        "copiedAt": "2026-10-03T12:12:33.828853+00:00",
+        "registeredAt": "2026-10-03T12:12:33.862575+00:00",
+        "registrationSeconds": 0.082731,
+        "dossierWrittenAt": "2026-10-03T12:12:33.863159+00:00",
+        "helperTotalSeconds": 0.08331
+      }
+    },
+    {
+      "entityId": "bear",
+      "assetId": "asset-9746c470d14f019b3e6772e0",
+      "stage": "interactions-first",
+      "timing": {
+        "startedAt": "2026-10-03T12:17:21.211565+00:00",
+        "validatedAt": "2026-10-03T12:17:21.253135+00:00",
+        "copiedAt": "2026-10-03T12:17:21.254715+00:00",
+        "registeredAt": "2026-10-03T12:17:21.288259+00:00",
+        "registrationSeconds": 0.076706,
+        "dossierWrittenAt": "2026-10-03T12:17:21.288794+00:00",
+        "helperTotalSeconds": 0.077233
+      }
+    },
+    {
+      "entityId": "bear",
+      "assetId": "asset-aeac242e721024f446dcc587",
+      "stage": "interactions-repair1",
+      "timing": {
+        "startedAt": "2026-10-03T12:22:50.633517+00:00",
+        "validatedAt": "2026-10-03T12:22:50.686375+00:00",
+        "copiedAt": "2026-10-03T12:22:50.687899+00:00",
+        "registeredAt": "2026-10-03T12:22:50.720921+00:00",
+        "registrationSeconds": 0.087414,
+        "dossierWrittenAt": "2026-10-03T12:22:50.721444+00:00",
+        "helperTotalSeconds": 0.087932
+      }
+    },
+    {
+      "entityId": "bear",
+      "assetId": "asset-4459ac0e4e5a5deba4e42f84",
+      "stage": "interactions",
+      "timing": {
+        "startedAt": "2026-10-03T12:26:48.241148+00:00",
+        "validatedAt": "2026-10-03T12:26:48.282227+00:00",
+        "copiedAt": "2026-10-03T12:26:48.283742+00:00",
+        "registeredAt": "2026-10-03T12:26:48.317180+00:00",
+        "registrationSeconds": 0.076038,
+        "dossierWrittenAt": "2026-10-03T12:26:48.317700+00:00",
+        "helperTotalSeconds": 0.076555
+      }
+    },
+    {
+      "entityId": "talking-duck",
+      "assetId": "asset-bcfceea74b594d0a3e18d233",
+      "stage": "solo",
+      "timing": {
+        "startedAt": "2026-10-03T12:07:56.130433+00:00",
+        "validatedAt": "2026-10-03T12:07:56.170941+00:00",
+        "copiedAt": "2026-10-03T12:07:56.172214+00:00",
+        "registeredAt": "2026-10-03T12:07:56.204716+00:00",
+        "registrationSeconds": 0.074296,
+        "dossierWrittenAt": "2026-10-03T12:07:56.205081+00:00",
+        "helperTotalSeconds": 0.074656
+      }
+    },
+    {
+      "entityId": "talking-duck",
+      "assetId": "asset-ce6202e185e38c16597c57bd",
+      "stage": "interactions",
+      "timing": {
+        "startedAt": "2026-10-03T12:15:52.125736+00:00",
+        "validatedAt": "2026-10-03T12:15:52.167690+00:00",
+        "copiedAt": "2026-10-03T12:15:52.169630+00:00",
+        "registeredAt": "2026-10-03T12:15:52.203814+00:00",
+        "registrationSeconds": 0.078088,
+        "dossierWrittenAt": "2026-10-03T12:15:52.204336+00:00",
+        "helperTotalSeconds": 0.078605
+      }
+    },
+    {
+      "entityId": "tutu",
+      "assetId": "asset-9d3476deaf77e000cf59d0d4",
+      "stage": "solo",
+      "timing": {
+        "startedAt": "2026-10-03T12:07:56.472389+00:00",
+        "validatedAt": "2026-10-03T12:07:56.512564+00:00",
+        "copiedAt": "2026-10-03T12:07:56.514237+00:00",
+        "registeredAt": "2026-10-03T12:07:56.547349+00:00",
+        "registrationSeconds": 0.074974,
+        "dossierWrittenAt": "2026-10-03T12:07:56.547697+00:00",
+        "helperTotalSeconds": 0.075315
+      }
+    },
+    {
+      "entityId": "tutu",
+      "assetId": "asset-d6ac1095cb13938a55335e21",
+      "stage": "interactions",
+      "timing": {
+        "startedAt": "2026-10-03T12:15:52.654537+00:00",
+        "validatedAt": "2026-10-03T12:15:52.695934+00:00",
+        "copiedAt": "2026-10-03T12:15:52.697994+00:00",
+        "registeredAt": "2026-10-03T12:15:52.732218+00:00",
+        "registrationSeconds": 0.077691,
+        "dossierWrittenAt": "2026-10-03T12:15:52.732646+00:00",
+        "helperTotalSeconds": 0.078114
+      }
+    },
+    {
+      "entityId": "pipilini",
+      "assetId": "asset-713cae3785e80f243216dcdc",
+      "stage": "solo",
+      "timing": {
+        "startedAt": "2026-10-03T12:07:56.816257+00:00",
+        "validatedAt": "2026-10-03T12:07:56.856521+00:00",
+        "copiedAt": "2026-10-03T12:07:56.857951+00:00",
+        "registeredAt": "2026-10-03T12:07:56.890383+00:00",
+        "registrationSeconds": 0.074139,
+        "dossierWrittenAt": "2026-10-03T12:07:56.890707+00:00",
+        "helperTotalSeconds": 0.074457
+      }
+    },
+    {
+      "entityId": "pipilini",
+      "assetId": "asset-391e0726b95525a0598c6842",
+      "stage": "interactions",
+      "timing": {
+        "startedAt": "2026-10-03T12:15:53.157611+00:00",
+        "validatedAt": "2026-10-03T12:15:53.198783+00:00",
+        "copiedAt": "2026-10-03T12:15:53.200689+00:00",
+        "registeredAt": "2026-10-03T12:15:53.234267+00:00",
+        "registrationSeconds": 0.076664,
+        "dossierWrittenAt": "2026-10-03T12:15:53.234662+00:00",
+        "helperTotalSeconds": 0.077055
+      }
+    }
+  ],
+  "compactionEvents": [
+    {
+      "seq": 8725,
+      "type": "activity",
+      "createdAt": "2026-10-03T11:53:31.269473+00:00",
+      "kind": "contextCompaction",
+      "status": "running"
+    },
+    {
+      "seq": 8727,
+      "type": "activity",
+      "createdAt": "2026-10-03T11:56:51.027589+00:00",
+      "kind": "contextCompaction",
+      "status": "completed"
+    }
+  ],
+  "finalAssets": {
+    "bear": {
+      "solo": "asset-8795b77759f3526d40c372eb",
+      "interactions": "asset-4459ac0e4e5a5deba4e42f84"
+    },
+    "talking-duck": {
+      "solo": "asset-bcfceea74b594d0a3e18d233",
+      "interactions": "asset-ce6202e185e38c16597c57bd"
+    },
+    "tutu": {
+      "solo": "asset-9d3476deaf77e000cf59d0d4",
+      "interactions": "asset-d6ac1095cb13938a55335e21"
+    },
+    "pipilini": {
+      "solo": "asset-713cae3785e80f243216dcdc",
+      "interactions": "asset-391e0726b95525a0598c6842"
+    }
+  }
+}

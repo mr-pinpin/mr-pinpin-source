@@ -1,0 +1,50 @@
+Batch04 FINAL read-only latency audit — 2026-10-03
+Messagemessage-a3a4e170e1d243778ab6; turn01a1019c-580b-7a53-8e6b-616c10ae5287; completecoverage throughcursor10228.
+Accepted2026-10-03T11:53:05.392240+00:00; HTTP0.14668s(rootreceipt).
+First visibleprogress0.423691s; firsttext15.323044s.
+Final text creation~12:32:13 is NOT delivery.
+FinalAPI2026-10-03T12:32:33.364056+00:00; turncomplete2026-10-03T12:32:33.399699+00:00.
+Total2368.007459s =39m28.007s.
+
+Measured categories:
+Image activewall union483.247663s =8m3.248s; APIoverlap means no per-call duration.
+Context compaction199.758116s =3m19.758s,11:53:31.269473–11:56:51.027589.
+No image/compaction overlap. Remaining1685.001680s includes engineering,review,
+other tools,legacyreceiptbackfill,registration,validation and delivery.
+First image12:03:05.000890; initial window599.608650s includes compaction.
+Initial window excluding observedcompaction399.850534s.
+Last image2026-10-03T12:23:34.499074+00:00; lastimage→complete538.900625s.
+Do not label all remaining time avoidable orchestration.
+
+Production:
+4packages Bear,Talking Duck,Tutu,Pipilini;8finalpages.
+11generationcalls:8initial+3creative repairs, all Bear (solo1,interactions2).
+These are output corrections, not demonstrated provider/transport retries.
+Actual newcandidate helper registration receipts sum0.860059s.
+Legacy receipt backfill is additional app work; not falsely included in thatsum.
+
+App timing comparison:
+App whole-second submitted-callwindow union485s; API activityunion483.247663s.
+App summed windows1014s overlap and must not be called elapsed walltime.
+Per-image backend execution times remainunavailable.
+
+First-pass comparison, narrowly defined:
+App-QA full pages needing no repair:6/8=75% thisbatch,1/6=16.7% batch03.
+Only Bear's2pages requiredcorrection thisbatch;5of6Beaverpages did inbatch03.
+Separate body-direction check:3of4initialsolo pages correct vs0of3prior,
+23of24currentbody-directioncells correct. Do not mix thisdenominator with8pages.
+Small different-cast samples, unknown baseline difficulty and newconceptwork mean
+no causal claim that automaticreferencehydration produced a measured improvement.
+These are app-QA statuses, not personal Miguel approvals.
+
+Closeout comparison:
+Batch03lastimage→complete388.854562s; batch04538.900625s.
+Batch04also implementedreferencehydration andlegacyreceiptbackfill. No closeout
+speedup claimed; requested consolidation is part of batch05, still running.
+
+Batch05 readonlycapture started independently5400s:
+message-de52296b00d645a08f61 accepted12:33:01.683303UTC;HTTP0.157152.
+Filesbatch-05-capture.json/batch-05-metrics.json; session99526.
+Its requested consolidation implementation is engineering, so final comparisons
+must distinguish first implementation cost from subsequent reuse.
+No app sends or source/production edits by this lane.

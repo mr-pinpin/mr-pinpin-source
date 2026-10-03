@@ -1,0 +1,21 @@
+Final context QA — PASS
+App-authored business-only change independently verified. No kernel changes, model-thread reset, generation or source authorship by QA.
+
+Identical isolated21-character fixture, fresh Python process for each old/new activated business bundle, no conversation.json:
+- Selected task75,647→16,507UTF8bytes (-78.18%).
+- Resume pending task75,642→16,502UTF8bytes (-78.18%).
+- Fourteen independent checks PASS: exact scope/native asset IDs and reference roles/paths/hashes remain unchanged; source age/proposal details and current partial-stage dossier retained; unrelated dossiers and book bindings omitted; full Markdown guide path/hash preserved with section index; compact21-row queue retains only subject as remaining; historical request never imports live workflow/toolchain; no conversation file required.
+- Full guide/provenance has retrieval pointers, not deletion. The selected dossier remains inline and exact prompts remain registered metadata referenced by asset ID. This changes prompt UTF8 volume; it does not measure token counts or model latency.
+
+Actual active business567f8b5139139c1ed8bcef18d9fea35a64577a4228ef2cbbb6bdbda09a32c5a9, live revision873:
+- All21 explicit-character requests select the correct dossier and primary verified solo; all native image paths exist and reference roles remain present.
+- Completed cast resume returns21compact queue entries, empty remaining, no next or selected task.
+- Explicit attachment remains first. Historical explicit review stays read-only with no mutable cast or toolchain.
+- Live bird-family request72,243→37,008bytes, complete-cast resume55,097→12,280bytes. Repaired bird asset/revision changed between these live probes, so the identical-fixture measurements above are the controlled comparison. Guide SHA unchanged.
+- Measured context construction ~62ms selected/~60ms completed resume after change; no claim of end-to-end generation speedup or native compaction elimination.
+
+Tests: full Studio85PASS in11.269s after context change; all source business/test hashes stable across test run. Earlier focused helper15checks and fullCLI doublefinish also PASS. No broader reruns needed absent new source changes.
+
+Evidence: final-context-identical-fixture-proof.json; final-context-21matrix.json; final-context-before.json; final-context-after.json; final-context-tests.json; final-context-studio-tests.log. Identical-fixture snapshots stay outside repo/live data.
+
+Final art checkpoint: pre-repair42stage-file/registry/receipt SHA checks all passed (cast21-pre-repair-byte-proof.json); final actual-byte proof and exact copied metadata must refresh after bird visual QA and settled app exports. This report approves mechanical context behavior, not personal Miguel art approval/publication.

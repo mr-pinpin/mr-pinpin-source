@@ -1,5 +1,5 @@
 {
-  "fixtureRoot": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/reports/cast-isolated-j9cjse_5",
+  "fixtureRoot": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/reports/cast-isolated-z3cwa7ff",
   "tests": [
     {
       "test": "status alone cannot complete; solo-only resumes interactions",
@@ -93,11 +93,12 @@
       "selected": {
         "id": "partial",
         "canonicalName": "partial",
-        "status": "partial",
-        "outputs": [],
+        "aliases": [],
         "exactAge": "not stated",
         "evidencedLifeStage": "fixture",
-        "aliases": [],
+        "constraints": null,
+        "registeredReferenceIds": null,
+        "status": "partial",
         "dossierPath": "workflows/characters/partial/README.md",
         "evidencePath": "workflows/characters/partial/evidence.json",
         "stages": {
@@ -109,12 +110,11 @@
             "receiptKind": null
           }
         },
+        "nextStage": "interactions",
         "missingStages": [
           "interactions"
         ],
-        "nextStage": "interactions",
-        "complete": false,
-        "claimedStatus": "completed"
+        "complete": false
       },
       "characters": [
         {
@@ -123,11 +123,7 @@
           "status": "partial",
           "dossierPath": "workflows/characters/partial/README.md",
           "evidencePath": "workflows/characters/partial/evidence.json",
-          "outputs": [],
-          "nextStage": "interactions",
-          "missingStages": [
-            "interactions"
-          ]
+          "nextStage": "interactions"
         },
         {
           "id": "complete",
@@ -135,9 +131,7 @@
           "status": "completed",
           "dossierPath": "workflows/characters/complete/README.md",
           "evidencePath": "workflows/characters/complete/evidence.json",
-          "outputs": [],
-          "nextStage": null,
-          "missingStages": []
+          "nextStage": null
         }
       ],
       "notetaker": null,
@@ -152,6 +146,7 @@
         "sha256": "4c1293aa67467eb4d575167159f99855078f3a24afdf330a913efd6b004c1e2a",
         "text": "Resume durable stage receipts"
       },
+      "workflowIndex": null,
       "dossier": {
         "path": "workflows/characters/partial/README.md",
         "sha256": "f226896a14d806c1dfde80b35ff7a51fa73e8375bcbcfb5169de13331299fd24",
@@ -167,7 +162,7 @@
         }
       }
     },
-    "contextBytes": 4778,
+    "contextBytes": 4833,
     "guideOccurrences": 1,
     "dossierOccurrences": 1
   },
@@ -182,11 +177,12 @@
       "selected": {
         "id": "partial",
         "canonicalName": "partial",
-        "status": "partial",
-        "outputs": [],
+        "aliases": [],
         "exactAge": "not stated",
         "evidencedLifeStage": "fixture",
-        "aliases": [],
+        "constraints": null,
+        "registeredReferenceIds": null,
+        "status": "partial",
         "dossierPath": "workflows/characters/partial/README.md",
         "evidencePath": "workflows/characters/partial/evidence.json",
         "stages": {
@@ -198,12 +194,11 @@
             "receiptKind": null
           }
         },
+        "nextStage": "interactions",
         "missingStages": [
           "interactions"
         ],
-        "nextStage": "interactions",
-        "complete": false,
-        "claimedStatus": "completed"
+        "complete": false
       },
       "characters": [
         {
@@ -212,11 +207,7 @@
           "status": "partial",
           "dossierPath": "workflows/characters/partial/README.md",
           "evidencePath": "workflows/characters/partial/evidence.json",
-          "outputs": [],
-          "nextStage": "interactions",
-          "missingStages": [
-            "interactions"
-          ]
+          "nextStage": "interactions"
         },
         {
           "id": "complete",
@@ -224,9 +215,7 @@
           "status": "completed",
           "dossierPath": "workflows/characters/complete/README.md",
           "evidencePath": "workflows/characters/complete/evidence.json",
-          "outputs": [],
-          "nextStage": null,
-          "missingStages": []
+          "nextStage": null
         }
       ],
       "notetaker": null,
@@ -241,6 +230,7 @@
         "sha256": "4c1293aa67467eb4d575167159f99855078f3a24afdf330a913efd6b004c1e2a",
         "text": "Resume durable stage receipts"
       },
+      "workflowIndex": null,
       "dossier": {
         "path": "workflows/characters/partial/README.md",
         "sha256": "f226896a14d806c1dfde80b35ff7a51fa73e8375bcbcfb5169de13331299fd24",
@@ -256,7 +246,7 @@
         }
       }
     },
-    "contextBytes": 4788,
+    "contextBytes": 4843,
     "guideOccurrences": 1,
     "dossierOccurrences": 1
   },

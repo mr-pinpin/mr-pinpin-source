@@ -1,0 +1,405 @@
+{
+  "schemaVersion": 1,
+  "entityId": "tarin",
+  "stages": {
+    "solo": {
+      "candidates": [
+        {
+          "assetId": "asset-6a131765af41fc1e2c984d00",
+          "sha256": "6a131765af41fc1e2c984d0012e199d4239120290de64146a4606143e4c9bed8",
+          "bytes": 2758950,
+          "reviewStatus": "unreviewed",
+          "nativePath": "/Users/miguel_lemos/.codex/generated_images/01a0ff85-92dc-7c40-9adb-ef240551a423/exec-22b75bdd-205a-4e7d-8d90-066d35c35b8e.png",
+          "generatedPath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/generated/6a131765af41fc1e-tarin-solo.png",
+          "reused": false,
+          "kernelRelease": "c9be233f9e18f6d480c8a5b7d50dff6384c9df2766510b5ef006b21ccec40c75",
+          "workflowCard": {
+            "type": "WorkflowCard",
+            "title": "tarin-solo.png",
+            "text": "Unreviewed candidate. Original image available at full size.",
+            "assetIds": [
+              "asset-6a131765af41fc1e2c984d00"
+            ],
+            "actions": []
+          },
+          "timing": {
+            "startedAt": "2026-10-03T13:30:36.430482+00:00",
+            "validatedAt": "2026-10-03T13:30:36.485365+00:00",
+            "copiedAt": "2026-10-03T13:30:36.487265+00:00",
+            "registeredAt": "2026-10-03T13:30:36.522402+00:00",
+            "registrationSeconds": 0.091929
+          },
+          "dossierPath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/reports/character-packages/tarin.json",
+          "entityId": "tarin",
+          "stage": "solo",
+          "provenance": {
+            "sourcePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/generated/6a131765af41fc1e-tarin-solo.png",
+            "source": "native-imagegen",
+            "tool": "image_gen.imagegen",
+            "nativeOutputPath": "/Users/miguel_lemos/.codex/generated_images/01a0ff85-92dc-7c40-9adb-ef240551a423/exec-22b75bdd-205a-4e7d-8d90-066d35c35b8e.png",
+            "nativeSha256": "6a131765af41fc1e2c984d0012e199d4239120290de64146a4606143e4c9bed8",
+            "prompt": "Use case: illustration-story. Production reference titled \"Tarin — two forms, one wizard\" with subtitle \"Proposed book adaptation\", warm dimensional PinPin book style on ivory. LARGE LANDSCAPE DOUBLE-SHEET: human form LEFT, hedgehog form RIGHT, each half FOUR rows of SIX studies, 48 studies total. Each half has FACE VIEWS, EXPRESSIONS, WHOLE BODY VIEWS, NORMAL POSES. Separate form headings, large readable cells, full margin around robe/feet/quills. A small footer diagram HUMAN → HEDGEHOG → HUMAN labels these ALTERNATIVE FORMS OF ONE WIZARD, not two people. Do not put both forms together as separate characters in gestures. Subject/source requirements: Tarin is a HUMAN WIZARD who deliberately took hedgehog form, returns to tall human form after enchanted coffee, then becomes hedgehog again at sunset (original chapter13 blocks6–10,12). HUMAN: old-looking male wizard, white wavy shoulder-length hair, long white beard and bushy brows, rounded pink nose, small round spectacles, rich gold robe with subtle embroidered trim and brown shoes, actual original image77 identity. HEDGEHOG: proposed elderly salt-and-pepper/gray-brown quills, cream face/chest, white eyebrows and warm brown eyes echoing human form, rounded ears/muzzle, natural two paws/two feet, no human beard or robe. Both depictions are ONE person in alternative forms, never two independent cast members. Source distinction: Human/hedgehog transformation is explicit source text. Actual original images77/71 show human wizard in gold robe with white beard/hair; glasses appear in77, not71. These control proposed dimensional human adaptation. No verified Tarin hedgehog portrait: hedgehog pictured beside wizard is a companion, not assumed Tarin. Tarin’s relationship to published hedgehog Elder is unresolved; keep this distinct requirement, do not copy or silently alias published Elder. Actual inputs ordered: 1: subject-source:identity-human-form, 2: subject-source:identity-human-form, 3: layout-direction-only, 4: book-style. Layout sheet controls grid/opposed directions ONLY; never copy its species/clothing/anatomy. Row1 FACE VIEWS for each subject/form explicitly: Front: nose/beak centered toward viewer. Left 3/4: nose/beak SCREEN LEFT, both eyes visible if anatomy permits, torso LEFT. Left profile: true side, nose/beak SCREEN LEFT, torso LEFT. Right 3/4: nose/beak SCREEN RIGHT, both eyes visible if anatomy permits, torso RIGHT. Right profile: true side, nose/beak SCREEN RIGHT, torso RIGHT. Rear: back, face invisible. Row2 EXPRESSIONS: Calm, Curious, Happy, Surprised, Thoughtful, Mild upset, naturally varied. Row3 FULL BODY VIEWS explicitly: Front: nose/beak centered toward viewer. Left 3/4: nose/beak SCREEN LEFT, both eyes visible if anatomy permits, torso LEFT. Left profile: true side, nose/beak SCREEN LEFT, torso LEFT. Right 3/4: nose/beak SCREEN RIGHT, both eyes visible if anatomy permits, torso RIGHT. Right profile: true side, nose/beak SCREEN RIGHT, torso RIGHT. Rear: back, face invisible. Row4 NORMAL POSES: Sit, Reach, Greet, Carry cup or small nut, Share, Rest. Birds instead Perch, Hop, Sing, Spread wings, Fly gently, Rest. No human hands/arms on birds. Distinct two arms/two legs on human and hedgehog/squirrel, two wings/two feet on birds, clear supported feet/perches. Human full beard/robe hem/shoes visible; hedgehog whole quills/feet visible. Generous margins, no fused limbs, no clipped tails. Concise labels only, no invented ages/heights/names. One real unified image.",
+            "promptSha256": "cd0813f90a32768e8bc6f9faedf14dd107502a902f051a6903484cfc27ad4613",
+            "promptFile": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/workflows/characters/tarin/solo-prompt.txt",
+            "referenceIds": [
+              "asset-cdeee8375b17db34dfd4c717",
+              "asset-142c73e7c61651a59e322f0c",
+              "asset-5d505b375eed339baa7f7650",
+              "asset-88d74c56a468e3f250b12dbc"
+            ],
+            "inputAssets": [
+              {
+                "assetId": "asset-cdeee8375b17db34dfd4c717",
+                "sha256": "cdeee8375b17db34dfd4c7172201a8f49069e2b57a72e28a76f5e74463404511"
+              },
+              {
+                "assetId": "asset-142c73e7c61651a59e322f0c",
+                "sha256": "142c73e7c61651a59e322f0cc2d81b0443a96cbe560accf3840e82445f7a2359"
+              },
+              {
+                "assetId": "asset-5d505b375eed339baa7f7650",
+                "sha256": "5d505b375eed339baa7f765028f4c61224a685dfcc4c01ee53c5f35fdb303700"
+              },
+              {
+                "assetId": "asset-88d74c56a468e3f250b12dbc",
+                "sha256": "88d74c56a468e3f250b12dbcb5ecdb7b07bd1d789197663d8948ac199acd133d"
+              }
+            ],
+            "registeredBy": "studio-client/register-image.py"
+          },
+          "preparation": {
+            "referenceRoles": [
+              {
+                "assetId": "asset-cdeee8375b17db34dfd4c717",
+                "sha256": "cdeee8375b17db34dfd4c7172201a8f49069e2b57a72e28a76f5e74463404511",
+                "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/assets/cdeee8375b17db34dfd4c7172201a8f49069e2b57a72e28a76f5e74463404511.png",
+                "role": "subject-source:identity-human-form"
+              },
+              {
+                "assetId": "asset-142c73e7c61651a59e322f0c",
+                "sha256": "142c73e7c61651a59e322f0cc2d81b0443a96cbe560accf3840e82445f7a2359",
+                "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/assets/142c73e7c61651a59e322f0cc2d81b0443a96cbe560accf3840e82445f7a2359.png",
+                "role": "subject-source:identity-human-form"
+              },
+              {
+                "assetId": "asset-5d505b375eed339baa7f7650",
+                "sha256": "5d505b375eed339baa7f765028f4c61224a685dfcc4c01ee53c5f35fdb303700",
+                "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/assets/5d505b375eed339baa7f765028f4c61224a685dfcc4c01ee53c5f35fdb303700.png",
+                "role": "layout-direction-only"
+              },
+              {
+                "assetId": "asset-88d74c56a468e3f250b12dbc",
+                "sha256": "88d74c56a468e3f250b12dbcb5ecdb7b07bd1d789197663d8948ac199acd133d",
+                "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/assets/88d74c56a468e3f250b12dbcb5ecdb7b07bd1d789197663d8948ac199acd133d.webp",
+                "role": "book-style"
+              }
+            ],
+            "omittedReferences": [],
+            "nativeInputLimit": 5
+          },
+          "qaDisposition": "needs-repair"
+        },
+        {
+          "assetId": "asset-16a9d052eadc0bbce07ab1c4",
+          "sha256": "16a9d052eadc0bbce07ab1c43adfa401b4cae63f305101f2e9650a6ff4e7dc2e",
+          "bytes": 2635660,
+          "reviewStatus": "unreviewed",
+          "nativePath": "/Users/miguel_lemos/.codex/generated_images/01a0ff85-92dc-7c40-9adb-ef240551a423/exec-e649f6e1-13f0-463d-95bc-ee932f553bff.png",
+          "generatedPath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/generated/16a9d052eadc0bbc-tarin-solo-repaired.png",
+          "reused": false,
+          "kernelRelease": "c9be233f9e18f6d480c8a5b7d50dff6384c9df2766510b5ef006b21ccec40c75",
+          "workflowCard": {
+            "type": "WorkflowCard",
+            "title": "tarin-solo-repaired.png",
+            "text": "Unreviewed candidate. Original image available at full size.",
+            "assetIds": [
+              "asset-16a9d052eadc0bbce07ab1c4"
+            ],
+            "actions": []
+          },
+          "timing": {
+            "startedAt": "2026-10-03T13:36:06.997729+00:00",
+            "validatedAt": "2026-10-03T13:36:07.039957+00:00",
+            "copiedAt": "2026-10-03T13:36:07.041826+00:00",
+            "registeredAt": "2026-10-03T13:36:07.076643+00:00",
+            "registrationSeconds": 0.078922
+          },
+          "dossierPath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/reports/character-packages/tarin.json",
+          "entityId": "tarin",
+          "stage": "solo",
+          "provenance": {
+            "sourcePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/generated/16a9d052eadc0bbc-tarin-solo-repaired.png",
+            "source": "native-imagegen",
+            "tool": "image_gen.imagegen",
+            "nativeOutputPath": "/Users/miguel_lemos/.codex/generated_images/01a0ff85-92dc-7c40-9adb-ef240551a423/exec-e649f6e1-13f0-463d-95bc-ee932f553bff.png",
+            "nativeSha256": "16a9d052eadc0bbce07ab1c43adfa401b4cae63f305101f2e9650a6ff4e7dc2e",
+            "prompt": "Edit the supplied complete Tarin double-sheet, preserving the successful HUMAN LEFT form, warm dimensional style, all grid labels, page margins and dimensions. This is ONE elderly wizard in two ALTERNATIVE forms. Repair only these material defects, then inspect all opposed directions. RIGHT HALF HEDGEHOG: change every hedgehog to the SAME elderly adult identity, visibly salt-and-pepper gray-brown quills, cream muzzle/chest, prominent soft WHITE eyebrows echoing human wizard, mature adult proportions and gently weathered expression; no human beard, robe, staff or clothes. Retain rounded hedgehog muzzle/ears and two paws/two feet. All face and body rows remain six cells: FRONT centered; LEFT THREE-QUARTER nose points SCREEN LEFT with both eyes visible; LEFT PROFILE nose points SCREEN LEFT true side; RIGHT THREE-QUARTER nose points SCREEN RIGHT with both eyes visible; RIGHT PROFILE nose points SCREEN RIGHT true side; REAR face invisible. Specifically fix RIGHT HALF FACE cell5 Right Profile (currently faces left), RIGHT HALF BODY cell2 Left 3/4 (currently faces right), RIGHT HALF BODY cell5 Right Profile (currently faces left). Other correct directions must stay unchanged. Expressions naturally varied, elderly hedgehog normal gestures supported. Footer: remove its reversed transformation sequence and REPLACE with precisely THREE separated portraits and TWO arrows, left to right: elderly HEDGEHOG → elderly HUMAN → elderly HEDGEHOG. Label FIRST ARROW 'Enchanted coffee'; label SECOND ARROW 'Sunset'. Label footer 'ALTERNATIVE FORMS OF ONE WIZARD'. Original story coffee returns Tarin to HUMAN and sunset returns him to HEDGEHOG. Do not show coffee as making hedgehog or sunset as making human. Keep the human source-established white hair/beard/gold robe unchanged. No fourth portrait, no extra magical equipment. Complete readable page.\n",
+            "promptSha256": "91b125921fbefe99c2d6feae38f3c48bdd4af1c530a48eb1783277affab15eec",
+            "promptFile": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/workflows/characters/tarin/solo-repair-prompt.txt",
+            "referenceIds": [
+              "asset-6a131765af41fc1e2c984d00",
+              "asset-5d505b375eed339baa7f7650"
+            ],
+            "inputAssets": [
+              {
+                "assetId": "asset-6a131765af41fc1e2c984d00",
+                "sha256": "6a131765af41fc1e2c984d0012e199d4239120290de64146a4606143e4c9bed8"
+              },
+              {
+                "assetId": "asset-5d505b375eed339baa7f7650",
+                "sha256": "5d505b375eed339baa7f765028f4c61224a685dfcc4c01ee53c5f35fdb303700"
+              }
+            ],
+            "registeredBy": "studio-client/register-image.py"
+          },
+          "preparation": {
+            "referenceRoles": [
+              {
+                "assetId": "asset-6a131765af41fc1e2c984d00",
+                "sha256": "6a131765af41fc1e2c984d0012e199d4239120290de64146a4606143e4c9bed8",
+                "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/generated/6a131765af41fc1e-tarin-solo.png",
+                "role": "PRIMARY-edit-target"
+              },
+              {
+                "assetId": "asset-5d505b375eed339baa7f7650",
+                "sha256": "5d505b375eed339baa7f765028f4c61224a685dfcc4c01ee53c5f35fdb303700",
+                "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/assets/5d505b375eed339baa7f765028f4c61224a685dfcc4c01ee53c5f35fdb303700.png",
+                "role": "layout-direction-only"
+              }
+            ],
+            "omittedReferences": [
+              {
+                "assetId": "asset-cdeee8375b17db34dfd4c717",
+                "sha256": "cdeee8375b17db34dfd4c7172201a8f49069e2b57a72e28a76f5e74463404511",
+                "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/assets/cdeee8375b17db34dfd4c7172201a8f49069e2b57a72e28a76f5e74463404511.png",
+                "role": "subject-source:identity-human-form"
+              },
+              {
+                "assetId": "asset-142c73e7c61651a59e322f0c",
+                "sha256": "142c73e7c61651a59e322f0cc2d81b0443a96cbe560accf3840e82445f7a2359",
+                "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/assets/142c73e7c61651a59e322f0cc2d81b0443a96cbe560accf3840e82445f7a2359.png",
+                "role": "subject-source:identity-human-form"
+              },
+              {
+                "assetId": "asset-88d74c56a468e3f250b12dbc",
+                "sha256": "88d74c56a468e3f250b12dbcb5ecdb7b07bd1d789197663d8948ac199acd133d",
+                "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/assets/88d74c56a468e3f250b12dbcb5ecdb7b07bd1d789197663d8948ac199acd133d.webp",
+                "role": "book-style"
+              }
+            ],
+            "nativeInputLimit": 5
+          },
+          "qaDisposition": "needs-repair"
+        },
+        {
+          "assetId": "asset-53a1259d91e1c489a9796f62",
+          "sha256": "53a1259d91e1c489a9796f62b38c048615567c4f980442707ff0d42825802d86",
+          "bytes": 2520520,
+          "reviewStatus": "unreviewed",
+          "nativePath": "/Users/miguel_lemos/.codex/generated_images/01a0ff85-92dc-7c40-9adb-ef240551a423/exec-c2f7da6c-7e82-4be1-8468-6cb66a77efde.png",
+          "generatedPath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/generated/53a1259d91e1c489-tarin-solo-directions.png",
+          "reused": false,
+          "kernelRelease": "c9be233f9e18f6d480c8a5b7d50dff6384c9df2766510b5ef006b21ccec40c75",
+          "workflowCard": {
+            "type": "WorkflowCard",
+            "title": "tarin-solo-directions.png",
+            "text": "Unreviewed candidate. Original image available at full size.",
+            "assetIds": [
+              "asset-53a1259d91e1c489a9796f62"
+            ],
+            "actions": []
+          },
+          "timing": {
+            "startedAt": "2026-10-03T13:40:19.412786+00:00",
+            "validatedAt": "2026-10-03T13:40:19.466091+00:00",
+            "copiedAt": "2026-10-03T13:40:19.467860+00:00",
+            "registeredAt": "2026-10-03T13:40:19.502051+00:00",
+            "registrationSeconds": 0.089278
+          },
+          "dossierPath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/reports/character-packages/tarin.json",
+          "entityId": "tarin",
+          "stage": "solo",
+          "provenance": {
+            "sourcePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/generated/53a1259d91e1c489-tarin-solo-directions.png",
+            "source": "native-imagegen",
+            "tool": "image_gen.imagegen",
+            "nativeOutputPath": "/Users/miguel_lemos/.codex/generated_images/01a0ff85-92dc-7c40-9adb-ef240551a423/exec-c2f7da6c-7e82-4be1-8468-6cb66a77efde.png",
+            "nativeSha256": "53a1259d91e1c489a9796f62b38c048615567c4f980442707ff0d42825802d86",
+            "prompt": "Edit the attached Tarin double-sheet. Preserve every successful cell, HUMAN LEFT half, hedgehog gray quills/white eyebrows, all labels and CORRECT footer HEDGEHOG → Enchanted coffee → HUMAN → Sunset → HEDGEHOG. Make exactly THREE orientation corrections in the RIGHT HALF HEDGEHOG ONLY. (A) FACE VIEWS row1, FIFTH cell labeled Right Profile: currently nose points LEFT. REPLACE with a true profile nose pointing to RIGHT image edge, ear behind eye, gray quills behind head extending LEFT, no visible second eye. (B) WHOLE BODY VIEWS row3, SECOND cell labeled Left 3/4: currently nose points RIGHT. REPLACE with whole elderly hedgehog turned three-quarter toward LEFT edge, nose points LEFT, both eyes visible, cream belly toward LEFT-front, gray quill mass at RIGHT/back, two grounded feet, separate paws. (C) WHOLE BODY VIEWS row3, FIFTH cell Right Profile: currently nose points LEFT. REPLACE with entire elderly hedgehog true side facing RIGHT edge, nose points RIGHT, gray quill mass at LEFT/back, white brows, cream muzzle toward RIGHT, grounded two feet. These are genuinely opposed orientations, don't just change text. DO NOT alter RIGHT HALF row3 cell4 which correctly faces RIGHT, or cell3 which correctly faces LEFT. Keep full page size, 48 studies, all human poses and footer unchanged. Inspect A B C: nose A RIGHT, B LEFT, C RIGHT.\n",
+            "promptSha256": "8becb9f079811cdd0b5d111d4990bbe6f4600b00139a965fd0f049c6650fac7d",
+            "promptFile": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/workflows/characters/tarin/solo-direction-prompt.txt",
+            "referenceIds": [
+              "asset-16a9d052eadc0bbce07ab1c4",
+              "asset-5d505b375eed339baa7f7650"
+            ],
+            "inputAssets": [
+              {
+                "assetId": "asset-16a9d052eadc0bbce07ab1c4",
+                "sha256": "16a9d052eadc0bbce07ab1c43adfa401b4cae63f305101f2e9650a6ff4e7dc2e"
+              },
+              {
+                "assetId": "asset-5d505b375eed339baa7f7650",
+                "sha256": "5d505b375eed339baa7f765028f4c61224a685dfcc4c01ee53c5f35fdb303700"
+              }
+            ],
+            "registeredBy": "studio-client/register-image.py"
+          },
+          "preparation": {
+            "referenceRoles": [
+              {
+                "assetId": "asset-16a9d052eadc0bbce07ab1c4",
+                "sha256": "16a9d052eadc0bbce07ab1c43adfa401b4cae63f305101f2e9650a6ff4e7dc2e",
+                "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/generated/16a9d052eadc0bbc-tarin-solo-repaired.png",
+                "role": "PRIMARY-edit-target"
+              },
+              {
+                "assetId": "asset-5d505b375eed339baa7f7650",
+                "sha256": "5d505b375eed339baa7f765028f4c61224a685dfcc4c01ee53c5f35fdb303700",
+                "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/assets/5d505b375eed339baa7f765028f4c61224a685dfcc4c01ee53c5f35fdb303700.png",
+                "role": "layout-direction-only"
+              }
+            ],
+            "omittedReferences": [
+              {
+                "assetId": "asset-cdeee8375b17db34dfd4c717",
+                "sha256": "cdeee8375b17db34dfd4c7172201a8f49069e2b57a72e28a76f5e74463404511",
+                "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/assets/cdeee8375b17db34dfd4c7172201a8f49069e2b57a72e28a76f5e74463404511.png",
+                "role": "subject-source:identity-human-form"
+              },
+              {
+                "assetId": "asset-142c73e7c61651a59e322f0c",
+                "sha256": "142c73e7c61651a59e322f0cc2d81b0443a96cbe560accf3840e82445f7a2359",
+                "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/assets/142c73e7c61651a59e322f0cc2d81b0443a96cbe560accf3840e82445f7a2359.png",
+                "role": "subject-source:identity-human-form"
+              },
+              {
+                "assetId": "asset-88d74c56a468e3f250b12dbc",
+                "sha256": "88d74c56a468e3f250b12dbcb5ecdb7b07bd1d789197663d8948ac199acd133d",
+                "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/assets/88d74c56a468e3f250b12dbcb5ecdb7b07bd1d789197663d8948ac199acd133d.webp",
+                "role": "book-style"
+              }
+            ],
+            "nativeInputLimit": 5
+          }
+        }
+      ]
+    },
+    "interactions": {
+      "candidates": [
+        {
+          "assetId": "asset-f9965f1ec6a470c0f6b7cac8",
+          "sha256": "f9965f1ec6a470c0f6b7cac87c36f66a7e8104e7093bec86d9448f796d98afee",
+          "bytes": 2774531,
+          "reviewStatus": "unreviewed",
+          "nativePath": "/Users/miguel_lemos/.codex/generated_images/01a0ff85-92dc-7c40-9adb-ef240551a423/exec-66b28c3c-e929-46e9-982b-45fb4cd7678b.png",
+          "generatedPath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/generated/f9965f1ec6a470c0-tarin-interactions.png",
+          "reused": false,
+          "kernelRelease": "c9be233f9e18f6d480c8a5b7d50dff6384c9df2766510b5ef006b21ccec40c75",
+          "workflowCard": {
+            "type": "WorkflowCard",
+            "title": "tarin-interactions.png",
+            "text": "Unreviewed candidate. Original image available at full size.",
+            "assetIds": [
+              "asset-f9965f1ec6a470c0f6b7cac8"
+            ],
+            "actions": []
+          },
+          "timing": {
+            "startedAt": "2026-10-03T13:45:51.231016+00:00",
+            "validatedAt": "2026-10-03T13:45:51.273999+00:00",
+            "copiedAt": "2026-10-03T13:45:51.275933+00:00",
+            "registeredAt": "2026-10-03T13:45:51.311099+00:00",
+            "registrationSeconds": 0.080094
+          },
+          "dossierPath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/reports/character-packages/tarin.json",
+          "entityId": "tarin",
+          "stage": "interactions",
+          "provenance": {
+            "sourcePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/generated/f9965f1ec6a470c0-tarin-interactions.png",
+            "source": "native-imagegen",
+            "tool": "image_gen.imagegen",
+            "nativeOutputPath": "/Users/miguel_lemos/.codex/generated_images/01a0ff85-92dc-7c40-9adb-ef240551a423/exec-66b28c3c-e929-46e9-982b-45fb4cd7678b.png",
+            "nativeSha256": "f9965f1ec6a470c0f6b7cac87c36f66a7e8104e7093bec86d9448f796d98afee",
+            "prompt": "Use case: illustration-story. Create a separate readable whole-body cast interaction and scale page titled tarin, subtitle Proposed book adaptation. Warm dimensional PinPin book style on ivory, natural expression variation, generous full-body margins and neutral shared-ground/perch contact shadows. ACTUAL INPUTS in order: 1: PRIMARY-working-identity:verified-solo, 2: identity-human-source, 3: counterpart-identity:pinpin, 4: counterpart-identity:pipilini, 5: book-style:family-relative-scale. Primary target solo sheet controls TARGET identity, not just style. Every pictured counterpart has its own reference. Family image only supplies book style and relative adult/child scale. Species, age stage and role cannot transfer across characters. SIX panels, two columns by three rows. Tarin is ONE elderly wizard in ALTERNATIVE forms, never two simultaneous independent people. HUMAN form: old white-haired white-bearded man, small round spectacles, gold robe, brown shoes, natural human hands. HEDGEHOG form: mature elderly gray/salt-pepper quills and WHITE eyebrows from corrected primary sheet, cream muzzle/chest, no human beard/robe/staff. PinPin is CHILD copper-quilled HEDGEHOG, Pipilini OLDER rose/cream long-tailed BIRD with weak wings. Panel1 Human greeting: full-body kneeling HUMAN Tarin listens to standing PinPin CHILD HEDGEHOG, Pipilini BIRD perched low nearby. Human full robe/body fits panel; human naturally much taller than small child, no invented measured height. Panel2 Hedgehog greeting: full-body ADULT elderly HEDGEHOG Tarin stands beside PinPin CHILD HEDGEHOG on same ground; Tarin clearly older/larger than child, white brows and gray quills, Pipilini BIRD perched low nearby. Panel3 Coffee: seated HUMAN Tarin holds one cup with clearly separate HUMAN fingers; PinPin CHILD HEDGEHOG offers a saucer at table edge, Pipilini BIRD perches securely beside them. Cup anatomically supported, hands/paws don't fuse. Panel4 Forest hug: elderly HEDGEHOG Tarin kneels and side-hugs PinPin CHILD HEDGEHOG with two distinct bodies and separate paws/grounded feet; Pipilini BIRD observes, no spines passing through hands. Panel5 Transformation STRIP: THREE sequential separated vignette portraits of SAME Tarin, HEDGEHOG → HUMAN → HEDGEHOG; FIRST arrow labeled Enchanted coffee, SECOND labeled Sunset. It is a time sequence, not three people gathered. Keep forms exactly consistent with panels1/2. Panel6 At sunset: elderly HEDGEHOG Tarin sits with PinPin CHILD HEDGEHOG and Pipilini BIRD at low table, three distinct species/roles, quiet supported posture. No human Tarin simultaneously present. Header 'Two forms, one wizard'. Human-to-hedgehog choice was deliberate originally; enchanted coffee returns him to human, sunset back to hedgehog. Relationship to published Elder remains unresolved, don't copy that Elder. Source/proposal distinction: Human/hedgehog transformation is explicit source text. Actual original images77/71 show human wizard in gold robe with white beard/hair; glasses appear in77, not71. These control proposed dimensional human adaptation. No verified Tarin hedgehog portrait: hedgehog pictured beside wizard is a companion, not assumed Tarin. Tarin’s relationship to published hedgehog Elder is unresolved; keep this distinct requirement, do not copy or silently alias published Elder. No invented precise ages, canonical group totals or names, no merged tails/bodies, no extra limbs, no floating support, no cropped feet/tails/robe. A grounded full-page draft.",
+            "promptSha256": "1c162f61ffe298f96182fe54f6e0427ee0d7fe5352d833de018f3b362fb8142f",
+            "promptFile": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/workflows/characters/tarin/interactions-prompt.txt",
+            "referenceIds": [
+              "asset-53a1259d91e1c489a9796f62",
+              "asset-cdeee8375b17db34dfd4c717",
+              "asset-5d505b375eed339baa7f7650",
+              "asset-713cae3785e80f243216dcdc",
+              "asset-88d74c56a468e3f250b12dbc"
+            ],
+            "inputAssets": [
+              {
+                "assetId": "asset-53a1259d91e1c489a9796f62",
+                "sha256": "53a1259d91e1c489a9796f62b38c048615567c4f980442707ff0d42825802d86"
+              },
+              {
+                "assetId": "asset-cdeee8375b17db34dfd4c717",
+                "sha256": "cdeee8375b17db34dfd4c7172201a8f49069e2b57a72e28a76f5e74463404511"
+              },
+              {
+                "assetId": "asset-5d505b375eed339baa7f7650",
+                "sha256": "5d505b375eed339baa7f765028f4c61224a685dfcc4c01ee53c5f35fdb303700"
+              },
+              {
+                "assetId": "asset-713cae3785e80f243216dcdc",
+                "sha256": "713cae3785e80f243216dcdc74955eaa37501071661eb403d433f7edcae7c9b6"
+              },
+              {
+                "assetId": "asset-88d74c56a468e3f250b12dbc",
+                "sha256": "88d74c56a468e3f250b12dbcb5ecdb7b07bd1d789197663d8948ac199acd133d"
+              }
+            ],
+            "registeredBy": "studio-client/register-image.py"
+          },
+          "preparation": {
+            "referenceRoles": [
+              {
+                "assetId": "asset-53a1259d91e1c489a9796f62",
+                "sha256": "53a1259d91e1c489a9796f62b38c048615567c4f980442707ff0d42825802d86",
+                "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/assets/53a1259d91e1c489a9796f62b38c048615567c4f980442707ff0d42825802d86.png",
+                "role": "PRIMARY-working-identity:verified-solo"
+              },
+              {
+                "assetId": "asset-cdeee8375b17db34dfd4c717",
+                "sha256": "cdeee8375b17db34dfd4c7172201a8f49069e2b57a72e28a76f5e74463404511",
+                "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/assets/cdeee8375b17db34dfd4c7172201a8f49069e2b57a72e28a76f5e74463404511.png",
+                "role": "identity-human-source"
+              },
+              {
+                "assetId": "asset-5d505b375eed339baa7f7650",
+                "sha256": "5d505b375eed339baa7f765028f4c61224a685dfcc4c01ee53c5f35fdb303700",
+                "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/assets/5d505b375eed339baa7f765028f4c61224a685dfcc4c01ee53c5f35fdb303700.png",
+                "role": "counterpart-identity:pinpin"
+              },
+              {
+                "assetId": "asset-713cae3785e80f243216dcdc",
+                "sha256": "713cae3785e80f243216dcdc74955eaa37501071661eb403d433f7edcae7c9b6",
+                "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/assets/713cae3785e80f243216dcdc74955eaa37501071661eb403d433f7edcae7c9b6.png",
+                "role": "counterpart-identity:pipilini"
+              },
+              {
+                "assetId": "asset-88d74c56a468e3f250b12dbc",
+                "sha256": "88d74c56a468e3f250b12dbcb5ecdb7b07bd1d789197663d8948ac199acd133d",
+                "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/assets/88d74c56a468e3f250b12dbcb5ecdb7b07bd1d789197663d8948ac199acd133d.webp",
+                "role": "book-style:family-relative-scale"
+              }
+            ],
+            "omittedReferences": [
+              {
+                "assetId": "asset-142c73e7c61651a59e322f0c",
+                "sha256": "142c73e7c61651a59e322f0cc2d81b0443a96cbe560accf3840e82445f7a2359",
+                "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/assets/142c73e7c61651a59e322f0cc2d81b0443a96cbe560accf3840e82445f7a2359.png",
+                "role": "source-bibliography-context"
+              }
+            ],
+            "nativeInputLimit": 5
+          }
+        }
+      ]
+    }
+  },
+  "updatedAt": "2026-10-03T13:45:51.311260+00:00"
+}

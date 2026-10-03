@@ -69,5 +69,269 @@
   ],
   "sourcePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/storyboard/book.json",
   "sourceSha256": "b1499e503613e526ba679ba6c82c59feb1b3319584e3403b0e1abf32659391af",
-  "visualEvidenceStatus": "Original images77/71 are candidates, not yet inspected."
+  "visualEvidenceStatus": "Original images77/71 are candidates, not yet inspected.",
+  "character": {
+    "id": "tarin",
+    "canonicalName": "Tarin",
+    "aliases": [
+      "Тарин"
+    ],
+    "exactAge": "not stated",
+    "evidencedLifeStage": "old hedgehog; explicit tall HUMAN wizard transformation and sunset hedgehog reversion",
+    "status": "produced",
+    "outputs": [
+      {
+        "assetId": "asset-53a1259d91e1c489a9796f62",
+        "sha256": "53a1259d91e1c489a9796f62b38c048615567c4f980442707ff0d42825802d86"
+      },
+      {
+        "assetId": "asset-f9965f1ec6a470c0f6b7cac8",
+        "sha256": "f9965f1ec6a470c0f6b7cac87c36f66a7e8104e7093bec86d9448f796d98afee"
+      }
+    ],
+    "dossierPath": "workflows/characters/tarin/README.md",
+    "evidencePath": "workflows/characters/tarin/evidence.json",
+    "requiredForms": [
+      "hedgehog",
+      "human wizard in robe"
+    ],
+    "aliasDecision": "Relationship to published Elder remains unresolved; preserve a distinct form requirement.",
+    "constraints": {
+      "identity": "Both explicit forms required; do not merge away human form",
+      "scale": "human form tall per original; exact height not stated"
+    },
+    "stages": {
+      "solo": {
+        "assetId": "asset-53a1259d91e1c489a9796f62",
+        "sha256": "53a1259d91e1c489a9796f62b38c048615567c4f980442707ff0d42825802d86",
+        "nativePath": "/Users/miguel_lemos/.codex/generated_images/01a0ff85-92dc-7c40-9adb-ef240551a423/exec-c2f7da6c-7e82-4be1-8468-6cb66a77efde.png",
+        "generatedPath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/generated/53a1259d91e1c489-tarin-solo-directions.png",
+        "receiptKind": null
+      },
+      "interactions": {
+        "assetId": "asset-f9965f1ec6a470c0f6b7cac8",
+        "sha256": "f9965f1ec6a470c0f6b7cac87c36f66a7e8104e7093bec86d9448f796d98afee",
+        "nativePath": "/Users/miguel_lemos/.codex/generated_images/01a0ff85-92dc-7c40-9adb-ef240551a423/exec-66b28c3c-e929-46e9-982b-45fb4cd7678b.png",
+        "generatedPath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/generated/f9965f1ec6a470c0-tarin-interactions.png",
+        "receiptKind": null
+      }
+    },
+    "missingStages": [],
+    "nextStage": null,
+    "complete": true,
+    "claimedStatus": "partial",
+    "referenceBindings": {
+      "speciesAndRole": "Tarin is a HUMAN WIZARD who deliberately took hedgehog form, returns to tall human form after enchanted coffee, then becomes hedgehog again at sunset (original chapter13 blocks6–10,12). HUMAN: old-looking male wizard, white wavy shoulder-length hair, long white beard and bushy brows, rounded pink nose, small round spectacles, rich gold robe with subtle embroidered trim and brown shoes, actual original image77 identity. HEDGEHOG: proposed elderly salt-and-pepper/gray-brown quills, cream face/chest, white eyebrows and warm brown eyes echoing human form, rounded ears/muzzle, natural two paws/two feet, no human beard or robe. Both depictions are ONE person in alternative forms, never two independent cast members.",
+      "counterpartIds": [
+        "pinpin",
+        "pipilini"
+      ],
+      "designBasis": "Human/hedgehog transformation is explicit source text. Actual original images77/71 show human wizard in gold robe with white beard/hair; glasses appear in77, not71. These control proposed dimensional human adaptation. No verified Tarin hedgehog portrait: hedgehog pictured beside wizard is a companion, not assumed Tarin. Tarin’s relationship to published hedgehog Elder is unresolved; keep this distinct requirement, do not copy or silently alias published Elder. The final human study retains a generated carved walking staff as a proposed prop, absent from inspected original portraits; it is not asserted as manuscript canon.",
+      "sourceReferences": [
+        {
+          "assetId": "asset-cdeee8375b17db34dfd4c717",
+          "sha256": "cdeee8375b17db34dfd4c7172201a8f49069e2b57a72e28a76f5e74463404511",
+          "role": "identity-human-form"
+        },
+        {
+          "assetId": "asset-142c73e7c61651a59e322f0c",
+          "sha256": "142c73e7c61651a59e322f0cc2d81b0443a96cbe560accf3840e82445f7a2359",
+          "role": "identity-human-form"
+        }
+      ]
+    },
+    "registeredReferenceIds": [
+      "asset-cdeee8375b17db34dfd4c717",
+      "asset-142c73e7c61651a59e322f0c"
+    ],
+    "qaNote": "Inspected native pages: identity, directions, anatomy, scale/contact. Agent QA only; no personal Miguel approval.",
+    "timingPath": "reports/character-packages/tarin-generation.json",
+    "completedAt": "2026-10-03T13:45:51.570250+00:00"
+  },
+  "referenceBindings": {
+    "speciesAndRole": "Tarin is a HUMAN WIZARD who deliberately took hedgehog form, returns to tall human form after enchanted coffee, then becomes hedgehog again at sunset (original chapter13 blocks6–10,12). HUMAN: old-looking male wizard, white wavy shoulder-length hair, long white beard and bushy brows, rounded pink nose, small round spectacles, rich gold robe with subtle embroidered trim and brown shoes, actual original image77 identity. HEDGEHOG: proposed elderly salt-and-pepper/gray-brown quills, cream face/chest, white eyebrows and warm brown eyes echoing human form, rounded ears/muzzle, natural two paws/two feet, no human beard or robe. Both depictions are ONE person in alternative forms, never two independent cast members.",
+    "counterpartIds": [
+      "pinpin",
+      "pipilini"
+    ],
+    "designBasis": "Human/hedgehog transformation is explicit source text. Actual original images77/71 show human wizard in gold robe with white beard/hair; glasses appear in77, not71. These control proposed dimensional human adaptation. No verified Tarin hedgehog portrait: hedgehog pictured beside wizard is a companion, not assumed Tarin. Tarin’s relationship to published hedgehog Elder is unresolved; keep this distinct requirement, do not copy or silently alias published Elder. The final human study retains a generated carved walking staff as a proposed prop, absent from inspected original portraits; it is not asserted as manuscript canon.",
+    "sourceReferences": [
+      {
+        "assetId": "asset-cdeee8375b17db34dfd4c717",
+        "sha256": "cdeee8375b17db34dfd4c7172201a8f49069e2b57a72e28a76f5e74463404511",
+        "role": "identity-human-form"
+      },
+      {
+        "assetId": "asset-142c73e7c61651a59e322f0c",
+        "sha256": "142c73e7c61651a59e322f0cc2d81b0443a96cbe560accf3840e82445f7a2359",
+        "role": "identity-human-form"
+      }
+    ]
+  },
+  "inspectedVisualEvidence": [
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/images/image77.png",
+      "sha256": "cdeee8375b17db34dfd4c7172201a8f49069e2b57a72e28a76f5e74463404511",
+      "chapterId": "chapter-13",
+      "blockIndexZeroBased": 15,
+      "inspection": "Human/hedgehog transformation is explicit source text. Actual original images77/71 show human wizard in gold robe with white beard/hair; glasses appear in77, not71. These control proposed dimensional human adaptation. No verified Tarin hedgehog portrait: hedgehog pictured beside wizard is a companion, not assumed Tarin. Tarin’s relationship to published hedgehog Elder is unresolved; keep this distinct requirement, do not copy or silently alias published Elder."
+    },
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/images/image71.png",
+      "sha256": "142c73e7c61651a59e322f0cc2d81b0443a96cbe560accf3840e82445f7a2359",
+      "chapterId": "chapter-13",
+      "blockIndexZeroBased": 16,
+      "inspection": "Human/hedgehog transformation is explicit source text. Actual original images77/71 show human wizard in gold robe with white beard/hair; glasses appear in77, not71. These control proposed dimensional human adaptation. No verified Tarin hedgehog portrait: hedgehog pictured beside wizard is a companion, not assumed Tarin. Tarin’s relationship to published hedgehog Elder is unresolved; keep this distinct requirement, do not copy or silently alias published Elder."
+    }
+  ],
+  "registeredReferences": [
+    {
+      "id": "asset-cdeee8375b17db34dfd4c717",
+      "name": "image77.png",
+      "mime": "image/png",
+      "sha256": "cdeee8375b17db34dfd4c7172201a8f49069e2b57a72e28a76f5e74463404511",
+      "bytes": 1866277,
+      "width": 1024,
+      "height": 1024,
+      "url": "/api/assets/asset-cdeee8375b17db34dfd4c717",
+      "storagePath": "assets/cdeee8375b17db34dfd4c7172201a8f49069e2b57a72e28a76f5e74463404511.png",
+      "createdAt": "2026-10-03T13:19:44.519173+00:00",
+      "reviewStatus": "unreviewed",
+      "provenance": {
+        "sourcePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/images/image77.png",
+        "sourceSha256": "cdeee8375b17db34dfd4c7172201a8f49069e2b57a72e28a76f5e74463404511",
+        "role": "identity-human-form",
+        "inspection": "Human/hedgehog transformation is explicit source text. Actual original images77/71 show human wizard in gold robe with white beard/hair; glasses appear in77, not71. These control proposed dimensional human adaptation. No verified Tarin hedgehog portrait: hedgehog pictured beside wizard is a companion, not assumed Tarin. Tarin’s relationship to published hedgehog Elder is unresolved; keep this distinct requirement, do not copy or silently alias published Elder."
+      }
+    },
+    {
+      "id": "asset-142c73e7c61651a59e322f0c",
+      "name": "image71.png",
+      "mime": "image/png",
+      "sha256": "142c73e7c61651a59e322f0cc2d81b0443a96cbe560accf3840e82445f7a2359",
+      "bytes": 1896042,
+      "width": 1024,
+      "height": 1024,
+      "url": "/api/assets/asset-142c73e7c61651a59e322f0c",
+      "storagePath": "assets/142c73e7c61651a59e322f0cc2d81b0443a96cbe560accf3840e82445f7a2359.png",
+      "createdAt": "2026-10-03T13:19:44.551915+00:00",
+      "reviewStatus": "unreviewed",
+      "provenance": {
+        "sourcePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/docs/images/image71.png",
+        "sourceSha256": "142c73e7c61651a59e322f0cc2d81b0443a96cbe560accf3840e82445f7a2359",
+        "role": "identity-human-form",
+        "inspection": "Human/hedgehog transformation is explicit source text. Actual original images77/71 show human wizard in gold robe with white beard/hair; glasses appear in77, not71. These control proposed dimensional human adaptation. No verified Tarin hedgehog portrait: hedgehog pictured beside wizard is a companion, not assumed Tarin. Tarin’s relationship to published hedgehog Elder is unresolved; keep this distinct requirement, do not copy or silently alias published Elder."
+      }
+    }
+  ],
+  "existingOutputs": [
+    {
+      "id": "asset-53a1259d91e1c489a9796f62",
+      "name": "tarin-solo-directions.png",
+      "mime": "image/png",
+      "sha256": "53a1259d91e1c489a9796f62b38c048615567c4f980442707ff0d42825802d86",
+      "bytes": 2520520,
+      "width": 1536,
+      "height": 1024,
+      "url": "/api/assets/asset-53a1259d91e1c489a9796f62",
+      "storagePath": "assets/53a1259d91e1c489a9796f62b38c048615567c4f980442707ff0d42825802d86.png",
+      "createdAt": "2026-10-03T13:40:19.471134+00:00",
+      "reviewStatus": "unreviewed",
+      "provenance": {
+        "sourcePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/generated/53a1259d91e1c489-tarin-solo-directions.png",
+        "source": "native-imagegen",
+        "tool": "image_gen.imagegen",
+        "nativeOutputPath": "/Users/miguel_lemos/.codex/generated_images/01a0ff85-92dc-7c40-9adb-ef240551a423/exec-c2f7da6c-7e82-4be1-8468-6cb66a77efde.png",
+        "nativeSha256": "53a1259d91e1c489a9796f62b38c048615567c4f980442707ff0d42825802d86",
+        "prompt": "Edit the attached Tarin double-sheet. Preserve every successful cell, HUMAN LEFT half, hedgehog gray quills/white eyebrows, all labels and CORRECT footer HEDGEHOG → Enchanted coffee → HUMAN → Sunset → HEDGEHOG. Make exactly THREE orientation corrections in the RIGHT HALF HEDGEHOG ONLY. (A) FACE VIEWS row1, FIFTH cell labeled Right Profile: currently nose points LEFT. REPLACE with a true profile nose pointing to RIGHT image edge, ear behind eye, gray quills behind head extending LEFT, no visible second eye. (B) WHOLE BODY VIEWS row3, SECOND cell labeled Left 3/4: currently nose points RIGHT. REPLACE with whole elderly hedgehog turned three-quarter toward LEFT edge, nose points LEFT, both eyes visible, cream belly toward LEFT-front, gray quill mass at RIGHT/back, two grounded feet, separate paws. (C) WHOLE BODY VIEWS row3, FIFTH cell Right Profile: currently nose points LEFT. REPLACE with entire elderly hedgehog true side facing RIGHT edge, nose points RIGHT, gray quill mass at LEFT/back, white brows, cream muzzle toward RIGHT, grounded two feet. These are genuinely opposed orientations, don't just change text. DO NOT alter RIGHT HALF row3 cell4 which correctly faces RIGHT, or cell3 which correctly faces LEFT. Keep full page size, 48 studies, all human poses and footer unchanged. Inspect A B C: nose A RIGHT, B LEFT, C RIGHT.\n",
+        "promptSha256": "8becb9f079811cdd0b5d111d4990bbe6f4600b00139a965fd0f049c6650fac7d",
+        "promptFile": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/workflows/characters/tarin/solo-direction-prompt.txt",
+        "referenceIds": [
+          "asset-16a9d052eadc0bbce07ab1c4",
+          "asset-5d505b375eed339baa7f7650"
+        ],
+        "inputAssets": [
+          {
+            "assetId": "asset-16a9d052eadc0bbce07ab1c4",
+            "sha256": "16a9d052eadc0bbce07ab1c43adfa401b4cae63f305101f2e9650a6ff4e7dc2e"
+          },
+          {
+            "assetId": "asset-5d505b375eed339baa7f7650",
+            "sha256": "5d505b375eed339baa7f765028f4c61224a685dfcc4c01ee53c5f35fdb303700"
+          }
+        ],
+        "registeredBy": "studio-client/register-image.py"
+      }
+    },
+    {
+      "id": "asset-f9965f1ec6a470c0f6b7cac8",
+      "name": "tarin-interactions.png",
+      "mime": "image/png",
+      "sha256": "f9965f1ec6a470c0f6b7cac87c36f66a7e8104e7093bec86d9448f796d98afee",
+      "bytes": 2774531,
+      "width": 1024,
+      "height": 1536,
+      "url": "/api/assets/asset-f9965f1ec6a470c0f6b7cac8",
+      "storagePath": "assets/f9965f1ec6a470c0f6b7cac87c36f66a7e8104e7093bec86d9448f796d98afee.png",
+      "createdAt": "2026-10-03T13:45:51.279648+00:00",
+      "reviewStatus": "unreviewed",
+      "provenance": {
+        "sourcePath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/generated/f9965f1ec6a470c0-tarin-interactions.png",
+        "source": "native-imagegen",
+        "tool": "image_gen.imagegen",
+        "nativeOutputPath": "/Users/miguel_lemos/.codex/generated_images/01a0ff85-92dc-7c40-9adb-ef240551a423/exec-66b28c3c-e929-46e9-982b-45fb4cd7678b.png",
+        "nativeSha256": "f9965f1ec6a470c0f6b7cac87c36f66a7e8104e7093bec86d9448f796d98afee",
+        "prompt": "Use case: illustration-story. Create a separate readable whole-body cast interaction and scale page titled tarin, subtitle Proposed book adaptation. Warm dimensional PinPin book style on ivory, natural expression variation, generous full-body margins and neutral shared-ground/perch contact shadows. ACTUAL INPUTS in order: 1: PRIMARY-working-identity:verified-solo, 2: identity-human-source, 3: counterpart-identity:pinpin, 4: counterpart-identity:pipilini, 5: book-style:family-relative-scale. Primary target solo sheet controls TARGET identity, not just style. Every pictured counterpart has its own reference. Family image only supplies book style and relative adult/child scale. Species, age stage and role cannot transfer across characters. SIX panels, two columns by three rows. Tarin is ONE elderly wizard in ALTERNATIVE forms, never two simultaneous independent people. HUMAN form: old white-haired white-bearded man, small round spectacles, gold robe, brown shoes, natural human hands. HEDGEHOG form: mature elderly gray/salt-pepper quills and WHITE eyebrows from corrected primary sheet, cream muzzle/chest, no human beard/robe/staff. PinPin is CHILD copper-quilled HEDGEHOG, Pipilini OLDER rose/cream long-tailed BIRD with weak wings. Panel1 Human greeting: full-body kneeling HUMAN Tarin listens to standing PinPin CHILD HEDGEHOG, Pipilini BIRD perched low nearby. Human full robe/body fits panel; human naturally much taller than small child, no invented measured height. Panel2 Hedgehog greeting: full-body ADULT elderly HEDGEHOG Tarin stands beside PinPin CHILD HEDGEHOG on same ground; Tarin clearly older/larger than child, white brows and gray quills, Pipilini BIRD perched low nearby. Panel3 Coffee: seated HUMAN Tarin holds one cup with clearly separate HUMAN fingers; PinPin CHILD HEDGEHOG offers a saucer at table edge, Pipilini BIRD perches securely beside them. Cup anatomically supported, hands/paws don't fuse. Panel4 Forest hug: elderly HEDGEHOG Tarin kneels and side-hugs PinPin CHILD HEDGEHOG with two distinct bodies and separate paws/grounded feet; Pipilini BIRD observes, no spines passing through hands. Panel5 Transformation STRIP: THREE sequential separated vignette portraits of SAME Tarin, HEDGEHOG → HUMAN → HEDGEHOG; FIRST arrow labeled Enchanted coffee, SECOND labeled Sunset. It is a time sequence, not three people gathered. Keep forms exactly consistent with panels1/2. Panel6 At sunset: elderly HEDGEHOG Tarin sits with PinPin CHILD HEDGEHOG and Pipilini BIRD at low table, three distinct species/roles, quiet supported posture. No human Tarin simultaneously present. Header 'Two forms, one wizard'. Human-to-hedgehog choice was deliberate originally; enchanted coffee returns him to human, sunset back to hedgehog. Relationship to published Elder remains unresolved, don't copy that Elder. Source/proposal distinction: Human/hedgehog transformation is explicit source text. Actual original images77/71 show human wizard in gold robe with white beard/hair; glasses appear in77, not71. These control proposed dimensional human adaptation. No verified Tarin hedgehog portrait: hedgehog pictured beside wizard is a companion, not assumed Tarin. Tarin’s relationship to published hedgehog Elder is unresolved; keep this distinct requirement, do not copy or silently alias published Elder. No invented precise ages, canonical group totals or names, no merged tails/bodies, no extra limbs, no floating support, no cropped feet/tails/robe. A grounded full-page draft.",
+        "promptSha256": "1c162f61ffe298f96182fe54f6e0427ee0d7fe5352d833de018f3b362fb8142f",
+        "promptFile": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/workflows/characters/tarin/interactions-prompt.txt",
+        "referenceIds": [
+          "asset-53a1259d91e1c489a9796f62",
+          "asset-cdeee8375b17db34dfd4c717",
+          "asset-5d505b375eed339baa7f7650",
+          "asset-713cae3785e80f243216dcdc",
+          "asset-88d74c56a468e3f250b12dbc"
+        ],
+        "inputAssets": [
+          {
+            "assetId": "asset-53a1259d91e1c489a9796f62",
+            "sha256": "53a1259d91e1c489a9796f62b38c048615567c4f980442707ff0d42825802d86"
+          },
+          {
+            "assetId": "asset-cdeee8375b17db34dfd4c717",
+            "sha256": "cdeee8375b17db34dfd4c7172201a8f49069e2b57a72e28a76f5e74463404511"
+          },
+          {
+            "assetId": "asset-5d505b375eed339baa7f7650",
+            "sha256": "5d505b375eed339baa7f765028f4c61224a685dfcc4c01ee53c5f35fdb303700"
+          },
+          {
+            "assetId": "asset-713cae3785e80f243216dcdc",
+            "sha256": "713cae3785e80f243216dcdc74955eaa37501071661eb403d433f7edcae7c9b6"
+          },
+          {
+            "assetId": "asset-88d74c56a468e3f250b12dbc",
+            "sha256": "88d74c56a468e3f250b12dbcb5ecdb7b07bd1d789197663d8948ac199acd133d"
+          }
+        ],
+        "registeredBy": "studio-client/register-image.py"
+      }
+    }
+  ],
+  "finalStages": {
+    "solo": {
+      "assetId": "asset-53a1259d91e1c489a9796f62",
+      "sha256": "53a1259d91e1c489a9796f62b38c048615567c4f980442707ff0d42825802d86",
+      "nativePath": "/Users/miguel_lemos/.codex/generated_images/01a0ff85-92dc-7c40-9adb-ef240551a423/exec-c2f7da6c-7e82-4be1-8468-6cb66a77efde.png",
+      "generatedPath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/generated/53a1259d91e1c489-tarin-solo-directions.png",
+      "receiptKind": null
+    },
+    "interactions": {
+      "assetId": "asset-f9965f1ec6a470c0f6b7cac8",
+      "sha256": "f9965f1ec6a470c0f6b7cac87c36f66a7e8104e7093bec86d9448f796d98afee",
+      "nativePath": "/Users/miguel_lemos/.codex/generated_images/01a0ff85-92dc-7c40-9adb-ef240551a423/exec-66b28c3c-e929-46e9-982b-45fb4cd7678b.png",
+      "generatedPath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/generated/f9965f1ec6a470c0-tarin-interactions.png",
+      "receiptKind": null
+    }
+  },
+  "generationRecord": "generation.json"
 }

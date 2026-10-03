@@ -1,0 +1,61 @@
+{
+  "batch": "batch06-qa-correction",
+  "characters": [
+    {
+      "entityId": "migrating-bird-family",
+      "stages": {
+        "solo": {
+          "assetId": "asset-5deafc271a86abb0291f896c",
+          "sha256": "5deafc271a86abb0291f896c7e9f1d178ac3592b2753964ea9823b4af2c937d2",
+          "nativePath": "/Users/miguel_lemos/.codex/generated_images/01a0ff85-92dc-7c40-9adb-ef240551a423/exec-a9efb0f6-aadd-4aec-b128-a9ad518c9d6d.png",
+          "generatedPath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/generated/5deafc271a86abb0-migrating-bird-family-solo-cell-repaired.png",
+          "receiptKind": null
+        },
+        "interactions": {
+          "assetId": "asset-724018170df3f256abb11760",
+          "sha256": "724018170df3f256abb117600e91decc3709ab94dc439a9d4f2fb0b8043fb2e2",
+          "nativePath": "/Users/miguel_lemos/.codex/generated_images/01a0ff85-92dc-7c40-9adb-ef240551a423/exec-ea315ad4-fbc8-4790-8348-2d2872e6a307.png",
+          "generatedPath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/generated/724018170df3f256-migrating-bird-family-interactions-repaired.png",
+          "receiptKind": null
+        }
+      },
+      "dossierPath": "workflows/characters/migrating-bird-family/README.md",
+      "next": null,
+      "remaining": [],
+      "workflowCard": {
+        "type": "WorkflowCard",
+        "title": "migrating-bird-family — complete draft package",
+        "assetIds": [
+          "asset-5deafc271a86abb0291f896c",
+          "asset-724018170df3f256abb11760"
+        ],
+        "actions": []
+      },
+      "metrics": {
+        "imageCalls": 4,
+        "measuredImageCalls": 4,
+        "recoveredRendersWithoutMeasuredBounds": 0,
+        "repairCalls": 2,
+        "summedImageCallWindowSeconds": 248.0,
+        "registrationSeconds": 0.330334,
+        "firstPassBodyDirectionErrors": [],
+        "endToEndSeconds": null,
+        "monetaryCost": null
+      },
+      "generationPath": "reports/character-packages/migrating-bird-family-generation.json"
+    }
+  ],
+  "remaining": [],
+  "nextEntityId": null,
+  "producedCount": 21,
+  "imageCalls": 4,
+  "repairCalls": 2,
+  "measuredImageCalls": 4,
+  "recoveredRendersWithoutMeasuredBounds": 0,
+  "sumImageWindowsSeconds": 248.0,
+  "unionSubmittedWindowsSeconds": 248.0,
+  "firstToLastImageSpanSeconds": 1602.0,
+  "limits": "Submission/return windows, not compute or full-turn latency. Billing and unobserved delivery bounds unknown.",
+  "checkpointSeconds": 0.4441242500033695,
+  "checkpointObservedUTC": "2026-10-03T14:02:41.637524+00:00"
+}

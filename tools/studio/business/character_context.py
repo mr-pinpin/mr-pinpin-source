@@ -90,6 +90,11 @@ def prepared_toolchain(store, state):
                                    if key in ("toolPath", "finish", "checkpoint", "authority")
                                    and isinstance(value, str) and len(value) <= 500}
                                    if isinstance(manifest.get("castOperations"), dict) else {},
+                "imageGeneration": {key: value for key, value in manifest.get("imageGeneration", {}).items()
+                                    if (key == "maxInputReferences" and type(value) is int and 1 <= value <= 5)
+                                    or (key in ("tool", "preparationInvocation", "omissionContract") and isinstance(value, str) and len(value) <= 500)
+                                    or (key == "rolePriority" and isinstance(value, list) and len(value) <= 8 and all(isinstance(item, str) and len(item) <= 40 for item in value))}
+                                    if isinstance(manifest.get("imageGeneration"), dict) else {},
                 "authority": "Local tool configuration only; registration keeps candidates unreviewed and grants no selection, publication or approval.",
                 "receipt": "With --entity/--stage the helper saves the actual receipt and provenance automatically; a custom dossier-writing script is unnecessary."}
     except (OSError, ValueError, TypeError, KeyError, AttributeError):

@@ -1,0 +1,67 @@
+{
+  "files": [
+    {
+      "path": "workflows/character-creation.md",
+      "sha256": "2a64a5d6c8bc8ee35ca815fb27d337db8fcbecfceadaae7cc1f5d726a9975a2a",
+      "bytes": 21819
+    },
+    {
+      "path": "exports/workflows-README.md",
+      "sha256": "9130fb9e5e159660d91c9af942a222e06dcf8d60d36f2df4c4cd25e7960ba2b1",
+      "bytes": 4939
+    },
+    {
+      "path": "tools/test_cast_closeout.py",
+      "sha256": "dc67e240b6855ccc4c46a707be0f9541ece7416e6a016da2cd0a28519455887a",
+      "bytes": 8681
+    },
+    {
+      "path": "exports/test_cast_closeout.py",
+      "sha256": "dc67e240b6855ccc4c46a707be0f9541ece7416e6a016da2cd0a28519455887a",
+      "bytes": 8681
+    },
+    {
+      "path": "exports/test_business_routes.py",
+      "sha256": "ed195ac7e373b8b89493fa0441bc7e9894fe265717c29f809c01476acc0011a4",
+      "bytes": 6479
+    },
+    {
+      "path": "tools/cast_ops.py",
+      "sha256": "88992871b58dc7615993fee7123a2d06e4506b017f7004fb80647ac35673302f",
+      "bytes": 17006
+    },
+    {
+      "path": "tools/verify-cast-active.py",
+      "sha256": "b521897b7cabfa3897cb727d2d07e87d3bb34d1417cea32444b02b150cd0c29f",
+      "bytes": 3346
+    },
+    {
+      "path": "workflows/toolchain.json",
+      "sha256": "b9b137353fac6f498fd203cdf51f3df827bbbb41b772c2d0900b3f5599b74e0d",
+      "bytes": 1877
+    },
+    {
+      "path": "workflows/character-context-index.md",
+      "sha256": "e49c72839809920a0a26aad9eaa95513953acd1042da1be7ebfcd3a38df0f19d",
+      "bytes": 1572
+    },
+    {
+      "path": "exports/character-context-index.md",
+      "sha256": "e49c72839809920a0a26aad9eaa95513953acd1042da1be7ebfcd3a38df0f19d",
+      "bytes": 1572
+    },
+    {
+      "path": "tools/test_cast_context_compact.py",
+      "sha256": "c5b318e4f811ab941eed06064bbcb7a4a6a1a0621c6284360a077950c095733d",
+      "bytes": 8591
+    },
+    {
+      "path": "exports/test_cast_context_compact.py",
+      "sha256": "c5b318e4f811ab941eed06064bbcb7a4a6a1a0621c6284360a077950c095733d",
+      "bytes": 8591
+    }
+  ],
+  "imageBinariesIncluded": false,
+  "approvalInvented": false,
+  "standaloneTestPlacement": "Data-relative script tests retain their data layout in the dated workflow example; not unittest discovery."
+}

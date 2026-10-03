@@ -1,0 +1,341 @@
+{
+  "messageId": "message-3fa4d44bbd904bd9a340",
+  "eventCoverage": "complete",
+  "totalSeconds": 2113.568182,
+  "imageActivityUnionSeconds": 559.0523,
+  "compactionSeconds": 337.327287,
+  "otherExcludingCompactionSeconds": 1217.188595,
+  "setupToFirstImageSeconds": 748.972712,
+  "setupExcludingCompactionSeconds": 411.645425,
+  "lastImageAt": "2026-10-03T13:41:26.249553+00:00",
+  "lastImageToCompletionSeconds": 453.12195,
+  "closingPublicCommandCount": 11,
+  "appReportedGenerationCalls": 9,
+  "creativeRepairCalls": 3,
+  "registeredPagesThisBatch": 6,
+  "producedRegistryCount": 21,
+  "knownOutstandingIssue": "Parent independent QA reports one migrating-bird solo cell missing; final review turn repairing it.",
+  "registrationReceiptSeconds": 0.748828,
+  "checkpointSeconds": 0.4442005419987254,
+  "appSubmittedWindowUnionSeconds": 560.0,
+  "appSubmittedWindowSumSeconds": 729.0,
+  "compactionEvents": [
+    {
+      "seq": 12048,
+      "type": "activity",
+      "createdAt": "2026-10-03T13:20:18.645171+00:00",
+      "kind": "contextCompaction",
+      "status": "running"
+    },
+    {
+      "seq": 12050,
+      "type": "activity",
+      "createdAt": "2026-10-03T13:25:55.972458+00:00",
+      "kind": "contextCompaction",
+      "status": "completed"
+    }
+  ],
+  "closingEvents": [
+    {
+      "seq": 12727,
+      "type": "activity",
+      "createdAt": "2026-10-03T13:41:26.249553+00:00",
+      "kind": "imageGeneration",
+      "status": "completed"
+    },
+    {
+      "seq": 12728,
+      "type": "activity",
+      "createdAt": "2026-10-03T13:41:39.813504+00:00",
+      "kind": "fileChange",
+      "status": "running"
+    },
+    {
+      "seq": 12729,
+      "type": "activity",
+      "createdAt": "2026-10-03T13:41:39.884758+00:00",
+      "kind": "fileChange",
+      "status": "completed"
+    },
+    {
+      "seq": 12730,
+      "type": "activity",
+      "createdAt": "2026-10-03T13:41:39.952932+00:00",
+      "kind": "commandExecution",
+      "status": "running"
+    },
+    {
+      "seq": 12731,
+      "type": "activity",
+      "createdAt": "2026-10-03T13:41:39.956386+00:00",
+      "kind": "commandExecution",
+      "status": "completed"
+    },
+    {
+      "seq": 12732,
+      "type": "activity",
+      "createdAt": "2026-10-03T13:41:40.109320+00:00",
+      "kind": "commandExecution",
+      "status": "running"
+    },
+    {
+      "seq": 12733,
+      "type": "activity",
+      "createdAt": "2026-10-03T13:41:40.245624+00:00",
+      "kind": "commandExecution",
+      "status": "completed"
+    },
+    {
+      "seq": 12736,
+      "type": "activity",
+      "createdAt": "2026-10-03T13:42:06.161074+00:00",
+      "kind": "imageView",
+      "status": "running"
+    },
+    {
+      "seq": 12737,
+      "type": "activity",
+      "createdAt": "2026-10-03T13:42:06.164888+00:00",
+      "kind": "imageView",
+      "status": "completed"
+    },
+    {
+      "seq": 12739,
+      "type": "activity",
+      "createdAt": "2026-10-03T13:42:35.461885+00:00",
+      "kind": "fileChange",
+      "status": "running"
+    },
+    {
+      "seq": 12740,
+      "type": "activity",
+      "createdAt": "2026-10-03T13:42:35.497626+00:00",
+      "kind": "fileChange",
+      "status": "completed"
+    },
+    {
+      "seq": 12741,
+      "type": "activity",
+      "createdAt": "2026-10-03T13:42:35.655054+00:00",
+      "kind": "commandExecution",
+      "status": "running"
+    },
+    {
+      "seq": 12742,
+      "type": "activity",
+      "createdAt": "2026-10-03T13:42:35.895289+00:00",
+      "kind": "commandExecution",
+      "status": "completed"
+    },
+    {
+      "seq": 12743,
+      "type": "activity",
+      "createdAt": "2026-10-03T13:42:36.051525+00:00",
+      "kind": "commandExecution",
+      "status": "running"
+    },
+    {
+      "seq": 12744,
+      "type": "activity",
+      "createdAt": "2026-10-03T13:42:36.102832+00:00",
+      "kind": "commandExecution",
+      "status": "completed"
+    },
+    {
+      "seq": 12746,
+      "type": "delta",
+      "createdAt": "2026-10-03T13:42:47.168383+00:00",
+      "messageId": "msg_0c7e807191abf74f016ac10657435887d28bce92263109ff98"
+    },
+    {
+      "seq": 12858,
+      "type": "message",
+      "createdAt": "2026-10-03T13:42:51.899946+00:00",
+      "messageId": "msg_0c7e807191abf74f016ac10657435887d28bce92263109ff98"
+    },
+    {
+      "seq": 12859,
+      "type": "activity",
+      "createdAt": "2026-10-03T13:43:56.022189+00:00",
+      "kind": "fileChange",
+      "status": "running"
+    },
+    {
+      "seq": 12860,
+      "type": "activity",
+      "createdAt": "2026-10-03T13:43:56.063532+00:00",
+      "kind": "fileChange",
+      "status": "completed"
+    },
+    {
+      "seq": 12861,
+      "type": "activity",
+      "createdAt": "2026-10-03T13:43:56.229826+00:00",
+      "kind": "commandExecution",
+      "status": "running"
+    },
+    {
+      "seq": 12862,
+      "type": "activity",
+      "createdAt": "2026-10-03T13:43:56.233323+00:00",
+      "kind": "commandExecution",
+      "status": "completed"
+    },
+    {
+      "seq": 12865,
+      "type": "activity",
+      "createdAt": "2026-10-03T13:45:09.673210+00:00",
+      "kind": "imageView",
+      "status": "running"
+    },
+    {
+      "seq": 12866,
+      "type": "activity",
+      "createdAt": "2026-10-03T13:45:09.678093+00:00",
+      "kind": "imageView",
+      "status": "completed"
+    },
+    {
+      "seq": 12868,
+      "type": "activity",
+      "createdAt": "2026-10-03T13:45:51.107176+00:00",
+      "kind": "fileChange",
+      "status": "running"
+    },
+    {
+      "seq": 12869,
+      "type": "activity",
+      "createdAt": "2026-10-03T13:45:51.148447+00:00",
+      "kind": "fileChange",
+      "status": "completed"
+    },
+    {
+      "seq": 12870,
+      "type": "activity",
+      "createdAt": "2026-10-03T13:45:51.308609+00:00",
+      "kind": "commandExecution",
+      "status": "running"
+    },
+    {
+      "seq": 12871,
+      "type": "activity",
+      "createdAt": "2026-10-03T13:45:51.460779+00:00",
+      "kind": "commandExecution",
+      "status": "completed"
+    },
+    {
+      "seq": 12872,
+      "type": "activity",
+      "createdAt": "2026-10-03T13:45:51.616853+00:00",
+      "kind": "commandExecution",
+      "status": "running"
+    },
+    {
+      "seq": 12873,
+      "type": "activity",
+      "createdAt": "2026-10-03T13:45:51.637684+00:00",
+      "kind": "commandExecution",
+      "status": "completed"
+    },
+    {
+      "seq": 12875,
+      "type": "delta",
+      "createdAt": "2026-10-03T13:46:04.187355+00:00",
+      "messageId": "msg_0c7e807191abf74f016ac1071c567887d29995bea82e36bcbe"
+    },
+    {
+      "seq": 12990,
+      "type": "message",
+      "createdAt": "2026-10-03T13:46:07.886349+00:00",
+      "messageId": "msg_0c7e807191abf74f016ac1071c567887d29995bea82e36bcbe"
+    },
+    {
+      "seq": 12991,
+      "type": "activity",
+      "createdAt": "2026-10-03T13:46:50.802391+00:00",
+      "kind": "fileChange",
+      "status": "running"
+    },
+    {
+      "seq": 12992,
+      "type": "activity",
+      "createdAt": "2026-10-03T13:46:50.837851+00:00",
+      "kind": "fileChange",
+      "status": "completed"
+    },
+    {
+      "seq": 12993,
+      "type": "activity",
+      "createdAt": "2026-10-03T13:46:50.995508+00:00",
+      "kind": "commandExecution",
+      "status": "running"
+    },
+    {
+      "seq": 12994,
+      "type": "activity",
+      "createdAt": "2026-10-03T13:46:51.395485+00:00",
+      "kind": "commandExecution",
+      "status": "completed"
+    },
+    {
+      "seq": 12995,
+      "type": "activity",
+      "createdAt": "2026-10-03T13:46:51.549855+00:00",
+      "kind": "commandExecution",
+      "status": "running"
+    },
+    {
+      "seq": 12996,
+      "type": "activity",
+      "createdAt": "2026-10-03T13:46:51.694717+00:00",
+      "kind": "commandExecution",
+      "status": "completed"
+    },
+    {
+      "seq": 12998,
+      "type": "activity",
+      "createdAt": "2026-10-03T13:47:53.904125+00:00",
+      "kind": "commandExecution",
+      "status": "running"
+    },
+    {
+      "seq": 12999,
+      "type": "activity",
+      "createdAt": "2026-10-03T13:47:53.906717+00:00",
+      "kind": "commandExecution",
+      "status": "completed"
+    },
+    {
+      "seq": 13000,
+      "type": "activity",
+      "createdAt": "2026-10-03T13:47:53.955513+00:00",
+      "kind": "commandExecution",
+      "status": "running"
+    },
+    {
+      "seq": 13001,
+      "type": "activity",
+      "createdAt": "2026-10-03T13:47:53.959213+00:00",
+      "kind": "commandExecution",
+      "status": "completed"
+    },
+    {
+      "seq": 13003,
+      "type": "delta",
+      "createdAt": "2026-10-03T13:48:49.983488+00:00",
+      "messageId": "msg_0c7e807191abf74f016ac107c181f487d28f5dc7e096e3f45f"
+    },
+    {
+      "seq": 13183,
+      "type": "message",
+      "createdAt": "2026-10-03T13:48:59.226023+00:00",
+      "messageId": "msg_0c7e807191abf74f016ac107c181f487d28f5dc7e096e3f45f"
+    },
+    {
+      "seq": 13185,
+      "type": "status",
+      "createdAt": "2026-10-03T13:48:59.371503+00:00",
+      "status": "completed"
+    }
+  ]
+}

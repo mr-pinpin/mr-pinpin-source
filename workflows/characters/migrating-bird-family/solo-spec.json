@@ -1,0 +1,34 @@
+{
+  "entityId": "migrating-bird-family",
+  "stage": "solo",
+  "prompt": "Use case: illustration-story. Production reference titled \"Pipilini’s migrating family\" with subtitle \"Proposed book adaptation\", warm dimensional PinPin book style on ivory. Portrait page, FOUR rows of SIX readable cells, TWO representative subjects separately distinguishable in EVERY cell. Larger adult/companion and smaller young/companion sizes consistent. No canonical total claimed. Subject/source requirements: Recurring unnamed bird family migrates south to Africa each year; old Pipilini used to lead the flock but cannot travel that far now (original chapter8). Show TWO representative capable flying birds, mature-looking larger and smaller companion, not canonical count, sex or asserted parent/chick relationship. Proposed pale rose/cream feather design related to working Pipilini with reddish small beaks, folded feather wings, thin supported feet, long light rose tails. No mammal arms. Pipilini is the separate older weak-winged character, not one of these active flying representatives. Source distinction: Original chapter8 block3 establishes family and migration; relative ages within the family, number, species and individual appearance are not specified. Image49 has one unlabeled pale rose bird, not a family portrait. Proposed representative size/role differentiation remains explicitly unsourced; established older Pipilini identity is retained only as counterpart. Actual inputs ordered: 1: PRIMARY-working-family-visual-lineage, 2: layout-direction-only, 3: book-style, 4: subject-source:original-visual-context. Layout sheet controls grid/opposed directions ONLY; never copy its species/clothing/anatomy. Row1 FACE VIEWS for each subject/form explicitly: Front: nose/beak centered toward viewer. Left 3/4: nose/beak SCREEN LEFT, both eyes visible if anatomy permits, torso LEFT. Left profile: true side, nose/beak SCREEN LEFT, torso LEFT. Right 3/4: nose/beak SCREEN RIGHT, both eyes visible if anatomy permits, torso RIGHT. Right profile: true side, nose/beak SCREEN RIGHT, torso RIGHT. Rear: back, face invisible. Row2 EXPRESSIONS: Calm, Curious, Happy, Surprised, Thoughtful, Mild upset, naturally varied. Row3 FULL BODY VIEWS explicitly: Front: nose/beak centered toward viewer. Left 3/4: nose/beak SCREEN LEFT, both eyes visible if anatomy permits, torso LEFT. Left profile: true side, nose/beak SCREEN LEFT, torso LEFT. Right 3/4: nose/beak SCREEN RIGHT, both eyes visible if anatomy permits, torso RIGHT. Right profile: true side, nose/beak SCREEN RIGHT, torso RIGHT. Rear: back, face invisible. Row4 NORMAL POSES: Sit, Reach, Greet, Carry cup or small nut, Share, Rest. Birds instead Perch, Hop, Sing, Spread wings, Fly gently, Rest. No human hands/arms on birds. Distinct two arms/two legs on human and hedgehog/squirrel, two wings/two feet on birds, clear supported feet/perches. Human full beard/robe hem/shoes visible; hedgehog whole quills/feet visible. Generous margins, no fused limbs, no clipped tails. Concise labels only, no invented ages/heights/names. One real unified image.",
+  "promptFile": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/workflows/characters/migrating-bird-family/solo-prompt.txt",
+  "outputName": "migrating-bird-family-solo.png",
+  "references": [
+    {
+      "assetId": "asset-713cae3785e80f243216dcdc",
+      "sha256": "713cae3785e80f243216dcdc74955eaa37501071661eb403d433f7edcae7c9b6",
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/assets/713cae3785e80f243216dcdc74955eaa37501071661eb403d433f7edcae7c9b6.png",
+      "role": "PRIMARY-working-family-visual-lineage"
+    },
+    {
+      "assetId": "asset-5d505b375eed339baa7f7650",
+      "sha256": "5d505b375eed339baa7f765028f4c61224a685dfcc4c01ee53c5f35fdb303700",
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/assets/5d505b375eed339baa7f765028f4c61224a685dfcc4c01ee53c5f35fdb303700.png",
+      "role": "layout-direction-only"
+    },
+    {
+      "assetId": "asset-88d74c56a468e3f250b12dbc",
+      "sha256": "88d74c56a468e3f250b12dbcb5ecdb7b07bd1d789197663d8948ac199acd133d",
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/assets/88d74c56a468e3f250b12dbcb5ecdb7b07bd1d789197663d8948ac199acd133d.webp",
+      "role": "book-style"
+    },
+    {
+      "assetId": "asset-3da638615ab0e52d60c8ea61",
+      "sha256": "3da638615ab0e52d60c8ea6130b0a1b103845a4e6f7b40de9a9bff6dbcf534ea",
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/assets/3da638615ab0e52d60c8ea6130b0a1b103845a4e6f7b40de9a9bff6dbcf534ea.png",
+      "role": "subject-source:original-visual-context"
+    }
+  ],
+  "omittedReferences": []
+}

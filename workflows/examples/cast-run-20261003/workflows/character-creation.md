@@ -1,5 +1,7 @@
 # Character creation
 
+Context hydration uses the selected dossier plus compact queue and guide indexes. Read the indexed Markdown paths for full workflow text; source, age, roles and stage receipts stay available. `workflows/character-context-index.md` summarizes retrieval. Exact prompts remain in asset metadata and receipts. This does not reset conversation history or fix native compaction.
+
 Live persistent contract: this Markdown file in Studio data. It is loaded by the reloadable business context on fresh turns. The source-checkout copy is an earlier checkpoint; the coordinator can mechanically checkpoint this authored live version. Workflow text is product context, never kernel or approval authority.
 
 Deliver a coherent character reference package through the conversation: one prototype, a useful review loop, coordinated studies, a unified sheet, and a separate page showing the character with the existing cast. Keep the result visible in chat rather than requiring an unrelated chapter or administrative screen.
@@ -131,3 +133,7 @@ Native imagegen accepts at most FIVE referenced image paths per call. Prepare th
 If agent visual QA rejects a registered candidate, retain it with `qaDisposition: needs-repair` and its reason in that stage receipt. Reconciliation excludes that candidate until a corrected real render is registered; this is agent draft QA, not human artifact acceptance.
 
 Preparation uses saved toolchain.imageGeneration and tools.cast_ops.rank_reference_pack: maximum FIVE inputs, ranked target solo/identity first, needed counterpart identities, then layout/style/context as appropriate. Save omittedReferences in spec and stage receipt preparation, retaining the full source bibliography; omissions are not actual image inputs. Full finish→finish regression now covers a final generated result section with no later curated heading; preserve metrics BEGIN and END together.
+
+## Complete-cast checkpoint
+
+When the reconciled queue has no missing stages, the existing `tools/cast_ops.py checkpoint <batch> <entity> ...` also writes `reports/cast-complete-inventory.md` and `.json`: all final IDs/native links, sourced age/life stage, curated dossiers/bibliography, standard receipts including retained attempts, exact prompts/reference roles and available timing reports. Unknown legacy or delivery/billing measurements stay unknown. Production and agent QA do not grant human approval or publication. The active finish CLI is tested twice on the end-of-dossier fixture, preserving one complete metrics marker block and curated prose; see tools/test_cast_closeout.py and reports/cast-closeout-proof.json.

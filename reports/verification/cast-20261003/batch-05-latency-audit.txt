@@ -1,0 +1,56 @@
+Batch05 final latency/fidelity audit — 2026-10-03
+Complete eventcoverage throughcursor11863.
+Accepted2026-10-03T12:33:01.683303+00:00; firsttext14.996941s.
+FinalAPI2026-10-03T13:13:25.691716+00:00; completed2026-10-03T13:13:25.759283+00:00.
+Total2424.075980s =40m24.076s.
+Image activitywall786.484117s =13m6.484s.
+Compaction279.224819s =4m39.225s,12:33:27.935576–12:38:07.160395.
+No image/compaction overlap. Other excludingcompaction1358.367044s
+includes implementation,recovery,QA,registration,closeout and finaldelivery.
+Setup→firstimage514.429015s includescompaction; excludingit235.204196s.
+
+Keep these different outcomes separate:
+- One known input validation rejection: Oreshek interaction request used6refs,
+  native image tool allows atmost5. Rejection is NOT successfulimagegeneration.
+- Orchestration issued concurrent calls; one cousin native output was recovered.
+  Other2concurrentoutcomes remainunknown. Do not invent returnedoutputs/costs.
+- Eleven recorded nativeoutputs:10with measured generation bounds,1recovered
+  without bounds. Public timeline has11completedimageactivitypairs.
+- Two visual scale-repair calls for cousin interactions; firstrepair did not
+  pass QA, second became final. These are creative repairs, not provider retries.
+- Eight finalpages across4packages. Extra recovered/superseded outputs are not
+  extra finalpages. App-QA firstpass pages7/8, distinct frominputvalidation issue.
+
+Recovered callfile/native fidelity:
+All11native files hash-match their registeredassets; all11storedasset copies match.
+All11prompt/ref records match storedprovenance.
+All10measuredcallfiles agree with generationledger and corresponding specs.
+Recovered cousin record explicitly says prompt/reference attribution is inferred
+from issuedcall+subject and returnedoutput wasnotcaptured. Its boundaries areNULL.
+Hash consistency does NOT convert that semantic inference into proven toolreturn
+association. Preserved in batch-05-fidelity.json and input-attemptsourcecopy.
+No unknown duration or unobserved two concurrent outcomes invented.
+
+Timing definition reconciliation:
+App measured10callwindowunion727s (whole-second boundaries),sum2149s overlaps.
+Public image activityunion786.484117s covers11completed activityintervals,
+including lifecycleevidence absent from recoveredrecord's bounds.
+Difference59.484117s must NOT be assigned as exact recovered per-imagetime without
+call IDs. Bothaggregate definitions retained; APItimestamps are not backendcompute.
+Actual11registrationreceipt durations sum0.863078s.
+App records consolidatedcheckpoint0.066563s, not whole closeout.
+
+Closeout observation:
+Lastimage2026-10-03T13:08:59.513546+00:00; lastimage→complete266.245737s.
+There were6publiccommandstarts in thiswindow.
+Batch03samewindow388.854562s; batch04samewindow538.900625s.
+Batch05window is smaller, but differentcontent/QA and newlyimplementedcloseout
+plusrecordrecovery prevent attributing full difference toconsolidation.
+Registration of finalcandidate~13:12:07 also predatesfinal13:13:25; usecompleted
+APIevent for finaldelivery. No claimallnonimage time is avoidable orchestration.
+
+Batch06 capture running,session86653,5400s timeout:
+message-3fa4d44bbd904bd9a340 accepted13:13:45.803321UTC,HTTP0.125076.
+Filesbatch-06-capture.json/batch-06-metrics.json.
+Remaining3packages plusretryrecording/fivereference-limit fix requested.
+Noapp sends,production writes,source edits orgeneration bythisauditlane.

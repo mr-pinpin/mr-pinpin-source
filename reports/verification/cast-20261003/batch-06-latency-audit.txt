@@ -1,0 +1,43 @@
+Batch06 final read-only latency audit — 2026-10-03
+
+Accepted: 2026-10-03T13:13:45.803321+00:00
+Final API message: 2026-10-03T13:48:59.226023+00:00
+Turn completed: 2026-10-03T13:48:59.371503+00:00
+Complete event coverage through cursor13185; first assistant text12.546980s.
+Total: 2113.568182s (35m13.568s).
+Image activity union:559.052300s (9m19.052s).
+Context compaction:337.327287s (5m37.327s),13:20:18.645171–13:25:55.972458.
+Remaining excluding compaction:1217.188595s;
+includes retry-limit/recording implementation, review, registration and delivery.
+No image/compaction overlap; no speculative upstream retry duration.
+
+Production and outstanding QA:
+App records9 image calls,3 creative repairs,6 registered pages for
+Squirrel community,Migrating bird family,Tarin. No recovered unbounded output
+reported in this batch. App registry reached21 produced packages.
+INDEPENDENT QA still found one missing bird-solo cell; final-review turn was
+requested to repair it. Registered/produced count is not proof all cells passed
+QA, and no personal Miguel approval or publication is inferred.
+Do not publish a misleading first-pass-success comparison while that issue exists.
+
+Definitions:
+App whole-second submission-window union560s versus public image activity
+union559.0523s; app sum729s overlaps and is not elapsed wall time.
+Actual helper registration receipts sum0.748828s.
+App consolidated checkpoint0.444201s, not whole closeout.
+
+Setup and closing:
+Acceptance→first image:748.972712s; excluding observed compaction:411.645425s.
+Last image:2026-10-03T13:41:26.249553+00:00; last-image→completion:453.121950s.
+Closing phase had11 public command starts.
+Compare batch05 closing266.245737s,batch04 538.900625s,batch03 388.854562s;
+different review/engineering requirements prevent causal attribution to helper.
+No claim all nonimage time is avoidable overhead.
+
+Final review capture now running independently:
+message-3db27cd434834614a423; accepted13:49:46.634027UTC; HTTP0.127277s.
+session94685,timeout5400s; final-review-capture.json/final-review-metrics.json.
+Scope: missing bird cell plus minimal business-context hydration trim.
+No new thread or immutable kernel change requested.
+This lane only reads and writes external audit artifacts; no app messages,
+production edits, registrations or image generation.

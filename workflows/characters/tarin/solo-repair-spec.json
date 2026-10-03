@@ -1,0 +1,41 @@
+{
+  "entityId": "tarin",
+  "stage": "solo",
+  "prompt": "Edit the supplied complete Tarin double-sheet, preserving the successful HUMAN LEFT form, warm dimensional style, all grid labels, page margins and dimensions. This is ONE elderly wizard in two ALTERNATIVE forms. Repair only these material defects, then inspect all opposed directions. RIGHT HALF HEDGEHOG: change every hedgehog to the SAME elderly adult identity, visibly salt-and-pepper gray-brown quills, cream muzzle/chest, prominent soft WHITE eyebrows echoing human wizard, mature adult proportions and gently weathered expression; no human beard, robe, staff or clothes. Retain rounded hedgehog muzzle/ears and two paws/two feet. All face and body rows remain six cells: FRONT centered; LEFT THREE-QUARTER nose points SCREEN LEFT with both eyes visible; LEFT PROFILE nose points SCREEN LEFT true side; RIGHT THREE-QUARTER nose points SCREEN RIGHT with both eyes visible; RIGHT PROFILE nose points SCREEN RIGHT true side; REAR face invisible. Specifically fix RIGHT HALF FACE cell5 Right Profile (currently faces left), RIGHT HALF BODY cell2 Left 3/4 (currently faces right), RIGHT HALF BODY cell5 Right Profile (currently faces left). Other correct directions must stay unchanged. Expressions naturally varied, elderly hedgehog normal gestures supported. Footer: remove its reversed transformation sequence and REPLACE with precisely THREE separated portraits and TWO arrows, left to right: elderly HEDGEHOG \u2192 elderly HUMAN \u2192 elderly HEDGEHOG. Label FIRST ARROW 'Enchanted coffee'; label SECOND ARROW 'Sunset'. Label footer 'ALTERNATIVE FORMS OF ONE WIZARD'. Original story coffee returns Tarin to HUMAN and sunset returns him to HEDGEHOG. Do not show coffee as making hedgehog or sunset as making human. Keep the human source-established white hair/beard/gold robe unchanged. No fourth portrait, no extra magical equipment. Complete readable page.\n",
+  "promptFile": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/workflows/characters/tarin/solo-repair-prompt.txt",
+  "outputName": "tarin-solo-repaired.png",
+  "references": [
+    {
+      "assetId": "asset-6a131765af41fc1e2c984d00",
+      "sha256": "6a131765af41fc1e2c984d0012e199d4239120290de64146a4606143e4c9bed8",
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/generated/6a131765af41fc1e-tarin-solo.png",
+      "role": "PRIMARY-edit-target"
+    },
+    {
+      "assetId": "asset-5d505b375eed339baa7f7650",
+      "sha256": "5d505b375eed339baa7f765028f4c61224a685dfcc4c01ee53c5f35fdb303700",
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/assets/5d505b375eed339baa7f765028f4c61224a685dfcc4c01ee53c5f35fdb303700.png",
+      "role": "layout-direction-only"
+    }
+  ],
+  "omittedReferences": [
+    {
+      "assetId": "asset-cdeee8375b17db34dfd4c717",
+      "sha256": "cdeee8375b17db34dfd4c7172201a8f49069e2b57a72e28a76f5e74463404511",
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/assets/cdeee8375b17db34dfd4c7172201a8f49069e2b57a72e28a76f5e74463404511.png",
+      "role": "subject-source:identity-human-form"
+    },
+    {
+      "assetId": "asset-142c73e7c61651a59e322f0c",
+      "sha256": "142c73e7c61651a59e322f0cc2d81b0443a96cbe560accf3840e82445f7a2359",
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/assets/142c73e7c61651a59e322f0cc2d81b0443a96cbe560accf3840e82445f7a2359.png",
+      "role": "subject-source:identity-human-form"
+    },
+    {
+      "assetId": "asset-88d74c56a468e3f250b12dbc",
+      "sha256": "88d74c56a468e3f250b12dbcb5ecdb7b07bd1d789197663d8948ac199acd133d",
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/assets/88d74c56a468e3f250b12dbcb5ecdb7b07bd1d789197663d8948ac199acd133d.webp",
+      "role": "book-style"
+    }
+  ]
+}

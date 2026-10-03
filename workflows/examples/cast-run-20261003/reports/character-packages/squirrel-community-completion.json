@@ -1,0 +1,46 @@
+{
+  "entityId": "squirrel-community",
+  "stages": {
+    "solo": {
+      "assetId": "asset-bfab0ba001b2c59549c1f99e",
+      "sha256": "bfab0ba001b2c59549c1f99e6e24775d9d8c8400adb57302bcbd941c8bb006d7",
+      "nativePath": "/Users/miguel_lemos/.codex/generated_images/01a0ff85-92dc-7c40-9adb-ef240551a423/exec-2f37d767-8266-4697-8a60-ba50f0b990f3.png",
+      "generatedPath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/generated/bfab0ba001b2c595-squirrel-community-solo.png",
+      "receiptKind": null
+    },
+    "interactions": {
+      "assetId": "asset-c7aabf49510719900e41e7fb",
+      "sha256": "c7aabf49510719900e41e7fb740c7d7f7b5ea394bc9134ff25f69f1e86313eeb",
+      "nativePath": "/Users/miguel_lemos/.codex/generated_images/01a0ff85-92dc-7c40-9adb-ef240551a423/exec-dcd51a43-7a46-4441-ae86-191bf53968e9.png",
+      "generatedPath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/generated/c7aabf4951071990-squirrel-community-interactions.png",
+      "receiptKind": null
+    }
+  },
+  "dossierPath": "workflows/characters/squirrel-community/README.md",
+  "next": "migrating-bird-family",
+  "remaining": [
+    "migrating-bird-family",
+    "tarin"
+  ],
+  "workflowCard": {
+    "type": "WorkflowCard",
+    "title": "squirrel-community — complete draft package",
+    "assetIds": [
+      "asset-bfab0ba001b2c59549c1f99e",
+      "asset-c7aabf49510719900e41e7fb"
+    ],
+    "actions": []
+  },
+  "metrics": {
+    "imageCalls": 2,
+    "measuredImageCalls": 2,
+    "recoveredRendersWithoutMeasuredBounds": 0,
+    "repairCalls": 0,
+    "summedImageCallWindowSeconds": 181.0,
+    "registrationSeconds": 0.15756,
+    "firstPassBodyDirectionErrors": [],
+    "endToEndSeconds": null,
+    "monetaryCost": null
+  },
+  "generationPath": "reports/character-packages/squirrel-community-generation.json"
+}

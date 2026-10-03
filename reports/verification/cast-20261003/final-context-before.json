@@ -1,0 +1,155 @@
+{
+  "at": "2026-10-03T13:50:38.231762+00:00",
+  "business": {
+    "active": "d3512c2c4940dfc69c7701dd31c7fe69e8bac429792cf92cb5f9a8af63089534",
+    "previous": "dd9078c7ebae1b51748de103ce80e02bdf0ac6e5c6d6b8bccdf064b40a5e44b1",
+    "status": "ready",
+    "error": null
+  },
+  "revision": 872,
+  "rows": [
+    {
+      "case": "explicit",
+      "bytes": 72243,
+      "ms": 63.155,
+      "scope": {
+        "chapterId": null,
+        "sceneIds": [],
+        "entityId": "migrating-bird-family",
+        "assetIds": [
+          "asset-2ad1b7e0271532c30b082a9a",
+          "asset-3da638615ab0e52d60c8ea61",
+          "asset-5d505b375eed339baa7f7650",
+          "asset-88d74c56a468e3f250b12dbc"
+        ],
+        "projectRevision": 872,
+        "reviewSnapshot": false,
+        "review": null
+      },
+      "sections": {
+        "reviewSnapshot": 5,
+        "review": 4,
+        "planApproval": 4,
+        "planApproved": 5,
+        "projectRevision": 3,
+        "projectId": 8,
+        "book": 11200,
+        "chapter": 4,
+        "scenes": 2,
+        "entities": 1071,
+        "preproduction": 4,
+        "chapterIndex": 2186,
+        "references": 8731,
+        "additionalReferenceIds": 2,
+        "characterContext": 7443,
+        "castWorkflow": 41201
+      },
+      "guideHash": "28bb7ea2a242edf1d6cbb6a7e3ddb7fd6c5c3067c655787a340dcd5263d7147c",
+      "references": [
+        {
+          "id": "asset-2ad1b7e0271532c30b082a9a",
+          "roles": [
+            "primary-working-identity:verified-solo"
+          ],
+          "pathExists": true
+        },
+        {
+          "id": "asset-3da638615ab0e52d60c8ea61",
+          "roles": [
+            "selected-character",
+            "subject-source:original-visual-context"
+          ],
+          "pathExists": true
+        },
+        {
+          "id": "asset-5d505b375eed339baa7f7650",
+          "roles": [
+            "layout-direction-only:no-species-transfer"
+          ],
+          "pathExists": true
+        },
+        {
+          "id": "asset-88d74c56a468e3f250b12dbc",
+          "roles": [
+            "cast:pinpin",
+            "book-style"
+          ],
+          "pathExists": true
+        }
+      ],
+      "workflowKeys": [
+        "manifestPath",
+        "nextEntityId",
+        "remaining",
+        "selected",
+        "characters",
+        "notetaker",
+        "authority",
+        "guide",
+        "dossier",
+        "packageReceipts",
+        "budgetNote"
+      ]
+    },
+    {
+      "case": "resume",
+      "bytes": 55097,
+      "ms": 115.058,
+      "scope": {
+        "chapterId": null,
+        "sceneIds": [],
+        "entityId": null,
+        "assetIds": [],
+        "projectRevision": 872,
+        "reviewSnapshot": false,
+        "review": null
+      },
+      "sections": {
+        "reviewSnapshot": 5,
+        "review": 4,
+        "planApproval": 4,
+        "planApproved": 5,
+        "projectRevision": 3,
+        "projectId": 8,
+        "book": 11200,
+        "chapter": 4,
+        "scenes": 2,
+        "entities": 2,
+        "preproduction": 4,
+        "chapterIndex": 2186,
+        "references": 635,
+        "additionalReferenceIds": 2,
+        "castWorkflow": 40698
+      },
+      "guideHash": "28bb7ea2a242edf1d6cbb6a7e3ddb7fd6c5c3067c655787a340dcd5263d7147c",
+      "references": [],
+      "workflowKeys": [
+        "manifestPath",
+        "nextEntityId",
+        "remaining",
+        "selected",
+        "characters",
+        "notetaker",
+        "authority",
+        "guide",
+        "runContract",
+        "dossier",
+        "packageReceipts"
+      ]
+    }
+  ],
+  "sourceHashes": {
+    "character_context.py": "ee5d020cc5667214cbc7460bcc336804ec9b3d267e671097868aff2cc8cac198",
+    "cast_workflow.py": "1b07e5f35db156235147775d2964bb1b4130d931d80ebabbe351f2950e9952cb",
+    "__init__.py": "9a542f8b4e9cd84c7b2b740375eb3e7a8077d5c84d318c50659925df9ac4b799",
+    "creative_policy.py": "460da08659a51fde2e48c5e4477a1e3a80f7f7790fd4ff6e232085f7ef37e5b5",
+    "jobs.py": "fd012e3f84e1b4c3ea30716c1355bf29dea459acbe1de674bfc8eab6248fd7a1",
+    "context.py": "c7bd80af29f839e20c6fd3a4d9c91ec61a1fad2785f5c238115c57f5e99eac50",
+    "conversation_plan.py": "b6461491e0e5fda5e15cb8f990215335421810dda5189676c47437ff599ff13f",
+    "cast_inventory.py": "6a09ed3a6bc6896acce8308df7e24e607ae0e325689608acc5a7842fb185b2c7",
+    "insights.py": "85d93b424d0e99bf2c388d3398d871bdd01bb5c96e679ee00ceb285cbe585ccd",
+    "boards.py": "bac288faa56e74dcaf6314a2be5f1f475a0c58d856a5d4ac55fa47b49b923726",
+    "media_library.py": "8a982fb92382ba1195510031101933152eb0d8e8b3149bbfa34f795ccb649c16",
+    "routes.py": "d8885fa343e8f244722708361c60da2b295feb135c76ff05169dc6e9e68a87fe"
+  }
+}

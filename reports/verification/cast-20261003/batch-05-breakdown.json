@@ -1,0 +1,217 @@
+{
+  "messageId": "message-de52296b00d645a08f61",
+  "eventCoverage": "complete",
+  "totalSeconds": 2424.07598,
+  "imageActivityUnionSeconds": 786.484117,
+  "compactionSeconds": 279.224819,
+  "otherExcludingCompactionSeconds": 1358.367044,
+  "setupToFirstImageSeconds": 514.429015,
+  "setupExcludingCompactionSeconds": 235.204196,
+  "lastImageAt": "2026-10-03T13:08:59.513546+00:00",
+  "lastImageToCompletionSeconds": 266.245737,
+  "closingPublicCommandCount": 6,
+  "recordedRenderedOutputs": 11,
+  "recordedOutputsWithBounds": 10,
+  "recoveredOutputsWithoutBounds": 1,
+  "knownInputRejections": 1,
+  "unknownConcurrentOutcomes": 2,
+  "visualRepairCalls": 2,
+  "finalPages": 8,
+  "registrationReceiptSeconds": 0.863078,
+  "checkpointSeconds": 0.066562583000632,
+  "appMeasuredWindowUnionSeconds": 727.0,
+  "appSummedWindowsSeconds": 2149.0,
+  "inputAttempt": {
+    "error": "referenced_image_paths must contain at most 5 paths",
+    "affectedCall": "oreshek interactions",
+    "renderedOutputsFromRejectedOrchestration": "unknown; no success or measured generation claimed",
+    "correction": "Oreshek drops original contextual group from interaction call; primary verified solo and all counterparts plus family scale/style retained",
+    "recoveredNativeAsset": {
+      "assetId": "asset-792e614da42a69c1ca416e38",
+      "sha256": "792e614da42a69c1ca416e38a341b93c3077f924a19c9b0df1d1776aa806c2c4",
+      "generationBounds": null
+    },
+    "outcomes": "One rejected Oreshek input; one cousin native render recovered; other two concurrently issued outcomes unknown. Subsequent successful calls are separately recorded."
+  },
+  "compactionEvents": [
+    {
+      "seq": 10286,
+      "type": "activity",
+      "createdAt": "2026-10-03T12:33:27.935576+00:00",
+      "kind": "contextCompaction",
+      "status": "running"
+    },
+    {
+      "seq": 10288,
+      "type": "activity",
+      "createdAt": "2026-10-03T12:38:07.160395+00:00",
+      "kind": "contextCompaction",
+      "status": "completed"
+    }
+  ],
+  "closingEvents": [
+    {
+      "seq": 11350,
+      "type": "activity",
+      "createdAt": "2026-10-03T13:08:59.513546+00:00",
+      "kind": "imageGeneration",
+      "status": "completed"
+    },
+    {
+      "seq": 11351,
+      "type": "activity",
+      "createdAt": "2026-10-03T13:09:35.541477+00:00",
+      "kind": "fileChange",
+      "status": "running"
+    },
+    {
+      "seq": 11352,
+      "type": "activity",
+      "createdAt": "2026-10-03T13:09:35.590536+00:00",
+      "kind": "fileChange",
+      "status": "completed"
+    },
+    {
+      "seq": 11353,
+      "type": "activity",
+      "createdAt": "2026-10-03T13:09:35.720023+00:00",
+      "kind": "commandExecution",
+      "status": "running"
+    },
+    {
+      "seq": 11354,
+      "type": "activity",
+      "createdAt": "2026-10-03T13:09:35.722470+00:00",
+      "kind": "commandExecution",
+      "status": "completed"
+    },
+    {
+      "seq": 11355,
+      "type": "activity",
+      "createdAt": "2026-10-03T13:09:35.894208+00:00",
+      "kind": "commandExecution",
+      "status": "running"
+    },
+    {
+      "seq": 11356,
+      "type": "activity",
+      "createdAt": "2026-10-03T13:09:35.896190+00:00",
+      "kind": "commandExecution",
+      "status": "completed"
+    },
+    {
+      "seq": 11359,
+      "type": "activity",
+      "createdAt": "2026-10-03T13:11:18.755135+00:00",
+      "kind": "imageView",
+      "status": "running"
+    },
+    {
+      "seq": 11360,
+      "type": "activity",
+      "createdAt": "2026-10-03T13:11:18.759952+00:00",
+      "kind": "imageView",
+      "status": "completed"
+    },
+    {
+      "seq": 11362,
+      "type": "activity",
+      "createdAt": "2026-10-03T13:11:54.575012+00:00",
+      "kind": "fileChange",
+      "status": "running"
+    },
+    {
+      "seq": 11363,
+      "type": "activity",
+      "createdAt": "2026-10-03T13:11:54.615248+00:00",
+      "kind": "fileChange",
+      "status": "completed"
+    },
+    {
+      "seq": 11364,
+      "type": "activity",
+      "createdAt": "2026-10-03T13:11:54.771800+00:00",
+      "kind": "commandExecution",
+      "status": "running"
+    },
+    {
+      "seq": 11365,
+      "type": "activity",
+      "createdAt": "2026-10-03T13:11:54.921476+00:00",
+      "kind": "commandExecution",
+      "status": "completed"
+    },
+    {
+      "seq": 11366,
+      "type": "activity",
+      "createdAt": "2026-10-03T13:11:55.077490+00:00",
+      "kind": "commandExecution",
+      "status": "running"
+    },
+    {
+      "seq": 11367,
+      "type": "activity",
+      "createdAt": "2026-10-03T13:11:55.092327+00:00",
+      "kind": "commandExecution",
+      "status": "completed"
+    },
+    {
+      "seq": 11369,
+      "type": "delta",
+      "createdAt": "2026-10-03T13:12:07.972521+00:00",
+      "messageId": "msg_0c7e807191abf74f016ac0ff2816fc87d2bb7a3c6c050f8a03"
+    },
+    {
+      "seq": 11462,
+      "type": "message",
+      "createdAt": "2026-10-03T13:12:11.345506+00:00",
+      "messageId": "msg_0c7e807191abf74f016ac0ff2816fc87d2bb7a3c6c050f8a03"
+    },
+    {
+      "seq": 11463,
+      "type": "activity",
+      "createdAt": "2026-10-03T13:12:17.938912+00:00",
+      "kind": "commandExecution",
+      "status": "running"
+    },
+    {
+      "seq": 11464,
+      "type": "activity",
+      "createdAt": "2026-10-03T13:12:17.982829+00:00",
+      "kind": "commandExecution",
+      "status": "completed"
+    },
+    {
+      "seq": 11465,
+      "type": "activity",
+      "createdAt": "2026-10-03T13:12:18.138972+00:00",
+      "kind": "commandExecution",
+      "status": "running"
+    },
+    {
+      "seq": 11466,
+      "type": "activity",
+      "createdAt": "2026-10-03T13:12:18.187407+00:00",
+      "kind": "commandExecution",
+      "status": "completed"
+    },
+    {
+      "seq": 11468,
+      "type": "delta",
+      "createdAt": "2026-10-03T13:13:09.515223+00:00",
+      "messageId": "msg_0c7e807191abf74f016ac0ff65945087d29c2fb3b535e41c55"
+    },
+    {
+      "seq": 11861,
+      "type": "message",
+      "createdAt": "2026-10-03T13:13:25.691716+00:00",
+      "messageId": "msg_0c7e807191abf74f016ac0ff65945087d29c2fb3b535e41c55"
+    },
+    {
+      "seq": 11863,
+      "type": "status",
+      "createdAt": "2026-10-03T13:13:25.759283+00:00",
+      "status": "completed"
+    }
+  ]
+}

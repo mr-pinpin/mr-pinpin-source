@@ -1,0 +1,34 @@
+{
+  "entityId": "tarin",
+  "stage": "solo",
+  "prompt": "Use case: illustration-story. Production reference titled \"Tarin — two forms, one wizard\" with subtitle \"Proposed book adaptation\", warm dimensional PinPin book style on ivory. LARGE LANDSCAPE DOUBLE-SHEET: human form LEFT, hedgehog form RIGHT, each half FOUR rows of SIX studies, 48 studies total. Each half has FACE VIEWS, EXPRESSIONS, WHOLE BODY VIEWS, NORMAL POSES. Separate form headings, large readable cells, full margin around robe/feet/quills. A small footer diagram HUMAN → HEDGEHOG → HUMAN labels these ALTERNATIVE FORMS OF ONE WIZARD, not two people. Do not put both forms together as separate characters in gestures. Subject/source requirements: Tarin is a HUMAN WIZARD who deliberately took hedgehog form, returns to tall human form after enchanted coffee, then becomes hedgehog again at sunset (original chapter13 blocks6–10,12). HUMAN: old-looking male wizard, white wavy shoulder-length hair, long white beard and bushy brows, rounded pink nose, small round spectacles, rich gold robe with subtle embroidered trim and brown shoes, actual original image77 identity. HEDGEHOG: proposed elderly salt-and-pepper/gray-brown quills, cream face/chest, white eyebrows and warm brown eyes echoing human form, rounded ears/muzzle, natural two paws/two feet, no human beard or robe. Both depictions are ONE person in alternative forms, never two independent cast members. Source distinction: Human/hedgehog transformation is explicit source text. Actual original images77/71 show human wizard in gold robe with white beard/hair; glasses appear in77, not71. These control proposed dimensional human adaptation. No verified Tarin hedgehog portrait: hedgehog pictured beside wizard is a companion, not assumed Tarin. Tarin’s relationship to published hedgehog Elder is unresolved; keep this distinct requirement, do not copy or silently alias published Elder. Actual inputs ordered: 1: subject-source:identity-human-form, 2: subject-source:identity-human-form, 3: layout-direction-only, 4: book-style. Layout sheet controls grid/opposed directions ONLY; never copy its species/clothing/anatomy. Row1 FACE VIEWS for each subject/form explicitly: Front: nose/beak centered toward viewer. Left 3/4: nose/beak SCREEN LEFT, both eyes visible if anatomy permits, torso LEFT. Left profile: true side, nose/beak SCREEN LEFT, torso LEFT. Right 3/4: nose/beak SCREEN RIGHT, both eyes visible if anatomy permits, torso RIGHT. Right profile: true side, nose/beak SCREEN RIGHT, torso RIGHT. Rear: back, face invisible. Row2 EXPRESSIONS: Calm, Curious, Happy, Surprised, Thoughtful, Mild upset, naturally varied. Row3 FULL BODY VIEWS explicitly: Front: nose/beak centered toward viewer. Left 3/4: nose/beak SCREEN LEFT, both eyes visible if anatomy permits, torso LEFT. Left profile: true side, nose/beak SCREEN LEFT, torso LEFT. Right 3/4: nose/beak SCREEN RIGHT, both eyes visible if anatomy permits, torso RIGHT. Right profile: true side, nose/beak SCREEN RIGHT, torso RIGHT. Rear: back, face invisible. Row4 NORMAL POSES: Sit, Reach, Greet, Carry cup or small nut, Share, Rest. Birds instead Perch, Hop, Sing, Spread wings, Fly gently, Rest. No human hands/arms on birds. Distinct two arms/two legs on human and hedgehog/squirrel, two wings/two feet on birds, clear supported feet/perches. Human full beard/robe hem/shoes visible; hedgehog whole quills/feet visible. Generous margins, no fused limbs, no clipped tails. Concise labels only, no invented ages/heights/names. One real unified image.",
+  "promptFile": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/workflows/characters/tarin/solo-prompt.txt",
+  "outputName": "tarin-solo.png",
+  "references": [
+    {
+      "assetId": "asset-cdeee8375b17db34dfd4c717",
+      "sha256": "cdeee8375b17db34dfd4c7172201a8f49069e2b57a72e28a76f5e74463404511",
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/assets/cdeee8375b17db34dfd4c7172201a8f49069e2b57a72e28a76f5e74463404511.png",
+      "role": "subject-source:identity-human-form"
+    },
+    {
+      "assetId": "asset-142c73e7c61651a59e322f0c",
+      "sha256": "142c73e7c61651a59e322f0cc2d81b0443a96cbe560accf3840e82445f7a2359",
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/assets/142c73e7c61651a59e322f0cc2d81b0443a96cbe560accf3840e82445f7a2359.png",
+      "role": "subject-source:identity-human-form"
+    },
+    {
+      "assetId": "asset-5d505b375eed339baa7f7650",
+      "sha256": "5d505b375eed339baa7f765028f4c61224a685dfcc4c01ee53c5f35fdb303700",
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/assets/5d505b375eed339baa7f765028f4c61224a685dfcc4c01ee53c5f35fdb303700.png",
+      "role": "layout-direction-only"
+    },
+    {
+      "assetId": "asset-88d74c56a468e3f250b12dbc",
+      "sha256": "88d74c56a468e3f250b12dbcb5ecdb7b07bd1d789197663d8948ac199acd133d",
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/assets/88d74c56a468e3f250b12dbcb5ecdb7b07bd1d789197663d8948ac199acd133d.webp",
+      "role": "book-style"
+    }
+  ],
+  "omittedReferences": []
+}

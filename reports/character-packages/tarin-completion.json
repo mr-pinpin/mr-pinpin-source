@@ -1,0 +1,46 @@
+{
+  "entityId": "tarin",
+  "stages": {
+    "solo": {
+      "assetId": "asset-53a1259d91e1c489a9796f62",
+      "sha256": "53a1259d91e1c489a9796f62b38c048615567c4f980442707ff0d42825802d86",
+      "nativePath": "/Users/miguel_lemos/.codex/generated_images/01a0ff85-92dc-7c40-9adb-ef240551a423/exec-c2f7da6c-7e82-4be1-8468-6cb66a77efde.png",
+      "generatedPath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/generated/53a1259d91e1c489-tarin-solo-directions.png",
+      "receiptKind": null
+    },
+    "interactions": {
+      "assetId": "asset-f9965f1ec6a470c0f6b7cac8",
+      "sha256": "f9965f1ec6a470c0f6b7cac87c36f66a7e8104e7093bec86d9448f796d98afee",
+      "nativePath": "/Users/miguel_lemos/.codex/generated_images/01a0ff85-92dc-7c40-9adb-ef240551a423/exec-66b28c3c-e929-46e9-982b-45fb4cd7678b.png",
+      "generatedPath": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/generated/f9965f1ec6a470c0-tarin-interactions.png",
+      "receiptKind": null
+    }
+  },
+  "dossierPath": "workflows/characters/tarin/README.md",
+  "next": null,
+  "remaining": [],
+  "workflowCard": {
+    "type": "WorkflowCard",
+    "title": "tarin — complete draft package",
+    "assetIds": [
+      "asset-53a1259d91e1c489a9796f62",
+      "asset-f9965f1ec6a470c0f6b7cac8"
+    ],
+    "actions": []
+  },
+  "metrics": {
+    "imageCalls": 4,
+    "measuredImageCalls": 4,
+    "recoveredRendersWithoutMeasuredBounds": 0,
+    "repairCalls": 2,
+    "summedImageCallWindowSeconds": 382.0,
+    "registrationSeconds": 0.340223,
+    "firstPassBodyDirectionErrors": [
+      "Hedgehog body Left 3/4 faces RIGHT",
+      "Hedgehog body Right Profile faces LEFT"
+    ],
+    "endToEndSeconds": null,
+    "monetaryCost": null
+  },
+  "generationPath": "reports/character-packages/tarin-generation.json"
+}

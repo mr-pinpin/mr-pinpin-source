@@ -1,0 +1,47 @@
+{
+  "entityId": "migrating-bird-family",
+  "stage": "interactions",
+  "prompt": "Edit this complete Migrating-Bird-Family interaction page with minimal local framing corrections. Preserve all SIX panels, identities, feather colors, story actions, text, warm book style and successful panels1/5/6. Two active rose/cream representative BIRDS (larger and smaller) and distinct OLDER Pipilini rose long-tailed BIRD remain consistent; PinPin CHILD HEDGEHOG remains copper-quilled. Fix panel2 top-right: zoom out/reframe its contents inside SAME panel to show PinPin entire grounded body and both feet, and ALL THREE BIRDS' entire bodies, supported two feet each and full long tails inside borders with visible blank margin. Don't crop Pipilini tail downward or PinPin legs. Fix panel3 middle-left: slightly zoom out/recenter the two feeding BIRDS and PinPin so both birds' complete long tails and feet fit comfortably INSIDE borders; retain seeds in cupped hedgehog paw and larger bird bill taking seed. Fix panel4 middle-right: zoom out/reposition the gentle wing-contact scene to show ALL THREE BIRDS' entire long tails and six supported feet on branch inside borders, especially elder Pipilini tail currently cut at bottom; keep anatomical single folded feather wing of active bird touching elder shoulder, no fused torsos, no human hands. No new birds or substituted species. These are TWO proposed active family representatives plus separate older Pipilini, not a claimed canonical flock count or parent/chick relation. Preserve distinct faces, natural size relationships and previous successful panels. Complete whole-page output with margins.\n",
+  "promptFile": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/workflows/characters/migrating-bird-family/interactions-repair-prompt.txt",
+  "outputName": "migrating-bird-family-interactions-repaired.png",
+  "references": [
+    {
+      "assetId": "asset-cf543d68ca63977670f9fcb9",
+      "sha256": "cf543d68ca63977670f9fcb9224cfaf42c429efc17b1ac5f103072baa3fced95",
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/generated/cf543d68ca639776-migrating-bird-family-interactions.png",
+      "role": "PRIMARY-edit-target"
+    },
+    {
+      "assetId": "asset-2ad1b7e0271532c30b082a9a",
+      "sha256": "2ad1b7e0271532c30b082a9aa74baa792025974b342b668caf4507d7a66139b8",
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/assets/2ad1b7e0271532c30b082a9aa74baa792025974b342b668caf4507d7a66139b8.png",
+      "role": "PRIMARY-working-identity:verified-solo"
+    },
+    {
+      "assetId": "asset-713cae3785e80f243216dcdc",
+      "sha256": "713cae3785e80f243216dcdc74955eaa37501071661eb403d433f7edcae7c9b6",
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/assets/713cae3785e80f243216dcdc74955eaa37501071661eb403d433f7edcae7c9b6.png",
+      "role": "counterpart-identity:pipilini"
+    },
+    {
+      "assetId": "asset-5d505b375eed339baa7f7650",
+      "sha256": "5d505b375eed339baa7f765028f4c61224a685dfcc4c01ee53c5f35fdb303700",
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/assets/5d505b375eed339baa7f765028f4c61224a685dfcc4c01ee53c5f35fdb303700.png",
+      "role": "counterpart-identity:pinpin"
+    }
+  ],
+  "omittedReferences": [
+    {
+      "assetId": "asset-88d74c56a468e3f250b12dbc",
+      "sha256": "88d74c56a468e3f250b12dbcb5ecdb7b07bd1d789197663d8948ac199acd133d",
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/assets/88d74c56a468e3f250b12dbcb5ecdb7b07bd1d789197663d8948ac199acd133d.webp",
+      "role": "book-style:family-relative-scale"
+    },
+    {
+      "assetId": "asset-3da638615ab0e52d60c8ea61",
+      "sha256": "3da638615ab0e52d60c8ea6130b0a1b103845a4e6f7b40de9a9bff6dbcf534ea",
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/assets/3da638615ab0e52d60c8ea6130b0a1b103845a4e6f7b40de9a9bff6dbcf534ea.png",
+      "role": "source-bibliography-context"
+    }
+  ]
+}
