@@ -5,7 +5,7 @@ from uuid import uuid4
 
 LANGUAGES = ("en", "ru", "es")
 JOB_KINDS = ("illustration", "edit", "cubemap", "story-plan", "character-study",
-             "location-study", "title-cover", "miniature", "coloring")
+             "location-study", "title-cover", "miniature", "coloring", "orbit-video")
 ENTITY_KINDS = ("character", "location", "prop", "style", "panorama")
 ID_RE = re.compile(r"^[A-Za-z0-9][A-Za-z0-9._-]{0,127}$")
 

@@ -24,6 +24,18 @@ different workflows; do not claim measured consistency from an illustration alon
 """
 
 
+
+ORBIT = """Orbit video handoff: prepare a conventional source still with explicit subject and place
+references. Reuse the documented tractor-orbit workflow. Request one coherent camera path around
+a stationary subject; do not treat a rectangular video as a spherical panorama or measured 3D.
+Record exact prompt, input hashes, model, settings, actual duration and output hash. Inspect the
+full circuit, silhouette/detail stability and endpoint join. Keep the original output and a
+separate seek-friendly derivative. This queue does not execute a paid video call or auto-retry.
+Return a text artifact with the immutable output manifest and review evidence; video ingestion
+requires a reviewed media registration before the browser can serve it.
+"""
+
+
 def _entity_role(kind):
     return {"character": "character-identity", "location": "location-identity",
             "prop": "prop-geometry", "style": "book-style",
@@ -49,6 +61,9 @@ def create_job(store, request):
 
     def create(state):
         project = state["project"]
+        retry_of = request.get("retryOf")
+        if retry_of is not None:
+            find(state["jobs"], retry_of, "retry parent job")
         scenes, entities = [], []
         chapter_id = request.get("chapterId")
         scene_ids = list(dict.fromkeys(request.get("sceneIds", [])))
@@ -121,7 +136,7 @@ def create_job(store, request):
             snapshot["causalContext"] = [
                 {key: scene.get(key) for key in ("id", "title", "captions", "action", "stateBefore", "stateAfter")}
                 for scene in chapter["scenes"] if scene["id"] in context_ids - set(scene_ids)]
-        prompt = HEADER + (PANORAMA if request["kind"] == "cubemap" else "")
+        prompt = HEADER + (PANORAMA if request["kind"] == "cubemap" else ORBIT if request["kind"] == "orbit-video" else "")
         prompt += "\nRequested work:\n" + instruction + "\n\nBound snapshot:\n"
         prompt += json.dumps(snapshot, ensure_ascii=False, indent=2)
         prompt_path = store.root / "jobs" / identifier / "handoff-prompt.txt"
@@ -132,6 +147,8 @@ def create_job(store, request):
                "promptPath": str(prompt_path), "referenceBindings": list(bindings.values()),
                "snapshot": snapshot, "projectRevision": state["revision"], "artifacts": [],
                "feedback": [], "createdAt": now(), "updatedAt": now()}
+        if retry_of is not None:
+            job["retryOf"] = retry_of
         state["jobs"].append(job)
         store.event(state, "job.queued", jobId=identifier)
         return job

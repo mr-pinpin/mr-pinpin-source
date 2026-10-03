@@ -1,0 +1,62 @@
+{
+  "version": 1,
+  "get": "GET /api/conversation?after=0",
+  "send": "POST /api/conversation/messages",
+  "interrupt": "POST /api/conversation/interrupt",
+  "request": {
+    "text": "string required (max 32000)",
+    "chapterId": "optional existing chapter ID",
+    "sceneIds": [
+      "optional IDs within chapter"
+    ],
+    "entityId": "optional entity ID",
+    "assetIds": [
+      "optional registered image IDs (max 12)"
+    ]
+  },
+  "response": {
+    "conversation": {
+      "id": "studio",
+      "threadId": null,
+      "status": "idle|connecting|running|interrupting|interrupted|completed|error",
+      "messages": [
+        {
+          "id": "stable",
+          "role": "user|assistant",
+          "text": "accumulated text",
+          "status": "sent|streaming|completed|interrupted|error",
+          "createdAt": "ISO",
+          "turnId": null,
+          "context": {
+            "chapterId": null,
+            "sceneIds": [],
+            "entityId": null,
+            "assetIds": []
+          }
+        }
+      ],
+      "activeTurnId": null,
+      "error": null,
+      "model": null,
+      "usage": null,
+      "plan": []
+    },
+    "events": [
+      {
+        "seq": 1,
+        "type": "message|delta|status|usage|plan|activity",
+        "createdAt": "ISO",
+        "messageId": "optional",
+        "delta": "optional"
+      }
+    ],
+    "cursor": 1
+  },
+  "notes": [
+    "All endpoints return same snapshot envelope. POST send returns 202 immediately; poll ~1s.",
+    "Full accumulated messages always returned; after only filters event list. Replace snapshot each poll, never append duplicated text.",
+    "error is null or {code,message}. Usage null until reported by Codex; then upstream total/last/modelContextWindow. No fabricated cost.",
+    "One active turn; sending while active returns 409 conversation_busy. Interrupted/failed history persists. No raw tools/credentials echoed.",
+    "Images sent as registered localImage inputs. Actual local Codex login reused; unavailable login appears as error. Plan-first instructions then user-authorized draft execution."
+  ]
+}

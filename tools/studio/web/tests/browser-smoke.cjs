@@ -18,7 +18,7 @@ async function save(p){await p.locator('#save-project').click();await p.waitForF
 (async()=>{try{
  for(let i=0;i<100;i++){try{await state();break}catch{await new Promise(r=>setTimeout(r,100))}}
  browser=await chromium.launch({channel:'chrome',headless:true});const p=await browser.newPage({viewport:{width:1440,height:1000}});p.on('pageerror',e=>proof.pageErrors.push(e.message));
- await p.goto(url);await p.getByRole('heading',{name:'Every good story starts somewhere.'}).waitFor();
+ await p.goto(url+'/legacy.html');await p.getByRole('heading',{name:'Every good story starts somewhere.'}).waitFor();
  await p.locator('[data-action="new-chapter"]').first().click();await p.locator('#new-chapter-form [name=title]').fill('A morning of surprises');await p.locator('#new-chapter-form [name=synopsis]').fill('A child fetches water, plays with a friend, and discovers a new idea.');await p.locator('#new-chapter-form button').click();
  await p.getByLabel('Chapter script',{exact:true}).fill('The family has breakfast. PinPin brings one bucket, then plays with Rabbit.');
  for(const name of ['Fetch the water','Play with leaves']){await p.locator('[data-action="new-scene"]').click();await p.getByLabel('Beat title',{exact:true}).fill(name);await p.getByLabel('Read-aloud text · RU').fill(name==='Fetch the water'?'Пин-Пин взял одно ведёрко.':'Кораблик поплыл!');await p.getByLabel('What are they actually doing?').fill(name==='Fetch the water'?'PinPin lifts one empty bucket.':'Rabbit releases a leaf into the water.');}

@@ -5,11 +5,12 @@ import json
 import mimetypes
 from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
 from pathlib import Path
-from urllib.parse import unquote, urlsplit
+from urllib.parse import unquote, urlsplit, parse_qs
 from model import StudioError, valid_id, find
 from store import Store, MAX_UPLOAD
 from jobs import create_job, review_job, inbox
 from boards import create_storyboard, review_storyboard
+from conversation import Conversation
 
 
 class StudioServer(ThreadingHTTPServer):
@@ -17,8 +18,13 @@ class StudioServer(ThreadingHTTPServer):
 
     def __init__(self, address, store, web_root=None):
         self.store = store
+        self.conversation = Conversation(store)
         self.web_root = Path(web_root or Path(__file__).parent / "web").resolve()
         super().__init__(address, Handler)
+
+    def server_close(self):
+        self.conversation.close()
+        super().server_close()
 
 
 class Handler(BaseHTTPRequestHandler):
@@ -56,6 +62,7 @@ class Handler(BaseHTTPRequestHandler):
             return
         self.send_response(200)
         self.send_header("Content-Type", mime)
+        self.send_header("Accept-Ranges", "bytes")
         self.send_header("Content-Length", str(path.stat().st_size))
         self.send_header("X-Content-Type-Options", "nosniff")
         self.send_header("Cache-Control", "private, max-age=31536000, immutable" if etag else "no-cache")
@@ -66,6 +73,45 @@ class Handler(BaseHTTPRequestHandler):
             with path.open("rb") as stream:
                 while chunk := stream.read(256 * 1024):
                     self.wfile.write(chunk)
+
+    def _media_file(self, path, mime, etag):
+        total = path.stat().st_size
+        header = self.headers.get("Range")
+        if not header:
+            return self._file(path, mime, etag)
+        import re
+        match = re.fullmatch(r"bytes=(\d*)-(\d*)", header.strip())
+        if not match or not any(match.groups()):
+            return self._range_error(total)
+        first, last = match.groups()
+        start = int(first) if first else max(0, total - int(last))
+        end = min(int(last), total - 1) if first and last else total - 1
+        if start >= total or end < start:
+            return self._range_error(total)
+        self.send_response(206)
+        self.send_header("Content-Type", mime)
+        self.send_header("Content-Length", str(end - start + 1))
+        self.send_header("Content-Range", f"bytes {start}-{end}/{total}")
+        self.send_header("Accept-Ranges", "bytes")
+        self.send_header("X-Content-Type-Options", "nosniff")
+        self.send_header("ETag", '"' + etag + '"')
+        self.end_headers()
+        if self.command != "HEAD":
+            with path.open("rb") as stream:
+                stream.seek(start)
+                remaining = end - start + 1
+                while remaining:
+                    chunk = stream.read(min(256 * 1024, remaining))
+                    if not chunk:
+                        break
+                    self.wfile.write(chunk)
+                    remaining -= len(chunk)
+
+    def _range_error(self, total):
+        self.send_response(416)
+        self.send_header("Content-Range", f"bytes */{total}")
+        self.send_header("Content-Length", "0")
+        self.end_headers()
 
     def _body(self, maximum=8 * 1024 * 1024, json_body=True):
         try:
@@ -98,6 +144,27 @@ class Handler(BaseHTTPRequestHandler):
             raise StudioError("Invalid path", "path_forbidden", 403)
         store = self.server.store
         if method == "GET":
+            if path == "/api/plan":
+                from conversation_plan import plan_status
+                chapter_id = parse_qs(urlsplit(self.path).query).get("chapterId", [None])[0]
+                project = store.read()["project"]
+                chapter = find(project["chapters"], valid_id(chapter_id), "chapter")
+                return self._json(200, plan_status(project, chapter))
+            if path == "/api/conversation":
+                after = parse_qs(urlsplit(self.path).query).get("after", ["0"])[0]
+                if not after.isdigit():
+                    raise StudioError("after must be a nonnegative integer")
+                return self._json(200, self.server.conversation.snapshot(int(after)))
+            if path == "/api/insights":
+                from insights import insights
+                return self._json(200, insights(store))
+            if path == "/api/media":
+                from media_library import media_library
+                return self._json(200, media_library(store))
+            if path.startswith("/api/media/files/"):
+                from media_library import media_file
+                file, mime, sha = media_file(path.removeprefix("/api/media/files/"))
+                return self._media_file(file, mime, sha)
             if path == "/api/state":
                 return self._json(200, store.read())
             if path == "/api/jobs":
@@ -132,6 +199,17 @@ class Handler(BaseHTTPRequestHandler):
                 asset, state = store.upload_asset(self._body(MAX_UPLOAD, False), name)
                 return self._json(201, {"asset": asset, "revision": state["revision"]})
             body = self._body()
+            if path == "/api/media/import":
+                from media_library import import_media
+                asset, state = import_media(store, valid_id(body.get("id"), "media id"))
+                return self._json(201, {"asset": asset, "revision": state["revision"]})
+            if path == "/api/plan/approve":
+                from conversation_plan import approve_plan
+                return self._json(200, approve_plan(store, body))
+            if path == "/api/conversation/messages":
+                return self._json(202, self.server.conversation.send(body))
+            if path == "/api/conversation/interrupt":
+                return self._json(200, self.server.conversation.interrupt())
             if path == "/api/jobs":
                 job, state = create_job(store, body)
                 return self._json(201, {"job": job, "revision": state["revision"]})
