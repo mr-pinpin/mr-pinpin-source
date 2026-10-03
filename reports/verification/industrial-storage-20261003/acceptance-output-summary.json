@@ -1,0 +1,35 @@
+{
+  "entityId": "badger-visitor",
+  "outputs": [
+    {
+      "stage": "solo",
+      "assetId": "asset-46b709495ac9b5f41c4cdd66",
+      "sha256": "46b709495ac9b5f41c4cdd66ec8d5868e1a3edc8b12b8693313a4e37f07ea0ab",
+      "bytes": 2353113,
+      "width": 1222,
+      "height": 1287,
+      "reviewStatus": "unreviewed",
+      "backupReceiptPresentAtBaseline": false
+    },
+    {
+      "stage": "interactions",
+      "assetId": "asset-3fd4a11eb22eeedca79b4f93",
+      "sha256": "3fd4a11eb22eeedca79b4f93e489ad002a299909787cd6334c7d4e2a1460d5ff",
+      "bytes": 2997605,
+      "width": 1024,
+      "height": 1536,
+      "reviewStatus": "unreviewed",
+      "backupReceiptPresentAtBaseline": false
+    }
+  ],
+  "packageStatus": "produced",
+  "nativeImageCalls": 2,
+  "repairCalls": 0,
+  "registrationSeconds": 0.175282,
+  "dossierEvidenceGenerationCompletionSaved": true,
+  "visualQA": {
+    "solo": "24 readable cells; opposed face/body directions correct; consistent striped stocky young badger, short tail, calm/curious expressions and normal poses. No obvious anatomy or missing-cell fault observed.",
+    "interactions": "Six coherent family panels; distinct badger/hedgehog identities; visitor approximately PinPin height with a modest illustrative size difference; supported infant and sensible handoff/hug contacts; final panel has visitor plus four family members. No obvious fault requiring repair observed."
+  },
+  "baselineGap": "Neither new badger asset had an app storage backup receipt at acceptance completion. Automatic new-package replication did not complete; later closeout improvement is a separate task and must not rewrite this benchmark."
+}

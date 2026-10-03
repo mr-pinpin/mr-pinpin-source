@@ -1,0 +1,17 @@
+Independent sprint QA — 2026-10-03; code checkpoint66d7c1f.
+
+Verdict: the uncoached badger request produced the complete visual draft package. Both pages independently passed visual inspection and rendered as decoded, visible WorkflowCards in actual Chrome. Neither asset had an app backup receipt at baseline completion: automatic new-package replication remained incomplete. The later closeout request is separate and must not erase that defect.
+
+Accepted20:37:23.113743UTC; HTTP0.138433s. First visible progress0.754671s; first assistant text7.418574s. Solo card message began20:41:49.195710 (266.081967s), complete delivery20:41:58.144237 (275.030494s). Family card message began20:46:10.343694 (527.229951s), complete delivery20:46:13.727863 (530.614120s). Final delivered20:48:21.699886; completed20:48:21.765339:658.651596s total. These API events supersede the approximate root20:48:12 time; initial browser paint was not measured.
+
+Two generation windows:42.735491s and44.636336s; total87.371827s. Repairs/retries0; human/external-agent corrections0. Outside image windows571.279769s; registration0.175282s separately. Observed10command,5file-change,4image-view and2generation starts. Phase windows and caveats are in acceptance-metrics.json: compact events cannot isolate pure procedural exploration overhead.
+
+Solo:24complete studies, correct opposing face/body directions, consistent young badger design. Family:6coherent scenes, approximately PinPin height with a modest illustrative size difference, supported infant and credible handoff/hug contact. Both remain unreviewed proposed drafts. Live Chrome decoded1222x1287 and1024x1536 images with full-size controls;0page errors or mutation attempts. Lazy loading required scrolling before decode; no app change.
+
+Original42public-book pages remotely verified:105982032bytes;37new app-CLI proofs +1reused Duck +4explicit authorized adapter exceptions; all canonical bytes unchanged. Mama/PomPom solo/interactions lack native-imagegen source metadata; app policy refused and stayed unchanged. Their four objects are archived via existing verified adapter, but app backup receipts are still absent: remote logical-ID restore is NOT established for those4. No private provenance/session upload, deletion/untracking, guard relaxation or quota/40TB claim.
+
+Storage checks: live hydration/preparation restores verified IDs; historical reads do not restore; naked missing asset GET remains403 until materialized. Native volume guard independently refused internal-low/TB4-healthy. Full Studio85PASS; asset50PASS/1skip; HF27PASS; production build975files/948137769bytesPASS. Exact app-authored exports copied/staged; unrelated edits excluded.
+
+Air cleanup: root verified7,350,202,368bytes recovered and approximately10GBfree. Private history filenames/contents omitted. Separate later closeout context compaction took168.184060s (20:50:41.774787→20:53:29.958847UTC), demonstrating conversation growth latency; it is not part of this badger benchmark.
+
+Evidence: acceptance-metrics.json, acceptance-output-summary.json, browser-delivery.json, archive-summary.json. No raw history/conversation, credentials, transient frame nonce or image binaries copied here.

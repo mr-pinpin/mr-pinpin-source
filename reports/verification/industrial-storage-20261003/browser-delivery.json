@@ -1,0 +1,36 @@
+{
+  "passed": true,
+  "observedAt": "2026-10-03T20:51:50.130Z",
+  "readOnly": true,
+  "node": "mini",
+  "origin": "Studio loopback",
+  "cards": [
+    {
+      "assetId": "asset-46b709495ac9b5f41c4cdd66",
+      "visible": true,
+      "title": "Young badger visitor \u2014 studies",
+      "image": {
+        "complete": true,
+        "naturalWidth": 1222,
+        "naturalHeight": 1287,
+        "src": "/api/assets/asset-46b709495ac9b5f41c4cdd66"
+      },
+      "fullSizeControlPresent": true
+    },
+    {
+      "assetId": "asset-3fd4a11eb22eeedca79b4f93",
+      "visible": true,
+      "title": "Young badger visitor \u2014 with the family",
+      "image": {
+        "complete": true,
+        "naturalWidth": 1024,
+        "naturalHeight": 1536,
+        "src": "/api/assets/asset-3fd4a11eb22eeedca79b4f93"
+      },
+      "fullSizeControlPresent": true
+    }
+  ],
+  "pageErrorCount": 0,
+  "mutationsAttempted": 0,
+  "note": "Live existing Chrome checked both WorkflowCards after completion; images decoded at native dimensions and full-size controls present. Screenshots remain outside source. Initial test tried decode before lazy image entered viewport; scrolling/waiting recovered with no app changes."
+}

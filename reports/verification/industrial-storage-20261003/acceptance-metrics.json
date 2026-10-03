@@ -1,0 +1,102 @@
+{
+  "messageId": "message-e569ae7e85c94b3999f2",
+  "acceptedAt": "2026-10-03T20:37:23.113743+00:00",
+  "firstVisibleProgressAt": "2026-10-03T20:37:23.868414+00:00",
+  "firstVisibleProgressSeconds": 0.754671,
+  "firstAssistantTextAt": "2026-10-03T20:37:30.532317+00:00",
+  "firstAssistantTextSeconds": 7.418574,
+  "finalDeliveredAt": "2026-10-03T20:48:21.699886+00:00",
+  "finalDeliveredSeconds": 658.586143,
+  "completedAt": "2026-10-03T20:48:21.765339+00:00",
+  "totalSeconds": 658.651596,
+  "outcome": "completed",
+  "imageGeneration": {
+    "spans": [
+      {
+        "startedAt": "2026-10-03T20:39:36.533424+00:00",
+        "endedAt": "2026-10-03T20:40:19.268915+00:00",
+        "seconds": 42.735491,
+        "status": "completed",
+        "startEvent": 14879,
+        "endEvent": 14881
+      },
+      {
+        "startedAt": "2026-10-03T20:43:16.427614+00:00",
+        "endedAt": "2026-10-03T20:44:01.063950+00:00",
+        "seconds": 44.636336,
+        "status": "completed",
+        "startEvent": 15005,
+        "endEvent": 15008
+      }
+    ],
+    "totalSeconds": 87.371827,
+    "activeWallSeconds": 87.371827,
+    "activePeriods": [
+      {
+        "startedAt": "2026-10-03T20:39:36.533424+00:00",
+        "endedAt": "2026-10-03T20:40:19.268915+00:00",
+        "seconds": 42.735491
+      },
+      {
+        "startedAt": "2026-10-03T20:43:16.427614+00:00",
+        "endedAt": "2026-10-03T20:44:01.063950+00:00",
+        "seconds": 44.636336
+      }
+    ],
+    "ambiguous": false,
+    "inFlight": 0,
+    "exposedEvents": 4
+  },
+  "otherElapsedSeconds": 571.279769,
+  "soloMessageBeganAt": "2026-10-03T20:41:49.195710+00:00",
+  "soloMessageCompleteAt": "2026-10-03T20:41:58.144237+00:00",
+  "familyMessageBeganAt": "2026-10-03T20:46:10.343694+00:00",
+  "familyMessageCompleteAt": "2026-10-03T20:46:13.727863+00:00",
+  "soloMessageBeganSecondsFromAcceptance": 266.081967,
+  "soloMessageCompleteSecondsFromAcceptance": 275.030494,
+  "familyMessageBeganSecondsFromAcceptance": 527.229951,
+  "familyMessageCompleteSecondsFromAcceptance": 530.61412,
+  "requestHTTPSeconds": 0.138433,
+  "initialBrowserPaintMeasured": false,
+  "source": "Existing chat.py read/status/measure and root collector; server/API observation timestamps, not model-internal timing.",
+  "phaseWindows": [
+    {
+      "phase": "acceptance to first image start",
+      "seconds": 133.419681
+    },
+    {
+      "phase": "solo image window",
+      "seconds": 42.735491
+    },
+    {
+      "phase": "solo image end to complete solo card message",
+      "seconds": 98.875322
+    },
+    {
+      "phase": "solo card complete to family image start",
+      "seconds": 78.283377
+    },
+    {
+      "phase": "family image window",
+      "seconds": 44.636336
+    },
+    {
+      "phase": "family image end to complete family card message",
+      "seconds": 132.663913
+    },
+    {
+      "phase": "family card complete to turn completion",
+      "seconds": 128.037476
+    }
+  ],
+  "observedActivityStarts": {
+    "commandExecution": 10,
+    "fileChange": 5,
+    "imageView": 4,
+    "imageGeneration": 2
+  },
+  "repairCalls": 0,
+  "humanOrExternalAgentCorrectionsDuringTurn": 0,
+  "outsideImageWindowPercent": 86.73474299149804,
+  "breakdownLimit": "Outside-image time includes reasoning, workflow inspection, file edits, preparation, registration, reporting and delivery; compact events omit command arguments and model-internal timing, so pure procedural overhead cannot be isolated."
+}
