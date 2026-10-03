@@ -1,0 +1,93 @@
+{
+  "receiptUTC": "2026-10-03T21:40:47.239483+00:00",
+  "receiptEntriesVerified": 26,
+  "sourceFiles": [
+    {
+      "path": "workflows/examples/cast-run-20261003/tools/cast_ops.py",
+      "sha256": "21b41f2f0008c3672285d41ff162ea6d3729df9e92b0e229c7dfceb2038fdeda"
+    },
+    {
+      "path": "workflows/examples/cast-run-20261003/tools/test_character_preparation.py",
+      "sha256": "3ae42ce3b6af408b0674d1ba73088e4ac9fddfa19a94090b7aef4a6a2e42fc20"
+    },
+    {
+      "path": "workflows/examples/cast-run-20261003/tools/test_character_closeout.py",
+      "sha256": "7641169a6a06916121b3922b09acf828c341ab9144bc9bb7d41abc6ada653a2a"
+    },
+    {
+      "path": "workflows/examples/cast-run-20261003/tools/test_character_preparation_boundaries.py",
+      "sha256": "8c80474df78391b6056854165b6edc876fb9625a4a056bcfd1e0bd2bde066f54"
+    },
+    {
+      "path": "workflows/examples/cast-run-20261003/tools/verify_character_preparation.py",
+      "sha256": "1bec0945cd8a6d7c09bb463138f9f7f80ad230606d09f90123f5ae23d5a0005f"
+    },
+    {
+      "path": "workflows/examples/cast-run-20261003/workflows/toolchain.json",
+      "sha256": "eeae36209dd2aced83811d01f8a452821c70add8879b71a52f293488397284f6"
+    },
+    {
+      "path": "workflows/examples/cast-run-20261003/workflows/character-context-index.md",
+      "sha256": "4e4df66f7c36211efc2e4ee6d46710c366fe20e175ab1ffff2a02933dda9269b"
+    },
+    {
+      "path": "workflows/examples/cast-run-20261003/workflows/character-creation.md",
+      "sha256": "fa4669a1f5a483cdfb79a98a821cad0194723dff79b1a3cca3288a90ebd528c5"
+    },
+    {
+      "path": "workflows/examples/cast-run-20261003/workflows/character-preparation.md",
+      "sha256": "1c91d917a812a86ab3ea6f3e7a467e83f3893c2d0fefc07b27b0924498bec79e"
+    },
+    {
+      "path": "workflows/character-context-index.md",
+      "sha256": "4e4df66f7c36211efc2e4ee6d46710c366fe20e175ab1ffff2a02933dda9269b"
+    },
+    {
+      "path": "workflows/character-creation.md",
+      "sha256": "fa4669a1f5a483cdfb79a98a821cad0194723dff79b1a3cca3288a90ebd528c5"
+    },
+    {
+      "path": "workflows/character-preparation.md",
+      "sha256": "1c91d917a812a86ab3ea6f3e7a467e83f3893c2d0fefc07b27b0924498bec79e"
+    },
+    {
+      "path": "tools/studio/business/context.py",
+      "sha256": "068a29e497e0349d2cfc868ba79f047535b79bfd8303e634b5de18bd5299fe95"
+    },
+    {
+      "path": "tools/studio/business/character_context.py",
+      "sha256": "68a9b0c05efc300982f6b7206b457d53c4f7fe6aa6fd5e13af475746a9d1ecc7"
+    },
+    {
+      "path": "reports/verification/industrial-latency-20261003/character-preparation-source-receipt.json",
+      "sha256": "c8047cd812985844f9f4288a863169696fe735207ece6d216211834e109d9375"
+    }
+  ],
+  "isolatedChecks": {
+    "preparation": 16,
+    "coldScopeBoundary": 13,
+    "closeout": 15
+  },
+  "releaseChecks": {
+    "studio": 85,
+    "assetPass": 50,
+    "assetSkip": 1,
+    "failures": 0,
+    "productionBuildFiles": 975,
+    "productionBuildBytes": 948137769
+  },
+  "fixes": [
+    "Ordinary closeout excludes engineering checkpoint.",
+    "Cold starter resolves exact current IDs before byte checks; unavailable remains blocked/actionable without older substitution.",
+    "Unscoped ordinary requests receive bounded optional preparation pack; explicit opt-out, selection and historical isolation retained.",
+    "Solo mixed-role references retain style/layout/PRIMARY roles and drop cast/counterpart-only roles."
+  ],
+  "ordinaryRequestRebenchmarkedAfterFinalFixes": false,
+  "baselineObservedReductionPercent": 52.5898356739122,
+  "baselineAutomaticPreparationCorrections": 1,
+  "benchmarkCheckpoint": "fbffb94",
+  "productionImplementationAuthoredByQA": false,
+  "newImagesFromQA": 0,
+  "storageLibraryPending": true,
+  "kernelChanged": false
+}

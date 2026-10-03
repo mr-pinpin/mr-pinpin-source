@@ -131,7 +131,11 @@ def selected_context(store, body):
         toolchain = prepared_toolchain(store, state)
         if toolchain and toolchain.get('storageWorkflow'):
             context['storageWorkflow'] = toolchain['storageWorkflow']
-        if toolchain and (body.get('characterPreparation') is True or (not entity_id and any(word in text.lower() for word in ('character','visitor','персонаж')))):
+        # Availability follows explicit workspace scope, not guessed request words.
+        # Unscoped live requests get the bounded optional pack; other selected
+        # workflows retain their context unless preparation is explicitly requested.
+        if toolchain and (body.get('characterPreparation') is True or
+                (body.get('characterPreparation') is not False and not entity_id and not chapter_id and not scene_ids and not asset_ids)):
             pack=starter_pack(store,state,cast_workflow,toolchain)
             if pack: context['characterPreparation']=pack
     # Long exact prompts remain immutable registered metadata, addressable by ID.

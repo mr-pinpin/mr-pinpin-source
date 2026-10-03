@@ -1,0 +1,84 @@
+{
+  "messageId": "message-3ac885aeba01496aa718",
+  "acceptedAt": "2026-10-03T21:27:32.165864+00:00",
+  "observedAt": "2026-10-03T21:32:44.580434+00:00",
+  "cursor": 16629,
+  "eventCoverage": "complete",
+  "firstVisibleProgressAt": "2026-10-03T21:27:32.960314+00:00",
+  "firstVisibleProgressSeconds": 0.79445,
+  "firstAssistantTextAt": "2026-10-03T21:27:36.482549+00:00",
+  "firstAssistantTextSeconds": 4.316685,
+  "finalMessageIds": [
+    "msg_0c7e807191abf74f016ac17476e7a887d2bbacf7e195e6ba0f"
+  ],
+  "finalDeliveredAt": "2026-10-03T21:32:44.346448+00:00",
+  "finalDeliveredSeconds": 312.180584,
+  "completedAt": "2026-10-03T21:32:44.433668+00:00",
+  "totalSeconds": 312.267804,
+  "outcome": "completed",
+  "imageGeneration": {
+    "spans": [
+      {
+        "startedAt": "2026-10-03T21:29:07.397487+00:00",
+        "endedAt": "2026-10-03T21:29:51.436598+00:00",
+        "seconds": 44.039111,
+        "status": "completed",
+        "startEvent": 16344,
+        "endEvent": 16350
+      },
+      {
+        "startedAt": "2026-10-03T21:30:58.323347+00:00",
+        "endedAt": "2026-10-03T21:31:47.649822+00:00",
+        "seconds": 49.326475,
+        "status": "completed",
+        "startEvent": 16476,
+        "endEvent": 16480
+      }
+    ],
+    "totalSeconds": 93.365586,
+    "activeWallSeconds": 93.365586,
+    "activePeriods": [
+      {
+        "startedAt": "2026-10-03T21:29:07.397487+00:00",
+        "endedAt": "2026-10-03T21:29:51.436598+00:00",
+        "seconds": 44.039111
+      },
+      {
+        "startedAt": "2026-10-03T21:30:58.323347+00:00",
+        "endedAt": "2026-10-03T21:31:47.649822+00:00",
+        "seconds": 49.326475
+      }
+    ],
+    "ambiguous": false,
+    "inFlight": 0,
+    "exposedEvents": 4
+  },
+  "otherElapsedSeconds": 218.902218,
+  "frozenSourceCheckpoint": "fbffb94",
+  "comparison": {
+    "baselineSeconds": 658.651596,
+    "otterSeconds": 312.267804,
+    "secondsSaved": 346.383792,
+    "reductionPercent": 52.5898356739122,
+    "baselineImageSeconds": 87.371827,
+    "otterImageSeconds": 93.365586,
+    "baselineOutsideImageSeconds": 571.279769,
+    "otterOutsideImageSeconds": 218.902218,
+    "activityStarts": {
+      "commandExecution": 12,
+      "imageView": 6,
+      "fileChange": 4,
+      "imageGeneration": 2
+    }
+  },
+  "commandArgumentsAvailableInCompactCapture": false,
+  "cardMessages": {
+    "soloMessageStartedAt": "2026-10-03T21:30:27.535549+00:00",
+    "soloMessageCompletedAt": "2026-10-03T21:30:31.126225+00:00",
+    "soloCompletedSeconds": 178.960361,
+    "bothCardsMessageStartedAt": "2026-10-03T21:32:38.922246+00:00",
+    "bothCardsMessageCompletedAt": "2026-10-03T21:32:44.346448+00:00",
+    "bothCardsCompletedSeconds": 312.180584,
+    "browserPaintTimingMeasured": false
+  }
+}

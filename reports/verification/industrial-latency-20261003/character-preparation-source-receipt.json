@@ -1,25 +1,25 @@
 {
-  "observedUTC": "2026-10-03T21:25:01.037732+00:00",
+  "observedUTC": "2026-10-03T21:40:47.239483+00:00",
   "files": [
     {
       "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/tools/cast_ops.py",
-      "sha256": "9f509c28741dba814b10a5fd1c7ea15aeea00f9f0fa37450fe84e9977c8cf9d5",
-      "bytes": 40079
+      "sha256": "21b41f2f0008c3672285d41ff162ea6d3729df9e92b0e229c7dfceb2038fdeda",
+      "bytes": 40717
     },
     {
       "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/exports/industrial-cast_ops.py",
-      "sha256": "9f509c28741dba814b10a5fd1c7ea15aeea00f9f0fa37450fe84e9977c8cf9d5",
-      "bytes": 40079
+      "sha256": "21b41f2f0008c3672285d41ff162ea6d3729df9e92b0e229c7dfceb2038fdeda",
+      "bytes": 40717
     },
     {
       "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/tools/test_character_preparation.py",
-      "sha256": "1daba878e93916c7483e46ca82f92c1748b7d865b635977cdd353201f6db2574",
-      "bytes": 5323
+      "sha256": "3ae42ce3b6af408b0674d1ba73088e4ac9fddfa19a94090b7aef4a6a2e42fc20",
+      "bytes": 7153
     },
     {
       "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/exports/test_character_preparation.py",
-      "sha256": "1daba878e93916c7483e46ca82f92c1748b7d865b635977cdd353201f6db2574",
-      "bytes": 5323
+      "sha256": "3ae42ce3b6af408b0674d1ba73088e4ac9fddfa19a94090b7aef4a6a2e42fc20",
+      "bytes": 7153
     },
     {
       "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/tools/test_character_closeout.py",
@@ -32,14 +32,24 @@
       "bytes": 5124
     },
     {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/tools/test_character_preparation_boundaries.py",
+      "sha256": "8c80474df78391b6056854165b6edc876fb9625a4a056bcfd1e0bd2bde066f54",
+      "bytes": 5411
+    },
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/exports/test_character_preparation_boundaries.py",
+      "sha256": "8c80474df78391b6056854165b6edc876fb9625a4a056bcfd1e0bd2bde066f54",
+      "bytes": 5411
+    },
+    {
       "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/tools/verify_character_preparation.py",
-      "sha256": "454805050fbeffdc601c851841e9ecba5be6a8bce0bf49547405f2ea9f785d92",
-      "bytes": 5722
+      "sha256": "1bec0945cd8a6d7c09bb463138f9f7f80ad230606d09f90123f5ae23d5a0005f",
+      "bytes": 6074
     },
     {
       "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/exports/verify_character_preparation.py",
-      "sha256": "454805050fbeffdc601c851841e9ecba5be6a8bce0bf49547405f2ea9f785d92",
-      "bytes": 5722
+      "sha256": "1bec0945cd8a6d7c09bb463138f9f7f80ad230606d09f90123f5ae23d5a0005f",
+      "bytes": 6074
     },
     {
       "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/workflows/toolchain.json",
@@ -73,48 +83,53 @@
     },
     {
       "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/workflows/character-preparation.md",
-      "sha256": "a49f05b6affa82c7e911744ebefd9bc11f9a5d16fd02c7723ec2656df1c2e00b",
-      "bytes": 3624
+      "sha256": "1c91d917a812a86ab3ea6f3e7a467e83f3893c2d0fefc07b27b0924498bec79e",
+      "bytes": 4319
     },
     {
       "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/exports/character-preparation.md",
-      "sha256": "a49f05b6affa82c7e911744ebefd9bc11f9a5d16fd02c7723ec2656df1c2e00b",
-      "bytes": 3624
+      "sha256": "1c91d917a812a86ab3ea6f3e7a467e83f3893c2d0fefc07b27b0924498bec79e",
+      "bytes": 4319
     },
     {
       "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/exports/preparation-context.py",
-      "sha256": "974b7303fc5e2b3a93a16486250d7fe7e0aa9918c4592afc4f04884324b388d2",
-      "bytes": 10144
+      "sha256": "068a29e497e0349d2cfc868ba79f047535b79bfd8303e634b5de18bd5299fe95",
+      "bytes": 10428
     },
     {
       "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/exports/preparation-character_context.py",
-      "sha256": "5838f7397f2488d53a03f60bb92bc5c09ec26892681b3dbffa23cb007ebe6e52",
-      "bytes": 15409
+      "sha256": "68a9b0c05efc300982f6b7206b457d53c4f7fe6aa6fd5e13af475746a9d1ecc7",
+      "bytes": 17308
     },
     {
       "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/tools/studio/business/context.py",
-      "sha256": "974b7303fc5e2b3a93a16486250d7fe7e0aa9918c4592afc4f04884324b388d2",
-      "bytes": 10144
+      "sha256": "068a29e497e0349d2cfc868ba79f047535b79bfd8303e634b5de18bd5299fe95",
+      "bytes": 10428
     },
     {
       "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-r17-studio-source/tools/studio/business/character_context.py",
-      "sha256": "5838f7397f2488d53a03f60bb92bc5c09ec26892681b3dbffa23cb007ebe6e52",
-      "bytes": 15409
+      "sha256": "68a9b0c05efc300982f6b7206b457d53c4f7fe6aa6fd5e13af475746a9d1ecc7",
+      "bytes": 17308
     },
     {
       "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/reports/character-preparation-iteration.json",
-      "sha256": "f034b582ea7a2389024b8530ad4a529f7ceb70e1989b91cc503b68566bd17272",
-      "bytes": 2297
+      "sha256": "70a1f71d9ca4f120e7681fc3e22632de03a9779852560d4ca337891b2dd89f3d",
+      "bytes": 2570
     },
     {
       "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/reports/character-preparation-focused-proof.json",
-      "sha256": "6451fc7c7cef9d9f49c083e3f1dec8a0ccb0d707e055d162523832d9eadba0f4",
-      "bytes": 572
+      "sha256": "aa5ea3b83229f10425c85876f0f2cae7e054db567016d7f4a7a5981776ffe33a",
+      "bytes": 827
     },
     {
       "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/reports/character-closeout-focused-proof.json",
       "sha256": "89a6bea695c17692ca85640105adde2c1c3a7cbaedaade4d105274d5697d3abb",
       "bytes": 772
+    },
+    {
+      "path": "/Volumes/TB4/mac-mini-storage/shared/pinpin-studio-conversation-data/reports/character-preparation-boundary-proof.json",
+      "sha256": "37eac8bbceb1851afddfe0a83d0e5c4f530d17ac846aadfe9be9cf61ffba4618",
+      "bytes": 741
     }
   ],
   "credentialsIncluded": false,

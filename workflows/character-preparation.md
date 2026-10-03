@@ -2,6 +2,8 @@
 
 An ordinary new-character request receives a bounded characterPreparation pack with the verified existing family solos, family style/relative scale, layout-only template, source pointers and actual helper toolchain. These images do not define the proposed subject. Inspect the relevant actual images before generation. No conversation restart or storage-library substitution is involved.
 
+Preparation availability follows workspace scope, not words or species guesses: unscoped live requests receive the optional bounded pack. Explicit entity/chapter/scene/asset selections retain their existing workflow unless characterPreparation:true is requested; characterPreparation:false opts out. Pinned historical contexts never read or restore mutable preparation inputs. A current counterpart is selected from saved final metadata before resolving its exact logical ID through existing storage. availability:blocked and missingReferences identify unavailable identities and recovery actions; never replace them with an older available candidate or proceed with an incomplete family pack.
+
 Write one concise JSON spec, choosing routine design details within the request:
 
 ```json

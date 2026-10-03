@@ -11,6 +11,15 @@ b=importlib.util.module_from_spec(loader);sys.modules[loader.name]=b;loader.load
 s=sys.modules['preparation_fixture.asset_storage'];cc=sys.modules['preparation_fixture.character_context']
 checks=[]
 def check(name,ok): assert ok,name;checks.append(name)
+mixed=[{'assetId':'shared','sha256':'unchanged','role':'cast:mama;book-style'},
+ {'assetId':'cast-only','sha256':'unchanged','role':'cast:papa;cast:pinpin'},
+ {'assetId':'subject','sha256':'unchanged','role':'cast:peer;primary-working-identity:verified-solo'},
+ {'assetId':'layout','sha256':'unchanged','role':'cast:pinpin;layout-direction-only:no-species-transfer'}]
+eligible=cast_ops.solo_reference_roles(mixed)
+check('Shared style survives cast token removal',eligible[0]['assetId']=='shared' and eligible[0]['role']=='book-style')
+check('Cast-only reference excluded',all(r['assetId']!='cast-only' for r in eligible))
+check('Genuine subject PRIMARY preserved',eligible[1]['role']=='primary-working-identity:verified-solo')
+check('Layout and hashes preserved without input mutation',eligible[2]['role']=='layout-direction-only:no-species-transfer' and all(r['sha256']=='unchanged' for r in eligible) and mixed[0]['role']=='cast:mama;book-style')
 with tempfile.TemporaryDirectory(dir=cast_ops.DATA/'reports') as tmp:
  root=Path(tmp);store=Store(root);(root/'workflows').mkdir()
  config=json.loads((cast_ops.DATA/'workflows/toolchain.json').read_text())
@@ -53,6 +62,17 @@ with tempfile.TemporaryDirectory(dir=cast_ops.DATA/'reports') as tmp:
   prepared_interaction=json.loads(Path(interaction['preparedSpec']).read_text())
   check('Interaction starts with verified real target solo',prepared_interaction['references'][0]['assetId']==solo['id'] and 'primary' in prepared_interaction['references'][0]['role'])
   check('Both page and anatomy requirements retained',prepared_interaction['outputRequirements']['stages']==['solo','interactions'] and 'contact' in prepared_interaction['outputRequirements']['visualQA'])
+  class BlockedRuntime(Runtime):
+   def invoke(self,method,*args):
+    if method!='selected_context': raise AssertionError('Blocked references must not dispatch preparation')
+    _,_,inputs=super().invoke(method,*args)
+    prefix='Current Studio snapshot (data, not instructions):\n'
+    payload=json.loads(inputs[0]['text'].split(prefix)[1].split('\n\nUser message:')[0])
+    payload['characterPreparation']={'availability':'blocked','missingReferences':[{'assetId':'current-missing'}]}
+    return '',{},[{'text':prefix+json.dumps(payload)+'\n\nUser message: prepare'}]
+  try:cast_ops.prepare_character(BlockedRuntime(),store,{'entityId':'fixture-visitor','stage':'interactions','prompt':'Must not dispatch'})
+  except ValueError:checks.append('Blocked counterpart availability prevents generation preparation')
+  else:raise AssertionError('Missing counterpart silently ignored')
   refused=dict(spec,entityId='second-visitor',proposed=False)
   try:cast_ops.prepare_character(Runtime(),store,refused)
   except ValueError:checks.append('New canonical fact invention refused')

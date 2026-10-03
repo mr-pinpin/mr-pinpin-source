@@ -6,6 +6,7 @@ import os
 from pathlib import Path
 import re
 from . import asset_storage
+from model import StudioError
 
 
 def reference_path(store, state, asset_id):
@@ -204,7 +205,23 @@ def starter_pack(store, state, workflow, toolchain):
     assets={a['id']:a for a in state['assets']}
     entities={e['id']:e for e in state['project']['entities']}
     rows={r['id']:r for r in (workflow or {}).get('characters',[])}
-    refs=[];cast=[]
+    refs=[];cast=[];missing=[]
+    def resolved_reference(identifier, expected_hash, role):
+        asset=assets.get(identifier)
+        ref={'assetId':identifier,'sha256':expected_hash,'role':role,'path':None}
+        try:
+            if not asset or asset.get('sha256')!=expected_hash:
+                raise StudioError('Current reference identity differs from registry')
+            # Restore this exact selected identity before any byte-based reconciliation.
+            path=reference_path(store,state,identifier)
+            if hashlib.sha256(path.read_bytes()).hexdigest()!=expected_hash:
+                raise StudioError('Current reference bytes differ from selected hash')
+            ref.update(path=str(path),status='verified')
+        except (StudioError,OSError,ValueError) as exc:
+            ref['status']='unavailable'
+            missing.append({'assetId':identifier,'sha256':expected_hash,'role':role,
+                'errorType':type(exc).__name__,'action':'Resolve this exact registered ID through storageWorkflow.resolve, then retry preparation. Do not substitute an older candidate.'})
+        refs.append(ref)
     # Selection lives in authored toolchain data, not machine-specific ID constants.
     manifest=asset_storage.bounded_json(store.root/'workflows/toolchain.json',16384)
     config=manifest.get('characterPreparation',{})
@@ -213,28 +230,37 @@ def starter_pack(store, state, workflow, toolchain):
     full=asset_storage.bounded_json(store.root/'workflows/cast-run.json',262144)
     for identifier in config.get('counterpartIds',[])[:4]:
         entity=entities.get(identifier); row=rows.get(identifier,{})
-        if not entity: continue
+        if not entity:
+            missing.append({'entityId':identifier,'action':'Restore the configured counterpart entity binding before preparation.'})
+            continue
         # Compact queue omits stages: reconcile only the requested counterpart.
-        from .cast_workflow import reconcile_character
+        from .cast_workflow import read_json
         raw=next((r for r in full.get('characters',[]) if r['id']==identifier),None)
         facts=raw or row
         cast.append(dict(compact_entity(entity),exactAge=facts.get('exactAge','not stated'),
             evidencedLifeStage=facts.get('evidencedLifeStage',entity.get('identity','')),
             evidencePath=facts.get('evidencePath','workflows/characters/'+identifier+'/evidence.json')))
-        verified=reconcile_character(store,state,raw) if raw else {}
-        solo=verified.get('stages',{}).get('solo',{})
-        asset=assets.get(solo.get('assetId'))
-        if asset and asset.get('sha256')==solo.get('sha256'):
-            refs.append({'assetId':asset['id'],'sha256':asset['sha256'],
-                'role':'counterpart:'+identifier,'path':str(store.asset_path(asset['id'],state))})
+        solo=(raw or {}).get('stages',{}).get('solo',{})
+        if not solo.get('assetId'):
+            # Partial/legacy records may not yet persist reconciled stages. Pick
+            # current metadata once, never fall back based on missing/corrupt bytes.
+            package=read_json(store.root,'reports/character-packages/'+identifier+'.json',512000) or {}
+            candidates=package.get('stages',{}).get('solo',{}).get('candidates',[])
+            valid=[c for c in candidates[-40:] if c.get('qaDisposition')!='needs-repair' and c.get('entityId')==identifier and c.get('stage')=='solo']
+            solo=valid[-1] if valid else (raw or {}).get('stageReceipts',{}).get('solo',{})
+        if solo.get('assetId') and solo.get('sha256'):
+            resolved_reference(solo['assetId'],solo['sha256'],'counterpart:'+identifier)
+        else:
+            missing.append({'entityId':identifier,'action':'Register and inspect the current counterpart solo; no verified identity binding is available.'})
     book=state['project'].get('book',{})
     layout=book.get('characterReferenceDefaults',{}).get('layoutReference',{})
     for identifier,role in [(layout.get('assetId'),'layout-direction-only')]+[(i,'family-style-and-relative-scale') for i in book.get('styleReferenceIds',[])[:1]]:
         asset=assets.get(identifier)
         if asset and (role!='layout-direction-only' or asset.get('sha256')==layout.get('sha256')):
-            refs.append({'assetId':identifier,'sha256':asset['sha256'],'role':role,'path':str(store.asset_path(identifier,state))})
+            resolved_reference(identifier,asset['sha256'],role)
     return {'schemaVersion':1,'projectRevision':state['revision'],'establishedCast':cast,'references':refs,
-        'toolchain':toolchain,'specFields':['entityId','name','request','identity','scale','geometry','lifeStage','proposed','stage','prompt'],
+        'toolchain':toolchain,'availability':'blocked' if missing else 'ready','missingReferences':missing,
+        'specFields':['entityId','name','request','identity','scale','geometry','lifeStage','proposed','stage','prompt'],
         'requirements':['solo:24 readable views/expressions/body directions/ordinary poses','separate interactions:family scale and supported contact','inspect actual pages before closeout'],
         'sourceDistinction':'These are counterpart/style/layout references, never the new subject identity. Exact age remains not stated unless sourced.',
         'guidePath':'workflows/character-context-index.md','inputLimit':5}

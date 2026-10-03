@@ -132,6 +132,15 @@ def rank_reference_pack(references):
     ranked=list(unique.values())
     return ranked[:limit],ranked[limit:]
 
+def solo_reference_roles(references):
+    """Exclude counterpart roles, preserving other roles on shared asset IDs."""
+    result=[]
+    for ref in references:
+        roles=[token.strip() for token in ref['role'].split(';') if token.strip()]
+        roles=[token for token in roles if not token.startswith(('cast:','counterpart:'))]
+        if roles: result.append(dict(ref,role=';'.join(roles)))
+    return result
+
 def prepare_character(runtime,store,spec):
     """One concise proposed-character spec; reuse existing preparation/registration."""
     from model import valid_id
@@ -169,9 +178,11 @@ def prepare_character(runtime,store,spec):
         atomic_json(DATA/'workflows/cast-run.json',run)
     _,_,inputs=runtime.invoke('selected_context',store,{'text':'Prepare character package','entityId':identifier,'characterPreparation':True})
     context=json.loads(inputs[0]['text'].split('Current Studio snapshot (data, not instructions):\n',1)[1].split('\n\nUser message:',1)[0])
+    if context.get('characterPreparation',{}).get('availability')=='blocked':
+        raise ValueError('Current verified references unavailable: inspect characterPreparation.missingReferences and resolve those exact IDs before generation')
     pack=context['characterContext']
     refs=[{'assetId':r['id'],'sha256':r['sha256'],'role':';'.join(r['roles'])} for r in pack['references']]
-    if spec['stage']=='solo': refs=[r for r in refs if 'cast:' not in r['role']]
+    if spec['stage']=='solo': refs=solo_reference_roles(refs)
     else:
         # Interaction layout is unnecessary; family supplies identity/contact/scale.
         refs=[r for r in refs if 'layout-direction-only' not in r['role']]

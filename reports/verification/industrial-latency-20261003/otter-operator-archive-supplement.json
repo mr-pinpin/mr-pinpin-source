@@ -1,0 +1,36 @@
+{
+  "operatorAssisted": true,
+  "afterFrozenBenchmark": true,
+  "automaticAppReplicationSucceeded": false,
+  "observedUTC": "2026-10-03T21:42:35.376432+00:00",
+  "command": "python -B tools/cast_ops.py closeout otter-visitor",
+  "execution": "Authorized normal Mini shell using exact app-authored helper",
+  "seconds": 17.828988249995746,
+  "pages": [
+    {
+      "assetId": "asset-20fcd5a0decd825609da61c8",
+      "sha256": "20fcd5a0decd825609da61c8a14af33d0577a60a4f95fc8de9fb291604bfb60e",
+      "bytes": 2188064,
+      "object": "sha256/20/20fcd5a0decd825609da61c8a14af33d0577a60a4f95fc8de9fb291604bfb60e/20fcd5a0decd825609da61c8a14af33d0577a60a4f95fc8de9fb291604bfb60e.png",
+      "bucket": "miguelemosreverte/mr-pinpin-archive",
+      "remoteVerified": true,
+      "receiptVerified": true,
+      "originalBytesVerified": true
+    },
+    {
+      "assetId": "asset-5d8fb34c342f1067ec3cd0e2",
+      "sha256": "5d8fb34c342f1067ec3cd0e2b53d3cbddea2987a3a8002cd0e30b82b0cbd8926",
+      "bytes": 2684206,
+      "object": "sha256/5d/5d8fb34c342f1067ec3cd0e2b53d3cbddea2987a3a8002cd0e30b82b0cbd8926/5d8fb34c342f1067ec3cd0e2b53d3cbddea2987a3a8002cd0e30b82b0cbd8926.png",
+      "bucket": "miguelemosreverte/mr-pinpin-archive",
+      "remoteVerified": true,
+      "receiptVerified": true,
+      "originalBytesVerified": true
+    }
+  ],
+  "benchmarkFailurePreserved": true,
+  "benchmarkMetricsPreserved": true,
+  "newImages": 0,
+  "storageLibraryIntegrated": false,
+  "permissionOrKernelChange": false
+}
