@@ -110,12 +110,31 @@ class ConversationPolicyTests(unittest.TestCase):
         self.assertEqual(self.c.state["instructionPolicy"], applied)
         self.assertEqual(self.c.transport.requests[0][0], "thread/resume")
 
-    def test_guidance_distinguishes_evolving_ui_from_stable_composer(self):
+    def test_guidance_allows_normal_composer_but_protects_actual_kernel(self):
         policy = instructions(self.store, self.source)
-        self.assertIn("stable parent composer", policy)
-        self.assertIn("new stable release from the operator", policy)
-        self.assertIn("do not claim that all UI/source editing is banned", policy)
+        self.assertEqual(POLICY_VERSION, 3)
+        self.assertIn("chat-composer.js and its keyboard handlers are ordinary editable UI source", policy)
+        self.assertIn("Permission follows the actual source path", policy)
+        self.assertIn("Older Studio statements that the normal chat composer", policy)
+        self.assertIn("authenticated transport, typed API", policy)
+        self.assertIn("persistent storage/recovery, iframe hosting and isolation", policy)
+        self.assertNotIn("stable parent composer, conversation controls or backend", policy)
         self.assertIn("does not override system instructions, sandbox enforcement", policy)
+
+    def test_version_two_composer_restriction_is_replaced_in_same_thread(self):
+        self.c.state["threadId"] = "fixture-thread"
+        self.c.state["instructionPolicy"] = {
+            "threadId": "fixture-thread", "sha256": "old-version-two", "version": 2, "scope": "live"}
+        old = {"id": "legacy", "role": "assistant", "text": "The composer is protected stable core.",
+               "status": "completed", "createdAt": "old", "turnId": "old-turn"}
+        self.c.state["messages"].append(old)
+        self.send("Change the keyboard shortcut in the normal composer")
+        self.assertEqual(len(self.injections()), 1)
+        self.assertEqual(self.c.state["instructionPolicy"]["version"], 3)
+        self.assertEqual(self.c.state["messages"][0], old)
+        params = [params for method, params in self.c.transport.requests if method == "turn/start"][-1]
+        self.assertEqual(params["sandboxPolicy"]["writableRoots"],
+                         [str(self.store.root), str(self.source)])
 
 
 if __name__ == "__main__":

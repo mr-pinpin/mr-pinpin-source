@@ -77,4 +77,4 @@ Project-only snapshots are preserved in `history/` with hashes. `GET /api/histor
 
 Run isolated backend tests with `python -m unittest discover -s tools/studio/tests -v`. Test data must be separate from the live external data directory.
 
-For the immutable conversation shell, hot-loaded workspace, release freezing, restoration and stable-core migrations, read [STABLE-RUNTIME.md](STABLE-RUNTIME.md). The evolving workspace is the only UI source directory made writable to the live agent; it does not require restarting the stable service.
+For the immutable transport/recovery kernel, hot-loaded normal chat and workspace UI, release freezing, restoration and stable-core migrations, read [STABLE-RUNTIME.md](STABLE-RUNTIME.md). The evolving workspace is the only UI source directory made writable to the live agent; it does not require restarting the stable service.

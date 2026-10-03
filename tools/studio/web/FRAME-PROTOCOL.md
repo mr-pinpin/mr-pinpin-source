@@ -1,43 +1,100 @@
-# Stable conversation / workspace frame protocol
+# Stable transport kernel / editable Studio app protocol
 
-The parent owns chat DOM, private conversation, input draft, uploads, context,
-API authority, canonical URL, and serialized workspace draft state.
-A workspace build lives below /workspace-builds/<64-character-sha256>/index.html.
-Its iframe has sandbox="allow-scripts allow-downloads allow-popups"; never add
-allow-same-origin. Its opaque origin must not read parent DOM, storage, or API.
+The normal Studio interface lives entirely in `workspace-dev/`: conversation,
+composer, keyboard policy, context chips, chat scroll, all workspace modes,
+styles and layout. An agent can improve the chat interface in the same hot UI
+build as the rest of the app. There is no normal chat presentation in the kernel.
 
-Every message is a plain object with protocol: "pinpin-workspace-v1",
-nonce (from the frame URL fragment #nonce=...), and type. Parent verifies origin
-"null", source equals an active/pending iframe window, and that frame's nonce.
-Parent-to-child messages use a wildcard target because the child is opaque.
-The child's initial boot also uses a wildcard; subsequent messages target the
-validated origin received with init.
+The immutable parent keeps transport, server polling, message-send exclusion,
+the authoritative draft/context, session persistence, URL validation, frame
+activation, binary upload validation, and minimal recovery conversation controls.
+Server-side conversation history remains authoritative. The recovery chat is
+always available through Conversation and opens if no app can load.
 
-Parent sends init after load (and may answer boot):
-{state,ui,session,apiOrigin,readOnly}. Child renders before sending ready.
-ui uses chapter/view/scene/entity/lang/media/yaw/pitch/fov/t plus ui/rev.
-Child must use apiOrigin for direct registered image/video display URLs.
-Parent later sends state {state,ui,readOnly} and route {state,ui,session,readOnly}.
+## Envelope and lifecycle
 
-Child messages:
-- ready: first successful rendered view; allows atomic frame swap
-- get-state {id}: parent replies response {id,result: state}
-- request {id,path,options}: response {id,result} or {id,error:{message,status}}
-- read-asset {id,path}: registered image or fixed archive video, maximum40MiB;
-  response result {buffer:ArrayBuffer,mime} transfers bytes. Use child blob URLs
-  for images/video/WebGL because opaque iframe origins cannot fetch loopback media.
-- select-context {context:{type:scene|entity|asset,id}}
-- compose {text}: sets a draft only, never sends; parent preserves existing draft
-- ui-state {ui,session,replace}: canonical navigation + serialized planDrafts/scroll
-- notify {message}; error {message}
+The app loads at `/workspace-builds/<64-character-sha256>/index.html#nonce=...`.
+Sandbox: `allow-scripts allow-downloads allow-popups`; never add
+`allow-same-origin` or `allow-forms`. Native form submission is blocked:
+editable composer controls call typed commands directly. Ordinary Enter still
+inserts a newline; Cmd/Ctrl+Enter sends. That policy is editable app code.
 
-Only active frames may mutate project APIs or request context/composer changes.
-Pending frames may read approved workspace APIs. Conversation endpoints,
-runtime controls, arbitrary URLs and headers are excluded. Review snapshots
-are read-only regardless of the child UI. Parent does not trust child readOnly.
-The parent sends no conversation transcript, input draft, credentials, or tokens.
+Every message is an object with `protocol: "pinpin-workspace-v1"`, the frame's
+`nonce`, and `type`. The parent validates origin `null`, source exactly matching
+the active or pending frame, and its nonce. The child validates parent source,
+nonce and the origin learned through init. Wildcard targeting is used only
+where the opaque origin requires it, including initial boot.
 
-The shell polls runtime metadata and swaps only after ready. A failed candidate
-leaves the last good frame alive. Hot updates never reload the parent document.
-Only allowed URL fields are serialized; Copy link pins both build hash and
-saved project revision. Unsaved plan/scroll state stays in parent sessionStorage.
+Parent sends `init` after load or boot:
+`{state,ui,session,apiOrigin,readOnly,...conversationSnapshot}`.
+Child renders, then sends `ready` with
+`capabilities: ["conversation-ui"]`. Parent retains the old app until ready,
+then sends the latest route, conversation snapshot and `activate`. Activation
+restores caret/focus only once; normal polling must not steal focus.
+The hidden prior app receives `suspend` to stop video/GL and release image blobs.
+Failure retains the last good app, or exposes recovery chat if none remains.
+
+Old right-workspace-only builds remain compatible. Their absent capability
+does not prevent loading; Conversation opens the parent's minimal chat.
+
+## Conversation transport
+
+Snapshot fields:
+`conversation, draft, draftSeq, chatContext, pending, uploading, chatScroll,
+chatFocus, chatSelection, connectionError, readOnly`.
+`chatContext` is `{chapterId,sceneIds,entityId,assetIds}`.
+The nullable connectionError is explicitly reset on reconnection.
+The parent sends a `conversation` snapshot after transport and draft changes.
+
+Typed RPC uses top-level fields `{type,id,...payload}`.
+Replies are `response {id,result}` or `response {id,error:{message,status}}`.
+
+- `get-conversation`: current snapshot; active or candidate may read.
+- `send {text}`: active only. Parent supplies validated context and the URL's
+  pinned projectRevision itself. Child cannot override the review revision.
+  Parent rejects empty/oversized input, pending/active turns and ongoing uploads.
+  Editing a new draft during the send preserves it when the response arrives.
+- `interrupt`: active only; uses the existing conversation API.
+- `upload {buffer:ArrayBuffer,mime,name}`: active only, PNG/JPEG/WebP,
+  nonempty and at most40MiB, bounded filename. Server verifies image bytes.
+  Pinned reviews cannot upload. Returns registered asset and current snapshot.
+- `draft {text,seq,scroll?,focus?,selectionStart?,selectionEnd?}`: active only;
+  parent persists text, monotonic sequence and scroll/caret state. Candidate
+  input cannot replace a newer active draft.
+- `context {chapterId,sceneIds,entityId,assetIds}`: active only; parent verifies
+  existing chapter/panels/entity and at most12 registered assets.
+
+Only the active app may send, interrupt, upload or otherwise mutate. A candidate
+may render private conversation snapshots but cannot perform conversation actions.
+No credentials, auth tokens or direct conversation API access are exposed.
+The typed transport is intentionally available to the editable normal composer.
+
+## Workspace requests and media
+
+Existing messages remain:
+`get-state {id}`, `request {id,path,options}`,
+`select-context {context}`, `compose {text}`,
+`ui-state {ui,session,replace}`, `notify {message}`, `error {message}`.
+
+The general JSON request allowlist excludes conversation endpoints, runtime
+controls, arbitrary URLs and headers. Only active frames may mutate project
+APIs. Review snapshots are read-only regardless of child controls; GET state
+uses the parent's locked snapshot and GET plan is forced to its pinned revision.
+
+`read-asset {id,path}` returns transferable
+`{buffer:ArrayBuffer,mime}` only for registered images or the fixed archive video
+allowlist, maximum40MiB. Child image/video/WebGL uses blob URLs: opaque Chrome
+iframes cannot fetch loopback media directly. API CORS was not widened.
+
+Canonical URL fields are chapter/view/scene/entity/lang/media/yaw/pitch/fov/t,
+ui=live|hash, and optional rev. Copy link pins UI hash plus saved project
+revision. No prompt, script or draft content belongs in URLs. Unsaved plan and
+workspace scroll stay in parent session state.
+
+## Verification note
+
+On the Mini's Chrome headless mode, isolated iframe screen size can remain
+800×600 despite a larger emulated viewport, clipping pointer hit tests near the
+bottom. Full-app acceptance therefore runs headed Chrome with site isolation
+and the production sandbox intact. Real Send and Stop pointer actions are
+required; direct handler invocation is not a substitute.

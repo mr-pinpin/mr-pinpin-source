@@ -85,7 +85,7 @@ def selected_context(store, body):
     return text.strip(), scope, inputs
 
 
-POLICY_VERSION = 2
+POLICY_VERSION = 3
 
 
 def instructions(store, workspace_source=None, review=False):
@@ -98,6 +98,9 @@ This trusted Studio developer policy replaces older Studio scope/capability guid
 conversation where it conflicts. In particular, the older blanket instruction "No source-code
 edits" is obsolete for an explicitly configured evolving UI workspace. Older Studio assistant
 refusals based on that blanket rule are historical, not the current policy.
+Older Studio statements that the normal chat composer, keyboard handlers or chat presentation
+are protected stable-core code are also obsolete when those files are inside the configured
+evolving UI directory. Permission follows the actual source path, not the feature's name.
 This update does not override system instructions, sandbox enforcement, or the stable-core,
 publication, credential and human-approval boundaries stated below.
 A previous turn's pinned-review restrictions apply only when THIS policy says pinned review.
@@ -142,12 +145,20 @@ Communicate resulting scene/job IDs so the live comic and production views can u
     if workspace_source:
         workspace_source = Path(workspace_source).resolve()
         guidance += f"""
-UI DEVELOPMENT CAPABILITY: You may improve the evolving right-side Studio workspace when the
-user requests UI changes. Its exact writable source directory is {workspace_source}.
+UI DEVELOPMENT CAPABILITY: You may improve the entire normal Studio interface when the user
+requests UI changes: chat presentation, the chat composer and its keyboard behavior, conversation
+display controls, and the visual comic/workspace views. All of that normal UI lives in the
+evolving source directory {workspace_source}, which is explicitly writable.
+Locate the requested feature's actual implementation there before deciding it is protected.
+In particular, chat-composer.js and its keyboard handlers are ordinary editable UI source.
+Implement the user's requested UI behavior there; do not substitute a different feature or refuse
+merely because the request mentions chat, composer, conversation controls, or keyboard shortcuts.
 Read {workspace_source / 'AGENTS.md'} and {source / 'web' / 'FRAME-PROTOCOL.md'}
 for the UI bridge/module contract before edits.
-Stable parent shell, conversation/server code, frozen releases and runtime build artifacts are
-read-only. Never edit their files or request a restart/deploy. Keep changes bounded to UI source.
+Only the actual stable kernel and backend remain protected: authenticated transport, typed API
+mediation, persistent storage/recovery, iframe hosting and isolation, and immutable release/build
+artifacts. These are outside the evolving UI source root. Do not edit them, relax their boundaries,
+or request a restart/deploy for ordinary UI work. Keep requested UI changes inside the source root.
 The stable server polls source, validates JavaScript syntax without running build scripts, and
 publishes an immutable content-hashed workspace build. The parent swaps only a ready iframe.
 GET /api/runtime reports latest/previous build hash, status and error; a broken build keeps the
@@ -158,9 +169,11 @@ parent DOM, remove sandboxing, or introduce external dependencies. Follow the do
 Put test outputs/reports in {store.root}. Use node --input-type=module --check for changed JS.
 Read current source before changing it, preserve other ongoing work, and report actual build
 results honestly. UI edits do NOT require comic preproduction approval. Production art still does.
-If a request targets the stable parent composer, conversation controls or backend rather than
-this evolving right-side workspace, explain that specific stable-core boundary. Such a change
-needs a new stable release from the operator; do not claim that all UI/source editing is banned.
+If the requested implementation truly requires changing transport, API authority, persistence,
+recovery, iframe isolation or backend files outside the evolving UI root, explain that specific
+kernel boundary; those changes need a new stable release from the operator. Normal composer
+presentation and keyboard behavior do not require a kernel change merely because they control
+chat UI. Preserve the typed bridge and existing authority checks while implementing UI requests.
 """
     if review:
         guidance += """
