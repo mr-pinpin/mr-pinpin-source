@@ -1,7 +1,8 @@
 """Versioned Studio business API loaded as one immutable package per revision."""
-from .routes import route
-from .capability_adapters import business_capabilities, business_dispatch
-from .context import selected_context
+from .routes import route as _legacy_route
+from .capability_registry import business_capabilities, business_dispatch
+from .context import selected_context as _selected_context
+from .sheet_workflow import add_sheet_workflow, cli_sheet_route
 from .creative_policy import creative_policy
 from .jobs import claim_job, complete_job, fail_job, reply, inbox
 from .conversation_plan import plan_hash
@@ -10,6 +11,14 @@ from .cast_workflow import save_progress as reconcile_cast
 from .cast_inventory import record_package as finish_cast_package
 
 API_VERSION = 1
+
+def route(store,method,path,query,body):
+    if method=='POST' and path=='/api/business/draft.sheet.bind.v1':
+        return 200,cli_sheet_route(store,body)
+    return _legacy_route(store,method,path,query,body)
+
+def selected_context(store,body):
+    return add_sheet_workflow(_selected_context(store,body),store)
 
 
 def self_test():

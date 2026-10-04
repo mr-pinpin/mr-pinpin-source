@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "id": "tractor-stop-07-existing",
+  "projection": "equirectangular",
+  "reviewStatus": "experimental",
+  "camera": {
+    "yaw": 1.4434877283853565e-05,
+    "pitch": -0.010804436279734844,
+    "fov": 63.108676232412364
+  },
+  "orbit": {
+    "id": "tractor-orbit-scrub-v1",
+    "sha256": "5c30e3ee490785285db00041d0b7a90fcc0e1c10e38535ac6aea6521b326a9de"
+  },
+  "stops": [
+    {
+      "id": "stop-07",
+      "status": "reviewed",
+      "sourceLockStatus": "experimental",
+      "actualTimestampSeconds": 5.625,
+      "camera": {
+        "yaw": 1.4434877283853565e-05,
+        "pitch": -0.010804436279734844,
+        "fov": 63.108676232412364
+      },
+      "panorama": {
+        "id": "tractor-stop-07-panorama-v1",
+        "sha256": "fd2aeaa2f36bfb441ed1878320fefbabc3f3188af4eb9830c9e700089cb65af5"
+      },
+      "sourceFrame": {
+        "id": "tractor-stop-07-source-display-v1",
+        "sha256": "d2e867d286b6fe32d389150d1b93cdc76922f405d49ae4883ed58ed936f5c370"
+      }
+    }
+  ],
+  "records": {
+    "selectedSHA256": "7e499cb84a96b7024369c358d362fda5413047bb8f7d056b988574f5356221af",
+    "framesManifestSHA256": "dd6a56d49ffcc63ce5b2879de7bdc10e8145e142de44d7b57d2c8569bddee71c",
+    "reviewSHA256": "2ba8e15c083de650947a9a6d5ee35cec273aaf97dfe9593cbb0025e644b248c7"
+  },
+  "sha256": "9c4803d1d2a41d5f14e61bd233893c42aa78437f54ddaccffe1b35a1c4a0336c"
+}

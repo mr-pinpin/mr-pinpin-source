@@ -59,3 +59,25 @@ def chunk(store,request):
  try:return _chunk(store,request)
  except StudioError:raise
  except (OSError,ValueError,TypeError,KeyError):fail("Delivery receipt invalid or unavailable")
+
+
+def list_deliveries(store,chapter):
+ """Sanitized registered identities only; chunk() verifies actual bytes on download."""
+ root=Path(store.root).resolve();directory=(root/'deliveries').resolve()
+ catalog=directory/'catalog.json'
+ if not directory.is_relative_to(root) or not catalog.resolve().is_relative_to(directory):
+  return [], 'invalid-catalog'
+ if not catalog.is_file():return [], 'no-catalog'
+ if catalog.stat().st_size>256*1024:return [], 'invalid-catalog'
+ try:
+  entries=json.loads(catalog.read_text()).get('deliveries',[])
+ except (OSError,ValueError,AttributeError):return [], 'invalid-catalog'
+ if not isinstance(entries,list) or len(entries)>1024:return [], 'invalid-catalog'
+ bindings={v['version']:v['sha256'] for v in chapter.get('studioDraft',{}).get('versions',[])}
+ result=[]
+ for entry in entries:
+  if not isinstance(entry,dict) or entry.get('chapterId')!=chapter['id']:continue
+  version=entry.get('version')
+  if type(version) is not int or bindings.get(version)!=entry.get('sourceVersionSHA256') or entry.get('language') not in ('en','ru') or not isinstance(entry.get('artifactSHA256'),str) or not re.fullmatch('[a-f0-9]{64}',entry['artifactSHA256']) or type(entry.get('bytes')) is not int or not 1<=entry['bytes']<=MAX_PDF:continue
+  result.append({k:entry[k] for k in ('chapterId','version','sourceVersionSHA256','language','artifactSHA256','bytes')})
+ return result,'registered'

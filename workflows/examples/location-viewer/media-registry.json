@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "files": {
+    "tractor-orbit-scrub-v1": {
+      "path": "media/orbit-scrub-v1.mp4",
+      "bytes": 23520738,
+      "sha256": "5c30e3ee490785285db00041d0b7a90fcc0e1c10e38535ac6aea6521b326a9de",
+      "mime": "video/mp4",
+      "name": "tractor-orbit-scrub-v1",
+      "reviewStatus": "recorded",
+      "projection": "camera-path",
+      "provenance": {
+        "sourceReceiptSHA256": "0284aee3fe4ff106ae16db0bd586719bd28f21f12a405c821f6f2e388b98444d",
+        "originalSource": "/Volumes/TB4/mac-mini-storage/shared/pinpin-tractor-orbit-20260924/orbit-scrub-v1.mp4"
+      }
+    },
+    "tractor-stop-07-panorama-v1": {
+      "path": "media/stop-07-panorama.png",
+      "bytes": 12379757,
+      "sha256": "fd2aeaa2f36bfb441ed1878320fefbabc3f3188af4eb9830c9e700089cb65af5",
+      "mime": "image/png",
+      "name": "tractor-stop-07-panorama-v1",
+      "reviewStatus": "experimental",
+      "projection": "equirectangular",
+      "provenance": {
+        "sourceReceiptSHA256": "0284aee3fe4ff106ae16db0bd586719bd28f21f12a405c821f6f2e388b98444d",
+        "originalSource": "/Volumes/TB4/mac-mini-storage/shared/pinpin-tractor-stops-20260924/stops/stop-07/panorama-assembled-v1.png"
+      }
+    },
+    "tractor-stop-07-source-display-v1": {
+      "path": "media/stop-07-source-display.png",
+      "bytes": 1827134,
+      "sha256": "d2e867d286b6fe32d389150d1b93cdc76922f405d49ae4883ed58ed936f5c370",
+      "mime": "image/png",
+      "name": "tractor-stop-07-source-display-v1",
+      "reviewStatus": "experimental",
+      "projection": "perspective",
+      "provenance": {
+        "sourceReceiptSHA256": "0284aee3fe4ff106ae16db0bd586719bd28f21f12a405c821f6f2e388b98444d",
+        "originalSource": "/Volumes/TB4/mac-mini-storage/shared/pinpin-tractor-stops-20260924/stops/stop-07/source-display.png"
+      }
+    }
+  }
+}

@@ -13,7 +13,7 @@ export function selectContext(context){if(context.type==='scene'){studio.sceneId
 const renderedContent=new WeakMap();
 function updateContent(content,html){if(renderedContent.get(content)===html)return false;content.innerHTML=html;renderedContent.set(content,html);return true;}
 export async function renderWorkspace({preserveScroll=false}={}){const content=document.querySelector('#workspace-content'),scroll=preserveScroll?content.scrollTop:0;if(typeof studio.mediaCleanup==='function')studio.mediaCleanup();studio.mediaCleanup=null;
- if(studio.planOpen){renderedContent.delete(content);content.innerHTML=renderPlan();bindPlan();content.scrollTop=scroll;return}
+ if(studio.planOpen){if(updateContent(content,renderPlan()))bindPlan();content.scrollTop=scroll;return}
  if(studio.mode==='spaces'||studio.mode==='insights'){renderedContent.delete(content);content.innerHTML='';const context={state:studio.state,chapter:chapter(),lang:studio.lang,request,selectContext,compose,notify,refresh,readAsset,readOnly:studio.readOnly,viewState:studio,onViewChange:patch=>{Object.assign(studio,patch);emitUI(true);}};try{studio.mediaCleanup=await(studio.mode==='spaces'?renderSpaces:renderInsights)(content,context)}catch(e){content.innerHTML=empty('This view could not open',e.message)}return}
  if(studio.mode==='references'){if(updateContent(content,renderReferences()))bindReferences();content.scrollTop=scroll;return}
  if(updateContent(content,studio.mode==='read'?renderRead():renderBoard())){bindScenes();bindBoard();}content.scrollTop=scroll;

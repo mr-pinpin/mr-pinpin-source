@@ -1,0 +1,12 @@
+#!/bin/sh
+# Verified no-site Python entry; ordinary local helper execution only.
+set -eu
+studio_tool_dir=$(CDPATH= cd -- "$(dirname -- "$0")" && pwd)
+studio_data_default=$(dirname -- "$studio_tool_dir")
+studio_parent=$(dirname -- "$studio_data_default")
+export PINPIN_STUDIO_DATA="${PINPIN_STUDIO_DATA:-$studio_data_default}"
+export PINPIN_STUDIO_RUNTIME="${PINPIN_STUDIO_RUNTIME:-$studio_parent/runtime}"
+export PINPIN_STUDIO_SOURCE="${PINPIN_STUDIO_SOURCE:-$studio_parent/source}"
+studio_dependencies="${PINPIN_STUDIO_DEPENDENCIES:-$studio_parent/dependencies}"
+export PYTHONPATH="$studio_dependencies${PYTHONPATH:+:$PYTHONPATH}"
+exec "${PINPIN_STUDIO_PYTHON:-/opt/homebrew/bin/python3}" -S -B "$@"

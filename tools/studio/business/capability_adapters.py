@@ -3,7 +3,7 @@ import time
 from model import StudioError, find, valid_id
 from review_state import state_at_revision
 from . import chapter_drafts
-from .draft_pdf_delivery import chunk
+from .draft_pdf_delivery import chunk, list_deliveries
 
 def obj(fields,required): return {'type':'object','fields':fields,'required':required}
 def ident(): return {'type':'id','maxLength':160}
@@ -38,8 +38,22 @@ def business_dispatch(store,operation,body,context):
     if operation=='draft.get.v1':
         state=state_at_revision(store,context['revision'] if context['readOnly'] else None)
         chapter=find(state['project']['chapters'],valid_id(body['chapterId']),'chapter')
-        draft=chapter_drafts.draft_context(chapter,page=body.get('page',0),store=store,state=state)
+        binding_error=None
+        try:
+            draft=chapter_drafts.draft_context(chapter,page=body.get('page',0),store=store,state=state)
+        except StudioError as exc:
+            # Read-only view stays useful; cached saved bindings never become proof.
+            draft=chapter_drafts.draft_context(chapter,page=body.get('page',0))
+            binding_error=str(exc)[:300]
         if draft:
+            saved=chapter_drafts.current(chapter)
+            draft['bindingsVerified']=not binding_error and all(b.get('availability')=='verified-local' for b in draft.get('referenceBindings',[]))
+            draft['bindingChanged']=draft.get('referenceHash')!=saved.get('referenceHash')
+            draft['referenceBindingStatus']='unresolved' if not draft['bindingsVerified'] else 'changed' if draft['bindingChanged'] else 'verified'
+            if binding_error:draft['bindingError']=binding_error
+            if not draft['bindingsVerified'] or draft['bindingChanged']:draft['productionAuthorized']=False
+        if draft:
+            draft['deliveries'],draft['deliveryStatus']=list_deliveries(store,chapter)
             draft['patchRoute']='/api/business/draft.patch.v1'
             draft['authorizeRoute']='/api/business/draft.authorize.v1'
         return {'draft':draft,'revision':state['revision'],'readOnly':bool(state.get('readOnly'))}

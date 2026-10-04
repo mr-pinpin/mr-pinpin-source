@@ -1,6 +1,7 @@
 """Reloadable selection and native multimodal attachment business rules."""
 import json
 from .conversation_plan import plan_status
+from .book_context import planning_context
 from .character_context import ReferenceIndex, hydrate_character, prepared_toolchain, reference_path, starter_pack
 from .cast_workflow import workflow_context
 from review_state import state_at_revision
@@ -95,7 +96,10 @@ def selected_context(store, body):
                         if adjacent["id"] not in scene_ids and adjacent not in neighbors:
                             neighbors.append(adjacent)
         chapter_context["adjacentScenes"] = neighbors[:2]
-    book = {key: value for key, value in project.get("book", {}).items() if key != "manuscript"}
+    book = {key: value for key, value in project.get("book", {}).items() if key not in ("manuscript", "studioBookPlan")}
+    selected_book_plan = planning_context(project, chapter_id, scene_ids, state["revision"])
+    if selected_book_plan is not None:
+        book["planningContext"] = selected_book_plan
     defaults = book.get("characterReferenceDefaults")
     if isinstance(defaults, dict):
         bindings = defaults.get("characters", {})
@@ -114,12 +118,12 @@ def selected_context(store, body):
                                ("id", "name", "sha256", "width", "height", "reviewStatus", "provenance")}
                               for a in reference_assets],
                "additionalReferenceIds": references[12:]}
-    context["chapterDraftWorkflow"] = {"guidePath":"workflows/chapter-drafts.md","save":"python -B tools/chapter_draft_ops.py save <spec.json>","patch":"python -B tools/chapter_draft_ops.py patch <chapterId> --panel <panelId> --fields '<JSON>'","production":"Explicit version/spec/reference-bound user go at full-production dispatch; rough preproduction allowed"}
+    context["chapterDraftWorkflow"] = {"guidePath":"workflows/chapter-drafts.md","save":"tools/studio-python tools/chapter_draft_ops.py save <spec.json>","patch":"tools/studio-python tools/chapter_draft_ops.py patch <chapterId> --panel <panelId> --fields '<JSON>'","production":"Explicit version/spec/reference-bound user go at full-production dispatch; rough preproduction allowed"}
     if chapter and chapter.get('studioDraft'):
         from .chapter_drafts import draft_context
         context["chapterDraft"] = draft_context(chapter, scene_ids, store=store, state=state)
         context["chapterDraft"]["expectedRevision"] = state['revision']
-        context["chapterDraftWorkflow"]["authorize"] = "python -B tools/chapter_draft_ops.py authorize <chapterId> --version <N> --sha256 <specSHA256> --reference-hash <referenceHash> --expected-revision <revision> --instruction '<exact explicit full-production go>'"
+        context["chapterDraftWorkflow"]["authorize"] = "tools/studio-python tools/chapter_draft_ops.py authorize <chapterId> --version <N> --sha256 <specSHA256> --reference-hash <referenceHash> --expected-revision <revision> --instruction '<exact explicit full-production go>'"
         context["chapterDraftWorkflow"]["naturalLanguage"] = "Only a specific user request for full production authorizes recording go for these current bindings. Text revisions and rough storyboard requests do not. Historical views cannot authorize. Saving authorization does not dispatch jobs."
     if character_context is not None:
         context["characterContext"] = character_context

@@ -1,0 +1,16 @@
+import assert from 'node:assert/strict';
+import {renderCompactSheets} from '../workspace-dev/compact-sheet-view.js';
+const escape=x=>String(x).replaceAll('&','&amp;').replaceAll('<','&lt;').replaceAll('"','&quot;');
+const source={version:3,sha256:'a'.repeat(64)};
+const sheet={kind:'compact-sheet',sourceVersion:3,sourceVersionSHA256:source.sha256,assetId:'sheet',assetSHA256:'b'.repeat(64),panelIds:Array.from({length:10},(_,i)=>'p'+i),columns:2,rows:5,promptSHA256:'c'.repeat(64),receiptSHA256:'d'.repeat(64),provenanceStatus:'caller-declared-prompt-and-receipt-digests'};
+const chapter={studioDraft:{currentVersion:3,versions:[source]},studioDraftPreviews:[sheet]};
+const options={assets:[{id:'sheet',sha256:sheet.assetSHA256,url:'/api/assets/sheet'}],escape};
+const current=renderCompactSheets(chapter,source,options);assert.equal((current.html.match(/<img /g)||[]).length,1);assert.ok(current.html.includes('data-sheet-stale="false"'));assert.ok(current.sheetAssetIds.has('sheet'));
+const revised={version:4,sha256:'e'.repeat(64)};const next={...chapter,studioDraft:{currentVersion:4,versions:[source,revised]}};
+assert.ok(renderCompactSheets(next,revised,options).html.includes('Stale preview'));
+assert.ok(renderCompactSheets(next,source,options).html.includes('data-sheet-stale="true"'));
+const absent=renderCompactSheets(chapter,source,{...options,assets:[]});assert.ok(absent.html.includes('No substitute artwork'));assert.ok(!absent.html.includes('<img '));
+const wrong=renderCompactSheets(chapter,source,{...options,assets:[{id:'sheet',sha256:'f'.repeat(64)}]});assert.ok(!wrong.html.includes('<img '));
+assert.equal(renderCompactSheets({...chapter,studioDraftPreviews:[]},source,options).html,'');
+assert.ok(renderCompactSheets({...chapter,studioDraftPreviews:[{...sheet,provenanceStatus:'<script>unsafe</script>'}]},source,options).html.includes('&lt;script>'));
+console.log('7 compact-sheet view checks passed');

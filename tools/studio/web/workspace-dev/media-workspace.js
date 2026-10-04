@@ -1,5 +1,7 @@
 import {openPanorama} from './panorama.js';
+import {buildLocationDescriptor,mountLocationViewer} from './location-viewer.js';
 const el=(tag,text,className)=>{const n=document.createElement(tag);if(text!=null)n.textContent=text;if(className)n.className=className;return n;};
+export function locationViewerRequest(mediaId){return {method:'POST',body:JSON.stringify({mediaId})};}
 function button(text,action){const n=el('button',text);n.type='button';n.onclick=action;return n;}
 async function get(options,url){return options.request(url);}
 function heading(container,title,description){container.append(el('h2',title),el('p',description,'media-description'));}
@@ -17,7 +19,21 @@ export function renderSpaces(container,options={}){
    const title=typeof item.name==='object'?item.name[options.lang]||item.name.en||Object.values(item.name)[0]:item.name;
    stage.append(el('h3',title),el('p',item.note||`${item.projection} · ${item.reviewStatus}`,'media-description'));
    const view=el('div',null,'media-view');stage.append(view);const restored=restoring?{...options.viewState}:{};options.onViewChange?.({media:item.id,...(restoring?{}:{yaw:null,pitch:null,fov:null,t:null})});
-   if((item.kind==='panorama'&&item.projection==='equirectangular')||item.projection==='cube-atlas-3x2'){
+   if(item.locationViewerAvailable&&!options.readOnly){
+    try{
+     const metadata=await options.request('/api/business/spaces.location.get.v1',locationViewerRequest(item.id));
+     if(!alive||selection!==token)return;
+     const descriptor=buildLocationDescriptor(metadata.manifest,metadata.registry),urls=new Map();let viewer=null,closed=false;
+     async function resolveAsset(row){
+      if(closed)throw Error('Location selection closed');
+      if(urls.has(row.id))return urls.get(row.id);
+      const promise=options.readAsset('/api/media/files/'+row.id).then(url=>{if(closed){URL.revokeObjectURL(url);throw Error('Location selection closed');}return url;});
+      urls.set(row.id,promise);try{return await promise;}catch(error){urls.delete(row.id);throw error;}
+     }
+     viewer=mountLocationViewer(view,descriptor,{resolveAsset,compose:options.compose,onError:error=>options.notify?.(error.message),readOnly:options.readOnly});
+     dispose=()=>{closed=true;viewer.destroy();for(const promise of urls.values())promise.then(url=>URL.revokeObjectURL(url),()=>{});urls.clear();};
+    }catch(error){if(alive&&selection===token)view.append(el('p',error.message,'media-error'));}
+   }else if((item.kind==='panorama'&&item.projection==='equirectangular')||item.projection==='cube-atlas-3x2'){
     try{const textureURL=await options.readAsset(item.url);if(!alive||selection!==token){URL.revokeObjectURL(textureURL);return;}const close=openPanorama({...item,url:textureURL},view,{yaw:restored.yaw,pitch:restored.pitch,fov:restored.fov,onChange:patch=>options.onViewChange?.(patch)});dispose=()=>{close?.();URL.revokeObjectURL(textureURL);};}catch(error){if(alive&&selection===token)view.append(el('p',error.message,'media-error'));}
    }else if(item.kind==='orbit-video'){try{const blob=await options.readAsset(item.url);if(!alive||selection!==token){URL.revokeObjectURL(blob);return;}const close=orbit(view,{...item,url:blob},{t:restored.t,onChange:patch=>options.onViewChange?.(patch)});dispose=()=>{close();URL.revokeObjectURL(blob);};}catch(error){if(alive&&selection===token)view.append(el('p',error.message,'media-error'));}}
    else{const img=el('img');img.dataset.assetSrc=item.url;img.alt=title;img.className='media-atlas';view.append(img);dispose=()=>{};}
@@ -25,6 +41,7 @@ export function renderSpaces(container,options={}){
    async function attach(){if(!item.assetId){const response=await options.request('/api/media/import',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({id:item.id})});item.assetId=response.asset.id;await options.refresh?.();}options.selectContext?.({type:'asset',id:item.assetId,label:title});}
    if(item.kind!=='orbit-video')actions.append(button('Use as reference',async()=>{try{await attach();options.notify?.('Reference added to the conversation.');}catch(e){options.notify?.(e.message);}}));
    actions.append(button('Review in conversation',async()=>{try{if(item.kind!=='orbit-video')await attach();options.compose?.(`Review ${title} from the Spaces library (media ID: ${item.id}). ${item.kind==='orbit-video'?'Video selected: inspect extracted frames from the allowlisted archive; this is not a native video attachment. ':''}Inspect continuity, visible seams and remaining defects; preserve its source version.`);}catch(e){options.notify?.(e.message);}}));
+   if(options.readOnly)for(const b of actions.querySelectorAll('button')){b.disabled=true;b.title='Historical view is read only.';}
    stage.append(actions);if(item.reviewNotes){const detail=el('details');detail.append(el('summary','Source & review notes'),el('p',item.reviewNotes,'media-description'));stage.append(detail);}
   }
   for(const item of data.items){const label=typeof item.name==='object'?item.name[options.lang]||item.name.en||Object.values(item.name)[0]:item.name;const b=button('',()=>select(item));b.dataset.id=item.id;b.append(el('strong',label),el('small',item.kind.replaceAll('-',' ')));list.append(b);}
