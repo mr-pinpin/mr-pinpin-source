@@ -98,7 +98,30 @@ class ClientTest(unittest.TestCase):
         self.assertEqual(body["text"], "[fleet-msg from codex-wap1]\n[Actor: codex-wap1; on behalf of: Miguel]\n\nKeep this exact.\nСпасибо.")
         self.assertEqual(body["projectRevision"], 3)
         self.assertEqual(body["sceneIds"], ["scene-1"])
+        self.assertEqual(body["chapterId"], "bath")
+        self.assertEqual(body["entityId"], "pompom")
+        self.assertEqual(body["assetIds"], ["asset-1"])
         self.assertEqual(len(self.server.posts), 1)
+
+    def test_selection_payload_preserves_multiple_ids(self):
+        code, receipt = self.call("send", "--actor", "qa", "--text", "Revise panel", "--chapter", "pilot", "--scene", "panel-7", "--scene", "panel-8", "--asset", "a", "--asset", "b")
+        self.assertEqual(code, 0)
+        body = self.server.posts[0]
+        self.assertEqual(body["chapterId"], "pilot")
+        self.assertEqual(body["sceneIds"], ["panel-7", "panel-8"])
+        self.assertEqual(body["assetIds"], ["a", "b"])
+        self.assertNotIn("entityId", body)
+        self.assertEqual(receipt["actor"], "qa")
+        self.assertTrue(receipt["accepted"])
+
+    def test_unselected_text_does_not_invent_browser_context(self):
+        code, _ = self.call("send", "--actor", "qa", "--text", "Revise pilot panel 7")
+        self.assertEqual(code, 0)
+        body = self.server.posts[0]
+        self.assertNotIn("chapterId", body)
+        self.assertNotIn("entityId", body)
+        self.assertEqual(body["sceneIds"], [])
+        self.assertEqual(body["assetIds"], [])
 
     def test_busy_is_distinct_and_never_retries(self):
         self.server.busy = True
