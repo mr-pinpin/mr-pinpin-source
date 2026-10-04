@@ -1,6 +1,8 @@
 const protocol='pinpin-workspace-v1';
 const nonce=new URLSearchParams(location.hash.slice(1)).get('nonce');
 let parentOrigin=null,serial=0;const pending=new Map();
+// App links use the authenticated parent's origin, including the Air tunnel port.
+export function appURL(path){if(typeof path!=='string'||!/^\/\?chapter=[A-Za-z0-9._-]+(?:&[A-Za-z]+=[A-Za-z0-9._-]+)*$/.test(path)||!parentOrigin)return null;return new URL(path,parentOrigin).href;}
 export function send(type,payload={},transfer=[]){parent.postMessage({protocol,nonce,type,...payload},parentOrigin||'*',transfer);}
 export function accept(event){const value=event.data;if(event.source!==parent||!value||value.protocol!==protocol||value.nonce!==nonce)return false;if(parentOrigin&&event.origin!==parentOrigin)return false;if(value.type==='init'&&!parentOrigin)parentOrigin=event.origin;return true;}
 export function receiveResponse(value){if(value.type!=='response')return false;const call=pending.get(value.id);if(!call)return true;clearTimeout(call.timer);pending.delete(value.id);if(value.error){const error=new Error(typeof value.error==='string'?value.error:value.error.message||'Request failed');error.status=value.error.status;call.reject(error);}else call.resolve(value.result);return true;}

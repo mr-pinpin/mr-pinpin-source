@@ -46,3 +46,9 @@ The standalone `packages/replica_store` library and filesystem outbox are implem
 Actual deployment runs through authorized Mini tmux with a TB4 mount/UUID guard and bounded caches/logs. Direct launchd external-volume access blocks reboot autostart; automatic reboot recovery is not established. No Studio daemon/kernel change is implied.
 
 Frozen ordinary character benchmarks remain Badger 658.651596s total / 87.371827s image / 571.279769s outside image; Otter 312.267804s total / 93.365586s image / 218.902218s outside image. These predate the combined shared-storage workflow; no new combined creation-plus-storage or full-chapter benchmark has been measured. Keep preparation, generation, visual QA, registration, metadata closeout and asynchronous transfer time distinct.
+
+## Declarative chapter drafts and fast revisions
+
+[Chapter drafts](chapter-drafts.md) documents persistent selected-panel patches, compact pages for long chapters, registered visual previews, reference byte/role bindings and the version-bound full-production dispatch boundary. Use chapter_draft_ops for ordinary revisions instead of bespoke scripts or copied full specs. Planning and requested rough preproduction remain proactive; full production requires the actual specific user instruction for the reviewed current version.
+
+App replies use links relative to the current Studio tunnel. Retain the 94.29-second unselected-chapter request as a baseline: it is not a matched UI benchmark, and the 13.85-second preparation-to-save timer is partial. Warm selected-chapter latency and a newly illustrated compact comic preview have not yet been measured. The recorded ten passing isolated tests remain intact; additional paid spending is zero.

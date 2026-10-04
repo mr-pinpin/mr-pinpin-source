@@ -37,9 +37,8 @@ requires a reviewed media registration before the browser can serve it.
 
 
 def _entity_role(kind):
-    return {"character": "character-identity", "location": "location-identity",
-            "prop": "prop-geometry", "style": "book-style",
-            "panorama": "seamless-panorama"}[kind]
+    from .chapter_drafts import entity_reference_role
+    return entity_reference_role(kind)
 
 
 def create_job(store, request):
@@ -68,6 +67,10 @@ def create_job(store, request):
         chapter_id = request.get("chapterId")
         scene_ids = list(dict.fromkeys(request.get("sceneIds", [])))
         chapter = find(project["chapters"], chapter_id, "chapter") if chapter_id else None
+        reviewed_binding = None
+        if chapter and chapter.get('studioDraft'):
+            from .chapter_drafts import dispatch_preflight
+            reviewed_binding = dispatch_preflight(store, state, chapter, request)
         if scene_ids and chapter is None:
             raise StudioError("Scene jobs require chapterId")
         if chapter:
@@ -100,18 +103,13 @@ def create_job(store, request):
             if entity_id and entity_id not in binding["entityIds"]:
                 binding["entityIds"].append(entity_id)
 
-        for entity in entities:
-            for asset_id in entity.get("referenceIds", []):
-                bind(asset_id, _entity_role(entity["kind"]), entity["id"])
-        for asset_id in project.get("book", {}).get("styleReferenceIds", []):
-            bind(asset_id, "book-style")
-        for scene in scenes:
-            if scene.get("imageAssetId"):
-                bind(scene["imageAssetId"], "current-scene")
-        for asset_id in request.get("referenceIds", []):
-            bind(asset_id, "reference")
-        for value in request.get("referenceBindings", []):
-            bind(value.get("assetId"), value.get("role"), value.get("entityId"))
+        from .chapter_drafts import reference_requests
+        for asset_id, role, entity_id in reference_requests(project, scenes,
+                request.get('referenceIds', []), request.get('referenceBindings', []), request.get('entityId')):
+            bind(asset_id, role, entity_id)
+        if reviewed_binding is not None:
+            from .chapter_drafts import resolved_input_preflight
+            resolved_input_preflight(state, reviewed_binding, list(bindings.values()))
         if request["kind"] == "cubemap":
             methods = {b["assetId"] for b in bindings.values() if "seamless-panorama" in b["roles"]}
             locations = {b["assetId"] for b in bindings.values() if "location-identity" in b["roles"]}
@@ -137,6 +135,14 @@ def create_job(store, request):
                 {key: scene.get(key) for key in ("id", "title", "captions", "action", "stateBefore", "stateAfter")}
                 for scene in chapter["scenes"] if scene["id"] in context_ids - set(scene_ids)]
         prompt = HEADER + (PANORAMA if request["kind"] == "cubemap" else ORBIT if request["kind"] == "orbit-video" else "")
+        if chapter and chapter.get('studioDraft') and request['kind'] != 'story-plan':
+            from .chapter_drafts import local_verified
+            total = 0
+            for binding in bindings.values():
+                reference = find(state['assets'], binding['assetId'], 'reference asset')
+                total += reference.get('bytes', 0)
+                if total > 256 * 1024 * 1024 or not local_verified(store, state, reference):
+                    raise StudioError('Generation references exceed byte budget or need verified local restoration')
         prompt += "\nRequested work:\n" + instruction + "\n\nBound snapshot:\n"
         prompt += json.dumps(snapshot, ensure_ascii=False, indent=2)
         prompt_path = store.root / "jobs" / identifier / "handoff-prompt.txt"
@@ -149,6 +155,12 @@ def create_job(store, request):
                "feedback": [], "createdAt": now(), "updatedAt": now()}
         if retry_of is not None:
             job["retryOf"] = retry_of
+        if chapter and chapter.get('studioDraft'):
+            from .chapter_drafts import current
+            version = current(chapter)
+            job['draftBinding'] = ({k: reviewed_binding[k] for k in ('version', 'sha256', 'referenceHash')}
+                if reviewed_binding is not None else {k: version.get(k) for k in ('version', 'sha256', 'referenceHash')})
+            job['productionScope'] = request.get('productionScope', 'full-production')
         state["jobs"].append(job)
         store.event(state, "job.queued", jobId=identifier)
         return job

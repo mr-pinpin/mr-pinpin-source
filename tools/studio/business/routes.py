@@ -10,10 +10,21 @@ from .media_library import media_library, import_media
 from .cast_workflow import workflow_context, save_progress
 from .cast_inventory import record_package
 from . import asset_storage
+from .chapter_drafts import save_draft, patch_draft, authorize_production, draft_context
 
 
 def route(store, method, path, query, body):
     if method == "GET":
+        if path == '/api/chapter-drafts':
+            revision = query.get('revision', [None])[0]
+            if revision is not None and not str(revision).isdigit():
+                raise StudioError('Invalid historical revision')
+            state = state_at_revision(store, int(revision) if revision is not None else None)
+            chapter = find(state['project']['chapters'], valid_id(query.get('chapterId', [None])[0]), 'chapter')
+            page = query.get('page', ['0'])[0]
+            if not str(page).isdigit() or int(page) > 42:
+                raise StudioError('Invalid compact page')
+            return 200, {'draft': draft_context(chapter, page=int(page), store=store, state=state), 'revision': state['revision'], 'readOnly': bool(state.get('readOnly'))}
         if path == "/api/plan":
             chapter_id = query.get("chapterId", [None])[0]
             revision = query.get("revision", [None])[0]
@@ -38,6 +49,14 @@ def route(store, method, path, query, body):
         if path == "/api/media":
             return 200, media_library(store)
     elif method == "POST":
+        if path == '/api/chapter-drafts/patch':
+            return 200, patch_draft(store, body)
+        if path == '/api/chapter-drafts/authorize-production':
+            if query.get('revision') is not None:
+                raise StudioError('Historical views cannot authorize production')
+            return 200, authorize_production(store, body)
+        if path == '/api/chapter-drafts':
+            return 200, save_draft(store,body)
         if path in ('/api/storage/resolve', '/api/storage/backup', '/api/storage/enqueue', '/api/characters/prepare', '/api/characters/outcome', '/api/characters/registration-preflight'):
             try:
                 with asset_storage.operation(store):

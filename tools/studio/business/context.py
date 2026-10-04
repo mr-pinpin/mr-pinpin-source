@@ -114,6 +114,13 @@ def selected_context(store, body):
                                ("id", "name", "sha256", "width", "height", "reviewStatus", "provenance")}
                               for a in reference_assets],
                "additionalReferenceIds": references[12:]}
+    context["chapterDraftWorkflow"] = {"guidePath":"workflows/chapter-drafts.md","save":"python -B tools/chapter_draft_ops.py save <spec.json>","patch":"python -B tools/chapter_draft_ops.py patch <chapterId> --panel <panelId> --fields '<JSON>'","production":"Explicit version/spec/reference-bound user go at full-production dispatch; rough preproduction allowed"}
+    if chapter and chapter.get('studioDraft'):
+        from .chapter_drafts import draft_context
+        context["chapterDraft"] = draft_context(chapter, scene_ids, store=store, state=state)
+        context["chapterDraft"]["expectedRevision"] = state['revision']
+        context["chapterDraftWorkflow"]["authorize"] = "python -B tools/chapter_draft_ops.py authorize <chapterId> --version <N> --sha256 <specSHA256> --reference-hash <referenceHash> --expected-revision <revision> --instruction '<exact explicit full-production go>'"
+        context["chapterDraftWorkflow"]["naturalLanguage"] = "Only a specific user request for full production authorizes recording go for these current bindings. Text revisions and rough storyboard requests do not. Historical views cannot authorize. Saving authorization does not dispatch jobs."
     if character_context is not None:
         context["characterContext"] = character_context
         if cast_workflow:
