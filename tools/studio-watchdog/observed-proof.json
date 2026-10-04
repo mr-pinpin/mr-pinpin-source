@@ -1,0 +1,28 @@
+{
+  "deadlineUTC": "2026-10-04T12:49:30Z",
+  "scope": "APP watchdog; coordinator owns native active goal and production approval",
+  "scheduledIntervalSeconds": 300.120402,
+  "naturalTicksUTC": [
+    "2026-10-04T02:54:11.457782Z",
+    "2026-10-04T02:59:11.578184Z"
+  ],
+  "naturallyObservedCompletedCursor": 19577,
+  "oneExclusiveDispatch": {
+    "messageId": "message-09d79b5d50b2497c9042",
+    "acceptedAt": "2026-10-04T03:01:21.652463Z",
+    "turnId": null,
+    "accepted": true,
+    "scope": "script/storyboard panel revision only; no generation or publication",
+    "reservedUSD": 0,
+    "duplicatePrevention": "claim persisted before send; no retry"
+  },
+  "ownershipReturnedUTC": "2026-10-04T03:03:31Z",
+  "finalMode": "read-only",
+  "coordinatorResumedDispatch": {
+    "messageId": "message-7930d03b87e04fae85d7",
+    "UTC": "2026-10-04T03:05:00Z",
+    "timePrecision": "minute from coordinator report"
+  },
+  "noROOTRevivalClaim": true,
+  "rebootRecoveryVerified": false
+}
