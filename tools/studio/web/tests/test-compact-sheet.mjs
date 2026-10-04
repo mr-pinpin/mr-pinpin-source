@@ -7,8 +7,10 @@ const chapter={studioDraft:{currentVersion:3,versions:[source]},studioDraftPrevi
 const options={assets:[{id:'sheet',sha256:sheet.assetSHA256,url:'/api/assets/sheet'}],escape};
 const current=renderCompactSheets(chapter,source,options);assert.equal((current.html.match(/<img /g)||[]).length,1);assert.ok(current.html.includes('data-sheet-stale="false"'));assert.ok(current.sheetAssetIds.has('sheet'));
 const revised={version:4,sha256:'e'.repeat(64)};const next={...chapter,studioDraft:{currentVersion:4,versions:[source,revised]}};
-assert.ok(renderCompactSheets(next,revised,options).html.includes('Stale preview'));
+assert.ok(renderCompactSheets(next,revised,options).html.includes('Source v3 preview; current v4'));
 assert.ok(renderCompactSheets(next,source,options).html.includes('data-sheet-stale="true"'));
+assert.ok(!renderCompactSheets(next,revised,options).html.includes('narrative differs'));
+assert.ok(!renderCompactSheets(next,revised,options).html.includes('revised text'));
 const absent=renderCompactSheets(chapter,source,{...options,assets:[]});assert.ok(absent.html.includes('No substitute artwork'));assert.ok(!absent.html.includes('<img '));
 const wrong=renderCompactSheets(chapter,source,{...options,assets:[{id:'sheet',sha256:'f'.repeat(64)}]});assert.ok(!wrong.html.includes('<img '));
 assert.equal(renderCompactSheets({...chapter,studioDraftPreviews:[]},source,options).html,'');

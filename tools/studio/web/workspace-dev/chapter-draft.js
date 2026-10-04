@@ -31,7 +31,7 @@ export function renderChapterDraft(c){
 }
 export function bindChapterDraft(c,rerender){
  const section=document.querySelector('.chapter-prototype');if(!section)return;
- section.querySelectorAll('[data-sheet-zoom]').forEach(b=>b.onclick=()=>{const img=b.closest('figure').querySelector('img');if(!img)return;const zoom=toggleSheetZoom(b.closest('figure').dataset.compactSheet);b.setAttribute('aria-pressed',String(zoom));b.textContent=zoom?'Fit whole page':'Zoom page';img.style.height=zoom?'auto':'calc(100dvh - 410px)';img.style.maxHeight=zoom?'none':'760px';rerender();});
+ section.querySelectorAll('[data-sheet-zoom]').forEach(b=>b.onclick=()=>{const img=b.closest('figure').querySelector('img');if(!img)return;const zoom=toggleSheetZoom(b.closest('figure').dataset.compactSheet);b.setAttribute('aria-pressed',String(zoom));b.textContent=zoom?'Fit whole page':'Zoom page';img.style.height=zoom?'auto':'calc(100dvh - 450px)';img.style.maxHeight=zoom?'none':'760px';rerender();});
  const choice=selections.get(c.id),selected=c.studioDraft.versions.find(v=>v.version===choice.version);
  const current=()=>section.isConnected&&studio.chapterId===c.id;
  const canEdit=d=>current()&&!studio.readOnly&&selected?.version===d.currentVersion&&selected?.sha256===d.sha256;

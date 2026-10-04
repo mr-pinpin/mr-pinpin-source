@@ -78,3 +78,7 @@ Project-only snapshots are preserved in `history/` with hashes. `GET /api/histor
 Run isolated backend tests with `python -m unittest discover -s tools/studio/tests -v`. Test data must be separate from the live external data directory.
 
 For the immutable transport/recovery kernel, hot-loaded normal chat and workspace UI, release freezing, restoration and stable-core migrations, read [STABLE-RUNTIME.md](STABLE-RUNTIME.md). The configured evolving workspace is the editable UI source. A separate `--business-source` directory contains reloadable Python business rules. Both can change within the same running service; ordinary business edits require no separate daemon, deployment or restart. The immutable kernel retains transport, authority checks and persistence. Agent policy v4 migrates existing conversations without discarding their history.
+
+## Runtime and replica verification status
+
+Read [portable runtime/storage status](../../workflows/studio-runtime-status.md) for dated native timings, recovered local authority, bounded HF verification and spending boundaries. Historical launch examples above are not instructions to start a second writer.
