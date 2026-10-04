@@ -30,11 +30,13 @@ def selected_version(document,chapter,version):
   if expected!=reference_hash or fingerprint({'spec':record['spec'],'referenceHash':reference_hash})!=record.get('sha256'):raise ValueError('Saved spec/reference SHA mismatch')
  return record
 
-def prepare(record_path,record_sha,chapter,version,registry,asset_root,out,lang='en',coloring=(),cover_asset=None,max_embedded_bytes=256*1024*1024):
+def prepare(record_path,record_sha,chapter,version,registry,asset_root,out,lang='en',coloring=(),cover_asset=None,max_embedded_bytes=256*1024*1024,miniature_asset=None,require_complete=False,source_version_sha=None,translations=None):
  if lang not in ('en','ru'):raise ValueError('Language must be en or ru')
  raw=Path(record_path).read_bytes()
  if len(raw)>8*1024*1024 or digest(raw)!=record_sha:raise ValueError('Saved record SHA/size mismatch')
  record=selected_version(json.loads(raw),chapter,version);spec=record['spec']
+ if source_version_sha is not None and record.get('sha256')!=source_version_sha:raise ValueError('Exact source version SHA differs')
+ if require_complete and (len(coloring)!=3 or len(set(coloring))!=3):raise ValueError('Completed delivery requires three distinct registered coloring pages')
  if type(record.get('version')) is not int or type(version) is not int or version<1:raise ValueError('Invalid saved version')
  if record.get('version')!=version:raise ValueError('Saved version mismatch')
  panels=spec['panels']
@@ -66,10 +68,25 @@ def prepare(record_path,record_sha,chapter,version,registry,asset_root,out,lang=
   if embedded_bytes>max_embedded_bytes:raise ValueError('Embedded artwork budget exceeded; no silent omission')
   proof={k:a.get(k) for k in ('id','sha256','bytes','mime','reviewStatus')};proof['slot']=slot;proof['provenance']={k:a.get('provenance',{}).get(k) for k in ('kind','source','sourceAssetId') if k in a.get('provenance',{})};used.append(proof)
   return '<img alt="'+esc(slot)+'" src="data:'+mime+';base64,'+base64.b64encode(b).decode()+'">'
- title=localized(spec.get('title'),lang) or chapter;captions.append(title)
+ localization_sha=None
+ if translations is not None:
+  if not isinstance(translations,dict) or set(translations)!={'sourceVersionSHA256','title','captions'} or translations['sourceVersionSHA256']!=record.get('sha256'):raise ValueError('Translation source version differs')
+  if not isinstance(translations['title'],dict) or not isinstance(translations['captions'],dict):raise ValueError('Explicit localized title/captions required')
+  if set(translations['captions'])!={p['id'] for p in panels}:raise ValueError('Translations must bind every exact panel ID')
+  for value in [translations['title'],*translations['captions'].values()]:
+   if not isinstance(value,dict) or set(value)!={'en','ru'} or any(not isinstance(v,str) or not v.strip() or len(v)>12000 for v in value.values()):raise ValueError('Explicit EN/RU text required')
+  if translations['title']['en']!=localized(spec.get('title'),'en') or any(translations['captions'][p['id']]['en']!=localized(p.get('captions',p.get('caption')),'en') for p in panels):raise ValueError('Preserve source English words')
+  localization_sha=digest(json.dumps(translations,sort_keys=True,ensure_ascii=False).encode())
+ title=localized(translations['title'] if translations else spec.get('title'),lang)
+ if require_complete and lang=='ru' and translations is None and isinstance(spec.get('title'),str):missing.append({'slot':'title','reason':'russian-translation-not-supplied'})
+ if not title.strip():missing.append({'slot':'title','reason':'title-language-missing','language':lang});title=chapter
+ captions.append(title)
  pages=['<section class="page cover"><h1>'+esc(title)+'</h1><div class="art">'+image(cover_asset or spec.get('coverAssetId'),'cover')+'</div><p>Unpublished draft · '+esc(chapter)+' · v'+str(version)+'</p></section>']
+ if miniature_asset or require_complete:
+  pages.append('<section class="page miniature"><h2>'+('Miniature' if lang=='en' else 'Миниатюра')+'</h2><div class="art">'+image(miniature_asset,'miniature')+'</div></section>')
  for i,p in enumerate(panels):
-  caption_value=p.get('captions',p.get('caption'));text=localized(caption_value,lang)
+  caption_value=translations['captions'][p['id']] if translations else p.get('captions',p.get('caption'));text=localized(caption_value,lang)
+  if require_complete and lang=='ru' and isinstance(caption_value,str):missing.append({'slot':p['id'],'reason':'russian-translation-not-supplied'})
   if not text and isinstance(caption_value,dict):missing.append({'slot':p['id'],'reason':'caption-language-missing','language':lang})
   if len(text)>12000:raise ValueError('Caption too long; no silent truncation')
   if text:captions.append(text)
@@ -77,11 +94,16 @@ def prepare(record_path,record_sha,chapter,version,registry,asset_root,out,lang=
  for i in range(3):
   identifier=coloring[i] if i<len(coloring) else None
   if identifier in assets and assets[identifier].get('provenance',{}).get('kind') not in ('line-art','coloring-page','provided-line-art'):raise ValueError('Coloring art must be explicitly registered as supplied line art')
-  label='Coloring page '+str(i+1)
+  label=('Coloring page ' if lang=='en' else 'Раскраска ')+str(i+1)
   pages.append('<section class="page"><h2>'+label+'</h2><p>'+('Provided line art; source identity retained.' if identifier else 'Line art not provided. This is a reserved slot, not a generated coloring page.')+'</p><div class="art">'+image(identifier,'coloring-'+str(i+1))+'</div></section>')
  css='''@page{size:A4 landscape;margin:12mm}@page cover{size:A4 portrait;margin:12mm}*{box-sizing:border-box}body{margin:0;color:#27251f;font-family:Arial,sans-serif}.page{width:273mm;height:186mm;display:flex;flex-direction:column;break-after:page;break-inside:avoid}.page:last-child{break-after:auto}.cover{page:cover;width:186mm;height:273mm}h1,h2{margin:0 0 4mm}.art{flex:1;min-height:0;display:flex;align-items:center;justify-content:center}.art img{width:100%;height:100%;object-fit:contain}.missing{border:1px dashed #888;padding:12mm;color:#555}.caption{font-size:17pt;line-height:1.35;white-space:normal}p{margin:4mm 0 0}'''
  content='<!doctype html><html lang="'+lang+'"><head><meta charset="utf-8"><title>'+esc(title)+'</title><style>'+css+'</style></head><body>'+''.join(pages)+'</body></html>'
  metadata={'schemaVersion':1,'unpublished':True,'productionApprovalInferred':False,'chapterId':chapter,'version':version,'sourceRecordSHA256':record_sha,'sourceVersionSHA256':record.get('sha256'),'sourceReferenceHash':record.get('referenceHash'),'savedReferenceBindingVerified':record.get('referenceHash') is not None,'language':lang,'pageCount':len(pages),'panelOrder':ids,'coloringSlotCount':3,'missingArtwork':missing,'selectedArtwork':used,'requiredSelectableText':captions,'originalAssetsModified':False,'generationCalls':0,'paidUSD':0,'selection':{'coverAssetId':cover_asset or spec.get('coverAssetId'),'coloringAssetIds':list(coloring)},'embeddedArtworkBytes':embedded_bytes,'maxEmbeddedArtworkBytes':max_embedded_bytes}
+ metadata['localizationSHA256']=localization_sha
+ metadata['selection']['miniatureAssetId']=miniature_asset
+ metadata['complete']=not missing
+ metadata['requestedComplete']=bool(require_complete)
+ if require_complete and missing:raise ValueError('Completed delivery missing assets/text: '+json.dumps(missing,ensure_ascii=False))
  out.mkdir(parents=True,exist_ok=True);b=content.encode();(out/'preview.html').write_bytes(b);metadata['html']={'file':'preview.html','sha256':digest(b),'bytes':len(b)};(out/'delivery-manifest.json').write_text(json.dumps(metadata,ensure_ascii=False,indent=2)+'\n');return metadata
 
 def main():

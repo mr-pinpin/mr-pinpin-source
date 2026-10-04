@@ -4,6 +4,11 @@ from .capability_registry import business_capabilities, business_dispatch
 from .context import selected_context as _selected_context
 from .sheet_workflow import add_sheet_workflow, cli_sheet_route
 from .book_context import cli_book_route
+from .draft_pdf_delivery import cli_delivery_route
+from .delivery_selected_context import add_delivery_workflow
+from .location_workflow import cli_location_route
+from .location_host import ensure_location_service
+from .location_selected_context import add_location_workflow
 from .creative_policy import creative_policy
 from .jobs import claim_job, complete_job, fail_job, reply, inbox
 from .conversation_plan import plan_hash
@@ -14,6 +19,12 @@ from .cast_inventory import record_package as finish_cast_package
 API_VERSION = 1
 
 def route(store,method,path,query,body):
+    delivery_result=cli_delivery_route(store,method,path,query,body)
+    if delivery_result is not None:
+        return delivery_result
+    if path in ("/api/location-workflow/context","/api/location-workflow/prepare"):
+        ensure_location_service(store)
+        return cli_location_route(store,method,path,query,body)
     book_result=cli_book_route(store,method,path,query,body)
     if book_result is not None:
         return book_result
@@ -22,7 +33,8 @@ def route(store,method,path,query,body):
     return _legacy_route(store,method,path,query,body)
 
 def selected_context(store,body):
-    return add_sheet_workflow(_selected_context(store,body),store)
+    result=add_sheet_workflow(_selected_context(store,body),store)
+    return add_delivery_workflow(add_location_workflow(result,store,body),store,body)
 
 
 def self_test():

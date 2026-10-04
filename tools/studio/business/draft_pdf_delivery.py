@@ -81,3 +81,40 @@ def list_deliveries(store,chapter):
   if type(version) is not int or bindings.get(version)!=entry.get('sourceVersionSHA256') or entry.get('language') not in ('en','ru') or not isinstance(entry.get('artifactSHA256'),str) or not re.fullmatch('[a-f0-9]{64}',entry['artifactSHA256']) or type(entry.get('bytes')) is not int or not 1<=entry['bytes']<=MAX_PDF:continue
   result.append({k:entry[k] for k in ('chapterId','version','sourceVersionSHA256','language','artifactSHA256','bytes')})
  return result,'registered'
+
+
+def delivery_context(store,request):
+ """Exact immutable chapter + bounded selected registry for local unpublished export."""
+ if not isinstance(request,dict) or set(request)-{'chapterId','version','sourceVersionSHA256','additionalAssetIds'}:fail('Invalid delivery context selectors')
+ chapter_id=request.get('chapterId');version=integer(request.get('version'));digest=request.get('sourceVersionSHA256')
+ if not isinstance(chapter_id,str) or not re.fullmatch(r'[A-Za-z0-9_.-]{1,160}',chapter_id) or not isinstance(digest,str) or not re.fullmatch('[a-f0-9]{64}',digest):fail('Exact chapter/version/hash required')
+ state=store.read();chapter=next((c for c in state['project']['chapters'] if c['id']==chapter_id),None)
+ saved=next((v for v in (chapter or {}).get('studioDraft',{}).get('versions',[]) if v['version']==version),None)
+ if not saved or saved.get('sha256')!=digest:fail('Exact saved chapter version differs')
+ # Return only metadata; export verifies actual selected bytes. No resolution/network.
+ extras=request.get('additionalAssetIds',[])
+ if not isinstance(extras,list) or len(extras)>5 or any(not isinstance(x,str) or not re.fullmatch(r'[A-Za-z0-9_.-]{1,160}',x) for x in extras):fail('Invalid selected supplemental assets')
+ ids=set(extras);ids.update(p.get('imageAssetId') for p in saved['spec'].get('panels',[]));ids.add(saved['spec'].get('coverAssetId'))
+ assets=[{k:a[k] for k in ('id','storagePath','mime','bytes','sha256','reviewStatus') if k in a} for a in state['assets'] if a['id'] in ids]
+ for a in assets:
+  original=next(x for x in state['assets'] if x['id']==a['id'])
+  a['provenance']={k:original.get('provenance',{}).get(k) for k in ('kind','source','sourceAssetId') if k in original.get('provenance',{})}
+ result={'record':{'id':chapter_id,'studioDraft':{'versions':[saved]}},'assets':assets,'projectRevision':state['revision'],'sourceVersionSHA256':digest,'workflow':{'guide':'workflows/pilot-delivery.md','command':'tools/studio-python tools/studio-delivery/cli.py --chapter CHAPTER --version N --sha256 EXACT --cover ID --miniature ID --coloring ID1 --coloring ID2 --coloring ID3 --out EXTERNAL_NEW_DIR','generation':False,'publication':False,'missingAssets':'Explicit missing inputs reject completed delivery; draft mode retains labeled gaps'},'unpublished':True}
+ if len(json.dumps(result,ensure_ascii=False).encode())>8*1024*1024:fail('Delivery context exceeds8MiB; narrow registry required')
+ return result
+
+def cli_delivery_route(store,method,path,query,body):
+ if path!='/api/draft-delivery/context':return None
+ if method!='GET' or set(query)-{'chapterId','version','sourceVersionSHA256','additionalAssetIds'} or not {'chapterId','version','sourceVersionSHA256'}.issubset(query) or any(not isinstance(v,list) or len(v)!=1 or not isinstance(v[0],str) for v in query.values()):fail('Invalid delivery context route')
+ request={k:v[0] for k,v in query.items()}
+ if 'additionalAssetIds' in request:
+  try:request['additionalAssetIds']=json.loads(request['additionalAssetIds'])
+  except ValueError:fail('Invalid supplemental asset selection')
+ return 200,delivery_context(store,request)
+
+def delivery_workflow_hint(chapter):
+ """Concise opt-in selected chapter guidance, no filesystem/Store access."""
+ versions=chapter.get('studioDraft',{}).get('versions',[])
+ version=next((v for v in versions if v['version']==chapter.get('studioDraft',{}).get('currentVersion')),None)
+ if not version:return {'ready':False,'guide':'workflows/pilot-delivery.md','reason':'No saved chapter draft'}
+ return {'guide':'workflows/pilot-delivery.md','chapterId':chapter['id'],'version':version['version'],'sourceVersionSHA256':version['sha256'],'helper':'tools/studio-python tools/studio-delivery/cli.py','requiredInputs':['registered cover','registered miniature/contact sheet','three distinct registered line-art pages','actual panel imageAssetId bytes','explicit EN/RU text'],'commandArguments':['--chapter',chapter['id'],'--version',str(version['version']),'--sha256',version['sha256'],'--cover','COVER_ID','--miniature','MINIATURE_ID','--coloring','LINE1','--coloring','LINE2','--coloring','LINE3','--out','EXTERNAL_NEW_DIR','--render','--node','EXISTING_NODE','--playwright-module','EXISTING_MODULE'],'stateWrites':False,'generation':False,'publication':False,'readiness':'Inputs checked during build; this hint is not byte verification'}
