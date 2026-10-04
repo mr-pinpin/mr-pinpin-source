@@ -195,7 +195,7 @@ def receipt_path(store, asset_id, action):
     return inside(store, 'reports/storage/' + asset_id + '-' + action + '.json')
 
 
-def transfer(store, cfg, entry, action, root, cache):
+def transfer(store, cfg, entry, action, root, cache, timeout_seconds=180):
     """Only image bytes and the adapter's minimal hash projection leave this app."""
     projection = inside(store, 'reports/storage/projections/' + entry['sha256'] + '.json')
     atomic_json(projection, {'version': 1, 'bucket': cfg['bucket'], 'assets': [entry]})
@@ -203,7 +203,7 @@ def transfer(store, cfg, entry, action, root, cache):
             '--root', str(root), '--cache', str(cache), '--workers', '1']
     env = dict(os.environ, HF_HUB_DISABLE_PROGRESS_BARS='1', PYTHONDONTWRITEBYTECODE='1')
     began = time.monotonic()
-    result = subprocess.run(argv, capture_output=True, text=True, env=env, timeout=180)
+    result = subprocess.run(argv, capture_output=True, text=True, env=env, timeout=timeout_seconds)
     if result.returncode:
         # Never relay SDK stderr, HTTP bodies, URLs or credential-bearing exceptions.
         raise StudioError('Archive transfer failed; authentication/network/quota status is unknown')
@@ -244,7 +244,10 @@ def backup(store, asset_id):
     return result
 
 
-def resolve(store, asset_id, restore_replica=False):
+def resolve(store, asset_id, restore_replica=False, *, allow_remote=True, timeout_seconds=45):
+    if not isinstance(allow_remote, bool) or type(timeout_seconds) not in (int, float) or not 0 < timeout_seconds <= 180:
+        raise StudioError('Invalid bounded restore options')
+    began = time.monotonic()
     cfg = policy(store)
     asset, canonical, entry = asset_entry(store, asset_id, cfg)
     cache = inside(store, cfg['cachePath'])
@@ -273,9 +276,10 @@ def resolve(store, asset_id, restore_replica=False):
             repository=replica_repository(store)
             try:owned=repository.resolve(entry['sha256'],entry['bytes'])
             except FileNotFoundError:
+                if not allow_remote:raise StudioError('Selected bytes unavailable locally; remote restore disabled')
                 environment=os.environ.copy()
                 environment['PYTHONPATH']=str(inside(store,repository.config['libraryPath']))
-                process=subprocess.run([cfg['pythonPath'],'-B','-m','replica_store','--config',str(inside(store,'workflows/replica-store.json')),'get',entry['sha256'],str(entry['bytes'])],env=environment,capture_output=True,timeout=180)
+                process=subprocess.run([cfg['pythonPath'],'-B','-m','replica_store','--config',str(inside(store,'workflows/replica-store.json')),'get',entry['sha256'],str(entry['bytes'])],env=environment,capture_output=True,timeout=max(0.001, timeout_seconds - (time.monotonic() - began)))
                 if process.returncode or len(process.stdout)>16384:raise StudioError('Shared remote restoration unavailable')
                 response=json.loads(process.stdout)
                 if response.get('status')!='verified-local':raise StudioError('Shared remote restoration pending')
@@ -297,6 +301,8 @@ def resolve(store, asset_id, restore_replica=False):
             return result
         except (ValueError,OSError,StudioError,subprocess.TimeoutExpired):
             if not proof:raise StudioError('Verified shared reference unavailable; retry host get or restore legacy archive')
+    if not allow_remote:
+        raise StudioError('Selected bytes unavailable locally; remote restore disabled')
     if not proof or proof.get('sha256') != entry['sha256'] or proof.get('bytes') != entry['bytes'] or proof.get('remoteBackupStatus') != 'verified-download':
         raise StudioError('No verified remote-backup receipt for this asset')
     # Replica restoration demonstrates a cold cache without deleting canonical artwork.
@@ -308,7 +314,9 @@ def resolve(store, asset_id, restore_replica=False):
     if restore_replica and not (root / entry['path']).exists():
         admission += entry['bytes']
     budget = preflight(store, cfg, entry['bytes'] * 2, admission)
-    result = transfer(store, cfg, entry, 'pull', root, cache)
+    remaining = timeout_seconds - (time.monotonic() - began)
+    if remaining <= 0:raise StudioError('Selected restore timed out; retry bounded request')
+    result = transfer(store, cfg, entry, 'pull', root, cache, timeout_seconds=remaining)
     destination = root / entry['path']
     identity(destination, entry['bytes'], entry['sha256'])
     result.update(assetId=asset_id, sha256=entry['sha256'], bytes=entry['bytes'], nativePath=str(destination),
@@ -425,3 +433,42 @@ def registration_preflight(store, body):
     if record.get('status') != 'prepared' or type(size) is not int or not 0 < size <= cfg['maxAssetBytes']:
         raise StudioError('Native output size or prepared status is invalid')
     return {'attemptId': attempt, 'budget': preflight(store, cfg, size * 2), 'nativeBytes': size}
+
+
+def hydrate_selected(store, asset_ids, *, restore=False, byte_budget=33554432, timeout_seconds=45):
+    """Metadata-only by default; exact selected-ID restore runs off the UI paint path.
+
+    Internal workflows may choose restore for already authorized generation/reference
+    preparation. No extra human permission, approval transition, archive crawl or bulk
+    gallery migration. Existing configured replica/archive adapters supply bytes.
+    """
+    if not isinstance(asset_ids, list) or not 1 <= len(asset_ids) <= 4 or any(not isinstance(identifier, str) for identifier in asset_ids) or len(set(asset_ids)) != len(asset_ids):
+        raise StudioError('Select one to four unique registered asset IDs')
+    if type(byte_budget) is not int or not 0 < byte_budget <= 67108864:
+        raise StudioError('Selected restore byte budget must be at most64MiB')
+    if type(timeout_seconds) not in (int, float) or not 0 < timeout_seconds <= 60:
+        raise StudioError('Selected restore timeout must be at most60seconds')
+    if type(restore) is not bool:raise StudioError('restore must be boolean')
+    began=time.monotonic();cfg=policy(store);rows=[]
+    for identifier in asset_ids:
+        asset,path,entry=asset_entry(store,identifier,cfg)
+        rows.append({'assetId':asset['id'],'sha256':entry['sha256'],'bytes':entry['bytes'],
+                     'assetURL':asset['url'],'reviewStatus':asset.get('reviewStatus','unknown'),'roles':asset.get('roles',[]),'availability':'local-unverified' if path.exists() else 'missing'})
+    missing=sum(row['bytes'] for row in rows if row['availability']=='missing')
+    if missing>byte_budget:raise StudioError('Selected missing bytes exceed request budget')
+    result={'assets':rows,'missingBytes':missing,'byteBudget':byte_budget,'restoreRequested':restore,
+            'networkAllowed':restore,'remoteBackupStatus':'unverified','scope':'exact selected registered IDs only'}
+    if restore:
+        result['results']=[]
+        with operation(store):
+            for row in rows:
+                remaining=timeout_seconds-(time.monotonic()-began)
+                if remaining<=0:
+                    result['results'].append({'assetId':row['assetId'],'status':'pending','reason':'request-timeout'});continue
+                try:
+                    value=resolve(store,row['assetId'],timeout_seconds=remaining)
+                    result['results'].append(dict(value,status='ready'))
+                except (StudioError,OSError,ValueError,subprocess.TimeoutExpired) as exc:
+                    result['results'].append({'assetId':row['assetId'],'status':'pending','errorType':type(exc).__name__})
+    result['elapsedMs']=round((time.monotonic()-began)*1000,3)
+    return result

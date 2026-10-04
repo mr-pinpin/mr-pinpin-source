@@ -9,4 +9,15 @@ export PINPIN_STUDIO_RUNTIME="${PINPIN_STUDIO_RUNTIME:-$studio_parent/runtime}"
 export PINPIN_STUDIO_SOURCE="${PINPIN_STUDIO_SOURCE:-$studio_parent/source}"
 studio_dependencies="${PINPIN_STUDIO_DEPENDENCIES:-$studio_parent/dependencies}"
 export PYTHONPATH="$studio_dependencies${PYTHONPATH:+:$PYTHONPATH}"
+studio_hf_dependencies="${PINPIN_STUDIO_HF_DEPENDENCIES:-$studio_parent/dependencies-hf}"
+if test -d "$studio_hf_dependencies"; then
+    export PYTHONPATH="$studio_hf_dependencies:$PYTHONPATH"
+fi
+# Native direct script launch can stall before Python entry.
+# Run the unchanged helper through Python's standard runpy with identical argv.
+case "${1:-}" in
+    *.py)
+        exec "${PINPIN_STUDIO_PYTHON:-/opt/homebrew/bin/python3}" -S -B -u -c 'import os,runpy,sys; script=sys.argv[1]; sys.argv=sys.argv[1:]; sys.path[0]=os.path.dirname(os.path.abspath(script)); runpy.run_path(script,run_name="__main__")' "$@"
+        ;;
+esac
 exec "${PINPIN_STUDIO_PYTHON:-/opt/homebrew/bin/python3}" -S -B "$@"

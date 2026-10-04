@@ -11,6 +11,12 @@ import sys
 import time
 
 sys.dont_write_bytecode = True
+_TRACE = '--trace-phases' in sys.argv or '--trace' in sys.argv
+_TRACE_STARTED = time.monotonic()
+def phase(name):
+    if _TRACE:
+        print(json.dumps({'registrationPhase': name, 'elapsedMs': round((time.monotonic()-_TRACE_STARTED)*1000,3)}), file=sys.stderr, flush=True)
+phase('module-imports-complete')
 
 
 def now():
@@ -18,6 +24,7 @@ def now():
 
 
 def load_store(args):
+    phase("deployment-read-before")
     if args.runtime_dir:
         runtime = Path(args.runtime_dir).expanduser().resolve()
         deployment = json.loads((runtime / "current-deployment.json").read_text())
@@ -31,16 +38,33 @@ def load_store(args):
         if not args.data_dir:
             raise ValueError("--data-dir is required with --kernel-root")
         data = Path(args.data_dir).expanduser().resolve()
+    phase("deployment-read-complete")
     # Execute only an explicitly selected, intact immutable Store implementation.
     sys.path.insert(0, str(kernel))
+    phase("kernel-import-before")
     from immutable_bundle import verify_bundle
+    phase("verify-bundle-before")
     manifest = verify_bundle(kernel)
+    phase("verify-bundle-complete")
     if manifest.get("kind") != "stable-runtime":
         raise ValueError("Selected kernel is not a frozen stable-runtime release")
+    phase("store-import-before")
     from store import Store
+    phase("store-import-complete")
     if not (data / "state.json").is_file():
         raise ValueError("Existing Studio data directory required")
-    return Store(data), manifest, data
+    if getattr(args, 'validate_only', False):
+        # Diagnostic/read-only validation never constructs a settings writer.
+        store = Store.__new__(Store)
+        store.root, store.path = data, data / 'state.json'
+        store.media_roots = [Path(p) for p in json.loads((data/'settings.json').read_text()).get('mediaRoots', [])]
+        store.read = lambda: json.loads(store.path.read_text())
+        phase('readonly-registry-view-ready')
+        return store, manifest, data
+    phase('store-constructor-before')
+    store = Store(data)
+    phase('store-constructor-complete')
+    return store, manifest, data
 
 
 def safe_report(data, relative):
@@ -67,8 +91,11 @@ def setup_toolchain(args):
     store, _, data = load_store(args)
     from store import atomic_json
     helper = Path(__file__).resolve()
+    launcher = data / "tools" / "studio-python"
+    if not launcher.is_file() or not os.access(launcher, os.X_OK):
+        raise ValueError("Prepared executable DATA/tools/studio-python is required for registration hydration")
     value = {"schemaVersion": 1, "toolName": "studio-register-image",
-             "argvPrefix": [str(Path(sys.executable).absolute()), str(helper), "--runtime-dir", str(Path(args.runtime_dir).expanduser().resolve())],
+             "argvPrefix": [str(launcher), str(helper), "--runtime-dir", str(Path(args.runtime_dir).expanduser().resolve())],
              "helperSha256": hashlib.sha256(helper.read_bytes()).hexdigest(),
              "parameters": {"required": ["--native-path", "--prompt-file", "--output-name"], "repeatable": ["--reference"], "optional": ["--entity", "--stage"]},
              "inputContract": "Exact native image bytes, UTF-8 exact prompt, registered reference IDs; entity/stage must be paired.",
@@ -85,7 +112,9 @@ def register(args):
     store, manifest, data = load_store(args)
     from store import MAX_UPLOAD, atomic_json
     from PIL import Image
+    phase("registry-read-before")
     state = store.read()
+    phase("registry-read-complete")
     dossier_path = None
     if bool(args.entity) != bool(args.stage):
         raise ValueError("--entity and --stage must be supplied together")
@@ -98,6 +127,7 @@ def register(args):
         dossier(dossier_path, args.entity)
     if len(args.reference) > 12 or len(set(args.reference)) != len(args.reference):
         raise ValueError("Use at most12 unique registered references")
+    phase("native-path-before")
     source = Path(args.native_path).expanduser().resolve(strict=True)
     if not source.is_file() or not 0 < source.stat().st_size <= MAX_UPLOAD:
         raise ValueError("Native image must be a file between1 byte and40MiB")
@@ -111,6 +141,7 @@ def register(args):
     name = args.output_name
     if not name or len(name) > 160 or name in (".", "..") or Path(name).name != name or "\\" in name or any(ord(c) < 32 for c in name):
         raise ValueError("Output name must be a plain filename, maximum160 characters")
+    phase("prompt-read-complete")
     refs = []
     for identifier in args.reference:
         item = next((a for a in state["assets"] if a["id"] == identifier), None)
@@ -118,19 +149,28 @@ def register(args):
             raise ValueError("Unknown reference: " + identifier)
         store.asset_path(identifier, state)
         refs.append({"assetId": identifier, "sha256": item["sha256"]})
+    phase("reference-paths-complete")
     raw = source.read_bytes()
+    phase("image-read-complete")
     if not raw or len(raw) > MAX_UPLOAD:
         raise ValueError("Native image changed size while reading")
+    phase("image-open-before")
     with Image.open(io.BytesIO(raw)) as image:
         if image.format not in ("PNG", "JPEG", "WEBP") or image.width * image.height > 80000000:
             raise ValueError("Unsupported native image format or dimensions")
         image.verify()
+    phase("image-verify-complete")
     sha = hashlib.sha256(raw).hexdigest()
     existing = next((a for a in state["assets"] if a["sha256"] == sha), None)
     if existing and (existing.get("reviewStatus") != "unreviewed" or existing.get("provenance", {}).get("prompt") != prompt
                      or existing.get("provenance", {}).get("referenceIds") != args.reference):
         raise ValueError("These bytes already have different provenance or review status; existing record preserved")
+    phase('validation-complete')
+    if getattr(args, 'validate_only', False):
+        return {'validationOnly': True, 'sha256': sha, 'bytes': len(raw), 'referenceIds': args.reference,
+                'alreadyRegistered': bool(existing), 'mutated': False}
     validated_at = now()
+    phase("generated-copy-before")
     generated = data / "generated"
     generated.mkdir(exist_ok=True)
     if not generated.resolve().is_relative_to(data):
@@ -149,7 +189,9 @@ def register(args):
                   "prompt": prompt, "promptSha256": hashlib.sha256(prompt_bytes).hexdigest(),
                   "promptFile": str(prompt_path), "referenceIds": args.reference, "inputAssets": refs,
                   "registeredBy": "studio-client/register-image.py"}
+    phase("asset-register-before")
     asset = existing or store.import_asset(destination, name=name, provenance=provenance, review_status="unreviewed")
+    phase("asset-register-complete")
     completed_at = now()
     card = {"type": "WorkflowCard", "title": name, "text": "Unreviewed candidate. Original image available at full size.",
             "assetIds": [asset["id"]], "actions": []}
@@ -161,7 +203,9 @@ def register(args):
     if dossier_path:
         result["dossierPath"] = str(dossier_path)
         result["entityId"], result["stage"] = args.entity, args.stage
+        phase("dossier-lock-before")
         with store.lock():
+            phase("dossier-lock-acquired")
             value = dossier(dossier_path, args.entity)
             stage = value["stages"].setdefault(args.stage, {"candidates": []})
             receipt = {**result, "provenance": asset.get("provenance", {})}
@@ -172,6 +216,7 @@ def register(args):
             atomic_json(dossier_path, value)
         result["timing"]["dossierWrittenAt"] = now()
         result["timing"]["helperTotalSeconds"] = round(time.monotonic() - started, 6)
+    phase("receipt-ready")
     return result
 
 
@@ -182,6 +227,8 @@ def main():
     runtime.add_argument("--kernel-root", help="Explicit verified frozen stable release directory")
     parser.add_argument("--data-dir", help="Existing data directory; defaults to runtime deployment manifest")
     parser.add_argument("--setup-toolchain", action="store_true")
+    parser.add_argument("--trace-phases", "--trace", dest="trace_phases", action="store_true", help="Bounded phase/timing labels on stderr; no prompts, pixels or credentials")
+    parser.add_argument("--validate-only", action="store_true", help="Verify original/reference bytes without copying/registering or writing Store settings")
     parser.add_argument("--entity")
     parser.add_argument("--stage")
     parser.add_argument("--native-path")
@@ -190,7 +237,12 @@ def main():
     parser.add_argument("--output-name")
     parser.add_argument("--tool", default="image_gen.imagegen", choices=["image_gen.imagegen"], help="Actual source tool asserted by caller; not inferred from image pixels")
     args = parser.parse_args()
+    if args.trace_phases:
+        import faulthandler
+        faulthandler.enable(file=sys.stderr)
+        faulthandler.dump_traceback_later(8, repeat=False, file=sys.stderr)
     try:
+        if args.validate_only and args.setup_toolchain:raise ValueError('Validation cannot setup toolchain')
         if not args.setup_toolchain and not all((args.native_path, args.prompt_file, args.output_name)):
             raise ValueError("--native-path, --prompt-file and --output-name are required")
         result = setup_toolchain(args) if args.setup_toolchain else register(args)

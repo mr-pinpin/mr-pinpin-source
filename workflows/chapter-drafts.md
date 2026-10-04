@@ -4,7 +4,7 @@ Describe intent, review actions/cause/effect/camera and reading rhythm, then rev
 
 ## Persistent commands and bounded context
 
-Use `python -B tools/chapter_draft_ops.py context <chapterId> --page 0` for current version/hash and a compact page. Ordinary revisions use `python -B tools/chapter_draft_ops.py patch <chapterId> --panel <panelId> --fields '<JSON>' --request '<original request>'`. The helper reads current Store state and performs one business mutation; no copied full spec or bespoke Python script is needed. Pass --version, --sha256 and --expected-revision from selected conversational context when preserving the exact reviewed base. A concurrent revision must fail rather than overwrite.
+Use `tools/studio-python tools/chapter_draft_ops.py context <chapterId> --page 0` for current version/hash and a compact page. Ordinary revisions use `tools/studio-python tools/chapter_draft_ops.py patch <chapterId> --panel <panelId> --fields '<JSON>' --request '<original request>'`. The helper reads current Store state and performs one business mutation; no copied full spec or bespoke Python script is needed. Pass --version, --sha256 and --expected-revision from selected conversational context when preserving the exact reviewed base. A concurrent revision must fail rather than overwrite.
 
 The helper accepts --data-dir and --runtime-dir, or PINPIN_STUDIO_DATA/PINPIN_STUDIO_RUNTIME. Defaults match the standard installed data/tools layout. Other deployments should pass explicit roots. It imports the configured active verified business bundle, with no cast_ops dependency.
 
@@ -34,7 +34,7 @@ Exact request/result receipts remain reports/chapter-drafts/<chapter>/vN.json. B
 
 Portable isolated tests use --studio-dir <source/tools/studio>, --kernel-dir <stable release> and --scratch-dir <writable fixtures>. They do not depend on private pilot state, cast_ops, network or artwork tools. Preserve the recorded ten passing tests. Fresh warm revision and real browser/tunnel acceptance are separate next checks.
 
-The sprint allowance is US$25 cumulative additional video/API spending, not per task. Additional paid spending remains zero. No new art, full production, publication, server restart, kernel change or permission/TCC change is part of this recovery.
+The sprint allowance is US$25 cumulative additional video/API spending, not per task. Additional paid spending remains zero. Historical recovery construction did not authorize new art, full production or publication. Current explicitly delegated pilot production follows the version-bound authorization rules above; recovery status is not a reason to refuse an authorized production request. Publication remains outside that authorization. No permission/TCC changes were made.
 
 
 ## Explicit full-production go for managed chapter drafts
@@ -43,8 +43,8 @@ Script edits and rough visual storyboard studies remain ordinary preproduction. 
 
 For an explicit conversational request to begin full production, hydrate the selected current chapter with the persistent context command. Record the user's exact instruction, then invoke the authorize command with the reviewed version, spec SHA256 and reference hash. If the request is ambiguous or refers to an older view, clarify the specific production scope/version; never infer go from “show me”, a text edit, or rough-sheet generation. Do not invoke authorization while merely implementing or testing the workflow.
 
-    python -B tools/chapter_draft_ops.py context <chapterId>
-    python -B tools/chapter_draft_ops.py authorize <chapterId> --version <N> --sha256 <specSHA256> --reference-hash <referenceHash> --expected-revision <revision> --instruction '<exact explicit full-production request>'
+    tools/studio-python tools/chapter_draft_ops.py context <chapterId>
+    tools/studio-python tools/chapter_draft_ops.py authorize <chapterId> --version <N> --sha256 <specSHA256> --reference-hash <referenceHash> --expected-revision <revision> --instruction '<exact explicit full-production request>'
 
 The UI hydrates these same bindings and records the user's deliberate authorization click. Pinned historical views and noncurrent versions cannot authorize. Legacy drafts hydrate a current catalog reference binding without rewriting their frozen versions. Known archived bytes may be unresolved at review; every actual input must be restored and verified before generation. Reference identity/role changes require a new reviewed draft.
 
@@ -55,4 +55,13 @@ Timing fields name their measured interval. Null requestAcceptanceToCompletionSe
 
 ## Deployment acceptance is separate
 
-The instructions above describe the reviewed source contract. New UI routes remain unavailable until the approved extensible bridge integration is verified. Backend TB4 access is currently OS-denied in the reported live process; filesystem canary and serving checks belong to infrastructure owners. Source/fixture tests are not live readiness. Do not grant real authorization or start production while testing recovery; use isolated fixtures.
+Historical evidence, 2026-10-04 before05:38Z: the old TB4-backed process had OS-denied reads and the replacement bridge had not completed live acceptance. Those were recovery blockers at that time. Current authority is the restored ordinary local Mini data/runtime/source, serving stable418 after root-reviewed cutover; original TB4 data remains preserved. Live draft read/save, history and same-thread native turns have been verified. Explicit user-delegated production may proceed under the version/spec/reference-bound go rules above and verified local inputs. Infrastructure tests still use isolated fixtures and never grant real approval or publish.
+
+
+## Native registration and prompt persistence — 2026-10-04
+
+Write each exact submitted prompt and each planned repair prompt as UTF-8 files in reports/chapter-drafts BEFORE calling image generation. Read those files back when preparing tool payloads. Do not use cross-exec store/load keys as the only durable prompt source, especially across pending image calls. Keep prompt bytes/hash, native output path, submitted references and actual tool timings in the generation receipt.
+
+For chapter context/patch and sheet binding, use tools/studio-python tools/chapter_draft_ops.py or tools/studio-python tools/chapter_sheet_ops.py. Native evidence: direct python -S -B still stalled once; wrapper guarded patch saved in0.132s. Direct registration and book script launches also stalled before entry; the current wrapper dispatches script-file invocations through the identical helper using standard runpy. Native read-only registration proof: direct timeout12,004.717ms, runpy success175.593ms. Native book context/save via runpy completed83.6/85.1ms. Use the hydrated wrapper command; do not improvise inline Store imports. These are measured examples, not a universal latency guarantee. An opt-in register-image.py --trace-phases --validate-only performs read-only byte/reference validation and reports only phase/timing labels; do not retry uncertain registration before checking existing asset SHA/receipts.
+
+Observed successful registration recovery at06:19:19Z used /opt/homebrew/opt/python@3.14/bin/python3.14 -S -B -u -c with an existing native-authored registrationScript, completing0.754574s and retaining original asset702d… plus new asset5b767…. The script body was not present in the bounded06:18:55–06:19:46 evidence window; this is an observed invocation, not a certified generic replacement or permission to execute arbitrary JSON. Subsequent sheet binds used tools/studio-python tools/chapter_sheet_ops.py with exact asset IDs, receipt paths and expected revisions888/889. Preserve the original and inspect registered hashes before a retry.
