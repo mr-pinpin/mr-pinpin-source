@@ -60,3 +60,20 @@ python3 -B tools/studio/tests/test_book_planning_context.py
 node tools/studio/web/tests/book-planning.test.mjs
 
 These fixtures perform no model/image/video/provider calls or production authorization. Small projection test serializes one bounded version and estimates repeated history arithmetically, never serializes a1.7GiB fixture. Browser/user acceptance requires actual visual artifact availability; unit fixture checks alone do not prove live integration.
+
+## Ready active-bundle app CLI
+
+Use the existing configured interpreter wrapper:
+`tools/studio-python tools/book_plan_ops.py context --chapter <actualChapterId>`
+
+The host supplies PINPIN_STUDIO_DATA and PINPIN_STUDIO_RUNTIME; alternatively pass explicit `--data-dir <DATA> --runtime-dir <runtime>` before the operation. No guessed/hardcoded deployment. Existing DATA/state.json and runtime/current-deployment.json required. The helper verifies the content-addressed current stable kernel and reads the already-active immutable business bundle without building/restarting it.
+
+For a first plan, context returns ready:false and helper/workflow guidance. Preserve the user's actual brief, arc and chapter intent, saved cause/effect/setup-payoff links and estimated tempo; no story defaults/generation. Save JSON envelope `{spec, request, baseVersion:0, expectedRevision}` (omit baseSHA256 first time) with:
+`tools/studio-python tools/book_plan_ops.py save <book-plan-envelope.json>`
+
+For later full-spec save include exact current baseVersion/baseSHA256/expectedRevision. Prefer a single selected-moment patch for ordinary revisions:
+`tools/studio-python tools/book_plan_ops.py patch --moment <actualMomentId> --fields '<changed-fields JSON>' --version <currentVersion> --sha256 <currentSHA256> --expected-revision <projectRevision> --request '<literal user revision>'`
+
+Version/hash/revision are required, never silently refreshed. A conflict prompts bounded context retrieval; no overwrite/retry loop. Context accepts --page, --chapter, --sequence, --moment, --version and optional --project-revision for historical reads. Historical version output is labelled readOnly and does not authorize edits. All outputs are bounded JSON. CLI operation interval is local helper timing, not model/provider acceptance latency. Helpers never call generation, production authorization or publication. User request and brief whitespace retained exactly in immutable version snapshots.
+
+Portable verification: `python3 -B tools/studio/tests/test_book_plan_ops.py` (existing Studio requirements); `python3 -B tools/studio/tests/test_book_planning_context.py`. Actual app-agent smoke acceptance belongs to root after source/optional DATA helper delivery and active business reload, with no provider dispatch.

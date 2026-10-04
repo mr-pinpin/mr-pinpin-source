@@ -10,5 +10,5 @@ class Tests(unittest.TestCase):
   single_version_bytes=len(json.dumps(version,separators=(',',':')).encode());out=m.planning_context(project,'chapter-1',['shot-215'],42);encoded=len(json.dumps(out,separators=(',',':')).encode())
   self.assertLess(encoded,16384);self.assertEqual(out['selectedMoments'][0]['id'],'moment-215');self.assertNotIn('versions',out);self.assertEqual(out['version'],100);self.assertEqual(out['projectRevision'],42);self.assertEqual(project['book']['title'],'preserved')
   print(json.dumps({'singleVersionBytes':single_version_bytes,'logicalRepeatedVersionBytesEstimate':single_version_bytes*100,'projectedBookPlanBytes':encoded,'moments':4096,'historicalVersions':100,'selectedScene':'shot-215','test':'projection; full context integration not live-tested'}))
- def test_empty(self):self.assertIsNone(m.planning_context({'book':{}}))
+ def test_empty(self):self.assertFalse(m.planning_context({'book':{}})['ready'])
 if __name__=='__main__':unittest.main()
