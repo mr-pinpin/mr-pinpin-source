@@ -1,0 +1,60 @@
+{
+  "browser": "existing Chrome via existing Playwright",
+  "textVerifier": "macOS system PDFKit/JXA",
+  "generationCalls": 0,
+  "paidUSD": 0,
+  "files": [
+    {
+      "language": "en",
+      "chapterId": "fixture-reader",
+      "version": 1,
+      "sourceRecordSHA256": "bfd9b7646c7231308d20217b42edd807937b0244ec5f761e1393f2b98d1bdd35",
+      "html": {
+        "file": "preview.html",
+        "sha256": "52e9a18320c0edc9ab0afd848725fede2456244210bb584c334dd3b8e5842fff",
+        "bytes": 1985
+      },
+      "pdf": {
+        "file": "chapter.pdf",
+        "sha256": "c0c216a26430846d336dfa952a81f9cb854496642a2ecd446ee4e526df61b3d9",
+        "bytes": 68425,
+        "pageCount": 5,
+        "selectableTextVerified": true,
+        "imageCount": 2,
+        "imagesLoaded": true,
+        "layoutChecked": true
+      },
+      "fixtureOnly": true,
+      "realIllustratedChapter": false,
+      "coloringMissingSlots": 3,
+      "imagesPreserved": true,
+      "finalPrepareHTMLMatchesBrowserProof": true
+    },
+    {
+      "language": "ru",
+      "chapterId": "fixture-reader",
+      "version": 1,
+      "sourceRecordSHA256": "bfd9b7646c7231308d20217b42edd807937b0244ec5f761e1393f2b98d1bdd35",
+      "html": {
+        "file": "preview.html",
+        "sha256": "2956349225e97c231775bd2f8de6adc7e07e3d0ac6c6d0c34d9f6594bf603d74",
+        "bytes": 2049
+      },
+      "pdf": {
+        "file": "chapter.pdf",
+        "sha256": "0007b10dfe4c6270d235da22012ad09735625cb37215af571eb95d420a5d6252",
+        "bytes": 71221,
+        "pageCount": 5,
+        "selectableTextVerified": true,
+        "imageCount": 2,
+        "imagesLoaded": true,
+        "layoutChecked": true
+      },
+      "fixtureOnly": true,
+      "realIllustratedChapter": false,
+      "coloringMissingSlots": 3,
+      "imagesPreserved": true,
+      "finalPrepareHTMLMatchesBrowserProof": true
+    }
+  ]
+}
