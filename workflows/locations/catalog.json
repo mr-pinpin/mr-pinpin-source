@@ -1,0 +1,615 @@
+{
+  "schemaVersion": 1,
+  "entries": [
+    {
+      "id": "house",
+      "aliases": [
+        "house",
+        "pinpin house",
+        "pinpin-house",
+        "home"
+      ],
+      "kind": "measured-geometry",
+      "approval": "geometry-study",
+      "approvalEvidence": "docs/storyboard/locations/pinpin-house/location.json",
+      "referenceIds": [
+        "common-book",
+        "bathroom-book",
+        "bedroom-book",
+        "exterior-book",
+        "current-plan-underlay"
+      ],
+      "documents": [
+        "docs/storyboard/locations/pinpin-house/location.json",
+        "docs/storyboard/locations/pinpin-house/references.json",
+        "docs/storyboard/locations/pinpin-house/cameras.json",
+        "docs/storyboard/locations/pinpin-house/scene/house-plan.json",
+        "docs/storyboard/locations/pinpin-house/prompts/*.txt"
+      ],
+      "recipes": [
+        "tools/locations/README.md"
+      ],
+      "connections": [
+        {
+          "from": "common",
+          "to": "bath",
+          "door": "door-bath"
+        },
+        {
+          "from": "common",
+          "to": "bedroom",
+          "door": "door-bedroom"
+        }
+      ],
+      "limitations": [
+        "Three rooms; hall view is a common-room camera, not a fourth room.",
+        "Measured plan plus explicit authored design choices; exterior anchors are not surveyed book geography."
+      ]
+    },
+    {
+      "id": "house/common",
+      "aliases": [
+        "kitchen",
+        "living room",
+        "common room",
+        "hall",
+        "hall-through-open-doors"
+      ],
+      "kind": "measured-geometry",
+      "approval": "geometry-study",
+      "approvalEvidence": "docs/storyboard/locations/pinpin-house/location.json",
+      "room": "common",
+      "referenceIds": [
+        "common-book",
+        "current-plan-underlay"
+      ],
+      "documents": [
+        "docs/storyboard/locations/pinpin-house/location.json",
+        "docs/storyboard/locations/pinpin-house/references.json",
+        "docs/storyboard/locations/pinpin-house/cameras.json",
+        "docs/storyboard/locations/pinpin-house/scene/house-plan.json",
+        "docs/storyboard/locations/pinpin-house/prompts/*.txt",
+        "docs/storyboard/locations/pinpin-house/examples/*common*.json"
+      ],
+      "recipes": [
+        "tools/locations/README.md"
+      ],
+      "connections": [
+        {
+          "from": "common",
+          "to": "bath",
+          "door": "door-bath"
+        },
+        {
+          "from": "common",
+          "to": "bedroom",
+          "door": "door-bedroom"
+        }
+      ],
+      "limitations": [
+        "Three rooms; hall-through-open-doors is a common-room camera.",
+        "Measured plan plus explicit authored elevations/doors/lights; book staging is not geometry."
+      ],
+      "aliasViewpoints": {
+        "hall": "hall-through-open-doors",
+        "hall-through-open-doors": "hall-through-open-doors"
+      }
+    },
+    {
+      "id": "tour/common/current",
+      "aliases": [
+        "kitchen current",
+        "living room current",
+        "common room current"
+      ],
+      "kind": "image-led",
+      "approval": "review-candidate",
+      "approvalEvidence": "docs/storyboard/production/house-image-tour-20260924/README.md",
+      "room": "common",
+      "referenceIds": [
+        "common-book"
+      ],
+      "documents": [
+        "docs/storyboard/locations/pinpin-house/references.json",
+        "docs/storyboard/production/house-variants-20260924/projection/input-config.json",
+        "docs/storyboard/production/house-image-tour-20260924/common/*.json",
+        "docs/storyboard/production/house-image-tour-20260924/common/*.txt",
+        "docs/storyboard/production/house-variants-20260924/projection/common-current.json",
+        "docs/house-image-tour-config.js"
+      ],
+      "recipes": [
+        "docs/storyboard/panorama-workflow/README.md",
+        "tools/panoramas/README.md"
+      ],
+      "connections": [
+        {
+          "from": "common",
+          "to": "bath"
+        },
+        {
+          "from": "common",
+          "to": "bedroom"
+        }
+      ],
+      "limitations": [
+        "Fixed illustrated viewpoint; no measured camera translation or continuous 3D travel.",
+        "Projection/style reference must not donate new room layout."
+      ],
+      "projectionReference": {
+        "path": "docs/storyboard/production/story-worlds-20260924/kitchen-bootstrap.png",
+        "sha256": "fbf70ac4415fbc9e63febdc756af4a512ee9b7cd29e693fa4423e65608178184",
+        "bytes": 10310835,
+        "roles": [
+          "projection-style-only"
+        ],
+        "notes": "Successful assembled kitchen/table panorama; spherical projection and rendering finish ONLY. Do not import its furniture, doors, floors or room layout into the requested location.",
+        "evidence": "docs/storyboard/production/story-worlds-20260924/EXPORTS.md"
+      }
+    },
+    {
+      "id": "tour/common/table",
+      "aliases": [
+        "kitchen table",
+        "living room table",
+        "common room table"
+      ],
+      "kind": "image-led",
+      "approval": "review-candidate",
+      "approvalEvidence": "docs/storyboard/production/house-variants-20260924/README.md",
+      "room": "common",
+      "referenceIds": [
+        "common-book"
+      ],
+      "documents": [
+        "docs/storyboard/production/house-variants-20260924/common-table*.generation.json",
+        "docs/storyboard/production/house-variants-20260924/common-table*.prompt.txt",
+        "docs/storyboard/production/house-variants-20260924/projection/common-table*.json",
+        "docs/house-variants.config.js",
+        "docs/storyboard/locations/pinpin-house/references.json"
+      ],
+      "recipes": [
+        "docs/storyboard/panorama-workflow/README.md",
+        "tools/panoramas/README.md"
+      ],
+      "connections": [],
+      "limitations": [
+        "Fixed illustrated viewpoint; no measured camera translation or continuous 3D travel.",
+        "Projection/style reference must not donate new room layout."
+      ],
+      "projectionReference": {
+        "path": "docs/storyboard/production/story-worlds-20260924/kitchen-bootstrap.png",
+        "sha256": "fbf70ac4415fbc9e63febdc756af4a512ee9b7cd29e693fa4423e65608178184",
+        "bytes": 10310835,
+        "roles": [
+          "projection-style-only"
+        ],
+        "notes": "Successful assembled kitchen/table panorama; spherical projection and rendering finish ONLY. Do not import its furniture, doors, floors or room layout into the requested location.",
+        "evidence": "docs/storyboard/production/story-worlds-20260924/EXPORTS.md"
+      }
+    },
+    {
+      "id": "house/bath",
+      "aliases": [
+        "bathroom"
+      ],
+      "kind": "measured-geometry",
+      "approval": "geometry-study",
+      "approvalEvidence": "docs/storyboard/locations/pinpin-house/location.json",
+      "room": "bath",
+      "referenceIds": [
+        "bathroom-book",
+        "current-plan-underlay"
+      ],
+      "documents": [
+        "docs/storyboard/locations/pinpin-house/location.json",
+        "docs/storyboard/locations/pinpin-house/references.json",
+        "docs/storyboard/locations/pinpin-house/cameras.json",
+        "docs/storyboard/locations/pinpin-house/scene/house-plan.json",
+        "docs/storyboard/locations/pinpin-house/prompts/*.txt",
+        "docs/storyboard/locations/pinpin-house/examples/*bath*.json"
+      ],
+      "recipes": [
+        "tools/locations/README.md"
+      ],
+      "connections": [
+        {
+          "from": "common",
+          "to": "bath",
+          "door": "door-bath"
+        },
+        {
+          "from": "common",
+          "to": "bedroom",
+          "door": "door-bedroom"
+        }
+      ],
+      "limitations": [
+        "Three rooms; hall-through-open-doors is a common-room camera.",
+        "Measured plan plus explicit authored elevations/doors/lights; book staging is not geometry."
+      ]
+    },
+    {
+      "id": "tour/bath/current",
+      "aliases": [
+        "bathroom current"
+      ],
+      "kind": "image-led",
+      "approval": "review-candidate",
+      "approvalEvidence": "docs/storyboard/production/house-image-tour-20260924/README.md",
+      "room": "bath",
+      "referenceIds": [
+        "bathroom-book"
+      ],
+      "documents": [
+        "docs/storyboard/locations/pinpin-house/references.json",
+        "docs/storyboard/production/house-variants-20260924/projection/input-config.json",
+        "docs/storyboard/production/house-image-tour-20260924/bath/*.json",
+        "docs/storyboard/production/house-image-tour-20260924/bath/*.txt",
+        "docs/storyboard/production/house-variants-20260924/projection/bath-current.json",
+        "docs/house-image-tour-config.js"
+      ],
+      "recipes": [
+        "docs/storyboard/panorama-workflow/README.md",
+        "tools/panoramas/README.md"
+      ],
+      "connections": [
+        {
+          "from": "common",
+          "to": "bath"
+        },
+        {
+          "from": "common",
+          "to": "bedroom"
+        }
+      ],
+      "limitations": [
+        "Fixed illustrated viewpoint; no measured camera translation or continuous 3D travel.",
+        "Projection/style reference must not donate new room layout."
+      ],
+      "projectionReference": {
+        "path": "docs/storyboard/production/story-worlds-20260924/kitchen-bootstrap.png",
+        "sha256": "fbf70ac4415fbc9e63febdc756af4a512ee9b7cd29e693fa4423e65608178184",
+        "bytes": 10310835,
+        "roles": [
+          "projection-style-only"
+        ],
+        "notes": "Successful assembled kitchen/table panorama; spherical projection and rendering finish ONLY. Do not import its furniture, doors, floors or room layout into the requested location.",
+        "evidence": "docs/storyboard/production/story-worlds-20260924/EXPORTS.md"
+      }
+    },
+    {
+      "id": "tour/bath/child",
+      "aliases": [
+        "bathroom child"
+      ],
+      "kind": "image-led",
+      "approval": "review-candidate",
+      "approvalEvidence": "docs/storyboard/production/house-variants-20260924/README.md",
+      "room": "bath",
+      "referenceIds": [
+        "bathroom-book"
+      ],
+      "documents": [
+        "docs/storyboard/production/house-variants-20260924/bath-child*.generation.json",
+        "docs/storyboard/production/house-variants-20260924/bath-child*.prompt.txt",
+        "docs/storyboard/production/house-variants-20260924/projection/bath-child*.json",
+        "docs/house-variants.config.js",
+        "docs/storyboard/locations/pinpin-house/references.json"
+      ],
+      "recipes": [
+        "docs/storyboard/panorama-workflow/README.md",
+        "tools/panoramas/README.md"
+      ],
+      "connections": [],
+      "limitations": [
+        "Fixed illustrated viewpoint; no measured camera translation or continuous 3D travel.",
+        "Projection/style reference must not donate new room layout."
+      ],
+      "projectionReference": {
+        "path": "docs/storyboard/production/story-worlds-20260924/kitchen-bootstrap.png",
+        "sha256": "fbf70ac4415fbc9e63febdc756af4a512ee9b7cd29e693fa4423e65608178184",
+        "bytes": 10310835,
+        "roles": [
+          "projection-style-only"
+        ],
+        "notes": "Successful assembled kitchen/table panorama; spherical projection and rendering finish ONLY. Do not import its furniture, doors, floors or room layout into the requested location.",
+        "evidence": "docs/storyboard/production/story-worlds-20260924/EXPORTS.md"
+      }
+    },
+    {
+      "id": "house/bedroom",
+      "aliases": [
+        "bed room"
+      ],
+      "kind": "measured-geometry",
+      "approval": "geometry-study",
+      "approvalEvidence": "docs/storyboard/locations/pinpin-house/location.json",
+      "room": "bedroom",
+      "referenceIds": [
+        "bedroom-book",
+        "current-plan-underlay"
+      ],
+      "documents": [
+        "docs/storyboard/locations/pinpin-house/location.json",
+        "docs/storyboard/locations/pinpin-house/references.json",
+        "docs/storyboard/locations/pinpin-house/cameras.json",
+        "docs/storyboard/locations/pinpin-house/scene/house-plan.json",
+        "docs/storyboard/locations/pinpin-house/prompts/*.txt",
+        "docs/storyboard/locations/pinpin-house/examples/*bedroom*.json"
+      ],
+      "recipes": [
+        "tools/locations/README.md"
+      ],
+      "connections": [
+        {
+          "from": "common",
+          "to": "bath",
+          "door": "door-bath"
+        },
+        {
+          "from": "common",
+          "to": "bedroom",
+          "door": "door-bedroom"
+        }
+      ],
+      "limitations": [
+        "Three rooms; hall-through-open-doors is a common-room camera.",
+        "Measured plan plus explicit authored elevations/doors/lights; book staging is not geometry."
+      ]
+    },
+    {
+      "id": "tour/bedroom/current",
+      "aliases": [
+        "bed room current"
+      ],
+      "kind": "image-led",
+      "approval": "review-candidate",
+      "approvalEvidence": "docs/storyboard/production/house-image-tour-20260924/README.md",
+      "room": "bedroom",
+      "referenceIds": [
+        "bedroom-book"
+      ],
+      "documents": [
+        "docs/storyboard/locations/pinpin-house/references.json",
+        "docs/storyboard/production/house-variants-20260924/projection/input-config.json",
+        "docs/storyboard/production/house-image-tour-20260924/bedroom/*.json",
+        "docs/storyboard/production/house-image-tour-20260924/bedroom/*.txt",
+        "docs/storyboard/production/house-variants-20260924/projection/bedroom-current.json",
+        "docs/house-image-tour-config.js"
+      ],
+      "recipes": [
+        "docs/storyboard/panorama-workflow/README.md",
+        "tools/panoramas/README.md"
+      ],
+      "connections": [
+        {
+          "from": "common",
+          "to": "bath"
+        },
+        {
+          "from": "common",
+          "to": "bedroom"
+        }
+      ],
+      "limitations": [
+        "Fixed illustrated viewpoint; no measured camera translation or continuous 3D travel.",
+        "Projection/style reference must not donate new room layout."
+      ],
+      "projectionReference": {
+        "path": "docs/storyboard/production/story-worlds-20260924/kitchen-bootstrap.png",
+        "sha256": "fbf70ac4415fbc9e63febdc756af4a512ee9b7cd29e693fa4423e65608178184",
+        "bytes": 10310835,
+        "roles": [
+          "projection-style-only"
+        ],
+        "notes": "Successful assembled kitchen/table panorama; spherical projection and rendering finish ONLY. Do not import its furniture, doors, floors or room layout into the requested location.",
+        "evidence": "docs/storyboard/production/story-worlds-20260924/EXPORTS.md"
+      }
+    },
+    {
+      "id": "tour/bedroom/child",
+      "aliases": [
+        "bed room child"
+      ],
+      "kind": "image-led",
+      "approval": "review-candidate",
+      "approvalEvidence": "docs/storyboard/production/house-variants-20260924/README.md",
+      "room": "bedroom",
+      "referenceIds": [
+        "bedroom-book"
+      ],
+      "documents": [
+        "docs/storyboard/production/house-variants-20260924/bedroom-child*.generation.json",
+        "docs/storyboard/production/house-variants-20260924/bedroom-child*.prompt.txt",
+        "docs/storyboard/production/house-variants-20260924/projection/bedroom-child*.json",
+        "docs/house-variants.config.js",
+        "docs/storyboard/locations/pinpin-house/references.json"
+      ],
+      "recipes": [
+        "docs/storyboard/panorama-workflow/README.md",
+        "tools/panoramas/README.md"
+      ],
+      "connections": [],
+      "limitations": [
+        "Fixed illustrated viewpoint; no measured camera translation or continuous 3D travel.",
+        "Projection/style reference must not donate new room layout."
+      ],
+      "projectionReference": {
+        "path": "docs/storyboard/production/story-worlds-20260924/kitchen-bootstrap.png",
+        "sha256": "fbf70ac4415fbc9e63febdc756af4a512ee9b7cd29e693fa4423e65608178184",
+        "bytes": 10310835,
+        "roles": [
+          "projection-style-only"
+        ],
+        "notes": "Successful assembled kitchen/table panorama; spherical projection and rendering finish ONLY. Do not import its furniture, doors, floors or room layout into the requested location.",
+        "evidence": "docs/storyboard/production/story-worlds-20260924/EXPORTS.md"
+      }
+    },
+    {
+      "id": "world/elder",
+      "aliases": [
+        "elder",
+        "elder home",
+        "tree root home"
+      ],
+      "kind": "image-led",
+      "approval": "visual-direction-approved",
+      "approvalEvidence": "docs/storyboard/production/story-worlds-20260924/README.md",
+      "room": "elder",
+      "documents": [
+        "docs/storyboard/production/story-worlds-20260924/elder/*.json",
+        "docs/storyboard/production/story-worlds-20260924/elder/*.txt",
+        "docs/storyboard/production/story-worlds-20260924/projection/elder-final.json",
+        "docs/story-worlds.config.js"
+      ],
+      "recipes": [
+        "docs/storyboard/panorama-workflow/README.md",
+        "tools/panoramas/README.md"
+      ],
+      "connections": [],
+      "limitations": [
+        "Visual direction approved in README; no official publication or measured geography.",
+        "Successful kitchen panorama is projection/style only, never room-layout authority."
+      ],
+      "projectionReference": {
+        "path": "docs/storyboard/production/story-worlds-20260924/kitchen-bootstrap.png",
+        "sha256": "fbf70ac4415fbc9e63febdc756af4a512ee9b7cd29e693fa4423e65608178184",
+        "bytes": 10310835,
+        "roles": [
+          "projection-style-only"
+        ],
+        "notes": "Successful assembled kitchen/table panorama; spherical projection and rendering finish ONLY. Do not import its furniture, doors, floors or room layout into the requested location.",
+        "evidence": "docs/storyboard/production/story-worlds-20260924/EXPORTS.md"
+      }
+    },
+    {
+      "id": "world/lake",
+      "aliases": [
+        "lake",
+        "restored lake"
+      ],
+      "kind": "image-led",
+      "approval": "visual-direction-approved",
+      "approvalEvidence": "docs/storyboard/production/story-worlds-20260924/README.md",
+      "room": "lake",
+      "documents": [
+        "docs/storyboard/production/story-worlds-20260924/lake/*.json",
+        "docs/storyboard/production/story-worlds-20260924/lake/*.txt",
+        "docs/storyboard/production/story-worlds-20260924/projection/lake-final.json",
+        "docs/story-worlds.config.js"
+      ],
+      "recipes": [
+        "docs/storyboard/panorama-workflow/README.md",
+        "tools/panoramas/README.md"
+      ],
+      "connections": [],
+      "limitations": [
+        "Visual direction approved in README; no official publication or measured geography.",
+        "Successful kitchen panorama is projection/style only, never room-layout authority."
+      ],
+      "projectionReference": {
+        "path": "docs/storyboard/production/story-worlds-20260924/kitchen-bootstrap.png",
+        "sha256": "fbf70ac4415fbc9e63febdc756af4a512ee9b7cd29e693fa4423e65608178184",
+        "bytes": 10310835,
+        "roles": [
+          "projection-style-only"
+        ],
+        "notes": "Successful assembled kitchen/table panorama; spherical projection and rendering finish ONLY. Do not import its furniture, doors, floors or room layout into the requested location.",
+        "evidence": "docs/storyboard/production/story-worlds-20260924/EXPORTS.md"
+      }
+    },
+    {
+      "id": "world/tractor",
+      "aliases": [
+        "tractor",
+        "tractor bridge",
+        "stream footbridge"
+      ],
+      "kind": "image-led",
+      "approval": "visual-direction-approved",
+      "approvalEvidence": "docs/storyboard/production/story-worlds-20260924/README.md",
+      "room": "tractor",
+      "documents": [
+        "docs/storyboard/production/story-worlds-20260924/tractor/*.json",
+        "docs/storyboard/production/story-worlds-20260924/tractor/*.txt",
+        "docs/storyboard/production/story-worlds-20260924/projection/tractor-final.json",
+        "docs/story-worlds.config.js"
+      ],
+      "recipes": [
+        "docs/storyboard/panorama-workflow/README.md",
+        "tools/panoramas/README.md"
+      ],
+      "connections": [],
+      "limitations": [
+        "Visual direction approved in README; no official publication or measured geography.",
+        "Successful kitchen panorama is projection/style only, never room-layout authority."
+      ],
+      "projectionReference": {
+        "path": "docs/storyboard/production/story-worlds-20260924/kitchen-bootstrap.png",
+        "sha256": "fbf70ac4415fbc9e63febdc756af4a512ee9b7cd29e693fa4423e65608178184",
+        "bytes": 10310835,
+        "roles": [
+          "projection-style-only"
+        ],
+        "notes": "Successful assembled kitchen/table panorama; spherical projection and rendering finish ONLY. Do not import its furniture, doors, floors or room layout into the requested location.",
+        "evidence": "docs/storyboard/production/story-worlds-20260924/EXPORTS.md"
+      }
+    },
+    {
+      "id": "tractor/orbit",
+      "aliases": [
+        "tractor orbit",
+        "tractor stops",
+        "orbit"
+      ],
+      "kind": "video-derived-visual-stops",
+      "approval": "reviewed-experimental",
+      "approvalEvidence": "docs/storyboard/production/tractor-stops-20260924/ALL-24-REVIEW.md",
+      "documents": [
+        "docs/storyboard/production/tractor-stops-20260924/frames-manifest.json",
+        "docs/storyboard/production/tractor-stops-20260924/selection.json",
+        "docs/storyboard/production/tractor-stops-20260924/source-display-manifest.json",
+        "docs/storyboard/production/tractor-performance-20260924/README.md",
+        "docs/storyboard/production/tractor-performance-20260924/INVERTED-CONTROLS.md"
+      ],
+      "recipes": [
+        "docs/storyboard/panorama-workflow/source-frame-lock.md"
+      ],
+      "connections": [],
+      "limitations": [
+        "24 selected video-derived visual stops; not measured uniform 15-degree increments.",
+        "Selected stop status and experimental source-lock status remain separate."
+      ]
+    }
+  ],
+  "scanRoots": [
+    "docs/storyboard/locations/pinpin-house/",
+    "docs/storyboard/production/house-image-tour-20260924/",
+    "docs/storyboard/production/house-variants-20260924/",
+    "docs/storyboard/production/story-worlds-20260924/",
+    "docs/storyboard/production/tractor-stops-20260924/",
+    "docs/storyboard/production/tractor-performance-20260924/",
+    "docs/storyboard/panorama-workflow/",
+    "tools/panoramas/"
+  ],
+  "catalogGlobs": [
+    "assets/*.json",
+    "tools/assets/production-preservation.json"
+  ],
+  "allowedMetadataExtensions": [
+    ".json",
+    ".md",
+    ".txt",
+    ".js"
+  ],
+  "defaultMaxBytes": 33554432,
+  "metadataFiles": [
+    "docs/house-image-tour-config.js",
+    "docs/house-variants.config.js",
+    "docs/story-worlds.config.js",
+    "tools/locations/README.md"
+  ],
+  "metadataGlobs": [
+    "docs/storyboard/stories/*.json"
+  ]
+}
