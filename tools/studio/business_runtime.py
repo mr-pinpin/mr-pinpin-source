@@ -16,6 +16,7 @@ from uuid import uuid4
 
 from immutable_bundle import BundleError, bundle_hash, capture, publish_bundle, verify_bundle
 from model import StudioError, now
+from business_contract import metadata, value_valid, bounded_json, fail
 from store import atomic_json
 
 HASH = re.compile(r"^[a-f0-9]{64}$")
@@ -29,6 +30,8 @@ class _Handle:
     name: str
     module: object
     leases: int = 0
+    capabilities: object = None
+    mutation_pending: bool = False
 
 
 class BusinessRuntime:
@@ -124,12 +127,19 @@ class BusinessRuntime:
                     raise BundleError("Business creative_policy must be callable")
                 inspect.signature(module.creative_policy).bind()
                 self._validate_creative_policy(module.creative_policy())
+            if hasattr(module, "business_capabilities") and not callable(module.business_capabilities):
+                raise BundleError("business_capabilities must be callable")
+            capabilities = metadata(module.business_capabilities(), sha) if callable(getattr(module, "business_capabilities", None)) else metadata([], sha)
+            if capabilities["operations"]:
+                if not callable(getattr(module, "business_dispatch", None)):
+                    raise BundleError("Capabilities require business_dispatch")
+                inspect.signature(module.business_dispatch).bind(None, None, None, None)
             if module.self_test() is False:
                 raise BundleError("Business self_test failed")
         except BaseException:
             self._unload(name)
             raise
-        handle = _Handle(sha, name, module)
+        handle = _Handle(sha, name, module, capabilities=capabilities)
         with self.lock:
             self.handles.append(handle)
         return handle
@@ -197,6 +207,8 @@ class BusinessRuntime:
         if name not in ("selected_context", "route", "claim_job", "complete_job", "fail_job", "reply", "inbox", "creative_policy"):
             raise StudioError("Unknown business operation", "invalid_request", 400)
         with self.lock:
+            if name == "route" and len(args)>1 and args[1] in ("POST", "PUT") and any(h.mutation_pending for h in self.handles):
+                fail("A business mutation is still completing; do not replay", 409)
             handle = self.active
             if handle is None:
                 raise StudioError("Business logic is unavailable; conversation recovery remains available",
@@ -238,6 +250,80 @@ class BusinessRuntime:
             with self.lock:
                 handle.leases -= 1
                 self._prune()
+
+    def capabilities(self):
+        with self.lock:
+            if self.active is None:
+                fail("Business capabilities unavailable", 503)
+            return copy.deepcopy(self.active.capabilities)
+
+    def capability_request_limit(self, identifier, expected_hash):
+        with self.lock:
+            handle = self.active
+            if handle is None or expected_hash != handle.sha:
+                fail("Business revision changed; refresh capabilities", 409)
+            operation = next((op for op in handle.capabilities["operations"] if op["id"] == identifier), None)
+            if operation is None: fail("Unknown business capability", 404)
+            return operation["maxRequestBytes"]
+
+    def capability_request(self, store, identifier, expected_hash, raw, context):
+        # The lease, descriptor and invoked module are selected atomically.
+        with self.lock:
+            handle = self.active
+            if handle is None or expected_hash != handle.sha:
+                fail("Business revision changed; refresh capabilities", 409)
+            operation = next((op for op in handle.capabilities["operations"] if op["id"] == identifier), None)
+            if operation is None:
+                fail("Unknown business capability", 404)
+            if len(raw) > operation["maxRequestBytes"]:
+                fail("Business request exceeds declared limit", 413)
+            try:
+                body = json.loads(raw)
+            except (ValueError, UnicodeDecodeError, RecursionError):
+                fail("Invalid business JSON")
+            if not value_valid(operation["request"], body):
+                fail("Business request schema differs")
+            if not isinstance(context, dict) or type(context.get("readOnly")) is not bool or type(context.get("revision")) is not int or not 0 <= context["revision"] <= 9007199254740991:
+                fail("Explicit workspace view context required")
+            state = store.read()
+            mutation = operation["effect"] == "mutation"
+            if mutation and (context["readOnly"] or self.read_only or state.get("readOnly") or context["revision"] != state["revision"]):
+                fail("Historical views cannot mutate business state", 403)
+            if mutation and any(h.mutation_pending for h in self.handles):
+                fail("A business mutation is still completing; do not replay", 409)
+            if sum(h.leases for h in self.handles) >= 16:
+                fail("Business capability concurrency limit reached", 429)
+            handle.leases += 1
+            if mutation: handle.mutation_pending = True
+        deadline = time.monotonic() + operation["timeoutMs"] / 1000
+        call_context = dict(context, deadlineMonotonic=deadline, businessHash=handle.sha)
+        completed = threading.Event()
+        result = {}
+        def execute():
+            try:
+                value = handle.module.business_dispatch(store, identifier, body, call_context)
+                result["raw"] = bounded_json(value, operation["maxResponseBytes"])
+            except StudioError as exc:
+                result["error"] = exc
+            except (Exception, SystemExit):
+                with self.lock:
+                    if self.active is handle:
+                        self.active, self.previous = self.previous, None
+                        self._save("error", {"code": "business_call", "message": "Business capability failed; not replayed", "hash": handle.sha})
+                result["error"] = StudioError("Business capability failed; not replayed", "business_call", 503)
+            finally:
+                with self.lock:
+                    handle.leases -= 1
+                    if mutation: handle.mutation_pending = False
+                    self._prune()
+                completed.set()
+        threading.Thread(target=execute, name="studio-business-capability", daemon=True).start()
+        if not completed.wait(max(0, deadline-time.monotonic())):
+            # Python cannot safely kill a trusted in-process mutation. Keep its lease
+            # until it finishes and block further mutations; never replay after timeout.
+            fail("Business deadline exceeded; outcome may be uncertain, do not replay", 504)
+        if "error" in result: raise result["error"]
+        return result["raw"]
 
     def close(self):
         self.stop.set()

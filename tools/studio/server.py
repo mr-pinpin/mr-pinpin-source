@@ -13,6 +13,7 @@ from conversation import Conversation
 from review_state import state_at_revision
 from workspace_runtime import WorkspaceRuntime
 from business_runtime import BusinessRuntime
+from business_contract import MAX_REQUEST, bounded_json, OP, HASH
 from release import stable_release
 
 
@@ -92,6 +93,9 @@ class Handler(BaseHTTPRequestHandler):
 
     def _json(self, status, body):
         raw = json.dumps(body, ensure_ascii=False).encode()
+        return self._raw_json(status, raw)
+
+    def _raw_json(self, status, raw):
         self.send_response(status)
         self.send_header("Content-Type", "application/json; charset=utf-8")
         self.send_header("Content-Length", str(len(raw)))
@@ -196,6 +200,35 @@ class Handler(BaseHTTPRequestHandler):
             raise StudioError("Invalid path", "path_forbidden", 403)
         store = self.server.store
         query = parse_qs(urlsplit(self.path).query)
+        if path.startswith("/api/business/"):
+            if query or "%" in self.path or path != urlsplit(self.path).path:
+                raise StudioError("Business paths must be canonical")
+            if method == "GET" and path == "/api/business/capabilities":
+                return self._raw_json(200, bounded_json(self.server.business_runtime.capabilities(), 65536))
+            identifier = path.removeprefix("/api/business/")
+            if method != "POST" or not OP.fullmatch(identifier):
+                raise StudioError("Unknown business capability", "not_found", 404)
+            sha = self.headers.get("X-Studio-Business-Hash", "")
+            revision = self.headers.get("X-Studio-Revision", "")
+            view = self.headers.get("X-Studio-Read-Only", "")
+            if not HASH.fullmatch(sha) or (not revision.isdigit() or len(revision)>16 or int(revision)>9007199254740991) or view not in ("true", "false"):
+                raise StudioError("Explicit pinned workspace context required")
+            # Apply the pinned descriptor cap before reading any body bytes. Dispatch
+            # rechecks the hash and leases the descriptor/handler atomically afterward.
+            limit = self.server.business_runtime.capability_request_limit(identifier, sha)
+            previous_timeout = self.connection.gettimeout()
+            self.connection.settimeout(10)
+            try:
+                raw = self._body(limit, False)
+            except TimeoutError:
+                raise StudioError("Business request body timed out", "request_timeout", 408)
+            finally:
+                self.connection.settimeout(previous_timeout)
+            if self.headers.get("Content-Type", "").split(";")[0] != "application/json":
+                raise StudioError("Use application/json", "content_type", 415)
+            result = self.server.business_runtime.capability_request(store, identifier, sha, raw,
+                {"revision": int(revision), "readOnly": view == "true"})
+            return self._raw_json(200, result)
         if method == "GET":
             if path == "/api/runtime":
                 result = self.server.runtime.snapshot() if self.server.runtime else {

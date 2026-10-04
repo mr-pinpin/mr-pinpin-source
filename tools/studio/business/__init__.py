@@ -1,5 +1,6 @@
 """Versioned Studio business API loaded as one immutable package per revision."""
 from .routes import route
+from .capability_adapters import business_capabilities, business_dispatch
 from .context import selected_context
 from .creative_policy import creative_policy
 from .jobs import claim_job, complete_job, fail_job, reply, inbox

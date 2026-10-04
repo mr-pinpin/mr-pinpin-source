@@ -1,10 +1,13 @@
+import {businessRequest} from './business-extension-contract.js';
 // Only the active sandbox gets mutation capabilities. Conversation and runtime controls never cross this bridge.
 const ID='[A-Za-z0-9_.-]+';
 const reads=[/^\/api\/state$/, /^\/api\/plan$/, /^\/api\/media$/, /^\/api\/insights$/, /^\/api\/assets$/, /^\/api\/jobs$/, /^\/api\/history$/, /^\/api\/history\/\d+$/];
 const writes=[/^\/api\/plan\/approve$/, /^\/api\/jobs$/, /^\/api\/storyboards$/, /^\/api\/media\/import$/,new RegExp('^/api/jobs/'+ID+'/review$'),new RegExp('^/api/storyboards/'+ID+'/review$')];
-export function validateRequest(path,options={},canMutate=false,readOnly=false){
+export function validateRequest(path,options={},canMutate=false,readOnly=false,businessCapabilities=null){
  if(typeof path!=='string'||path.length>600||!path.startsWith('/api/')||path.includes('%')||path.includes('\\')||path.includes('#'))throw Error('This workspace request is not allowed.');
  const url=new URL(path,location.origin);if(url.origin!==location.origin)throw Error('External requests are not allowed.');
+ if(path.startsWith('/api/business/')&&url.pathname!==path.split('?')[0])throw Error('Business capability paths must be canonical.');
+ if(url.pathname.startsWith('/api/business/')){if(url.search)throw Error('Business capabilities do not accept URL parameters.');return businessRequest(url.pathname,options,canMutate,readOnly,businessCapabilities);}
  const method=String(options.method||'GET').toUpperCase(),query=[...url.searchParams.keys()];
  if(method==='GET'){if(!reads.some(re=>re.test(url.pathname)))throw Error('This workspace API is not available.');const permitted=url.pathname==='/api/plan'?['chapterId']:url.pathname==='/api/state'?['revision']:[];if(query.some(key=>!permitted.includes(key)))throw Error('Unknown request parameters.');return{path:url.pathname+url.search,options:{}}}
  if(!canMutate||readOnly)throw Error(readOnly?'This review is read-only. Return to Live preview to edit.':'The preview is still opening.');
