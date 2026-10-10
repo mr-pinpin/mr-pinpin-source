@@ -44,6 +44,8 @@
 - Prefer the mini and TB4 for large transfers, caches, and site build outputs.
   Set `PINPIN_ASSET_CACHE` outside the checkout; pass an external build output path
   when the Air is low on disk space.
+- Commit completed task changes and push them to the source remote. Preserve
+  unrelated work; a source push does not select an official reader release.
 - Run focused asset tests and a production build before pushing. The Pages artifact
   must contain only production assets, with valid checksums and no local symlinks.
 - Keep local review tools usable through verified asset restoration. Do not describe
