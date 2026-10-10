@@ -14,8 +14,7 @@
     "test:assets": "node --test tools/assets/*.test.cjs scripts/atlas-camera-return.test.cjs",
     "test:publishing": "python3 -B -m unittest discover -s tools/publishing -p 'test_*.py'",
     "release": "python3 tools/publishing/publish.py",
-    "verify": "npm run test:assets && npm run test:recovery && npm run build:pages -- --check",
-    "test:recovery": "npm ci --prefix tools/recovery --ignore-scripts && npm test --prefix tools/recovery && python3 -B -m unittest discover -s tools/recovery/commands -p 'test_*.py'"
+    "verify": "npm run test:assets && npm run build:pages -- --check"
   },
   "devDependencies": {
     "acorn": "^8.15.0",

@@ -1,5 +1,9 @@
 # Working in Mr. PinPin Source
 
+- Machine-access infrastructure (custom remote Codex launchers, Firebase and
+  Tailscale/SSH recovery) belongs in `mr-pinpin/infrastructure`, checked out at
+  `/root/pinpin-infrastructure` on the VPS. Keep only cross-references here.
+
 - For explicitly image-led 360° illustrations, panorama variations and derived
   cubemaps, use `docs/storyboard/panorama-workflow/README.md` and
   `tools/panoramas/README.md`. Keep these artistic studies separate from the
