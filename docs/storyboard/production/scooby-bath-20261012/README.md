@@ -53,6 +53,6 @@ The PDFs have selectable narration and are preserved at content-addressed public
 HF keys. `pdf/` contains input/export and verified upload records; the library
 catalog links those immutable files. Existing PDF entries and bytes are retained.
 
-Publication completes only after the verified release tools select a new official
-release and its Pages deployment/public chapter checks pass. The publication
-record is added separately after deployment.
+Published at https://mr-pinpin.github.io/storyboard/?story=scooby-bath&lang=en.
+The verified release, successful Pages deployment and live EN/RU/ES checks are
+recorded in `publication.json` and `live-reader-proof.json`.

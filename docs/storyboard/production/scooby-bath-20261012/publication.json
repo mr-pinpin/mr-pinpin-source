@@ -1,0 +1,28 @@
+{
+  "status": "published",
+  "source_commit": "7eac68157fd7e13dfa3c11429e87ff19d118a944",
+  "official_commit": "031cae7098e02bcca356533c801b1674423475eb",
+  "release_sha256": "f64c21aaf12d7778ed871d5e927cdee38cdfd1722ec3bffacd20b615e4b853f4",
+  "archive_sha256": "837fdcd55d33106fbc6895617b4c80e37cacba440415a6b5e6062b17fdb8ddc9",
+  "artifact_bytes": 923203235,
+  "artifact_files": 978,
+  "anonymous_upload_verified": true,
+  "anonymous_materialization_verified": true,
+  "existing_media_changed": 0,
+  "omitted_duplicate_native_pngs": 18,
+  "omitted_duplicate_bytes": 32029411,
+  "asset_tests": {
+    "tests": 55,
+    "passed": 54,
+    "failed": 0,
+    "skipped": 1
+  },
+  "publishing_tests_passed": 17,
+  "deployment_url": "https://github.com/mr-pinpin/mr-pinpin.github.io/actions/runs/38207739046",
+  "reader_url": "https://mr-pinpin.github.io/storyboard/?story=scooby-bath&lang=en",
+  "live_reader_verified": true,
+  "live_checks": [
+    "390px and 1440px, EN/RU/ES: 17 pages, all images decoded, no horizontal overflow or script errors",
+    "Public story, PDF library catalog and miniature bytes match authoring source"
+  ]
+}
