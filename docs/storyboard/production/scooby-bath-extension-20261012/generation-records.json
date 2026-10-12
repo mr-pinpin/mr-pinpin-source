@@ -1,0 +1,283 @@
+[
+  {
+    "id": "ext-01",
+    "tool": "image_gen__imagegen",
+    "source": "/root/.codex/generated_images/01a12451-8a9e-7140-a682-d7c1aa8efcbf/exec-bdd89fc8-422c-4db1-949e-9b0f81ac4e15.png",
+    "exactPrompt": "Use case: illustration-story. One polished landscape 1536x1024 children's book illustration, full bleed, no text, captions, panels or watermark. Warm tactile dimensional fur and quills, natural amber woodland light, matching existing Scooby bath chapter. Reference 1 is ONLY character identities and scale, never its dirt, poses or bath setting. Scooby is the SAME large fluffy golden-russet dog, cream muzzle, floppy ears, curled feathery tail, brown eyes and black nose, not Scooby-Doo. Papa is the adult chestnut-spined cream-faced hedgehog, PinPin half his height. Reference 2 defines ONLY Mama's adult hedgehog identity and maternal expression (the adult pouring water), never bathroom architecture. Mama is adult sized, softer russet-brown quills and cream face; distinguish her from Papa by her gentler face. No clothes. Each hedgehog has two forelimbs and two hindlimbs; Scooby exactly four attached legs and one head and tail; believable contact and balance. A sunny woodland garden clearing with grass, daisies and trees; no house, walls, doorway or architectural furniture visible. No baby or other characters. Morning preparation. Only Mama and young PinPin. Mama kneels beside a cream picnic cloth and sets out a wooden plate of bread and berries, three small family bowls and a separate plain dog bowl with appropriate dog food. PinPin carefully carries a cream jug of drinking water, holding it with both paws. Fresh morning rays, small food portions. No dog or Papa visible yet, no tub or shampoo. Calm familiar daily routine.\n",
+    "refs": [
+      "docs/storyboard/production/scooby-bath-20261012/native/scene-01.png",
+      "docs/storyboard/images/standalone/home-sweet-home/bedtime-08-v2.png"
+    ],
+    "selected": true,
+    "review": "Selected after Codex visual review under user publication instruction",
+    "sha256": "9a039469b150dcf38751bef1f24dba084b64b7329527ea849c4dafcbec69f4a1",
+    "generatedAt": "2026-10-12T06:09:47.172760+00:00",
+    "timestampBasis": "Original tool output filesystem mtime, not a claimed start/duration",
+    "inputHashes": [
+      {
+        "path": "docs/storyboard/production/scooby-bath-20261012/native/scene-01.png",
+        "sha256": "3db5b9b29ede38659adc761385102b0d5714cd69e5ea7ab2708f5d799950c458"
+      },
+      {
+        "path": "docs/storyboard/images/standalone/home-sweet-home/bedtime-08-v2.png",
+        "sha256": "c6e3deefa1acc93dadb3467931719f080a81ab8807dbff960bca6c225f07635d"
+      }
+    ],
+    "promptSha256": "6a39f921027fd6b84cfb0aea6635c96b4d5893f2722d8e64c49d0b32cfedc85b"
+  },
+  {
+    "id": "ext-02-initial",
+    "tool": "image_gen__imagegen",
+    "source": "/root/.codex/generated_images/01a12451-8a9e-7140-a682-d7c1aa8efcbf/exec-f7fd04e6-c832-4aa2-9f2e-c11ab39459f2.png",
+    "exactPrompt": "Use case: illustration-story. One polished landscape 1536x1024 children's book illustration, full bleed, no text, captions, panels or watermark. Warm tactile dimensional fur and quills, natural amber woodland light, matching existing Scooby bath chapter. Reference 1 is ONLY character identities and scale, never its dirt, poses or bath setting. Scooby is the SAME large fluffy golden-russet dog, cream muzzle, floppy ears, curled feathery tail, brown eyes and black nose, not Scooby-Doo. Papa is the adult chestnut-spined cream-faced hedgehog, PinPin half his height. Reference 2 defines ONLY Mama's adult hedgehog identity and maternal expression (the adult pouring water), never bathroom architecture. Mama is adult sized, softer russet-brown quills and cream face; distinguish her from Papa by her gentler face. No clothes. Each hedgehog has two forelimbs and two hindlimbs; Scooby exactly four attached legs and one head and tail; believable contact and balance. A sunny woodland garden clearing with grass, daisies and trees; no house, walls, doorway or architectural furniture visible. No baby or other characters. Breakfast on the picnic cloth. Mama, Papa and small PinPin sit together with bread and berry bowls. Scooby, perfectly CLEAN with dry golden fur and clean paws, eats from his own separate plain bowl just off the cloth, not the family's dishes. Mama looks warmly toward PinPin; Papa sits distinctly on the opposite side. Water jug nearby. All four whole coherent bodies, no extra heads/limbs. A relaxed start before any mud or bath, no tub.\n",
+    "refs": [
+      "docs/storyboard/production/scooby-bath-20261012/native/scene-01.png",
+      "docs/storyboard/images/standalone/home-sweet-home/bedtime-08-v2.png"
+    ],
+    "selected": false,
+    "review": "Preserved initial output; muddy paws before play require correction",
+    "sha256": "5904bf712f3a314813fd7ca672b7edbfd4ce753e103a84acf0be6f625c817087",
+    "generatedAt": "2026-10-12T06:10:41.938817+00:00",
+    "timestampBasis": "Original tool output filesystem mtime, not a claimed start/duration",
+    "inputHashes": [
+      {
+        "path": "docs/storyboard/production/scooby-bath-20261012/native/scene-01.png",
+        "sha256": "3db5b9b29ede38659adc761385102b0d5714cd69e5ea7ab2708f5d799950c458"
+      },
+      {
+        "path": "docs/storyboard/images/standalone/home-sweet-home/bedtime-08-v2.png",
+        "sha256": "c6e3deefa1acc93dadb3467931719f080a81ab8807dbff960bca6c225f07635d"
+      }
+    ],
+    "promptSha256": "8126b546ef802892ed8d0ca2cba39767e07dffd94c4cdbb61080f5121e428913"
+  },
+  {
+    "id": "ext-02",
+    "tool": "image_gen__imagegen",
+    "source": "/root/.codex/generated_images/01a12451-8a9e-7140-a682-d7c1aa8efcbf/exec-6bd90175-4df0-4433-b328-0488045b2487.png",
+    "exactPrompt": "Use case: precise-object-edit. Keep this complete 1536x1024 breakfast illustration exactly: composition, all hedgehogs, dog, poses, expressions, food, bowls, picnic cloth and lighting. Change ONLY the dog's dirty lower legs and paws. This scene is BEFORE the dog plays in mud: remove every dark mud speck, brown soil smear and muddy patch on both visible front paws and lower forelegs, rear paws and lower coat. All four paws and legs must have natural clean golden-russet fur blending into the rest of his coat. Preserve cream muzzle, black nose, brown eyes, paw anatomy, all toes, shading and fur detail; do not alter or remove any limb or character. Do not create spots or dirt anywhere. No other changes. No text.",
+    "refs": [
+      "/root/.codex/generated_images/01a12451-8a9e-7140-a682-d7c1aa8efcbf/exec-f7fd04e6-c832-4aa2-9f2e-c11ab39459f2.png"
+    ],
+    "selected": true,
+    "review": "Selected after Codex visual review under user publication instruction",
+    "sha256": "a8cf7d55f86f739b437e86745bb91c88cf771ab689132937ff702c65a9ecf6a8",
+    "generatedAt": "2026-10-12T06:13:38.538001+00:00",
+    "timestampBasis": "Original tool output filesystem mtime, not a claimed start/duration",
+    "inputHashes": [
+      {
+        "path": "/root/.codex/generated_images/01a12451-8a9e-7140-a682-d7c1aa8efcbf/exec-f7fd04e6-c832-4aa2-9f2e-c11ab39459f2.png",
+        "sha256": "5904bf712f3a314813fd7ca672b7edbfd4ce753e103a84acf0be6f625c817087"
+      }
+    ],
+    "promptSha256": "01784399b83ab8e3532b0fd9cf78a7558e9f217aa937c85b934aede13f84705a"
+  },
+  {
+    "id": "ext-03-initial",
+    "tool": "image_gen__imagegen",
+    "source": "/root/.codex/generated_images/01a12451-8a9e-7140-a682-d7c1aa8efcbf/exec-88e9c3b2-eb16-4537-9ab1-b64ec840013e.png",
+    "exactPrompt": "Use case: illustration-story. One polished landscape 1536x1024 children's book illustration, full bleed, no text, captions, panels or watermark. Warm tactile dimensional fur and quills, natural amber woodland light, matching existing Scooby bath chapter. Reference 1 is ONLY character identities and scale, never its dirt, poses or bath setting. Scooby is the SAME large fluffy golden-russet dog, cream muzzle, floppy ears, curled feathery tail, brown eyes and black nose, not Scooby-Doo. Papa is the adult chestnut-spined cream-faced hedgehog, PinPin half his height. Reference 2 defines ONLY Mama's adult hedgehog identity and maternal expression (the adult pouring water), never bathroom architecture. Mama is adult sized, softer russet-brown quills and cream face; distinguish her from Papa by her gentler face. No clothes. Each hedgehog has two forelimbs and two hindlimbs; Scooby exactly four attached legs and one head and tail; believable contact and balance. A sunny woodland garden clearing with grass, daisies and trees; no house, walls, doorway or architectural furniture visible. No baby or other characters. Mama's daily reminder before play. Only Mama, PinPin and clean dry Scooby. Mama gently wipes PinPin's one extended forepaw with a small damp cream cloth; PinPin watches attentively, his other paw resting at his side. Scooby sits beside them watching. The breakfast dishes are now cleared; only one empty wooden tray at lower edge. Gentle expressive close-up in garden, no tub, no soap. Care before meals and again at bedtime, never washing dog daily.\n",
+    "refs": [
+      "docs/storyboard/production/scooby-bath-20261012/native/scene-01.png",
+      "docs/storyboard/images/standalone/home-sweet-home/bedtime-08-v2.png"
+    ],
+    "selected": false,
+    "review": "Preserved initial output; muddy paws before play require correction",
+    "sha256": "1b632737d4d819a39376dc572c806df606aba0cace7801797e8c8b140ad1b04e",
+    "generatedAt": "2026-10-12T06:12:32.019931+00:00",
+    "timestampBasis": "Original tool output filesystem mtime, not a claimed start/duration",
+    "inputHashes": [
+      {
+        "path": "docs/storyboard/production/scooby-bath-20261012/native/scene-01.png",
+        "sha256": "3db5b9b29ede38659adc761385102b0d5714cd69e5ea7ab2708f5d799950c458"
+      },
+      {
+        "path": "docs/storyboard/images/standalone/home-sweet-home/bedtime-08-v2.png",
+        "sha256": "c6e3deefa1acc93dadb3467931719f080a81ab8807dbff960bca6c225f07635d"
+      }
+    ],
+    "promptSha256": "2bb5b23dc392721ec5e7f2675b7347bf5163ab59b4b40b08f600a4b3e0590b92"
+  },
+  {
+    "id": "ext-04",
+    "tool": "image_gen__imagegen",
+    "source": "/root/.codex/generated_images/01a12451-8a9e-7140-a682-d7c1aa8efcbf/exec-17e6a9c8-d9ac-4b3d-9434-f482db9169ac.png",
+    "exactPrompt": "Use case: illustration-story. One polished landscape 1536x1024 children's book illustration, full bleed, no text, captions, panels or watermark. Warm tactile dimensional fur and quills, natural amber woodland light, matching existing Scooby bath chapter. Reference 1 is ONLY character identities and scale, never its dirt, poses or bath setting. Scooby is the SAME large fluffy golden-russet dog, cream muzzle, floppy ears, curled feathery tail, brown eyes and black nose, not Scooby-Doo. Papa is the adult chestnut-spined cream-faced hedgehog, PinPin half his height. Reference 2 defines ONLY Mama's adult hedgehog identity and maternal expression (the adult pouring water), never bathroom architecture. Mama is adult sized, softer russet-brown quills and cream face; distinguish her from Papa by her gentler face. No clothes. Each hedgehog has two forelimbs and two hindlimbs; Scooby exactly four attached legs and one head and tail; believable contact and balance. A sunny woodland garden clearing with grass, daisies and trees; no house, walls, doorway or architectural furniture visible. No baby or other characters. Play after breakfast. Only Papa, PinPin and CLEAN Scooby. A windblown large golden leaf floats just ahead of Scooby's nose; Scooby bounds lightly after it across grass with correctly attached four legs. PinPin runs beside Papa safely BEHIND the dog, not underneath or riding it. Papa laughs. Bright clear morning sun, no dirt yet, no bath or picnic dishes, no architecture. Simple readable bodies and joyful chase.\n",
+    "refs": [
+      "/root/.codex/generated_images/01a12451-8a9e-7140-a682-d7c1aa8efcbf/exec-6bd90175-4df0-4433-b328-0488045b2487.png",
+      "docs/storyboard/images/standalone/home-sweet-home/bedtime-08-v2.png"
+    ],
+    "selected": true,
+    "review": "Selected after Codex visual review under user publication instruction",
+    "sha256": "d794da3395685b7dda9ef40ff654feecdb514c0ad07ce02d60d303f371796637",
+    "generatedAt": "2026-10-12T06:14:33.755060+00:00",
+    "timestampBasis": "Original tool output filesystem mtime, not a claimed start/duration",
+    "inputHashes": [
+      {
+        "path": "/root/.codex/generated_images/01a12451-8a9e-7140-a682-d7c1aa8efcbf/exec-6bd90175-4df0-4433-b328-0488045b2487.png",
+        "sha256": "a8cf7d55f86f739b437e86745bb91c88cf771ab689132937ff702c65a9ecf6a8"
+      },
+      {
+        "path": "docs/storyboard/images/standalone/home-sweet-home/bedtime-08-v2.png",
+        "sha256": "c6e3deefa1acc93dadb3467931719f080a81ab8807dbff960bca6c225f07635d"
+      }
+    ],
+    "promptSha256": "639849ea6eee67fc9a342f58988ac9ed39ff0652dac9a96c6d18a5ba84bbf03d"
+  },
+  {
+    "id": "ext-05",
+    "tool": "image_gen__imagegen",
+    "source": "/root/.codex/generated_images/01a12451-8a9e-7140-a682-d7c1aa8efcbf/exec-87154e9e-ed98-4e95-ae22-44765aa79047.png",
+    "exactPrompt": "Use case: illustration-story. One polished landscape 1536x1024 children's book illustration, full bleed, no text, captions, panels or watermark. Warm tactile dimensional fur and quills, natural amber woodland light, matching existing Scooby bath chapter. Reference 1 is ONLY character identities and scale, never its dirt, poses or bath setting. Scooby is the SAME large fluffy golden-russet dog, cream muzzle, floppy ears, curled feathery tail, brown eyes and black nose, not Scooby-Doo. Papa is the adult chestnut-spined cream-faced hedgehog, PinPin half his height. Reference 2 defines ONLY Mama's adult hedgehog identity and maternal expression (the adult pouring water), never bathroom architecture. Mama is adult sized, softer russet-brown quills and cream face; distinguish her from Papa by her gentler face. No clothes. Each hedgehog has two forelimbs and two hindlimbs; Scooby exactly four attached legs and one head and tail; believable contact and balance. A sunny woodland garden clearing with grass, daisies and trees; no house, walls, doorway or architectural furniture visible. No baby or other characters. How Scooby's paws became muddy. Only Scooby and PinPin, Papa may be cropped at far left but no extra character. Scooby leaps into a small SHALLOW brown rain puddle on earth, two front paws visibly meet the water and send an arc of muddy droplets upward. PinPin stands on DRY grass at safe distance, laughing, held by Papa if Papa visible. Dog shoulders and face remain golden clean, lower legs get muddy. No deep water, swimming, tub or soap.\n",
+    "refs": [
+      "/root/.codex/generated_images/01a12451-8a9e-7140-a682-d7c1aa8efcbf/exec-6bd90175-4df0-4433-b328-0488045b2487.png",
+      "docs/storyboard/images/standalone/home-sweet-home/bedtime-08-v2.png"
+    ],
+    "selected": true,
+    "review": "Selected after Codex visual review under user publication instruction",
+    "sha256": "31cad0f95f67e9214cac166fe903c86cb345a4d014f21e167dc46d6d13385561",
+    "generatedAt": "2026-10-12T06:15:32.724124+00:00",
+    "timestampBasis": "Original tool output filesystem mtime, not a claimed start/duration",
+    "inputHashes": [
+      {
+        "path": "/root/.codex/generated_images/01a12451-8a9e-7140-a682-d7c1aa8efcbf/exec-6bd90175-4df0-4433-b328-0488045b2487.png",
+        "sha256": "a8cf7d55f86f739b437e86745bb91c88cf771ab689132937ff702c65a9ecf6a8"
+      },
+      {
+        "path": "docs/storyboard/images/standalone/home-sweet-home/bedtime-08-v2.png",
+        "sha256": "c6e3deefa1acc93dadb3467931719f080a81ab8807dbff960bca6c225f07635d"
+      }
+    ],
+    "promptSha256": "728dea53316416424b1beba7abca3886434a8441c3836b92e1388187f5bff36b"
+  },
+  {
+    "id": "ext-06",
+    "tool": "image_gen__imagegen",
+    "source": "/root/.codex/generated_images/01a12451-8a9e-7140-a682-d7c1aa8efcbf/exec-ae74f843-ec11-45a0-9377-8a58e46222fa.png",
+    "exactPrompt": "Use case: illustration-story. One polished landscape 1536x1024 children's book illustration, full bleed, no text, captions, panels or watermark. Warm tactile dimensional fur and quills, natural amber woodland light, matching existing Scooby bath chapter. Reference 1 is ONLY character identities and scale, never its dirt, poses or bath setting. Scooby is the SAME large fluffy golden-russet dog, cream muzzle, floppy ears, curled feathery tail, brown eyes and black nose, not Scooby-Doo. Papa is the adult chestnut-spined cream-faced hedgehog, PinPin half his height. Reference 2 defines ONLY Mama's adult hedgehog identity and maternal expression (the adult pouring water), never bathroom architecture. Mama is adult sized, softer russet-brown quills and cream face; distinguish her from Papa by her gentler face. No clothes. Each hedgehog has two forelimbs and two hindlimbs; Scooby exactly four attached legs and one head and tail; believable contact and balance. A sunny woodland garden clearing with grass, daisies and trees; no house, walls, doorway or architectural furniture visible. No baby or other characters. How Scooby dirtied his coat. Scooby alone rolls happily on damp earth and fallen leaves BESIDE the shallow puddle, body turned onto one side, with four correctly attached legs bending playfully, belly partly visible, head relaxed and one feathery curled tail. Brown soil now on lower fur and one flank, a few leaves caught in coat. Young PinPin stands upright at far left watching with amused surprise, safely away. No Papa, Mama, bath, architecture or splashes suggesting drowning. Gentle funny dog roll.\n",
+    "refs": [
+      "docs/storyboard/production/scooby-bath-20261012/native/scene-01.png",
+      "docs/storyboard/images/standalone/home-sweet-home/bedtime-08-v2.png"
+    ],
+    "selected": true,
+    "review": "Selected after Codex visual review under user publication instruction",
+    "sha256": "429d5f797c25154f9f1e1728faa6e6f10b4c323d4ca968c0554e83ba836a7b03",
+    "generatedAt": "2026-10-12T06:17:22.919242+00:00",
+    "timestampBasis": "Original tool output filesystem mtime, not a claimed start/duration",
+    "inputHashes": [
+      {
+        "path": "docs/storyboard/production/scooby-bath-20261012/native/scene-01.png",
+        "sha256": "3db5b9b29ede38659adc761385102b0d5714cd69e5ea7ab2708f5d799950c458"
+      },
+      {
+        "path": "docs/storyboard/images/standalone/home-sweet-home/bedtime-08-v2.png",
+        "sha256": "c6e3deefa1acc93dadb3467931719f080a81ab8807dbff960bca6c225f07635d"
+      }
+    ],
+    "promptSha256": "3b36330e61720c1bc2f68b6ccf21ffd99fa89ccf1311745f4072af4867202126"
+  },
+  {
+    "id": "ext-07",
+    "tool": "image_gen__imagegen",
+    "source": "/root/.codex/generated_images/01a12451-8a9e-7140-a682-d7c1aa8efcbf/exec-73ca650e-d41c-4ad4-a969-38b2e47c8d69.png",
+    "exactPrompt": "Use case: illustration-story. One polished landscape 1536x1024 children's book illustration, full bleed, no text, captions, panels or watermark. Warm tactile dimensional fur and quills, natural amber woodland light, matching existing Scooby bath chapter. Reference 1 is ONLY character identities and scale, never its dirt, poses or bath setting. Scooby is the SAME large fluffy golden-russet dog, cream muzzle, floppy ears, curled feathery tail, brown eyes and black nose, not Scooby-Doo. Papa is the adult chestnut-spined cream-faced hedgehog, PinPin half his height. Reference 2 defines ONLY Mama's adult hedgehog identity and maternal expression (the adult pouring water), never bathroom architecture. Mama is adult sized, softer russet-brown quills and cream face; distinguish her from Papa by her gentler face. No clothes. Each hedgehog has two forelimbs and two hindlimbs; Scooby exactly four attached legs and one head and tail; believable contact and balance. A sunny woodland garden clearing with grass, daisies and trees; no house, walls, doorway or architectural furniture visible. No baby or other characters. Preparing the afternoon bath. Mama and Papa kneel on opposite sides of the SAME portable long low oval wooden dog tub with two dark iron bands, on broad woven garden mat. Mama checks shallow warm water with fingertips of ONE paw, other on tub rim; Papa sets folded ochre towels on dry mat. Young PinPin holds a small wooden-backed grooming brush. Muddy Scooby waits seated at a distance on right, curious, never restrained. Cream ceramic rinse jug and unlabelled blue dog-shampoo bottle set down beside mat. Afternoon amber light. Exact four separate cast bodies. Dog not in tub yet. No steam cloud or open fire.\n",
+    "refs": [
+      "docs/storyboard/production/scooby-bath-20261012/native/scene-01.png",
+      "docs/storyboard/images/standalone/home-sweet-home/bedtime-08-v2.png"
+    ],
+    "selected": true,
+    "review": "Selected after Codex visual review under user publication instruction",
+    "sha256": "8ac219d530e067f898bbd75793e3646ce291595f0c0a577cda4c8c5e1653333c",
+    "generatedAt": "2026-10-12T06:18:45.544332+00:00",
+    "timestampBasis": "Original tool output filesystem mtime, not a claimed start/duration",
+    "inputHashes": [
+      {
+        "path": "docs/storyboard/production/scooby-bath-20261012/native/scene-01.png",
+        "sha256": "3db5b9b29ede38659adc761385102b0d5714cd69e5ea7ab2708f5d799950c458"
+      },
+      {
+        "path": "docs/storyboard/images/standalone/home-sweet-home/bedtime-08-v2.png",
+        "sha256": "c6e3deefa1acc93dadb3467931719f080a81ab8807dbff960bca6c225f07635d"
+      }
+    ],
+    "promptSha256": "d70c44639a516acd7fdd6e37b9700808e8839ca3a10709284ddf2ddaaaf4df45"
+  },
+  {
+    "id": "ext-03",
+    "tool": "image_gen__imagegen",
+    "source": "/root/.codex/generated_images/01a12451-8a9e-7140-a682-d7c1aa8efcbf/exec-c4f19553-6a95-4943-a5f5-9ab2ef81e619.png",
+    "exactPrompt": "Use case: precise-object-edit. Preserve this complete 1536x1024 Mama wiping PinPin's paw illustration exactly: Mama, child, dog, poses, cloth, expressions, garden, tray and light. Change ONLY the dirt on the dog's paws and lower legs. This morning scene is BEFORE muddy play. Remove all dark mud clumps, brown soil streaks and dirty speckled patches from the visible front feet, rear feet, lower legs and bottom of coat. Replace with clean golden-russet natural fur matching his chest and body, anatomically correct toes, natural shadows and clean fur detail. Keep cream muzzle, nose, eyes, all four legs, head and tail unchanged. Never add any character, architecture or words. No other change.",
+    "refs": [
+      "/root/.codex/generated_images/01a12451-8a9e-7140-a682-d7c1aa8efcbf/exec-88e9c3b2-eb16-4537-9ab1-b64ec840013e.png"
+    ],
+    "selected": true,
+    "review": "Selected after visual review: clean morning paws before play",
+    "sha256": "8d2a5fa6106ab81a825cf8af5a4278605eb66b1a172d12134476f5b8fee37890",
+    "generatedAt": "2026-10-12T06:20:31.451446+00:00",
+    "timestampBasis": "Original tool output filesystem mtime, not a claimed start/duration",
+    "inputHashes": [
+      {
+        "path": "/root/.codex/generated_images/01a12451-8a9e-7140-a682-d7c1aa8efcbf/exec-88e9c3b2-eb16-4537-9ab1-b64ec840013e.png",
+        "sha256": "1b632737d4d819a39376dc572c806df606aba0cace7801797e8c8b140ad1b04e"
+      }
+    ],
+    "promptSha256": "2c382283b10164db51bef426f15f747f1eecbb6c3379006741268fae304e61ca"
+  },
+  {
+    "id": "ext-08",
+    "tool": "image_gen__imagegen",
+    "source": "/root/.codex/generated_images/01a12451-8a9e-7140-a682-d7c1aa8efcbf/exec-fce49f21-3ac3-4424-85dc-3402023e46bd.png",
+    "exactPrompt": "Use case: style-transfer\nAsset type: one children\u2019s-book location still.\nLocation: pinpin-house, version 1.0.0.\nGeometry/edit target: /root/.local/share/pinpin-production/scooby-bath-extension-20261012/geometry/ext-08/prepared/geometry-reference.png\nSupporting image roles: []\nCamera record: [\n  {\n    \"position\": [\n      1.5,\n      -1.399999976158142,\n      1.149999976158142\n    ],\n    \"quaternionWXYZ\": [\n      0.820462167263031,\n      0.3427256941795349,\n      0.17637282609939575,\n      0.4222244918346405\n    ],\n    \"matrixWorld\": [\n      [\n        0.5812382102012634,\n        -0.571943461894989,\n        0.5788288116455078,\n        1.5\n      ],\n      [\n        0.8137334585189819,\n        0.40853115916252136,\n        -0.41344907879829407,\n        -1.399999976158142\n      ],\n      [\n        -9.816837120979471e-08,\n        0.7113248109817505,\n        0.7028634548187256,\n        1.149999976158142\n      ],\n      [\n        0.0,\n        0.0,\n        0.0,\n        1.0\n      ]\n    ],\n    \"lensMm\": 24.0,\n    \"horizontalFovDegrees\": 73.73979461915735,\n    \"width\": 768,\n    \"height\": 512\n  }\n]\nDoor states in degrees: [\n  {\n    \"id\": \"door-front\",\n    \"angleDegrees\": 0,\n    \"signedAngleDegrees\": 0,\n    \"hingeWorld\": [\n      -0.6962748765945435,\n      -2.957864999771118,\n      0.0\n    ],\n    \"matrixWorld\": [\n      [\n        1.0,\n        -2.317848668553779e-08,\n        0.0,\n        -0.6962748765945435\n      ],\n      [\n        2.317848668553779e-08,\n        1.0,\n        0.0,\n        -2.957864999771118\n      ],\n      [\n        0.0,\n        0.0,\n        1.0,\n        0.0\n      ],\n      [\n        0.0,\n        0.0,\n        0.0,\n        1.0\n      ]\n    ]\n  },\n  {\n    \"id\": \"door-bath\",\n    \"angleDegrees\": 0,\n    \"signedAngleDegrees\": 0,\n    \"hingeWorld\": [\n      -2.0239672660827637,\n      0.6366258859634399,\n      0.0\n    ],\n    \"matrixWorld\": [\n      [\n        0.8411785960197449,\n        -0.5407573580741882,\n        0.0,\n        -2.0239672660827637\n      ],\n      [\n        0.5407573580741882,\n        0.8411785960197449,\n        0.0,\n        0.6366258859634399\n      ],\n      [\n        0.0,\n        0.0,\n        1.0,\n        0.0\n      ],\n      [\n        0.0,\n        0.0,\n        0.0,\n        1.0\n      ]\n    ]\n  },\n  {\n    \"id\": \"door-bedroom\",\n    \"angleDegrees\": 0,\n    \"signedAngleDegrees\": 0,\n    \"hingeWorld\": [\n      1.039655089378357,\n      0.4985438883304596,\n      0.0\n    ],\n    \"matrixWorld\": [\n      [\n        0.7090891003608704,\n        0.7051188945770264,\n        0.0,\n        1.039655089378357\n      ],\n      [\n        -0.7051188945770264,\n        0.7090891003608704,\n        0.0,\n        0.4985438883304596\n      ],\n      [\n        0.0,\n        0.0,\n        1.0,\n        0.0\n      ],\n      [\n        0.0,\n        0.0,\n        0.0,\n        1.0\n      ]\n    ]\n  }\n]\nIntent: Use case: illustration-story. New finished landscape 1536x1024 image in existing book style. First reference is the precise geometry authority: preserve identical camera, floor/wall boundaries, cropped round table at upper left, stools and tiny clipped door edge upper right. No window, stove, new door, cabinet or other architecture. Other references supply characters and style only, never room layout. Removable ochre dog cushion on visible floor. Mama crouches to gently stroke clean dry Scooby on his ochre cushion, while PinPin beside her gives one last quiet goodnight pat. Papa is not visible. Scooby is awake but drowsy with soft half-closed eyes, four legs tucked naturally. No bath or dirt. Mama says her familiar caring routine, quiet reassuring intimacy.\nCharacters: Scooby same golden-russet dog; young PinPin half adult height; Mama only when action names her, identity from adult pouring water in style reference. No clothes, extra limbs or cast.\nAction and eyelines: Mama crouches to gently stroke clean dry Scooby on his ochre cushion, while PinPin beside her gives one last quiet goodnight pat. Papa is not visible. Scooby is awake but drowsy with soft half-closed eyes, four legs tucked naturally. No bath or dirt. Mama says her familiar caring routine, quiet reassuring intimacy.\nLighting: Warm gentle evening lamplight; preserve the rendered openings.\n\nUse the first, current Blender render as the spatial authority. Preserve its camera position, projection, framing, room outline, curved wall junctions, visible opening count, opening positions, door hinge sides and angles, occlusion, and furniture footprints. A closed leaf stays closed; an open doorway reveals only the adjoining modeled space visible from this camera. The three-room house has a common kitchen/living room, bathroom and bedroom; do not invent a fourth hall or connect the private rooms through the outdoor recess.\n\nSemantic fixture key (world meters, not on-image labels): common-room west shelf unit at (-3.87,-0.59) is the BOOKCASE; low round west/front proxy at (-3.04,-1.96) is the STOVE, never a barrel; center round top at (-0.30,-1.09) is the dining TABLE with four low stools; long east unit at (2.77,-1.27) is the KITCHEN COUNTER. Bathroom broad low oval at (-3.74,2.67) is the wooden BATHTUB, with its oval mat below and small WASHSTAND at (-5.11,2.26). Bedroom rectangular raised form at (2.46,1.64) is the BED with north headboard. Render these identities only where visible in the guide, keeping their locations and occupied volumes; do not add text labels.\n\nGive the surfaces the supplied book\u2019s warm, softly stylized family-story appearance: honey-toned timber, gentle plaster, rounded crafted objects, readable forms and warm light. Keep the broad low wooden tub, oval mat and bed where the geometry places them when visible. Match the book reference\u2019s rendering language without copying its different camera or historic room arrangement. If characters are requested, use the identified character references, full separate bodies/limbs and explicit attentive eyelines; do not add a character when the job says empty room. No text, labels, watermark or collage border.\n\nThis is an illustrated derivative for review, not a new geometry definition. Do not conceal a structural mismatch with shadow, furniture or changed crop.\n",
+    "refs": [
+      "/root/.local/share/pinpin-production/scooby-bath-extension-20261012/geometry/ext-08/prepared/geometry-reference.png",
+      "docs/storyboard/production/scooby-bath-20261012/native/scene-16.png",
+      "docs/storyboard/images/standalone/home-sweet-home/bedtime-08-v2.png"
+    ],
+    "selected": true,
+    "review": "Selected after visual review: geometry matches measured camera, gentle goodnight contact, clean coat and relaxed eyes",
+    "sha256": "70797b7d7154d571b2d2b6f1c05164751ebab0500932ee46a3d8183807423902",
+    "generatedAt": "2026-10-12T06:21:37.244517+00:00",
+    "timestampBasis": "Original tool output filesystem mtime, not a claimed start/duration",
+    "inputHashes": [
+      {
+        "path": "/root/.local/share/pinpin-production/scooby-bath-extension-20261012/geometry/ext-08/prepared/geometry-reference.png",
+        "sha256": "720ff516d190143cdf7d8bff0c3bae92cfbc414f682ba870a5567e95527be66e"
+      },
+      {
+        "path": "docs/storyboard/production/scooby-bath-20261012/native/scene-16.png",
+        "sha256": "70070e88a6a06851563001f1ebd433c5c3357aca267168d6dfd25dfd0a5b0a39"
+      },
+      {
+        "path": "docs/storyboard/images/standalone/home-sweet-home/bedtime-08-v2.png",
+        "sha256": "c6e3deefa1acc93dadb3467931719f080a81ab8807dbff960bca6c225f07635d"
+      }
+    ],
+    "promptSha256": "a69a4ef8ba7ee70e449194ed0d184bd66901f98c845bbc30bf79a03c112968e7"
+  },
+  {
+    "id": "ext-09",
+    "tool": "image_gen__imagegen",
+    "source": "/root/.codex/generated_images/01a12451-8a9e-7140-a682-d7c1aa8efcbf/exec-5671b5b2-ea0e-4fd6-a2be-0903cc40194d.png",
+    "exactPrompt": "Use case: style-transfer\nAsset type: one children\u2019s-book location still.\nLocation: pinpin-house, version 1.0.0.\nGeometry/edit target: /root/.local/share/pinpin-production/scooby-bath-extension-20261012/geometry/ext-09/prepared/geometry-reference.png\nSupporting image roles: []\nCamera record: [\n  {\n    \"position\": [\n      1.5,\n      -1.399999976158142,\n      1.149999976158142\n    ],\n    \"quaternionWXYZ\": [\n      0.820462167263031,\n      0.3427256941795349,\n      0.17637282609939575,\n      0.4222244918346405\n    ],\n    \"matrixWorld\": [\n      [\n        0.5812382102012634,\n        -0.571943461894989,\n        0.5788288116455078,\n        1.5\n      ],\n      [\n        0.8137334585189819,\n        0.40853115916252136,\n        -0.41344907879829407,\n        -1.399999976158142\n      ],\n      [\n        -9.816837120979471e-08,\n        0.7113248109817505,\n        0.7028634548187256,\n        1.149999976158142\n      ],\n      [\n        0.0,\n        0.0,\n        0.0,\n        1.0\n      ]\n    ],\n    \"lensMm\": 24.0,\n    \"horizontalFovDegrees\": 73.73979461915735,\n    \"width\": 768,\n    \"height\": 512\n  }\n]\nDoor states in degrees: [\n  {\n    \"id\": \"door-front\",\n    \"angleDegrees\": 0,\n    \"signedAngleDegrees\": 0,\n    \"hingeWorld\": [\n      -0.6962748765945435,\n      -2.957864999771118,\n      0.0\n    ],\n    \"matrixWorld\": [\n      [\n        1.0,\n        -2.317848668553779e-08,\n        0.0,\n        -0.6962748765945435\n      ],\n      [\n        2.317848668553779e-08,\n        1.0,\n        0.0,\n        -2.957864999771118\n      ],\n      [\n        0.0,\n        0.0,\n        1.0,\n        0.0\n      ],\n      [\n        0.0,\n        0.0,\n        0.0,\n        1.0\n      ]\n    ]\n  },\n  {\n    \"id\": \"door-bath\",\n    \"angleDegrees\": 0,\n    \"signedAngleDegrees\": 0,\n    \"hingeWorld\": [\n      -2.0239672660827637,\n      0.6366258859634399,\n      0.0\n    ],\n    \"matrixWorld\": [\n      [\n        0.8411785960197449,\n        -0.5407573580741882,\n        0.0,\n        -2.0239672660827637\n      ],\n      [\n        0.5407573580741882,\n        0.8411785960197449,\n        0.0,\n        0.6366258859634399\n      ],\n      [\n        0.0,\n        0.0,\n        1.0,\n        0.0\n      ],\n      [\n        0.0,\n        0.0,\n        0.0,\n        1.0\n      ]\n    ]\n  },\n  {\n    \"id\": \"door-bedroom\",\n    \"angleDegrees\": 0,\n    \"signedAngleDegrees\": 0,\n    \"hingeWorld\": [\n      1.039655089378357,\n      0.4985438883304596,\n      0.0\n    ],\n    \"matrixWorld\": [\n      [\n        0.7090891003608704,\n        0.7051188945770264,\n        0.0,\n        1.039655089378357\n      ],\n      [\n        -0.7051188945770264,\n        0.7090891003608704,\n        0.0,\n        0.4985438883304596\n      ],\n      [\n        0.0,\n        0.0,\n        1.0,\n        0.0\n      ],\n      [\n        0.0,\n        0.0,\n        0.0,\n        1.0\n      ]\n    ]\n  }\n]\nIntent: Use case: illustration-story. New finished landscape 1536x1024 image in existing book style. First reference is the precise geometry authority: preserve identical camera, floor/wall boundaries, cropped round table at upper left, stools and tiny clipped door edge upper right. No window, stove, new door, cabinet or other architecture. Other references supply characters and style only, never room layout. Removable ochre dog cushion on visible floor. Only clean dry Scooby resting on his ochre cushion and young PinPin sitting beside his muzzle. PinPin watches the dog give a single gentle yawn, one head and clear attached jaw, a relaxed curved tongue, half-closed eyes, four naturally tucked legs. PinPin also yawns softly, one forepaw near his own mouth. No Mama or Papa. Rest means letting the tired body grow quiet, not a punishment.\nCharacters: Scooby same golden-russet dog; young PinPin half adult height; Mama only when action names her, identity from adult pouring water in style reference. No clothes, extra limbs or cast.\nAction and eyelines: Only clean dry Scooby resting on his ochre cushion and young PinPin sitting beside his muzzle. PinPin watches the dog give a single gentle yawn, one head and clear attached jaw, a relaxed curved tongue, half-closed eyes, four naturally tucked legs. PinPin also yawns softly, one forepaw near his own mouth. No Mama or Papa. Rest means letting the tired body grow quiet, not a punishment.\nLighting: Warm gentle evening lamplight; preserve the rendered openings.\n\nUse the first, current Blender render as the spatial authority. Preserve its camera position, projection, framing, room outline, curved wall junctions, visible opening count, opening positions, door hinge sides and angles, occlusion, and furniture footprints. A closed leaf stays closed; an open doorway reveals only the adjoining modeled space visible from this camera. The three-room house has a common kitchen/living room, bathroom and bedroom; do not invent a fourth hall or connect the private rooms through the outdoor recess.\n\nSemantic fixture key (world meters, not on-image labels): common-room west shelf unit at (-3.87,-0.59) is the BOOKCASE; low round west/front proxy at (-3.04,-1.96) is the STOVE, never a barrel; center round top at (-0.30,-1.09) is the dining TABLE with four low stools; long east unit at (2.77,-1.27) is the KITCHEN COUNTER. Bathroom broad low oval at (-3.74,2.67) is the wooden BATHTUB, with its oval mat below and small WASHSTAND at (-5.11,2.26). Bedroom rectangular raised form at (2.46,1.64) is the BED with north headboard. Render these identities only where visible in the guide, keeping their locations and occupied volumes; do not add text labels.\n\nGive the surfaces the supplied book\u2019s warm, softly stylized family-story appearance: honey-toned timber, gentle plaster, rounded crafted objects, readable forms and warm light. Keep the broad low wooden tub, oval mat and bed where the geometry places them when visible. Match the book reference\u2019s rendering language without copying its different camera or historic room arrangement. If characters are requested, use the identified character references, full separate bodies/limbs and explicit attentive eyelines; do not add a character when the job says empty room. No text, labels, watermark or collage border.\n\nThis is an illustrated derivative for review, not a new geometry definition. Do not conceal a structural mismatch with shadow, furniture or changed crop.\n",
+    "refs": [
+      "/root/.local/share/pinpin-production/scooby-bath-extension-20261012/geometry/ext-09/prepared/geometry-reference.png",
+      "docs/storyboard/production/scooby-bath-20261012/native/scene-16.png"
+    ],
+    "selected": true,
+    "review": "Selected after visual review: matching measured camera and furniture crop, clean dog, distinct yawning faces and natural resting anatomy",
+    "sha256": "472e24eda5c29d0e1812b24103074562ff0829033919b82c315174bdeee9fe38",
+    "generatedAt": "2026-10-12T06:22:56.136602+00:00",
+    "timestampBasis": "Original tool output filesystem mtime, not a claimed start/duration",
+    "inputHashes": [
+      {
+        "path": "/root/.local/share/pinpin-production/scooby-bath-extension-20261012/geometry/ext-09/prepared/geometry-reference.png",
+        "sha256": "0ac17110d936a0064be27af2b5b90eb19062e64849fb861b3eb49bdb683026c7"
+      },
+      {
+        "path": "docs/storyboard/production/scooby-bath-20261012/native/scene-16.png",
+        "sha256": "70070e88a6a06851563001f1ebd433c5c3357aca267168d6dfd25dfd0a5b0a39"
+      }
+    ],
+    "promptSha256": "f0bf131abdc4ce42979abb3afb7b40470f73b3f2fd4a2c783d8e071da69d880d"
+  }
+]

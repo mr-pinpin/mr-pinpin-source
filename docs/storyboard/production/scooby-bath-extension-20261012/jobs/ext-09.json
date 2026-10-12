@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "id": "scooby-bath-extension-9",
+  "location": "docs/storyboard/locations/pinpin-house/location.json",
+  "camera": {
+    "position": [
+      1.5,
+      -1.4,
+      1.15
+    ],
+    "target": [
+      0.8,
+      -0.9,
+      0.3
+    ],
+    "lensMm": 24,
+    "width": 768,
+    "height": 512
+  },
+  "doorStates": {
+    "door-front": 0,
+    "door-bath": 0,
+    "door-bedroom": 0
+  },
+  "prompt": {
+    "template": "still",
+    "intent": "Use case: illustration-story. New finished landscape 1536x1024 image in existing book style. First reference is the precise geometry authority: preserve identical camera, floor/wall boundaries, cropped round table at upper left, stools and tiny clipped door edge upper right. No window, stove, new door, cabinet or other architecture. Other references supply characters and style only, never room layout. Removable ochre dog cushion on visible floor. Only clean dry Scooby resting on his ochre cushion and young PinPin sitting beside his muzzle. PinPin watches the dog give a single gentle yawn, one head and clear attached jaw, a relaxed curved tongue, half-closed eyes, four naturally tucked legs. PinPin also yawns softly, one forepaw near his own mouth. No Mama or Papa. Rest means letting the tired body grow quiet, not a punishment.",
+    "characters": "Scooby same golden-russet dog; young PinPin half adult height; Mama only when action names her, identity from adult pouring water in style reference. No clothes, extra limbs or cast.",
+    "action": "Only clean dry Scooby resting on his ochre cushion and young PinPin sitting beside his muzzle. PinPin watches the dog give a single gentle yawn, one head and clear attached jaw, a relaxed curved tongue, half-closed eyes, four naturally tucked legs. PinPin also yawns softly, one forepaw near his own mouth. No Mama or Papa. Rest means letting the tired body grow quiet, not a punishment.",
+    "lighting": "Warm gentle evening lamplight; preserve the rendered openings.",
+    "referenceIds": []
+  },
+  "samples": 8
+}

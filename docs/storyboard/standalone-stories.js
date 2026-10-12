@@ -188,10 +188,11 @@
 
   function completeScooby(story) {
     const base = 'images/published/scooby-bath/';
-    if (story?.id !== 'scooby-bath' || story.editionVersion !== 1 || !localized(story.title) ||
+    const ids = story?.editionVersion === 1 ? Array.from({length:16}, (_,i) => 'scene-' + String(i+1).padStart(2,'0')) : story?.editionVersion === 2 ? [...Array.from({length:7}, (_,i) => 'ext-' + String(i+1).padStart(2,'0')), ...Array.from({length:15}, (_,i) => 'scene-' + String(i+1).padStart(2,'0')), 'ext-08', 'ext-09', 'scene-16'] : null;
+    if (story?.id !== 'scooby-bath' || !ids || !localized(story.title) ||
         !localized(story.cover) || !languages.every(lang => story.cover[lang] === base + 'title-' + lang + '.webp') ||
-        story.miniature !== base + 'miniature.webp' || !Array.isArray(story.scenes) || story.scenes.length !== 17 ||
-        !Array.isArray(story.spreads) || story.spreads.length !== 17) return false;
+        story.miniature !== base + 'miniature.webp' || !Array.isArray(story.scenes) || story.scenes.length !== ids.length + 1 ||
+        !Array.isArray(story.spreads) || story.spreads.length !== ids.length + 1) return false;
     return story.scenes.every((scene, index) => {
       const spread = story.spreads[index];
       if (!localized(scene.alt) || !languages.every(lang => Array.isArray(scene.paragraphs?.[lang]) &&
@@ -201,7 +202,7 @@
         scene.width === 1024 && scene.height === 1536 && spread.style === 'cover' && spread.paper === 'portrait' &&
         localized(scene.images) && scene.image === story.cover.en &&
         languages.every(lang => scene.images[lang] === story.cover[lang] && scene.paragraphs[lang].length === 0);
-      return scene.id === 'scene-' + String(index).padStart(2, '0') && scene.image === base + scene.id + '.webp' &&
+      return scene.id === ids[index - 1] && scene.image === base + (scene.id.startsWith('ext-') ? 'extension-v2/' : '') + scene.id + '.webp' &&
         scene.width === 1536 && scene.height === 1024 && scene.role === undefined &&
         spread.style === 'elder' && spread.paper === 'landscape' &&
         languages.every(lang => scene.paragraphs[lang].length > 0);
