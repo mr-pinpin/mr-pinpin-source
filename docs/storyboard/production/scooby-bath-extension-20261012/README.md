@@ -28,5 +28,7 @@ are retained locally and archived through verified asset synchronization; full
 stay in Git. No software MIT grant is applied to the illustrations or story; see
 root content notices. No rights are claimed in unprotectable AI output.
 
-Publication status and live checks are recorded after deployment. Prior release
+Published at https://mr-pinpin.github.io/storyboard/?story=scooby-bath&lang=en.
+`publication.json` and `live-reader-proof.json` record the verified deployment and
+all 26 pages at 390px and 1440px in EN/RU/ES. Prior release
 records, archive objects, first-edition PDF records and image masters remain intact.

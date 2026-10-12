@@ -1,0 +1,38 @@
+{
+  "status": "published",
+  "source_commit": "fc1011e757cdf8c0ee25c2c6070649519ceb888e",
+  "test_portability_commit": "870059c9c9a89cdf323cd76e75f8f5ccec44727d",
+  "official_commit": "6f526574c4bd02d66a1d5c4964a58f31ec60e311",
+  "release_sha256": "43b134fdb5769ebda1e1cc2734a3fe7aa539f61053dfb042a535ddda15fa7287",
+  "archive_sha256": "ad767e9a29a3043ffddb575cdfaf4265ac70f4fd9264dbcc78b2a952d3c8abd1",
+  "artifact_bytes": 926161163,
+  "artifact_files": 987,
+  "reader_pages": 26,
+  "added_illustrations": 9,
+  "languages": [
+    "en",
+    "ru",
+    "es"
+  ],
+  "anonymous_upload_verified": true,
+  "anonymous_materialization_verified": true,
+  "existing_media_changed": 0,
+  "focused_asset_tests": {
+    "tests": 56,
+    "passed": 55,
+    "failed": 0,
+    "skipped": 1
+  },
+  "chapter_preservation_tests_passed": 3,
+  "anonymous_pdf_checks_passed": 3,
+  "deployment_url": "https://github.com/mr-pinpin/mr-pinpin.github.io/actions/runs/38213653184",
+  "deployment_status": "success",
+  "reader_url": "https://mr-pinpin.github.io/storyboard/?story=scooby-bath&lang=en",
+  "live_reader_verified": true,
+  "live_model_library_html_checksums_verified": true,
+  "source_workflow": {
+    "url": "https://github.com/mr-pinpin/mr-pinpin-source/actions/runs/38212942440",
+    "status": "failed in unchanged Studio tests after focused asset and publisher checks",
+    "details": "Studio suite reported missing PIL in subprocess Python and a compact context fixture exceeding its byte bound. Studio code and workflow were outside this chapter change."
+  }
+}
