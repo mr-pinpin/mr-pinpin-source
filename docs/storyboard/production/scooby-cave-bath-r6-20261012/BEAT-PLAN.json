@@ -552,13 +552,13 @@
       "id": "r6-009",
       "number": 9,
       "day": 1,
-      "title": "Scooby at the step",
+      "title": "Clear place to practise",
       "location": "H0",
       "visibleCast": [
         "Papa",
         "Scooby"
       ],
-      "purpose": "Dog's separate breakfast bowl is empty; Papa greets him at the familiar doorway.",
+      "purpose": "Dog breakfast bowl empty; Papa eases the existing giant pink garden flowerpot to east side of step, clearing practice space, then greets dog.",
       "acting": [
         {
           "id": "Papa",
@@ -1286,13 +1286,13 @@
       "id": "r6-024",
       "number": 24,
       "day": 1,
-      "title": "Cool draft and petal",
+      "title": "Cool draft and blossom",
       "location": "F1",
       "visibleCast": [
         "Papa",
         "Scooby"
       ],
-      "purpose": "A cool draft moves one unusual fallen petal beside an old root-covered hollow.",
+      "purpose": "A cool draft moves one unusual fallen blossom beside an old root-covered hollow.",
       "acting": [
         {
           "id": "Papa",
@@ -1978,7 +1978,7 @@
         "PinPin",
         "Rabbit"
       ],
-      "purpose": "Papa points to the petal and moving ferns; children listen.",
+      "purpose": "Papa points to the blossom and moving ferns; children listen.",
       "acting": [
         {
           "id": "Papa",
@@ -2045,7 +2045,7 @@
         "PinPin",
         "Rabbit"
       ],
-      "purpose": "Child studies the unusual petal/root opening, not another arbitrary treasure.",
+      "purpose": "Child studies the unusual blossom/root opening, not another arbitrary treasure.",
       "acting": [
         {
           "id": "Papa",
@@ -2104,7 +2104,7 @@
       "id": "r6-040",
       "number": 40,
       "day": 1,
-      "title": "One petal taken",
+      "title": "One fallen blossom taken",
       "location": "C0",
       "visibleCast": [
         "Papa",
@@ -2112,7 +2112,7 @@
         "PinPin",
         "Rabbit"
       ],
-      "purpose": "PinPin picks up that same fallen petal as a small reminder; route remains visible.",
+      "purpose": "PinPin picks up that same fallen blossom as a small reminder; route remains visible.",
       "acting": [
         {
           "id": "Papa",
@@ -2491,7 +2491,7 @@
         "PinPin",
         "Rabbit"
       ],
-      "purpose": "Walk home; leaf boats and petal are carried by their named holders.",
+      "purpose": "Walk home; leaf boats and blossom are carried by their named holders.",
       "acting": [
         {
           "id": "Papa",
@@ -2625,7 +2625,7 @@
         "Papa",
         "PinPin"
       ],
-      "purpose": "Family hears the discovery; the single petal is put on a small cloth by the table.",
+      "purpose": "Family hears the discovery; the single fallen blossom is put on a small cloth by the table.",
       "acting": [
         {
           "id": "Mama",
@@ -2968,7 +2968,7 @@
         "PinPin",
         "PomPom"
       ],
-      "purpose": "Breakfast talk returns to the petal and echo with alert, curious faces.",
+      "purpose": "Breakfast talk returns to the blossom and echo with alert, curious faces.",
       "acting": [
         {
           "id": "Mama",
@@ -3178,7 +3178,7 @@
         "PinPin",
         "Scooby"
       ],
-      "purpose": "Assign bag/petal holders and confirm items before departure.",
+      "purpose": "Assign bag/blossom holders and confirm items before departure.",
       "acting": [
         {
           "id": "Mama",
@@ -3948,14 +3948,14 @@
       "id": "r6-069",
       "number": 69,
       "day": 2,
-      "title": "Petal returned",
+      "title": "Blossom returned",
       "location": "C0",
       "visibleCast": [
         "Mama",
         "PomPom",
         "PinPin"
       ],
-      "purpose": "Show supported PomPom touching the single petal before it is returned to native moss.",
+      "purpose": "Show supported PomPom touching the single fallen blossom before it is returned to native moss.",
       "acting": [
         {
           "id": "Mama",
@@ -6507,12 +6507,23 @@
       "location": "H1",
       "visibleCast": [
         "Mama",
+        "Papa",
         "PomPom"
       ],
       "purpose": "Real care/packing with supported infant.",
       "acting": [
         {
           "id": "Mama",
+          "actingTarget": {
+            "eyes": "on the actual actor/object named in this beat",
+            "brows": "attentive, puzzled, firm, wry or surprised as consequence requires",
+            "mouth": "relaxed closed or small speaking opening; smile only for an earned beat",
+            "posture": "do the named task; hands/weight/body scale remain possible",
+            "register": "focused/curious/firm/wry; NO automatic grin"
+          }
+        },
+        {
+          "id": "Papa",
           "actingTarget": {
             "eyes": "on the actual actor/object named in this beat",
             "brows": "attentive, puzzled, firm, wry or surprised as consequence requires",
@@ -10572,7 +10583,7 @@
         "Rabbit",
         "Scooby"
       ],
-      "purpose": "New detail within established plants/light, not a new unrelated world.",
+      "purpose": "Pass C3/C4, collect M2 on final visit and draw final C5→C6 bend; observe the same blossoms. No unexplained jump from C2.",
       "acting": [
         {
           "id": "Papa",
@@ -10581,7 +10592,7 @@
             "brows": "attentive, puzzled, firm, wry or surprised as consequence requires",
             "mouth": "relaxed closed or small speaking opening; smile only for an earned beat",
             "posture": "do the named task; hands/weight/body scale remain possible",
-            "register": "calm task-directed attention; individual reactions, no collective default smile"
+            "register": "focused/curious/firm/wry; NO automatic grin"
           }
         },
         {
@@ -10591,7 +10602,7 @@
             "brows": "attentive, puzzled, firm, wry or surprised as consequence requires",
             "mouth": "relaxed closed or small speaking opening; smile only for an earned beat",
             "posture": "do the named task; hands/weight/body scale remain possible",
-            "register": "calm task-directed attention; individual reactions, no collective default smile"
+            "register": "focused/curious/firm/wry; NO automatic grin"
           }
         },
         {
@@ -10601,7 +10612,7 @@
             "brows": "attentive, puzzled, firm, wry or surprised as consequence requires",
             "mouth": "relaxed closed or small speaking opening; smile only for an earned beat",
             "posture": "do the named task; hands/weight/body scale remain possible",
-            "register": "calm task-directed attention; individual reactions, no collective default smile"
+            "register": "focused/curious/firm/wry; NO automatic grin"
           }
         },
         {
@@ -10612,7 +10623,7 @@
             "mouth": "relaxed closed or natural pant, never copied toothy grin",
             "ears": "respond to cue/sound/water and body state",
             "posture": "named action with exactly four attached supporting/occluded legs",
-            "register": "calm task-directed attention; individual reactions, no collective default smile"
+            "register": "focused/curious/firm/wry; NO automatic grin"
           }
         }
       ],
@@ -10789,14 +10800,14 @@
       "number": 177,
       "day": 4,
       "title": "More vigorous scratch",
-      "location": "F1",
+      "location": "C6",
       "visibleCast": [
         "Papa",
         "Scooby",
         "PinPin",
         "Rabbit"
       ],
-      "purpose": "At outdoor damp bank near exit, dig moves wet earth onto all legs/belly.",
+      "purpose": "At OUTDOOR clay bank beyond C6, collect M3 then dog scratches; wet earth reaches all legs/belly.",
       "acting": [
         {
           "id": "Papa",
@@ -10856,7 +10867,7 @@
       "number": 178,
       "day": 4,
       "title": "A muddy roll",
-      "location": "F1",
+      "location": "C6",
       "visibleCast": [
         "Papa",
         "Scooby",
@@ -10923,7 +10934,7 @@
       "number": 179,
       "day": 4,
       "title": "Look at the result",
-      "location": "F1",
+      "location": "C6",
       "visibleCast": [
         "Papa",
         "PinPin",
@@ -10990,7 +11001,7 @@
       "number": 180,
       "day": 4,
       "title": "Wait really works",
-      "location": "F1",
+      "location": "C6",
       "visibleCast": [
         "Papa",
         "Scooby"
@@ -11044,7 +11055,7 @@
         "PinPin",
         "Rabbit"
       ],
-      "purpose": "Raised brow/wry care with supported infant; heavy dirt does not reset.",
+      "purpose": "Return along OUTER forest path C6→F2→F1→C0→C1; Mama raises brow with supported infant; heavy dirt does not reset.",
       "acting": [
         {
           "id": "Mama",
@@ -11133,7 +11144,7 @@
         "Rabbit",
         "Scooby"
       ],
-      "purpose": "Shown route to already tested location, with actual bag/gear.",
+      "purpose": "Exit C1→C0, collect M1, pass F1 to already tested T0; actual bag/gear, three collected strips inside bag.",
       "acting": [
         {
           "id": "Papa",
@@ -12748,7 +12759,7 @@
         "PomPom",
         "Scooby"
       ],
-      "purpose": "Return by C6→C5→C4→C1→C0, collecting marker3, marker2 then marker1; show the three strips in the bag at F1. Say farewell to the forest; sources off.",
+      "purpose": "At F1 count M1/M2/M3 already collected at scenes173/177/182 into the bag; say farewell to forest, sources off. Do not send clean dog on another muddy cave trip.",
       "acting": [
         {
           "id": "Papa",
@@ -12757,7 +12768,7 @@
             "brows": "attentive, puzzled, firm, wry or surprised as consequence requires",
             "mouth": "relaxed closed or small speaking opening; smile only for an earned beat",
             "posture": "do the named task; hands/weight/body scale remain possible",
-            "register": "quiet/affectionate/drowsy where appropriate; natural closed eyes for sleep"
+            "register": "focused/curious/firm/wry; NO automatic grin"
           }
         },
         {
@@ -12767,7 +12778,7 @@
             "brows": "attentive, puzzled, firm, wry or surprised as consequence requires",
             "mouth": "relaxed closed or small speaking opening; smile only for an earned beat",
             "posture": "do the named task; hands/weight/body scale remain possible",
-            "register": "quiet/affectionate/drowsy where appropriate; natural closed eyes for sleep"
+            "register": "focused/curious/firm/wry; NO automatic grin"
           }
         },
         {
@@ -12777,7 +12788,7 @@
             "brows": "attentive, puzzled, firm, wry or surprised as consequence requires",
             "mouth": "relaxed closed or small speaking opening; smile only for an earned beat",
             "posture": "do the named task; hands/weight/body scale remain possible",
-            "register": "quiet/affectionate/drowsy where appropriate; natural closed eyes for sleep"
+            "register": "focused/curious/firm/wry; NO automatic grin"
           }
         },
         {
@@ -12787,7 +12798,7 @@
             "brows": "attentive, puzzled, firm, wry or surprised as consequence requires",
             "mouth": "relaxed closed or small speaking opening; smile only for an earned beat",
             "posture": "do the named task; hands/weight/body scale remain possible",
-            "register": "quiet/affectionate/drowsy where appropriate; natural closed eyes for sleep"
+            "register": "focused/curious/firm/wry; NO automatic grin"
           }
         },
         {
@@ -12797,7 +12808,7 @@
             "brows": "soft curiosity, surprise or earned spoon/echo pleasure",
             "mouth": "quiet, small sound or brief earned laugh; not pasted grin",
             "posture": "supported by named adult/bedding; never standing/walking/submerged",
-            "register": "quiet/affectionate/drowsy where appropriate; natural closed eyes for sleep"
+            "register": "focused/curious/firm/wry; NO automatic grin"
           }
         },
         {
@@ -12808,7 +12819,7 @@
             "mouth": "relaxed closed or natural pant, never copied toothy grin",
             "ears": "respond to cue/sound/water and body state",
             "posture": "named action with exactly four attached supporting/occluded legs",
-            "register": "quiet/affectionate/drowsy where appropriate; natural closed eyes for sleep"
+            "register": "focused/curious/firm/wry; NO automatic grin"
           }
         }
       ],

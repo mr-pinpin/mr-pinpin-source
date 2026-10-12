@@ -1,0 +1,12 @@
+{
+  "status": "pass",
+  "checks": [
+    "all day-route steps follow defined walking edges",
+    "all named nodes exist",
+    "seven unique underground nodes",
+    "water branches A/B share split and reunion",
+    "day1 only enters daylight C1",
+    "T0 remains outdoors"
+  ],
+  "note": "Topology validation is not a visual-art approval."
+}

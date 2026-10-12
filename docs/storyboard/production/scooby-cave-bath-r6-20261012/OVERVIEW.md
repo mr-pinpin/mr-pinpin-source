@@ -10,7 +10,7 @@ PDFs stay intact until the complete R6 replacement passes editorial and art revi
 
 Papa takes Scooby for a real morning walk and practice, while Mama cares for
 PomPom and PinPin's play begins with Rabbit. Scooby follows a cool draft and a
-strange petal to a root-covered entrance in the forest. Behind it is a connected
+strange blossom to a root-covered entrance in the forest. Behind it is a connected
 cave system: moss, hanging vines, softly glowing berries, reflected pools, flowers
 and warm patches of light. The atmosphere takes inspiration from lush caves;
 the book retains its established dimensional storybook art, not a voxel/game UI.
@@ -70,7 +70,7 @@ its purpose and changed state; no page is a random event added to make a count.
 3. **Mama/PomPom:** meals, support/handovers and shared play → picnic preparation
    → infant's sensory/echo moments → daily clean-paw routine → shower preparation
    and warm-water check → dry-side reactions → familiar bedtime care.
-4. **Water/place:** cool draft, petal and visible entrance → lit chambers and
+4. **Water/place:** cool draft, blossom and visible entrance → lit chambers and
    branching streams → route clues and outlet → falling canopy water inspires
    controlled reuse of known magic → explicit reverse/last drop/quiet leaf.
 5. **Supporting cast:** two canonical birds give a small spring beat; Elder and

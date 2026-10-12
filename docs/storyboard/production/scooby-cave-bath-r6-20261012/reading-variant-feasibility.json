@@ -1,0 +1,167 @@
+{
+  "status": "new-reading-variant feasibility, not a complete-edition budget pass",
+  "nativeMastersPreserved": true,
+  "priorProductionAssetsUnchanged": true,
+  "recipe": {
+    "primary": "AVIF960x640 quality55 speed4",
+    "fallback": "WebP576x384 quality55 method6"
+  },
+  "actualSampleReport": [
+    {
+      "native": "docs/storyboard/production/scooby-cave-bath-r6-20261012/native/r6-001-v1.png",
+      "nativeSha256": "dd987ef97127329555c0d59577eb7d2f7c3c2f029b5ec53d9d01d1afa08133b2",
+      "variant": "r6-001-v1.avif",
+      "sha256": "9bc830b5e64963ba228e13ddf2a2244e6b0cca2ca2c843e6c4760eaff373d857",
+      "bytes": 70418,
+      "dimensions": [
+        960,
+        640
+      ],
+      "recipe": {
+        "format": "AVIF",
+        "quality": 55,
+        "speed": 4,
+        "resize": "Lanczos, no crop",
+        "pillowVersion": "12.3.0"
+      },
+      "status": "codec feasibility study; visual review required, not selected production"
+    },
+    {
+      "native": "docs/storyboard/production/scooby-cave-bath-r6-20261012/native/r6-001-v1.png",
+      "nativeSha256": "dd987ef97127329555c0d59577eb7d2f7c3c2f029b5ec53d9d01d1afa08133b2",
+      "variant": "r6-001-v1.webp",
+      "sha256": "bd38a8fc33f26424255e30629ad0cd880ac50be1c814dcfcd68fe52d1f0aafd9",
+      "bytes": 38936,
+      "dimensions": [
+        576,
+        384
+      ],
+      "recipe": {
+        "format": "WEBP",
+        "quality": 55,
+        "method": 6,
+        "resize": "Lanczos, no crop",
+        "pillowVersion": "12.3.0"
+      },
+      "status": "codec feasibility study; visual review required, not selected production"
+    },
+    {
+      "native": "docs/storyboard/production/scooby-cave-bath-r6-20261012/native/r6-010-v3.png",
+      "nativeSha256": "fe142cf7c14a3f2987ecf05784032f789fecfc05275523782ab5e530f73ce4c3",
+      "variant": "r6-010-v3.avif",
+      "sha256": "b57d0da0bae0752b770eeecd46396f488a3662dcddd103a46b5f3ec16575c1af",
+      "bytes": 83028,
+      "dimensions": [
+        960,
+        640
+      ],
+      "recipe": {
+        "format": "AVIF",
+        "quality": 55,
+        "speed": 4,
+        "resize": "Lanczos, no crop",
+        "pillowVersion": "12.3.0"
+      },
+      "status": "codec feasibility study; visual review required, not selected production"
+    },
+    {
+      "native": "docs/storyboard/production/scooby-cave-bath-r6-20261012/native/r6-010-v3.png",
+      "nativeSha256": "fe142cf7c14a3f2987ecf05784032f789fecfc05275523782ab5e530f73ce4c3",
+      "variant": "r6-010-v3.webp",
+      "sha256": "e8e8b918476cb2dc43aade8776346afc9c31ed3fa4b806aaad53631b938eeea7",
+      "bytes": 47956,
+      "dimensions": [
+        576,
+        384
+      ],
+      "recipe": {
+        "format": "WEBP",
+        "quality": 55,
+        "method": 6,
+        "resize": "Lanczos, no crop",
+        "pillowVersion": "12.3.0"
+      },
+      "status": "codec feasibility study; visual review required, not selected production"
+    },
+    {
+      "native": "docs/storyboard/production/scooby-cave-bath-r6-20261012/native/r6-041-v2.png",
+      "nativeSha256": "e020843725533bd5b8128f6eac4c83244a56b1c8125934dc2649b7bf48f59545",
+      "variant": "r6-041-v2.avif",
+      "sha256": "235cb9746930a14e7a7f01c477f05c912504a0211a3284fa08c82f4f5cdeff2f",
+      "bytes": 80653,
+      "dimensions": [
+        960,
+        640
+      ],
+      "recipe": {
+        "format": "AVIF",
+        "quality": 55,
+        "speed": 4,
+        "resize": "Lanczos, no crop",
+        "pillowVersion": "12.3.0"
+      },
+      "status": "codec feasibility study; visual review required, not selected production"
+    },
+    {
+      "native": "docs/storyboard/production/scooby-cave-bath-r6-20261012/native/r6-041-v2.png",
+      "nativeSha256": "e020843725533bd5b8128f6eac4c83244a56b1c8125934dc2649b7bf48f59545",
+      "variant": "r6-041-v2.webp",
+      "sha256": "dea814ad53a0cd82977d1156b89e972d1667e7cbc700e09a1534295b79b906f8",
+      "bytes": 43942,
+      "dimensions": [
+        576,
+        384
+      ],
+      "recipe": {
+        "format": "WEBP",
+        "quality": 55,
+        "method": 6,
+        "resize": "Lanczos, no crop",
+        "pillowVersion": "12.3.0"
+      },
+      "status": "codec feasibility study; visual review required, not selected production"
+    },
+    {
+      "native": "docs/storyboard/production/scooby-cave-bath-r6-20261012/native/r6-179-v1.png",
+      "nativeSha256": "b07de7046b2f903c574f26c2cbeee90b7f14ad59ebf35a4f54fa6f6f7d736979",
+      "variant": "r6-179-v1.avif",
+      "sha256": "758cc1b34ad726a3acbf4cd7ecc7917e93b1cf7bbf7b444fa7b94a0921a8e7b9",
+      "bytes": 96058,
+      "dimensions": [
+        960,
+        640
+      ],
+      "recipe": {
+        "format": "AVIF",
+        "quality": 55,
+        "speed": 4,
+        "resize": "Lanczos, no crop",
+        "pillowVersion": "12.3.0"
+      },
+      "status": "codec feasibility study; visual review required, not selected production"
+    },
+    {
+      "native": "docs/storyboard/production/scooby-cave-bath-r6-20261012/native/r6-179-v1.png",
+      "nativeSha256": "b07de7046b2f903c574f26c2cbeee90b7f14ad59ebf35a4f54fa6f6f7d736979",
+      "variant": "r6-179-v1.webp",
+      "sha256": "c9aa06ec96d994b1dfceed7b8921991b8f583a271a2e7fb2dedc04030bb95e1b",
+      "bytes": 58888,
+      "dimensions": [
+        576,
+        384
+      ],
+      "recipe": {
+        "format": "WEBP",
+        "quality": 55,
+        "method": 6,
+        "resize": "Lanczos, no crop",
+        "pillowVersion": "12.3.0"
+      },
+      "status": "codec feasibility study; visual review required, not selected production"
+    }
+  ],
+  "visualReview": "Browser comparison at960 showed faces/edges readable, some fine background texture loss; native masters/PDF source unchanged. Legacy fallback and complete final edition still require visual/budget checks.",
+  "averageTwoFormatBytes": 129970,
+  "estimate214BeforeSixEnvironmentPOVReuses": 27813526,
+  "fixedReleaseBudgetBytes": 950000000
+}

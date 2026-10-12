@@ -1,0 +1,36 @@
+{
+  "id": "r6-041-v1",
+  "status": "prepared; references must be visually inspected before built-in generation",
+  "prompt": "docs/storyboard/production/scooby-cave-bath-r6-20261012/prompts/r6-041-v1.txt",
+  "promptSha256": "8e341389555a94751431e2719f2bbb4ceec25fe2895d4ba296372c5923e67c03",
+  "references": [
+    {
+      "index": 1,
+      "role": "C1 room geometry/material/lighting, exact empty location",
+      "path": "/root/.codex/worktrees/c64d/mr-pinpin-source/docs/storyboard/production/scooby-cave-bath-r6-20261012/native/cave-lobby-anchor-v1.png",
+      "sha256": "50fbcba6fafc9f247b3423251c1c63f955251defc496542a08c95913db6f0e44"
+    },
+    {
+      "index": 2,
+      "role": "Papa/Dog identity and relative common-ground scale ONLY; change seated dog to STANDING and do not copy cue/house/frown",
+      "path": "/root/.codex/worktrees/c64d/mr-pinpin-source/docs/storyboard/production/scooby-cave-bath-r6-20261012/native/r6-010-v2.png",
+      "sha256": "b7449172d1f24c6769ebae8b87f7c0ee59fdce35e3497ca265ecba514d31480f"
+    },
+    {
+      "index": 3,
+      "role": "PinPin older-child identity ONLY; omit Mama/PomPom/table/bread and indoor geometry",
+      "path": "/root/.codex/worktrees/c64d/mr-pinpin-source/docs/storyboard/production/scooby-cave-bath-r6-20261012/native/r6-003-v2.png",
+      "sha256": "1274eb97f1e5196baf41972f74ee446d11041b1f95a0b355ec95695f8f2273f4"
+    },
+    {
+      "index": 4,
+      "role": "Rabbit identity/folded green leaf design ONLY; each child holds ONE boat, not both Rabbit",
+      "path": "/root/.codex/worktrees/c64d/mr-pinpin-source/docs/storyboard/images/published/bath-magic/r17/scene-03l.webp",
+      "sha256": "b40ac36e16a2f183f826d340f8be4c2ad85c30fa0a3e660c0dd0958cdb5da81b"
+    }
+  ],
+  "expectedNativeSize": [
+    1536,
+    1024
+  ]
+}

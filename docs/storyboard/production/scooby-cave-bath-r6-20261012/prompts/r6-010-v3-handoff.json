@@ -1,0 +1,24 @@
+{
+  "id": "r6-010-v3",
+  "status": "prepared; references must be visually inspected before built-in generation",
+  "prompt": "docs/storyboard/production/scooby-cave-bath-r6-20261012/prompts/r6-010-v3.txt",
+  "promptSha256": "97d88b3a6a8b50fb6ff764080d0316330363bee2204c5d56adbe9733e58fede8",
+  "references": [
+    {
+      "index": 1,
+      "role": "EXACT repaired exterior/giant pink flower east-side/bowl and current Papa/Dog identity; alter blocking to sit cue",
+      "path": "/root/.codex/worktrees/c64d/mr-pinpin-source/docs/storyboard/production/scooby-cave-bath-r6-20261012/native/r6-009-v1.png",
+      "sha256": "f663f9dfe0a38005272048c1ecea272e21b70eff535804bae589e536491f267e"
+    },
+    {
+      "index": 2,
+      "role": "DOG SEATED POSE ONLY; ignore old background wrong door/absent flower and old Father profile",
+      "path": "/root/.codex/worktrees/c64d/mr-pinpin-source/docs/storyboard/production/scooby-cave-bath-r6-20261012/native/r6-010-v2.png",
+      "sha256": "b7449172d1f24c6769ebae8b87f7c0ee59fdce35e3497ca265ecba514d31480f"
+    }
+  ],
+  "expectedNativeSize": [
+    1536,
+    1024
+  ]
+}

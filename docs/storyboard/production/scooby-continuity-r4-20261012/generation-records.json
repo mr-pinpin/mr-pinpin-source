@@ -1,0 +1,234 @@
+[
+  {
+    "id": "boat-reference",
+    "source": "/root/.codex/generated_images/01a12451-8a9e-7140-a682-d7c1aa8efcbf/exec-7a1af2f6-39fe-43e6-9497-89105b4ed800.png",
+    "tool": "image_gen__imagegen",
+    "exactPrompt": "Use case: object-reference. A single coherent children's story prop on a plain warm off-white studio background, no text, labels, measurements, panels, logo or watermark. Landscape 1536x1024. One small old hand-carved WOODEN TOY BOAT, about 25cm long in story scale, shown in a clear three-quarter view. Distinctive faded BLUE hull, narrow cream-painted upper rim, rounded stern, pointed bow, visible natural wood grain and rubbed paint. A single short broken-off wooden mast stump in the middle, NO tall mast or sail. A TINY dull golden brass bell attached with a small beige cord at the bow; bell has one round clapper opening, securely tied, no extra bells. Boat is sturdy and intact, not rotted, sharp or wrecked. Mild earth smudges on hull but all shape/color identifiable. Warm tactile dimensional rendering matching Mr PinPin children's picture-book style. This exact object will be progressively uncovered from garden soil in later scenes; provide one object only, clearly readable silhouette and details, no characters, ground, plants or other props.",
+    "refs": [],
+    "status": "R4 study only; not published; superseded by user request for complete preproduction and acting audit",
+    "selectedForPublication": false,
+    "sha256": "9e46b1fe58dd1b6bc8fa2acc1cdfd8eba37605e511c7f761bddab2dde5946291",
+    "promptSha256": "2fe745a8aa93ca114923e72fc4da1eabef437627b1f6eaaa568a212e991e5e26",
+    "generatedAt": "2026-10-12T07:55:02.195580+00:00",
+    "timestampBasis": "Tool output filesystem mtime, not a claimed start/duration",
+    "inputHashes": []
+  },
+  {
+    "id": "start-01",
+    "source": "/root/.codex/generated_images/01a12451-8a9e-7140-a682-d7c1aa8efcbf/exec-2e0524bb-0d5a-46fe-bab5-7a73bf45021a.png",
+    "tool": "image_gen__imagegen",
+    "exactPrompt": "Use case: style-transfer\nAsset type: one children\u2019s-book location still.\nLocation: pinpin-house, version 1.0.0.\nGeometry/edit target: /root/.local/share/pinpin-production/scooby-continuity-r4-20261012/geometry/start-01/prepared/geometry-reference.png\nSupporting image roles: []\nCamera record: [\n  {\n    \"position\": [\n      0.10000000149011612,\n      0.6000000238418579,\n      1.149999976158142\n    ],\n    \"quaternionWXYZ\": [\n      0.0773458182811737,\n      0.06493283808231354,\n      0.6396865248680115,\n      0.7619727253913879\n    ],\n    \"matrixWorld\": [\n      [\n        -0.979603111743927,\n        -0.03479749709367752,\n        0.19790829718112946,\n        0.10000000149011612\n      ],\n      [\n        0.200944185256958,\n        -0.1696377843618393,\n        0.9648030400276184,\n        0.6000000238418579\n      ],\n      [\n        -4.4133695809023266e-08,\n        0.9848921895027161,\n        0.1731695979833603,\n        1.149999976158142\n      ],\n      [\n        0.0,\n        0.0,\n        0.0,\n        1.0\n      ]\n    ],\n    \"lensMm\": 24.0,\n    \"horizontalFovDegrees\": 73.73979461915735,\n    \"width\": 768,\n    \"height\": 512\n  }\n]\nDoor states in degrees: [\n  {\n    \"id\": \"door-front\",\n    \"angleDegrees\": 0,\n    \"signedAngleDegrees\": 0,\n    \"hingeWorld\": [\n      -0.6962748765945435,\n      -2.957864999771118,\n      0.0\n    ],\n    \"matrixWorld\": [\n      [\n        1.0,\n        -2.317848668553779e-08,\n        0.0,\n        -0.6962748765945435\n      ],\n      [\n        2.317848668553779e-08,\n        1.0,\n        0.0,\n        -2.957864999771118\n      ],\n      [\n        0.0,\n        0.0,\n        1.0,\n        0.0\n      ],\n      [\n        0.0,\n        0.0,\n        0.0,\n        1.0\n      ]\n    ]\n  },\n  {\n    \"id\": \"door-bath\",\n    \"angleDegrees\": 0,\n    \"signedAngleDegrees\": 0,\n    \"hingeWorld\": [\n      -2.0239672660827637,\n      0.6366258859634399,\n      0.0\n    ],\n    \"matrixWorld\": [\n      [\n        0.8411785960197449,\n        -0.5407573580741882,\n        0.0,\n        -2.0239672660827637\n      ],\n      [\n        0.5407573580741882,\n        0.8411785960197449,\n        0.0,\n        0.6366258859634399\n      ],\n      [\n        0.0,\n        0.0,\n        1.0,\n        0.0\n      ],\n      [\n        0.0,\n        0.0,\n        0.0,\n        1.0\n      ]\n    ]\n  },\n  {\n    \"id\": \"door-bedroom\",\n    \"angleDegrees\": 0,\n    \"signedAngleDegrees\": 0,\n    \"hingeWorld\": [\n      1.039655089378357,\n      0.4985438883304596,\n      0.0\n    ],\n    \"matrixWorld\": [\n      [\n        0.7090891003608704,\n        0.7051188945770264,\n        0.0,\n        1.039655089378357\n      ],\n      [\n        -0.7051188945770264,\n        0.7090891003608704,\n        0.0,\n        0.4985438883304596\n      ],\n      [\n        0.0,\n        0.0,\n        1.0,\n        0.0\n      ],\n      [\n        0.0,\n        0.0,\n        0.0,\n        1.0\n      ]\n    ]\n  }\n]\nIntent: Use case: illustration-story. One finished LANDSCAPE 1536x1024 children's picture-book illustration, no text, panels, logos or watermark. Input1 current Blender guide is the sole authority for camera, house shape, openings, door states and fixed furniture. Preserve guide perspective and cropping exactly. Other inputs provide ONLY warm tactile book rendering, cast identity and the separately named story prop. Do not copy their old architecture or reposition a modeled window. Golden morning light, warm honey timber/stone/plaster and amber fur/quills, same detailed gentle look as the LAST Bath Magic chapter, not a new cartoon style. Each named hedgehog has one head, two forelimbs, two hindlimbs; dog exactly four attached legs, one head and one curled tail, with believable contact and occlusion. No clothes. Papa is adult grey/chestnut spined cream-faced hedgehog with broad gentle face; Mama is adult russet spined cream-faced mother; PinPin child about HALF adult height; PomPom tiny baby only if explicitly named. Scooby same golden-russet dog with cream muzzle, floppy ears, brown eyes, black rounded nose and feathery curled tail; shoulder approximately1.3 times Papa standing height, never giant paws as big as an adult body. Keep all cast at comparable scale/depth and separate anatomy. No additional cast. Only Mama and young PinPin. Calm domestic opening: Mama stands behind the LEFT side of the round table, setting FOUR small cream-speckled breakfast bowls near a wooden bread plate. PinPin pauses by a low stool on the RIGHT watching the faint warm mist above one bowl. No Papa, baby or dog visible. The porridge is already in bowls, no invented kitchen stove/counter. Preserve table/stools and two radial round front windows and CLOSED arched green door exactly as guide. A small flower jug on table is a removable tabletop prop.\nCharacters: Cast and relative scale explicitly defined in intent. Reference old book for identity/rendering only.\nAction and eyelines: Only Mama and young PinPin. Calm domestic opening: Mama stands behind the LEFT side of the round table, setting FOUR small cream-speckled breakfast bowls near a wooden bread plate. PinPin pauses by a low stool on the RIGHT watching the faint warm mist above one bowl. No Papa, baby or dog visible. The porridge is already in bowls, no invented kitchen stove/counter. Preserve table/stools and two radial round front windows and CLOSED arched green door exactly as guide. A small flower jug on table is a removable tabletop prop.\nLighting: Gentle morning for opening and garden; warm afternoon for welcome.\n\nUse the first, current Blender render as the spatial authority. Preserve its camera position, projection, framing, room outline, curved wall junctions, visible opening count, opening positions, door hinge sides and angles, occlusion, and furniture footprints. A closed leaf stays closed; an open doorway reveals only the adjoining modeled space visible from this camera. The three-room house has a common kitchen/living room, bathroom and bedroom; do not invent a fourth hall or connect the private rooms through the outdoor recess.\n\nSemantic fixture key (world meters, not on-image labels): common-room west shelf unit at (-3.87,-0.59) is the BOOKCASE; low round west/front proxy at (-3.04,-1.96) is the STOVE, never a barrel; center round top at (-0.30,-1.09) is the dining TABLE with four low stools; long east unit at (2.77,-1.27) is the KITCHEN COUNTER. Bathroom broad low oval at (-3.74,2.67) is the wooden BATHTUB, with its oval mat below and small WASHSTAND at (-5.11,2.26). Bedroom rectangular raised form at (2.46,1.64) is the BED with north headboard. Render these identities only where visible in the guide, keeping their locations and occupied volumes; do not add text labels.\n\nGive the surfaces the supplied book\u2019s warm, softly stylized family-story appearance: honey-toned timber, gentle plaster, rounded crafted objects, readable forms and warm light. Keep the broad low wooden tub, oval mat and bed where the geometry places them when visible. Match the book reference\u2019s rendering language without copying its different camera or historic room arrangement. If characters are requested, use the identified character references, full separate bodies/limbs and explicit attentive eyelines; do not add a character when the job says empty room. No text, labels, watermark or collage border.\n\nThis is an illustrated derivative for review, not a new geometry definition. Do not conceal a structural mismatch with shadow, furniture or changed crop.\n",
+    "refs": [
+      "/root/.local/share/pinpin-production/scooby-continuity-r4-20261012/geometry/start-01/prepared/geometry-reference.png",
+      "docs/storyboard/images/published/bath-magic/r17/scene-03a.webp",
+      "docs/storyboard/images/published/bath-magic/scene-02.webp"
+    ],
+    "status": "R4 study only; not published; superseded by user request for complete preproduction and acting audit",
+    "selectedForPublication": false,
+    "sha256": "e1eb8e9069c9e5a4205b45db3c91622847b13de7da8990d1e4dc57f6ab0c2379",
+    "promptSha256": "34e8077980e9d97963d9b0932f2443d14cb4543e00e46a972c6d35975ee0a1b2",
+    "generatedAt": "2026-10-12T08:18:31.799137+00:00",
+    "timestampBasis": "Tool output filesystem mtime, not a claimed start/duration",
+    "inputHashes": [
+      {
+        "path": "/root/.local/share/pinpin-production/scooby-continuity-r4-20261012/geometry/start-01/prepared/geometry-reference.png",
+        "sha256": "98ab28616200fe2facef9e65050fcad244c0d0f680ca3be710886fc9538f0eb6"
+      },
+      {
+        "path": "docs/storyboard/images/published/bath-magic/r17/scene-03a.webp",
+        "sha256": "037b2eb4099769a1e917edb32f2fca62c3f19bff0ecb6fb89cfe28cf69aa4d4f"
+      },
+      {
+        "path": "docs/storyboard/images/published/bath-magic/scene-02.webp",
+        "sha256": "7bb7bfae1e01595cda5cc4d9dfc24056f349302929d8b4a5487b2f8eb6643377"
+      }
+    ]
+  },
+  {
+    "id": "start-02",
+    "source": "/root/.codex/generated_images/01a12451-8a9e-7140-a682-d7c1aa8efcbf/exec-fbf53940-8853-4fea-beaf-37d49b1792b4.png",
+    "tool": "image_gen__imagegen",
+    "exactPrompt": "Use case: illustration-story / reference-led continuity edit. One finished LANDSCAPE 1536x1024 image, no words, labels, panels, logos or watermark. The user explicitly requested the familiar room and garden from the published Bath Magic chapter, so preserve the supplied PUBLISHED/SELECTED ILLUSTRATION as the visual layout and continuity authority. The separate measured house model remains unchanged; its saved renders are separate camera/layout studies, NOT an assertion that this image matches its different door/table dimensions. Maintain the reference image's exact camera, house silhouette, ONE green door, two round radial windows, table/fixtures and landmarks wherever visible; never invent extra openings or reverse the camera. Warm amber light, honey wood/stone, soft dimensional fur and quills, same book style, no redesign or new cartoon character. Mama adult russet-spined cream face, Papa adult grey/chestnut-spined broad cream face, young PinPin half adult height, PomPom tiny baby only if named. Scooby the same large golden-russet dog, cream muzzle, floppy ears, friendly brown eyes, black nose, curled feathery tail; NOT Scooby-Doo. Dog shoulder about1.3 times Papa standing height, not a giant paw or forced perspective. All heads/limbs attached and naturally occluded: dog four legs, hedgehogs two forelimbs and two hindlimbs. No clothes or extra cast. Keep the EXACT new opening image's room, furniture, table dimensions, camera, dishes, flowers and colour. Mama remains left, Papa joins at rear centre and passes bread to PinPin at right. Tiny PomPom rests securely supported on Mama's lap by her forearm. Four family hedgehogs only: two adults, one child, one baby. Same four porridge bowls, same bread plate. A relaxed breakfast beat, no dog yet. Preserve every background opening and SINGLE closed green door; no added shelf or stove.\n",
+    "refs": [
+      "/root/.codex/generated_images/01a12451-8a9e-7140-a682-d7c1aa8efcbf/exec-2e0524bb-0d5a-46fe-bab5-7a73bf45021a.png",
+      "docs/storyboard/images/published/bath-magic/r17/scene-03a.webp"
+    ],
+    "status": "R4 study only; not published; superseded by user request for complete preproduction and acting audit",
+    "selectedForPublication": false,
+    "sha256": "78cbdf441d9df4f45a318abae2773e38e7700f0ef4a50c02094b0fde4d84a369",
+    "promptSha256": "3f3703b42410c4d12772f73d69607991ce544632794074be9d87886c3461fecd",
+    "generatedAt": "2026-10-12T08:35:55.266329+00:00",
+    "timestampBasis": "Tool output filesystem mtime, not a claimed start/duration",
+    "inputHashes": [
+      {
+        "path": "/root/.codex/generated_images/01a12451-8a9e-7140-a682-d7c1aa8efcbf/exec-2e0524bb-0d5a-46fe-bab5-7a73bf45021a.png",
+        "sha256": "e1eb8e9069c9e5a4205b45db3c91622847b13de7da8990d1e4dc57f6ab0c2379"
+      },
+      {
+        "path": "docs/storyboard/images/published/bath-magic/r17/scene-03a.webp",
+        "sha256": "037b2eb4099769a1e917edb32f2fca62c3f19bff0ecb6fb89cfe28cf69aa4d4f"
+      }
+    ]
+  },
+  {
+    "id": "start-03",
+    "source": "/root/.codex/generated_images/01a12451-8a9e-7140-a682-d7c1aa8efcbf/exec-f43de339-b6df-4630-843e-2ba862c52355.png",
+    "tool": "image_gen__imagegen",
+    "exactPrompt": "Use case: illustration-story / reference-led continuity edit. One finished LANDSCAPE 1536x1024 image, no words, labels, panels, logos or watermark. The user explicitly requested the familiar room and garden from the published Bath Magic chapter, so preserve the supplied PUBLISHED/SELECTED ILLUSTRATION as the visual layout and continuity authority. The separate measured house model remains unchanged; its saved renders are separate camera/layout studies, NOT an assertion that this image matches its different door/table dimensions. Maintain the reference image's exact camera, house silhouette, ONE green door, two round radial windows, table/fixtures and landmarks wherever visible; never invent extra openings or reverse the camera. Warm amber light, honey wood/stone, soft dimensional fur and quills, same book style, no redesign or new cartoon character. Mama adult russet-spined cream face, Papa adult grey/chestnut-spined broad cream face, young PinPin half adult height, PomPom tiny baby only if named. Scooby the same large golden-russet dog, cream muzzle, floppy ears, friendly brown eyes, black nose, curled feathery tail; NOT Scooby-Doo. Dog shoulder about1.3 times Papa standing height, not a giant paw or forced perspective. All heads/limbs attached and naturally occluded: dog four legs, hedgehogs two forelimbs and two hindlimbs. No clothes or extra cast. Same room and camera as preceding two breakfast images, EXACT table/window/door/fixture positions. Papa has stepped away. Mama keeps tiny PomPom securely cradled on her left forearm/lap and gently wipes PinPin's ONE extended sticky forepaw with a damp cream cloth in her free right paw. PinPin stands beside her, other paw relaxed. Only Mama, PomPom and PinPin, three coherent bodies. Bowls have been gathered empty on a tray, bread plate and flower jug still present. Folded ochre towel beside tray. Familiar everyday care before the outing; no dog or bath yet.\n",
+    "refs": [
+      "/root/.codex/generated_images/01a12451-8a9e-7140-a682-d7c1aa8efcbf/exec-fbf53940-8853-4fea-beaf-37d49b1792b4.png",
+      "docs/storyboard/images/published/bath-magic/r17/scene-03c.webp"
+    ],
+    "status": "R4 study only; not published; superseded by user request for complete preproduction and acting audit",
+    "selectedForPublication": false,
+    "sha256": "d2cc20eadc67a5c218d59e9066c28f28a515f50443552de84ce0a28ad76e79e5",
+    "promptSha256": "e0289214f64918e3d5c43d8e5c930e63368e9164ab98bd637f302585b1fb3b3d",
+    "generatedAt": "2026-10-12T08:38:52.878531+00:00",
+    "timestampBasis": "Tool output filesystem mtime, not a claimed start/duration",
+    "inputHashes": [
+      {
+        "path": "/root/.codex/generated_images/01a12451-8a9e-7140-a682-d7c1aa8efcbf/exec-fbf53940-8853-4fea-beaf-37d49b1792b4.png",
+        "sha256": "78cbdf441d9df4f45a318abae2773e38e7700f0ef4a50c02094b0fde4d84a369"
+      },
+      {
+        "path": "docs/storyboard/images/published/bath-magic/r17/scene-03c.webp",
+        "sha256": "1e7f04fae9bc7e758688a1ea384f2d093df0651f9007b860adb22e5bcd4d3c88"
+      }
+    ]
+  },
+  {
+    "id": "start-04",
+    "source": "/root/.codex/generated_images/01a12451-8a9e-7140-a682-d7c1aa8efcbf/exec-d5ac120a-504a-4685-9420-324203d813c4.png",
+    "tool": "image_gen__imagegen",
+    "exactPrompt": "Use case: illustration-story / reference-led continuity edit. One finished LANDSCAPE 1536x1024 image, no words, labels, panels, logos or watermark. The user explicitly requested the familiar room and garden from the published Bath Magic chapter, so preserve the supplied PUBLISHED/SELECTED ILLUSTRATION as the visual layout and continuity authority. The separate measured house model remains unchanged; its saved renders are separate camera/layout studies, NOT an assertion that this image matches its different door/table dimensions. Maintain the reference image's exact camera, house silhouette, ONE green door, two round radial windows, table/fixtures and landmarks wherever visible; never invent extra openings or reverse the camera. Warm amber light, honey wood/stone, soft dimensional fur and quills, same book style, no redesign or new cartoon character. Mama adult russet-spined cream face, Papa adult grey/chestnut-spined broad cream face, young PinPin half adult height, PomPom tiny baby only if named. Scooby the same large golden-russet dog, cream muzzle, floppy ears, friendly brown eyes, black nose, curled feathery tail; NOT Scooby-Doo. Dog shoulder about1.3 times Papa standing height, not a giant paw or forced perspective. All heads/limbs attached and naturally occluded: dog four legs, hedgehogs two forelimbs and two hindlimbs. No clothes or extra cast. Use the published garden digging reference as exact yard/camera/layout authority, including house on right, stepping-stone path lower right, low timber fence and birch to left, existing small earth scrape lower left. This is BEFORE new digging. Papa, PinPin and CLEAN dry Scooby pause on path. Papa touches Scooby's shoulder as in previous chapter, child stands beside Papa at half adult height. The little rescued plant is now replanted safely on left grass rim beside a flat stone. A SMALL WOODEN SPADE is already leaned visibly against LEFT fence, established before later construction. Dog breakfast bowl, now empty, sits unobtrusively by doorstep. All four dog legs support him naturally; no mud or treasure visible. Same ONE closed green door and round window/planting placement as published reference, no new cottage or invented doorway. Input1 is the PUBLISHED old garden digging scene: keep its familiar yard, camera and facade exactly, but remove old mud/active-dig pose for this calm BEFORE-dig walk. Input2 supplies the clean Scooby/Papa identity and correct relative scale only. Input3 supplies the exact young PinPin identity from our new breakfast; no room or other family members copied. No blue boat or bell visible yet.\n",
+    "refs": [
+      "docs/storyboard/images/published/bath-magic/r17/scene-05e.webp",
+      "docs/storyboard/images/published/bath-magic/r17/scene-03h.webp",
+      "/root/.codex/generated_images/01a12451-8a9e-7140-a682-d7c1aa8efcbf/exec-fbf53940-8853-4fea-beaf-37d49b1792b4.png"
+    ],
+    "status": "R4 study only; not published; superseded by user request for complete preproduction and acting audit",
+    "selectedForPublication": false,
+    "sha256": "c285675b1bd05c0d0f55b2b7584a311fa5d0c6023c30bf1a22d5407da2e06f95",
+    "promptSha256": "1fc542c089c5e14e10b14fbb9918097807c7568393a69eee00d509dbc02fd0dd",
+    "generatedAt": "2026-10-12T08:42:21.776768+00:00",
+    "timestampBasis": "Tool output filesystem mtime, not a claimed start/duration",
+    "inputHashes": [
+      {
+        "path": "docs/storyboard/images/published/bath-magic/r17/scene-05e.webp",
+        "sha256": "6bba7204c8dd77e89341b113a8774ef27977e41ce425efb17ed29e2981aaa44c"
+      },
+      {
+        "path": "docs/storyboard/images/published/bath-magic/r17/scene-03h.webp",
+        "sha256": "e394bec3bf4a7cbae83714906c5d8d286886cea3751eec6cfd572449b201d54e"
+      },
+      {
+        "path": "/root/.codex/generated_images/01a12451-8a9e-7140-a682-d7c1aa8efcbf/exec-fbf53940-8853-4fea-beaf-37d49b1792b4.png",
+        "sha256": "78cbdf441d9df4f45a318abae2773e38e7700f0ef4a50c02094b0fde4d84a369"
+      }
+    ]
+  },
+  {
+    "id": "start-05",
+    "source": "/root/.codex/generated_images/01a12451-8a9e-7140-a682-d7c1aa8efcbf/exec-6fc5a3ca-bfdb-45d4-ad4c-2fb2c1a3264e.png",
+    "tool": "image_gen__imagegen",
+    "exactPrompt": "Use case: illustration-story / reference-led continuity edit. One finished LANDSCAPE 1536x1024 image, no words, labels, panels, logos or watermark. The user explicitly requested the familiar room and garden from the published Bath Magic chapter, so preserve the supplied PUBLISHED/SELECTED ILLUSTRATION as the visual layout and continuity authority. The separate measured house model remains unchanged; its saved renders are separate camera/layout studies, NOT an assertion that this image matches its different door/table dimensions. Maintain the reference image's exact camera, house silhouette, ONE green door, two round radial windows, table/fixtures and landmarks wherever visible; never invent extra openings or reverse the camera. Warm amber light, honey wood/stone, soft dimensional fur and quills, same book style, no redesign or new cartoon character. Mama adult russet-spined cream face, Papa adult grey/chestnut-spined broad cream face, young PinPin half adult height, PomPom tiny baby only if named. Scooby the same large golden-russet dog, cream muzzle, floppy ears, friendly brown eyes, black nose, curled feathery tail; NOT Scooby-Doo. Dog shoulder about1.3 times Papa standing height, not a giant paw or forced perspective. All heads/limbs attached and naturally occluded: dog four legs, hedgehogs two forelimbs and two hindlimbs. No clothes or extra cast. The SAME three cast stop beside the OLD shallow soil scrape at CENTER LEFT. Scooby lowers his nose and sniffs very intently, both front paws on dry rim, clean coat and paws. Papa points toward the protected small plant left of scrape, PinPin crouches beside him to watch, not in the hole. No digging yet, no treasure shown. All fixed background landmarks unchanged; spade remains clearly leaned against left fence. Curiosity is the moment, not immediate action. Keep the EXACT preceding selected garden image's camera, house/fence/tree/path/flat-stone/plant positions. Preserve every background pixel relationship; change only the named action, growing soil hollow and dirt. The small spade stays visible leaned at left fence until scene10 retrieves it. If boat is named, match separate prop input EXACTLY: SMALL 25cm faded blue wooden hull, cream lip, short mast stump, single tiny brass bell tied at bow with beige cord. It fits in Papa's two paws or PinPin's arm span, never a full-size rowing boat. No new stone/acorn treasure. \n",
+    "refs": [
+      "/root/.codex/generated_images/01a12451-8a9e-7140-a682-d7c1aa8efcbf/exec-d5ac120a-504a-4685-9420-324203d813c4.png"
+    ],
+    "status": "R4 study only; not published; superseded by user request for complete preproduction and acting audit",
+    "selectedForPublication": false,
+    "sha256": "4c587339324b687c58854e4d878cd19462f12d2e2d4ce560e13df8866188f9bc",
+    "promptSha256": "366c46b36a94fb2596708b24df1fd2d214761d822cef52808d066fc689a396ec",
+    "generatedAt": "2026-10-12T08:45:10.463959+00:00",
+    "timestampBasis": "Tool output filesystem mtime, not a claimed start/duration",
+    "inputHashes": [
+      {
+        "path": "/root/.codex/generated_images/01a12451-8a9e-7140-a682-d7c1aa8efcbf/exec-d5ac120a-504a-4685-9420-324203d813c4.png",
+        "sha256": "c285675b1bd05c0d0f55b2b7584a311fa5d0c6023c30bf1a22d5407da2e06f95"
+      }
+    ]
+  },
+  {
+    "id": "start-06",
+    "source": "/root/.codex/generated_images/01a12451-8a9e-7140-a682-d7c1aa8efcbf/exec-ecd0bd7c-df15-4b9f-8da0-4e71a1722168.png",
+    "tool": "image_gen__imagegen",
+    "exactPrompt": "Use case: illustration-story / reference-led continuity edit. One finished LANDSCAPE 1536x1024 image, no words, labels, panels, logos or watermark. The user explicitly requested the familiar room and garden from the published Bath Magic chapter, so preserve the supplied PUBLISHED/SELECTED ILLUSTRATION as the visual layout and continuity authority. The separate measured house model remains unchanged; its saved renders are separate camera/layout studies, NOT an assertion that this image matches its different door/table dimensions. Maintain the reference image's exact camera, house silhouette, ONE green door, two round radial windows, table/fixtures and landmarks wherever visible; never invent extra openings or reverse the camera. Warm amber light, honey wood/stone, soft dimensional fur and quills, same book style, no redesign or new cartoon character. Mama adult russet-spined cream face, Papa adult grey/chestnut-spined broad cream face, young PinPin half adult height, PomPom tiny baby only if named. Scooby the same large golden-russet dog, cream muzzle, floppy ears, friendly brown eyes, black nose, curled feathery tail; NOT Scooby-Doo. Dog shoulder about1.3 times Papa standing height, not a giant paw or forced perspective. All heads/limbs attached and naturally occluded: dog four legs, hedgehogs two forelimbs and two hindlimbs. No clothes or extra cast. Scooby scratches the SAME shallow scrape with ONE forepaw; three other paws support him. A tiny curved edge of faded BLUE wood is JUST beginning to peek from soil, about one finger-width strip, the rest of the 25cm toy boat still completely buried. Do not reveal boat silhouette, mast, bell or full hull yet. Papa and PinPin watch attentively from left dry grass. Only scratching paw gets soil; coat still mostly clean. Small spray of earth, hollow only paw deep. Spade at fence unchanged, no steps or new garden. Keep the EXACT preceding selected garden image's camera, house/fence/tree/path/flat-stone/plant positions. Preserve every background pixel relationship; change only the named action, growing soil hollow and dirt. The small spade stays visible leaned at left fence until scene10 retrieves it. If boat is named, match separate prop input EXACTLY: SMALL 25cm faded blue wooden hull, cream lip, short mast stump, single tiny brass bell tied at bow with beige cord. It fits in Papa's two paws or PinPin's arm span, never a full-size rowing boat. No new stone/acorn treasure. \n",
+    "refs": [
+      "/root/.codex/generated_images/01a12451-8a9e-7140-a682-d7c1aa8efcbf/exec-6fc5a3ca-bfdb-45d4-ad4c-2fb2c1a3264e.png"
+    ],
+    "status": "R4 study only; not published; superseded by user request for complete preproduction and acting audit",
+    "selectedForPublication": false,
+    "sha256": "7231d2ef4db615460a12b248fba197fc7c144c0cf8e590ec97d6d72ced276d47",
+    "promptSha256": "1bef42b1722c178bfc3a53234a7cad375fd74be993c6ffbad2be1bcffa8fa5fd",
+    "generatedAt": "2026-10-12T08:49:20.028240+00:00",
+    "timestampBasis": "Tool output filesystem mtime, not a claimed start/duration",
+    "inputHashes": [
+      {
+        "path": "/root/.codex/generated_images/01a12451-8a9e-7140-a682-d7c1aa8efcbf/exec-6fc5a3ca-bfdb-45d4-ad4c-2fb2c1a3264e.png",
+        "sha256": "4c587339324b687c58854e4d878cd19462f12d2e2d4ce560e13df8866188f9bc"
+      }
+    ]
+  },
+  {
+    "id": "welcome-initial",
+    "source": "/root/.codex/generated_images/01a12451-8a9e-7140-a682-d7c1aa8efcbf/exec-07260552-f09a-4df9-81c3-f12e202821d1.png",
+    "tool": "image_gen__imagegen",
+    "exactPrompt": "Use case: style-transfer\nAsset type: one children\u2019s-book location still.\nLocation: pinpin-house, version 1.0.0.\nGeometry/edit target: /root/.local/share/pinpin-production/scooby-continuity-r4-20261012/geometry/welcome-v2/prepared/geometry-reference.png\nSupporting image roles: []\nCamera record: [\n  {\n    \"position\": [\n      0.6000000238418579,\n      -5.699999809265137,\n      1.149999976158142\n    ],\n    \"quaternionWXYZ\": [\n      0.7417278289794922,\n      0.6486222147941589,\n      0.11235030740499496,\n      0.12847748398780823\n    ],\n    \"matrixWorld\": [\n      [\n        0.9417418837547302,\n        -0.044844839721918106,\n        0.33333340287208557,\n        0.6000000238418579\n      ],\n      [\n        0.3363364636898041,\n        0.1255655139684677,\n        -0.9333333373069763,\n        -5.699999809265137\n      ],\n      [\n        1.2373355673389597e-09,\n        0.9910712838172913,\n        0.1333332657814026,\n        1.149999976158142\n      ],\n      [\n        0.0,\n        0.0,\n        0.0,\n        1.0\n      ]\n    ],\n    \"lensMm\": 25.0,\n    \"horizontalFovDegrees\": 71.50777759085639,\n    \"width\": 768,\n    \"height\": 512\n  }\n]\nDoor states in degrees: [\n  {\n    \"id\": \"door-front\",\n    \"angleDegrees\": 105,\n    \"signedAngleDegrees\": -105,\n    \"hingeWorld\": [\n      -0.6962748765945435,\n      -2.957864999771118,\n      0.0\n    ],\n    \"matrixWorld\": [\n      [\n        -0.258819043636322,\n        0.9659258127212524,\n        0.0,\n        -0.6962748765945435\n      ],\n      [\n        -0.9659258127212524,\n        -0.258819043636322,\n        0.0,\n        -2.957864999771118\n      ],\n      [\n        0.0,\n        0.0,\n        1.0,\n        0.0\n      ],\n      [\n        0.0,\n        0.0,\n        0.0,\n        1.0\n      ]\n    ]\n  },\n  {\n    \"id\": \"door-bath\",\n    \"angleDegrees\": 0,\n    \"signedAngleDegrees\": 0,\n    \"hingeWorld\": [\n      -2.0239672660827637,\n      0.6366258859634399,\n      0.0\n    ],\n    \"matrixWorld\": [\n      [\n        0.8411785960197449,\n        -0.5407573580741882,\n        0.0,\n        -2.0239672660827637\n      ],\n      [\n        0.5407573580741882,\n        0.8411785960197449,\n        0.0,\n        0.6366258859634399\n      ],\n      [\n        0.0,\n        0.0,\n        1.0,\n        0.0\n      ],\n      [\n        0.0,\n        0.0,\n        0.0,\n        1.0\n      ]\n    ]\n  },\n  {\n    \"id\": \"door-bedroom\",\n    \"angleDegrees\": 0,\n    \"signedAngleDegrees\": 0,\n    \"hingeWorld\": [\n      1.039655089378357,\n      0.4985438883304596,\n      0.0\n    ],\n    \"matrixWorld\": [\n      [\n        0.7090891003608704,\n        0.7051188945770264,\n        0.0,\n        1.039655089378357\n      ],\n      [\n        -0.7051188945770264,\n        0.7090891003608704,\n        0.0,\n        0.4985438883304596\n      ],\n      [\n        0.0,\n        0.0,\n        1.0,\n        0.0\n      ],\n      [\n        0.0,\n        0.0,\n        0.0,\n        1.0\n      ]\n    ]\n  }\n]\nIntent: Use case: illustration-story. One finished LANDSCAPE 1536x1024 children's picture-book illustration, no text, panels, logos or watermark. Input1 current Blender guide is the sole authority for camera, house shape, openings, door states and fixed furniture. Preserve guide perspective and cropping exactly. Other inputs provide ONLY warm tactile book rendering, cast identity and the separately named story prop. Do not copy their old architecture or reposition a modeled window. Golden morning light, warm honey timber/stone/plaster and amber fur/quills, same detailed gentle look as the LAST Bath Magic chapter, not a new cartoon style. Each named hedgehog has one head, two forelimbs, two hindlimbs; dog exactly four attached legs, one head and one curled tail, with believable contact and occlusion. No clothes. Papa is adult grey/chestnut spined cream-faced hedgehog with broad gentle face; Mama is adult russet spined cream-faced mother; PinPin child about HALF adult height; PomPom tiny baby only if explicitly named. Scooby same golden-russet dog with cream muzzle, floppy ears, brown eyes, black rounded nose and feathery curled tail; shoulder approximately1.3 times Papa standing height, never giant paws as big as an adult body. Keep all cast at comparable scale/depth and separate anatomy. No additional cast. Correct the rejected doorway scale. Exterior three-quarter view of ACTUAL front doorstep, house facade and open door from guide. Use old Bath Magic doorway illustration only for identities, green-door/stone/wood texture and welcome mood, never its hinge/layout. FULL clean Scooby stands outside alongside FULL Papa and PinPin at approximately same depth, natural scale: dog shoulder1.3 times Papa height, young PinPin half adult. Dog paws much smaller than Papa body. Papa at open door gestures welcome with one paw, other holds door edge without changing hinge. PinPin looks at clean coat. All four dog legs and attached tail; no enormous cropped leg, no forced perspective, no towel dominating foreground. Preserve exact arch, outward leaf, round windows, threshold and tiny visible current room furnishings through aperture; never invent stove/window/cabinet beyond guide.\nCharacters: Only Papa, PinPin and clean dry Scooby, matched to last chapter references.\nAction and eyelines: Dog waits at actual threshold; welcoming pose does not claim a fully verified transit simulation.\nLighting: Gentle morning for opening and garden; warm afternoon for welcome.\n\nUse the first, current Blender render as the spatial authority. Preserve its camera position, projection, framing, room outline, curved wall junctions, visible opening count, opening positions, door hinge sides and angles, occlusion, and furniture footprints. A closed leaf stays closed; an open doorway reveals only the adjoining modeled space visible from this camera. The three-room house has a common kitchen/living room, bathroom and bedroom; do not invent a fourth hall or connect the private rooms through the outdoor recess.\n\nSemantic fixture key (world meters, not on-image labels): common-room west shelf unit at (-3.87,-0.59) is the BOOKCASE; low round west/front proxy at (-3.04,-1.96) is the STOVE, never a barrel; center round top at (-0.30,-1.09) is the dining TABLE with four low stools; long east unit at (2.77,-1.27) is the KITCHEN COUNTER. Bathroom broad low oval at (-3.74,2.67) is the wooden BATHTUB, with its oval mat below and small WASHSTAND at (-5.11,2.26). Bedroom rectangular raised form at (2.46,1.64) is the BED with north headboard. Render these identities only where visible in the guide, keeping their locations and occupied volumes; do not add text labels.\n\nGive the surfaces the supplied book\u2019s warm, softly stylized family-story appearance: honey-toned timber, gentle plaster, rounded crafted objects, readable forms and warm light. Keep the broad low wooden tub, oval mat and bed where the geometry places them when visible. Match the book reference\u2019s rendering language without copying its different camera or historic room arrangement. If characters are requested, use the identified character references, full separate bodies/limbs and explicit attentive eyelines; do not add a character when the job says empty room. No text, labels, watermark or collage border.\n\nThis is an illustrated derivative for review, not a new geometry definition. Do not conceal a structural mismatch with shadow, furniture or changed crop.\n",
+    "refs": [
+      "/root/.local/share/pinpin-production/scooby-continuity-r4-20261012/geometry/welcome-v2/prepared/geometry-reference.png",
+      "docs/storyboard/images/published/bath-magic/r24/scene-05g.webp",
+      "docs/storyboard/images/published/bath-magic/r17/scene-03h.webp",
+      "docs/storyboard/images/published/scooby-bath/scene-01.webp"
+    ],
+    "status": "R4 study only; not published; superseded by user request for complete preproduction and acting audit",
+    "selectedForPublication": false,
+    "sha256": "5814171a430eaca40a0caf6badc283428f5cbe5fc8de2c74b9a9a6da5efe2b18",
+    "promptSha256": "8f4ac48813d1e4e7225be7d033e71a51a868b3c608571a0a4743cf66390c7ee1",
+    "generatedAt": "2026-10-12T08:27:33.472757+00:00",
+    "timestampBasis": "Tool output filesystem mtime, not a claimed start/duration",
+    "inputHashes": [
+      {
+        "path": "/root/.local/share/pinpin-production/scooby-continuity-r4-20261012/geometry/welcome-v2/prepared/geometry-reference.png",
+        "sha256": "5a04c61a5f0c0d95445cd5b2809cf44cf839fd7f48f771224d939958582e2d2c"
+      },
+      {
+        "path": "docs/storyboard/images/published/bath-magic/r24/scene-05g.webp",
+        "sha256": "0f3ca853ba89c28516fc4010c66a7f8ec567755bea3c092291858b98d5fa45bf"
+      },
+      {
+        "path": "docs/storyboard/images/published/bath-magic/r17/scene-03h.webp",
+        "sha256": "e394bec3bf4a7cbae83714906c5d8d286886cea3751eec6cfd572449b201d54e"
+      },
+      {
+        "path": "docs/storyboard/images/published/scooby-bath/scene-01.webp",
+        "sha256": "64043540a959080f7ebcec244bcc7e8f893eb09a4cb73d3701d0f2f11994656a"
+      }
+    ]
+  },
+  {
+    "id": "welcome-corrected",
+    "source": "/root/.codex/generated_images/01a12451-8a9e-7140-a682-d7c1aa8efcbf/exec-c1e14314-4abf-4109-bd92-7f52e6b4ba7b.png",
+    "tool": "image_gen__imagegen",
+    "exactPrompt": "Use case: precise-object-edit. Correct this new 1536x1024 welcome illustration, preserving the full Papa, PinPin and Scooby, their exact faces, body shapes, natural relative scale, positions, lighting, stone steps, path, flowers and house. This artwork follows the PUBLISHED Bath Magic room/doorway design in input2 for visual continuity, while the separate measured location model remains unchanged. The current image incorrectly has TWO green entry door leaves. There must be EXACTLY ONE leaf, the existing OPEN GREEN LEAF ON THE RIGHT with brass knob and hinges, matching the published reference. Completely REMOVE the extra tall green leaf on the LEFT side of the opening; reveal the existing warm interior and its floor behind it, maintaining the same single opening and frame. Do NOT create another doorway or invent furnishings/windows; retain the visible stool/table and inner closed door. Papa's paw remains correctly on the right single leaf. Also remove EVERY dark mud smear/speck/clump from all four dog paws and lower legs; replace with clean golden fur and cream toes with natural shadows. The dog has just been thoroughly bathed and brushed: no dirt anywhere. Preserve all four limbs and tail, no giant cropped paw or added character. No other changes, text or panels.",
+    "refs": [
+      "/root/.codex/generated_images/01a12451-8a9e-7140-a682-d7c1aa8efcbf/exec-07260552-f09a-4df9-81c3-f12e202821d1.png",
+      "docs/storyboard/images/published/bath-magic/r24/scene-05g.webp"
+    ],
+    "status": "R4 study only; not published; superseded by user request for complete preproduction and acting audit",
+    "selectedForPublication": false,
+    "sha256": "b58dbe51078b74c0dbdc14af7d867a934828eb5cb4f1f426f38d7f4524f645f3",
+    "promptSha256": "16c3173ce635ed76d4aba8482ccc57be425f101f9ec6af8b29552f33d91dc8a5",
+    "generatedAt": "2026-10-12T08:31:27.418025+00:00",
+    "timestampBasis": "Tool output filesystem mtime, not a claimed start/duration",
+    "inputHashes": [
+      {
+        "path": "/root/.codex/generated_images/01a12451-8a9e-7140-a682-d7c1aa8efcbf/exec-07260552-f09a-4df9-81c3-f12e202821d1.png",
+        "sha256": "5814171a430eaca40a0caf6badc283428f5cbe5fc8de2c74b9a9a6da5efe2b18"
+      },
+      {
+        "path": "docs/storyboard/images/published/bath-magic/r24/scene-05g.webp",
+        "sha256": "0f3ca853ba89c28516fc4010c66a7f8ec567755bea3c092291858b98d5fa45bf"
+      }
+    ]
+  }
+]

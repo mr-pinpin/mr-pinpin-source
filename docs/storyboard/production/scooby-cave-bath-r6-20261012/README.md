@@ -11,9 +11,11 @@ The existing short chapter is still the live release.
 - [Causal flow](causal-flow.mmd).
 
 Regenerate beat plan with `python3 create-preproduction.py`. This produces planning
-material, never selects assets or changes the reader. Final narration in EN/RU/ES,
-shot-specific acting/hand states, cave anchors and reviewed illustrations remain
-required. Superseded R4 smiling/boat studies and R5 short outline are not selected.
+material, never selects assets or changes the reader. All215 EN/RU/ES captions and individual camera/acting/object directions are
+authored in [the script](script/english-reading.md) and [director data](script/story-script.json).
+[Subplots](SUBPLOTS.md), [cast](CAST-BIBLE.md), and [editorial decisions](EDITORIAL-DECISIONS.md) guide the new version.
+Symbolic continuity checks pass; visual production and editorial proofing continue.
+The revised chapter has not been published. Superseded R4 smiling/boat studies and R5 short outline are not selected.
 
 ## Reading-size feasibility study
 
@@ -33,3 +35,18 @@ No R6 art was generated in this feasibility study. Before art batches, visually
 review representative new cave/forest/house masters and determine suitable
 reading variants and fallback costs within the cap. Do not raise the cap or
 recompress the older book to conceal an unresolved budget.
+
+## Restore the working review
+
+After restoring production references with `npm run assets:restore-production`,
+restore this pack's scoped archived natives with standard HF tools:
+
+```sh
+python3 tools/assets/hf_store.py pull --manifest docs/storyboard/production/scooby-cave-bath-r6-20261012/environment/asset-scope.json --root . --profile all --cache /path/outside/checkout/pinpin-cache
+```
+
+Serve `docs` locally and open `storyboard/production/scooby-cave-bath-r6-20261012/environment/review.html`.
+This working review is excluded from official Pages artifacts. Exact submitted
+prompts are in `prompts/`; all native outputs are retained, including rejected
+studies. `generation-records.json` records hashes/statuses/tool originals; built-in
+imagegen was used, no paid CLI/API fallback.

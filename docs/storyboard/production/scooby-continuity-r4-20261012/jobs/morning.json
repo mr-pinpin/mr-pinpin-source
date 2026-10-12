@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "location": "docs/storyboard/locations/pinpin-house/location.json",
+  "doorStates": {
+    "door-front": 0,
+    "door-bath": 0,
+    "door-bedroom": 0
+  },
+  "samples": 8,
+  "id": "scooby-r4-morning",
+  "camera": {
+    "position": [
+      1.1,
+      -1.8,
+      1.15
+    ],
+    "target": [
+      -1.3,
+      -0.6,
+      1.0
+    ],
+    "lensMm": 24,
+    "width": 768,
+    "height": 512
+  },
+  "prompt": {
+    "template": "still",
+    "intent": "Warm morning breakfast in the actual common room. Preserve exact camera, round table and stools, modeled cabinets, stove, walls and openings. Book references supply texture, color and character identities only. No invented room furniture or relocated window.",
+    "characters": "Characters added by separately recorded image-generation prompts; architectural guide itself stays empty.",
+    "action": "Preserve modeled geometry. Other story props are removable, not changes to the house definition.",
+    "lighting": "Gentle morning for opening and garden; warm afternoon for welcome.",
+    "referenceIds": []
+  }
+}

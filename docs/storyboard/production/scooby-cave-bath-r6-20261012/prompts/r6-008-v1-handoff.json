@@ -1,0 +1,24 @@
+{
+  "id": "r6-008-v1",
+  "status": "prepared; references must be visually inspected before built-in generation",
+  "prompt": "docs/storyboard/production/scooby-cave-bath-r6-20261012/prompts/r6-008-v1.txt",
+  "promptSha256": "eed9b1bcc8b6269370306b2e1aee5e9e25fbd0e8502ecd7cc0d17349f9d6f894",
+  "references": [
+    {
+      "index": 1,
+      "role": "Exact preceding Mother/infant/child floor-game room and ball continuity",
+      "path": "/root/.codex/worktrees/c64d/mr-pinpin-source/docs/storyboard/production/scooby-cave-bath-r6-20261012/native/r6-007-v1.png",
+      "sha256": "186a0aa43adbbd916173fa68be66c3d7a8256ad0a1260e7d7c3d23e257b8a83b"
+    },
+    {
+      "index": 2,
+      "role": "Exact adult PAPA identity/age/grayquills/round muzzle ONLY; empty hands without infant/dishes",
+      "path": "/root/.codex/worktrees/c64d/mr-pinpin-source/docs/storyboard/production/scooby-cave-bath-r6-20261012/native/r6-005-v3.png",
+      "sha256": "4ede7910fc523cb26e2bd13f1b011d3f4e17e31c996150700a4a56b89567cc0d"
+    }
+  ],
+  "expectedNativeSize": [
+    1536,
+    1024
+  ]
+}

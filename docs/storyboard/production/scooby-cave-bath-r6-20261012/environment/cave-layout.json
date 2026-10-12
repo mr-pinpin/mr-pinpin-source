@@ -1,0 +1,521 @@
+{
+  "schemaVersion": 1,
+  "id": "scooby-lush-cave-r6-v1",
+  "status": "Authored illustration blocking plan; final anchors/art not yet approved",
+  "units": "relative layout units, not recovered measurements or Minecraft game coordinates",
+  "orientation": "North up. +X east/right, +Y south/down on plan; floorLevel illustrative gradual relative descent.",
+  "nodes": [
+    {
+      "id": "C0",
+      "name": "Root mouth",
+      "centre": [
+        12,
+        68
+      ],
+      "radii": [
+        7,
+        5
+      ],
+      "floorLevel": 0,
+      "features": "Broad root arch, forked pale root on south jamb; flowering shrub above. Daylight west.",
+      "landmark": "One fallen lilac blossom; M1 after day2."
+    },
+    {
+      "id": "C1",
+      "name": "Daylight fern lobby",
+      "centre": [
+        29,
+        63
+      ],
+      "radii": [
+        12,
+        9
+      ],
+      "floorLevel": 0,
+      "features": "Main family station. Ferns south; picnic alcove northwest; dry walkway centre; stream along north wall.",
+      "landmark": "Left entrance, right inner arch; flat pale boulder at C2 arch."
+    },
+    {
+      "id": "C2",
+      "name": "Glowberry gallery",
+      "centre": [
+        46,
+        47
+      ],
+      "radii": [
+        11,
+        8
+      ],
+      "floorLevel": -0.15,
+      "features": "Amber berry vines suspended north wall; lower quiet nave, not another round entrance room.",
+      "landmark": "Twin hanging roots at south entry; westward entrance glow behind cast."
+    },
+    {
+      "id": "C3",
+      "name": "Echo pool",
+      "centre": [
+        62,
+        35
+      ],
+      "radii": [
+        13,
+        10
+      ],
+      "floorLevel": -0.3,
+      "features": "Taller domed vault; shallow pool to north/east, broad dry south bank; filtered daylight shaft at north rim.",
+      "landmark": "Pale crescent pool rim and smooth concave amber ceiling; audible echo."
+    },
+    {
+      "id": "C4",
+      "name": "Two-stream fork",
+      "centre": [
+        79,
+        41
+      ],
+      "radii": [
+        10,
+        8
+      ],
+      "floorLevel": -0.35,
+      "features": "One fixed root divides shallow stream A/B; firm bank south; children observe both runs.",
+      "landmark": "M2 on dry-side forked root; slow eddy on stream B, no waterfall."
+    },
+    {
+      "id": "C5",
+      "name": "Blossom room",
+      "centre": [
+        88,
+        59
+      ],
+      "radii": [
+        13,
+        10
+      ],
+      "floorLevel": -0.5,
+      "features": "Large light-filled chamber, lilac hanging blossom at north skylight, fern/moss islands around clay pools.",
+      "landmark": "Two streams reunite under root rib west of one flat retrieval stone; scent/damp clay causes dog curiosity."
+    },
+    {
+      "id": "C6",
+      "name": "Daylight outlet",
+      "centre": [
+        104,
+        70
+      ],
+      "radii": [
+        8,
+        6
+      ],
+      "floorLevel": -0.55,
+      "features": "Open natural arch to forest; outlet stream leaves southeast, dry walkway alongside.",
+      "landmark": "M3 on pale leaning root; wet clay bank OUTSIDE to south causes final scratching/roll."
+    },
+    {
+      "id": "F1",
+      "name": "Fern/root glade",
+      "centre": [
+        12,
+        82
+      ],
+      "radii": [
+        6,
+        6
+      ],
+      "floorLevel": 0,
+      "features": "Discovery foreground; house is distant and never directly behind cave."
+    },
+    {
+      "id": "F2",
+      "name": "Outer forest path",
+      "centre": [
+        60,
+        96
+      ],
+      "radii": [
+        4,
+        4
+      ],
+      "floorLevel": 0,
+      "features": "Visible route around hill connecting two natural openings."
+    },
+    {
+      "id": "T0",
+      "name": "Chosen shower tree",
+      "centre": [
+        25,
+        85
+      ],
+      "radii": [
+        7,
+        7
+      ],
+      "floorLevel": 0,
+      "features": "Outside by west glade, no natural infinite shower. One low branch source; dry-side northwest, mat southeast, runoff southeast away from C0."
+    },
+    {
+      "id": "S1",
+      "name": "Outlet stream",
+      "centre": [
+        113,
+        86
+      ],
+      "radii": [
+        6,
+        6
+      ],
+      "floorLevel": -0.7,
+      "features": "Beaver beside outdoor stream; route to lake."
+    },
+    {
+      "id": "L0",
+      "name": "Known lake",
+      "centre": [
+        126,
+        102
+      ],
+      "radii": [
+        9,
+        9
+      ],
+      "floorLevel": -1,
+      "features": "Previously established lake/ducks; not a cave underground pool."
+    },
+    {
+      "id": "F0",
+      "name": "Forest fork",
+      "centre": [
+        3,
+        100
+      ],
+      "radii": [
+        4,
+        4
+      ],
+      "floorLevel": 0,
+      "features": "Spring branch west; cave path north; home south-west."
+    },
+    {
+      "id": "S0",
+      "name": "Known stone spring",
+      "centre": [
+        -10,
+        100
+      ],
+      "radii": [
+        5,
+        5
+      ],
+      "floorLevel": 0,
+      "features": "Rabbit/PinPin day1 game and two canonical birds."
+    },
+    {
+      "id": "H0",
+      "name": "Cottage",
+      "centre": [
+        -20,
+        116
+      ],
+      "radii": [
+        6,
+        6
+      ],
+      "floorLevel": 0,
+      "features": "Green front door; exterior and interior derived from published references, not this cave map."
+    }
+  ],
+  "walkingConnections": [
+    [
+      "C0",
+      "C1"
+    ],
+    [
+      "C1",
+      "C2"
+    ],
+    [
+      "C2",
+      "C3"
+    ],
+    [
+      "C3",
+      "C4"
+    ],
+    [
+      "C4",
+      "C5"
+    ],
+    [
+      "C5",
+      "C6"
+    ],
+    [
+      "C0",
+      "F1"
+    ],
+    [
+      "F1",
+      "F2"
+    ],
+    [
+      "F2",
+      "C6"
+    ],
+    [
+      "F1",
+      "T0"
+    ],
+    [
+      "C6",
+      "S1"
+    ],
+    [
+      "S1",
+      "L0"
+    ],
+    [
+      "F0",
+      "F1"
+    ],
+    [
+      "F0",
+      "S0"
+    ],
+    [
+      "H0",
+      "F0"
+    ]
+  ],
+  "waterRoutes": [
+    {
+      "id": "seep",
+      "points": [
+        [
+          16,
+          59
+        ],
+        [
+          29,
+          56
+        ],
+        [
+          38,
+          52
+        ],
+        [
+          43,
+          40
+        ],
+        [
+          56,
+          30
+        ],
+        [
+          65,
+          30
+        ],
+        [
+          73,
+          37
+        ]
+      ]
+    },
+    {
+      "id": "A",
+      "points": [
+        [
+          73,
+          37
+        ],
+        [
+          82,
+          43
+        ],
+        [
+          83,
+          49
+        ],
+        [
+          80,
+          56
+        ],
+        [
+          86,
+          59
+        ]
+      ]
+    },
+    {
+      "id": "B",
+      "points": [
+        [
+          73,
+          37
+        ],
+        [
+          88,
+          37
+        ],
+        [
+          94,
+          43
+        ],
+        [
+          95,
+          53
+        ],
+        [
+          90,
+          58
+        ],
+        [
+          86,
+          59
+        ]
+      ],
+      "eddy": [
+        91,
+        42
+      ]
+    },
+    {
+      "id": "reunited",
+      "points": [
+        [
+          86,
+          59
+        ],
+        [
+          97,
+          65
+        ],
+        [
+          107,
+          74
+        ],
+        [
+          113,
+          86
+        ],
+        [
+          124,
+          100
+        ]
+      ]
+    }
+  ],
+  "defaultInteriorRoute": [
+    "C0",
+    "C1",
+    "C2",
+    "C3",
+    "C4",
+    "C5",
+    "C6"
+  ],
+  "outerRoute": [
+    "C0",
+    "F1",
+    "F2",
+    "C6"
+  ],
+  "dayRoutes": {
+    "1": [
+      "H0",
+      "F0",
+      "F1",
+      "C0",
+      "C1",
+      "C0",
+      "F1",
+      "F0",
+      "H0"
+    ],
+    "2": [
+      "H0",
+      "F0",
+      "F1",
+      "C0",
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C4",
+      "C3",
+      "C2",
+      "C1",
+      "C0",
+      "F1",
+      "F0",
+      "H0"
+    ],
+    "3": [
+      "C0",
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C5",
+      "C4",
+      "C3",
+      "C2",
+      "C1",
+      "C0",
+      "F1",
+      "F2",
+      "C6",
+      "S1",
+      "L0",
+      "S1",
+      "C6",
+      "F2",
+      "F1",
+      "T0",
+      "F1",
+      "F0",
+      "H0"
+    ],
+    "4": [
+      "C0",
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "F2",
+      "F1",
+      "C0",
+      "C1",
+      "C0",
+      "F1",
+      "T0",
+      "F1",
+      "F0",
+      "H0"
+    ]
+  },
+  "sightLines": [
+    "C0 sees C1 daylight floor, not blossom room or lake",
+    "C1 sees C2 arch and limited berries, not C3 pool",
+    "C2 reveals C3 dome only after north bend",
+    "C3 sees C4 stream lip, not C6 daylight directly",
+    "C4 sees flower-lit C5 arch; root rib occludes stream B briefly",
+    "C5 sees daylight at C6; leaf retrieval is on broad bank",
+    "Both openings connected outdoors by F2; Mama/PomPom do not teleport through scouting route"
+  ],
+  "prohibitions": [
+    "stairs",
+    "ladder",
+    "constructed rescue ramp",
+    "deep pit dog rescue",
+    "literal voxel blocks",
+    "unexplained artificial cave lights",
+    "murals copied from the separate sacred cavern",
+    "unmapped chamber teleport",
+    "water flowing uphill",
+    "unattended magic shower"
+  ]
+}

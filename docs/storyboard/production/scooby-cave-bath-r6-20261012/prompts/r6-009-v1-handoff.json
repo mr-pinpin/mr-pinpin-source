@@ -1,0 +1,30 @@
+{
+  "id": "r6-009-v1",
+  "status": "prepared; references must be visually inspected before built-in generation",
+  "prompt": "docs/storyboard/production/scooby-cave-bath-r6-20261012/prompts/r6-009-v1.txt",
+  "promptSha256": "43c18a9a3f9d34b56e2a9065f396f9da6ee4d518d2c636d240fcb8cdfceea6d3",
+  "references": [
+    {
+      "index": 1,
+      "role": "Exterior architecture ONLY; ignore old small hedgehog and seated pose; one door OUTSIDE hingesLEFT knobRIGHT",
+      "path": "/root/.codex/worktrees/c64d/mr-pinpin-source/docs/storyboard/images/published/bath-magic/r17/scene-03i.webp",
+      "sha256": "d4196a146376951d4b9555290458cbb7df30567185c99877014f34ac17198d41"
+    },
+    {
+      "index": 2,
+      "role": "Exact adult Papa and whole standing mount-sized Scooby identity/scale ONLY; omit cave/child/Rabbit/boats/blossom",
+      "path": "/root/.codex/worktrees/c64d/mr-pinpin-source/docs/storyboard/production/scooby-cave-bath-r6-20261012/native/r6-041-v2.png",
+      "sha256": "e020843725533bd5b8128f6eac4c83244a56b1c8125934dc2649b7bf48f59545"
+    },
+    {
+      "index": 3,
+      "role": "Established giant PINK five-petal flower/terracotta pot identity ONLY; omit all cast/ducks/gutters/water",
+      "path": "/root/.codex/worktrees/c64d/mr-pinpin-source/docs/storyboard/images/published/bath-magic/scene-79.webp",
+      "sha256": "99c7d5020299282c4520e3d5bee194a7797d74e66513d4dab513a9da0fd168b9"
+    }
+  ],
+  "expectedNativeSize": [
+    1536,
+    1024
+  ]
+}

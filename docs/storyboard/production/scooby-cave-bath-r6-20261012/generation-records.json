@@ -1,0 +1,1140 @@
+[
+  {
+    "id": "cave-cutaway-v1",
+    "tool": "built-in image_gen.imagegen",
+    "nativePath": "docs/storyboard/production/scooby-cave-bath-r6-20261012/native/cave-cutaway-v1.png",
+    "nativeSha256": "1c53ac8fe9d36ce4647aa12611e9356760b67e94dfd221a265a9afba98f40c0d",
+    "toolOriginal": "/root/.codex/generated_images/01a12451-8a9e-7140-a682-d7c1aa8efcbf/exec-c40c52f1-c823-462c-ae96-5d214059f7d1.png",
+    "promptPath": "docs/storyboard/production/scooby-cave-bath-r6-20261012/prompts/cave-cutaway-v1.txt",
+    "promptSha256": "44cae60d41824a4f8bfc5e60a11c7ad9e4d076df6dbd46f24a810c776c797ec5",
+    "references": [
+      {
+        "path": "/root/.local/share/pinpin-production/scooby-cave-bath-r6-20261012/top-down-map.png",
+        "sha256": "293a966f2513f617d889f66d97b739d76f768b236e8082c97c2daeace8f577a5"
+      },
+      {
+        "path": "docs/storyboard/images/published/elder-cycle/elder-r6-mentor-051.webp",
+        "sha256": "95a3d491f294b390f52ae360554cbef09fdd306bdc3aaa72a8e2904dc5bbf9b8"
+      },
+      {
+        "path": "docs/storyboard/images/published/bath-magic/r17/scene-03a.webp",
+        "sha256": "037b2eb4099769a1e917edb32f2fca62c3f19bff0ecb6fb89cfe28cf69aa4d4f"
+      }
+    ],
+    "recordedAt": "2026-10-12T12:18:57.574774+00:00",
+    "status": "rejected-topology-study",
+    "selectedForPublication": false,
+    "review": "Warm lush material study only. Fails mapped single gently sloping floor: stacked rooms, waterfalls, lamp-like lights; cannot be spatial authority or published art."
+  },
+  {
+    "id": "cave-topdown-v2",
+    "tool": "built-in image_gen.imagegen",
+    "nativePath": "docs/storyboard/production/scooby-cave-bath-r6-20261012/native/cave-topdown-v2.png",
+    "nativeSha256": "0ee16ed4ff617227bddb2aaecd2e631fbf8861f3ae6cf7b53290eb4f8b93edef",
+    "toolOriginal": "/root/.codex/generated_images/01a12451-8a9e-7140-a682-d7c1aa8efcbf/exec-b2de00ef-9984-4c09-814a-c640fa39aabb.png",
+    "promptPath": "docs/storyboard/production/scooby-cave-bath-r6-20261012/prompts/cave-topdown-v2.txt",
+    "promptSha256": "65d2f12850c88e8c252551c93f9d90ad468890d0ebe794f73aff6ccfdd7cf40e",
+    "references": [
+      {
+        "path": "/root/.local/share/pinpin-production/scooby-cave-bath-r6-20261012/top-down-map.png",
+        "sha256": "293a966f2513f617d889f66d97b739d76f768b236e8082c97c2daeace8f577a5"
+      },
+      {
+        "path": "/root/.codex/generated_images/01a12451-8a9e-7140-a682-d7c1aa8efcbf/exec-c40c52f1-c823-462c-ae96-5d214059f7d1.png",
+        "sha256": "1c53ac8fe9d36ce4647aa12611e9356760b67e94dfd221a265a9afba98f40c0d"
+      },
+      {
+        "path": "docs/storyboard/images/published/elder-cycle/elder-r6-mentor-051.webp",
+        "sha256": "95a3d491f294b390f52ae360554cbef09fdd306bdc3aaa72a8e2904dc5bbf9b8"
+      }
+    ],
+    "recordedAt": "2026-10-12T12:21:28.223505+00:00",
+    "status": "rejected-topology-study",
+    "selectedForPublication": false,
+    "review": "Reduced internal waterfalls but retained side-cutaway and stacked silhouettes; no visible seven-node map/fork. Material study only, not spatial authority."
+  },
+  {
+    "id": "cave-overhead-v3",
+    "tool": "built-in image_gen.imagegen",
+    "nativePath": "docs/storyboard/production/scooby-cave-bath-r6-20261012/native/cave-overhead-v3.png",
+    "nativeSha256": "fe33565c3bff51947b9b20d83bc57547220307a74c66d34cd147fc7983bd1040",
+    "toolOriginal": "/root/.codex/generated_images/01a12451-8a9e-7140-a682-d7c1aa8efcbf/exec-b2d2cf85-774b-4b94-b23b-fa6d6e0eb90f.png",
+    "promptPath": "docs/storyboard/production/scooby-cave-bath-r6-20261012/prompts/cave-overhead-v3.txt",
+    "promptSha256": "abbabeb961e21dce81e401cea5b9cd0fe23fd91fce8c6859e39ee256196956fe",
+    "references": [
+      {
+        "path": "/root/.local/share/pinpin-production/scooby-cave-bath-r6-20261012/top-down-map.png",
+        "sha256": "293a966f2513f617d889f66d97b739d76f768b236e8082c97c2daeace8f577a5"
+      }
+    ],
+    "recordedAt": "2026-10-12T12:25:19.841910+00:00",
+    "status": "reviewed-environment-concept",
+    "selectedForPublication": false,
+    "review": "Seven correctly ordered labelled chamber footprints, two entrances/external path, root fork and reunion readable. Selected as illustration-led environment concept only; JSON map remains topology authority. No cast/story art or measured-geometry claim."
+  },
+  {
+    "id": "cave-lobby-anchor-v1",
+    "tool": "built-in image_gen.imagegen",
+    "nativePath": "docs/storyboard/production/scooby-cave-bath-r6-20261012/native/cave-lobby-anchor-v1.png",
+    "nativeSha256": "50fbcba6fafc9f247b3423251c1c63f955251defc496542a08c95913db6f0e44",
+    "toolOriginal": "/root/.codex/generated_images/01a12451-8a9e-7140-a682-d7c1aa8efcbf/exec-0b3f39d7-3f87-491b-952b-3bf1d6c87633.png",
+    "promptPath": "docs/storyboard/production/scooby-cave-bath-r6-20261012/prompts/cave-lobby-anchor-v1.txt",
+    "promptSha256": "255a4ccf76dc76bff29d4ad2e846295e8e16891cdd7d8e206c5d4b0bdde66577",
+    "references": [
+      {
+        "path": "docs/storyboard/images/published/elder-cycle/elder-r6-mentor-051.webp",
+        "sha256": "95a3d491f294b390f52ae360554cbef09fdd306bdc3aaa72a8e2904dc5bbf9b8"
+      },
+      {
+        "path": "docs/storyboard/images/published/bath-magic/r17/scene-03a.webp",
+        "sha256": "037b2eb4099769a1e917edb32f2fca62c3f19bff0ecb6fb89cfe28cf69aa4d4f"
+      },
+      {
+        "path": "/root/.codex/generated_images/01a12451-8a9e-7140-a682-d7c1aa8efcbf/exec-b2d2cf85-774b-4b94-b23b-fa6d6e0eb90f.png",
+        "sha256": "fe33565c3bff51947b9b20d83bc57547220307a74c66d34cd147fc7983bd1040"
+      }
+    ],
+    "recordedAt": "2026-10-12T12:27:55.377523+00:00",
+    "status": "reviewed-environment-anchor",
+    "selectedForPublication": false,
+    "review": "C1 south-bank eye-level view: broad dry foreground, western daylight mouth left, right C2 arch, back-wall shallow runnel, pale boulder right, root/fern/berry style. No distant chambers visible; no stairs or manmade lamps. Illustration-led reference, not measured geometry or reader scene."
+  },
+  {
+    "id": "cave-mouth-anchor-v1",
+    "tool": "built-in image_gen.imagegen",
+    "nativePath": "docs/storyboard/production/scooby-cave-bath-r6-20261012/native/cave-mouth-anchor-v1.png",
+    "nativeSha256": "7b5427efe158a448477a3e7ea28bd4df0bd3165da1bc223fbcde53d779c959a3",
+    "toolOriginal": "/root/.codex/generated_images/01a12451-8a9e-7140-a682-d7c1aa8efcbf/exec-d1519bff-532e-40d9-9e89-4e72bddef253.png",
+    "promptPath": "docs/storyboard/production/scooby-cave-bath-r6-20261012/prompts/cave-mouth-anchor-v1.txt",
+    "promptSha256": "ca5684a23b5ae39156c57ee994e930e6a270d8871693ae5209eb4a7d9d1e447f",
+    "references": [
+      {
+        "path": "/root/.codex/generated_images/01a12451-8a9e-7140-a682-d7c1aa8efcbf/exec-b2d2cf85-774b-4b94-b23b-fa6d6e0eb90f.png",
+        "sha256": "fe33565c3bff51947b9b20d83bc57547220307a74c66d34cd147fc7983bd1040"
+      },
+      {
+        "path": "/root/.codex/generated_images/01a12451-8a9e-7140-a682-d7c1aa8efcbf/exec-0b3f39d7-3f87-491b-952b-3bf1d6c87633.png",
+        "sha256": "50fbcba6fafc9f247b3423251c1c63f955251defc496542a08c95913db6f0e44"
+      },
+      {
+        "path": "docs/storyboard/images/published/bath-magic/r17/scene-05e.webp",
+        "sha256": "6bba7204c8dd77e89341b113a8774ef27977e41ce425efb17ed29e2981aaa44c"
+      }
+    ],
+    "recordedAt": "2026-10-12T12:33:52.516817+00:00",
+    "status": "reviewed-environment-anchor",
+    "selectedForPublication": false,
+    "review": "Re-reviewed after declared pre-batch object design change to one fallen lilac blossom. Original full flower now matches clue; root/birch/forest geometry unchanged. Earlier requested-petal provenance remains literal.",
+    "reviewHistory": [
+      {
+        "status": "correction-pending",
+        "review": "Readable western root mouth and forked birch, compatible daylight lobby. Foreground depicts a whole lilac flower instead of one detached petal, so prop correction required before using discovery sequence."
+      }
+    ]
+  },
+  {
+    "id": "cave-mouth-anchor-v2",
+    "tool": "built-in image_gen.imagegen",
+    "nativePath": "docs/storyboard/production/scooby-cave-bath-r6-20261012/native/cave-mouth-anchor-v2.png",
+    "nativeSha256": "5f20e053be43b66b321885444d3405ba3f4f7ac762aa3d15f0a2515988a0eb08",
+    "toolOriginal": "/root/.codex/generated_images/01a12451-8a9e-7140-a682-d7c1aa8efcbf/exec-3576dfbc-f8df-4261-bd3a-60c0bad4cf7a.png",
+    "promptPath": "docs/storyboard/production/scooby-cave-bath-r6-20261012/prompts/cave-mouth-anchor-v2.txt",
+    "promptSha256": "12f086ac9e6cb54bc5626de8c44d9d8e725338a6eb2b0c116d21cc56d7f45cc3",
+    "references": [
+      {
+        "path": "/root/.codex/generated_images/01a12451-8a9e-7140-a682-d7c1aa8efcbf/exec-d1519bff-532e-40d9-9e89-4e72bddef253.png",
+        "sha256": "7b5427efe158a448477a3e7ea28bd4df0bd3165da1bc223fbcde53d779c959a3"
+      }
+    ],
+    "recordedAt": "2026-10-12T12:39:46.629738+00:00",
+    "status": "superseded-petal-study",
+    "selectedForPublication": false,
+    "review": "Single-petal correction is preserved but superseded by readable full-blossom authoring choice before batches.",
+    "reviewHistory": [
+      {
+        "status": "reviewed-environment-anchor",
+        "review": "Targeted correction replaced fallen complete flower with one detached lilac petal; forked birch/root mouth/lighting retained. Empty C0/F1 anchor, not reader story scene."
+      }
+    ]
+  },
+  {
+    "id": "cave-gallery-anchor-v1",
+    "tool": "built-in image_gen.imagegen",
+    "nativePath": "docs/storyboard/production/scooby-cave-bath-r6-20261012/native/cave-gallery-anchor-v1.png",
+    "nativeSha256": "f37289b9c7040c4a2bd46c3715f9f45a8d020776dc66f8d7eec669787ec7619b",
+    "toolOriginal": "/root/.codex/generated_images/01a12451-8a9e-7140-a682-d7c1aa8efcbf/exec-9ff471e5-8d50-43b5-9ddb-4049659dcc4a.png",
+    "promptPath": "docs/storyboard/production/scooby-cave-bath-r6-20261012/prompts/cave-gallery-anchor-v1.txt",
+    "promptSha256": "d63b968adcf23d499a7d3e385ad24073e609aa8a6b9b590019370adb8f0b6b73",
+    "references": [
+      {
+        "path": "/root/.codex/generated_images/01a12451-8a9e-7140-a682-d7c1aa8efcbf/exec-b2d2cf85-774b-4b94-b23b-fa6d6e0eb90f.png",
+        "sha256": "fe33565c3bff51947b9b20d83bc57547220307a74c66d34cd147fc7983bd1040"
+      },
+      {
+        "path": "/root/.codex/generated_images/01a12451-8a9e-7140-a682-d7c1aa8efcbf/exec-0b3f39d7-3f87-491b-952b-3bf1d6c87633.png",
+        "sha256": "50fbcba6fafc9f247b3423251c1c63f955251defc496542a08c95913db6f0e44"
+      }
+    ],
+    "recordedAt": "2026-10-12T12:39:46.717723+00:00",
+    "status": "correction-pending",
+    "selectedForPublication": false,
+    "review": "Warm lower vine nave/dry bank/runnel/root pair readable. Far-right view suggests forest exit instead of interior C3 dome; correction required so gallery does not skip echo room."
+  },
+  {
+    "id": "cave-gallery-anchor-v2",
+    "tool": "built-in image_gen.imagegen",
+    "nativePath": "docs/storyboard/production/scooby-cave-bath-r6-20261012/native/cave-gallery-anchor-v2.png",
+    "nativeSha256": "c2447c07b9e641166ecfdba9e1c89347787a2f8fb1205b559b7515b37930d246",
+    "toolOriginal": "/root/.codex/generated_images/01a12451-8a9e-7140-a682-d7c1aa8efcbf/exec-13670bd4-8203-4340-8895-1815a7489a30.png",
+    "promptPath": "docs/storyboard/production/scooby-cave-bath-r6-20261012/prompts/cave-gallery-anchor-v2.txt",
+    "promptSha256": "dde915b281104bb920e6f13e7c9a77d5a4a948ad70cc7ebe0c846a35d17f2914",
+    "references": [
+      {
+        "path": "/root/.codex/generated_images/01a12451-8a9e-7140-a682-d7c1aa8efcbf/exec-9ff471e5-8d50-43b5-9ddb-4049659dcc4a.png",
+        "sha256": "f37289b9c7040c4a2bd46c3715f9f45a8d020776dc66f8d7eec669787ec7619b"
+      }
+    ],
+    "recordedAt": "2026-10-12T12:45:27.475583+00:00",
+    "status": "reviewed-environment-anchor",
+    "selectedForPublication": false,
+    "review": "Right opening corrected to interior honey dome/pool with small skylight, forest-exit shortcut removed. Gallery root pair/stream/bank/berries retained; C2\u2192C3 topology readable."
+  },
+  {
+    "id": "cave-echo-anchor-v1",
+    "tool": "built-in image_gen.imagegen",
+    "nativePath": "docs/storyboard/production/scooby-cave-bath-r6-20261012/native/cave-echo-anchor-v1.png",
+    "nativeSha256": "35c52e9210783d31d7b682efd29fd94b6972a2c1290815b6e7176987c6f474e5",
+    "toolOriginal": "/root/.codex/generated_images/01a12451-8a9e-7140-a682-d7c1aa8efcbf/exec-76267712-dbb3-4eeb-b2ac-80710a43e989.png",
+    "promptPath": "docs/storyboard/production/scooby-cave-bath-r6-20261012/prompts/cave-echo-anchor-v1.txt",
+    "promptSha256": "9f106e0c3f5f309739ad6b5eb975bab135fc0ebe964e770786b8fdc89b8fd60e",
+    "references": [
+      {
+        "path": "/root/.codex/generated_images/01a12451-8a9e-7140-a682-d7c1aa8efcbf/exec-b2d2cf85-774b-4b94-b23b-fa6d6e0eb90f.png",
+        "sha256": "fe33565c3bff51947b9b20d83bc57547220307a74c66d34cd147fc7983bd1040"
+      },
+      {
+        "path": "/root/.codex/generated_images/01a12451-8a9e-7140-a682-d7c1aa8efcbf/exec-0b3f39d7-3f87-491b-952b-3bf1d6c87633.png",
+        "sha256": "50fbcba6fafc9f247b3423251c1c63f955251defc496542a08c95913db6f0e44"
+      }
+    ],
+    "recordedAt": "2026-10-12T12:45:27.546177+00:00",
+    "status": "reviewed-environment-anchor",
+    "selectedForPublication": false,
+    "review": "Tall C3 dome, north skylight, shallow pool with visible stones/pale curved rim, broad dry south bank, west C2 berry arch and east C4 arch. Small stream riffles, no deep falls or stepped walking route. Empty illustration-led anchor only."
+  },
+  {
+    "id": "cave-fork-anchor-v1",
+    "tool": "built-in image_gen.imagegen",
+    "nativePath": "docs/storyboard/production/scooby-cave-bath-r6-20261012/native/cave-fork-anchor-v1.png",
+    "nativeSha256": "72c5a404e28d64a461fc2db9941dbee71c884f6283814a56c4add4c4b4ea5b82",
+    "toolOriginal": "/root/.codex/generated_images/01a12451-8a9e-7140-a682-d7c1aa8efcbf/exec-0cfc3e20-a625-4585-a862-81987a1ac50f.png",
+    "promptPath": "docs/storyboard/production/scooby-cave-bath-r6-20261012/prompts/cave-fork-anchor-v1.txt",
+    "promptSha256": "d830a171698b7aaf49cd67c06f521ebbe0758f25c22e3a5d981b51fb9fe88319",
+    "references": [
+      {
+        "path": "/root/.codex/generated_images/01a12451-8a9e-7140-a682-d7c1aa8efcbf/exec-b2d2cf85-774b-4b94-b23b-fa6d6e0eb90f.png",
+        "sha256": "fe33565c3bff51947b9b20d83bc57547220307a74c66d34cd147fc7983bd1040"
+      },
+      {
+        "path": "/root/.codex/generated_images/01a12451-8a9e-7140-a682-d7c1aa8efcbf/exec-76267712-dbb3-4eeb-b2ac-80710a43e989.png",
+        "sha256": "35c52e9210783d31d7b682efd29fd94b6972a2c1290815b6e7176987c6f474e5"
+      }
+    ],
+    "recordedAt": "2026-10-12T12:50:26.127989+00:00",
+    "status": "correction-pending",
+    "selectedForPublication": false,
+    "review": "Root divider, south bank and two arches visible, but both arch streams cascade inward, suggesting joining not splitting; remove falls and establish equal shallow grades before selection."
+  },
+  {
+    "id": "cave-blossom-anchor-v1",
+    "tool": "built-in image_gen.imagegen",
+    "nativePath": "docs/storyboard/production/scooby-cave-bath-r6-20261012/native/cave-blossom-anchor-v1.png",
+    "nativeSha256": "b1367d319a1011b93e513ac45031effd834e4b84cb434902008fbc7e79c5b997",
+    "toolOriginal": "/root/.codex/generated_images/01a12451-8a9e-7140-a682-d7c1aa8efcbf/exec-03a7e371-b7d7-4a4c-a0ad-519f58bd7c93.png",
+    "promptPath": "docs/storyboard/production/scooby-cave-bath-r6-20261012/prompts/cave-blossom-anchor-v1.txt",
+    "promptSha256": "b46fd491376e47d0264efe7fc50e95824ef664be06338e5872f10a40f0457bdd",
+    "references": [
+      {
+        "path": "/root/.codex/generated_images/01a12451-8a9e-7140-a682-d7c1aa8efcbf/exec-b2d2cf85-774b-4b94-b23b-fa6d6e0eb90f.png",
+        "sha256": "fe33565c3bff51947b9b20d83bc57547220307a74c66d34cd147fc7983bd1040"
+      },
+      {
+        "path": "/root/.codex/generated_images/01a12451-8a9e-7140-a682-d7c1aa8efcbf/exec-76267712-dbb3-4eeb-b2ac-80710a43e989.png",
+        "sha256": "35c52e9210783d31d7b682efd29fd94b6972a2c1290815b6e7176987c6f474e5"
+      }
+    ],
+    "recordedAt": "2026-10-12T12:50:26.200455+00:00",
+    "status": "correction-pending",
+    "selectedForPublication": false,
+    "review": "Beautiful differentiated blossom garden/flat retrieval stone/low wet root, but outlet-right cascade implies inflow from C6 rather than exit. Correct channel grades/flow before selecting anchor."
+  },
+  {
+    "id": "r6-001-v1",
+    "tool": "built-in image_gen.imagegen",
+    "nativePath": "docs/storyboard/production/scooby-cave-bath-r6-20261012/native/r6-001-v1.png",
+    "nativeSha256": "dd987ef97127329555c0d59577eb7d2f7c3c2f029b5ec53d9d01d1afa08133b2",
+    "toolOriginal": "/root/.codex/generated_images/01a12451-8a9e-7140-a682-d7c1aa8efcbf/exec-ae69cf76-ec50-4417-95c0-a5019ae73f8a.png",
+    "promptPath": "docs/storyboard/production/scooby-cave-bath-r6-20261012/prompts/r6-001-v1.txt",
+    "promptSha256": "a0aa9a0a5c99c1781f9aaa76d9eca986c21f0fa8da6c1abb8eec3a58636961c3",
+    "references": [
+      {
+        "path": "docs/storyboard/images/published/bath-magic/r17/scene-03a.webp",
+        "sha256": "037b2eb4099769a1e917edb32f2fca62c3f19bff0ecb6fb89cfe28cf69aa4d4f"
+      },
+      {
+        "path": "docs/storyboard/images/published/bath-magic/scene-02.webp",
+        "sha256": "7bb7bfae1e01595cda5cc4d9dfc24056f349302929d8b4a5487b2f8eb6643377"
+      }
+    ],
+    "recordedAt": "2026-10-12T12:57:08.744042+00:00",
+    "status": "agent-reviewed-story-candidate",
+    "selectedForPublication": false,
+    "review": "Single green door/two radial windows/left cabinet/right stove and round table preserved from chosen published view. Four separate family bodies, Papa supports infant with two plausible hands, Mother stirs, older child studies spoon. Four spoon-bearing bowls (front two handled) plus two mugs/jug/bread; these designs must carry forward. Papa has restrained closed-lip affection, Mother/child/infant task-focused rather than collective grins. Native candidate only, not published."
+  },
+  {
+    "id": "cave-fork-anchor-v2",
+    "tool": "built-in image_gen.imagegen",
+    "nativePath": "docs/storyboard/production/scooby-cave-bath-r6-20261012/native/cave-fork-anchor-v2.png",
+    "nativeSha256": "c91c2480434d110ceb3313f0a509032fde112274d66d67f7df9f441fa04eafaa",
+    "toolOriginal": "/root/.codex/generated_images/01a12451-8a9e-7140-a682-d7c1aa8efcbf/exec-fcd55705-483f-43d2-a1cc-3e8c96d219a8.png",
+    "promptPath": "docs/storyboard/production/scooby-cave-bath-r6-20261012/prompts/cave-fork-anchor-v2.txt",
+    "promptSha256": "2dfc3047d4e7571ebff061549f4350615099ca3bced25a88ab7f88e5364e316d",
+    "references": [
+      {
+        "path": "/root/.codex/generated_images/01a12451-8a9e-7140-a682-d7c1aa8efcbf/exec-0cfc3e20-a625-4585-a862-81987a1ac50f.png",
+        "sha256": "72c5a404e28d64a461fc2db9941dbee71c884f6283814a56c4add4c4b4ea5b82"
+      }
+    ],
+    "recordedAt": "2026-10-12T12:59:36.029095+00:00",
+    "status": "reviewed-environment-anchor",
+    "selectedForPublication": false,
+    "review": "Stepped inlet/outlet cascades removed; calm shallow grades, root island and south dry bank retained. Far branch is partly root-occluded in this view; overhead/closer leaf shots must explicitly show split/reunion rather than claim both fully visible here."
+  },
+  {
+    "id": "cave-blossom-anchor-v2",
+    "tool": "built-in image_gen.imagegen",
+    "nativePath": "docs/storyboard/production/scooby-cave-bath-r6-20261012/native/cave-blossom-anchor-v2.png",
+    "nativeSha256": "a014a6467bfa9b745df877780d0fc78d80f2f211cabe1e580a0690e53e2cd882",
+    "toolOriginal": "/root/.codex/generated_images/01a12451-8a9e-7140-a682-d7c1aa8efcbf/exec-bbddc707-1a45-4260-9bc3-07565c8fbc3a.png",
+    "promptPath": "docs/storyboard/production/scooby-cave-bath-r6-20261012/prompts/cave-blossom-anchor-v2.txt",
+    "promptSha256": "940119734a02c033e84a39ca89f739f99cd5359158c19eae68660f5e238cde66",
+    "references": [
+      {
+        "path": "/root/.codex/generated_images/01a12451-8a9e-7140-a682-d7c1aa8efcbf/exec-03a7e371-b7d7-4a4c-a0ad-519f58bd7c93.png",
+        "sha256": "b1367d319a1011b93e513ac45031effd834e4b84cb434902008fbc7e79c5b997"
+      }
+    ],
+    "recordedAt": "2026-10-12T12:59:36.097874+00:00",
+    "status": "reviewed-environment-anchor",
+    "selectedForPublication": false,
+    "review": "Raised cascades removed; two shallow left-side runs, single right outlet at gentle ground grade, retrieval stone/wet root/dry bank/skylight/lilac garden retained. Static image alone does not prove flow direction; boat sequence/captions must demonstrate it."
+  },
+  {
+    "id": "cave-outlet-anchor-v1",
+    "tool": "built-in image_gen.imagegen",
+    "nativePath": "docs/storyboard/production/scooby-cave-bath-r6-20261012/native/cave-outlet-anchor-v1.png",
+    "nativeSha256": "80d61e18d40fb22a07f1b751a43e8984220f2aedbe43ea3f1f92ceb27e31e154",
+    "toolOriginal": "/root/.codex/generated_images/01a12451-8a9e-7140-a682-d7c1aa8efcbf/exec-a4b84501-7413-4a5e-ad79-272c1d68bbdb.png",
+    "promptPath": "docs/storyboard/production/scooby-cave-bath-r6-20261012/prompts/cave-outlet-anchor-v1.txt",
+    "promptSha256": "0e5104d061e78e5982034279053f7d65ff02d6c6b916e3f583ecc7dbd0dda1a4",
+    "references": [
+      {
+        "path": "/root/.codex/generated_images/01a12451-8a9e-7140-a682-d7c1aa8efcbf/exec-b2d2cf85-774b-4b94-b23b-fa6d6e0eb90f.png",
+        "sha256": "fe33565c3bff51947b9b20d83bc57547220307a74c66d34cd147fc7983bd1040"
+      },
+      {
+        "path": "/root/.codex/generated_images/01a12451-8a9e-7140-a682-d7c1aa8efcbf/exec-3576dfbc-f8df-4261-bd3a-60c0bad4cf7a.png",
+        "sha256": "5f20e053be43b66b321885444d3405ba3f4f7ac762aa3d15f0a2515988a0eb08"
+      }
+    ],
+    "recordedAt": "2026-10-12T13:09:10.119154+00:00",
+    "status": "reviewed-environment-anchor",
+    "selectedForPublication": false,
+    "review": "Distinct eastern outlet/leaning pale right root, stream leaves to foreground-right at shallow grade, dry left bank and damp clay outside. No west-mouth birch or house, no stairs/cascades. Single continuous C5 connection."
+  },
+  {
+    "id": "shower-tree-anchor-v1",
+    "tool": "built-in image_gen.imagegen",
+    "nativePath": "docs/storyboard/production/scooby-cave-bath-r6-20261012/native/shower-tree-anchor-v1.png",
+    "nativeSha256": "454896c5b9ca69e4e6017a95682afb65e2b41f50d849630c2d5b2ebb7188118e",
+    "toolOriginal": "/root/.codex/generated_images/01a12451-8a9e-7140-a682-d7c1aa8efcbf/exec-23a52584-f82a-4db9-97ab-ecfa91e90fd3.png",
+    "promptPath": "docs/storyboard/production/scooby-cave-bath-r6-20261012/prompts/shower-tree-anchor-v1.txt",
+    "promptSha256": "a04feed7e089c4abfe61f4607d661b314be92cb9b74d5b57779a54790b6cd1eb",
+    "references": [
+      {
+        "path": "/root/.codex/generated_images/01a12451-8a9e-7140-a682-d7c1aa8efcbf/exec-b2d2cf85-774b-4b94-b23b-fa6d6e0eb90f.png",
+        "sha256": "fe33565c3bff51947b9b20d83bc57547220307a74c66d34cd147fc7983bd1040"
+      },
+      {
+        "path": "/root/.codex/generated_images/01a12451-8a9e-7140-a682-d7c1aa8efcbf/exec-3576dfbc-f8df-4261-bd3a-60c0bad4cf7a.png",
+        "sha256": "5f20e053be43b66b321885444d3405ba3f4f7ac762aa3d15f0a2515988a0eb08"
+      }
+    ],
+    "recordedAt": "2026-10-12T13:09:10.195199+00:00",
+    "status": "reviewed-environment-anchor",
+    "selectedForPublication": false,
+    "review": "One fixed spreading birch/low branch and prominent notched leaf right, western mouth background-left, flat wash ground and left dry-side rock; no gear/water/magic yet. Leaf-source height must be checked with actual dog/parent cast pilot."
+  },
+  {
+    "id": "r6-002-v1",
+    "tool": "built-in image_gen.imagegen",
+    "nativePath": "docs/storyboard/production/scooby-cave-bath-r6-20261012/native/r6-002-v1.png",
+    "nativeSha256": "87cb2540c323ace44273ba855feaed79ab309f3335de4878909a49a5986bbcfa",
+    "toolOriginal": "/root/.codex/generated_images/01a12451-8a9e-7140-a682-d7c1aa8efcbf/exec-6ba570e9-01ee-4ce6-872a-6d2799db123f.png",
+    "promptPath": "docs/storyboard/production/scooby-cave-bath-r6-20261012/prompts/r6-002-v1.txt",
+    "promptSha256": "1fc3e0f1d1aa482a4e64c050306c8357ba191b53b7c1de4402e5ca30cb8a9cbf",
+    "references": [
+      {
+        "path": "/root/.codex/generated_images/01a12451-8a9e-7140-a682-d7c1aa8efcbf/exec-ae69cf76-ec50-4417-95c0-a5019ae73f8a.png",
+        "sha256": "dd987ef97127329555c0d59577eb7d2f7c3c2f029b5ec53d9d01d1afa08133b2"
+      }
+    ],
+    "recordedAt": "2026-10-12T13:09:10.255297+00:00",
+    "status": "correction-pending",
+    "selectedForPublication": false,
+    "review": "Room/cast/support/acting retained and exactly four bowls including held bowl. Two overlapping utensil shapes in held bowl make spoon count ambiguous; simplify held bowl to one spoon before adjacent breakfast frames."
+  },
+  {
+    "id": "r6-002-v2",
+    "tool": "built-in image_gen.imagegen",
+    "nativePath": "docs/storyboard/production/scooby-cave-bath-r6-20261012/native/r6-002-v2.png",
+    "nativeSha256": "abe58239d4efa920cbb0392e01c910680212cc860694395da0e1358fbac7eb27",
+    "toolOriginal": "/root/.codex/generated_images/01a12451-8a9e-7140-a682-d7c1aa8efcbf/exec-7d8f0ad5-40c0-4dce-b07d-bec78c10a0d2.png",
+    "promptPath": "docs/storyboard/production/scooby-cave-bath-r6-20261012/prompts/r6-002-v2.txt",
+    "promptSha256": "4552263ef2b2301ead951768b15b7093fc6f1db871778c99a3cc714db548cbeb",
+    "references": [
+      {
+        "path": "/root/.codex/generated_images/01a12451-8a9e-7140-a682-d7c1aa8efcbf/exec-6ba570e9-01ee-4ce6-872a-6d2799db123f.png",
+        "sha256": "87cb2540c323ace44273ba855feaed79ab309f3335de4878909a49a5986bbcfa"
+      }
+    ],
+    "recordedAt": "2026-10-12T13:18:08.481375+00:00",
+    "status": "agent-reviewed-story-candidate",
+    "selectedForPublication": false,
+    "review": "At native-size detail, held bowl now has one spoon; adjacent brown form is Mama finger. Total four spoon-bearing bowls including held, two mugs and one jug. Room/infant support/individual task faces retained. Not yet published."
+  },
+  {
+    "id": "r6-003-v1",
+    "tool": "built-in image_gen.imagegen",
+    "nativePath": "docs/storyboard/production/scooby-cave-bath-r6-20261012/native/r6-003-v1.png",
+    "nativeSha256": "982af53fa33bafece548b3cd00a2cb14577ddf4c4fa7314d10b6cb7878033f27",
+    "toolOriginal": "/root/.codex/generated_images/01a12451-8a9e-7140-a682-d7c1aa8efcbf/exec-a708a7f2-2858-405c-9f67-c0b18ae802cc.png",
+    "promptPath": "docs/storyboard/production/scooby-cave-bath-r6-20261012/prompts/r6-003-v1.txt",
+    "promptSha256": "481d29b177d58e90f49f6c62ecdb0b8a54570878d4597ea675b9ae14fb0266bc",
+    "references": [
+      {
+        "path": "/root/.codex/generated_images/01a12451-8a9e-7140-a682-d7c1aa8efcbf/exec-7d8f0ad5-40c0-4dce-b07d-bec78c10a0d2.png",
+        "sha256": "abe58239d4efa920cbb0392e01c910680212cc860694395da0e1358fbac7eb27"
+      }
+    ],
+    "recordedAt": "2026-10-12T13:28:09.553299+00:00",
+    "status": "correction-pending",
+    "selectedForPublication": false,
+    "review": "Natural bread handoff/support/faces and four bowls retained. Front-left porridge bowl lost its handle from frames001/002; restore that one prop feature before selecting sequence."
+  },
+  {
+    "id": "r6-010-v1",
+    "tool": "built-in image_gen.imagegen",
+    "nativePath": "docs/storyboard/production/scooby-cave-bath-r6-20261012/native/r6-010-v1.png",
+    "nativeSha256": "9a0648c5682b6785f3044ec87ce9699446ff1cd8cee4d7273c7b855fcec07707",
+    "toolOriginal": "/root/.codex/generated_images/01a12451-8a9e-7140-a682-d7c1aa8efcbf/exec-15646008-fbb0-4ef1-9ad5-80997de5ab4d.png",
+    "promptPath": "docs/storyboard/production/scooby-cave-bath-r6-20261012/prompts/r6-010-v1.txt",
+    "promptSha256": "dd30d312d942a28fda9fb0712ff4a684b4bc37aef6690d401d22a187a66a8f30",
+    "references": [
+      {
+        "path": "docs/storyboard/images/published/bath-magic/r17/scene-03i.webp",
+        "sha256": "d4196a146376951d4b9555290458cbb7df30567185c99877014f34ac17198d41"
+      },
+      {
+        "path": "/root/.codex/generated_images/01a12451-8a9e-7140-a682-d7c1aa8efcbf/exec-ae69cf76-ec50-4417-95c0-a5019ae73f8a.png",
+        "sha256": "dd987ef97127329555c0d59577eb7d2f7c3c2f029b5ec53d9d01d1afa08133b2"
+      }
+    ],
+    "recordedAt": "2026-10-12T13:28:09.619826+00:00",
+    "status": "correction-pending",
+    "selectedForPublication": false,
+    "review": "Actual sit/closed-mouth focused dog and cue readable, whole-body mount scale. Cottage door has TWO brass knobs/double-leaf implication, must restore single leaf. Papa outdoor identity needs broad adult proportions rather than old childlike profile."
+  },
+  {
+    "id": "r6-003-v2",
+    "tool": "built-in image_gen.imagegen",
+    "nativePath": "docs/storyboard/production/scooby-cave-bath-r6-20261012/native/r6-003-v2.png",
+    "nativeSha256": "1274eb97f1e5196baf41972f74ee446d11041b1f95a0b355ec95695f8f2273f4",
+    "toolOriginal": "/root/.codex/generated_images/01a12451-8a9e-7140-a682-d7c1aa8efcbf/exec-bf43ff89-f3c6-46ab-b1cd-ef66c1b56073.png",
+    "promptPath": "docs/storyboard/production/scooby-cave-bath-r6-20261012/prompts/r6-003-v2.txt",
+    "promptSha256": "8c0873255e3cdceb3eb3002f7849bc25a846bd139ad3324e2b9674197c949b26",
+    "references": [
+      {
+        "path": "/root/.codex/generated_images/01a12451-8a9e-7140-a682-d7c1aa8efcbf/exec-a708a7f2-2858-405c-9f67-c0b18ae802cc.png",
+        "sha256": "982af53fa33bafece548b3cd00a2cb14577ddf4c4fa7314d10b6cb7878033f27"
+      }
+    ],
+    "recordedAt": "2026-10-12T13:36:03.341859+00:00",
+    "status": "agent-reviewed-story-candidate",
+    "selectedForPublication": false,
+    "review": "Front-left bowl loop handle restored. Bread handoff one free Father hand/other infant support, four bowls/spoons/two mugs/jug/pot/room retained; faces linked to action, no collective grin. Native candidate not published."
+  },
+  {
+    "id": "r6-010-v2",
+    "tool": "built-in image_gen.imagegen",
+    "nativePath": "docs/storyboard/production/scooby-cave-bath-r6-20261012/native/r6-010-v2.png",
+    "nativeSha256": "b7449172d1f24c6769ebae8b87f7c0ee59fdce35e3497ca265ecba514d31480f",
+    "toolOriginal": "/root/.codex/generated_images/01a12451-8a9e-7140-a682-d7c1aa8efcbf/exec-49c333bd-42aa-4b8b-b554-267912a7f7a5.png",
+    "promptPath": "docs/storyboard/production/scooby-cave-bath-r6-20261012/prompts/r6-010-v2.txt",
+    "promptSha256": "b8b3edefe3ddbd1bcab7aa00028e161b885cc5d96574804c8a734b403f10d2ed",
+    "references": [
+      {
+        "path": "/root/.codex/generated_images/01a12451-8a9e-7140-a682-d7c1aa8efcbf/exec-15646008-fbb0-4ef1-9ad5-80997de5ab4d.png",
+        "sha256": "9a0648c5682b6785f3044ec87ce9699446ff1cd8cee4d7273c7b855fcec07707"
+      },
+      {
+        "path": "/root/.codex/generated_images/01a12451-8a9e-7140-a682-d7c1aa8efcbf/exec-ae69cf76-ec50-4417-95c0-a5019ae73f8a.png",
+        "sha256": "dd987ef97127329555c0d59577eb7d2f7c3c2f029b5ec53d9d01d1afa08133b2"
+      }
+    ],
+    "recordedAt": "2026-10-12T13:36:03.439135+00:00",
+    "status": "correction-pending-paired-view",
+    "selectedForPublication": false,
+    "review": "Single leaf repair/body cue hold; paired-camera audit found exterior hardware handedness must mirror interior and established giant garden flower must carry over after009. Preserve as pilot, not selection.",
+    "reviewHistory": [
+      {
+        "status": "agent-reviewed-story-candidate",
+        "review": "Door repaired to one visible brass knob/uninterrupted single green leaf. Papa broadened/cooler quills, firm concentrated register; genuine seated dog higher-headed/full4-leg anatomy, clean coat/bowl. Adult-child distinction to be checked in upcoming shared cave cast pilot; no measured conformity claim."
+      }
+    ]
+  },
+  {
+    "id": "r6-041-v1",
+    "tool": "built-in image_gen.imagegen",
+    "nativePath": "docs/storyboard/production/scooby-cave-bath-r6-20261012/native/r6-041-v1.png",
+    "nativeSha256": "17d483a0193d919fba1bd59c64e5a849f6b3a80420a029f25f1242a2d065e2fe",
+    "toolOriginal": "/root/.codex/generated_images/01a12451-8a9e-7140-a682-d7c1aa8efcbf/exec-de832aa3-189c-45a8-b8c9-e2a54f84b1f6.png",
+    "promptPath": "docs/storyboard/production/scooby-cave-bath-r6-20261012/prompts/r6-041-v1.txt",
+    "promptSha256": "8e341389555a94751431e2719f2bbb4ceec25fe2895d4ba296372c5923e67c03",
+    "references": [
+      {
+        "path": "docs/storyboard/production/scooby-cave-bath-r6-20261012/native/cave-lobby-anchor-v1.png",
+        "sha256": "50fbcba6fafc9f247b3423251c1c63f955251defc496542a08c95913db6f0e44"
+      },
+      {
+        "path": "docs/storyboard/production/scooby-cave-bath-r6-20261012/native/r6-010-v2.png",
+        "sha256": "b7449172d1f24c6769ebae8b87f7c0ee59fdce35e3497ca265ecba514d31480f"
+      },
+      {
+        "path": "docs/storyboard/production/scooby-cave-bath-r6-20261012/native/r6-003-v2.png",
+        "sha256": "1274eb97f1e5196baf41972f74ee446d11041b1f95a0b355ec95695f8f2273f4"
+      },
+      {
+        "path": "docs/storyboard/images/published/bath-magic/r17/scene-03l.webp",
+        "sha256": "b40ac36e16a2f183f826d340f8be4c2ad85c30fa0a3e660c0dd0958cdb5da81b"
+      }
+    ],
+    "recordedAt": "2026-10-12T13:51:20.670608+00:00",
+    "status": "correction-pending",
+    "selectedForPublication": false,
+    "review": "C1 location/cast adult-child separation/two leaf boats and individual quiet expressions hold. Dog withers below Papa head and dog head not higher; enlarge dog about30%. Held clue wrongly whole flower instead of single petal; correct before cave sequence."
+  },
+  {
+    "id": "r6-041-v2",
+    "tool": "built-in image_gen.imagegen",
+    "nativePath": "docs/storyboard/production/scooby-cave-bath-r6-20261012/native/r6-041-v2.png",
+    "nativeSha256": "e020843725533bd5b8128f6eac4c83244a56b1c8125934dc2649b7bf48f59545",
+    "toolOriginal": "/root/.codex/generated_images/01a12451-8a9e-7140-a682-d7c1aa8efcbf/exec-64a02bc8-cc38-4c3b-a729-e1088f95e92f.png",
+    "promptPath": "docs/storyboard/production/scooby-cave-bath-r6-20261012/prompts/r6-041-v2.txt",
+    "promptSha256": "407b5cdb0276505226e11c65f81c9baa536fbe01451bc70023de0a2def09ae19",
+    "references": [
+      {
+        "path": "/root/.codex/generated_images/01a12451-8a9e-7140-a682-d7c1aa8efcbf/exec-de832aa3-189c-45a8-b8c9-e2a54f84b1f6.png",
+        "sha256": "17d483a0193d919fba1bd59c64e5a849f6b3a80420a029f25f1242a2d065e2fe"
+      }
+    ],
+    "recordedAt": "2026-10-12T14:56:25.193449+00:00",
+    "status": "agent-reviewed-story-candidate",
+    "selectedForPublication": false,
+    "review": "Whole dog enlarged: withers now near standing adult Papa head, dog head higher; adult/child/Rabbit bodies distinct and linked quiet awe. Tool did NOT execute requested petal replacement. Before scene batches editorial design deliberately changed clue to one fallen five-petal blossom for small-hand readability; the visible one blossom now matches revised script. Two boats, C1 location/lighting and4-leg anatomy retained; no publication yet."
+  },
+  {
+    "id": "r6-004-v1",
+    "tool": "built-in image_gen.imagegen",
+    "nativePath": "docs/storyboard/production/scooby-cave-bath-r6-20261012/native/r6-004-v1.png",
+    "nativeSha256": "007f5b94dc947ab1cfd168f500409a17bdf0cefadd50ca863ea4e5087b32e374",
+    "toolOriginal": "/root/.codex/generated_images/01a12451-8a9e-7140-a682-d7c1aa8efcbf/exec-49c4447e-0c7e-4e58-9bd3-ad151cb351a9.png",
+    "promptPath": "docs/storyboard/production/scooby-cave-bath-r6-20261012/prompts/r6-004-v1.txt",
+    "promptSha256": "b7833646f7ba553bb2d0cee6451ced3a5e6cba7674cdcdf81f3da1c72742f344",
+    "references": [
+      {
+        "path": "docs/storyboard/production/scooby-cave-bath-r6-20261012/native/r6-003-v2.png",
+        "sha256": "1274eb97f1e5196baf41972f74ee446d11041b1f95a0b355ec95695f8f2273f4"
+      }
+    ],
+    "recordedAt": "2026-10-12T15:40:00.994251+00:00",
+    "status": "correction-pending",
+    "selectedForPublication": false,
+    "review": "Infant supported/Papa watches baby/Mama spoon reply/child listens with bread; earned small smiles appropriate. A fifth small bowl appeared directly before child; remove it before breakfast sequence continues."
+  },
+  {
+    "id": "r6-009-v1",
+    "tool": "built-in image_gen.imagegen",
+    "nativePath": "docs/storyboard/production/scooby-cave-bath-r6-20261012/native/r6-009-v1.png",
+    "nativeSha256": "f663f9dfe0a38005272048c1ecea272e21b70eff535804bae589e536491f267e",
+    "toolOriginal": "/root/.codex/generated_images/01a12451-8a9e-7140-a682-d7c1aa8efcbf/exec-b84c2c36-aaa0-45a0-b095-f2eedf5ad7f1.png",
+    "promptPath": "docs/storyboard/production/scooby-cave-bath-r6-20261012/prompts/r6-009-v1.txt",
+    "promptSha256": "43c18a9a3f9d34b56e2a9065f396f9da6ee4d518d2c636d240fcb8cdfceea6d3",
+    "references": [
+      {
+        "path": "docs/storyboard/images/published/bath-magic/r17/scene-03i.webp",
+        "sha256": "d4196a146376951d4b9555290458cbb7df30567185c99877014f34ac17198d41"
+      },
+      {
+        "path": "docs/storyboard/production/scooby-cave-bath-r6-20261012/native/r6-041-v2.png",
+        "sha256": "e020843725533bd5b8128f6eac4c83244a56b1c8125934dc2649b7bf48f59545"
+      },
+      {
+        "path": "docs/storyboard/images/published/bath-magic/scene-79.webp",
+        "sha256": "99c7d5020299282c4520e3d5bee194a7797d74e66513d4dab513a9da0fd168b9"
+      }
+    ],
+    "recordedAt": "2026-10-12T15:40:01.096366+00:00",
+    "status": "agent-reviewed-story-candidate",
+    "selectedForPublication": false,
+    "review": "Outside single green leaf/left hinges/right knob and radial windows match paired-view contract. Existing big pink terracotta flower now east side, clear step; frame captures Father tending leaf after easing pot. Whole large standing dog4legs/Parentadult/one blue-paw bowl, natural task gaze. This is after-action moment, not simultaneous pot push. No publication yet."
+  },
+  {
+    "id": "r6-179-v1",
+    "tool": "built-in image_gen.imagegen",
+    "nativePath": "docs/storyboard/production/scooby-cave-bath-r6-20261012/native/r6-179-v1.png",
+    "nativeSha256": "b07de7046b2f903c574f26c2cbeee90b7f14ad59ebf35a4f54fa6f6f7d736979",
+    "toolOriginal": "/root/.codex/generated_images/01a12451-8a9e-7140-a682-d7c1aa8efcbf/exec-0ef5ee0c-132c-429c-b063-92a15c1f5995.png",
+    "promptPath": "docs/storyboard/production/scooby-cave-bath-r6-20261012/prompts/r6-179-v1.txt",
+    "promptSha256": "ddbeaabc677cb96077db728797a698853fb54942b6e6ba969944127d65bb9d46",
+    "references": [
+      {
+        "path": "docs/storyboard/production/scooby-cave-bath-r6-20261012/native/cave-outlet-anchor-v1.png",
+        "sha256": "80d61e18d40fb22a07f1b751a43e8984220f2aedbe43ea3f1f92ceb27e31e154"
+      },
+      {
+        "path": "docs/storyboard/production/scooby-cave-bath-r6-20261012/native/r6-041-v2.png",
+        "sha256": "e020843725533bd5b8128f6eac4c83244a56b1c8125934dc2649b7bf48f59545"
+      }
+    ],
+    "recordedAt": "2026-10-12T15:40:01.298179+00:00",
+    "status": "agent-reviewed-story-candidate",
+    "selectedForPublication": false,
+    "review": "Heavy opaque dark clay visibly coats all4legs/paws/belly/chest/flank/back patches, no decorative ankle-only reset.4 attached legs, mount scale, clear face. Papa wry brow/bag, child smallO surprise with hands drawn close looking dog, Rabbit inspecting/touching cleaner upper chest, dog earned pant. Narration/director update child reaction to actual hands-close blocking; no false claimed gaze toward father. C6/stream/clay bank hold. Not published."
+  },
+  {
+    "id": "r6-004-v2",
+    "tool": "built-in image_gen.imagegen",
+    "nativePath": "docs/storyboard/production/scooby-cave-bath-r6-20261012/native/r6-004-v2.png",
+    "nativeSha256": "eb96bfd04ea1329d3536bc34fa88c89d6cbfa5ca47dec6fe0b18c355177cc4cc",
+    "toolOriginal": "/root/.codex/generated_images/01a12451-8a9e-7140-a682-d7c1aa8efcbf/exec-a1a436d4-41d8-4e1e-899e-f6f85ac39c99.png",
+    "promptPath": "docs/storyboard/production/scooby-cave-bath-r6-20261012/prompts/r6-004-v2.txt",
+    "promptSha256": "643eec1664d702895c20fe22603ae4ee0957a6f139cf39a8e71cce13258c7159",
+    "references": [
+      {
+        "path": "/root/.codex/generated_images/01a12451-8a9e-7140-a682-d7c1aa8efcbf/exec-49c4447e-0c7e-4e58-9bd3-ad151cb351a9.png",
+        "sha256": "007f5b94dc947ab1cfd168f500409a17bdf0cefadd50ca863ea4e5087b32e374"
+      }
+    ],
+    "recordedAt": "2026-10-12T16:05:19.384185+00:00",
+    "status": "agent-reviewed-story-candidate",
+    "selectedForPublication": false,
+    "review": "Extra child bowl removed: four bowls/four spoons/two mugs/jug, child retains received bread. Infant supported, Mother answers tap, Father follows infant, earned joy scene; family/room continuity holds. Not published."
+  },
+  {
+    "id": "r6-010-v3",
+    "tool": "built-in image_gen.imagegen",
+    "nativePath": "docs/storyboard/production/scooby-cave-bath-r6-20261012/native/r6-010-v3.png",
+    "nativeSha256": "fe142cf7c14a3f2987ecf05784032f789fecfc05275523782ab5e530f73ce4c3",
+    "toolOriginal": "/root/.codex/generated_images/01a12451-8a9e-7140-a682-d7c1aa8efcbf/exec-391697da-03db-4a24-a017-0276d2152ee9.png",
+    "promptPath": "docs/storyboard/production/scooby-cave-bath-r6-20261012/prompts/r6-010-v3.txt",
+    "promptSha256": "97d88b3a6a8b50fb6ff764080d0316330363bee2204c5d56adbe9733e58fede8",
+    "references": [
+      {
+        "path": "docs/storyboard/production/scooby-cave-bath-r6-20261012/native/r6-009-v1.png",
+        "sha256": "f663f9dfe0a38005272048c1ecea272e21b70eff535804bae589e536491f267e"
+      },
+      {
+        "path": "docs/storyboard/production/scooby-cave-bath-r6-20261012/native/r6-010-v2.png",
+        "sha256": "b7449172d1f24c6769ebae8b87f7c0ee59fdce35e3497ca265ecba514d31480f"
+      }
+    ],
+    "recordedAt": "2026-10-12T16:05:19.467779+00:00",
+    "status": "agent-reviewed-story-candidate",
+    "selectedForPublication": false,
+    "review": "Actual seated dog/quiet hand and closed-mouth concentration; single green leaf left exterior hinges/right knob dog-occluded, carried-over pink flower remains east side and bowl foreground. Adult Papa gray broad figure, whole canine4leg anatomy and mount scale. No new props/treat. Not published."
+  },
+  {
+    "id": "r6-193-v1",
+    "tool": "built-in image_gen.imagegen",
+    "nativePath": "docs/storyboard/production/scooby-cave-bath-r6-20261012/native/r6-193-v1.png",
+    "nativeSha256": "c5ba0f8f39818821c87a43356cef9fb7c0614e25e880812a963bac15aa279efc",
+    "toolOriginal": "/root/.codex/generated_images/01a12451-8a9e-7140-a682-d7c1aa8efcbf/exec-5c4db68b-f00a-46e1-8636-9080af05d20a.png",
+    "promptPath": "docs/storyboard/production/scooby-cave-bath-r6-20261012/prompts/r6-193-v1.txt",
+    "promptSha256": "b03bf665cd08b2ba7d7c0164592692641fa5d131c1a54f966e3169179e627c1b",
+    "references": [
+      {
+        "path": "docs/storyboard/production/scooby-cave-bath-r6-20261012/native/shower-tree-anchor-v1.png",
+        "sha256": "454896c5b9ca69e4e6017a95682afb65e2b41f50d849630c2d5b2ebb7188118e"
+      },
+      {
+        "path": "docs/storyboard/production/scooby-cave-bath-r6-20261012/native/r6-179-v1.png",
+        "sha256": "b07de7046b2f903c574f26c2cbeee90b7f14ad59ebf35a4f54fa6f6f7d736979"
+      }
+    ],
+    "recordedAt": "2026-10-12T16:05:19.563887+00:00",
+    "status": "correction-pending",
+    "selectedForPublication": false,
+    "review": "T0/three assigned cast/mat/heavy mud/no premature suds/source falling water good. Folded stack left reads as TWO plain towels plus foreground T1; reduce to one plain T2. Gold source follows leaf edge rather than clear independent air circle, clarify closed source below leaf before continuing sequence."
+  },
+  {
+    "id": "r6-193-v2",
+    "tool": "built-in image_gen.imagegen",
+    "nativePath": "docs/storyboard/production/scooby-cave-bath-r6-20261012/native/r6-193-v2.png",
+    "nativeSha256": "a4d18449b48e2cbd7ff43e03e6a2e04fad68996172c6f4157f3ce7b8038036d4",
+    "toolOriginal": "/root/.codex/generated_images/01a12451-8a9e-7140-a682-d7c1aa8efcbf/exec-bed17fef-d633-49e8-bcc0-6ae24ea6891f.png",
+    "promptPath": "docs/storyboard/production/scooby-cave-bath-r6-20261012/prompts/r6-193-v2.txt",
+    "promptSha256": "7ca1fc8f663dc73ffbe234cd5b1bcd397b924e2e9038cb56f9faf9a7a6ed66eb",
+    "references": [
+      {
+        "path": "/root/.codex/generated_images/01a12451-8a9e-7140-a682-d7c1aa8efcbf/exec-5c4db68b-f00a-46e1-8636-9080af05d20a.png",
+        "sha256": "c5ba0f8f39818821c87a43356cef9fb7c0614e25e880812a963bac15aa279efc"
+      }
+    ],
+    "recordedAt": "2026-10-12T16:27:39.132525+00:00",
+    "status": "correction-pending-source-symbol",
+    "selectedForPublication": false,
+    "review": "Towel count corrected to exactly2: foreground dark-edge T1 and single folded plain T2 left. Body/dirt/actors/location maintained. Still needs independent closed gold air circle under ordinary leaf rather than gold leaf-edge outline."
+  },
+  {
+    "id": "r6-005-v1",
+    "tool": "built-in image_gen.imagegen",
+    "nativePath": "docs/storyboard/production/scooby-cave-bath-r6-20261012/native/r6-005-v1.png",
+    "nativeSha256": "11f1d4f56b051ce9509f6fab530d203050d16675894a0f65cc0ea8cdf2f8bc6a",
+    "toolOriginal": "/root/.codex/generated_images/01a12451-8a9e-7140-a682-d7c1aa8efcbf/exec-d775da6d-e226-413e-8460-d6772a0a76fd.png",
+    "promptPath": "docs/storyboard/production/scooby-cave-bath-r6-20261012/prompts/r6-005-v1.txt",
+    "promptSha256": "ae8981bfd16f48fa8e78315bb7aa1575fa02ea19e9027a35b02332cc0f0e3923",
+    "references": [
+      {
+        "path": "docs/storyboard/production/scooby-cave-bath-r6-20261012/native/r6-004-v2.png",
+        "sha256": "eb96bfd04ea1329d3536bc34fa88c89d6cbfa5ca47dec6fe0b18c355177cc4cc"
+      }
+    ],
+    "recordedAt": "2026-10-12T16:31:51.511688+00:00",
+    "status": "rejected-room-prop-drift",
+    "selectedForPublication": false,
+    "review": "Infant supported, but new sink/faucet replaced stove, mugs became4, spoons multiplied and bowls lost handles. Reject and regenerate from004."
+  },
+  {
+    "id": "r6-011-v1",
+    "tool": "built-in image_gen.imagegen",
+    "nativePath": "docs/storyboard/production/scooby-cave-bath-r6-20261012/native/r6-011-v1.png",
+    "nativeSha256": "b0e332d572aa2543d959cfbade8b20a15521b7b9484e6ab79308eaa61872fe27",
+    "toolOriginal": "/root/.codex/generated_images/01a12451-8a9e-7140-a682-d7c1aa8efcbf/exec-d52332d4-520c-406d-9c2d-2fdcf2a977fe.png",
+    "promptPath": "docs/storyboard/production/scooby-cave-bath-r6-20261012/prompts/r6-011-v1.txt",
+    "promptSha256": "e527877a48f273fceb98699d499ff5962d80df24aee2ac41c40defcda1291e88",
+    "references": [
+      {
+        "path": "docs/storyboard/production/scooby-cave-bath-r6-20261012/native/r6-010-v3.png",
+        "sha256": "fe142cf7c14a3f2987ecf05784032f789fecfc05275523782ab5e530f73ce4c3"
+      }
+    ],
+    "recordedAt": "2026-10-12T16:31:51.640438+00:00",
+    "status": "agent-reviewed-story-candidate",
+    "selectedForPublication": false,
+    "review": "Seated canine/cue/adult/cottage/flower/bowl hold. Ear/eyes turn forestward at distraction moment before gaze returns in narration. No treat/extra prop, not published."
+  },
+  {
+    "id": "r6-005-v2",
+    "tool": "built-in image_gen.imagegen",
+    "nativePath": "docs/storyboard/production/scooby-cave-bath-r6-20261012/native/r6-005-v2.png",
+    "nativeSha256": "937e70fef67d76445463c9d58a8fb74934f10f66ec208553eac363e3cf1a9657",
+    "toolOriginal": "/root/.codex/generated_images/01a12451-8a9e-7140-a682-d7c1aa8efcbf/exec-cbf6c265-79f9-464b-939d-e105a2ef748b.png",
+    "promptPath": "docs/storyboard/production/scooby-cave-bath-r6-20261012/prompts/r6-005-v2.txt",
+    "promptSha256": "da98d8d597d1e547e0d56cae1a38db1acdbc2389555431a8d8ccd3caa6d2684b",
+    "references": [
+      {
+        "path": "docs/storyboard/production/scooby-cave-bath-r6-20261012/native/r6-004-v2.png",
+        "sha256": "eb96bfd04ea1329d3536bc34fa88c89d6cbfa5ca47dec6fe0b18c355177cc4cc"
+      }
+    ],
+    "recordedAt": "2026-10-12T16:44:54.254804+00:00",
+    "status": "agent-reviewed-story-candidate",
+    "selectedForPublication": false,
+    "review": "Tighter supported handover: one infant, two adults/four total plausible support hands, careful child stack2handled bowls +2round bowls table, four spoons/two mugs; jug cupboard. Original right stove restored, no sink/faucet. Neutral/concentrated registers, not collective grins. Not published."
+  },
+  {
+    "id": "r6-193-v3",
+    "tool": "built-in image_gen.imagegen",
+    "nativePath": "docs/storyboard/production/scooby-cave-bath-r6-20261012/native/r6-193-v3.png",
+    "nativeSha256": "4473a8b241275d4063933954349962b41fefcc39eb7d899a91fcd927b4212b15",
+    "toolOriginal": "/root/.codex/generated_images/01a12451-8a9e-7140-a682-d7c1aa8efcbf/exec-09f5a8ea-3c9d-416a-93a5-dd69e5758de6.png",
+    "promptPath": "docs/storyboard/production/scooby-cave-bath-r6-20261012/prompts/r6-193-v3.txt",
+    "promptSha256": "d3a2d9c5686f79f1aecbc05cf5f721a1e68415bd4c7c6c57ec1b2e9b0c6f552c",
+    "references": [
+      {
+        "path": "/root/.codex/generated_images/01a12451-8a9e-7140-a682-d7c1aa8efcbf/exec-bed17fef-d633-49e8-bcc0-6ae24ea6891f.png",
+        "sha256": "a4d18449b48e2cbd7ff43e03e6a2e04fad68996172c6f4157f3ce7b8038036d4"
+      }
+    ],
+    "recordedAt": "2026-10-12T16:44:54.376991+00:00",
+    "status": "agent-reviewed-story-candidate",
+    "selectedForPublication": false,
+    "review": "Clearly separate CLOSED golden air ellipse beneath ordinary notched green leaf; one falling source, no mystery forest plumbing. Exactly2towels/1mat/1bottle/1brush. Heavy body mud persists, no suds yet, parent2arms/child grounded/dog4legs, T0landmarks/ear and careful expressions hold. Establishes wash setting; not published."
+  },
+  {
+    "id": "r6-005-v3",
+    "tool": "built-in image_gen.imagegen",
+    "nativePath": "docs/storyboard/production/scooby-cave-bath-r6-20261012/native/r6-005-v3.png",
+    "nativeSha256": "4ede7910fc523cb26e2bd13f1b011d3f4e17e31c996150700a4a56b89567cc0d",
+    "toolOriginal": "/root/.codex/generated_images/01a12451-8a9e-7140-a682-d7c1aa8efcbf/exec-d7c71898-e1c2-4eef-9e17-4ad1390fada9.png",
+    "promptPath": "docs/storyboard/production/scooby-cave-bath-r6-20261012/prompts/r6-005-v3.txt",
+    "promptSha256": "4f4046e228c94937fd6ff7b75651c02e882f5c0ff771a5da2ba63785eb47228e",
+    "references": [
+      {
+        "path": "/root/.codex/worktrees/c64d/mr-pinpin-source/docs/storyboard/production/scooby-cave-bath-r6-20261012/native/r6-005-v2.png",
+        "sha256": "937e70fef67d76445463c9d58a8fb74934f10f66ec208553eac363e3cf1a9657"
+      },
+      {
+        "path": "docs/storyboard/images/published/bath-magic/r17/scene-03e.webp",
+        "sha256": "818431353af5941716698fc80885208c8ed033f1b9dfb61bbbb4d97da4e75ba6"
+      }
+    ],
+    "recordedAt": "2026-10-12T16:58:57.916701+00:00",
+    "status": "agent-reviewed-story-candidate",
+    "selectedForPublication": false,
+    "review": "Familiar stitched cloth ball cream/red/olive restored, no plastic blue/yellow panels. Supported handover, four bowls/four spoons/two mugs, jug cupboard/stove/room and focused neutral faces retained. Selected opening candidate, not published."
+  },
+  {
+    "id": "r6-012-v1",
+    "tool": "built-in image_gen.imagegen",
+    "nativePath": "docs/storyboard/production/scooby-cave-bath-r6-20261012/native/r6-012-v1.png",
+    "nativeSha256": "7b13de3a35cab547859893f4ffd92c1f089bb72bc844a7c5cc1374e225c2c7d2",
+    "toolOriginal": "/root/.codex/generated_images/01a12451-8a9e-7140-a682-d7c1aa8efcbf/exec-a43994c6-05bf-4381-81c1-534fb68e0c06.png",
+    "promptPath": "docs/storyboard/production/scooby-cave-bath-r6-20261012/prompts/r6-012-v1.txt",
+    "promptSha256": "584d49d30f55adede391702a25856148a53d671d715aeb25a986bae5a508a1d3",
+    "references": [
+      {
+        "path": "/root/.codex/worktrees/c64d/mr-pinpin-source/docs/storyboard/production/scooby-cave-bath-r6-20261012/native/r6-011-v1.png",
+        "sha256": "b0e332d572aa2543d959cfbade8b20a15521b7b9484e6ab79308eaa61872fe27"
+      }
+    ],
+    "recordedAt": "2026-10-12T17:09:11.289748+00:00",
+    "status": "correction-pending-door",
+    "selectedForPublication": false,
+    "review": "Clear actual wait/one step away/held sit and attentive faces. Door knob reappeared centre-left from outside; remove it because correct right-edge knob is dog-occluded."
+  },
+  {
+    "id": "r6-195-v1",
+    "tool": "built-in image_gen.imagegen",
+    "nativePath": "docs/storyboard/production/scooby-cave-bath-r6-20261012/native/r6-195-v1.png",
+    "nativeSha256": "a9419a85281fbdd72f38dfce8c6138ba91349262d1bd6ffe94228d2198c85ab0",
+    "toolOriginal": "/root/.codex/generated_images/01a12451-8a9e-7140-a682-d7c1aa8efcbf/exec-64aa5094-b181-4c50-80a4-4f4e35464f34.png",
+    "promptPath": "docs/storyboard/production/scooby-cave-bath-r6-20261012/prompts/r6-195-v1.txt",
+    "promptSha256": "6ec27864fff0d39341c6b3bd4d7ff949e6be371b904abd5486c50e43ad5f3d31",
+    "references": [
+      {
+        "path": "/root/.codex/worktrees/c64d/mr-pinpin-source/docs/storyboard/production/scooby-cave-bath-r6-20261012/native/r6-193-v3.png",
+        "sha256": "4473a8b241275d4063933954349962b41fefcc39eb7d899a91fcd927b4212b15"
+      }
+    ],
+    "recordedAt": "2026-10-12T17:09:11.491745+00:00",
+    "status": "correction-pending-brush",
+    "selectedForPublication": false,
+    "review": "Small body lather/heavy mud still elsewhere, no face/ear suds, single gold source/two towels/bottle attached cap correctly opened. Brush changed from compact rectangular wooden back to large oval; restore exact original design/size."
+  },
+  {
+    "id": "r6-199-v1",
+    "tool": "built-in image_gen.imagegen",
+    "nativePath": "docs/storyboard/production/scooby-cave-bath-r6-20261012/native/r6-199-v1.png",
+    "nativeSha256": "0cefda8013c68b5c219d06b056f0c2a8cba9c72e8e44727234c0a10a9720d99c",
+    "toolOriginal": "/root/.codex/generated_images/01a12451-8a9e-7140-a682-d7c1aa8efcbf/exec-bd9c6659-c8ef-46a4-9305-61a0b625bf02.png",
+    "promptPath": "docs/storyboard/production/scooby-cave-bath-r6-20261012/prompts/r6-199-v1.txt",
+    "promptSha256": "5a3a3a972948b928213e547be3944fcca7d77081063982bc7b97a7a2ed760574",
+    "references": [
+      {
+        "path": "/root/.codex/worktrees/c64d/mr-pinpin-source/docs/storyboard/production/scooby-cave-bath-r6-20261012/native/r6-193-v3.png",
+        "sha256": "4473a8b241275d4063933954349962b41fefcc39eb7d899a91fcd927b4212b15"
+      }
+    ],
+    "recordedAt": "2026-10-12T17:09:11.665332+00:00",
+    "status": "agent-reviewed-story-candidate",
+    "selectedForPublication": false,
+    "review": "Full clean wet clinging coat/no soil chunks/no suds,4grounded paws/rinsed rectangular brush dripping,2towels/open single bottle/one ring/clear mat. Child touches inspected coat; purpose/cast/location hold, not published."
+  },
+  {
+    "id": "r6-212-v1",
+    "tool": "built-in image_gen.imagegen",
+    "nativePath": "docs/storyboard/production/scooby-cave-bath-r6-20261012/native/r6-212-v1.png",
+    "nativeSha256": "ee47717f54caf93b779c605ee1bbfaafe008cce7543b72d852e8b8d4d19e0997",
+    "toolOriginal": "/root/.codex/generated_images/01a12451-8a9e-7140-a682-d7c1aa8efcbf/exec-414a7a8f-c93b-45db-a415-5a902aaa3acf.png",
+    "promptPath": "docs/storyboard/production/scooby-cave-bath-r6-20261012/prompts/r6-212-v1.txt",
+    "promptSha256": "9e44cb8afc45d3056c6811506579f23db455cf2c7d567ed91b12b2d72780e00a",
+    "references": [
+      {
+        "path": "/root/.codex/worktrees/c64d/mr-pinpin-source/docs/storyboard/production/scooby-cave-bath-r6-20261012/native/r6-001-v1.png",
+        "sha256": "dd987ef97127329555c0d59577eb7d2f7c3c2f029b5ec53d9d01d1afa08133b2"
+      },
+      {
+        "path": "/root/.codex/worktrees/c64d/mr-pinpin-source/docs/storyboard/production/scooby-cave-bath-r6-20261012/native/r6-005-v2.png",
+        "sha256": "937e70fef67d76445463c9d58a8fb74934f10f66ec208553eac363e3cf1a9657"
+      },
+      {
+        "path": "/root/.codex/worktrees/c64d/mr-pinpin-source/docs/storyboard/production/scooby-cave-bath-r6-20261012/native/r6-041-v2.png",
+        "sha256": "e020843725533bd5b8128f6eac4c83244a56b1c8125934dc2649b7bf48f59545"
+      }
+    ],
+    "recordedAt": "2026-10-12T17:09:11.855622+00:00",
+    "status": "correction-pending-scale-register",
+    "selectedForPublication": false,
+    "review": "Familiar full room/one outward-open leaf/2radial windows/left table/cupboard/right stove,4family and supported baby, full clean dog outside. Dog still appears ordinary small relative Father; enlarge whole dog ~20%. Child pose too greeting grin, make attentive coat inspection with hands lowered."
+  },
+  {
+    "id": "r6-006-v1",
+    "tool": "built-in image_gen.imagegen",
+    "nativePath": "docs/storyboard/production/scooby-cave-bath-r6-20261012/native/r6-006-v1.png",
+    "nativeSha256": "ddaa456825f2582b73f717e2aca6b7276728650b6f0398d0cce1c585125361b0",
+    "toolOriginal": "/root/.codex/generated_images/01a12451-8a9e-7140-a682-d7c1aa8efcbf/exec-7087dfcf-b0d2-441a-b3c2-093f8d13b029.png",
+    "promptPath": "docs/storyboard/production/scooby-cave-bath-r6-20261012/prompts/r6-006-v1.txt",
+    "promptSha256": "810a342d09b3fa2fe460e51b2ad5800a313a07feb250a4abafa431102db6a26f",
+    "references": [
+      {
+        "path": "/root/.codex/worktrees/c64d/mr-pinpin-source/docs/storyboard/production/scooby-cave-bath-r6-20261012/native/r6-005-v3.png",
+        "sha256": "4ede7910fc523cb26e2bd13f1b011d3f4e17e31c996150700a4a56b89567cc0d"
+      },
+      {
+        "path": "docs/storyboard/images/published/bath-magic/r17/scene-03e.webp",
+        "sha256": "818431353af5941716698fc80885208c8ed033f1b9dfb61bbbb4d97da4e75ba6"
+      }
+    ],
+    "recordedAt": "2026-10-12T17:12:44.231734+00:00",
+    "status": "agent-reviewed-story-candidate",
+    "selectedForPublication": false,
+    "review": "Mother2arms supports infant/rolls familiar cloth cream-red-olive ball; older child attentive toward arriving ball, infant curious, quiet concentrated Mother/child rather than copied prior smiles. Table cleared/right stove/room identity hold, no Papa extra figure. Not published."
+  },
+  {
+    "id": "r6-012-v2",
+    "tool": "built-in image_gen.imagegen",
+    "nativePath": "docs/storyboard/production/scooby-cave-bath-r6-20261012/native/r6-012-v2.png",
+    "nativeSha256": "9e975393a0759ab641fa57afdd990b510c0529bfe2205f981c25397c16a856c0",
+    "toolOriginal": "/root/.codex/generated_images/01a12451-8a9e-7140-a682-d7c1aa8efcbf/exec-5b20c91b-b50f-441c-b840-f03e92aacc69.png",
+    "promptPath": "docs/storyboard/production/scooby-cave-bath-r6-20261012/prompts/r6-012-v2.txt",
+    "promptSha256": "d3922639be0548bad5b3a04e481bb36b791c3b8fabd5c8cd94a86e18057be329",
+    "references": [
+      {
+        "path": "/root/.codex/worktrees/c64d/mr-pinpin-source/docs/storyboard/production/scooby-cave-bath-r6-20261012/native/r6-012-v1.png",
+        "sha256": "7b13de3a35cab547859893f4ffd92c1f089bb72bc844a7c5cc1374e225c2c7d2"
+      }
+    ],
+    "recordedAt": "2026-10-12T17:18:44.173081+00:00",
+    "status": "agent-reviewed-story-candidate",
+    "selectedForPublication": false,
+    "review": "Misplaced visible knob removed; actual right knob occluded by seated dog. Wait cue/held sit/one step away/cottage/flower/bowl and distinct focused faces retained."
+  },
+  {
+    "id": "r6-195-v2",
+    "tool": "built-in image_gen.imagegen",
+    "nativePath": "docs/storyboard/production/scooby-cave-bath-r6-20261012/native/r6-195-v2.png",
+    "nativeSha256": "a4ab5e93f4bd2a3bd01882b1da80588d52dfffcaf452114460faa5991f03c116",
+    "toolOriginal": "/root/.codex/generated_images/01a12451-8a9e-7140-a682-d7c1aa8efcbf/exec-e3a02ae8-b2db-45fc-ada5-6124971e2dbe.png",
+    "promptPath": "docs/storyboard/production/scooby-cave-bath-r6-20261012/prompts/r6-195-v2.txt",
+    "promptSha256": "b519a1b07b6739a6de47c2975db8307c5d9635761814d966494a94db150a32b4",
+    "references": [
+      {
+        "path": "/root/.codex/worktrees/c64d/mr-pinpin-source/docs/storyboard/production/scooby-cave-bath-r6-20261012/native/r6-195-v1.png",
+        "sha256": "a9419a85281fbdd72f38dfce8c6138ba91349262d1bd6ffe94228d2198c85ab0"
+      },
+      {
+        "path": "/root/.codex/worktrees/c64d/mr-pinpin-source/docs/storyboard/production/scooby-cave-bath-r6-20261012/native/r6-193-v3.png",
+        "sha256": "4473a8b241275d4063933954349962b41fefcc39eb7d899a91fcd927b4212b15"
+      }
+    ],
+    "recordedAt": "2026-10-12T17:18:44.306323+00:00",
+    "status": "agent-reviewed-story-candidate",
+    "selectedForPublication": false,
+    "review": "Brush reduced to compact warm brown wood back/tan bristles consistent with set, rounded corners in perspective. Single held brush/open attached bottle/2towels/one source, small back lather and remaining opaque mud. No face/ear foam; full anatomy/acting hold."
+  },
+  {
+    "id": "r6-212-v2",
+    "tool": "built-in image_gen.imagegen",
+    "nativePath": "docs/storyboard/production/scooby-cave-bath-r6-20261012/native/r6-212-v2.png",
+    "nativeSha256": "7957a9bbd8dc7dafa78534e1022c31c9179f58c7002ce3eb4bffc6322f0b7637",
+    "toolOriginal": "/root/.codex/generated_images/01a12451-8a9e-7140-a682-d7c1aa8efcbf/exec-bb007390-1241-4ee5-8a1b-99eb49379e14.png",
+    "promptPath": "docs/storyboard/production/scooby-cave-bath-r6-20261012/prompts/r6-212-v2.txt",
+    "promptSha256": "db2988a58b4a338ae21c3a2e59883efba06e8af42ac679f891de0efd9903d84c",
+    "references": [
+      {
+        "path": "/root/.codex/worktrees/c64d/mr-pinpin-source/docs/storyboard/production/scooby-cave-bath-r6-20261012/native/r6-212-v1.png",
+        "sha256": "ee47717f54caf93b779c605ee1bbfaafe008cce7543b72d852e8b8d4d19e0997"
+      }
+    ],
+    "recordedAt": "2026-10-12T17:18:44.438555+00:00",
+    "status": "agent-reviewed-story-candidate",
+    "selectedForPublication": false,
+    "review": "Whole dog enlarged/head now higher than Father in threshold view, no giant isolated paw; room/perspective/one leaf/2radial windows remain. Child hands lowered/closed attentive lips toward upper coat, Father looks paws, Mother supports infant. Warm familiar complete family/clean-dry dog. Qualitative art review, not measured geometry."
+  },
+  {
+    "id": "r6-007-v1",
+    "tool": "built-in image_gen.imagegen",
+    "nativePath": "docs/storyboard/production/scooby-cave-bath-r6-20261012/native/r6-007-v1.png",
+    "nativeSha256": "186a0aa43adbbd916173fa68be66c3d7a8256ad0a1260e7d7c3d23e257b8a83b",
+    "toolOriginal": "/root/.codex/generated_images/01a12451-8a9e-7140-a682-d7c1aa8efcbf/exec-90fb574b-e678-44bb-b89c-108e5f11e7db.png",
+    "promptPath": "docs/storyboard/production/scooby-cave-bath-r6-20261012/prompts/r6-007-v1.txt",
+    "promptSha256": "7c557b74c2859b39eed59f87e800101e464a5937be16b2667cd351b49e33302e",
+    "references": [
+      {
+        "path": "/root/.codex/worktrees/c64d/mr-pinpin-source/docs/storyboard/production/scooby-cave-bath-r6-20261012/native/r6-006-v1.png",
+        "sha256": "ddaa456825f2582b73f717e2aca6b7276728650b6f0398d0cce1c585125361b0"
+      }
+    ],
+    "recordedAt": "2026-10-12T17:26:04.058657+00:00",
+    "status": "agent-reviewed-story-candidate",
+    "selectedForPublication": false,
+    "review": "One familiar cloth ball held by child; tiny infant visibly touches surface, securely supported in Mother lap/arm with distinct own limbs. Mother/child task-focused closed lips, infant earned curious pleasure. Same floor/table/room/materials, no extra figure/ball. Not published."
+  },
+  {
+    "id": "r6-204-v1",
+    "tool": "built-in image_gen.imagegen",
+    "nativePath": "docs/storyboard/production/scooby-cave-bath-r6-20261012/native/r6-204-v1.png",
+    "nativeSha256": "654f4bfa790bf5f7202af65bf87a2798d8919bafd91760c134a6853f58e62b7a",
+    "toolOriginal": "/root/.codex/generated_images/01a12451-8a9e-7140-a682-d7c1aa8efcbf/exec-e53fde8b-63bd-4734-8137-8f71fa84c169.png",
+    "promptPath": "docs/storyboard/production/scooby-cave-bath-r6-20261012/prompts/r6-204-v1.txt",
+    "promptSha256": "6ddc2126d8ffcc8242149d3c08e97e8c4d3581db7db7f7a402ce722f1a06b5e5",
+    "references": [
+      {
+        "path": "/root/.codex/worktrees/c64d/mr-pinpin-source/docs/storyboard/production/scooby-cave-bath-r6-20261012/native/r6-199-v1.png",
+        "sha256": "0cefda8013c68b5c219d06b056f0c2a8cba9c72e8e44727234c0a10a9720d99c"
+      },
+      {
+        "path": "/root/.codex/worktrees/c64d/mr-pinpin-source/docs/storyboard/production/scooby-cave-bath-r6-20261012/native/r6-179-v1.png",
+        "sha256": "b07de7046b2f903c574f26c2cbeee90b7f14ad59ebf35a4f54fa6f6f7d736979"
+      }
+    ],
+    "recordedAt": "2026-10-12T17:33:58.024106+00:00",
+    "status": "agent-reviewed-story-candidate",
+    "selectedForPublication": false,
+    "review": "Source fullyOFF/gold ring gone/ordinary leaf. Enormous clear radial shake spray, grounded4leg dog/no mud or suds, Dad shields/child startled ducks/Rabbit ears recoil. Single brush/bottle and2towels hold. Dog feet shift during twist on mat/exit area; T1 adjacent wet. Warm differentiated comedy, no broad collective grins."
+  },
+  {
+    "id": "r6-053-v1",
+    "tool": "built-in image_gen.imagegen",
+    "nativePath": "docs/storyboard/production/scooby-cave-bath-r6-20261012/native/r6-053-v1.png",
+    "nativeSha256": "c52d0ee4592d031d3f28048e67b59a21525e79c1005ab3d6afc23b531ba93625",
+    "toolOriginal": "/root/.codex/generated_images/01a12451-8a9e-7140-a682-d7c1aa8efcbf/exec-ffd4ac4d-c8d1-4ac6-8bc9-e8835a2773e2.png",
+    "promptPath": "docs/storyboard/production/scooby-cave-bath-r6-20261012/prompts/r6-053-v1.txt",
+    "promptSha256": "45705029e5ce53c35692c3220a31fe2614f0b7b8d84b569e260f4f62c2e1167e",
+    "references": [
+      {
+        "path": "/root/.codex/worktrees/c64d/mr-pinpin-source/docs/storyboard/images/published/bath-magic/scene-70.webp",
+        "sha256": "f4c1b62820e68f64a02c551d100cbe016d8e1b48a63746c6cd2d505316f2f525"
+      }
+    ],
+    "recordedAt": "2026-10-12T17:33:58.146311+00:00",
+    "status": "agent-reviewed-story-candidate",
+    "selectedForPublication": false,
+    "review": "Exact shared bed/green quilt/left radial window/forest print/right lamp in MORNING, Papa stretch/child thoughtful alert/Mother watches supported infant.4distinct family bodies, no dog in bed/extra head, lamp unlit. Natural waking registers."
+  },
+  {
+    "id": "r6-008-v1",
+    "tool": "built-in image_gen.imagegen",
+    "nativePath": "docs/storyboard/production/scooby-cave-bath-r6-20261012/native/r6-008-v1.png",
+    "nativeSha256": "150adf92579e24922543bc309173c117ea684b70e4b18d33b40ed7b1b76db2d5",
+    "toolOriginal": "/root/.codex/generated_images/01a12451-8a9e-7140-a682-d7c1aa8efcbf/exec-9f6183f3-e68b-4965-8906-502947d6ee89.png",
+    "promptPath": "docs/storyboard/production/scooby-cave-bath-r6-20261012/prompts/r6-008-v1.txt",
+    "promptSha256": "eed9b1bcc8b6269370306b2e1aee5e9e25fbd0e8502ecd7cc0d17349f9d6f894",
+    "references": [
+      {
+        "path": "/root/.codex/worktrees/c64d/mr-pinpin-source/docs/storyboard/production/scooby-cave-bath-r6-20261012/native/r6-007-v1.png",
+        "sha256": "186a0aa43adbbd916173fa68be66c3d7a8256ad0a1260e7d7c3d23e257b8a83b"
+      },
+      {
+        "path": "/root/.codex/worktrees/c64d/mr-pinpin-source/docs/storyboard/production/scooby-cave-bath-r6-20261012/native/r6-005-v3.png",
+        "sha256": "4ede7910fc523cb26e2bd13f1b011d3f4e17e31c996150700a4a56b89567cc0d"
+      }
+    ],
+    "recordedAt": "2026-10-12T17:41:28.316081+00:00",
+    "status": "agent-reviewed-story-candidate",
+    "selectedForPublication": false,
+    "review": "All4family: broad gray Father announces walk/empty hands, Mother supports infant, child pauses by familiar cloth ball/questioning gaze; no indoor dog, shared H1/table cleared/stove/one door/radial windows hold."
+  },
+  {
+    "id": "r6-014-v1",
+    "tool": "built-in image_gen.imagegen",
+    "nativePath": "docs/storyboard/production/scooby-cave-bath-r6-20261012/native/r6-014-v1.png",
+    "nativeSha256": "da2fa18f8656798cab055db699c8a7460ccb12d45bd925b61f195d489a4d005b",
+    "toolOriginal": "/root/.codex/generated_images/01a12451-8a9e-7140-a682-d7c1aa8efcbf/exec-45b3fc63-983c-4653-87c7-6df7b91f1b34.png",
+    "promptPath": "docs/storyboard/production/scooby-cave-bath-r6-20261012/prompts/r6-014-v1.txt",
+    "promptSha256": "bb8a4665cd82c40db593a4916e5a3662b5ddfd76f4e621eaa806563e661aecbf",
+    "references": [
+      {
+        "path": "/root/.codex/worktrees/c64d/mr-pinpin-source/docs/storyboard/production/scooby-cave-bath-r6-20261012/native/r6-007-v1.png",
+        "sha256": "186a0aa43adbbd916173fa68be66c3d7a8256ad0a1260e7d7c3d23e257b8a83b"
+      }
+    ],
+    "recordedAt": "2026-10-12T17:41:28.448758+00:00",
+    "status": "agent-reviewed-story-candidate",
+    "selectedForPublication": false,
+    "review": "Mother2arms supports infant and wipes cheek with separate cream cloth, child attentive with one familiar cloth ball, Father absent. Portable basin/dishes background cleanup, original stove/no faucet. Task gaze and small speaking mouth; distinct3bodies."
+  },
+  {
+    "id": "r6-042-v1",
+    "tool": "built-in image_gen.imagegen",
+    "nativePath": "docs/storyboard/production/scooby-cave-bath-r6-20261012/native/r6-042-v1.png",
+    "nativeSha256": "344f8cec5a64153dfb766c34868771683f81608ed52e874f46432262f18716ae",
+    "toolOriginal": "/root/.codex/generated_images/01a12451-8a9e-7140-a682-d7c1aa8efcbf/exec-b63c8588-cf43-4b8e-ada9-16d0a8889b16.png",
+    "promptPath": "docs/storyboard/production/scooby-cave-bath-r6-20261012/prompts/r6-042-v1.txt",
+    "promptSha256": "b732893bd918bc9c251684ca48d07432bbf5147d0677128f77f33e2108d2dc13",
+    "references": [
+      {
+        "path": "/root/.codex/worktrees/c64d/mr-pinpin-source/docs/storyboard/production/scooby-cave-bath-r6-20261012/native/r6-041-v2.png",
+        "sha256": "e020843725533bd5b8128f6eac4c83244a56b1c8125934dc2649b7bf48f59545"
+      }
+    ],
+    "recordedAt": "2026-10-12T17:41:28.555039+00:00",
+    "status": "agent-reviewed-story-candidate",
+    "selectedForPublication": false,
+    "review": "C1 geometry/light/grotto/whole mount dog/adult-child separation hold; after Father's hello closed listening mouths, Rabbit asymmetric listening ears, dog turns behind Father.2boats1fallen lilac blossom/no new actor/props; genuine quiet pause."
+  },
+  {
+    "id": "r6-054-v1",
+    "tool": "built-in image_gen.imagegen",
+    "nativePath": "docs/storyboard/production/scooby-cave-bath-r6-20261012/native/r6-054-v1.png",
+    "nativeSha256": "ee357ddb674917fac810ee07311d6bff27761aa387503d0e22e350b6e0435ea7",
+    "toolOriginal": "/root/.codex/generated_images/01a12451-8a9e-7140-a682-d7c1aa8efcbf/exec-3ab7b07d-3e85-4237-abbc-5ce0bb48b257.png",
+    "promptPath": "docs/storyboard/production/scooby-cave-bath-r6-20261012/prompts/r6-054-v1.txt",
+    "promptSha256": "6d74f0b96fdf44ff5273eecdcffaa9d71747483305bdbac3f997700f67f14a2c",
+    "references": [
+      {
+        "path": "/root/.codex/worktrees/c64d/mr-pinpin-source/docs/storyboard/production/scooby-cave-bath-r6-20261012/native/r6-002-v2.png",
+        "sha256": "abe58239d4efa920cbb0392e01c910680212cc860694395da0e1358fbac7eb27"
+      },
+      {
+        "path": "/root/.codex/worktrees/c64d/mr-pinpin-source/docs/storyboard/production/scooby-cave-bath-r6-20261012/native/r6-041-v2.png",
+        "sha256": "e020843725533bd5b8128f6eac4c83244a56b1c8125934dc2649b7bf48f59545"
+      }
+    ],
+    "recordedAt": "2026-10-12T17:41:28.671831+00:00",
+    "status": "correction-pending-spoon-count",
+    "selectedForPublication": false,
+    "review": "Day2same table/room/adultPapa/Mother holds supported infant/child thoughtful blossom; one lilac blossom on cloth. Five spoons including held infant spoon+extra front-left bowl spoon; remove unused front-left spoon to keep4total."
+  },
+  {
+    "id": "r6-054-v2",
+    "tool": "built-in image_gen.imagegen",
+    "nativePath": "docs/storyboard/production/scooby-cave-bath-r6-20261012/native/r6-054-v2.png",
+    "nativeSha256": "cfd809bfb7c4ec2f6eaad058dd39d00c2b8141c6b5551769cff2306ca2838907",
+    "toolOriginal": "/root/.codex/generated_images/01a12451-8a9e-7140-a682-d7c1aa8efcbf/exec-6439477c-b65f-4856-a787-0bb2d5365a4e.png",
+    "promptPath": "docs/storyboard/production/scooby-cave-bath-r6-20261012/prompts/r6-054-v2.txt",
+    "promptSha256": "d5b6ddd9cd74fe677630cd12021edf452fa68640cb30002a7aa68fc027d7aa9d",
+    "references": [
+      {
+        "path": "/root/.codex/worktrees/c64d/mr-pinpin-source/docs/storyboard/production/scooby-cave-bath-r6-20261012/native/r6-054-v1.png",
+        "sha256": "ee357ddb674917fac810ee07311d6bff27761aa387503d0e22e350b6e0435ea7"
+      }
+    ],
+    "recordedAt": "2026-10-12T17:47:48.907380+00:00",
+    "status": "agent-reviewed-story-candidate",
+    "selectedForPublication": false,
+    "review": "Extra front-left spoon removed:4total including infant-held,4bowls/2mugs/jug/bread/1fallenlilacblossom. Mother supports baby/quiet speaking, Father listens, child thoughtful; same H1 geometry/materials. Not published."
+  }
+]

@@ -1,0 +1,24 @@
+{
+  "id": "r6-006-v1",
+  "status": "prepared; references must be visually inspected before built-in generation",
+  "prompt": "docs/storyboard/production/scooby-cave-bath-r6-20261012/prompts/r6-006-v1.txt",
+  "promptSha256": "810a342d09b3fa2fe460e51b2ad5800a313a07feb250a4abafa431102db6a26f",
+  "references": [
+    {
+      "index": 1,
+      "role": "Exact current room/family identities after supported handover; omit Papa from new three-person floor shot",
+      "path": "/root/.codex/worktrees/c64d/mr-pinpin-source/docs/storyboard/production/scooby-cave-bath-r6-20261012/native/r6-005-v3.png",
+      "sha256": "4ede7910fc523cb26e2bd13f1b011d3f4e17e31c996150700a4a56b89567cc0d"
+    },
+    {
+      "index": 2,
+      "role": "FAMILIAR stitched cloth ball design/scale and floor-play blocking ONLY; replace default smiling registers",
+      "path": "/root/.codex/worktrees/c64d/mr-pinpin-source/docs/storyboard/images/published/bath-magic/r17/scene-03e.webp",
+      "sha256": "818431353af5941716698fc80885208c8ed033f1b9dfb61bbbb4d97da4e75ba6"
+    }
+  ],
+  "expectedNativeSize": [
+    1536,
+    1024
+  ]
+}

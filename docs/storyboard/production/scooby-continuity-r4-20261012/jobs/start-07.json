@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "location": "docs/storyboard/locations/pinpin-house/location.json",
+  "doorStates": {
+    "door-front": 0,
+    "door-bath": 0,
+    "door-bedroom": 0
+  },
+  "samples": 8,
+  "id": "scooby-r4-start-07",
+  "camera": {
+    "position": [
+      -2.3,
+      -5.9,
+      1.15
+    ],
+    "target": [
+      -1.2,
+      -3.3,
+      0.65
+    ],
+    "lensMm": 24,
+    "width": 768,
+    "height": 512,
+    "allowOutside": true
+  },
+  "prompt": {
+    "template": "still",
+    "intent": "Use case: illustration-story. One finished LANDSCAPE 1536x1024 children's picture-book illustration, no text, panels, logos or watermark. Input1 current Blender guide is the sole authority for camera, house shape, openings, door states and fixed furniture. Preserve guide perspective and cropping exactly. Other inputs provide ONLY warm tactile book rendering, cast identity and the separately named story prop. Do not copy their old architecture or reposition a modeled window. Golden morning light, warm honey timber/stone/plaster and amber fur/quills, same detailed gentle look as the LAST Bath Magic chapter, not a new cartoon style. Each named hedgehog has one head, two forelimbs, two hindlimbs; dog exactly four attached legs, one head and one curled tail, with believable contact and occlusion. No clothes. Papa is adult grey/chestnut spined cream-faced hedgehog with broad gentle face; Mama is adult russet spined cream-faced mother; PinPin child about HALF adult height; PomPom tiny baby only if explicitly named. Scooby same golden-russet dog with cream muzzle, floppy ears, brown eyes, black rounded nose and feathery curled tail; shoulder approximately1.3 times Papa standing height, never giant paws as big as an adult body. Keep all cast at comparable scale/depth and separate anatomy. No additional cast. Fixed garden continuity: exact house facade from guide in upper background, green CLOSED door and same round windows, never enlarged or moved. Three-rail low wooden fence and birch at far LEFT, diagonal flat stepping-stone path on RIGHT toward door, soft earth scrape lower CENTER LEFT, flat treasure stone on grass at LEFT rim, small plant protected on grass beside that stone. Small wooden garden SPADE initially leans at LEFT fence and stays there until Papa retrieves it; NEVER introduce a tool suddenly. Same camera/landmark positions, afternoon palette, and site for every shot. No random daisies filling the dug earth, no room changes or camera reversal. Soil levels and mud increase gradually. Toy boat, if named, is EXACT separate reference: 25cm blue worn wooden hull with cream lip, one short mast stump, ONE tiny brass bell tied with beige cord at bow. Boat must be much smaller than the child, never a full-size rowing boat. No unrelated pebble/acorn treasures. Scooby lowers nose close to that same newly exposed blue edge and gently nudges a TINY brass bell at its bow. Bell and a short length of cream hull lip are now visible; at least TWO THIRDS of the boat remains buried, no whole floating/standing boat yet. Bell is tied to boat, not held by child. PinPin listens with surprised smile, one paw near ear; Papa crouches observing. Same paw-deep hollow, same landmarks and leaning spade. Mud now on forepaws, not whole dog. Quiet moment hearing a small sound, no written sound effect.",
+    "characters": "Cast and relative scale explicitly defined in intent. Reference old book for identity/rendering only.",
+    "action": "Scooby lowers nose close to that same newly exposed blue edge and gently nudges a TINY brass bell at its bow. Bell and a short length of cream hull lip are now visible; at least TWO THIRDS of the boat remains buried, no whole floating/standing boat yet. Bell is tied to boat, not held by child. PinPin listens with surprised smile, one paw near ear; Papa crouches observing. Same paw-deep hollow, same landmarks and leaning spade. Mud now on forepaws, not whole dog. Quiet moment hearing a small sound, no written sound effect.",
+    "lighting": "Gentle morning for opening and garden; warm afternoon for welcome.",
+    "referenceIds": []
+  }
+}

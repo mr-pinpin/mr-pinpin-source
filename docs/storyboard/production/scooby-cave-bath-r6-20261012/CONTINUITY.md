@@ -11,8 +11,8 @@ boat, pit and staircase are excluded from this revision.
 | Breakfast bowls/spoons | Four family sets | Day1 kitchen; separate dog bowl outside. Cleanup shown before play. Infant spoon used only with adult support. |
 | Soft ball | One familiar ball | Mama rolls with free hand; supported PomPom touches; remains home when outings start. |
 | Leaf boats | Two folded green leaves, one per child | Rabbit brings both day1; each child takes one. Both retrieved before leaving spring. Both returned to Rabbit each evening and kept damp. Day3 fork separates them temporarily, both retrieved in blossom room. Day4 Rabbit leaves them home: shower helper, not another unexplained boat outing. |
-| Petal | One fallen blossom | Found at forest root mouth, PinPin picks up day1; carried home, rests on cloth. PinPin carries it back day2; supported infant touches it before return to native moss. No second identical petal in his hand later. |
-| Markers | Three ochre cloth strips | Packed day2. M1 tied at C0 root mouth; M2 at C4 fork. M3 remains in bag until day3 C6 outlet. These locations stay fixed day4. Remove all three on final return: Papa unties M3 before return through C5/C4, then M2; final exit removes M1. Bag receives them, not a fourth marker. Revise final departure beats to show this explicitly. |
+| Blossom | One fallen blossom | Found at forest root mouth, PinPin picks up day1; carried home, rests on cloth. PinPin carries it back day2; supported infant touches it before return to native moss. No second identical blossom in his hand later. |
+| Markers | Three ochre cloth strips | Packed day2. M1 tied at C0 root mouth; M2 at C4 fork. M3 remains in bag until day3 C6 outlet. These locations stay fixed day4. On final visit collect M2 at173, M3 before outdoor scratch at177, M1 when leaving west entrance at182. Count already collected strips at209; no second cave trip after washing. |
 | Map and pencil | One sheet, one pencil | Papa brings a blank folded sheet/pencil in day2 bag. Unpacked in front of Elder; maps only observed rooms. Day3 revised after flow observation. Shelved at home each evening; Papa carries it during scouting, hands it to child only while stopped. No magical complete map. |
 | Picnic supplies | One cloth, one flask, three cups, food packet, one dog bowl | Packed day2, carried by Papa. Mother holds infant with both support points; no invisible third packing arm. Cup users Papa/PinPin/Rabbit, mother uses flask after adult holds infant. Pack and return every item; empty/refilled states explicit between days. Day3 supplies reintroduced when packed. Day4 same bag also takes wash kit. |
 | Care cloths | Infant cream cloth; child blue cloth; dog sage cloth | Distinct purposes throughout. Dog cloth used only for incidental soil days1–3, rinsed and dried at home. Never used for infant face. No loose cloth multiplies. |
@@ -53,7 +53,7 @@ Other trips walk, with Mama holding infant. At bedtime PomPom is supported on
 shared bedding between parents; never walking, floating or lying in bathwater.
 
 Day2/3 Mama and infant remain at broad daylight C1 while Papa/children scout.
-Their movement to C3 is shown explicitly. Day4 they remain C1 during deep scout,
+Their day2 movement to C3 and return to C1 at093 are narrated explicitly. Day4 they remain C1 during deep scout,
 then rejoin before walking to T0. Dog's dirty outdoor scratch is after emerging
 from C5 through the already mapped C6 outlet; show outlet before dirt closeup.
 
@@ -64,9 +64,9 @@ insufficient. Body-scale baseline comes from published Bath Magic images.
 
 ## Required additions to caption/shot pass
 
-Show final marker collection on the return through the cave before helpers'
-farewell, brush rinsing before dry brushing, towel hanging at home, and map put
-away. These are actions within planned beats, not new unexplained objects.
+The English script now assigns final marker collection to173/177/182, brush
+rinsing to199, towel hanging/map shelving to213. Illustrations must preserve
+these states; scene209 counts the strips rather than collecting them again.
 Give Mama a recurring line in morning/evening care, for example “Every day we
 play, every day we care for ourselves, and every night we rest.” Adapt to the
 established book voice in the script pass; do not paste the same speech on every

@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "location": "docs/storyboard/locations/pinpin-house/location.json",
+  "doorStates": {
+    "door-front": 105,
+    "door-bath": 0,
+    "door-bedroom": 0
+  },
+  "samples": 8,
+  "id": "scooby-r4-welcome-v2",
+  "camera": {
+    "position": [
+      0.6,
+      -5.7,
+      1.15
+    ],
+    "target": [
+      -0.4,
+      -2.9,
+      0.75
+    ],
+    "lensMm": 25,
+    "width": 768,
+    "height": 512,
+    "allowOutside": true
+  },
+  "prompt": {
+    "template": "still",
+    "intent": "Use case: illustration-story. One finished LANDSCAPE 1536x1024 children's picture-book illustration, no text, panels, logos or watermark. Input1 current Blender guide is the sole authority for camera, house shape, openings, door states and fixed furniture. Preserve guide perspective and cropping exactly. Other inputs provide ONLY warm tactile book rendering, cast identity and the separately named story prop. Do not copy their old architecture or reposition a modeled window. Golden morning light, warm honey timber/stone/plaster and amber fur/quills, same detailed gentle look as the LAST Bath Magic chapter, not a new cartoon style. Each named hedgehog has one head, two forelimbs, two hindlimbs; dog exactly four attached legs, one head and one curled tail, with believable contact and occlusion. No clothes. Papa is adult grey/chestnut spined cream-faced hedgehog with broad gentle face; Mama is adult russet spined cream-faced mother; PinPin child about HALF adult height; PomPom tiny baby only if explicitly named. Scooby same golden-russet dog with cream muzzle, floppy ears, brown eyes, black rounded nose and feathery curled tail; shoulder approximately1.3 times Papa standing height, never giant paws as big as an adult body. Keep all cast at comparable scale/depth and separate anatomy. No additional cast. Correct the rejected doorway scale. Exterior three-quarter view of ACTUAL front doorstep, house facade and open door from guide. Use old Bath Magic doorway illustration only for identities, green-door/stone/wood texture and welcome mood, never its hinge/layout. FULL clean Scooby stands outside alongside FULL Papa and PinPin at approximately same depth, natural scale: dog shoulder1.3 times Papa height, young PinPin half adult. Dog paws much smaller than Papa body. Papa at open door gestures welcome with one paw, other holds door edge without changing hinge. PinPin looks at clean coat. All four dog legs and attached tail; no enormous cropped leg, no forced perspective, no towel dominating foreground. Preserve exact arch, outward leaf, round windows, threshold and tiny visible current room furnishings through aperture; never invent stove/window/cabinet beyond guide.",
+    "characters": "Only Papa, PinPin and clean dry Scooby, matched to last chapter references.",
+    "action": "Dog waits at actual threshold; welcoming pose does not claim a fully verified transit simulation.",
+    "lighting": "Gentle morning for opening and garden; warm afternoon for welcome.",
+    "referenceIds": []
+  }
+}

@@ -1,0 +1,172 @@
+Use case: style-transfer
+Asset type: one children’s-book location still.
+Location: pinpin-house, version 1.0.0.
+Geometry/edit target: /root/.local/share/pinpin-production/scooby-continuity-r4-20261012/geometry/start-01/prepared/geometry-reference.png
+Supporting image roles: []
+Camera record: [
+  {
+    "position": [
+      0.10000000149011612,
+      0.6000000238418579,
+      1.149999976158142
+    ],
+    "quaternionWXYZ": [
+      0.0773458182811737,
+      0.06493283808231354,
+      0.6396865248680115,
+      0.7619727253913879
+    ],
+    "matrixWorld": [
+      [
+        -0.979603111743927,
+        -0.03479749709367752,
+        0.19790829718112946,
+        0.10000000149011612
+      ],
+      [
+        0.200944185256958,
+        -0.1696377843618393,
+        0.9648030400276184,
+        0.6000000238418579
+      ],
+      [
+        -4.4133695809023266e-08,
+        0.9848921895027161,
+        0.1731695979833603,
+        1.149999976158142
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "lensMm": 24.0,
+    "horizontalFovDegrees": 73.73979461915735,
+    "width": 768,
+    "height": 512
+  }
+]
+Door states in degrees: [
+  {
+    "id": "door-front",
+    "angleDegrees": 0,
+    "signedAngleDegrees": 0,
+    "hingeWorld": [
+      -0.6962748765945435,
+      -2.957864999771118,
+      0.0
+    ],
+    "matrixWorld": [
+      [
+        1.0,
+        -2.317848668553779e-08,
+        0.0,
+        -0.6962748765945435
+      ],
+      [
+        2.317848668553779e-08,
+        1.0,
+        0.0,
+        -2.957864999771118
+      ],
+      [
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  },
+  {
+    "id": "door-bath",
+    "angleDegrees": 0,
+    "signedAngleDegrees": 0,
+    "hingeWorld": [
+      -2.0239672660827637,
+      0.6366258859634399,
+      0.0
+    ],
+    "matrixWorld": [
+      [
+        0.8411785960197449,
+        -0.5407573580741882,
+        0.0,
+        -2.0239672660827637
+      ],
+      [
+        0.5407573580741882,
+        0.8411785960197449,
+        0.0,
+        0.6366258859634399
+      ],
+      [
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  },
+  {
+    "id": "door-bedroom",
+    "angleDegrees": 0,
+    "signedAngleDegrees": 0,
+    "hingeWorld": [
+      1.039655089378357,
+      0.4985438883304596,
+      0.0
+    ],
+    "matrixWorld": [
+      [
+        0.7090891003608704,
+        0.7051188945770264,
+        0.0,
+        1.039655089378357
+      ],
+      [
+        -0.7051188945770264,
+        0.7090891003608704,
+        0.0,
+        0.4985438883304596
+      ],
+      [
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  }
+]
+Intent: Use case: illustration-story. One finished LANDSCAPE 1536x1024 children's picture-book illustration, no text, panels, logos or watermark. Input1 current Blender guide is the sole authority for camera, house shape, openings, door states and fixed furniture. Preserve guide perspective and cropping exactly. Other inputs provide ONLY warm tactile book rendering, cast identity and the separately named story prop. Do not copy their old architecture or reposition a modeled window. Golden morning light, warm honey timber/stone/plaster and amber fur/quills, same detailed gentle look as the LAST Bath Magic chapter, not a new cartoon style. Each named hedgehog has one head, two forelimbs, two hindlimbs; dog exactly four attached legs, one head and one curled tail, with believable contact and occlusion. No clothes. Papa is adult grey/chestnut spined cream-faced hedgehog with broad gentle face; Mama is adult russet spined cream-faced mother; PinPin child about HALF adult height; PomPom tiny baby only if explicitly named. Scooby same golden-russet dog with cream muzzle, floppy ears, brown eyes, black rounded nose and feathery curled tail; shoulder approximately1.3 times Papa standing height, never giant paws as big as an adult body. Keep all cast at comparable scale/depth and separate anatomy. No additional cast. Only Mama and young PinPin. Calm domestic opening: Mama stands behind the LEFT side of the round table, setting FOUR small cream-speckled breakfast bowls near a wooden bread plate. PinPin pauses by a low stool on the RIGHT watching the faint warm mist above one bowl. No Papa, baby or dog visible. The porridge is already in bowls, no invented kitchen stove/counter. Preserve table/stools and two radial round front windows and CLOSED arched green door exactly as guide. A small flower jug on table is a removable tabletop prop.
+Characters: Cast and relative scale explicitly defined in intent. Reference old book for identity/rendering only.
+Action and eyelines: Only Mama and young PinPin. Calm domestic opening: Mama stands behind the LEFT side of the round table, setting FOUR small cream-speckled breakfast bowls near a wooden bread plate. PinPin pauses by a low stool on the RIGHT watching the faint warm mist above one bowl. No Papa, baby or dog visible. The porridge is already in bowls, no invented kitchen stove/counter. Preserve table/stools and two radial round front windows and CLOSED arched green door exactly as guide. A small flower jug on table is a removable tabletop prop.
+Lighting: Gentle morning for opening and garden; warm afternoon for welcome.
+
+Use the first, current Blender render as the spatial authority. Preserve its camera position, projection, framing, room outline, curved wall junctions, visible opening count, opening positions, door hinge sides and angles, occlusion, and furniture footprints. A closed leaf stays closed; an open doorway reveals only the adjoining modeled space visible from this camera. The three-room house has a common kitchen/living room, bathroom and bedroom; do not invent a fourth hall or connect the private rooms through the outdoor recess.
+
+Semantic fixture key (world meters, not on-image labels): common-room west shelf unit at (-3.87,-0.59) is the BOOKCASE; low round west/front proxy at (-3.04,-1.96) is the STOVE, never a barrel; center round top at (-0.30,-1.09) is the dining TABLE with four low stools; long east unit at (2.77,-1.27) is the KITCHEN COUNTER. Bathroom broad low oval at (-3.74,2.67) is the wooden BATHTUB, with its oval mat below and small WASHSTAND at (-5.11,2.26). Bedroom rectangular raised form at (2.46,1.64) is the BED with north headboard. Render these identities only where visible in the guide, keeping their locations and occupied volumes; do not add text labels.
+
+Give the surfaces the supplied book’s warm, softly stylized family-story appearance: honey-toned timber, gentle plaster, rounded crafted objects, readable forms and warm light. Keep the broad low wooden tub, oval mat and bed where the geometry places them when visible. Match the book reference’s rendering language without copying its different camera or historic room arrangement. If characters are requested, use the identified character references, full separate bodies/limbs and explicit attentive eyelines; do not add a character when the job says empty room. No text, labels, watermark or collage border.
+
+This is an illustrated derivative for review, not a new geometry definition. Do not conceal a structural mismatch with shadow, furniture or changed crop.

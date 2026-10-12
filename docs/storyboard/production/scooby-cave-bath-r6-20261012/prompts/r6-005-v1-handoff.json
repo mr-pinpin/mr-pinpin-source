@@ -1,0 +1,18 @@
+{
+  "id": "r6-005-v1",
+  "status": "prepared; references must be visually inspected before built-in generation",
+  "prompt": "docs/storyboard/production/scooby-cave-bath-r6-20261012/prompts/r6-005-v1.txt",
+  "promptSha256": "ae8981bfd16f48fa8e78315bb7aa1575fa02ea19e9027a35b02332cc0f0e3923",
+  "references": [
+    {
+      "index": 1,
+      "role": "Exact preceding breakfast room/family/4bowls/4spoons continuity; now dishes emptied and supported handover",
+      "path": "/root/.codex/worktrees/c64d/mr-pinpin-source/docs/storyboard/production/scooby-cave-bath-r6-20261012/native/r6-004-v2.png",
+      "sha256": "eb96bfd04ea1329d3536bc34fa88c89d6cbfa5ca47dec6fe0b18c355177cc4cc"
+    }
+  ],
+  "expectedNativeSize": [
+    1536,
+    1024
+  ]
+}

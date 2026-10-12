@@ -1,0 +1,18 @@
+{
+  "id": "r6-004-v1",
+  "status": "prepared; references must be visually inspected before built-in generation",
+  "prompt": "docs/storyboard/production/scooby-cave-bath-r6-20261012/prompts/r6-004-v1.txt",
+  "promptSha256": "b7833646f7ba553bb2d0cee6451ced3a5e6cba7674cdcdf81f3da1c72742f344",
+  "references": [
+    {
+      "index": 1,
+      "role": "Exact immediately preceding room/table/dish/family continuity; change only action",
+      "path": "/root/.codex/worktrees/c64d/mr-pinpin-source/docs/storyboard/production/scooby-cave-bath-r6-20261012/native/r6-003-v2.png",
+      "sha256": "1274eb97f1e5196baf41972f74ee446d11041b1f95a0b355ec95695f8f2273f4"
+    }
+  ],
+  "expectedNativeSize": [
+    1536,
+    1024
+  ]
+}

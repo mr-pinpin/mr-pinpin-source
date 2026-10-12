@@ -1,0 +1,24 @@
+{
+  "id": "r6-193-v1",
+  "status": "prepared; references must be visually inspected before built-in generation",
+  "prompt": "docs/storyboard/production/scooby-cave-bath-r6-20261012/prompts/r6-193-v1.txt",
+  "promptSha256": "b03bf665cd08b2ba7d7c0164592692641fa5d131c1a54f966e3169179e627c1b",
+  "references": [
+    {
+      "index": 1,
+      "role": "EXACT T0 tree/low branch/notched leaf/dry-side rock and flat wash area location; ordinary source position",
+      "path": "/root/.codex/worktrees/c64d/mr-pinpin-source/docs/storyboard/production/scooby-cave-bath-r6-20261012/native/shower-tree-anchor-v1.png",
+      "sha256": "454896c5b9ca69e4e6017a95682afb65e2b41f50d849630c2d5b2ebb7188118e"
+    },
+    {
+      "index": 2,
+      "role": "Heavy-mud Scooby and Papa/PinPin identity/common-ground scale ONLY; omit Rabbit/outlet background/bag",
+      "path": "/root/.codex/worktrees/c64d/mr-pinpin-source/docs/storyboard/production/scooby-cave-bath-r6-20261012/native/r6-179-v1.png",
+      "sha256": "b07de7046b2f903c574f26c2cbeee90b7f14ad59ebf35a4f54fa6f6f7d736979"
+    }
+  ],
+  "expectedNativeSize": [
+    1536,
+    1024
+  ]
+}

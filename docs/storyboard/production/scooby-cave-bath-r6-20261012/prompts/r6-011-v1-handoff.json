@@ -1,0 +1,18 @@
+{
+  "id": "r6-011-v1",
+  "status": "prepared; references must be visually inspected before built-in generation",
+  "prompt": "docs/storyboard/production/scooby-cave-bath-r6-20261012/prompts/r6-011-v1.txt",
+  "promptSha256": "e527877a48f273fceb98699d499ff5962d80df24aee2ac41c40defcda1291e88",
+  "references": [
+    {
+      "index": 1,
+      "role": "Exact current cottage/flower/bowl/PapaDog identities and seated dog state; closer same-camera crop",
+      "path": "/root/.codex/worktrees/c64d/mr-pinpin-source/docs/storyboard/production/scooby-cave-bath-r6-20261012/native/r6-010-v3.png",
+      "sha256": "fe142cf7c14a3f2987ecf05784032f789fecfc05275523782ab5e530f73ce4c3"
+    }
+  ],
+  "expectedNativeSize": [
+    1536,
+    1024
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "id": "r6-054-v1",
+  "status": "prepared; references must be visually inspected before built-in generation",
+  "prompt": "docs/storyboard/production/scooby-cave-bath-r6-20261012/prompts/r6-054-v1.txt",
+  "promptSha256": "6d74f0b96fdf44ff5273eecdcffaa9d71747483305bdbac3f997700f67f14a2c",
+  "references": [
+    {
+      "index": 1,
+      "role": "Exact H1 kitchen/table/4family identities/4bowls4spoons2mugs/floral jug, Mama now supports infant insteadFather",
+      "path": "/root/.codex/worktrees/c64d/mr-pinpin-source/docs/storyboard/production/scooby-cave-bath-r6-20261012/native/r6-002-v2.png",
+      "sha256": "abe58239d4efa920cbb0392e01c910680212cc860694395da0e1358fbac7eb27"
+    },
+    {
+      "index": 2,
+      "role": "Exact one wild LILAC fallen five-petal blossom design ONLY, omit cave/Dog/Rabbit/boats",
+      "path": "/root/.codex/worktrees/c64d/mr-pinpin-source/docs/storyboard/production/scooby-cave-bath-r6-20261012/native/r6-041-v2.png",
+      "sha256": "e020843725533bd5b8128f6eac4c83244a56b1c8125934dc2649b7bf48f59545"
+    }
+  ],
+  "expectedNativeSize": [
+    1536,
+    1024
+  ]
+}

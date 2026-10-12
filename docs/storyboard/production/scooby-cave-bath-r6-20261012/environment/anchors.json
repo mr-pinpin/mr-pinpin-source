@@ -1,0 +1,53 @@
+{
+  "status": "agent-reviewed illustration-led anchors, not measured geometry or blanket reader approval",
+  "anchors": [
+    {
+      "location": "C0",
+      "native": "native/cave-mouth-anchor-v1.png",
+      "sha256": "7b5427efe158a448477a3e7ea28bd4df0bd3165da1bc223fbcde53d779c959a3"
+    },
+    {
+      "location": "C1",
+      "native": "native/cave-lobby-anchor-v1.png",
+      "sha256": "50fbcba6fafc9f247b3423251c1c63f955251defc496542a08c95913db6f0e44"
+    },
+    {
+      "location": "C2",
+      "native": "native/cave-gallery-anchor-v2.png",
+      "sha256": "c2447c07b9e641166ecfdba9e1c89347787a2f8fb1205b559b7515b37930d246"
+    },
+    {
+      "location": "C3",
+      "native": "native/cave-echo-anchor-v1.png",
+      "sha256": "35c52e9210783d31d7b682efd29fd94b6972a2c1290815b6e7176987c6f474e5"
+    },
+    {
+      "location": "C4",
+      "native": "native/cave-fork-anchor-v2.png",
+      "sha256": "c91c2480434d110ceb3313f0a509032fde112274d66d67f7df9f441fa04eafaa"
+    },
+    {
+      "location": "C5",
+      "native": "native/cave-blossom-anchor-v2.png",
+      "sha256": "a014a6467bfa9b745df877780d0fc78d80f2f211cabe1e580a0690e53e2cd882"
+    },
+    {
+      "location": "C6",
+      "native": "native/cave-outlet-anchor-v1.png",
+      "sha256": "80d61e18d40fb22a07f1b751a43e8984220f2aedbe43ea3f1f92ceb27e31e154"
+    },
+    {
+      "location": "T0",
+      "native": "native/shower-tree-anchor-v1.png",
+      "sha256": "454896c5b9ca69e4e6017a95682afb65e2b41f50d849630c2d5b2ebb7188118e"
+    }
+  ],
+  "environmentPOVScenes": {
+    "70": "cave-lobby-anchor-v1",
+    "74": "cave-gallery-anchor-v2",
+    "88": "cave-echo-anchor-v1",
+    "93": "cave-fork-anchor-v2",
+    "95": "cave-blossom-anchor-v2",
+    "128": "cave-outlet-anchor-v1"
+  }
+}

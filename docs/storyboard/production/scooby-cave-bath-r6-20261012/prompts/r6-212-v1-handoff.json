@@ -1,0 +1,30 @@
+{
+  "id": "r6-212-v1",
+  "status": "prepared; references must be visually inspected before built-in generation",
+  "prompt": "docs/storyboard/production/scooby-cave-bath-r6-20261012/prompts/r6-212-v1.txt",
+  "promptSha256": "9e44cb8afc45d3056c6811506579f23db455cf2c7d567ed91b12b2d72780e00a",
+  "references": [
+    {
+      "index": 1,
+      "role": "PRIMARY exact published-reference kitchen architecture/materials: one green arch/two radial windows/left cupboard/right stove/round table",
+      "path": "/root/.codex/worktrees/c64d/mr-pinpin-source/docs/storyboard/production/scooby-cave-bath-r6-20261012/native/r6-001-v1.png",
+      "sha256": "dd987ef97127329555c0d59577eb7d2f7c3c2f029b5ec53d9d01d1afa08133b2"
+    },
+    {
+      "index": 2,
+      "role": "Current family adult-child-infant identities/support ONLY; no dishes/handover pose",
+      "path": "/root/.codex/worktrees/c64d/mr-pinpin-source/docs/storyboard/production/scooby-cave-bath-r6-20261012/native/r6-005-v2.png",
+      "sha256": "937e70fef67d76445463c9d58a8fb74934f10f66ec208553eac363e3cf1a9657"
+    },
+    {
+      "index": 3,
+      "role": "Whole Scooby identity/standing mount scale ONLY; remove cave/boats/blossom/dirt",
+      "path": "/root/.codex/worktrees/c64d/mr-pinpin-source/docs/storyboard/production/scooby-cave-bath-r6-20261012/native/r6-041-v2.png",
+      "sha256": "e020843725533bd5b8128f6eac4c83244a56b1c8125934dc2649b7bf48f59545"
+    }
+  ],
+  "expectedNativeSize": [
+    1536,
+    1024
+  ]
+}

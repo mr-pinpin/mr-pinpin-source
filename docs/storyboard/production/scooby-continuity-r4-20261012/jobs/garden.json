@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "location": "docs/storyboard/locations/pinpin-house/location.json",
+  "doorStates": {
+    "door-front": 0,
+    "door-bath": 0,
+    "door-bedroom": 0
+  },
+  "samples": 8,
+  "id": "scooby-r4-garden",
+  "camera": {
+    "position": [
+      -2.3,
+      -5.9,
+      1.15
+    ],
+    "target": [
+      -1.2,
+      -3.3,
+      0.65
+    ],
+    "lensMm": 24,
+    "width": 768,
+    "height": 512,
+    "allowOutside": true
+  },
+  "prompt": {
+    "template": "still",
+    "intent": "Continuous garden digging sequence beside the front path. Preserve exact camera and house facade. Add book textures only: honey stone, green door, radial round windows and leafy roof motif. No moved opening. Garden story props stay fixed: birch at far left, three-rail fence left rear, earth patch in lower left, diagonal stepping-stone path lower right toward door, flat treasure stone at left rim, and small wooden garden spade initially leaning against fence.",
+    "characters": "Characters added by separately recorded image-generation prompts; architectural guide itself stays empty.",
+    "action": "Preserve modeled geometry. Other story props are removable, not changes to the house definition.",
+    "lighting": "Gentle morning for opening and garden; warm afternoon for welcome.",
+    "referenceIds": []
+  }
+}

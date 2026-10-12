@@ -12,7 +12,7 @@
 - r6-006 · **Ball rolls** (H1; Mama, PinPin, PomPom): Mama rolls the familiar soft ball with her free paw while holding PomPom.
 - r6-007 · **Infant touches ball** (H1; Mama, PinPin, PomPom): PinPin brings the ball close; supported PomPom touches it, then it rolls back.
 - r6-008 · **Papa announces walk** (H1; Papa, Mama, PinPin, PomPom): Papa tells the family he is taking Scooby for a walk and practice; child stays home for now.
-- r6-009 · **Scooby at the step** (H0; Papa, Scooby): Dog's separate breakfast bowl is empty; Papa greets him at the familiar doorway.
+- r6-009 · **Clear place to practise** (H0; Papa, Scooby): Dog breakfast bowl empty; Papa eases the existing giant pink garden flowerpot to east side of step, clearing practice space, then greets dog.
 - r6-010 · **Sit cue** (H0; Papa, Scooby): Papa gives the cue and Scooby actually sits; focused eye contact and grounded paws.
 - r6-011 · **Watch the hand** (H0; Papa, Scooby): Hold the attention beat: Papa's quiet hand and Scooby's alert ears, not a second treat.
 - r6-012 · **Wait cue** (H0; Papa, Scooby): Papa takes one small step away; Scooby holds the sit and watches.
@@ -27,7 +27,7 @@
 - r6-021 · **Window wave** (H1; Mama, PomPom): Mama and supported PomPom give the outing a brief domestic counterbeat.
 - r6-022 · **Nose catches a scent** (F1; Papa, Scooby): Dog slows at a fern/root glade; mouth closed, scent-focused posture.
 - r6-023 · **Papa notices** (F1; Papa, Scooby): Papa follows the dog's eyeline and stops; he is attentive, not grinning.
-- r6-024 · **Cool draft and petal** (F1; Papa, Scooby): A cool draft moves one unusual fallen petal beside an old root-covered hollow.
+- r6-024 · **Cool draft and blossom** (F1; Papa, Scooby): A cool draft moves one unusual fallen blossom beside an old root-covered hollow.
 - r6-025 · **Loose litter moves** (F1; Papa, Scooby): Scooby scrapes loose leaves/soil from the natural hollow; incidental mud begins on forepaws.
 - r6-026 · **An entrance** (C0; Papa, Scooby): Reveal an existing broad root tunnel mouth; no deep excavation or trapped dog.
 - r6-027 · **Wait at threshold** (C0; Papa, Scooby): Papa uses the practiced wait; dog stops while he looks at the entrance.
@@ -41,17 +41,17 @@
 - r6-035 · **A call from the path** (S0; PinPin, Rabbit): Children hear Papa's ordinary call, retrieve both boats and turn toward the shown return route.
 - r6-036 · **Return through fork** (F0; PinPin, Rabbit): Show the actual crossing from spring side toward fern/root glade.
 - r6-037 · **Paths rejoin** (F1; Papa, Scooby, PinPin, Rabbit): The groups meet; no child teleports into the original dog walk.
-- r6-038 · **Papa explains draft** (F1; Papa, Scooby, PinPin, Rabbit): Papa points to the petal and moving ferns; children listen.
-- r6-039 · **PinPin looks closely** (C0; Papa, Scooby, PinPin, Rabbit): Child studies the unusual petal/root opening, not another arbitrary treasure.
-- r6-040 · **One petal taken** (C0; Papa, Scooby, PinPin, Rabbit): PinPin picks up that same fallen petal as a small reminder; route remains visible.
+- r6-038 · **Papa explains draft** (F1; Papa, Scooby, PinPin, Rabbit): Papa points to the blossom and moving ferns; children listen.
+- r6-039 · **PinPin looks closely** (C0; Papa, Scooby, PinPin, Rabbit): Child studies the unusual blossom/root opening, not another arbitrary treasure.
+- r6-040 · **One fallen blossom taken** (C0; Papa, Scooby, PinPin, Rabbit): PinPin picks up that same fallen blossom as a small reminder; route remains visible.
 - r6-041 · **First chamber glimpse** (C1; Papa, Scooby, PinPin, Rabbit): From the bright entrance lip, reveal moss/vines/pool reflections and warm berry glow.
 - r6-042 · **A small echo** (C1; Papa, Scooby, PinPin, Rabbit): Papa's quiet word returns as an echo; faces listen rather than cheer.
 - r6-043 · **Meanwhile at home** (H1; Mama, PomPom): Mama steadies PomPom as he reaches for his cloth; retain the household thread.
 - r6-044 · **Come prepared tomorrow** (C0; Papa, Scooby, PinPin, Rabbit): Papa decides on a prepared family return; the first look ends deliberately.
 - r6-045 · **Remember the birch** (F1; Papa, Scooby, PinPin, Rabbit): Show the forked birch/root landmarks they will recognise tomorrow; no spawned trail equipment.
-- r6-046 · **Homeward path** (F0; Papa, Scooby, PinPin, Rabbit): Walk home; leaf boats and petal are carried by their named holders.
+- r6-046 · **Homeward path** (F0; Papa, Scooby, PinPin, Rabbit): Walk home; leaf boats and blossom are carried by their named holders.
 - r6-047 · **Rabbit's farewell** (H0; Rabbit, PinPin, Papa, Scooby): Return both leaves to Rabbit and close today's invitation; agree to meet tomorrow.
-- r6-048 · **Tell Mama** (H1; Mama, PomPom, Papa, PinPin): Family hears the discovery; the single petal is put on a small cloth by the table.
+- r6-048 · **Tell Mama** (H1; Mama, PomPom, Papa, PinPin): Family hears the discovery; the single fallen blossom is put on a small cloth by the table.
 - r6-049 · **Wipe dog paws** (H0; Papa, Scooby): Clean the day's incidental soil with the separate sage dog cloth before entering.
 - r6-050 · **Rinse the used cloth** (H1; Papa, Mama, PomPom, PinPin): Account for the soiled cloth and simple evening cleanup; it never wipes the infant.
 - r6-051 · **Family settles** (H2; Mama, Papa, PinPin, PomPom): Four family hedgehogs in the familiar broad bed; supported infant, quiet expressions.
@@ -59,11 +59,11 @@
 ## Day2
 
 - r6-053 · **New morning** (H2; Mama, Papa, PinPin, PomPom): Open day2 clearly; no unexplained continuous twenty-hour outing.
-- r6-054 · **Discovery remembered** (H1; Mama, Papa, PinPin, PomPom): Breakfast talk returns to the petal and echo with alert, curious faces.
+- r6-054 · **Discovery remembered** (H1; Mama, Papa, PinPin, PomPom): Breakfast talk returns to the blossom and echo with alert, curious faces.
 - r6-055 · **Picnic cloth packed** (H1; Mama, PomPom, PinPin): Mama packs the known picnic cloth and food while supporting PomPom.
 - r6-056 · **Flask and dog bowl** (H1; Papa, PinPin): Papa fills the flask and nests cups/dog bowl in the bag.
 - r6-057 · **Three marker strips** (H1; Papa, PinPin): Introduce exactly three small ochre route strips; pack them visibly.
-- r6-058 · **Check the bag** (H0; Mama, PomPom, Papa, PinPin, Scooby): Assign bag/petal holders and confirm items before departure.
+- r6-058 · **Check the bag** (H0; Mama, PomPom, Papa, PinPin, Scooby): Assign bag/blossom holders and confirm items before departure.
 - r6-059 · **Rabbit returns** (H0; Rabbit, PinPin, Papa, Scooby): Rabbit brings the same two leaves kept damp overnight; confirm this continuity.
 - r6-060 · **Leaf condition** (H0; PinPin, Rabbit): Children inspect/adjust the two actual leaves; no sudden third boat.
 - r6-061 · **Scooby lowers** (H0; Papa, Scooby, Mama, PomPom): Dog lowers/sits; parents prepare the supported infant/mother mounting handover.
@@ -74,7 +74,7 @@
 - r6-066 · **Birch landmark** (F1; Papa, Mama, PomPom, PinPin, Rabbit, Scooby): The forked birch and root glade confirm location.
 - r6-067 · **Wait and dismount** (C0; Papa, Mama, PomPom, Scooby): Wait cue pays off; supported dismount occurs before cave ground.
 - r6-068 · **First route strip** (C0; Papa, PinPin, Rabbit): Tie marker1 at a visible root near entrance; it is directional, not a magic sign.
-- r6-069 · **Petal returned** (C0; Mama, PomPom, PinPin): Show supported PomPom touching the single petal before it is returned to native moss.
+- r6-069 · **Blossom returned** (C0; Mama, PomPom, PinPin): Show supported PomPom touching the single fallen blossom before it is returned to native moss.
 - r6-070 · **C1 wide** (C1; Papa, Mama, PomPom, PinPin, Rabbit, Scooby): Establish broad daylight lobby and route before closer action.
 - r6-071 · **Fern attention** (C1; Mama, PomPom, PinPin): Mother supports a curious infant reaching toward an actual fern edge.
 - r6-072 · **Paws stay on path** (C1; Papa, Scooby): Papa guides dog along the visible firm root path; natural mild soil/wet paws.
@@ -116,7 +116,7 @@
 
 - r6-107 · **Day3 morning** (H1; Mama, Papa, PinPin, PomPom): Explicit fresh day with prior map on same safe shelf/table.
 - r6-108 · **Map question** (H1; Papa, PinPin): Recall branching stream; do not claim yesterday's clue solved everything.
-- r6-109 · **Mother checks small supplies** (H1; Mama, PomPom): Real care/packing with supported infant.
+- r6-109 · **Mother checks small supplies** (H1; Mama, Papa, PomPom): Real care/packing with supported infant.
 - r6-110 · **Rabbit and leaves** (H0; Rabbit, PinPin, Papa): Bring the same two damp-kept leaves for observation, not unintroduced props.
 - r6-111 · **Forest fork again** (F0; Papa, Mama, PomPom, PinPin, Rabbit, Scooby): Same entrance route and carriers; no new landscape teleport.
 - r6-112 · **Marker1 still there** (C0; Papa, PinPin, Rabbit, Scooby): Check established marker1 before entering.
@@ -182,16 +182,16 @@
 - r6-170 · **Marker1 checked** (C0; Papa, PinPin, Rabbit, Scooby): Entrance and strip unchanged.
 - r6-171 · **Family at daylight lobby** (C1; Mama, PomPom, Papa, PinPin, Rabbit, Scooby): Supported infant/mother have a clear safe station, not disappearance.
 - r6-172 · **Warm berry gallery** (C2; Papa, PinPin, Rabbit, Scooby): Final purposeful look uses established chamber connections.
-- r6-173 · **Flower observation** (C5; Papa, PinPin, Rabbit, Scooby): New detail within established plants/light, not a new unrelated world.
+- r6-173 · **Flower observation** (C5; Papa, PinPin, Rabbit, Scooby): Pass C3/C4, collect M2 on final visit and draw final C5→C6 bend; observe the same blossoms. No unexplained jump from C2.
 - r6-174 · **Dog catches damp scent** (C5; Papa, Scooby): Nose follows wet root/clay beside broad path.
 - r6-175 · **Clay on forepaws** (C5; Papa, Scooby, PinPin, Rabbit): First visible day4 dirt change, not a few later freckles.
 - r6-176 · **Body brushes wet roots** (C5; Papa, Scooby): Dirty lower chest/flank joins paws; physical cause shown.
-- r6-177 · **More vigorous scratch** (F1; Papa, Scooby, PinPin, Rabbit): At outdoor damp bank near exit, dig moves wet earth onto all legs/belly.
-- r6-178 · **A muddy roll** (F1; Papa, Scooby, PinPin, Rabbit): One joyful shoulder roll in same wet soil creates heavy opaque body dirt.
-- r6-179 · **Look at the result** (F1; Papa, PinPin, Rabbit, Scooby): Full body: all four legs/paws, belly/chest, flank and parts of back dirty. Others react differently.
-- r6-180 · **Wait really works** (F1; Papa, Scooby): Practiced cue stops another roll; not a trapped dog or rescue subplot.
-- r6-181 · **Mother sees the mud** (C1; Mama, PomPom, Papa, Scooby, PinPin, Rabbit): Raised brow/wry care with supported infant; heavy dirt does not reset.
-- r6-182 · **Toward chosen shower tree** (T0; Papa, Mama, PomPom, PinPin, Rabbit, Scooby): Shown route to already tested location, with actual bag/gear.
+- r6-177 · **More vigorous scratch** (C6; Papa, Scooby, PinPin, Rabbit): At OUTDOOR clay bank beyond C6, collect M3 then dog scratches; wet earth reaches all legs/belly.
+- r6-178 · **A muddy roll** (C6; Papa, Scooby, PinPin, Rabbit): One joyful shoulder roll in same wet soil creates heavy opaque body dirt.
+- r6-179 · **Look at the result** (C6; Papa, PinPin, Rabbit, Scooby): Full body: all four legs/paws, belly/chest, flank and parts of back dirty. Others react differently.
+- r6-180 · **Wait really works** (C6; Papa, Scooby): Practiced cue stops another roll; not a trapped dog or rescue subplot.
+- r6-181 · **Mother sees the mud** (C1; Mama, PomPom, Papa, Scooby, PinPin, Rabbit): Return along OUTER forest path C6→F2→F1→C0→C1; Mama raises brow with supported infant; heavy dirt does not reset.
+- r6-182 · **Toward chosen shower tree** (T0; Papa, Mama, PomPom, PinPin, Rabbit, Scooby): Exit C1→C0, collect M1, pass F1 to already tested T0; actual bag/gear, three collected strips inside bag.
 - r6-183 · **Unroll carried mat** (T0; Papa, PinPin, Rabbit, Scooby): One mat on firm ground; keep soil/flowers/leaf source landmarks stable.
 - r6-184 · **Towels set aside** (T0; PinPin, Rabbit, Papa): T1/T2 dry-side positions named; no infinite dry towels.
 - r6-185 · **Soap and brush ready** (T0; Papa, PinPin): Unpack actual capped bottle/brush; no new bath or jug from nowhere.
@@ -218,7 +218,7 @@
 - r6-206 · **T2 dries coat** (T0; Papa, Scooby, PinPin): Second towel remains dry until now; T1 is already wet.
 - r6-207 · **Brush loose hair** (T0; Papa, Scooby, PinPin): Canonical coat and modest shed hair; no huge new toy-dog fluff duplicate.
 - r6-208 · **Pack used gear** (T0; Papa, PinPin, Rabbit, Mama, PomPom): Bottle cap replaced, brush/mat stored, wet/dry items distinguished.
-- r6-209 · **Farewell to forest helpers** (F1; Papa, PinPin, Rabbit, Mama, PomPom, Scooby): Return by C6→C5→C4→C1→C0, collecting marker3, marker2 then marker1; show the three strips in the bag at F1. Say farewell to the forest; sources off.
+- r6-209 · **Farewell to forest helpers** (F1; Papa, PinPin, Rabbit, Mama, PomPom, Scooby): At F1 count M1/M2/M3 already collected at scenes173/177/182 into the bag; say farewell to forest, sources off. Do not send clean dog on another muddy cave trip.
 - r6-210 · **Path home** (F0; Papa, Mama, PomPom, PinPin, Rabbit, Scooby): Clean/dry dog and bag leave by known route.
 - r6-211 · **Rabbit goes home** (H0; Rabbit, PinPin, Papa, Scooby): Actual farewell/payoff, future play promise sensible; no unclosed guest location.
 - r6-212 · **Correct full-body welcome** (H0; Papa, Scooby, PinPin, Mama, PomPom): One green doorway, familiar room, whole dog/natural scale. He already belongs to the house.

@@ -1,0 +1,24 @@
+{
+  "id": "r6-204-v1",
+  "status": "prepared; references must be visually inspected before built-in generation",
+  "prompt": "docs/storyboard/production/scooby-cave-bath-r6-20261012/prompts/r6-204-v1.txt",
+  "promptSha256": "6ddc2126d8ffcc8242149d3c08e97e8c4d3581db7db7f7a402ce722f1a06b5e5",
+  "references": [
+    {
+      "index": 1,
+      "role": "Exact CLEAN WET dog/Parent/olderchild/T0/2towels/bottle/brush; source now OFF and dog steps ontoT1 then shakes",
+      "path": "/root/.codex/worktrees/c64d/mr-pinpin-source/docs/storyboard/production/scooby-cave-bath-r6-20261012/native/r6-199-v1.png",
+      "sha256": "0cefda8013c68b5c219d06b056f0c2a8cba9c72e8e44727234c0a10a9720d99c"
+    },
+    {
+      "index": 2,
+      "role": "Rabbit identity ONLY, no mud/boat/blossom/outlet/extra cast",
+      "path": "/root/.codex/worktrees/c64d/mr-pinpin-source/docs/storyboard/production/scooby-cave-bath-r6-20261012/native/r6-179-v1.png",
+      "sha256": "b07de7046b2f903c574f26c2cbeee90b7f14ad59ebf35a4f54fa6f6f7d736979"
+    }
+  ],
+  "expectedNativeSize": [
+    1536,
+    1024
+  ]
+}

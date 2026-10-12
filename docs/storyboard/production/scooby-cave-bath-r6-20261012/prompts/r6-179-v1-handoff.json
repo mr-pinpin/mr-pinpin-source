@@ -1,0 +1,24 @@
+{
+  "id": "r6-179-v1",
+  "status": "prepared; references must be visually inspected before built-in generation",
+  "prompt": "docs/storyboard/production/scooby-cave-bath-r6-20261012/prompts/r6-179-v1.txt",
+  "promptSha256": "ddbeaabc677cb96077db728797a698853fb54942b6e6ba969944127d65bb9d46",
+  "references": [
+    {
+      "index": 1,
+      "role": "C6 eastern outlet terrain/leaning root/stream/damp OUTDOOR clay bank location",
+      "path": "/root/.codex/worktrees/c64d/mr-pinpin-source/docs/storyboard/production/scooby-cave-bath-r6-20261012/native/cave-outlet-anchor-v1.png",
+      "sha256": "80d61e18d40fb22a07f1b751a43e8984220f2aedbe43ea3f1f92ceb27e31e154"
+    },
+    {
+      "index": 2,
+      "role": "Father/older child/Rabbit/standing huge Dog identities and relative scale ONLY; OMIT leaf boats/blossom/cave lobby/clean coat",
+      "path": "/root/.codex/worktrees/c64d/mr-pinpin-source/docs/storyboard/production/scooby-cave-bath-r6-20261012/native/r6-041-v2.png",
+      "sha256": "e020843725533bd5b8128f6eac4c83244a56b1c8125934dc2649b7bf48f59545"
+    }
+  ],
+  "expectedNativeSize": [
+    1536,
+    1024
+  ]
+}
