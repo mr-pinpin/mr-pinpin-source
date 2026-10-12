@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "scooby-bath-scene-15-common-v3",
+  "location": "docs/storyboard/locations/pinpin-house/location.json",
+  "camera": {
+    "position": [
+      0.4,
+      -2.3,
+      0.55
+    ],
+    "target": [
+      -0.3,
+      -2.7,
+      0.1
+    ],
+    "lensMm": 24,
+    "width": 768,
+    "height": 512
+  },
+  "doorStates": {
+    "door-front": 75,
+    "door-bath": 0,
+    "door-bedroom": 0
+  },
+  "prompt": {
+    "template": "still",
+    "intent": "Finished landscape 1536x1024 clean-paw welcome detail, no lettering or watermark. Input image 1 fixes the exact near-door common-room floor and camera; image 2 supplies style only; image 3 fixes Papa, PinPin and Scooby identity. Show ONLY one clean, correctly attached large Scooby front paw and its lower golden foreleg in the foreground on a folded ochre towel on the floor. His upper body and other three legs are outside the top/right crop. Papa and small PinPin smile at the clean paw and gesture a welcome. This is a close-up near the doorway, NOT a depiction or proof of full-dog transit through it. Preserve the visible wall, lower opening, leaf angle, and floor from the guide exactly; never widen the door or insert another window. The dog has no mud or suds. Warm indoor lamplight, soft tactile fur and quills, two arms and two hindlegs per hedgehog.",
+    "characters": "Only Scooby, Papa and young PinPin. Additional input image 3 is their exact character identity and relative-scale reference: fluffy golden-russet dog with cream muzzle, floppy ears and curly tail, adult chestnut-spined hedgehog Papa, and PinPin half Papa’s height. Match their faces, coats and anatomy; no clothes, no other cast. Exactly four dog legs, two forelimbs and two hindlimbs per hedgehog.",
+    "action": "Preserve modeled walls, openings, furniture and door state. The dog cushion is a removable story prop, not permanent geometry.",
+    "lighting": "Warm gentle evening lamplight; preserve the rendered openings."
+  },
+  "samples": 8
+}

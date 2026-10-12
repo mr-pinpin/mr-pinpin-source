@@ -185,3 +185,17 @@ test('audited local experiment entrypoints stay out while public runtime and unk
   f.write('docs/house-new-public.html','<img src="unknown.png">');
   assert.throws(()=>f.build({check:true}),/dangling local reference.*unknown/);
 });
+
+test('family runtime registry keeps native provenance without packaging its unused PNG', t => {
+  const f=fixture(t);
+  f.asset('docs/storyboard/images/master.png','archive','native original');
+  f.asset('docs/storyboard/images/runtime.webp','production','existing WebP bytes');
+  f.write('docs/storyboard/family-production.json',JSON.stringify({direction:{src:'images/master.png',runtimeSrc:'images/runtime.webp'}}));
+  let result=f.build();
+  assert(!fs.existsSync(path.join(result.dest,'storyboard/images/master.png')));
+  assert.equal(fs.readFileSync(path.join(result.dest,'storyboard/images/runtime.webp'),'utf8'),'existing WebP bytes');
+  f.write('docs/storyboard/family-production.json',JSON.stringify({direction:{src:'images/master.png',runtimeSrc:'images/missing.webp'}}));
+  assert.throws(()=>f.build({check:true}),/dangling local reference.*missing/);
+  f.write('docs/storyboard/family-production.json',JSON.stringify({direction:{src:'images/master.png'}}));
+  assert.throws(()=>f.build({check:true}),/dangling local reference.*master/);
+});

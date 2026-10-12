@@ -176,3 +176,24 @@ test('CLI refresh and check are deterministic; stale output and unknown addition
   await assert.rejects(main(['--root', root]), /Unclassified/);
   assert.equal(fs.readFileSync(path.join(root, 'assets/manifest.json'), 'utf8'), previous);
 });
+
+test('opted-in runtime variants archive native sources without changing ordinary chapter assets', async t => {
+  const {root, put, policy}=fixture(t);
+  policy.extensions.push('.webp');policy.unreferencedRole='archive';
+  put('docs/master.png','native original');put('docs/runtime.webp','selected runtime');
+  put('docs/sprites.json',JSON.stringify({direction:{src:'master.png',runtimeSrc:'runtime.webp'}}));
+  policy.manifestSeeds=[{path:'docs/sprites.json',preferRuntimeSrc:true}];
+  let result=await buildCatalog(root,policy);
+  assert.equal(result.manifest.assets.find(e=>e.path==='docs/master.png').role,'archive');
+  assert.equal(result.manifest.assets.find(e=>e.path==='docs/runtime.webp').role,'production');
+  assert.equal(result.manifest.assets.find(e=>e.path==='docs/image.png').role,'production');
+  policy.manifestSeeds[0].preferRuntimeSrc=false;
+  result=await buildCatalog(root,policy);
+  assert.equal(result.manifest.assets.find(e=>e.path==='docs/master.png').role,'production');
+  policy.manifestSeeds[0].preferRuntimeSrc=true;
+  put('docs/sprites.json',JSON.stringify({direction:{src:'master.png',runtimeSrc:''}}));
+  result=await buildCatalog(root,policy);
+  assert.equal(result.manifest.assets.find(e=>e.path==='docs/master.png').role,'production');
+  put('docs/sprites.json',JSON.stringify({direction:{src:'master.png',runtimeSrc:'absent.webp'}}));
+  await assert.rejects(buildCatalog(root,policy),/Missing manifest asset/);
+});

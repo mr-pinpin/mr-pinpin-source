@@ -8,6 +8,7 @@
     elderParts.find(part => id === 'elder-' + part);
   function assetMatches(id, cover, lang) {
     const part = elderPart(id);
+    if (id === 'scooby-bath') return cover.version === 1 && cover.assets[lang] === 'images/published/scooby-bath/title-' + lang + '.webp';
     if (id === 'bath-magic') return [1, 2].includes(cover.version) && cover.assets[lang] === 'images/published/bath-magic/title-' + lang + (cover.version === 1 ? '' : '-v2') + '.webp';
     if (part) return cover.assets[lang] === `images/published/elder-cycle/${part}-title-${lang}.webp`;
     return cover.assets[lang] === `images/covers/${id}/title/title-${lang}-v${cover.version}.png` ||
@@ -53,7 +54,7 @@
         !Number.isInteger(miniature.version) || miniature.version < 1 ||
         miniature.width !== 1024 || miniature.height !== 1536 ||
         miniature.textFree !== true || miniature.languageIndependent !== true ||
-        (id === 'bath-magic' ? miniature.version !== 1 || miniature.asset !== 'images/published/bath-magic/miniature.webp' : part ? miniature.version !== 1 || miniature.asset !== `images/published/elder-cycle/${part}-miniature.webp` :
+        (id === 'scooby-bath' ? miniature.version !== 1 || miniature.asset !== 'images/published/scooby-bath/miniature.webp' : id === 'bath-magic' ? miniature.version !== 1 || miniature.asset !== 'images/published/bath-magic/miniature.webp' : part ? miniature.version !== 1 || miniature.asset !== `images/published/elder-cycle/${part}-miniature.webp` :
           miniature.asset !== `images/covers/${id}/miniature/miniature-v${miniature.version}.png`)) return null;
     const derivatives = miniature.derivatives;
     const responsive = !part && Array.isArray(derivatives) && derivatives.length === 3 &&

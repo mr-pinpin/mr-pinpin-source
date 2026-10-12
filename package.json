@@ -11,7 +11,7 @@
     "build": "npm run build:pages",
     "build:pages": "node tools/assets/build-pages.cjs",
     "test": "node --test --test-concurrency=2 tools/assets/*.test.cjs scripts/*.test.cjs",
-    "test:assets": "node --test tools/assets/*.test.cjs scripts/atlas-camera-return.test.cjs",
+    "test:assets": "node --test tools/assets/*.test.cjs scripts/atlas-camera-return.test.cjs scripts/scooby-bath.test.cjs",
     "test:publishing": "python3 -B -m unittest discover -s tools/publishing -p 'test_*.py'",
     "release": "python3 tools/publishing/publish.py",
     "verify": "npm run test:assets && npm run build:pages -- --check"

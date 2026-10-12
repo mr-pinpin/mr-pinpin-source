@@ -132,11 +132,15 @@ function references(source, filename) {
   else if ((ext === '.json' && !filename.includes('/images/') && !filename.includes('/videos/')) || RUNTIME_IMAGE_JSON.has(filename)) {
     // Runtime registries use document-relative paths; focus-field data uses JSON-relative paths.
     const base = filename.includes('/stories/') ? 'docs/storyboard/index.html' : filename;
+    const preferRuntimeSrc = ['docs/storyboard/family-production.json', 'docs/storyboard/family-production-blinks.json'].includes(filename);
     function visit(value, keys = []) {
       if (keys.some(key => METADATA.has(key))) return;
       if (typeof value === 'string' && URL_EXT.test(value) && !/\s/.test(value)) add(value,1,base);
       else if (Array.isArray(value)) value.forEach(item => visit(item,keys));
-      else if (value && typeof value === 'object') for (const [key, item] of Object.entries(value)) visit(item,[...keys,key]);
+      else if (value && typeof value === 'object') for (const [key, item] of Object.entries(value)) {
+        if (preferRuntimeSrc && key === 'src' && typeof value.runtimeSrc === 'string' && value.runtimeSrc.trim()) continue;
+        visit(item,[...keys,key]);
+      }
     }
     visit(JSON.parse(source));
   }

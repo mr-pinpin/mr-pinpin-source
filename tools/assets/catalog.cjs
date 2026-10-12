@@ -84,14 +84,15 @@ function inventory(root, policy, previous) {
   return {assets, nonAssetBytes, nonAssetFiles};
 }
 
-function* strings(value) {
+function* strings(value, preferRuntimeSrc = false) {
   if (typeof value === 'string') yield value;
   else if (Array.isArray(value)) {
-    for (const item of value) yield* strings(item);
+    for (const item of value) yield* strings(item, preferRuntimeSrc);
   } else if (value && typeof value === 'object') {
     for (const [key, item] of Object.entries(value)) {
+      if (preferRuntimeSrc && key === 'src' && typeof value.runtimeSrc === 'string' && value.runtimeSrc.trim()) continue;
       yield key;
-      yield* strings(item);
+      yield* strings(item, preferRuntimeSrc);
     }
   }
 }
@@ -112,7 +113,7 @@ function productionClosure(root, policy, known) {
       if (!data || !Object.hasOwn(data, key)) throw new Error(`Missing manifest selector: ${seed.path}:${key}`);
       data = data[key];
     }
-    for (const value of strings(data)) {
+    for (const value of strings(data, seed.preferRuntimeSrc === true)) {
       if (/^(?:[a-z][\w+.-]*:|\/\/)/i.test(value) || value.includes('${')) continue;
       const clean = value.split(/[?#]/)[0];
       if (!policy.extensions.includes(path.posix.extname(clean).toLowerCase())) continue;

@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "id": "scooby-bath-scene-16-v3",
+  "location": "docs/storyboard/locations/pinpin-house/location.json",
+  "camera": {
+    "position": [
+      1.5,
+      -1.4,
+      1.15
+    ],
+    "target": [
+      0.8,
+      -0.9,
+      0.3
+    ],
+    "lensMm": 24,
+    "width": 768,
+    "height": 512
+  },
+  "doorStates": {
+    "door-front": 0,
+    "door-bath": 0,
+    "door-bedroom": 0
+  },
+  "prompt": {
+    "template": "still",
+    "intent": "Use case: precise-object-edit. Finished landscape 1536x1024 book image. Input image 1 is the exact current measured geometry guide and remains the spatial authority. Input image 2 is the TARGET new Scooby chapter illustration to repair. Preserve its characters, exact identities, faces, body poses, anatomy, paw placement, props, color and warm lighting. Change ONLY its incorrect background architecture/furniture to match input 1 exactly. Match the guide camera, cropping, floor/wall boundaries, visible fixture count and screen placement. Never copy a historic room or add a window. KEEP the complete sleeping curled Scooby on the ochre cushion and the two watching hedgehogs exactly as target. REMOVE the invented full green back door, round blue-night window, right-side kitchen cabinet and foreground stove. The guide shows only open floor, the cropped round dining table at upper left, low stools, curved wall, and a small clipped door edge at far upper right. Reposition/scale only background table and stools to the exact guide view. No new window or full door becomes visible; do not raise the camera. Warm honey wooden floor and plaster, cozy lamplight; retain dog pose/cushion/characters without changes.",
+    "characters": "Preserve only the existing target illustration’s Scooby, Papa and PinPin; do not add any other cast.",
+    "action": "Preserve modeled walls, openings, furniture and door state. The dog cushion is a removable story prop, not permanent geometry.",
+    "lighting": "Warm gentle evening lamplight; preserve the rendered openings.",
+    "referenceIds": []
+  },
+  "samples": 8
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "scooby-bath-scene-15-common-v2",
+  "location": "docs/storyboard/locations/pinpin-house/location.json",
+  "camera": {
+    "position": [
+      -0.3,
+      -1.9,
+      0.9
+    ],
+    "target": [
+      -0.397,
+      -2.84,
+      0.85
+    ],
+    "lensMm": 24,
+    "width": 768,
+    "height": 512
+  },
+  "doorStates": {
+    "door-front": 75,
+    "door-bath": 0,
+    "door-bedroom": 0
+  },
+  "prompt": {
+    "template": "still",
+    "intent": "Finished landscape 1536x1024 book illustration, no lettering or watermark. Image 1 fixes geometry and camera; image 2 is style only; image 3 is character identity only. A clean dry dog pauses at the real open front doorway; Papa beckons him inside and PinPin examines his clean paw. Dog crouches naturally to fit the existing opening. Keep openings and leaf angles exactly as the guide; do not widen doors. Frame the welcome and clean paws.",
+    "characters": "Only Scooby, Papa and young PinPin. Additional input image 3 is their exact character identity and relative-scale reference: fluffy golden-russet dog with cream muzzle, floppy ears and curly tail, adult chestnut-spined hedgehog Papa, and PinPin half Papa’s height. Match their faces, coats and anatomy; no clothes, no other cast. Exactly four dog legs, two forelimbs and two hindlimbs per hedgehog.",
+    "action": "Preserve modeled walls, openings, furniture and door state. The dog cushion is a removable story prop, not permanent geometry.",
+    "lighting": "Warm gentle evening lamplight; preserve the rendered openings."
+  },
+  "samples": 8
+}

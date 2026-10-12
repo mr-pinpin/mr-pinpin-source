@@ -76,6 +76,7 @@
   }
 
   function complete(story, chapter = story?.number ?? 1) {
+    if (story?.id === 'scooby-bath') return completeScooby(story);
     if (story?.id === 'bath-magic') return completeBath(story);
     if (elderIds.includes(story?.id)) return completeElder(story);
     if (story?.id === 'home-sweet-home') return completeBedtime(story);
@@ -185,7 +186,37 @@
     });
   }
 
+  function completeScooby(story) {
+    const base = 'images/published/scooby-bath/';
+    if (story?.id !== 'scooby-bath' || story.editionVersion !== 1 || !localized(story.title) ||
+        !localized(story.cover) || !languages.every(lang => story.cover[lang] === base + 'title-' + lang + '.webp') ||
+        story.miniature !== base + 'miniature.webp' || !Array.isArray(story.scenes) || story.scenes.length !== 17 ||
+        !Array.isArray(story.spreads) || story.spreads.length !== 17) return false;
+    return story.scenes.every((scene, index) => {
+      const spread = story.spreads[index];
+      if (!localized(scene.alt) || !languages.every(lang => Array.isArray(scene.paragraphs?.[lang]) &&
+          scene.paragraphs[lang].every(text => typeof text === 'string' && text.trim())) ||
+          !spread || spread.scenes?.length !== 1 || spread.scenes[0] !== index) return false;
+      if (index === 0) return scene.id === 'scooby-bath-title' && scene.role === 'title' &&
+        scene.width === 1024 && scene.height === 1536 && spread.style === 'cover' && spread.paper === 'portrait' &&
+        localized(scene.images) && scene.image === story.cover.en &&
+        languages.every(lang => scene.images[lang] === story.cover[lang] && scene.paragraphs[lang].length === 0);
+      return scene.id === 'scene-' + String(index).padStart(2, '0') && scene.image === base + scene.id + '.webp' &&
+        scene.width === 1536 && scene.height === 1024 && scene.role === undefined &&
+        spread.style === 'elder' && spread.paper === 'landscape' &&
+        languages.every(lang => scene.paragraphs[lang].length > 0);
+    });
+  }
+
   async function load(id, legacyChapter) {
+    if (id === 'scooby-bath') {
+      try {
+        const response = await fetch('stories/scooby-bath.json', {cache:'no-cache'});
+        if (!response.ok) return null;
+        const story = await response.json();
+        return completeScooby(story) ? story : null;
+      } catch { return null; }
+    }
     if (id === 'bath-magic') {
       try {
         const response = await fetch('stories/bath-magic.json', {cache:'no-cache'});
@@ -233,5 +264,5 @@
     };
   }
   window.standaloneStories = {complete, completeElder, compose, load, edition,
-    available:async () => (await Promise.all(['timber-tractor', 'home-sweet-home', 'one-day-in-the-forest', 'bath-magic'].map(id => load(id)))).filter(Boolean)};
+    available:async () => (await Promise.all(['timber-tractor', 'home-sweet-home', 'one-day-in-the-forest', 'bath-magic', 'scooby-bath'].map(id => load(id)))).filter(Boolean)};
 })();

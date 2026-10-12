@@ -1,0 +1,423 @@
+{
+  "schemaVersion": 1,
+  "successfulBuiltInCalls": 22,
+  "selectedNativeAssets": 20,
+  "records": [
+    {
+      "id": "scene-01",
+      "tool": "image_gen__imagegen",
+      "prompt": "docs/storyboard/production/scooby-bath-20261012/scene-01-prompt.txt",
+      "promptSha256": "566c39e7ab6e010cdb659a307a44b832c8cbe36b1f77a6b5ecdb5637115b098e",
+      "outputOriginal": "/root/.codex/generated_images/01a12451-8a9e-7140-a682-d7c1aa8efcbf/exec-1c78bf30-aac2-4349-a922-01b509c69d15.png",
+      "outputSha256": "3db5b9b29ede38659adc761385102b0d5714cd69e5ea7ab2708f5d799950c458",
+      "outputFileModifiedAt": "2026-10-12T04:00:17.034501+00:00",
+      "timeBasis": "original tool-output filesystem mtime; no generation start/duration claim",
+      "inputs": [
+        {
+          "path": "/root/.codex/worktrees/c64d/mr-pinpin-source/docs/storyboard/production/scooby-bath-20261012/native/scene-02.png",
+          "sha256": "8a0846d71e2b2c4c936b5a70310def319619a28ae579db562e5b33cf20ce1fd5"
+        },
+        {
+          "path": "/root/.codex/worktrees/c64d/mr-pinpin-source/docs/storyboard/images/standalone/home-sweet-home/bedtime-08-v2.png",
+          "sha256": "c6e3deefa1acc93dadb3467931719f080a81ab8807dbff960bca6c225f07635d"
+        }
+      ],
+      "reviewStatus": "agent visually reviewed and selected under user-authorized publication; individual user approval not claimed"
+    },
+    {
+      "id": "scene-02",
+      "tool": "image_gen__imagegen",
+      "prompt": "docs/storyboard/production/scooby-bath-20261012/scene-02-prompt.txt",
+      "promptSha256": "3885dfc0b40ec082cf46179c5e8dddc4eda94de1e993cf49646b725b411ec1ca",
+      "outputOriginal": "/root/.codex/generated_images/01a12451-8a9e-7140-a682-d7c1aa8efcbf/exec-dd0a414d-a4d3-4147-bf2c-520c2add7ed5.png",
+      "outputSha256": "8a0846d71e2b2c4c936b5a70310def319619a28ae579db562e5b33cf20ce1fd5",
+      "outputFileModifiedAt": "2026-10-12T03:56:43.702271+00:00",
+      "timeBasis": "original tool-output filesystem mtime; no generation start/duration claim",
+      "inputs": [
+        {
+          "path": "/root/.codex/worktrees/c64d/mr-pinpin-source/docs/storyboard/images/published/bath-magic/r18/scene-05f.webp",
+          "sha256": "603a07035283420b070c7099009df6d8fd985ca32b70511c72408bc229ffb1db"
+        },
+        {
+          "path": "/root/.codex/worktrees/c64d/mr-pinpin-source/docs/storyboard/images/published/bath-magic/r17/scene-05b.webp",
+          "sha256": "a86e6b63684679b92b1211b97b3cf41926613a3894dabaaef5c4a8d08c996c49"
+        }
+      ],
+      "reviewStatus": "agent visually reviewed and selected under user-authorized publication; individual user approval not claimed"
+    },
+    {
+      "id": "scene-03",
+      "tool": "image_gen__imagegen",
+      "prompt": "docs/storyboard/production/scooby-bath-20261012/scene-03-prompt.txt",
+      "promptSha256": "d7cb09d6a1b7ec7f788c9053c38efea956bda67f7898265db91afb20a6711cbd",
+      "outputOriginal": "/root/.codex/generated_images/01a12451-8a9e-7140-a682-d7c1aa8efcbf/exec-2d9087cf-23e0-433b-ada3-364c7289fd8d.png",
+      "outputSha256": "008e6da911d847e1465dd65c825f5acfbc576b751d791081d8f19a16ea3558e8",
+      "outputFileModifiedAt": "2026-10-12T04:00:40.729527+00:00",
+      "timeBasis": "original tool-output filesystem mtime; no generation start/duration claim",
+      "inputs": [
+        {
+          "path": "/root/.codex/worktrees/c64d/mr-pinpin-source/docs/storyboard/production/scooby-bath-20261012/native/scene-02.png",
+          "sha256": "8a0846d71e2b2c4c936b5a70310def319619a28ae579db562e5b33cf20ce1fd5"
+        },
+        {
+          "path": "/root/.codex/worktrees/c64d/mr-pinpin-source/docs/storyboard/images/standalone/home-sweet-home/bedtime-08-v2.png",
+          "sha256": "c6e3deefa1acc93dadb3467931719f080a81ab8807dbff960bca6c225f07635d"
+        }
+      ],
+      "reviewStatus": "agent visually reviewed and selected under user-authorized publication; individual user approval not claimed"
+    },
+    {
+      "id": "scene-04",
+      "tool": "image_gen__imagegen",
+      "prompt": "docs/storyboard/production/scooby-bath-20261012/scene-04-prompt.txt",
+      "promptSha256": "5b22161bac47ce3acf5f044ba67a6b7533a0de2e1d4f1faf930996be11899568",
+      "outputOriginal": "/root/.codex/generated_images/01a12451-8a9e-7140-a682-d7c1aa8efcbf/exec-e5904305-8eb6-449f-938a-65c558b340e7.png",
+      "outputSha256": "f9c43950a9d6c6afb572c6b24863fd36b86ee740820d6f2c857b0412c3be0930",
+      "outputFileModifiedAt": "2026-10-12T04:01:03.822552+00:00",
+      "timeBasis": "original tool-output filesystem mtime; no generation start/duration claim",
+      "inputs": [
+        {
+          "path": "/root/.codex/worktrees/c64d/mr-pinpin-source/docs/storyboard/production/scooby-bath-20261012/native/scene-02.png",
+          "sha256": "8a0846d71e2b2c4c936b5a70310def319619a28ae579db562e5b33cf20ce1fd5"
+        },
+        {
+          "path": "/root/.codex/worktrees/c64d/mr-pinpin-source/docs/storyboard/images/standalone/home-sweet-home/bedtime-08-v2.png",
+          "sha256": "c6e3deefa1acc93dadb3467931719f080a81ab8807dbff960bca6c225f07635d"
+        }
+      ],
+      "reviewStatus": "agent visually reviewed and selected under user-authorized publication; individual user approval not claimed"
+    },
+    {
+      "id": "scene-05",
+      "tool": "image_gen__imagegen",
+      "prompt": "docs/storyboard/production/scooby-bath-20261012/scene-05-prompt.txt",
+      "promptSha256": "09a3a0890ecd876d0f67669bfcea7ba1e510333d1adbe80b3c4dcb29700f01fa",
+      "outputOriginal": "/root/.codex/generated_images/01a12451-8a9e-7140-a682-d7c1aa8efcbf/exec-126062f8-ec99-4e5d-9768-44b9deb6da8c.png",
+      "outputSha256": "c1588f666106e2188d302340cf4937a3ce9e7a87a4e63d949f38cba3971a9a5b",
+      "outputFileModifiedAt": "2026-10-12T04:02:22.060637+00:00",
+      "timeBasis": "original tool-output filesystem mtime; no generation start/duration claim",
+      "inputs": [
+        {
+          "path": "/root/.codex/worktrees/c64d/mr-pinpin-source/docs/storyboard/production/scooby-bath-20261012/native/scene-02.png",
+          "sha256": "8a0846d71e2b2c4c936b5a70310def319619a28ae579db562e5b33cf20ce1fd5"
+        },
+        {
+          "path": "/root/.codex/worktrees/c64d/mr-pinpin-source/docs/storyboard/production/scooby-bath-20261012/native/scene-03.png",
+          "sha256": "008e6da911d847e1465dd65c825f5acfbc576b751d791081d8f19a16ea3558e8"
+        }
+      ],
+      "reviewStatus": "agent visually reviewed and selected under user-authorized publication; individual user approval not claimed"
+    },
+    {
+      "id": "scene-06",
+      "tool": "image_gen__imagegen",
+      "prompt": "docs/storyboard/production/scooby-bath-20261012/scene-06-prompt.txt",
+      "promptSha256": "70bad1ca80139e21c2808c3ff9fdd2057c1e57392cd1ad29ac8a6db4c8d96c2a",
+      "outputOriginal": "/root/.codex/generated_images/01a12451-8a9e-7140-a682-d7c1aa8efcbf/exec-12649225-6c5f-4ccf-bada-c5dbd75ba9be.png",
+      "outputSha256": "a9e498fdc805ce3380924c1dca2a8c309b3adfd091a3a69d481b83cdd4daae49",
+      "outputFileModifiedAt": "2026-10-12T04:02:51.151668+00:00",
+      "timeBasis": "original tool-output filesystem mtime; no generation start/duration claim",
+      "inputs": [
+        {
+          "path": "/root/.codex/worktrees/c64d/mr-pinpin-source/docs/storyboard/production/scooby-bath-20261012/native/scene-02.png",
+          "sha256": "8a0846d71e2b2c4c936b5a70310def319619a28ae579db562e5b33cf20ce1fd5"
+        },
+        {
+          "path": "/root/.codex/worktrees/c64d/mr-pinpin-source/docs/storyboard/production/scooby-bath-20261012/native/scene-03.png",
+          "sha256": "008e6da911d847e1465dd65c825f5acfbc576b751d791081d8f19a16ea3558e8"
+        }
+      ],
+      "reviewStatus": "agent visually reviewed and selected under user-authorized publication; individual user approval not claimed"
+    },
+    {
+      "id": "scene-07",
+      "tool": "image_gen__imagegen",
+      "prompt": "docs/storyboard/production/scooby-bath-20261012/scene-07-prompt.txt",
+      "promptSha256": "f7ff365919aaa6ed486749b203a35772d1c1a353c8d82f3cee835697d91ec776",
+      "outputOriginal": "/root/.codex/generated_images/01a12451-8a9e-7140-a682-d7c1aa8efcbf/exec-2094f112-e605-42ba-8334-d02718927e08.png",
+      "outputSha256": "9423ad32bb41748bc7af0273ab8c911ffdfb217236a5636213563bd0ffe2cc8d",
+      "outputFileModifiedAt": "2026-10-12T04:03:17.731697+00:00",
+      "timeBasis": "original tool-output filesystem mtime; no generation start/duration claim",
+      "inputs": [
+        {
+          "path": "/root/.codex/worktrees/c64d/mr-pinpin-source/docs/storyboard/production/scooby-bath-20261012/native/scene-02.png",
+          "sha256": "8a0846d71e2b2c4c936b5a70310def319619a28ae579db562e5b33cf20ce1fd5"
+        },
+        {
+          "path": "/root/.codex/worktrees/c64d/mr-pinpin-source/docs/storyboard/production/scooby-bath-20261012/native/scene-03.png",
+          "sha256": "008e6da911d847e1465dd65c825f5acfbc576b751d791081d8f19a16ea3558e8"
+        }
+      ],
+      "reviewStatus": "agent visually reviewed and selected under user-authorized publication; individual user approval not claimed"
+    },
+    {
+      "id": "scene-08",
+      "tool": "image_gen__imagegen",
+      "prompt": "docs/storyboard/production/scooby-bath-20261012/scene-08-prompt.txt",
+      "promptSha256": "e8efd9449230a8b4c98e8e2351f4e4b76178549cd35eca184d9d2c6f1305b46d",
+      "outputOriginal": "/root/.codex/generated_images/01a12451-8a9e-7140-a682-d7c1aa8efcbf/exec-d7071c2b-77f3-40a1-b641-191743d2c685.png",
+      "outputSha256": "7a03a95687b9942b2251a0d0ce0cd7a215b4c91eb5f4320e9e12cade804fe380",
+      "outputFileModifiedAt": "2026-10-12T04:07:23.767963+00:00",
+      "timeBasis": "original tool-output filesystem mtime; no generation start/duration claim",
+      "inputs": [
+        {
+          "path": "/root/.codex/worktrees/c64d/mr-pinpin-source/docs/storyboard/production/scooby-bath-20261012/native/scene-02.png",
+          "sha256": "8a0846d71e2b2c4c936b5a70310def319619a28ae579db562e5b33cf20ce1fd5"
+        },
+        {
+          "path": "/root/.codex/worktrees/c64d/mr-pinpin-source/docs/storyboard/production/scooby-bath-20261012/native/scene-07.png",
+          "sha256": "9423ad32bb41748bc7af0273ab8c911ffdfb217236a5636213563bd0ffe2cc8d"
+        }
+      ],
+      "reviewStatus": "agent visually reviewed and selected under user-authorized publication; individual user approval not claimed"
+    },
+    {
+      "id": "scene-09",
+      "tool": "image_gen__imagegen",
+      "prompt": "docs/storyboard/production/scooby-bath-20261012/scene-09-prompt.txt",
+      "promptSha256": "24c90dd8a5d979c17baa003285becafe4ec0ce20f2238aaddf408fea583edba1",
+      "outputOriginal": "/root/.codex/generated_images/01a12451-8a9e-7140-a682-d7c1aa8efcbf/exec-11198f5a-6276-4cb0-a865-58fc5c9974fc.png",
+      "outputSha256": "ed4c5859179f2050e7ae44ea7af4d4d023adc5f6e2a906e3e81c06a62319cd0b",
+      "outputFileModifiedAt": "2026-10-12T04:07:57.811000+00:00",
+      "timeBasis": "original tool-output filesystem mtime; no generation start/duration claim",
+      "inputs": [
+        {
+          "path": "/root/.codex/worktrees/c64d/mr-pinpin-source/docs/storyboard/production/scooby-bath-20261012/native/scene-02.png",
+          "sha256": "8a0846d71e2b2c4c936b5a70310def319619a28ae579db562e5b33cf20ce1fd5"
+        },
+        {
+          "path": "/root/.codex/worktrees/c64d/mr-pinpin-source/docs/storyboard/production/scooby-bath-20261012/native/scene-07.png",
+          "sha256": "9423ad32bb41748bc7af0273ab8c911ffdfb217236a5636213563bd0ffe2cc8d"
+        }
+      ],
+      "reviewStatus": "agent visually reviewed and selected under user-authorized publication; individual user approval not claimed"
+    },
+    {
+      "id": "scene-10",
+      "tool": "image_gen__imagegen",
+      "prompt": "docs/storyboard/production/scooby-bath-20261012/scene-10-prompt.txt",
+      "promptSha256": "d63d25acf6d6fda2955f668bb9e1168c03e386c50213821d8a83f571bda5b5aa",
+      "outputOriginal": "/root/.codex/generated_images/01a12451-8a9e-7140-a682-d7c1aa8efcbf/exec-cc24b42b-392c-4d7e-9427-27b16d09ccb7.png",
+      "outputSha256": "97016d72e6e93f620386773bffcd87d41dc0ee7fc6d1c81ed3a8e55b813dca77",
+      "outputFileModifiedAt": "2026-10-12T04:08:18.435022+00:00",
+      "timeBasis": "original tool-output filesystem mtime; no generation start/duration claim",
+      "inputs": [
+        {
+          "path": "/root/.codex/worktrees/c64d/mr-pinpin-source/docs/storyboard/production/scooby-bath-20261012/native/scene-02.png",
+          "sha256": "8a0846d71e2b2c4c936b5a70310def319619a28ae579db562e5b33cf20ce1fd5"
+        },
+        {
+          "path": "/root/.codex/worktrees/c64d/mr-pinpin-source/docs/storyboard/production/scooby-bath-20261012/native/scene-07.png",
+          "sha256": "9423ad32bb41748bc7af0273ab8c911ffdfb217236a5636213563bd0ffe2cc8d"
+        }
+      ],
+      "reviewStatus": "agent visually reviewed and selected under user-authorized publication; individual user approval not claimed"
+    },
+    {
+      "id": "scene-11",
+      "tool": "image_gen__imagegen",
+      "prompt": "docs/storyboard/production/scooby-bath-20261012/scene-11-prompt.txt",
+      "promptSha256": "84b043d39bfa3f835f2feee34a36b64d378bba638f2b4446697837d5631f5d86",
+      "outputOriginal": "/root/.codex/generated_images/01a12451-8a9e-7140-a682-d7c1aa8efcbf/exec-100f9da5-b225-4af4-8f27-d3bc93f531bc.png",
+      "outputSha256": "f3e0dc2ce6dd1b0a004d5eedcc2bc9d48421fd64d2373ce5f39b2e3fcb40d1a1",
+      "outputFileModifiedAt": "2026-10-12T04:13:09.301337+00:00",
+      "timeBasis": "original tool-output filesystem mtime; no generation start/duration claim",
+      "inputs": [
+        {
+          "path": "/root/.codex/worktrees/c64d/mr-pinpin-source/docs/storyboard/production/scooby-bath-20261012/native/scene-02.png",
+          "sha256": "8a0846d71e2b2c4c936b5a70310def319619a28ae579db562e5b33cf20ce1fd5"
+        },
+        {
+          "path": "/root/.codex/worktrees/c64d/mr-pinpin-source/docs/storyboard/production/scooby-bath-20261012/native/scene-10.png",
+          "sha256": "97016d72e6e93f620386773bffcd87d41dc0ee7fc6d1c81ed3a8e55b813dca77"
+        }
+      ],
+      "reviewStatus": "agent visually reviewed and selected under user-authorized publication; individual user approval not claimed"
+    },
+    {
+      "id": "scene-12",
+      "tool": "image_gen__imagegen",
+      "prompt": "docs/storyboard/production/scooby-bath-20261012/scene-12-prompt.txt",
+      "promptSha256": "1da5d029aa9d18119f6289cdbe8d146596a366dd9b6f475ede0dbae6c3b9b799",
+      "outputOriginal": "/root/.codex/generated_images/01a12451-8a9e-7140-a682-d7c1aa8efcbf/exec-eb25bf4e-5105-42d8-82c1-2e853918c6fc.png",
+      "outputSha256": "913e9eba820c568f5566158daf3cc341a75e222cb04407c6f6fff18203d70db0",
+      "outputFileModifiedAt": "2026-10-12T04:13:35.076365+00:00",
+      "timeBasis": "original tool-output filesystem mtime; no generation start/duration claim",
+      "inputs": [
+        {
+          "path": "/root/.codex/worktrees/c64d/mr-pinpin-source/docs/storyboard/production/scooby-bath-20261012/native/scene-02.png",
+          "sha256": "8a0846d71e2b2c4c936b5a70310def319619a28ae579db562e5b33cf20ce1fd5"
+        },
+        {
+          "path": "/root/.codex/worktrees/c64d/mr-pinpin-source/docs/storyboard/production/scooby-bath-20261012/native/scene-10.png",
+          "sha256": "97016d72e6e93f620386773bffcd87d41dc0ee7fc6d1c81ed3a8e55b813dca77"
+        }
+      ],
+      "reviewStatus": "agent visually reviewed and selected under user-authorized publication; individual user approval not claimed"
+    },
+    {
+      "id": "scene-13",
+      "tool": "image_gen__imagegen",
+      "prompt": "docs/storyboard/production/scooby-bath-20261012/scene-13-prompt.txt",
+      "promptSha256": "a1f482126326037312bf9c66b4f42e4c5f41b9c30da57081a3bf50fa79ecaad0",
+      "outputOriginal": "/root/.codex/generated_images/01a12451-8a9e-7140-a682-d7c1aa8efcbf/exec-98862c3d-9123-43ef-9d2f-eadefa435c98.png",
+      "outputSha256": "bbc3cdefee031f67246b53335182625191337faa8ff6fa323519b741bc6a3aae",
+      "outputFileModifiedAt": "2026-10-12T04:14:00.296393+00:00",
+      "timeBasis": "original tool-output filesystem mtime; no generation start/duration claim",
+      "inputs": [
+        {
+          "path": "/root/.codex/worktrees/c64d/mr-pinpin-source/docs/storyboard/production/scooby-bath-20261012/native/scene-02.png",
+          "sha256": "8a0846d71e2b2c4c936b5a70310def319619a28ae579db562e5b33cf20ce1fd5"
+        },
+        {
+          "path": "/root/.codex/worktrees/c64d/mr-pinpin-source/docs/storyboard/production/scooby-bath-20261012/native/scene-10.png",
+          "sha256": "97016d72e6e93f620386773bffcd87d41dc0ee7fc6d1c81ed3a8e55b813dca77"
+        }
+      ],
+      "reviewStatus": "agent visually reviewed and selected under user-authorized publication; individual user approval not claimed"
+    },
+    {
+      "id": "scene-14",
+      "tool": "image_gen__imagegen",
+      "prompt": "docs/storyboard/production/scooby-bath-20261012/scene-14-prompt.txt",
+      "promptSha256": "a542925a284de827840dd6d262c4eb48e404e0149bf8946c4a224906c379bf48",
+      "outputOriginal": "/root/.codex/generated_images/01a12451-8a9e-7140-a682-d7c1aa8efcbf/exec-3505d7f9-eb19-4c7a-9577-b77c69e8b342.png",
+      "outputSha256": "98ae02d7657e2ee34419dd1de43dc67b06fb420a42efd262693e31299874ec92",
+      "outputFileModifiedAt": "2026-10-12T04:17:58.392655+00:00",
+      "timeBasis": "original tool-output filesystem mtime; no generation start/duration claim",
+      "inputs": [
+        {
+          "path": "/root/.codex/worktrees/c64d/mr-pinpin-source/docs/storyboard/production/scooby-bath-20261012/native/scene-02.png",
+          "sha256": "8a0846d71e2b2c4c936b5a70310def319619a28ae579db562e5b33cf20ce1fd5"
+        },
+        {
+          "path": "/root/.codex/worktrees/c64d/mr-pinpin-source/docs/storyboard/production/scooby-bath-20261012/native/scene-07.png",
+          "sha256": "9423ad32bb41748bc7af0273ab8c911ffdfb217236a5636213563bd0ffe2cc8d"
+        }
+      ],
+      "reviewStatus": "agent visually reviewed and selected under user-authorized publication; individual user approval not claimed"
+    },
+    {
+      "id": "scene-15",
+      "tool": "image_gen__imagegen",
+      "prompt": "docs/storyboard/production/scooby-bath-20261012/scene-15-prompt.txt",
+      "promptSha256": "6afd81eaca89c7561d48dd81a0884fb9d3ca6fe067c0f6477e7f2c6d1152b093",
+      "outputOriginal": "/root/.codex/generated_images/01a12451-8a9e-7140-a682-d7c1aa8efcbf/exec-b1d150e7-8ce9-4b45-a9d6-0ea4fac3ee57.png",
+      "outputSha256": "71188be758468d27d653d41f64229972c2a7c1fb863c4e7a5fd2d6bd00008f9d",
+      "outputFileModifiedAt": "2026-10-12T04:29:03.601386+00:00",
+      "timeBasis": "original tool-output filesystem mtime; no generation start/duration claim",
+      "inputs": [
+        {
+          "path": "/root/.local/share/pinpin-production/scooby-bath-20261012/geometry/scene-15-v4/prepared/geometry-reference.png",
+          "sha256": "08c74a3c1d193bfc4ce3781e6bdd58e415fe281ce503fb23c85ce41304568cb8"
+        },
+        {
+          "path": "/root/.codex/worktrees/c64d/mr-pinpin-source/docs/storyboard/production/scooby-bath-20261012/native/scene-15-v1.png",
+          "sha256": "337bfddfb246f1dae7931e53b374640765bc3d008305556d53f09afe1ee8965e"
+        }
+      ],
+      "reviewStatus": "agent visually reviewed and selected under user-authorized publication; individual user approval not claimed"
+    },
+    {
+      "id": "scene-16",
+      "tool": "image_gen__imagegen",
+      "prompt": "docs/storyboard/production/scooby-bath-20261012/scene-16-prompt.txt",
+      "promptSha256": "463a5ccc7a10aa7ba3b64fee0e2f1178c4234b0ac6f2d2a215fbfb12d6ab440d",
+      "outputOriginal": "/root/.codex/generated_images/01a12451-8a9e-7140-a682-d7c1aa8efcbf/exec-499bcdc7-84bb-47e4-b616-4f3133a847f3.png",
+      "outputSha256": "70070e88a6a06851563001f1ebd433c5c3357aca267168d6dfd25dfd0a5b0a39",
+      "outputFileModifiedAt": "2026-10-12T04:29:22.910407+00:00",
+      "timeBasis": "original tool-output filesystem mtime; no generation start/duration claim",
+      "inputs": [
+        {
+          "path": "/root/.local/share/pinpin-production/scooby-bath-20261012/geometry/scene-16-v3/prepared/geometry-reference.png",
+          "sha256": "942d85738d13ae27391dd6397ed44a0485c993a5a9f4d69cd2408efbd5a36efb"
+        },
+        {
+          "path": "/root/.codex/worktrees/c64d/mr-pinpin-source/docs/storyboard/production/scooby-bath-20261012/native/scene-16-v1.png",
+          "sha256": "bfb90d229dc46e567f903cd52363645be821febd91aaf1a62e2eb778a44d4c52"
+        }
+      ],
+      "reviewStatus": "agent visually reviewed and selected under user-authorized publication; individual user approval not claimed"
+    },
+    {
+      "id": "title-en",
+      "tool": "image_gen__imagegen",
+      "prompt": "docs/storyboard/production/scooby-bath-20261012/title-en-prompt.txt",
+      "promptSha256": "159d13d9fbc3fd37efc152a207a15958ab0507d6effdc9507888a5ffaced081b",
+      "outputOriginal": "/root/.codex/generated_images/01a12451-8a9e-7140-a682-d7c1aa8efcbf/exec-f5fc26c7-4730-462d-a3c6-2b873bea02b2.png",
+      "outputSha256": "f456d2226e04b5b367c6345da94183c6c0855ed903adadef8e30fabf4c3bb126",
+      "outputFileModifiedAt": "2026-10-12T04:18:40.161700+00:00",
+      "timeBasis": "original tool-output filesystem mtime; no generation start/duration claim",
+      "inputs": [
+        {
+          "path": "/root/.codex/worktrees/c64d/mr-pinpin-source/docs/storyboard/production/scooby-bath-20261012/native/scene-02.png",
+          "sha256": "8a0846d71e2b2c4c936b5a70310def319619a28ae579db562e5b33cf20ce1fd5"
+        },
+        {
+          "path": "/root/.codex/worktrees/c64d/mr-pinpin-source/docs/storyboard/production/scooby-bath-20261012/native/scene-07.png",
+          "sha256": "9423ad32bb41748bc7af0273ab8c911ffdfb217236a5636213563bd0ffe2cc8d"
+        }
+      ],
+      "reviewStatus": "agent visually reviewed and selected under user-authorized publication; individual user approval not claimed"
+    },
+    {
+      "id": "title-ru",
+      "tool": "image_gen__imagegen",
+      "prompt": "docs/storyboard/production/scooby-bath-20261012/title-ru-prompt.txt",
+      "promptSha256": "8185ef80db6ccc4de89bf97949f77af253a544ccd0f2574e559acf92470f5c97",
+      "outputOriginal": "/root/.codex/generated_images/01a12451-8a9e-7140-a682-d7c1aa8efcbf/exec-759ac2cc-eca1-4770-ac53-f27c0b772e34.png",
+      "outputSha256": "0e066f9cc355807231b68f782541cf56e1b0bf6c466c02b5329fc97b027c1207",
+      "outputFileModifiedAt": "2026-10-12T04:22:46.884972+00:00",
+      "timeBasis": "original tool-output filesystem mtime; no generation start/duration claim",
+      "inputs": [
+        {
+          "path": "/root/.codex/worktrees/c64d/mr-pinpin-source/docs/storyboard/production/scooby-bath-20261012/native/title-en.png",
+          "sha256": "f456d2226e04b5b367c6345da94183c6c0855ed903adadef8e30fabf4c3bb126"
+        }
+      ],
+      "reviewStatus": "agent visually reviewed and selected under user-authorized publication; individual user approval not claimed"
+    },
+    {
+      "id": "title-es",
+      "tool": "image_gen__imagegen",
+      "prompt": "docs/storyboard/production/scooby-bath-20261012/title-es-prompt.txt",
+      "promptSha256": "f6a0dec98c3e59968c2e73e8e2f23458cd0762a90c5fecf2b3ccc2b823223c9b",
+      "outputOriginal": "/root/.codex/generated_images/01a12451-8a9e-7140-a682-d7c1aa8efcbf/exec-a156d2b5-54ac-4e37-b03e-48950b51137c.png",
+      "outputSha256": "569ef5e69dd8eba21b62f9643a8c8c604916697dbcbd9ab407f1cc3ffb2a99a6",
+      "outputFileModifiedAt": "2026-10-12T04:23:16.841004+00:00",
+      "timeBasis": "original tool-output filesystem mtime; no generation start/duration claim",
+      "inputs": [
+        {
+          "path": "/root/.codex/worktrees/c64d/mr-pinpin-source/docs/storyboard/production/scooby-bath-20261012/native/title-en.png",
+          "sha256": "f456d2226e04b5b367c6345da94183c6c0855ed903adadef8e30fabf4c3bb126"
+        }
+      ],
+      "reviewStatus": "agent visually reviewed and selected under user-authorized publication; individual user approval not claimed"
+    },
+    {
+      "id": "miniature",
+      "tool": "image_gen__imagegen",
+      "prompt": "docs/storyboard/production/scooby-bath-20261012/miniature-prompt.txt",
+      "promptSha256": "0c3f44aac4de6973195efe4ea79ccabec177f312a5511aee06c8f0bb4067e648",
+      "outputOriginal": "/root/.codex/generated_images/01a12451-8a9e-7140-a682-d7c1aa8efcbf/exec-f8731a7d-add9-49de-9b30-db384a9caf97.png",
+      "outputSha256": "b9377ab0c2e2561658a74e83c9f1d318c69d869a2e964370ed0c67924e10c9b4",
+      "outputFileModifiedAt": "2026-10-12T04:19:01.035723+00:00",
+      "timeBasis": "original tool-output filesystem mtime; no generation start/duration claim",
+      "inputs": [
+        {
+          "path": "/root/.codex/worktrees/c64d/mr-pinpin-source/docs/storyboard/production/scooby-bath-20261012/native/scene-02.png",
+          "sha256": "8a0846d71e2b2c4c936b5a70310def319619a28ae579db562e5b33cf20ce1fd5"
+        },
+        {
+          "path": "/root/.codex/worktrees/c64d/mr-pinpin-source/docs/storyboard/production/scooby-bath-20261012/native/scene-07.png",
+          "sha256": "9423ad32bb41748bc7af0273ab8c911ffdfb217236a5636213563bd0ffe2cc8d"
+        }
+      ],
+      "reviewStatus": "agent visually reviewed and selected under user-authorized publication; individual user approval not claimed"
+    }
+  ],
+  "rejectedNativeAssets": {
+    "scene-15-v1": "unmodeled kitchen cabinet and rug",
+    "scene-16-v1": "unmodeled window/front door/right cabinet/foreground stove"
+  }
+}

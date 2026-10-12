@@ -442,6 +442,45 @@
         "textFree": true,
         "languageIndependent": true
       }
+    },
+    "scooby-bath": {
+      "route": {
+        "story": "scooby-bath"
+      },
+      "status": "approved",
+      "version": 1,
+      "width": 1024,
+      "height": 1536,
+      "placement": "replace",
+      "title": {
+        "en": "Scooby Gets a Bath",
+        "ru": "Скуби принимает ванну",
+        "es": "Scooby se da un baño"
+      },
+      "assets": {
+        "en": "images/published/scooby-bath/title-en.webp",
+        "ru": "images/published/scooby-bath/title-ru.webp",
+        "es": "images/published/scooby-bath/title-es.webp"
+      },
+      "alt": {
+        "en": "Scooby Gets a Bath",
+        "ru": "Скуби принимает ванну",
+        "es": "Scooby se da un baño"
+      },
+      "approval": {
+        "basis": "User requested creation and publication of this new chapter, 2026-10-12.",
+        "reviewer": "Codex visual review and selection",
+        "individualUserImageReview": false
+      },
+      "miniature": {
+        "status": "approved",
+        "version": 1,
+        "width": 1024,
+        "height": 1536,
+        "asset": "images/published/scooby-bath/miniature.webp",
+        "textFree": true,
+        "languageIndependent": true
+      }
     }
   }
 }

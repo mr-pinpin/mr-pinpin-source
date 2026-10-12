@@ -445,6 +445,50 @@
           "url": "https://huggingface.co/buckets/miguelemosreverte/mr-pinpin-archive/resolve/sha256/af/afa5833776c79044edbf495d90b379246aa87f7a9cf63420a4182af99fed3f92/bath-magic-es.pdf"
         }
       }
+    },
+    {
+      "id": "scooby-bath",
+      "title": {
+        "en": "Scooby Gets a Bath",
+        "ru": "Скуби принимает ванну",
+        "es": "Scooby se da un baño"
+      },
+      "cover": {
+        "en": "images/published/scooby-bath/title-en.webp",
+        "ru": "images/published/scooby-bath/title-ru.webp",
+        "es": "images/published/scooby-bath/title-es.webp"
+      },
+      "coverId": "scooby-bath",
+      "miniature": "images/published/scooby-bath/miniature.webp",
+      "pageCount": 17,
+      "storyPageCount": 17,
+      "coloringPageCount": 0,
+      "route": {
+        "story": "scooby-bath"
+      },
+      "pdf": {
+        "en": {
+          "url": "https://huggingface.co/buckets/miguelemosreverte/mr-pinpin-archive/resolve/sha256/ab/ab243246dbdb181d5f31cdae274efd4553394a0cea292578d7a1296eb4264bad/scooby-bath-en.pdf",
+          "filename": "scooby-bath-en.pdf",
+          "bytes": 12918334,
+          "sha256": "ab243246dbdb181d5f31cdae274efd4553394a0cea292578d7a1296eb4264bad",
+          "pageCount": 17
+        },
+        "ru": {
+          "url": "https://huggingface.co/buckets/miguelemosreverte/mr-pinpin-archive/resolve/sha256/c4/c418f9cb8f5fead8a503a0b747f870845c7b393439683e7cbea46eb80667a33f/scooby-bath-ru.pdf",
+          "filename": "scooby-bath-ru.pdf",
+          "bytes": 12907072,
+          "sha256": "c418f9cb8f5fead8a503a0b747f870845c7b393439683e7cbea46eb80667a33f",
+          "pageCount": 17
+        },
+        "es": {
+          "url": "https://huggingface.co/buckets/miguelemosreverte/mr-pinpin-archive/resolve/sha256/cc/cca8e82172f02e542594022b7470d13a13632567b20667e447715fc506beebae/scooby-bath-es.pdf",
+          "filename": "scooby-bath-es.pdf",
+          "bytes": 12905698,
+          "sha256": "cca8e82172f02e542594022b7470d13a13632567b20667e447715fc506beebae",
+          "pageCount": 17
+        }
+      }
     }
   ]
 }

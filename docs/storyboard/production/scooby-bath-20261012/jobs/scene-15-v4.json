@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "id": "scooby-bath-scene-15-v4",
+  "location": "docs/storyboard/locations/pinpin-house/location.json",
+  "camera": {
+    "position": [
+      0.4,
+      -2.3,
+      0.55
+    ],
+    "target": [
+      -0.3,
+      -2.7,
+      0.1
+    ],
+    "lensMm": 24,
+    "width": 768,
+    "height": 512
+  },
+  "doorStates": {
+    "door-front": 75,
+    "door-bath": 0,
+    "door-bedroom": 0
+  },
+  "prompt": {
+    "template": "still",
+    "intent": "Use case: precise-object-edit. Finished landscape 1536x1024 book image. Input image 1 is the exact current measured geometry guide and remains the spatial authority. Input image 2 is the TARGET new Scooby chapter illustration to repair. Preserve its characters, exact identities, faces, body poses, anatomy, paw placement, props, color and warm lighting. Change ONLY its incorrect background architecture/furniture to match input 1 exactly. Match the guide camera, cropping, floor/wall boundaries, visible fixture count and screen placement. Never copy a historic room or add a window. KEEP Papa, PinPin and the single clean Scooby paw with its attached golden lower leg on the ochre towel exactly as target. Remove the invented distant kitchen cabinet and round rug. The guide shows floor, a curved plaster wall/partial door leaf at left/back, and only a clipped portion of a stove at far upper right. Do not add any full cabinet, shelf, room or window. This close-up does not depict whole-dog transit through the doorway.",
+    "characters": "Preserve only the existing target illustration’s Scooby, Papa and PinPin; do not add any other cast.",
+    "action": "Preserve modeled walls, openings, furniture and door state. The dog cushion is a removable story prop, not permanent geometry.",
+    "lighting": "Warm gentle evening lamplight; preserve the rendered openings.",
+    "referenceIds": []
+  },
+  "samples": 8
+}

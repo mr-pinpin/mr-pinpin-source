@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "scooby-bath-scene-15-common",
+  "location": "docs/storyboard/locations/pinpin-house/location.json",
+  "camera": {
+    "position": [
+      1.1,
+      -1.8,
+      1.15
+    ],
+    "target": [
+      0,
+      -3,
+      0.8
+    ],
+    "lensMm": 24,
+    "width": 768,
+    "height": 512
+  },
+  "doorStates": {
+    "door-front": 75,
+    "door-bath": 0,
+    "door-bedroom": 0
+  },
+  "prompt": {
+    "template": "still",
+    "intent": "New Scooby bath chapter: clean dog entering the common room",
+    "characters": "Scooby the large golden-russet fluffy dog, Papa adult hedgehog, and young PinPin; established identity references are supplied separately.",
+    "action": "Preserve modeled walls, openings, furniture and door state. The dog cushion is a removable story prop, not permanent geometry.",
+    "lighting": "Warm gentle evening lamplight; preserve the rendered openings."
+  },
+  "samples": 8
+}
