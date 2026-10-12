@@ -21,7 +21,8 @@ claimed in unprotectable AI output.
 ## Reading behavior
 
 Library covers are native links to the localized HTML reader, opening a new tab
-with `rel=noopener`. A separate labeled button retains the verified PDF download
+with `rel=noopener` and a versioned reader URL so cached older HTML cannot block
+the new reader. A separate labeled button retains the verified PDF download
 and cancellation flow. PDF size appears with the PDF action, not the online page
 count. The first visible shelf's covers load promptly; later covers stay lazy.
 

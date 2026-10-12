@@ -30,6 +30,7 @@
     else if (typeof route?.chapter === 'string' && /^[1-9][0-9]*$/.test(route.chapter)) url.searchParams.set('chapter', route.chapter);
     else return null;
     url.searchParams.set('lang', lang);
+    url.searchParams.set('v', '20261012-reading');
     return url.href;
   }
   function renderDownloadState() {
