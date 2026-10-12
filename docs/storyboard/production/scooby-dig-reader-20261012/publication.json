@@ -1,0 +1,44 @@
+{
+  "status": "published",
+  "source_commit": "0b2454c7ea0798e6fc3f67d0c0a334d3b3dd8888",
+  "official_commit": "6fd48903ab3537c8ec5b86e6d3a52cbf0db93d04",
+  "release_sha256": "2b54a6c732538ae42692a95dabee85dee717366bafc97156bdd6d188f49091bc",
+  "archive_sha256": "86ff90a9615d7e645404e20e333931902581393287c3e0f24ae94db2f3e93d60",
+  "artifact_bytes": 928437387,
+  "artifact_files": 993,
+  "reader_pages": 32,
+  "added_digging_images": 6,
+  "languages": [
+    "en",
+    "ru",
+    "es"
+  ],
+  "anonymous_upload_verified": true,
+  "anonymous_materialization_verified": true,
+  "existing_media_changed": 0,
+  "focused_asset_tests": {
+    "tests": 57,
+    "passed": 56,
+    "failed": 0,
+    "skipped": 1
+  },
+  "chapter_preservation_tests_passed": 4,
+  "public_pdf_checks_passed": 3,
+  "deployment_url": "https://github.com/mr-pinpin/mr-pinpin.github.io/actions/runs/38217363960",
+  "deployment_status": "success",
+  "library_url": "https://mr-pinpin.github.io/storyboard/library.html?lang=en&v=20261012-reading",
+  "reader_url": "https://mr-pinpin.github.io/storyboard/?story=scooby-bath&lang=en&v=20261012-reading",
+  "live_reader_verified": true,
+  "live_model_library_scripts_html_checksums_verified": true,
+  "live_behavior": {
+    "cover_new_tab": true,
+    "initial_mobile_image_starts": 4,
+    "initial_desktop_image_starts": 2,
+    "reading_pdf_storage_requests": 0,
+    "deferred_end_page_jump": true,
+    "complete_print_preparation": true,
+    "native_lazy_fallback": true,
+    "english_pdf_button_file_hash_verified": true
+  },
+  "source_workflow_scope": "Focused asset tests and production build pass. Unchanged Studio suite failures documented in the prior publication pack remain outside this chapter/reader task; no full-source-CI success is claimed."
+}

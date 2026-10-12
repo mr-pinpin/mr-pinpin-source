@@ -41,3 +41,8 @@ observer fallback, mobile/desktop EN/RU/ES layout and an actual hashed PDF downl
 Use `PLAYWRIGHT_MODULE=/installed/playwright PINPIN_READER_BASE=https://mr-pinpin.github.io/`
 and pass a new external evidence directory. Full imagegen provenance, PDF export,
 archive receipts and publication/live records accompany this pack.
+
+Published and verified in EN/RU/ES at 390px and 1440px. `publication.json` and
+`live-reading-proof.json` record the official release and live browser evidence.
+Open https://mr-pinpin.github.io/storyboard/library.html?lang=en&v=20261012-reading
+for a fresh library page; existing artwork and earlier releases remain preserved.
