@@ -3,7 +3,7 @@
   if (window.pinpinPDFRoute?.active) return;
   const $ = id => document.getElementById(id);
   let artwork, translations, book, published, edition, story, language = 'ru', printing = false;
-  let loadedKey, navigation = 0;
+  let loadedKey, navigation = 0, imageObserver;
   const navigationLabels = {
     en:{map:'Map', back:'Back to map', language:'Language', navigation:'Book navigation', loading:'Loading the book…'},
     es:{map:'Mapa', back:'Volver al mapa', language:'Idioma', navigation:'Navegación del libro', loading:'Cargando el libro…'},
@@ -58,6 +58,29 @@
     if (className) node.className = className;
     if (text !== undefined) node.textContent = text;
     return node;
+  }
+
+  function loadImage(image) {
+    if (!image.dataset.src) return;
+    image.src = image.dataset.src;
+    delete image.dataset.src;
+  }
+  function observeImages(article, preview) {
+    imageObserver?.disconnect();
+    imageObserver = null;
+    const pending = [...article.querySelectorAll('img[data-src]')];
+    if (preview || !('IntersectionObserver' in window)) {
+      pending.forEach(loadImage);
+      return;
+    }
+    imageObserver = new IntersectionObserver(entries => {
+      for (const entry of entries) if (entry.isIntersecting && entry.target.isConnected) {
+        entry.target.loading = 'eager';
+        loadImage(entry.target);
+        imageObserver.unobserve(entry.target);
+      }
+    }, {rootMargin: `${Math.max(400, innerHeight)}px 0px`});
+    pending.forEach(image => imageObserver.observe(image));
   }
 
   function render(readingPosition = 0) {
@@ -122,6 +145,7 @@
         link.href = destination;
         if (part.storyId === story.id) link.setAttribute('aria-current', 'page');
         const image = element('img');
+        image.loading = 'lazy'; image.decoding = 'async'; image.fetchPriority = 'low';
         image.src = `images/published/elder-cycle/${part.id}-miniature.webp`;
         image.alt = ''; image.width = 1024; image.height = 1536;
         link.append(image, element('span', '', `${part.number || index + 1}. ${part.title[language]}`));
@@ -163,14 +187,15 @@
         const asset = images.find(image => image.scene === index + 1);
         const figure = element('figure', 'scene-art');
         const image = element('img');
-        image.src = asset.src;
+        if (index < 2 || preview) image.src = asset.src;
+        else image.dataset.src = asset.src;
         image.alt = asset.alt[language] || asset.alt.en;
         image.width = asset.width;
         image.height = asset.height;
         if (index === 0 && titleCover?.placement === 'replace') {
           window.titleCovers.apply(image, titleCover, language, asset);
         }
-        image.loading = index === 0 || preview ? 'eager' : 'lazy';
+        image.loading = index < 2 || preview ? 'eager' : 'lazy';
         image.decoding = 'async';
         if (index === 0) image.fetchPriority = 'high';
         figure.append(image);
@@ -210,6 +235,7 @@
       if (!article.isConnected) return;
       resizePreview();
       restorePosition(readingPosition);
+      observeImages(article, preview);
       updateProgress();
     });
   }
@@ -284,7 +310,7 @@
   // Decode every illustration before opening the print dialog, including lazy images.
   async function preparePrint() {
     const images = [...document.querySelectorAll('.scene-art img')];
-    images.forEach(image => { image.loading = 'eager'; });
+    images.forEach(image => { image.loading = 'eager'; loadImage(image); });
     await Promise.all(images.map(image => image.decode()));
     await document.fonts.ready;
   }
@@ -311,7 +337,7 @@
     }
   };
   addEventListener('beforeprint', () =>
-    document.querySelectorAll('.scene-art img').forEach(image => { image.loading = 'eager'; }));
+    document.querySelectorAll('.scene-art img').forEach(image => { image.loading = 'eager'; loadImage(image); }));
   document.querySelectorAll('#reader-languages [data-lang]').forEach(button => {
     button.onclick = () => {
       if (printing) return;

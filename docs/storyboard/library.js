@@ -3,9 +3,9 @@
   const $ = id => document.getElementById(id);
   const languages = ['ru','en','es'];
   const words = {
-    ru:{title:'Наша библиотека',eyebrow:'В гостях у Пин-Пина',intro:'Выберите книжку, чтобы скачать её и читать вместе.',home:'Домой',atlas:'Карта леса',search:'Найти книжку',loading:'Загружаем библиотеку…',error:'Не получилось открыть библиотеку. Попробуйте ещё раз.',retry:'Попробовать ещё раз',empty:'Такой книжки пока нет на этой полке.',count:n=>`Книжек на полке: ${n}`,pages:n=>`${n} стр.`,coloring:'3 страницы для раскрашивания',download:'Скачать PDF',unavailable:'Книжка готовится',note:'Книжки для семейного чтения · PDF',permissions:'Правила использования',original:'Оригинальная книга',cancel:'Отменить',downloading:'Скачиваем',checking:'Проверяем книжку…',done:'Книжка готова. Скачивание началось.',failed:'Не получилось скачать книжку. Нажмите на обложку, чтобы попробовать ещё раз.',cancelled:'Скачивание отменено.',shelf:n=>`Полка ${n}`,skip:'Перейти к книжкам',language:'Язык книжек'},
-    en:{title:'Our little library',eyebrow:'At home with PinPin',intro:'Choose a book to download and read together.',home:'Back home',atlas:'Forest map',search:'Find a book',loading:'Opening the library…',error:'The library could not be opened. Please try again.',retry:'Try again',empty:'No books on this shelf match your search.',count:n=>`${n} books on the shelf`,pages:n=>`${n} pages`,coloring:'3 coloring pages',download:'Download PDF',unavailable:'Book coming soon',note:'Books for reading together · PDF',permissions:'Permissions',original:'Original book',cancel:'Cancel',downloading:'Downloading',checking:'Checking your book…',done:'Your book is ready. The download has started.',failed:'The book could not be downloaded. Select its cover to try again.',cancelled:'Download cancelled.',shelf:n=>`Shelf ${n}`,skip:'Skip to the books',language:'Book language'},
-    es:{title:'Nuestra biblioteca',eyebrow:'En casa de PinPin',intro:'Elige un libro para descargarlo y leer juntos.',home:'Volver a casa',atlas:'Mapa del bosque',search:'Buscar un libro',loading:'Abriendo la biblioteca…',error:'No se pudo abrir la biblioteca. Inténtalo de nuevo.',retry:'Intentar de nuevo',empty:'Ningún libro de esta estantería coincide con la búsqueda.',count:n=>`${n} libros en la estantería`,pages:n=>`${n} páginas`,coloring:'3 páginas para colorear',download:'Descargar PDF',unavailable:'Libro en preparación',note:'Libros para leer en familia · PDF',permissions:'Permisos',original:'Libro original',cancel:'Cancelar',downloading:'Descargando',checking:'Comprobando tu libro…',done:'Tu libro está listo. La descarga ha comenzado.',failed:'No se pudo descargar el libro. Selecciona su portada para intentarlo de nuevo.',cancelled:'Descarga cancelada.',shelf:n=>`Estante ${n}`,skip:'Ir a los libros',language:'Idioma de los libros'}
+    ru:{title:'Наша библиотека',eyebrow:'В гостях у Пин-Пина',intro:'Нажмите на обложку, чтобы читать, или скачайте PDF.',home:'Домой',atlas:'Карта леса',search:'Найти книжку',loading:'Загружаем библиотеку…',error:'Не получилось открыть библиотеку. Попробуйте ещё раз.',retry:'Попробовать ещё раз',empty:'Такой книжки пока нет на этой полке.',count:n=>`Книжек на полке: ${n}`,pages:n=>`${n} стр.`,coloring:'3 страницы для раскрашивания',read:'Читать в новой вкладке',download:'Скачать PDF',unavailable:'Книжка готовится',note:'Книжки для семейного чтения · PDF',permissions:'Правила использования',original:'Оригинальная книга',cancel:'Отменить',downloading:'Скачиваем',checking:'Проверяем книжку…',done:'Книжка готова. Скачивание началось.',failed:'Не получилось скачать книжку. Нажмите «Скачать PDF», чтобы попробовать ещё раз.',cancelled:'Скачивание отменено.',shelf:n=>`Полка ${n}`,skip:'Перейти к книжкам',language:'Язык книжек'},
+    en:{title:'Our little library',eyebrow:'At home with PinPin',intro:'Open a cover to read, or download a PDF.',home:'Back home',atlas:'Forest map',search:'Find a book',loading:'Opening the library…',error:'The library could not be opened. Please try again.',retry:'Try again',empty:'No books on this shelf match your search.',count:n=>`${n} books on the shelf`,pages:n=>`${n} pages`,coloring:'3 coloring pages',read:'Read in a new tab',download:'Download PDF',unavailable:'Book coming soon',note:'Books for reading together · PDF',permissions:'Permissions',original:'Original book',cancel:'Cancel',downloading:'Downloading',checking:'Checking your book…',done:'Your book is ready. The download has started.',failed:'The book could not be downloaded. Select Download PDF to try again.',cancelled:'Download cancelled.',shelf:n=>`Shelf ${n}`,skip:'Skip to the books',language:'Book language'},
+    es:{title:'Nuestra biblioteca',eyebrow:'En casa de PinPin',intro:'Abre una portada para leer o descarga el PDF.',home:'Volver a casa',atlas:'Mapa del bosque',search:'Buscar un libro',loading:'Abriendo la biblioteca…',error:'No se pudo abrir la biblioteca. Inténtalo de nuevo.',retry:'Intentar de nuevo',empty:'Ningún libro de esta estantería coincide con la búsqueda.',count:n=>`${n} libros en la estantería`,pages:n=>`${n} páginas`,coloring:'3 páginas para colorear',read:'Leer en una pestaña nueva',download:'Descargar PDF',unavailable:'Libro en preparación',note:'Libros para leer en familia · PDF',permissions:'Permisos',original:'Libro original',cancel:'Cancelar',downloading:'Descargando',checking:'Comprobando tu libro…',done:'Tu libro está listo. La descarga ha comenzado.',failed:'No se pudo descargar el libro. Selecciona Descargar PDF para intentarlo de nuevo.',cancelled:'Descarga cancelada.',shelf:n=>`Estante ${n}`,skip:'Ir a los libros',language:'Idioma de los libros'}
   };
   const language = () => languages.includes(new URL(location.href).searchParams.get('lang')) ? new URL(location.href).searchParams.get('lang') : 'ru';
   let chapters = [], loaded = false, loading = false, task = null, lastMessage = '';
@@ -22,6 +22,15 @@
     if (typeof value !== 'string' || !value) return null;
     try { const url = new URL(value, location.href); return url.origin === location.origin && ['http:','https:'].includes(url.protocol) ? url.href : null; }
     catch { return null; }
+  }
+  function readerURL(chapter, lang) {
+    const route = chapter.route;
+    const url = new URL('./', location.href);
+    if (typeof route?.story === 'string' && /^[a-z0-9-]+$/.test(route.story)) url.searchParams.set('story', route.story);
+    else if (typeof route?.chapter === 'string' && /^[1-9][0-9]*$/.test(route.chapter)) url.searchParams.set('chapter', route.chapter);
+    else return null;
+    url.searchParams.set('lang', lang);
+    return url.href;
   }
   function renderDownloadState() {
     const lang = language(), ui = words[lang];
@@ -62,32 +71,33 @@
       button.setAttribute('aria-busy', String(task?.chapter.id === chapter.id));
     });
   }
-  function magazine(chapter, lang) {
+  function magazine(chapter, lang, index) {
     const ui = words[lang], title = localized(chapter.title, lang);
     const article = element('article', 'magazine'); article.dataset.story = chapter.id;
     const art = element('div','magazine-art');
-    const button = element('button','magazine-button'); button.type = 'button'; button.dataset.download = chapter.id;
-    button.setAttribute('aria-labelledby', `title-${chapter.id}`); button.setAttribute('aria-describedby', `hint-${chapter.id}`);
+    const link = element('a','magazine-button'); link.href = readerURL(chapter, lang); link.target = '_blank'; link.rel = 'noopener'; link.dataset.read = chapter.id;
+    link.setAttribute('aria-labelledby', `title-${chapter.id}`); link.setAttribute('aria-describedby', `read-hint-${chapter.id}`);
     const frame = element('span','cover-frame');
     const image = element('img'); image.width = 1024; image.height = 1536; image.alt = '';
     const miniature = Object.values(chapter.cover || {}).includes(chapter.miniature) ? null : chapter.miniature;
+    image.loading = index < columns() ? 'eager' : 'lazy'; image.decoding = 'async'; if (index === 0) image.fetchPriority = 'high';
     image.src = pictureURL(miniature) || pictureURL(localized(chapter.cover, lang)) || '';
-    image.loading = 'lazy'; image.decoding = 'async';
     const fallback = pictureURL(localized(chapter.cover, lang));
     image.addEventListener('error', () => { if (fallback && image.src !== fallback) image.src = fallback; }, {once:true});
     frame.append(image);
-    const mark = element('span','download-mark'); mark.setAttribute('aria-hidden','true');
-    mark.innerHTML = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M12 3v12m-5-5 5 5 5-5M5 16v4h14v-4"/></svg>';
-    frame.append(mark); button.append(frame); art.append(button);
+    const mark = element('span','read-mark'); mark.setAttribute('aria-hidden','true');
+    mark.innerHTML = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M14 3h7v7m0-7L10 14M10 3H3v18h18v-7"/></svg>';
+    frame.append(mark); link.append(frame); art.append(link);
     const heading = element('h2','magazine-title',title); heading.id = `title-${chapter.id}`;
     const pdf = chapter.pdf?.[lang];
     const size = pdf?.bytes ? ` · ${new Intl.NumberFormat(lang,{maximumFractionDigits:1}).format(pdf.bytes/1048576)} MB` : '';
-    const meta = element('p','magazine-meta',`${ui.pages(pdf?.pageCount || chapter.pageCount)}${size}`);
-    const hint = element('p','download-hint',window.libraryDownload.validPDF(pdf) ? ui.download : ui.unavailable); hint.id = `hint-${chapter.id}`;
+    const meta = element('p','magazine-meta',ui.pages(chapter.storyPageCount || chapter.pageCount));
+    const hint = element('p','read-hint',ui.read); hint.id = `read-hint-${chapter.id}`;
+    const button = element('button','download-button',window.libraryDownload.validPDF(pdf) ? ui.download + size : ui.unavailable); button.type = 'button'; button.dataset.download = chapter.id; button.setAttribute('aria-label', `${ui.download}: ${title}`);
     article.append(art,heading,meta);
     if (chapter.coloringPageCount === 3) article.append(element('p','magazine-meta coloring-note',ui.coloring));
     if (chapter.editionLabel) article.append(element('span','edition-label',localized(chapter.editionLabel,lang)));
-    article.append(hint); button.addEventListener('click',()=>startDownload(chapter));
+    article.append(hint,button); button.addEventListener('click',()=>startDownload(chapter));
     return article;
   }
   function render() {
@@ -106,7 +116,7 @@
     const fragment = document.createDocumentFragment();
     for (let start=0;start<shown.length;start+=columns()) {
       const shelf = element('section','shelf'); shelf.setAttribute('aria-label',ui.shelf(Math.floor(start/columns())+1));
-      shown.slice(start,start+columns()).forEach(chapter=>shelf.append(magazine(chapter,lang))); fragment.append(shelf);
+      shown.slice(start,start+columns()).forEach((chapter,index)=>shelf.append(magazine(chapter,lang,start+index))); fragment.append(shelf);
     }
     $('chapter-library').replaceChildren(fragment); $('chapter-library').setAttribute('aria-busy',String(loading));
     if (loaded && !shown.length) $('library-status').textContent = ui.empty;
@@ -125,7 +135,7 @@
       if (catalog.schemaVersion !== 1 || !Array.isArray(catalog.chapters)) throw new Error('Invalid catalog');
       const seen = new Set();
       chapters = catalog.chapters.map(chapter => {
-        if (!/^[a-z0-9-]+$/.test(chapter.id) || seen.has(chapter.id) || !languages.every(lang=>typeof chapter.title?.[lang]==='string') || !Number.isInteger(chapter.pageCount) || chapter.pageCount<1) throw new Error('Invalid chapter');
+        if (!/^[a-z0-9-]+$/.test(chapter.id) || seen.has(chapter.id) || !languages.every(lang=>typeof chapter.title?.[lang]==='string') || !Number.isInteger(chapter.pageCount) || chapter.pageCount<1 || !readerURL(chapter, language())) throw new Error('Invalid chapter');
         seen.add(chapter.id); return chapter;
       });
       loaded = true; loading = false; render();
