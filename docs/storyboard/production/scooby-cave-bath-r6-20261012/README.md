@@ -2,7 +2,9 @@
 
 Completed 215 narrative scenes plus localized title, in English, Russian and Spanish.
 Release target: https://mr-pinpin.github.io/chapter-scooby-bath/storyboard/?story=scooby-bath&lang=en
-Publication is complete only after the selected deployment is verified.
+Published and verified 2026-10-13: 216 pages in all three languages.
+Release: `7c9b5542ee82650d31dcf48d5261c8ee5234712e72ee19cdbb65ea91187b9983`.
+Deployment ledger: https://github.com/mr-pinpin/chapter-scooby-bath
 
 - [Overview](OVERVIEW.md): four-day story, subplots, cast roles and magic rules.
 - [Ordered beats](BEATS.md): 215 narrative scenes plus localized title, matching Bath Magic's 216 reader pages.
