@@ -1,0 +1,23 @@
+{
+  "id": "scene-215-identity-v1",
+  "status": "prepared-identity-correction-only",
+  "promptPath": "docs/storyboard/production/scooby-cave-r7-20261013/prompts/scene-215-identity-v1.txt",
+  "promptSha256": "1ec3b6369bbf2b43459c0c12bd26fe9005c1a4a7f6bca6f424068fb71663e694",
+  "references": [
+    {
+      "role": "Existing final page; edit target and current composition only",
+      "path": "docs/storyboard/images/published/scooby-bath/r6/scene-215.webp",
+      "sha256": "f7ac09fd3ac119c94a0a2c7d9bd9e2a175e28d8292331fadb0b86d85b98daf65"
+    },
+    {
+      "role": "Approved Scooby anatomy, coat markings, ears and adult proportions; do not copy sitting pose or expression",
+      "path": "docs/storyboard/images/published/bath-magic/r17/scene-03i.webp",
+      "sha256": "d4196a146376951d4b9555290458cbb7df30567185c99877014f34ac17198d41"
+    },
+    {
+      "role": "Approved Scooby inside house: same adult identity and scale; not a room camera/geometry instruction",
+      "path": "docs/storyboard/images/published/bath-magic/r24/scene-05g2.webp",
+      "sha256": "8ad699a25f9f7f7c419a9d06e3ed11a2f2631fab22da4cb0cb1b7cdef8f56c4c"
+    }
+  ]
+}

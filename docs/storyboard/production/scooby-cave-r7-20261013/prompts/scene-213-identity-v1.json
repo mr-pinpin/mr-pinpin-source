@@ -1,0 +1,23 @@
+{
+  "id": "scene-213-identity-v1",
+  "promptPath": "docs/storyboard/production/scooby-cave-r7-20261013/prompts/scene-213-identity-v1.txt",
+  "promptSha256": "358c8801a330f49b21e0ef91fd01d6c3f7c246dcfd9f93dfb947bcc331bcefa4",
+  "references": [
+    {
+      "role": "Edit target: existing published home scene",
+      "path": "docs/storyboard/images/published/scooby-bath/r6/scene-213.webp",
+      "sha256": "99a96a76fef26bb72fc07382ffb3bd028672ce0a89c1fbfaa49fccec1afb6caf"
+    },
+    {
+      "role": "Approved Scooby anatomy only",
+      "path": "docs/storyboard/images/published/bath-magic/r17/scene-03i.webp",
+      "sha256": "d4196a146376951d4b9555290458cbb7df30567185c99877014f34ac17198d41"
+    },
+    {
+      "role": "Approved adult Scooby in house: anatomy and scale only",
+      "path": "docs/storyboard/images/published/bath-magic/r24/scene-05g2.webp",
+      "sha256": "8ad699a25f9f7f7c419a9d06e3ed11a2f2631fab22da4cb0cb1b7cdef8f56c4c"
+    }
+  ],
+  "status": "prepared-identity-correction-only"
+}

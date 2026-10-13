@@ -1,0 +1,109 @@
+[
+  {
+    "id": "scene-215-identity-v1",
+    "status": "agent-reviewed-identity-candidate-not-published",
+    "promptPath": "docs/storyboard/production/scooby-cave-r7-20261013/prompts/scene-215-identity-v1.txt",
+    "promptSha256": "1ec3b6369bbf2b43459c0c12bd26fe9005c1a4a7f6bca6f424068fb71663e694",
+    "references": [
+      {
+        "role": "Existing final page; edit target and current composition only",
+        "path": "docs/storyboard/images/published/scooby-bath/r6/scene-215.webp",
+        "sha256": "f7ac09fd3ac119c94a0a2c7d9bd9e2a175e28d8292331fadb0b86d85b98daf65"
+      },
+      {
+        "role": "Approved Scooby anatomy, coat markings, ears and adult proportions; do not copy sitting pose or expression",
+        "path": "docs/storyboard/images/published/bath-magic/r17/scene-03i.webp",
+        "sha256": "d4196a146376951d4b9555290458cbb7df30567185c99877014f34ac17198d41"
+      },
+      {
+        "role": "Approved Scooby inside house: same adult identity and scale; not a room camera/geometry instruction",
+        "path": "docs/storyboard/images/published/bath-magic/r24/scene-05g2.webp",
+        "sha256": "8ad699a25f9f7f7c419a9d06e3ed11a2f2631fab22da4cb0cb1b7cdef8f56c4c"
+      }
+    ],
+    "tool": "built-in image_gen.imagegen",
+    "toolOriginal": "/root/.codex/generated_images/01a12451-8a9e-7140-a682-d7c1aa8efcbf/exec-cad43b55-4b99-4ec2-8f5f-9cd3472db620.png",
+    "nativePath": "docs/storyboard/production/scooby-cave-r7-20261013/native/scene-215-identity-v1.png",
+    "nativeSha256": "f2a775f2d5097ee917263bc843a62c27bf8318d92d8055ad13c1f9b9262cc89c",
+    "review": "Removes noncanonical white facial blaze and white socks; longer mature muzzle and tawny ears/body. Sleep action retained. Furniture is inherited from existing image, not measured-house validation."
+  },
+  {
+    "id": "scene-052-identity-v1",
+    "promptPath": "docs/storyboard/production/scooby-cave-r7-20261013/prompts/scene-052-identity-v1.txt",
+    "promptSha256": "6be35e9a1109dbb4bfed0dfd2800f0f6cc61b6c5c240c365f0cea7c1ac92633f",
+    "references": [
+      {
+        "role": "Edit target: existing published home scene",
+        "path": "docs/storyboard/images/published/scooby-bath/r6/scene-052.webp",
+        "sha256": "483f153f3d51e1c59fe20a781d1b46badaeaf791fcca4c1abeb46586a0b56416"
+      },
+      {
+        "role": "Approved Scooby anatomy only",
+        "path": "docs/storyboard/images/published/bath-magic/r17/scene-03i.webp",
+        "sha256": "d4196a146376951d4b9555290458cbb7df30567185c99877014f34ac17198d41"
+      },
+      {
+        "role": "Approved adult Scooby in house: anatomy and scale only",
+        "path": "docs/storyboard/images/published/bath-magic/r24/scene-05g2.webp",
+        "sha256": "8ad699a25f9f7f7c419a9d06e3ed11a2f2631fab22da4cb0cb1b7cdef8f56c4c"
+      }
+    ],
+    "status": "agent-reviewed-identity-candidate-not-published",
+    "tool": "built-in image_gen.imagegen",
+    "toolOriginal": "/root/.codex/generated_images/01a12451-8a9e-7140-a682-d7c1aa8efcbf/exec-a7bd12e7-a843-4cb3-bb52-14b52eae1286.png",
+    "nativePath": "docs/storyboard/production/scooby-cave-r7-20261013/native/scene-052-identity-v1.png",
+    "nativeSha256": "db9af9755110c6a0888f51a69d0e0bbc79e30a446fe262588c89718df0cd2ee3",
+    "review": "Removes central facial blaze and lengthens mature muzzle; original room framing and action preserved. Native room geometry is inherited, not measured validated. Tail tip remains too pale and the resting brow needs a softer register; correction still required before selection."
+  },
+  {
+    "id": "scene-213-identity-v1",
+    "promptPath": "docs/storyboard/production/scooby-cave-r7-20261013/prompts/scene-213-identity-v1.txt",
+    "promptSha256": "358c8801a330f49b21e0ef91fd01d6c3f7c246dcfd9f93dfb947bcc331bcefa4",
+    "references": [
+      {
+        "role": "Edit target: existing published home scene",
+        "path": "docs/storyboard/images/published/scooby-bath/r6/scene-213.webp",
+        "sha256": "99a96a76fef26bb72fc07382ffb3bd028672ce0a89c1fbfaa49fccec1afb6caf"
+      },
+      {
+        "role": "Approved Scooby anatomy only",
+        "path": "docs/storyboard/images/published/bath-magic/r17/scene-03i.webp",
+        "sha256": "d4196a146376951d4b9555290458cbb7df30567185c99877014f34ac17198d41"
+      },
+      {
+        "role": "Approved adult Scooby in house: anatomy and scale only",
+        "path": "docs/storyboard/images/published/bath-magic/r24/scene-05g2.webp",
+        "sha256": "8ad699a25f9f7f7c419a9d06e3ed11a2f2631fab22da4cb0cb1b7cdef8f56c4c"
+      }
+    ],
+    "status": "agent-reviewed-identity-candidate-not-published",
+    "tool": "built-in image_gen.imagegen",
+    "toolOriginal": "/root/.codex/generated_images/01a12451-8a9e-7140-a682-d7c1aa8efcbf/exec-446d4ff1-004b-4f53-9109-4106177f3730.png",
+    "nativePath": "docs/storyboard/production/scooby-cave-r7-20261013/native/scene-213-identity-v1.png",
+    "nativeSha256": "92a96398bbc6bbfa6b82608fd25241be0714d812aa5053f30b42cc96d1b2c647",
+    "review": "Removes central facial blaze and lengthens mature muzzle; original room framing and action preserved. Native room geometry is inherited, not measured validated. Full-family hand/infant support retained; sleep brow should be reviewed together with other home shots before selection."
+  },
+  {
+    "id": "scene-052-identity-v2",
+    "promptPath": "docs/storyboard/production/scooby-cave-r7-20261013/prompts/scene-052-identity-v2.txt",
+    "promptSha256": "6ffbb88283feff50ddf0cb3eb00e89888a5e9c2d594567a02371995452f1c357",
+    "references": [
+      {
+        "role": "Existing identity correction edit target",
+        "path": "docs/storyboard/production/scooby-cave-r7-20261013/native/scene-052-identity-v1.png",
+        "sha256": "db9af9755110c6a0888f51a69d0e0bbc79e30a446fe262588c89718df0cd2ee3"
+      },
+      {
+        "role": "Approved canonical Scooby coat and entire tail colour",
+        "path": "docs/storyboard/images/published/bath-magic/r17/scene-03i.webp",
+        "sha256": "d4196a146376951d4b9555290458cbb7df30567185c99877014f34ac17198d41"
+      }
+    ],
+    "status": "agent-reviewed-identity-candidate-not-published",
+    "tool": "built-in image_gen.imagegen",
+    "toolOriginal": "/root/.codex/generated_images/01a12451-8a9e-7140-a682-d7c1aa8efcbf/exec-12a36b36-ce41-45e3-ba5a-cc1169325e91.png",
+    "nativePath": "docs/storyboard/production/scooby-cave-r7-20261013/native/scene-052-identity-v2.png",
+    "nativeSha256": "4f1400de85b074970f32bb8cc07ae596e97de75916229774a3e6061bdb2311d2",
+    "review": "Pale tail-tip patch removed, mature tawny identity and sleeping pose retained. Local identity trial, not a house geometry or full acting certification."
+  }
+]
