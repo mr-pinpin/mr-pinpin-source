@@ -1,0 +1,54 @@
+{
+  "schemaVersion": 1,
+  "stage": "build",
+  "locationId": "scooby-lake-rotunda",
+  "locationVersion": "0.2.0",
+  "inputs": {
+    "docs/storyboard/production/scooby-cave-r7-20261013/geometry/location.json": "592e5b2ed3f5d8ec44f5d432f21e286578deb3cf5cdb92fa553f847b470290fe",
+    "docs/storyboard/production/scooby-cave-r7-20261013/geometry/rotunda-plan.json": "7483a5796ed0869810bb2defc201fe92e86cb9d5acc159f1c6e30bc9011f2de2",
+    "docs/storyboard/production/scooby-cave-r7-20261013/geometry/build_rotunda.py": "7b6c0d2b1d4fba58a12ea9ebaf7a41d47592a63e1ae9d4b3f5c11e2a485d3445",
+    "tools/locations/contracts.py": "9cd6002a280d6b6234878439e667a934629f377ae87aeb8fdbc04d0eb1f38b5c",
+    "tools/locations/png_atlas.py": "7eb3ce2e2ccf61532e26955fac9d58f7dad69c0e7acb5701f1a02aeebca4e48d",
+    "tools/locations/blender_worker.py": "ac6ac1ea59a94d087d1d9b9ee7fc80096d5514e4eb7483d0b2709a05eee108e7",
+    "tools/locations/cli.py": "360f97e1afa245c5be10824d4a235f85d896b692261f5839ed9291ab38f7b481",
+    "tools/locations/tests/test_contracts.py": "d5b9441767992ce8dbc13e6a0e087124cef2b7d80f720adb16fb836116a70e8e",
+    "tools/locations/tests/blender_door_state.py": "771e77287731df8cb74ea996210c045c46bea3ac2e2737269ff773daa6725fed",
+    "tools/locations/builder/plan_geometry.py": "f80c11e855deec10e7ce07d4114fd2a410af50d9e85713b43efc606fc4619912",
+    "tools/locations/builder/build_house.py": "34946231d4922c0454064b3c5961dd6ce448bdf2ef5ec9c6326bb41af38f8d1b"
+  },
+  "artifacts": [
+    {
+      "path": "base.blend",
+      "sha256": "c64fadd97b313b17af92c255c5a8d208443bf3fc1a7adbe315f6ac73e7984654",
+      "bytes": 1514791
+    },
+    {
+      "path": "geometry-manifest.json",
+      "sha256": "69554298917d29f0188c141e04b57933b2d51d43fae0cffc713d21976dc3aaa4",
+      "bytes": 1424
+    },
+    {
+      "path": "plan-used.json",
+      "sha256": "7483a5796ed0869810bb2defc201fe92e86cb9d5acc159f1c6e30bc9011f2de2",
+      "bytes": 15908
+    }
+  ],
+  "supplement": {
+    "collection": "05 Inferred panorama supplement",
+    "inference": "Inferred reversible rendering additions, not canonical book architecture",
+    "configuration": {
+      "ceiling": {
+        "enabled": false,
+        "z": 13.3
+      }
+    },
+    "objects": []
+  },
+  "doorStates": [],
+  "structuralCheck": {
+    "pass": true,
+    "nonmanifoldEdges": 0,
+    "volumeM3": 314.4454582422053
+  },
+  "blenderVersion": "4.5.14 LTS"
+}

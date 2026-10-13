@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "id": "scooby-rotunda-shore-reverse",
+  "location": "docs/storyboard/production/scooby-cave-r7-20261013/geometry/location.json",
+  "samples": 12,
+  "camera": {
+    "position": [
+      -8,
+      3,
+      1.15
+    ],
+    "target": [
+      -6,
+      -7,
+      3
+    ],
+    "horizontalFovDegrees": 90,
+    "width": 1536,
+    "height": 1024,
+    "allowOutside": false
+  },
+  "doorStates": {},
+  "prompt": {
+    "template": "still",
+    "referenceIds": [
+      "original-cathedral",
+      "original-garden",
+      "original-expansion"
+    ],
+    "intent": "Empty underground lake under one huge domed cupola with one open circular oculus; preserve recorded origin, shore, opening, waterline, occluder and light positions.",
+    "characters": "No people, animals or statues.",
+    "action": "Environment establishing reference only; not a chapter scene.",
+    "lighting": "Daylight through central open oculus, warm living vine lights on fixed west/east shelves. No unexplained extra skylights or artificial torches."
+  }
+}

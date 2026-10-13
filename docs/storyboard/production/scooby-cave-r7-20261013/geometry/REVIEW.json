@@ -1,0 +1,56 @@
+{
+  "reviewedAt": "2026-10-13T08:26:28.168459+00:00",
+  "status": "reviewed-authored-blocking-and-cupola-composition-candidate-not-published",
+  "geometryPlan": "geometry/rotunda-plan.json",
+  "modelScope": "One lake rotunda, three exit portals and occluding screen; full branching cave network not modeled",
+  "renderedOrigins": [
+    "before-screen C",
+    "lake-reveal D"
+  ],
+  "plannedOrigins": [
+    "shore-reverse E",
+    "reflection insert H"
+  ],
+  "geometryProbeChecks": [
+    {
+      "id": "lake-hidden-before-screen",
+      "visible": false,
+      "hit": "Reveal occluding stone"
+    },
+    {
+      "id": "lake-seen-after-screen",
+      "visible": true,
+      "hit": null
+    },
+    {
+      "id": "central-oculus-open",
+      "visible": true,
+      "hit": null
+    }
+  ],
+  "meshCheck": {
+    "pass": true,
+    "nonmanifoldEdges": 0,
+    "volumeM3": 314.4454582422053
+  },
+  "browser": {
+    "cardinalViews": 6,
+    "edgeViews": 12,
+    "sourceRayComparisons": 126,
+    "maxObservedRgbError": 4,
+    "mobileNoOverflow": true,
+    "legacyOverscanCompiles": true,
+    "exactCubeRejectsNon90Faces": true
+  },
+  "illustrationCandidate": "lake-cupola-paintover-v1",
+  "rejectedStudies": [
+    "lake-initial-v1",
+    "lake-atlas-initial-v1"
+  ],
+  "limitations": [
+    "No final R7 narrative art or PDF selection",
+    "No claim of original-book metric recovery",
+    "Illustration not an exact geometry/pixel lock",
+    "Grey portal backgrounds stand for unmodeled adjacent tunnels, not extra exterior windows"
+  ]
+}

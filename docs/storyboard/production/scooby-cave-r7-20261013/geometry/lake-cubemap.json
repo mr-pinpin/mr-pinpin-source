@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "scooby-rotunda-lake-cubemap-v2",
+  "location": "docs/storyboard/production/scooby-cave-r7-20261013/geometry/location.json",
+  "samples": 4,
+  "camera": {
+    "position": [
+      -7,
+      -6.33,
+      1.15
+    ],
+    "target": [
+      -7,
+      -5.33,
+      1.15
+    ],
+    "horizontalFovDegrees": 90
+  },
+  "faceSize": 512,
+  "doorStates": {},
+  "prompt": {
+    "template": "cubemap",
+    "referenceIds": [
+      "original-cathedral",
+      "original-garden",
+      "original-expansion"
+    ],
+    "characters": "Empty environment, no cast",
+    "intent": "One connected domed lake from one stationary shore origin, not six unrelated views.",
+    "action": "Preserve six renderer directions and their shared geometry.",
+    "lighting": "Single central oculus daylight plus two fixed growing-vine sources."
+  }
+}

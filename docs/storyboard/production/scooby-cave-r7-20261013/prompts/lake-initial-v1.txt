@@ -1,0 +1,84 @@
+Use case: illustration-story
+One empty PinPin underground-lake environment study, landscape1536x1024.
+Input image1 is the ACTUAL authored geometry rendering for this precise camera: /root/.local/share/pinpin-production/scooby-cave-r7-20261013/rotunda-reveal-prepared-v2/geometry-reference.png. Preserve its dome curvature, ONE circular open oculus, waterline, shoreline, doorway sides, stone screen and camera composition. Do not invent extra openings or stairs. Coloured simple plant boxes designate planted bank zones; replace them with lush ferns/moss/hanging vines, not wooden furniture. Lake remains underground.
+Other input roles: [
+  {
+    "id": "original-cathedral",
+    "path": "docs/images/image83.png",
+    "sha256": "9895dd2029e4376e217e564c2a536fa36357cfb951c57d517f7d3ab7190fecd1",
+    "roles": [
+      "Original book underground vaulting, crafted-space precedent, material richness; not the new geometry"
+    ],
+    "absolutePath": "/root/.codex/worktrees/c64d/mr-pinpin-source/docs/images/image83.png"
+  },
+  {
+    "id": "original-garden",
+    "path": "docs/images/image12.png",
+    "sha256": "1d9db4a3e486199fe6f23939b91812f5f066689b5fd7dd31b047ab4f261d01c7",
+    "roles": [
+      "Original book deep round planted chamber, hanging vines, overhead light; no furniture transfer"
+    ],
+    "absolutePath": "/root/.codex/worktrees/c64d/mr-pinpin-source/docs/images/image12.png"
+  },
+  {
+    "id": "original-expansion",
+    "path": "docs/images/image67.png",
+    "sha256": "8abe16974b626e4a06a2c0841f69808f02a36e1d3fcafac86f9ceff56041a853",
+    "roles": [
+      "Original book looking up at central overhead opening and vast growing chamber; no stairs or vegetable crates transfer"
+    ],
+    "absolutePath": "/root/.codex/worktrees/c64d/mr-pinpin-source/docs/images/image67.png"
+  }
+]
+Original book images supply material atmosphere, vaulted wonder and botanical richness. They do not replace this camera or import their old cast, multi-level corridors, crates, artificial lamps or glass roof.
+No people, animals or statues.
+Environment establishing reference only; not a chapter scene.
+Empty underground lake under one huge domed cupola with one open circular oculus; preserve recorded origin, shore, opening, waterline, occluder and light positions.
+Daylight through central open oculus, warm living vine lights on fixed west/east shelves. No unexplained extra skylights or artificial torches.
+Recorded camera: [
+  {
+    "position": [
+      -7.0,
+      -6.329999923706055,
+      1.149999976158142
+    ],
+    "quaternionWXYZ": [
+      0.5268190503120422,
+      0.7779785990715027,
+      -0.28348055481910706,
+      -0.19196277856826782
+    ],
+    "matrixWorld": [
+      [
+        0.7655781507492065,
+        -0.23882430791854858,
+        -0.5973717570304871,
+        -7.0
+      ],
+      [
+        -0.643342912197113,
+        -0.2842008173465729,
+        -0.71087247133255,
+        -6.329999923706055
+      ],
+      [
+        4.6254637453557734e-08,
+        0.9285433292388916,
+        -0.3712238371372223,
+        1.149999976158142
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "lensMm": 12.60373592376709,
+    "horizontalFovDegrees": 109.99999850756943,
+    "width": 1200,
+    "height": 800
+  }
+]
+Door states: []
+One broad domed rock cupola, open oculus overhead admitting forest daylight. Huge calm reflective lake below, broad dry bank, warm amber berries in fixed vine zones, moss, tiny flowers and growing roots. Natural/crafted ambiguous architecture, no literal Roman columns required, no Minecraft blocks, no labels or text. This is a candidate, not proof the image retains measured geometry.

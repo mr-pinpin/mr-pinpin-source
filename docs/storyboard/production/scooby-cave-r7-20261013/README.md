@@ -7,10 +7,15 @@ The author requested correct Scooby identity in the home scenes, understandable
 cave navigation, circumstance-specific acting, and discovery with a causal payoff.
 They proposed a luminous underground lake and evidence that Veles shaped the caves.
 
+- [Author-confirmed cupola and original-book connections](CANON-AND-CUPOLA.md)
+- [Cupola top-down and section v2](cave-plan-v2.html)
+- [Fixed-camera geometry 360° and illustration candidate](cupola-360.html)
+- [Twelve-shot lake reveal pilot](LAKE-REVEAL-PILOT.md)
+- [Editable rotunda and recorded renderer jobs](geometry/README.md)
 - [Existing-edition audit](AUDIT.md)
 - [Discovery and pacing](STORY-PLAN.md)
 - [Acting and reference rules](ACTING.md)
-- [Interactive proposed map](cave-plan.html)
+- [Earlier interactive proposal, superseded north-rim shaft](cave-plan.html)
 - [Home-scene before/after candidates](review.html)
 - [Layout and camera records](cave-layout.json)
 - [Camera workflow](CAMERA-WORKFLOW.md)
@@ -55,3 +60,21 @@ Seven interactive camera selections and mobile layout checks pass.
 62 focused asset tests pass, one existing skip; the unchanged central production
 build passes at996files /928,448,794bytes. This source update does not select a
 new reader release.
+
+## Cupola checkpoint
+
+The author confirmed a Roman-temple-like cupola with a circular crown opening.
+Original-book chapters21 and25–30 and their actual image inputs were checked.
+The new rotunda is an authored metric scene using the reusable location renderer,
+with a real six-face fixed-camera geometry view. `geometry/REVIEW.json` records
+build/ray checks, six directions,12edge views and126browser/source ray comparisons
+(maximum observed RGB error4), plus preserved legacy overscan compilation.
+The shared renderer has opt-in exact90degree face coverage; previous overscan
+settings keep their existing path. Two illustration trials failed geometry review
+and remain rejected. The strict paint-over is a composition candidate only.
+
+Cupola media passed readback in `archive-preservation-receipt-cupola.json`;
+restore with `review/asset-scope-cupola.json`. The twelve-shot reveal pilot is
+not a finished216page revision. Reflection camera H and the broader cave network
+remain to be rendered. This authoring checkpoint does not replace the live R6
+reader, original book, earlier PDF objects or approved images.

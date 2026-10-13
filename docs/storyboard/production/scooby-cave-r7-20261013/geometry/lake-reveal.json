@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "id": "scooby-rotunda-lake-reveal-v2",
+  "location": "docs/storyboard/production/scooby-cave-r7-20261013/geometry/location.json",
+  "samples": 4,
+  "camera": {
+    "position": [
+      -7,
+      -6.33,
+      1.15
+    ],
+    "target": [
+      0,
+      2,
+      5.5
+    ],
+    "horizontalFovDegrees": 110,
+    "width": 1200,
+    "height": 800,
+    "allowOutside": false
+  },
+  "doorStates": {},
+  "prompt": {
+    "template": "still",
+    "referenceIds": [
+      "original-cathedral",
+      "original-garden",
+      "original-expansion"
+    ],
+    "intent": "Empty underground lake under one huge domed cupola with one open circular oculus; preserve recorded origin, shore, opening, waterline, occluder and light positions.",
+    "characters": "No people, animals or statues.",
+    "action": "Environment establishing reference only; not a chapter scene.",
+    "lighting": "Daylight through central open oculus, warm living vine lights on fixed west/east shelves. No unexplained extra skylights or artificial torches."
+  }
+}

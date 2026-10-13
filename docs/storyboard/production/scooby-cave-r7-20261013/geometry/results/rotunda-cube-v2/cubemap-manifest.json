@@ -1,0 +1,450 @@
+{
+  "schemaVersion": 1,
+  "stage": "cubemap",
+  "locationId": "scooby-lake-rotunda",
+  "locationVersion": "0.2.0",
+  "jobId": "scooby-rotunda-lake-cubemap-v2",
+  "jobSha256": "d5f327e972e1bc334e79d1b84ac92644f3047d2eda58884941c4e48508d3959b",
+  "inputs": {
+    "docs/storyboard/production/scooby-cave-r7-20261013/geometry/location.json": "592e5b2ed3f5d8ec44f5d432f21e286578deb3cf5cdb92fa553f847b470290fe",
+    "docs/storyboard/production/scooby-cave-r7-20261013/geometry/rotunda-plan.json": "7483a5796ed0869810bb2defc201fe92e86cb9d5acc159f1c6e30bc9011f2de2",
+    "docs/storyboard/production/scooby-cave-r7-20261013/geometry/build_rotunda.py": "7b6c0d2b1d4fba58a12ea9ebaf7a41d47592a63e1ae9d4b3f5c11e2a485d3445",
+    "tools/locations/contracts.py": "9cd6002a280d6b6234878439e667a934629f377ae87aeb8fdbc04d0eb1f38b5c",
+    "tools/locations/png_atlas.py": "7eb3ce2e2ccf61532e26955fac9d58f7dad69c0e7acb5701f1a02aeebca4e48d",
+    "tools/locations/blender_worker.py": "ac6ac1ea59a94d087d1d9b9ee7fc80096d5514e4eb7483d0b2709a05eee108e7",
+    "tools/locations/cli.py": "360f97e1afa245c5be10824d4a235f85d896b692261f5839ed9291ab38f7b481",
+    "tools/locations/tests/test_contracts.py": "d5b9441767992ce8dbc13e6a0e087124cef2b7d80f720adb16fb836116a70e8e",
+    "tools/locations/tests/blender_door_state.py": "771e77287731df8cb74ea996210c045c46bea3ac2e2737269ff773daa6725fed",
+    "tools/locations/builder/plan_geometry.py": "f80c11e855deec10e7ce07d4114fd2a410af50d9e85713b43efc606fc4619912",
+    "tools/locations/builder/build_house.py": "34946231d4922c0454064b3c5961dd6ce448bdf2ef5ec9c6326bb41af38f8d1b",
+    "docs/storyboard/production/scooby-cave-r7-20261013/geometry/lake-cubemap.json": "d5f327e972e1bc334e79d1b84ac92644f3047d2eda58884941c4e48508d3959b"
+  },
+  "cameraCheck": {
+    "pass": true,
+    "minimumSurfaceMarginM": 0.035,
+    "objectsChecked": 1,
+    "allowOutside": false
+  },
+  "doorStates": [],
+  "cameras": [
+    {
+      "position": [
+        -7.0,
+        -6.329999923706055,
+        1.149999976158142
+      ],
+      "quaternionWXYZ": [
+        0.7071067690849304,
+        0.7071067690849304,
+        -0.0,
+        0.0
+      ],
+      "matrixWorld": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -7.0
+        ],
+        [
+          0.0,
+          -1.3435885648505064e-07,
+          -1.0000001192092896,
+          -6.329999923706055
+        ],
+        [
+          0.0,
+          1.0000001192092896,
+          -1.3435885648505064e-07,
+          1.149999976158142
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "lensMm": 18.0,
+      "horizontalFovDegrees": 90.00000250447816,
+      "width": 512,
+      "height": 512,
+      "id": "front",
+      "tile": [
+        0,
+        0
+      ],
+      "forward": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "right": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "up": [
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "position": [
+        -7.0,
+        -6.329999923706055,
+        1.149999976158142
+      ],
+      "quaternionWXYZ": [
+        0.5,
+        0.5,
+        -0.5,
+        -0.5
+      ],
+      "matrixWorld": [
+        [
+          -2.220446049250313e-16,
+          0.0,
+          -1.0,
+          -7.0
+        ],
+        [
+          -1.0,
+          -2.220446049250313e-16,
+          0.0,
+          -6.329999923706055
+        ],
+        [
+          0.0,
+          1.0,
+          -2.220446049250313e-16,
+          1.149999976158142
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "lensMm": 18.0,
+      "horizontalFovDegrees": 90.00000250447816,
+      "width": 512,
+      "height": 512,
+      "id": "right",
+      "tile": [
+        1,
+        0
+      ],
+      "forward": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "right": [
+        0.0,
+        -1.0,
+        0.0
+      ],
+      "up": [
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "position": [
+        -7.0,
+        -6.329999923706055,
+        1.149999976158142
+      ],
+      "quaternionWXYZ": [
+        0.0,
+        0.0,
+        0.7071067690849304,
+        0.7071067690849304
+      ],
+      "matrixWorld": [
+        [
+          -1.000000238418579,
+          0.0,
+          0.0,
+          -7.0
+        ],
+        [
+          0.0,
+          -1.3435885648505064e-07,
+          1.0000001192092896,
+          -6.329999923706055
+        ],
+        [
+          0.0,
+          1.0000001192092896,
+          -1.3435885648505064e-07,
+          1.149999976158142
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "lensMm": 18.0,
+      "horizontalFovDegrees": 90.00000250447816,
+      "width": 512,
+      "height": 512,
+      "id": "back",
+      "tile": [
+        2,
+        0
+      ],
+      "forward": [
+        0.0,
+        -1.0,
+        0.0
+      ],
+      "right": [
+        -1.0,
+        0.0,
+        0.0
+      ],
+      "up": [
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "position": [
+        -7.0,
+        -6.329999923706055,
+        1.149999976158142
+      ],
+      "quaternionWXYZ": [
+        0.5,
+        0.5,
+        0.5,
+        0.5
+      ],
+      "matrixWorld": [
+        [
+          -2.220446049250313e-16,
+          0.0,
+          1.0,
+          -7.0
+        ],
+        [
+          1.0,
+          -2.220446049250313e-16,
+          0.0,
+          -6.329999923706055
+        ],
+        [
+          0.0,
+          1.0,
+          -2.220446049250313e-16,
+          1.149999976158142
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "lensMm": 18.0,
+      "horizontalFovDegrees": 90.00000250447816,
+      "width": 512,
+      "height": 512,
+      "id": "left",
+      "tile": [
+        0,
+        1
+      ],
+      "forward": [
+        -1.0,
+        0.0,
+        0.0
+      ],
+      "right": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "up": [
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "position": [
+        -7.0,
+        -6.329999923706055,
+        1.149999976158142
+      ],
+      "quaternionWXYZ": [
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      "matrixWorld": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -7.0
+        ],
+        [
+          0.0,
+          -1.0,
+          0.0,
+          -6.329999923706055
+        ],
+        [
+          0.0,
+          0.0,
+          -1.0,
+          1.149999976158142
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "lensMm": 18.0,
+      "horizontalFovDegrees": 90.00000250447816,
+      "width": 512,
+      "height": 512,
+      "id": "up",
+      "tile": [
+        1,
+        1
+      ],
+      "forward": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "right": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "up": [
+        0.0,
+        -1.0,
+        0.0
+      ]
+    },
+    {
+      "position": [
+        -7.0,
+        -6.329999923706055,
+        1.149999976158142
+      ],
+      "quaternionWXYZ": [
+        1.0,
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "matrixWorld": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -7.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -6.329999923706055
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.149999976158142
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "lensMm": 18.0,
+      "horizontalFovDegrees": 90.00000250447816,
+      "width": 512,
+      "height": 512,
+      "id": "down",
+      "tile": [
+        2,
+        1
+      ],
+      "forward": [
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "right": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "up": [
+        0.0,
+        1.0,
+        0.0
+      ]
+    }
+  ],
+  "artifacts": [
+    {
+      "path": "front.png",
+      "sha256": "d65fedfe7bae7264038342f9fc487c91de699c0e355f2e5e312fcc594781fd97",
+      "bytes": 228246
+    },
+    {
+      "path": "right.png",
+      "sha256": "b1672c46ee5532e220e8327b0249b8022009c7e559d81d6f52dbb70a47bbb414",
+      "bytes": 228092
+    },
+    {
+      "path": "back.png",
+      "sha256": "2f599de58c6b046804c4c62db4c05d8739e36cf71b855c4538bf6cfe7b5dc28f",
+      "bytes": 215676
+    },
+    {
+      "path": "left.png",
+      "sha256": "3b9a0a0c4303a56d5d6c34cbe02c4731755fcb381e35b03aff6571fbd00817e8",
+      "bytes": 215299
+    },
+    {
+      "path": "up.png",
+      "sha256": "5f4aae910a9d26b41a10ae92c9a751966f2a383e0fe20b60a369a8f18708b9fc",
+      "bytes": 224822
+    },
+    {
+      "path": "down.png",
+      "sha256": "0d03f211ebd203477656c4215e646121a6480e91f374783c00cc1c26ce2a6644",
+      "bytes": 217818
+    },
+    {
+      "path": "cube-atlas.png",
+      "sha256": "1ae20ab90f2b2a22fd909fdcab6b9fe1b32ee5ebc2b972ea2febac497138f1d8",
+      "bytes": 1087257
+    }
+  ],
+  "sceneSourceSha256": "c64fadd97b313b17af92c255c5a8d208443bf3fc1a7adbe315f6ac73e7984654",
+  "cubeLayout": "top:front/right/back;bottom:left/up/down",
+  "singleScene": true,
+  "blenderVersion": "4.5.14 LTS"
+}

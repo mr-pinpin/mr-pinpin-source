@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "scooby-lake-rotunda",
+  "version": "0.2.0",
+  "status": "Authored metric blocking proposal; not recovered geometry or approved narrative art",
+  "units": "meters",
+  "plan": {
+    "path": "docs/storyboard/production/scooby-cave-r7-20261013/geometry/rotunda-plan.json",
+    "sha256": "7483a5796ed0869810bb2defc201fe92e86cb9d5acc159f1c6e30bc9011f2de2"
+  },
+  "underlay": {
+    "path": "docs/storyboard/production/scooby-cave-r7-20261013/geometry/rotunda-plan.json",
+    "sha256": "7483a5796ed0869810bb2defc201fe92e86cb9d5acc159f1c6e30bc9011f2de2",
+    "role": "Authored design data; no image underlay or recovered dimensions"
+  },
+  "builder": {
+    "path": "docs/storyboard/production/scooby-cave-r7-20261013/geometry/build_rotunda.py",
+    "sha256": "7b6c0d2b1d4fba58a12ea9ebaf7a41d47592a63e1ae9d4b3f5c11e2a485d3445"
+  },
+  "structuralObject": "Cave structural shell",
+  "doorStates": {},
+  "additions": {
+    "ceiling": {
+      "enabled": false,
+      "z": 13.3
+    }
+  },
+  "referencesPath": "docs/storyboard/production/scooby-cave-r7-20261013/geometry/references.json",
+  "promptTemplates": {
+    "still": "docs/storyboard/production/scooby-cave-r7-20261013/geometry/still-template.txt",
+    "cubemap": "docs/storyboard/production/scooby-cave-r7-20261013/geometry/cube-template.txt"
+  }
+}

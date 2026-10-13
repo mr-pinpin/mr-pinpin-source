@@ -1,0 +1,85 @@
+{
+  "schemaVersion": 1,
+  "stage": "render",
+  "locationId": "scooby-lake-rotunda",
+  "locationVersion": "0.2.0",
+  "jobId": "scooby-rotunda-before-screen-v2",
+  "jobSha256": "b327e7e07f81f5869a9342038903958d39a34191e150b3b259f588d59ea9b1ee",
+  "inputs": {
+    "docs/storyboard/production/scooby-cave-r7-20261013/geometry/location.json": "592e5b2ed3f5d8ec44f5d432f21e286578deb3cf5cdb92fa553f847b470290fe",
+    "docs/storyboard/production/scooby-cave-r7-20261013/geometry/rotunda-plan.json": "7483a5796ed0869810bb2defc201fe92e86cb9d5acc159f1c6e30bc9011f2de2",
+    "docs/storyboard/production/scooby-cave-r7-20261013/geometry/build_rotunda.py": "7b6c0d2b1d4fba58a12ea9ebaf7a41d47592a63e1ae9d4b3f5c11e2a485d3445",
+    "tools/locations/contracts.py": "9cd6002a280d6b6234878439e667a934629f377ae87aeb8fdbc04d0eb1f38b5c",
+    "tools/locations/png_atlas.py": "7eb3ce2e2ccf61532e26955fac9d58f7dad69c0e7acb5701f1a02aeebca4e48d",
+    "tools/locations/blender_worker.py": "ac6ac1ea59a94d087d1d9b9ee7fc80096d5514e4eb7483d0b2709a05eee108e7",
+    "tools/locations/cli.py": "360f97e1afa245c5be10824d4a235f85d896b692261f5839ed9291ab38f7b481",
+    "tools/locations/tests/test_contracts.py": "d5b9441767992ce8dbc13e6a0e087124cef2b7d80f720adb16fb836116a70e8e",
+    "tools/locations/tests/blender_door_state.py": "771e77287731df8cb74ea996210c045c46bea3ac2e2737269ff773daa6725fed",
+    "tools/locations/builder/plan_geometry.py": "f80c11e855deec10e7ce07d4114fd2a410af50d9e85713b43efc606fc4619912",
+    "tools/locations/builder/build_house.py": "34946231d4922c0454064b3c5961dd6ce448bdf2ef5ec9c6326bb41af38f8d1b",
+    "docs/storyboard/production/scooby-cave-r7-20261013/geometry/before-screen.json": "b327e7e07f81f5869a9342038903958d39a34191e150b3b259f588d59ea9b1ee"
+  },
+  "cameraCheck": {
+    "pass": true,
+    "minimumSurfaceMarginM": 0.035,
+    "objectsChecked": 1,
+    "allowOutside": true
+  },
+  "doorStates": [],
+  "cameras": [
+    {
+      "position": [
+        -11.399999618530273,
+        -8.0,
+        1.149999976158142
+      ],
+      "quaternionWXYZ": [
+        0.5793245434761047,
+        0.6475216746330261,
+        -0.368960440158844,
+        -0.3301014304161072
+      ],
+      "matrixWorld": [
+        [
+          0.5098024606704712,
+          -0.0953480452299118,
+          -0.8549913167953491,
+          -11.399999618530273
+        ],
+        [
+          -0.8602914810180664,
+          -0.05650254711508751,
+          -0.5066616535186768,
+          -8.0
+        ],
+        [
+          1.5067939784785267e-08,
+          0.9938391447067261,
+          -0.11083225160837173,
+          1.149999976158142
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "lensMm": 18.0,
+      "horizontalFovDegrees": 90.00000250447816,
+      "width": 1200,
+      "height": 800
+    }
+  ],
+  "artifacts": [
+    {
+      "path": "still.png",
+      "sha256": "a51416a3a649e83bdf91f14efe379e65bfccb2acd7e99c82a524594fb6122f8b",
+      "bytes": 799331
+    }
+  ],
+  "sceneSourceSha256": "c64fadd97b313b17af92c255c5a8d208443bf3fc1a7adbe315f6ac73e7984654",
+  "cubeLayout": null,
+  "singleScene": true,
+  "blenderVersion": "4.5.14 LTS"
+}

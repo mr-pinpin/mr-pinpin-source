@@ -54,7 +54,7 @@ def camera_clear(camera,plan):
  if not allow and not .06<p.z<loc.get('additions',{}).get('ceiling',{}).get('z',2.65)-.06:raise ValueError('Interior camera outside floor/ceiling height range')
  deps=bpy.context.evaluated_depsgraph_get();checked=0
  for o in bpy.data.objects:
-  if o.type!='MESH' or not(o.name=='House structural walls' or o.name.startswith('Leaf ') or (o.parent and o.parent.name.startswith('Furniture '))):continue
+  if o.type!='MESH' or not(o.name==loc.get('structuralObject','House structural walls') or o.name.startswith('Leaf ') or (o.parent and o.parent.name.startswith('Furniture '))):continue
   ev=o.evaluated_get(deps);m=ev.to_mesh();vs=[ev.matrix_world@v.co for v in m.vertices];tree=BVHTree.FromPolygons(vs,[list(f.vertices) for f in m.polygons]);hit=tree.find_nearest(p);ev.to_mesh_clear();checked+=1
   if hit[0] is not None and (hit[3]<.035 or hit[1].dot(p-hit[0])<-.001):raise ValueError('Camera intersects or approaches geometry: '+o.name)
  return {'pass':True,'minimumSurfaceMarginM':.035,'objectsChecked':checked,'allowOutside':allow}
@@ -67,7 +67,7 @@ def render(camera,path,width,height):
  return {'position':list(camera.location),'quaternionWXYZ':list(camera.rotation_quaternion),'matrixWorld':[list(v) for v in camera.matrix_world],'lensMm':camera.data.lens,'horizontalFovDegrees':math.degrees(camera.data.angle_x),'width':width,'height':height}
 if action=='build':
  path=root/loc['builder']['path'];sys.path.insert(0,str(path.parent));spec=importlib.util.spec_from_file_location('location_builder',path);module=importlib.util.module_from_spec(spec);spec.loader.exec_module(module);sys.argv=['blender','--',str(root/loc['plan']['path']),'--out',str(out),'--no-render'];module.main();plan=read(root/loc['plan']['path']);extra=supplements(plan);state=doors(loc.get('doorStates',{}));bpy.ops.wm.save_as_mainfile(filepath=str(out/'base.blend'))
- bm=bmesh.new();bm.from_mesh(bpy.data.objects['House structural walls'].data);bad=sum(not e.is_manifold for e in bm.edges);volume=bm.calc_volume();bm.free()
+ bm=bmesh.new();bm.from_mesh(bpy.data.objects[loc.get('structuralObject','House structural walls')].data);bad=sum(not e.is_manifold for e in bm.edges);volume=bm.calc_volume();bm.free()
  if bad or volume<=0:raise ValueError('Build is not a closed positive structural solid')
  write(out/'worker-result.json',{'supplement':extra,'doorStates':state,'structuralCheck':{'pass':True,'nonmanifoldEdges':bad,'volumeM3':volume},'blenderVersion':bpy.app.version_string})
 else:

@@ -1,0 +1,58 @@
+{
+  "schemaVersion": 1,
+  "status": "authored-metric-blocking-not-original-book-measurements",
+  "planSha256": "7483a5796ed0869810bb2defc201fe92e86cb9d5acc159f1c6e30bc9011f2de2",
+  "units": "meters",
+  "rotunda": {
+    "innerRadius": 10.8,
+    "shellThickness": 0.35,
+    "springHeight": 2.5,
+    "oculusRadius": 2.2,
+    "oculusType": "One open circular aperture, no glass cap",
+    "apexHeight": 13.3
+  },
+  "visibilityProbes": [
+    {
+      "id": "lake-hidden-before-screen",
+      "visible": false,
+      "hit": "Reveal occluding stone"
+    },
+    {
+      "id": "lake-seen-after-screen",
+      "visible": true,
+      "hit": null
+    },
+    {
+      "id": "central-oculus-open",
+      "visible": true,
+      "hit": null
+    }
+  ],
+  "objects": [
+    "Cave structural shell",
+    "Cultivated bank east-shelf",
+    "Cultivated bank west-nursery",
+    "Dry annular shore",
+    "Fixed vine light east",
+    "Fixed vine light west",
+    "Oculus daylight",
+    "Outside threshold floor",
+    "Reveal occluding stone",
+    "Single underground lake",
+    "Vine east berry 0",
+    "Vine east berry 1",
+    "Vine east berry 2",
+    "Vine east berry 3",
+    "Vine east berry 4",
+    "Vine east berry 5",
+    "Vine east berry 6",
+    "Vine west berry 0",
+    "Vine west berry 1",
+    "Vine west berry 2",
+    "Vine west berry 3",
+    "Vine west berry 4",
+    "Vine west berry 5",
+    "Vine west berry 6"
+  ],
+  "geometryOnly": true
+}

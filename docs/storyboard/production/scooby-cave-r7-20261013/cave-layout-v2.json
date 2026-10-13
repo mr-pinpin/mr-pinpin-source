@@ -1,0 +1,603 @@
+{
+  "schemaVersion": 1,
+  "id": "scooby-cave-r7-cupola-proposal-v2",
+  "status": "authored-cupola-blocking-and-proposed-network-not-published",
+  "units": "Plan XY units; lake chamber uses3plan units per authored meter. Metric Z/cameras are in the rotunda plan/jobs; network grades remain provisional.",
+  "axes": "X east, Y north, Z up; plan north is screen up",
+  "nodes": [
+    {
+      "id": "R0",
+      "name": "Root entrance",
+      "centre": [
+        4,
+        5,
+        0
+      ],
+      "radius": [
+        6,
+        5
+      ],
+      "light": "West daylight",
+      "clue": "Cool draft and damp blossom"
+    },
+    {
+      "id": "R1",
+      "name": "Fern porch / family base",
+      "centre": [
+        17,
+        12,
+        -0.1
+      ],
+      "radius": [
+        10,
+        8
+      ],
+      "light": "Entrance spill",
+      "clue": "Broad dry station; supported infant"
+    },
+    {
+      "id": "R2",
+      "name": "Trained vine gallery",
+      "centre": [
+        31,
+        21,
+        -0.2
+      ],
+      "radius": [
+        10,
+        7
+      ],
+      "light": "Three persistent amber vine clusters",
+      "clue": "Repeated plant training beyond daylight"
+    },
+    {
+      "id": "R3",
+      "name": "Braided-root fork",
+      "centre": [
+        44,
+        31,
+        -0.35
+      ],
+      "radius": [
+        8,
+        7
+      ],
+      "light": "Dim berries; lake reflection hidden by screen",
+      "clue": "Worked root, leaf return, hollow echo"
+    },
+    {
+      "id": "R4",
+      "name": "Screen and reveal threshold",
+      "centre": [
+        53,
+        36,
+        -0.45
+      ],
+      "radius": [
+        6,
+        5
+      ],
+      "light": "Lake light only AFTER limestone screen",
+      "clue": "First view of a space larger than predicted"
+    },
+    {
+      "id": "L5",
+      "name": "Underground lake",
+      "centre": [
+        76,
+        55,
+        -0.8
+      ],
+      "radius": [
+        24,
+        18
+      ],
+      "light": "North skylight + east/west luminous vines",
+      "clue": "Stored living water; not proof of theft"
+    },
+    {
+      "id": "K6",
+      "name": "Keeper alcove / nursery",
+      "centre": [
+        61,
+        77,
+        -0.5
+      ],
+      "radius": [
+        12,
+        7
+      ],
+      "light": "West vine light; no new sun shaft",
+      "clue": "Caretaker trace and shore plant nursery"
+    },
+    {
+      "id": "G7",
+      "name": "Living root spillway",
+      "centre": [
+        95,
+        30,
+        -1
+      ],
+      "radius": [
+        8,
+        6
+      ],
+      "light": "Lake reflection + east daylight",
+      "clue": "Old water marks; controlled-release problem"
+    },
+    {
+      "id": "E8",
+      "name": "East outlet",
+      "centre": [
+        116,
+        20,
+        -1.15
+      ],
+      "radius": [
+        7,
+        6
+      ],
+      "light": "East daylight",
+      "clue": "Beaver verifies surface response"
+    }
+  ],
+  "walkingRoutes": [
+    {
+      "id": "first-approach",
+      "name": "Approach \u2192 hidden lake \u2192 reveal",
+      "points": [
+        [
+          4,
+          5
+        ],
+        [
+          17,
+          12
+        ],
+        [
+          31,
+          21
+        ],
+        [
+          44,
+          31
+        ],
+        [
+          49,
+          30
+        ],
+        [
+          57,
+          31
+        ],
+        [
+          58,
+          34
+        ],
+        [
+          55,
+          36
+        ],
+        [
+          57,
+          38
+        ]
+      ],
+      "colour": "#f1c979"
+    },
+    {
+      "id": "west-bank",
+      "name": "Dry west bank \u2192 keeper alcove",
+      "points": [
+        [
+          55,
+          36
+        ],
+        [
+          51,
+          46
+        ],
+        [
+          51,
+          64
+        ],
+        [
+          61,
+          77
+        ]
+      ],
+      "colour": "#bf97eb"
+    },
+    {
+      "id": "south-bank",
+      "name": "Dry south bank \u2192 spillway \u2192 east outlet",
+      "points": [
+        [
+          55,
+          36
+        ],
+        [
+          65,
+          32
+        ],
+        [
+          79,
+          31
+        ],
+        [
+          95,
+          30
+        ],
+        [
+          116,
+          20
+        ]
+      ],
+      "colour": "#f1c979"
+    },
+    {
+      "id": "outside-return",
+      "name": "Shown exterior return around hill",
+      "points": [
+        [
+          116,
+          20
+        ],
+        [
+          112,
+          0
+        ],
+        [
+          84,
+          -8
+        ],
+        [
+          49,
+          -11
+        ],
+        [
+          16,
+          -5
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "colour": "#86bc83"
+    }
+  ],
+  "waterRoutes": [
+    {
+      "id": "feed",
+      "points": [
+        [
+          80,
+          83
+        ],
+        [
+          81,
+          76
+        ],
+        [
+          80,
+          69
+        ]
+      ],
+      "direction": "Natural seep feeds lake; source authorship unresolved"
+    },
+    {
+      "id": "controlled-outlet",
+      "points": [
+        [
+          91,
+          44
+        ],
+        [
+          95,
+          36
+        ],
+        [
+          95,
+          30
+        ],
+        [
+          106,
+          25
+        ],
+        [
+          116,
+          20
+        ],
+        [
+          125,
+          12
+        ],
+        [
+          135,
+          7
+        ]
+      ],
+      "direction": "Lake \u2192 gate \u2192 existing surface water system"
+    },
+    {
+      "id": "nursery",
+      "points": [
+        [
+          61,
+          68
+        ],
+        [
+          62,
+          72
+        ],
+        [
+          67,
+          74
+        ]
+      ],
+      "direction": "Lake shallows sustain nursery; do not drain them"
+    }
+  ],
+  "cameras": [
+    {
+      "id": "A",
+      "name": "Entrance orientation",
+      "position": [
+        1,
+        3,
+        0.7
+      ],
+      "target": [
+        18,
+        13,
+        0.4
+      ],
+      "horizontalFovDegrees": 70,
+      "visible": [
+        "west entrance rim",
+        "fern base"
+      ],
+      "hidden": [
+        "lake",
+        "spillway"
+      ],
+      "scene": "Follow Scooby into a broad visible threshold"
+    },
+    {
+      "id": "B",
+      "name": "Vine evidence",
+      "position": [
+        26,
+        17,
+        0.55
+      ],
+      "target": [
+        34,
+        24,
+        0.7
+      ],
+      "horizontalFovDegrees": 62,
+      "visible": [
+        "same trained vines",
+        "braided-root approach"
+      ],
+      "hidden": [
+        "lake surface",
+        "keeper alcove"
+      ],
+      "scene": "Detail and over-shoulder hypothesis, not a full-cast portrait"
+    },
+    {
+      "id": "C",
+      "name": "Before the screen",
+      "position": [
+        41.8,
+        31,
+        1.15
+      ],
+      "target": [
+        49.9,
+        35.8,
+        1.5
+      ],
+      "horizontalFovDegrees": 90,
+      "visible": [
+        "limestone screen",
+        "returned leaf"
+      ],
+      "hidden": [
+        "lake expanse",
+        "east outlet"
+      ],
+      "scene": "Hear and predict the concealed space",
+      "metricJob": "geometry/before-screen.json"
+    },
+    {
+      "id": "D",
+      "name": "Lake reveal",
+      "position": [
+        55,
+        36,
+        1.15
+      ],
+      "target": [
+        76,
+        61,
+        5.5
+      ],
+      "horizontalFovDegrees": 110,
+      "visible": [
+        "west bank",
+        "lake",
+        "north skylight",
+        "far east vines"
+      ],
+      "hidden": [
+        "surface pond",
+        "caretaker behind west bend"
+      ],
+      "scene": "Cross the screen explicitly; first full lake view",
+      "metricJob": "geometry/lake-reveal.json"
+    },
+    {
+      "id": "E",
+      "name": "Shore reverse",
+      "position": [
+        52,
+        64,
+        1.15
+      ],
+      "target": [
+        58,
+        34,
+        3
+      ],
+      "horizontalFovDegrees": 65,
+      "visible": [
+        "west shore",
+        "reveal arch behind",
+        "same near vine cluster"
+      ],
+      "hidden": [
+        "east surface path"
+      ],
+      "scene": "Reverse retains landmark and water side; establish axis first",
+      "metricJob": "geometry/shore-reverse.json"
+    },
+    {
+      "id": "F",
+      "name": "Gate trial",
+      "position": [
+        87,
+        28,
+        0.35
+      ],
+      "target": [
+        96,
+        33,
+        0.2
+      ],
+      "horizontalFovDegrees": 64,
+      "visible": [
+        "root gate",
+        "water marks",
+        "south lake edge",
+        "east daylight hint"
+      ],
+      "hidden": [
+        "keeper alcove",
+        "west entrance"
+      ],
+      "scene": "Parent stops overlarge change; hands/flow insert"
+    },
+    {
+      "id": "G",
+      "name": "Outlet consequence",
+      "position": [
+        113,
+        16,
+        -0.4
+      ],
+      "target": [
+        125,
+        12,
+        -0.5
+      ],
+      "horizontalFovDegrees": 68,
+      "visible": [
+        "outlet bank",
+        "Beaver station",
+        "surface stream"
+      ],
+      "hidden": [
+        "lake through rock"
+      ],
+      "scene": "Observable surface payoff rather than magical explanation"
+    },
+    {
+      "id": "H",
+      "name": "Reflection insert, planned",
+      "position": [
+        60.4,
+        39.7,
+        1.15
+      ],
+      "target": [
+        61.6,
+        41.5,
+        -0.35
+      ],
+      "horizontalFovDegrees": 65,
+      "metricJob": "geometry/lake-reflection.json",
+      "status": "planned-not-rendered"
+    }
+  ],
+  "occluders": [
+    {
+      "id": "limestone-screen",
+      "segment": [
+        [
+          47.46,
+          43.26
+        ],
+        [
+          55.94,
+          33.14
+        ]
+      ],
+      "purpose": "Actual rotunda screen; tested before/after lake-point rays"
+    }
+  ],
+  "waterLevel": -0.8,
+  "lakeBedLevel": -2.5,
+  "minDryBankWidth": 3,
+  "lights": [
+    {
+      "id": "central-oculus",
+      "position": [
+        76,
+        55,
+        13.3
+      ],
+      "kind": "one open circular crown aperture"
+    },
+    {
+      "id": "west-vines",
+      "position": [
+        49,
+        61,
+        4
+      ],
+      "kind": "fixed growing light"
+    },
+    {
+      "id": "east-vines",
+      "position": [
+        103,
+        61,
+        4.6
+      ],
+      "kind": "fixed growing light"
+    }
+  ],
+  "identityDecision": "Veles/Elder relation awaits author; existing Elder unchanged",
+  "prohibitions": [
+    "stairs or spontaneous rescue structure",
+    "teleport between camera origins",
+    "lake visible through the limestone screen",
+    "water flowing uphill",
+    "open all gates without consequence",
+    "immediate god/theft inference from water",
+    "offscreen unsupervised infant"
+  ],
+  "metricChamberPlan": "geometry/rotunda-plan.json",
+  "cupola": {
+    "innerRadius": 10.8,
+    "shellThickness": 0.35,
+    "springHeight": 2.5,
+    "oculusRadius": 2.2,
+    "oculusType": "One open circular aperture, no glass cap",
+    "apexHeight": 13.3
+  }
+}

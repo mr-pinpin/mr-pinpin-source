@@ -1,0 +1,417 @@
+Use case: illustration-story
+Generate ONE connected 3x2 cubemap atlas, not six independent drawings. Input1 /root/.local/share/pinpin-production/scooby-cave-r7-20261013/rotunda-cube-prepared-v2/geometry-reference.png is the six-view geometry atlas, layout [front,right,back;left,up,down]. Preserve exactly these six orientations, all shared shore/water/dome/oculus/portal landmarks and the one common camera origin. Cube faces have equal square dimensions. No borders/labels/extra viewpoints.
+Style inputs: [
+  {
+    "id": "original-cathedral",
+    "path": "docs/images/image83.png",
+    "sha256": "9895dd2029e4376e217e564c2a536fa36357cfb951c57d517f7d3ab7190fecd1",
+    "roles": [
+      "Original book underground vaulting, crafted-space precedent, material richness; not the new geometry"
+    ],
+    "absolutePath": "/root/.codex/worktrees/c64d/mr-pinpin-source/docs/images/image83.png"
+  },
+  {
+    "id": "original-garden",
+    "path": "docs/images/image12.png",
+    "sha256": "1d9db4a3e486199fe6f23939b91812f5f066689b5fd7dd31b047ab4f261d01c7",
+    "roles": [
+      "Original book deep round planted chamber, hanging vines, overhead light; no furniture transfer"
+    ],
+    "absolutePath": "/root/.codex/worktrees/c64d/mr-pinpin-source/docs/images/image12.png"
+  },
+  {
+    "id": "original-expansion",
+    "path": "docs/images/image67.png",
+    "sha256": "8abe16974b626e4a06a2c0841f69808f02a36e1d3fcafac86f9ceff56041a853",
+    "roles": [
+      "Original book looking up at central overhead opening and vast growing chamber; no stairs or vegetable crates transfer"
+    ],
+    "absolutePath": "/root/.codex/worktrees/c64d/mr-pinpin-source/docs/images/image67.png"
+  }
+]
+Empty environment, no cast
+Preserve six renderer directions and their shared geometry.
+One connected domed lake from one stationary shore origin, not six unrelated views.
+Single central oculus daylight plus two fixed growing-vine sources.
+Camera records: [
+  {
+    "position": [
+      -7.0,
+      -6.329999923706055,
+      1.149999976158142
+    ],
+    "quaternionWXYZ": [
+      0.7071067690849304,
+      0.7071067690849304,
+      -0.0,
+      0.0
+    ],
+    "matrixWorld": [
+      [
+        1.0,
+        0.0,
+        0.0,
+        -7.0
+      ],
+      [
+        0.0,
+        -1.3435885648505064e-07,
+        -1.0000001192092896,
+        -6.329999923706055
+      ],
+      [
+        0.0,
+        1.0000001192092896,
+        -1.3435885648505064e-07,
+        1.149999976158142
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "lensMm": 18.0,
+    "horizontalFovDegrees": 90.00000250447816,
+    "width": 512,
+    "height": 512,
+    "id": "front",
+    "tile": [
+      0,
+      0
+    ],
+    "forward": [
+      0.0,
+      1.0,
+      0.0
+    ],
+    "right": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "up": [
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "position": [
+      -7.0,
+      -6.329999923706055,
+      1.149999976158142
+    ],
+    "quaternionWXYZ": [
+      0.5,
+      0.5,
+      -0.5,
+      -0.5
+    ],
+    "matrixWorld": [
+      [
+        -2.220446049250313e-16,
+        0.0,
+        -1.0,
+        -7.0
+      ],
+      [
+        -1.0,
+        -2.220446049250313e-16,
+        0.0,
+        -6.329999923706055
+      ],
+      [
+        0.0,
+        1.0,
+        -2.220446049250313e-16,
+        1.149999976158142
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "lensMm": 18.0,
+    "horizontalFovDegrees": 90.00000250447816,
+    "width": 512,
+    "height": 512,
+    "id": "right",
+    "tile": [
+      1,
+      0
+    ],
+    "forward": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "right": [
+      0.0,
+      -1.0,
+      0.0
+    ],
+    "up": [
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "position": [
+      -7.0,
+      -6.329999923706055,
+      1.149999976158142
+    ],
+    "quaternionWXYZ": [
+      0.0,
+      0.0,
+      0.7071067690849304,
+      0.7071067690849304
+    ],
+    "matrixWorld": [
+      [
+        -1.000000238418579,
+        0.0,
+        0.0,
+        -7.0
+      ],
+      [
+        0.0,
+        -1.3435885648505064e-07,
+        1.0000001192092896,
+        -6.329999923706055
+      ],
+      [
+        0.0,
+        1.0000001192092896,
+        -1.3435885648505064e-07,
+        1.149999976158142
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "lensMm": 18.0,
+    "horizontalFovDegrees": 90.00000250447816,
+    "width": 512,
+    "height": 512,
+    "id": "back",
+    "tile": [
+      2,
+      0
+    ],
+    "forward": [
+      0.0,
+      -1.0,
+      0.0
+    ],
+    "right": [
+      -1.0,
+      0.0,
+      0.0
+    ],
+    "up": [
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "position": [
+      -7.0,
+      -6.329999923706055,
+      1.149999976158142
+    ],
+    "quaternionWXYZ": [
+      0.5,
+      0.5,
+      0.5,
+      0.5
+    ],
+    "matrixWorld": [
+      [
+        -2.220446049250313e-16,
+        0.0,
+        1.0,
+        -7.0
+      ],
+      [
+        1.0,
+        -2.220446049250313e-16,
+        0.0,
+        -6.329999923706055
+      ],
+      [
+        0.0,
+        1.0,
+        -2.220446049250313e-16,
+        1.149999976158142
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "lensMm": 18.0,
+    "horizontalFovDegrees": 90.00000250447816,
+    "width": 512,
+    "height": 512,
+    "id": "left",
+    "tile": [
+      0,
+      1
+    ],
+    "forward": [
+      -1.0,
+      0.0,
+      0.0
+    ],
+    "right": [
+      0.0,
+      1.0,
+      0.0
+    ],
+    "up": [
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "position": [
+      -7.0,
+      -6.329999923706055,
+      1.149999976158142
+    ],
+    "quaternionWXYZ": [
+      0.0,
+      1.0,
+      0.0,
+      0.0
+    ],
+    "matrixWorld": [
+      [
+        1.0,
+        0.0,
+        0.0,
+        -7.0
+      ],
+      [
+        0.0,
+        -1.0,
+        0.0,
+        -6.329999923706055
+      ],
+      [
+        0.0,
+        0.0,
+        -1.0,
+        1.149999976158142
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "lensMm": 18.0,
+    "horizontalFovDegrees": 90.00000250447816,
+    "width": 512,
+    "height": 512,
+    "id": "up",
+    "tile": [
+      1,
+      1
+    ],
+    "forward": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "right": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "up": [
+      0.0,
+      -1.0,
+      0.0
+    ]
+  },
+  {
+    "position": [
+      -7.0,
+      -6.329999923706055,
+      1.149999976158142
+    ],
+    "quaternionWXYZ": [
+      1.0,
+      0.0,
+      -0.0,
+      0.0
+    ],
+    "matrixWorld": [
+      [
+        1.0,
+        0.0,
+        0.0,
+        -7.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0,
+        -6.329999923706055
+      ],
+      [
+        0.0,
+        0.0,
+        1.0,
+        1.149999976158142
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "lensMm": 18.0,
+    "horizontalFovDegrees": 90.00000250447816,
+    "width": 512,
+    "height": 512,
+    "id": "down",
+    "tile": [
+      2,
+      1
+    ],
+    "forward": [
+      0.0,
+      0.0,
+      -1.0
+    ],
+    "right": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "up": [
+      0.0,
+      1.0,
+      0.0
+    ]
+  }
+]
+Door states: []
+Original book images guide lush hanging growth, vast vaulted scale and stone materials, not new geometry. One huge domed rotunda, one circular OPEN oculus, one underground lake, dry annular bank, fixed western/eastern amber vines, no extra skylight, lamps, stairs, cast or crates. Whole atlas is one candidate requiring viewer/join review.

@@ -1,0 +1,10 @@
+Use case: illustration-story
+Generate ONE connected 3x2 cubemap atlas, not six independent drawings. Input1 ${geometry_reference} is the six-view geometry atlas, layout [front,right,back;left,up,down]. Preserve exactly these six orientations, all shared shore/water/dome/oculus/portal landmarks and the one common camera origin. Cube faces have equal square dimensions. No borders/labels/extra viewpoints.
+Style inputs: ${style_reference_roles}
+${characters}
+${action}
+${intent}
+${lighting}
+Camera records: ${camera_record}
+Door states: ${door_states}
+Original book images guide lush hanging growth, vast vaulted scale and stone materials, not new geometry. One huge domed rotunda, one circular OPEN oculus, one underground lake, dry annular bank, fixed western/eastern amber vines, no extra skylight, lamps, stairs, cast or crates. Whole atlas is one candidate requiring viewer/join review.

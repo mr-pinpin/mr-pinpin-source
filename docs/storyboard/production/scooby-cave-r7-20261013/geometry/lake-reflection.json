@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "id": "scooby-rotunda-lake-reflection-planned",
+  "location": "docs/storyboard/production/scooby-cave-r7-20261013/geometry/location.json",
+  "samples": 4,
+  "camera": {
+    "position": [
+      -5.2,
+      -5.1,
+      1.15
+    ],
+    "target": [
+      -4.8,
+      -4.5,
+      -0.35
+    ],
+    "horizontalFovDegrees": 65,
+    "width": 1200,
+    "height": 800,
+    "allowOutside": false
+  },
+  "doorStates": {},
+  "prompt": {
+    "template": "still",
+    "referenceIds": [
+      "original-cathedral",
+      "original-garden",
+      "original-expansion"
+    ],
+    "intent": "View-dependent oculus reflection insert from a new dry-bank origin H, not a crop or turn of D.",
+    "characters": "No people, animals or statues.",
+    "action": "Environment establishing reference only; not a chapter scene.",
+    "lighting": "Daylight through central open oculus, warm living vine lights on fixed west/east shelves. No unexplained extra skylights or artificial torches."
+  }
+}
