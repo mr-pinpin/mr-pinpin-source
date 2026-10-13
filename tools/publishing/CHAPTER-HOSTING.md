@@ -61,3 +61,18 @@ Source repository splitting would duplicate shared characters, location packs,
 reader fixes and preservation policies. Chapter-scoped authoring folders plus
 independent deployment ledgers provide the requested hosting separation while
 retaining one coherent production workspace.
+
+## Published Scooby edition
+
+The chapter release `7c9b5542ee82650d31dcf48d5261c8ee5234712e72ee19cdbb65ea91187b9983`
+is live and verified at
+https://mr-pinpin.github.io/chapter-scooby-bath/storyboard/?story=scooby-bath&lang=en&v=20261013-r6.
+It contains 216 pages, with all three language readers checked publicly.
+The central cutover release is
+`c24f3af781c1f7960633f9347ac3d04f4cf42d2580eeff2981fd4e14257009c4`.
+Earlier central production assets and archived releases remain unchanged.
+
+When a Git login lacks workflow-write permission, a new ledger can be generated
+from the existing deployment repository template without changing its workflow.
+The first cutover used this method; the central repository template flag was
+restored afterward. The unused empty preparation repository remains separate.
