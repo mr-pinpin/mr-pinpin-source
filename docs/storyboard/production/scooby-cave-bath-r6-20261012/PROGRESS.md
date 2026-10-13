@@ -20,7 +20,9 @@ all three immutable download objects passed anonymous readback.
 Chapter ledger: mr-pinpin/chapter-scooby-bath.
 Selected chapter release: 7c9b5542ee82650d31dcf48d5261c8ee5234712e72ee19cdbb65ea91187b9983.
 Source authoring remains mr-pinpin-source; source pushes alone are not deployment.
-The main library cutover release is staged separately after chapter verification.
+The main library cutover release is published and verified after chapter verification.
+Library shows216pages; its cover opens the chapter in a new tab.
+Legacy EN/RU/ES story URLs forward correctly, preserving language and scene fragments.
 Earlier chapter media, book content, PDF objects and release records are preserved.
 
 Final checks: 62 asset tests pass, one existing skip; 30 storage tests pass in the
