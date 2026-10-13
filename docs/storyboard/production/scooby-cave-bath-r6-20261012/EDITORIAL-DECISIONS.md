@@ -40,3 +40,10 @@ reviews and the official release checks remain required.
   child centre-left awake/thinking, supported sleeping infant beside Mama right,
   same broad bed/green quilt/moon window. It fits the new settled-family caption
   without altering old pixels; later nights need their own acting/light changes.
+
+## Spring background continuity, 2026-10-13
+
+The same blue tit and robin remain at the spring through031–035 rather than
+disappearing between close boat shots. Their four additional cast entries are
+background continuity; the two boats and the children still carry those actions.
+Elder has no walking stick in this chapter; reference-image cane is excluded.

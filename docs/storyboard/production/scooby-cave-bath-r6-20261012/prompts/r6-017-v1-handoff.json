@@ -1,0 +1,30 @@
+{
+  "id": "r6-017-v1",
+  "status": "prepared; references must be visually inspected before built-in generation",
+  "prompt": "docs/storyboard/production/scooby-cave-bath-r6-20261012/prompts/r6-017-v1.txt",
+  "promptSha256": "bb722ec8d240b78fe612a55847a69d379153d1ea85086f1acc06af30e96a5b04",
+  "references": [
+    {
+      "index": 1,
+      "role": "Rabbit identity, exactly two folded leaves only",
+      "path": "/root/.codex/worktrees/c64d/mr-pinpin-source/docs/storyboard/images/published/bath-magic/r17/scene-03l.webp",
+      "sha256": "b40ac36e16a2f183f826d340f8be4c2ad85c30fa0a3e660c0dd0958cdb5da81b"
+    },
+    {
+      "index": 2,
+      "role": "Mama, supported infant and child identity; indoor layout only",
+      "path": "/root/.codex/worktrees/c64d/mr-pinpin-source/docs/storyboard/production/scooby-cave-bath-r6-20261012/native/r6-014-v1.png",
+      "sha256": "da2fa18f8656798cab055db699c8a7460ccb12d45bd925b61f195d489a4d005b"
+    },
+    {
+      "index": 3,
+      "role": "Exterior cottage and fork landscape, NO invented direction signs",
+      "path": "/root/.codex/worktrees/c64d/mr-pinpin-source/docs/storyboard/production/scooby-cave-bath-r6-20261012/native/r6-013-v1.png",
+      "sha256": "4cade311ff6272a88b34a157cb36354a71f25c6ee245a403d33b7732ba1689dd"
+    }
+  ],
+  "expectedNativeSize": [
+    1536,
+    1024
+  ]
+}

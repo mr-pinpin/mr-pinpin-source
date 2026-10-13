@@ -8,7 +8,11 @@
     elderParts.find(part => id === 'elder-' + part);
   function assetMatches(id, cover, lang) {
     const part = elderPart(id);
-    if (id === 'scooby-bath') return cover.version === 1 && cover.assets[lang] === 'images/published/scooby-bath/title-' + lang + '.webp';
+    if (id === 'scooby-bath') {
+      if (cover.version === 1) return cover.assets[lang] === 'images/published/scooby-bath/title-' + lang + '.webp';
+      const asset = 'images/published/scooby-bath/r6/title-' + lang + '.webp';
+      return cover.version === 2 && [asset, 'https://mr-pinpin.github.io/chapter-scooby-bath/storyboard/' + asset].includes(cover.assets[lang]);
+    }
     if (id === 'bath-magic') return [1, 2].includes(cover.version) && cover.assets[lang] === 'images/published/bath-magic/title-' + lang + (cover.version === 1 ? '' : '-v2') + '.webp';
     if (part) return cover.assets[lang] === `images/published/elder-cycle/${part}-title-${lang}.webp`;
     return cover.assets[lang] === `images/covers/${id}/title/title-${lang}-v${cover.version}.png` ||
@@ -48,19 +52,20 @@
   function resolveMiniature(id, lang, {allowProposed = false} = {}) {
     const cover = registry[id], miniature = cover?.miniature;
     const part = elderPart(id);
+    const scoobyR6Miniature = 'images/published/scooby-bath/r6/' + 'miniature' + '.webp';
     if (!languages.includes(lang) || !miniature ||
         !['approved', 'proposed'].includes(miniature.status) ||
         (miniature.status !== 'approved' && allowProposed !== true) ||
         !Number.isInteger(miniature.version) || miniature.version < 1 ||
         miniature.width !== 1024 || miniature.height !== 1536 ||
         miniature.textFree !== true || miniature.languageIndependent !== true ||
-        (id === 'scooby-bath' ? miniature.version !== 1 || miniature.asset !== 'images/published/scooby-bath/miniature.webp' : id === 'bath-magic' ? miniature.version !== 1 || miniature.asset !== 'images/published/bath-magic/miniature.webp' : part ? miniature.version !== 1 || miniature.asset !== `images/published/elder-cycle/${part}-miniature.webp` :
+        (id === 'scooby-bath' ? !(miniature.version === 1 && miniature.asset === 'images/published/scooby-bath/miniature.webp' || miniature.version === 2 && [scoobyR6Miniature,'https://mr-pinpin.github.io/chapter-scooby-bath/storyboard/' + scoobyR6Miniature].includes(miniature.asset)) : id === 'bath-magic' ? miniature.version !== 1 || miniature.asset !== 'images/published/bath-magic/miniature.webp' : part ? miniature.version !== 1 || miniature.asset !== `images/published/elder-cycle/${part}-miniature.webp` :
           miniature.asset !== `images/covers/${id}/miniature/miniature-v${miniature.version}.png`)) return null;
     const derivatives = miniature.derivatives;
     const responsive = !part && Array.isArray(derivatives) && derivatives.length === 3 &&
       derivatives.every((asset, index) => asset.width === [256, 512, 1024][index] &&
         asset.height === asset.width * 3 / 2 &&
-        asset.src === miniature.asset.replace('.png', `-${asset.width}.webp`));
+        asset.src === miniature.asset.replace(/\.(?:png|webp)$/, `-${asset.width}.webp`));
     return {...miniature, id, src:miniature.asset, title:cover.title, alt:cover.title,
       ...(responsive ? {srcset:derivatives.map(asset => `${asset.src} ${asset.width}w`).join(', ')} : {})};
   }

@@ -20,7 +20,7 @@ try{for(const width of [390,1440])for(const lang of ['en','ru','es']){
  const initial=await reader.evaluate(()=>({pages:document.querySelectorAll('.scene').length,started:[...document.querySelectorAll('.scene-art img')].filter(i=>i.hasAttribute('src')).length,deferred:document.querySelectorAll('.scene-art img[data-src]').length,overflow:document.documentElement.scrollWidth>innerWidth}));
  assert(initial.pages>=26);assert(initial.started<=6,JSON.stringify(initial));assert(initial.deferred>initial.pages/2);assert(!initial.overflow);
  const last=reader.locator('.scene').last();await last.scrollIntoViewIfNeeded();await reader.waitForFunction(()=>{const i=[...document.querySelectorAll('.scene-art img')].at(-1);return i?.hasAttribute('src')});
- await last.locator('img').evaluate(i=>i.decode());assert.equal(await last.locator('img').evaluate(i=>i.naturalWidth),1536);
+ await last.locator('img').evaluate(i=>i.decode());assert.equal(await last.locator('img').evaluate(i=>i.naturalWidth),await last.locator('img').evaluate(i=>Number(i.getAttribute('width'))));
  const afterJump=await reader.locator('.scene-art img[data-src]').count();assert(afterJump>initial.pages/2,'Jumping to end does not fetch intervening pages');
  await reader.evaluate(()=>window.prepareChapterPrint());const full=await reader.evaluate(()=>({pending:document.querySelectorAll('.scene-art img[data-src]').length,broken:[...document.querySelectorAll('.scene-art img')].filter(i=>!i.complete||!i.naturalWidth).length}));assert.deepEqual(full,{pending:0,broken:0});assert.deepEqual(errors,[]);
  const readingPDFRequests=pdfRequests; let downloadVerified=false;

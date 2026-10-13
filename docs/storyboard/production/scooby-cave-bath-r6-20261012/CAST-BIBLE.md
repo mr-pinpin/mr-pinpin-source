@@ -25,8 +25,8 @@
   towel-help/farewell arc. EN uses name rather than imposing new gender; RU keeps
   the prior book's Зайка/feminine agreements, ES retains the character name Conejo.
 - Elder: established older hedgehog, round gold spectacles, grey-tipped quills,
-  calm wry eyebrows. Walking stick introduced at entrance if included; leaned by
-  C1 picnic place while free hands help map, retrieved before departure. No new
+  calm wry eyebrows. No walking stick in this chapter; identity references may
+  show one, but it is excluded from the assigned story objects. No new
   prophet/owl redesign, no automatic sacred-mural/temple import from old cave.
 - Beaver: established orange-brown adult, broad flat patterned tail, front teeth,
   BLUE work vest from R24. His wife/children/tractor remain absent unless actually

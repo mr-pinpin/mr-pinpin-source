@@ -1,0 +1,16 @@
+{
+  "id": "r6-013-v2",
+  "status": "prepared; references must be visually inspected before built-in generation",
+  "prompt": "docs/storyboard/production/scooby-cave-bath-r6-20261012/prompts/r6-013-v2.txt",
+  "promptSha256": "85c533800a879ea753ef4d632e77d10f0942b380d036c6b5dee104e6ca3d13c5",
+  "references": [
+    {
+      "path": "/root/.codex/worktrees/c64d/mr-pinpin-source/docs/storyboard/production/scooby-cave-bath-r6-20261012/native/r6-013-v1.png",
+      "role": "EDIT TARGET: remove signs only"
+    }
+  ],
+  "expectedNativeSize": [
+    1536,
+    1024
+  ]
+}

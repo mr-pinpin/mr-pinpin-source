@@ -155,3 +155,12 @@ repository, browser code, receipts, or logs. Production builds require no HF tok
 `assets/chapter-pdfs.json` preserves the separately generated chapter PDFs in the same public bucket. They are downloadable editions, kept outside the Pages bundle; the HTML reader continues to serve its illustrations from Pages. `docs/storyboard/library-pdfs.json` records each completed chapter, language, filename, public content-addressed URL, exact size and SHA-256. The library fetches a PDF only after selection; explicit reader URLs with `download=pdf` request the PDF directly.
 
 Generate with `scripts/export-chapter-pdfs.cjs` and follow `docs/storyboard/production/house-menu-library-20260922/PDF-EXPORT.md`. Keep heavy output and cache on TB4. PDF originals can be restored into a separate directory using `tools/assets/hf_store.py pull --manifest assets/chapter-pdfs.json --root EXTERNAL_DIRECTORY --cache EXTERNAL_CACHE --profile archive`. Never put PDF binaries or credentials into the Pages ledger.
+
+## Public archive readback
+
+For the approved public bucket, `hf_store.py push --public-http-readback`
+uses anonymous streamed HTTPS readback instead of the SDK download transport.
+Uploads still use standard Hugging Face authentication; byte counts, SHA-256
+and remote metadata checks remain required. The option refuses other buckets.
+Release uploads use this verified public readback plus the release materializer
+verification. No visibility or historical object keys change.

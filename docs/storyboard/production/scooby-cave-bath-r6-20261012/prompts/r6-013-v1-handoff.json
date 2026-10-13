@@ -1,0 +1,18 @@
+{
+  "id": "r6-013-v1",
+  "status": "prepared; references must be visually inspected before built-in generation",
+  "prompt": "docs/storyboard/production/scooby-cave-bath-r6-20261012/prompts/r6-013-v1.txt",
+  "promptSha256": "5f0a5cdd7bf409ef0fa0bf78394ee06be25f6daad1b98a054ab822b2dac72668",
+  "references": [
+    {
+      "index": 1,
+      "role": "Identity, scale, cottage exterior and clean dog",
+      "path": "/root/.codex/worktrees/c64d/mr-pinpin-source/docs/storyboard/production/scooby-cave-bath-r6-20261012/native/r6-012-v2.png",
+      "sha256": "9e975393a0759ab641fa57afdd990b510c0529bfe2205f981c25397c16a856c0"
+    }
+  ],
+  "expectedNativeSize": [
+    1536,
+    1024
+  ]
+}

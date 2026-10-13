@@ -111,3 +111,18 @@ make a repository look smaller.
 Do not assume that pushing to the authoring repository automatically selects a
 release in the separate Pages repository. That release selection is an explicit
 publishing step.
+
+## Chapter-specific hosting
+
+The optional scoped reader builder uses the same authoring checkout and
+verified production catalog:
+
+```sh
+npm run build:chapter -- --story scooby-bath --dest NEW_EXTERNAL_DIRECTORY
+```
+
+Its artifact can pass through the same immutable package/upload/template
+workflow into a separate lightweight chapter deployment repository. Creating
+that repository does not move authoring history or archive objects. Preserve
+central library and old reader URLs until the new live reader is verified.
+Current migration design and implementation limits: [chapter hosting](tools/publishing/CHAPTER-HOSTING.md).

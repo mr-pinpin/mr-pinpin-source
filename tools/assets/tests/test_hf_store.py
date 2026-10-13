@@ -448,5 +448,34 @@ class StorageTests(unittest.TestCase):
                 self.assertEqual((docs / "production.webp").read_bytes(), b"production")
                 self.assertEqual((outside / "frame.png").read_bytes(), b"frame")
                 self.assertTrue((docs / "renders").is_symlink())
+    def test_explicit_public_http_readback_verifies_anonymous_bytes(self):
+        self.source()
+        with patch.object(store, "urlopen", return_value=io.BytesIO(self.data)) as request:
+            receipt = self.call("upload_entries", public_http_readback=True)
+        self.assertTrue(receipt["verified"])
+        self.assertTrue(receipt["entries"][0]["remote_verified"])
+        self.assertEqual(self.api.downloads, [])
+        url = request.call_args.args[0]
+        self.assertEqual(url, "https://huggingface.co/buckets/" + self.bucket + "/resolve/" + self.entry["object"])
+        self.assertEqual(request.call_args.kwargs, {"timeout": 60})
+        self.assertEqual((self.root / self.entry["path"]).read_bytes(), self.data)
+
+    def test_public_readback_rejects_corruption_and_oversized_response(self):
+        self.source()
+        for payload in [bytes([self.data[0] ^ 1]) + self.data[1:], self.data + b"extra"]:
+            with self.subTest(payload=payload), patch.object(store, "urlopen", return_value=io.BytesIO(payload)):
+                with self.assertRaises(store.StorageError):
+                    self.call("upload_entries", public_http_readback=True)
+        self.assertEqual((self.root / self.entry["path"]).read_bytes(), self.data)
+
+    def test_public_readback_is_not_enabled_for_arbitrary_buckets(self):
+        self.source()
+        with patch.object(store, "urlopen") as request:
+            with self.assertRaisesRegex(store.StorageError, "restricted"):
+                store.upload_entries([self.entry], self.root, "another/private", self.cache,
+                                     api=self.api, public_http_readback=True)
+        request.assert_not_called()
+        self.assertEqual(self.api.uploads, [])
+
 if __name__ == "__main__":
     unittest.main()

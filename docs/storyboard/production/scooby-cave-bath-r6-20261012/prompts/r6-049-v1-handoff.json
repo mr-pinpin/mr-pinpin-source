@@ -1,0 +1,24 @@
+{
+  "id": "r6-049-v1",
+  "status": "prepared; references must be visually inspected before built-in generation",
+  "prompt": "docs/storyboard/production/scooby-cave-bath-r6-20261012/prompts/r6-049-v1.txt",
+  "promptSha256": "abdd3c2274bd5ffb076f78c538ff180e069b26381cd6a4194ad9e398bb5b4246",
+  "references": [
+    {
+      "index": 1,
+      "role": "Papa, PinPin and giant Scooby identities/scale ONLY; cave background only when assigned, NO blossom/boats unless current shot requires",
+      "path": "/root/.codex/worktrees/c64d/mr-pinpin-source/docs/storyboard/production/scooby-cave-bath-r6-20261012/native/r6-041-v2.png",
+      "sha256": "e020843725533bd5b8128f6eac4c83244a56b1c8125934dc2649b7bf48f59545"
+    },
+    {
+      "index": 2,
+      "role": "Cottage facade, green door and pink terracotta flower east of step; clean dog identity only when assigned",
+      "path": "/root/.codex/worktrees/c64d/mr-pinpin-source/docs/storyboard/production/scooby-cave-bath-r6-20261012/native/r6-009-v1.png",
+      "sha256": "f663f9dfe0a38005272048c1ecea272e21b70eff535804bae589e536491f267e"
+    }
+  ],
+  "expectedNativeSize": [
+    1536,
+    1024
+  ]
+}

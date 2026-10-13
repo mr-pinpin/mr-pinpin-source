@@ -1,0 +1,36 @@
+{
+  "id": "r6-087-v1",
+  "status": "prepared; references must be visually inspected before built-in generation",
+  "prompt": "docs/storyboard/production/scooby-cave-bath-r6-20261012/prompts/r6-087-v1.txt",
+  "promptSha256": "2830b8479f73db629ae40a11da058b0ceb324001667bb2c20b15127be1e16de2",
+  "references": [
+    {
+      "index": 1,
+      "role": "Environment geometry, landmark directions and lighting ONLY; add exactly the assigned actors/actions",
+      "path": "/root/.codex/worktrees/c64d/mr-pinpin-source/docs/storyboard/production/scooby-cave-bath-r6-20261012/native/cave-lobby-anchor-v1.png",
+      "sha256": "50fbcba6fafc9f247b3423251c1c63f955251defc496542a08c95913db6f0e44"
+    },
+    {
+      "index": 2,
+      "role": "Papa, PinPin and giant Scooby identities/scale ONLY; cave background only when assigned, NO blossom/boats unless current shot requires",
+      "path": "/root/.codex/worktrees/c64d/mr-pinpin-source/docs/storyboard/production/scooby-cave-bath-r6-20261012/native/r6-041-v2.png",
+      "sha256": "e020843725533bd5b8128f6eac4c83244a56b1c8125934dc2649b7bf48f59545"
+    },
+    {
+      "index": 3,
+      "role": "Rabbit identity, folded green leaf boat shape ONLY; do NOT copy grinning acting or extra boats",
+      "path": "/root/.codex/worktrees/c64d/mr-pinpin-source/docs/storyboard/images/published/bath-magic/r17/scene-03l.webp",
+      "sha256": "b40ac36e16a2f183f826d340f8be4c2ad85c30fa0a3e660c0dd0958cdb5da81b"
+    },
+    {
+      "index": 4,
+      "role": "Elder gray quills and round gold spectacles ONLY; no tractor, garden furniture, cane or reference cast",
+      "path": "/root/.codex/worktrees/c64d/mr-pinpin-source/docs/storyboard/images/published/bath-magic/r24/scene-328.webp",
+      "sha256": "cd50848dac73d59085198fc0546416f9d11894b9c552dd40679810f58b095159"
+    }
+  ],
+  "expectedNativeSize": [
+    1536,
+    1024
+  ]
+}

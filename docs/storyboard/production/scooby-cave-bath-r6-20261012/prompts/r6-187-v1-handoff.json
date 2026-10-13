@@ -1,0 +1,24 @@
+{
+  "id": "r6-187-v1",
+  "status": "prepared; references must be visually inspected before built-in generation",
+  "prompt": "docs/storyboard/production/scooby-cave-bath-r6-20261012/prompts/r6-187-v1.txt",
+  "promptSha256": "6dd64afef5745978a8b13dd8e37a1e6919b3413d37af6e348d7643c5463bc79a",
+  "references": [
+    {
+      "index": 1,
+      "role": "Environment geometry, landmark directions and lighting ONLY; add exactly the assigned actors/actions",
+      "path": "/root/.codex/worktrees/c64d/mr-pinpin-source/docs/storyboard/production/scooby-cave-bath-r6-20261012/native/shower-tree-anchor-v1.png",
+      "sha256": "454896c5b9ca69e4e6017a95682afb65e2b41f50d849630c2d5b2ebb7188118e"
+    },
+    {
+      "index": 2,
+      "role": "Mama, supported PomPom and PinPin identity ONLY; indoor furniture only when assigned",
+      "path": "/root/.codex/worktrees/c64d/mr-pinpin-source/docs/storyboard/production/scooby-cave-bath-r6-20261012/native/r6-014-v1.png",
+      "sha256": "da2fa18f8656798cab055db699c8a7460ccb12d45bd925b61f195d489a4d005b"
+    }
+  ],
+  "expectedNativeSize": [
+    1536,
+    1024
+  ]
+}

@@ -1,5 +1,6 @@
 (() => {
   'use strict';
+  if (window.pinpinChapterHosting?.redirect) return;
   const active = new URL(location.href).searchParams.get('download') === 'pdf';
   window.pinpinPDFRoute = {active};
   if (!active) return;
@@ -23,7 +24,7 @@
     const controls=node('div');controls.className='pdf-actions';
     const retry=node('button',ui.retry);retry.type='button';retry.hidden=true;retry.id='pdf-route-retry';
     const cancel=node('button',ui.cancel);cancel.type='button';cancel.id='pdf-route-cancel';
-    const library=node('a',ui.library);library.href=`library.html?lang=${lang}`;
+    const library=node('a',ui.library);library.href=new URL(`library.html?lang=${lang}`,window.pinpinChapterHosting?.central||location.href).href;
     controls.append(retry,cancel,library);panel.append(eyebrow,title,description,status,progress,controls);
     document.body.replaceChildren(panel);
     let controller=null, running=false;

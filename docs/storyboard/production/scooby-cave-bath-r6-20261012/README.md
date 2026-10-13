@@ -1,7 +1,8 @@
-# Scooby cave-and-bath revision: preproduction
+# Scooby cave-and-bath revision: 216-page edition
 
-This is the new authoring direction, not a published replacement.
-The existing short chapter is still the live release.
+Completed 215 narrative scenes plus localized title, in English, Russian and Spanish.
+Release target: https://mr-pinpin.github.io/chapter-scooby-bath/storyboard/?story=scooby-bath&lang=en
+Publication is complete only after the selected deployment is verified.
 
 - [Overview](OVERVIEW.md): four-day story, subplots, cast roles and magic rules.
 - [Ordered beats](BEATS.md): 215 narrative scenes plus localized title, matching Bath Magic's 216 reader pages.
@@ -10,12 +11,12 @@ The existing short chapter is still the live release.
 - [Object inventory](OBJECTS.json), [cast coverage](CAST-COVERAGE.json), [machine-readable beats](BEAT-PLAN.json).
 - [Causal flow](causal-flow.mmd).
 
-Regenerate beat plan with `python3 create-preproduction.py`. This produces planning
+The original `create-preproduction.py` scaffold predates the final editorial adjustments; do not overwrite the final beat plan. It produces planning
 material, never selects assets or changes the reader. All215 EN/RU/ES captions and individual camera/acting/object directions are
 authored in [the script](script/english-reading.md) and [director data](script/story-script.json).
 [Subplots](SUBPLOTS.md), [cast](CAST-BIBLE.md), and [editorial decisions](EDITORIAL-DECISIONS.md) guide the new version.
-Symbolic continuity checks pass; visual production and editorial proofing continue.
-The revised chapter has not been published. Superseded R4 smiling/boat studies and R5 short outline are not selected.
+Symbolic continuity checks and full visual selection are complete.
+207 new narrative masters, six deliberate environment views and two unchanged approved book images form the narrative. Superseded R4 smiling/boat studies and R5 short outline are not selected.
 
 ## Reading-size feasibility study
 
@@ -50,3 +51,22 @@ This working review is excluded from official Pages artifacts. Exact submitted
 prompts are in `prompts/`; all native outputs are retained, including rejected
 studies. `generation-records.json` records hashes/statuses/tool originals; built-in
 imagegen was used, no paid CLI/API fallback.
+
+## Final production
+
+Built-in image generation produced the selected native masters in `native/`;
+individual prompts, geometry/style references and hashes are recorded in
+`prompts/` and `generation-records.json`. Native files are retained locally and
+preserved by the verified V7 archive receipt. `reader/selected-masters.json`
+records the exact selections; `reader/production-manifest.json` records the
+WebP reading derivatives. No prior approved book image was changed.
+
+The scoped chapter artifact contains 216 pages, 1440×960 reading illustrations,
+localized titles and a responsive miniature. Desktop/mobile browser checks pass
+in all three languages with two or three initial image requests, lazy loading,
+late-scene navigation and no Hugging Face requests for ordinary reading.
+PDF exports preserve native image dimensions and selectable localized text;
+new immutable PDF objects do not replace older edition objects.
+
+House pictures follow published illustration references; they are not certified
+measured geometry renders. The earlier R4/R5 studies remain preserved separately.

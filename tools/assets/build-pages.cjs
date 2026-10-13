@@ -5,6 +5,7 @@ const fs = require('node:fs');
 const path = require('node:path');
 const crypto = require('node:crypto');
 const {parseArgs} = require('node:util');
+const {chapterDeployments} = require('./chapter-deployments.cjs');
 const {parse} = require('parse5');
 const acorn = require('acorn');
 const walk = require('acorn-walk');
@@ -46,10 +47,10 @@ function manifestEntries(manifest) {
   return entries;
 }
 
-function collectFiles(root, entries) {
+function collectFiles(root, entries, separate = () => false) {
   const files = new Map();
   function visit(name) {
-    if (excluded(name) || entries.get(name)?.role === 'archive') return;
+    if (excluded(name) || separate(name) || entries.get(name)?.role === 'archive') return;
     const absolute = path.join(root, name), stat = fs.lstatSync(absolute);
     if (stat.isSymbolicLink()) throw Error(`Selected symlink: ${name}`);
     if (stat.isDirectory()) {
@@ -65,7 +66,7 @@ function collectFiles(root, entries) {
   }
   visit('docs');
   for (const [name, entry] of entries)
-    if (entry.role === 'production' && !files.has(name)) throw Error(`Missing production file: ${name}`);
+    if (entry.role === 'production' && !separate(name) && !files.has(name)) throw Error(`Missing production file: ${name}`);
   return files;
 }
 
@@ -169,12 +170,14 @@ function checkReferences(root, files) {
 function buildPages({root = path.resolve(__dirname,'../..'), manifest = 'assets/manifest.json', dest = '.pages-site', check = false, budget = BUDGET} = {}) {
   root = fs.realpathSync(root);
   const entries = manifestEntries(JSON.parse(fs.readFileSync(path.resolve(root,manifest),'utf8')));
-  const files = collectFiles(root,entries);
+  const chapters = chapterDeployments(root);
+  const separate = name => chapters.some(chapter => name === chapter.storyFile || name === chapter.mediaRoot || name.startsWith(chapter.mediaRoot + '/'));
+  const files = collectFiles(root,entries,separate);
   const bytes = [...files.values()].reduce((sum,size) => sum + size, 0);
   if (!Number.isSafeInteger(budget) || budget <= 0 || budget > BUDGET || bytes >= budget)
     throw Error(`Pages size ${bytes} must be below ${budget} bytes (maximum ${BUDGET})`);
   checkReferences(root,files);
-  const result = {files:files.size, managedProduction:[...entries.values()].filter(e => e.role === 'production').length, bytes, budget};
+  const result = {files:files.size, managedProduction:[...entries.values()].filter(e => e.role === 'production' && files.has(e.path)).length, bytes, budget};
   if (check) return {...result, check:true};
   const output = path.resolve(root,dest);
   if (output === root || root.startsWith(output + path.sep) || output === path.join(root,'docs') || output.startsWith(path.join(root,'docs') + path.sep))

@@ -1,0 +1,30 @@
+{
+  "id": "r6-175-v1",
+  "status": "prepared; references must be visually inspected before built-in generation",
+  "prompt": "docs/storyboard/production/scooby-cave-bath-r6-20261012/prompts/r6-175-v1.txt",
+  "promptSha256": "e27d8597ebaf73bc42729549ad01a141451f2bf3950f7aeda1c4095d60f58639",
+  "references": [
+    {
+      "index": 1,
+      "role": "Environment geometry, landmark directions and lighting ONLY; add exactly the assigned actors/actions",
+      "path": "/root/.codex/worktrees/c64d/mr-pinpin-source/docs/storyboard/production/scooby-cave-bath-r6-20261012/native/cave-blossom-anchor-v2.png",
+      "sha256": "a014a6467bfa9b745df877780d0fc78d80f2f211cabe1e580a0690e53e2cd882"
+    },
+    {
+      "index": 2,
+      "role": "Papa, PinPin and giant Scooby identities/scale ONLY; cave background only when assigned, NO blossom/boats unless current shot requires",
+      "path": "/root/.codex/worktrees/c64d/mr-pinpin-source/docs/storyboard/production/scooby-cave-bath-r6-20261012/native/r6-041-v2.png",
+      "sha256": "e020843725533bd5b8128f6eac4c83244a56b1c8125934dc2649b7bf48f59545"
+    },
+    {
+      "index": 3,
+      "role": "Rabbit identity, folded green leaf boat shape ONLY; do NOT copy grinning acting or extra boats",
+      "path": "/root/.codex/worktrees/c64d/mr-pinpin-source/docs/storyboard/images/published/bath-magic/r17/scene-03l.webp",
+      "sha256": "b40ac36e16a2f183f826d340f8be4c2ad85c30fa0a3e660c0dd0958cdb5da81b"
+    }
+  ],
+  "expectedNativeSize": [
+    1536,
+    1024
+  ]
+}

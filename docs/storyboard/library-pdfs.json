@@ -454,41 +454,42 @@
         "es": "Scooby se da un baño"
       },
       "cover": {
-        "en": "images/published/scooby-bath/title-en.webp",
-        "ru": "images/published/scooby-bath/title-ru.webp",
-        "es": "images/published/scooby-bath/title-es.webp"
+        "en": "https://mr-pinpin.github.io/chapter-scooby-bath/storyboard/images/published/scooby-bath/r6/title-en.webp",
+        "ru": "https://mr-pinpin.github.io/chapter-scooby-bath/storyboard/images/published/scooby-bath/r6/title-ru.webp",
+        "es": "https://mr-pinpin.github.io/chapter-scooby-bath/storyboard/images/published/scooby-bath/r6/title-es.webp"
       },
       "coverId": "scooby-bath",
-      "miniature": "images/published/scooby-bath/miniature.webp",
-      "pageCount": 32,
-      "storyPageCount": 32,
+      "miniature": "https://mr-pinpin.github.io/chapter-scooby-bath/storyboard/images/published/scooby-bath/r6/miniature-512.webp",
+      "pageCount": 216,
+      "storyPageCount": 216,
       "coloringPageCount": 0,
       "route": {
         "story": "scooby-bath"
       },
       "pdf": {
         "en": {
-          "url": "https://huggingface.co/buckets/miguelemosreverte/mr-pinpin-archive/resolve/sha256/03/03f8948e6b39b8f105d5985305857df1a40f0514f4d903e5c7f457c61170b7bb/scooby-bath-en.pdf",
+          "url": "https://huggingface.co/buckets/miguelemosreverte/mr-pinpin-archive/resolve/sha256/30/30740ccc219de7f42a7f4c0dafde49f1b8d2861659835ec211b23c17722ea3c6/scooby-bath-en.pdf",
           "filename": "scooby-bath-en.pdf",
-          "bytes": 24215538,
-          "sha256": "03f8948e6b39b8f105d5985305857df1a40f0514f4d903e5c7f457c61170b7bb",
-          "pageCount": 32
+          "bytes": 168793587,
+          "sha256": "30740ccc219de7f42a7f4c0dafde49f1b8d2861659835ec211b23c17722ea3c6",
+          "pageCount": 216
         },
         "ru": {
-          "url": "https://huggingface.co/buckets/miguelemosreverte/mr-pinpin-archive/resolve/sha256/8e/8ebf7a0d9b783a86642945a8294e1f64c54856e8565c78c16bcbabf3bbef8807/scooby-bath-ru.pdf",
+          "url": "https://huggingface.co/buckets/miguelemosreverte/mr-pinpin-archive/resolve/sha256/8b/8b2a87ffe51c9949b6bb8b42cf81c154f6fbfb72864ee4d8762f6caea49e56f9/scooby-bath-ru.pdf",
           "filename": "scooby-bath-ru.pdf",
-          "bytes": 24203251,
-          "sha256": "8ebf7a0d9b783a86642945a8294e1f64c54856e8565c78c16bcbabf3bbef8807",
-          "pageCount": 32
+          "bytes": 168807180,
+          "sha256": "8b2a87ffe51c9949b6bb8b42cf81c154f6fbfb72864ee4d8762f6caea49e56f9",
+          "pageCount": 216
         },
         "es": {
-          "url": "https://huggingface.co/buckets/miguelemosreverte/mr-pinpin-archive/resolve/sha256/72/724c10579091dd22680ca91fa2f8d6213e9cb42341fdffe29133c03d640c32ee/scooby-bath-es.pdf",
+          "url": "https://huggingface.co/buckets/miguelemosreverte/mr-pinpin-archive/resolve/sha256/82/825f9b8df857f0188b3fb88327e83dcba80dd2ea8bbbcff2928da44e8b6fd1a7/scooby-bath-es.pdf",
           "filename": "scooby-bath-es.pdf",
-          "bytes": 24201949,
-          "sha256": "724c10579091dd22680ca91fa2f8d6213e9cb42341fdffe29133c03d640c32ee",
-          "pageCount": 32
+          "bytes": 168785615,
+          "sha256": "825f9b8df857f0188b3fb88327e83dcba80dd2ea8bbbcff2928da44e8b6fd1a7",
+          "pageCount": 216
         }
-      }
+      },
+      "reader": "https://mr-pinpin.github.io/chapter-scooby-bath/storyboard/"
     }
   ]
 }

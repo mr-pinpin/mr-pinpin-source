@@ -1,0 +1,24 @@
+{
+  "id": "r6-046-v1",
+  "status": "prepared; references must be visually inspected before built-in generation",
+  "prompt": "docs/storyboard/production/scooby-cave-bath-r6-20261012/prompts/r6-046-v1.txt",
+  "promptSha256": "f5d58258f7f13182b666f6e7597b4f1b8da7c8a1487e1b3d3da9939d99f25a45",
+  "references": [
+    {
+      "index": 1,
+      "role": "Papa, PinPin and giant Scooby identities/scale ONLY; cave background only when assigned, NO blossom/boats unless current shot requires",
+      "path": "/root/.codex/worktrees/c64d/mr-pinpin-source/docs/storyboard/production/scooby-cave-bath-r6-20261012/native/r6-041-v2.png",
+      "sha256": "e020843725533bd5b8128f6eac4c83244a56b1c8125934dc2649b7bf48f59545"
+    },
+    {
+      "index": 2,
+      "role": "Rabbit identity, folded green leaf boat shape ONLY; do NOT copy grinning acting or extra boats",
+      "path": "/root/.codex/worktrees/c64d/mr-pinpin-source/docs/storyboard/images/published/bath-magic/r17/scene-03l.webp",
+      "sha256": "b40ac36e16a2f183f826d340f8be4c2ad85c30fa0a3e660c0dd0958cdb5da81b"
+    }
+  ],
+  "expectedNativeSize": [
+    1536,
+    1024
+  ]
+}

@@ -19,6 +19,7 @@ def upload(directory, cache, receipt, adapter=None):
     manifest, release = load_release(directory / "release-manifest.json")
     archive = manifest["archive"]
     require(identity(directory / "release.tar.gz") == (archive["bytes"], archive["sha256"]), "Package archive changed")
+    public_readback = adapter is None
     if adapter is None:
         source = Path(__file__).resolve().parents[1] / "assets" / "hf_store.py"
         spec = importlib.util.spec_from_file_location("pinpin_hf_store", source)
@@ -27,7 +28,8 @@ def upload(directory, cache, receipt, adapter=None):
     # Construct the entry from the authenticated manifest, not a second mutable file.
     entry = {"path": "release.tar.gz", "role": "archive", "bytes": archive["bytes"],
              "sha256": archive["sha256"], "object": archive["object"]}
-    result = adapter.upload_entries([entry], directory, BUCKET, cache, workers=1)
+    result = adapter.upload_entries([entry], directory, BUCKET, cache, workers=1,
+                                    **({"public_http_readback": True} if public_readback else {}))
     require(result.get("verified") is True and result.get("dry_run") is False
             and len(result.get("entries", [])) == 1
             and result["entries"][0].get("remote_verified") is True, "Upload did not return verified readback")

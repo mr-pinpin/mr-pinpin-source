@@ -1,0 +1,30 @@
+{
+  "id": "r6-069-v1",
+  "status": "prepared; references must be visually inspected before built-in generation",
+  "prompt": "docs/storyboard/production/scooby-cave-bath-r6-20261012/prompts/r6-069-v1.txt",
+  "promptSha256": "45415c0b324f7c819322796d8f4a02ed4d654ac18dadc55974b6f71993e96ec0",
+  "references": [
+    {
+      "index": 1,
+      "role": "Environment geometry, landmark directions and lighting ONLY; add exactly the assigned actors/actions",
+      "path": "/root/.codex/worktrees/c64d/mr-pinpin-source/docs/storyboard/production/scooby-cave-bath-r6-20261012/native/cave-mouth-anchor-v1.png",
+      "sha256": "7b5427efe158a448477a3e7ea28bd4df0bd3165da1bc223fbcde53d779c959a3"
+    },
+    {
+      "index": 2,
+      "role": "Papa, PinPin and giant Scooby identities/scale ONLY; cave background only when assigned, NO blossom/boats unless current shot requires",
+      "path": "/root/.codex/worktrees/c64d/mr-pinpin-source/docs/storyboard/production/scooby-cave-bath-r6-20261012/native/r6-041-v2.png",
+      "sha256": "e020843725533bd5b8128f6eac4c83244a56b1c8125934dc2649b7bf48f59545"
+    },
+    {
+      "index": 3,
+      "role": "Mama, supported PomPom and PinPin identity ONLY; indoor furniture only when assigned",
+      "path": "/root/.codex/worktrees/c64d/mr-pinpin-source/docs/storyboard/production/scooby-cave-bath-r6-20261012/native/r6-014-v1.png",
+      "sha256": "da2fa18f8656798cab055db699c8a7460ccb12d45bd925b61f195d489a4d005b"
+    }
+  ],
+  "expectedNativeSize": [
+    1536,
+    1024
+  ]
+}

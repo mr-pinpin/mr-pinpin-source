@@ -448,23 +448,23 @@
         "story": "scooby-bath"
       },
       "status": "approved",
-      "version": 1,
+      "version": 2,
       "width": 1024,
       "height": 1536,
       "placement": "replace",
       "title": {
         "en": "Scooby Gets a Bath",
-        "ru": "Скуби принимает ванну",
+        "ru": "Скуби купается",
         "es": "Scooby se da un baño"
       },
       "assets": {
-        "en": "images/published/scooby-bath/title-en.webp",
-        "ru": "images/published/scooby-bath/title-ru.webp",
-        "es": "images/published/scooby-bath/title-es.webp"
+        "en": "https://mr-pinpin.github.io/chapter-scooby-bath/storyboard/images/published/scooby-bath/r6/title-en.webp",
+        "ru": "https://mr-pinpin.github.io/chapter-scooby-bath/storyboard/images/published/scooby-bath/r6/title-ru.webp",
+        "es": "https://mr-pinpin.github.io/chapter-scooby-bath/storyboard/images/published/scooby-bath/r6/title-es.webp"
       },
       "alt": {
         "en": "Scooby Gets a Bath",
-        "ru": "Скуби принимает ванну",
+        "ru": "Скуби купается",
         "es": "Scooby se da un baño"
       },
       "approval": {
@@ -473,13 +473,30 @@
         "individualUserImageReview": false
       },
       "miniature": {
+        "version": 2,
         "status": "approved",
-        "version": 1,
+        "asset": "https://mr-pinpin.github.io/chapter-scooby-bath/storyboard/images/published/scooby-bath/r6/miniature.webp",
         "width": 1024,
         "height": 1536,
-        "asset": "images/published/scooby-bath/miniature.webp",
         "textFree": true,
-        "languageIndependent": true
+        "languageIndependent": true,
+        "derivatives": [
+          {
+            "width": 256,
+            "height": 384,
+            "src": "https://mr-pinpin.github.io/chapter-scooby-bath/storyboard/images/published/scooby-bath/r6/miniature-256.webp"
+          },
+          {
+            "width": 512,
+            "height": 768,
+            "src": "https://mr-pinpin.github.io/chapter-scooby-bath/storyboard/images/published/scooby-bath/r6/miniature-512.webp"
+          },
+          {
+            "width": 1024,
+            "height": 1536,
+            "src": "https://mr-pinpin.github.io/chapter-scooby-bath/storyboard/images/published/scooby-bath/r6/miniature-1024.webp"
+          }
+        ]
       }
     }
   }

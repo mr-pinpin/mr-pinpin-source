@@ -1,0 +1,24 @@
+{
+  "id": "r6-072-v1",
+  "status": "prepared; references must be visually inspected before built-in generation",
+  "prompt": "docs/storyboard/production/scooby-cave-bath-r6-20261012/prompts/r6-072-v1.txt",
+  "promptSha256": "14c92480e88709dd46e774a4c20dd0b55c25d93f70c0ea4565e48ec7185630f3",
+  "references": [
+    {
+      "index": 1,
+      "role": "Environment geometry, landmark directions and lighting ONLY; add exactly the assigned actors/actions",
+      "path": "/root/.codex/worktrees/c64d/mr-pinpin-source/docs/storyboard/production/scooby-cave-bath-r6-20261012/native/cave-lobby-anchor-v1.png",
+      "sha256": "50fbcba6fafc9f247b3423251c1c63f955251defc496542a08c95913db6f0e44"
+    },
+    {
+      "index": 2,
+      "role": "Papa, PinPin and giant Scooby identities/scale ONLY; cave background only when assigned, NO blossom/boats unless current shot requires",
+      "path": "/root/.codex/worktrees/c64d/mr-pinpin-source/docs/storyboard/production/scooby-cave-bath-r6-20261012/native/r6-041-v2.png",
+      "sha256": "e020843725533bd5b8128f6eac4c83244a56b1c8125934dc2649b7bf48f59545"
+    }
+  ],
+  "expectedNativeSize": [
+    1536,
+    1024
+  ]
+}

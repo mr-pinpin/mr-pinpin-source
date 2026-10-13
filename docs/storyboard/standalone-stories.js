@@ -186,7 +186,30 @@
     });
   }
 
+  function completeScoobyR6(story) {
+    const base = 'images/published/scooby-bath/r6/';
+    if (story?.id !== 'scooby-bath' || story.editionVersion !== 4 || !localized(story.title) ||
+        !localized(story.cover) || !languages.every(lang => story.cover[lang] === base + 'title-' + lang + '.webp') ||
+        story.miniature !== base + 'miniature.webp' || !Array.isArray(story.scenes) || story.scenes.length !== 216 || !Array.isArray(story.spreads) || story.spreads.length !== 216) return false;
+    return story.scenes.every((scene,index) => {
+      const spread = story.spreads[index];
+      if (!scene || !localized(scene.alt) || !spread || spread.scenes?.length !== 1 || spread.scenes[0] !== index ||
+          !languages.every(lang => Array.isArray(scene.paragraphs?.[lang]) &&
+            scene.paragraphs[lang].every(text => typeof text === 'string' && text.trim()) &&
+            (index === 0 ? scene.paragraphs[lang].length === 0 : scene.paragraphs[lang].length > 0))) return false;
+      if (index === 0) return scene.id === 'scooby-bath-title' && scene.role === 'title' &&
+        localized(scene.images) && scene.image === story.cover.en && languages.every(lang => scene.images[lang] === story.cover[lang]) &&
+        scene.width === 1024 && scene.height === 1536 && spread.style === 'cover' && spread.paper === 'portrait';
+      const reused = {51:'images/published/bath-magic/scene-70.webp',138:'images/published/bath-magic/scene-126.webp'}[index];
+      return scene.id === 'r6-' + String(index).padStart(3,'0') && scene.role === undefined &&
+        scene.image === (reused || base + 'scene-' + String(index).padStart(3,'0') + '.webp') &&
+        scene.width === (reused ? 1536 : 1440) && scene.height === (reused ? 1024 : 960) &&
+        spread.style === 'elder' && spread.paper === 'landscape';
+    });
+  }
+
   function completeScooby(story) {
+    if (story?.editionVersion === 4) return completeScoobyR6(story);
     const base = 'images/published/scooby-bath/';
     const ids = story?.editionVersion === 1 ? Array.from({length:16}, (_,i) => 'scene-' + String(i+1).padStart(2,'0')) : story?.editionVersion === 2 ? [...Array.from({length:7}, (_,i) => 'ext-' + String(i+1).padStart(2,'0')), ...Array.from({length:15}, (_,i) => 'scene-' + String(i+1).padStart(2,'0')), 'ext-08', 'ext-09', 'scene-16'] : story?.editionVersion === 3 ? [...Array.from({length:4}, (_,i) => 'ext-' + String(i+1).padStart(2,'0')), ...Array.from({length:6}, (_,i) => 'dig-' + String(i+1).padStart(2,'0')), 'ext-05', 'ext-06', 'ext-07', ...Array.from({length:15}, (_,i) => 'scene-' + String(i+1).padStart(2,'0')), 'ext-08', 'ext-09', 'scene-16'] : null;
     if (story?.id !== 'scooby-bath' || !ids || !localized(story.title) ||

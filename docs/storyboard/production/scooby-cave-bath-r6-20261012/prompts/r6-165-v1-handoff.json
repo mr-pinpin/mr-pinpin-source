@@ -1,0 +1,24 @@
+{
+  "id": "r6-165-v1",
+  "status": "prepared; references must be visually inspected before built-in generation",
+  "prompt": "docs/storyboard/production/scooby-cave-bath-r6-20261012/prompts/r6-165-v1.txt",
+  "promptSha256": "76d8159510f927a5d2792a790e1140e571ae325a04534d63b0f616cf8552f0c7",
+  "references": [
+    {
+      "index": 1,
+      "role": "Family identities and selected room continuity; change expressions/action to this shot",
+      "path": "/root/.codex/worktrees/c64d/mr-pinpin-source/docs/storyboard/production/scooby-cave-bath-r6-20261012/native/r6-001-v1.png",
+      "sha256": "dd987ef97127329555c0d59577eb7d2f7c3c2f029b5ec53d9d01d1afa08133b2"
+    },
+    {
+      "index": 2,
+      "role": "Rabbit identity, folded green leaf boat shape ONLY; do NOT copy grinning acting or extra boats",
+      "path": "/root/.codex/worktrees/c64d/mr-pinpin-source/docs/storyboard/images/published/bath-magic/r17/scene-03l.webp",
+      "sha256": "b40ac36e16a2f183f826d340f8be4c2ad85c30fa0a3e660c0dd0958cdb5da81b"
+    }
+  ],
+  "expectedNativeSize": [
+    1536,
+    1024
+  ]
+}

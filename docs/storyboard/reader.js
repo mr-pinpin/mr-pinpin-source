@@ -1,6 +1,6 @@
 (() => {
   // PDF routes are handled before reader initialization or story asset fetches.
-  if (window.pinpinPDFRoute?.active) return;
+  if (window.pinpinPDFRoute?.active || window.pinpinChapterHosting?.redirect) return;
   const $ = id => document.getElementById(id);
   let artwork, translations, book, published, edition, story, language = 'ru', printing = false;
   let loadedKey, navigation = 0, imageObserver;
@@ -17,7 +17,7 @@
     const labels = navigationLabels[language];
     document.documentElement.lang = language;
     const destination = new URL(location.href).searchParams.get('returnTo');
-    const map = new URL(['atlas-webgpu.html', 'atlas.html'].includes(destination) ? destination : 'atlas-webgpu.html', location.href);
+    const map = new URL(['atlas-webgpu.html', 'atlas.html'].includes(destination) ? destination : 'atlas-webgpu.html', window.pinpinChapterHosting?.central || location.href);
     map.searchParams.set('lang', language);
     const returnPlace = new URL(location.href).searchParams.get('returnPlace');
     if (['home', 'lake', 'elder', 'bridge'].includes(returnPlace)) map.searchParams.set('returnPlace', returnPlace);
@@ -88,7 +88,10 @@
     edition = story || window.chapterEditions.resolve(new URL(location.href).searchParams.get('chapter'), published);
     const { id:chapterId, number:chapterNumber, spreads } = edition;
     syncNavigation();
-    history.replaceState(null, '', route(language));
+    const fragment = readingPosition === 0 && /^#(?:spread|scene)-[1-9][0-9]*$/.test(location.hash) ? location.hash : '';
+    const canonical = route(language);
+    if (fragment) canonical.hash = fragment;
+    history.replaceState(null, '', canonical);
     const ui = window.readerLabels[language];
     const preview = new URL(location.href).searchParams.get('view') === 'print';
     document.documentElement.classList.toggle('print-preview', preview);
@@ -234,7 +237,8 @@
     requestAnimationFrame(() => {
       if (!article.isConnected) return;
       resizePreview();
-      restorePosition(readingPosition);
+      if (fragment && $(fragment.slice(1))) $(fragment.slice(1)).scrollIntoView();
+      else restorePosition(readingPosition);
       observeImages(article, preview);
       updateProgress();
     });
@@ -359,8 +363,22 @@
   new ResizeObserver(() => { resizePreview(); updateProgress(); }).observe($('reader'));
 
   async function initialize(url) {
-    await window.titleCovers.load();
     const requestedStory = url.searchParams.get('story');
+    if (requestedStory && !window.pinpinChapterHosting) {
+      try {
+        const response = await fetch('chapter-deployments.json', {cache:'no-cache'});
+        const deployments = response.ok ? await response.json() : null;
+        const route = deployments?.schemaVersion === 1 && deployments.chapters?.[requestedStory];
+        if (route?.reader === `https://mr-pinpin.github.io/chapter-${requestedStory}/storyboard/` &&
+            /^[a-f0-9]{64}$/.test(route.release || '')) {
+          const target = new URL(route.reader);
+          target.search = url.search; target.hash = url.hash;
+          location.replace(target.href);
+          return null;
+        }
+      } catch { /* Existing local edition remains available if route lookup fails. */ }
+    }
+    await window.titleCovers.load();
     if (requestedStory !== null) {
       const selected = await window.standaloneStories.load(requestedStory, url.searchParams.get('chapter'));
       if (!selected) throw new Error('Story is not available');
@@ -410,6 +428,7 @@
     artwork = null;
     try {
       const data = await initialize(url);
+      if (!data) return;
       if (current !== navigation) return;
       ({artwork, translations, book, published, story} = data);
       render();

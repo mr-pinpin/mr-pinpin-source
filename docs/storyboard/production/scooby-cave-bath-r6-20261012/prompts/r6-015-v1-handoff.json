@@ -1,0 +1,24 @@
+{
+  "id": "r6-015-v1",
+  "status": "prepared; references must be visually inspected before built-in generation",
+  "prompt": "docs/storyboard/production/scooby-cave-bath-r6-20261012/prompts/r6-015-v1.txt",
+  "promptSha256": "55f6e426cc37099dd805aa75d15fe2b9e86e1eec28db10c84b5275704913b927",
+  "references": [
+    {
+      "index": 1,
+      "role": "Child and Mother identity, supported infant, cloth ball, interior",
+      "path": "/root/.codex/worktrees/c64d/mr-pinpin-source/docs/storyboard/production/scooby-cave-bath-r6-20261012/native/r6-014-v1.png",
+      "sha256": "da2fa18f8656798cab055db699c8a7460ccb12d45bd925b61f195d489a4d005b"
+    },
+    {
+      "index": 2,
+      "role": "Rabbit identity and folded green leaf boats",
+      "path": "/root/.codex/worktrees/c64d/mr-pinpin-source/docs/storyboard/images/published/bath-magic/r17/scene-03l.webp",
+      "sha256": "b40ac36e16a2f183f826d340f8be4c2ad85c30fa0a3e660c0dd0958cdb5da81b"
+    }
+  ],
+  "expectedNativeSize": [
+    1536,
+    1024
+  ]
+}

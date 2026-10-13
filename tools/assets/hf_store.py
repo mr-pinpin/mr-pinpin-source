@@ -11,6 +11,8 @@ import re
 import stat
 import sys
 import tempfile
+from urllib.parse import quote
+from urllib.request import urlopen
 
 
 class StorageError(ValueError):
@@ -252,7 +254,7 @@ def _copy_verified(source: Path, destination: Path, entry: dict) -> None:
         temporary.unlink(missing_ok=True)
 
 
-def _download_verified(api, bucket: str, entry: dict, cache: Path, *, keep: bool) -> Path:
+def _download_verified(api, bucket: str, entry: dict, cache: Path, *, keep: bool, public_http_readback=False) -> Path:
     destination = safe_path(cache, entry["object"], create=True)
     if keep and destination.exists():
         check_file(destination, entry["bytes"], entry["sha256"])
@@ -260,7 +262,22 @@ def _download_verified(api, bucket: str, entry: dict, cache: Path, *, keep: bool
     temporary = temporary_path(destination.parent)
     try:
         try:
-            api.download_bucket_files(bucket, [(entry["object"], temporary)], raise_on_missing_files=True)
+            if public_http_readback:
+                # Explicit anonymous readback only for this already-public archive.
+                if bucket != "miguelemosreverte/mr-pinpin-archive":
+                    raise StorageError("Public HTTP readback is restricted to the configured public archive")
+                url = "https://huggingface.co/buckets/" + bucket + "/resolve/" + quote(entry["object"], safe="/")
+                received = 0
+                with urlopen(url, timeout=60) as response, temporary.open("wb") as target:
+                    while chunk := response.read(1024 * 1024):
+                        received += len(chunk)
+                        if received > entry["bytes"]:
+                            raise StorageError("Remote response exceeds manifest byte count")
+                        target.write(chunk)
+            else:
+                api.download_bucket_files(bucket, [(entry["object"], temporary)], raise_on_missing_files=True)
+        except StorageError:
+            raise
         except Exception as exc:
             raise _remote_error("download", exc) from None
         check_file(temporary, entry["bytes"], entry["sha256"])
@@ -281,11 +298,11 @@ def _receipt(action: str, bucket: str, results: list[dict], dry_run: bool = Fals
             "verified": not dry_run and all(e["verified"] for e in results), "entries": results}
 
 
-def _verify_remote(api, bucket, entry, cache, *, status="remote-verified", metadata=None) -> dict:
+def _verify_remote(api, bucket, entry, cache, *, status="remote-verified", metadata=None, public_http_readback=False) -> dict:
     before = metadata if metadata is not None else _remote_metadata(api, bucket, entry)
     if before is None:
         raise StorageError("Remote object is missing")
-    _download_verified(api, bucket, entry, cache, keep=False)
+    _download_verified(api, bucket, entry, cache, keep=False, public_http_readback=public_http_readback)
     after = _remote_metadata(api, bucket, entry)
     if after is None or _fingerprint(before) != _fingerprint(after):
         raise StorageError("Remote object changed during verification")
@@ -296,9 +313,11 @@ def _verify_remote(api, bucket, entry, cache, *, status="remote-verified", metad
 
 
 def upload_entries(entries, root, bucket, cache=None, *, api=None, dry_run=False,
-                   allow_source_symlinks=False, workers=4, resume_receipt=None, progress=None) -> dict:
+                   allow_source_symlinks=False, workers=4, resume_receipt=None, progress=None, public_http_readback=False) -> dict:
     """Upload archive entries; verify production locally. Never overwrite conflicts."""
     entries, bucket = validate_entries(entries), validate_bucket(bucket)
+    if public_http_readback and bucket != "miguelemosreverte/mr-pinpin-archive":
+        raise StorageError("Public HTTP readback is restricted to the configured public archive")
     cache = cache_root(root, cache)
     workers = _workers(workers)
     # Validate the complete source set before any remote write can begin.
@@ -342,7 +361,7 @@ def upload_entries(entries, root, bucket, cache=None, *, api=None, dry_run=False
             if meta is not None and _resume_matches(resume_receipt, bucket, entry, meta):
                 return {**_result(entry, "receipt-resumed", remote=True), "remote_xet_hash": _fingerprint(meta)}
             return _verify_remote(api, bucket, entry, cache, metadata=meta,
-                                  status="uploaded" if meta is None else "remote-existing")
+                                  status="uploaded" if meta is None else "remote-existing", public_http_readback=public_http_readback)
 
         results = []
         for result in pool.map(verify_one, zip(archives, metadata)):
@@ -443,6 +462,7 @@ def main(argv=None) -> int:
     parser.add_argument("--cache")
     parser.add_argument("--receipt", help="Atomic JSON receipt written only after successful verification")
     parser.add_argument("--resume-receipt", help="Reuse push proofs when remote content identity is unchanged")
+    parser.add_argument("--public-http-readback", action="store_true", help="Anonymous hash readback for the configured public archive; uploads still use standard HF authentication")
     parser.add_argument("--workers", type=int, default=4)
     parser.add_argument("--allow-source-symlinks", action="store_true", help="Allow verified push source reads through symlinks")
     parser.add_argument("--profile", choices=("archive", "production", "all"), default="archive")
@@ -450,8 +470,8 @@ def main(argv=None) -> int:
     args = parser.parse_args(argv)
     if args.dry_run and args.action != "push":
         parser.error("--dry-run is supported for push only")
-    if (args.allow_source_symlinks or args.resume_receipt) and args.action != "push":
-        parser.error("Source symlink and resume options are supported for push only")
+    if (args.allow_source_symlinks or args.resume_receipt or args.public_http_readback) and args.action != "push":
+        parser.error("Source symlink, resume and public readback options are supported for push only")
     try:
         bucket, entries = load_manifest(args.manifest, args.profile)
         function = {"push": upload_entries, "pull": materialize_entries, "verify": verify_entries}[args.action]
@@ -462,7 +482,7 @@ def main(argv=None) -> int:
             if prior and Path(prior).exists():
                 with open(prior, encoding="utf-8") as stream:
                     resume = json.load(stream)
-            kwargs.update(dry_run=args.dry_run, allow_source_symlinks=args.allow_source_symlinks, resume_receipt=resume)
+            kwargs.update(dry_run=args.dry_run, allow_source_symlinks=args.allow_source_symlinks, resume_receipt=resume, public_http_readback=args.public_http_readback)
         receipt = function(entries, args.root, bucket, args.cache, **kwargs)
         if args.receipt and not args.dry_run:
             write_receipt(args.receipt, receipt)

@@ -1,0 +1,30 @@
+{
+  "id": "r6-211-v1",
+  "status": "prepared; references must be visually inspected before built-in generation",
+  "prompt": "docs/storyboard/production/scooby-cave-bath-r6-20261012/prompts/r6-211-v1.txt",
+  "promptSha256": "e94ca37db781a1f203c5563748e66bc4df103dc3ae1bb7d483dda9d1337d247e",
+  "references": [
+    {
+      "index": 1,
+      "role": "Papa, PinPin and giant Scooby identities/scale ONLY; cave background only when assigned, NO blossom/boats unless current shot requires",
+      "path": "/root/.codex/worktrees/c64d/mr-pinpin-source/docs/storyboard/production/scooby-cave-bath-r6-20261012/native/r6-041-v2.png",
+      "sha256": "e020843725533bd5b8128f6eac4c83244a56b1c8125934dc2649b7bf48f59545"
+    },
+    {
+      "index": 2,
+      "role": "Rabbit identity, folded green leaf boat shape ONLY; do NOT copy grinning acting or extra boats",
+      "path": "/root/.codex/worktrees/c64d/mr-pinpin-source/docs/storyboard/images/published/bath-magic/r17/scene-03l.webp",
+      "sha256": "b40ac36e16a2f183f826d340f8be4c2ad85c30fa0a3e660c0dd0958cdb5da81b"
+    },
+    {
+      "index": 3,
+      "role": "Cottage facade, green door and pink terracotta flower east of step; clean dog identity only when assigned",
+      "path": "/root/.codex/worktrees/c64d/mr-pinpin-source/docs/storyboard/production/scooby-cave-bath-r6-20261012/native/r6-009-v1.png",
+      "sha256": "f663f9dfe0a38005272048c1ecea272e21b70eff535804bae589e536491f267e"
+    }
+  ],
+  "expectedNativeSize": [
+    1536,
+    1024
+  ]
+}

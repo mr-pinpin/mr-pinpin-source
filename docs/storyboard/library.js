@@ -20,17 +20,18 @@
   }
   function pictureURL(value) {
     if (typeof value !== 'string' || !value) return null;
-    try { const url = new URL(value, location.href); return url.origin === location.origin && ['http:','https:'].includes(url.protocol) ? url.href : null; }
+    try { const url = new URL(value, location.href); const ownedChapter = url.origin === 'https://mr-pinpin.github.io' && /^\/chapter-[a-z0-9-]+\/storyboard\/images\//.test(url.pathname); return (url.origin === location.origin || ownedChapter) && ['http:','https:'].includes(url.protocol) ? url.href : null; }
     catch { return null; }
   }
   function readerURL(chapter, lang) {
     const route = chapter.route;
-    const url = new URL('./', location.href);
+    const hosted = typeof route?.story === 'string' && chapter.reader === `https://mr-pinpin.github.io/chapter-${route.story}/storyboard/`;
+    const url = new URL(hosted ? chapter.reader : './', location.href);
     if (typeof route?.story === 'string' && /^[a-z0-9-]+$/.test(route.story)) url.searchParams.set('story', route.story);
     else if (typeof route?.chapter === 'string' && /^[1-9][0-9]*$/.test(route.chapter)) url.searchParams.set('chapter', route.chapter);
     else return null;
     url.searchParams.set('lang', lang);
-    url.searchParams.set('v', '20261012-reading');
+    url.searchParams.set('v', chapter.reader ? '20261013-r6' : '20261012-reading');
     return url.href;
   }
   function renderDownloadState() {
