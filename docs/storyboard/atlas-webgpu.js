@@ -10,7 +10,7 @@ import './atlas-focus.js';
 import './atlas-preview.js?v=bath-magic-20261002';
 import {createCoverLayer} from './atlas-cover-layer.js';
 import {createCoverSelection} from './atlas-cover-selection.js';
-import {createCamera} from './gpu/camera.js';
+import {createCamera} from './gpu/camera.js?v=tv-controls-20261026';
 import {createTVControls} from './atlas-tv.js';
 import {createRenderer} from './gpu/renderer.js';
 import {createAtlasDebug} from './atlas-debug.js';
