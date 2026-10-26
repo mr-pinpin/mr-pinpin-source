@@ -271,3 +271,11 @@ test('tracking eases toward character and converges without gesture callbacks', 
  samePoint([h.camera.snapshot.x,h.camera.snapshot.y],[800,600]);
  assert.equal(h.camera.track([800,600],.25),false);assert.deepEqual(h.lifecycle,[]);
 });
+
+test('tracking unreachable edge converges and stops publishing unchanged frames',async()=>{
+ const h=await harness();h.camera.fit();
+ for(let n=0;n<100;n++)h.camera.track([-10000,-10000],.25);
+ const count=h.changes.length;
+ assert.equal(h.camera.track([-10000,-10000],.25),false);
+ assert.equal(h.changes.length,count);
+});

@@ -175,6 +175,9 @@ export function createCamera(canvas, options = {}) {
     },
     track([x, y], blend = 1) {
       if (dead || ![x, y, blend].every(Number.isFinite)) return false;
+      const previous = {x:state.x,y:state.y};
+      Object.assign(state,{x,y}); clamp();
+      x=state.x; y=state.y; Object.assign(state,previous);
       const amount = Math.max(0, Math.min(1, blend));
       if (Math.hypot(state.x-x, state.y-y) < .05) {
         if (state.x !== x || state.y !== y) { Object.assign(state,{x,y}); change('track'); }
