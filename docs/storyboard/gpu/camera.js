@@ -32,7 +32,7 @@ export function createCamera(canvas, options = {}) {
       state[axis] = half >= (max - min) / 2 ? (min + max) / 2 : Math.max(min + half, Math.min(max - half, state[axis]));
     }
   }
-  function change() { clamp(); options.onChange?.(snapshot()); }
+  function change(kind) { clamp(); options.onChange?.(snapshot(), kind); }
   function start(kind = 'pan') {
     if (!moving) {
       moving = true; movementKind = kind; options.onMoveStart?.(snapshot(), kind);
@@ -172,6 +172,16 @@ export function createCamera(canvas, options = {}) {
     focus([x, y], scale = state.scale) {
       if (dead || ![x, y, scale].every(Number.isFinite) || scale <= 0) return;
       reset(); start(); overview = false; Object.assign(state, {x, y, scale}); change(); end();
+    },
+    track([x, y], blend = 1) {
+      if (dead || ![x, y, blend].every(Number.isFinite)) return false;
+      const amount = Math.max(0, Math.min(1, blend));
+      if (Math.hypot(state.x-x, state.y-y) < .05) {
+        if (state.x !== x || state.y !== y) { Object.assign(state,{x,y}); change('track'); }
+        return false;
+      }
+      state.x += (x-state.x)*amount; state.y += (y-state.y)*amount; change('track');
+      return Math.hypot(state.x-x,state.y-y) >= .05;
     },
     resize,
     destroy() {

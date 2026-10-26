@@ -252,3 +252,22 @@ test('Chrome native pointer capture pans a fixed canvas and wheel preserves its 
       }
     } finally { await browser.close(); }
   });
+
+test('character tracking centers without starting or ending a user gesture', async () => {
+  const h = await harness();
+  h.camera.track([600, 500]);
+  samePoint(h.camera.worldToScreen([600, 500]), [600, 400]);
+  assert.deepEqual(h.lifecycle, []);
+  const changes = h.changes.length;
+  h.camera.track([600, 500]); assert.equal(h.changes.length, changes);
+  h.camera.track([NaN, 5]); assert.equal(h.changes.length, changes);
+});
+
+test('tracking eases toward character and converges without gesture callbacks', async()=>{
+ const h=await harness(), before=h.camera.snapshot;
+ assert.equal(h.camera.track([800,600],.25),true);
+ near(h.camera.snapshot.x,before.x+(800-before.x)*.25);
+ for(let n=0;n<100;n++)h.camera.track([800,600],.25);
+ samePoint([h.camera.snapshot.x,h.camera.snapshot.y],[800,600]);
+ assert.equal(h.camera.track([800,600],.25),false);assert.deepEqual(h.lifecycle,[]);
+});

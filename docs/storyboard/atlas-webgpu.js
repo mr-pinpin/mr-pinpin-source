@@ -11,11 +11,16 @@ import './atlas-preview.js?v=bath-magic-20261002';
 import {createCoverLayer} from './atlas-cover-layer.js';
 import {createCoverSelection} from './atlas-cover-selection.js';
 import {createCamera} from './gpu/camera.js';
+import {createTVControls} from './atlas-tv.js';
 import {createRenderer} from './gpu/renderer.js';
 import {createAtlasDebug} from './atlas-debug.js';
 import {loadScenery} from './atlas-scenery.js';
 import {loadSurfaceSampler} from './gpu/surface.js';
 import {resolveAtlasRuntime} from './atlas-production.js';
+
+const tvMode = new URL(location.href).searchParams.get('tv') === '1';
+const reducedCameraMotion = matchMedia('(prefers-reduced-motion: reduce)');
+let lastFollowFrame = 0;
 
 const $=id => document.getElementById(id);
 const storageKey='pinpin.atlas.v1', languages=['en','es','ru'];
@@ -305,7 +310,14 @@ function draw(now) {
     viewport.dataset.backend=renderer.backend; renderBokeh();
     covers.setGpuRendering(renderer.backend==='webgpu');
   }
-  const s=snapshot(), x=Number(motionCanvas.dataset.x), y=Number(motionCanvas.dataset.y);
+  const x=Number(motionCanvas.dataset.x), y=Number(motionCanvas.dataset.y);
+  if (tvMode && !moving && Number.isFinite(x) && Number.isFinite(y)) {
+    const dt = lastFollowFrame ? Math.min(64,Math.max(0,now-lastFollowFrame)) : 16;
+    const blend = reducedCameraMotion.matches ? 1 : 1-Math.exp(-dt/140);
+    if (camera.track([x,y],blend)) invalidate();
+  }
+  lastFollowFrame = now;
+  const s=snapshot();
   const focus=Number.isFinite(x) && Number.isFinite(y) ? [x,y] : camera.screenToWorld([s.width/2,s.height/2]);
   renderer.render(s,{focus,dof:dof && renderer.backend==='webgpu',overlayVersion:motion.version,animate:!motion.paused,now});
   renderCount++;
@@ -344,11 +356,13 @@ motion=window.AtlasMotion.create(motionCanvas,geometry,event => {
 if(runtime.production)motion.ready.then(restoreReturnPlace);
 else restoreReturnPlace();
 camera=createCamera(canvas,{worldWidth:width,worldHeight:height,
-  onChange() { saveCamera(); positionBook(); invalidate(); },onMoveStart:startMove,onMoveKindChange:startMove,onMoveEnd:settle,
+  onChange(_state,kind) { if (kind !== 'track') saveCamera(); positionBook(); invalidate(); },onMoveStart:startMove,onMoveKindChange:startMove,onMoveEnd:settle,
   onTap(point,event) { if (bookPress?.pointerId===event.pointerId) openBook(bookPress.id); else tap(point); },
-  onPoint(point) { if (!moving && !preview.open) { motion.setTarget(normalized(point)); invalidate(); } }
+  onPoint(point) { if (!tvMode && !moving && !preview.open) { motion.setTarget(normalized(point)); invalidate(); } }
 });
 restoreCamera();
+const tvControls = tvMode ? createTVControls({canvas,viewport,camera,activate:tap,
+  blocked:() => preview.open || previewPending || !document.getElementById('atlas-languages').hidden}) : null;
 for (const name of ['pointerup','pointercancel']) addEventListener(name,event => {
   if (bookPress?.pointerId===event.pointerId) bookPress=null;
 });
@@ -389,7 +403,7 @@ addEventListener('pageshow',event => { suspended=false; if (event.persisted) res
 document.addEventListener('visibilitychange',() => {
   if (document.hidden) { cancelAnimationFrame(frame); frame=0; } else invalidate();
 });
-window.atlasGpuDebug=Object.freeze({camera,motion,motionCanvas,preview,facade,world,normalized,focusDestination,covers,coverSelection,debugPanel,
+window.atlasGpuDebug=Object.freeze({camera,tvControls,motion,motionCanvas,preview,facade,world,normalized,focusDestination,covers,coverSelection,debugPanel,
   get recorder() { return reviewRecorder; },
   get renderer() { return renderer; },get detector() { return detector; },
   get focus() { return {id:focused,semantic:detector?.diagnostic}; },get moving() { return moving; },
