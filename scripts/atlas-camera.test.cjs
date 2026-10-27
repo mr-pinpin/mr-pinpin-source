@@ -297,3 +297,13 @@ test('remote camera hysteresis rejects center jitter and original modal blocker 
  blocked=true;h.advance(16);assert.equal(h.camera.remoteOwned,false);
  for(const detail of [{engaged:true,x:NaN,y:.5},{engaged:true,x:2,y:.5},null]){h.canvas.emit('atlas-camera-intent',{detail});assert.equal(h.camera.remoteOwned,false);}
 });
+
+test('real world-destination handler ends remote composition ownership and restores character navigation',()=>{
+ const atlas=fs.readFileSync(path.join(__dirname,'../docs/storyboard/atlas-webgpu.js'),'utf8');
+ const start=atlas.indexOf('function tap(point) {'),end=atlas.indexOf('\nfunction focusDestination(',start);
+ assert(start>=0&&end>start);
+ const sandbox={remoteNavigation:true,detector:{regionAt:()=>null},preview:{open:false},normalized:p=>p,clearTimeout(){},settleTimer:0,moving:true,targetPending:true,focusAllowed:false,arrival:{},selection:null,motion:{setTarget(p){sandbox.destination=p;}},chooseBook(){},invalidate(){}};
+ require('node:vm').runInNewContext(atlas.slice(start,end)+';tap([.4,.6]);',sandbox);
+ assert.equal(sandbox.remoteNavigation,false);assert.deepEqual([...sandbox.destination],[.4,.6]);
+ assert.match(atlas,/tvMode && !remoteNavigation && !moving && !camera.remoteOwned/);
+});
