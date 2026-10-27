@@ -1,6 +1,8 @@
 #!/usr/bin/env python3
-"""Build native ARM application and package using the existing PlxNative mkipk tool."""
+"""Build native ARM app, explicit-mode payload, and existing PlxNative ar envelope."""
 import argparse
+import gzip
+import tarfile
 import importlib.util
 import json
 from pathlib import Path
@@ -9,7 +11,31 @@ import subprocess
 import sys
 
 APP_ID = 'com.mrpinpin.family'
-VERSION = '0.1.0'
+VERSION = '0.1.1'
+
+
+def write_archive(destination, source, executable_paths=()):
+    """Deterministic package payload with explicit executable paths, no basename rules."""
+    executable_paths = set(executable_paths)
+    with open(destination, 'wb') as output:
+        with gzip.GzipFile(fileobj=output, mode='wb', filename='', mtime=0) as compressed:
+            with tarfile.open(fileobj=compressed, mode='w|', format=tarfile.GNU_FORMAT) as archive:
+                for path in sorted(source.rglob('*')):
+                    if path.is_symlink():
+                        raise ValueError('Package staging must not contain symlinks')
+                    relative = path.relative_to(source).as_posix()
+                    header = archive.gettarinfo(str(path), arcname=relative)
+                    header.uid = header.gid = 0
+                    header.uname = header.gname = 'root'
+                    header.mtime = 0
+                    header.mode = 0o755 if path.is_dir() or relative in executable_paths else 0o644
+                    if path.is_file():
+                        with path.open('rb') as payload:
+                            archive.addfile(header, payload)
+                    elif path.is_dir():
+                        archive.addfile(header)
+                    else:
+                        raise ValueError('Package staging contains a nonregular file')
 
 
 def main():
@@ -74,8 +100,12 @@ def main():
     installed=(sum(p.stat().st_size for p in data.rglob('*') if p.is_file())+1023)//1024
     (control/'control').write_text(f'Package: {APP_ID}\nVersion: {VERSION}\nSection: misc\nPriority: optional\nArchitecture: arm\nInstalled-Size: {installed}\nMaintainer: Mr. PinPin\nDescription: Native family Atlas pilot\nwebOS-Package-Format-Version: 2\nwebOS-Packager-Version: family-native/shared-mkipk\n')
     archive=args.output/f'{APP_ID}_{VERSION}_arm.ipk'
-    packager.write_targz(args.output/'control.tar.gz',control,'.')
-    packager.write_targz(args.output/'data.tar.gz',data,'.')
+    write_archive(args.output/'control.tar.gz',control)
+    executable_path=f'usr/palm/applications/{APP_ID}/family-native'
+    write_archive(args.output/'data.tar.gz',data,{executable_path})
+    with tarfile.open(args.output/'data.tar.gz') as payload:
+        if payload.getmember(executable_path).mode != 0o755:
+            raise SystemExit('Packaged native executable lost execute permission')
     packager.write_ar(archive,[('debian-binary',b'2.0\n'),('control.tar.gz',(args.output/'control.tar.gz').read_bytes()),('data.tar.gz',(args.output/'data.tar.gz').read_bytes())])
     digest=hashlib.sha256(archive.read_bytes()).hexdigest()
     (args.output/'package.sha256').write_text(f'{digest}  {archive.name}\n')

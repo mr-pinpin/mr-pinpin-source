@@ -171,7 +171,7 @@ int main(void) {
   float animation = 0;
   uint64_t last = SDL_GetPerformanceCounter(), frames = 0;
   double elapsed = 0, report = 0;
-  fprintf(stderr, "family-native 0.1.0: native SDL2/GLES2 Atlas ready; OK sets "
+  fprintf(stderr, "family-native 0.1.1: native SDL2/GLES2 Atlas ready; OK sets "
                   "destination; arrows move cursor; +/- zoom; Back exits\n");
   while (running) {
     uint64_t now = SDL_GetPerformanceCounter();

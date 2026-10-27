@@ -16,8 +16,9 @@ artwork and creative configuration retain the root CONTENT-LICENSE.md boundary;
 new functional C/Python software is covered by the root MIT software grant.
 Generated app icon has its own provenance under `icon/`. No GPL application code
 was copied: native-platform setup was checked against the working PlxNative app;
-the existing GPL-3.0-or-later PlxNative `ci/mkipk.py` is invoked unmodified as a
-separate build tool. The icon's specific redistribution notice is included in the package separately.
+the existing GPL-3.0-or-later PlxNative `ci/mkipk.py` is imported unmodified
+for its ar-envelope writer. The payload tar writer uses explicit executable paths
+so an application name cannot silently lose execute permission. The icon's specific redistribution notice is included in the package separately.
 SDL2 is system-provided under its upstream zlib license and
 GLES2 is the TV's platform API. No third-party shared libraries are bundled.
 
