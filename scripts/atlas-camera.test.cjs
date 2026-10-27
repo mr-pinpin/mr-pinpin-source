@@ -16,7 +16,7 @@ function target() {
     emit(type, event = {}) { for (const fn of events.get(type) || []) fn({type, ...event}); }
   };
 }
-async function harness(width = 1200, height = 800, reducedMotion = false) {
+async function harness(width = 1200, height = 800, reducedMotion = false, options = {}) {
   const {createCamera} = await modulePromise;
   const raf = new Map(), timers = new Map(), captured = new Set();
   let clock = 0, serial = 0;
@@ -37,7 +37,7 @@ async function harness(width = 1200, height = 800, reducedMotion = false) {
   const changes = [], lifecycle = [], taps = [], points = [];
   const camera = createCamera(canvas, {worldWidth: 1536, worldHeight: 1024,
     onChange: value => changes.push(value), onMoveStart: () => lifecycle.push('start'),
-    onMoveEnd: () => lifecycle.push('end'), onTap: p => taps.push(p), onPoint: p => points.push(p)});
+    onMoveEnd: () => lifecycle.push('end'), onTap: p => taps.push(p), onPoint: p => points.push(p),...options});
   return {camera, rect, canvas, media, view, changes, lifecycle, taps, points, raf, timers, captured,
     event(type, x = 600, y = 400, extra = {}) {
       let prevented = false;
@@ -278,4 +278,22 @@ test('tracking unreachable edge converges and stops publishing unchanged frames'
  const count=h.changes.length;
  assert.equal(h.camera.track([-10000,-10000],.25),false);
  assert.equal(h.changes.length,count);
+});
+
+test('remote position owns sustained pan, center holds without stopping page animation, and explicit release ends once',async()=>{
+ const h=await harness(),initial=h.camera.snapshot;
+ const intent=(x,y,engaged=true)=>h.canvas.emit('atlas-camera-intent',{detail:{x,y,engaged}});
+ intent(.8,.5);for(let n=0;n<60;n++)h.advance(16);
+ assert(h.camera.snapshot.x>initial.x);assert.equal(h.camera.remoteOwned,true);assert.deepEqual(h.lifecycle,['start']);
+ intent(.5,.5);h.advance(16);const center=h.camera.snapshot;
+ for(let n=0;n<60;n++)h.advance(16);assert.deepEqual(h.camera.snapshot,center);assert.equal(h.camera.remoteOwned,true);assert.deepEqual(h.lifecycle,['start','end']);
+ intent(.2,.5);for(let n=0;n<30;n++)h.advance(16);assert(h.camera.snapshot.x<center.x);assert.deepEqual(h.lifecycle,['start','end','start']);
+ intent(0,0,false);assert.equal(h.camera.remoteOwned,false);assert.deepEqual(h.lifecycle,['start','end','start','end']);
+});
+test('remote camera hysteresis rejects center jitter and original modal blocker revokes ownership',async()=>{
+ let blocked=false;const h=await harness(1200,800,false,{remoteBlocked:()=>blocked});const before=h.camera.snapshot;
+ h.canvas.emit('atlas-camera-intent',{detail:{engaged:true,x:.54,y:.51}});h.advance(16);h.advance(16);assert.deepEqual(h.camera.snapshot,before);
+ h.canvas.emit('atlas-camera-intent',{detail:{engaged:true,x:.8,y:.5}});h.advance(16);h.advance(16);assert(h.camera.snapshot.x>before.x);
+ blocked=true;h.advance(16);assert.equal(h.camera.remoteOwned,false);
+ for(const detail of [{engaged:true,x:NaN,y:.5},{engaged:true,x:2,y:.5},null]){h.canvas.emit('atlas-camera-intent',{detail});assert.equal(h.camera.remoteOwned,false);}
 });
