@@ -11,7 +11,7 @@ import './atlas-preview.js?v=bath-magic-20261002';
 import {createCoverLayer} from './atlas-cover-layer.js';
 import {createCoverSelection} from './atlas-cover-selection.js';
 import {createCamera} from './gpu/camera.js?v=position-camera-20261028';
-import {createTVControls} from './atlas-tv.js';
+import {createTVControls, usesNativeCursor} from './atlas-tv.js';
 import {createRenderer} from './gpu/renderer.js';
 import {createAtlasDebug} from './atlas-debug.js';
 import {loadScenery} from './atlas-scenery.js';
@@ -367,6 +367,7 @@ camera=createCamera(canvas,{worldWidth:width,worldHeight:height,
 });
 restoreCamera();
 const tvControls = tvMode ? createTVControls({canvas,viewport,camera,activate:tap,
+  showPointer:!usesNativeCursor(location.href),
   blocked:() => preview.open || previewPending || !document.getElementById('atlas-languages').hidden}) : null;
 for (const name of ['pointerup','pointercancel']) addEventListener(name,event => {
   if (bookPress?.pointerId===event.pointerId) bookPress=null;
