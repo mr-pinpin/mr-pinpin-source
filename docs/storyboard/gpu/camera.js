@@ -15,6 +15,12 @@ export function createCamera(canvas, options = {}) {
   let state, overview = false, moving = false, dead = false, movementKind;
   let pinch, origin, dragged = false, cancelled = false;
   let velocity = [0, 0], lastMove = 0, frame = 0, wheelTimer = 0;
+  let remotePoint = null, remoteFrame = 0, remoteTime = 0;
+  const remoteAxes=[false,false];
+  function remoteAxis(v,i) {
+    remoteAxes[i]=Math.abs(v)>(remoteAxes[i] ? .06 : .10);
+    return remoteAxes[i] ? Math.sign(v)*(Math.abs(v)-.06)/.94 : 0;
+  }
   const now = () => view.performance.now();
   const cover = () => Math.max(state.width / worldWidth, state.height / worldHeight);
   const contain = () => Math.min(state.width / worldWidth, state.height / worldHeight);
@@ -76,12 +82,37 @@ export function createCamera(canvas, options = {}) {
   function releaseCapture(id) {
     if (canvas.hasPointerCapture(id)) canvas.releasePointerCapture(id);
   }
+  function remoteRelease() {
+    const owned=remotePoint!==null;
+    remotePoint=null; remoteTime=0; remoteAxes.fill(false); view.cancelAnimationFrame(remoteFrame); remoteFrame=0; end();
+    if(owned)options.onRemoteEnd?.();
+  }
+  function remoteTick(time) {
+    remoteFrame=0;
+    if (!remotePoint || dead) return;
+    if (options.remoteBlocked?.()) { remoteRelease(); return; }
+    const dt=remoteTime ? Math.min(64,Math.max(0,time-remoteTime))/1000 : 0; remoteTime=time;
+    const vx=remoteAxis((remotePoint[0]-.5)*2,0), vy=remoteAxis((remotePoint[1]-.5)*2,1);
+    if (vx || vy) {
+      start(); state.x += vx*state.width*.55*dt/state.scale; state.y += vy*state.height*.55*dt/state.scale; change('remote');
+      remoteFrame=view.requestAnimationFrame(remoteTick);
+    } else { remoteTime=0; end(); }
+  }
+  function remoteIntent(event) {
+    const value=event.detail;
+    if (!value || value.engaged!==true || options.remoteBlocked?.() || ![value.x,value.y].every(v=>Number.isFinite(v)&&v>=0&&v<=1)) { remoteRelease(); return; }
+    if (!remotePoint) { stop(); options.onRemoteStart?.(); }
+    remotePoint=[value.x,value.y];
+    if (!remoteFrame) remoteFrame=view.requestAnimationFrame(remoteTick);
+  }
   function reset() {
+    remoteRelease();
     const ids = [...pointers.keys()]; pointers.clear();
     ids.forEach(releaseCapture); pinch = undefined; stop();
   }
   function down(event) {
     if (event.pointerType === 'mouse' && event.button !== 0) return;
+    remoteRelease();
     event.preventDefault();
     if (!pointers.size) { stop(); dragged = cancelled = false; }
     pointers.set(event.pointerId, local(event)); canvas.setPointerCapture(event.pointerId);
@@ -159,6 +190,7 @@ export function createCamera(canvas, options = {}) {
     state.scale = overview ? contain() : ratio * cover(); change();
   }
   const camera = {
+    get remoteOwned() { return remotePoint!==null; },
     get snapshot() { return snapshot(); }, worldToScreen, screenToWorld,
     zoomBy(factor) {
       if (dead || !Number.isFinite(factor) || factor <= 0) return;
@@ -194,6 +226,7 @@ export function createCamera(canvas, options = {}) {
     }
   };
   canvas.style.touchAction = 'none';
+  listen(canvas, 'atlas-camera-intent', remoteIntent);
   listen(canvas, 'pointerdown', down);
   listen(canvas, 'pointermove', move);
   for (const name of ['pointerup', 'pointercancel', 'lostpointercapture']) listen(canvas, name, up);

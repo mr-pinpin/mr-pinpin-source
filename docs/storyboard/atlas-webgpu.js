@@ -10,7 +10,7 @@ import './atlas-focus.js';
 import './atlas-preview.js?v=bath-magic-20261002';
 import {createCoverLayer} from './atlas-cover-layer.js';
 import {createCoverSelection} from './atlas-cover-selection.js';
-import {createCamera} from './gpu/camera.js?v=tv-controls-20261026';
+import {createCamera} from './gpu/camera.js?v=position-camera-20261028';
 import {createTVControls} from './atlas-tv.js';
 import {createRenderer} from './gpu/renderer.js';
 import {createAtlasDebug} from './atlas-debug.js';
@@ -311,7 +311,7 @@ function draw(now) {
     covers.setGpuRendering(renderer.backend==='webgpu');
   }
   const x=Number(motionCanvas.dataset.x), y=Number(motionCanvas.dataset.y);
-  if (tvMode && !moving && Number.isFinite(x) && Number.isFinite(y)) {
+  if (tvMode && !moving && !camera.remoteOwned && Number.isFinite(x) && Number.isFinite(y)) {
     const dt = lastFollowFrame ? Math.min(64,Math.max(0,now-lastFollowFrame)) : 16;
     const blend = reducedCameraMotion.matches ? 1 : 1-Math.exp(-dt/140);
     if (camera.track([x,y],blend)) invalidate();
@@ -356,7 +356,9 @@ motion=window.AtlasMotion.create(motionCanvas,geometry,event => {
 if(runtime.production)motion.ready.then(restoreReturnPlace);
 else restoreReturnPlace();
 camera=createCamera(canvas,{worldWidth:width,worldHeight:height,
-  onChange(_state,kind) { if (kind !== 'track') saveCamera(); positionBook(); invalidate(); },onMoveStart:startMove,onMoveKindChange:startMove,onMoveEnd:settle,
+  remoteBlocked:() => preview.open || previewPending || !document.getElementById('atlas-languages').hidden,
+  onRemoteStart:interact,onRemoteEnd:saveCamera,
+  onChange(_state,kind) { if (kind !== 'track' && kind !== 'remote') saveCamera(); positionBook(); invalidate(); },onMoveStart:startMove,onMoveKindChange:startMove,onMoveEnd:settle,
   onTap(point,event) { if (bookPress?.pointerId===event.pointerId) openBook(bookPress.id); else tap(point); },
   onPoint(point) { if (!tvMode && !moving && !preview.open) { motion.setTarget(normalized(point)); invalidate(); } }
 });
