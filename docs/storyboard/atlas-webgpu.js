@@ -1,3 +1,4 @@
+import {registerAtlasScene} from './atlas-render-scene.js';
 import './icons.js';
 import './atlas-geometry.js';
 import './atlas-directions.js';
@@ -423,6 +424,10 @@ try {
       rendererError=String(error?.message || error); viewport.dataset.rendererError=rendererError; invalidate();
     }
   });
+  if (new URL(location.href).searchParams.get('renderSession') === '1') {
+    if (renderer.backend === 'webgpu') registerAtlasScene({canvas, camera, target:tap, refresh:invalidate});
+    else window.__pinpinRenderSceneError = 'Atlas streaming requires the WebGPU renderer';
+  }
   renderer.setBokehStrength(bokehStrength);
   renderer.setLensOptions?.(lensOptions);
   renderer.setBannerLayer?.(covers.gpuLayer);
