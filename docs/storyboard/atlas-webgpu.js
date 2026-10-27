@@ -52,6 +52,7 @@ const world=point => [point[0]*width,point[1]*height];
 const normalized=point => [point[0]/width,point[1]/height];
 let state={version:1,lang:'en',opened:[]}, lang='en';
 let camera, renderer, motion, detector, reviewRecorder=null, frame=0, settleTimer=0;
+let remoteNavigation=false;
 let moving=false, focusAllowed=false, targetPending=false, selection=null, arrival=null;
 let focused=null, anchor=null, keyboardRequest=null, dof=true, renderCount=0;
 let bookRequest=0, previewPending=false, bookPress=null;
@@ -288,11 +289,13 @@ function settle() {
 }
 function tap(point) {
   if (!detector || preview.open) return;
+  remoteNavigation=false;
   const p=normalized(point), id=detector.regionAt(p,{nearby:true});
   clearTimeout(settleTimer); moving=false; targetPending=false; focusAllowed=true; arrival=null;
   selection=id ? {id,point:p} : null; motion?.setTarget(p); chooseBook(); invalidate();
 }
 function focusDestination(id) {
+  remoteNavigation=false;
   const region=regions.find(r => r.id===id); if (!region || !camera) return;
   interact(); keyboardRequest=id; selection={id,point:region.center};
   const s=snapshot(), [,,w,h]=region.bounds;
@@ -311,7 +314,7 @@ function draw(now) {
     covers.setGpuRendering(renderer.backend==='webgpu');
   }
   const x=Number(motionCanvas.dataset.x), y=Number(motionCanvas.dataset.y);
-  if (tvMode && !moving && !camera.remoteOwned && Number.isFinite(x) && Number.isFinite(y)) {
+  if (tvMode && !remoteNavigation && !moving && !camera.remoteOwned && Number.isFinite(x) && Number.isFinite(y)) {
     const dt = lastFollowFrame ? Math.min(64,Math.max(0,now-lastFollowFrame)) : 16;
     const blend = reducedCameraMotion.matches ? 1 : 1-Math.exp(-dt/140);
     if (camera.track([x,y],blend)) invalidate();
@@ -357,7 +360,7 @@ if(runtime.production)motion.ready.then(restoreReturnPlace);
 else restoreReturnPlace();
 camera=createCamera(canvas,{worldWidth:width,worldHeight:height,
   remoteBlocked:() => preview.open || previewPending || !document.getElementById('atlas-languages').hidden,
-  onRemoteStart:interact,onRemoteEnd:saveCamera,
+  onRemoteStart() { remoteNavigation=true; interact(); },onRemoteEnd:saveCamera,
   onChange(_state,kind) { if (kind !== 'track' && kind !== 'remote') saveCamera(); positionBook(); invalidate(); },onMoveStart:startMove,onMoveKindChange:startMove,onMoveEnd:settle,
   onTap(point,event) { if (bookPress?.pointerId===event.pointerId) openBook(bookPress.id); else tap(point); },
   onPoint(point) { if (!tvMode && !moving && !preview.open) { motion.setTarget(normalized(point)); invalidate(); } }
