@@ -7,6 +7,7 @@ export function registerAtlasScene({canvas, camera, target, refresh, host = wind
       let last = performance.now(), stopped = false;
       const streams = new Set();
       return {
+        canvas,
         capture({fps = 30} = {}) {
           if (stopped) throw new Error('Atlas scene has stopped');
           if (typeof canvas.captureStream !== 'function') throw new Error('Canvas streaming is unavailable');
