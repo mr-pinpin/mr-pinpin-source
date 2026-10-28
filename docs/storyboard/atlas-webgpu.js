@@ -1,4 +1,5 @@
 import './icons.js';
+import {createPointerFocus} from './atlas-pointer-focus.mjs';
 import './atlas-geometry.js';
 import './atlas-directions.js';
 import './atlas-sprite-cache.js';
@@ -21,6 +22,7 @@ import {resolveAtlasRuntime} from './atlas-production.js';
 const tvMode = new URL(location.href).searchParams.get('tv') === '1';
 const reducedCameraMotion = matchMedia('(prefers-reduced-motion: reduce)');
 let lastFollowFrame = 0;
+const pointerFocus=createPointerFocus();
 
 const $=id => document.getElementById(id);
 const storageKey='pinpin.atlas.v1', languages=['en','es','ru'];
@@ -321,8 +323,10 @@ function draw(now) {
   }
   lastFollowFrame = now;
   const s=snapshot();
-  const focus=Number.isFinite(x) && Number.isFinite(y) ? [x,y] : camera.screenToWorld([s.width/2,s.height/2]);
-  renderer.render(s,{focus,dof:dof && renderer.backend==='webgpu',overlayVersion:motion.version,animate:!motion.paused,now});
+  const cursorFocus=pointerFocus.world(camera,canvas);
+  const focus=cursorFocus || (Number.isFinite(x) && Number.isFinite(y) ? [x,y] : camera.screenToWorld([s.width/2,s.height/2]));
+  const focusDepth=cursorFocus && renderer.sampleLensDepth ? renderer.sampleLensDepth(...cursorFocus) : null;
+  renderer.render(s,{focus,focusDepth,dof:dof && renderer.backend==='webgpu',overlayVersion:motion.version,animate:!motion.paused,now});
   renderCount++;
 }
 function render() {
@@ -363,8 +367,13 @@ camera=createCamera(canvas,{worldWidth:width,worldHeight:height,
   onRemoteStart() { remoteNavigation=true; interact(); },onRemoteEnd:saveCamera,
   onChange(_state,kind) { if (kind !== 'track' && kind !== 'remote') saveCamera(); positionBook(); invalidate(); },onMoveStart:startMove,onMoveKindChange:startMove,onMoveEnd:settle,
   onTap(point,event) { if (bookPress?.pointerId===event.pointerId) openBook(bookPress.id); else tap(point); },
-  onPoint(point) { if (!tvMode && !moving && !preview.open) { motion.setTarget(normalized(point)); invalidate(); } }
+  onPoint(point,event) {
+    if (pointerFocus.update(event)) { invalidate(); return; }
+    if (!tvMode && !moving && !preview.open) { motion.setTarget(normalized(point)); invalidate(); }
+  }
 });
+canvas.addEventListener('pointerleave',() => { pointerFocus.clear(); invalidate(); });
+window.addEventListener('blur',() => { pointerFocus.clear(); invalidate(); });
 restoreCamera();
 const tvControls = tvMode ? createTVControls({canvas,viewport,camera,activate:tap,
   showPointer:!usesNativeCursor(location.href),
