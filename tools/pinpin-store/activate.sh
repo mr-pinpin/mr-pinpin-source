@@ -3,7 +3,7 @@
 # Mac has proven it can decrypt the backup. Reclaiming space starts only after that.
 set -u
 LOG=/var/lib/pinpin-store/activate.log; CONFIG=/etc/pinpin-store/config.json; RAW=/mnt/pinpin-store-raw
-TREES=(/root/.cache/mr-pinpin /root/.local/share/pinpin-production)
+TREES=(/root/.cache/mr-pinpin /root/.local/share/pinpin-production /root/.codex/sessions /root/.codex/worktrees /root/.codex/generated_images)
 say() { echo "$(date -u +%FT%TZ) $*" | tee -a "$LOG"; }
 
 [ "$(ls /var/lib/pinpin-store/macs 2>/dev/null | wc -l)" -ge 1 ] || { say "waiting: no Mac has proven the key"; exit 0; }
@@ -18,7 +18,7 @@ last=$(journalctl -u pinpin-store.service --no-pager -o cat -n 40 | grep -a '^ap
 python3 - "$CONFIG" "$RAW" <<'P'
 import json,sys
 path,raw=sys.argv[1:3]; c=json.load(open(path))
-c.update(rawRoot=raw,mounts=["/root/.cache/mr-pinpin","/root/.local/share/pinpin-production"],viewBytes=4000000000000,keyIsOffMachine=True)
+c.update(rawRoot=raw,mounts=["/root/.cache/mr-pinpin","/root/.local/share/pinpin-production","/root/.codex/sessions","/root/.codex/worktrees","/root/.codex/generated_images"],viewBytes=4000000000000,keyIsOffMachine=True)
 json.dump(c,open(path,"w"),indent=2)
 P
 systemctl enable --now pinpin-store-serve.service

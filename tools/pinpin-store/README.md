@@ -33,7 +33,9 @@ for writing can be captured mid-update.
 The log is the write side. `pinpin-store serve` is the read side: it projects the
 log into a directory tree and mounts each tree in `mounts` over itself, so plain
 `ls`, `find`, `stat`, `du` and `df` work on evicted files with no network, and
-opening one downloads and verifies it first. `df` reports `viewBytes`. With
+opening one downloads and verifies it first. Reads go to a cache of
+`readCacheBytes` (2 GiB) under the state directory, so a grep across a tree never
+refills the disk; opening for writing puts the file back in place. `df` reports `viewBytes`. With
 `keyIsOffMachine` set, it evicts proven files least-recently-read first to keep
 `keepFreeBytes` free. A stopped daemon gives `Transport endpoint is not connected`,
 never empty data. Writes land on the local disk until a flush proves them, so one
