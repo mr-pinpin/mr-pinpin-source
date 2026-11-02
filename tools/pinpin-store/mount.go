@@ -26,6 +26,7 @@ type vfs struct {
 	mount  string
 	mu     *sync.RWMutex
 	flight *hydrations
+	pre    *prefetcher
 }
 
 type hydrations struct {
@@ -258,7 +259,7 @@ func (n *node) openCached(ctx context.Context, path string) (fs.FileHandle, uint
 	if !ok {
 		return nil, 0, syscall.ENOENT
 	}
-	copy, errno := n.v.cached(ctx, entry)
+	copy, errno := n.v.cached(ctx, entry, true)
 	if errno != 0 {
 		return nil, 0, errno
 	}
@@ -270,14 +271,21 @@ func (n *node) openCached(ctx context.Context, path string) (fs.FileHandle, uint
 }
 
 // cached returns a verified plaintext copy named by its hash, fetching it if needed.
-func (v *vfs) cached(ctx context.Context, entry Entry) (string, syscall.Errno) {
+// Foreground reads feed the prefetcher; its own fetches do not.
+func (v *vfs) cached(ctx context.Context, entry Entry, foreground bool) (string, syscall.Errno) {
 	unlock := v.flight.lock("cache:" + entry.SHA)
 	defer unlock()
 	copy := filepath.Join(v.store.readCacheDir(), entry.SHA)
 	if _, err := os.Stat(copy); err == nil {
 		now := time.Now()
 		os.Chtimes(copy, now, now)
+		if foreground {
+			v.pre.hit(entry.SHA)
+		}
 		return copy, 0
+	}
+	if foreground {
+		v.pre.miss(entry.Path)
 	}
 	v.mu.RLock()
 	object, stored := v.store.idx.Objects[entry.SHA]
@@ -400,11 +408,13 @@ func (s *Store) Serve(ctx context.Context) error {
 	}
 	lock := &sync.RWMutex{}
 	flight := &hydrations{paths: map[string]*sync.Mutex{}}
+	pre := newPrefetcher(ctx, &vfs{store: s, mu: lock, flight: flight})
+	pre.v.pre = pre
 	timeout := time.Second
 	var servers []*fuse.Server
 	for _, mount := range s.cfg.Mounts {
 		syscall.Unmount(mount, syscall.MNT_DETACH) // a crashed daemon leaves a dead mount
-		v := &vfs{store: s, mount: mount, mu: lock, flight: flight}
+		v := &vfs{store: s, mount: mount, mu: lock, flight: flight, pre: pre}
 		real := s.real(mount)
 		var stat syscall.Stat_t
 		if err := syscall.Stat(real, &stat); err != nil {
@@ -441,6 +451,9 @@ func (s *Store) Serve(ctx context.Context) error {
 				fmt.Fprintln(os.Stderr, "tail:", err)
 			}
 		case <-reclaim.C:
+			if line := pre.report(); line != "" {
+				fmt.Println(line)
+			}
 			if s.cfg.KeyIsOffMachine {
 				lock.RLock()
 				freed, err := s.Reclaim()
