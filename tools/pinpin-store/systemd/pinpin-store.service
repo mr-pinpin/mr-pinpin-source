@@ -6,7 +6,7 @@ StartLimitBurst=12
 
 [Service]
 Type=oneshot
-Environment=HOME=/root HF_HUB_DISABLE_PROGRESS_BARS=1
+Environment=HOME=/root HF_HUB_DISABLE_PROGRESS_BARS=1 HF_XET_LOG_DEST=/dev/null
 ExecStart=/usr/local/bin/pinpin-store flush --apply
 Restart=on-failure
 RestartSec=2min
