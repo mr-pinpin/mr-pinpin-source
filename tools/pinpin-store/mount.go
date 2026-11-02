@@ -117,6 +117,9 @@ func (n *node) Lookup(ctx context.Context, name string, out *fuse.EntryOut) (*fs
 }
 
 func (n *node) Getattr(ctx context.Context, handle fs.FileHandle, out *fuse.AttrOut) syscall.Errno {
+	if handle != nil && remoteOnly(n.v.store.real(n.logical(""))) {
+		handle = nil // a read-cache copy: its owner and times are not the file's
+	}
 	errno := n.LoopbackNode.Getattr(ctx, handle, out)
 	if errno == syscall.ENOENT {
 		if entry, ok := n.v.entry(n.logical("")); ok {
@@ -133,6 +136,9 @@ const statxBasic = 0x7ff
 // Statx is how current kernels ask for attributes; Getattr alone leaves remote
 // files unreadable to stat and ls -l.
 func (n *node) Statx(ctx context.Context, handle fs.FileHandle, flags, mask uint32, out *fuse.StatxOut) syscall.Errno {
+	if handle != nil && remoteOnly(n.v.store.real(n.logical(""))) {
+		handle = nil
+	}
 	errno := n.LoopbackNode.Statx(ctx, handle, flags, mask, out)
 	if errno != syscall.ENOENT {
 		return errno
@@ -232,14 +238,65 @@ func (n *node) hydrate(ctx context.Context, path string) syscall.Errno {
 	return 0
 }
 
+// Open serves reads of a remote-only file from the read cache, so a grep across the
+// tree costs downloads but never puts files back on disk. Writes hydrate in place.
 func (n *node) Open(ctx context.Context, flags uint32) (fs.FileHandle, uint32, syscall.Errno) {
 	path := n.logical("")
 	if remoteOnly(n.v.store.real(path)) {
+		if flags&syscall.O_ACCMODE == syscall.O_RDONLY && flags&syscall.O_TRUNC == 0 {
+			return n.openCached(ctx, path)
+		}
 		if errno := n.hydrate(ctx, path); errno != 0 {
 			return nil, 0, errno
 		}
 	}
 	return n.LoopbackNode.Open(ctx, flags)
+}
+
+func (n *node) openCached(ctx context.Context, path string) (fs.FileHandle, uint32, syscall.Errno) {
+	entry, ok := n.v.entry(path)
+	if !ok {
+		return nil, 0, syscall.ENOENT
+	}
+	copy, errno := n.v.cached(ctx, entry)
+	if errno != 0 {
+		return nil, 0, errno
+	}
+	fd, err := syscall.Open(copy, syscall.O_RDONLY|syscall.O_CLOEXEC, 0)
+	if err != nil {
+		return nil, 0, fs.ToErrno(err)
+	}
+	return fs.NewLoopbackFile(fd), 0, 0
+}
+
+// cached returns a verified plaintext copy named by its hash, fetching it if needed.
+func (v *vfs) cached(ctx context.Context, entry Entry) (string, syscall.Errno) {
+	unlock := v.flight.lock("cache:" + entry.SHA)
+	defer unlock()
+	copy := filepath.Join(v.store.readCacheDir(), entry.SHA)
+	if _, err := os.Stat(copy); err == nil {
+		now := time.Now()
+		os.Chtimes(copy, now, now)
+		return copy, 0
+	}
+	v.mu.RLock()
+	object, stored := v.store.idx.Objects[entry.SHA]
+	v.mu.RUnlock()
+	if !stored {
+		return "", syscall.EIO
+	}
+	v.store.trimReadCache(object.Bytes)
+	if free, err := freeBytes(v.store.cfg.StateDir); err != nil || free-object.Bytes < v.store.cfg.MinFreeBytes {
+		return "", syscall.ENOSPC
+	}
+	if err := os.MkdirAll(v.store.readCacheDir(), 0o700); err != nil {
+		return "", fs.ToErrno(err)
+	}
+	if err := v.store.Get(ctx, object, copy); err != nil {
+		fmt.Fprintln(os.Stderr, "read", entry.Path, err)
+		return "", syscall.EIO
+	}
+	return copy, 0
 }
 
 func (n *node) Setattr(ctx context.Context, handle fs.FileHandle, in *fuse.SetAttrIn, out *fuse.AttrOut) syscall.Errno {
@@ -441,4 +498,36 @@ func (s *Store) Reclaim() (int64, error) {
 		freed += item.size
 	}
 	return freed, nil
+}
+
+func (s *Store) readCacheDir() string { return filepath.Join(s.cfg.StateDir, "readcache") }
+
+// trimReadCache keeps the read cache under ReadCacheBytes with room for incoming,
+// dropping the least recently used copies. Open copies live until their last close.
+func (s *Store) trimReadCache(incoming int64) {
+	items, _ := os.ReadDir(s.readCacheDir())
+	type cached struct {
+		path string
+		size int64
+		used time.Time
+	}
+	var copies []cached
+	var total int64
+	for _, item := range items {
+		info, err := item.Info()
+		if err != nil || strings.Contains(item.Name(), ".pinpin-store") {
+			continue // gone, or a fetch in progress
+		}
+		copies = append(copies, cached{filepath.Join(s.readCacheDir(), item.Name()), info.Size(), info.ModTime()})
+		total += info.Size()
+	}
+	sort.Slice(copies, func(a, b int) bool { return copies[a].used.Before(copies[b].used) })
+	for _, item := range copies {
+		if total+incoming <= s.cfg.ReadCacheBytes {
+			break
+		}
+		if os.Remove(item.path) == nil {
+			total -= item.size
+		}
+	}
 }

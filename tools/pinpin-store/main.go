@@ -32,6 +32,8 @@ type Config struct {
 	RawRoot       string   `json:"rawRoot"`
 	ViewBytes     int64    `json:"viewBytes"`
 	KeepFreeBytes int64    `json:"keepFreeBytes"`
+	// ReadCacheBytes bounds the copies that read-only opens of remote files use.
+	ReadCacheBytes int64 `json:"readCacheBytes"`
 
 	// KeyIsOffMachine enables automatic eviction. Set it only after copying the key.
 	KeyIsOffMachine bool  `json:"keyIsOffMachine"`
@@ -46,7 +48,7 @@ const gib = int64(1) << 30
 
 func loadConfig(path string) (Config, error) {
 	cfg := Config{
-		MaxBatchBytes: 256 << 20, MaxBatchFiles: 2000, MinFreeBytes: 2 * gib, MaxFlushBytes: 200 * gib, PrivateBudget: 4 * gib, ViewBytes: 4e12, KeepFreeBytes: 20 * gib,
+		MaxBatchBytes: 256 << 20, MaxBatchFiles: 2000, MinFreeBytes: 2 * gib, MaxFlushBytes: 200 * gib, PrivateBudget: 4 * gib, ViewBytes: 4e12, KeepFreeBytes: 20 * gib, ReadCacheBytes: 2 * gib,
 		Roots:     []string{"/"},
 		Exclude:   []string{"/proc", "/sys", "/dev", "/run", "/tmp", "/var/tmp", "/var/cache", "/lost+found", "/swapfile", "/swap.img", "/root/.cache/huggingface/xet"},
 		Sensitive: defaultSensitive,
