@@ -510,3 +510,36 @@ func TestInterruptedIndexAppendIsIgnored(t *testing.T) {
 		t.Fatalf("%d %v", len(idx.Entries), err)
 	}
 }
+
+func TestVaultInPublicEncryptsCredentials(t *testing.T) {
+	f := newFixture(t)
+	f.store.cfg.VaultInPublic = true
+	f.store.cfg.PrivateBudget = 0 // the vault must not depend on the private quota
+	secret := filepath.Join(f.root, "app/deploy.key")
+	write(t, secret, "vault bytes")
+	ctx := context.Background()
+	if _, err := f.store.Flush(ctx, true, 1<<40); err != nil {
+		t.Fatal(err)
+	}
+	store := f.reload(t)
+	store.cfg.VaultInPublic = true
+	object := store.idx.Objects[store.idx.Entries[secret].SHA]
+	if object.Tier != tierVault {
+		t.Fatalf("tier %q", object.Tier)
+	}
+	blob := filepath.Join(f.fake, "me/blobs/batches", object.Batch, object.ID)
+	raw, err := os.ReadFile(blob)
+	if err != nil {
+		t.Fatal("vault object not in the public bucket:", err)
+	}
+	if bytes.Contains(raw, []byte("vault bytes")) {
+		t.Fatal("credential stored in plaintext")
+	}
+	out := secret + ".restored"
+	if err := store.Get(ctx, object, out); err != nil {
+		t.Fatal(err)
+	}
+	if got, _ := os.ReadFile(out); string(got) != "vault bytes" {
+		t.Fatal("vault object restored wrong")
+	}
+}

@@ -34,6 +34,9 @@ type Config struct {
 	KeepFreeBytes int64    `json:"keepFreeBytes"`
 	// ReadCacheBytes bounds the copies that read-only opens of remote files use.
 	ReadCacheBytes int64 `json:"readCacheBytes"`
+	// VaultInPublic sends credentials to the public bucket, encrypted, instead of the
+	// private one. The key file is always excluded from the backup.
+	VaultInPublic bool `json:"vaultInPublic"`
 
 	// KeyIsOffMachine enables automatic eviction. Set it only after copying the key.
 	KeyIsOffMachine bool  `json:"keyIsOffMachine"`
@@ -238,8 +241,8 @@ func (s *Store) status(ctx context.Context) error {
 		}
 		fmt.Printf("bucket: %s (%s), %s in %d files\n", info.ID, visibility, human(info.Size), info.TotalFiles)
 	}
-	fmt.Printf("index: %d paths, %d verified objects, %s public, %s private of %s budget\n", len(s.idx.Entries), len(s.idx.Objects),
-		human(s.idx.tierBytes(tierPublic)), human(s.idx.tierBytes(tierPrivate)), human(s.cfg.PrivateBudget))
+	fmt.Printf("index: %d paths, %d verified objects, %s public, %s vault, %s private of %s budget\n", len(s.idx.Entries), len(s.idx.Objects),
+		human(s.idx.tierBytes(tierPublic)), human(s.idx.tierBytes(tierVault)), human(s.idx.tierBytes(tierPrivate)), human(s.cfg.PrivateBudget))
 	if free, err := freeBytes(s.cfg.StateDir); err == nil {
 		fmt.Println("local free:", human(free))
 	}

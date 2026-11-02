@@ -370,7 +370,7 @@ func (n *node) Statfs(ctx context.Context, out *fuse.StatfsOut) syscall.Errno {
 		return errno
 	}
 	n.v.mu.RLock()
-	remote := n.v.store.idx.tierBytes(tierPublic) + n.v.store.idx.tierBytes(tierPrivate)
+	remote := n.v.store.idx.tierBytes(tierPublic) + n.v.store.idx.tierBytes(tierVault) + n.v.store.idx.tierBytes(tierPrivate)
 	n.v.mu.RUnlock()
 	block := int64(out.Bsize)
 	total := n.v.store.cfg.ViewBytes / block

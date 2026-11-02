@@ -28,6 +28,9 @@ type Store struct {
 const (
 	tierPublic  = "public"
 	tierPrivate = "private"
+	// tierVault holds credentials in the public bucket, under the same encryption as
+	// everything else. Used only when the owner sets vaultInPublic.
+	tierVault = "vault"
 )
 
 func (s *Store) bucket(tier string) HF {
@@ -230,12 +233,12 @@ func (s *Store) plan(report *Report) ([]candidate, []record, error) {
 			}
 			tier := tierPublic
 			if s.sensitive(path) {
-				tier = tierPrivate
+				tier = s.secretTier()
 			}
 			if !seen[sha] {
 				seen[sha] = true
 				report.UniqueBytes += entry.Size
-				if tier == tierPrivate {
+				if tier != tierPublic {
 					report.SensitiveBytes += entry.Size
 				}
 			}
@@ -338,6 +341,13 @@ func (s *Store) proveObject(path, id string, c candidate) error {
 	return nil
 }
 
+func (s *Store) secretTier() string {
+	if s.cfg.VaultInPublic {
+		return tierVault
+	}
+	return tierPrivate
+}
+
 // Flush uploads changes up to maxBytes. It never deletes or alters local files.
 // Sensitive files go first and smallest first, so credentials are safe before
 // large session logs use up the private budget. Files that do not fit stay
@@ -364,7 +374,7 @@ func (s *Store) Flush(ctx context.Context, apply bool, maxBytes int64) (Report, 
 	}
 	var secret, open []candidate
 	for _, c := range work {
-		if c.tier == tierPrivate {
+		if c.tier != tierPublic {
 			secret = append(secret, c)
 		} else {
 			open = append(open, c)
@@ -373,7 +383,7 @@ func (s *Store) Flush(ctx context.Context, apply bool, maxBytes int64) (Report, 
 	// Smallest first, so one oversized file cannot hold back everything behind it.
 	sort.SliceStable(secret, func(a, b int) bool { return secret[a].entry.Size < secret[b].entry.Size })
 	sort.SliceStable(open, func(a, b int) bool { return open[a].entry.Size < open[b].entry.Size })
-	if err := s.uploadTier(ctx, tierPrivate, secret, maxBytes, &report); err != nil {
+	if err := s.uploadTier(ctx, s.secretTier(), secret, maxBytes, &report); err != nil {
 		return report, err
 	}
 	if err := s.uploadTier(ctx, tierPublic, open, maxBytes, &report); err != nil {
