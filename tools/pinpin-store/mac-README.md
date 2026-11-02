@@ -38,5 +38,5 @@ log) and `miguelemosreverte/pinpin-vps-vault` (private: sensitive files). Everyt
 on Hugging Face, so this folder is all you need to get it back. Restore a whole folder
 with `pinpin-store get DIR` on a Linux machine running as root.
 
-The source is `tools/pinpin-store/` in `mr-pinpin/mr-pinpin-source`, and it explains
+The source is [miguelemosreverte/hfstore](https://github.com/miguelemosreverte/hfstore), which explains
 the design in its own README.
