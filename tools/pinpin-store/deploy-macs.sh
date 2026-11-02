@@ -3,6 +3,8 @@
 # are retried by pinpin-store-macs.timer. The key travels only over ssh stdin. Apple
 # Silicon kills unsigned binaries, so each Mac signs its own copy.
 set -u
+# macOS has no C.UTF-8, and ssh forwards LANG/LC_*; perl (shasum) then panics.
+export LC_ALL=C LANG=C
 STATE=/var/lib/pinpin-store/macs; SHARE=/usr/local/share/pinpin-store; KEY=/etc/pinpin-store/key
 SSH=(ssh -o BatchMode=yes -o ConnectTimeout=10 -i /root/.ssh/pinpin_mac_setup)
 HOSTS=(pinpin-air pinpin-air-reverse pinpin-mini pinpin-migue anastasiia@100.126.246.54)
