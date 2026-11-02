@@ -7,7 +7,8 @@ TREES=(/root/.cache/mr-pinpin /root/.local/share/pinpin-production)
 say() { echo "$(date -u +%FT%TZ) $*" | tee -a "$LOG"; }
 
 [ "$(ls /var/lib/pinpin-store/macs 2>/dev/null | wc -l)" -ge 1 ] || { say "waiting: no Mac has proven the key"; exit 0; }
-systemctl is-active -q pinpin-store.service && { say "waiting: flush running"; exit 0; }
+# A oneshot unit reports "activating" while it runs, and is-active only matches "active".
+[ "$(systemctl show -p ActiveState --value pinpin-store.service)" = inactive ] || { say "waiting: flush running"; exit 0; }
 [ "$(systemctl show -p Result --value pinpin-store.service)" = success ] || { say "waiting: last flush did not succeed"; exit 0; }
 last=$(journalctl -u pinpin-store.service --no-pager -o cat -n 40 | grep -a '^applied:' | tail -1)
 # Remaining bytes stay above zero while the private tier is full, and evict only ever
