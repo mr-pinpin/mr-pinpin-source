@@ -6,3 +6,7 @@
 .atlas-gpu .atlas-brand h1 { overflow-wrap:anywhere; }
 .atlas-gpu .map-controls { max-width:calc(100% - 24px); }
 .atlas-gpu #bokeh-toggle[aria-pressed="false"] { color:#70766f; }
+
+/* A visible aiming point also supports five-way remotes with no native cursor. */
+.atlas-tv-cursor{position:absolute;z-index:12;width:22px;height:22px;border:3px solid #fff;border-radius:50%;box-shadow:0 0 0 2px #243b2b,0 2px 8px #0009;transform:translate(-50%,-50%);pointer-events:none}
+.atlas-tv-cursor::after{content:"";position:absolute;width:4px;height:4px;background:#243b2b;border-radius:50%;left:9px;top:9px}

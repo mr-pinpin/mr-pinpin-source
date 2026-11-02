@@ -1,0 +1,10 @@
+[Unit]
+Description=Daily pinpin-store flush
+
+[Timer]
+OnCalendar=daily
+RandomizedDelaySec=1h
+Persistent=true
+
+[Install]
+WantedBy=timers.target
