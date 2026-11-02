@@ -1,0 +1,6 @@
+[Unit]
+Description=Enable the pinpin-store mount once the backup is proven
+
+[Service]
+Type=oneshot
+ExecStart=/usr/local/sbin/pinpin-store-activate

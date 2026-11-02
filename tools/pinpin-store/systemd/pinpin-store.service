@@ -1,0 +1,18 @@
+[Unit]
+Description=Encrypted machine backup to Hugging Face
+After=network-online.target
+StartLimitIntervalSec=1d
+StartLimitBurst=12
+
+[Service]
+Type=oneshot
+Environment=HOME=/root HF_HUB_DISABLE_PROGRESS_BARS=1
+ExecStart=/usr/local/bin/pinpin-store flush --apply
+Restart=on-failure
+RestartSec=2min
+Nice=19
+IOSchedulingClass=idle
+# This VPS has no swap and little spare memory: the backup must lose any contest.
+MemoryHigh=1G
+MemoryMax=1400M
+OOMScoreAdjust=800
